@@ -12,9 +12,13 @@ website = "https://ferretrollforming.com"
 
 sector = "Metal"
 products = ["Custom Roll Forming"]
+naics = "332114"
 
 employees = 15
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Metal Roll Forming. NAICS 332114: custom roll forming."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

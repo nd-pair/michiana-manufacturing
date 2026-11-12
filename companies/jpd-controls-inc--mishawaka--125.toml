@@ -12,9 +12,13 @@ website = "https://jpdcontrols.com"
 
 sector = "Electronics"
 products = ["Printed Circuit Assembly (electronic Assembly) Manufacturing"]
+naics = "334418"
 
 employees = 25
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Contract Manufacturing of Printed Circuit Board Assemblies & Electronic & Electromechanical Products. NAICS 334418: printed circuit assembly (electronic assembly) manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

@@ -12,9 +12,13 @@ website = "https://medcast-inc.com"
 
 sector = "Metal"
 products = ["Steel Investment Foundries"]
+naics = "331512"
 
 employees = 45
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Investment Castings. NAICS 331512: steel investment foundries."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

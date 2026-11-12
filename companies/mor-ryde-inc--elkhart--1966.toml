@@ -12,9 +12,13 @@ website = "https://morryde.com"
 
 sector = "Vehicles & RVs"
 products = ["All Other Motor Vehicle Parts Manufacturing"]
+naics = "336399"
 
 employees = 270
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Rubber Vehicle Suspension Systems. NAICS 336399: all other motor vehicle parts manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

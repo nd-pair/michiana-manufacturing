@@ -12,9 +12,13 @@ website = "https://ohiodec.com"
 
 sector = "Materials & composites"
 products = ["Urethane and Other Foam Product (except Polystyrene) Manufacturing"]
+naics = "326150"
 
 employees = 72
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Polyurethane Foam. NAICS 326150: urethane and other foam product (except polystyrene) manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

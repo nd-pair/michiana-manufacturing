@@ -12,9 +12,13 @@ website = "https://duoformplastics.com"
 
 sector = "Materials & composites"
 products = ["Plastics Plumbing Fixture Manufacturing"]
+naics = "326191"
 
 employees = 170
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Plastic Bathtubs, Wall Surroundings & Shower Pans. NAICS 326191: plastics plumbing fixture manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

@@ -12,9 +12,13 @@ website = "https://whitepigeonpaper.com"
 
 sector = "Metal"
 products = ["Secondary Smelting, Refining, and Alloying of Nonferrous Metal (except Copper and Aluminum)"]
+naics = "331492"
 
 employees = 100
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Paper Recycling. NAICS 331492: secondary smelting, refining, and alloying of nonferrous metal (except copper and aluminum)."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

@@ -12,9 +12,13 @@ website = "https://decoratorindustries.com"
 
 sector = "Food & consumer goods"
 products = ["Curtain and Drapery Mills"]
+naics = "314121"
 
 employees = 150
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Draperies, Bedspreads, Balance Boards, Pillows, Shams, Tire Covers, & Tents. NAICS 314121: curtain and drapery mills."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

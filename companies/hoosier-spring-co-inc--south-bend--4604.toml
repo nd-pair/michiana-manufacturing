@@ -12,9 +12,13 @@ website = "https://hoosierspring.com"
 
 sector = "Metal"
 products = ["Spring (heavy Gauge) Manufacturing"]
+naics = "332611"
 
 employees = 50
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Precision Springs. NAICS 332611: spring (heavy gauge) manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

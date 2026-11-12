@@ -12,9 +12,13 @@ website = "https://nesrentals.com"
 
 sector = "Mechatronics & automation"
 products = ["Fluid Power Cylinder and Actuator Manufacturing"]
+naics = "333995"
 
 employees = 15
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Hydraulic Equipment. NAICS 333995: fluid power cylinder and actuator manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

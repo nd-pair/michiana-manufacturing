@@ -12,9 +12,13 @@ website = "https://trelleborg.com"
 
 sector = "Materials & composites"
 products = ["Rubber Product Manufacturing for Mechanical Use"]
+naics = "326291"
 
 employees = 40
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Custom Plastic & Rubber Extrusions, Including Taping, Fabrication & String Inclusion. NAICS 326291: rubber product manufacturing for mechanical use."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

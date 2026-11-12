@@ -12,9 +12,13 @@ website = "https://ipclp.com"
 
 sector = "Electronics"
 products = ["All Other Miscellaneous Electrical Equipment and Component Manufacturing"]
+naics = "335999"
 
 employees = 24
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Corporate Headquarters & Lightning Protection Products, Including Lightning Rods & Lightning Protection Materials. NAICS 335999: all other miscellaneous electrical equipment and component manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

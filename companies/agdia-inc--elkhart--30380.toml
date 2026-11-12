@@ -12,9 +12,13 @@ website = "https://agdia.com"
 
 sector = "Electronics"
 products = ["Instrument Manufacturing for Measuring and Testing Electricity and Electrical Signals"]
+naics = "334515"
 
 employees = 50
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Agricultural Testing Products. NAICS 334515: instrument manufacturing for measuring and testing electricity and electrical signals."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

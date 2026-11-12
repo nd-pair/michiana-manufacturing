@@ -12,9 +12,13 @@ website = "https://christiansons.com"
 
 sector = "Metal"
 products = ["Primary Aluminum Production"]
+naics = "331312"
 
 employees = 17
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Aluminum Fabrication. NAICS 331312: primary aluminum production."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

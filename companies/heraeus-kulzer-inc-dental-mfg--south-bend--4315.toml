@@ -12,9 +12,13 @@ website = "https://heraeus-kulzer-us.com"
 
 sector = "Medical devices & other"
 products = ["Dental Equipment and Supplies Manufacturing"]
+naics = "339114"
 
 employees = 70
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Dental Products. NAICS 339114: dental equipment and supplies manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

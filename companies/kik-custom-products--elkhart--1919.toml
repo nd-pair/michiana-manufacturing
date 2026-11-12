@@ -12,9 +12,13 @@ website = "https://kikcorp.com"
 
 sector = "Materials & composites"
 products = ["Pharmaceutical Preparation Manufacturing"]
+naics = "325412"
 
 employees = 950
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Aerosols, Pharmaceuticals, Liquid & Cream Packaging. NAICS 325412: pharmaceutical preparation manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

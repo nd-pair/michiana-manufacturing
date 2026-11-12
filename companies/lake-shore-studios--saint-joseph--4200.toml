@@ -12,9 +12,13 @@ website = "https://lakeshorestudios.com"
 
 sector = "Electronics"
 products = ["Other Lighting Equipment Manufacturing"]
+naics = "335129"
 
 employees = 150
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Lighting Equipment & Shades. NAICS 335129: other lighting equipment manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

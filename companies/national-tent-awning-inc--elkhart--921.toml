@@ -12,9 +12,13 @@ website = "https://not available"
 
 sector = "Food & consumer goods"
 products = ["Canvas and Related Product Mills"]
+naics = "314912"
 
 employees = 25
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Canvas Trailers & Pop-Up Campers Tents. NAICS 314912: canvas and related product mills."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

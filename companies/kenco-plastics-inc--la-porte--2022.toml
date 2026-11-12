@@ -12,9 +12,13 @@ website = "https://kenco.net"
 
 sector = "Materials & composites"
 products = ["All Other Plastics Product Manufacturing"]
+naics = "326199"
 
 employees = 70
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Corporate Headquarters & Plastic Injection Molding for the Medical, Automotive, Marine & Appliance Industries. NAICS 326199: all other plastics product manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

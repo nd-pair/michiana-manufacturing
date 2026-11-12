@@ -12,9 +12,13 @@ website = "https://acousticom.com"
 
 sector = "Electronics"
 products = ["Radio and Television Broadcasting and Wireless Communications Equipment Manufacturing"]
+naics = "334220"
 
 employees = 30
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Audio Communication Equipment. NAICS 334220: radio and television broadcasting and wireless communications equipment manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

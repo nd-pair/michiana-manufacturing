@@ -12,9 +12,13 @@ website = "https://diedrichdrill.com"
 
 sector = "Mechatronics & automation"
 products = ["Mining Machinery and Equipment Manufacturing"]
+naics = "333131"
 
 employees = 47
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Soil Sampling Equipment, Auger Drill Rigs, Well Supplies & Sonic Drill Rigs & Tooling. NAICS 333131: mining machinery and equipment manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

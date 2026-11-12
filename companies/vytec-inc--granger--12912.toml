@@ -12,9 +12,13 @@ website = "https://not available"
 
 sector = "Materials & composites"
 products = ["Unlaminated Plastics Profile Shape Manufacturing"]
+naics = "326121"
 
 employees = 35
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Plastic Profile Extrusions. NAICS 326121: unlaminated plastics profile shape manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

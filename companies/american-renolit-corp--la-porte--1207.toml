@@ -12,9 +12,13 @@ website = "https://renolit.com"
 
 sector = "Materials & composites"
 products = ["Plastics Packaging Film and Sheet (including Laminated) Manufacturing"]
+naics = "326112"
 
 employees = 200
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "PVC & Pp Cast Film. NAICS 326112: plastics packaging film and sheet (including laminated) manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

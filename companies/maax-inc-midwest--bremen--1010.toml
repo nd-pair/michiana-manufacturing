@@ -12,9 +12,13 @@ website = "https://maax.com"
 
 sector = "Materials & composites"
 products = ["Mineral Wool Manufacturing"]
+naics = "327993"
 
 employees = 65
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Fiberglass, Acrylic & Plastic Tubs & Showers. NAICS 327993: mineral wool manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

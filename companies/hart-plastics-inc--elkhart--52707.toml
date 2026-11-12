@@ -12,9 +12,13 @@ website = "https://hartplastics.com"
 
 sector = "Materials & composites"
 products = ["All Other Plastics Product Manufacturing"]
+naics = "326199"
 
 employees = 15
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Vacuum Formed Plastic Products, Including Thermoforming for the RV, Van, Ambulance & Mass Transit Industries. NAICS 326199: all other plastics product manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

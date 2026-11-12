@@ -12,9 +12,13 @@ website = "https://vitamins-inc.com"
 
 sector = "Materials & composites"
 products = ["Pharmaceutical Preparation Manufacturing"]
+naics = "325412"
 
 employees = 25
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Biochemicals & Food Processing. NAICS 325412: pharmaceutical preparation manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

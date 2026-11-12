@@ -12,9 +12,13 @@ website = "https://valsparcomposites.com"
 
 sector = "Materials & composites"
 products = ["Plastics Material and Resin Manufacturing"]
+naics = "325211"
 
 employees = 45
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Gelcoats & Adhesive Bonding Putty. NAICS 325211: plastics material and resin manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

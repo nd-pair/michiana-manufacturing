@@ -12,9 +12,13 @@ website = "https://tylerrefrigeration.com"
 
 sector = "Mechatronics & automation"
 products = ["Air-Conditioning & Warm Air Heating Equipment & Commercial and Industrial Refrigeration Equipment Mfg."]
+naics = "333415"
 
 employees = 500
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Corporate Headquarters & Refrigerated Cases, Walk-In Coolers for Supermarket, Convenience Stores, Restaurants, Wholesale. NAICS 333415: air-conditioning & warm air heating equipment & commercial and industrial refrigeration equipment mfg.."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

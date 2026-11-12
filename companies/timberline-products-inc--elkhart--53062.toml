@@ -12,9 +12,13 @@ website = "https://not available"
 
 sector = "Wood, paper & furniture"
 products = ["Nonupholstered Wood Household Furniture Manufacturing"]
+naics = "337122"
 
 employees = 15
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Wooden Furniture & Products. NAICS 337122: nonupholstered wood household furniture manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

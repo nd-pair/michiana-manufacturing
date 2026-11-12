@@ -12,9 +12,13 @@ website = "https://ktrcorp.com"
 
 sector = "Mechatronics & automation"
 products = ["Mechanical Power Transmission Equipment Manufacturing"]
+naics = "333613"
 
 employees = 45
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Power Transmission Equipment. NAICS 333613: mechanical power transmission equipment manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

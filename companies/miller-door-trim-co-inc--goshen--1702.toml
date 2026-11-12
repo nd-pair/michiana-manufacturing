@@ -12,9 +12,13 @@ website = "https://not available"
 
 sector = "Wood, paper & furniture"
 products = ["Wood Window and Door Manufacturing"]
+naics = "321911"
 
 employees = 20
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Wooden Pre-Hung Door Units & Moldings. NAICS 321911: wood window and door manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

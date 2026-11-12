@@ -12,9 +12,13 @@ website = "https://kessington.com"
 
 sector = "Vehicles & RVs"
 products = ["Other Aircraft Part and Auxiliary Equipment Manufacturing"]
+naics = "336413"
 
 employees = 75
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Aircraft Fuel Control Parts & Precision Grinding & Machining Job Shop. NAICS 336413: other aircraft part and auxiliary equipment manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

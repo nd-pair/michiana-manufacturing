@@ -12,9 +12,13 @@ website = "https://redmanhomesofindiana.com"
 
 sector = "Metal"
 products = ["Hardware Manufacturing"]
+naics = "332510"
 
 employees = 500
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Modular Homes & Manufactured Housing. NAICS 332510: hardware manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

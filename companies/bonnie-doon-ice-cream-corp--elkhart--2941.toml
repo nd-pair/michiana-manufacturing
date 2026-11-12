@@ -12,9 +12,13 @@ website = "https://not available"
 
 sector = "Food & consumer goods"
 products = ["Ice Cream and Frozen Dessert Manufacturing"]
+naics = "311520"
 
 employees = 20
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Ice Cream & Dairy Products. NAICS 311520: ice cream and frozen dessert manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

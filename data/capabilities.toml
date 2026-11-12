@@ -1,0 +1,88 @@
+# Process capabilities, for the capability matrix. A company counts toward a capability when its
+# NAICS code starts with one of the prefixes, or one of its product tags contains a keyword
+# (case-insensitive). Edit freely; order is the display order.
+
+[[capability]]
+name = "Casting & forging"
+naics = ["3315", "3321"]
+keywords = ["foundry", "casting", "forging", "die cast"]
+
+[[capability]]
+name = "Machining"
+naics = ["332710", "332721", "333515", "332722"]
+keywords = ["machining", "machined", "machine shop", "swiss", "turning", "gears", "edm"]
+
+[[capability]]
+name = "Sheet metal, stamping & fabrication"
+naics = ["3323", "332119", "332111", "332112", "332114", "332117", "332118", "3324", "332322"]
+keywords = ["sheet metal", "stamping", "fabrication", "fabricat"]
+
+[[capability]]
+name = "Welding & joining"
+naics = ["332313", "332312"]
+keywords = ["welding", "weld"]
+
+[[capability]]
+name = "Additive manufacturing"
+naics = []
+keywords = ["additive", "3d print", "dmls", "laser sinter"]
+
+[[capability]]
+name = "Powder metal & sintering"
+naics = ["332117", "331222"]
+keywords = ["sinter", "powder metal", "pm parts"]
+
+[[capability]]
+name = "Coating, plating & finishing"
+naics = ["3328", "332812", "332813"]
+keywords = ["coating", "plating", "anodiz", "powder coat", "paint", "finishing", "galvaniz"]
+
+[[capability]]
+name = "Plastics & molding"
+naics = ["3261", "326199", "326130", "326122"]
+keywords = ["injection mold", "molding", "plastic", "thermoform", "extrusion"]
+
+[[capability]]
+name = "Composites & fiberglass"
+naics = ["326150", "327212", "336612", "327999"]
+keywords = ["composite", "fiberglass", "carbon fiber"]
+
+[[capability]]
+name = "Rubber, foam & damping"
+naics = ["3262", "326140", "326150"]
+keywords = ["rubber", "foam", "damping", "gasket", "seal"]
+
+[[capability]]
+name = "Electronics & circuit boards"
+naics = ["3344", "334412", "334418", "334419", "3343", "3345"]
+keywords = ["printed circuit", "pcb", "electronic", "sensor", "circuit"]
+
+[[capability]]
+name = "Motors, wire & electrical"
+naics = ["3353", "3359", "335312", "335929", "335931", "335932", "3351"]
+keywords = ["motor", "wire", "cable", "harness", "winding", "electrical", "battery", "lighting"]
+
+[[capability]]
+name = "Machinery & automation systems"
+naics = ["3332", "3339", "333248", "333514", "333517", "333519", "333611", "333612", "333613"]
+keywords = ["automation", "robot", "machine tool", "assembly system", "conveyor", "equipment"]
+
+[[capability]]
+name = "Vehicle, RV & trailer assembly"
+naics = ["3361", "3362", "3363", "336214", "336213", "336212", "336211", "336992", "336999", "336611"]
+keywords = ["rv", "recreational vehicle", "trailer", "chassis", "bus", "boat", "vehicle"]
+
+[[capability]]
+name = "Medical devices & instruments"
+naics = ["3391", "339112", "339113", "339114", "339115", "339116"]
+keywords = ["orthop", "medical", "surgical", "implant", "prosthe"]
+
+[[capability]]
+name = "Wood, cabinetry & furniture"
+naics = ["321", "337"]
+keywords = ["cabinet", "furniture", "wood", "millwork", "lumber"]
+
+[[capability]]
+name = "Test, metrology & software"
+naics = ["334515", "334519", "541380"]
+keywords = ["test", "metrology", "measurement", "inspection", "calibration", "software", "qualification"]

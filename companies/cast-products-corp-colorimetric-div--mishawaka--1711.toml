@@ -12,9 +12,13 @@ website = "https://dehco.com"
 
 sector = "Materials & composites"
 products = ["Adhesive Manufacturing"]
+naics = "325520"
 
 employees = 27
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Extruded Caulking Tapes, Sealants & Water-Based Adhesives. NAICS 325520: adhesive manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

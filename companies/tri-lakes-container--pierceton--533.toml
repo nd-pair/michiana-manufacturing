@@ -12,9 +12,13 @@ website = "https://tri-lakes.com"
 
 sector = "Wood, paper & furniture"
 products = ["Corrugated and Solid Fiber Box Manufacturing"]
+naics = "322211"
 
 employees = 80
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Corrugated Boxes. NAICS 322211: corrugated and solid fiber box manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

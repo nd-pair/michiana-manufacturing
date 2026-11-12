@@ -12,9 +12,13 @@ website = "https://quik-joint.com"
 
 sector = "Mechatronics & automation"
 products = ["Mechanical Power Transmission Equipment Manufacturing"]
+naics = "333613"
 
 employees = 25
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Flexible Shafts, Diesel Engine Drives & Motion Control Couplings. NAICS 333613: mechanical power transmission equipment manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

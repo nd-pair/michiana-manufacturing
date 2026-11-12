@@ -12,9 +12,13 @@ website = "https://ziggity.com"
 
 sector = "Mechatronics & automation"
 products = ["Farm Machinery and Equipment Manufacturing"]
+naics = "333111"
 
 employees = 58
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Poultry Watering Equipment. NAICS 333111: farm machinery and equipment manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

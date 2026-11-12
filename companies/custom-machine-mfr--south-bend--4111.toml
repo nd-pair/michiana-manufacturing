@@ -12,9 +12,13 @@ website = "https://cmmbuilt.com"
 
 sector = "Mechatronics & automation"
 products = ["Power-Driven Hand Tool Manufacturing"]
+naics = "333991"
 
 employees = 30
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Vinyl Routing Machines. NAICS 333991: power-driven hand tool manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

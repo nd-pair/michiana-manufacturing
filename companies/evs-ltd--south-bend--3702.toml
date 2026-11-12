@@ -12,9 +12,13 @@ website = "https://evsltd.com"
 
 sector = "Vehicles & RVs"
 products = ["Motor Vehicle Seating and Interior Trim Manufacturing"]
+naics = "336360"
 
 employees = 16
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Ambulance Seating. NAICS 336360: motor vehicle seating and interior trim manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

@@ -1,0 +1,43 @@
+name: Refresh public data
+# Monthly: pull the public datasets again, import any new facilities, rebuild, and commit.
+# Each pull is independent, so one unavailable source does not stop the others; the build
+# works without any sidecar file. Run it by hand from the Actions tab with "Run workflow".
+on:
+  schedule:
+    - cron: "17 6 2 * *"      # 06:17 UTC on the 2nd of every month
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: New facilities from HIFLD (never overwrites existing files)
+        continue-on-error: true
+        run: python3 scripts/import_hifld.py
+      - name: Federal contracts and grants (USAspending)
+        continue-on-error: true
+        run: python3 scripts/pull_federal.py
+      - name: FDA device establishment registrations (openFDA)
+        continue-on-error: true
+        run: python3 scripts/pull_fda.py
+      - name: Manufacturing employment by county (BLS QCEW)
+        continue-on-error: true
+        run: python3 scripts/pull_qcew.py
+      - name: Fill in coordinates for files that have an address but no lat/lon
+        continue-on-error: true
+        run: python3 scripts/geocode.py
+      - name: Build docs/
+        run: python3 scripts/build.py
+      - name: Commit the refresh
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add companies data docs
+          git diff --cached --quiet || git commit -m "Refresh public data ($(date -u +%Y-%m-%d))"
+          git pull --rebase origin main
+          git push

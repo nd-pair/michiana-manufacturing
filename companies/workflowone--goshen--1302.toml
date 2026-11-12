@@ -12,9 +12,13 @@ website = "https://workflowone.com"
 
 sector = "Wood, paper & furniture"
 products = ["Manifold Business Form Printing"]
+naics = "323116"
 
 employees = 130
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Business Form & Pressure Sensitive Label Printing. NAICS 323116: manifold business form printing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

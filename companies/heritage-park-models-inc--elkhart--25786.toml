@@ -12,9 +12,13 @@ website = "https://heritageparkmodels.com"
 
 sector = "Vehicles & RVs"
 products = ["Truck Trailer Manufacturing"]
+naics = "336212"
 
 employees = 28
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "RV Models. NAICS 336212: truck trailer manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

@@ -12,9 +12,13 @@ website = "https://bremtown.com"
 
 sector = "Wood, paper & furniture"
 products = ["All Other Miscellaneous Wood Product Manufacturing"]
+naics = "321999"
 
 employees = 70
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Full & Semi-Custom Cabinetry. NAICS 321999: all other miscellaneous wood product manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

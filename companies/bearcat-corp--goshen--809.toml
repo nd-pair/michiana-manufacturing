@@ -12,9 +12,13 @@ website = "https://bearcatcorp.com"
 
 sector = "Metal"
 products = ["Primary Aluminum Production"]
+naics = "331312"
 
 employees = 30
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Aluminum Snowmobile Covers, Marine Ladders, Pontoon Mini & Hard Tops & Flatbed & Enclosed Trailers. NAICS 331312: primary aluminum production."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

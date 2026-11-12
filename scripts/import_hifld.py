@@ -17,7 +17,7 @@ What the script does:
 - writes one TOML file per facility, named <company>--<city>--<street number>.toml.
 Re-running is safe: existing files are never overwritten.
 """
-import json, os, re, sys, tomllib, urllib.parse, urllib.request
+import datetime, json, os, re, sys, tomllib, urllib.parse, urllib.request
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 P = lambda *a: os.path.join(ROOT, *a)
@@ -144,10 +144,14 @@ def main():
                  "address = %s" % q("%s, %s, %s %s" % (street, city, state, zip_)), "lat = %.5f" % g["y"], "lon = %.5f" % g["x"]]
         if dom:
             lines.append("website = %s" % q("https://" + dom))
-        lines += ["", "sector = %s" % q(sector), "products = [%s]" % ", ".join(q(t) for t in tags), ""]
+        lines += ["", "sector = %s" % q(sector), "products = [%s]" % ", ".join(q(t) for t in tags)]
+        if naics6:
+            lines.append("naics = %s" % q(naics6))
+        lines.append("")
         if a.get("emp"):
             lines += ["employees = %d" % int(a["emp"]), 'employees_scope = "site"', 'employees_note = "HIFLD General Manufacturing Facilities employee estimate"']
-        lines += ["", "description = %s" % q(desc), ""]
+        lines += ["", "description = %s" % q(desc), "", 'source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"',
+                  "updated = %s" % q(datetime.date.today().isoformat()), ""]
         if not dry:
             with open(P("companies", fname), "w", encoding="utf-8") as fh:
                 fh.write("\n".join(lines))

@@ -12,9 +12,13 @@ website = "https://jus-rite.com"
 
 sector = "Electronics"
 products = ["Totalizing Fluid Meter and Counting Device Manufacturing"]
+naics = "334514"
 
 employees = 20
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Gauges & Industrial Machinery. NAICS 334514: totalizing fluid meter and counting device manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

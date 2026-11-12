@@ -12,9 +12,13 @@ website = "https://not available"
 
 sector = "Food & consumer goods"
 products = ["Men's and Boys' Cut and Sew Apparel Contractors"]
+naics = "315211"
 
 employees = 60
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Contract Sewing, Window Coverings, Mini Blinds & Shades. NAICS 315211: men's and boys' cut and sew apparel contractors."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

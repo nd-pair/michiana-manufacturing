@@ -12,9 +12,13 @@ website = "https://pacbannerworks.com"
 
 sector = "Wood, paper & furniture"
 products = ["Commercial Screen Printing"]
+naics = "323113"
 
 employees = 30
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Plastic Screen Printing. NAICS 323113: commercial screen printing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

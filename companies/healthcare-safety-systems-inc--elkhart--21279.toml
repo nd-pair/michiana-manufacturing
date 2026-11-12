@@ -12,9 +12,13 @@ website = "https://chemosafety.com"
 
 sector = "Electronics"
 products = ["Electromedical and Electrotherapeutic Apparatus Manufacturing"]
+naics = "334510"
 
 employees = 15
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Chemotherapy Safety Products & Medical Equipment. NAICS 334510: electromedical and electrotherapeutic apparatus manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

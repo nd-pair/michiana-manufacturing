@@ -12,9 +12,13 @@ website = "https://conn-selmer.com"
 
 sector = "Medical devices & other"
 products = ["Musical Instrument Manufacturing"]
+naics = "339992"
 
 employees = 150
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Band & Orchestral Instruments. NAICS 339992: musical instrument manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

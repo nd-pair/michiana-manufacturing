@@ -12,9 +12,13 @@ website = "https://cb-cl.com"
 
 sector = "Food & consumer goods"
 products = ["All Other Miscellaneous Food Manufacturing"]
+naics = "311999"
 
 employees = 135
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Fresh, Frozen, Hard Cooked & Peeled Egg Products. NAICS 311999: all other miscellaneous food manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

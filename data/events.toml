@@ -1,0 +1,65 @@
+# Timeline of openings, expansions, closures and funding events with a public source.
+# `company` is the file name without .toml when the event belongs to a company in the map.
+
+[[event]]
+date = "2018-07"
+company = "cts"
+kind = "closure"
+title = "CTS ends manufacturing in Elkhart; site becomes an R&D center"
+source = "https://www.953mnc.com/2018/07/27/over-100-workers-will-lose-jobs-after-cts-closes-elkhart-operations/"
+
+[[event]]
+date = "2021-05"
+company = "lead-fund"
+kind = "funding"
+title = "LEAD Fund launched with $1M for seed investments in Elkhart, Marshall and St. Joseph counties"
+source = "https://www.insideindianabusiness.com/?p=79568"
+
+[[event]]
+date = "2022"
+company = "heartland-ventures"
+kind = "funding"
+title = "Heartland Ventures closes $52M Fund II"
+source = "https://www.insideindianabusiness.com/articles/heartland-ventures-closes-52m-investment-fund"
+
+[[event]]
+date = "2023-05"
+company = "flywheel-fund-south-bend-elkhart"
+kind = "funding"
+title = "Flywheel Fund opens its South Bend–Elkhart chapter"
+source = "https://www.ibj.com/articles/bloomington-based-angel-investor-fund-has-big-growth-plans"
+
+[[event]]
+date = "2023-12"
+company = "1842-fund"
+kind = "funding"
+title = "1842 Fund announced at the IDEA Center with a $17.5M first close"
+source = "https://news.nd.edu/news/new-venture-fund-aims-to-further-notre-dames-mission-through-purpose-driven-startups/"
+
+[[event]]
+date = "2024-03"
+company = "plug-and-play-warsaw"
+kind = "opening"
+title = "Plug and Play opens its Warsaw medtech accelerator on the Zimmer Biomet campus"
+source = "https://timesuniononline.com/news/2024/mar/20/plug-and-plays-warsaw-office-celebrates-opening-at-zimmer-biomet-headquarters"
+
+[[event]]
+date = "2025"
+company = "southwire"
+kind = "expansion"
+title = "Southwire opens a new Bremen plant"
+source = "https://www.southwire.com/blogs/bremen-industrial-plant-ribbon-cutting"
+
+[[event]]
+date = "2026-01"
+company = "heartland-ventures"
+kind = "funding"
+title = "Heartland Ventures holds the first close of Fund III"
+source = "https://heartlandvc.com"
+
+[[event]]
+date = "2026-09"
+company = "linc-local-investor-network"
+kind = "funding"
+title = "LINC angel network holds its first meeting"
+source = "https://startupsouthbendelkhart.com/access-to-capital/"

@@ -12,9 +12,13 @@ website = "https://indianacoatedfabrics.com"
 
 sector = "Food & consumer goods"
 products = ["Fabric Coating Mills"]
+naics = "313320"
 
 employees = 43
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Coated & Laminated Window Shade Fabrics. NAICS 313320: fabric coating mills."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

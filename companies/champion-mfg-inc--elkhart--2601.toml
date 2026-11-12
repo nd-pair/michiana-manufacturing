@@ -12,9 +12,13 @@ website = "https://championchair.com"
 
 sector = "Wood, paper & furniture"
 products = ["Institutional Furniture Manufacturing"]
+naics = "337127"
 
 employees = 30
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Hospital Chairs. NAICS 337127: institutional furniture manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

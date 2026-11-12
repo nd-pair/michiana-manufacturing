@@ -12,9 +12,13 @@ website = "https://not available"
 
 sector = "Electronics"
 products = ["Electronic Computer Manufacturing"]
+naics = "334111"
 
 employees = 15
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Computer Systems. NAICS 334111: electronic computer manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

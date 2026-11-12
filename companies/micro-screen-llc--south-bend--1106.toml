@@ -12,9 +12,13 @@ website = "https://microscreen.org"
 
 sector = "Mechatronics & automation"
 products = ["Printing Machinery and Equipment Manufacturing"]
+naics = "333293"
 
 employees = 25
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Printing Screens & Equipment. NAICS 333293: printing machinery and equipment manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

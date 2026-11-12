@@ -12,9 +12,13 @@ website = "https://impressionsprint.net"
 
 sector = "Wood, paper & furniture"
 products = ["Other Commercial Printing"]
+naics = "323119"
 
 employees = 50
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Small & Large Press Printing & Promotional Products, Including Bindery, Mailing, Fulfillment, Foil Stamping, Embossing. NAICS 323119: other commercial printing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

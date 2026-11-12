@@ -12,9 +12,13 @@ website = "https://not available"
 
 sector = "Mechatronics & automation"
 products = ["All Other Industrial Machinery Manufacturing"]
+naics = "333298"
 
 employees = 17
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Industrial Machinery. NAICS 333298: all other industrial machinery manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

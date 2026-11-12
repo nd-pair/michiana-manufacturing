@@ -12,9 +12,13 @@ website = "https://fas-pak.com"
 
 sector = "Materials & composites"
 products = ["All Other Miscellaneous Chemical Product and Preparation Manufacturing"]
+naics = "325998"
 
 employees = 80
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Automotive Fuel Additives & Cleaners. NAICS 325998: all other miscellaneous chemical product and preparation manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

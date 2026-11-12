@@ -12,9 +12,13 @@ website = "https://granitech.net"
 
 sector = "Materials & composites"
 products = ["Cut Stone and Stone Product Manufacturing"]
+naics = "327991"
 
 employees = 25
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Granite Countertops. NAICS 327991: cut stone and stone product manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

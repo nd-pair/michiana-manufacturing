@@ -12,9 +12,13 @@ website = "https://wire-design.com"
 
 sector = "Electronics"
 products = ["Other Electronic Component Manufacturing"]
+naics = "334419"
 
 employees = 50
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Wire Harnesses. NAICS 334419: other electronic component manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

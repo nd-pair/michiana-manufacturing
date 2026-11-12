@@ -12,9 +12,13 @@ website = "https://not available"
 
 sector = "Food & consumer goods"
 products = ["Meat Processed From Carcasses"]
+naics = "311612"
 
 employees = 25
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Meat Processing. NAICS 311612: meat processed from carcasses."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

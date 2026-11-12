@@ -12,9 +12,13 @@ website = "https://epakmachinery.com"
 
 sector = "Mechatronics & automation"
 products = ["Packaging Machinery Manufacturing"]
+naics = "333993"
 
 employees = 35
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Liquid Filling Machinery, Including Cappers, Labelers, Conveyors, Turntables, Cap Feeders, Bottle Cleaners & Coders. NAICS 333993: packaging machinery manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

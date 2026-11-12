@@ -12,9 +12,13 @@ website = "https://not available"
 
 sector = "Wood, paper & furniture"
 products = ["Truss Manufacturing"]
+naics = "321214"
 
 employees = 20
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Wooden Trusses. NAICS 321214: truss manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

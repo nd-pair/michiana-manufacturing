@@ -12,9 +12,13 @@ website = "https://mennel.com"
 
 sector = "Food & consumer goods"
 products = ["Flour Milling"]
+naics = "311211"
 
 employees = 22
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Flour Milling & Processing. NAICS 311211: flour milling."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

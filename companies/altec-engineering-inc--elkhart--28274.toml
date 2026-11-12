@@ -12,9 +12,13 @@ website = "https://altecengineering.com"
 
 sector = "Materials & composites"
 products = ["Mineral Wool Manufacturing"]
+naics = "327993"
 
 employees = 85
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Recreational Vehicle Painting & Tooling for Fiberglass Products. NAICS 327993: mineral wool manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

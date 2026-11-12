@@ -12,9 +12,13 @@ website = "https://gtwenterprises.com"
 
 sector = "Mechatronics & automation"
 products = ["Paper Industry Machinery Manufacturing"]
+naics = "333291"
 
 employees = 19
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Paper Converting & Honeycombing Machinery. NAICS 333291: paper industry machinery manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

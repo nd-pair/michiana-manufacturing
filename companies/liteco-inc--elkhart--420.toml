@@ -12,9 +12,13 @@ website = "https://litecousa.com"
 
 sector = "Vehicles & RVs"
 products = ["Vehicular Lighting Equipment Manufacturing"]
+naics = "336321"
 
 employees = 25
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Marine, RV & Automobile Lighting. NAICS 336321: vehicular lighting equipment manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

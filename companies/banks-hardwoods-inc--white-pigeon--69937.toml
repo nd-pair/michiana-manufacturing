@@ -12,9 +12,13 @@ website = "https://bankshardwoods.com"
 
 sector = "Wood, paper & furniture"
 products = ["Sawmills"]
+naics = "321113"
 
 employees = 125
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Corporate Headquarters & Lumber Processing. NAICS 321113: sawmills."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

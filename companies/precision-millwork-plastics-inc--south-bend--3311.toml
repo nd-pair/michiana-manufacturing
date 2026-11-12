@@ -12,9 +12,13 @@ website = "https://precisionmillwork.net"
 
 sector = "Wood, paper & furniture"
 products = ["Showcase, Partition, Shelving, and Locker Manufacturing"]
+naics = "337215"
 
 employees = 25
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Store Fixtures & Cabinets. NAICS 337215: showcase, partition, shelving, and locker manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

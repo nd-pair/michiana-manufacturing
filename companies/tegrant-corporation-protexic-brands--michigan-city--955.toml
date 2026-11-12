@@ -12,9 +12,13 @@ website = "https://sca.com"
 
 sector = "Materials & composites"
 products = ["Polystyrene Foam Product Manufacturing"]
+naics = "326140"
 
 employees = 150
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Packaging Foam. NAICS 326140: polystyrene foam product manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

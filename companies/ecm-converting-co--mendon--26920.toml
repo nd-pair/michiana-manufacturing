@@ -12,9 +12,13 @@ website = "https://ecmconverting.com"
 
 sector = "Wood, paper & furniture"
 products = ["Paperboard Mills"]
+naics = "322130"
 
 employees = 55
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Paperboard Converting. NAICS 322130: paperboard mills."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

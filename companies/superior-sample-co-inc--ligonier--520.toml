@@ -12,9 +12,13 @@ website = "https://superiorsample.com"
 
 sector = "Wood, paper & furniture"
 products = ["Tradebinding and Related Work"]
+naics = "323121"
 
 employees = 80
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Sample & Wallpaper Books & Vinyl Wall Covering Catalogues. NAICS 323121: tradebinding and related work."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

@@ -12,9 +12,13 @@ website = "https://jeld-wen.com"
 
 sector = "Metal"
 products = ["Metal Window and Door Manufacturing"]
+naics = "332321"
 
 employees = 125
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Insulated Exterior Metal Doors. NAICS 332321: metal window and door manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

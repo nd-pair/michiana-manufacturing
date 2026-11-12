@@ -1,0 +1,2688 @@
+{
+"source": "openFDA device registration and listing",
+"pulled": "2026-11-11",
+"companies": {
+"zimmer-holdings-inc-warsaw-1800": {
+"fei": "1000220733",
+"establishment_types": [
+"Manufacture Medical Device"
+],
+"device_names": [
+"Prosthesis, Hip, Semi-Constrained, Metal/Ceramic/Polymer, Cemented Or Non-Porous, Uncemented",
+"Prosthesis, Hip, Semi-Constrained, Uncemented, Metal / Polymer, Non-Porous, Calcium Phosphate"
+]
+},
+"biomet-inc-warsaw-56": {
+"fei": "1825034",
+"establishment_types": [
+"Manufacture Medical Device"
+],
+"device_names": [
+"Prosthesis, Hip, Semi-Constrained, Metal/Polymer, Cemented",
+"Prosthesis, Knee, Femorotibial, Constrained, Cemented, Metal/Polymer"
+]
+},
+"depuy-orthopaedics-inc-warsaw-700": {
+"fei": "1818910",
+"establishment_types": [
+"Develop Specifications But Do Not Manufacture At This Facility",
+"Manufacture Medical Device"
+],
+"device_names": [
+"Prosthesis, Shoulder, Hemi-, Humeral, Metallic Uncemented",
+"Prosthesis, Shoulder, Semi-Constrained, Metal/Polymer Cemented",
+"Shoulder Prosthesis, Reverse Configuration"
+]
+},
+"symmetry-medical-inc-warsaw-3724": {
+"fei": "1828464",
+"establishment_types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"device_names": [
+"Hip Prosthesis, Semi-Constrained, Cemented, Metal/Polymer, + Additive, Porous, Uncemented",
+"Hip, Semi-Constrained, Cemented, Metal/Ceramic/Polymer + Additive, Porous Uncemented",
+"Hip, Semi-Constrained, Cemented, Metal/Polymer + Additive, Cemented",
+"Prosthesis, Hip, Constrained, Cemented Or Uncemented, Metal/Polymer",
+"Prosthesis, Hip, Constrained, Cemented Or Uncemented, Metal/Polymer, + Additive",
+"Prosthesis, Hip, Semi-Constrained, Metal/Ceramic/Polymer, Cemented Or Non-Porous, Uncemented"
+]
+},
+"instrumental-machine-development-llc-warsaw-2098": {
+"fei": "1000518604",
+"establishment_types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"device_names": [
+"Curette"
+]
+},
+"precision-medical-technologies-inc-warsaw-2059": {
+"fei": "3000210784",
+"establishment_types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"device_names": [
+"Plate, Fixation, Bone",
+"Screw, Fixation, Bone"
+]
+},
+"orthopediatrics-corp-warsaw-210": {
+"fei": "3006460162",
+"establishment_types": [
+"Complaint File Establishment per 21 CFR 820.198",
+"Develop Specifications But Do Not Manufacture At This Facility",
+"Repack or Relabel Medical Device"
+],
+"device_names": [
+"Forceps"
+]
+},
+"maitland-engineering-inc-south-bend-2713": {
+"fei": "3001452082",
+"establishment_types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"device_names": [
+"Bit, Drill"
+]
+},
+"derby-inc-south-bend-24350": {
+"fei": "3005864972",
+"establishment_types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"device_names": [
+"Cover, Mattress (Medical Purposes)"
+]
+},
+"masterbilt": {
+"fei": "3000203601",
+"establishment_types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"device_names": [
+"Template"
+]
+},
+"wieland-designs-inc-goshen-901": {
+"fei": "3001401122",
+"establishment_types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"device_names": [
+"Chair, Blood Donor"
+]
+},
+"tp-orthodontics-inc-westville-1266": {
+"fei": "1815540",
+"establishment_types": [
+"Manufacture Medical Device"
+],
+"device_names": [
+"Retainer, Screw Expansion, Orthodontic"
+]
+},
+"innovative-products-unlimited-niles-2120": {
+"fei": "1000115498",
+"establishment_types": [
+"Manufacture Medical Device"
+],
+"device_names": [
+"Cart, Emergency, Cardiopulmonary (Excluding Equipment)"
+]
+},
+"jac-custom-pouches-inc-dowagiac-56525": {
+"fei": "3004198457",
+"establishment_types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"device_names": [
+"Stretcher, Wheeled"
+]
+}
+},
+"establishments_not_in_map": [
+{
+"name": "ARCH Medical Solutions - Warsaw",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3009971621",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Instrument, Surgical, Orthopedic, Dc-Powered Motor And Accessory/Attachment"
+]
+},
+{
+"name": "NGInstruments, Inc  dba Avalign Cutting Instruments",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3000205591",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Orthopedic Stereotaxic Instrument"
+]
+},
+{
+"name": "Medartis Inc.",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3009540749",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Hook, Bone"
+]
+},
+{
+"name": "Medartis Inc.",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3009540749",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Clamp"
+]
+},
+{
+"name": "NGInstruments, Inc  dba Avalign Cutting Instruments",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3000205591",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Chisel, Bone, Surgical"
+]
+},
+{
+"name": "NGInstruments, Inc  dba Avalign Cutting Instruments",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3000205591",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Appliance, Fixation, Spinal Intervertebral Body"
+]
+},
+{
+"name": "NGInstruments, Inc  dba Avalign Cutting Instruments",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3000205591",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Appliance, Fixation, Spinal Interlaminal",
+"Orthosis, Spinal Pedicle Fixation"
+]
+},
+{
+"name": "Medartis Inc.",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3009540749",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Guide, Surgical, Instrument"
+]
+},
+{
+"name": "NGInstruments, Inc  dba Avalign Cutting Instruments",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3000205591",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Plate, Fixation, Bone",
+"Screw, Fixation, Bone"
+]
+},
+{
+"name": "ARCH Medical Solutions - Warsaw",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3009971621",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Plate, Fixation, Bone",
+"Screw, Fixation, Bone"
+]
+},
+{
+"name": "NGInstruments, Inc  dba Avalign Cutting Instruments",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3000205591",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Orthopedic Stereotaxic Instrument"
+]
+},
+{
+"name": "Medartis Inc.",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3009540749",
+"types": [
+"Manufacture Medical Device"
+],
+"products": [
+"Screw, Fixation, Bone",
+"Staple, Fixation, Bone"
+]
+},
+{
+"name": "NGInstruments, Inc  dba Avalign Cutting Instruments",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3000205591",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Screw, Fixation, Bone"
+]
+},
+{
+"name": "ARCH Medical Solutions - Warsaw",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3009971621",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Chisel, Surgical, Manual"
+]
+},
+{
+"name": "NGInstruments, Inc  dba Avalign Cutting Instruments",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3000205591",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Appliance, Fixation, Spinal Interlaminal",
+"Appliance, Fixation, Spinal Intervertebral Body",
+"Orthosis, Spinal Pedicle Fixation",
+"Orthosis, Spondylolisthesis Spinal Fixation",
+"Pedicle Screw Spinal System, Adolescent Idiopathic Scoliosis",
+"Thoracolumbosacral Pedicle Screw System"
+]
+},
+{
+"name": "Medartis Inc.",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3009540749",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Impactor"
+]
+},
+{
+"name": "NGInstruments, Inc  dba Avalign Cutting Instruments",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3000205591",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Prosthesis, Knee, Patello/Femoral, Semi-Constrained, Cemented, Metal/Polymer"
+]
+},
+{
+"name": "INSTRU-MED TECHNOLOGIES",
+"city": "Warsaw",
+"state": "IN",
+"fei": "1000115656",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Nail, Fixation, Bone",
+"Rod, Fixation, Intramedullary And Accessories",
+"Screw, Fixation, Bone"
+]
+},
+{
+"name": "WARSAW ORTHOPEDIC, INC.",
+"city": "Warsaw",
+"state": "IN",
+"fei": "1824199",
+"types": [
+"Manufacture Medical Device"
+],
+"products": [
+"Orthosis, Spinal Pedicle Fixation",
+"Orthosis, Spondylolisthesis Spinal Fixation"
+]
+},
+{
+"name": "INSTRU-MED TECHNOLOGIES",
+"city": "Warsaw",
+"state": "IN",
+"fei": "1000115656",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Driver, Prosthesis"
+]
+},
+{
+"name": "NGInstruments, Inc  dba Avalign Cutting Instruments",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3000205591",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Passer, Wire, Orthopedic"
+]
+},
+{
+"name": "INSTRU-MED TECHNOLOGIES",
+"city": "Warsaw",
+"state": "IN",
+"fei": "1000115656",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Intervertebral Fusion Device With Bone Graft, Cervical"
+]
+},
+{
+"name": "WARSAW ORTHOPEDIC, INC.",
+"city": "Warsaw",
+"state": "IN",
+"fei": "1824199",
+"types": [
+"Manufacture Medical Device"
+],
+"products": [
+"Appliance, Fixation, Spinal Interlaminal",
+"Appliance, Fixation, Spinal Intervertebral Body",
+"Orthosis, Spinal Pedicle Fixation",
+"Orthosis, Spondylolisthesis Spinal Fixation",
+"Posterior Metal/Polymer Spinal System, Fusion",
+"Thoracolumbosacral Pedicle Screw System"
+]
+},
+{
+"name": "INSTRU-MED TECHNOLOGIES",
+"city": "Warsaw",
+"state": "IN",
+"fei": "1000115656",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Intervertebral Fusion Device With Bone Graft, Lumbar"
+]
+},
+{
+"name": "ARCH Medical Solutions - Warsaw",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3009971621",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Passer, Wire, Orthopedic"
+]
+},
+{
+"name": "WARSAW ORTHOPEDIC, INC.",
+"city": "Warsaw",
+"state": "IN",
+"fei": "1824199",
+"types": [
+"Manufacture Medical Device"
+],
+"products": [
+"Appliance, Fixation, Spinal Interlaminal",
+"Appliance, Fixation, Spinal Intervertebral Body",
+"Orthosis, Spinal Pedicle Fixation",
+"Orthosis, Spondylolisthesis Spinal Fixation"
+]
+},
+{
+"name": "NGInstruments, Inc  dba Avalign Cutting Instruments",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3000205591",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Thoracolumbosacral Pedicle Screw System"
+]
+},
+{
+"name": "INSTRU-MED TECHNOLOGIES",
+"city": "Warsaw",
+"state": "IN",
+"fei": "1000115656",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Orthopedic Manual Surgical Instrument"
+]
+},
+{
+"name": "WARSAW ORTHOPEDIC, INC.",
+"city": "Warsaw",
+"state": "IN",
+"fei": "1824199",
+"types": [
+"Manufacture Medical Device"
+],
+"products": [
+"Appliance, Fixation, Spinal Intervertebral Body"
+]
+},
+{
+"name": "INSTRU-MED TECHNOLOGIES",
+"city": "Warsaw",
+"state": "IN",
+"fei": "1000115656",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Intervertebral Fusion Device With Integrated Fixation, Cervical"
+]
+},
+{
+"name": "WARSAW ORTHOPEDIC, INC.",
+"city": "Warsaw",
+"state": "IN",
+"fei": "1824199",
+"types": [
+"Manufacture Medical Device"
+],
+"products": [
+"Appliance, Fixation, Spinal Interlaminal",
+"Appliance, Fixation, Spinal Intervertebral Body",
+"Orthosis, Spinal Pedicle Fixation",
+"Orthosis, Spondylolisthesis Spinal Fixation",
+"Thoracolumbosacral Pedicle Screw System"
+]
+},
+{
+"name": "NGInstruments, Inc  dba Avalign Cutting Instruments",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3000205591",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Orthopedic Stereotaxic Instrument"
+]
+},
+{
+"name": "INSTRU-MED TECHNOLOGIES",
+"city": "Warsaw",
+"state": "IN",
+"fei": "1000115656",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Appliance, Fixation, Spinal Interlaminal",
+"Appliance, Fixation, Spinal Intervertebral Body",
+"Orthosis, Spinal Pedicle Fixation",
+"Orthosis, Spondylolisthesis Spinal Fixation",
+"Thoracolumbosacral Pedicle Screw System"
+]
+},
+{
+"name": "WARSAW ORTHOPEDIC, INC.",
+"city": "Warsaw",
+"state": "IN",
+"fei": "1824199",
+"types": [
+"Manufacture Medical Device",
+"Repack or Relabel Medical Device"
+],
+"products": [
+"Guide, Surgical, Instrument"
+]
+},
+{
+"name": "INSTRU-MED TECHNOLOGIES",
+"city": "Warsaw",
+"state": "IN",
+"fei": "1000115656",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Intervertebral Fusion Device With Bone Graft, Lumbar"
+]
+},
+{
+"name": "WARSAW ORTHOPEDIC, INC.",
+"city": "Warsaw",
+"state": "IN",
+"fei": "1824199",
+"types": [
+"Manufacture Medical Device",
+"Repack or Relabel Medical Device"
+],
+"products": [
+"Appliance, Fixation, Spinal Interlaminal",
+"Appliance, Fixation, Spinal Intervertebral Body",
+"Orthosis, Spondylolisthesis Spinal Fixation"
+]
+},
+{
+"name": "NGInstruments, Inc  dba Avalign Cutting Instruments",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3000205591",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Hip Prosthesis, Semi-Constrained, Cemented, Metal/Polymer, + Additive, Porous, Uncemented",
+"Hip, Semi-Constrained, Cemented, Metal/Ceramic/Polymer + Additive, Porous Uncemented",
+"Prosthesis, Hip, Semi-Constrained, Metal/Ceramic/Polymer, Cemented Or Non-Porous, Uncemented",
+"Prosthesis, Hip, Semi-Constrained, Metal/Polymer, Porous Uncemented"
+]
+},
+{
+"name": "WARSAW ORTHOPEDIC, INC.",
+"city": "Warsaw",
+"state": "IN",
+"fei": "1824199",
+"types": [
+"Manufacture Medical Device"
+],
+"products": [
+"Appliance, Fixation, Spinal Intervertebral Body"
+]
+},
+{
+"name": "INSTRU-MED TECHNOLOGIES",
+"city": "Warsaw",
+"state": "IN",
+"fei": "1000115656",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Appliance, Fixation, Spinal Interlaminal",
+"Thoracolumbosacral Pedicle Screw System"
+]
+},
+{
+"name": "WARSAW ORTHOPEDIC, INC.",
+"city": "Warsaw",
+"state": "IN",
+"fei": "1824199",
+"types": [
+"Manufacture Medical Device"
+],
+"products": [
+"Appliance, Fixation, Spinal Interlaminal",
+"Appliance, Fixation, Spinal Intervertebral Body",
+"Orthosis, Spinal Pedicle Fixation",
+"Orthosis, Spondylolisthesis Spinal Fixation",
+"Pedicle Screw Spinal System, Adolescent Idiopathic Scoliosis",
+"Thoracolumbosacral Pedicle Screw System"
+]
+},
+{
+"name": "INSTRU-MED TECHNOLOGIES",
+"city": "Warsaw",
+"state": "IN",
+"fei": "1000115656",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Probe"
+]
+},
+{
+"name": "NGInstruments, Inc  dba Avalign Cutting Instruments",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3000205591",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Orthopedic Stereotaxic Instrument"
+]
+},
+{
+"name": "WARSAW ORTHOPEDIC, INC.",
+"city": "Warsaw",
+"state": "IN",
+"fei": "1824199",
+"types": [
+"Manufacture Medical Device",
+"Repack or Relabel Medical Device"
+],
+"products": [
+"Appliance, Fixation, Spinal Interlaminal"
+]
+},
+{
+"name": "INSTRU-MED TECHNOLOGIES",
+"city": "Warsaw",
+"state": "IN",
+"fei": "1000115656",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Gauge, Depth"
+]
+},
+{
+"name": "NGInstruments, Inc  dba Avalign Cutting Instruments",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3000205591",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Orthopedic Stereotaxic Instrument"
+]
+},
+{
+"name": "WARSAW ORTHOPEDIC, INC.",
+"city": "Warsaw",
+"state": "IN",
+"fei": "1824199",
+"types": [
+"Manufacture Medical Device"
+],
+"products": [
+"Intervertebral Fusion Device With Bone Graft, Lumbar"
+]
+},
+{
+"name": "INSTRU-MED TECHNOLOGIES",
+"city": "Warsaw",
+"state": "IN",
+"fei": "1000115656",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Intervertebral Fusion Device With Bone Graft, Lumbar",
+"Intervertebral Fusion Device With Integrated Fixation, Lumbar"
+]
+},
+{
+"name": "NGInstruments, Inc  dba Avalign Cutting Instruments",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3000205591",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Retractor"
+]
+},
+{
+"name": "WARSAW ORTHOPEDIC, INC.",
+"city": "Warsaw",
+"state": "IN",
+"fei": "1824199",
+"types": [
+"Manufacture Medical Device"
+],
+"products": [
+"Intervertebral Fusion Device With Bone Graft, Lumbar"
+]
+},
+{
+"name": "INSTRU-MED TECHNOLOGIES",
+"city": "Warsaw",
+"state": "IN",
+"fei": "1000115656",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Intervertebral Fusion Device With Bone Graft, Cervical"
+]
+},
+{
+"name": "WARSAW ORTHOPEDIC, INC.",
+"city": "Warsaw",
+"state": "IN",
+"fei": "1824199",
+"types": [
+"Manufacture Medical Device"
+],
+"products": [
+"Appliance, Fixation, Spinal Interlaminal"
+]
+},
+{
+"name": "Medartis Inc.",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3009540749",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Mallet"
+]
+},
+{
+"name": "WARSAW ORTHOPEDIC, INC.",
+"city": "Warsaw",
+"state": "IN",
+"fei": "1824199",
+"types": [
+"Manufacture Medical Device",
+"Repack or Relabel Medical Device"
+],
+"products": [
+"Implant, Fixation Device, Spinal"
+]
+},
+{
+"name": "INSTRU-MED TECHNOLOGIES",
+"city": "Warsaw",
+"state": "IN",
+"fei": "1000115656",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Appliance, Fixation, Spinal Interlaminal",
+"Appliance, Fixation, Spinal Intervertebral Body",
+"Orthosis, Spinal Pedicle Fixation",
+"Orthosis, Spondylolisthesis Spinal Fixation",
+"Thoracolumbosacral Pedicle Screw System"
+]
+},
+{
+"name": "WARSAW ORTHOPEDIC, INC.",
+"city": "Warsaw",
+"state": "IN",
+"fei": "1824199",
+"types": [
+"Manufacture Medical Device"
+],
+"products": [
+"Appliance, Fixation, Spinal Interlaminal",
+"Appliance, Fixation, Spinal Intervertebral Body",
+"Orthosis, Spinal Pedicle Fixation",
+"Orthosis, Spondylolisthesis Spinal Fixation"
+]
+},
+{
+"name": "INSTRU-MED TECHNOLOGIES",
+"city": "Warsaw",
+"state": "IN",
+"fei": "1000115656",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Appliance, Fixation, Spinal Interlaminal",
+"Appliance, Fixation, Spinal Intervertebral Body",
+"Orthosis, Spinal Pedicle Fixation",
+"Orthosis, Spondylolisthesis Spinal Fixation",
+"Thoracolumbosacral Pedicle Screw System"
+]
+},
+{
+"name": "WARSAW ORTHOPEDIC, INC.",
+"city": "Warsaw",
+"state": "IN",
+"fei": "1824199",
+"types": [
+"Manufacture Medical Device"
+],
+"products": [
+"Sacroiliac Joint Fixation"
+]
+},
+{
+"name": "Medartis Inc.",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3009540749",
+"types": [
+"Repack or Relabel Medical Device"
+],
+"products": [
+"Plate, Fixation, Bone",
+"Screw, Fixation, Bone",
+"Staple, Fixation, Bone"
+]
+},
+{
+"name": "WARSAW ORTHOPEDIC, INC.",
+"city": "Warsaw",
+"state": "IN",
+"fei": "1824199",
+"types": [
+"Manufacture Medical Device"
+],
+"products": [
+"Appliance, Fixation, Spinal Interlaminal",
+"Appliance, Fixation, Spinal Intervertebral Body",
+"Instrument, Surgical, Orthopedic, Ac-Powered Motor And Accessory/Attachment",
+"Orthopedic Stereotaxic Instrument",
+"Orthosis, Spinal Pedicle Fixation",
+"Orthosis, Spondylolisthesis Spinal Fixation"
+]
+},
+{
+"name": "INSTRU-MED TECHNOLOGIES",
+"city": "Warsaw",
+"state": "IN",
+"fei": "1000115656",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Intervertebral Fusion Device With Bone Graft, Lumbar"
+]
+},
+{
+"name": "WARSAW ORTHOPEDIC, INC.",
+"city": "Warsaw",
+"state": "IN",
+"fei": "1824199",
+"types": [
+"Manufacture Medical Device"
+],
+"products": [
+"Retractor"
+]
+},
+{
+"name": "Medartis Inc.",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3009540749",
+"types": [
+"Repack or Relabel Medical Device"
+],
+"products": [
+"Plate, Fixation, Bone",
+"Screw, Fixation, Bone"
+]
+},
+{
+"name": "WARSAW ORTHOPEDIC, INC.",
+"city": "Warsaw",
+"state": "IN",
+"fei": "1824199",
+"types": [
+"Manufacture Medical Device"
+],
+"products": [
+"Appliance, Fixation, Spinal Interlaminal",
+"Appliance, Fixation, Spinal Intervertebral Body",
+"Orthosis, Spinal Pedicle Fixation",
+"Orthosis, Spondylolisthesis Spinal Fixation"
+]
+},
+{
+"name": "INSTRU-MED TECHNOLOGIES",
+"city": "Warsaw",
+"state": "IN",
+"fei": "1000115656",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Orthopedic Stereotaxic Instrument"
+]
+},
+{
+"name": "Medartis Inc.",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3009540749",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Plate, Fixation, Bone"
+]
+},
+{
+"name": "MASTERCRAFT MEDICAL",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3039097169",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Orthopedic Manual Surgical Instrument"
+]
+},
+{
+"name": "WARSAW ORTHOPEDIC, INC.",
+"city": "Warsaw",
+"state": "IN",
+"fei": "1824199",
+"types": [
+"Manufacture Medical Device"
+],
+"products": [
+"Intervertebral Fusion Device With Integrated Fixation, Cervical"
+]
+},
+{
+"name": "INSTRU-MED TECHNOLOGIES",
+"city": "Warsaw",
+"state": "IN",
+"fei": "1000115656",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Spinal Vertebral Body Replacement Device"
+]
+},
+{
+"name": "WARSAW ORTHOPEDIC, INC.",
+"city": "Warsaw",
+"state": "IN",
+"fei": "1824199",
+"types": [
+"Manufacture Medical Device"
+],
+"products": [
+"Appliance, Fixation, Spinal Interlaminal",
+"Orthosis, Spinal Pedicle Fixation"
+]
+},
+{
+"name": "INSTRU-MED TECHNOLOGIES",
+"city": "Warsaw",
+"state": "IN",
+"fei": "1000115656",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Intervertebral Fusion Device With Bone Graft, Lumbar"
+]
+},
+{
+"name": "Medartis Inc.",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3009540749",
+"types": [
+"Complaint File Establishment per 21 CFR 820.198",
+"Develop Specifications But Do Not Manufacture At This Facility",
+"Manufacture Medical Device",
+"Manufacture Medical Device for Another Party (Contract Manufacturer)",
+"Repack or Relabel Medical Device"
+],
+"products": [
+"Orthopedic Manual Surgical Instrument"
+]
+},
+{
+"name": "WARSAW ORTHOPEDIC, INC.",
+"city": "Warsaw",
+"state": "IN",
+"fei": "1824199",
+"types": [
+"Manufacture Medical Device"
+],
+"products": [
+"Appliance, Fixation, Spinal Intervertebral Body"
+]
+},
+{
+"name": "INSTRU-MED TECHNOLOGIES",
+"city": "Warsaw",
+"state": "IN",
+"fei": "1000115656",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Instrument, Manual, Surgical, General Use"
+]
+},
+{
+"name": "WARSAW ORTHOPEDIC, INC.",
+"city": "Warsaw",
+"state": "IN",
+"fei": "1824199",
+"types": [
+"Manufacture Medical Device"
+],
+"products": [
+"Intervertebral Fusion Device With Bone Graft, Lumbar"
+]
+},
+{
+"name": "INSTRU-MED TECHNOLOGIES",
+"city": "Warsaw",
+"state": "IN",
+"fei": "1000115656",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Prosthesis, Hip, Semi-Constrained, Metal/Polymer, Cemented"
+]
+},
+{
+"name": "Medartis Inc.",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3009540749",
+"types": [
+"Repack or Relabel Medical Device"
+],
+"products": [
+"Plate, Fixation, Bone",
+"Screw, Fixation, Bone"
+]
+},
+{
+"name": "WARSAW ORTHOPEDIC, INC.",
+"city": "Warsaw",
+"state": "IN",
+"fei": "1824199",
+"types": [
+"Manufacture Medical Device"
+],
+"products": [
+"Prosthesis, Intervertebral Disc"
+]
+},
+{
+"name": "WARSAW ORTHOPEDIC, INC.",
+"city": "Warsaw",
+"state": "IN",
+"fei": "1824199",
+"types": [
+"Manufacture Medical Device",
+"Repack or Relabel Medical Device"
+],
+"products": [
+"Appliance, Fixation, Spinal Interlaminal",
+"Orthosis, Spondylolisthesis Spinal Fixation"
+]
+},
+{
+"name": "INSTRU-MED TECHNOLOGIES",
+"city": "Warsaw",
+"state": "IN",
+"fei": "1000115656",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Intervertebral Fusion Device With Bone Graft, Cervical",
+"Intervertebral Fusion Device With Bone Graft, Lumbar",
+"Intervertebral Fusion Device With Integrated Fixation, Cervical",
+"Intervertebral Fusion Device With Integrated Fixation, Lumbar",
+"Spinal Vertebral Body Replacement Device"
+]
+},
+{
+"name": "Medartis Inc.",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3009540749",
+"types": [
+"Repack or Relabel Medical Device"
+],
+"products": [
+"Bracket, Metal, Orthodontic"
+]
+},
+{
+"name": "NGInstruments, Inc  dba Avalign Cutting Instruments",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3000205591",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Thoracolumbosacral Pedicle Screw System"
+]
+},
+{
+"name": "WARSAW ORTHOPEDIC, INC.",
+"city": "Warsaw",
+"state": "IN",
+"fei": "1824199",
+"types": [
+"Manufacture Medical Device"
+],
+"products": [
+"Appliance, Fixation, Spinal Interlaminal",
+"Appliance, Fixation, Spinal Intervertebral Body",
+"Orthosis, Spinal Pedicle Fixation",
+"Orthosis, Spondylolisthesis Spinal Fixation",
+"Posterior Metal/Polymer Spinal System, Fusion",
+"Thoracolumbosacral Pedicle Screw System"
+]
+},
+{
+"name": "INSTRU-MED TECHNOLOGIES",
+"city": "Warsaw",
+"state": "IN",
+"fei": "1000115656",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"System, Facet Screw Spinal Device"
+]
+},
+{
+"name": "WARSAW ORTHOPEDIC, INC.",
+"city": "Warsaw",
+"state": "IN",
+"fei": "1824199",
+"types": [
+"Manufacture Medical Device"
+],
+"products": [
+"Appliance, Fixation, Spinal Interlaminal",
+"Appliance, Fixation, Spinal Intervertebral Body",
+"Orthosis, Spinal Pedicle Fixation",
+"Orthosis, Spondylolisthesis Spinal Fixation",
+"Pedicle Screw Spinal System, Adolescent Idiopathic Scoliosis",
+"Thoracolumbosacral Pedicle Screw System"
+]
+},
+{
+"name": "INSTRU-MED TECHNOLOGIES",
+"city": "Warsaw",
+"state": "IN",
+"fei": "1000115656",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Screwdriver"
+]
+},
+{
+"name": "NGInstruments, Inc  dba Avalign Cutting Instruments",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3000205591",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Thoracolumbosacral Pedicle Screw System"
+]
+},
+{
+"name": "WARSAW ORTHOPEDIC, INC.",
+"city": "Warsaw",
+"state": "IN",
+"fei": "1824199",
+"types": [
+"Manufacture Medical Device"
+],
+"products": [
+"Orthosis, Spinal Pedicle Fixation",
+"Orthosis, Spondylolisthesis Spinal Fixation"
+]
+},
+{
+"name": "INSTRU-MED TECHNOLOGIES",
+"city": "Warsaw",
+"state": "IN",
+"fei": "1000115656",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Appliance, Fixation, Spinal Interlaminal",
+"Orthosis, Spondylolisthesis Spinal Fixation"
+]
+},
+{
+"name": "NGInstruments, Inc  dba Avalign Cutting Instruments",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3000205591",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Nail, Fixation, Bone",
+"Rod, Fixation, Intramedullary And Accessories",
+"Screw, Fixation, Bone"
+]
+},
+{
+"name": "WARSAW ORTHOPEDIC, INC.",
+"city": "Warsaw",
+"state": "IN",
+"fei": "1824199",
+"types": [
+"Manufacture Medical Device",
+"Repack or Relabel Medical Device"
+],
+"products": [
+"Appliance, Fixation, Spinal Interlaminal"
+]
+},
+{
+"name": "INSTRU-MED TECHNOLOGIES",
+"city": "Warsaw",
+"state": "IN",
+"fei": "1000115656",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Orthosis, Spine, Plate, Laminoplasty, Metal"
+]
+},
+{
+"name": "ARCH Medical Solutions - Warsaw",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3009971621",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Passer"
+]
+},
+{
+"name": "NGInstruments, Inc  dba Avalign Cutting Instruments",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3000205591",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Nail, Fixation, Bone",
+"Rod, Fixation, Intramedullary And Accessories",
+"Screw, Fixation, Bone"
+]
+},
+{
+"name": "WARSAW ORTHOPEDIC, INC.",
+"city": "Warsaw",
+"state": "IN",
+"fei": "1824199",
+"types": [
+"Manufacture Medical Device",
+"Repack or Relabel Medical Device"
+],
+"products": [
+"Extractor"
+]
+},
+{
+"name": "Medartis Inc.",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3009540749",
+"types": [
+"Repack or Relabel Medical Device"
+],
+"products": [
+"Pin, Fixation, Smooth",
+"Screw, Fixation, Bone",
+"Sterilization Wrap Containers, Trays, Cassettes & Other Accessories",
+"Washer, Bolt Nut"
+]
+},
+{
+"name": "ARCH Medical Solutions - Warsaw",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3009971621",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Clamp"
+]
+},
+{
+"name": "INSTRU-MED TECHNOLOGIES",
+"city": "Warsaw",
+"state": "IN",
+"fei": "1000115656",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Appliance, Fixation, Spinal Interlaminal",
+"Appliance, Fixation, Spinal Intervertebral Body",
+"Thoracolumbosacral Pedicle Screw System"
+]
+},
+{
+"name": "NGInstruments, Inc  dba Avalign Cutting Instruments",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3000205591",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Growing Rod System- Magnetic Actuation"
+]
+},
+{
+"name": "WARSAW ORTHOPEDIC, INC.",
+"city": "Warsaw",
+"state": "IN",
+"fei": "1824199",
+"types": [
+"Manufacture Medical Device"
+],
+"products": [
+"Orthopedic Stereotaxic Instrument"
+]
+},
+{
+"name": "INSTRU-MED TECHNOLOGIES",
+"city": "Warsaw",
+"state": "IN",
+"fei": "1000115656",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Chisel, Surgical, Manual"
+]
+},
+{
+"name": "ARCH Medical Solutions - Warsaw",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3009971621",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Starter, Bone Screw"
+]
+},
+{
+"name": "NGInstruments, Inc  dba Avalign Cutting Instruments",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3000205591",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Extractor"
+]
+},
+{
+"name": "WARSAW ORTHOPEDIC, INC.",
+"city": "Warsaw",
+"state": "IN",
+"fei": "1824199",
+"types": [
+"Manufacture Medical Device"
+],
+"products": [
+"Accessories, Arthroscopic"
+]
+},
+{
+"name": "Medartis Inc.",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3009540749",
+"types": [
+"Repack or Relabel Medical Device"
+],
+"products": [
+"Plate, Fixation, Bone",
+"Screw, Fixation, Bone"
+]
+},
+{
+"name": "ARCH Medical Solutions - Warsaw",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3009971621",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Appliance, Fixation, Spinal Interlaminal",
+"Orthosis, Spinal Pedicle Fixation",
+"Orthosis, Spondylolisthesis Spinal Fixation",
+"Pedicle Screw Spinal System, Adolescent Idiopathic Scoliosis",
+"Thoracolumbosacral Pedicle Screw System"
+]
+},
+{
+"name": "INSTRU-MED TECHNOLOGIES",
+"city": "Warsaw",
+"state": "IN",
+"fei": "1000115656",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Appliance, Fixation, Spinal Intervertebral Body"
+]
+},
+{
+"name": "ARCH Medical Solutions - Warsaw",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3009971621",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Reamer"
+]
+},
+{
+"name": "NGInstruments, Inc  dba Avalign Cutting Instruments",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3000205591",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Plate, Fixation, Bone",
+"Screw, Fixation, Bone"
+]
+},
+{
+"name": "WARSAW ORTHOPEDIC, INC.",
+"city": "Warsaw",
+"state": "IN",
+"fei": "1824199",
+"types": [
+"Manufacture Medical Device"
+],
+"products": [
+"Screwdriver"
+]
+},
+{
+"name": "Medartis Inc.",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3009540749",
+"types": [
+"Complaint File Establishment per 21 CFR 820.198",
+"Develop Specifications But Do Not Manufacture At This Facility"
+],
+"products": [
+"Screw, Fixation, Bone",
+"Staple, Fixation, Bone"
+]
+},
+{
+"name": "ARCH Medical Solutions - Warsaw",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3009971621",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Rongeur"
+]
+},
+{
+"name": "INSTRU-MED TECHNOLOGIES",
+"city": "Warsaw",
+"state": "IN",
+"fei": "1000115656",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Appliance, Fixation, Spinal Intervertebral Body"
+]
+},
+{
+"name": "ARCH Medical Solutions - Warsaw",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3009971621",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Rod, Fixation, Intramedullary And Accessories"
+]
+},
+{
+"name": "NGInstruments, Inc  dba Avalign Cutting Instruments",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3000205591",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Intervertebral Fusion Device With Integrated Fixation, Cervical"
+]
+},
+{
+"name": "NGInstruments, Inc  dba Avalign Cutting Instruments",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3000205591",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Interventional Fluoroscopic X-Ray System"
+]
+},
+{
+"name": "Medartis Inc.",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3009540749",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Protractor"
+]
+},
+{
+"name": "ARCH Medical Solutions - Warsaw",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3009971621",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Pin, Fixation, Smooth"
+]
+},
+{
+"name": "INSTRU-MED TECHNOLOGIES",
+"city": "Warsaw",
+"state": "IN",
+"fei": "1000115656",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Prosthesis, Knee, Patellofemorotibial, Semi-Constrained, Cemented, Polymer/Metal/Polymer"
+]
+},
+{
+"name": "ARCH Medical Solutions - Warsaw",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3009971621",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Wrench"
+]
+},
+{
+"name": "GENYSYS 22, LLC",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3003740112",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Chisel (Osteotome)"
+]
+},
+{
+"name": "NGInstruments, Inc  dba Avalign Cutting Instruments",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3000205591",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Clamp"
+]
+},
+{
+"name": "WARSAW ORTHOPEDIC, INC.",
+"city": "Warsaw",
+"state": "IN",
+"fei": "1824199",
+"types": [
+"Manufacture Medical Device"
+],
+"products": [
+"Appliance, Fixation, Spinal Interlaminal",
+"Appliance, Fixation, Spinal Intervertebral Body",
+"Orthosis, Spinal Pedicle Fixation",
+"Orthosis, Spondylolisthesis Spinal Fixation",
+"Thoracolumbosacral Pedicle Screw System"
+]
+},
+{
+"name": "Medartis Inc.",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3009540749",
+"types": [
+"Repack or Relabel Medical Device"
+],
+"products": [
+"Pin, Fixation, Smooth",
+"Plate, Fixation, Bone",
+"Screw, Fixation, Bone"
+]
+},
+{
+"name": "ARCH Medical Solutions - Warsaw",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3009971621",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Fastener, Fixation, Nondegradable, Soft Tissue"
+]
+},
+{
+"name": "INSTRU-MED TECHNOLOGIES",
+"city": "Warsaw",
+"state": "IN",
+"fei": "1000115656",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Appliance, Fixation, Spinal Interlaminal"
+]
+},
+{
+"name": "ARCH Medical Solutions - Warsaw",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3009971621",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Bit, Drill"
+]
+},
+{
+"name": "NGInstruments, Inc  dba Avalign Cutting Instruments",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3000205591",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Appliance, Fixation, Nail/Blade/Plate Combination, Multiple Component",
+"Device, Fixation, Proximal Femoral, Implant"
+]
+},
+{
+"name": "NGInstruments, Inc  dba Avalign Cutting Instruments",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3000205591",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Plate, Fixation, Bone",
+"Screw, Fixation, Bone"
+]
+},
+{
+"name": "WARSAW ORTHOPEDIC, INC.",
+"city": "Warsaw",
+"state": "IN",
+"fei": "1824199",
+"types": [
+"Manufacture Medical Device",
+"Repack or Relabel Medical Device"
+],
+"products": [
+"Appliance, Fixation, Spinal Interlaminal",
+"Appliance, Fixation, Spinal Intervertebral Body",
+"Orthosis, Spinal Pedicle Fixation",
+"Orthosis, Spondylolisthesis Spinal Fixation"
+]
+},
+{
+"name": "Medartis Inc.",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3009540749",
+"types": [
+"Repack or Relabel Medical Device"
+],
+"products": [
+"Bit, Drill"
+]
+},
+{
+"name": "ARCH Medical Solutions - Warsaw",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3009971621",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Intervertebral Fusion Device With Bone Graft, Lumbar"
+]
+},
+{
+"name": "INSTRU-MED TECHNOLOGIES",
+"city": "Warsaw",
+"state": "IN",
+"fei": "1000115656",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Impactor"
+]
+},
+{
+"name": "ARCH Medical Solutions - Warsaw",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3009971621",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Template"
+]
+},
+{
+"name": "NGInstruments, Inc  dba Avalign Cutting Instruments",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3000205591",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Prosthesis, Intervertebral Disc"
+]
+},
+{
+"name": "NGInstruments, Inc  dba Avalign Cutting Instruments",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3000205591",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Orthopedic Stereotaxic Instrument"
+]
+},
+{
+"name": "Medartis Inc.",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3009540749",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Osteotome"
+]
+},
+{
+"name": "ARCH Medical Solutions - Warsaw",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3009971621",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Tamp"
+]
+},
+{
+"name": "INSTRU-MED TECHNOLOGIES",
+"city": "Warsaw",
+"state": "IN",
+"fei": "1000115656",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Appliance, Fixation, Spinal Intervertebral Body"
+]
+},
+{
+"name": "NGInstruments, Inc  dba Avalign Cutting Instruments",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3000205591",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Template"
+]
+},
+{
+"name": "NGInstruments, Inc  dba Avalign Cutting Instruments",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3000205591",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Wrench"
+]
+},
+{
+"name": "NGInstruments, Inc  dba Avalign Cutting Instruments",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3000205591",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"System, Facet Screw Spinal Device"
+]
+},
+{
+"name": "NGInstruments, Inc  dba Avalign Cutting Instruments",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3000205591",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Orthopedic Stereotaxic Instrument"
+]
+},
+{
+"name": "ARCH Medical Solutions - Warsaw",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3009971621",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Guide, Surgical, Instrument"
+]
+},
+{
+"name": "NGInstruments, Inc  dba Avalign Cutting Instruments",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3000205591",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Posterior Cervical Screw System"
+]
+},
+{
+"name": "NGInstruments, Inc  dba Avalign Cutting Instruments",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3000205591",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Appliance, Fixation, Nail/Blade/Plate Combination, Multiple Component"
+]
+},
+{
+"name": "NGInstruments, Inc  dba Avalign Cutting Instruments",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3000205591",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Orthopedic Stereotaxic Instrument"
+]
+},
+{
+"name": "Medartis Inc.",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3009540749",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Bit, Surgical"
+]
+},
+{
+"name": "ARCH Medical Solutions - Warsaw",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3009971621",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Appliance, Fixation, Nail/Blade/Plate Combination, Multiple Component"
+]
+},
+{
+"name": "INSTRU-MED TECHNOLOGIES",
+"city": "Warsaw",
+"state": "IN",
+"fei": "1000115656",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Bone Fixation Cerclage, Sublaminar"
+]
+},
+{
+"name": "NGInstruments, Inc  dba Avalign Cutting Instruments",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3000205591",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Sacroiliac Joint Fixation"
+]
+},
+{
+"name": "NGInstruments, Inc  dba Avalign Cutting Instruments",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3000205591",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Thoracolumbosacral Pedicle Screw System"
+]
+},
+{
+"name": "NGInstruments, Inc  dba Avalign Cutting Instruments",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3000205591",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Appliance, Fixation, Spinal Intervertebral Body"
+]
+},
+{
+"name": "NGInstruments, Inc  dba Avalign Cutting Instruments",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3000205591",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Plate, Fixation, Bone",
+"Screw, Fixation, Bone"
+]
+},
+{
+"name": "NGInstruments, Inc  dba Avalign Cutting Instruments",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3000205591",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Appliance, Fixation, Spinal Interlaminal",
+"Orthosis, Spinal Pedicle Fixation",
+"Thoracolumbosacral Pedicle Screw System"
+]
+},
+{
+"name": "NGInstruments, Inc  dba Avalign Cutting Instruments",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3000205591",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Appliance, Fixation, Spinal Intervertebral Body"
+]
+},
+{
+"name": "NGInstruments, Inc  dba Avalign Cutting Instruments",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3000205591",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Appliance, Fixation, Spinal Interlaminal"
+]
+},
+{
+"name": "NGInstruments, Inc  dba Avalign Cutting Instruments",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3000205591",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Appliance, Fixation, Spinal Interlaminal"
+]
+},
+{
+"name": "NGInstruments, Inc  dba Avalign Cutting Instruments",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3000205591",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Blade, Saw, General & Plastic Surgery, Surgical"
+]
+},
+{
+"name": "NGInstruments, Inc  dba Avalign Cutting Instruments",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3000205591",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Appliance, Fixation, Spinal Intervertebral Body"
+]
+},
+{
+"name": "NGInstruments, Inc  dba Avalign Cutting Instruments",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3000205591",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Appliance, Fixation, Spinal Interlaminal"
+]
+},
+{
+"name": "NGInstruments, Inc  dba Avalign Cutting Instruments",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3000205591",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Appliance, Fixation, Spinal Interlaminal",
+"Posterior Cervical Screw System"
+]
+},
+{
+"name": "NGInstruments, Inc  dba Avalign Cutting Instruments",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3000205591",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Bit, Drill"
+]
+},
+{
+"name": "NGInstruments, Inc  dba Avalign Cutting Instruments",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3000205591",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Tape, Orthopedic"
+]
+},
+{
+"name": "MENTOR SUPPLY CHAIN (USA) INC",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3027848094",
+"types": [
+"Repack or Relabel Medical Device"
+],
+"products": [
+"Staple, Fixation, Bone"
+]
+},
+{
+"name": "NGInstruments, Inc  dba Avalign Cutting Instruments",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3000205591",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Prosthesis, Ankle, Semi-Constrained, Cemented, Metal/Polymer"
+]
+},
+{
+"name": "NGInstruments, Inc  dba Avalign Cutting Instruments",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3000205591",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Tap, Bone"
+]
+},
+{
+"name": "NGInstruments, Inc  dba Avalign Cutting Instruments",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3000205591",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Pliers, Surgical"
+]
+},
+{
+"name": "NGInstruments, Inc  dba Avalign Cutting Instruments",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3000205591",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Forceps"
+]
+},
+{
+"name": "NGInstruments, Inc  dba Avalign Cutting Instruments",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3000205591",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Thoracolumbosacral Pedicle Screw System"
+]
+},
+{
+"name": "NGInstruments, Inc  dba Avalign Cutting Instruments",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3000205591",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Screwdriver"
+]
+},
+{
+"name": "NGInstruments, Inc  dba Avalign Cutting Instruments",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3000205591",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Orthopedic Stereotaxic Instrument"
+]
+},
+{
+"name": "NGInstruments, Inc  dba Avalign Cutting Instruments",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3000205591",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Appliance, Fixation, Spinal Intervertebral Body"
+]
+},
+{
+"name": "NGInstruments, Inc  dba Avalign Cutting Instruments",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3000205591",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Thoracolumbosacral Pedicle Screw System"
+]
+},
+{
+"name": "NGInstruments, Inc  dba Avalign Cutting Instruments",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3000205591",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Appliance, Fixation, Nail/Blade/Plate Combination, Multiple Component"
+]
+},
+{
+"name": "NGInstruments, Inc  dba Avalign Cutting Instruments",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3000205591",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Appliance, Fixation, Spinal Interlaminal",
+"Appliance, Fixation, Spinal Intervertebral Body",
+"Orthosis, Spinal Pedicle Fixation",
+"Orthosis, Spondylolisthesis Spinal Fixation",
+"Thoracolumbosacral Pedicle Screw System"
+]
+},
+{
+"name": "NGInstruments, Inc  dba Avalign Cutting Instruments",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3000205591",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Appliance, Fixation, Spinal Intervertebral Body"
+]
+},
+{
+"name": "NGInstruments, Inc  dba Avalign Cutting Instruments",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3000205591",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Prosthesis, Ankle, Semi-Constrained, Cemented, Metal/Polymer"
+]
+},
+{
+"name": "NGInstruments, Inc  dba Avalign Cutting Instruments",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3000205591",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Orthopedic Stereotaxic Instrument"
+]
+},
+{
+"name": "NGInstruments, Inc  dba Avalign Cutting Instruments",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3000205591",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Intervertebral Fusion Device With Integrated Fixation, Cervical"
+]
+},
+{
+"name": "NGInstruments, Inc  dba Avalign Cutting Instruments",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3000205591",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"System, Facet Screw Spinal Device"
+]
+},
+{
+"name": "NGInstruments, Inc  dba Avalign Cutting Instruments",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3000205591",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Screw, Fixation, Bone",
+"Washer, Bolt Nut"
+]
+},
+{
+"name": "RAYCO STEEL PROCESS, INC.",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3010065126",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Extractor"
+]
+},
+{
+"name": "ARCH Medical Solutions - Warsaw",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3009971621",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Bit, Surgical"
+]
+},
+{
+"name": "Medartis Inc.",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3009540749",
+"types": [
+"Repack or Relabel Medical Device"
+],
+"products": [
+"Plate, Fixation, Bone",
+"Screw, Fixation, Bone"
+]
+},
+{
+"name": "Medartis Inc.",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3009540749",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Extractor"
+]
+},
+{
+"name": "Medartis Inc.",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3009540749",
+"types": [
+"Repack or Relabel Medical Device"
+],
+"products": [
+"Plate, Fixation, Bone",
+"Screw, Fixation, Bone"
+]
+},
+{
+"name": "RAYCO STEEL PROCESS, INC.",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3010065126",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Gauge, Depth"
+]
+},
+{
+"name": "NGInstruments, Inc  dba Avalign Cutting Instruments",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3000205591",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Rasp"
+]
+},
+{
+"name": "NGInstruments, Inc  dba Avalign Cutting Instruments",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3000205591",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Interventional Fluoroscopic X-Ray System"
+]
+},
+{
+"name": "RAYCO STEEL PROCESS, INC.",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3010065126",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Template"
+]
+},
+{
+"name": "NGInstruments, Inc  dba Avalign Cutting Instruments",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3000205591",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Orthopedic Stereotaxic Instrument"
+]
+},
+{
+"name": "NGInstruments, Inc  dba Avalign Cutting Instruments",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3000205591",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Nail, Fixation, Bone",
+"Rod, Fixation, Intramedullary And Accessories"
+]
+},
+{
+"name": "WARSAW ORTHOPEDIC, INC.",
+"city": "Warsaw",
+"state": "IN",
+"fei": "1824199",
+"types": [
+"Manufacture Medical Device",
+"Repack or Relabel Medical Device"
+],
+"products": [
+"Appliance, Fixation, Spinal Interlaminal",
+"Orthosis, Spondylolisthesis Spinal Fixation"
+]
+},
+{
+"name": "INSTRU-MED TECHNOLOGIES",
+"city": "Warsaw",
+"state": "IN",
+"fei": "1000115656",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Appliance, Fixation, Nail/Blade/Plate Combination, Multiple Component",
+"Screw, Fixation, Bone"
+]
+},
+{
+"name": "NGInstruments, Inc  dba Avalign Cutting Instruments",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3000205591",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Sacroiliac Joint Fixation"
+]
+},
+{
+"name": "ARCH Medical Solutions - Warsaw",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3009971621",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Orthopedic Manual Surgical Instrument"
+]
+},
+{
+"name": "WARSAW ORTHOPEDIC, INC.",
+"city": "Warsaw",
+"state": "IN",
+"fei": "1824199",
+"types": [
+"Manufacture Medical Device"
+],
+"products": [
+"Intervertebral Fusion Device With Bone Graft, Lumbar"
+]
+},
+{
+"name": "NGInstruments, Inc  dba Avalign Cutting Instruments",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3000205591",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Awl"
+]
+},
+{
+"name": "WARSAW ORTHOPEDIC, INC.",
+"city": "Warsaw",
+"state": "IN",
+"fei": "1824199",
+"types": [
+"Manufacture Medical Device"
+],
+"products": [
+"Appliance, Fixation, Spinal Interlaminal",
+"Appliance, Fixation, Spinal Intervertebral Body",
+"Orthosis, Spinal Pedicle Fixation",
+"Orthosis, Spondylolisthesis Spinal Fixation",
+"Pedicle Screw Spinal System, Adolescent Idiopathic Scoliosis",
+"Thoracolumbosacral Pedicle Screw System"
+]
+},
+{
+"name": "NGInstruments, Inc  dba Avalign Cutting Instruments",
+"city": "Warsaw",
+"state": "IN",
+"fei": "3000205591",
+"types": [
+"Manufacture Medical Device for Another Party (Contract Manufacturer)"
+],
+"products": [
+"Orthopedic Stereotaxic Instrument"
+]
+}
+]
+}

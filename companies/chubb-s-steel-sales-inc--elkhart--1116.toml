@@ -12,9 +12,13 @@ website = "https://not available"
 
 sector = "Metal"
 products = ["Rolled Steel Shape Manufacturing"]
+naics = "331221"
 
 employees = 20
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Steel Processing & Hydraulic Electric Dump Trailers. NAICS 331221: rolled steel shape manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

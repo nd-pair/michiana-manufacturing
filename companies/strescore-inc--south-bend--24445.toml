@@ -12,9 +12,13 @@ website = "https://strescore.com"
 
 sector = "Materials & composites"
 products = ["Other Concrete Product Manufacturing"]
+naics = "327390"
 
 employees = 20
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Precast Concrete Products. NAICS 327390: other concrete product manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

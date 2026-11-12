@@ -12,9 +12,13 @@ website = "https://rwps.com"
 
 sector = "Materials & composites"
 products = ["Paint and Coating Manufacturing"]
+naics = "325510"
 
 employees = 124
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Paints, Solvents & Aerosol Sprays. NAICS 325510: paint and coating manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

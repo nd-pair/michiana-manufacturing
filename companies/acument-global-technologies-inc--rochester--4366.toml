@@ -12,9 +12,13 @@ website = "https://acument.com"
 
 sector = "Medical devices & other"
 products = ["Fastener, Button, Needle, and Pin Manufacturing"]
+naics = "339993"
 
 employees = 145
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Fasteners, Studs, Nuts & Machine Screws. NAICS 339993: fastener, button, needle, and pin manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

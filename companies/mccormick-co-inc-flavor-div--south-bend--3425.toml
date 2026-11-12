@@ -12,9 +12,13 @@ website = "https://mccormick.com"
 
 sector = "Food & consumer goods"
 products = ["Mayonnaise, Dressing, and Other Prepared Sauce Manufacturing"]
+naics = "311941"
 
 employees = 100
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Salad Dressings, Sauces, Ketchup & Jellies. NAICS 311941: mayonnaise, dressing, and other prepared sauce manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

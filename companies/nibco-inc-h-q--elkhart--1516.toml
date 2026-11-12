@@ -12,9 +12,13 @@ website = "https://nibco.com"
 
 sector = "Metal"
 products = ["Other Metal Valve and Pipe Fitting Manufacturing"]
+naics = "332919"
 
 employees = 270
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Corporate Headquarters; Pipe Fittings, Valves & Flow Stops. NAICS 332919: other metal valve and pipe fitting manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

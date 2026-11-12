@@ -12,9 +12,13 @@ website = "https://jb-products.com"
 
 sector = "Metal"
 products = ["Other Metal Valve and Pipe Fitting Manufacturing"]
+naics = "332919"
 
 employees = 45
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Plastic Plumbing & Drain Products. NAICS 332919: other metal valve and pipe fitting manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

@@ -12,9 +12,13 @@ website = "https://kayind.com"
 
 sector = "Electronics"
 products = ["Motor and Generator Manufacturing"]
+naics = "335312"
 
 employees = 20
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Rotary & Static Phase Converters. NAICS 335312: motor and generator manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

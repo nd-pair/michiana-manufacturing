@@ -12,9 +12,13 @@ website = "https://modarinc.com"
 
 sector = "Wood, paper & furniture"
 products = ["Reconstituted Wood Product Manufacturing"]
+naics = "321219"
 
 employees = 100
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Particleboard. NAICS 321219: reconstituted wood product manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

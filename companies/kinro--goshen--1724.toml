@@ -12,9 +12,13 @@ website = "https://kinro.com"
 
 sector = "Materials & composites"
 products = ["Flat Glass Manufacturing"]
+naics = "327211"
 
 employees = 75
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Tempered Glass. NAICS 327211: flat glass manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

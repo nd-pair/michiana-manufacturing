@@ -12,9 +12,13 @@ website = "https://not available"
 
 sector = "Mechatronics & automation"
 products = ["All Other Miscellaneous General Purpose Machinery Manufacturing"]
+naics = "333999"
 
 employees = 18
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Industrial, Food Grade & Process Piping Systems. NAICS 333999: all other miscellaneous general purpose machinery manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

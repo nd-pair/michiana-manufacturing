@@ -12,9 +12,13 @@ website = "https://lakeshorediecast.com"
 
 sector = "Metal"
 products = ["Steel Foundries (except Investment)"]
+naics = "331513"
 
 employees = 20
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Aluminum & Zinc Castings. NAICS 331513: steel foundries (except investment)."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

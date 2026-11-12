@@ -12,9 +12,13 @@ website = "https://plumroseusa.com"
 
 sector = "Food & consumer goods"
 products = ["Meat Processed From Carcasses"]
+naics = "311612"
 
 employees = 225
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Meat Processing & Packing. NAICS 311612: meat processed from carcasses."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

@@ -12,9 +12,13 @@ website = "https://hoosiercrane.com"
 
 sector = "Mechatronics & automation"
 products = ["Overhead Traveling Crane, Hoist, and Monorail System Manufacturing"]
+naics = "333923"
 
 employees = 28
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Overhead Cranes. NAICS 333923: overhead traveling crane, hoist, and monorail system manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

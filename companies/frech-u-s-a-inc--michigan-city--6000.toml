@@ -12,9 +12,13 @@ website = "https://frech.com"
 
 sector = "Mechatronics & automation"
 products = ["Machine Tool (metal Forming Types) Manufacturing"]
+naics = "333513"
 
 employees = 17
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Die Casting Machines. NAICS 333513: machine tool (metal forming types) manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

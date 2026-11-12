@@ -12,9 +12,13 @@ website = "https://not available"
 
 sector = "Materials & composites"
 products = ["All Other Basic Organic Chemical Manufacturing"]
+naics = "325199"
 
 employees = 135
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Ethanol Processing. NAICS 325199: all other basic organic chemical manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

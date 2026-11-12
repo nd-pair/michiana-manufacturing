@@ -12,9 +12,13 @@ website = "https://interplastic.com"
 
 sector = "Materials & composites"
 products = ["Synthetic Rubber Manufacturing"]
+naics = "325212"
 
 employees = 50
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Sheet Molding Compounds. NAICS 325212: synthetic rubber manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

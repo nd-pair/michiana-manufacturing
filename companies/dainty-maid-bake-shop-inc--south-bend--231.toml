@@ -12,9 +12,13 @@ website = "https://not available"
 
 sector = "Food & consumer goods"
 products = ["Commercial Bakeries"]
+naics = "311812"
 
 employees = 24
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Breads, Cakes & Rolls. NAICS 311812: commercial bakeries."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

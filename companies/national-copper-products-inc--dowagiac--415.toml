@@ -12,9 +12,13 @@ website = "https://nationalcopper.com"
 
 sector = "Metal"
 products = ["Copper Rolling, Drawing, and Extruding"]
+naics = "331421"
 
 employees = 230
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Copper Tubing. NAICS 331421: copper rolling, drawing, and extruding."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

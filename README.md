@@ -69,6 +69,44 @@ on the map.
 **Sectors and labels.** Sectors and their colors live in `data/sectors.toml`; cities, reference
 metros, state labels and the campus landmark in `data/places.toml`.
 
+## Layers and panels
+
+Beyond the map, the page carries:
+
+- **Federal footprint.** Procurement contracts and grants since FY2016 for every company, from
+  USAspending.gov, matched by recipient name, plus the region-wide totals by awarding agency.
+  A filter shows only companies with federal awards. `scripts/pull_federal.py` → `data/federal.json`.
+- **Certifications.** FDA medical-device establishment registrations from openFDA
+  (`scripts/pull_fda.py` → `data/fda.json`), shown as a badge and a filter. Other certifications
+  (AS9100, ISO 9001, Nadcap, CMMC) go in a company file as `certifications = ["AS9100", ...]`
+  from the company's own public statements; the registries themselves are not open for bulk use.
+- **SBIR/STTR awards.** SBIR.gov's API rejects scripts, so `scripts/pull_sbir.py` reads a CSV
+  exported by hand from https://www.sbir.gov/awards (State = Indiana, then Michigan) and writes
+  `data/sbir.json`; awards appear in the detail panel once that file exists.
+- **Notre Dame network.** `data/collaborations.toml` lists public relationships (co-founded,
+  investment, university unit, program) between the campus and companies, or between companies,
+  each with its announcement as the source. The map draws them as arcs when the layer is on.
+- **Capabilities.** `data/capabilities.toml` maps NAICS prefixes and product keywords to process
+  capabilities (casting, machining, molding, circuit boards, ...). The panel counts companies per
+  capability, names the largest site, flags capabilities with one or no company as a gap, and
+  filters the map; with a sector or product filter active it becomes a gap analysis for that slice.
+- **Manufacturing employment by county.** Annual private manufacturing employment from the BLS
+  Quarterly Census of Employment and Wages (`scripts/pull_qcew.py` → `data/qcew.json`).
+- **Timeline.** `data/events.toml`: openings, expansions, closures and funding events with a source;
+  clicking one selects the company and flies to it.
+- **Distance rings.** 25, 50 and 100 km from the campus, straight-line distance.
+- **Provenance.** Every company carries `source` and `updated`; imported files say which dataset
+  they came from. The detail panel shows both.
+- **Sharing.** The URL hash holds the filters, layers and selection ("Copy link to this view"), and
+  the roster downloads as CSV with every field.
+
+## Keeping the data current
+
+[`refresh-data.yml`](.github/workflows/refresh-data.yml) runs on the 2nd of every month (and on
+demand from the Actions tab): it imports new HIFLD facilities, re-pulls USAspending, openFDA and
+QCEW, geocodes any file with an address but no coordinates, rebuilds and commits. Each source is
+optional, so an outage at one does not block the others. Hand-written files are never touched.
+
 ## Building locally
 
 ```bash
@@ -85,9 +123,9 @@ so commit only your source changes (`companies/`, `data/`, `site/`, `scripts/`) 
 
 ```
 companies/      one TOML file per company (edit these)
-data/           sectors, place labels, county boundaries (U.S. Census), Great Lakes shorelines (Natural Earth)
+data/           sectors, places, capabilities, collaborations, events (edit these); county boundaries (Census), shorelines (Natural Earth); pulled datasets (federal, fda, qcew, sbir)
 site/           the page: Notre Dame Web Theme chrome (partials/), page.html, app.js, app.css
-scripts/        build.py, geocode.py, import_hifld.py
+scripts/        build.py, geocode.py, import_hifld.py, pull_federal.py, pull_fda.py, pull_qcew.py, pull_sbir.py, common.py
 docs/           the built site (generated; do not edit by hand)
 ```
 
@@ -98,6 +136,7 @@ The page uses the University's web theme (NDT4) for its frame, as the PAIR site 
 
 Company descriptions, products and headcounts: the HIFLD General Manufacturing Facilities
 dataset (U.S. DHS, public domain) for most entries, and the companies' own websites, public
-filings, press and business directories for the rest; headcounts are approximate and dated. County boundaries: U.S.
+filings, press and business directories for the rest; headcounts are approximate and dated.
+Federal awards: USAspending.gov. Device registrations: openFDA. Employment: BLS QCEW. County boundaries: U.S.
 Census Bureau cartographic boundary files. Shorelines: Natural Earth. Code: MIT license (see
 LICENSE); company data is factual public information.

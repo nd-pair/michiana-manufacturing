@@ -12,9 +12,13 @@ website = "https://indianawipingcloth.com"
 
 sector = "Food & consumer goods"
 products = ["All Other Miscellaneous Textile Product Mills"]
+naics = "314999"
 
 employees = 17
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Wiping Cloths. NAICS 314999: all other miscellaneous textile product mills."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

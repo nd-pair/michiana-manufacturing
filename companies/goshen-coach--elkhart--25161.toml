@@ -12,9 +12,13 @@ website = "https://goshencoach.com"
 
 sector = "Vehicles & RVs"
 products = ["Heavy Duty Truck Manufacturing"]
+naics = "336120"
 
 employees = 190
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Buses. NAICS 336120: heavy duty truck manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

@@ -12,9 +12,13 @@ website = "https://sellers-mfginc.com"
 
 sector = "Metal"
 products = ["Secondary Smelting and Alloying of Aluminum"]
+naics = "331314"
 
 employees = 60
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Aluminum & Steel Fabrication, Mobile Restrooms Travel Trailers & Fifth Wheel Frames. NAICS 331314: secondary smelting and alloying of aluminum."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

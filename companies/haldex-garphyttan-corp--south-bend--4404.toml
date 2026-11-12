@@ -12,9 +12,13 @@ website = "https://haldex.com"
 
 sector = "Metal"
 products = ["Steel Wire Drawing"]
+naics = "331222"
 
 employees = 55
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Spring Wire. NAICS 331222: steel wire drawing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

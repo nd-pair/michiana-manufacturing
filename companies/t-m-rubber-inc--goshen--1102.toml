@@ -12,9 +12,13 @@ website = "https://tmrubber.com"
 
 sector = "Medical devices & other"
 products = ["Gasket, Packing, and Sealing Device Manufacturing"]
+naics = "339991"
 
 employees = 50
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Precision Lathe-Cut Rubber Gaskets. NAICS 339991: gasket, packing, and sealing device manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

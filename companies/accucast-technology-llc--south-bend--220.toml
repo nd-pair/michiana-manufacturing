@@ -12,9 +12,13 @@ website = "https://accucastech.com"
 
 sector = "Metal"
 products = ["Iron Foundries"]
+naics = "331511"
 
 employees = 75
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Iron Castings. NAICS 331511: iron foundries."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

@@ -12,9 +12,13 @@ website = "https://rti-products.com"
 
 sector = "Electronics"
 products = ["Analytical Laboratory Instrument Manufacturing"]
+naics = "334516"
 
 employees = 20
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Telecommunication & Industrial De-Icing Equipment, Sensors & Automotive Seat Heaters & Coolers. NAICS 334516: analytical laboratory instrument manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

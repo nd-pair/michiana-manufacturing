@@ -12,9 +12,13 @@ website = "https://axisproducts.com"
 
 sector = "Vehicles & RVs"
 products = ["Motor Vehicle Transmission and Power Train Parts Manufacturing"]
+naics = "336350"
 
 employees = 80
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Manufacturer & Contract Fabrication of Trailer Parts & Axles & Distributor of Spindles, Hubs, Drums & Brakes. NAICS 336350: motor vehicle transmission and power train parts manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

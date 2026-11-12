@@ -12,9 +12,13 @@ website = "https://divmi.com"
 
 sector = "Metal"
 products = ["Aluminum Foundries (except Die-Casting)"]
+naics = "331524"
 
 employees = 295
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Aluminum Castings. NAICS 331524: aluminum foundries (except die-casting)."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

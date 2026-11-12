@@ -12,9 +12,13 @@ website = "https://actia.com"
 
 sector = "Electronics"
 products = ["Other Electronic Component Manufacturing"]
+naics = "334419"
 
 employees = 110
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Electronic Components, Computers, Instruments & Switch Panels, Vehicle Electronics & Diagnostics Components. NAICS 334419: other electronic component manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

@@ -88,3 +88,36 @@
 .mm-app td.tags{color:var(--fg-2)}
 .mm-foot{font-size:12px;color:var(--fg-3);max-width:95ch}
 @media (prefers-reduced-motion:reduce){.mm-app *{transition:none!important}}
+
+/* layers, filters and share bar */
+.mm-layerbar{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.mm-lb{font:500 10px var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--fg-3);margin-left:6px}
+.mm-lb:first-child{margin-left:0}
+.mm-chip[aria-pressed="true"]{background:var(--accent);color:#06131a;border-color:var(--accent);box-shadow:0 0 14px rgba(53,214,255,.35)}
+/* second row of panels */
+.mm-grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+@media (max-width:860px){.mm-grid2{grid-template-columns:1fr}}
+.mm-bar .g{font:500 10px var(--mono);letter-spacing:.1em;color:var(--accent-2);text-transform:uppercase}
+.mm-bar.gap .lab span:first-child{color:var(--fg-2)}
+.mm-fedsum{padding:0 4px 8px;color:var(--fg-2);font-size:13px}
+.mm-fedsum b{color:var(--fg)}
+.mm-chart{padding:4px 12px 12px}
+.mm-chart svg{display:block;width:100%;height:auto;max-width:100%}
+.mm-chart .ax{stroke:var(--line-2);stroke-width:1}
+.mm-chart .gr{stroke:var(--line);stroke-width:1}
+.mm-chart text{font:500 10px var(--mono);fill:var(--fg-3)}
+.mm-chart .ln{fill:none;stroke-width:2;stroke-linejoin:round}
+.mm-chart .ln.dim{stroke-width:1;opacity:.45}
+.mm-chart .lbl{font:600 11px var(--display);letter-spacing:.04em}
+.mm-events{padding:4px 12px 12px;max-height:360px;overflow:auto}
+.mm-ev{display:grid;grid-template-columns:62px 1fr;gap:10px;padding:7px 4px;border-bottom:1px solid var(--line);cursor:pointer}
+.mm-ev:hover{background:var(--surface-2)}
+.mm-ev .d{font:500 12px var(--mono);color:var(--accent)}
+.mm-ev .t{font-size:13px}
+.mm-ev .k{display:inline-block;font:500 10px var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--fg-3);margin-left:6px}
+.mm-ev a{font:500 11px var(--mono);color:var(--fg-3)}
+.mm-badge{display:inline-block;font:500 10px var(--mono);letter-spacing:.08em;text-transform:uppercase;padding:1px 5px;border:1px solid var(--line-2);border-radius:2px;color:var(--fg-2);margin-left:6px;vertical-align:1px}
+.mm-badge.fed{border-color:var(--accent-2);color:var(--accent-2)}
+.mm-badge.fda{border-color:var(--accent);color:var(--accent)}
+.mm-toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);background:var(--accent);color:#06131a;font:600 13px var(--display);letter-spacing:.04em;padding:8px 14px;border-radius:3px;opacity:0;transition:opacity .2s;pointer-events:none;z-index:50}
+.mm-toast.on{opacity:1}

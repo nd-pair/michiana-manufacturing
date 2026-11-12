@@ -12,9 +12,13 @@ website = "https://diamondman.com"
 
 sector = "Metal"
 products = ["Iron and Steel Mills"]
+naics = "331111"
 
 employees = 50
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Steel Fabrication. NAICS 331111: iron and steel mills."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

@@ -12,9 +12,13 @@ website = "https://evangelpress.com"
 
 sector = "Wood, paper & furniture"
 products = ["Book Printing"]
+naics = "323117"
 
 employees = 37
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Book, Brochure & Periodical Printing & Typesetting. NAICS 323117: book printing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

@@ -12,9 +12,13 @@ website = "https://dfamilk.com"
 
 sector = "Food & consumer goods"
 products = ["Fluid Milk Manufacturing"]
+naics = "311511"
 
 employees = 49
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Dairy Products. NAICS 311511: fluid milk manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

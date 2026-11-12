@@ -12,9 +12,13 @@ website = "https://not available"
 
 sector = "Materials & composites"
 products = ["Soap and Other Detergent Manufacturing"]
+naics = "325611"
 
 employees = 30
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Soap & Shampoo. NAICS 325611: soap and other detergent manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

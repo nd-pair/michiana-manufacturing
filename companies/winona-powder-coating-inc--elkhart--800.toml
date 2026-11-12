@@ -12,9 +12,13 @@ website = "https://winonapowder.com"
 
 sector = "Metal"
 products = ["Metal Coating, Engraving (except Jewelry and Silverware), and Allied Services To Manufacturers"]
+naics = "332812"
 
 employees = 50
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Powder Coating. NAICS 332812: metal coating, engraving (except jewelry and silverware), and allied services to manufacturers."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

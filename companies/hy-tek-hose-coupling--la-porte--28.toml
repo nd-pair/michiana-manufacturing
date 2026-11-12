@@ -12,9 +12,13 @@ website = "https://hytekhose.com"
 
 sector = "Materials & composites"
 products = ["Rubber and Plastics Hoses and Belting Manufacturing"]
+naics = "326220"
 
 employees = 27
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Hydraulic Hose Assemblies. NAICS 326220: rubber and plastics hoses and belting manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

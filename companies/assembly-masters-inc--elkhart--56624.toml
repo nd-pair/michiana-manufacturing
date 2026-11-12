@@ -12,9 +12,13 @@ website = "https://assemblymasters.com"
 
 sector = "Electronics"
 products = ["Electronic Coil, Transformer, and Other Inductor Manufacturing"]
+naics = "334416"
 
 employees = 18
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Wire Harnesses, Cable Assemblies, Bobbin Wound Coils, Air Coils, Circuit Board Jumpers, Toroidal Transformers. NAICS 334416: electronic coil, transformer, and other inductor manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

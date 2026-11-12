@@ -12,9 +12,13 @@ website = "https://not available"
 
 sector = "Materials & composites"
 products = ["All Other Plastics Product Manufacturing"]
+naics = "326199"
 
 employees = 15
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Plastic Injection Molding. NAICS 326199: all other plastics product manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

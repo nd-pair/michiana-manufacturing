@@ -12,9 +12,13 @@ website = "https://utilimaster.com"
 
 sector = "Vehicles & RVs"
 products = ["Light Truck and Utility Vehicle Manufacturing"]
+naics = "336112"
 
 employees = 1000
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Parcel Delivery & Walk-In Vans, Aluminum Truck Bodies & Service Vehicles. NAICS 336112: light truck and utility vehicle manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

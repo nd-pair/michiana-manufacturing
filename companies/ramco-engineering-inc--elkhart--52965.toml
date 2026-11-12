@@ -12,9 +12,13 @@ website = "https://ramco-eng.com"
 
 sector = "Materials & composites"
 products = ["Glass Product Manufacturing Made of Purchased Glass"]
+naics = "327215"
 
 employees = 42
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Exterior Rearview Mirrors for Motor Homes, Over-The-Road & Transit Buses, Fire Trucks & Specialty Vehicles. NAICS 327215: glass product manufacturing made of purchased glass."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

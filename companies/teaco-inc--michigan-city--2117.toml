@@ -12,9 +12,13 @@ website = "https://teacoinc.com"
 
 sector = "Electronics"
 products = ["Other Electronic Component Manufacturing"]
+naics = "334419"
 
 employees = 15
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Electronic Panels, Sub-Assemblies, Test Fixtures & Wiring Harnesses. NAICS 334419: other electronic component manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

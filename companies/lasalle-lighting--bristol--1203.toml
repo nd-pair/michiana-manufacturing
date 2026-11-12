@@ -12,9 +12,13 @@ website = "https://lasallebristol.com"
 
 sector = "Electronics"
 products = ["Commercial, Industrial, and Institutional Electric Lighting Fixture Manufacturing"]
+naics = "335122"
 
 employees = 23
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Residential & Commercial Lighting Fixtures. NAICS 335122: commercial, industrial, and institutional electric lighting fixture manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

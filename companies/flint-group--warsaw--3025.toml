@@ -12,9 +12,13 @@ website = "https://flintink.com"
 
 sector = "Materials & composites"
 products = ["Printing Ink Manufacturing"]
+naics = "325910"
 
 employees = 24
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Printing Ink. NAICS 325910: printing ink manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

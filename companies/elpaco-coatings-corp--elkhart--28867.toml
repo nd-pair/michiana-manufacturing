@@ -12,9 +12,13 @@ website = "https://elpacocoatings.com"
 
 sector = "Materials & composites"
 products = ["Paint and Coating Manufacturing"]
+naics = "325510"
 
 employees = 24
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Industrial Paints & Finishes. NAICS 325510: paint and coating manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

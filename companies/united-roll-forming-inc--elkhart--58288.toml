@@ -12,9 +12,13 @@ website = "https://unitedrollforming.org"
 
 sector = "Metal"
 products = ["Custom Roll Forming"]
+naics = "332114"
 
 employees = 40
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Metal Roll Forming, Including Roll-Formed Parts, Tube Bending & Steel Rings. NAICS 332114: custom roll forming."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

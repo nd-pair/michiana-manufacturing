@@ -12,9 +12,13 @@ website = "https://showtimeconversions.com"
 
 sector = "Vehicles & RVs"
 products = ["Truck Trailer Manufacturing"]
+naics = "336212"
 
 employees = 22
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Living Quarters for Horse Trailers, Car Haulers & Recreational Vehicles. NAICS 336212: truck trailer manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

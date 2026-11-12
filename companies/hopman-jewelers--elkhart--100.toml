@@ -12,9 +12,13 @@ website = "https://hopmanjewelers.com"
 
 sector = "Medical devices & other"
 products = ["Jewelry (except Costume) Manufacturing"]
+naics = "339911"
 
 employees = 20
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Jewelry. NAICS 339911: jewelry (except costume) manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

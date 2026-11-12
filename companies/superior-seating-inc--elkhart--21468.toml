@@ -12,9 +12,13 @@ website = "https://superior-seats.com"
 
 sector = "Vehicles & RVs"
 products = ["Motor Vehicle Seating and Interior Trim Manufacturing"]
+naics = "336360"
 
 employees = 25
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Van, Truck, RV, Horse Trailer, Limo, Street Rod & Transit Seating. NAICS 336360: motor vehicle seating and interior trim manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

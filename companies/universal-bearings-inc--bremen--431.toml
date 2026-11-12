@@ -12,9 +12,13 @@ website = "https://univbrg.com"
 
 sector = "Metal"
 products = ["Machine Shops"]
+naics = "332710"
 
 employees = 250
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Loose Needle Roller Bearings. NAICS 332710: machine shops."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

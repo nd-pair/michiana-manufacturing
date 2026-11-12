@@ -12,9 +12,13 @@ website = "https://not available"
 
 sector = "Metal"
 products = ["Bolt, Nut, Screw, Rivet, and Washer Manufacturing"]
+naics = "332722"
 
 employees = 25
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Solid Rivets. NAICS 332722: bolt, nut, screw, rivet, and washer manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

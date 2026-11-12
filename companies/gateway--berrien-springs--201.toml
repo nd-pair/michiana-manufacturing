@@ -12,9 +12,13 @@ website = "https://gatewayvro.com"
 
 sector = "Wood, paper & furniture"
 products = ["Paper (except Newsprint) Mills"]
+naics = "322121"
 
 employees = 125
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Paper Converting & Recycling. NAICS 322121: paper (except newsprint) mills."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

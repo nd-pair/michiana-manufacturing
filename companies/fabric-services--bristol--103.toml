@@ -12,9 +12,13 @@ website = "https://not available"
 
 sector = "Materials & composites"
 products = ["Polystyrene Foam Product Manufacturing"]
+naics = "326140"
 
 employees = 75
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Flame-Laminated Flexible Foam, Vinyls, Leather & Fabrics for Kv Furniture. NAICS 326140: polystyrene foam product manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

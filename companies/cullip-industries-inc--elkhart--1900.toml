@@ -12,9 +12,13 @@ website = "https://cullipindustries.com"
 
 sector = "Metal"
 products = ["Machine Shops"]
+naics = "332710"
 
 employees = 15
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Punch Press Dies, Jigs, Fixtures & Wire EDM & CNC Machining Job Shop. NAICS 332710: machine shops."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

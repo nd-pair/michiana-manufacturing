@@ -12,9 +12,13 @@ website = "https://starofthewest.com"
 
 sector = "Food & consumer goods"
 products = ["Flour Milling"]
+naics = "311211"
 
 employees = 25
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Bakery Flour, Wheat Germ, Middlings & Bran. NAICS 311211: flour milling."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

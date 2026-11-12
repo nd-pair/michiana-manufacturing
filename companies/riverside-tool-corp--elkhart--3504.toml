@@ -12,9 +12,13 @@ website = "https://riversidetool.com"
 
 sector = "Mechatronics & automation"
 products = ["Sawmill and Woodworking Machinery Manufacturing"]
+naics = "333210"
 
 employees = 35
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Woodworking, Metalworking & Plastics Working Tools. NAICS 333210: sawmill and woodworking machinery manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

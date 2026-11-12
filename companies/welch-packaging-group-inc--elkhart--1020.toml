@@ -12,9 +12,13 @@ website = "https://welchpkg.com"
 
 sector = "Wood, paper & furniture"
 products = ["Corrugated and Solid Fiber Box Manufacturing"]
+naics = "322211"
 
 employees = 150
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Corporate Headquarters & Corrugated Materials, Point-Of-Purchase Displays & Foam Interiors. NAICS 322211: corrugated and solid fiber box manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

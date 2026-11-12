@@ -12,9 +12,13 @@ website = "https://nickellmoulding.com"
 
 sector = "Wood, paper & furniture"
 products = ["Other Millwork (including Flooring )"]
+naics = "321918"
 
 employees = 150
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Hardwood Mouldings. NAICS 321918: other millwork (including flooring )."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

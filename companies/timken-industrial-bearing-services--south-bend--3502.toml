@@ -12,9 +12,13 @@ website = "https://timken.com"
 
 sector = "Metal"
 products = ["Ball and Roller Bearing Manufacturing"]
+naics = "332991"
 
 employees = 25
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Rebuilt Anti-Friction Bearings & Rolling Elements. NAICS 332991: ball and roller bearing manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

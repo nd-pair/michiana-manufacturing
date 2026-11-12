@@ -12,9 +12,13 @@ website = "https://not available"
 
 sector = "Food & consumer goods"
 products = ["Frozen Fruit, Juice, and Vegetable Manufacturing"]
+naics = "311411"
 
 employees = 35
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Repackaged Frozen Fruits & Vegetables. NAICS 311411: frozen fruit, juice, and vegetable manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

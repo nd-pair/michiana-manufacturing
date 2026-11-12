@@ -12,9 +12,13 @@ website = "https://not available"
 
 sector = "Wood, paper & furniture"
 products = ["Wood Kitchen Cabinet and Countertop Manufacturing"]
+naics = "337110"
 
 employees = 60
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Kitchen Cabinets & Custom Millwork. NAICS 337110: wood kitchen cabinet and countertop manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

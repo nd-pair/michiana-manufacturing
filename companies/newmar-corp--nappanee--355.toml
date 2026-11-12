@@ -12,9 +12,13 @@ website = "https://newmarcorp.com"
 
 sector = "Vehicles & RVs"
 products = ["Motor Home Manufacturing"]
+naics = "336213"
 
 employees = 1000
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Recreational Vehicles, Motor Homes & Travel & Fifth Wheel Trailers. NAICS 336213: motor home manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

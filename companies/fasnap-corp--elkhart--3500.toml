@@ -12,9 +12,13 @@ website = "https://fasnap.com"
 
 sector = "Medical devices & other"
 products = ["Fastener, Button, Needle, and Pin Manufacturing"]
+naics = "339993"
 
 employees = 35
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Snap, Specialty Textile & Plastic Molded Fasteners, Webbing & Hook & Loop Tapes, Grommets, Upholstery Covered Buttons. NAICS 339993: fastener, button, needle, and pin manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

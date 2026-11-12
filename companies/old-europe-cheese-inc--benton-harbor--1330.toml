@@ -12,9 +12,13 @@ website = "https://oldeuropecheese.com"
 
 sector = "Food & consumer goods"
 products = ["Cheese Manufacturing"]
+naics = "311513"
 
 employees = 75
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Cheese. NAICS 311513: cheese manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

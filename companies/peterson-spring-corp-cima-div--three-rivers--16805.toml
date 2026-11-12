@@ -12,9 +12,13 @@ website = "https://pspring.com"
 
 sector = "Metal"
 products = ["Hardware Manufacturing"]
+naics = "332510"
 
 employees = 80
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Automotive Hose Clamps, Wire Forms & Springs. NAICS 332510: hardware manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

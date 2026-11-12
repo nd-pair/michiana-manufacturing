@@ -12,9 +12,13 @@ website = "https://transtechprecision.com"
 
 sector = "Vehicles & RVs"
 products = ["Motor Home Manufacturing"]
+naics = "336213"
 
 employees = 70
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Decorative Hardware, Screws, Nuts, Bolts & Axle Fasteners. NAICS 336213: motor home manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

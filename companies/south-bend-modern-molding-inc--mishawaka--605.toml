@@ -12,9 +12,13 @@ website = "https://sbmm.com"
 
 sector = "Materials & composites"
 products = ["All Other Rubber Product Manufacturing"]
+naics = "326299"
 
 employees = 85
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Molded Rubber Products & Rubber Assemblies. NAICS 326299: all other rubber product manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

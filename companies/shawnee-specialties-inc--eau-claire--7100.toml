@@ -12,9 +12,13 @@ website = "https://shawneeinc.com"
 
 sector = "Metal"
 products = ["Nonferrous (except Aluminum) Die-Casting Foundries"]
+naics = "331522"
 
 employees = 47
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Die Casting. NAICS 331522: nonferrous (except aluminum) die-casting foundries."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

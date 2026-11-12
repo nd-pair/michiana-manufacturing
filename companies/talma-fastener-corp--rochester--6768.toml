@@ -12,9 +12,13 @@ website = "https://talmafastener.com"
 
 sector = "Metal"
 products = ["Bolt, Nut, Screw, Rivet, and Washer Manufacturing"]
+naics = "332722"
 
 employees = 30
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Cold Headed Fasteners, Screws & Bolts. NAICS 332722: bolt, nut, screw, rivet, and washer manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

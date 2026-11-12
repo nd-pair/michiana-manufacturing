@@ -12,9 +12,13 @@ website = "https://naptools.com"
 
 sector = "Mechatronics & automation"
 products = ["Cutting Tool and Machine Tool Accessory Manufacturing"]
+naics = "333515"
 
 employees = 15
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Tool Sharpening. NAICS 333515: cutting tool and machine tool accessory manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

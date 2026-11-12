@@ -12,9 +12,13 @@ website = "https://strancoinc.com"
 
 sector = "Wood, paper & furniture"
 products = ["Other Commercial Printing"]
+naics = "323119"
 
 employees = 20
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Equipment Warning & Thermal Transfer Labels, Adhesive Letters & Numbers, Vinyl Tags, Safety Signs, Barricade Tape. NAICS 323119: other commercial printing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

@@ -12,9 +12,13 @@ website = "https://sodushardchrome.com"
 
 sector = "Metal"
 products = ["Electroplating, Plating, Polishing, Anodizing and Coloring"]
+naics = "332813"
 
 employees = 20
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Steel & Hard Chrome Plating & Grinding. NAICS 332813: electroplating, plating, polishing, anodizing and coloring."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

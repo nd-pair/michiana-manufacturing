@@ -12,9 +12,13 @@ website = "https://xcel.com"
 
 sector = "Electronics"
 products = ["Other Measuring and Controlling Device Manufacturing"]
+naics = "334519"
 
 employees = 22
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Electrical Control Panels. NAICS 334519: other measuring and controlling device manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

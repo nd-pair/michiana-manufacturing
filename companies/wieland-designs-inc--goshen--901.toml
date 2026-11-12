@@ -12,9 +12,13 @@ website = "https://wielanddesigns.com"
 
 sector = "Wood, paper & furniture"
 products = ["Nonupholstered Wood Household Furniture Manufacturing"]
+naics = "337122"
 
 employees = 225
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Furniture & Components. NAICS 337122: nonupholstered wood household furniture manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

@@ -12,9 +12,13 @@ website = "https://not available"
 
 sector = "Metal"
 products = ["Industrial Pattern Manufacturing"]
+naics = "332997"
 
 employees = 15
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Industrial Patterns. NAICS 332997: industrial pattern manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

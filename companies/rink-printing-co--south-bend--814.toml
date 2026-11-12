@@ -12,9 +12,13 @@ website = "https://rinkprinting.com"
 
 sector = "Wood, paper & furniture"
 products = ["Commercial Lithographic Printing"]
+naics = "323110"
 
 employees = 55
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Offset & Color Printing. NAICS 323110: commercial lithographic printing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

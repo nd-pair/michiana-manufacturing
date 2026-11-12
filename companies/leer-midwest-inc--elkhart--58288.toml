@@ -12,9 +12,13 @@ website = "https://leer.com"
 
 sector = "Vehicles & RVs"
 products = ["Motor Vehicle Body Manufacturing"]
+naics = "336211"
 
 employees = 180
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Aluminum & Fiberglass Pick-Up Cabs & Covers. NAICS 336211: motor vehicle body manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

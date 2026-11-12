@@ -12,9 +12,13 @@ website = "https://itequipment.com"
 
 sector = "Mechatronics & automation"
 products = ["Conveyor and Conveying Equipment Manufacturing"]
+naics = "333922"
 
 employees = 43
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Conveyors, Tumblers, Steel Fabrication & Industrial Machinery. NAICS 333922: conveyor and conveying equipment manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

@@ -12,9 +12,13 @@ website = "https://not available"
 
 sector = "Metal"
 products = ["Metal Tank (heavy Gauge) Manufacturing"]
+naics = "332420"
 
 employees = 16
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Steel Storage Tanks. NAICS 332420: metal tank (heavy gauge) manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

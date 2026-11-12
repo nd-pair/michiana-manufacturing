@@ -12,9 +12,13 @@ website = "https://criterioncatalysts.com"
 
 sector = "Materials & composites"
 products = ["All Other Basic Inorganic Chemical Manufacturing"]
+naics = "325188"
 
 employees = 73
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Precipitated Alumina Powders. NAICS 325188: all other basic inorganic chemical manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

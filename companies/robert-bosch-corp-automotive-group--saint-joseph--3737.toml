@@ -12,9 +12,13 @@ website = "https://boschusa.com"
 
 sector = "Vehicles & RVs"
 products = ["Railroad Rolling Stock Manufacturing"]
+naics = "336510"
 
 employees = 700
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Brake Components. NAICS 336510: railroad rolling stock manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

@@ -12,9 +12,13 @@ website = "https://kadantjohnson.com"
 
 sector = "Metal"
 products = ["Sheet Metal Work Manufacturing"]
+naics = "332322"
 
 employees = 160
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Joints & Siphon Systems. NAICS 332322: sheet metal work manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

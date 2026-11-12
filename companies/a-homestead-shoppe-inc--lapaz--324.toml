@@ -12,9 +12,13 @@ website = "https://ahomesteadshoppe.com"
 
 sector = "Electronics"
 products = ["Residential Electric Lighting Fixture Manufacturing"]
+naics = "335121"
 
 employees = 25
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Lamps, Lamp Shades & Home Decorating Accessories. NAICS 335121: residential electric lighting fixture manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

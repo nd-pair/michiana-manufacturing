@@ -12,9 +12,13 @@ website = "https://copperandbrass.com"
 
 sector = "Metal"
 products = ["Aluminum Sheet, Plate, and Foil Manufacturing"]
+naics = "331315"
 
 employees = 35
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Aluminum Plate Processing. NAICS 331315: aluminum sheet, plate, and foil manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

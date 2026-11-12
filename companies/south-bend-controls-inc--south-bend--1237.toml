@@ -12,9 +12,13 @@ website = "https://sbcontrols.com"
 
 sector = "Metal"
 products = ["Industrial Valve Manufacturing"]
+naics = "332911"
 
 employees = 80
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Solenoid Valves & Regulators. NAICS 332911: industrial valve manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

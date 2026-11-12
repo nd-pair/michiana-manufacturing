@@ -12,9 +12,13 @@ website = "https://silgancontainers.com"
 
 sector = "Metal"
 products = ["Metal Can Manufacturing"]
+naics = "332431"
 
 employees = 81
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Steel Cans. NAICS 332431: metal can manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

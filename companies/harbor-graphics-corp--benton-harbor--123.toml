@@ -12,9 +12,13 @@ website = "https://imagemakers.com"
 
 sector = "Medical devices & other"
 products = ["Sign Manufacturing"]
+naics = "339950"
 
 employees = 54
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Fleet & Store Lettering & Graphic Imaging. NAICS 339950: sign manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

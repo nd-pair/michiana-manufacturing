@@ -12,9 +12,13 @@ website = "https://hbe-engineering.com"
 
 sector = "Metal"
 products = ["Industrial Valve Manufacturing"]
+naics = "332911"
 
 employees = 40
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Valves. NAICS 332911: industrial valve manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

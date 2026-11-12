@@ -12,9 +12,13 @@ website = "https://hitechduravent.com"
 
 sector = "Metal"
 products = ["All Other Miscellaneous Fabricated Metal Product Manufacturing"]
+naics = "332999"
 
 employees = 35
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Flexible Duct Hose. NAICS 332999: all other miscellaneous fabricated metal product manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

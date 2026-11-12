@@ -12,9 +12,13 @@ website = "https://eaglereadymix.com"
 
 sector = "Materials & composites"
 products = ["Ready-Mix Concrete Manufacturing"]
+naics = "327320"
 
 employees = 33
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Ready-Mixed Concrete. NAICS 327320: ready-mix concrete manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

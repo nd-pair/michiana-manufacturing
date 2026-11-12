@@ -12,9 +12,13 @@ website = "https://sofamordanek.com"
 
 sector = "Medical devices & other"
 products = ["Surgical Appliance and Supplies Manufacturing"]
+naics = "339113"
 
 employees = 550
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Spinal Implants. NAICS 339113: surgical appliance and supplies manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

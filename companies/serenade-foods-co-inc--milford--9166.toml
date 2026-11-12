@@ -12,9 +12,13 @@ website = "https://mapleleaffarms.com"
 
 sector = "Food & consumer goods"
 products = ["Poultry Processing"]
+naics = "311615"
 
 employees = 135
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Poultry Processing. NAICS 311615: poultry processing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

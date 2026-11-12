@@ -12,9 +12,13 @@ website = "https://metalstamp.com"
 
 sector = "Metal"
 products = ["Metal Stamping"]
+naics = "332116"
 
 employees = 15
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Metal Stampings & Fabrication, Including Small Tanks, Sheet Metal Fabrication, Tubing Coils & Stamping. NAICS 332116: metal stamping."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

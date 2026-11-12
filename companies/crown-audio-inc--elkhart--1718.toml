@@ -12,9 +12,13 @@ website = "https://crownaudio.com"
 
 sector = "Electronics"
 products = ["Audio and Video Equipment Manufacturing"]
+naics = "334310"
 
 employees = 500
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Amplifiers, Microphones & System Control Products. NAICS 334310: audio and video equipment manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

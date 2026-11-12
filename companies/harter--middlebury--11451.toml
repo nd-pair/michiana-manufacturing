@@ -12,9 +12,13 @@ website = "https://harter.com"
 
 sector = "Wood, paper & furniture"
 products = ["Wood Office Furniture Manufacturing"]
+naics = "337211"
 
 employees = 130
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Office Seating & Furniture. NAICS 337211: wood office furniture manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

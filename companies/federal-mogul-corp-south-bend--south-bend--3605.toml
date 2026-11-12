@@ -12,9 +12,13 @@ website = "https://federalmogul.com"
 
 sector = "Vehicles & RVs"
 products = ["Carburetor, Piston, Piston Ring, and Valve Manufacturing"]
+naics = "336311"
 
 employees = 425
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Automotive Pistons. NAICS 336311: carburetor, piston, piston ring, and valve manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

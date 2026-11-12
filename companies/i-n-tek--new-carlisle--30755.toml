@@ -12,9 +12,13 @@ website = "https://not available"
 
 sector = "Metal"
 products = ["Rolled Steel Shape Manufacturing"]
+naics = "331221"
 
 employees = 243
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Joint Venture Between Arcelormittal USA, Inc. & Nippon Steel USA, Inc. & Cold Rolled Steel. NAICS 331221: rolled steel shape manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

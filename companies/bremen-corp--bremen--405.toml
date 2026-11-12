@@ -12,9 +12,13 @@ website = "https://creativefoammedicalsystems.com"
 
 sector = "Materials & composites"
 products = ["Polystyrene Foam Product Manufacturing"]
+naics = "326140"
 
 employees = 33
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Medical & Laminated Vinyl Coated Foam Products & Die-Cut Foam. NAICS 326140: polystyrene foam product manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

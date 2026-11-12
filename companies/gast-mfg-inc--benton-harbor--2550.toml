@@ -12,9 +12,13 @@ website = "https://gastmfg.com"
 
 sector = "Mechatronics & automation"
 products = ["Air and Gas Compressor Manufacturing"]
+naics = "333912"
 
 employees = 400
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Vacuum Pumps, Air Motors & Compressors. NAICS 333912: air and gas compressor manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

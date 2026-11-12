@@ -12,9 +12,13 @@ website = "https://daltonfoundries.com"
 
 sector = "Metal"
 products = ["Other Nonferrous Foundries (except Die-Casting)"]
+naics = "331528"
 
 employees = 1000
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Corporate Headquarters & Gray Iron Castings. NAICS 331528: other nonferrous foundries (except die-casting)."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

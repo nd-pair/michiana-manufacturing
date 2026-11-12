@@ -12,9 +12,13 @@ website = "https://not available"
 
 sector = "Materials & composites"
 products = ["Vitreous China Plumbing Fixture and China and Earthenware Bathroom Accessories Manufacturing"]
+naics = "327111"
 
 employees = 60
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Bathroom Fixtures. NAICS 327111: vitreous china plumbing fixture and china and earthenware bathroom accessories manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

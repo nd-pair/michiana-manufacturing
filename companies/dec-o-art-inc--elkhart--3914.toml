@@ -12,9 +12,13 @@ website = "https://dec-o-art.com"
 
 sector = "Wood, paper & furniture"
 products = ["Die-Cut Paper and Paperboard Office Supplies Manufacturing"]
+naics = "322231"
 
 employees = 42
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Tags, Labels & Decals. NAICS 322231: die-cut paper and paperboard office supplies manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

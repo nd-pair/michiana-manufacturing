@@ -12,9 +12,13 @@ website = "https://masonite.com"
 
 sector = "Wood, paper & furniture"
 products = ["Wood Window and Door Manufacturing"]
+naics = "321911"
 
 employees = 300
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Wooden Interior Flush Doors. NAICS 321911: wood window and door manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

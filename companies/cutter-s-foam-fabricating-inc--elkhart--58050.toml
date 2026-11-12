@@ -12,9 +12,13 @@ website = "https://not available"
 
 sector = "Materials & composites"
 products = ["Urethane and Other Foam Product (except Polystyrene) Manufacturing"]
+naics = "326150"
 
 employees = 45
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Polyurethane Foam Fabrication. NAICS 326150: urethane and other foam product (except polystyrene) manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

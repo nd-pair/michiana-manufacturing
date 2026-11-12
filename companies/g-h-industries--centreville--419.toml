@@ -12,9 +12,13 @@ website = "https://ghplugs.com"
 
 sector = "Electronics"
 products = ["Electronic Connector Manufacturing"]
+naics = "334417"
 
 employees = 20
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Connectors, Injection Molding & General Machining Job Shop. NAICS 334417: electronic connector manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

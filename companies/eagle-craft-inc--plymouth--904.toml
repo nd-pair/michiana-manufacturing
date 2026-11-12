@@ -12,9 +12,13 @@ website = "https://eaglecaps.com"
 
 sector = "Materials & composites"
 products = ["Mineral Wool Manufacturing"]
+naics = "327993"
 
 employees = 25
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Fiberglass Truck Caps, Covers, Canoes & Motorcycle Trailers. NAICS 327993: mineral wool manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

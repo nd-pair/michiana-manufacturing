@@ -12,9 +12,13 @@ website = "https://silganplastics.com"
 
 sector = "Materials & composites"
 products = ["Plastics Bottle Manufacturing"]
+naics = "326160"
 
 employees = 500
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Plastic Bottles. NAICS 326160: plastics bottle manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

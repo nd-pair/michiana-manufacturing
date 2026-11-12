@@ -12,9 +12,13 @@ website = "https://sagermetal.com"
 
 sector = "Mechatronics & automation"
 products = ["Conveyor and Conveying Equipment Manufacturing"]
+naics = "333922"
 
 employees = 49
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Conveyors, Metal Fabrication & Laser Cutting. NAICS 333922: conveyor and conveying equipment manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

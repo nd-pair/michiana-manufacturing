@@ -12,9 +12,13 @@ website = "https://kibbechem.com"
 
 sector = "Materials & composites"
 products = ["Inorganic Dye and Pigment Manufacturing"]
+naics = "325131"
 
 employees = 40
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Plastic Pigments, Dispersions & Foaming Agents. NAICS 325131: inorganic dye and pigment manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

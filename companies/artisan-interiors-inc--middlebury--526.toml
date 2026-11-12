@@ -12,9 +12,13 @@ website = "https://artisan-interiors.com"
 
 sector = "Food & consumer goods"
 products = ["Curtain and Drapery Mills"]
+naics = "314121"
 
 employees = 60
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Draperies & Bedspreads. NAICS 314121: curtain and drapery mills."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

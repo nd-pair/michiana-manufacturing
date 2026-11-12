@@ -12,9 +12,13 @@ website = "https://commercialfluidpower.com"
 
 sector = "Metal"
 products = ["Iron and Steel Pipe and Tube Manufacturing From Purchased Steel"]
+naics = "331210"
 
 employees = 30
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Distributor of Carbon, Alloy, Aluminum & Stainless Steel Tubing & Bars, Including Honing, Skiving, Boring & Sawing. NAICS 331210: iron and steel pipe and tube manufacturing from purchased steel."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

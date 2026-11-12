@@ -12,9 +12,13 @@ website = "https://covalencecoatedproducts.com"
 
 sector = "Wood, paper & furniture"
 products = ["All Other Converted Paper Product Manufacturing"]
+naics = "322299"
 
 employees = 100
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Paper Products. NAICS 322299: all other converted paper product manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

@@ -12,9 +12,13 @@ website = "https://statetool.com"
 
 sector = "Electronics"
 products = ["Current-Carrying Wiring Device Manufacturing"]
+naics = "335931"
 
 employees = 80
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Switches, Including Wire Harnesses & Light Socket Assemblies for Appliances. NAICS 335931: current-carrying wiring device manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

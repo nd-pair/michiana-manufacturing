@@ -12,9 +12,13 @@ website = "https://not available"
 
 sector = "Vehicles & RVs"
 products = ["Automobile Manufacturing"]
+naics = "336111"
 
 employees = 20
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Tires & Wheels. NAICS 336111: automobile manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

@@ -12,9 +12,13 @@ website = "https://indianacarton.com"
 
 sector = "Wood, paper & furniture"
 products = ["Folding Paperboard Box Manufacturing"]
+naics = "322212"
 
 employees = 65
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Paper Folding Boxes & Cartons. NAICS 322212: folding paperboard box manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

@@ -12,9 +12,13 @@ website = "https://cloversm.com"
 
 sector = "Metal"
 products = ["Sheet Metal Work Manufacturing"]
+naics = "332322"
 
 employees = 22
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Architectural Sheet Metal Fabrication of Industrial Blow Pipes, Dust Collectors, Make Up Air Units, RV Parts, Spirals. NAICS 332322: sheet metal work manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

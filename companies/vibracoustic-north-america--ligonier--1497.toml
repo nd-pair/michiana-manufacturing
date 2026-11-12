@@ -12,9 +12,13 @@ website = "https://freudenberg-nok.com"
 
 sector = "Vehicles & RVs"
 products = ["Gasoline Engine and Engine Parts Manufacturing"]
+naics = "336312"
 
 employees = 200
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Automotive Motor Mounts. NAICS 336312: gasoline engine and engine parts manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

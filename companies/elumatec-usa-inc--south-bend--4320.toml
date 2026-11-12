@@ -12,9 +12,13 @@ website = "https://elumatecusa.com"
 
 sector = "Mechatronics & automation"
 products = ["Machine Tool (metal Cutting Types) Manufacturing"]
+naics = "333512"
 
 employees = 19
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Metal Cutting Machine Tools. NAICS 333512: machine tool (metal cutting types) manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

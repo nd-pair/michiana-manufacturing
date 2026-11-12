@@ -12,9 +12,13 @@ website = "https://not available"
 
 sector = "Electronics"
 products = ["Relay and Industrial Control Manufacturing"]
+naics = "335314"
 
 employees = 40
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Electronic Controls & Printed Circuit Boards. NAICS 335314: relay and industrial control manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

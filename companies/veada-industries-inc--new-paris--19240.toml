@@ -12,9 +12,13 @@ website = "https://veada.com"
 
 sector = "Wood, paper & furniture"
 products = ["Institutional Furniture Manufacturing"]
+naics = "337127"
 
 employees = 500
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Boat Seating for Bass Boats, Runaboats, Cruisers & Pontoons & Tents & Cushions for Pop-Up Campers. NAICS 337127: institutional furniture manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

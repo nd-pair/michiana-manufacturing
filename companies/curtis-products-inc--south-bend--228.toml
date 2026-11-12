@@ -12,9 +12,13 @@ website = "https://curtisproducts.com"
 
 sector = "Metal"
 products = ["Iron and Steel Pipe and Tube Manufacturing From Purchased Steel"]
+naics = "331210"
 
 employees = 200
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Tube Bending. NAICS 331210: iron and steel pipe and tube manufacturing from purchased steel."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

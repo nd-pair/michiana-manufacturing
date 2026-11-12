@@ -12,9 +12,13 @@ website = "https://kmccontrols.com"
 
 sector = "Electronics"
 products = ["Automatic Environmental Control Manufacturing for Residential, Commercial, and Appliance Use"]
+naics = "334512"
 
 employees = 250
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Building Automation Systems & HVAC Controls. NAICS 334512: automatic environmental control manufacturing for residential, commercial, and appliance use."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

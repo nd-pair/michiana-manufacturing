@@ -3,6 +3,17 @@
       <section class="section mm-band" aria-label="The map">
       <div class="mm-app" id="mm-app">
         <div class="mm-wrap">
+          <div class="mm-layerbar" role="group" aria-label="Layers and filters">
+            <span class="mm-lb">Layers</span>
+            <button class="mm-chip" id="lay-net" type="button" aria-pressed="false">Notre Dame network</button>
+            <button class="mm-chip" id="lay-rings" type="button" aria-pressed="false">Distance rings</button>
+            <span class="mm-lb">Filters</span>
+            <button class="mm-chip" id="f-fed" type="button" aria-pressed="false">Federal contracts or grants</button>
+            <button class="mm-chip" id="f-fda" type="button" aria-pressed="false">FDA-registered</button>
+            <span class="mm-lb">Share</span>
+            <button class="mm-chip" id="copylink" type="button">Copy link to this view</button>
+            <button class="mm-chip" id="csv" type="button">Download roster CSV</button>
+          </div>
           <div class="mm-grid">
             <div class="mm-panel">
               <div class="mm-ph"><h2>Where they are</h2><span class="mm-count" id="shown"></span></div>
@@ -21,9 +32,15 @@
                 <div class="mm-hist"><input class="mm-search" id="tagsearch" type="search" placeholder="Find a product or service, e.g. sheet metal" aria-label="Filter the product list"><div class="mm-tagbox" id="tags"></div></div></div>
             </div>
           </div>
+          <div class="mm-grid2">
+            <div class="mm-panel"><div class="mm-ph"><h2>Federal footprint</h2><span class="mm-count" id="fedcount"></span></div><div class="mm-hist" id="federal"></div></div>
+            <div class="mm-panel"><div class="mm-ph"><h2>Capabilities</h2><span class="mm-count">click to filter · gap = one or none</span></div><div class="mm-hist" id="caps"></div></div>
+            <div class="mm-panel"><div class="mm-ph"><h2>Manufacturing employment by county</h2><span class="mm-count" id="qcewnote"></span></div><div class="mm-chart" id="qcew"></div></div>
+            <div class="mm-panel"><div class="mm-ph"><h2>Timeline</h2><span class="mm-count">openings, expansions, closures, funding</span></div><div class="mm-events" id="events"></div></div>
+          </div>
           <div class="mm-panel mm-roster">
             <div class="mm-ph"><h2>Roster</h2><button class="mm-chip" id="clear" type="button">Clear all filters</button></div>
-            <table id="table"><thead><tr><th>Company</th><th>Sector</th><th>Employees</th><th>Products &amp; services</th><th>Website</th></tr></thead><tbody></tbody></table>
+            <table id="table"><thead><tr><th>Company</th><th>Sector</th><th>Employees</th><th>Products &amp; services</th><th>Federal</th><th>Website</th></tr></thead><tbody></tbody></table>
           </div>
           <p class="mm-foot" id="foot"></p>
         </div>

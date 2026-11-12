@@ -12,9 +12,13 @@ website = "https://episeating.com"
 
 sector = "Wood, paper & furniture"
 products = ["Institutional Furniture Manufacturing"]
+naics = "337127"
 
 employees = 100
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Technical & Industrial School Seating & Work Stations. NAICS 337127: institutional furniture manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

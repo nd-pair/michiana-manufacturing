@@ -12,9 +12,13 @@ website = "https://nextechcorp.net"
 
 sector = "Wood, paper & furniture"
 products = ["Wood Office Furniture Manufacturing"]
+naics = "337211"
 
 employees = 15
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Trading Desks. NAICS 337211: wood office furniture manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

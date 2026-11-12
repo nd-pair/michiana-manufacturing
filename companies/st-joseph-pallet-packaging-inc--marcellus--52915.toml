@@ -12,9 +12,13 @@ website = "https://not available"
 
 sector = "Wood, paper & furniture"
 products = ["Wood Container and Pallet Manufacturing"]
+naics = "321920"
 
 employees = 15
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Wooden Pallets. NAICS 321920: wood container and pallet manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

@@ -12,9 +12,13 @@ website = "https://annieoakley.com"
 
 sector = "Medical devices & other"
 products = ["Costume Jewelry and Novelty Manufacturing"]
+naics = "339914"
 
 employees = 16
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Jewelry, Belts, Scarves, Perfumes, Bath & Body Products. NAICS 339914: costume jewelry and novelty manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

@@ -12,9 +12,13 @@ website = "https://not available"
 
 sector = "Vehicles & RVs"
 products = ["Travel Trailer and Camper Manufacturing"]
+naics = "336214"
 
 employees = 240
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Travel Trailers & Folding Tent Campers. NAICS 336214: travel trailer and camper manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

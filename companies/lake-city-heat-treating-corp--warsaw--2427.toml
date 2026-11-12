@@ -12,9 +12,13 @@ website = "https://lakecityheattreating.com"
 
 sector = "Metal"
 products = ["Metal Heat Treating"]
+naics = "332811"
 
 employees = 16
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Heat Treating & Hot Isostatic Pressing. NAICS 332811: metal heat treating."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

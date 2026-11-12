@@ -12,9 +12,13 @@ website = "https://internationalbakers.com"
 
 sector = "Food & consumer goods"
 products = ["Flavoring Syrup and Concentrate Manufacturing"]
+naics = "311930"
 
 employees = 20
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Dry & Liquid Flavors. NAICS 311930: flavoring syrup and concentrate manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

@@ -12,9 +12,13 @@ website = "https://not available"
 
 sector = "Electronics"
 products = ["Semiconductor and Related Device Manufacturing"]
+naics = "334413"
 
 employees = 30
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Automotive & Industrial Rectifiers & Diodes. NAICS 334413: semiconductor and related device manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

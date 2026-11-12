@@ -12,9 +12,13 @@ website = "https://moldedfoamproducts.com"
 
 sector = "Medical devices & other"
 products = ["Sporting and Athletic Goods Manufacturing"]
+naics = "339920"
 
 employees = 20
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Molded Urethane Foam. NAICS 339920: sporting and athletic goods manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

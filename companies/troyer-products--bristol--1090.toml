@@ -12,9 +12,13 @@ website = "https://not available"
 
 sector = "Wood, paper & furniture"
 products = ["Coated and Laminated Paper Manufacturing"]
+naics = "322222"
 
 employees = 30
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Curtain & Upholstered Furniture Tape, Straps, Buttons, Packaging & Moldings. NAICS 322222: coated and laminated paper manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

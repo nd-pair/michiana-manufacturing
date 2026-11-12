@@ -12,9 +12,13 @@ website = "https://protofab.net"
 
 sector = "Electronics"
 products = ["Switchgear and Switchboard Apparatus Manufacturing"]
+naics = "335313"
 
 employees = 30
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Instrument Panels & Wire Harnesses. NAICS 335313: switchgear and switchboard apparatus manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

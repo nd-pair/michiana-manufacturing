@@ -12,9 +12,13 @@ website = "https://k-f.com"
 
 sector = "Wood, paper & furniture"
 products = ["Prepress Services"]
+naics = "323122"
 
 employees = 90
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Graphic Arts Equipment. NAICS 323122: prepress services."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

@@ -12,9 +12,13 @@ website = "https://transhield-usa.com"
 
 sector = "Materials & composites"
 products = ["Unlaminated Plastics Film and Sheet (except Packaging) Manufacturing"]
+naics = "326113"
 
 employees = 28
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Polyethylene Film Covering for Motor Vehicles & Boats. NAICS 326113: unlaminated plastics film and sheet (except packaging) manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

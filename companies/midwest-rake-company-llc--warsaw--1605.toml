@@ -12,9 +12,13 @@ website = "https://midwestrake.com"
 
 sector = "Metal"
 products = ["Hand and Edge Tool Manufacturing"]
+naics = "332212"
 
 employees = 35
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Long Handled Tools for Lawn & Garden, Landscaping, Irrigation, Sports Turf, Concrete Repair, Asphalt. NAICS 332212: hand and edge tool manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

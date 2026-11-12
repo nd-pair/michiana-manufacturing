@@ -12,9 +12,13 @@ website = "https://mtdsales.com"
 
 sector = "Mechatronics & automation"
 products = ["Special Die and Tool, Die Set, Jig, and Fixture Manufacturing"]
+naics = "333514"
 
 employees = 25
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Automated Equipment & Production Tooling, Including Special Machines, Forming, Bending, Rolling, Form Lines, Roll Form. NAICS 333514: special die and tool, die set, jig, and fixture manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

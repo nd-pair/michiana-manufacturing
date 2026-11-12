@@ -12,9 +12,13 @@ website = "https://mantank.com"
 
 sector = "Metal"
 products = ["Power Boiler and Heat Exchanger Manufacturing"]
+naics = "332410"
 
 employees = 210
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Propane Cylinders & Pressure Vessels. NAICS 332410: power boiler and heat exchanger manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

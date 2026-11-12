@@ -12,9 +12,13 @@ website = "https://centralrubberinc.com"
 
 sector = "Materials & composites"
 products = ["Rubber Product Manufacturing for Mechanical Use"]
+naics = "326291"
 
 employees = 20
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Mechanical Rubber Molding Products, Rubber-To-Metal Bonding & Injection Plastics. NAICS 326291: rubber product manufacturing for mechanical use."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

@@ -79,7 +79,8 @@ def main():
             "addr": c.get("address", ""), "website": c.get("website", ""), "lat": lat, "lon": lon, "prec": prec,
             "sector": c["sector"], "tags": list(c["products"]), "emp": c.get("employees") or None,
             "emp_scope": c.get("employees_scope", "site"), "emp_note": c.get("employees_note", ""),
-            "blurb": c.get("description", ""),
+            "blurb": c.get("description", ""), "naics": str(c.get("naics", "")), "certs": list(c.get("certifications", [])),
+            "source": c.get("source", "company website, filings, press and directories"), "updated": str(c.get("updated", "")),
         })
     # spread companies that share one address in a small ring (in degrees)
     import math
@@ -93,6 +94,28 @@ def main():
                 a = 2 * math.pi * i / len(os_)
                 o["lat"] = round(o["lat"] + 0.0045 * math.sin(a), 5); o["lon"] = round(o["lon"] + 0.006 * math.cos(a), 5)
 
+    # sidecar datasets produced by the pull scripts (optional; the build works without them)
+    def sidecar(name):
+        try:
+            return json.load(open(P("data", name)))
+        except FileNotFoundError:
+            return {"companies": {}}
+    federal, fda, qcew, sbir = sidecar("federal.json"), sidecar("fda.json"), sidecar("qcew.json"), sidecar("sbir.json")
+    for o in companies:
+        f = federal["companies"].get(o["id"]); o["federal"] = {"contracts": f["contracts"], "grants": f["grants"], "total": f["total"]} if f else None
+        sb = sbir["companies"].get(o["id"]); o["sbir"] = {"count": sb["count"], "amount": sb["amount"], "agencies": sb.get("agencies", [])} if sb else None
+        d = fda["companies"].get(o["id"])
+        if d:
+            o["certs"] = o["certs"] + ["FDA registered device establishment"]
+            o["fda"] = {"fei": d.get("fei"), "types": d.get("establishment_types", []), "devices": d.get("device_names", [])}
+    # process capabilities from NAICS prefixes and product keywords
+    caps = load_toml(P("data", "capabilities.toml"))["capability"]
+    for o in companies:
+        text = " ".join(o["tags"] + [o["blurb"]]).lower()
+        o["caps"] = [k["name"] for k in caps if any(o["naics"].startswith(pfx) for pfx in k["naics"]) or any(kw in text for kw in k["keywords"])]
+    ids = {o["id"] for o in companies}
+    links = [l for l in load_toml(P("data", "collaborations.toml")).get("link", []) if (l["from"] == "notre-dame" or l["from"] in ids) and l["to"] in ids]
+    events = sorted(load_toml(P("data", "events.toml")).get("event", []), key=lambda e: str(e["date"]), reverse=True)
     counties = json.load(open(P("data", "region_counties.json")))
     lakes = [o["ring"] for o in json.load(open(P("data", "great_lakes.json"))) if len(o["ring"]) >= 80 and "Cabonga" not in o["name"]]
     data = {
@@ -107,6 +130,10 @@ def main():
         "center": [places["view"]["center_lat"], places["view"]["center_lon"]],
         "landmark": {"name": places["view"]["landmark_name"], "lat": places["view"]["landmark_lat"], "lon": places["view"]["landmark_lon"]},
         "built": datetime.date.today().isoformat(),
+        "capabilities": [k["name"] for k in caps],
+        "links": links, "events": events,
+        "federalAgencies": federal.get("agencies", []), "federalSource": federal.get("source", ""), "federalPulled": federal.get("pulled", ""),
+        "fdaSource": fda.get("source", ""), "qcew": qcew.get("counties", {}), "qcewSource": qcew.get("source", ""),
     }
     # a content hash in the asset URLs, so browsers and the Pages CDN never serve a stale script with a new page
     stamp = hashlib.sha1((json.dumps(data, sort_keys=True) + read("site", "app.js") + read("site", "app.css")).encode()).hexdigest()[:10]
@@ -132,8 +159,9 @@ def main():
     with open(P("docs", "index.html"), "w", encoding="utf-8") as fh:
         fh.write(page)
     open(P("docs", ".nojekyll"), "w").close()
-    print("built docs/ with %d companies (%d at street-address precision, %d with a headcount)"
-          % (len(companies), sum(1 for c in companies if c["prec"] == "address"), sum(1 for c in companies if c["emp"])))
+    print("built docs/ with %d companies (%d at street-address precision, %d with a headcount, %d with federal awards, %d FDA-registered, %d collaboration links, %d events)"
+          % (len(companies), sum(1 for c in companies if c["prec"] == "address"), sum(1 for c in companies if c["emp"]),
+             sum(1 for c in companies if c.get("federal")), sum(1 for c in companies if c.get("fda")), len(links), len(events)))
 
 if __name__ == "__main__":
     main()

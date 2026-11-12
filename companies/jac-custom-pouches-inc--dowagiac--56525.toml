@@ -12,9 +12,13 @@ website = "https://jaccustompouches.com"
 
 sector = "Food & consumer goods"
 products = ["Textile Bag Mills"]
+naics = "314911"
 
 employees = 25
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Mattress Covers & Pouches. NAICS 314911: textile bag mills."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

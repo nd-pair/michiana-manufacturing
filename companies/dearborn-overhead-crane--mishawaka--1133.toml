@@ -12,9 +12,13 @@ website = "https://dearborncrane.com"
 
 sector = "Mechatronics & automation"
 products = ["Overhead Traveling Crane, Hoist, and Monorail System Manufacturing"]
+naics = "333923"
 
 employees = 19
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Cranes, Jib Cranes & Hoists. NAICS 333923: overhead traveling crane, hoist, and monorail system manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

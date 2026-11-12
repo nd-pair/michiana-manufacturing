@@ -1,0 +1,582 @@
+{
+"source": "USAspending.gov: procurement contracts and grants by recipient and awarding agency, FY2016 to date, recipients located in the Michiana counties",
+"pulled": "2026-11-11",
+"companies": {
+"amgeneral": {
+"contracts": 10770684792,
+"grants": 0,
+"recipient_names": [
+"AM GENERAL LLC"
+],
+"total": 10770684792
+},
+"zimmer-holdings-inc-warsaw-1800": {
+"contracts": 312881651,
+"grants": 0,
+"recipient_names": [
+"ZIMMER US INC",
+"ZIMMER, INC."
+],
+"total": 312881651
+},
+"transhield-inc-elkhart-2932": {
+"contracts": 35965545,
+"grants": 0,
+"recipient_names": [
+"TRANSHIELD, INC."
+],
+"total": 35965545
+},
+"flexible": {
+"contracts": 34332446,
+"grants": 0,
+"recipient_names": [
+"FLEXIBLE CONCEPTS INC"
+],
+"total": 34332446
+},
+"ncp-coatings-inc-niles-225": {
+"contracts": 24531949,
+"grants": 0,
+"recipient_names": [
+"NCP COATINGS INC",
+"NCP COATINGS, LLC"
+],
+"total": 24531949
+},
+"simba": {
+"contracts": 23053901,
+"grants": 0,
+"recipient_names": [
+"SIMBA CHAIN INC"
+],
+"total": 23053901
+},
+"leco-corp-saint-joseph-3000": {
+"contracts": 16524845,
+"grants": 0,
+"recipient_names": [
+"LECO CORP"
+],
+"total": 16524845
+},
+"elkhart-brass-mfg-co-elkhart-1302": {
+"contracts": 11548048,
+"grants": 0,
+"recipient_names": [
+"ELKHART BRASS MANUFACTURING COMPANY, LLC"
+],
+"total": 11548048
+},
+"depuy-orthopaedics-inc-warsaw-700": {
+"contracts": 7009380,
+"grants": 0,
+"recipient_names": [
+"DEPUY ORTHOPAEDICS, INC."
+],
+"total": 7009380
+},
+"biomet-inc-warsaw-56": {
+"contracts": 6854019,
+"grants": 0,
+"recipient_names": [
+"BIOMET, INC."
+],
+"total": 6854019
+},
+"crystal-lake-llc-warsaw-6500": {
+"contracts": 3676133,
+"grants": 0,
+"recipient_names": [
+"CRYSTAL LAKE LLC"
+],
+"total": 3676133
+},
+"remote-controls-inc-mishawaka-512": {
+"contracts": 3221356,
+"grants": 0,
+"recipient_names": [
+"REMOTE CONTROLS INC"
+],
+"total": 3221356
+},
+"maxi-blast-inc-south-bend-3650": {
+"contracts": 1970207,
+"grants": 0,
+"recipient_names": [
+"MAXI-BLAST INC"
+],
+"total": 1970207
+},
+"agdia-inc-elkhart-30380": {
+"contracts": 1886782,
+"grants": 360328,
+"recipient_names": [
+"AGDIA INC"
+],
+"total": 2247110
+},
+"just-packaging-inc-new-carlisle-54340": {
+"contracts": 1784847,
+"grants": 0,
+"recipient_names": [
+"JUST PACKAGING, INC"
+],
+"total": 1784847
+},
+"orthopediatrics-corp-warsaw-210": {
+"contracts": 1624093,
+"grants": 0,
+"recipient_names": [
+"ORTHOPEDIATRICS CORP"
+],
+"total": 1624093
+},
+"lippert-components-inc-goshen-16700": {
+"contracts": 619010,
+"grants": 0,
+"recipient_names": [
+"LIPPERT COMPONENTS INC"
+],
+"total": 619010
+},
+"acousticom-corp-elkhart-28180": {
+"contracts": 559003,
+"grants": 0,
+"recipient_names": [
+"ACOUSTICOM CORP"
+],
+"total": 559003
+},
+"indiana-chair-frame-co-middlebury-410": {
+"contracts": 528811,
+"grants": 0,
+"recipient_names": [
+"INDIANA CHAIR FRAME COMPANY"
+],
+"total": 528811
+},
+"hoosier-spring-co-inc-south-bend-4604": {
+"contracts": 478589,
+"grants": 0,
+"recipient_names": [
+"HOOSIER SPRING CO INC"
+],
+"total": 478589
+},
+"bbmolders": {
+"contracts": 394376,
+"grants": 0,
+"recipient_names": [
+"B & B MOLDERS, LLC"
+],
+"total": 394376
+},
+"dekker-vacuum-technologies-inc-michigan-city-935": {
+"contracts": 307763,
+"grants": 0,
+"recipient_names": [
+"DEKKER VACUUM TECHNOLOGIES, INC."
+],
+"total": 307763
+},
+"c-s-machine-products-inc-buchanan-215": {
+"contracts": 258150,
+"grants": 0,
+"recipient_names": [
+"C & S MACHINE PRODUCTS INC"
+],
+"total": 258150
+},
+"alpha-resources-inc-stevensville-3090": {
+"contracts": 89200,
+"grants": 0,
+"recipient_names": [
+"ALPHA RESOURCES LLC"
+],
+"total": 89200
+},
+"electronics-inc-mishawaka-56790": {
+"contracts": 86210,
+"grants": 0,
+"recipient_names": [
+"ELECTRONICS INCORPORATED"
+],
+"total": 86210
+},
+"derby-inc-south-bend-24350": {
+"contracts": 84808,
+"grants": 0,
+"recipient_names": [
+"DERBY INC"
+],
+"total": 84808
+},
+"cts": {
+"contracts": 75465,
+"grants": 0,
+"recipient_names": [
+"CTS CORPORATION"
+],
+"total": 75465
+},
+"fasnap-corp-elkhart-3500": {
+"contracts": 57316,
+"grants": 0,
+"recipient_names": [
+"FASNAP CORP"
+],
+"total": 57316
+},
+"thermal-ceramics-inc-elkhart-2730": {
+"contracts": 56891,
+"grants": 0,
+"recipient_names": [
+"THERMAL CERAMICS INC"
+],
+"total": 56891
+},
+"recreation-by-design-inc-elkhart-21746": {
+"contracts": 51391,
+"grants": 0,
+"recipient_names": [
+"RECREATION BY DESIGN, LLC"
+],
+"total": 51391
+},
+"laketronics-inc-cromwell-2": {
+"contracts": 49144,
+"grants": 0,
+"recipient_names": [
+"LAKETRONICS INC"
+],
+"total": 49144
+},
+"forestriver": {
+"contracts": 48670,
+"grants": 0,
+"recipient_names": [
+"FOREST RIVER, INC"
+],
+"total": 48670
+},
+"damping": {
+"contracts": 45824,
+"grants": 0,
+"recipient_names": [
+"DAMPING TECHNOLOGIES INC"
+],
+"total": 45824
+},
+"wabash-valley-mfg-inc-silver-lake-505": {
+"contracts": 43644,
+"grants": 0,
+"recipient_names": [
+"WABASH VALLEY MANUFACTURING INC"
+],
+"total": 43644
+},
+"supreme-industries-inc-goshen-2581": {
+"contracts": 33260,
+"grants": 0,
+"recipient_names": [
+"SUPREME CORPORATION"
+],
+"total": 33260
+},
+"par-kan-co-silver-lake-2915": {
+"contracts": 33084,
+"grants": 0,
+"recipient_names": [
+"PAR-KAN CO"
+],
+"total": 33084
+},
+"parker-hannifin-corp-goshen-1525": {
+"contracts": 32321,
+"grants": 0,
+"recipient_names": [
+"PARKER-HANNIFIN CORP"
+],
+"total": 32321
+},
+"dwyer-instruments-inc-kingsbury-3999": {
+"contracts": 29892,
+"grants": 0,
+"recipient_names": [
+"DWYER INSTRUMENTS INC"
+],
+"total": 29892
+},
+"accraline-inc-bremen-1420": {
+"contracts": 18425,
+"grants": 0,
+"recipient_names": [
+"ACCRALINE INC"
+],
+"total": 18425
+},
+"metalcraft-precision-machining-inc-elkhart-56854": {
+"contracts": 14063,
+"grants": 0,
+"recipient_names": [
+"METALCRAFT PRECISION MACHINING, INC"
+],
+"total": 14063
+},
+"truck-accessories-group-inc-elkhart-28858": {
+"contracts": 11465,
+"grants": 0,
+"recipient_names": [
+"TRUCK ACCESSORIES GROUP, LLC"
+],
+"total": 11465
+},
+"meyer-glass-mirror-co-michigan-city-202": {
+"contracts": 10250,
+"grants": 0,
+"recipient_names": [
+"MEYER GLASS & MIRROR CO INC"
+],
+"total": 10250
+},
+"aluminum-trailer-co-nappanee-306": {
+"contracts": 8825,
+"grants": 0,
+"recipient_names": [
+"ALUMINUM TRAILER COMPANY, THE"
+],
+"total": 8825
+},
+"hoosier-crane-service-elkhart-58144": {
+"contracts": 7994,
+"grants": 0,
+"recipient_names": [
+"HOOSIER CRANE SERVICE COMPANY"
+],
+"total": 7994
+},
+"flexaust-warsaw-1510": {
+"contracts": 6690,
+"grants": 0,
+"recipient_names": [
+"FLEXAUST INC"
+],
+"total": 6690
+},
+"explorer-van-co-warsaw-2749": {
+"contracts": 6500,
+"grants": 0,
+"recipient_names": [
+"EXPLORER VAN COMPANY, INC."
+],
+"total": 6500
+},
+"g-a-l-gage-co-stevensville-2953": {
+"contracts": 6154,
+"grants": 0,
+"recipient_names": [
+"G.A.L. GAGE, CO."
+],
+"total": 6154
+},
+"allied-specialty-precision-inc-mishawaka-815": {
+"contracts": 4257,
+"grants": 0,
+"recipient_names": [
+"ALLIED SPECIALTY PRECISION INC"
+],
+"total": 4257
+},
+"niles-precision-co-niles-1308": {
+"contracts": 3800,
+"grants": 0,
+"recipient_names": [
+"NILES PRECISION CO"
+],
+"total": 3800
+},
+"sanlo-inc-michigan-city-400": {
+"contracts": 1802,
+"grants": 0,
+"recipient_names": [
+"SANLO INC"
+],
+"total": 1802
+},
+"b-b-industries-inc-elkhart-1121": {
+"contracts": 1206,
+"grants": 0,
+"recipient_names": [
+"B & B MANUFACTURING, INC."
+],
+"total": 1206
+},
+"bertrand": {
+"contracts": 570,
+"grants": 0,
+"recipient_names": [
+"BERTRAND PRODUCTS, INC."
+],
+"total": 570
+},
+"polygon": {
+"contracts": 517,
+"grants": 0,
+"recipient_names": [
+"POLYGON COMPANY"
+],
+"total": 517
+},
+"b-g-truck-conversions-inc-argos-10478": {
+"contracts": 0,
+"grants": 0,
+"recipient_names": [
+"B & G TRUCK CONVERSIONS, INC."
+],
+"total": 0
+},
+"da-lite-screen-company-inc-warsaw-3100": {
+"contracts": 0,
+"grants": 0,
+"recipient_names": [
+"DA-LITE SCREEN COMPANY, INC."
+],
+"total": 0
+},
+"scope-technologies-elkhart-2135": {
+"contracts": 0,
+"grants": 0,
+"recipient_names": [
+"SCOPE TECHNOLOGIES CORPORATION"
+],
+"total": 0
+},
+"river-valley-plastics-inc-elkhart-27339": {
+"contracts": 0,
+"grants": 0,
+"recipient_names": [
+"RIVER VALLEY PLASTICS INC"
+],
+"total": 0
+},
+"tl-industries-inc-elkhart-25876": {
+"contracts": 0,
+"grants": 0,
+"recipient_names": [
+"TL INDUSTRIES, INC."
+],
+"total": 0
+},
+"adec-industries-inc-elkhart-2700": {
+"contracts": -919,
+"grants": 0,
+"recipient_names": [
+"ADEC, INC"
+],
+"total": -919
+},
+"goodwill-industries-of-michiana-inc-south-bend-1805": {
+"contracts": 0,
+"grants": 567171,
+"recipient_names": [
+"GOODWILL INDUSTRIES OF MICHIANA INC"
+],
+"total": 567171
+},
+"honeyville-metal-inc-topeka-4200": {
+"contracts": 0,
+"grants": 545167,
+"recipient_names": [
+"HONEYVILLE METAL, LLC"
+],
+"total": 545167
+},
+"kingsbury-elevator-inc-kingsbury-5621": {
+"contracts": 0,
+"grants": 108250,
+"recipient_names": [
+"KINGSBURY ELEVATOR, INC."
+],
+"total": 108250
+},
+"lakeshore-die-cast-inc-baroda-8829": {
+"contracts": 0,
+"grants": 108000,
+"recipient_names": [
+"LAKESHORE DIE CAST, INC"
+],
+"total": 108000
+},
+"culver-duck-farms-inc-middlebury-12215": {
+"contracts": 0,
+"grants": 75031,
+"recipient_names": [
+"CULVER DUCK FARMS INC."
+],
+"total": 75031
+}
+},
+"agencies": [
+{
+"name": "Department of Defense",
+"contracts": 15257894990,
+"grants": 122048167
+},
+{
+"name": "Department of Health and Human Services",
+"contracts": 19500226,
+"grants": 771594746
+},
+{
+"name": "Department of Housing and Urban Development",
+"contracts": 0,
+"grants": 386254373
+},
+{
+"name": "Department of Veterans Affairs",
+"contracts": 370183028,
+"grants": 2331303
+},
+{
+"name": "National Science Foundation",
+"contracts": 0,
+"grants": 363561443
+},
+{
+"name": "Department of Transportation",
+"contracts": 70628,
+"grants": 347580606
+},
+{
+"name": "Department of Agriculture",
+"contracts": 208190684,
+"grants": 86350818
+},
+{
+"name": "Department of Education",
+"contracts": 0,
+"grants": 177576408
+},
+{
+"name": "Department of Energy",
+"contracts": 590795,
+"grants": 106955045
+},
+{
+"name": "Department of Justice",
+"contracts": 38747172,
+"grants": 31085612
+},
+{
+"name": "Agency for International Development",
+"contracts": 573486,
+"grants": 58376330
+},
+{
+"name": "Environmental Protection Agency",
+"contracts": 4974414,
+"grants": 41725265
+}
+]
+}

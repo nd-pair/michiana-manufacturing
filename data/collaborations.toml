@@ -1,0 +1,83 @@
+# Notre Dame collaboration network: one entry per public relationship between a company in the map
+# (by its file name without .toml) and the University, or between two companies. Only relationships
+# announced publicly, with the announcement as the source. Edit freely; the map draws these as arcs.
+
+[[link]]
+from = "notre-dame"             # the campus
+to = "simba"
+type = "co-founded"
+year = 2017
+note = "SIMBA Chain was co-founded by the University of Notre Dame and ITAMCO."
+source = "https://www.simbachain.com"
+
+[[link]]
+from = "itamco"
+to = "simba"
+type = "co-founded"
+year = 2017
+note = "ITAMCO co-founded SIMBA Chain with Notre Dame."
+source = "https://www.simbachain.com"
+
+[[link]]
+from = "notre-dame"
+to = "pit-road-fund"
+type = "university fund"
+year = 2018
+note = "The Pit Road Fund invests in startups vetted by the Notre Dame IDEA Center."
+source = "https://provost.nd.edu/news/notre-dame-idea-center-creates-fund-to-support-startup-companies"
+
+[[link]]
+from = "pit-road-fund"
+to = "simba"
+type = "investment"
+year = 2019
+note = "SIMBA Chain is a Pit Road Fund portfolio company."
+source = "https://provost.nd.edu/news/notre-dame-idea-center-creates-fund-to-support-startup-companies"
+
+[[link]]
+from = "notre-dame"
+to = "1842-fund"
+type = "university fund"
+year = 2023
+note = "The 1842 Fund invests in startups emerging from the IDEA Center and runs a venture studio on campus."
+source = "https://news.nd.edu/news/new-venture-fund-aims-to-further-notre-dames-mission-through-purpose-driven-startups/"
+
+[[link]]
+from = "notre-dame"
+to = "industrylabs"
+type = "university unit"
+year = 2019
+note = "iNDustry Labs is Notre Dame's engagement unit for regional manufacturers."
+source = "https://industrylabs.nd.edu"
+
+[[link]]
+from = "notre-dame"
+to = "idea"
+type = "university unit"
+year = 2017
+note = "The IDEA Center is Notre Dame's commercialization and startup center."
+source = "https://ideacenter.nd.edu"
+
+[[link]]
+from = "schurz-communications"
+to = "heartland-ventures"
+type = "investment"
+year = 2017
+note = "Schurz Communications lists Heartland Ventures among its investments."
+source = "https://schurz.com/investments"
+
+[[link]]
+from = "startup-south-bend-elkhart"
+to = "linc-local-investor-network"
+type = "program"
+year = 2026
+note = "LINC is convened by Startup South Bend–Elkhart."
+source = "https://startupsouthbendelkhart.com/access-to-capital/"
+
+[[link]]
+from = "lead-fund"
+to = "elevate"
+type = "program"
+year = 2021
+note = "The LEAD Fund is managed with Elevate Ventures."
+source = "https://elevateventures.com/leighton-elevate-angel-development-fund-announces-first-investment/"

@@ -12,9 +12,13 @@ website = "https://warsaw-chem.com"
 
 sector = "Materials & composites"
 products = ["Polish and Other Sanitation Good Manufacturing"]
+naics = "325612"
 
 employees = 110
 employees_scope = "site"
 employees_note = "HIFLD General Manufacturing Facilities employee estimate"
 
 description = "Car Wash, Janitorial & Industrial Soaps & Cleaners, Industrial Raw Chemicals & Paint Thinners & Strippers. NAICS 325612: polish and other sanitation good manufacturing."
+
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"
