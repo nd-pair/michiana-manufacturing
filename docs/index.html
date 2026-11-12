@@ -19,7 +19,7 @@
 <link rel="apple-touch-icon" href="https://static.nd.edu/images/webclips/default/webclip-180.png">
 <link rel="stylesheet" href="https://conductor.nd.edu/stylesheets/themes/ndt/4.0/ndt.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
-<link rel="stylesheet" href="app.css?v=d9b1a542e8">
+<link rel="stylesheet" href="app.css?v=e957054485">
 </head>
 <body>
 <script>/* dark unless this visitor chose light */try{document.body.setAttribute("data-theme",localStorage.getItem("mm-theme")||"dark")}catch(e){document.body.setAttribute("data-theme","dark")}</script>
@@ -185,7 +185,6 @@
               <div class="mm-sug" id="find-list" role="listbox" hidden></div>
             </div>
             <span class="mm-lb">Layers</span>
-            <button class="mm-chip" id="lay-density" type="button" aria-pressed="false">Density</button>
             <button class="mm-chip" id="lay-rings" type="button" aria-pressed="false">Distance rings</button>
             <span class="mm-lb">Filters</span>
             <label class="mm-selwrap" for="radius"><span>Within</span>
@@ -350,7 +349,7 @@
 document.querySelectorAll(".light-dark-toggle").forEach(function(x){x.checked=t==="dark";x.addEventListener("change",function(){var v=x.checked?"dark":"light";try{localStorage.setItem("mm-theme",v)}catch(e){}
 document.querySelectorAll(".light-dark-toggle").forEach(function(y){y.checked=x.checked})})})})();</script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
-<script src="data.js?v=d9b1a542e8"></script>
-<script src="app.js?v=d9b1a542e8"></script>
+<script src="data.js?v=e957054485"></script>
+<script src="app.js?v=e957054485"></script>
 </body>
 </html>
