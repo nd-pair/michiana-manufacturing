@@ -13,8 +13,7 @@ import datetime, json, os, sys, tomllib, shutil, re
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 P = lambda *a: os.path.join(ROOT, *a)
 BASE = "https://nd-pair.github.io/michiana-manufacturing/"
-NAV = [("index.html", "Map"), ("https://github.com/nd-pair/michiana-manufacturing#adding-a-company", "Add a company"),
-       ("https://nd-pair.github.io/web/", "PAIR")]
+NAV = [("index.html", "Map"), ("https://nd-pair.github.io/web/", "PAIR")]
 
 def read(*a):
     with open(P(*a), encoding="utf-8") as fh:
