@@ -1,0 +1,5 @@
+The landmark-*.webp textures are adapted from "Golden Dome frontal.jpg" by Eccekevin (2016),
+https://commons.wikimedia.org/wiki/File:Golden_Dome_frontal.jpg, licensed CC BY-SA 4.0
+(https://creativecommons.org/licenses/by-sa/4.0/). Changes: cropped, the facade's left third mirrored
+onto its right third, the drum mirrored about its axis, sky and the drum behind the gable made
+transparent, resized. These adaptations are released under CC BY-SA 4.0.

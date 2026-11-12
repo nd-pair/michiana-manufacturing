@@ -127,7 +127,15 @@ for(const [n,[la,lo]] of Object.entries(DATA.states))place(label(n,"state",{size
 place(label("SOUTH BEND–ELKHART","region",{weight:700,cx:0.5}),LATC-0.28,LONC+0.1,lift(3),{group:far});
 
 /* Notre Dame Main Building: schematic, ten times its footprint, compass-oriented, shown only at the closest zoom */
-const dome=(function(){const g=new THREE.Group(),brick=new THREE.MeshStandardMaterial({color:0xd8c48f,roughness:0.85}),trim=new THREE.MeshStandardMaterial({color:0xf2ead6,roughness:0.7});
+/* the Main Building, textured from a CC BY-SA photo of its south front (see img/LICENSE-landmark.txt).
+   Local frame: x east, y up, z south. The front is a cut-out photo of the facade; the sides, wings and drum
+   repeat bays and faces of the same photo; the dome stays modeled gold so it catches the light. */
+const dome=(function(){const g=new THREE.Group(),B=0.0016,TL=new THREE.TextureLoader(),aniso=renderer.capabilities.getMaxAnisotropy();
+  const tex=(n,rep)=>{const t=TL.load("img/landmark-"+n+".webp");t.encoding=THREE.sRGBEncoding;t.anisotropy=aniso;if(rep)t.wrapS=t.wrapT=THREE.RepeatWrapping;return t};
+  const T={facade:tex("facade"),bay:tex("bay",1),roof:tex("roof",1),drum:tex("drum",1)};
+  const photo=(map,shade,o)=>new THREE.MeshBasicMaterial(Object.assign({map,color:new THREE.Color(shade,shade,shade)},o||{}));
+  const uv=(geo,su,sv)=>{const a=geo.attributes.uv;for(let i=0;i<a.count;i++)a.setXY(i,a.getX(i)*su,a.getY(i)*sv);return geo};
+  const add=(geo,mat,x,y,z)=>{const m=new THREE.Mesh(geo,mat);m.position.set(x*B,y*B,z*B);g.add(m);return m};
   /* polished gold: metal only shines when it has something to reflect, so the gold gets its own small studio
      environment (sky gradient, warm horizon, bright soft-box highlights) prefiltered for image-based lighting */
   const env=(function(){const cv=document.createElement("canvas");cv.width=1024;cv.height=512;const x=cv.getContext("2d");
@@ -136,13 +144,32 @@ const dome=(function(){const g=new THREE.Group(),brick=new THREE.MeshStandardMat
     for(const [cx,cy,r,a] of [[180,120,70,1],[560,90,55,0.95],[860,150,80,1],[360,210,40,0.8],[720,230,35,0.7],[90,330,60,0.6],[620,360,70,0.55]]){const rg=x.createRadialGradient(cx,cy,0,cx,cy,r);rg.addColorStop(0,"rgba(255,255,255,"+a+")");rg.addColorStop(1,"rgba(255,255,255,0)");x.fillStyle=rg;x.fillRect(cx-r,cy-r,2*r,2*r)}
     const t=new THREE.CanvasTexture(cv);t.mapping=THREE.EquirectangularReflectionMapping;t.encoding=THREE.sRGBEncoding;
     const pm=new THREE.PMREMGenerator(renderer);const out=pm.fromEquirectangular(t).texture;pm.dispose();t.dispose();return out})();
-  const gold=new THREE.MeshStandardMaterial({color:0xffc94a,metalness:1,roughness:0.1,envMap:env,envMapIntensity:2.4,emissive:0x5a3c00,emissiveIntensity:0.22}),slate=new THREE.MeshStandardMaterial({color:0x5b6670,roughness:0.9});
-  const add=(geo,mat,x,y,z)=>{const m=new THREE.Mesh(geo,mat);m.position.set(x,y,z);g.add(m)};const B=0.0016;
-  add(new THREE.BoxGeometry(1.9*B,0.015*B,1.1*B),new THREE.MeshStandardMaterial({color:0x1d4a2e,roughness:1}),0,0.005*B,0);
-  add(new THREE.BoxGeometry(1.5*B,0.30*B,0.34*B),brick,0,0.15*B,0.2*B);add(new THREE.BoxGeometry(1.5*B,0.03*B,0.36*B),slate,0,0.315*B,0.2*B);
-  add(new THREE.BoxGeometry(0.46*B,0.46*B,0.46*B),brick,0,0.23*B,0.2*B);add(new THREE.BoxGeometry(0.50*B,0.03*B,0.50*B),trim,0,0.47*B,0.2*B);
-  add(new THREE.CylinderGeometry(0.17*B,0.19*B,0.20*B,24),trim,0,0.58*B,0.2*B);add(new THREE.SphereGeometry(0.19*B,32,16,0,Math.PI*2,0,Math.PI/2),gold,0,0.68*B,0.2*B);
-  add(new THREE.CylinderGeometry(0.045*B,0.05*B,0.09*B,12),gold,0,0.91*B,0.2*B);add(new THREE.CylinderGeometry(0.012*B,0.025*B,0.08*B,8),gold,0,0.99*B,0.2*B);add(new THREE.SphereGeometry(0.02*B,8,8),gold,0,1.04*B,0.2*B);
+  const gold=new THREE.MeshStandardMaterial({color:0xffc94a,metalness:1,roughness:0.1,envMap:env,envMapIntensity:2.4,emissive:0x5a3c00,emissiveIntensity:0.22});
+  /* proportions measured off the photo, in units of B: facade 0.62 wide; wall cornice 0.383, mansard top 0.44,
+     gable 0.407 to 0.516; a window bay 0.0556 wide; drum face 0.084 wide and 0.066 tall, its top at 0.60 */
+  const FW=0.62,FH=FW*853/1024,HC=0.383,HM=0.44,D=0.42,BAY=0.0556,LW=0.5,DW=0.2,ZW=D/2-0.05-DW/2;
+  const wall=(w,h,x,y,z,rot,shade)=>{const geo=uv(new THREE.PlaneGeometry(w*B,h*B),Math.max(1,Math.round(w/BAY)),1);geo.rotateY(rot);return add(geo,photo(T.bay,shade),x,y,z)};
+  const box4=(cx,cz,w,d)=>{wall(w,HC,cx,HC/2,cz+d/2,0,1);wall(w,HC,cx,HC/2,cz-d/2,Math.PI,0.62);wall(d,HC,cx+w/2,HC/2,cz,Math.PI/2,0.8);wall(d,HC,cx-w/2,HC/2,cz,-Math.PI/2,0.8)};
+  const slate=photo(T.roof,0.92),slateTop=new THREE.MeshBasicMaterial({color:0x4a5258});
+  const mansard=(cx,cz,w,d)=>{const geo=uv(new THREE.CylinderGeometry(0.8,1,(HM-HC)*B,4,1,true,Math.PI/4),8,1);geo.scale(w*B/2/Math.SQRT1_2,1,d*B/2/Math.SQRT1_2);
+    add(geo,slate,cx,(HC+HM)/2,cz);const top=new THREE.PlaneGeometry(w*B*0.8,d*B*0.8);top.rotateX(-Math.PI/2);add(top,slateTop,cx,HM,cz)};
+  add(new THREE.BoxGeometry(1.9*B,0.015*B,1.1*B),new THREE.MeshStandardMaterial({color:0x1d4a2e,roughness:1}),0,0.005,0);
+  /* center block: photo front, bays on the other three sides, mansard, and the gable's ridge running back */
+  box4(0,0,FW,D);mansard(0,0,FW,D);
+  add(new THREE.PlaneGeometry(FW*B,FH*B),photo(T.facade,1,{alphaTest:0.5}),0,FH/2,D/2+0.002);
+  const ridge=new THREE.CylinderGeometry(1,1,D*B*0.98,3);ridge.rotateX(-Math.PI/2);const sx=0.54*FW/2/0.866,sy=(FH-0.407)/1.5;ridge.scale(sx*B,sy*B,1);
+  add(uv(ridge,4,1),slate,0,0.407+0.5*sy,0);
+  /* the long east and west wings, a little set back */
+  for(const s of [-1,1]){box4(s*(FW/2+LW/2),ZW,LW,DW);mansard(s*(FW/2+LW/2),ZW,LW,DW)}
+  /* drum: a plain octagon up from the roof, then the photo's drum face repeated on its eight sides */
+  const R=0.11,drumBase=new THREE.MeshBasicMaterial({color:0xb9b3a3});
+  const oct=(h,mat,y,rTop,rBot)=>{const geo=new THREE.CylinderGeometry((rTop||R)*B,(rBot||R)*B,h*B,8,1,true,Math.PI/8);return add(geo,mat,0,y,0)};
+  oct(0.534-HM+0.01,drumBase,(HM+0.534)/2-0.005);
+  const face=oct(0.066,photo(T.drum,1,{alphaTest:0.5}),0.567);uv(face.geometry,8,1);
+  oct(0.008,new THREE.MeshBasicMaterial({color:0xe6dfcc}),0.604,R*0.95,R*1.04);
+  /* the gold dome, lantern and statue */
+  const dm=add(new THREE.SphereGeometry(0.098*B,48,24,0,Math.PI*2,0,Math.PI/2),gold,0,0.608,0);dm.scale.y=1.35;
+  add(new THREE.CylinderGeometry(0.02*B,0.024*B,0.04*B,12),gold,0,0.762,0);add(new THREE.CylinderGeometry(0.006*B,0.013*B,0.04*B,8),gold,0,0.802,0);add(new THREE.SphereGeometry(0.009*B,10,8),gold,0,0.827,0);
   const glint=new THREE.PointLight(0xfff2c0,1.4,B*8);glint.position.set(-0.6*B,1.6*B,1.2*B);g.add(glint);
   place(g,DATA.landmark.lat,DATA.landmark.lon,lift(1.8),{mode:"map"});
   const lo=DATA.landmark.lon*RAD,east=new THREE.Vector3(Math.cos(lo),0,-Math.sin(lo)),upv=P(DATA.landmark.lat,DATA.landmark.lon).normalize(),south=new THREE.Vector3().crossVectors(east,upv).normalize();
@@ -412,7 +439,7 @@ window.addEventListener("hashchange",()=>{if(location.hash!==hashState()){readHa
 document.getElementById("legend").innerHTML=DATA.sectors.map(s=>`<span><i class="mm-sw" style="background:${SCOL[s]};color:${SCOL[s]}"></i>${esc(s)}</span>`).join("")
   +`<span>column height = employees, log scale <i class="mm-hl"><i style="height:6px"></i><i style="height:10px"></i><i style="height:14px"></i><i style="height:18px"></i></i>10 · 100 · 1,000 · 10,000</span><span>~ estimate · ’22 year of the figure · * company-wide</span><span>zoomed out, columns become a density grid</span>`;
 const known=C.filter(c=>c.emp).length;
-document.getElementById("foot").innerHTML=`${nGroups(C)} companies at ${C.length} sites, built ${esc(DATA.built)}. Every figure comes from a public source; headcounts are approximate and dated (${known} known). Methods, sources and known gaps: <a href="about.html">About the data</a>.`;
+document.getElementById("foot").innerHTML=`${nGroups(C)} companies at ${C.length} sites, built ${esc(DATA.built)}. Every figure comes from a public source; headcounts are approximate and dated (${known} known). Methods, sources and known gaps: <a href="about.html">About the data</a>. Main Building textures adapted from <a href="https://commons.wikimedia.org/wiki/File:Golden_Dome_frontal.jpg">a photo by Eccekevin</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.`;
 
 /* theme: follow the page's Light/Dark switch (body[data-theme]) */
 new MutationObserver(applyTheme).observe(document.body,{attributes:true,attributeFilter:["data-theme"]});
