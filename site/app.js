@@ -1,18 +1,18 @@
 /* Michiana Manufacturing — the map. Data comes from data.js (built from companies/*.toml by scripts/build.py). */
 const DATA=window.MM_DATA; const SCOL=DATA.sectorColors;
 const C=DATA.companies, TAGS=[...new Set(C.flatMap(c=>c.tags))].sort((a,b)=>a.localeCompare(b));
-const st={sec:new Set(),tag:new Set(),cap:new Set(),fed:false,fda:false,net:false,rings:false,sel:null,hot:null,q:"",sort:{sec:{key:"n",dir:-1},tag:{key:"n",dir:-1}}};
+const st={sec:new Set(),tag:new Set(),cap:new Set(),fed:false,fda:false,rings:false,sel:null,hot:null,q:"",sort:{sec:{key:"n",dir:-1},tag:{key:"n",dir:-1}}};
 /* the view is addressable: #sec=..|..&tag=..&cap=..&fed=1&fda=1&net=1&rings=1&sel=id (a bare #id selects a company) */
 try{const h=decodeURIComponent(location.hash.slice(1));if(h&&C.some(c=>c.id===h))st.sel=h;else if(h){for(const kv of h.split("&")){const [k,v]=kv.split("=");if(!v)continue;const vals=v.split("|");
   if(k==="sec")vals.forEach(x=>st.sec.add(x));else if(k==="tag")vals.forEach(x=>st.tag.add(x));else if(k==="cap")vals.forEach(x=>st.cap.add(x));
-  else if(k==="fed")st.fed=v==="1";else if(k==="fda")st.fda=v==="1";else if(k==="net")st.net=v==="1";else if(k==="rings")st.rings=v==="1";else if(k==="sel"&&C.some(c=>c.id===v))st.sel=v}}}catch(e){}
-function applyHash(){st.sec.clear();st.tag.clear();st.cap.clear();st.fed=st.fda=st.net=st.rings=false;st.sel=null;
+  else if(k==="fed")st.fed=v==="1";else if(k==="fda")st.fda=v==="1";else if(k==="rings")st.rings=v==="1";else if(k==="sel"&&C.some(c=>c.id===v))st.sel=v}}}catch(e){}
+function applyHash(){st.sec.clear();st.tag.clear();st.cap.clear();st.fed=st.fda=st.rings=false;st.sel=null;
   try{const h=decodeURIComponent(location.hash.slice(1));if(h&&C.some(c=>c.id===h))st.sel=h;else if(h){for(const kv of h.split("&")){const [k,v]=kv.split("=");if(!v)continue;const vals=v.split("|");
     if(k==="sec")vals.forEach(x=>st.sec.add(x));else if(k==="tag")vals.forEach(x=>st.tag.add(x));else if(k==="cap")vals.forEach(x=>st.cap.add(x));
-    else if(k==="fed")st.fed=v==="1";else if(k==="fda")st.fda=v==="1";else if(k==="net")st.net=v==="1";else if(k==="rings")st.rings=v==="1";else if(k==="sel"&&C.some(c=>c.id===v))st.sel=v}}}catch(e){}}
+    else if(k==="fed")st.fed=v==="1";else if(k==="fda")st.fda=v==="1";else if(k==="rings")st.rings=v==="1";else if(k==="sel"&&C.some(c=>c.id===v))st.sel=v}}}catch(e){}}
 window.addEventListener("hashchange",()=>{if(location.hash!==hashState()){applyHash();render()}});
 function hashState(){const parts=[];if(st.sec.size)parts.push("sec="+[...st.sec].join("|"));if(st.tag.size)parts.push("tag="+[...st.tag].join("|"));if(st.cap.size)parts.push("cap="+[...st.cap].join("|"));
-  if(st.fed)parts.push("fed=1");if(st.fda)parts.push("fda=1");if(st.net)parts.push("net=1");if(st.rings)parts.push("rings=1");if(st.sel)parts.push("sel="+st.sel);return parts.length?"#"+parts.join("&"):""}
+  if(st.fed)parts.push("fed=1");if(st.fda)parts.push("fda=1");if(st.rings)parts.push("rings=1");if(st.sel)parts.push("sel="+st.sel);return parts.length?"#"+parts.join("&"):""}
 function updateHash(){try{history.replaceState(null,"",hashState()||location.pathname)}catch(e){}}
 const matchRel=c=>true, matchSec=c=>!st.sec.size||st.sec.has(c.sector), matchTag=c=>!st.tag.size||c.tags.some(t=>st.tag.has(t));
 const matchCap=c=>!st.cap.size||c.caps.some(k=>st.cap.has(k)), matchFed=c=>!st.fed||!!c.federal, matchFda=c=>!st.fda||!!c.fda;
@@ -132,16 +132,7 @@ function layoutBars(k){for(const b of bars){_s.set(k,k*b.h,k);_m.compose(b.pos,b
   barMesh.instanceMatrix.needsUpdate=true;glowMesh.instanceMatrix.needsUpdate=true;
   const sel=bars.find(b=>b.c.id===st.sel);if(sel){halo.position.copy(P(sel.c.lat,sel.c.lon,lift(2.4)));halo.quaternion.copy(sel.quat);halo.scale.setScalar(k)}}
 
-/* layer: Notre Dame collaboration network, drawn as glowing arcs lifted above the surface */
-const netGroup=new THREE.Group(); netGroup.visible=false; globe.add(netGroup);
 const byId=Object.fromEntries(C.map(c=>[c.id,c]));
-(function arcs(){const mat=new THREE.LineBasicMaterial({color:0xffd280,transparent:true,opacity:0.85});
-  for(const l of DATA.links){const a=l.from==="notre-dame"?DATA.landmark:byId[l.from], b=byId[l.to]; if(!a||!b)continue;
-    const pa=P(a.lat,a.lon,0), pb=P(b.lat,b.lon,0), chord=pa.distanceTo(pb), pts=[];
-    for(let i=0;i<=40;i++){const t=i/40;const v=new THREE.Vector3().lerpVectors(pa,pb,t).normalize().multiplyScalar(R+lift(3)+Math.sin(Math.PI*t)*Math.max(chord*0.35,lift(6)));pts.push(v)}
-    const line=new THREE.Line(new THREE.BufferGeometry().setFromPoints(pts),mat); line.userData.link=l; netGroup.add(line)}
-  const l=label("NOTRE DAME",{size:20,weight:700,color:"#ffd280",glow:"#ffb020",scale:0.0055,cx:0.5}); place(l,DATA.landmark.lat,DATA.landmark.lon,0.004,{group:netGroup});
-})();
 /* layer: distance rings around the campus (straight-line distance, not drive time) */
 const ringGroup=new THREE.Group(); ringGroup.visible=false; globe.add(ringGroup);
 (function rings(){const mat=new THREE.LineDashedMaterial({color:0x35d6ff,dashSize:0.004,gapSize:0.003,transparent:true,opacity:0.7});
@@ -158,7 +149,7 @@ function tiltFor(d){return 0.58*(1-THREE.MathUtils.smoothstep(Math.log(d),Math.l
 function layout(){const d=view.dist, screen=d/D_HOME;
   for(const o of placed){const L=o.userData.lay;if(L.mode==="map")continue;o.scale.copy(L.base).multiplyScalar(L.mode==="pin"?Math.min(screen,2.2):screen)}
   layoutBars(KREF*Math.min(screen,2.2));
-  near.visible=d<0.55; mid.visible=d>0.45; far.visible=d>0.7; if(dome)dome.visible=d<0.09; netGroup.visible=st.net; ringGroup.visible=st.rings;
+  near.visible=d<0.55; mid.visible=d>0.45; far.visible=d>0.7; if(dome)dome.visible=d<0.09; ringGroup.visible=st.rings;
   hud.innerHTML=`<span>ALT</span> ${(d*KM).toFixed(d<0.05?1:0)} km &nbsp; <span>CTR</span> ${view.lat.toFixed(3)}°N ${(-view.lon).toFixed(3)}°W &nbsp; <span>SPAN</span> ${(2*d*Math.tan(0.3665)*KM).toFixed(0)} km`}
 function applyView(){layout(); const d=view.dist, t=tiltFor(d);
   globe.rotation.set(view.lat*RAD,-view.lon*RAD,0);
@@ -261,22 +252,21 @@ function renderDetail(){const d=document.getElementById("detail");const c=C.find
   <div><div class="k">Employees</div>${esc(fmtEmp(c))}${c.emp_note?" · "+esc(c.emp_note):""}<div class="k">Location</div>${esc(c.addr||c.city+", "+c.state)}${c.prec==="city"?" (city-level position)":""}${c.website?`<div class="k">Website</div><a href="${esc(c.website)}" rel="noopener">${esc(c.website.replace(/^https?:\/\/(www\.)?/,""))}</a>`:""}
   ${c.naics?`<div class="k">NAICS</div>${esc(c.naics)}`:""}${c.caps.length?`<div class="k">Capabilities</div>${esc(c.caps.join(", "))}`:""}</div>
   <div>${c.federal?`<div class="k">Federal awards since FY2016</div>contracts ${fmtUSD(c.federal.contracts)} · grants ${fmtUSD(c.federal.grants)} (USAspending)`:""}${c.sbir?`<div class="k">SBIR/STTR</div>${c.sbir.count} awards, ${fmtUSD(c.sbir.amount)} (${esc(c.sbir.agencies.join(", "))})`:""}
-  ${c.fda?`<div class="k">FDA device establishment</div>${esc([...c.fda.types,...c.fda.devices].join(", ")||"registered")}`:""}${c.certs.length&&!c.fda?`<div class="k">Certifications</div>${esc(c.certs.join(", "))}`:""}
-  ${(()=>{const ls=DATA.links.filter(l=>l.from===c.id||l.to===c.id);return ls.length?`<div class="k">Notre Dame network</div>`+ls.map(l=>`${esc(l.note)}${l.source?` <a href="${esc(l.source)}" rel="noopener">source</a>`:""}`).join("<br>"):""})()}</div>
+  ${c.fda?`<div class="k">FDA device establishment</div>${esc([...c.fda.types,...c.fda.devices].join(", ")||"registered")}`:""}${c.certs.length&&!c.fda?`<div class="k">Certifications</div>${esc(c.certs.join(", "))}`:""}</div>
   <div><div class="k">Source</div>${esc(c.source)}${c.updated?" · as of "+esc(c.updated):""}</div>`}
 function renderTable(){const tb=document.querySelector("#table tbody");const rows=C.filter(visible).sort((a,b)=>a.sector.localeCompare(b.sector)||(b.emp||0)-(a.emp||0)||a.name.localeCompare(b.name));
   tb.innerHTML=rows.map(c=>`<tr id="row-${c.id}" class="${st.sel===c.id?"sel":""}" data-id="${c.id}"><td class="name">${esc(c.name)}<small>${esc(c.city)}, ${esc(c.state)}</small></td><td><span class="mm-dot" style="background:${SCOL[c.sector]};color:${SCOL[c.sector]}"></span>${esc(c.sector)}</td><td class="num">${c.emp?c.emp.toLocaleString():"–"}${c.emp&&c.emp_scope==="company"?"*":""}</td><td class="tags">${esc(c.tags.join(", "))}</td><td class="num">${c.federal?fmtUSD(c.federal.total):"–"}${c.fda?'<span class="mm-badge fda">FDA</span>':""}</td><td>${c.website?`<a href="${esc(c.website)}" rel="noopener">${esc(c.website.replace(/^https?:\/\/(www\.)?/,"").replace(/\/$/,""))}</a>`:"–"}</td></tr>`).join("")||`<tr><td colspan="6" class="mm-count">No company matches these filters.</td></tr>`;
   document.getElementById("shown").textContent=`${rows.length} of ${C.length} shown`}
 document.querySelector("#table tbody").addEventListener("click",e=>{if(e.target.closest("a"))return;const r=e.target.closest("tr[data-id]");if(r)select(r.dataset.id)});
 const chip=(id,on)=>document.getElementById(id).setAttribute("aria-pressed",String(on));
-for(const [id,key] of [["lay-net","net"],["lay-rings","rings"],["f-fed","fed"],["f-fda","fda"]])document.getElementById(id).addEventListener("click",()=>{st[key]=!st[key];render()});
+for(const [id,key] of [["lay-rings","rings"],["f-fed","fed"],["f-fda","fda"]])document.getElementById(id).addEventListener("click",()=>{st[key]=!st[key];render()});
 function toast(msg){let t=document.querySelector(".mm-toast");if(!t){t=document.createElement("div");t.className="mm-toast";document.body.appendChild(t)}t.textContent=msg;t.classList.add("on");setTimeout(()=>t.classList.remove("on"),1800)}
 document.getElementById("copylink").addEventListener("click",()=>{const url=location.origin+location.pathname+hashState();(navigator.clipboard?navigator.clipboard.writeText(url):Promise.reject()).then(()=>toast("Link copied")).catch(()=>{prompt("Copy this link",url)})});
 document.getElementById("csv").addEventListener("click",()=>{const rows=C.filter(visible);const esc2=v=>'"'+String(v??"").replace(/"/g,'""')+'"';
   const head=["name","kind","city","state","address","lat","lon","sector","products","naics","capabilities","employees","employees_scope","employees_note","federal_contracts_usd","federal_grants_usd","fda_registered","certifications","website","source","updated"];
   const lines=[head.join(",")].concat(rows.map(c=>[c.name,c.kind,c.city,c.state,c.addr,c.lat,c.lon,c.sector,c.tags.join("; "),c.naics,c.caps.join("; "),c.emp??"",c.emp?c.emp_scope:"",c.emp_note,c.federal?c.federal.contracts:"",c.federal?c.federal.grants:"",c.fda?"yes":"",c.certs.join("; "),c.website,c.source,c.updated].map(esc2).join(",")));
   const blob=new Blob(["\ufeff"+lines.join("\n")],{type:"text/csv;charset=utf-8"});const a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download="michiana-manufacturing-"+(hashState()?"filtered":"all")+".csv";document.body.appendChild(a);a.click();a.remove();toast(`${rows.length} rows downloaded`)});
-function render(){chip("lay-net",st.net);chip("lay-rings",st.rings);chip("f-fed",st.fed);chip("f-fda",st.fda);netGroup.visible=st.net;ringGroup.visible=st.rings;
+function render(){chip("lay-rings",st.rings);chip("f-fed",st.fed);chip("f-fda",st.fda);ringGroup.visible=st.rings;
   renderSectors();renderTags();renderFederal();renderCaps();paintBars();renderDetail();renderTable();updateHash()}
 renderQcew();renderEvents();
 document.getElementById("legend").innerHTML=DATA.sectors.map(s=>`<span><i class="mm-sw" style="background:${SCOL[s]};color:${SCOL[s]}"></i>${esc(s)}</span>`).join("")+

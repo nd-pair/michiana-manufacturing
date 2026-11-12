@@ -83,9 +83,6 @@ Beyond the map, the page carries:
 - **SBIR/STTR awards.** SBIR.gov's API rejects scripts, so `scripts/pull_sbir.py` reads a CSV
   exported by hand from https://www.sbir.gov/awards (State = Indiana, then Michigan) and writes
   `data/sbir.json`; awards appear in the detail panel once that file exists.
-- **Notre Dame network.** `data/collaborations.toml` lists public relationships (co-founded,
-  investment, university unit, program) between the campus and companies, or between companies,
-  each with its announcement as the source. The map draws them as arcs when the layer is on.
 - **Capabilities.** `data/capabilities.toml` maps NAICS prefixes and product keywords to process
   capabilities (casting, machining, molding, circuit boards, ...). The panel counts companies per
   capability, names the largest site, flags capabilities with one or no company as a gap, and
@@ -123,7 +120,7 @@ so commit only your source changes (`companies/`, `data/`, `site/`, `scripts/`) 
 
 ```
 companies/      one TOML file per company (edit these)
-data/           sectors, places, capabilities, collaborations, events (edit these); county boundaries (Census), shorelines (Natural Earth); pulled datasets (federal, fda, qcew, sbir)
+data/           sectors, places, capabilities, events (edit these); county boundaries (Census), shorelines (Natural Earth); pulled datasets (federal, fda, qcew, sbir)
 site/           the page: Notre Dame Web Theme chrome (partials/), page.html, app.js, app.css
 scripts/        build.py, geocode.py, import_hifld.py, pull_federal.py, pull_fda.py, pull_qcew.py, pull_sbir.py, common.py
 docs/           the built site (generated; do not edit by hand)

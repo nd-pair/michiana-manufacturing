@@ -113,8 +113,6 @@ def main():
     for o in companies:
         text = " ".join(o["tags"] + [o["blurb"]]).lower()
         o["caps"] = [k["name"] for k in caps if any(o["naics"].startswith(pfx) for pfx in k["naics"]) or any(kw in text for kw in k["keywords"])]
-    ids = {o["id"] for o in companies}
-    links = [l for l in load_toml(P("data", "collaborations.toml")).get("link", []) if (l["from"] == "notre-dame" or l["from"] in ids) and l["to"] in ids]
     events = sorted(load_toml(P("data", "events.toml")).get("event", []), key=lambda e: str(e["date"]), reverse=True)
     counties = json.load(open(P("data", "region_counties.json")))
     lakes = [o["ring"] for o in json.load(open(P("data", "great_lakes.json"))) if len(o["ring"]) >= 80 and "Cabonga" not in o["name"]]
@@ -131,7 +129,7 @@ def main():
         "landmark": {"name": places["view"]["landmark_name"], "lat": places["view"]["landmark_lat"], "lon": places["view"]["landmark_lon"]},
         "built": datetime.date.today().isoformat(),
         "capabilities": [k["name"] for k in caps],
-        "links": links, "events": events,
+        "events": events,
         "federalAgencies": federal.get("agencies", []), "federalSource": federal.get("source", ""), "federalPulled": federal.get("pulled", ""),
         "fdaSource": fda.get("source", ""), "qcew": qcew.get("counties", {}), "qcewSource": qcew.get("source", ""),
     }
@@ -159,9 +157,9 @@ def main():
     with open(P("docs", "index.html"), "w", encoding="utf-8") as fh:
         fh.write(page)
     open(P("docs", ".nojekyll"), "w").close()
-    print("built docs/ with %d companies (%d at street-address precision, %d with a headcount, %d with federal awards, %d FDA-registered, %d collaboration links, %d events)"
+    print("built docs/ with %d companies (%d at street-address precision, %d with a headcount, %d with federal awards, %d FDA-registered, %d events)"
           % (len(companies), sum(1 for c in companies if c["prec"] == "address"), sum(1 for c in companies if c["emp"]),
-             sum(1 for c in companies if c.get("federal")), sum(1 for c in companies if c.get("fda")), len(links), len(events)))
+             sum(1 for c in companies if c.get("federal")), sum(1 for c in companies if c.get("fda")), len(events)))
 
 if __name__ == "__main__":
     main()
