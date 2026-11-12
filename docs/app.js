@@ -19,17 +19,17 @@ function fmtEmp(c){if(!c.emp)return "unknown";const bits=[c.emp_year,c.emp_quali
 
 /* ---------- state, addressable through the URL hash ---------- */
 const st={sec:new Set(),tag:new Set(),cap:new Set(),fed:false,fda:false,rings:false,radius:0,sel:null,hot:null,q:"",open:new Set(),
-  sort:{sec:{key:"n",dir:-1},tag:{key:"n",dir:-1},cap:{key:"n",dir:-1},fed:{key:"e",dir:-1},roster:{key:"emp",dir:-1},ev:{key:"date",dir:-1},spec:{key:"lq",dir:-1},occ:{key:"emp",dir:-1},ue:{key:"rate",dir:-1}},wv:"spec",
+  sort:{sec:{key:"n",dir:-1},tag:{key:"n",dir:-1},cap:{key:"n",dir:-1},fed:{key:"e",dir:-1},roster:{key:"emp",dir:-1},ev:{key:"date",dir:-1},spec:{key:"lq",dir:-1},occ:{key:"emp",dir:-1},ue:{key:"rate",dir:-1},hum:{key:"cost",dir:-1}},wv:"spec",hum:null,hb:"confirmed",rlim:20,
   evKind:"all",evYear:null,evMore:0,qv:"county",qs:"abs"};
-function readHash(){st.sec.clear();st.tag.clear();st.cap.clear();st.fed=st.fda=st.rings=false;st.radius=0;st.sel=null;
+function readHash(){st.sec.clear();st.tag.clear();st.cap.clear();st.fed=st.fda=st.rings=false;st.radius=0;st.sel=null;st.hum=null;
   try{const raw=location.hash.slice(1),h=decodeURIComponent(raw);if(h&&byId[h]){st.sel=h;return}
     for(const kv of raw.split("&")){const i=kv.indexOf("=");if(i<0)continue;const k=kv.slice(0,i),v=decodeURIComponent(kv.slice(i+1));if(!v)continue;const vals=kv.slice(i+1).split("|").map(decodeURIComponent);
       if(k==="sec")vals.forEach(x=>st.sec.add(x));else if(k==="tag")vals.forEach(x=>st.tag.add(x));else if(k==="cap")vals.forEach(x=>st.cap.add(x));
       else if(k==="fed")st.fed=v==="1";else if(k==="fda")st.fda=v==="1";else if(k==="rings")st.rings=v==="1";
-      else if(k==="r")st.radius=+v||0;else if(k==="sel"&&byId[v])st.sel=v}}catch(e){}}
+      else if(k==="r")st.radius=+v||0;else if(k==="hum"&&/^[gk]:[a-z]+$/.test(v))st.hum=v;else if(k==="sel"&&byId[v])st.sel=v}}catch(e){}}
 const enc=set=>[...set].map(encodeURIComponent).join("|");
 function hashState(){const p=[];if(st.sec.size)p.push("sec="+enc(st.sec));if(st.tag.size)p.push("tag="+enc(st.tag));if(st.cap.size)p.push("cap="+enc(st.cap));
-  if(st.fed)p.push("fed=1");if(st.fda)p.push("fda=1");if(st.rings)p.push("rings=1");if(st.radius)p.push("r="+st.radius);if(st.sel)p.push("sel="+st.sel);
+  if(st.fed)p.push("fed=1");if(st.fda)p.push("fda=1");if(st.rings)p.push("rings=1");if(st.radius)p.push("r="+st.radius);if(st.hum)p.push("hum="+st.hum);if(st.sel)p.push("sel="+st.sel);
   return p.length?"#"+p.join("&"):""}
 function updateHash(){try{history.replaceState(null,"",hashState()||location.pathname)}catch(e){}}
 readHash();
@@ -41,7 +41,9 @@ const center=()=>{const c=st.sel&&byId[st.sel];return c?{lat:c.lat,lon:c.lon,nam
 const matchSec=c=>!st.sec.size||st.sec.has(c.sector), matchTag=c=>!st.tag.size||c.tags.some(t=>st.tag.has(t)), matchCap=c=>!st.cap.size||c.caps.some(k=>st.cap.has(k));
 const matchFed=c=>!st.fed||!!c.federal, matchFda=c=>!st.fda||!!c.fda;
 let _ctr=center();const matchRad=c=>!st.radius||km(_ctr.lat,_ctr.lon,c.lat,c.lon)<=st.radius;
-const visibleExcept=skip=>c=>(skip==="sec"||matchSec(c))&&(skip==="tag"||matchTag(c))&&(skip==="cap"||matchCap(c))&&matchFed(c)&&matchFda(c)&&matchRad(c);
+const HUM=DATA.humanoid||{groups:[],components:[],funding:{},progress:{}},HCOMP=Object.fromEntries(HUM.components.map(c=>[c.id,c])),HGROUP=Object.fromEntries(HUM.groups.map(g=>[g.id,g]));
+const matchHum=c=>{if(!st.hum)return true;const [t,k]=st.hum.split(":");return t==="g"?c.hum.some(x=>HCOMP[x]&&HCOMP[x].group===k):c.hum.includes(k)};
+const visibleExcept=skip=>c=>matchHum(c)&&(skip==="sec"||matchSec(c))&&(skip==="tag"||matchTag(c))&&(skip==="cap"||matchCap(c))&&matchFed(c)&&matchFda(c)&&matchRad(c);
 const visible=visibleExcept("");
 const hotMatch=c=>st.hot&&(st.hot.sec?c.sector===st.hot.sec:st.hot.cap?c.caps.includes(st.hot.cap):c.tags.includes(st.hot.tag));
 
@@ -339,6 +341,61 @@ function renderQcew(){const el=document.getElementById("qcew");document.querySel
   for(const e of ends)svg+=`<text class="lbl" x="${e.x+6}" y="${e.y+3}" fill="${e.s.color}">${esc(e.s.name)} ${st.qs==="idx"?Math.round(e.v):fmtK(Math.round(e.v))}</text>`;
   el.innerHTML=svg+`</svg>`;
   document.getElementById("qcewnote").textContent=`BLS QCEW, private, ${y0}–${y1}${st.qv==="sector"?" · lower bound, withheld cells":""}${st.qs==="idx"?" · "+y0+" = 100":""}`}
+/* ---------- humanoid coverage: which parts of a humanoid local companies could supply ---------- */
+const TIERS=["no supplier","one supplier","2–4 suppliers","5 or more"],tierOf=n=>n===0?0:n===1?1:n<5?2:3;
+function humStats(){const comp={};for(const k of Object.keys(HCOMP))comp[k]={all:new Map(),conf:new Map()};
+  for(const c of C)for(const k of c.hum){const g=groupOf(c),e=comp[k];if(!e)continue;if(!e.all.has(g.id))e.all.set(g.id,{g,c});if(c.hum_ev==="confirmed"&&!e.conf.has(g.id))e.conf.set(g.id,{g,c})}
+  for(const [k,e] of Object.entries(comp)){e.n=e.all.size;e.nc=e.conf.size;e.top=[...e.all.values()].sort((a,b)=>(empSum(b.g.sites)||0)-(empSum(a.g.sites)||0)).slice(0,3)}
+  return comp}
+const humSvg=()=>{const R=(g,attrs,label)=>`<rect data-hum="g:${g}" data-hg="${g}" ${attrs} aria-label="${esc(label)}"/>`,J=(x,y,r)=>`<circle data-hum="g:actuators" data-hg="actuators" class="jt" cx="${x}" cy="${y}" r="${r}"/>`;
+  return `<svg class="mm-hfig" viewBox="0 0 260 486" role="img" aria-label="Humanoid robot, each region shaded by how many local companies could supply its parts">
+  <defs><pattern id="hhatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="6" class="hh"/></pattern></defs>
+  ${R("integration",'class="plate" x="56" y="470" width="148" height="10" rx="3"',"Integration and test: the whole robot")}
+  ${R("perception",'x="104" y="10" width="52" height="60" rx="20"',"Head: perception")}<rect class="visor" x="111" y="30" width="38" height="13" rx="6" pointer-events="none"/>
+  ${R("structure",'x="122" y="70" width="16" height="14"',"Neck: structure")}
+  <path data-hum="g:compute" data-hg="compute" d="M84,92 L176,92 L168,178 L92,178 Z" aria-label="Chest: compute and electronics"/>
+  ${R("power",'x="96" y="182" width="68" height="44" rx="8"',"Abdomen: power")}
+  <path data-hum="g:structure" data-hg="structure" d="M92,232 L168,232 L158,266 L102,266 Z" aria-label="Pelvis: structure"/>
+  ${R("structure",'x="52" y="98" width="24" height="80" rx="10"',"Upper arm: structure")}${R("structure",'x="184" y="98" width="24" height="80" rx="10"',"Upper arm: structure")}
+  ${R("structure",'x="54" y="188" width="20" height="70" rx="9"',"Forearm: structure")}${R("structure",'x="186" y="188" width="20" height="70" rx="9"',"Forearm: structure")}
+  ${R("hands",'x="50" y="268" width="28" height="36" rx="9"',"Hand")}${R("hands",'x="182" y="268" width="28" height="36" rx="9"',"Hand")}
+  ${R("structure",'x="96" y="278" width="28" height="84" rx="11"',"Thigh: structure")}${R("structure",'x="136" y="278" width="28" height="84" rx="11"',"Thigh: structure")}
+  ${R("structure",'x="98" y="372" width="24" height="72" rx="10"',"Shin: structure")}${R("structure",'x="138" y="372" width="24" height="72" rx="10"',"Shin: structure")}
+  ${R("hands",'x="88" y="452" width="40" height="14" rx="6"',"Foot: force sensing")}${R("hands",'x="132" y="452" width="40" height="14" rx="6"',"Foot: force sensing")}
+  ${J(64,98,13)}${J(196,98,13)}${J(64,183,9)}${J(196,183,9)}${J(64,263,7)}${J(196,263,7)}${J(130,86,7)}${J(130,229,9)}${J(110,272,11)}${J(150,272,11)}${J(110,367,10)}${J(150,367,10)}${J(110,448,8)}${J(150,448,8)}
+  </svg>`};
+function renderHumanoid(){const el=document.getElementById("hum");if(!el||!HUM.components.length)return;
+  const S=humStats(),conf=st.hb==="confirmed",n=k=>conf?S[k].nc:S[k].n;
+  document.querySelectorAll("[data-hb]").forEach(b=>b.setAttribute("aria-pressed",String(b.dataset.hb===st.hb)));
+  /* a group's shade: the cost-weighted tier of its components */
+  const gt={};for(const g of HUM.groups){const cs=HUM.components.filter(c=>c.group===g.id),w=cs.reduce((a,c)=>a+c.cost,0);gt[g.id]=Math.round(cs.reduce((a,c)=>a+c.cost*tierOf(n(c.id)),0)/(w||1))}
+  const share=(f,key)=>HUM.components.filter(c=>f(key==="conf"?S[c.id].nc:S[c.id].n)).reduce((a,c)=>a+c.cost,0);
+  const gaps=HUM.components.filter(c=>!S[c.id].n),sup=new Set(C.filter(c=>c.hum.length).map(c=>groupOf(c).id)),supc=new Set(C.filter(c=>c.hum.length&&c.hum_ev==="confirmed").map(c=>groupOf(c).id));
+  const fy=Object.entries(HUM.funding||{}).filter(([y])=>+y>=2016),ftot=fy.reduce((a,[,v])=>a+v.amount,0),fmax=Math.max(1,...fy.map(([,v])=>v.amount));
+  const prog=Object.entries(HUM.progress||{}),p0=prog[0];
+  const tiles=`<div class="mm-htiles">
+    <div class="mm-htile"><div class="k">Confirmed local supply</div><div class="v">${share(x=>x>=2,"conf")}%</div><div class="s">of a humanoid's cost has two or more local suppliers that have confirmed they make the part</div></div>
+    <div class="mm-htile"><div class="k">Related local capability</div><div class="v">${share(x=>x>=2,"all")}%</div><div class="s">of the cost has two or more local companies in a related line of work; ${share(x=>x===1,"all")}% has one${gaps.length?`; gap: ${esc(gaps.map(c=>c.name.split(" (")[0].toLowerCase()).join(", "))}`:""}</div></div>
+    <div class="mm-htile"><div class="k">Companies</div><div class="v">${sup.size}</div><div class="s">with a related capability; ${supc.size} confirmed</div></div>
+    <div class="mm-htile"><div class="k">Robotics-related awards since 2016</div><div class="v">${fmtUSD(ftot)}</div><div class="mm-hbars">${fy.map(([y,v])=>`<i title="${y}: ${fmtUSD(v.amount)}, ${v.n} award${v.n===1?"":"s"}" style="height:${Math.max(2,Math.round(28*v.amount/fmax))}px"></i>`).join("")}</div><div class="s">federal awards of $250k+ and SBIR/STTR awards mentioning robots, actuators or sensors${fy.length?`, ${fy[0][0]}–${fy[fy.length-1][0]}`:""}</div></div>
+    <div class="mm-htile"><div class="k">Tracking since</div><div class="v">${p0?esc(monthName(p0[0])):"–"}</div><div class="s">${prog.length>1?prog.map(([m,v])=>`${esc(monthName(m))}: ${v.confirmed_two_plus}% confirmed, ${v.two_plus}% related`).slice(-3).join("<br>"):"a snapshot is saved every month; the trend appears from the second month"}</div></div></div>`;
+  const glist=HUM.groups.map(g=>{const cs=HUM.components.filter(c=>c.group===g.id),gp=cs.filter(c=>!n(c.id)).length,w=cs.reduce((a,c)=>a+c.cost,0);
+    return `<button type="button" class="mm-hg${st.hum==="g:"+g.id?" on":""}" data-hum="g:${g.id}" data-hg="${g.id}"><i class="sw t${gt[g.id]}"></i><span><b>${esc(g.name)}</b><small>${esc(g.region)} · ${w}% of cost · ${esc(TIERS[gt[g.id]])}${gp?` · ${gp} gap${gp>1?"s":""}`:""}</small></span></button>`}).join("");
+  const rows=HUM.components.map(c=>({id:c.id,name:c.name,group:HGROUP[c.group].name,cost:c.cost,n:S[c.id].n,nc:S[c.id].nc,tier:tierOf(n(c.id)),top:S[c.id].top,toplabel:S[c.id].top.map(t=>t.g.name).join(", ")}));
+  el.innerHTML=`${tiles}<div class="mm-hmain"><div class="mm-hfigwrap">${humSvg()}<div class="mm-hleg">${TIERS.map((t,i)=>`<span><i class="sw t${i}"></i>${t}</span>`).join("")}</div></div>
+    <div class="mm-hside"><p class="mm-wnote" style="margin-top:0">Each region is shaded by the cost-weighted depth of local supply for its parts${conf?", counting only confirmed suppliers":", counting every company in a related line of work"}. Click a region or a group to show its companies on the map and in the roster.</p>${glist}</div></div>
+    ${st.hum?`<p class="mm-hfilter">Map and roster show companies for <b>${esc(st.hum[0]==="g"?HGROUP[st.hum.slice(2)].name:HCOMP[st.hum.slice(2)].name)}</b>. <button type="button" class="mm-chip" data-hum="${esc(st.hum)}">Show all companies</button></p>`:""}
+    ${sortTable("hum",[{key:"name",label:"Component",cell:r=>`<button type="button" class="mm-hk${st.hum==="k:"+r.id?" on":""}" data-hum="k:${r.id}">${esc(r.name)}</button>`},{key:"group",label:"Group"},
+      {key:"cost",label:"Share of cost",num:true,cell:r=>r.cost+"%"},{key:"n",label:"Related",title:"local companies with a related capability",num:true,cell:r=>String(r.n)},
+      {key:"nc",label:"Confirmed",num:true,cell:r=>String(r.nc)},{key:"tier",label:"Depth",cell:r=>`<span class="mm-ht"><i class="sw t${r.tier}"></i>${esc(TIERS[r.tier])}</span>`},
+      {key:"toplabel",label:"Largest related companies",cell:r=>r.top.map(t=>`<button type="button" class="mm-link" data-sel="${t.c.id}">${esc(t.g.sites.length>1?t.g.name:t.c.name)}</button>`).join(", ")||"–"}],rows)}
+    <p class="mm-wnote">Costs are rough shares of a humanoid's bill of materials from public teardown estimates, editable in data/humanoid.toml with the matching rules. "Related" is inferred from industry codes and product descriptions: a company that rebuilds industrial motors counts toward motors, though it may not make humanoid joint motors. A company becomes "confirmed" when its file records that it makes the part (humanoid_evidence = "confirmed").</p>`;
+  const fig=el.querySelector(".mm-hfig");fig.querySelectorAll("[data-hg]").forEach(r=>{const g=r.dataset.hg;r.setAttribute("class",(r.getAttribute("class")||"")+" t"+gt[g]+(st.hum==="g:"+g?" on":""))});
+  const tip=document.getElementById("htip");
+  fig.addEventListener("pointermove",e=>{const r=e.target.closest("[data-hg]");if(!r){tip.style.opacity=0;return}const g=r.dataset.hg,cs=HUM.components.filter(c=>c.group===g);
+    tip.innerHTML=`<b>${esc(HGROUP[g].name)}</b>${esc(HGROUP[g].region)}`+cs.map(c=>`<div class="m">${esc(c.name)}: ${S[c.id].n} related, ${S[c.id].nc} confirmed</div>`).join("")+`<div class="m">click to show them on the map</div>`;
+    const b=el.getBoundingClientRect();tip.style.left=(e.clientX-b.left)+"px";tip.style.top=(e.clientY-b.top)+"px";tip.style.opacity=1});
+  fig.addEventListener("pointerleave",()=>{tip.style.opacity=0})}
 /* ---------- workforce: BLS specialization, occupations and the latest month ---------- */
 const MONTHS=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],monthName=ym=>{const [y,m]=ym.split("-");return MONTHS[+m-1]+" "+y};
 const usd=v=>v==null?"–":"$"+Math.round(v).toLocaleString();
@@ -401,7 +458,7 @@ function renderWork(){const el=document.getElementById("work"),note=document.get
     const at=j=>{xh.setAttribute("x1",X(j));xh.setAttribute("x2",X(j));xh.style.opacity=1;pt.setAttribute("cx",X(j));pt.setAttribute("cy",Y(pts[j][1]));rd.textContent=`${monthName(pts[j][0])}: ${Math.round(pts[j][1]*1000).toLocaleString()} jobs`};
     svg.addEventListener("pointermove",e=>{const r=svg.getBoundingClientRect(),x=(e.clientX-r.left)/r.width*W;at(Math.max(0,Math.min(pts.length-1,Math.round((x-pad)/((W-2*pad)/(pts.length-1))))))});
     svg.addEventListener("pointerleave",()=>{xh.style.opacity=0;pt.setAttribute("cx",X(pts.length-1));pt.setAttribute("cy",Y(pts[pts.length-1][1]));rd.textContent=rd.dataset.def})})}
-const EVKINDS=[["all","All"],["federal","Federal awards"],["sbir","SBIR/STTR"],["patent","Patents"]];
+const EVKINDS=[["all","All"],["federal","Federal awards"],["sbir","SBIR/STTR"],["patent","Patents"],["milestone","Milestones"]];
 function renderEvents(){const vis=new Set(C.filter(visible).map(c=>c.id));let evs=DATA.events.filter(e=>!e.company||vis.has(e.company));
   const kinds=EVKINDS.filter(([k])=>k==="all"||DATA.events.some(e=>e.kind===k)),counts=Object.fromEntries(kinds.map(([k])=>[k,k==="all"?evs.length:evs.filter(e=>e.kind===k).length]));
   if(st.evKind!=="all")evs=evs.filter(e=>e.kind===st.evKind);
@@ -420,7 +477,7 @@ function renderDetail(){const d=document.getElementById("detail"),c=st.sel&&byId
   const g=groupOf(c),sib=g.sites.filter(s=>s!==c).sort((a,b)=>(b.emp||0)-(a.emp||0));const site=u=>u?esc(u.replace(/^https?:\/\/(www\.)?/,"").replace(/\/$/,"")):"";
   d.innerHTML=`<h3><span class="mm-dot" style="background:${SCOL[c.sector]};color:${SCOL[c.sector]}"></span>${esc(c.name)}</h3>${c.formerly?`<p class="mm-note">formerly ${esc(c.formerly)}</p>`:""}${c.status?`<p class="mm-note">${esc(c.status)}</p>`:""}
   ${g.sites.length>1?`<div class="mm-grp"><div class="k">Part of ${esc(g.name)}: ${g.sites.length} sites, ${fmtK(empSum(g.sites))} staff known</div>${sib.slice(0,12).map(s=>`<button type="button" class="mm-sib" data-sel="${s.id}">${esc(s.city)}${s.emp?" · "+fmtK(s.emp):""}<span>${esc(s.name.replace(g.name,"").replace(/^[,\s]+/,"")||s.addr||"site")}</span></button>`).join("")}${sib.length>12?`<span class="mm-count">and ${sib.length-12} more</span>`:""}</div>`:""}
-  <div><div class="k">What they do</div>${esc(c.blurb)||"–"}<div class="k">Products &amp; services</div>${esc(c.tags.join(", "))}${c.naics?`<div class="k">NAICS</div>${esc(c.naics)}`:""}${c.caps.length?`<div class="k">Capabilities</div>${esc(c.caps.join(", "))}`:""}</div>
+  <div><div class="k">What they do</div>${esc(c.blurb)||"–"}<div class="k">Products &amp; services</div>${esc(c.tags.join(", "))}${c.naics?`<div class="k">NAICS</div>${esc(c.naics)}`:""}${c.caps.length?`<div class="k">Capabilities</div>${esc(c.caps.join(", "))}`:""}${c.hum.length?`<div class="k">Humanoid parts (${c.hum_ev==="confirmed"?"confirmed":c.hum_ev==="self-reported"?"self-reported":"inferred"})</div>${esc(c.hum.map(k=>HCOMP[k]?HCOMP[k].name.split(" (")[0]:k).join(", "))}${c.hum_note?`<div class="mm-note">${esc(c.hum_note)}</div>`:""}`:""}</div>
   <div><div class="k">Employees</div>${esc(fmtEmp(c))}${c.emp_note?`<div class="mm-note">${esc(c.emp_note)}</div>`:""}<div class="k">Location</div>${esc(c.addr||c.city+", "+c.state)}${c.prec==="city"?" (placed at the city center)":""}
   ${c.website?`<div class="k">Website</div><a href="${esc(c.website)}" rel="noopener">${site(c.website)}</a>`:""}${c.uei?`<div class="k">UEI</div>${esc(c.uei)}`:""}</div>
   <div>${c.federal?`<div class="k">Federal awards since FY2016</div>contracts ${fmtUSD(c.federal.contracts)} · grants ${fmtUSD(c.federal.grants)} (USAspending)`:""}${c.sbir?`<div class="k">SBIR/STTR</div>${c.sbir.count} awards, ${fmtUSD(c.sbir.amount)} (${esc(c.sbir.agencies.join(", "))})`:""}
@@ -438,24 +495,29 @@ function renderTable(){const tb=document.querySelector("#table tbody"),rs=st.sor
   document.querySelectorAll("[data-rsort]").forEach(b=>{b.setAttribute("aria-pressed",String(b.dataset.rsort===rs.key));b.textContent=b.textContent.replace(/ [▾▴]$/,"")+(b.dataset.rsort===rs.key?ARROW(rs.dir):"")});
   const web=u=>u?`<a href="${esc(u)}" rel="noopener">${esc(u.replace(/^https?:\/\/(www\.)?/,"").replace(/\/$/,""))}</a>`:"–";
   const siteRow=(c,child)=>`<tr id="row-${c.id}" class="${st.sel===c.id?"sel":""}${child?" child":""}" data-id="${c.id}"><td class="name">${esc(c.name)}<small>${esc(c.city)}, ${esc(c.state)}</small></td><td><span class="mm-dot" style="background:${SCOL[c.sector]};color:${SCOL[c.sector]}"></span>${esc(c.sector)}</td><td class="num">${empCell([c])}</td><td class="tags">${esc(c.tags.join(", "))}</td><td class="num">${c.federal?fmtUSD(c.federal.total):"–"}${c.fda?'<span class="mm-badge fda">FDA</span>':""}${c.sbir?'<span class="mm-badge fed">SBIR</span>':""}</td><td>${web(c.website)}</td></tr>`;
-  let html="",lim=0;for(const r of rows){if(lim++>700){html+=`<tr><td colspan="6" class="mm-count">Showing the first 700 of ${rows.length}; narrow the filters to see more.</td></tr>`;break}
+  let html="",lim=0;for(const r of rows){if(lim++>=st.rlim)break;
     if(r.list.length===1){html+=siteRow(r.list[0],false);continue}
     const open=st.open.has(r.gid),cities=[...new Set(r.list.map(c=>c.city))];
     html+=`<tr class="grp${r.list.some(c=>c.id===st.sel)?" sel":""}" data-group="${esc(r.gid)}"><td class="name"><button type="button" class="mm-caret" aria-expanded="${open}" aria-label="${open?"Collapse":"Expand"} ${esc(r.name)}">${open?"▾":"▸"}</button>${esc(r.name)}<small>${r.list.length} sites · ${esc(cities.slice(0,3).join(", "))}${cities.length>3?" …":""}</small></td><td><span class="mm-dot" style="background:${SCOL[r.sector]};color:${SCOL[r.sector]}"></span>${esc(r.sector)}</td><td class="num">${empCell(r.list)}</td><td class="tags">${esc([...new Set(r.list.flatMap(c=>c.tags))].slice(0,4).join(", "))}</td><td class="num">${r.fed?fmtUSD(r.fed):"–"}</td><td>${web(r.list.find(c=>c.website)?.website)}</td></tr>`;
     if(open)for(const c of r.list.slice().sort((a,b)=>(b.emp||0)-(a.emp||0)))html+=siteRow(c,true)}
-  tb.innerHTML=html||`<tr><td colspan="6" class="mm-count">No company matches these filters.</td></tr>`;
+  const more=rows.length>20?`<tr class="mm-more"><td colspan="6"><span class="mm-count">Showing ${Math.min(st.rlim,rows.length).toLocaleString()} of ${rows.length.toLocaleString()} companies</span>${[[20,"20"],[100,"100"],[Infinity,"All"]].map(([n,l])=>`<button type="button" class="mm-chip" data-rlim="${n}" aria-pressed="${st.rlim===n}">${l}</button>`).join("")}</td></tr>`:"";
+  tb.innerHTML=(html||`<tr><td colspan="6" class="mm-count">No company matches these filters.</td></tr>`)+more;
   const txt=`${nGroups(vis)} companies at ${vis.length} sites shown, of ${nGroups(C)} at ${C.length}`;document.getElementById("shown").textContent=txt;document.getElementById("rostercount").textContent=txt}
 
 /* ---------- wiring ---------- */
 function select(id){st.sel=(st.sel===id?null:id);_ctr=center();if(st.rings||st.radius)buildRings();render();
   if(st.sel){const row=document.getElementById("row-"+st.sel);if(row)row.scrollIntoView({block:"nearest",behavior:reduced?"auto":"smooth"})}}
-function clearAll(){Object.assign(st,{evKind:"all",evYear:null,evMore:0,fed:false,fda:false,radius:0,sel:null,q:""});st.cap.clear();st.sec.clear();st.tag.clear();
+function clearAll(){Object.assign(st,{evKind:"all",evYear:null,evMore:0,fed:false,fda:false,radius:0,sel:null,q:"",hum:null});st.cap.clear();st.sec.clear();st.tag.clear();
   document.getElementById("tagsearch").value="";_ctr=center();render()}
 document.getElementById("clear").addEventListener("click",clearAll);document.getElementById("resetall").addEventListener("click",clearAll);
 document.getElementById("tagsearch").addEventListener("input",e=>{st.q=e.target.value.trim().toLowerCase();renderTags()});
 document.getElementById("radius").addEventListener("change",e=>{st.radius=+e.target.value;_ctr=center();buildRings();render()});
 for(const [id,k] of [["lay-rings","rings"],["f-fed","fed"],["f-fda","fda"]])document.getElementById(id).addEventListener("click",()=>{st[k]=!st[k];if(k==="rings")buildRings();render()});
+document.getElementById("humlink").addEventListener("click",()=>document.getElementById("humanoid").scrollIntoView({behavior:"smooth",block:"start"}));
 document.addEventListener("click",e=>{
+  const rl=e.target.closest("[data-rlim]");if(rl){st.rlim=rl.dataset.rlim==="Infinity"?Infinity:+rl.dataset.rlim;renderTable();return}
+  const hb=e.target.closest("[data-hb]");if(hb){st.hb=hb.dataset.hb;renderHumanoid();return}
+  const hg=e.target.closest("[data-hum]");if(hg){const v=hg.dataset.hum;st.hum=st.hum===v?null:v;render();return}
   const wv=e.target.closest("[data-wv]");if(wv){st.wv=wv.dataset.wv;renderWork();return}
   const q=e.target.closest("[data-qv],[data-qs]");if(q){if(q.dataset.qv)st.qv=q.dataset.qv;if(q.dataset.qs)st.qs=q.dataset.qs;renderQcew();return}
   const sib=e.target.closest("[data-sel]");if(sib){const c=byId[sib.dataset.sel];select(c.id);flyTo(c.lat,c.lon,Math.min(view.dist,0.05));return}
@@ -475,15 +537,15 @@ document.getElementById("events").addEventListener("click",e=>{if(e.target.close
 function toast(msg){let t=document.querySelector(".mm-toast");if(!t){t=document.createElement("div");t.className="mm-toast";document.body.appendChild(t)}t.textContent=msg;t.classList.add("on");setTimeout(()=>t.classList.remove("on"),1800)}
 document.getElementById("copylink").addEventListener("click",()=>{const url=location.origin+location.pathname+hashState();(navigator.clipboard?navigator.clipboard.writeText(url):Promise.reject()).then(()=>toast("Link copied")).catch(()=>prompt("Copy this link",url))});
 document.getElementById("csv").addEventListener("click",()=>{const rows=C.filter(visible),q=v=>'"'+String(v??"").replace(/"/g,'""')+'"';
-  const head=["name","company_group","group_sites","kind","city","state","address","lat","lon","location_precision","sector","products","naics","capabilities","employees","employees_scope","employees_year","employees_quality","employees_note","uei","federal_contracts_usd","federal_grants_usd","sbir_awards","sbir_usd","patents_since_2015","fda_registered","certifications","website","source","updated"];
+  const head=["name","company_group","group_sites","kind","city","state","address","lat","lon","location_precision","sector","products","naics","capabilities","employees","employees_scope","employees_year","employees_quality","employees_note","uei","federal_contracts_usd","federal_grants_usd","sbir_awards","sbir_usd","patents_since_2015","fda_registered","certifications","humanoid_parts","humanoid_evidence","formerly","status_note","website","source","updated"];
   const lines=[head.join(",")].concat(rows.map(c=>{const g=groupOf(c);return [c.name,g.name,g.sites.length,c.kind,c.city,c.state,c.addr,c.lat,c.lon,c.prec,c.sector,c.tags.join("; "),c.naics,c.caps.join("; "),c.emp??"",c.emp?c.emp_scope:"",c.emp_year,c.emp_quality,c.emp_note,c.uei,
-    c.federal?c.federal.contracts:"",c.federal?c.federal.grants:"",c.sbir?c.sbir.count:"",c.sbir?c.sbir.amount:"",c.patents?c.patents.count:"",c.fda?"yes":"",c.certs.join("; "),c.website,c.source,c.updated].map(q).join(",")}));
+    c.federal?c.federal.contracts:"",c.federal?c.federal.grants:"",c.sbir?c.sbir.count:"",c.sbir?c.sbir.amount:"",c.patents?c.patents.count:"",c.fda?"yes":"",c.certs.join("; "),c.hum.join("; "),c.hum.length?c.hum_ev:"",c.formerly,c.status,c.website,c.source,c.updated].map(q).join(",")}));
   const blob=new Blob(["﻿"+lines.join("\n")],{type:"text/csv;charset=utf-8"}),a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download="michiana-manufacturing-"+(hashState()?"filtered":"all")+".csv";document.body.appendChild(a);a.click();a.remove();toast(`${rows.length} rows downloaded`)});
 const chip=(id,on)=>document.getElementById(id).setAttribute("aria-pressed",String(on));
 function render(){chip("lay-rings",st.rings);chip("f-fed",st.fed);chip("f-fda",st.fda);document.getElementById("radius").value=String(st.radius);
   _ctr=center();document.getElementById("radius-of").textContent="of "+(st.sel?_ctr.name:"the campus");if(st.rings||st.radius)buildRings();
   document.getElementById("brieflink").href="brief.html"+(st.sec.size?"#sec="+[...st.sec].map(encodeURIComponent).join("|"):"");
-  renderSectors();renderTags();renderFederal();renderCaps();renderEvents();renderWork();paintBars();renderDetail();renderTable();layout();updateHash()}
+  renderSectors();renderTags();renderFederal();renderCaps();renderEvents();renderWork();renderHumanoid();paintBars();renderDetail();renderTable();layout();updateHash()}
 window.addEventListener("hashchange",()=>{if(location.hash!==hashState()){readHash();render()}});
 document.getElementById("legend").innerHTML=DATA.sectors.map(s=>`<span><i class="mm-sw" style="background:${SCOL[s]};color:${SCOL[s]}"></i>${esc(s)}</span>`).join("")
   +`<span>column height = employees, log scale <i class="mm-hl"><i style="height:6px"></i><i style="height:10px"></i><i style="height:14px"></i><i style="height:18px"></i></i>10 · 100 · 1,000 · 10,000</span><span>~ estimate · ’22 year of the figure · * company-wide</span>`;
