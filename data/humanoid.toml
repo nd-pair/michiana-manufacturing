@@ -1,0 +1,223 @@
+# What a full-size humanoid robot is made of, for the humanoid coverage panel.
+#
+# Each component sits in a body group (the region it shades in the drawing) and carries `cost`, its
+# rough share of a humanoid's bill of materials in percent. The shares are editable assumptions,
+# set from public teardown estimates, which agree that actuators are about half the cost; they
+# should add to 100.
+#
+# A company counts as a possible local supplier of a component when its NAICS code starts with one
+# of `naics`, or when one of `patterns` (regular expressions, matched case-insensitively against its
+# name, products and description) and no `exclude` pattern matches near it (within 25 characters),
+# unless its NAICS code starts with one of `exclude_naics`. This is an inference.
+# A company file can override it:
+#   humanoid = ["motors", "reducers"]       # components it supplies (added to the inferred ones)
+#   humanoid_not = ["castings"]             # inferred components it does not supply
+#   humanoid_evidence = "confirmed"         # or "self-reported"; the default is "inferred"
+#   humanoid_note = "Makes frameless BLDC motors up to 200 mm; met 2026-12-03"
+
+[[group]]
+id = "perception"
+name = "Perception"
+region = "Head"
+
+[[group]]
+id = "compute"
+name = "Compute & electronics"
+region = "Chest"
+
+[[group]]
+id = "power"
+name = "Power"
+region = "Abdomen"
+
+[[group]]
+id = "actuators"
+name = "Actuators"
+region = "Joints"
+
+[[group]]
+id = "hands"
+name = "Hands & touch"
+region = "Hands and feet"
+
+[[group]]
+id = "structure"
+name = "Structure & shell"
+region = "Limbs, neck and pelvis"
+
+[[group]]
+id = "integration"
+name = "Integration & test"
+region = "Whole robot"
+
+[[component]]
+id = "motors"
+group = "actuators"
+name = "Electric motors (frameless BLDC, servo)"
+cost = 14
+naics = ["335312"]
+patterns = ['\bmotors?\b', '\bbldc\b', '\bservos?\b', '\bstepper', '\bwindings?\b']
+exclude = ['motor ?homes?', 'motor ?coach', 'motorcycles?', 'motor ?sports?', 'motorized', 'motor vehicle', 'motor freight', 'motor mounts?', 'motor starters?']
+exclude_naics = ["3361", "3362", "3363"]
+
+[[component]]
+id = "reducers"
+group = "actuators"
+name = "Gear reducers (harmonic, planetary, cycloidal)"
+cost = 12
+naics = ["333612"]
+patterns = ['\bgears?\b', '\bgearbox', '\bgearing\b', '\bspeed reducers?\b', '\bharmonic drive', '\bcycloidal\b', '\bplanetary\b']
+exclude = ['landing gear', 'running gear', 'gear ?up', 'camping gear', 'outdoor gear', 'sports? gear', 'power gear']
+
+[[component]]
+id = "screws"
+group = "actuators"
+name = "Roller and ball screws, linear actuators"
+cost = 8
+naics = []
+patterns = ['\bball ?screws?\b', '\broller ?screws?\b', '\blead ?screws?\b', '\blinear actuators?\b', '\bactuators?\b']
+exclude = []
+
+[[component]]
+id = "bearings"
+group = "actuators"
+name = "Bearings"
+cost = 4
+naics = ["332991"]
+patterns = ['\bbearings?\b']
+exclude = []
+
+[[component]]
+id = "encoders"
+group = "actuators"
+name = "Encoders and joint position sensors"
+cost = 3
+naics = []
+patterns = ['\bencoders?\b', '\bresolvers?\b', '\bposition sensors?\b', '\bhall[- ]effect\b', '\bmagnetic sensors?\b']
+exclude = []
+
+[[component]]
+id = "drivers"
+group = "compute"
+name = "Motor drivers and power electronics"
+cost = 6
+naics = ["335314"]
+patterns = ['\bmotor (drives?|controls?|controllers?)\b', '\binverters?\b', '\bpower electronics\b', '\bpower suppl(y|ies)\b', '\bvariable frequency\b', '\bservo drives?\b', '\bpower conversion\b']
+exclude = []
+
+[[component]]
+id = "compute"
+group = "compute"
+name = "Compute and control boards (PCB assembly)"
+cost = 9
+naics = ["334412", "334418", "3341"]
+patterns = ['\bprinted circuit', '\bpcba?s?\b', '\bcircuit boards?\b', '\belectronic(s)? (assembl|manufactur)', '\bembedded (systems|electronics|computers?|controllers?)\b', '\bmicrocontrollers?\b', '\bintegrated circuits?\b', '\bsemiconductors?\b']
+exclude = []
+
+[[component]]
+id = "harness"
+group = "compute"
+name = "Wiring harnesses and connectors"
+cost = 3
+naics = ["335921", "335929", "335931"]
+patterns = ['\bwire harness', '\bwiring harness', '\bharness(es)?\b', '\bcable assembl', '\bconnectors?\b']
+exclude = ['horse harness']
+
+[[component]]
+id = "battery"
+group = "power"
+name = "Battery pack and management system"
+cost = 7
+naics = ["335911", "335912"]
+patterns = ['\bbatter(y|ies)\b', '\blithium\b', '\bbattery management\b', '\bbms\b', '\benergy storage\b']
+exclude = ['battery chargers?', 'battery fabrication equipment']
+
+[[component]]
+id = "vision"
+group = "perception"
+name = "Cameras, depth sensors and lidar"
+cost = 6
+naics = ["333314"]
+patterns = ['\bcameras?\b', '\bmachine vision\b', '\blidar\b', '\boptics?\b', '\boptical\b', '\blens(es)?\b', '\bimag(e|ing) sensors?\b', '\bphotonic']
+exclude = ['optical (retail|store)', 'eyeglass', 'eyewear', 'orthodont']
+
+[[component]]
+id = "imu"
+group = "perception"
+name = "Inertial measurement (IMU, gyros)"
+cost = 1
+naics = ["334511"]
+patterns = ['\bimus?\b', '\binertial\b', '\bgyro', '\baccelerometers?\b']
+exclude = []
+
+[[component]]
+id = "hands"
+group = "hands"
+name = "Dexterous hand mechanisms"
+cost = 7
+naics = []
+patterns = ['\bgrippers?\b', '\bend[- ]effectors?\b', '\bprosthe', '\borthotic', '\brobotic hands?\b', '\bmicro ?motors?\b', '\bexoskeleton']
+exclude = []
+
+[[component]]
+id = "tactile"
+group = "hands"
+name = "Tactile and force/torque sensors"
+cost = 5
+naics = ["334513"]
+patterns = ['\bload cells?\b', '\bforce sensors?\b', '\btorque sensors?\b', '\bstrain gauges?\b', '\btactile\b', '\bpressure sensors?\b', '\bforce/torque\b']
+exclude = []
+
+[[component]]
+id = "castings"
+group = "structure"
+name = "Structural castings and forgings"
+cost = 4
+naics = ["3315", "3321"]
+patterns = ['\bdie[- ]?cast', '\bcastings?\b', '\bfoundr(y|ies)\b', '\bforg(e|ing|ings)\b']
+exclude = []
+
+[[component]]
+id = "machining"
+group = "structure"
+name = "Precision machined parts"
+cost = 4
+naics = ["332710", "332721", "333515"]
+patterns = ['\bcnc\b', '\bmachining\b', '\bmachined\b', '\bmachine shop\b', '\bprecision parts\b', '\bscrew machine', '\bswiss\b']
+exclude = []
+
+[[component]]
+id = "sheetmetal"
+group = "structure"
+name = "Sheet metal and fabrication"
+cost = 1
+naics = ["3323", "332119"]
+patterns = ['\bsheet metal\b', '\bstampings?\b', '\blaser cut', '\bmetal fabricat']
+exclude = []
+
+[[component]]
+id = "plastics"
+group = "structure"
+name = "Plastic covers and injection molding"
+cost = 3
+naics = ["3261"]
+patterns = ['\binjection mold', '\bmolded plastic', '\bplastic (parts|components|molding)\b', '\bthermoform']
+exclude = []
+
+[[component]]
+id = "composites"
+group = "structure"
+name = "Composites, foam and soft covers"
+cost = 1
+naics = ["326150", "3262"]
+patterns = ['\bcomposites?\b', '\bcarbon fiber\b', '\bfiberglass\b', '\belastomer', '\bsilicone\b']
+exclude = []
+
+[[component]]
+id = "integration"
+group = "integration"
+name = "Robot integration, test and software"
+cost = 2
+naics = []
+patterns = ['\brobot', '\bautomation\b', '\bintegrators?\b', '\bmechatronic', '\bautonomous\b', '\bcobots?\b']
+exclude = ['building automation', 'home automation']

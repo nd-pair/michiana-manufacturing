@@ -1,0 +1,10 @@
+# Milestones toward making Michiana a hub for manufacturing physical AI: first local production of a
+# humanoid component, a supplier qualifying for a robot maker, a pilot in a local plant, a new
+# robotics company, the first locally assembled humanoid. They appear on the map's timeline.
+# Add one entry per milestone, with a public source:
+#
+# [[milestone]]
+# date = "2027-03-15"
+# title = "First frameless BLDC motors for humanoid joints shipped from Elkhart"
+# company = "kay-industries-inc-south-bend-604"   # optional: the company's id (its file name)
+# source = "https://example.com/announcement"

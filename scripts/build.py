@@ -10,6 +10,7 @@ site/. The GitHub Action runs the same command on every push.
 Needs Python 3.11 or newer (for tomllib); nothing else.
 """
 import datetime, json, os, sys, tomllib, shutil, re, hashlib
+import humanoid
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 P = lambda *a: os.path.join(ROOT, *a)
@@ -180,6 +181,8 @@ def main():
             "uei": c.get("uei", ""), "formerly": c.get("formerly", ""), "status": c.get("status_note", ""), "parent_field": c.get("parent", ""), "standalone": bool(c.get("standalone")),
             "emp_year": str(c.get("employees_year") or headcount_year(c.get("employees_note", ""))),
             "emp_quality": c.get("employees_quality") or headcount_quality(c),
+            "hum_add": list(c.get("humanoid", [])), "hum_not": list(c.get("humanoid_not", [])),
+            "hum_ev": c.get("humanoid_evidence", "inferred"), "hum_note": c.get("humanoid_note", ""),
         })
     # spread companies that share one address in a small ring (in degrees)
     import math
@@ -215,6 +218,19 @@ def main():
     for o in companies:
         text = " ".join(o["tags"] + [o["blurb"]]).lower()
         o["caps"] = [k["name"] for k in caps if any(o["naics"].startswith(pfx) for pfx in k["naics"]) or any(kw in text for kw in k["keywords"])]
+    # humanoid supply chain: which components each company could supply (inferred, or set in its file)
+    hspec = humanoid.load(); hids = {c["id"] for c in hspec["component"]}
+    for o in companies:
+        text = " ".join([o["name"]] + o["tags"] + [o["blurb"]])
+        inferred = [] if o["kind"] != "company" else humanoid.infer(hspec, text, o["naics"])
+        bad = [k for k in o["hum_add"] + o["hum_not"] if k not in hids]
+        if bad:
+            sys.exit("%s: unknown humanoid component(s) %s; see data/humanoid.toml" % (o["id"], ", ".join(bad)))
+        o["hum"] = [k for k in hids if (k in inferred or k in o["hum_add"]) and k not in o["hum_not"]]
+        o["hum"].sort(key=[c["id"] for c in hspec["component"]].index)
+        if not o["hum"]:
+            o["hum_ev"] = ""
+        o.pop("hum_add"); o.pop("hum_not")
     try:
         events = json.load(open(P("data", "events_auto.json")))["events"]
     except FileNotFoundError:
@@ -222,6 +238,21 @@ def main():
     events += patents.get("events", [])
     ids_now = {o["id"] for o in companies}
     events = sorted((e for e in events if not e.get("company") or e["company"] in ids_now), key=lambda e: e["date"], reverse=True)
+    # milestones toward the humanoid goal, entered by hand, join the timeline
+    for m in load_toml(P("data", "milestones.toml")).get("milestone", []):
+        events.append({"kind": "milestone", "date": str(m["date"]), "title": m["title"], "company": m.get("company", ""),
+                       "amount": None, "source": m.get("source", "")})
+    events.sort(key=lambda e: e["date"], reverse=True)
+    hcov = humanoid.coverage(hspec, companies)
+    progress_path = P("data", "progress.json")
+    try:
+        progress = json.load(open(progress_path))
+    except FileNotFoundError:
+        progress = {}
+    month = datetime.date.today().strftime("%Y-%m")
+    if progress.get(month) != hcov:
+        progress[month] = hcov
+        json.dump(dict(sorted(progress.items())), open(progress_path, "w"), indent=1)
     counties = json.load(open(P("data", "region_counties.json")))
     lakes = [o["ring"] for o in json.load(open(P("data", "great_lakes.json"))) if len(o["ring"]) >= 80 and "Cabonga" not in o["name"]]
     data = {
@@ -241,6 +272,8 @@ def main():
         "federalAgencies": federal.get("agencies", []), "federalSource": federal.get("source", ""), "federalPulled": federal.get("pulled", ""),
         "fdaSource": fda.get("source", ""), "qcew": qcew.get("counties", {}), "qcewSource": qcew.get("source", ""),
         "qcewSectors": qcew.get("sectors", {}), "qcewPulled": qcew.get("pulled", ""),
+        "humanoid": {"groups": hspec["group"], "components": [{k: v for k, v in c.items() if not k.startswith("_") and k not in ("patterns", "exclude", "exclude_naics", "naics")} for c in hspec["component"]],
+                     "funding": humanoid.funding(events), "progress": progress},
         "qcewSpec": qcew.get("specialization", {}), "bls": {k: bls.get(k) for k in ("occupations", "ces", "laus", "pulled") if bls.get(k)},
         "sbirPulled": sbir.get("pulled", ""), "fdaPulled": fda.get("pulled", ""), "patentsPulled": patents.get("pulled", ""),
     }
@@ -289,6 +322,7 @@ def main():
             "{{SPECYEAR}}": str(qcew.get("specialization", {}).get("year", "not yet pulled")),
             "{{OEWSYEAR}}": str((bls.get("occupations") or {}).get("year") or "–"),
             "{{BLSMONTH}}": bls_month(bls), "{{BLSPULLED}}": bls.get("pulled", "not yet pulled"),
+            "{{HUMCOMP}}": str(len(hspec["component"])),
             "{{CITYLEVEL}}": str(sum(1 for o in companies if o["prec"] == "city")), "{{CLOSED}}": str(len(closed)), "{{GROUPED}}": str(sum(1 for o in companies if o["parent"])),
             "{{PARENTS}}": str(len({o["group"] for o in companies if o["parent"]}))}
     about = read("site", "about.html")

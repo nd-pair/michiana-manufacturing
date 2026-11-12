@@ -66,6 +66,7 @@ Field by field:
 | `standalone` | no | `true` keeps an entry out of automatic grouping, e.g. a fund whose page lives on another organization's site |
 | `uei` | no | Unique Entity ID; federal and SBIR awards then match exactly. Filled in automatically once a unique name match is found |
 | `location_precision` | no | `"city"` when lat/lon is a city center rather than the address (used for SBIR firms) |
+| `humanoid`, `humanoid_not`, `humanoid_evidence`, `humanoid_note` | no | Humanoid parts the company supplies (ids from [`data/humanoid.toml`](data/humanoid.toml)), inferred ones it does not, `"confirmed"` or `"self-reported"` once that is established, and a note on what was confirmed |
 | `formerly`, `status_note` | no | A former name (still found by search) and a one-line note on ownership or status, both shown in the detail panel |
 | `closed`, `closed_note`, `closed_source` | no | Date the site closed (`closed = 2009-11-04`, or `"2015"` when only the year is known), how we know, and a link. The entry is then left off the map |
 
@@ -123,6 +124,21 @@ Beyond the map, the page carries:
   and the "within" filter center on the selected company, or the campus when none is selected.
 - **Sector employment.** The employment chart switches between counties and sectors (3-digit NAICS
   from the QCEW area files, folded into the map's sectors) and between head counts and an index.
+- **Humanoid supply chain.** The goal is to make Michiana a hub for manufacturing physical AI,
+  from motors and sensors to full humanoids. [`data/humanoid.toml`](data/humanoid.toml) lists the
+  19 components of a full-size humanoid, each with a body region, a rough share of its cost and
+  rules that match local companies by industry code or product description. The panel at the bottom
+  of the map draws a humanoid with each region shaded by the depth of local supply, counting either
+  confirmed suppliers (the progress measure, which starts at zero) or every company with a related
+  capability (the potential). Tiles give the share of a humanoid's cost with two or more local
+  suppliers in each view, the number of companies, robotics-related federal and SBIR awards by year,
+  and the monthly trend: every build saves the current month's figures to `data/progress.json`.
+  Clicking a region or component filters the map and roster. To confirm a supplier, add
+  `humanoid = [...]` and `humanoid_evidence = "confirmed"` with a `humanoid_note` to its file.
+  Milestones (first local actuator line, first assembled humanoid) go in
+  [`data/milestones.toml`](data/milestones.toml) and appear on the timeline.
+- **Roster size.** The roster shows the first 20 companies in the current sort, with buttons for
+  100 or all.
 - **Workforce.** A panel with three views, all from the Bureau of Labor Statistics and sortable by
   any column. *Specialization* lists every 3-digit manufacturing industry for the latest QCEW year
   with jobs, establishments, average pay against the U.S., the region's location quotient (its
@@ -170,7 +186,7 @@ so commit only your source changes (`companies/`, `data/`, `site/`, `scripts/`) 
 companies/      one TOML file per company (edit these)
 data/           sectors, places, capabilities (edit these); county boundaries (Census), shorelines (Natural Earth); pulled datasets (federal, fda, qcew, bls, sbir)
 site/           the pages: Notre Dame Web Theme chrome (partials/), page.html + app.js (map), about.html, brief.html + brief.js, app.css
-scripts/        build.py, geocode.py, import_hifld.py, import_sbir_firms.py, pull_federal.py, pull_sbir.py, pull_fda.py, pull_qcew.py, pull_bls.py, pull_events.py, pull_patents.py, common.py
+scripts/        build.py, humanoid.py, geocode.py, import_hifld.py, import_sbir_firms.py, pull_federal.py, pull_sbir.py, pull_fda.py, pull_qcew.py, pull_bls.py, pull_events.py, pull_patents.py, common.py
 docs/           the built site (generated; do not edit by hand)
 ```
 
