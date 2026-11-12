@@ -77,7 +77,9 @@ python3 -m http.server -d docs  # then open http://localhost:8000
 ```
 
 Python 3.11 or newer, no other dependencies. GitHub Pages serves `docs/` on `main`; the
-[workflow](.github/workflows/build.yml) rebuilds `docs/` on every push and commits the result.
+[workflow](.github/workflows/build.yml) rebuilds `docs/` on every push and commits the result,
+so commit only your source changes (`companies/`, `data/`, `site/`, `scripts/`) and leave
+`docs/` to the workflow; after it runs, `git pull --rebase` picks up its commit.
 
 ## Layout
 
