@@ -120,16 +120,20 @@ const barH=c=>c.emp?0.08+0.15*Math.log10(Math.max(c.emp,10)):0.09;
 function shadedUnit(w,hscale){const g=new THREE.BoxGeometry(w,1,w);g.translate(0,0.5,0);const shade=[0.72,0.72,1,0.5,0.86,0.86];
   const col=new Float32Array(24*3);for(let f=0;f<6;f++)for(let v=0;v<4;v++){const i=f*4+v;col[3*i]=col[3*i+1]=col[3*i+2]=shade[f]}g.setAttribute("color",new THREE.BufferAttribute(col,3));return g}
 const NB=C.length, W=0.045;
-const barMesh=new THREE.InstancedMesh(shadedUnit(W),new THREE.MeshBasicMaterial({vertexColors:true}),NB);
+const barMesh=new THREE.InstancedMesh(shadedUnit(W),new THREE.MeshBasicMaterial({vertexColors:true}),NB);               // companies in the filter
+const dimMesh=new THREE.InstancedMesh(shadedUnit(W),new THREE.MeshBasicMaterial({vertexColors:true,transparent:true,opacity:0.12,depthWrite:false}),NB);   // the rest: dark and mostly transparent
 const glowMesh=new THREE.InstancedMesh((()=>{const g=new THREE.BoxGeometry(W*1.9,1.04,W*1.9);g.translate(0,0.52,0);return g})(),new THREE.MeshBasicMaterial({transparent:true,opacity:0.09,blending:THREE.AdditiveBlending,depthWrite:false}),NB);
-barMesh.instanceColor=new THREE.InstancedBufferAttribute(new Float32Array(NB*3),3); glowMesh.instanceColor=new THREE.InstancedBufferAttribute(new Float32Array(NB*3),3);
-globe.add(barMesh); globe.add(glowMesh);
+for(const m of [barMesh,dimMesh,glowMesh])m.instanceColor=new THREE.InstancedBufferAttribute(new Float32Array(NB*3),3);
+globe.add(dimMesh); globe.add(barMesh); globe.add(glowMesh);
+let onList=[], offList=[], lastK=KREF;
+function assignBars(){onList=[];offList=[];for(const b of bars){const v=visible(b.c),h=hotMatch(b.c),on=st.hot?(v&&h):v;b.on=on;b.oi=(on?onList:offList).length;(on?onList:offList).push(b)}
+  barMesh.count=onList.length;glowMesh.count=onList.length;dimMesh.count=offList.length}
 const bars=C.map((c,i)=>{const p=P(c.lat,c.lon,lift(2.2));const qn=new THREE.Quaternion().setFromUnitVectors(new THREE.Vector3(0,1,0),p.clone().normalize());
   return {c,i,h:barH(c),pos:p,quat:qn,color:new THREE.Color(SCOL[c.sector]).convertSRGBToLinear()}});
 const halo=new THREE.Mesh(new THREE.RingGeometry(0.09,0.12,32),new THREE.MeshBasicMaterial({color:0x35d6ff,side:THREE.DoubleSide,transparent:true,opacity:0})); halo.geometry.rotateX(-Math.PI/2); halo.scale.setScalar(KREF); globe.add(halo);
 const _m=new THREE.Matrix4(), _s=new THREE.Vector3();
-function layoutBars(k){for(const b of bars){_s.set(k,k*b.h,k);_m.compose(b.pos,b.quat,_s);barMesh.setMatrixAt(b.i,_m);glowMesh.setMatrixAt(b.i,_m)}
-  barMesh.instanceMatrix.needsUpdate=true;glowMesh.instanceMatrix.needsUpdate=true;
+function layoutBars(k){lastK=k;const set=(mesh,list)=>{list.forEach((b,i)=>{_s.set(k,k*b.h,k);_m.compose(b.pos,b.quat,_s);mesh.setMatrixAt(i,_m)});mesh.instanceMatrix.needsUpdate=true};
+  set(barMesh,onList);set(glowMesh,onList);set(dimMesh,offList);
   const sel=bars.find(b=>b.c.id===st.sel);if(sel){halo.position.copy(P(sel.c.lat,sel.c.lon,lift(2.4)));halo.quaternion.copy(sel.quat);halo.scale.setScalar(k)}}
 
 const byId=Object.fromEntries(C.map(c=>[c.id,c]));
@@ -176,20 +180,21 @@ document.getElementById("zout").onclick=()=>zoomBy(1/0.7);
 document.getElementById("reset").onclick=()=>{Object.assign(view,home);applyView()};
 document.getElementById("campus").onclick=()=>{view.lat=DATA.landmark.lat;view.lon=DATA.landmark.lon;view.dist=0.018;applyView()};
 function pick(e){const r=renderer.domElement.getBoundingClientRect();ndc.set(((e.clientX-r.left)/r.width)*2-1,-((e.clientY-r.top)/r.height)*2+1);ray.setFromCamera(ndc,camera);
-  const hit=ray.intersectObject(barMesh,false)[0];return hit&&hit.instanceId!=null?bars[hit.instanceId]:null}
+  const hit=ray.intersectObject(barMesh,false)[0];return hit&&hit.instanceId!=null?onList[hit.instanceId]:null}
 let hoverId=null;
 function hover(e){const b=pick(e); const id=b?b.c.id:null; if(id!==hoverId){hoverId=id;paintBars()}
-  if(b){barMesh.getMatrixAt(b.i,_m);const top=new THREE.Vector3(0,1,0).applyMatrix4(_m).applyMatrix4(globe.matrixWorld).project(camera);const r=renderer.domElement.getBoundingClientRect();
+  if(b){barMesh.getMatrixAt(b.oi,_m);const top=new THREE.Vector3(0,1,0).applyMatrix4(_m).applyMatrix4(globe.matrixWorld).project(camera);const r=renderer.domElement.getBoundingClientRect();
     tip.innerHTML=`<b>${esc(b.c.name)}</b>${esc(b.c.city)}, ${esc(b.c.state)} · ${esc(b.c.sector)}<div class="m">${esc(fmtEmp(b.c))} employees</div>`;
     tip.style.left=((top.x+1)/2*r.width)+"px";tip.style.top=((1-top.y)/2*r.height)+"px";tip.style.opacity=1;box.style.cursor="pointer"}
   else{tip.style.opacity=0;box.style.cursor=drag?"grabbing":"grab"}}
 const _c=new THREE.Color();
-function paintBars(){for(const b of bars){const v=visible(b.c),h=hotMatch(b.c),on=st.hot?(v&&h):v,lit=(hoverId===b.c.id||st.sel===b.c.id||(st.hot&&on));
-    const k=!on?0.025:lit?1.6:(b.c.emp?1:0.55); _c.copy(b.color).multiplyScalar(k); barMesh.setColorAt(b.i,_c);
-    _c.copy(b.color).multiplyScalar(!on?0:lit?2.2:1); glowMesh.setColorAt(b.i,_c)}
-  barMesh.instanceColor.needsUpdate=true; glowMesh.instanceColor.needsUpdate=true; halo.material.opacity=st.sel?0.9:0; if(st.sel)layoutBars(KREF*Math.min(view.dist/D_HOME,2.2))}
+function paintBars(){assignBars();
+  onList.forEach((b,i)=>{const lit=(hoverId===b.c.id||st.sel===b.c.id||st.hot);_c.copy(b.color).multiplyScalar(lit?1.6:(b.c.emp?1:0.55));barMesh.setColorAt(i,_c);_c.copy(b.color).multiplyScalar(lit?2.2:1);glowMesh.setColorAt(i,_c)});
+  offList.forEach((b,i)=>{_c.copy(b.color).multiplyScalar(0.3);dimMesh.setColorAt(i,_c)});
+  barMesh.instanceColor.needsUpdate=true;glowMesh.instanceColor.needsUpdate=true;dimMesh.instanceColor.needsUpdate=true;
+  halo.material.opacity=st.sel?0.9:0;layoutBars(lastK)}
 function resize(){const w=box.clientWidth,h=Math.max(360,Math.min(640,Math.round(w*0.64)));box.style.height=h+"px";renderer.setSize(w,h,false);camera.aspect=w/h;camera.updateProjectionMatrix()}
-new ResizeObserver(resize).observe(box); resize(); applyView();
+assignBars(); new ResizeObserver(resize).observe(box); resize(); applyView();
 let t0=performance.now(); (function loop(){requestAnimationFrame(loop);
   if(!reduced&&!drag){const t=(performance.now()-t0)/1000; if(t<2.8){const k=1-Math.pow(1-Math.min(t/2.8,1),3); view.dist=Math.exp(Math.log(D_MAX)+(Math.log(home.dist)-Math.log(D_MAX))*k); applyView()}}
   renderer.render(scene,camera)})();
