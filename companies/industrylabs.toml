@@ -1,0 +1,20 @@
+# Notre Dame iNDustry Labs
+# One company per file. See README.md for the fields; delete a line to leave it blank.
+
+name = "Notre Dame iNDustry Labs"
+kind = "university"
+city = "South Bend"
+state = "IN"
+address = "1400 E Angela Blvd, South Bend, IN 46617"
+lat = 41.69313
+lon = -86.22930
+website = "https://industrylabs.nd.edu"
+
+sector = "Capital & anchors"
+products = ["University anchor", "Industry engagement"]
+
+employees = 10
+employees_scope = "site"  # site = this location; company = company-wide
+employees_note = "core staff listed on its site, 2026"
+
+description = "The University of Notre Dame's industry engagement unit for the regional manufacturing base, at Innovation Park."

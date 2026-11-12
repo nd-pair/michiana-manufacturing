@@ -1,0 +1,20 @@
+# Bertrand Products Inc.
+# One company per file. See README.md for the fields; delete a line to leave it blank.
+
+name = "Bertrand Products Inc."
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "2323 Foundation Dr, South Bend, IN 46628"
+lat = 41.70871
+lon = -86.30479
+website = "https://www.bertrandproducts.com"
+
+sector = "Metal"
+products = ["Aerospace machining", "Precision machining"]
+
+employees = 23
+employees_scope = "site"  # site = this location; company = company-wide
+employees_note = "OSHA average annual employment"
+
+description = "Aerospace-primary manufacturer of airframe and structural parts, titanium machining for aircraft, rotorcraft and munitions, complex subassembly."

@@ -1,0 +1,20 @@
+# TrekFed / Trek10
+# One company per file. See README.md for the fields; delete a line to leave it blank.
+
+name = "TrekFed / Trek10"
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "1400 E Angela Blvd, South Bend, IN 46617"
+lat = 41.69313
+lon = -86.22930
+website = "https://www.trek10.com"
+
+sector = "Software & services"
+products = ["Cloud", "Software"]
+
+employees = 102
+employees_scope = "company"  # site = this location; company = company-wide
+employees_note = "remote-first company headquartered in South Bend"
+
+description = "Cloud technology company spun off from Trek10, bringing commercial cloud innovation to federal and defense missions."

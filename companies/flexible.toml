@@ -1,0 +1,20 @@
+# Flexible Concepts Inc.
+# One company per file. See README.md for the fields; delete a line to leave it blank.
+
+name = "Flexible Concepts Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "1620 Middlebury St, Elkhart, IN 46516"
+lat = 41.68132
+lon = -85.93797
+website = "https://www.flexibleconcepts.com"
+
+sector = "Metal"
+products = ["Swiss turning", "Gears & splines", "Ordnance components"]
+
+employees = 118
+employees_scope = "site"  # site = this location; company = company-wide
+employees_note = "aggregator estimate"
+
+description = "Precision turned products and ordnance components: rockets, spline drive shafts for drivetrains and weapon systems, fixtures for weapons assembly and test."

@@ -1,0 +1,18 @@
+# Forest River Inc.
+# One company per file. See README.md for the fields; delete a line to leave it blank.
+
+name = "Forest River Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "900 County Road 1 N, Elkhart, IN 46514"
+website = "https://forestriverinc.com"
+
+sector = "Mechatronics & automation"
+products = ["RV & specialty vehicle components", "High-mix assembly"]
+
+employees = 11000
+employees_scope = "company"  # site = this location; company = company-wide
+employees_note = "company-wide; the company says 14,000 or more"
+
+description = "RV, bus and cargo-trailer manufacturer headquartered in Elkhart."

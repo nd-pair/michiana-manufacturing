@@ -1,0 +1,20 @@
+# Schafer Industries
+# One company per file. See README.md for the fields; delete a line to leave it blank.
+
+name = "Schafer Industries"
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "4701 Nimtz Pkwy, South Bend, IN 46628"
+lat = 41.72254
+lon = -86.34344
+website = "https://schaferindustries.com"
+
+sector = "Metal"
+products = ["Gears & splines", "Aerospace machining"]
+
+employees = 98
+employees_scope = "site"  # site = this location; company = company-wide
+employees_note = "three plants, aggregator estimate"
+
+description = "Precision gears, spline shafts and drive components since 1934; Schafer Aerospace supplies commercial and military aviation programs."

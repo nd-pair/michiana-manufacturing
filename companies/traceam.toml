@@ -1,0 +1,17 @@
+# TraceAM / 3Degrees
+# One company per file. See README.md for the fields; delete a line to leave it blank.
+
+name = "TraceAM / 3Degrees"
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "1400 E Angela Blvd, South Bend, IN 46617"
+lat = 41.69313
+lon = -86.22930
+
+sector = "Software & services"
+products = ["AM qualification software", "Consulting"]
+
+employees_note = "small consultancy; no headcount published"
+
+description = "Additive manufacturing consulting and quality-management software for qualifying printed parts."

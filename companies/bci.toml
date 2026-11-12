@@ -1,0 +1,20 @@
+# BCI Solutions (Bremen Castings)
+# One company per file. See README.md for the fields; delete a line to leave it blank.
+
+name = "BCI Solutions (Bremen Castings)"
+kind = "company"
+city = "Bremen"
+state = "IN"
+address = "500 N Baltimore St, Bremen, IN 46506"
+lat = 41.45046
+lon = -86.15365
+website = "https://www.bcisolutions.com"
+
+sector = "Metal"
+products = ["Foundry & casting", "Precision machining"]
+
+employees = 203
+employees_scope = "site"  # site = this location; company = company-wide
+employees_note = "Bremen; about 200 since 2012"
+
+description = "Family-owned foundry and precision machining operation founded in 1939, fifth generation."

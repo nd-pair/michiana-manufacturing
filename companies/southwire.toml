@@ -1,0 +1,20 @@
+# Southwire (Bremen)
+# One company per file. See README.md for the fields; delete a line to leave it blank.
+
+name = "Southwire (Bremen)"
+kind = "company"
+city = "Bremen"
+state = "IN"
+address = "1115 W North St, Bremen, IN 46506"
+lat = 41.44743
+lon = -86.15937
+website = "https://www.southwire.com"
+
+sector = "Electronics"
+products = ["Wire & cable"]
+
+employees = 400
+employees_scope = "site"  # site = this location; company = company-wide
+employees_note = "Bremen: 310 in 2014 plus planned and 2025 hires; about 5,000 to 9,000 company-wide"
+
+description = "North America's largest wire and cable manufacturer; the Bremen plant serves industrial, telecom, data-center and factory-automation markets."

@@ -1,0 +1,18 @@
+# CTS Corporation
+# One company per file. See README.md for the fields; delete a line to leave it blank.
+
+name = "CTS Corporation"
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "905 West Blvd N, Elkhart, IN 46514"
+lat = 41.69437
+lon = -85.99847
+website = "https://www.ctscorp.com"
+
+sector = "Electronics"
+products = ["Sensors", "Electronic components", "Frequency control"]
+
+employees_note = "Elkhart site is an R&D center of undisclosed size since manufacturing closed in 2018; 3,492 company-wide"
+
+description = "Publicly traded manufacturer of sensors, electronic components and frequency-control products for transportation, industrial, medical and defense markets. The Elkhart site is a research and development center; corporate headquarters are in Lisle, Illinois."

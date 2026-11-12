@@ -1,0 +1,20 @@
+# Honeywell (South Bend)
+# One company per file. See README.md for the fields; delete a line to leave it blank.
+
+name = "Honeywell (South Bend)"
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "3520 Westmoor St, South Bend, IN 46628"
+lat = 41.68411
+lon = -86.29723
+website = "https://aerospace.honeywell.com"
+
+sector = "Electronics"
+products = ["Avionics & inertial sensors", "Sensors"]
+
+employees = 775
+employees_scope = "site"  # site = this location; company = company-wide
+employees_note = "South Bend plant, 2016 figure"
+
+description = "Avionics, aircraft parts and precision sensors at the former Bendix / AlliedSignal site; accelerometers for guidance, navigation and control."

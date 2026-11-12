@@ -1,0 +1,20 @@
+# AMERI-CAN Engineering
+# One company per file. See README.md for the fields; delete a line to leave it blank.
+
+name = "AMERI-CAN Engineering"
+kind = "company"
+city = "Argos"
+state = "IN"
+address = "775 N Michigan St, Argos, IN 46501"
+lat = 41.24088
+lon = -86.24688
+website = "https://www.ameri-can.com"
+
+sector = "Mechatronics & automation"
+products = ["RV & specialty vehicle components", "Trailers & field systems"]
+
+employees = 22
+employees_scope = "site"  # site = this location; company = company-wide
+employees_note = "range 11 to 50"
+
+description = "Custom commercial, event and luxury restroom trailers, shower and decontamination trailers; family-owned since 1988."

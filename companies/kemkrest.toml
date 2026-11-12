@@ -1,0 +1,20 @@
+# Kem Krest
+# One company per file. See README.md for the fields; delete a line to leave it blank.
+
+name = "Kem Krest"
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "3221 Magnum Dr, Elkhart, IN 46516"
+lat = 41.67760
+lon = -85.91508
+website = "https://www.kemkrest.com"
+
+sector = "Software & services"
+products = ["Defense logistics & kitting"]
+
+employees = 300
+employees_scope = "site"  # site = this location; company = company-wide
+employees_note = "Elkhart, Indiana Governor's Workforce Cabinet 2024"
+
+description = "Defense kitting, packaging and logistics provider in Elkhart."

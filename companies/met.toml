@@ -1,0 +1,20 @@
+# MET Manufacturing Group
+# One company per file. See README.md for the fields; delete a line to leave it blank.
+
+name = "MET Manufacturing Group"
+kind = "company"
+city = "Mishawaka"
+state = "IN"
+address = "1906 Clover Rd, Mishawaka, IN 46545"
+lat = 41.67741
+lon = -86.15372
+website = "https://www.met-mfg.com"
+
+sector = "Metal"
+products = ["Precision machining"]
+
+employees = 30
+employees_scope = "site"  # site = this location; company = company-wide
+employees_note = "company-provided range 10 to 49"
+
+description = "Custom CNC machining and contract manufacturing for aerospace, automotive and industrial OEMs; multi-axis milling, turning, precision assembly for high-mix production."

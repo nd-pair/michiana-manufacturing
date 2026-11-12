@@ -1,0 +1,20 @@
+# Speedgrip Chuck Company
+# One company per file. See README.md for the fields; delete a line to leave it blank.
+
+name = "Speedgrip Chuck Company"
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "2000 Industrial Pkwy, Elkhart, IN 46516"
+lat = 41.68566
+lon = -85.93467
+website = "https://www.speedgrip.com"
+
+sector = "Metal"
+products = ["Workholding & fixtures"]
+
+employees = 48
+employees_scope = "site"  # site = this location; company = company-wide
+employees_note = "Inside INdiana Business, 2023"
+
+description = "Precision workholding and fixturing since 1946, with custom engineering for complex aerospace and defense geometries."

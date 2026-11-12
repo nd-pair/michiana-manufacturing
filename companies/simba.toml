@@ -1,0 +1,20 @@
+# Simba Chain Inc.
+# One company per file. See README.md for the fields; delete a line to leave it blank.
+
+name = "Simba Chain Inc."
+kind = "company"
+city = "Plymouth"
+state = "IN"
+address = "510 W Adams St, Plymouth, IN 46563"
+lat = 41.34237
+lon = -86.31433
+website = "https://www.simbachain.com"
+
+sector = "Software & services"
+products = ["Blockchain & provenance", "Software"]
+
+employees = 35
+employees_scope = "company"  # site = this location; company = company-wide
+employees_note = "aggregators range 35 to 93"
+
+description = "Enterprise blockchain and technology company co-founded with ITAMCO and the University of Notre Dame; registered in Plymouth, it began at Innovation Park in South Bend."

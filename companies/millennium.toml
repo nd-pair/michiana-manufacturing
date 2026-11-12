@@ -1,0 +1,19 @@
+# Millennium Machinery Inc.
+# One company per file. See README.md for the fields; delete a line to leave it blank.
+
+name = "Millennium Machinery Inc."
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "4406 Technology Dr, South Bend, IN 46628"
+lat = 41.73582
+lon = -86.34252
+
+sector = "Mechatronics & automation"
+products = ["Machine tools & systems", "Swiss turning", "Automation & assembly systems"]
+
+employees = 25
+employees_scope = "site"  # site = this location; company = company-wide
+employees_note = "aggregator estimate"
+
+description = "One of the largest Citizen-Cincom/Miyano Swiss CNC distributor-integrators; custom-automates the machines."

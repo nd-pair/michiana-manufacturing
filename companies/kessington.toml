@@ -1,0 +1,20 @@
+# Kessington Machined Products
+# One company per file. See README.md for the fields; delete a line to leave it blank.
+
+name = "Kessington Machined Products"
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "1020 County Road 6 W, Elkhart, IN 46514"
+lat = 41.72440
+lon = -85.99523
+website = "https://collectivemfg.com/kessington"
+
+sector = "Metal"
+products = ["EDM & waterjet", "Aerospace machining", "Precision machining"]
+
+employees = 90
+employees_scope = "site"  # site = this location; company = company-wide
+employees_note = "aggregator estimates range 26 to 120"
+
+description = "Aerospace- and defense-focused precision machining: wire EDM, water-jet cutting, Inconel and titanium, high-mix and low-to-medium volume. Part of Collective Manufacturing."

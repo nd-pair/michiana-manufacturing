@@ -1,0 +1,18 @@
+# Liftco
+# One company per file. See README.md for the fields; delete a line to leave it blank.
+
+name = "Liftco"
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "3301 Reedy Dr, Elkhart, IN 46514"
+lat = 41.72750
+lon = -85.92239
+website = "https://www.liftcoinc.com"
+
+sector = "Mechatronics & automation"
+products = ["RV & specialty vehicle components", "Stamping & fabrication"]
+
+employees_note = "no headcount published"
+
+description = "RV, marine, specialty-vehicle and defense components: slideouts, jacks, bed systems. Embedded in the Elkhart vehicle-component supply chain."

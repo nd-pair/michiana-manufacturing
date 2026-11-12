@@ -1,0 +1,19 @@
+# Polygon Company
+# One company per file. See README.md for the fields; delete a line to leave it blank.
+
+name = "Polygon Company"
+kind = "company"
+city = "Walkerton"
+state = "IN"
+address = "103 Industrial Park Dr, Walkerton, IN 46574"
+lat = 41.46804
+lon = -86.49449
+
+sector = "Materials & composites"
+products = ["Composites", "Bearings & bushings"]
+
+employees = 230
+employees_scope = "site"  # site = this location; company = company-wide
+employees_note = "two facilities, IACMI 2024"
+
+description = "Engineered composite bearings, bushings and tubing, family-owned since 1949."

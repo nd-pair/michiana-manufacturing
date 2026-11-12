@@ -1,0 +1,18 @@
+# Morgan Advanced Materials
+# One company per file. See README.md for the fields; delete a line to leave it blank.
+
+name = "Morgan Advanced Materials"
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "2730 Industrial Pkwy, Elkhart, IN 46516"
+lat = 41.68672
+lon = -85.93204
+website = "https://www.morganadvancedmaterials.com"
+
+sector = "Materials & composites"
+products = ["Ceramics & thermal"]
+
+employees_note = "Elkhart plant headcount not published; about 8,300 company-wide"
+
+description = "Global advanced-materials manufacturer; the Elkhart plant produces silica-based ceramic thermal insulation blankets."

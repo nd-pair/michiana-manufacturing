@@ -1,0 +1,55 @@
+<main id="content" class="site-content">
+    <div class="page-header bg--dark">
+      <div class="page-title-wrapper">
+        <h1 class="page-title">Michiana Manufacturing</h1>
+        <p class="page-lede">The manufacturing and technology companies of the South Bend–Elkhart region, on one map. Each column stands at a company's address; its height is headcount and its color the sector. Pan, zoom from the Chicago–Cleveland span down to the campus, and filter by what companies make.</p>
+      </div>
+    </div>
+
+    <div class="page-primary">
+      <div class="section">
+        <p>Every column is a company at its street address; height is headcount on a log scale, color is the sector. Drag to pan, scroll to zoom toward the cursor, hover a column for its name and click it for detail. Click a sector or product bar to filter the map and the roster.</p>
+        <p class="btn-list">
+          <a class="btn btn--cta" href="https://github.com/nd-pair/michiana-manufacturing/new/main/companies?filename=new-company.toml&value=%23%20See%20README.md%20for%20the%20fields%0Aname%20%3D%20%22%22%0Akind%20%3D%20%22company%22%0Acity%20%3D%20%22%22%0Astate%20%3D%20%22IN%22%0Aaddress%20%3D%20%22%22%0Awebsite%20%3D%20%22%22%0Asector%20%3D%20%22Metal%22%0Aproducts%20%3D%20%5B%5D%0Aemployees%20%3D%200%0Aemployees_scope%20%3D%20%22site%22%0Adescription%20%3D%20%22%22%0A">Add a company</a>
+          <a class="btn btn--secondary" href="https://github.com/nd-pair/michiana-manufacturing#adding-a-company">How it works</a>
+        </p>
+      </div>
+    </div>
+
+    <div class="page-secondary full-width">
+      <section class="section mm-band" aria-label="The map">
+      <div class="mm-app" id="mm-app">
+        <div class="mm-wrap">
+          <div class="mm-grid">
+            <div class="mm-panel">
+              <div class="mm-ph"><h2>Where they are</h2><span class="mm-count" id="shown"></span></div>
+              <div class="mm-scene" id="scene" aria-label="Three-dimensional map of company locations with columns sized by headcount">
+                <div class="mm-tip" id="tip"></div>
+                <div class="mm-ctl"><button class="mm-iconbtn" id="zin" type="button" aria-label="Zoom in">+</button><button class="mm-iconbtn" id="zout" type="button" aria-label="Zoom out">−</button><button class="mm-iconbtn" id="reset" type="button" aria-label="Reset view">⟲</button><button class="mm-iconbtn" id="campus" type="button" aria-label="Fly to the Notre Dame campus" title="Notre Dame campus">ND</button></div>
+                <div class="mm-hud" id="hud"></div>
+                <div class="mm-hint">drag · scroll · hover</div>
+              </div>
+              <div class="mm-legend" id="legend"></div>
+              <div class="mm-detail" id="detail"><p class="mm-empty">Select a company on the map or in the roster.</p></div>
+            </div>
+            <div class="mm-side">
+              <div class="mm-panel"><div class="mm-ph"><h2>Sectors</h2><span class="mm-count">click cos or staff to sort</span></div><div class="mm-hist" id="sectors"></div></div>
+              <div class="mm-panel"><div class="mm-ph"><h2>Products &amp; services</h2><span class="mm-count" id="tagcount"></span></div>
+                <div class="mm-hist"><input class="mm-search" id="tagsearch" type="search" placeholder="Find a product or service, e.g. sheet metal" aria-label="Filter the product list"><div class="mm-tagbox" id="tags"></div></div></div>
+            </div>
+          </div>
+          <div class="mm-panel mm-roster">
+            <div class="mm-ph"><h2>Roster</h2><button class="mm-chip" id="clear" type="button">Clear all filters</button></div>
+            <table id="table"><thead><tr><th>Company</th><th>Sector</th><th>Employees</th><th>Products &amp; services</th><th>Website</th></tr></thead><tbody></tbody></table>
+          </div>
+          <p class="mm-foot" id="foot"></p>
+        </div>
+      </div>
+      </section>
+
+      <section class="section">
+        <h2 class="section-title">Add or correct a company</h2>
+        <p>Every company is one short text file in the <a href="https://github.com/nd-pair/michiana-manufacturing/tree/main/companies">companies folder</a> of the repository: name, address, sector, products and headcount. Edit a file, or add a new one from the template in the README, and the map rebuilds itself when the change is merged. Only public information belongs here: what a company says about itself on its website, in filings, press and business directories.</p>
+      </section>
+    </div>
+</main>

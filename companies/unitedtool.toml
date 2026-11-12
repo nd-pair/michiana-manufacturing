@@ -1,0 +1,20 @@
+# United Tool & Engineering
+# One company per file. See README.md for the fields; delete a line to leave it blank.
+
+name = "United Tool & Engineering"
+kind = "company"
+city = "Mishawaka"
+state = "IN"
+address = "337 Campbell St, Mishawaka, IN 46544"
+lat = 41.65873
+lon = -86.15939
+website = "https://www.unitedtleng.com"
+
+sector = "Metal"
+products = ["Workholding & fixtures", "Dies & special machines"]
+
+employees = 30
+employees_scope = "site"  # site = this location; company = company-wide
+employees_note = "range 11 to 50"
+
+description = "Complex workholding fixtures, dies, jigs, templates and special machines since 1972."

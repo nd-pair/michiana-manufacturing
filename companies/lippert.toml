@@ -1,0 +1,20 @@
+# Lippert (LCI Industries)
+# One company per file. See README.md for the fields; delete a line to leave it blank.
+
+name = "Lippert (LCI Industries)"
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "3501 County Road 6 E, Elkhart, IN 46514"
+lat = 41.72430
+lon = -85.96967
+website = "https://www.lci1.com"
+
+sector = "Mechatronics & automation"
+products = ["RV & specialty vehicle components", "High-mix assembly"]
+
+employees = 12300
+employees_scope = "company"  # site = this location; company = company-wide
+employees_note = "company-wide, 2025 10-K; Elkhart-area share not disclosed"
+
+description = "Elkhart RV and recreation component OEM; high-mix, low-volume assembly at scale."

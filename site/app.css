@@ -1,0 +1,90 @@
+/* The theme's full-width band sizes its .section children; the map band drops the section padding and lets the app pad itself. */
+.page-secondary.full-width > .section.mm-band{padding:0;margin:0;max-width:none}
+
+/* Michiana Manufacturing — the map application. Everything is scoped under .mm-app so the
+   Notre Dame Web Theme (NDT4) keeps styling the page around it. The app is deliberately one
+   dark industrial look in both of the theme's color schemes: it is a screen inside the page. */
+.mm-app{
+  --bg:#07090d; --surface:#0e1218; --surface-2:#141a22; --line:#1f2a36; --line-2:#2c3b4b; --fg:#e6edf3; --fg-2:#9fb0c0; --fg-3:#627386;
+  --accent:#35d6ff; --accent-2:#ffb020; --scene:#05070b;
+  --display:"Rajdhani","Inter",system-ui,sans-serif; --font:"Inter",ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+  color-scheme:dark;background:var(--bg);color:var(--fg);font-family:var(--font);font-size:14px;line-height:1.45;
+  padding-inline:max(16px,env(safe-area-inset-left,0px)) max(16px,env(safe-area-inset-right,0px));padding-block:20px 28px;
+  background-image:linear-gradient(var(--line) 1px,transparent 1px),linear-gradient(90deg,var(--line) 1px,transparent 1px);background-size:48px 48px;background-position:-1px -1px}
+.mm-app *{box-sizing:border-box}
+.mm-app h2{margin:0;font:600 14px var(--display);text-transform:uppercase;letter-spacing:.16em;color:var(--fg-2)}
+.mm-app h3{margin:0}
+.mm-app p{margin:0}
+.mm-app a{color:var(--accent)}
+.mm-wrap{max-width:1280px;margin:0 auto;display:flex;flex-direction:column;gap:16px}
+.mm-count{font:500 12px var(--mono);color:var(--fg-3)}
+.mm-grid{display:grid;grid-template-columns:minmax(0,1.7fr) minmax(280px,1fr);gap:16px}
+@media (max-width:860px){.mm-grid{grid-template-columns:1fr}}
+.mm-side{display:flex;flex-direction:column;gap:16px;min-width:0}
+.mm-panel{background:var(--surface);border:1px solid var(--line);border-radius:4px;min-width:0;position:relative}
+.mm-panel::before{content:"";position:absolute;inset:0 auto auto 0;width:34px;height:2px;background:var(--accent);opacity:.9}
+.mm-ph{display:flex;justify-content:space-between;align-items:baseline;gap:8px;padding:12px 12px 8px}
+.mm-chip{font:500 12px/1 var(--mono);letter-spacing:.04em;padding:8px 11px;border:1px solid var(--line-2);border-radius:3px;background:var(--surface);color:var(--fg-2);cursor:pointer}
+.mm-chip:hover{border-color:var(--accent);color:var(--fg)}
+.mm-scene{position:relative;background:var(--scene);overflow:hidden;touch-action:none;cursor:grab;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.mm-scene:active{cursor:grabbing}
+.mm-scene canvas{display:block;width:100%;height:100%}
+.mm-scene::after{content:"";position:absolute;inset:0;pointer-events:none;background:
+  repeating-linear-gradient(0deg,rgba(255,255,255,.025) 0 1px,transparent 1px 3px),
+  radial-gradient(ellipse at center,transparent 55%,rgba(0,0,0,.55) 100%)}
+.mm-tip{position:absolute;pointer-events:none;background:rgba(10,16,22,.95);border:1px solid var(--accent);color:var(--fg);font-size:12px;padding:7px 9px;border-radius:3px;max-width:260px;transform:translate(-50%,calc(-100% - 12px));opacity:0;transition:opacity .1s;box-shadow:0 0 18px rgba(53,214,255,.25);z-index:2}
+.mm-tip b{display:block;font:600 14px var(--display);letter-spacing:.04em}
+.mm-tip .m{font:500 11px var(--mono);color:var(--accent)}
+.mm-ctl{position:absolute;right:10px;top:10px;display:flex;gap:6px;z-index:2}
+.mm-iconbtn{min-width:30px;height:30px;padding:0 8px;border-radius:3px;border:1px solid var(--line-2);background:rgba(8,12,18,.8);color:var(--accent);font:600 13px var(--mono);cursor:pointer}
+.mm-iconbtn:hover{border-color:var(--accent)}
+.mm-app button:focus-visible,.mm-app input:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.mm-hud{position:absolute;left:10px;bottom:10px;font:500 11px/1.5 var(--mono);color:var(--accent);letter-spacing:.08em;text-transform:uppercase;pointer-events:none;z-index:2;text-shadow:0 0 8px rgba(53,214,255,.5)}
+.mm-hud span{color:var(--fg-2)}
+.mm-hint{position:absolute;right:10px;bottom:10px;font:400 11px var(--mono);color:var(--fg-3);pointer-events:none;z-index:2}
+.mm-legend{display:flex;flex-wrap:wrap;gap:6px 14px;padding:10px 12px;font-size:12px;color:var(--fg-2);align-items:center}
+.mm-legend span{display:inline-flex;align-items:center;gap:6px}
+.mm-sw{width:10px;height:10px;border-radius:1px;flex:none;box-shadow:0 0 8px currentColor}
+.mm-hl{display:inline-flex;align-items:flex-end;gap:3px;margin:0 4px}
+.mm-hl i{display:block;width:5px;background:var(--fg-3);border-radius:1px}
+.mm-detail{border-top:1px solid var(--line);padding:12px;display:grid;grid-template-columns:1fr 1fr;gap:4px 18px;font-size:13px}
+@media (max-width:600px){.mm-detail{grid-template-columns:1fr}}
+.mm-detail h3{font:600 17px var(--display);letter-spacing:.03em;grid-column:1/-1}
+.mm-detail .k{color:var(--accent);font:500 11px var(--mono);text-transform:uppercase;letter-spacing:.12em;margin-top:6px}
+.mm-empty{grid-column:1/-1;color:var(--fg-3)}
+.mm-hist{padding:4px 12px 12px;display:flex;flex-direction:column;gap:4px}
+.mm-bar{display:grid;grid-template-columns:minmax(0,1fr) 30px 54px;align-items:center;gap:8px;cursor:pointer;border:0;background:none;padding:4px 4px;border-radius:3px;text-align:left;color:var(--fg);font:inherit;width:100%}
+.mm-bar:hover{background:var(--surface-2)}
+.mm-bar[aria-pressed="true"]{background:var(--surface-2);box-shadow:inset 2px 0 0 var(--accent)}
+.mm-bar .lab{display:flex;align-items:center;gap:8px;min-width:0}
+.mm-bar .lab span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.mm-bar .trk{height:8px;background:var(--surface-2);border:1px solid var(--line);flex:1;min-width:30px;position:relative}
+.mm-bar .fil{position:absolute;inset:0 auto 0 0;background:var(--accent);box-shadow:0 0 10px var(--accent)}
+.mm-bar .fil2{position:absolute;left:0;bottom:-3px;height:2px;background:var(--accent-2);opacity:.9}
+.mm-bar .n{font:500 12px var(--mono);color:var(--fg-2);text-align:right;font-variant-numeric:tabular-nums}
+.mm-bar .e{font:500 12px var(--mono);color:var(--accent-2);text-align:right;font-variant-numeric:tabular-nums}
+.mm-bar.sec .fil{background:var(--c);box-shadow:0 0 10px var(--c)}
+.mm-bar.zero{opacity:.45}
+.mm-hh{display:grid;grid-template-columns:minmax(0,1fr) 30px 54px;gap:8px;padding:0 4px 4px;font:500 10px var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--fg-3)}
+.mm-hh button{all:unset;cursor:pointer;text-align:right;font:inherit;letter-spacing:inherit;text-transform:inherit;color:var(--fg-3);padding:2px 0;border-bottom:1px solid transparent}
+.mm-hh button[data-sort="e"]{color:var(--accent-2);opacity:.75}
+.mm-hh button[aria-pressed="true"]{color:var(--fg);opacity:1;border-bottom-color:currentColor}
+.mm-hh button[data-sort="e"][aria-pressed="true"]{color:var(--accent-2)}
+.mm-hh button:hover{opacity:1;color:var(--fg)}
+.mm-tagbox{max-height:400px;overflow:auto;padding-right:2px}
+.mm-search{width:100%;margin:4px 0 6px;padding:8px 9px;border:1px solid var(--line-2);border-radius:3px;background:var(--bg);color:var(--fg);font:inherit}
+.mm-search:focus{outline:none;border-color:var(--accent)}
+.mm-roster{overflow-x:auto}
+.mm-app table{border-collapse:collapse;width:100%;font-size:13px;min-width:760px;margin:0}
+.mm-app th{font:500 11px var(--mono);text-transform:uppercase;letter-spacing:.12em;color:var(--accent);text-align:left;padding:10px 12px 6px;border-bottom:1px solid var(--line-2);white-space:nowrap;background:none}
+.mm-app td{padding:8px 12px;border-bottom:1px solid var(--line);vertical-align:top;background:none}
+.mm-app td.num{font:500 12px var(--mono);text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
+.mm-app tr.sel td{background:var(--surface-2)}
+.mm-app tbody tr{cursor:pointer}
+.mm-app td.name{font-weight:600;white-space:nowrap}
+.mm-app td.name small{display:block;font-weight:400;color:var(--fg-2)}
+.mm-dot{display:inline-block;width:9px;height:9px;border-radius:1px;margin-right:6px;vertical-align:-1px;box-shadow:0 0 6px currentColor}
+.mm-app td.tags{color:var(--fg-2)}
+.mm-foot{font-size:12px;color:var(--fg-3);max-width:95ch}
+@media (prefers-reduced-motion:reduce){.mm-app *{transition:none!important}}

@@ -1,0 +1,32 @@
+# Sectors: the rough categories. Every company's `sector` must be one of these names.
+# `color` is the column and legend color; keep them distinct.
+
+[[sector]]
+name = "Metal"
+color = "#3b8ff0"
+description = "Machining, gears, fabrication, foundry, welding, tooling"
+
+[[sector]]
+name = "Electronics"
+color = "#ff6a2a"
+description = "Sensors, circuit boards, power electronics, wire and cable, avionics"
+
+[[sector]]
+name = "Materials & composites"
+color = "#1fd28c"
+description = "Composites, ceramics, damping materials, plastics and molding"
+
+[[sector]]
+name = "Mechatronics & automation"
+color = "#ffc233"
+description = "Automation and assembly systems, machine tools, vehicle integration, RV and specialty vehicles"
+
+[[sector]]
+name = "Software & services"
+color = "#ff6fa8"
+description = "Software, consulting, logistics"
+
+[[sector]]
+name = "Capital & anchors"
+color = "#5fd35f"
+description = "Investors, university units and other anchors"

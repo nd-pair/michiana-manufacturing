@@ -1,0 +1,19 @@
+# Janco Engineered Products LLC
+# One company per file. See README.md for the fields; delete a line to leave it blank.
+
+name = "Janco Engineered Products LLC"
+kind = "company"
+city = "Mishawaka"
+state = "IN"
+address = "1217 E 7th St, Mishawaka, IN 46544"
+lat = 41.65617
+lon = -86.15992
+
+sector = "Materials & composites"
+products = ["Composites", "Fiberglass"]
+
+employees = 80
+employees_scope = "site"  # site = this location; company = company-wide
+employees_note = "company says over 80"
+
+description = "Fiberglass and composite products manufacturer."

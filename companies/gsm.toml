@@ -1,0 +1,20 @@
+# General Stamping & Metalworks (GSM)
+# One company per file. See README.md for the fields; delete a line to leave it blank.
+
+name = "General Stamping & Metalworks (GSM)"
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "25101 Cleveland Rd, South Bend, IN 46628"
+lat = 41.72257
+lon = -86.35334
+website = "https://www.gsmwinc.com"
+
+sector = "Metal"
+products = ["Stamping & fabrication", "Sheet metal"]
+
+employees = 220
+employees_scope = "site"  # site = this location; company = company-wide
+employees_note = "2016 figure; aggregators say 201 to 500"
+
+description = "High-volume stamping and structural fabrication for more than a century; stamping, deep drawing and tube fabrication for armor panels, vehicle frames and enclosures."

@@ -1,0 +1,20 @@
+# Thor Industries
+# One company per file. See README.md for the fields; delete a line to leave it blank.
+
+name = "Thor Industries"
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "52700 Independence Ct, Elkhart, IN 46514"
+lat = 41.72739
+lon = -85.88275
+website = "https://www.thorindustries.com"
+
+sector = "Mechatronics & automation"
+products = ["RV & specialty vehicle components", "High-mix assembly"]
+
+employees = 20900
+employees_scope = "company"  # site = this location; company = company-wide
+employees_note = "company-wide, FY2025 10-K; 13,200 in the U.S."
+
+description = "The largest recreational-vehicle manufacturer, headquartered in Elkhart."

@@ -1,0 +1,20 @@
+# AM General LLC
+# One company per file. See README.md for the fields; delete a line to leave it blank.
+
+name = "AM General LLC"
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "105 N Niles Ave, South Bend, IN 46617"
+lat = 41.67725
+lon = -86.24423
+website = "https://www.amgeneral.com"
+
+sector = "Mechatronics & automation"
+products = ["Vehicle integration", "Defense prime"]
+
+employees = 1225
+employees_scope = "company"  # site = this location; company = company-wide
+employees_note = "company-wide 2026; headquarters and the military plant are both local"
+
+description = "Tactical-vehicle manufacturer and long-standing HMMWV prime contractor, headquartered in South Bend with its assembly plant on McKinley Highway in Mishawaka."
