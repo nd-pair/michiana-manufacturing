@@ -121,3 +121,7 @@
 .mm-badge.fda{border-color:var(--accent);color:var(--accent)}
 .mm-toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);background:var(--accent);color:#06131a;font:600 13px var(--display);letter-spacing:.04em;padding:8px 14px;border-radius:3px;opacity:0;transition:opacity .2s;pointer-events:none;z-index:50}
 .mm-toast.on{opacity:1}
+/* agency rows: fixed-width track so long agency names keep their room */
+.mm-bar.ag{grid-template-columns:minmax(0,1fr) 0 64px}
+.mm-bar.ag .trk{flex:0 0 36%}
+.mm-bar.ag .lab span:first-child{flex:1}
