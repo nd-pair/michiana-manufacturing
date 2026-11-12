@@ -71,7 +71,10 @@ Field by field:
 **Closed companies.** Do not delete the file of a company that has shut down: the monthly HIFLD
 import would add the facility again, since HIFLD lags closures by years. Add `closed` with the date
 and a `closed_note` with the source instead. The build leaves the entry off the map and the
-importers keep skipping it.
+importers keep skipping it. To find candidates, run `python3 scripts/check_closed.py`: it checks every
+company website (domain gone, parked, redirected to another company) and writes a review list to
+`data/.closure-review.csv`, which is not committed. A dead website is a lead, not proof; confirm each
+closure from a dated source before marking it.
 
 **Positions.** If you give an address but no `lat`/`lon`, run `python3 scripts/geocode.py` and it
 looks the address up on OpenStreetMap and writes the coordinates into the file. Check the result
