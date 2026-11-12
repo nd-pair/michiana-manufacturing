@@ -238,6 +238,8 @@ def main():
         fh.write("window.MM_DATA=" + json.dumps(data, separators=(",", ":")) + ";\n")
     for f in ("app.js", "app.css", "brief.js"):
         shutil.copy(P("site", f), P("docs", f))
+    # textures for the Main Building model (and their license); the cached source photo stays out
+    shutil.copytree(P("site", "img"), P("docs", "img"), dirs_exist_ok=True, ignore=shutil.ignore_patterns(".source-*"))
 
     def page(fname, title, desc, body, scripts):
         html = (read("site", "partials", "head.html").replace("{{TITLE}}", title).replace("{{DESCRIPTION}}", desc)
