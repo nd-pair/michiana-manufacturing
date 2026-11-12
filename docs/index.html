@@ -19,7 +19,7 @@
 <link rel="apple-touch-icon" href="https://static.nd.edu/images/webclips/default/webclip-180.png">
 <link rel="stylesheet" href="https://conductor.nd.edu/stylesheets/themes/ndt/4.0/ndt.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
-<link rel="stylesheet" href="app.css?v=628eaac384">
+<link rel="stylesheet" href="app.css?v=05d6ed4e67">
 </head>
 <body>
 <svg aria-hidden="true" style="position:absolute;width:0;height:0" width="0" height="0" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs>
@@ -178,6 +178,17 @@
       <section class="section mm-band" aria-label="The map">
       <div class="mm-app" id="mm-app">
         <div class="mm-wrap">
+          <div class="mm-layerbar" role="group" aria-label="Layers and filters">
+            <span class="mm-lb">Layers</span>
+            <button class="mm-chip" id="lay-net" type="button" aria-pressed="false">Notre Dame network</button>
+            <button class="mm-chip" id="lay-rings" type="button" aria-pressed="false">Distance rings</button>
+            <span class="mm-lb">Filters</span>
+            <button class="mm-chip" id="f-fed" type="button" aria-pressed="false">Federal contracts or grants</button>
+            <button class="mm-chip" id="f-fda" type="button" aria-pressed="false">FDA-registered</button>
+            <span class="mm-lb">Share</span>
+            <button class="mm-chip" id="copylink" type="button">Copy link to this view</button>
+            <button class="mm-chip" id="csv" type="button">Download roster CSV</button>
+          </div>
           <div class="mm-grid">
             <div class="mm-panel">
               <div class="mm-ph"><h2>Where they are</h2><span class="mm-count" id="shown"></span></div>
@@ -196,9 +207,15 @@
                 <div class="mm-hist"><input class="mm-search" id="tagsearch" type="search" placeholder="Find a product or service, e.g. sheet metal" aria-label="Filter the product list"><div class="mm-tagbox" id="tags"></div></div></div>
             </div>
           </div>
+          <div class="mm-grid2">
+            <div class="mm-panel"><div class="mm-ph"><h2>Federal footprint</h2><span class="mm-count" id="fedcount"></span></div><div class="mm-hist" id="federal"></div></div>
+            <div class="mm-panel"><div class="mm-ph"><h2>Capabilities</h2><span class="mm-count">click to filter · gap = one or none</span></div><div class="mm-hist" id="caps"></div></div>
+            <div class="mm-panel"><div class="mm-ph"><h2>Manufacturing employment by county</h2><span class="mm-count" id="qcewnote"></span></div><div class="mm-chart" id="qcew"></div></div>
+            <div class="mm-panel"><div class="mm-ph"><h2>Timeline</h2><span class="mm-count">openings, expansions, closures, funding</span></div><div class="mm-events" id="events"></div></div>
+          </div>
           <div class="mm-panel mm-roster">
             <div class="mm-ph"><h2>Roster</h2><button class="mm-chip" id="clear" type="button">Clear all filters</button></div>
-            <table id="table"><thead><tr><th>Company</th><th>Sector</th><th>Employees</th><th>Products &amp; services</th><th>Website</th></tr></thead><tbody></tbody></table>
+            <table id="table"><thead><tr><th>Company</th><th>Sector</th><th>Employees</th><th>Products &amp; services</th><th>Federal</th><th>Website</th></tr></thead><tbody></tbody></table>
           </div>
           <p class="mm-foot" id="foot"></p>
         </div>
@@ -317,7 +334,7 @@
 <script>window.NDTConductorHost='https://conductor.nd.edu';</script>
 <script src="https://conductor.nd.edu/javascripts/themes/ndt/4.0/ndt.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
-<script src="data.js?v=628eaac384"></script>
-<script src="app.js?v=628eaac384"></script>
+<script src="data.js?v=05d6ed4e67"></script>
+<script src="app.js?v=05d6ed4e67"></script>
 </body>
 </html>
