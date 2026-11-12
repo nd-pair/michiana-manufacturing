@@ -19,7 +19,7 @@ function fmtEmp(c){if(!c.emp)return "unknown";const bits=[c.emp_year,c.emp_quali
 
 /* ---------- state, addressable through the URL hash ---------- */
 const st={sec:new Set(),tag:new Set(),cap:new Set(),fed:false,fda:false,rings:false,radius:0,sel:null,hot:null,q:"",open:new Set(),
-  sort:{sec:{key:"n",dir:-1},tag:{key:"n",dir:-1},cap:{key:"n",dir:-1},fed:{key:"e",dir:-1},roster:{key:"emp",dir:-1},ev:{key:"date",dir:-1}},
+  sort:{sec:{key:"n",dir:-1},tag:{key:"n",dir:-1},cap:{key:"n",dir:-1},fed:{key:"e",dir:-1},roster:{key:"emp",dir:-1},ev:{key:"date",dir:-1},spec:{key:"lq",dir:-1},occ:{key:"emp",dir:-1},ue:{key:"rate",dir:-1}},wv:"spec",
   evKind:"all",evYear:null,evMore:0,qv:"county",qs:"abs"};
 function readHash(){st.sec.clear();st.tag.clear();st.cap.clear();st.fed=st.fda=st.rings=false;st.radius=0;st.sel=null;
   try{const raw=location.hash.slice(1),h=decodeURIComponent(raw);if(h&&byId[h]){st.sel=h;return}
@@ -339,6 +339,68 @@ function renderQcew(){const el=document.getElementById("qcew");document.querySel
   for(const e of ends)svg+=`<text class="lbl" x="${e.x+6}" y="${e.y+3}" fill="${e.s.color}">${esc(e.s.name)} ${st.qs==="idx"?Math.round(e.v):fmtK(Math.round(e.v))}</text>`;
   el.innerHTML=svg+`</svg>`;
   document.getElementById("qcewnote").textContent=`BLS QCEW, private, ${y0}–${y1}${st.qv==="sector"?" · lower bound, withheld cells":""}${st.qs==="idx"?" · "+y0+" = 100":""}`}
+/* ---------- workforce: BLS specialization, occupations and the latest month ---------- */
+const MONTHS=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],monthName=ym=>{const [y,m]=ym.split("-");return MONTHS[+m-1]+" "+y};
+const usd=v=>v==null?"–":"$"+Math.round(v).toLocaleString();
+/* a sortable table: cols {key,label,title,num,cell(row)}; header buttons use the shared [data-sort] handler */
+function sortTable(kind,cols,rows){const s=st.sort[kind];rows=rows.slice().sort((a,b)=>{const va=a[s.key],vb=b[s.key];if(va==null&&vb==null)return 0;if(va==null)return 1;if(vb==null)return -1;return (typeof va==="string"?va.localeCompare(vb):va-vb)*s.dir});
+  return `<div class="mm-tblwrap"><table><thead><tr>${cols.map(c=>`<th${c.num?' class="num"':""}><button type="button" data-kind="${kind}" data-sort="${c.key}" aria-pressed="${s.key===c.key}" title="Sort by ${esc(c.title||c.label)}">${esc(c.label)}${s.key===c.key?ARROW(s.dir):""}</button></th>`).join("")}</tr></thead>
+  <tbody>${rows.map(r=>`<tr class="${r.cls||""}">${cols.map(c=>`<td class="${c.num?"num":""} ${c.cls||""}">${c.cell?c.cell(r):esc(r[c.key]??"–")}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`}
+/* a ratio against the U.S. (1 = same as the U.S.) as a bar with a tick at 1 */
+const ratioBar=(v,max)=>v==null?"–":`<span class="mm-ratio" title="${v.toFixed(2)} times the U.S. level"><span class="trk"><span class="fil" style="width:${Math.min(100,100*v/max).toFixed(1)}%"></span><span class="one" style="left:${(100/max).toFixed(1)}%"></span></span><span class="v">${v<10?v.toFixed(1):Math.round(v)}×</span></span>`;
+function renderWork(){const el=document.getElementById("work"),note=document.getElementById("worknote");if(!el)return;
+  document.querySelectorAll("[data-wv]").forEach(b=>b.setAttribute("aria-pressed",String(b.dataset.wv===st.wv)));
+  const B=DATA.bls||{},S=DATA.qcewSpec||{};
+  if(st.wv==="spec"){if(!S.industries){el.innerHTML=`<p class="mm-count">No specialization data yet.</p>`;return}const t=S.total,max=Math.max(...S.industries.map(r=>r.lq||0));
+    note.textContent=`BLS QCEW, private, ${S.year} annual averages`;
+    el.innerHTML=`<p class="mm-fedsum">In ${S.year} manufacturing held <b>${(100*t.share).toFixed(0)}%</b> of the region's private jobs, <b>${t.lq.toFixed(1)}×</b> the U.S. share of ${(100*t.us_share).toFixed(0)}%. Average manufacturing pay was <b>${usd(t.pay)}</b>, against ${usd(t.us_pay)} nationally.</p>`
+      +sortTable("spec",[{key:"name",label:"Industry",title:"industry (3-digit NAICS)",cell:r=>`<b>${esc(r.name)}</b> <small class="mm-mut">${r.naics}</small>`},
+        {key:"lq",label:"Specialization",title:"location quotient: regional share of private jobs over the U.S. share",cell:r=>ratioBar(r.lq,max)},
+        {key:"emp",label:"Jobs",num:true,cell:r=>(r.withheld?'<span class="q" title="lower bound: BLS withholds some county figures">≥</span>':"")+r.emp.toLocaleString()},
+        {key:"estab",label:"Sites",title:"establishments",num:true,cell:r=>r.estab.toLocaleString()},
+        {key:"pay",label:"Avg pay",title:"average annual pay in the region",num:true,cell:r=>usd(r.pay)},
+        {key:"us_pay",label:"U.S. pay",title:"average annual pay in the U.S.",num:true,cell:r=>usd(r.us_pay)},
+        {key:"top_lq",label:"Most concentrated in",title:"county with the highest BLS location quotient",cell:r=>r.top_county?`${esc(r.top_county)} <small class="mm-mut">${r.top_lq}×</small>`:"–"}],S.industries)
+      +`<p class="mm-wnote">Specialization is the industry's share of the region's private jobs divided by its share nationally; 1× (the tick) matches the U.S. Region-wide figures add the counties; BLS withholds cells that would reveal one employer, so marked job counts are lower bounds.</p>`;return}
+  if(st.wv==="occ"){const O=B.occupations;if(!O){el.innerHTML=`<p class="mm-count">No occupation data yet.</p>`;return}
+    const all=O.list.find(o=>o.code==="000000"),regAll=Object.values(all.metros).reduce((a,m)=>a+(m.emp||0),0),usAll=all.us.emp;
+    const rows=O.list.filter(o=>o.code!=="000000"&&Object.keys(o.metros).length).map(o=>{const ms=Object.entries(o.metros),emp=ms.reduce((a,[,m])=>a+(m.emp||0),0),wm=ms.filter(([,m])=>m.emp&&m.median);
+      const med=wm.length?wm.reduce((a,[,m])=>a+m.emp*m.median,0)/wm.reduce((a,[,m])=>a+m.emp,0):null,per=1000*emp/regAll,usPer=o.us.emp?1000*o.us.emp/usAll:null;
+      const top=ms.filter(([,m])=>m.emp).sort((a,b)=>b[1].emp-a[1].emp)[0];
+      return {name:o.name,emp,per,ratio:usPer?per/usPer:null,med,us:o.us.median,cls:/\(all\)$/.test(o.name)?"agg":"",top:top?O.metros[top[0]]:"",
+        detail:ms.map(([k,m])=>`${O.metros[k]}: ${m.emp!=null?m.emp.toLocaleString():"not published"}`).join(" · ")}});
+    const max=Math.max(...rows.map(r=>r.ratio||0));
+    note.textContent=`BLS OEWS, May ${O.year}, four metro areas`;
+    el.innerHTML=`<p class="mm-fedsum">Jobs and median pay in the South Bend–Mishawaka, Elkhart–Goshen, Niles and Michigan City–La Porte metro areas, <b>${regAll.toLocaleString()}</b> jobs in all.</p>`
+      +sortTable("occ",[{key:"name",label:"Occupation",cell:r=>`<b title="${esc(r.detail)}">${esc(r.name)}</b>`},
+        {key:"emp",label:"Jobs",num:true,cell:r=>`<span title="${esc(r.detail)}">${r.emp.toLocaleString()}</span>`},
+        {key:"per",label:"Per 1,000 jobs",num:true,cell:r=>r.per.toFixed(1)},
+        {key:"ratio",label:"vs U.S.",title:"jobs per 1,000 compared with the U.S.",cell:r=>ratioBar(r.ratio,max)},
+        {key:"med",label:"Median pay",title:"annual median, weighted across the metros",num:true,cell:r=>usd(r.med)},
+        {key:"us",label:"U.S. median",num:true,cell:r=>usd(r.us)},
+        {key:"top",label:"Largest in"}],rows)
+      +`<p class="mm-wnote">Hover a job count for each metro. Small metros' estimates that BLS cannot publish reliably are left out, so totals are lower bounds. Kosciusko, Starke and other counties outside these metros are not included.</p>`;return}
+  /* latest month: manufacturing jobs per metro (small multiples) and unemployment by county */
+  const ces=Object.values(B.ces||{}).filter(m=>m.months.length).sort((a,b)=>b.months[b.months.length-1][1]-a.months[a.months.length-1][1]),L=B.laus;if(!ces.length||!L){el.innerHTML=`<p class="mm-count">No monthly data yet.</p>`;return}
+  const last=ces[0].months[ces[0].months.length-1][0];note.textContent=`BLS CES and LAUS, through ${monthName(last)}, not seasonally adjusted`;
+  const spark=(m,i)=>{const pts=m.months.filter(p=>p[1]!=null),v=pts.map(p=>p[1]),lo=Math.min(...v),hi=Math.max(...v),W=260,H=74,pad=4,X=j=>pad+j*(W-2*pad)/(pts.length-1),Y=x=>H-pad-(x-lo)/((hi-lo)||1)*(H-2*pad);
+    const lp=pts[pts.length-1],yr=pts.find(p=>p[0]===(+lp[0].slice(0,4)-1)+lp[0].slice(4)),ch=yr?lp[1]-yr[1]:null;
+    return `<div class="mm-spark" data-spark="${i}"><div class="hd"><b>${esc(m.name)}</b><span class="rd" data-def="${esc(monthName(lp[0]))}: ${(lp[1]*1000).toLocaleString()} jobs">${esc(monthName(lp[0]))}: ${(lp[1]*1000).toLocaleString()} jobs</span></div>
+      <svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(m.name)} manufacturing jobs by month, ${esc(monthName(pts[0][0]))} to ${esc(monthName(lp[0]))}"><line class="gr" x1="0" x2="${W}" y1="${H-pad}" y2="${H-pad}"/><polyline class="ln" points="${pts.map((p,j)=>X(j).toFixed(1)+","+Y(p[1]).toFixed(1)).join(" ")}"/><line class="xh" x1="0" x2="0" y1="0" y2="${H}" style="opacity:0"/><circle class="pt" r="4" cx="${X(pts.length-1)}" cy="${Y(lp[1])}"/></svg>
+      <div class="ft">${ch==null?"":`${ch>=0?"+":"−"}${Math.abs(Math.round(ch*1000)).toLocaleString()} jobs on a year earlier`} · range ${(lo*1000/1000).toFixed(1)}k–${hi.toFixed(1)}k</div></div>`};
+  const usR=L.us_rate||[],usLast=usR[usR.length-1];
+  const rows=Object.values(L.counties).filter(c=>c.rate&&c.rate.length).map(c=>{const r=c.rate.filter(p=>p[1]!=null),lp=r[r.length-1],yr=r.find(p=>p[0]===(+lp[0].slice(0,4)-1)+lp[0].slice(4)),f=(c.force||[]).filter(p=>p[1]!=null);
+    return {name:c.name,rate:lp[1],ago:yr?yr[1]:null,chg:yr?lp[1]-yr[1]:null,force:f.length?f[f.length-1][1]:null,month:lp[0]}});
+  el.innerHTML=`<div class="mm-wcols"><div><h3 class="mm-wh">Manufacturing jobs by metro area</h3><div class="mm-sparks">${ces.map(spark).join("")}</div></div>
+    <div><h3 class="mm-wh">Unemployment by county, ${esc(monthName(rows[0]?rows[0].month:last))}${usLast?` · U.S. ${usLast[1].toFixed(1)}% (${esc(monthName(usLast[0]))})`:""}</h3>
+    ${sortTable("ue",[{key:"name",label:"County"},{key:"rate",label:"Rate",num:true,cell:r=>r.rate.toFixed(1)+"%"},{key:"ago",label:"Year earlier",num:true,cell:r=>r.ago==null?"–":r.ago.toFixed(1)+"%"},
+      {key:"chg",label:"Change",num:true,cell:r=>r.chg==null?"–":(r.chg>0?"+":r.chg<0?"−":"±")+Math.abs(r.chg).toFixed(1)},{key:"force",label:"Labor force",num:true,cell:r=>r.force==null?"–":Math.round(r.force).toLocaleString()}],rows)}</div></div>
+    <p class="mm-wnote">Preliminary for the latest month. Metro jobs are payroll jobs at establishments in each metro area; county rates count residents.</p>`;
+  el.querySelectorAll("[data-spark]").forEach(card=>{const m=ces[+card.dataset.spark],pts=m.months.filter(p=>p[1]!=null),svg=card.querySelector("svg"),xh=card.querySelector(".xh"),pt=card.querySelector(".pt"),rd=card.querySelector(".rd");
+    const W=260,H=74,pad=4,v=pts.map(p=>p[1]),lo=Math.min(...v),hi=Math.max(...v),X=j=>pad+j*(W-2*pad)/(pts.length-1),Y=x=>H-pad-(x-lo)/((hi-lo)||1)*(H-2*pad);
+    const at=j=>{xh.setAttribute("x1",X(j));xh.setAttribute("x2",X(j));xh.style.opacity=1;pt.setAttribute("cx",X(j));pt.setAttribute("cy",Y(pts[j][1]));rd.textContent=`${monthName(pts[j][0])}: ${Math.round(pts[j][1]*1000).toLocaleString()} jobs`};
+    svg.addEventListener("pointermove",e=>{const r=svg.getBoundingClientRect(),x=(e.clientX-r.left)/r.width*W;at(Math.max(0,Math.min(pts.length-1,Math.round((x-pad)/((W-2*pad)/(pts.length-1))))))});
+    svg.addEventListener("pointerleave",()=>{xh.style.opacity=0;pt.setAttribute("cx",X(pts.length-1));pt.setAttribute("cy",Y(pts[pts.length-1][1]));rd.textContent=rd.dataset.def})})}
 const EVKINDS=[["all","All"],["federal","Federal awards"],["sbir","SBIR/STTR"],["patent","Patents"]];
 function renderEvents(){const vis=new Set(C.filter(visible).map(c=>c.id));let evs=DATA.events.filter(e=>!e.company||vis.has(e.company));
   const kinds=EVKINDS.filter(([k])=>k==="all"||DATA.events.some(e=>e.kind===k)),counts=Object.fromEntries(kinds.map(([k])=>[k,k==="all"?evs.length:evs.filter(e=>e.kind===k).length]));
@@ -394,6 +456,7 @@ document.getElementById("tagsearch").addEventListener("input",e=>{st.q=e.target.
 document.getElementById("radius").addEventListener("change",e=>{st.radius=+e.target.value;_ctr=center();buildRings();render()});
 for(const [id,k] of [["lay-rings","rings"],["f-fed","fed"],["f-fda","fda"]])document.getElementById(id).addEventListener("click",()=>{st[k]=!st[k];if(k==="rings")buildRings();render()});
 document.addEventListener("click",e=>{
+  const wv=e.target.closest("[data-wv]");if(wv){st.wv=wv.dataset.wv;renderWork();return}
   const q=e.target.closest("[data-qv],[data-qs]");if(q){if(q.dataset.qv)st.qv=q.dataset.qv;if(q.dataset.qs)st.qs=q.dataset.qs;renderQcew();return}
   const sib=e.target.closest("[data-sel]");if(sib){const c=byId[sib.dataset.sel];select(c.id);flyTo(c.lat,c.lon,Math.min(view.dist,0.05));return}
   const cb=e.target.closest("[data-cap]");if(cb){const k=cb.dataset.cap;st.cap.has(k)?st.cap.delete(k):st.cap.add(k);render();return}
@@ -420,7 +483,7 @@ const chip=(id,on)=>document.getElementById(id).setAttribute("aria-pressed",Stri
 function render(){chip("lay-rings",st.rings);chip("f-fed",st.fed);chip("f-fda",st.fda);document.getElementById("radius").value=String(st.radius);
   _ctr=center();document.getElementById("radius-of").textContent="of "+(st.sel?_ctr.name:"the campus");if(st.rings||st.radius)buildRings();
   document.getElementById("brieflink").href="brief.html"+(st.sec.size?"#sec="+[...st.sec].map(encodeURIComponent).join("|"):"");
-  renderSectors();renderTags();renderFederal();renderCaps();renderEvents();paintBars();renderDetail();renderTable();layout();updateHash()}
+  renderSectors();renderTags();renderFederal();renderCaps();renderEvents();renderWork();paintBars();renderDetail();renderTable();layout();updateHash()}
 window.addEventListener("hashchange",()=>{if(location.hash!==hashState()){readHash();render()}});
 document.getElementById("legend").innerHTML=DATA.sectors.map(s=>`<span><i class="mm-sw" style="background:${SCOL[s]};color:${SCOL[s]}"></i>${esc(s)}</span>`).join("")
   +`<span>column height = employees, log scale <i class="mm-hl"><i style="height:6px"></i><i style="height:10px"></i><i style="height:14px"></i><i style="height:18px"></i></i>10 · 100 · 1,000 · 10,000</span><span>~ estimate · ’22 year of the figure · * company-wide</span>`;
