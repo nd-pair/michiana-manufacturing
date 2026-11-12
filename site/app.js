@@ -93,8 +93,11 @@ let dome=null;
   add(new THREE.CylinderGeometry(0.045*B,0.05*B,0.09*B,12),gold,0,0.91*B,0.2*B);
   add(new THREE.CylinderGeometry(0.012*B,0.025*B,0.08*B,8),gold,0,0.99*B,0.2*B);
   add(new THREE.SphereGeometry(0.02*B,8,8),gold,0,1.04*B,0.2*B);
-  g.rotation.y=Math.PI/2;   // the long facade runs north-south on the map; rotate the model to match
   dome=place(g,DATA.landmark.lat,DATA.landmark.lon,lift(1.8),{mode:"map"});
+  // orient the model by compass: local x = east (the long block), y = up, z = south (the front faces south)
+  {const la=DATA.landmark.lat*RAD,lo=DATA.landmark.lon*RAD;const east=new THREE.Vector3(Math.cos(lo),0,-Math.sin(lo));
+   const upv=P(DATA.landmark.lat,DATA.landmark.lon).normalize();const south=new THREE.Vector3().crossVectors(east,upv).normalize();
+   g.quaternion.setFromRotationMatrix(new THREE.Matrix4().makeBasis(east,upv,south))}
   place(label(DATA.landmark.name.toUpperCase(),{size:18,weight:700,color:"#ffd280",glow:"#ffb020",scale:0.0055,cx:0.5}),DATA.landmark.lat,DATA.landmark.lon,0.003,{group:near});
 })();
 
