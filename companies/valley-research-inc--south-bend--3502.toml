@@ -1,14 +1,16 @@
-# Valley Research, Inc.
+# dsm-firmenich, South Bend enzyme plant
 # Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
 
-name = "Valley Research, Inc."
+name = "dsm-firmenich, South Bend enzyme plant"
+formerly = "Valley Research, Inc."
 kind = "company"
 city = "South Bend"
 state = "IN"
 address = "3502 North Olive Road, South Bend, IN 46628"
 lat = 41.72403
 lon = -86.34687
-website = "https://valleyenzymes.com"
+website = "https://www.dsm-firmenich.com"
+status_note = "DSM bought Valley Research in 2008; dsm-firmenich was hiring production staff here in 2025."
 
 sector = "Materials & composites"
 products = ["All Other Basic Organic Chemical Manufacturing"]
@@ -23,4 +25,4 @@ employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 
 description = "Food Enzymes. NAICS 325199: all other basic organic chemical manufacturing."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
-updated = "2026-11-11"
+updated = "2026-11-12"

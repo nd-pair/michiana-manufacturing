@@ -9,6 +9,7 @@ address = "1820 South Bend Avenue, South Bend, IN 46637"
 lat = 41.69713
 lon = -86.22068
 website = "https://wisscoirrigationinc.com"
+status_note = "An irrigation contractor at this address; HIFLD lists it as a screen printer."
 
 sector = "Wood, paper & furniture"
 products = ["Commercial Screen Printing"]
@@ -23,4 +24,4 @@ employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 
 description = "Commercial & Residential Sprinkler Systems. NAICS 323113: commercial screen printing."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
-updated = "2026-11-11"
+updated = "2026-11-12"

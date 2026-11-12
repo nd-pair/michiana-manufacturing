@@ -8,7 +8,7 @@ state = "IN"
 address = "202 West Harrison Street, Michigan City, IN 46360"
 lat = 41.69988
 lon = -86.89577
-website = "https://meyer-glass.com"
+website = "https://meyerglassandmirror.net"
 uei = "Q3FRV7ALMXJ5"
 
 sector = "Materials & composites"
@@ -24,4 +24,4 @@ employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 
 description = "Mirrors. NAICS 327215: glass product manufacturing made of purchased glass."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
-updated = "2026-11-11"
+updated = "2026-11-12"

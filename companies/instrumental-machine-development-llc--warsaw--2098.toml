@@ -8,7 +8,7 @@ state = "IN"
 address = "2098 North Pound Drive West, Warsaw, IN 46582"
 lat = 41.26371
 lon = -85.82676
-website = "https://instrumentalmachine.com"
+website = "https://imdortho.com"
 
 sector = "Metal"
 products = ["Machine Shops"]
@@ -23,4 +23,4 @@ employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 
 description = "Medical Instrument Machining Job Shop. NAICS 332710: machine shops."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
-updated = "2026-11-11"
+updated = "2026-11-12"

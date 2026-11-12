@@ -9,6 +9,7 @@ address = "315 South Hand Avenue, Warsaw, IN 46580"
 lat = 41.23564
 lon = -85.87003
 website = "https://dirilyte.com"
+status_note = "Dirilyte is a line of Hand Industries, Warsaw."
 
 sector = "Metal"
 products = ["All Other Miscellaneous Fabricated Metal Product Manufacturing"]
@@ -23,4 +24,4 @@ employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 
 description = "Recognition Plaques & Awards. NAICS 332999: all other miscellaneous fabricated metal product manufacturing."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
-updated = "2026-11-11"
+updated = "2026-11-12"

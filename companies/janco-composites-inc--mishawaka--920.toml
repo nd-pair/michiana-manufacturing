@@ -1,14 +1,15 @@
-# Janco Composites, Inc.
+# Janco Engineered Products
 # Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
 
-name = "Janco Composites, Inc."
+name = "Janco Engineered Products"
+formerly = "Janco Composites, Inc."
 kind = "company"
 city = "Mishawaka"
 state = "IN"
 address = "920 South Logan Street, Mishawaka, IN 46544"
+status_note = "MacLean Investment Partners bought Janco Composites' assets in 2011 and runs it as Janco Engineered Products."
 lat = 41.65320
 lon = -86.19602
-website = "https://jancocomposites.com"
 
 sector = "Materials & composites"
 products = ["All Other Plastics Product Manufacturing"]
@@ -23,4 +24,4 @@ employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 
 description = "Fiberglass Reinforced Products. NAICS 326199: all other plastics product manufacturing."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
-updated = "2026-11-11"
+updated = "2026-11-12"

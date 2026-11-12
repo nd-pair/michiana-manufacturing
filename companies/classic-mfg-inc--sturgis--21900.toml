@@ -1,14 +1,16 @@
-# Classic Mfg., Inc.
+# NEO Manufacturing
 # Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
 
-name = "Classic Mfg., Inc."
+name = "NEO Manufacturing"
+formerly = "Classic Mfg., Inc."
 kind = "company"
 city = "Sturgis"
 state = "MI"
 address = "21900 US Highway 12, Sturgis, MI 49091"
 lat = 41.79339
 lon = -85.52815
-website = "https://classicmfg.com"
+website = "https://neotrailers.com"
+status_note = "Classic Mfg. closed in November 2009; its former owners reopened the buildings as NEO trailers on February 1, 2010."
 
 sector = "Wood, paper & furniture"
 products = ["Manufactured Home (mobile Home) Manufacturing"]
@@ -23,4 +25,4 @@ employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 
 description = "Cargo Race Trailers. NAICS 321991: manufactured home (mobile home) manufacturing."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
-updated = "2026-11-11"
+updated = "2026-11-12"

@@ -1,14 +1,17 @@
-# Midstates Tool & Die & Engineering, Inc.
+# Lippert Automation, Tool and Die
 # Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
 
-name = "Midstates Tool & Die & Engineering, Inc."
+name = "Lippert Automation, Tool and Die"
+formerly = "Midstates Tool & Die & Engineering, Inc."
 kind = "company"
 city = "Elkhart"
 state = "IN"
 address = "23816 Cooper Drive, Elkhart, IN 46514"
 lat = 41.71996
 lon = -85.92350
-website = "https://mtdsales.com"
+website = "https://www.lippert.com"
+status_note = "Lippert bought Midstates' assets and engineering team in July 2013; the current address was not confirmed."
+parent = "Lippert (LCI Industries)"
 
 sector = "Mechatronics & automation"
 products = ["Special Die and Tool, Die Set, Jig, and Fixture Manufacturing"]
@@ -23,4 +26,4 @@ employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 
 description = "Automated Equipment & Production Tooling, Including Special Machines, Forming, Bending, Rolling, Form Lines, Roll Form. NAICS 333514: special die and tool, die set, jig, and fixture manufacturing."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
-updated = "2026-11-11"
+updated = "2026-11-12"

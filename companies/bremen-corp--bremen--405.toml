@@ -1,7 +1,8 @@
-# Bremen Corp.
+# Creative Foam Medical Systems
 # Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
 
-name = "Bremen Corp."
+name = "Creative Foam Medical Systems"
+formerly = "Bremen Corp."
 kind = "company"
 city = "Bremen"
 state = "IN"
@@ -9,6 +10,7 @@ address = "405 Industrial Drive, Bremen, IN 46506"
 lat = 41.44864
 lon = -86.17092
 website = "https://creativefoammedicalsystems.com"
+status_note = "Operating as Creative Foam Medical Systems (IDEM permit notice, February 2026)."
 
 sector = "Materials & composites"
 products = ["Polystyrene Foam Product Manufacturing"]
@@ -23,4 +25,4 @@ employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 
 description = "Medical & Laminated Vinyl Coated Foam Products & Die-Cut Foam. NAICS 326140: polystyrene foam product manufacturing."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
-updated = "2026-11-11"
+updated = "2026-11-12"

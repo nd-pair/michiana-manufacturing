@@ -169,7 +169,7 @@ def main():
             "emp_scope": c.get("employees_scope", "site"), "emp_note": c.get("employees_note", ""),
             "blurb": c.get("description", ""), "naics": str(c.get("naics", "")), "certs": list(c.get("certifications", [])),
             "source": c.get("source", "company website, filings, press and directories"), "updated": str(c.get("updated", "")),
-            "uei": c.get("uei", ""), "parent_field": c.get("parent", ""), "standalone": bool(c.get("standalone")),
+            "uei": c.get("uei", ""), "formerly": c.get("formerly", ""), "status": c.get("status_note", ""), "parent_field": c.get("parent", ""), "standalone": bool(c.get("standalone")),
             "emp_year": str(c.get("employees_year") or headcount_year(c.get("employees_note", ""))),
             "emp_quality": c.get("employees_quality") or headcount_quality(c),
         })

@@ -1,14 +1,16 @@
-# Phoenix U. S. A., Inc.
+# Phoenix USA RV
 # Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
 
-name = "Phoenix U. S. A., Inc."
+name = "Phoenix USA RV"
+formerly = "Phoenix U. S. A., Inc."
 kind = "company"
 city = "Elkhart"
 state = "IN"
-address = "2601 Marina Drive, Elkhart, IN 46514"
-lat = 41.72138
-lon = -85.91751
-website = "https://phoenixusrv.com"
+address = "55169 County Road 3, Elkhart, IN 46514"
+lat = 41.69305
+lon = -86.02319
+website = "https://www.phoenixusarv.com"
+status_note = "Builds Cruiser motorhomes; its own site gives this address rather than the 2601 Marina Drive in HIFLD."
 
 sector = "Vehicles & RVs"
 products = ["Motor Home Manufacturing"]
@@ -23,4 +25,4 @@ employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 
 description = "Recreational Vehicles. NAICS 336213: motor home manufacturing."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
-updated = "2026-11-11"
+updated = "2026-11-12"

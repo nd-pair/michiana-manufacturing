@@ -1,14 +1,16 @@
-# White Pigeon Paper Co.
+# Ox Paperboard, White Pigeon mill
 # Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
 
-name = "White Pigeon Paper Co."
+name = "Ox Paperboard, White Pigeon mill"
+formerly = "White Pigeon Paper Co."
 kind = "company"
 city = "White Pigeon"
 state = "MI"
 address = "15781 River Street, White Pigeon, MI 49099"
 lat = 41.78921
 lon = -85.64700
-website = "https://whitepigeonpaper.com"
+website = "https://oxindustries.com"
+status_note = "Graphic Packaging idled the mill in 2020; Ox Industries restarted it that September."
 
 sector = "Metal"
 products = ["Secondary Smelting, Refining, and Alloying of Nonferrous Metal (except Copper and Aluminum)"]
@@ -23,4 +25,4 @@ employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 
 description = "Paper Recycling. NAICS 331492: secondary smelting, refining, and alloying of nonferrous metal (except copper and aluminum)."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
-updated = "2026-11-11"
+updated = "2026-11-12"

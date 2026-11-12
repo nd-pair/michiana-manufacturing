@@ -1,14 +1,16 @@
-# Ipc Print Services, Inc.
+# Walsworth – Saint Joseph
 # Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
 
-name = "Ipc Print Services, Inc."
+name = "Walsworth – Saint Joseph"
+formerly = "Ipc Print Services, Inc."
 kind = "company"
 city = "Saint Joseph"
 state = "MI"
 address = "2180 Maiden Lane, Saint Joseph, MI 49085"
 lat = 42.05037
 lon = -86.50742
-website = "https://ipc-world.com"
+website = "https://www.walsworth.com"
+status_note = "Walsworth bought IPC Print Services in 2010."
 
 sector = "Wood, paper & furniture"
 products = ["Other Commercial Printing"]
@@ -23,4 +25,4 @@ employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 
 description = "Catalog & Magazine Printing. NAICS 323119: other commercial printing."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
-updated = "2026-11-11"
+updated = "2026-11-12"

@@ -1,14 +1,16 @@
-# Gemstone Musical Instruments
+# Gemeinhardt Musical Instruments, LLC
 # Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
 
-name = "Gemstone Musical Instruments"
+name = "Gemeinhardt Musical Instruments, LLC"
+formerly = "Gemstone Musical Instruments"
 kind = "company"
 city = "Elkhart"
 state = "IN"
 address = "57882 State Road 19, Elkhart, IN 46517"
 lat = 41.65471
 lon = -86.00265
-website = "https://gemstonemusical.com"
+website = "https://gemeinhardt.com"
+status_note = "Gemstone Musical Instruments was Gemeinhardt's corporate name from 1993 to 2011."
 
 sector = "Medical devices & other"
 products = ["Musical Instrument Manufacturing"]
@@ -23,4 +25,4 @@ employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 
 description = "Flutes, Piccolos, Clarinets, Saxophones, Strings & Brass. NAICS 339992: musical instrument manufacturing."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
-updated = "2026-11-11"
+updated = "2026-11-12"

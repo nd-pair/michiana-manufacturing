@@ -1,14 +1,16 @@
-# F & F Machine Specialties
+# Complexus Medical
 # Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
 
-name = "F & F Machine Specialties"
+name = "Complexus Medical"
+formerly = "F & F Machine Specialties"
 kind = "company"
 city = "Mishawaka"
 state = "IN"
 address = "55980 Russell Industrial Parkway, Mishawaka, IN 46545"
 lat = 41.68155
 lon = -86.12244
-website = "https://ffmachine.com"
+website = "https://complexusmedical.com"
+status_note = "F&F Machine Specialties renamed itself Complexus Medical in 2013."
 
 sector = "Metal"
 products = ["Machine Shops"]
@@ -23,4 +25,4 @@ employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 
 description = "Fixtures, Medical Tooling & Precision Machining Job Shop. NAICS 332710: machine shops."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
-updated = "2026-11-11"
+updated = "2026-11-12"

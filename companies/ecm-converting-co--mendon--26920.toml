@@ -1,14 +1,15 @@
-# Ecm Converting Co.
+# Manchester Industries, Mendon
 # Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
 
-name = "Ecm Converting Co."
+name = "Manchester Industries, Mendon"
+formerly = "Ecm Converting Co."
 kind = "company"
 city = "Mendon"
 state = "MI"
 address = "26920 M-60, Mendon, MI 49072"
+status_note = "ECM Converting merged with Manchester Industries, which operates at this address (OSHA records through 2025)."
 lat = 42.00759
 lon = -85.43151
-website = "https://ecmconverting.com"
 
 sector = "Wood, paper & furniture"
 products = ["Paperboard Mills"]
@@ -23,4 +24,4 @@ employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 
 description = "Paperboard Converting. NAICS 322130: paperboard mills."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
-updated = "2026-11-11"
+updated = "2026-11-12"

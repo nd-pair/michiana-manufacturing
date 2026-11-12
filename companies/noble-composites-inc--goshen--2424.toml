@@ -1,14 +1,16 @@
-# Noble Composites, Inc.
+# Crane Composites, Goshen plant
 # Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
 
-name = "Noble Composites, Inc."
+name = "Crane Composites, Goshen plant"
+formerly = "Noble Composites, Inc."
 kind = "company"
 city = "Goshen"
 state = "IN"
 address = "2424 East Kercher Road, Goshen, IN 46526"
 lat = 41.55150
 lon = -85.79345
-website = "https://noblecomposites.com"
+website = "https://www.cranecomposites.com"
+status_note = "The former Noble Composites plant is Crane Composites' Goshen plant; Crane agreed to sell the business to KPS Capital Partners in December 2024."
 
 sector = "Materials & composites"
 products = ["Mineral Wool Manufacturing"]
@@ -23,4 +25,4 @@ employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 
 description = "Fiberglass Sidewalls. NAICS 327993: mineral wool manufacturing."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
-updated = "2026-11-11"
+updated = "2026-11-12"

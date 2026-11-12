@@ -1,14 +1,15 @@
-# Criterion Catalyst & Technologies L. P.
+# Shell Catalysts & Technologies, Michigan City
 # Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
 
-name = "Criterion Catalyst & Technologies L. P."
+name = "Shell Catalysts & Technologies, Michigan City"
+formerly = "Criterion Catalyst & Technologies L. P."
 kind = "company"
 city = "Michigan City"
 state = "IN"
 address = "1800 East US Highway 12, Michigan City, IN 46360"
+status_note = "The former Criterion Catalyst plant runs under Shell Catalysts & Technologies, which expanded it in 2019 and was hiring in 2025-26."
 lat = 41.72664
 lon = -86.87321
-website = "https://criterioncatalysts.com"
 
 sector = "Materials & composites"
 products = ["All Other Basic Inorganic Chemical Manufacturing"]
@@ -23,4 +24,4 @@ employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 
 description = "Precipitated Alumina Powders. NAICS 325188: all other basic inorganic chemical manufacturing."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
-updated = "2026-11-11"
+updated = "2026-11-12"

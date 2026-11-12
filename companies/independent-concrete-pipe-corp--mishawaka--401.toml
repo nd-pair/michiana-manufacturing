@@ -6,9 +6,9 @@ kind = "company"
 city = "Mishawaka"
 state = "IN"
 address = "401 South Beiger Street, Mishawaka, IN 46544"
+status_note = "County Materials bought Independent Concrete Pipe's Indiana assets in 2014; whether this site still runs is unconfirmed."
 lat = 41.65941
 lon = -86.15085
-website = "https://hyspanbridge.com"
 
 sector = "Materials & composites"
 products = ["Other Concrete Product Manufacturing"]
@@ -23,4 +23,4 @@ employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 
 description = "Concrete Sewer Pipes & Manholes. NAICS 327390: other concrete product manufacturing."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
-updated = "2026-11-11"
+updated = "2026-11-12"

@@ -1,14 +1,16 @@
-# Tri-Tech, LLC
+# Kendrion (Mishawaka) LLC
 # Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
 
-name = "Tri-Tech, LLC"
+name = "Kendrion (Mishawaka) LLC"
+formerly = "Tri-Tech, LLC"
 kind = "company"
 city = "Mishawaka"
 state = "IN"
 address = "56733 Magnetic Drive, Mishawaka, IN 46545"
 lat = 41.67164
 lon = -86.12854
-website = "https://tri-techllc.com"
+website = "https://www.kendrion.com"
+status_note = "Kendrion bought Tri-Tech in 2008."
 
 sector = "Electronics"
 products = ["Other Electronic Component Manufacturing"]
@@ -23,4 +25,4 @@ employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 
 description = "Custom Solenoids, Electromagnetic Actuators, Encapsulated Coils & Thermoplastic Valves. NAICS 334419: other electronic component manufacturing."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
-updated = "2026-11-11"
+updated = "2026-11-12"

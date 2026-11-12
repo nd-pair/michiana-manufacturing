@@ -1,14 +1,15 @@
-# Burkhart Advertising, Inc.
+# Hayes Design Co.
 # Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
 
-name = "Burkhart Advertising, Inc."
+name = "Hayes Design Co."
+formerly = "Burkhart Advertising, Inc."
 kind = "company"
 city = "South Bend"
 state = "IN"
-address = "1335 Mishawaka Avenue, South Bend, IN 46615"
-lat = 41.66615
-lon = -86.22895
-website = "https://burkhartsignsystems.com"
+address = "1247 Mishawaka Avenue, South Bend, IN 46615"
+lat = 41.66594
+lon = -86.23076
+status_note = "Hayes Design Co. bought Burkhart's sign-making business in late 2021; Lamar bought its billboards in 2022."
 
 sector = "Medical devices & other"
 products = ["Sign Manufacturing"]
@@ -23,4 +24,4 @@ employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 
 description = "Corporate Headquarters & Outdoor & Indoor Advertising Signs. NAICS 339950: sign manufacturing."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
-updated = "2026-11-11"
+updated = "2026-11-12"

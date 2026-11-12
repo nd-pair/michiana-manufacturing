@@ -8,7 +8,7 @@ state = "IN"
 address = "119 Lane Street, North Judson, IN 46366"
 lat = 41.21580
 lon = -86.77315
-website = "https://bakerygift.com"
+website = "https://bakerygifts.com"
 
 sector = "Food & consumer goods"
 products = ["Commercial Bakeries"]
@@ -23,4 +23,4 @@ employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 
 description = "Bakery Products. NAICS 311812: commercial bakeries."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
-updated = "2026-11-11"
+updated = "2026-11-12"

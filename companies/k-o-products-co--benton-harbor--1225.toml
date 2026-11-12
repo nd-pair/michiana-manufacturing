@@ -8,7 +8,7 @@ state = "MI"
 address = "1225 Milton Street, Benton Harbor, MI 49022"
 lat = 42.09559
 lon = -86.43762
-website = "https://k-oproducts.com"
+website = "https://koproducts.com"
 
 sector = "Metal"
 products = ["Metal Stamping"]
@@ -23,4 +23,4 @@ employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 
 description = "Metal & Automotive Stampings & Electrical & Mechanical Assembly. NAICS 332116: metal stamping."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
-updated = "2026-11-11"
+updated = "2026-11-12"
