@@ -194,7 +194,7 @@ function hover(e){const b=pick(e); const id=b?b.c.id:null; if(id!==hoverId){hove
   else{tip.style.opacity=0;box.style.cursor=drag?"grabbing":"grab"}}
 const _c=new THREE.Color();
 function paintBars(){for(const b of bars){const v=visible(b.c),h=hotMatch(b.c),on=st.hot?(v&&h):v,lit=(hoverId===b.c.id||st.sel===b.c.id||(st.hot&&on));
-    const k=!on?0.1:lit?1.6:(b.c.emp?1:0.55); _c.copy(b.color).multiplyScalar(k); barMesh.setColorAt(b.i,_c);
+    const k=!on?0.025:lit?1.6:(b.c.emp?1:0.55); _c.copy(b.color).multiplyScalar(k); barMesh.setColorAt(b.i,_c);
     _c.copy(b.color).multiplyScalar(!on?0:lit?2.2:1); glowMesh.setColorAt(b.i,_c)}
   barMesh.instanceColor.needsUpdate=true; glowMesh.instanceColor.needsUpdate=true; halo.material.opacity=st.sel?0.9:0; if(st.sel)layoutBars(KREF*Math.min(view.dist/D_HOME,2.2))}
 function resize(){const w=box.clientWidth,h=Math.max(360,Math.min(640,Math.round(w*0.64)));box.style.height=h+"px";renderer.setSize(w,h,false);camera.aspect=w/h;camera.updateProjectionMatrix()}
@@ -206,7 +206,8 @@ let t0=performance.now(); (function loop(){requestAnimationFrame(loop);
 /* ---------- filters, histograms, roster ---------- */
 function select(id){st.sel=(st.sel===id?null:id);render();
   if(st.sel){const row=document.getElementById("row-"+st.sel);if(row)row.scrollIntoView({block:"nearest",behavior:reduced?"auto":"smooth"})}}
-document.getElementById("clear").addEventListener("click",()=>{st.cap.clear();st.fed=false;st.fda=false;st.sec.clear();st.tag.clear();st.sel=null;st.q="";document.getElementById("tagsearch").value="";render()});
+const clearAll=()=>{st.cap.clear();st.fed=false;st.fda=false;st.sec.clear();st.tag.clear();st.sel=null;st.q="";document.getElementById("tagsearch").value="";render()};
+document.getElementById("clear").addEventListener("click",clearAll);document.getElementById("resetall").addEventListener("click",clearAll);
 document.getElementById("tagsearch").addEventListener("input",e=>{st.q=e.target.value.trim().toLowerCase();renderTags()});
 const fmtK=v=>v>=10000?Math.round(v/1000)+"k":v>=1000?(v/1000).toFixed(1)+"k":String(v);
 const empSum=list=>list.reduce((a,c)=>a+(c.emp||0),0);
