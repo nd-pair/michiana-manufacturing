@@ -293,3 +293,8 @@
 .mm-app tr.mm-more td{cursor:default;text-align:left}
 .mm-app tr.mm-more .mm-chip{margin-left:8px;padding:3px 9px}
 .mm-app tr.mm-more .mm-chip[aria-pressed="true"]{background:var(--accent);color:var(--accent-ink)}
+.mm-app tr.mm-more td{display:table-cell}
+.mm-app tr.mm-more .mm-pg{font-size:20px;line-height:1;padding:4px 14px;margin:0 10px;color:var(--accent);border-color:var(--accent)}
+.mm-app tr.mm-more .mm-pg:first-child{margin-left:0}
+.mm-app tr.mm-more .mm-pg:disabled{opacity:.35;cursor:default}
+.mm-app tr.mm-more .mm-lb{margin-left:18px}
