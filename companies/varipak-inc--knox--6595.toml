@@ -1,0 +1,20 @@
+# Varipak, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Varipak, Inc."
+kind = "company"
+city = "Knox"
+state = "IN"
+address = "6595 East in 10, Knox, IN 46534"
+lat = 41.22954
+lon = -86.57132
+website = "https://not available"
+
+sector = "Metal"
+products = ["All Other Miscellaneous Fabricated Metal Product Manufacturing"]
+
+employees = 23
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Foil Laminated Lids. NAICS 332999: all other miscellaneous fabricated metal product manufacturing."

@@ -1,0 +1,20 @@
+# Heraeus Kulzer, Inc., Dental Mfg.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Heraeus Kulzer, Inc., Dental Mfg."
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "4315 South Lafayette Boulevard, South Bend, IN 46614"
+lat = 41.63156
+lon = -86.25401
+website = "https://heraeus-kulzer-us.com"
+
+sector = "Medical devices & other"
+products = ["Dental Equipment and Supplies Manufacturing"]
+
+employees = 70
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Dental Products. NAICS 339114: dental equipment and supplies manufacturing."

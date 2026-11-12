@@ -1,0 +1,20 @@
+# Riegsecker Hardwoods
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Riegsecker Hardwoods"
+kind = "company"
+city = "Shipshewana"
+state = "IN"
+address = "5660 North State Road 5, Shipshewana, IN 46565"
+lat = 41.72525
+lon = -85.58243
+website = "https://riegsecker.com"
+
+sector = "Wood, paper & furniture"
+products = ["Wood Kitchen Cabinet and Countertop Manufacturing"]
+
+employees = 40
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Wooden Furniture & Cabinets. NAICS 337110: wood kitchen cabinet and countertop manufacturing."

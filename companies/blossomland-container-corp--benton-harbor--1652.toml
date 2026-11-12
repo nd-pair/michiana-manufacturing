@@ -1,0 +1,20 @@
+# Blossomland Container Corp.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Blossomland Container Corp."
+kind = "company"
+city = "Benton Harbor"
+state = "MI"
+address = "1652 East Empire Avenue, Benton Harbor, MI 49022"
+lat = 42.10117
+lon = -86.41821
+website = "https://not available"
+
+sector = "Wood, paper & furniture"
+products = ["Corrugated and Solid Fiber Box Manufacturing"]
+
+employees = 30
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Corrugated Cartons. NAICS 322211: corrugated and solid fiber box manufacturing."

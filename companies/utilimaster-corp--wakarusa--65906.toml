@@ -1,0 +1,20 @@
+# Utilimaster Corp.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Utilimaster Corp."
+kind = "company"
+city = "Wakarusa"
+state = "IN"
+address = "65906 State Road 19, Wakarusa, IN 46573"
+lat = 41.53762
+lon = -86.00107
+website = "https://utilimaster.com"
+
+sector = "Vehicles & RVs"
+products = ["Light Truck and Utility Vehicle Manufacturing"]
+
+employees = 1000
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Parcel Delivery & Walk-In Vans, Aluminum Truck Bodies & Service Vehicles. NAICS 336112: light truck and utility vehicle manufacturing."

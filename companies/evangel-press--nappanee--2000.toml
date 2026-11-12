@@ -1,0 +1,20 @@
+# Evangel Press
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Evangel Press"
+kind = "company"
+city = "Nappanee"
+state = "IN"
+address = "2000 Evangel Way, Nappanee, IN 46550"
+lat = 41.44500
+lon = -85.97776
+website = "https://evangelpress.com"
+
+sector = "Wood, paper & furniture"
+products = ["Book Printing"]
+
+employees = 37
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Book, Brochure & Periodical Printing & Typesetting. NAICS 323117: book printing."

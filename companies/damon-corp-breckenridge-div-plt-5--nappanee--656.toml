@@ -1,0 +1,20 @@
+# Damon Corp., Breckenridge Div., Plt. 5
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Damon Corp., Breckenridge Div., Plt. 5"
+kind = "company"
+city = "Nappanee"
+state = "IN"
+address = "656 Delaware Street, Nappanee, IN 46550"
+lat = 41.44620
+lon = -86.02472
+website = "https://breckenridgeparkmodels.com"
+
+sector = "Vehicles & RVs"
+products = ["Travel Trailer and Camper Manufacturing"]
+
+employees = 50
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Park Trailers. NAICS 336214: travel trailer and camper manufacturing."

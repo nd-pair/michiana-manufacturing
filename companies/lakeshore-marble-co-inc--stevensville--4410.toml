@@ -1,0 +1,20 @@
+# Lakeshore Marble Co., Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Lakeshore Marble Co., Inc."
+kind = "company"
+city = "Stevensville"
+state = "MI"
+address = "4410 North Roosevelt Road, Stevensville, MI 49127"
+lat = 42.03737
+lon = -86.50976
+website = "https://not available"
+
+sector = "Materials & composites"
+products = ["Cut Stone and Stone Product Manufacturing"]
+
+employees = 30
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Cultured Marble Countertops & Solid-Surface Materials. NAICS 327991: cut stone and stone product manufacturing."

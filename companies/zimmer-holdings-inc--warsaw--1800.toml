@@ -1,0 +1,20 @@
+# Zimmer Holdings, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Zimmer Holdings, Inc."
+kind = "company"
+city = "Warsaw"
+state = "IN"
+address = "1800 West Center Street, Warsaw, IN 46580"
+lat = 41.23984
+lon = -85.88425
+website = "https://zimmer.com"
+
+sector = "Medical devices & other"
+products = ["Surgical Appliance and Supplies Manufacturing"]
+
+employees = 2300
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Corporate Headquarters & Reconstructive & Spinal Implants & Trauma Orthopaedic Surgical Products. NAICS 339113: surgical appliance and supplies manufacturing."

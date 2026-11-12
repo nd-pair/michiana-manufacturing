@@ -1,0 +1,20 @@
+# Hoosier Custom Plastics, LLC
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Hoosier Custom Plastics, LLC"
+kind = "company"
+city = "Knox"
+state = "IN"
+address = "201 Hamilton Drive, Knox, IN 46534"
+lat = 41.29827
+lon = -86.63897
+website = "https://hcplastic.com"
+
+sector = "Medical devices & other"
+products = ["Sporting and Athletic Goods Manufacturing"]
+
+employees = 15
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Plastic Golf Tees & Plastic Injection Molding. NAICS 339920: sporting and athletic goods manufacturing."

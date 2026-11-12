@@ -1,0 +1,20 @@
+# A Homestead Shoppe, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "A Homestead Shoppe, Inc."
+kind = "company"
+city = "Lapaz"
+state = "IN"
+address = "324 East Vandalia Street, Lapaz, IN 46537"
+lat = 41.45671
+lon = -86.30414
+website = "https://ahomesteadshoppe.com"
+
+sector = "Electronics"
+products = ["Residential Electric Lighting Fixture Manufacturing"]
+
+employees = 25
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Lamps, Lamp Shades & Home Decorating Accessories. NAICS 335121: residential electric lighting fixture manufacturing."

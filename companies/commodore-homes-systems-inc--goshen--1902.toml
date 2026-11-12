@@ -1,0 +1,20 @@
+# Commodore Homes Systems, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Commodore Homes Systems, Inc."
+kind = "company"
+city = "Goshen"
+state = "IN"
+address = "1902 Century Drive, Goshen, IN 46528"
+lat = 41.56243
+lon = -85.78804
+website = "https://commodorehomes.com"
+
+sector = "Wood, paper & furniture"
+products = ["Manufactured Home (mobile Home) Manufacturing"]
+
+employees = 127
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Modular Homes. NAICS 321991: manufactured home (mobile home) manufacturing."

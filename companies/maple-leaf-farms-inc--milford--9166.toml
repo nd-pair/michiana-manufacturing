@@ -1,0 +1,20 @@
+# Maple Leaf Farms, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Maple Leaf Farms, Inc."
+kind = "company"
+city = "Milford"
+state = "IN"
+address = "9166 North 200 East, Milford, IN 46542"
+lat = 41.36600
+lon = -85.80596
+website = "https://mapleleaffarms.com"
+
+sector = "Food & consumer goods"
+products = ["Poultry Processing"]
+
+employees = 450
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Corporate Headquarters & Poultry Processing. NAICS 311615: poultry processing."

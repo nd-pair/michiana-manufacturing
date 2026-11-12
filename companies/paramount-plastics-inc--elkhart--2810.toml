@@ -1,0 +1,20 @@
+# Paramount Plastics, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Paramount Plastics, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "2810 Jeanwood Drive, Elkhart, IN 46514"
+lat = 41.72672
+lon = -85.92712
+website = "https://paramountplastics.com"
+
+sector = "Materials & composites"
+products = ["All Other Plastics Product Manufacturing"]
+
+employees = 50
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Vacuum & Pressure Formed Plastics. NAICS 326199: all other plastics product manufacturing."

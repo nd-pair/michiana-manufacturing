@@ -1,0 +1,20 @@
+# Dexter Chassie Group
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Dexter Chassie Group"
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "3133 Tuscany Drive, Elkhart, IN 46514"
+lat = 41.71993
+lon = -85.93291
+website = "https://dexterchassiegroup.com"
+
+sector = "Metal"
+products = ["Primary Aluminum Production"]
+
+employees = 215
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Aluminum Extrusions, Sheet Metal Fabricating & HVAC Units. NAICS 331312: primary aluminum production."

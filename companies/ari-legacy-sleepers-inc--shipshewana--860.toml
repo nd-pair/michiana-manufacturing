@@ -1,0 +1,20 @@
+# Ari Legacy Sleepers, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Ari Legacy Sleepers, Inc."
+kind = "company"
+city = "Shipshewana"
+state = "IN"
+address = "860 North Tuscany Drive, Shipshewana, IN 46565"
+lat = 41.68515
+lon = -85.57814
+website = "https://legacysleepers.com"
+
+sector = "Vehicles & RVs"
+products = ["Motor Vehicle Body Manufacturing"]
+
+employees = 44
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Sleeper Compartments for Trucks. NAICS 336211: motor vehicle body manufacturing."

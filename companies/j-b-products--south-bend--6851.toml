@@ -1,0 +1,20 @@
+# J & B Products
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "J & B Products"
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "6851 Enterprise Drive, South Bend, IN 46628"
+lat = 41.72859
+lon = -86.34591
+website = "https://jb-products.com"
+
+sector = "Metal"
+products = ["Other Metal Valve and Pipe Fitting Manufacturing"]
+
+employees = 45
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Plastic Plumbing & Drain Products. NAICS 332919: other metal valve and pipe fitting manufacturing."

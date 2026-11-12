@@ -1,0 +1,20 @@
+# Accurate Foam Co.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Accurate Foam Co."
+kind = "company"
+city = "La Porte"
+state = "IN"
+address = "819 Fox Street, La Porte, IN 46350"
+lat = 41.59932
+lon = -86.71291
+website = "https://not available"
+
+sector = "Materials & composites"
+products = ["Urethane and Other Foam Product (except Polystyrene) Manufacturing"]
+
+employees = 22
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Polyurethane Foam, Die Cutting, Pressure-Sensitive Products, PVC Tape, Polyethylene & Molded Bumpers. NAICS 326150: urethane and other foam product (except polystyrene) manufacturing."

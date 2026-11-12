@@ -1,0 +1,20 @@
+# Rinker Boat Co., Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Rinker Boat Co., Inc."
+kind = "company"
+city = "Syracuse"
+state = "IN"
+address = "300 West Chicago Street, Syracuse, IN 46567"
+lat = 41.41915
+lon = -85.74996
+website = "https://rinkerboats.com"
+
+sector = "Vehicles & RVs"
+products = ["Boat Building"]
+
+employees = 480
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Fiberglass Boats. NAICS 336612: boat building."

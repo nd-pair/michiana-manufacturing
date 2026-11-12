@@ -1,0 +1,20 @@
+# Interior Accessories, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Interior Accessories, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "1520 Adams Street, Elkhart, IN 46514"
+lat = 41.70295
+lon = -85.96165
+website = "https://not available"
+
+sector = "Food & consumer goods"
+products = ["Men's and Boys' Cut and Sew Apparel Contractors"]
+
+employees = 60
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Contract Sewing, Window Coverings, Mini Blinds & Shades. NAICS 315211: men's and boys' cut and sew apparel contractors."

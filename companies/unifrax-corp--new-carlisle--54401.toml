@@ -1,0 +1,20 @@
+# Unifrax Corp.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Unifrax Corp."
+kind = "company"
+city = "New Carlisle"
+state = "IN"
+address = "54401 Smilax Road, New Carlisle, IN 46552"
+lat = 41.69963
+lon = -86.44831
+website = "https://unifrax.com"
+
+sector = "Materials & composites"
+products = ["Mineral Wool Manufacturing"]
+
+employees = 138
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Ceramic Fiber High-Temperature Insulation. NAICS 327993: mineral wool manufacturing."

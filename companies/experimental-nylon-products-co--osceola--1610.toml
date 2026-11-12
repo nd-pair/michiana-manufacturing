@@ -1,0 +1,20 @@
+# Experimental Nylon Products Co.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Experimental Nylon Products Co."
+kind = "company"
+city = "Osceola"
+state = "IN"
+address = "1610 3rd Street, Osceola, IN 46561"
+lat = 41.66106
+lon = -86.08870
+website = "https://not available"
+
+sector = "Materials & composites"
+products = ["All Other Plastics Product Manufacturing"]
+
+employees = 36
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Plastic Injection Molding. NAICS 326199: all other plastics product manufacturing."

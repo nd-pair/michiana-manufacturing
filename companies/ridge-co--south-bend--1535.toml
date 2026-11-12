@@ -1,0 +1,20 @@
+# Ridge Co.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Ridge Co."
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "1535 South Main Street, South Bend, IN 46613"
+lat = 41.65867
+lon = -86.25199
+website = "https://ridgeap.com"
+
+sector = "Metal"
+products = ["Machine Shops"]
+
+employees = 70
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "General Machining Job Shop. NAICS 332710: machine shops."

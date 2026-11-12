@@ -1,0 +1,20 @@
+# Vitamins, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Vitamins, Inc."
+kind = "company"
+city = "Michigan City"
+state = "IN"
+address = "1700 East US Highway 12, Michigan City, IN 46360"
+lat = 41.72532
+lon = -86.87521
+website = "https://vitamins-inc.com"
+
+sector = "Materials & composites"
+products = ["Pharmaceutical Preparation Manufacturing"]
+
+employees = 25
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Biochemicals & Food Processing. NAICS 325412: pharmaceutical preparation manufacturing."

@@ -1,0 +1,20 @@
+# Atlas Die, LLC
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Atlas Die, LLC"
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "2000 Middlebury Street, Elkhart, IN 46516"
+lat = 41.68159
+lon = -85.93416
+website = "https://atlasdie.com"
+
+sector = "Mechatronics & automation"
+products = ["Special Die and Tool, Die Set, Jig, and Fixture Manufacturing"]
+
+employees = 60
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Company Headquarters & Laser-Cut Steel Rule, Anvil & Chemically Milled Dies & Solid Rotary Tooling. NAICS 333514: special die and tool, die set, jig, and fixture manufacturing."

@@ -1,0 +1,20 @@
+# Jet Technologies, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Jet Technologies, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "23892 Cooper Drive, Elkhart, IN 46514"
+lat = 41.71992
+lon = -85.92498
+website = "https://jettechinc.com"
+
+sector = "Materials & composites"
+products = ["All Other Plastics Product Manufacturing"]
+
+employees = 30
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Plastic Fabrication. NAICS 326199: all other plastics product manufacturing."

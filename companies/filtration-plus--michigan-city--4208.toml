@@ -1,0 +1,20 @@
+# Filtration Plus
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Filtration Plus"
+kind = "company"
+city = "Michigan City"
+state = "IN"
+address = "4208 North 900 West, Michigan City, IN 46360"
+lat = 41.66879
+lon = -86.87508
+website = "https://not available"
+
+sector = "Materials & composites"
+products = ["Mineral Wool Manufacturing"]
+
+employees = 40
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Industrial Liquid Filter Bags. NAICS 327993: mineral wool manufacturing."

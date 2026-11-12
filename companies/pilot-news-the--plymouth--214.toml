@@ -1,0 +1,20 @@
+# Pilot News, the
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Pilot News, the"
+kind = "company"
+city = "Plymouth"
+state = "IN"
+address = "214 North Michigan Street, Plymouth, IN 46563"
+lat = 41.34122
+lon = -86.30885
+website = "https://thepilotnews.com"
+
+sector = "Wood, paper & furniture"
+products = ["Prepress Services"]
+
+employees = 35
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Newspaper Publishing. NAICS 323122: prepress services."

@@ -1,0 +1,20 @@
+# E-Pak Machinery, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "E-Pak Machinery, Inc."
+kind = "company"
+city = "La Porte"
+state = "IN"
+address = "1555 State Road 39 South, La Porte, IN 46350"
+lat = 41.58066
+lon = -86.73898
+website = "https://epakmachinery.com"
+
+sector = "Mechatronics & automation"
+products = ["Packaging Machinery Manufacturing"]
+
+employees = 35
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Liquid Filling Machinery, Including Cappers, Labelers, Conveyors, Turntables, Cap Feeders, Bottle Cleaners & Coders. NAICS 333993: packaging machinery manufacturing."

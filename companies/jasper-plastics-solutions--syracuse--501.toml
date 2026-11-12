@@ -1,0 +1,20 @@
+# Jasper Plastics Solutions
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Jasper Plastics Solutions"
+kind = "company"
+city = "Syracuse"
+state = "IN"
+address = "501 West Railroad Avenue, Syracuse, IN 46567"
+lat = 41.42178
+lon = -85.75329
+website = "https://jasperplasticssolutions.com"
+
+sector = "Medical devices & other"
+products = ["Fastener, Button, Needle, and Pin Manufacturing"]
+
+employees = 100
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Molded Polyurethane, Polyester Parts & Lightweight Panels. NAICS 339993: fastener, button, needle, and pin manufacturing."

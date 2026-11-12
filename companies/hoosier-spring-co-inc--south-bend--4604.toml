@@ -1,0 +1,20 @@
+# Hoosier Spring Co., Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Hoosier Spring Co., Inc."
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "4604 South Burnette Drive, South Bend, IN 46614"
+lat = 41.62764
+lon = -86.26038
+website = "https://hoosierspring.com"
+
+sector = "Metal"
+products = ["Spring (heavy Gauge) Manufacturing"]
+
+employees = 50
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Precision Springs. NAICS 332611: spring (heavy gauge) manufacturing."

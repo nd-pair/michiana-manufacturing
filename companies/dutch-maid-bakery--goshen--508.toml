@@ -1,0 +1,20 @@
+# Dutch Maid Bakery
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Dutch Maid Bakery"
+kind = "company"
+city = "Goshen"
+state = "IN"
+address = "508 West Lincoln Avenue, Goshen, IN 46526"
+lat = 41.58609
+lon = -85.84326
+website = "https://not available"
+
+sector = "Food & consumer goods"
+products = ["Commercial Bakeries"]
+
+employees = 25
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Bakery Products. NAICS 311812: commercial bakeries."

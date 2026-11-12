@@ -1,0 +1,20 @@
+# Dec-O-Art, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Dec-O-Art, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "3914 Lexington Park Drive, Elkhart, IN 46514"
+lat = 41.69080
+lon = -86.02554
+website = "https://dec-o-art.com"
+
+sector = "Wood, paper & furniture"
+products = ["Die-Cut Paper and Paperboard Office Supplies Manufacturing"]
+
+employees = 42
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Tags, Labels & Decals. NAICS 322231: die-cut paper and paperboard office supplies manufacturing."

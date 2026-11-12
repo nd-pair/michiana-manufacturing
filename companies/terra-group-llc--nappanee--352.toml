@@ -1,0 +1,20 @@
+# Terra Group, LLC
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Terra Group, LLC"
+kind = "company"
+city = "Nappanee"
+state = "IN"
+address = "352 Shawnee Street, Nappanee, IN 46550"
+lat = 41.44556
+lon = -86.03462
+website = "https://terragroup.net"
+
+sector = "Vehicles & RVs"
+products = ["Motor Home Manufacturing"]
+
+employees = 100
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Company Headquarters & RV Components, RV Ramp Doors & Cargo Haulers & Trailers. NAICS 336213: motor home manufacturing."

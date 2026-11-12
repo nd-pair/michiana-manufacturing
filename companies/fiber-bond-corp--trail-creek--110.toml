@@ -1,0 +1,20 @@
+# Fiber Bond Corp.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Fiber Bond Corp."
+kind = "company"
+city = "Trail Creek"
+state = "IN"
+address = "110 Menke Road, Trail Creek, IN 46360"
+lat = 41.70272
+lon = -86.84744
+website = "https://fiberbond.net"
+
+sector = "Mechatronics & automation"
+products = ["Air-Conditioning & Warm Air Heating Equipment & Commercial and Industrial Refrigeration Equipment Mfg."]
+
+employees = 125
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Air Filter Media, Abrasives, Nonwoven Fibrous Products & Dielectric Automotive Padding. NAICS 333415: air-conditioning & warm air heating equipment & commercial and industrial refrigeration equipment mfg.."

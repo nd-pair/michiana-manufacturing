@@ -1,0 +1,20 @@
+# Jamil Packaging Corp. (h Q)
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Jamil Packaging Corp. (h Q)"
+kind = "company"
+city = "Mishawaka"
+state = "IN"
+address = "1420 Industrial Drive, Mishawaka, IN 46544"
+lat = 41.64910
+lon = -86.16451
+website = "https://jamilpackaging.com"
+
+sector = "Wood, paper & furniture"
+products = ["Corrugated and Solid Fiber Box Manufacturing"]
+
+employees = 60
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Corporate Headquarters; Corrugated Packaging & Wooden Pallets & Crates. NAICS 322211: corrugated and solid fiber box manufacturing."

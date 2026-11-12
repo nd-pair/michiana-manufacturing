@@ -1,0 +1,20 @@
+# Transhield, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Transhield, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "2932 Thorne Drive, Elkhart, IN 46514"
+lat = 41.72927
+lon = -86.00224
+website = "https://transhield-usa.com"
+
+sector = "Materials & composites"
+products = ["Unlaminated Plastics Film and Sheet (except Packaging) Manufacturing"]
+
+employees = 28
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Polyethylene Film Covering for Motor Vehicles & Boats. NAICS 326113: unlaminated plastics film and sheet (except packaging) manufacturing."

@@ -1,0 +1,20 @@
+# Eaton Corp., Psco
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Eaton Corp., Psco"
+kind = "company"
+city = "Three Rivers"
+state = "MI"
+address = "1100 West Broadway Street, Three Rivers, MI 49093"
+lat = 41.93233
+lon = -85.64686
+website = "https://eaton.com"
+
+sector = "Vehicles & RVs"
+products = ["All Other Motor Vehicle Parts Manufacturing"]
+
+employees = 300
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Automotive Mirror Actuators & Transmission Components. NAICS 336399: all other motor vehicle parts manufacturing."

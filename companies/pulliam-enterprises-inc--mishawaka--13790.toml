@@ -1,0 +1,20 @@
+# Pulliam Enterprises, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Pulliam Enterprises, Inc."
+kind = "company"
+city = "Mishawaka"
+state = "IN"
+address = "13790 Jefferson Boulevard, Mishawaka, IN 46545"
+lat = 41.67296
+lon = -86.13403
+website = "https://pullrite.com"
+
+sector = "Vehicles & RVs"
+products = ["Truck Trailer Manufacturing"]
+
+employees = 50
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Trailer Towing Systems, Laser Cutting, Metal Forming & Welding Job Shop. NAICS 336212: truck trailer manufacturing."

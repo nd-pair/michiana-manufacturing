@@ -1,0 +1,20 @@
+# Vitra Coat America, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Vitra Coat America, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "2807 Marina Drive, Elkhart, IN 46514"
+lat = 41.72535
+lon = -85.91745
+website = "https://vitracoat.com"
+
+sector = "Materials & composites"
+products = ["Paint and Coating Manufacturing"]
+
+employees = 15
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Powder Coatings. NAICS 325510: paint and coating manufacturing."

@@ -1,0 +1,20 @@
+# Da-Lite Screen Company, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Da-Lite Screen Company, Inc."
+kind = "company"
+city = "Warsaw"
+state = "IN"
+address = "3100 North Detroit Street, Warsaw, IN 46582"
+lat = 41.27875
+lon = -85.85247
+website = "https://da-lite.com"
+
+sector = "Electronics"
+products = ["Audio and Video Equipment Manufacturing"]
+
+employees = 385
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Corporate Headquarters & Front & Rear Projection Screens, Lecterns, Easels, Computer Furniture, Audiovisual Carts. NAICS 334310: audio and video equipment manufacturing."

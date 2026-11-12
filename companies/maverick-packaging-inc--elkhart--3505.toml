@@ -1,0 +1,20 @@
+# Maverick Packaging, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Maverick Packaging, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "3505 Reedy Drive, Elkhart, IN 46514"
+lat = 41.72718
+lon = -85.92012
+website = "https://not available"
+
+sector = "Materials & composites"
+products = ["Soap and Other Detergent Manufacturing"]
+
+employees = 30
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Soap & Shampoo. NAICS 325611: soap and other detergent manufacturing."

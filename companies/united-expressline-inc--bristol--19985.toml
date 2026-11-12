@@ -1,0 +1,20 @@
+# United Expressline, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "United Expressline, Inc."
+kind = "company"
+city = "Bristol"
+state = "IN"
+address = "19985 County Road 8, Bristol, IN 46507"
+lat = 41.71760
+lon = -85.84906
+website = "https://united-trailers.com"
+
+sector = "Vehicles & RVs"
+products = ["Truck Trailer Manufacturing"]
+
+employees = 175
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Cargo & Race Trailers. NAICS 336212: truck trailer manufacturing."

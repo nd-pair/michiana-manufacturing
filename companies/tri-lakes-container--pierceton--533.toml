@@ -1,0 +1,20 @@
+# Tri-Lakes Container
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Tri-Lakes Container"
+kind = "company"
+city = "Pierceton"
+state = "IN"
+address = "533 South 1st Street, Pierceton, IN 46562"
+lat = 41.19099
+lon = -85.70489
+website = "https://tri-lakes.com"
+
+sector = "Wood, paper & furniture"
+products = ["Corrugated and Solid Fiber Box Manufacturing"]
+
+employees = 80
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Corrugated Boxes. NAICS 322211: corrugated and solid fiber box manufacturing."

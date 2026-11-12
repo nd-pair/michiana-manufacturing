@@ -1,0 +1,20 @@
+# Lci Continental Stamping
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Lci Continental Stamping"
+kind = "company"
+city = "Goshen"
+state = "IN"
+address = "2475 East Kercher Road, Goshen, IN 46526"
+lat = 41.55209
+lon = -85.79181
+website = "https://not available"
+
+sector = "Metal"
+products = ["Metal Stamping"]
+
+employees = 130
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Metal Stampings & Fabricated Parts. NAICS 332116: metal stamping."

@@ -1,0 +1,20 @@
+# Viking Paper Corp.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Viking Paper Corp."
+kind = "company"
+city = "Plymouth"
+state = "IN"
+address = "1001 Pidco Drive, Plymouth, IN 46563"
+lat = 41.35129
+lon = -86.31908
+website = "https://not available"
+
+sector = "Wood, paper & furniture"
+products = ["Corrugated and Solid Fiber Box Manufacturing"]
+
+employees = 30
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Corrugated Cardboard. NAICS 322211: corrugated and solid fiber box manufacturing."

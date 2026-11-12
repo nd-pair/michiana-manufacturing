@@ -1,0 +1,20 @@
+# Timberline Products, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Timberline Products, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "53062 Faith Avenue, Elkhart, IN 46514"
+lat = 41.72370
+lon = -86.02405
+website = "https://not available"
+
+sector = "Wood, paper & furniture"
+products = ["Nonupholstered Wood Household Furniture Manufacturing"]
+
+employees = 15
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Wooden Furniture & Products. NAICS 337122: nonupholstered wood household furniture manufacturing."

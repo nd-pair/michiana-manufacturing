@@ -1,0 +1,20 @@
+# Liberty Homes, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Liberty Homes, Inc."
+kind = "company"
+city = "Syracuse"
+state = "IN"
+address = "203 South Huntington Street, Syracuse, IN 46567"
+lat = 41.42129
+lon = -85.74798
+website = "https://libertyhomesinc.com"
+
+sector = "Metal"
+products = ["Hardware Manufacturing"]
+
+employees = 80
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Prefabricated Homes. NAICS 332510: hardware manufacturing."

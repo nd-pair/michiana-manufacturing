@@ -1,0 +1,20 @@
+# Truth Publishing Co., Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Truth Publishing Co., Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "421 South 2nd Street, Elkhart, IN 46516"
+lat = 41.68307
+lon = -85.97333
+website = "https://etruth.com"
+
+sector = "Wood, paper & furniture"
+products = ["Other Commercial Printing"]
+
+employees = 163
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Newspaper Publishing. NAICS 323119: other commercial printing."

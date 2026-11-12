@@ -12,7 +12,15 @@ the Notre Dame campus; filter by sector or by what companies make; sort the side
 of companies or by staff.
 
 Only **public information** belongs in this repository: what a company says about itself on its
-website, in filings, press and business directories.
+website, in filings, press and business directories, and public government datasets.
+
+Most of the roughly 1,200 companies were imported from the U.S. Department of Homeland Security's
+**HIFLD General Manufacturing Facilities** dataset (every NAICS 31–33 facility, with address,
+product line, website and an employee estimate), as served by the Department of Energy's NETL
+ArcGIS service. `python3 scripts/import_hifld.py` fetches the Michiana counties and writes one
+file per facility; it never overwrites a file that exists, and a hand-written file for the same
+company (same website domain or name) always wins. Imported files are ordinary files: edit them,
+rename them, or delete them.
 
 ## Adding a company
 
@@ -49,7 +57,7 @@ Field by field:
 | `address` | no | Street address; used for the position and shown in the detail panel |
 | `lat`, `lon` | no | Decimal degrees. Without them the column sits at the city center (the city must be in `data/places.toml`) |
 | `website` | no | Public website |
-| `sector` | yes | One of the sectors in [`data/sectors.toml`](data/sectors.toml) |
+| `sector` | yes | One of the ten sectors in [`data/sectors.toml`](data/sectors.toml); imported files get one from the facility's 3-digit NAICS code |
 | `products` | yes | Free text, one or more. Reuse existing names where they fit so the product filter stays useful |
 | `employees`, `employees_scope`, `employees_note` | no | Approximate is fine; say where the number comes from and whether it is this site or the whole company |
 | `description` | no | Plain language, from public sources |
@@ -77,7 +85,7 @@ Python 3.11 or newer, no other dependencies. GitHub Pages serves `docs/` on `mai
 companies/      one TOML file per company (edit these)
 data/           sectors, place labels, county boundaries (U.S. Census), Great Lakes shorelines (Natural Earth)
 site/           the page: Notre Dame Web Theme chrome (partials/), page.html, app.js, app.css
-scripts/        build.py, geocode.py
+scripts/        build.py, geocode.py, import_hifld.py
 docs/           the built site (generated; do not edit by hand)
 ```
 
@@ -86,7 +94,8 @@ The page uses the University's web theme (NDT4) for its frame, as the PAIR site 
 
 ## Sources and credits
 
-Company descriptions, products and headcounts: the companies' own websites, public filings,
-press and business directories; headcounts are approximate and dated. County boundaries: U.S.
+Company descriptions, products and headcounts: the HIFLD General Manufacturing Facilities
+dataset (U.S. DHS, public domain) for most entries, and the companies' own websites, public
+filings, press and business directories for the rest; headcounts are approximate and dated. County boundaries: U.S.
 Census Bureau cartographic boundary files. Shorelines: Natural Earth. Code: MIT license (see
 LICENSE); company data is factual public information.

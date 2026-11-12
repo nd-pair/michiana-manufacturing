@@ -1,0 +1,20 @@
+# Stranco, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Stranco, Inc."
+kind = "company"
+city = "Michigan City"
+state = "IN"
+address = "1306 West US Highway 20, Michigan City, IN 46360"
+lat = 41.68027
+lon = -86.92363
+website = "https://strancoinc.com"
+
+sector = "Wood, paper & furniture"
+products = ["Other Commercial Printing"]
+
+employees = 20
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Equipment Warning & Thermal Transfer Labels, Adhesive Letters & Numbers, Vinyl Tags, Safety Signs, Barricade Tape. NAICS 323119: other commercial printing."

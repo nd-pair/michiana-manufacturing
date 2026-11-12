@@ -1,0 +1,20 @@
+# Dutch Mills, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Dutch Mills, Inc."
+kind = "company"
+city = "Goshen"
+state = "IN"
+address = "1901 East Kercher Road, Goshen, IN 46526"
+lat = 41.55194
+lon = -85.80554
+website = "https://dutchmills.com"
+
+sector = "Wood, paper & furniture"
+products = ["Wood Kitchen Cabinet and Countertop Manufacturing"]
+
+employees = 60
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Custom Wooden Cabinets. NAICS 337110: wood kitchen cabinet and countertop manufacturing."

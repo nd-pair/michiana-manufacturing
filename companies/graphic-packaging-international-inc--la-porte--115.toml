@@ -1,0 +1,20 @@
+# Graphic Packaging International, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Graphic Packaging International, Inc."
+kind = "company"
+city = "La Porte"
+state = "IN"
+address = "115 Koomler Drive, La Porte, IN 46350"
+lat = 41.62837
+lon = -86.71333
+website = "https://altivity.com"
+
+sector = "Wood, paper & furniture"
+products = ["Folding Paperboard Box Manufacturing"]
+
+employees = 90
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Folding Cartons. NAICS 322212: folding paperboard box manufacturing."

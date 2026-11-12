@@ -1,0 +1,20 @@
+# Banks Hardwoods, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Banks Hardwoods, Inc."
+kind = "company"
+city = "White Pigeon"
+state = "MI"
+address = "69937 M-103, White Pigeon, MI 49099"
+lat = 41.78112
+lon = -85.76715
+website = "https://bankshardwoods.com"
+
+sector = "Wood, paper & furniture"
+products = ["Sawmills"]
+
+employees = 125
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Corporate Headquarters & Lumber Processing. NAICS 321113: sawmills."

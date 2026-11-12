@@ -1,0 +1,20 @@
+# Harbor Packaging
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Harbor Packaging"
+kind = "company"
+city = "Benton Harbor"
+state = "MI"
+address = "1090 South Crystal Avenue, Benton Harbor, MI 49022"
+lat = 42.09757
+lon = -86.41770
+website = "https://not available"
+
+sector = "Wood, paper & furniture"
+products = ["Tradebinding and Related Work"]
+
+employees = 20
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Bag Film Printing, Laminating & Converting. NAICS 323121: tradebinding and related work."

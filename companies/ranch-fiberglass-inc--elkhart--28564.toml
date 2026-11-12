@@ -1,0 +1,20 @@
+# Ranch Fiberglass, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Ranch Fiberglass, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "28564 Holiday Place, Elkhart, IN 46517"
+lat = 41.65456
+lon = -86.01531
+website = "https://ranchfiberglass.com"
+
+sector = "Vehicles & RVs"
+products = ["Travel Trailer and Camper Manufacturing"]
+
+employees = 50
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Truck Caps & Covers. NAICS 336214: travel trailer and camper manufacturing."

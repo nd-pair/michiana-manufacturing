@@ -1,0 +1,20 @@
+# Ncp Coatings, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Ncp Coatings, Inc."
+kind = "company"
+city = "Niles"
+state = "MI"
+address = "225 Fort Street, Niles, MI 49120"
+lat = 41.81278
+lon = -86.25572
+website = "https://ncpcoatings.com"
+
+sector = "Materials & composites"
+products = ["Paint and Coating Manufacturing"]
+
+employees = 100
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Paints. NAICS 325510: paint and coating manufacturing."

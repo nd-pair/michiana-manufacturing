@@ -1,0 +1,20 @@
+# Blocksom & Co., Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Blocksom & Co., Inc."
+kind = "company"
+city = "Michigan City"
+state = "IN"
+address = "450 Saint John Road, Michigan City, IN 46360"
+lat = 41.68371
+lon = -86.89656
+website = "https://blocksom.com"
+
+sector = "Mechatronics & automation"
+products = ["Air Purification Equipment Manufacturing"]
+
+employees = 40
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Natural Fiber Air Filtration for HVAC Systems, Attic Ventilation, Erosion Control & Foam Media & Packaging Cushions. NAICS 333411: air purification equipment manufacturing."

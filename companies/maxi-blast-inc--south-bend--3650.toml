@@ -1,0 +1,20 @@
+# Maxi-Blast, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Maxi-Blast, Inc."
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "3650 North Olive Road, South Bend, IN 46628"
+lat = 41.71509
+lon = -86.34667
+website = "https://maxiblast.com"
+
+sector = "Mechatronics & automation"
+products = ["Air and Gas Compressor Manufacturing"]
+
+employees = 15
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Non-Abrasive & Abrasive Finishing Equipment, Supplies & Plastic Blast Media. NAICS 333912: air and gas compressor manufacturing."

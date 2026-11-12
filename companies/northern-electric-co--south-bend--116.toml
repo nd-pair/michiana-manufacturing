@@ -1,0 +1,20 @@
+# Northern Electric Co.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Northern Electric Co."
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "116 North Hill Street, South Bend, IN 46617"
+lat = 41.67688
+lon = -86.24249
+website = "https://northernelectricco.com"
+
+sector = "Electronics"
+products = ["Relay and Industrial Control Manufacturing"]
+
+employees = 30
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Rebuilt Servo & Robotic Motors, Gear Reducers & AC & DC Drives & Motors, Including Machining & Balancing. NAICS 335314: relay and industrial control manufacturing."

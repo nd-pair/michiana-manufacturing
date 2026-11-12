@@ -1,0 +1,20 @@
+# Maron Products, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Maron Products, Inc."
+kind = "company"
+city = "Mishawaka"
+state = "IN"
+address = "1301 Industrial Drive, Mishawaka, IN 46544"
+lat = 41.65012
+lon = -86.16527
+website = "https://maronproducts.com"
+
+sector = "Metal"
+products = ["Metal Stamping"]
+
+employees = 80
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Metal Stampings, Including Laser, Fabrication & Welding. NAICS 332116: metal stamping."

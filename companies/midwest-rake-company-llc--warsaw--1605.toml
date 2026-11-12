@@ -1,0 +1,20 @@
+# Midwest Rake Company LLC
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Midwest Rake Company LLC"
+kind = "company"
+city = "Warsaw"
+state = "IN"
+address = "1605 West Center Street, Warsaw, IN 46580"
+lat = 41.23941
+lon = -85.87895
+website = "https://midwestrake.com"
+
+sector = "Metal"
+products = ["Hand and Edge Tool Manufacturing"]
+
+employees = 35
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Long Handled Tools for Lawn & Garden, Landscaping, Irrigation, Sports Turf, Concrete Repair, Asphalt. NAICS 332212: hand and edge tool manufacturing."

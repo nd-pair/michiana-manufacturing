@@ -1,0 +1,20 @@
+# Jet Fabricators, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Jet Fabricators, Inc."
+kind = "company"
+city = "Michigan City"
+state = "IN"
+address = "230 Indiana Highway 212, Michigan City, IN 46360"
+lat = 41.73541
+lon = -86.82581
+website = "https://jetfab.com"
+
+sector = "Metal"
+products = ["All Other Miscellaneous Fabricated Metal Product Manufacturing"]
+
+employees = 62
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Metal Fabrication. NAICS 332999: all other miscellaneous fabricated metal product manufacturing."

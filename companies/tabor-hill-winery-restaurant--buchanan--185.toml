@@ -1,0 +1,20 @@
+# Tabor Hill Winery & Restaurant
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Tabor Hill Winery & Restaurant"
+kind = "company"
+city = "Buchanan"
+state = "MI"
+address = "185 Mount Tabor Road, Buchanan, MI 49107"
+lat = 41.91420
+lon = -86.45153
+website = "https://taborhill.com"
+
+sector = "Food & consumer goods"
+products = ["Wineries"]
+
+employees = 50
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Wines. NAICS 312130: wineries."

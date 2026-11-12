@@ -1,0 +1,20 @@
+# Central Rubber & Plastics, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Central Rubber & Plastics, Inc."
+kind = "company"
+city = "Goshen"
+state = "IN"
+address = "17416 County Road 34, Goshen, IN 46528"
+lat = 41.58048
+lon = -85.80157
+website = "https://centralrubberinc.com"
+
+sector = "Materials & composites"
+products = ["Rubber Product Manufacturing for Mechanical Use"]
+
+employees = 20
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Mechanical Rubber Molding Products, Rubber-To-Metal Bonding & Injection Plastics. NAICS 326291: rubber product manufacturing for mechanical use."

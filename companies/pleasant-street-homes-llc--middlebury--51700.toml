@@ -1,0 +1,20 @@
+# Pleasant Street Homes, LLC
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Pleasant Street Homes, LLC"
+kind = "company"
+city = "Middlebury"
+state = "IN"
+address = "51700 Lovejoy Drive, Middlebury, IN 46540"
+lat = 41.74246
+lon = -85.68667
+website = "https://holly-park.com"
+
+sector = "Wood, paper & furniture"
+products = ["Manufactured Home (mobile Home) Manufacturing"]
+
+employees = 125
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Company Headquarters & Prefabricated Homes. NAICS 321991: manufactured home (mobile home) manufacturing."

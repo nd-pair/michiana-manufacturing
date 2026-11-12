@@ -1,0 +1,20 @@
+# Universal Forest Products, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Universal Forest Products, Inc."
+kind = "company"
+city = "Granger"
+state = "IN"
+address = "50415 Herbert Street, Granger, IN 46530"
+lat = 41.75505
+lon = -86.11379
+website = "https://ufpi.com"
+
+sector = "Wood, paper & furniture"
+products = ["Sawmills"]
+
+employees = 150
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Lumber Processing & Pressure Treating. NAICS 321113: sawmills."

@@ -1,0 +1,20 @@
+# Ausco Products, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Ausco Products, Inc."
+kind = "company"
+city = "Benton Harbor"
+state = "MI"
+address = "2245 Pipestone Road, Benton Harbor, MI 49022"
+lat = 42.07725
+lon = -86.41668
+website = "https://auscoproducts.com"
+
+sector = "Vehicles & RVs"
+products = ["Motor Vehicle Brake System Manufacturing"]
+
+employees = 90
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Off-Highway Brakes. NAICS 336340: motor vehicle brake system manufacturing."

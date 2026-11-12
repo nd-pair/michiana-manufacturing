@@ -1,0 +1,20 @@
+# Gs Plastics, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Gs Plastics, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "3400 Reedy Drive, Elkhart, IN 46514"
+lat = 41.72774
+lon = -85.92585
+website = "https://gsplastics.com"
+
+sector = "Materials & composites"
+products = ["All Other Plastics Product Manufacturing"]
+
+employees = 200
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Plastic Ground Effects & Plastic Vacuum Forming, RV & Marine Industries. NAICS 326199: all other plastics product manufacturing."

@@ -1,0 +1,20 @@
+# Duramold, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Duramold, Inc."
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "1319 North Iowa Street, South Bend, IN 46628"
+lat = 41.69240
+lon = -86.29618
+website = "https://not available"
+
+sector = "Vehicles & RVs"
+products = ["All Other Motor Vehicle Parts Manufacturing"]
+
+employees = 30
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Bus & Truck Grab Rails, Seals & Transportation Parts. NAICS 336399: all other motor vehicle parts manufacturing."

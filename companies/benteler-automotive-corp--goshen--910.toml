@@ -1,0 +1,20 @@
+# Benteler Automotive Corp.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Benteler Automotive Corp."
+kind = "company"
+city = "Goshen"
+state = "IN"
+address = "910 Eisenhower Drive North, Goshen, IN 46526"
+lat = 41.55712
+lon = -85.82055
+website = "https://benteler.com"
+
+sector = "Vehicles & RVs"
+products = ["Motor Vehicle Metal Stamping"]
+
+employees = 200
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "OEM Automotive Stampings & Welded Assembly. NAICS 336370: motor vehicle metal stamping."

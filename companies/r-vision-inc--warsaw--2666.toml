@@ -1,0 +1,20 @@
+# R-Vision, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "R-Vision, Inc."
+kind = "company"
+city = "Warsaw"
+state = "IN"
+address = "2666 South Country Club Road, Warsaw, IN 46580"
+lat = 41.19548
+lon = -85.82575
+website = "https://trail-lite.com"
+
+sector = "Vehicles & RVs"
+products = ["Truck Trailer Manufacturing"]
+
+employees = 600
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Motor Homes & Trailers. NAICS 336212: truck trailer manufacturing."

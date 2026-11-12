@@ -1,0 +1,20 @@
+# Indiana Wiping Cloth, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Indiana Wiping Cloth, Inc."
+kind = "company"
+city = "Mishawaka"
+state = "IN"
+address = "2340 Schumacher Drive, Mishawaka, IN 46545"
+lat = 41.68081
+lon = -86.18316
+website = "https://indianawipingcloth.com"
+
+sector = "Food & consumer goods"
+products = ["All Other Miscellaneous Textile Product Mills"]
+
+employees = 17
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Wiping Cloths. NAICS 314999: all other miscellaneous textile product mills."

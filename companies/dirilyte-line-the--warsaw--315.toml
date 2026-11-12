@@ -1,0 +1,20 @@
+# Dirilyte Line, the
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Dirilyte Line, the"
+kind = "company"
+city = "Warsaw"
+state = "IN"
+address = "315 South Hand Avenue, Warsaw, IN 46580"
+lat = 41.23564
+lon = -85.87003
+website = "https://dirilyte.com"
+
+sector = "Metal"
+products = ["All Other Miscellaneous Fabricated Metal Product Manufacturing"]
+
+employees = 47
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Recognition Plaques & Awards. NAICS 332999: all other miscellaneous fabricated metal product manufacturing."

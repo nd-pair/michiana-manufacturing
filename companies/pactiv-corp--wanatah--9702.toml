@@ -1,0 +1,20 @@
+# Pactiv Corp.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Pactiv Corp."
+kind = "company"
+city = "Wanatah"
+state = "IN"
+address = "9702 West US Highway 30, Wanatah, IN 46390"
+lat = 41.43359
+lon = -86.88516
+website = "https://pactiv.com"
+
+sector = "Metal"
+products = ["Aluminum Sheet, Plate, and Foil Manufacturing"]
+
+employees = 40
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Foodservice Foil Wrap. NAICS 331315: aluminum sheet, plate, and foil manufacturing."

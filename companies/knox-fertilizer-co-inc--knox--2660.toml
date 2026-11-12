@@ -1,0 +1,20 @@
+# Knox Fertilizer Co., Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Knox Fertilizer Co., Inc."
+kind = "company"
+city = "Knox"
+state = "IN"
+address = "2660 East 100 South, Knox, IN 46534"
+lat = 41.28840
+lon = -86.64716
+website = "https://not available"
+
+sector = "Materials & composites"
+products = ["Fertilizer (mixing Only) Manufacturing"]
+
+employees = 15
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Lawn & Garden Plant Food & Proctectants. NAICS 325314: fertilizer (mixing only) manufacturing."

@@ -1,0 +1,20 @@
+# Plumrose U. S. A., Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Plumrose U. S. A., Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "24402 County Road 45, Elkhart, IN 46516"
+lat = 41.64849
+lon = -85.93416
+website = "https://plumroseusa.com"
+
+sector = "Food & consumer goods"
+products = ["Meat Processed From Carcasses"]
+
+employees = 225
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Meat Processing & Packing. NAICS 311612: meat processed from carcasses."

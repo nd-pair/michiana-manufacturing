@@ -1,0 +1,20 @@
+# Michiana Mattress, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Michiana Mattress, Inc."
+kind = "company"
+city = "Wakarusa"
+state = "IN"
+address = "110 Industrial Drive, Wakarusa, IN 46573"
+lat = 41.53460
+lon = -86.00590
+website = "https://not available"
+
+sector = "Wood, paper & furniture"
+products = ["Mattress Manufacturing"]
+
+employees = 20
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Mattresses & Box Springs. NAICS 337910: mattress manufacturing."

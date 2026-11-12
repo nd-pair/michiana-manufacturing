@@ -1,0 +1,20 @@
+# Lebermuth Co., Inc., the
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Lebermuth Co., Inc., the"
+kind = "company"
+city = "Bremen"
+state = "IN"
+address = "114 North Center Street, Bremen, IN 46506"
+lat = 41.44683
+lon = -86.14617
+website = "https://lebermuth.com"
+
+sector = "Materials & composites"
+products = ["Toilet Preparation Manufacturing"]
+
+employees = 50
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Essential Oils. NAICS 325620: toilet preparation manufacturing."

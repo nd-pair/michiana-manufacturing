@@ -1,0 +1,20 @@
+# Travel Lite, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Travel Lite, Inc."
+kind = "company"
+city = "New Paris"
+state = "IN"
+address = "71913 County Road 23, New Paris, IN 46553"
+lat = 41.45117
+lon = -85.84205
+website = "https://travellitecampers.com"
+
+sector = "Vehicles & RVs"
+products = ["Travel Trailer and Camper Manufacturing"]
+
+employees = 30
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Truck Campers & Travel Trailers. NAICS 336214: travel trailer and camper manufacturing."

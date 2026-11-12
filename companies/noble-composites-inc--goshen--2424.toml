@@ -1,0 +1,20 @@
+# Noble Composites, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Noble Composites, Inc."
+kind = "company"
+city = "Goshen"
+state = "IN"
+address = "2424 East Kercher Road, Goshen, IN 46526"
+lat = 41.55150
+lon = -85.79345
+website = "https://noblecomposites.com"
+
+sector = "Materials & composites"
+products = ["Mineral Wool Manufacturing"]
+
+employees = 110
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Fiberglass Sidewalls. NAICS 327993: mineral wool manufacturing."

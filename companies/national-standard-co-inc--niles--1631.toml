@@ -1,0 +1,20 @@
+# National Standard Co., Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "National Standard Co., Inc."
+kind = "company"
+city = "Niles"
+state = "MI"
+address = "1631 Lake Street, Niles, MI 49120"
+lat = 41.84157
+lon = -86.23548
+website = "https://nationalstandard.com"
+
+sector = "Medical devices & other"
+products = ["Lead Pencil and Art Good Manufacturing"]
+
+employees = 200
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Corporate Headquarters & Wire. NAICS 339942: lead pencil and art good manufacturing."

@@ -1,0 +1,20 @@
+# Sullair Corp.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Sullair Corp."
+kind = "company"
+city = "Michigan City"
+state = "IN"
+address = "3700 East Michigan Boulevard, Michigan City, IN 46360"
+lat = 41.70343
+lon = -86.84714
+website = "https://sullair.com"
+
+sector = "Mechatronics & automation"
+products = ["Air and Gas Compressor Manufacturing"]
+
+employees = 300
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Rotary Screw Air, Gas & Industrial Refrigeration Compressors, Pneumatic Tools, Vacuum Pumps, Dryers & Filters. NAICS 333912: air and gas compressor manufacturing."

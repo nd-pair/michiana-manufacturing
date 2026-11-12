@@ -1,0 +1,20 @@
+# Horizon Plastics & Engineering, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Horizon Plastics & Engineering, Inc."
+kind = "company"
+city = "Osceola"
+state = "IN"
+address = "1243 3rd Street, Osceola, IN 46561"
+lat = 41.66062
+lon = -86.08453
+website = "https://not available"
+
+sector = "Materials & composites"
+products = ["All Other Plastics Product Manufacturing"]
+
+employees = 15
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Plastic Injection Molding. NAICS 326199: all other plastics product manufacturing."

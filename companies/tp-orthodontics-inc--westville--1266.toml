@@ -1,0 +1,20 @@
+# Tp Orthodontics, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Tp Orthodontics, Inc."
+kind = "company"
+city = "Westville"
+state = "IN"
+address = "1266 South US Highway 421, Westville, IN 46391"
+lat = 41.58893
+lon = -86.89756
+website = "https://tportho.com"
+
+sector = "Mechatronics & automation"
+products = ["Optical Instrument and Lens Manufacturing"]
+
+employees = 350
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Corporate Headquarters & Orthodontic Appliances. NAICS 333314: optical instrument and lens manufacturing."

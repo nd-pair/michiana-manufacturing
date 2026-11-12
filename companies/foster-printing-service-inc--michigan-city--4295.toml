@@ -1,0 +1,20 @@
+# Foster Printing Service, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Foster Printing Service, Inc."
+kind = "company"
+city = "Michigan City"
+state = "IN"
+address = "4295 Ohio Street, Michigan City, IN 46360"
+lat = 41.67881
+lon = -86.90402
+website = "https://fosterprintingservice.com"
+
+sector = "Wood, paper & furniture"
+products = ["Other Commercial Printing"]
+
+employees = 105
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Printing. NAICS 323119: other commercial printing."

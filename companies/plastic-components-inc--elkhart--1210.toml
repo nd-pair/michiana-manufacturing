@@ -1,0 +1,20 @@
+# Plastic Components, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Plastic Components, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "1210 County Road 6 West, Elkhart, IN 46514"
+lat = 41.72468
+lon = -85.99781
+website = "https://plasticcomponentsinc.com"
+
+sector = "Materials & composites"
+products = ["All Other Plastics Product Manufacturing"]
+
+employees = 50
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Plastic Thermoforming, Tooling & Vinyl Molding. NAICS 326199: all other plastics product manufacturing."

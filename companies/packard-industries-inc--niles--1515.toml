@@ -1,0 +1,20 @@
+# Packard Industries, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Packard Industries, Inc."
+kind = "company"
+city = "Niles"
+state = "MI"
+address = "1515 North US Highway 31, Niles, MI 49120"
+lat = 41.84394
+lon = -86.26192
+website = "https://packardindustries.com"
+
+sector = "Wood, paper & furniture"
+products = ["Wood Office Furniture Manufacturing"]
+
+employees = 28
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Steel Office Partitions & Furniture Systems. NAICS 337211: wood office furniture manufacturing."

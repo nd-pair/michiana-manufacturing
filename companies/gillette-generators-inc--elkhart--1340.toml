@@ -1,0 +1,20 @@
+# Gillette Generators, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Gillette Generators, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "1340 Wade Drive, Elkhart, IN 46514"
+lat = 41.72674
+lon = -86.00114
+website = "https://gillettegenerators.com"
+
+sector = "Electronics"
+products = ["Motor and Generator Manufacturing"]
+
+employees = 40
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Portable & Stand-By Electric Generators. NAICS 335312: motor and generator manufacturing."

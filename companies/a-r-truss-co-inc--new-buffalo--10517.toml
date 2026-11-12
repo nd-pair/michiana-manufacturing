@@ -1,0 +1,20 @@
+# A & R Truss Co., Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "A & R Truss Co., Inc."
+kind = "company"
+city = "New Buffalo"
+state = "MI"
+address = "10517 East Wilson Road, New Buffalo, MI 49117"
+lat = 41.77036
+lon = -86.70765
+website = "https://artruss.com"
+
+sector = "Wood, paper & furniture"
+products = ["Truss Manufacturing"]
+
+employees = 31
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Roof & Floor Trusses & Wood Fabrication. NAICS 321214: truss manufacturing."

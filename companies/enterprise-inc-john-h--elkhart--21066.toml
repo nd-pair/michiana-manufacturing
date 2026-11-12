@@ -1,0 +1,20 @@
+# Enterprise, Inc., John H.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Enterprise, Inc., John H."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "21066 Protecta Drive, Elkhart, IN 46516"
+lat = 41.69682
+lon = -85.87248
+website = "https://atlasspecialtytrailers.com"
+
+sector = "Vehicles & RVs"
+products = ["Truck Trailer Manufacturing"]
+
+employees = 25
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Cargo Trailers. NAICS 336212: truck trailer manufacturing."

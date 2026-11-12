@@ -1,0 +1,20 @@
+# Patriot Homes, Inc. (h Q)
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Patriot Homes, Inc. (h Q)"
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "307 South Main Street, Elkhart, IN 46516"
+lat = 41.68486
+lon = -85.97266
+website = "https://patriothomes.com"
+
+sector = "Metal"
+products = ["Hardware Manufacturing"]
+
+employees = 80
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Corporate Headquarters; Modular Homes & Manufactured Housing. NAICS 332510: hardware manufacturing."

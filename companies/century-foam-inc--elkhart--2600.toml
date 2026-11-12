@@ -1,0 +1,20 @@
+# Century Foam, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Century Foam, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "2600 South Nappanee Street, Elkhart, IN 46517"
+lat = 41.66069
+lon = -86.00272
+website = "https://centuryfoam.com"
+
+sector = "Materials & composites"
+products = ["Polystyrene Foam Product Manufacturing"]
+
+employees = 145
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Foam Seating, Packaging, Novelties, Sound Absorption & Filtration Materials. NAICS 326140: polystyrene foam product manufacturing."

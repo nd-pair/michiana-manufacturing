@@ -1,0 +1,20 @@
+# Riverside Mfg., Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Riverside Mfg., Inc."
+kind = "company"
+city = "Ligonier"
+state = "IN"
+address = "911 Gerber Street, Ligonier, IN 46767"
+lat = 41.47032
+lon = -85.60127
+website = "https://not available"
+
+sector = "Electronics"
+products = ["Other Electronic Component Manufacturing"]
+
+employees = 90
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Electronic Components & Circuit Board Assemblies. NAICS 334419: other electronic component manufacturing."

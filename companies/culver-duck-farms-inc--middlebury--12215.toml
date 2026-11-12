@@ -1,0 +1,20 @@
+# Culver Duck Farms, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Culver Duck Farms, Inc."
+kind = "company"
+city = "Middlebury"
+state = "IN"
+address = "12215 County Road 10, Middlebury, IN 46540"
+lat = 41.70410
+lon = -85.70134
+website = "https://culverduck.com"
+
+sector = "Food & consumer goods"
+products = ["Poultry Processing"]
+
+employees = 130
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Poultry Processing. NAICS 311615: poultry processing."

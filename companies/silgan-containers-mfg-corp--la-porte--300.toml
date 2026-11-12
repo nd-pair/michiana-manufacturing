@@ -1,0 +1,20 @@
+# Silgan Containers Mfg. Corp.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Silgan Containers Mfg. Corp."
+kind = "company"
+city = "La Porte"
+state = "IN"
+address = "300 North Fail Road, La Porte, IN 46350"
+lat = 41.63398
+lon = -86.68035
+website = "https://silgancontainers.com"
+
+sector = "Metal"
+products = ["Metal Can Manufacturing"]
+
+employees = 81
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Steel Cans. NAICS 332431: metal can manufacturing."

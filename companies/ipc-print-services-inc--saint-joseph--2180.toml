@@ -1,0 +1,20 @@
+# Ipc Print Services, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Ipc Print Services, Inc."
+kind = "company"
+city = "Saint Joseph"
+state = "MI"
+address = "2180 Maiden Lane, Saint Joseph, MI 49085"
+lat = 42.05037
+lon = -86.50742
+website = "https://ipc-world.com"
+
+sector = "Wood, paper & furniture"
+products = ["Other Commercial Printing"]
+
+employees = 200
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Catalog & Magazine Printing. NAICS 323119: other commercial printing."

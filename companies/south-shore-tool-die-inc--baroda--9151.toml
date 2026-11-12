@@ -1,0 +1,20 @@
+# South Shore Tool & Die, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "South Shore Tool & Die, Inc."
+kind = "company"
+city = "Baroda"
+state = "MI"
+address = "9151 1st Street, Baroda, MI 49101"
+lat = 41.95315
+lon = -86.48527
+website = "https://sstd.net"
+
+sector = "Metal"
+products = ["Machine Shops"]
+
+employees = 35
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Precision Machining Job Shop. NAICS 332710: machine shops."

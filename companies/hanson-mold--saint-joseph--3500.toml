@@ -1,0 +1,20 @@
+# Hanson Mold
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Hanson Mold"
+kind = "company"
+city = "Saint Joseph"
+state = "MI"
+address = "3500 Hollywood Road, Saint Joseph, MI 49085"
+lat = 42.05441
+lon = -86.45622
+website = "https://hansonmold.com"
+
+sector = "Mechatronics & automation"
+products = ["Industrial Mold Manufacturing"]
+
+employees = 100
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Large & Mid-Size Die Cast Dies & Injection Molds. NAICS 333511: industrial mold manufacturing."

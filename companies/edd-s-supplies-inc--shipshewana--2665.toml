@@ -1,0 +1,20 @@
+# Edd's Supplies, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Edd's Supplies, Inc."
+kind = "company"
+city = "Shipshewana"
+state = "IN"
+address = "2665 North 850 West, Shipshewana, IN 46565"
+lat = 41.67793
+lon = -85.59003
+website = "https://not available"
+
+sector = "Materials & composites"
+products = ["Fertilizer (mixing Only) Manufacturing"]
+
+employees = 20
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Fertilizer Blending. NAICS 325314: fertilizer (mixing only) manufacturing."

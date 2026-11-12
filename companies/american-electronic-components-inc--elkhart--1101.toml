@@ -1,0 +1,20 @@
+# American Electronic Components, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "American Electronic Components, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "1101 Lafayette Street, Elkhart, IN 46516"
+lat = 41.67548
+lon = -85.98376
+website = "https://aecsensors.com"
+
+sector = "Electronics"
+products = ["Relay and Industrial Control Manufacturing"]
+
+employees = 45
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Relays & Switches. NAICS 335314: relay and industrial control manufacturing."

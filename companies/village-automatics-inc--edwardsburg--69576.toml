@@ -1,0 +1,20 @@
+# Village Automatics, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Village Automatics, Inc."
+kind = "company"
+city = "Edwardsburg"
+state = "MI"
+address = "69576 Section Street, Edwardsburg, MI 49112"
+lat = 41.78710
+lon = -86.08878
+website = "https://not available"
+
+sector = "Metal"
+products = ["Fabricated Structural Metal Manufacturing"]
+
+employees = 15
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Steel Products & CNC Machining Job Shop. NAICS 332312: fabricated structural metal manufacturing."

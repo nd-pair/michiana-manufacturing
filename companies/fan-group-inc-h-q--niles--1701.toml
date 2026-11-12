@@ -1,0 +1,20 @@
+# Fan Group Inc. (h Q)
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Fan Group Inc. (h Q)"
+kind = "company"
+city = "Niles"
+state = "MI"
+address = "1701 Terminal Road, Niles, MI 49120"
+lat = 41.84991
+lon = -86.22882
+website = "https://flaktwoods.com"
+
+sector = "Mechatronics & automation"
+products = ["Industrial and Commercial Fan and Blower Manufacturing"]
+
+employees = 54
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Corporate Headquarters; Fans & Blowers (mfg. Subcontracted). NAICS 333412: industrial and commercial fan and blower manufacturing."

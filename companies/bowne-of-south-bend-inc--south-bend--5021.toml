@@ -1,0 +1,20 @@
+# Bowne of South Bend, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Bowne of South Bend, Inc."
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "5021 Nimtz Parkway, South Bend, IN 46628"
+lat = 41.72871
+lon = -86.32509
+website = "https://bowne.com"
+
+sector = "Wood, paper & furniture"
+products = ["Other Commercial Printing"]
+
+employees = 90
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Financial Printing. NAICS 323119: other commercial printing."

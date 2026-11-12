@@ -1,0 +1,20 @@
+# New Energy Corp.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "New Energy Corp."
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "3201 West Calvert Street, South Bend, IN 46613"
+lat = 41.65411
+lon = -86.29360
+website = "https://not available"
+
+sector = "Materials & composites"
+products = ["All Other Basic Organic Chemical Manufacturing"]
+
+employees = 135
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Ethanol Processing. NAICS 325199: all other basic organic chemical manufacturing."

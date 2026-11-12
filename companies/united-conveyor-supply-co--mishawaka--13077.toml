@@ -1,0 +1,20 @@
+# United Conveyor Supply Co.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "United Conveyor Supply Co."
+kind = "company"
+city = "Mishawaka"
+state = "IN"
+address = "13077 Mckinley Highway, Mishawaka, IN 46545"
+lat = 41.68205
+lon = -86.12072
+website = "https://unitedconveyorsupply.com"
+
+sector = "Mechatronics & automation"
+products = ["Conveyor and Conveying Equipment Manufacturing"]
+
+employees = 30
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Ash Conveyors. NAICS 333922: conveyor and conveying equipment manufacturing."

@@ -1,0 +1,20 @@
+# Dainty Maid Bake Shop, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Dainty Maid Bake Shop, Inc."
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "231 South Michigan Street, South Bend, IN 46601"
+lat = 41.67451
+lon = -86.25070
+website = "https://not available"
+
+sector = "Food & consumer goods"
+products = ["Commercial Bakeries"]
+
+employees = 24
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Breads, Cakes & Rolls. NAICS 311812: commercial bakeries."

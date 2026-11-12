@@ -1,0 +1,20 @@
+# Securall Cabinets, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Securall Cabinets, Inc."
+kind = "company"
+city = "La Porte"
+state = "IN"
+address = "5122 North State Road 39, La Porte, IN 46350"
+lat = 41.68170
+lon = -86.73791
+website = "https://securallproducts.com"
+
+sector = "Metal"
+products = ["Sheet Metal Work Manufacturing"]
+
+employees = 45
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Sheet Metal Fabrication, Safety Storage Cabinets & Buildings. NAICS 332322: sheet metal work manufacturing."

@@ -1,0 +1,20 @@
+# Custom Plastics, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Custom Plastics, Inc."
+kind = "company"
+city = "Mishawaka"
+state = "IN"
+address = "1950 East Mckinley Avenue, Mishawaka, IN 46545"
+lat = 41.68058
+lon = -86.14953
+website = "https://spinwelding.com"
+
+sector = "Materials & composites"
+products = ["All Other Plastics Product Manufacturing"]
+
+employees = 20
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Plastic Injection Molding. NAICS 326199: all other plastics product manufacturing."

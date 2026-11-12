@@ -1,0 +1,20 @@
+# Clover Sheet Metal Co.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Clover Sheet Metal Co."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "28298 Clay Street, Elkhart, IN 46517"
+lat = 41.66127
+lon = -86.00850
+website = "https://cloversm.com"
+
+sector = "Metal"
+products = ["Sheet Metal Work Manufacturing"]
+
+employees = 22
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Architectural Sheet Metal Fabrication of Industrial Blow Pipes, Dust Collectors, Make Up Air Units, RV Parts, Spirals. NAICS 332322: sheet metal work manufacturing."

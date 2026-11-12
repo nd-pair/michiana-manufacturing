@@ -1,0 +1,20 @@
+# Ingersoll-Rand Co.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Ingersoll-Rand Co."
+kind = "company"
+city = "Goshen"
+state = "IN"
+address = "2516 Industrial Park Drive, Goshen, IN 46526"
+lat = 41.55332
+lon = -85.82002
+website = "https://irgoshen.com"
+
+sector = "Mechatronics & automation"
+products = ["Air and Gas Compressor Manufacturing"]
+
+employees = 30
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Rebuilt Air Compressors & Parts. NAICS 333912: air and gas compressor manufacturing."

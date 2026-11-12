@@ -1,0 +1,20 @@
+# Crystal Valley Homes
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Crystal Valley Homes"
+kind = "company"
+city = "Middlebury"
+state = "IN"
+address = "10440 County Road 2, Middlebury, IN 46540"
+lat = 41.75477
+lon = -85.66819
+website = "https://patriothomes.com"
+
+sector = "Wood, paper & furniture"
+products = ["Manufactured Home (mobile Home) Manufacturing"]
+
+employees = 120
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Mobile Homes. NAICS 321991: manufactured home (mobile home) manufacturing."

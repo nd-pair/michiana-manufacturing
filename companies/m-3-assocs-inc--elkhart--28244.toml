@@ -1,0 +1,20 @@
+# M-3 & Assocs., Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "M-3 & Assocs., Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "28244 Clay Street, Elkhart, IN 46517"
+lat = 41.66127
+lon = -86.00800
+website = "https://m3assoc.com"
+
+sector = "Vehicles & RVs"
+products = ["Truck Trailer Manufacturing"]
+
+employees = 15
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Manufacturer & Distributor of Trailer Parts & Components for the RV, Enclosed & Horse Trailer Industry. NAICS 336212: truck trailer manufacturing."

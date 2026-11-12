@@ -1,0 +1,20 @@
+# Duo-Form of Michigan, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Duo-Form of Michigan, Inc."
+kind = "company"
+city = "Edwardsburg"
+state = "MI"
+address = "69836 Kraus Road, Edwardsburg, MI 49112"
+lat = 41.78579
+lon = -86.09382
+website = "https://duoformplastics.com"
+
+sector = "Materials & composites"
+products = ["Plastics Plumbing Fixture Manufacturing"]
+
+employees = 170
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Plastic Bathtubs, Wall Surroundings & Shower Pans. NAICS 326191: plastics plumbing fixture manufacturing."

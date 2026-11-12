@@ -1,0 +1,20 @@
+# Team Spirit Trailers of Elkhart, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Team Spirit Trailers of Elkhart, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "25954 Pierina Drive, Elkhart, IN 46514"
+lat = 41.71584
+lon = -85.96501
+website = "https://not available"
+
+sector = "Vehicles & RVs"
+products = ["Truck Trailer Manufacturing"]
+
+employees = 20
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Cargo & Race Car Trailers. NAICS 336212: truck trailer manufacturing."

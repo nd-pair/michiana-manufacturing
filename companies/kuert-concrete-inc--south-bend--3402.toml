@@ -1,0 +1,20 @@
+# Kuert Concrete, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Kuert Concrete, Inc."
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "3402 Lincolnway West, South Bend, IN 46628"
+lat = 41.69206
+lon = -86.29744
+website = "https://kuert.com"
+
+sector = "Materials & composites"
+products = ["Ready-Mix Concrete Manufacturing"]
+
+employees = 65
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Corporate Headquarters & Ready-Mixed Concrete. NAICS 327320: ready-mix concrete manufacturing."

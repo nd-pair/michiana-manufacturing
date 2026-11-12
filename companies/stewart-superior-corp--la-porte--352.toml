@@ -1,0 +1,20 @@
+# Stewart Superior Corp.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Stewart Superior Corp."
+kind = "company"
+city = "La Porte"
+state = "IN"
+address = "352 North Fail Road, La Porte, IN 46350"
+lat = 41.63191
+lon = -86.68026
+website = "https://stewartsuperior.com"
+
+sector = "Medical devices & other"
+products = ["Marking Device Manufacturing"]
+
+employees = 25
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Corporate Headquarters & Clear Stamps & Stamp Pads. NAICS 339943: marking device manufacturing."

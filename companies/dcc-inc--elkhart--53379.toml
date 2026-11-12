@@ -1,0 +1,20 @@
+# Dcc, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Dcc, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "53379 County Road 113, Elkhart, IN 46514"
+lat = 41.71910
+lon = -85.91331
+website = "https://not available"
+
+sector = "Metal"
+products = ["Hardware Manufacturing"]
+
+employees = 20
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Assist Handles & Straps & Lumber Support Systems. NAICS 332510: hardware manufacturing."

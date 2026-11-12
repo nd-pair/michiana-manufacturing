@@ -1,0 +1,20 @@
+# Atwood Mobile Products, Kemberly Div.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Atwood Mobile Products, Kemberly Div."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "201 East Simonton Street, Elkhart, IN 46514"
+lat = 41.69760
+lon = -85.97508
+website = "https://kemberly.com"
+
+sector = "Vehicles & RVs"
+products = ["All Other Motor Vehicle Parts Manufacturing"]
+
+employees = 140
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Aluminum Extrusions, Vehicle Ladders & Racks, Front Awnings, Running Boards & Van Accessories. NAICS 336399: all other motor vehicle parts manufacturing."

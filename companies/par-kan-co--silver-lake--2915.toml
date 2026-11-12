@@ -1,0 +1,20 @@
+# Par-Kan Co.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Par-Kan Co."
+kind = "company"
+city = "Silver Lake"
+state = "IN"
+address = "2915 West 900 South, Silver Lake, IN 46982"
+lat = 41.10086
+lon = -85.89072
+website = "https://par-kan.com"
+
+sector = "Materials & composites"
+products = ["All Other Plastics Product Manufacturing"]
+
+employees = 85
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Refuse, Grease & Oil Storage Containers, Airport Ground Support Equipment & Agricultural Weighing Wagons. NAICS 326199: all other plastics product manufacturing."

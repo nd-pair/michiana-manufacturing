@@ -1,0 +1,20 @@
+# Automated Metal-Cal, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Automated Metal-Cal, Inc."
+kind = "company"
+city = "Mishawaka"
+state = "IN"
+address = "2516 North Home Street, Mishawaka, IN 46545"
+lat = 41.68413
+lon = -86.14786
+website = "https://automatedmetal.com"
+
+sector = "Wood, paper & furniture"
+products = ["Coated and Laminated Paper Manufacturing"]
+
+employees = 18
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Labels, Control Panels, Decals, Metal Tags & Screen Printing. NAICS 322222: coated and laminated paper manufacturing."

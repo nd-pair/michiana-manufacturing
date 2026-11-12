@@ -1,0 +1,20 @@
+# Vickers Engineering, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Vickers Engineering, Inc."
+kind = "company"
+city = "New Troy"
+state = "MI"
+address = "3604 Glendora Road, New Troy, MI 49119"
+lat = 41.87341
+lon = -86.54110
+website = "https://vickerseng.com"
+
+sector = "Mechatronics & automation"
+products = ["Special Die and Tool, Die Set, Jig, and Fixture Manufacturing"]
+
+employees = 110
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Industrial Prototypes & General Machining Job Shop. NAICS 333514: special die and tool, die set, jig, and fixture manufacturing."

@@ -1,0 +1,20 @@
+# Shomco, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Shomco, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "21240 Protecta Drive, Elkhart, IN 46516"
+lat = 41.69639
+lon = -85.87233
+website = "https://santaferans.com"
+
+sector = "Vehicles & RVs"
+products = ["Motor Home Manufacturing"]
+
+employees = 30
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Van Conversions. NAICS 336213: motor home manufacturing."

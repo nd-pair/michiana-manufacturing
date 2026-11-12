@@ -1,0 +1,20 @@
+# Magnesium Technologies Corp., Walkerton
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Magnesium Technologies Corp., Walkerton"
+kind = "company"
+city = "Walkerton"
+state = "IN"
+address = "205 in 104, Walkerton, IN 46574"
+lat = 41.47185
+lon = -86.49599
+website = "https://mgtechcorp.com"
+
+sector = "Materials & composites"
+products = ["All Other Miscellaneous Chemical Product and Preparation Manufacturing"]
+
+employees = 65
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Metallurgical Additives & Equipment, Hot Metal-Desulfurization Agents, Chemical Blends, Powder & Granules. NAICS 325998: all other miscellaneous chemical product and preparation manufacturing."

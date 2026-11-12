@@ -1,0 +1,20 @@
+# Thermal Ceramics, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Thermal Ceramics, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "2730 Industrial Parkway, Elkhart, IN 46516"
+lat = 41.68698
+lon = -85.91906
+website = "https://thermalceramics.com"
+
+sector = "Materials & composites"
+products = ["Mineral Wool Manufacturing"]
+
+employees = 75
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Insulation Products. NAICS 327993: mineral wool manufacturing."

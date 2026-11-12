@@ -1,0 +1,20 @@
+# Ams of Indiana, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Ams of Indiana, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "3933 East Jackson Boulevard, Elkhart, IN 46516"
+lat = 41.69328
+lon = -85.91397
+website = "https://not available"
+
+sector = "Metal"
+products = ["Sheet Metal Work Manufacturing"]
+
+employees = 28
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Mobile Home & Recreational Vehicle Heat Ducts, Drapery Hardware, Extrusions & Roofing. NAICS 332322: sheet metal work manufacturing."

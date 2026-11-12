@@ -1,0 +1,20 @@
+# Tru Die Cast Corp.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Tru Die Cast Corp."
+kind = "company"
+city = "New Troy"
+state = "MI"
+address = "13066 California Road, New Troy, MI 49119"
+lat = 41.88296
+lon = -86.55250
+website = "https://trudiecast.com"
+
+sector = "Metal"
+products = ["Aluminum Die-Casting Foundries"]
+
+employees = 58
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Zinc & Aluminum Die Castings. NAICS 331521: aluminum die-casting foundries."

@@ -1,0 +1,20 @@
+# Stephan Enterprises Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Stephan Enterprises Inc."
+kind = "company"
+city = "Pierceton"
+state = "IN"
+address = "3 Pequignot Drive, Pierceton, IN 46562"
+lat = 41.20616
+lon = -85.70502
+website = "https://stephanbaby.net"
+
+sector = "Materials & composites"
+products = ["All Other Plastics Product Manufacturing"]
+
+employees = 32
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Plastic Ice Packs, Bottle Holders, Bibs, Bonnets & Booties. NAICS 326199: all other plastics product manufacturing."

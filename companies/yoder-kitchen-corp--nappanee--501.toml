@@ -1,0 +1,20 @@
+# Yoder Kitchen Corp.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Yoder Kitchen Corp."
+kind = "company"
+city = "Nappanee"
+state = "IN"
+address = "501 South Main Street, Nappanee, IN 46550"
+lat = 41.43853
+lon = -86.00100
+website = "https://yoderkitchen.com"
+
+sector = "Wood, paper & furniture"
+products = ["Wood Kitchen Cabinet and Countertop Manufacturing"]
+
+employees = 28
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Kitchen, Dining Room & Office Furniture, Entertainment Centers & Bathroom Vanities. NAICS 337110: wood kitchen cabinet and countertop manufacturing."

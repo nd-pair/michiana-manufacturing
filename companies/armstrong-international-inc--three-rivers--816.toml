@@ -1,0 +1,20 @@
+# Armstrong International, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Armstrong International, Inc."
+kind = "company"
+city = "Three Rivers"
+state = "MI"
+address = "816 Maple Street, Three Rivers, MI 49093"
+lat = 41.95507
+lon = -85.63785
+website = "https://armstronginternational.com"
+
+sector = "Metal"
+products = ["All Other Miscellaneous Fabricated Metal Product Manufacturing"]
+
+employees = 270
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Metal Fabrication, Valves & Pipe Fittings. NAICS 332999: all other miscellaneous fabricated metal product manufacturing."

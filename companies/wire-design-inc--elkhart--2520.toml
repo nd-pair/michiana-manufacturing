@@ -1,0 +1,20 @@
+# Wire Design, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Wire Design, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "2520 Industrial Parkway, Elkhart, IN 46516"
+lat = 41.68698
+lon = -85.92292
+website = "https://wire-design.com"
+
+sector = "Electronics"
+products = ["Other Electronic Component Manufacturing"]
+
+employees = 50
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Wire Harnesses. NAICS 334419: other electronic component manufacturing."

@@ -1,0 +1,20 @@
+# Three Rivers Anodizing Corp.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Three Rivers Anodizing Corp."
+kind = "company"
+city = "Three Rivers"
+state = "MI"
+address = "55591 Franklin Drive, Three Rivers, MI 49093"
+lat = 41.98992
+lon = -85.62767
+website = "https://not available"
+
+sector = "Metal"
+products = ["Electroplating, Plating, Polishing, Anodizing and Coloring"]
+
+employees = 15
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Aluminum Finishing. NAICS 332813: electroplating, plating, polishing, anodizing and coloring."

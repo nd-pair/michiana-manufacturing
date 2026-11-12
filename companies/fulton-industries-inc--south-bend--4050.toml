@@ -1,0 +1,20 @@
+# Fulton Industries, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Fulton Industries, Inc."
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "4050 Ralph Jones Drive, South Bend, IN 46628"
+lat = 41.73179
+lon = -86.30031
+website = "https://fultonindustries.com"
+
+sector = "Metal"
+products = ["Steel Foundries (except Investment)"]
+
+employees = 20
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Steel Castings. NAICS 331513: steel foundries (except investment)."

@@ -1,0 +1,20 @@
+# Laidig Systems, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Laidig Systems, Inc."
+kind = "company"
+city = "Mishawaka"
+state = "IN"
+address = "14535 Dragoon Trail, Mishawaka, IN 46544"
+lat = 41.63800
+lon = -86.14689
+website = "https://laidig.com"
+
+sector = "Mechatronics & automation"
+products = ["Farm Machinery and Equipment Manufacturing"]
+
+employees = 70
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Storage & Reclaim Systems for Hard-To-Handle Dry Bulk Materials & Silos & Bottom Silo Unloading Equipment. NAICS 333111: farm machinery and equipment manufacturing."

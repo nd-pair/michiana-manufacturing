@@ -1,0 +1,20 @@
+# Pregis Corp.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Pregis Corp."
+kind = "company"
+city = "Plymouth"
+state = "IN"
+address = "1411 Pidco Drive, Plymouth, IN 46563"
+lat = 41.35127
+lon = -86.32183
+website = "https://pregis.com"
+
+sector = "Materials & composites"
+products = ["All Other Plastics Product Manufacturing"]
+
+employees = 200
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Polyethylene Foam Sheets & Planks. NAICS 326199: all other plastics product manufacturing."

@@ -1,0 +1,20 @@
+# Superior Laminating, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Superior Laminating, Inc."
+kind = "company"
+city = "Goshen"
+state = "IN"
+address = "2117 West Wilden Avenue, Goshen, IN 46528"
+lat = 41.60082
+lon = -85.86262
+website = "https://superiorlaminatinginc.com"
+
+sector = "Wood, paper & furniture"
+products = ["Wood Kitchen Cabinet and Countertop Manufacturing"]
+
+employees = 24
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Recreational Vehicle, Residential & Commercial Countertops & Cabinets. NAICS 337110: wood kitchen cabinet and countertop manufacturing."

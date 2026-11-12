@@ -1,0 +1,20 @@
+# Nes Industrial Services
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Nes Industrial Services"
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "1311 South Olive Street, South Bend, IN 46619"
+lat = 41.66012
+lon = -86.28345
+website = "https://nesrentals.com"
+
+sector = "Mechatronics & automation"
+products = ["Fluid Power Cylinder and Actuator Manufacturing"]
+
+employees = 15
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Hydraulic Equipment. NAICS 333995: fluid power cylinder and actuator manufacturing."

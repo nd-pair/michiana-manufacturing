@@ -1,0 +1,20 @@
+# Five Star Sheets, LLC
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Five Star Sheets, LLC"
+kind = "company"
+city = "New Carlisle"
+state = "IN"
+address = "54370 Smilax Road, New Carlisle, IN 46552"
+lat = 41.70060
+lon = -86.44755
+website = "https://fivestarsheets.com"
+
+sector = "Materials & composites"
+products = ["All Other Plastics Product Manufacturing"]
+
+employees = 100
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Corrugated Sheeting. NAICS 326199: all other plastics product manufacturing."

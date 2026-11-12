@@ -1,0 +1,20 @@
+# Land O' Lakes Purina Feed, LLC
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Land O' Lakes Purina Feed, LLC"
+kind = "company"
+city = "Milford"
+state = "IN"
+address = "346 West 1350 North, Milford, IN 46542"
+lat = 41.42846
+lon = -85.85222
+website = "https://purina-mills.com"
+
+sector = "Food & consumer goods"
+products = ["Other Animal Food Manufacturing"]
+
+employees = 25
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Livestock Feed. NAICS 311119: other animal food manufacturing."

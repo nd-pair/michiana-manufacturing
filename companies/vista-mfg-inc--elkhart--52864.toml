@@ -1,0 +1,20 @@
+# Vista Mfg., Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Vista Mfg., Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "52864 Lillian Avenue, Elkhart, IN 46514"
+lat = 41.72598
+lon = -85.99166
+website = "https://vistamfg.com"
+
+sector = "Electronics"
+products = ["Commercial, Industrial, and Institutional Electric Lighting Fixture Manufacturing"]
+
+employees = 25
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Low Voltage Strip & Tube Lighting for the Van Conversion, RV, Automotive, Marine & Utility Industries. NAICS 335122: commercial, industrial, and institutional electric lighting fixture manufacturing."

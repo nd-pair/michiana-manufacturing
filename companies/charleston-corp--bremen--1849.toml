@@ -1,0 +1,20 @@
+# Charleston Corp.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Charleston Corp."
+kind = "company"
+city = "Bremen"
+state = "IN"
+address = "1849 Dogwood Road, Bremen, IN 46506"
+lat = 41.45326
+lon = -86.11791
+website = "https://not available"
+
+sector = "Metal"
+products = ["Metal Stamping"]
+
+employees = 50
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Fiberglass Van Parts. NAICS 332116: metal stamping."

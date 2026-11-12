@@ -1,0 +1,20 @@
+# Workflowone
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Workflowone"
+kind = "company"
+city = "Goshen"
+state = "IN"
+address = "1302 Eisenhower Drive North, Goshen, IN 46526"
+lat = 41.55713
+lon = -85.81555
+website = "https://workflowone.com"
+
+sector = "Wood, paper & furniture"
+products = ["Manifold Business Form Printing"]
+
+employees = 130
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Business Form & Pressure Sensitive Label Printing. NAICS 323116: manifold business form printing."

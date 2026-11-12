@@ -1,0 +1,20 @@
+# Eisenbraun's
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Eisenbraun's"
+kind = "company"
+city = "Warsaw"
+state = "IN"
+address = "600 North Bay Drive, Warsaw, IN 46580"
+lat = 41.23324
+lon = -85.83297
+website = "https://eisenbrauns.com"
+
+sector = "Wood, paper & furniture"
+products = ["Prepress Services"]
+
+employees = 22
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Commercial Typesetting. NAICS 323122: prepress services."

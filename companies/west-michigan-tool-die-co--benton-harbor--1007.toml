@@ -1,0 +1,20 @@
+# West Michigan Tool & Die Co.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "West Michigan Tool & Die Co."
+kind = "company"
+city = "Benton Harbor"
+state = "MI"
+address = "1007 Nickerson Avenue, Benton Harbor, MI 49022"
+lat = 42.07332
+lon = -86.43357
+website = "https://wmtd.com"
+
+sector = "Mechatronics & automation"
+products = ["Special Die and Tool, Die Set, Jig, and Fixture Manufacturing"]
+
+employees = 15
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Aluminum, Zinc & Magnesium High Pressure Die Cast Molds & Billet, Sand Cast, Die Cast & Precision Machining of Prototype. NAICS 333514: special die and tool, die set, jig, and fixture manufacturing."

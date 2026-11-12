@@ -1,0 +1,20 @@
+# Dtime Assoc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Dtime Assoc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "25895 Miner Road, Elkhart, IN 46514"
+lat = 41.71464
+lon = -85.96419
+website = "https://not available"
+
+sector = "Vehicles & RVs"
+products = ["Motor Home Manufacturing"]
+
+employees = 20
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Wood, Metal & Aluminum Recreational Vehicles. NAICS 336213: motor home manufacturing."

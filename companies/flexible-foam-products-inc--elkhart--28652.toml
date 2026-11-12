@@ -1,0 +1,20 @@
+# Flexible Foam Products, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Flexible Foam Products, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "28652 Phillips Street, Elkhart, IN 46514"
+lat = 41.69406
+lon = -86.01719
+website = "https://flexiblefoam.com"
+
+sector = "Materials & composites"
+products = ["Polystyrene Foam Product Manufacturing"]
+
+employees = 33
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Foam Fabrication. NAICS 326140: polystyrene foam product manufacturing."

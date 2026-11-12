@@ -1,0 +1,20 @@
+# Newmar Corp.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Newmar Corp."
+kind = "company"
+city = "Nappanee"
+state = "IN"
+address = "355 Delaware Street, Nappanee, IN 46550"
+lat = 41.44482
+lon = -86.02550
+website = "https://newmarcorp.com"
+
+sector = "Vehicles & RVs"
+products = ["Motor Home Manufacturing"]
+
+employees = 1000
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Recreational Vehicles, Motor Homes & Travel & Fifth Wheel Trailers. NAICS 336213: motor home manufacturing."

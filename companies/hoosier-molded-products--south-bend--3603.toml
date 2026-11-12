@@ -1,0 +1,20 @@
+# Hoosier Molded Products
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Hoosier Molded Products"
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "3603 Progress Drive, South Bend, IN 46628"
+lat = 41.70162
+lon = -86.29890
+website = "https://hoosiermp.com"
+
+sector = "Mechatronics & automation"
+products = ["Industrial Mold Manufacturing"]
+
+employees = 80
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Plastic Injection Molds & Molded Parts. NAICS 333511: industrial mold manufacturing."

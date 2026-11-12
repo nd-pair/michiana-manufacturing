@@ -1,0 +1,20 @@
+# Rance Aluminum
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Rance Aluminum"
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "3012 Mobile Drive, Elkhart, IN 46514"
+lat = 41.72755
+lon = -85.97815
+website = "https://rancealuminum.com"
+
+sector = "Vehicles & RVs"
+products = ["All Other Motor Vehicle Parts Manufacturing"]
+
+employees = 40
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Aluminum Utility & Cargo Trailers. NAICS 336399: all other motor vehicle parts manufacturing."

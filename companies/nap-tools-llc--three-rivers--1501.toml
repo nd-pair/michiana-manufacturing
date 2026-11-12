@@ -1,0 +1,20 @@
+# Nap Tools, LLC
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Nap Tools, LLC"
+kind = "company"
+city = "Three Rivers"
+state = "MI"
+address = "1501 Kdf Drive, Three Rivers, MI 49093"
+lat = 41.92741
+lon = -85.65013
+website = "https://naptools.com"
+
+sector = "Mechatronics & automation"
+products = ["Cutting Tool and Machine Tool Accessory Manufacturing"]
+
+employees = 15
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Tool Sharpening. NAICS 333515: cutting tool and machine tool accessory manufacturing."

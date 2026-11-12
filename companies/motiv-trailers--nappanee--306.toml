@@ -1,0 +1,20 @@
+# Motiv Trailers
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Motiv Trailers"
+kind = "company"
+city = "Nappanee"
+state = "IN"
+address = "306 South Nappanee Street, Nappanee, IN 46550"
+lat = 41.44078
+lon = -86.00551
+website = "https://motivtrailers.com"
+
+sector = "Vehicles & RVs"
+products = ["Truck Trailer Manufacturing"]
+
+employees = 70
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Car Haulers & Motorcycle, Snowmobile & Utility Trailers. NAICS 336212: truck trailer manufacturing."

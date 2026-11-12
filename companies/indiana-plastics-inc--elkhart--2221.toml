@@ -1,0 +1,20 @@
+# Indiana Plastics, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Indiana Plastics, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "2221 Industrial Parkway, Elkhart, IN 46516"
+lat = 41.68638
+lon = -85.92923
+website = "https://not available"
+
+sector = "Materials & composites"
+products = ["All Other Plastics Product Manufacturing"]
+
+employees = 30
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Plastic & Thermoplastic Rubber Injection Molding. NAICS 326199: all other plastics product manufacturing."

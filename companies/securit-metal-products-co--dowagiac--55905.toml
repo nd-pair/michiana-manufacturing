@@ -1,0 +1,20 @@
+# Securit Metal Products Co.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Securit Metal Products Co."
+kind = "company"
+city = "Dowagiac"
+state = "MI"
+address = "55905 92nd Avenue, Dowagiac, MI 49047"
+lat = 42.08479
+lon = -86.08965
+website = "https://not available"
+
+sector = "Metal"
+products = ["Bolt, Nut, Screw, Rivet, and Washer Manufacturing"]
+
+employees = 25
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Solid Rivets. NAICS 332722: bolt, nut, screw, rivet, and washer manufacturing."

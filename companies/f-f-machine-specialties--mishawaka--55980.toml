@@ -1,0 +1,20 @@
+# F & F Machine Specialties
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "F & F Machine Specialties"
+kind = "company"
+city = "Mishawaka"
+state = "IN"
+address = "55980 Russell Industrial Parkway, Mishawaka, IN 46545"
+lat = 41.68155
+lon = -86.12244
+website = "https://ffmachine.com"
+
+sector = "Metal"
+products = ["Machine Shops"]
+
+employees = 30
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Fixtures, Medical Tooling & Precision Machining Job Shop. NAICS 332710: machine shops."

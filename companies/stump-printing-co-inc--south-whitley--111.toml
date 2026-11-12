@@ -1,0 +1,20 @@
+# Stump Printing Co., Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Stump Printing Co., Inc."
+kind = "company"
+city = "South Whitley"
+state = "IN"
+address = "111 East Broad Street, South Whitley, IN 46787"
+lat = 41.08762
+lon = -85.62722
+website = "https://stumpsprom.com"
+
+sector = "Wood, paper & furniture"
+products = ["Other Commercial Printing"]
+
+employees = 400
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Party, Promo & Banquet Supplies. NAICS 323119: other commercial printing."

@@ -1,0 +1,20 @@
+# Crown Audio, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Crown Audio, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "1718 West Mishawaka Road, Elkhart, IN 46517"
+lat = 41.65561
+lon = -85.99488
+website = "https://crownaudio.com"
+
+sector = "Electronics"
+products = ["Audio and Video Equipment Manufacturing"]
+
+employees = 500
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Amplifiers, Microphones & System Control Products. NAICS 334310: audio and video equipment manufacturing."

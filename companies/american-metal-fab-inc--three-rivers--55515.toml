@@ -1,0 +1,20 @@
+# American Metal Fab, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "American Metal Fab, Inc."
+kind = "company"
+city = "Three Rivers"
+state = "MI"
+address = "55515 Franklin Drive, Three Rivers, MI 49093"
+lat = 41.99144
+lon = -85.62772
+website = "https://americanmetalfab.com"
+
+sector = "Metal"
+products = ["Sheet Metal Work Manufacturing"]
+
+employees = 100
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Sheet Metal Fabrication & Stampings. NAICS 332322: sheet metal work manufacturing."

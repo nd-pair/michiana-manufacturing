@@ -1,0 +1,20 @@
+# Mossberg & Company, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Mossberg & Company, Inc."
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "301 East Sample Street, South Bend, IN 46601"
+lat = 41.66555
+lon = -86.24587
+website = "https://mossbergco.com"
+
+sector = "Wood, paper & furniture"
+products = ["Other Commercial Printing"]
+
+employees = 162
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Commercial Lithographic, Flexographic & Digital Printing, Including Contract Packaging & Fulfillment Services. NAICS 323119: other commercial printing."

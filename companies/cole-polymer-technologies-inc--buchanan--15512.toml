@@ -1,0 +1,20 @@
+# Cole Polymer Technologies, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Cole Polymer Technologies, Inc."
+kind = "company"
+city = "Buchanan"
+state = "MI"
+address = "15512 Walton Road, Buchanan, MI 49107"
+lat = 41.83882
+lon = -86.34343
+website = "https://not available"
+
+sector = "Materials & composites"
+products = ["All Other Plastics Product Manufacturing"]
+
+employees = 35
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Plastic Agricultural & Automotive Parts. NAICS 326199: all other plastics product manufacturing."

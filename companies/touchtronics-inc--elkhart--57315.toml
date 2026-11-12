@@ -1,0 +1,20 @@
+# Touchtronics, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Touchtronics, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "57315 Nagy Drive, Elkhart, IN 46517"
+lat = 41.66176
+lon = -86.01571
+website = "https://touchtronics.com"
+
+sector = "Electronics"
+products = ["Other Communication and Energy Wire Manufacturing"]
+
+employees = 15
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Remote Control Panels & Devices, Including Radio Frequency & Infrared Keyless Ignition & Entry Systems. NAICS 335929: other communication and energy wire manufacturing."

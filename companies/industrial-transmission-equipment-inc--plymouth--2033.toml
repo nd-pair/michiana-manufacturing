@@ -1,0 +1,20 @@
+# Industrial Transmission Equipment, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Industrial Transmission Equipment, Inc."
+kind = "company"
+city = "Plymouth"
+state = "IN"
+address = "2033 Western Avenue, Plymouth, IN 46563"
+lat = 41.35750
+lon = -86.31659
+website = "https://itequipment.com"
+
+sector = "Mechatronics & automation"
+products = ["Conveyor and Conveying Equipment Manufacturing"]
+
+employees = 43
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Conveyors, Tumblers, Steel Fabrication & Industrial Machinery. NAICS 333922: conveyor and conveying equipment manufacturing."

@@ -1,0 +1,20 @@
+# Cullip Industries, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Cullip Industries, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "1900 Fieldhouse Avenue, Elkhart, IN 46517"
+lat = 41.66636
+lon = -85.99954
+website = "https://cullipindustries.com"
+
+sector = "Metal"
+products = ["Machine Shops"]
+
+employees = 15
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Punch Press Dies, Jigs, Fixtures & Wire EDM & CNC Machining Job Shop. NAICS 332710: machine shops."

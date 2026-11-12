@@ -1,0 +1,20 @@
+# Supreme Casting, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Supreme Casting, Inc."
+kind = "company"
+city = "Stevensville"
+state = "MI"
+address = "3389 West Linco Road, Stevensville, MI 49127"
+lat = 41.98579
+lon = -86.53475
+website = "https://supremecasting.com"
+
+sector = "Metal"
+products = ["Aluminum Foundries (except Die-Casting)"]
+
+employees = 60
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Automotive Castings. NAICS 331524: aluminum foundries (except die-casting)."

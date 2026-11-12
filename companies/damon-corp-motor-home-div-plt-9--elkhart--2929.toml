@@ -1,0 +1,20 @@
+# Damon Corp., Motor Home Div., Plt. 9
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Damon Corp., Motor Home Div., Plt. 9"
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "2929 Gateway Drive, Elkhart, IN 46514"
+lat = 41.72998
+lon = -86.01002
+website = "https://damonrv.com"
+
+sector = "Vehicles & RVs"
+products = ["Motor Home Manufacturing"]
+
+employees = 400
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Motor Home Final Assembly. NAICS 336213: motor home manufacturing."

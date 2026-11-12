@@ -1,0 +1,20 @@
+# Herald-Palladium, the
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Herald-Palladium, the"
+kind = "company"
+city = "Saint Joseph"
+state = "MI"
+address = "3450 Hollywood Road, Saint Joseph, MI 49085"
+lat = 42.05524
+lon = -86.45621
+website = "https://heraldpalladium.com"
+
+sector = "Wood, paper & furniture"
+products = ["Other Commercial Printing"]
+
+employees = 200
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Newspaper Publishing. NAICS 323119: other commercial printing."

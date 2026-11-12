@@ -1,0 +1,20 @@
+# Villa International
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Villa International"
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "4733 Eastland Drive, Elkhart, IN 46516"
+lat = 41.67884
+lon = -85.89796
+website = "https://villainternational.com"
+
+sector = "Wood, paper & furniture"
+products = ["Nonupholstered Wood Household Furniture Manufacturing"]
+
+employees = 40
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Custom RV Furniture, Including Sofas, J-Lounges, Driver's Seats, Recliners & Dinettes. NAICS 337122: nonupholstered wood household furniture manufacturing."

@@ -1,0 +1,20 @@
+# Omega Products
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Omega Products"
+kind = "company"
+city = "Bremen"
+state = "IN"
+address = "860-870 Legner Street, Bremen, IN 46506"
+lat = 41.45212
+lon = -86.13951
+website = "https://omega-prod.com"
+
+sector = "Materials & composites"
+products = ["Rubber and Plastics Hoses and Belting Manufacturing"]
+
+employees = 40
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Washing Machine Hoses. NAICS 326220: rubber and plastics hoses and belting manufacturing."

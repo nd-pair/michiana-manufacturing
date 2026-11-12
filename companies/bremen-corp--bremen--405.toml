@@ -1,0 +1,20 @@
+# Bremen Corp.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Bremen Corp."
+kind = "company"
+city = "Bremen"
+state = "IN"
+address = "405 Industrial Drive, Bremen, IN 46506"
+lat = 41.44864
+lon = -86.17092
+website = "https://creativefoammedicalsystems.com"
+
+sector = "Materials & composites"
+products = ["Polystyrene Foam Product Manufacturing"]
+
+employees = 33
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Medical & Laminated Vinyl Coated Foam Products & Die-Cut Foam. NAICS 326140: polystyrene foam product manufacturing."

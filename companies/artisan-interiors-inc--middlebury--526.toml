@@ -1,0 +1,20 @@
+# Artisan Interiors, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Artisan Interiors, Inc."
+kind = "company"
+city = "Middlebury"
+state = "IN"
+address = "526 South Main Street, Middlebury, IN 46540"
+lat = 41.66544
+lon = -85.70547
+website = "https://artisan-interiors.com"
+
+sector = "Food & consumer goods"
+products = ["Curtain and Drapery Mills"]
+
+employees = 60
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Draperies & Bedspreads. NAICS 314121: curtain and drapery mills."

@@ -1,0 +1,20 @@
+# Ramco Engineering, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Ramco Engineering, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "52965 Frederic Drive, Elkhart, IN 46514"
+lat = 41.72496
+lon = -85.90973
+website = "https://ramco-eng.com"
+
+sector = "Materials & composites"
+products = ["Glass Product Manufacturing Made of Purchased Glass"]
+
+employees = 42
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Exterior Rearview Mirrors for Motor Homes, Over-The-Road & Transit Buses, Fire Trucks & Specialty Vehicles. NAICS 327215: glass product manufacturing made of purchased glass."

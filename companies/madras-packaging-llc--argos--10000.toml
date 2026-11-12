@@ -1,0 +1,20 @@
+# Madras Packaging, LLC
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Madras Packaging, LLC"
+kind = "company"
+city = "Argos"
+state = "IN"
+address = "10000 17th Road, Argos, IN 46501"
+lat = 41.23117
+lon = -86.25472
+website = "https://madraspkg.com"
+
+sector = "Materials & composites"
+products = ["All Other Plastics Product Manufacturing"]
+
+employees = 100
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Blow Molded Plastic Containers. NAICS 326199: all other plastics product manufacturing."

@@ -1,0 +1,20 @@
+# R & R Trailers, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "R & R Trailers, Inc."
+kind = "company"
+city = "Three Rivers"
+state = "MI"
+address = "55431 Franklin Drive, Three Rivers, MI 49093"
+lat = 41.99236
+lon = -85.62775
+website = "https://rnrtrailers.com"
+
+sector = "Vehicles & RVs"
+products = ["Truck Trailer Manufacturing"]
+
+employees = 40
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Trailers. NAICS 336212: truck trailer manufacturing."

@@ -1,0 +1,20 @@
+# Sellers Mfg., Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Sellers Mfg., Inc."
+kind = "company"
+city = "Milford"
+state = "IN"
+address = "601 North Old State Road 15, Milford, IN 46542"
+lat = 41.41618
+lon = -85.84221
+website = "https://sellers-mfginc.com"
+
+sector = "Metal"
+products = ["Secondary Smelting and Alloying of Aluminum"]
+
+employees = 60
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Aluminum & Steel Fabrication, Mobile Restrooms Travel Trailers & Fifth Wheel Frames. NAICS 331314: secondary smelting and alloying of aluminum."

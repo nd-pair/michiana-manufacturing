@@ -1,0 +1,20 @@
+# American Pallet & Recycling, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "American Pallet & Recycling, Inc."
+kind = "company"
+city = "Kingsbury"
+state = "IN"
+address = "3rd Road, Kingsbury, IN 46345"
+lat = 41.50578
+lon = -86.64986
+website = "https://not available"
+
+sector = "Wood, paper & furniture"
+products = ["Wood Container and Pallet Manufacturing"]
+
+employees = 20
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Wooden Pallets. NAICS 321920: wood container and pallet manufacturing."

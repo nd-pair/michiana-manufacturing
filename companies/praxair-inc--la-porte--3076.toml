@@ -1,0 +1,20 @@
+# Praxair, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Praxair, Inc."
+kind = "company"
+city = "La Porte"
+state = "IN"
+address = "3076 North State Road 39, La Porte, IN 46350"
+lat = 41.65092
+lon = -86.73889
+website = "https://praxair.com"
+
+sector = "Materials & composites"
+products = ["Industrial Gas Manufacturing"]
+
+employees = 40
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Nitrogen & Oxygen. NAICS 325120: industrial gas manufacturing."

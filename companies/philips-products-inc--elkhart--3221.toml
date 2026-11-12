@@ -1,0 +1,20 @@
+# Philips Products, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Philips Products, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "3221 Magnum Drive, Elkhart, IN 46516"
+lat = 41.67731
+lon = -85.91650
+website = "https://philipsproducts.com"
+
+sector = "Metal"
+products = ["Metal Window and Door Manufacturing"]
+
+employees = 450
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Corporate Headquarters & Aluminum & Vinyl Windows, Roof Vents, Bath Fans & Patio & Exterior Doors. NAICS 332321: metal window and door manufacturing."

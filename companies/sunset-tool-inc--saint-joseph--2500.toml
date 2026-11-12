@@ -1,0 +1,20 @@
+# Sunset Tool, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Sunset Tool, Inc."
+kind = "company"
+city = "Saint Joseph"
+state = "MI"
+address = "2500 South Cleveland Avenue, Saint Joseph, MI 49085"
+lat = 42.07313
+lon = -86.49564
+website = "https://sunsettool.com"
+
+sector = "Mechatronics & automation"
+products = ["Special Die and Tool, Die Set, Jig, and Fixture Manufacturing"]
+
+employees = 28
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Fixtures, Machining & Trim Die Fabrication. NAICS 333514: special die and tool, die set, jig, and fixture manufacturing."

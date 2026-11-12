@@ -1,0 +1,20 @@
+# Kz RV
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Kz RV"
+kind = "company"
+city = "Shipshewana"
+state = "IN"
+address = "0985 North 900 West, Shipshewana, IN 46565"
+lat = 41.65338
+lon = -85.59919
+website = "https://kz-rv.com"
+
+sector = "Vehicles & RVs"
+products = ["Motor Home Manufacturing"]
+
+employees = 500
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Recreational Vehicles. NAICS 336213: motor home manufacturing."

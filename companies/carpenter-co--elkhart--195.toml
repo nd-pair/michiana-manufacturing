@@ -1,0 +1,20 @@
+# Carpenter Co.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Carpenter Co."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "195 South County Road 15, Elkhart, IN 46516"
+lat = 41.69179
+lon = -85.90791
+website = "https://carpenter.com"
+
+sector = "Materials & composites"
+products = ["Polystyrene Foam Product Manufacturing"]
+
+employees = 350
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Foam Fabrication. NAICS 326140: polystyrene foam product manufacturing."

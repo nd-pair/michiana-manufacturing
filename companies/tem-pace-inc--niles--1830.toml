@@ -1,0 +1,20 @@
+# Tem-Pace, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Tem-Pace, Inc."
+kind = "company"
+city = "Niles"
+state = "MI"
+address = "1830 Terminal Road, Niles, MI 49120"
+lat = 41.85237
+lon = -86.22913
+website = "https://tempace.com"
+
+sector = "Materials & composites"
+products = ["Flat Glass Manufacturing"]
+
+employees = 105
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Glass Fabrication & Tempering. NAICS 327211: flat glass manufacturing."

@@ -1,0 +1,20 @@
+# Guardian Industries Corp.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Guardian Industries Corp."
+kind = "company"
+city = "Ligonier"
+state = "IN"
+address = "860 West US Highway 6, Ligonier, IN 46767"
+lat = 41.45228
+lon = -85.60274
+website = "https://guardian.com"
+
+sector = "Materials & composites"
+products = ["Glass Product Manufacturing Made of Purchased Glass"]
+
+employees = 300
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Automotive Glass. NAICS 327215: glass product manufacturing made of purchased glass."

@@ -1,0 +1,20 @@
+# Metal Technologies, Inc., Gray Iron Plt
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Metal Technologies, Inc., Gray Iron Plt"
+kind = "company"
+city = "Three Rivers"
+state = "MI"
+address = "429 4th Street, Three Rivers, MI 49093"
+lat = 41.93863
+lon = -85.63015
+website = "https://metal-technologies.com"
+
+sector = "Metal"
+products = ["Iron Foundries"]
+
+employees = 170
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Gray Iron Castings. NAICS 331511: iron foundries."

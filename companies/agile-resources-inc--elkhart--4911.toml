@@ -1,0 +1,20 @@
+# Agile Resources, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Agile Resources, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "4911 Green Court, Elkhart, IN 46516"
+lat = 41.68325
+lon = -85.89341
+website = "https://agile-resources.com"
+
+sector = "Materials & composites"
+products = ["All Other Plastics Product Manufacturing"]
+
+employees = 35
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Vacuum Forming of Plastic Parts. NAICS 326199: all other plastics product manufacturing."

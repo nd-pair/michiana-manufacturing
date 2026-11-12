@@ -1,0 +1,20 @@
+# Dee Blast Corp.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Dee Blast Corp."
+kind = "company"
+city = "Stevensville"
+state = "MI"
+address = "3039 Johnson Road, Stevensville, MI 49127"
+lat = 42.00751
+lon = -86.52598
+website = "https://dee-blast.com"
+
+sector = "Mechatronics & automation"
+products = ["Air and Gas Compressor Manufacturing"]
+
+employees = 30
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Portable Sandblasters, Abrasive Blast Cabinets, Glass Bead, Aluminum Oxide & Steel Shot & Manual & Automatic Parts. NAICS 333912: air and gas compressor manufacturing."

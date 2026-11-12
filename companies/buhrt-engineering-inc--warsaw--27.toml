@@ -1,0 +1,20 @@
+# Buhrt Engineering, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Buhrt Engineering, Inc."
+kind = "company"
+city = "Warsaw"
+state = "IN"
+address = "27 East 250 North, Warsaw, IN 46582"
+lat = 41.27006
+lon = -85.84205
+website = "https://buhrt.com"
+
+sector = "Metal"
+products = ["Iron and Steel Mills"]
+
+employees = 30
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Industrial Steel Fabrication. NAICS 331111: iron and steel mills."

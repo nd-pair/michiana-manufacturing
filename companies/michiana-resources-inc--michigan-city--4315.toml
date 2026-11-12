@@ -1,0 +1,20 @@
+# Michiana Resources, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Michiana Resources, Inc."
+kind = "company"
+city = "Michigan City"
+state = "IN"
+address = "4315 East Michigan Boulevard, Michigan City, IN 46360"
+lat = 41.70058
+lon = -86.83866
+website = "https://michianaresources.org"
+
+sector = "Materials & composites"
+products = ["All Other Plastics Product Manufacturing"]
+
+employees = 65
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Contract Packaging & Assembly, Including Sewing. NAICS 326199: all other plastics product manufacturing."

@@ -1,0 +1,20 @@
+# Precision Sheet Metal, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Precision Sheet Metal, Inc."
+kind = "company"
+city = "Edwardsburg"
+state = "MI"
+address = "27350 Max Street, Edwardsburg, MI 49112"
+lat = 41.78887
+lon = -86.09199
+website = "https://not available"
+
+sector = "Metal"
+products = ["Sheet Metal Work Manufacturing"]
+
+employees = 21
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Sheet Metal Fabrication & Dust Collection Systems. NAICS 332322: sheet metal work manufacturing."

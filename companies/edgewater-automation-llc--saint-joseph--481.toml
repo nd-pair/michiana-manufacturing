@@ -1,0 +1,20 @@
+# Edgewater Automation, LLC
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Edgewater Automation, LLC"
+kind = "company"
+city = "Saint Joseph"
+state = "MI"
+address = "481 Renaissance Drive, Saint Joseph, MI 49085"
+lat = 42.11728
+lon = -86.47522
+website = "https://edgewaterautomation.com"
+
+sector = "Mechatronics & automation"
+products = ["All Other Industrial Machinery Manufacturing"]
+
+employees = 38
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Automotive & Industrial Automation Equipment. NAICS 333298: all other industrial machinery manufacturing."

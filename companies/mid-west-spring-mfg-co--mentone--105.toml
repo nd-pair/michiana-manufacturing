@@ -1,0 +1,20 @@
+# Mid-West Spring Mfg. Co.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Mid-West Spring Mfg. Co."
+kind = "company"
+city = "Mentone"
+state = "IN"
+address = "105 North Etna Street, Mentone, IN 46539"
+lat = 41.17455
+lon = -86.04495
+website = "https://mwspring.com"
+
+sector = "Metal"
+products = ["Metal Stamping"]
+
+employees = 100
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Mechanical Springs, Spring Wire Forms & Stampings. NAICS 332116: metal stamping."

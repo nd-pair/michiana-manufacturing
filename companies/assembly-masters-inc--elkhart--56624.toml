@@ -1,0 +1,20 @@
+# Assembly Masters, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Assembly Masters, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "56624 Elk Park Drive, Elkhart, IN 46516"
+lat = 41.67142
+lon = -86.03524
+website = "https://assemblymasters.com"
+
+sector = "Electronics"
+products = ["Electronic Coil, Transformer, and Other Inductor Manufacturing"]
+
+employees = 18
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Wire Harnesses, Cable Assemblies, Bobbin Wound Coils, Air Coils, Circuit Board Jumpers, Toroidal Transformers. NAICS 334416: electronic coil, transformer, and other inductor manufacturing."

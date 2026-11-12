@@ -1,0 +1,20 @@
+# Trans-Apparel Group
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Trans-Apparel Group"
+kind = "company"
+city = "Michigan City"
+state = "IN"
+address = "5000 Ohio Street, Michigan City, IN 46360"
+lat = 41.66652
+lon = -86.90332
+website = "https://hartmarx.com"
+
+sector = "Food & consumer goods"
+products = ["Men's and Boys' Cut and Sew Other Outerwear Manufacturing"]
+
+employees = 100
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Men's Clothing. NAICS 315228: men's and boys' cut and sew other outerwear manufacturing."

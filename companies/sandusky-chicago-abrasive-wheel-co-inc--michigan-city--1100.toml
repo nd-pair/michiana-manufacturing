@@ -1,0 +1,20 @@
+# Sandusky-Chicago Abrasive Wheel Co. Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Sandusky-Chicago Abrasive Wheel Co. Inc."
+kind = "company"
+city = "Michigan City"
+state = "IN"
+address = "1100 West Barker Avenue, Michigan City, IN 46360"
+lat = 41.70433
+lon = -86.90770
+website = "https://sandusky.com"
+
+sector = "Materials & composites"
+products = ["Abrasive Product Manufacturing"]
+
+employees = 30
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Abrasive Wheels & Products. NAICS 327910: abrasive product manufacturing."

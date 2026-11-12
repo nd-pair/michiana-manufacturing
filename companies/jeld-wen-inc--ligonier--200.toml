@@ -1,0 +1,20 @@
+# Jeld-Wen, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Jeld-Wen, Inc."
+kind = "company"
+city = "Ligonier"
+state = "IN"
+address = "200 Gerber Street, Ligonier, IN 46767"
+lat = 41.46901
+lon = -85.59102
+website = "https://jeld-wen.com"
+
+sector = "Metal"
+products = ["Metal Window and Door Manufacturing"]
+
+employees = 125
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Insulated Exterior Metal Doors. NAICS 332321: metal window and door manufacturing."

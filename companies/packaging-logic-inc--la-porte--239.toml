@@ -1,0 +1,20 @@
+# Packaging Logic, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Packaging Logic, Inc."
+kind = "company"
+city = "La Porte"
+state = "IN"
+address = "239 Factory Street, La Porte, IN 46350"
+lat = 41.62158
+lon = -86.70452
+website = "https://packaginglogic.com"
+
+sector = "Materials & composites"
+products = ["All Other Plastics Product Manufacturing"]
+
+employees = 45
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Corrugated Boxes, Displays, Point-Of-Purchase, Foam & Inner Packing & Honeycomb. NAICS 326199: all other plastics product manufacturing."

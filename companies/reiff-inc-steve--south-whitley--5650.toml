@@ -1,0 +1,20 @@
+# Reiff, Inc., Steve
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Reiff, Inc., Steve"
+kind = "company"
+city = "South Whitley"
+state = "IN"
+address = "5650 West 800 South, South Whitley, IN 46787"
+lat = 41.04675
+lon = -85.59864
+website = "https://stevereiffinc.com"
+
+sector = "Metal"
+products = ["Electroplating, Plating, Polishing, Anodizing and Coloring"]
+
+employees = 27
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Sandblasting. NAICS 332813: electroplating, plating, polishing, anodizing and coloring."

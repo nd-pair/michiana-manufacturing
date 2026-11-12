@@ -1,0 +1,20 @@
+# Schrader Steel Fabricating Services
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Schrader Steel Fabricating Services"
+kind = "company"
+city = "Niles"
+state = "MI"
+address = "801 North 8th Street, Niles, MI 49120"
+lat = 41.83597
+lon = -86.24958
+website = "https://not available"
+
+sector = "Metal"
+products = ["Iron and Steel Mills"]
+
+employees = 30
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Steel Fabrication. NAICS 331111: iron and steel mills."

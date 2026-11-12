@@ -1,0 +1,20 @@
+# Quality Molded Products
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Quality Molded Products"
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "19850 State Line Road, South Bend, IN 46637"
+lat = 41.75995
+lon = -86.25342
+website = "https://moldedparts.com"
+
+sector = "Materials & composites"
+products = ["All Other Plastics Product Manufacturing"]
+
+employees = 44
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Plastics Parts. NAICS 326199: all other plastics product manufacturing."

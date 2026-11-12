@@ -1,0 +1,20 @@
+# Ameri-Kart
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Ameri-Kart"
+kind = "company"
+city = "Cassopolis"
+state = "MI"
+address = "19300 Grange Street, Cassopolis, MI 49031"
+lat = 41.78883
+lon = -85.94171
+website = "https://amerikart.com"
+
+sector = "Materials & composites"
+products = ["Other Concrete Product Manufacturing"]
+
+employees = 170
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Industrial Waste, Water & Holding Tanks. NAICS 327390: other concrete product manufacturing."

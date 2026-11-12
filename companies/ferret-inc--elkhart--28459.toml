@@ -1,0 +1,20 @@
+# Ferret, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Ferret, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "28459 Laura Court, Elkhart, IN 46517"
+lat = 41.64919
+lon = -86.01101
+website = "https://ferretrollforming.com"
+
+sector = "Metal"
+products = ["Custom Roll Forming"]
+
+employees = 15
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Metal Roll Forming. NAICS 332114: custom roll forming."

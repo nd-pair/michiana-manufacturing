@@ -1,0 +1,20 @@
+# Empire Machine Co.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Empire Machine Co."
+kind = "company"
+city = "Niles"
+state = "MI"
+address = "2710 South 3rd Street, Niles, MI 49120"
+lat = 41.77411
+lon = -86.25530
+website = "https://not available"
+
+sector = "Mechatronics & automation"
+products = ["Special Die and Tool, Die Set, Jig, and Fixture Manufacturing"]
+
+employees = 33
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Tool & Die Job Shop. NAICS 333514: special die and tool, die set, jig, and fixture manufacturing."

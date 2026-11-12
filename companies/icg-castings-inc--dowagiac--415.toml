@@ -1,0 +1,20 @@
+# Icg Castings, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Icg Castings, Inc."
+kind = "company"
+city = "Dowagiac"
+state = "MI"
+address = "415 North Paul Street, Dowagiac, MI 49047"
+lat = 41.98791
+lon = -86.12137
+website = "https://icgcastings.com"
+
+sector = "Metal"
+products = ["Aluminum Foundries (except Die-Casting)"]
+
+employees = 270
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Aluminum Die Castings. NAICS 331524: aluminum foundries (except die-casting)."

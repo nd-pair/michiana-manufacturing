@@ -1,0 +1,20 @@
+# Anderson Building Materials Co.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Anderson Building Materials Co."
+kind = "company"
+city = "Saint Joseph"
+state = "MI"
+address = "216 Upton Drive, Saint Joseph, MI 49085"
+lat = 42.11467
+lon = -86.48044
+website = "https://abmrack.com"
+
+sector = "Metal"
+products = ["Fabricated Structural Metal Manufacturing"]
+
+employees = 40
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Cantilever Racks, Structural Steel Fabrication, Metal Processing & Contract Manufacturing Services. NAICS 332312: fabricated structural metal manufacturing."

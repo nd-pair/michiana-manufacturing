@@ -1,0 +1,20 @@
+# Maax, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Maax, Inc."
+kind = "company"
+city = "Plymouth"
+state = "IN"
+address = "1001 North Oak Road, Plymouth, IN 46563"
+lat = 41.34855
+lon = -86.32914
+website = "https://maax.com"
+
+sector = "Materials & composites"
+products = ["Mineral Wool Manufacturing"]
+
+employees = 250
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Fiberglass Tubs & Showers. NAICS 327993: mineral wool manufacturing."

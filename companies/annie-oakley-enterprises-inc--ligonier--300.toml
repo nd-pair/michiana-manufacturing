@@ -1,0 +1,20 @@
+# Annie Oakley Enterprises, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Annie Oakley Enterprises, Inc."
+kind = "company"
+city = "Ligonier"
+state = "IN"
+address = "300 Johnson Street, Ligonier, IN 46767"
+lat = 41.46707
+lon = -85.58344
+website = "https://annieoakley.com"
+
+sector = "Medical devices & other"
+products = ["Costume Jewelry and Novelty Manufacturing"]
+
+employees = 16
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Jewelry, Belts, Scarves, Perfumes, Bath & Body Products. NAICS 339914: costume jewelry and novelty manufacturing."

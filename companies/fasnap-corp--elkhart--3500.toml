@@ -1,0 +1,20 @@
+# Fasnap Corp.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Fasnap Corp."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "3500 Reedy Drive, Elkhart, IN 46514"
+lat = 41.72777
+lon = -85.92097
+website = "https://fasnap.com"
+
+sector = "Medical devices & other"
+products = ["Fastener, Button, Needle, and Pin Manufacturing"]
+
+employees = 35
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Snap, Specialty Textile & Plastic Molded Fasteners, Webbing & Hook & Loop Tapes, Grommets, Upholstery Covered Buttons. NAICS 339993: fastener, button, needle, and pin manufacturing."

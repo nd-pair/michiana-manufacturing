@@ -1,0 +1,20 @@
+# Mohawk Flush Doors, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Mohawk Flush Doors, Inc."
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "402 North Sheridan Street, South Bend, IN 46619"
+lat = 41.68084
+lon = -86.30388
+website = "https://mohawkdoors.com"
+
+sector = "Wood, paper & furniture"
+products = ["Wood Window and Door Manufacturing"]
+
+employees = 104
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Flush Doors. NAICS 321911: wood window and door manufacturing."

@@ -1,0 +1,20 @@
+# Parrish Meyer Machine, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Parrish Meyer Machine, Inc."
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "3702 Progress Drive, South Bend, IN 46628"
+lat = 41.70104
+lon = -86.29901
+website = "https://parrishmeyer.com"
+
+sector = "Metal"
+products = ["Machine Shops"]
+
+employees = 36
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Tooling & Production Machining Job Shop. NAICS 332710: machine shops."

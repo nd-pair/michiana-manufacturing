@@ -1,0 +1,20 @@
+# Sager Metal
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Sager Metal"
+kind = "company"
+city = "Michigan City"
+state = "IN"
+address = "100 Boone Drive, Michigan City, IN 46360"
+lat = 41.67296
+lon = -86.90594
+website = "https://sagermetal.com"
+
+sector = "Mechatronics & automation"
+products = ["Conveyor and Conveying Equipment Manufacturing"]
+
+employees = 49
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Conveyors, Metal Fabrication & Laser Cutting. NAICS 333922: conveyor and conveying equipment manufacturing."

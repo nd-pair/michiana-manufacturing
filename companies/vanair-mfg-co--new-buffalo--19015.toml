@@ -1,0 +1,20 @@
+# Vanair Mfg. Co.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Vanair Mfg. Co."
+kind = "company"
+city = "New Buffalo"
+state = "MI"
+address = "19015 US Highway 12, New Buffalo, MI 49117"
+lat = 41.77165
+lon = -86.78413
+website = "https://vanair.com"
+
+sector = "Mechatronics & automation"
+products = ["Air and Gas Compressor Manufacturing"]
+
+employees = 37
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Vehicle Mounted Air Compressors, Generators, Speed Controls & Accessories. NAICS 333912: air and gas compressor manufacturing."

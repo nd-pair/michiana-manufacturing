@@ -1,0 +1,20 @@
+# B & G Truck Conversions, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "B & G Truck Conversions, Inc."
+kind = "company"
+city = "Argos"
+state = "IN"
+address = "10478 16th Road, Argos, IN 46501"
+lat = 41.24465
+lon = -86.26275
+website = "https://bgtruck.com"
+
+sector = "Wood, paper & furniture"
+products = ["Manufactured Home (mobile Home) Manufacturing"]
+
+employees = 20
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Housing Transport Equipment. NAICS 321991: manufactured home (mobile home) manufacturing."

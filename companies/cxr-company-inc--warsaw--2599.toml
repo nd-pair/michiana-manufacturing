@@ -1,0 +1,20 @@
+# Cxr Company, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Cxr Company, Inc."
+kind = "company"
+city = "Warsaw"
+state = "IN"
+address = "2599 North Fox Farm Road, Warsaw, IN 46580"
+lat = 41.27048
+lon = -85.89632
+website = "https://cxrcompany.com"
+
+sector = "Electronics"
+products = ["Irradiation Apparatus Manufacturing"]
+
+employees = 15
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Portable Industrial X-Ray Inspection Systems. NAICS 334517: irradiation apparatus manufacturing."

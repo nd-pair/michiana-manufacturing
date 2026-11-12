@@ -1,0 +1,20 @@
+# Elkhart Steel Service, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Elkhart Steel Service, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "3604 Henke Street, Elkhart, IN 46514"
+lat = 41.71729
+lon = -85.91475
+website = "https://elkhartsteel.com"
+
+sector = "Metal"
+products = ["Iron and Steel Mills"]
+
+employees = 35
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Steel Bars, Sheets, Tubing, Angles, Channels, Plates, Wire & Pipe. NAICS 331111: iron and steel mills."

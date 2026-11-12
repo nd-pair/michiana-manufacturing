@@ -1,0 +1,20 @@
+# D & F Mold, LLC
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "D & F Mold, LLC"
+kind = "company"
+city = "Bridgman"
+state = "MI"
+address = "8088 Jericho Road, Bridgman, MI 49106"
+lat = 41.97321
+lon = -86.53379
+website = "https://not available"
+
+sector = "Mechatronics & automation"
+products = ["Special Die and Tool, Die Set, Jig, and Fixture Manufacturing"]
+
+employees = 17
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Aluminum & Zinc Die Cast Dies, Including Plastic & Rubber Injection Molds, Custom Surface Grinding, Die & Mold Design. NAICS 333514: special die and tool, die set, jig, and fixture manufacturing."

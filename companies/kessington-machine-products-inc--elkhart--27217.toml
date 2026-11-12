@@ -1,0 +1,20 @@
+# Kessington Machine Products, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Kessington Machine Products, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "27217 County Road 6, Elkhart, IN 46514"
+lat = 41.72471
+lon = -85.98955
+website = "https://kessington.com"
+
+sector = "Vehicles & RVs"
+products = ["Other Aircraft Part and Auxiliary Equipment Manufacturing"]
+
+employees = 75
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Aircraft Fuel Control Parts & Precision Grinding & Machining Job Shop. NAICS 336413: other aircraft part and auxiliary equipment manufacturing."

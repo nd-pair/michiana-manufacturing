@@ -1,0 +1,20 @@
+# Instrumental Machine & Development, LLC
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Instrumental Machine & Development, LLC"
+kind = "company"
+city = "Warsaw"
+state = "IN"
+address = "2098 North Pound Drive West, Warsaw, IN 46582"
+lat = 41.26371
+lon = -85.82676
+website = "https://instrumentalmachine.com"
+
+sector = "Metal"
+products = ["Machine Shops"]
+
+employees = 35
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Medical Instrument Machining Job Shop. NAICS 332710: machine shops."

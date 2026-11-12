@@ -1,0 +1,20 @@
+# Vintage Trailers Ltd.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Vintage Trailers Ltd."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "4660 Pine Creek Road, Elkhart, IN 46516"
+lat = 41.68907
+lon = -85.89864
+website = "https://not available"
+
+sector = "Vehicles & RVs"
+products = ["Travel Trailer and Camper Manufacturing"]
+
+employees = 43
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Automotive & Cargo Trailers. NAICS 336214: travel trailer and camper manufacturing."

@@ -1,0 +1,20 @@
+# Leco Corp.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Leco Corp."
+kind = "company"
+city = "Saint Joseph"
+state = "MI"
+address = "3000 Lakeview Avenue, Saint Joseph, MI 49085"
+lat = 42.08232
+lon = -86.49075
+website = "https://leco.com"
+
+sector = "Metal"
+products = ["Electroplating, Plating, Polishing, Anodizing and Coloring"]
+
+employees = 800
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Laboratory Equipment & Instruments for Research & Development. NAICS 332813: electroplating, plating, polishing, anodizing and coloring."

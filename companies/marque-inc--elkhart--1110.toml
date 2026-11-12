@@ -1,0 +1,20 @@
+# Marque, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Marque, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "1110 D I Drive, Elkhart, IN 46514"
+lat = 41.72701
+lon = -85.99288
+website = "https://marqueinc.com"
+
+sector = "Vehicles & RVs"
+products = ["Motor Vehicle Body Manufacturing"]
+
+employees = 70
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Ambulances. NAICS 336211: motor vehicle body manufacturing."

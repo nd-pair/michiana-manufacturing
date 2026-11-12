@@ -1,0 +1,20 @@
+# Beck Industries L. P.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Beck Industries L. P."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "28707 La Rue Street, Elkhart, IN 46516"
+lat = 41.66977
+lon = -86.01799
+website = "https://not available"
+
+sector = "Vehicles & RVs"
+products = ["All Other Motor Vehicle Parts Manufacturing"]
+
+employees = 40
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Mobile Home Chassis Component Parts & Seamless Electric Welded Tubing. NAICS 336399: all other motor vehicle parts manufacturing."

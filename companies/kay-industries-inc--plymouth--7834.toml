@@ -1,0 +1,20 @@
+# Kay Industries, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Kay Industries, Inc."
+kind = "company"
+city = "Plymouth"
+state = "IN"
+address = "7834 Queen Road, Plymouth, IN 46563"
+lat = 41.36385
+lon = -86.37637
+website = "https://kayind.com"
+
+sector = "Electronics"
+products = ["Motor and Generator Manufacturing"]
+
+employees = 20
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Rotary & Static Phase Converters. NAICS 335312: motor and generator manufacturing."

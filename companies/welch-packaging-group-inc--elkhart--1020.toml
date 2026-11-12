@@ -1,0 +1,20 @@
+# Welch Packaging Group, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Welch Packaging Group, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "1020 Herman Street, Elkhart, IN 46516"
+lat = 41.67857
+lon = -85.90033
+website = "https://welchpkg.com"
+
+sector = "Wood, paper & furniture"
+products = ["Corrugated and Solid Fiber Box Manufacturing"]
+
+employees = 150
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Corporate Headquarters & Corrugated Materials, Point-Of-Purchase Displays & Foam Interiors. NAICS 322211: corrugated and solid fiber box manufacturing."

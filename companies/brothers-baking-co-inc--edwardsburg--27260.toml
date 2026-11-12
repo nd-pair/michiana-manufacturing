@@ -1,0 +1,20 @@
+# Brothers Baking Co., Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Brothers Baking Co., Inc."
+kind = "company"
+city = "Edwardsburg"
+state = "MI"
+address = "27260 Max Street, Edwardsburg, MI 49112"
+lat = 41.78885
+lon = -86.09005
+website = "https://not available"
+
+sector = "Food & consumer goods"
+products = ["Retail Bakeries"]
+
+employees = 50
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Doughnuts, Cakes & Cinnamon Rolls. NAICS 311811: retail bakeries."

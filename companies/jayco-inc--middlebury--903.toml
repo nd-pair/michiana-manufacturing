@@ -1,0 +1,20 @@
+# Jayco, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Jayco, Inc."
+kind = "company"
+city = "Middlebury"
+state = "IN"
+address = "903 South Main Street, Middlebury, IN 46540"
+lat = 41.65230
+lon = -85.70600
+website = "https://jayco.com"
+
+sector = "Wood, paper & furniture"
+products = ["Manufactured Home (mobile Home) Manufacturing"]
+
+employees = 1300
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Corporate Headquarters & Recreational Vehicles. NAICS 321991: manufactured home (mobile home) manufacturing."

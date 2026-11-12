@@ -1,0 +1,20 @@
+# Keystone RV Co.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Keystone RV Co."
+kind = "company"
+city = "Goshen"
+state = "IN"
+address = "2642 Hackberry Drive, Goshen, IN 46526"
+lat = 41.54646
+lon = -85.79772
+website = "https://keystonerv.com"
+
+sector = "Vehicles & RVs"
+products = ["Travel Trailer and Camper Manufacturing"]
+
+employees = 570
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Divisional Headquarters & Travel Trailers & Wheels. NAICS 336214: travel trailer and camper manufacturing."

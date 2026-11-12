@@ -1,0 +1,20 @@
+# Apollo Precision Machining, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Apollo Precision Machining, Inc."
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "4085 Ralph Jones Drive, South Bend, IN 46628"
+lat = 41.73213
+lon = -86.30109
+website = "https://apollopm.com"
+
+sector = "Metal"
+products = ["Machine Shops"]
+
+employees = 25
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "General Machining Job Shop. NAICS 332710: machine shops."

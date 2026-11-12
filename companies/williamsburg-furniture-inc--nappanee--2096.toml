@@ -1,0 +1,20 @@
+# Williamsburg Furniture, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Williamsburg Furniture, Inc."
+kind = "company"
+city = "Nappanee"
+state = "IN"
+address = "2096 Cheyenne Street, Nappanee, IN 46550"
+lat = 41.44833
+lon = -86.03075
+website = "https://not available"
+
+sector = "Wood, paper & furniture"
+products = ["Nonupholstered Wood Household Furniture Manufacturing"]
+
+employees = 100
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Recreational Vehicle & Hospitality Furniture & Mattresses. NAICS 337122: nonupholstered wood household furniture manufacturing."

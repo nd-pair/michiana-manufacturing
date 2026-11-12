@@ -1,0 +1,20 @@
+# Esco Industries of Indiana
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Esco Industries of Indiana"
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "1701 Conant Street, Elkhart, IN 46516"
+lat = 41.68523
+lon = -85.93871
+website = "https://not available"
+
+sector = "Materials & composites"
+products = ["Gypsum Product Manufacturing"]
+
+employees = 20
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Laminated Wallboards. NAICS 327420: gypsum product manufacturing."

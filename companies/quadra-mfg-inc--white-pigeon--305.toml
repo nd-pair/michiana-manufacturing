@@ -1,0 +1,20 @@
+# Quadra Mfg., Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Quadra Mfg., Inc."
+kind = "company"
+city = "White Pigeon"
+state = "MI"
+address = "305 South US Highway 131, White Pigeon, MI 49099"
+lat = 41.79031
+lon = -85.66221
+website = "https://quadraleveler.com"
+
+sector = "Mechatronics & automation"
+products = ["Fluid Power Cylinder and Actuator Manufacturing"]
+
+employees = 30
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Hydraulic Levelers. NAICS 333995: fluid power cylinder and actuator manufacturing."

@@ -1,0 +1,20 @@
+# Dalton Corp.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Dalton Corp."
+kind = "company"
+city = "Warsaw"
+state = "IN"
+address = "3755 Lake City Highway, Warsaw, IN 46580"
+lat = 41.23003
+lon = -85.79883
+website = "https://daltonfoundries.com"
+
+sector = "Metal"
+products = ["Other Nonferrous Foundries (except Die-Casting)"]
+
+employees = 1000
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Corporate Headquarters & Gray Iron Castings. NAICS 331528: other nonferrous foundries (except die-casting)."

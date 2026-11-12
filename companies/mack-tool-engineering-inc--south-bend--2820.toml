@@ -1,0 +1,20 @@
+# Mack Tool & Engineering Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Mack Tool & Engineering Inc."
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "2820 Viridian Drive, South Bend, IN 46628"
+lat = 41.71459
+lon = -86.29920
+website = "https://macktool.com"
+
+sector = "Mechatronics & automation"
+products = ["Special Die and Tool, Die Set, Jig, and Fixture Manufacturing"]
+
+employees = 52
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Prototypes & Precision Machined Parts. NAICS 333514: special die and tool, die set, jig, and fixture manufacturing."

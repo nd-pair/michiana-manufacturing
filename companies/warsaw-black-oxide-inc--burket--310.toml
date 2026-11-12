@@ -1,0 +1,20 @@
+# Warsaw Black Oxide, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Warsaw Black Oxide, Inc."
+kind = "company"
+city = "Burket"
+state = "IN"
+address = "310 South Walnut Street, Burket, IN 46508"
+lat = 41.15442
+lon = -85.96804
+website = "https://not available"
+
+sector = "Metal"
+products = ["Electroplating, Plating, Polishing, Anodizing and Coloring"]
+
+employees = 22
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Metal Finishing & Plating. NAICS 332813: electroplating, plating, polishing, anodizing and coloring."

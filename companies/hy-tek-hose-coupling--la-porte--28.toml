@@ -1,0 +1,20 @@
+# Hy-Tek Hose & Coupling
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Hy-Tek Hose & Coupling"
+kind = "company"
+city = "La Porte"
+state = "IN"
+address = "28 Industrial Parkway, La Porte, IN 46350"
+lat = 41.62404
+lon = -86.67569
+website = "https://hytekhose.com"
+
+sector = "Materials & composites"
+products = ["Rubber and Plastics Hoses and Belting Manufacturing"]
+
+employees = 27
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Hydraulic Hose Assemblies. NAICS 326220: rubber and plastics hoses and belting manufacturing."

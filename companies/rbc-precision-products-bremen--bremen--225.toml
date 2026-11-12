@@ -1,0 +1,20 @@
+# Rbc Precision Products (bremen)
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Rbc Precision Products (bremen)"
+kind = "company"
+city = "Bremen"
+state = "IN"
+address = "225 Industrial Drive, Bremen, IN 46506"
+lat = 41.44698
+lon = -86.17091
+website = "https://rbcbearings.com"
+
+sector = "Metal"
+products = ["Ball and Roller Bearing Manufacturing"]
+
+employees = 65
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Needle Bearings & Stainless & Precision Pins Rollers & Shafts. NAICS 332991: ball and roller bearing manufacturing."

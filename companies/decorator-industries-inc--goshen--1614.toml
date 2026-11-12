@@ -1,0 +1,20 @@
+# Decorator Industries, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Decorator Industries, Inc."
+kind = "company"
+city = "Goshen"
+state = "IN"
+address = "1614 Eisenhower Drive North, Goshen, IN 46526"
+lat = 41.55713
+lon = -85.81083
+website = "https://decoratorindustries.com"
+
+sector = "Food & consumer goods"
+products = ["Curtain and Drapery Mills"]
+
+employees = 150
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Draperies, Bedspreads, Balance Boards, Pillows, Shams, Tire Covers, & Tents. NAICS 314121: curtain and drapery mills."

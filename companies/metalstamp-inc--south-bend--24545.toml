@@ -1,0 +1,20 @@
+# Metalstamp, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Metalstamp, Inc."
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "24545 State Road 23, South Bend, IN 46614"
+lat = 41.62004
+lon = -86.34155
+website = "https://metalstamp-inc.com"
+
+sector = "Metal"
+products = ["Metal Stamping"]
+
+employees = 70
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Heavy Metal Stampings & Tool & Die Job Shop. NAICS 332116: metal stamping."

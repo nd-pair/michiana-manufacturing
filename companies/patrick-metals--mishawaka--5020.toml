@@ -1,0 +1,20 @@
+# Patrick Metals
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Patrick Metals"
+kind = "company"
+city = "Mishawaka"
+state = "IN"
+address = "5020 Lincoln Way East, Mishawaka, IN 46544"
+lat = 41.66365
+lon = -86.10795
+website = "https://patrickmetals.com"
+
+sector = "Metal"
+products = ["Other Aluminum Rolling and Drawing"]
+
+employees = 135
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Aluminum Extrusions & Paints. NAICS 331319: other aluminum rolling and drawing."

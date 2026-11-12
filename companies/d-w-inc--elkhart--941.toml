@@ -1,0 +1,20 @@
+# D & W, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "D & W, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "941 Oak Street, Elkhart, IN 46514"
+lat = 41.69446
+lon = -85.99419
+website = "https://dwincorp.com"
+
+sector = "Materials & composites"
+products = ["Glass Product Manufacturing Made of Purchased Glass"]
+
+employees = 80
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Mirror & Glass Fabrication. NAICS 327215: glass product manufacturing made of purchased glass."

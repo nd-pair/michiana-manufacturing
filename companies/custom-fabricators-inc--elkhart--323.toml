@@ -1,0 +1,20 @@
+# Custom Fabricators, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Custom Fabricators, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "323 South Elkhart Avenue, Elkhart, IN 46516"
+lat = 41.68689
+lon = -85.96890
+website = "https://not available"
+
+sector = "Metal"
+products = ["Metal Window and Door Manufacturing"]
+
+employees = 16
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Aluminum Windows & Curtain Walls. NAICS 332321: metal window and door manufacturing."

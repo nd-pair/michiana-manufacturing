@@ -1,0 +1,20 @@
+# Godfrey Marine
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Godfrey Marine"
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "4500 Middlebury Street, Elkhart, IN 46516"
+lat = 41.68123
+lon = -85.90039
+website = "https://godfreymarine.com"
+
+sector = "Vehicles & RVs"
+products = ["Boat Building"]
+
+employees = 650
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Divisional Headquarters & Boats. NAICS 336612: boat building."

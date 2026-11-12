@@ -1,0 +1,20 @@
+# S & H Metal Products, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "S & H Metal Products, Inc."
+kind = "company"
+city = "Topeka"
+state = "IN"
+address = "122 Redman Drive, Topeka, IN 46571"
+lat = 41.53868
+lon = -85.54934
+website = "https://not available"
+
+sector = "Metal"
+products = ["All Other Miscellaneous Fabricated Metal Product Manufacturing"]
+
+employees = 20
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Metal Wheel Wells, Generator Housings, Heating Ducts & Furnace & Grill Adapters. NAICS 332999: all other miscellaneous fabricated metal product manufacturing."

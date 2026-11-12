@@ -1,0 +1,20 @@
+# Hubbell Electrical Products, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Hubbell Electrical Products, Inc."
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "3902 West Sample Street, South Bend, IN 46619"
+lat = 41.66436
+lon = -86.30240
+website = "https://hubbell.com"
+
+sector = "Materials & composites"
+products = ["Mineral Wool Manufacturing"]
+
+employees = 340
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Electrical & Switch Boxes & Outlets. NAICS 327993: mineral wool manufacturing."

@@ -1,0 +1,20 @@
+# Federal-Mogul Corp., South Bend
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Federal-Mogul Corp., South Bend"
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "3605 West Cleveland Road Extension, South Bend, IN 46628"
+lat = 41.72611
+lon = -86.29716
+website = "https://federalmogul.com"
+
+sector = "Vehicles & RVs"
+products = ["Carburetor, Piston, Piston Ring, and Valve Manufacturing"]
+
+employees = 425
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Automotive Pistons. NAICS 336311: carburetor, piston, piston ring, and valve manufacturing."

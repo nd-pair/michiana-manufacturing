@@ -1,0 +1,20 @@
+# Gemstone Musical Instruments
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Gemstone Musical Instruments"
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "57882 State Road 19, Elkhart, IN 46517"
+lat = 41.65471
+lon = -86.00265
+website = "https://gemstonemusical.com"
+
+sector = "Medical devices & other"
+products = ["Musical Instrument Manufacturing"]
+
+employees = 65
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Flutes, Piccolos, Clarinets, Saxophones, Strings & Brass. NAICS 339992: musical instrument manufacturing."

@@ -1,0 +1,20 @@
+# Polytron Corp.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Polytron Corp."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "4400 Wyland Drive, Elkhart, IN 46516"
+lat = 41.69224
+lon = -85.90305
+website = "https://polytron-corp.com"
+
+sector = "Electronics"
+products = ["Other Electronic Component Manufacturing"]
+
+employees = 57
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Timers & Controllers for OEM Applications. NAICS 334419: other electronic component manufacturing."

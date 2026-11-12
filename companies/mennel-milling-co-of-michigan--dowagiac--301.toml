@@ -1,0 +1,20 @@
+# Mennel Milling Co. of Michigan
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Mennel Milling Co. of Michigan"
+kind = "company"
+city = "Dowagiac"
+state = "MI"
+address = "301 South Mill Street, Dowagiac, MI 49047"
+lat = 41.98263
+lon = -86.10201
+website = "https://mennel.com"
+
+sector = "Food & consumer goods"
+products = ["Flour Milling"]
+
+employees = 22
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Flour Milling & Processing. NAICS 311211: flour milling."

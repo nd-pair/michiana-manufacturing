@@ -1,0 +1,20 @@
+# Bender Products, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Bender Products, Inc."
+kind = "company"
+city = "Mishawaka"
+state = "IN"
+address = "55951 Russell Industrial Parkway, Mishawaka, IN 46545"
+lat = 41.68179
+lon = -86.12321
+website = "https://benderprod.com"
+
+sector = "Mechatronics & automation"
+products = ["Industrial Mold Manufacturing"]
+
+employees = 35
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Plastic Injection Molds. NAICS 333511: industrial mold manufacturing."

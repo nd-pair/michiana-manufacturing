@@ -1,0 +1,20 @@
+# Tranter Graphics, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Tranter Graphics, Inc."
+kind = "company"
+city = "Syracuse"
+state = "IN"
+address = "8094 North State Road 13, Syracuse, IN 46567"
+lat = 41.35214
+lon = -85.70086
+website = "https://trantergraphics.com"
+
+sector = "Wood, paper & furniture"
+products = ["All Other Converted Paper Product Manufacturing"]
+
+employees = 80
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Paper & Plastic Products. NAICS 322299: all other converted paper product manufacturing."

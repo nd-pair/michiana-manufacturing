@@ -1,0 +1,20 @@
+# Miller Mfg. Corp.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Miller Mfg. Corp."
+kind = "company"
+city = "Nappanee"
+state = "IN"
+address = "901 East Lincoln Street, Nappanee, IN 46550"
+lat = 41.44138
+lon = -85.99233
+website = "https://millermfgcorp.com"
+
+sector = "Metal"
+products = ["Iron and Steel Pipe and Tube Manufacturing From Purchased Steel"]
+
+employees = 40
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Metal & Tube Bending, Aluminum & Steel Welding & Fabrication. NAICS 331210: iron and steel pipe and tube manufacturing from purchased steel."

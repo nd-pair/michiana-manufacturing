@@ -1,0 +1,20 @@
+# Criterion Catalyst & Technologies L. P.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Criterion Catalyst & Technologies L. P."
+kind = "company"
+city = "Michigan City"
+state = "IN"
+address = "1800 East US Highway 12, Michigan City, IN 46360"
+lat = 41.72664
+lon = -86.87321
+website = "https://criterioncatalysts.com"
+
+sector = "Materials & composites"
+products = ["All Other Basic Inorganic Chemical Manufacturing"]
+
+employees = 73
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Precipitated Alumina Powders. NAICS 325188: all other basic inorganic chemical manufacturing."

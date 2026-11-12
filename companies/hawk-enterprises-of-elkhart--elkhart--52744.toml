@@ -1,0 +1,20 @@
+# Hawk Enterprises of Elkhart
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Hawk Enterprises of Elkhart"
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "52744 Park Six Court, Elkhart, IN 46514"
+lat = 41.72771
+lon = -85.95358
+website = "https://hawkenterprises.com"
+
+sector = "Materials & composites"
+products = ["Polish and Other Sanitation Good Manufacturing"]
+
+employees = 15
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Floor Polishes. NAICS 325612: polish and other sanitation good manufacturing."

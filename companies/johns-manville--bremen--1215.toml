@@ -1,0 +1,20 @@
+# Johns Manville
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Johns Manville"
+kind = "company"
+city = "Bremen"
+state = "IN"
+address = "1215 West Dewey Street, Bremen, IN 46506"
+lat = 41.45088
+lon = -86.16144
+website = "https://jm.com"
+
+sector = "Materials & composites"
+products = ["Mineral Wool Manufacturing"]
+
+employees = 45
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Rigid Insulation Panels. NAICS 327993: mineral wool manufacturing."

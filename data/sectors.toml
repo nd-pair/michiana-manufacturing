@@ -30,3 +30,23 @@ description = "Software, consulting, logistics"
 name = "Capital & anchors"
 color = "#5fd35f"
 description = "Investors, university units and other anchors"
+
+[[sector]]
+name = "Vehicles & RVs"
+color = "#a78bfa"
+description = "Transportation equipment: recreational vehicles, trailers, vehicle parts, boats"
+
+[[sector]]
+name = "Wood, paper & furniture"
+color = "#c08457"
+description = "Wood products, paper, printing, furniture and cabinetry"
+
+[[sector]]
+name = "Food & consumer goods"
+color = "#ef5b5b"
+description = "Food and beverage, textiles, apparel, leather"
+
+[[sector]]
+name = "Medical devices & other"
+color = "#4dd0e1"
+description = "Medical devices and instruments, and other manufacturing"

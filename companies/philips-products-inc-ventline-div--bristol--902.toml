@@ -1,0 +1,20 @@
+# Philips Products Inc., Ventline Div.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Philips Products Inc., Ventline Div."
+kind = "company"
+city = "Bristol"
+state = "IN"
+address = "902 South Division Street, Bristol, IN 46507"
+lat = 41.71310
+lon = -85.81689
+website = "https://ventline.com"
+
+sector = "Mechatronics & automation"
+products = ["Industrial and Commercial Fan and Blower Manufacturing"]
+
+employees = 250
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Ceiling & Sidewall Exhaust Fans, Range Hoods, Louvered Doors, Roof & Gas Water Heater Vents & Metal Stampings. NAICS 333412: industrial and commercial fan and blower manufacturing."

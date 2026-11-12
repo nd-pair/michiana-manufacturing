@@ -1,0 +1,20 @@
+# Ecm Converting Co.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Ecm Converting Co."
+kind = "company"
+city = "Mendon"
+state = "MI"
+address = "26920 M-60, Mendon, MI 49072"
+lat = 42.00759
+lon = -85.43151
+website = "https://ecmconverting.com"
+
+sector = "Wood, paper & furniture"
+products = ["Paperboard Mills"]
+
+employees = 55
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Paperboard Converting. NAICS 322130: paperboard mills."

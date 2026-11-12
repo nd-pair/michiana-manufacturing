@@ -1,0 +1,20 @@
+# Hbe Engineering, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Hbe Engineering, Inc."
+kind = "company"
+city = "Three Rivers"
+state = "MI"
+address = "205 Portage Avenue, Three Rivers, MI 49093"
+lat = 41.94747
+lon = -85.63264
+website = "https://hbe-engineering.com"
+
+sector = "Metal"
+products = ["Industrial Valve Manufacturing"]
+
+employees = 40
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Valves. NAICS 332911: industrial valve manufacturing."

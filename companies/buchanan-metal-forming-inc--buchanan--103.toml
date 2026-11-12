@@ -1,0 +1,20 @@
+# Buchanan Metal Forming, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Buchanan Metal Forming, Inc."
+kind = "company"
+city = "Buchanan"
+state = "MI"
+address = "103 West Smith Street, Buchanan, MI 49107"
+lat = 41.82298
+lon = -86.36166
+website = "https://bmfcorp.com"
+
+sector = "Metal"
+products = ["Metal Stamping"]
+
+employees = 35
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Corporate Headquarters & Cold Forming Components for the Agricultural, Automotive, Off-Highway Equipment & Mining Industries. NAICS 332116: metal stamping."

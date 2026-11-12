@@ -1,0 +1,20 @@
+# Nextech Corp.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Nextech Corp."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "1600 West Mishawaka Road, Elkhart, IN 46517"
+lat = 41.65515
+lon = -85.99080
+website = "https://nextechcorp.net"
+
+sector = "Wood, paper & furniture"
+products = ["Wood Office Furniture Manufacturing"]
+
+employees = 15
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Trading Desks. NAICS 337211: wood office furniture manufacturing."

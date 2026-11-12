@@ -1,0 +1,20 @@
+# Glaval Bus
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Glaval Bus"
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "55152 County Road 1, Elkhart, IN 46514"
+lat = 41.69392
+lon = -86.04193
+website = "https://glavalbus.com"
+
+sector = "Vehicles & RVs"
+products = ["Motor Home Manufacturing"]
+
+employees = 300
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Transit & Shuttle Buses, Including Paratransit Equipment, Electronic Entertainment Packages & Luggage Storage. NAICS 336213: motor home manufacturing."

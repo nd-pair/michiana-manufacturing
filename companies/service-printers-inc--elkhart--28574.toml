@@ -1,0 +1,20 @@
+# Service Printers, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Service Printers, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "28574 Phillips Street, Elkhart, IN 46514"
+lat = 41.69406
+lon = -86.01594
+website = "https://serviceprinterinc.com"
+
+sector = "Wood, paper & furniture"
+products = ["Other Commercial Printing"]
+
+employees = 60
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Commercial Printing. NAICS 323119: other commercial printing."

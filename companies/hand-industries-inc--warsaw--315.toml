@@ -1,0 +1,20 @@
+# Hand Industries, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Hand Industries, Inc."
+kind = "company"
+city = "Warsaw"
+state = "IN"
+address = "315 South Hand Avenue, Warsaw, IN 46580"
+lat = 41.23564
+lon = -85.87003
+website = "https://handindustries.com"
+
+sector = "Metal"
+products = ["Electroplating, Plating, Polishing, Anodizing and Coloring"]
+
+employees = 25
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Metal Finishing & Polishing & Aerospace & Custom Imprinted Products. NAICS 332813: electroplating, plating, polishing, anodizing and coloring."

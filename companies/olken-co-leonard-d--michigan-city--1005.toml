@@ -1,0 +1,20 @@
+# Olken Co., Leonard D.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Olken Co., Leonard D."
+kind = "company"
+city = "Michigan City"
+state = "IN"
+address = "1005 East Michigan Boulevard, Michigan City, IN 46360"
+lat = 41.71375
+lon = -86.88913
+website = "https://not available"
+
+sector = "Metal"
+products = ["Fabricated Structural Metal Manufacturing"]
+
+employees = 35
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Steel Towers & Tubes. NAICS 332312: fabricated structural metal manufacturing."

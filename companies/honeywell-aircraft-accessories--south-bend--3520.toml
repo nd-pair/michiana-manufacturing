@@ -1,0 +1,20 @@
+# Honeywell, Aircraft Accessories
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Honeywell, Aircraft Accessories"
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "3520 Westmoor Street, South Bend, IN 46628"
+lat = 41.68432
+lon = -86.29898
+website = "https://honeywell.com"
+
+sector = "Vehicles & RVs"
+products = ["Other Aircraft Part and Auxiliary Equipment Manufacturing"]
+
+employees = 800
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Aircraft Brakes, Landing Gears & Helicopter Tie Bars. NAICS 336413: other aircraft part and auxiliary equipment manufacturing."

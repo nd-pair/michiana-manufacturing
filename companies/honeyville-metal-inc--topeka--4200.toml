@@ -1,0 +1,20 @@
+# Honeyville Metal, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Honeyville Metal, Inc."
+kind = "company"
+city = "Topeka"
+state = "IN"
+address = "4200 South 900 West, Topeka, IN 46571"
+lat = 41.57878
+lon = -85.59978
+website = "https://honeyvillemetal.com"
+
+sector = "Metal"
+products = ["All Other Miscellaneous Fabricated Metal Product Manufacturing"]
+
+employees = 56
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Metal Fabrication, Dust Collection/filtration Systems & Agricultural Material Handling Equipment. NAICS 332999: all other miscellaneous fabricated metal product manufacturing."

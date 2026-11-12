@@ -1,0 +1,20 @@
+# Classic Mfg., Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Classic Mfg., Inc."
+kind = "company"
+city = "Sturgis"
+state = "MI"
+address = "21900 US Highway 12, Sturgis, MI 49091"
+lat = 41.79339
+lon = -85.52815
+website = "https://classicmfg.com"
+
+sector = "Wood, paper & furniture"
+products = ["Manufactured Home (mobile Home) Manufacturing"]
+
+employees = 65
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Cargo Race Trailers. NAICS 321991: manufactured home (mobile home) manufacturing."

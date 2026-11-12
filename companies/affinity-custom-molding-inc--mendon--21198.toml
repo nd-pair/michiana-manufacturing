@@ -1,0 +1,20 @@
+# Affinity Custom Molding, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Affinity Custom Molding, Inc."
+kind = "company"
+city = "Mendon"
+state = "MI"
+address = "21198 M-60, Mendon, MI 49072"
+lat = 42.00625
+lon = -85.54364
+website = "https://affinitycustommolding.com"
+
+sector = "Materials & composites"
+products = ["All Other Plastics Product Manufacturing"]
+
+employees = 46
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Plastic Injection Molding. NAICS 326199: all other plastics product manufacturing."

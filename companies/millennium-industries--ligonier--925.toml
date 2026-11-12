@@ -1,0 +1,20 @@
+# Millennium Industries
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Millennium Industries"
+kind = "company"
+city = "Ligonier"
+state = "IN"
+address = "925 North Main Street, Ligonier, IN 46767"
+lat = 41.47315
+lon = -85.58882
+website = "https://mill-ind.com"
+
+sector = "Vehicles & RVs"
+products = ["All Other Motor Vehicle Parts Manufacturing"]
+
+employees = 275
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Automotive Fuel Rails, Including Low & High Pressure Systems. NAICS 336399: all other motor vehicle parts manufacturing."

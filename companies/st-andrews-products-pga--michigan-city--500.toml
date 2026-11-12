@@ -1,0 +1,20 @@
+# St. Andrews Products/pga
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "St. Andrews Products/pga"
+kind = "company"
+city = "Michigan City"
+state = "IN"
+address = "500 Mariner Drive, Michigan City, IN 46360"
+lat = 41.73312
+lon = -86.82941
+website = "https://standrewsproducts-golf.com"
+
+sector = "Wood, paper & furniture"
+products = ["Commercial Screen Printing"]
+
+employees = 60
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Embroidery & Screen Printing. NAICS 323113: commercial screen printing."

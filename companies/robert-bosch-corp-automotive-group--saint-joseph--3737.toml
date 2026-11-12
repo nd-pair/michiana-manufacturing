@@ -1,0 +1,20 @@
+# Robert Bosch Corp., Automotive Group
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Robert Bosch Corp., Automotive Group"
+kind = "company"
+city = "Saint Joseph"
+state = "MI"
+address = "3737 Red Arrow Highway, Saint Joseph, MI 49085"
+lat = 42.05008
+lon = -86.51383
+website = "https://boschusa.com"
+
+sector = "Vehicles & RVs"
+products = ["Railroad Rolling Stock Manufacturing"]
+
+employees = 700
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Brake Components. NAICS 336510: railroad rolling stock manufacturing."

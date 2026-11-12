@@ -1,0 +1,20 @@
+# Roll Coater, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Roll Coater, Inc."
+kind = "company"
+city = "La Porte"
+state = "IN"
+address = "858 East Hupp Road, La Porte, IN 46350"
+lat = 41.51653
+lon = -86.66919
+website = "https://rollcoater.com"
+
+sector = "Metal"
+products = ["Metal Coating, Engraving (except Jewelry and Silverware), and Allied Services To Manufacturers"]
+
+employees = 200
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Steel Coil Coating. NAICS 332812: metal coating, engraving (except jewelry and silverware), and allied services to manufacturers."

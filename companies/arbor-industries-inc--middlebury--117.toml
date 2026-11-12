@@ -1,0 +1,20 @@
+# Arbor Industries, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Arbor Industries, Inc."
+kind = "company"
+city = "Middlebury"
+state = "IN"
+address = "117 14th Avenue, Middlebury, IN 46540"
+lat = 41.68686
+lon = -85.69824
+website = "https://not available"
+
+sector = "Wood, paper & furniture"
+products = ["Cut Stock, Resawing Lumber, and Planing"]
+
+employees = 30
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Industrial Wood Dimensions. NAICS 321912: cut stock, resawing lumber, and planing."

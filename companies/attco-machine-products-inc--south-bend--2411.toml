@@ -1,0 +1,20 @@
+# Attco Machine Products, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Attco Machine Products, Inc."
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "2411 Foundation Drive, South Bend, IN 46628"
+lat = 41.70951
+lon = -86.30448
+website = "https://attco.com"
+
+sector = "Vehicles & RVs"
+products = ["Other Aircraft Part and Auxiliary Equipment Manufacturing"]
+
+employees = 45
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Aircraft & Missile Machine Component Parts. NAICS 336413: other aircraft part and auxiliary equipment manufacturing."

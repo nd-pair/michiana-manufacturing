@@ -1,0 +1,20 @@
+# Heritage Park Models, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Heritage Park Models, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "25786 Miner Road, Elkhart, IN 46514"
+lat = 41.71408
+lon = -85.96242
+website = "https://heritageparkmodels.com"
+
+sector = "Vehicles & RVs"
+products = ["Truck Trailer Manufacturing"]
+
+employees = 28
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "RV Models. NAICS 336212: truck trailer manufacturing."

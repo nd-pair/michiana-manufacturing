@@ -1,0 +1,20 @@
+# Hoosier Wood Creations
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Hoosier Wood Creations"
+kind = "company"
+city = "New Paris"
+state = "IN"
+address = "19881 County Road 146, New Paris, IN 46553"
+lat = 41.49333
+lon = -85.84502
+website = "https://not available"
+
+sector = "Wood, paper & furniture"
+products = ["Nonupholstered Wood Household Furniture Manufacturing"]
+
+employees = 40
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Wooden Furniture, Including Tables & Chairs. NAICS 337122: nonupholstered wood household furniture manufacturing."

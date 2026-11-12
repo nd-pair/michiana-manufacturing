@@ -1,0 +1,20 @@
+# Frech U. S. A., Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Frech U. S. A., Inc."
+kind = "company"
+city = "Michigan City"
+state = "IN"
+address = "6000 Ohio Street, Michigan City, IN 46360"
+lat = 41.66632
+lon = -86.90409
+website = "https://frech.com"
+
+sector = "Mechatronics & automation"
+products = ["Machine Tool (metal Forming Types) Manufacturing"]
+
+employees = 17
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Die Casting Machines. NAICS 333513: machine tool (metal forming types) manufacturing."

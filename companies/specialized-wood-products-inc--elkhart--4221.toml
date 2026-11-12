@@ -1,0 +1,20 @@
+# Specialized Wood Products, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Specialized Wood Products, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "4221 Middlebury Street, Elkhart, IN 46516"
+lat = 41.68126
+lon = -85.90646
+website = "https://thewoodcompany.com"
+
+sector = "Wood, paper & furniture"
+products = ["Sawmills"]
+
+employees = 20
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Lumber Processing & Custom Moulding, Millwork, Finishing & CNC Milling & Turning. NAICS 321113: sawmills."

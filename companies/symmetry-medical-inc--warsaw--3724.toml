@@ -1,0 +1,20 @@
+# Symmetry Medical, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Symmetry Medical, Inc."
+kind = "company"
+city = "Warsaw"
+state = "IN"
+address = "3724 North State Road 15, Warsaw, IN 46582"
+lat = 41.28518
+lon = -85.85327
+website = "https://symmetrymedical.com"
+
+sector = "Medical devices & other"
+products = ["Surgical and Medical Instrument Manufacturing"]
+
+employees = 350
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Corporate Headquarters & Medical Instruments for the Dental, Cardiovascular & Opthalmology Fields. NAICS 339112: surgical and medical instrument manufacturing."

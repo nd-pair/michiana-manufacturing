@@ -1,0 +1,20 @@
+# O-I, Inc., Closure Division Plt.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "O-I, Inc., Closure Division Plt."
+kind = "company"
+city = "Constantine"
+state = "MI"
+address = "950 Industrial Drive, Constantine, MI 49042"
+lat = 41.83557
+lon = -85.65598
+website = "https://o-i.com"
+
+sector = "Materials & composites"
+products = ["All Other Plastics Product Manufacturing"]
+
+employees = 220
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Plastic Closures & Bottle Caps. NAICS 326199: all other plastics product manufacturing."

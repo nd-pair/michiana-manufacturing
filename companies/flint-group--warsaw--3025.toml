@@ -1,0 +1,20 @@
+# Flint Group
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Flint Group"
+kind = "company"
+city = "Warsaw"
+state = "IN"
+address = "3025 West Old Road 30, Warsaw, IN 46580"
+lat = 41.24729
+lon = -85.90298
+website = "https://flintink.com"
+
+sector = "Materials & composites"
+products = ["Printing Ink Manufacturing"]
+
+employees = 24
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Printing Ink. NAICS 325910: printing ink manufacturing."

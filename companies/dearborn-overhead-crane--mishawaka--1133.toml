@@ -1,0 +1,20 @@
+# Dearborn Overhead Crane
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Dearborn Overhead Crane"
+kind = "company"
+city = "Mishawaka"
+state = "IN"
+address = "1133 East 5th Street, Mishawaka, IN 46544"
+lat = 41.65820
+lon = -86.16234
+website = "https://dearborncrane.com"
+
+sector = "Mechatronics & automation"
+products = ["Overhead Traveling Crane, Hoist, and Monorail System Manufacturing"]
+
+employees = 19
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Cranes, Jib Cranes & Hoists. NAICS 333923: overhead traveling crane, hoist, and monorail system manufacturing."

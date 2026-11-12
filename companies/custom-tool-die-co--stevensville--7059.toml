@@ -1,0 +1,20 @@
+# Custom Tool & Die Co.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Custom Tool & Die Co."
+kind = "company"
+city = "Stevensville"
+state = "MI"
+address = "7059 Red Arrow Highway, Stevensville, MI 49127"
+lat = 41.99027
+lon = -86.53647
+website = "https://ctd1.com"
+
+sector = "Mechatronics & automation"
+products = ["Special Die and Tool, Die Set, Jig, and Fixture Manufacturing"]
+
+employees = 40
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Tool & Die Job Shop. NAICS 333514: special die and tool, die set, jig, and fixture manufacturing."

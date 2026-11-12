@@ -1,0 +1,20 @@
+# Capitol Technologies, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Capitol Technologies, Inc."
+kind = "company"
+city = "Niles"
+state = "MI"
+address = "2950 Redfield Road, Niles, MI 49120"
+lat = 41.76759
+lon = -86.15203
+website = "https://capitoltech.com"
+
+sector = "Mechatronics & automation"
+products = ["Other Metalworking Machinery Manufacturing"]
+
+employees = 200
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Metalforming Automation Systems. NAICS 333518: other metalworking machinery manufacturing."

@@ -1,0 +1,20 @@
+# Century Truck Caps
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Century Truck Caps"
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "1131 D I Drive, Elkhart, IN 46514"
+lat = 41.72643
+lon = -85.99370
+website = "https://centurycaps.com"
+
+sector = "Materials & composites"
+products = ["Mineral Wool Manufacturing"]
+
+employees = 220
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Laminated Fiberglass & Aluminum Truck Caps & Lids. NAICS 327993: mineral wool manufacturing."

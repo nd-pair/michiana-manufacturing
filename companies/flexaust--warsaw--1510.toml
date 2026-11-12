@@ -1,0 +1,20 @@
+# Flexaust
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Flexaust"
+kind = "company"
+city = "Warsaw"
+state = "IN"
+address = "1510 Armstrong Road, Warsaw, IN 46580"
+lat = 41.24189
+lon = -85.87677
+website = "https://flexaust.com"
+
+sector = "Materials & composites"
+products = ["Rubber and Plastics Hoses and Belting Manufacturing"]
+
+employees = 100
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Company Headquarters & Flexible Plastic Hose, Ducting & Accessories. NAICS 326220: rubber and plastics hoses and belting manufacturing."

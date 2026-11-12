@@ -1,0 +1,20 @@
+# Crosbie Foundry Co., Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Crosbie Foundry Co., Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "1600 Mishawaka Street, Elkhart, IN 46514"
+lat = 41.69565
+lon = -85.99874
+website = "https://crosbiefoundry.com"
+
+sector = "Metal"
+products = ["Other Nonferrous Foundries (except Die-Casting)"]
+
+employees = 30
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Nonferrous Sand Castings. NAICS 331528: other nonferrous foundries (except die-casting)."

@@ -1,0 +1,20 @@
+# C & G Wiring, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "C & G Wiring, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "1130 County Road 6 West, Elkhart, IN 46514"
+lat = 41.72469
+lon = -85.99535
+website = "https://not available"
+
+sector = "Electronics"
+products = ["Other Electronic Component Manufacturing"]
+
+employees = 30
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "RV & Automotive Wiring Harnesses. NAICS 334419: other electronic component manufacturing."

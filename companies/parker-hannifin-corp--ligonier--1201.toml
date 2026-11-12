@@ -1,0 +1,20 @@
+# Parker Hannifin Corp.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Parker Hannifin Corp."
+kind = "company"
+city = "Ligonier"
+state = "IN"
+address = "1201 Gerber Street, Ligonier, IN 46767"
+lat = 41.47328
+lon = -85.60216
+website = "https://parker.com"
+
+sector = "Materials & composites"
+products = ["All Other Rubber Product Manufacturing"]
+
+employees = 100
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Rubber Transmission Seals. NAICS 326299: all other rubber product manufacturing."

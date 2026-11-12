@@ -1,0 +1,20 @@
+# Standard Tool & Die, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Standard Tool & Die, Inc."
+kind = "company"
+city = "Stevensville"
+state = "MI"
+address = "2950 Johnson Road, Stevensville, MI 49127"
+lat = 42.00692
+lon = -86.52138
+website = "https://standardtool.net"
+
+sector = "Mechatronics & automation"
+products = ["Special Die and Tool, Die Set, Jig, and Fixture Manufacturing"]
+
+employees = 60
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Tool & Die Job Shop. NAICS 333514: special die and tool, die set, jig, and fixture manufacturing."

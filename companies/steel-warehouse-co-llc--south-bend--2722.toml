@@ -1,0 +1,20 @@
+# Steel Warehouse Co., LLC
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Steel Warehouse Co., LLC"
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "2722 Tucker Drive, South Bend, IN 46619"
+lat = 41.66019
+lon = -86.28713
+website = "https://steelwarehouse.com"
+
+sector = "Metal"
+products = ["Iron and Steel Mills"]
+
+employees = 460
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Corporate Headquarters & Steel Fabrication, Tubing, Steel Pickling, Slitting, Leveling, Shearing & Tamper Rolling. NAICS 331111: iron and steel mills."

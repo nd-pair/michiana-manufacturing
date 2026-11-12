@@ -1,0 +1,20 @@
+# Lippert Components, Inc., Plt. 37
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Lippert Components, Inc., Plt. 37"
+kind = "company"
+city = "Goshen"
+state = "IN"
+address = "16840 Skyview Road, Goshen, IN 46526"
+lat = 41.54352
+lon = -85.78364
+website = "https://lippertcomponents.com"
+
+sector = "Vehicles & RVs"
+products = ["Motor Home Manufacturing"]
+
+employees = 40
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Recreational Vehicle Flight-Out Systems & Ramps. NAICS 336213: motor home manufacturing."

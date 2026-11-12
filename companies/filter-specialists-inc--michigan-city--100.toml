@@ -1,0 +1,20 @@
+# Filter Specialists, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Filter Specialists, Inc."
+kind = "company"
+city = "Michigan City"
+state = "IN"
+address = "100 Anchor Road, Michigan City, IN 46360"
+lat = 41.73802
+lon = -86.83066
+website = "https://fsifilters.com"
+
+sector = "Materials & composites"
+products = ["Mineral Wool Manufacturing"]
+
+employees = 150
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Corporate Headquarters & Filtration Systems, Including Filter Vessels, Filtration Bags & Cartridges. NAICS 327993: mineral wool manufacturing."

@@ -1,0 +1,20 @@
+# Circle C Mold
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Circle C Mold"
+kind = "company"
+city = "Mendon"
+state = "MI"
+address = "55664 Parkville Road, Mendon, MI 49072"
+lat = 41.98902
+lon = -85.54801
+website = "https://not available"
+
+sector = "Mechatronics & automation"
+products = ["Industrial Mold Manufacturing"]
+
+employees = 15
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Plastic Injection Molds. NAICS 333511: industrial mold manufacturing."

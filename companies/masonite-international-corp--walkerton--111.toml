@@ -1,0 +1,20 @@
+# Masonite International Corp.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Masonite International Corp."
+kind = "company"
+city = "Walkerton"
+state = "IN"
+address = "111 Muskin Drive, Walkerton, IN 46574"
+lat = 41.46889
+lon = -86.49141
+website = "https://masonite.com"
+
+sector = "Wood, paper & furniture"
+products = ["Wood Window and Door Manufacturing"]
+
+employees = 300
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Wooden Interior Flush Doors. NAICS 321911: wood window and door manufacturing."

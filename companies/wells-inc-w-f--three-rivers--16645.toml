@@ -1,0 +1,20 @@
+# Wells, Inc., W. F.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Wells, Inc., W. F."
+kind = "company"
+city = "Three Rivers"
+state = "MI"
+address = "16645 Heimbach Road, Three Rivers, MI 49093"
+lat = 41.99813
+lon = -85.63200
+website = "https://wfwells.com"
+
+sector = "Mechatronics & automation"
+products = ["Sawmill and Woodworking Machinery Manufacturing"]
+
+employees = 30
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Band Saws. NAICS 333210: sawmill and woodworking machinery manufacturing."

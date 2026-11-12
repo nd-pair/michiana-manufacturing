@@ -1,0 +1,20 @@
+# Delta Industrial Valves
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Delta Industrial Valves"
+kind = "company"
+city = "Niles"
+state = "MI"
+address = "801 Carberry Road, Niles, MI 49120"
+lat = 41.81233
+lon = -86.21461
+website = "https://not available"
+
+sector = "Metal"
+products = ["Industrial Valve Manufacturing"]
+
+employees = 25
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Industrial Valves. NAICS 332911: industrial valve manufacturing."

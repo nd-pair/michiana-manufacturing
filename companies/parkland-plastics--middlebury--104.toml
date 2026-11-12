@@ -1,0 +1,20 @@
+# Parkland Plastics
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Parkland Plastics"
+kind = "company"
+city = "Middlebury"
+state = "IN"
+address = "104 Yoder Drive, Middlebury, IN 46540"
+lat = 41.69067
+lon = -85.69706
+website = "https://parklandplastics.com"
+
+sector = "Materials & composites"
+products = ["Laminated Plastics Plate, Sheet (except Packaging), and Shape Manufacturing"]
+
+employees = 46
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Performance Walls & Ceilings. NAICS 326130: laminated plastics plate, sheet (except packaging), and shape manufacturing."

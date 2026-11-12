@@ -1,0 +1,20 @@
+# Showhauler Trucks, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Showhauler Trucks, Inc."
+kind = "company"
+city = "Middlebury"
+state = "IN"
+address = "114 Industrial Parkway East, Middlebury, IN 46540"
+lat = 41.64551
+lon = -85.70397
+website = "https://showhauler.com"
+
+sector = "Vehicles & RVs"
+products = ["Motor Home Manufacturing"]
+
+employees = 42
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Motor Home Conversions. NAICS 336213: motor home manufacturing."

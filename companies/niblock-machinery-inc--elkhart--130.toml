@@ -1,0 +1,20 @@
+# Niblock Machinery, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Niblock Machinery, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "130 East Windsor Avenue, Elkhart, IN 46514"
+lat = 41.72711
+lon = -85.97544
+website = "https://niblockmachinery.com"
+
+sector = "Metal"
+products = ["Machine Shops"]
+
+employees = 20
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Rebuilt Machinery. NAICS 332710: machine shops."

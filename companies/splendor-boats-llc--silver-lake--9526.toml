@@ -1,0 +1,20 @@
+# Splendor Boats, LLC
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Splendor Boats, LLC"
+kind = "company"
+city = "Silver Lake"
+state = "IN"
+address = "9526 South State Road 15, Silver Lake, IN 46982"
+lat = 41.09339
+lon = -85.89133
+website = "https://splendorboats.com"
+
+sector = "Materials & composites"
+products = ["Mineral Wool Manufacturing"]
+
+employees = 16
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Fiberglass Boats. NAICS 327993: mineral wool manufacturing."

@@ -1,0 +1,20 @@
+# Ave Maria Press, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Ave Maria Press, Inc."
+kind = "company"
+city = "Notre Dame"
+state = "IN"
+address = "19113 Douglas Road, Notre Dame, IN 46556"
+lat = 41.70896
+lon = -86.23705
+website = "https://avemariapress.com"
+
+sector = "Wood, paper & furniture"
+products = ["Book Printing"]
+
+employees = 55
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Book, Magazine, Catalog & Newsletter Printing. NAICS 323117: book printing."

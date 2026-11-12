@@ -1,0 +1,20 @@
+# Outsource Technologies, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Outsource Technologies, Inc."
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "1832 North Kenmore Street, South Bend, IN 46628"
+lat = 41.69928
+lon = -86.29799
+website = "https://not available"
+
+sector = "Materials & composites"
+products = ["All Other Plastics Product Manufacturing"]
+
+employees = 20
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Plastic Finishing & Assembly. NAICS 326199: all other plastics product manufacturing."

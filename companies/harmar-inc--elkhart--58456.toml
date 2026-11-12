@@ -1,0 +1,20 @@
+# Harmar, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Harmar, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "58456 County Road 3, Elkhart, IN 46517"
+lat = 41.64576
+lon = -86.02183
+website = "https://not available"
+
+sector = "Vehicles & RVs"
+products = ["Travel Trailer and Camper Manufacturing"]
+
+employees = 40
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Horse Trailers. NAICS 336214: travel trailer and camper manufacturing."

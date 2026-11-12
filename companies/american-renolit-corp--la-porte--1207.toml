@@ -1,0 +1,20 @@
+# American Renolit Corp.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "American Renolit Corp."
+kind = "company"
+city = "La Porte"
+state = "IN"
+address = "1207 East Lincolnway, La Porte, IN 46350"
+lat = 41.62344
+lon = -86.69520
+website = "https://renolit.com"
+
+sector = "Materials & composites"
+products = ["Plastics Packaging Film and Sheet (including Laminated) Manufacturing"]
+
+employees = 200
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "PVC & Pp Cast Film. NAICS 326112: plastics packaging film and sheet (including laminated) manufacturing."

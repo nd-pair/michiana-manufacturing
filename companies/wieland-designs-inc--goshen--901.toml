@@ -1,0 +1,20 @@
+# Wieland Designs, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Wieland Designs, Inc."
+kind = "company"
+city = "Goshen"
+state = "IN"
+address = "901 East Madison Street, Goshen, IN 46528"
+lat = 41.58249
+lon = -85.82129
+website = "https://wielanddesigns.com"
+
+sector = "Wood, paper & furniture"
+products = ["Nonupholstered Wood Household Furniture Manufacturing"]
+
+employees = 225
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Furniture & Components. NAICS 337122: nonupholstered wood household furniture manufacturing."

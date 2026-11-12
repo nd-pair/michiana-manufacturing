@@ -1,0 +1,20 @@
+# Modern Door Corp.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Modern Door Corp."
+kind = "company"
+city = "Walkerton"
+state = "IN"
+address = "1300 Virginia Street, Walkerton, IN 46574"
+lat = 41.46228
+lon = -86.49344
+website = "https://plyco.com"
+
+sector = "Wood, paper & furniture"
+products = ["Wood Window and Door Manufacturing"]
+
+employees = 160
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Commercial Door & Agricultural Building Doors. NAICS 321911: wood window and door manufacturing."

@@ -1,0 +1,20 @@
+# Valmont Industries, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Valmont Industries, Inc."
+kind = "company"
+city = "Plymouth"
+state = "IN"
+address = "1545 Pidco Drive, Plymouth, IN 46563"
+lat = 41.35126
+lon = -86.32386
+website = "https://valmont.com"
+
+sector = "Metal"
+products = ["Fabricated Structural Metal Manufacturing"]
+
+employees = 160
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Broadcast, Microwave & Cellular Communication Towers. NAICS 332312: fabricated structural metal manufacturing."

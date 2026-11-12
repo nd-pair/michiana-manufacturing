@@ -1,0 +1,20 @@
+# Industrial Pattern Works, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Industrial Pattern Works, Inc."
+kind = "company"
+city = "Benton Harbor"
+state = "MI"
+address = "1576 Milton Street, Benton Harbor, MI 49022"
+lat = 42.08955
+lon = -86.43826
+website = "https://not available"
+
+sector = "Metal"
+products = ["Industrial Pattern Manufacturing"]
+
+employees = 15
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Industrial Patterns. NAICS 332997: industrial pattern manufacturing."

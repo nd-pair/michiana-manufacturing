@@ -1,0 +1,20 @@
+# Magnetech Industrial Services, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Magnetech Industrial Services, Inc."
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "1125 South Walnut Street, South Bend, IN 46619"
+lat = 41.66250
+lon = -86.27127
+website = "https://magnetech.com"
+
+sector = "Electronics"
+products = ["Motor and Generator Manufacturing"]
+
+employees = 50
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Corporate Headquarters & Electric Motors, Lifting Magnets & Equipment. NAICS 335312: motor and generator manufacturing."

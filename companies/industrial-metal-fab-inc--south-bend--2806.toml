@@ -1,0 +1,20 @@
+# Industrial Metal-Fab, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Industrial Metal-Fab, Inc."
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "2806 West Sample Street, South Bend, IN 46619"
+lat = 41.66445
+lon = -86.28914
+website = "https://imfonline.com"
+
+sector = "Metal"
+products = ["Iron and Steel Mills"]
+
+employees = 30
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Medium To Heavy Steel Weldments, Fabricating & Machining. NAICS 331111: iron and steel mills."

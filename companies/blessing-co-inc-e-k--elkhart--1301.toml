@@ -1,0 +1,20 @@
+# Blessing Co., Inc., E. K.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Blessing Co., Inc., E. K."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "1301 West Beardsley Avenue, Elkhart, IN 46514"
+lat = 41.69239
+lon = -85.99419
+website = "https://not available"
+
+sector = "Medical devices & other"
+products = ["Musical Instrument Manufacturing"]
+
+employees = 50
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Musical Instruments. NAICS 339992: musical instrument manufacturing."

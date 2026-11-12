@@ -1,0 +1,20 @@
+# Kellmark Corp.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Kellmark Corp."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "53465 Ada Drive, Elkhart, IN 46514"
+lat = 41.71840
+lon = -85.92320
+website = "https://kellmark.net"
+
+sector = "Wood, paper & furniture"
+products = ["Other Commercial Printing"]
+
+employees = 22
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Religious & Appointment Calendars, Greeting Cards & Commercial Printing. NAICS 323119: other commercial printing."

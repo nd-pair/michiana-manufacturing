@@ -1,0 +1,20 @@
+# Grrreat Creations, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Grrreat Creations, Inc."
+kind = "company"
+city = "Nappanee"
+state = "IN"
+address = "597 Shawnee Street, Nappanee, IN 46550"
+lat = 41.44764
+lon = -86.03384
+website = "https://grrreatcreations.com"
+
+sector = "Vehicles & RVs"
+products = ["All Other Motor Vehicle Parts Manufacturing"]
+
+employees = 18
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Truck Cap Clamps. NAICS 336399: all other motor vehicle parts manufacturing."

@@ -1,0 +1,20 @@
+# Lewis Bros. Bakeries, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Lewis Bros. Bakeries, Inc."
+kind = "company"
+city = "La Porte"
+state = "IN"
+address = "800 Boyd Boulevard, La Porte, IN 46350"
+lat = 41.61006
+lon = -86.68752
+website = "https://healthylifebread.com"
+
+sector = "Food & consumer goods"
+products = ["Commercial Bakeries"]
+
+employees = 200
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Bread & Rolls. NAICS 311812: commercial bakeries."

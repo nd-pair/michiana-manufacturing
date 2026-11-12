@@ -1,0 +1,20 @@
+# Emc
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Emc"
+kind = "company"
+city = "Kingsbury"
+state = "IN"
+address = "3999 Hupp Road, Kingsbury, IN 46345"
+lat = 41.51911
+lon = -86.63904
+website = "https://not available"
+
+sector = "Metal"
+products = ["Aluminum Die-Casting Foundries"]
+
+employees = 20
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Aluminum Die Casting. NAICS 331521: aluminum die-casting foundries."

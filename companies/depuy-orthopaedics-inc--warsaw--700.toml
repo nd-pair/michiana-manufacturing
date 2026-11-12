@@ -1,0 +1,20 @@
+# Depuy Orthopaedics, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Depuy Orthopaedics, Inc."
+kind = "company"
+city = "Warsaw"
+state = "IN"
+address = "700 Orthopaedic Drive, Warsaw, IN 46582"
+lat = 41.23303
+lon = -85.79938
+website = "https://depuy.com"
+
+sector = "Medical devices & other"
+products = ["Surgical Appliance and Supplies Manufacturing"]
+
+employees = 1400
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Divisional Headquarters & Orthopedic Equipment & Fracture Appliances. NAICS 339113: surgical appliance and supplies manufacturing."

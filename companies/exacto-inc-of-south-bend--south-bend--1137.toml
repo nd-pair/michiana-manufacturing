@@ -1,0 +1,20 @@
+# Exacto, Inc. of South Bend
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Exacto, Inc. of South Bend"
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "1137 South Lafayette Boulevard, South Bend, IN 46601"
+lat = 41.66271
+lon = -86.25365
+website = "https://not available"
+
+sector = "Metal"
+products = ["Machine Shops"]
+
+employees = 91
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Precision Machine Parts & Components. NAICS 332710: machine shops."

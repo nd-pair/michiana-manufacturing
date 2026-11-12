@@ -1,0 +1,20 @@
+# North American Forest Products
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "North American Forest Products"
+kind = "company"
+city = "Edwardsburg"
+state = "MI"
+address = "27263 May Street, Edwardsburg, MI 49112"
+lat = 41.78172
+lon = -86.09403
+website = "https://nafpinc.com"
+
+sector = "Wood, paper & furniture"
+products = ["Sawmills"]
+
+employees = 225
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Lumber Processing. NAICS 321113: sawmills."

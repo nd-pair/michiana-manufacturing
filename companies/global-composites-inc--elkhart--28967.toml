@@ -1,0 +1,20 @@
+# Global Composites, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Global Composites, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "28967 Old US 33, Elkhart, IN 46516"
+lat = 41.66809
+lon = -86.02422
+website = "https://globalcompositesinc.com"
+
+sector = "Vehicles & RVs"
+products = ["Motor Home Manufacturing"]
+
+employees = 75
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Recreational Vehicle Running Boards. NAICS 336213: motor home manufacturing."

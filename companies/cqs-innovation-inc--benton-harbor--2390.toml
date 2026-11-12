@@ -1,0 +1,20 @@
+# Cqs Innovation, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Cqs Innovation, Inc."
+kind = "company"
+city = "Benton Harbor"
+state = "MI"
+address = "2390 Pipestone Road, Benton Harbor, MI 49022"
+lat = 42.07638
+lon = -86.41746
+website = "https://cqsinnovation.com"
+
+sector = "Electronics"
+products = ["Switchgear and Switchboard Apparatus Manufacturing"]
+
+employees = 35
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Automated Process Control & Information Systems. NAICS 335313: switchgear and switchboard apparatus manufacturing."

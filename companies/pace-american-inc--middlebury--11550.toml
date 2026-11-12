@@ -1,0 +1,20 @@
+# Pace American Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Pace American Inc."
+kind = "company"
+city = "Middlebury"
+state = "IN"
+address = "11550 Harter Drive, Middlebury, IN 46540"
+lat = 41.74383
+lon = -85.69057
+website = "https://paceamerican.com"
+
+sector = "Wood, paper & furniture"
+products = ["Manufactured Home (mobile Home) Manufacturing"]
+
+employees = 300
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Corporate Headquarters & Cargo Trailers. NAICS 321991: manufactured home (mobile home) manufacturing."

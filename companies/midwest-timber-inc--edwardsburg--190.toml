@@ -1,0 +1,20 @@
+# Midwest Timber, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Midwest Timber, Inc."
+kind = "company"
+city = "Edwardsburg"
+state = "MI"
+address = "190 Kraus Road, Edwardsburg, MI 49112"
+lat = 41.78384
+lon = -86.09307
+website = "https://midwesttimber.com"
+
+sector = "Wood, paper & furniture"
+products = ["Wood Preservation"]
+
+employees = 47
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Wood Preserving. NAICS 321114: wood preservation."

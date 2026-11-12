@@ -1,0 +1,20 @@
+# Heartland Recreational Vehicles, LLC
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Heartland Recreational Vehicles, LLC"
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "1001 All Pro Drive, Elkhart, IN 46514"
+lat = 41.72991
+lon = -85.98967
+website = "https://heartlandrvs.com"
+
+sector = "Vehicles & RVs"
+products = ["Motor Home Manufacturing"]
+
+employees = 125
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Recreational Vehicles for Leisure/pleasure Applications. NAICS 336213: motor home manufacturing."

@@ -1,0 +1,20 @@
+# Marine Mooring, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Marine Mooring, Inc."
+kind = "company"
+city = "Warsaw"
+state = "IN"
+address = "3404 North 600 East, Warsaw, IN 46582"
+lat = 41.28471
+lon = -85.72827
+website = "https://not available"
+
+sector = "Food & consumer goods"
+products = ["Canvas and Related Product Mills"]
+
+employees = 39
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Vinyl & Canvas Boat Supplies. NAICS 314912: canvas and related product mills."

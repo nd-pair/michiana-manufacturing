@@ -1,0 +1,20 @@
+# Omega Plastics Corp.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Omega Plastics Corp."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "2123 Middlebury Street, Elkhart, IN 46516"
+lat = 41.68102
+lon = -85.93119
+website = "https://omegaplasticscorp.com"
+
+sector = "Materials & composites"
+products = ["Unlaminated Plastics Profile Shape Manufacturing"]
+
+employees = 70
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Plastic Extrusions & Products. NAICS 326121: unlaminated plastics profile shape manufacturing."

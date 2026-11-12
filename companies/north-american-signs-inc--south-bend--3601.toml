@@ -1,0 +1,20 @@
+# North American Signs, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "North American Signs, Inc."
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "3601 Lathrop Street, South Bend, IN 46628"
+lat = 41.70846
+lon = -86.30064
+website = "https://northamericansigns.com"
+
+sector = "Medical devices & other"
+products = ["Sign Manufacturing"]
+
+employees = 110
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Electric Signs. NAICS 339950: sign manufacturing."

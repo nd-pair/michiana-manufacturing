@@ -1,0 +1,20 @@
+# Talma Fastener Corp.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Talma Fastener Corp."
+kind = "company"
+city = "Rochester"
+state = "IN"
+address = "6768 Talma Road, Rochester, IN 46975"
+lat = 41.15210
+lon = -86.13712
+website = "https://talmafastener.com"
+
+sector = "Metal"
+products = ["Bolt, Nut, Screw, Rivet, and Washer Manufacturing"]
+
+employees = 30
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Cold Headed Fasteners, Screws & Bolts. NAICS 332722: bolt, nut, screw, rivet, and washer manufacturing."

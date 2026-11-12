@@ -1,0 +1,20 @@
+# Maitland Engineering, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Maitland Engineering, Inc."
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "2713 Foundation Drive, South Bend, IN 46628"
+lat = 41.71322
+lon = -86.30453
+website = "https://not available"
+
+sector = "Medical devices & other"
+products = ["Surgical Appliance and Supplies Manufacturing"]
+
+employees = 47
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Orthopedic Implants & Instruments. NAICS 339113: surgical appliance and supplies manufacturing."

@@ -1,0 +1,20 @@
+# Chubb's Steel Sales, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Chubb's Steel Sales, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "1116 West Mishawaka Road, Elkhart, IN 46517"
+lat = 41.65420
+lon = -85.98166
+website = "https://not available"
+
+sector = "Metal"
+products = ["Rolled Steel Shape Manufacturing"]
+
+employees = 20
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Steel Processing & Hydraulic Electric Dump Trailers. NAICS 331221: rolled steel shape manufacturing."

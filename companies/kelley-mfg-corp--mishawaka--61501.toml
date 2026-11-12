@@ -1,0 +1,20 @@
+# Kelley Mfg. Corp.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Kelley Mfg. Corp."
+kind = "company"
+city = "Mishawaka"
+state = "IN"
+address = "61501 Bremen Highway, Mishawaka, IN 46544"
+lat = 41.60045
+lon = -86.17704
+website = "https://not available"
+
+sector = "Mechatronics & automation"
+products = ["Farm Machinery and Equipment Manufacturing"]
+
+employees = 20
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Farm Equipment. NAICS 333111: farm machinery and equipment manufacturing."

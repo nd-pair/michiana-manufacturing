@@ -1,0 +1,20 @@
+# Adm Nappanee Farm Service Co.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Adm Nappanee Farm Service Co."
+kind = "company"
+city = "Nappanee"
+state = "IN"
+address = "302 South Main Street, Nappanee, IN 46550"
+lat = 41.44072
+lon = -86.00172
+website = "https://admworld.com"
+
+sector = "Food & consumer goods"
+products = ["Other Animal Food Manufacturing"]
+
+employees = 16
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Livestock Feed. NAICS 311119: other animal food manufacturing."

@@ -1,0 +1,20 @@
+# Burston Marketing, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Burston Marketing, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "52950 Frederic Drive, Elkhart, IN 46514"
+lat = 41.72510
+lon = -85.90896
+website = "https://burston.com"
+
+sector = "Food & consumer goods"
+products = ["All Other Miscellaneous Textile Product Mills"]
+
+employees = 18
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Textile Embroidery. NAICS 314999: all other miscellaneous textile product mills."

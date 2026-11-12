@@ -1,0 +1,20 @@
+# Btc Cabinets
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Btc Cabinets"
+kind = "company"
+city = "Goshen"
+state = "IN"
+address = "825 Logan Street, Goshen, IN 46528"
+lat = 41.58295
+lon = -85.81676
+website = "https://not available"
+
+sector = "Wood, paper & furniture"
+products = ["Wood Kitchen Cabinet and Countertop Manufacturing"]
+
+employees = 18
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Cabinet Doors. NAICS 337110: wood kitchen cabinet and countertop manufacturing."

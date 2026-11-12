@@ -1,0 +1,20 @@
+# C & B Custom Modular, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "C & B Custom Modular, Inc."
+kind = "company"
+city = "Bristol"
+state = "IN"
+address = "2224 Bloomingdale Drive, Bristol, IN 46507"
+lat = 41.71215
+lon = -85.80871
+website = "https://not available"
+
+sector = "Wood, paper & furniture"
+products = ["Manufactured Home (mobile Home) Manufacturing"]
+
+employees = 70
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Mobile Offices. NAICS 321991: manufactured home (mobile home) manufacturing."

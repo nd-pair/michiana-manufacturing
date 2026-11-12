@@ -1,0 +1,20 @@
+# Fox Co., Inc., J. R.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Fox Co., Inc., J. R."
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "1105 East Ireland Road, South Bend, IN 46614"
+lat = 41.62968
+lon = -86.23429
+website = "https://jrfox.com"
+
+sector = "Medical devices & other"
+products = ["Jewelry (except Costume) Manufacturing"]
+
+employees = 25
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Corporate Headquarters & Precious Metal Jewelry. NAICS 339911: jewelry (except costume) manufacturing."

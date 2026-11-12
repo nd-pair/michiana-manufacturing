@@ -1,0 +1,20 @@
+# Fab Masters Co., Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Fab Masters Co., Inc."
+kind = "company"
+city = "Marcellus"
+state = "MI"
+address = "51787 M-40 North, Marcellus, MI 49067"
+lat = 42.04425
+lon = -85.82480
+website = "https://fabmasters.net"
+
+sector = "Metal"
+products = ["Other Aluminum Rolling and Drawing"]
+
+employees = 70
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Aluminum Extrusion Machining Job Shop, Including Aluminum Extrusions, Finishing, Aluminum Mig & Tig Welding, Heat Sinks. NAICS 331319: other aluminum rolling and drawing."

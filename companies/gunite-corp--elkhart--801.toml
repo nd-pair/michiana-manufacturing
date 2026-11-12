@@ -1,0 +1,20 @@
+# Gunite Corp.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Gunite Corp."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "801 County Road 15, Elkhart, IN 46516"
+lat = 41.68125
+lon = -85.90774
+website = "https://gunite.com"
+
+sector = "Vehicles & RVs"
+products = ["All Other Motor Vehicle Parts Manufacturing"]
+
+employees = 450
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Commercial Truck Wheel Parts. NAICS 336399: all other motor vehicle parts manufacturing."

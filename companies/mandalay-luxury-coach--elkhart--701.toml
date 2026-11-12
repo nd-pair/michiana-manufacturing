@@ -1,0 +1,20 @@
+# Mandalay Luxury Coach
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Mandalay Luxury Coach"
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "701 County Road 15, Elkhart, IN 46516"
+lat = 41.68562
+lon = -85.90782
+website = "https://mandalaycoach.com"
+
+sector = "Vehicles & RVs"
+products = ["Motor Home Manufacturing"]
+
+employees = 250
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Motor Homes. NAICS 336213: motor home manufacturing."

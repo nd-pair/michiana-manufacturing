@@ -1,0 +1,20 @@
+# K Mold & Engineering, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "K Mold & Engineering, Inc."
+kind = "company"
+city = "Granger"
+state = "IN"
+address = "51383 Bittersweet Road, Granger, IN 46530"
+lat = 41.74796
+lon = -86.11132
+website = "https://not available"
+
+sector = "Materials & composites"
+products = ["All Other Plastics Product Manufacturing"]
+
+employees = 20
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Plastic Molds. NAICS 326199: all other plastics product manufacturing."

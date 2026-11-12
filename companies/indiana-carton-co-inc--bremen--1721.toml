@@ -1,0 +1,20 @@
+# Indiana Carton Co., Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Indiana Carton Co., Inc."
+kind = "company"
+city = "Bremen"
+state = "IN"
+address = "1721 West Bike Street, Bremen, IN 46506"
+lat = 41.44858
+lon = -86.16972
+website = "https://indianacarton.com"
+
+sector = "Wood, paper & furniture"
+products = ["Folding Paperboard Box Manufacturing"]
+
+employees = 65
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Paper Folding Boxes & Cartons. NAICS 322212: folding paperboard box manufacturing."

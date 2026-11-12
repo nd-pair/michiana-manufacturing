@@ -1,0 +1,20 @@
+# Dekker Vacuum Technologies, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Dekker Vacuum Technologies, Inc."
+kind = "company"
+city = "Michigan City"
+state = "IN"
+address = "935 South Woodland Avenue, Michigan City, IN 46360"
+lat = 41.69940
+lon = -86.87490
+website = "https://dekkervacuum.com"
+
+sector = "Mechatronics & automation"
+products = ["Air and Gas Compressor Manufacturing"]
+
+employees = 45
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Vacuum Pumps. NAICS 333912: air and gas compressor manufacturing."

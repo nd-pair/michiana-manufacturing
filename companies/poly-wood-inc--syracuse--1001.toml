@@ -1,0 +1,20 @@
+# Poly-Wood, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Poly-Wood, Inc."
+kind = "company"
+city = "Syracuse"
+state = "IN"
+address = "1001 West Brooklyn Street, Syracuse, IN 46567"
+lat = 41.42442
+lon = -85.76242
+website = "https://polywoodinc.com"
+
+sector = "Wood, paper & furniture"
+products = ["Nonupholstered Wood Household Furniture Manufacturing"]
+
+employees = 60
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Recycled Plastic Outdoor Furniture. NAICS 337122: nonupholstered wood household furniture manufacturing."

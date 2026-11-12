@@ -1,0 +1,20 @@
+# National Tent & Awning, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "National Tent & Awning, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "921 Summa Drive, Elkhart, IN 46516"
+lat = 41.68058
+lon = -85.90450
+website = "https://not available"
+
+sector = "Food & consumer goods"
+products = ["Canvas and Related Product Mills"]
+
+employees = 25
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Canvas Trailers & Pop-Up Campers Tents. NAICS 314912: canvas and related product mills."

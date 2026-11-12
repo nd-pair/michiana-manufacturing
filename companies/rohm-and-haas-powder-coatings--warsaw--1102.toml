@@ -1,0 +1,20 @@
+# Rohm and Haas Powder Coatings
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Rohm and Haas Powder Coatings"
+kind = "company"
+city = "Warsaw"
+state = "IN"
+address = "1102 Leiter Drive, Warsaw, IN 46580"
+lat = 41.24098
+lon = -85.87650
+website = "https://rohmandhaas.com"
+
+sector = "Materials & composites"
+products = ["Paint and Coating Manufacturing"]
+
+employees = 101
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Powder Coatings. NAICS 325510: paint and coating manufacturing."

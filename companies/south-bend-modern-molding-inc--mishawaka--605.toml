@@ -1,0 +1,20 @@
+# South Bend Modern Molding, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "South Bend Modern Molding, Inc."
+kind = "company"
+city = "Mishawaka"
+state = "IN"
+address = "605 Laurel Street, Mishawaka, IN 46544"
+lat = 41.65576
+lon = -86.17186
+website = "https://sbmm.com"
+
+sector = "Materials & composites"
+products = ["All Other Rubber Product Manufacturing"]
+
+employees = 85
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Molded Rubber Products & Rubber Assemblies. NAICS 326299: all other rubber product manufacturing."

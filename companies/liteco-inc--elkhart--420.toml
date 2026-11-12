@@ -1,0 +1,20 @@
+# Liteco, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Liteco, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "420 Roske Drive, Elkhart, IN 46516"
+lat = 41.69237
+lon = -85.89593
+website = "https://litecousa.com"
+
+sector = "Vehicles & RVs"
+products = ["Vehicular Lighting Equipment Manufacturing"]
+
+employees = 25
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Marine, RV & Automobile Lighting. NAICS 336321: vehicular lighting equipment manufacturing."

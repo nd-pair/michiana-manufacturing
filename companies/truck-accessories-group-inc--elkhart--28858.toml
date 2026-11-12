@@ -1,0 +1,20 @@
+# Truck Accessories Group, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Truck Accessories Group, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "28858 Ventura Drive, Elkhart, IN 46517"
+lat = 41.64611
+lon = -86.02015
+website = "https://leer.com"
+
+sector = "Vehicles & RVs"
+products = ["Travel Trailer and Camper Manufacturing"]
+
+employees = 65
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Corporate Headquarters & Fiberglass Caps & Tonneau Covers for Pickup Truck Beds. NAICS 336214: travel trailer and camper manufacturing."

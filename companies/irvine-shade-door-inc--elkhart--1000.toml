@@ -1,0 +1,20 @@
+# Irvine Shade & Door, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Irvine Shade & Door, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "1000 Verdant Street, Elkhart, IN 46516"
+lat = 41.67938
+lon = -85.89419
+website = "https://not available"
+
+sector = "Wood, paper & furniture"
+products = ["Wood Window and Door Manufacturing"]
+
+employees = 50
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Folding & Shower Doors, Pleated & Rolling Shades & Blinds. NAICS 321911: wood window and door manufacturing."

@@ -1,0 +1,20 @@
+# Fiber Glass Composites
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Fiber Glass Composites"
+kind = "company"
+city = "White Pigeon"
+state = "MI"
+address = "68967 Union Street, White Pigeon, MI 49099"
+lat = 41.79481
+lon = -85.75466
+website = "https://not available"
+
+sector = "Materials & composites"
+products = ["Mineral Wool Manufacturing"]
+
+employees = 20
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Fiberglass. NAICS 327993: mineral wool manufacturing."

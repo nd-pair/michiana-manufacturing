@@ -1,0 +1,20 @@
+# Jones Enterprise, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Jones Enterprise, Inc."
+kind = "company"
+city = "La Porte"
+state = "IN"
+address = "210 Philadelphia Street, La Porte, IN 46350"
+lat = 41.61776
+lon = -86.70374
+website = "https://nrpjones.com"
+
+sector = "Metal"
+products = ["Fluid Power Valve and Hose Fitting Manufacturing"]
+
+employees = 63
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Corporate Headquarters & Hydraulic Hose Assemblies & Fittings. NAICS 332912: fluid power valve and hose fitting manufacturing."

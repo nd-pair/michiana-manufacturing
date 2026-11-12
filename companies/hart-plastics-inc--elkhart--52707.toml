@@ -1,0 +1,20 @@
+# Hart Plastics, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Hart Plastics, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "52707 Park Six Court, Elkhart, IN 46514"
+lat = 41.72795
+lon = -85.95437
+website = "https://hartplastics.com"
+
+sector = "Materials & composites"
+products = ["All Other Plastics Product Manufacturing"]
+
+employees = 15
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Vacuum Formed Plastic Products, Including Thermoforming for the RV, Van, Ambulance & Mass Transit Industries. NAICS 326199: all other plastics product manufacturing."

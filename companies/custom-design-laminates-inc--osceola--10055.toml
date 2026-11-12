@@ -1,0 +1,20 @@
+# Custom Design Laminates, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Custom Design Laminates, Inc."
+kind = "company"
+city = "Osceola"
+state = "IN"
+address = "10055 Mckinley Highway, Osceola, IN 46561"
+lat = 41.68873
+lon = -86.06241
+website = "https://not available"
+
+sector = "Wood, paper & furniture"
+products = ["Wood Kitchen Cabinet and Countertop Manufacturing"]
+
+employees = 25
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Laminated Countertops & Cabinets. NAICS 337110: wood kitchen cabinet and countertop manufacturing."

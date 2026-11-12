@@ -1,0 +1,20 @@
+# Union Tool Corp., the
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Union Tool Corp., the"
+kind = "company"
+city = "Warsaw"
+state = "IN"
+address = "1144 North Detroit Street, Warsaw, IN 46580"
+lat = 41.24948
+lon = -85.85205
+website = "https://uniontoolcorp.com"
+
+sector = "Metal"
+products = ["Machine Shops"]
+
+employees = 44
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Material Handling Equipment, Roller Coaters, Feeders & Stackers. NAICS 332710: machine shops."

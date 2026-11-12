@@ -1,0 +1,20 @@
+# Sroufe Healthcare Products, LLC
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Sroufe Healthcare Products, LLC"
+kind = "company"
+city = "Ligonier"
+state = "IN"
+address = "601 Sroufe Street, Ligonier, IN 46767"
+lat = 41.45293
+lon = -85.59409
+website = "https://pneugel.com"
+
+sector = "Medical devices & other"
+products = ["Surgical Appliance and Supplies Manufacturing"]
+
+employees = 50
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Orthopedic Soft Products & Orthotics. NAICS 339113: surgical appliance and supplies manufacturing."

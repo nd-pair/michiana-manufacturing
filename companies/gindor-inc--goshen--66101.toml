@@ -1,0 +1,20 @@
+# Gindor, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Gindor, Inc."
+kind = "company"
+city = "Goshen"
+state = "IN"
+address = "66101 US Highway 33, Goshen, IN 46526"
+lat = 41.53604
+lon = -85.78025
+website = "https://gindor.com"
+
+sector = "Medical devices & other"
+products = ["Gasket, Packing, and Sealing Device Manufacturing"]
+
+employees = 20
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Die-Cut Gaskets, Seals & Diaphragms. NAICS 339991: gasket, packing, and sealing device manufacturing."

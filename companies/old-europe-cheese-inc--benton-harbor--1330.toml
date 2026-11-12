@@ -1,0 +1,20 @@
+# Old Europe Cheese, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Old Europe Cheese, Inc."
+kind = "company"
+city = "Benton Harbor"
+state = "MI"
+address = "1330 East Empire Avenue, Benton Harbor, MI 49022"
+lat = 42.10122
+lon = -86.42542
+website = "https://oldeuropecheese.com"
+
+sector = "Food & consumer goods"
+products = ["Cheese Manufacturing"]
+
+employees = 75
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Cheese. NAICS 311513: cheese manufacturing."

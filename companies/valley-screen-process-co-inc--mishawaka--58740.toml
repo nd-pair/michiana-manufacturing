@@ -1,0 +1,20 @@
+# Valley Screen Process Co., Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Valley Screen Process Co., Inc."
+kind = "company"
+city = "Mishawaka"
+state = "IN"
+address = "58740 Executive Drive, Mishawaka, IN 46544"
+lat = 41.63998
+lon = -86.14865
+website = "https://valleyscreen.com"
+
+sector = "Wood, paper & furniture"
+products = ["Other Commercial Printing"]
+
+employees = 78
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Pressure-Sensitive Decals. NAICS 323119: other commercial printing."

@@ -1,0 +1,20 @@
+# Roadmasters, LLC
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Roadmasters, LLC"
+kind = "company"
+city = "Goshen"
+state = "IN"
+address = "310 Steury Avenue, Goshen, IN 46528"
+lat = 41.58998
+lon = -85.82194
+website = "https://roadmasterllc.com"
+
+sector = "Vehicles & RVs"
+products = ["Truck Trailer Manufacturing"]
+
+employees = 100
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Cargo Trailers. NAICS 336212: truck trailer manufacturing."

@@ -1,0 +1,20 @@
+# Independent Protection Co., Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Independent Protection Co., Inc."
+kind = "company"
+city = "Goshen"
+state = "IN"
+address = "1607 South Main Street, Goshen, IN 46526"
+lat = 41.56782
+lon = -85.82902
+website = "https://ipclp.com"
+
+sector = "Electronics"
+products = ["All Other Miscellaneous Electrical Equipment and Component Manufacturing"]
+
+employees = 24
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Corporate Headquarters & Lightning Protection Products, Including Lightning Rods & Lightning Protection Materials. NAICS 335999: all other miscellaneous electrical equipment and component manufacturing."

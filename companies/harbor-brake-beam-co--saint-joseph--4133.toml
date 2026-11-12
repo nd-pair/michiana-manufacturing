@@ -1,0 +1,20 @@
+# Harbor Brake Beam Co.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Harbor Brake Beam Co."
+kind = "company"
+city = "Saint Joseph"
+state = "MI"
+address = "4133 South M 139, Saint Joseph, MI 49085"
+lat = 42.04340
+lon = -86.43487
+website = "https://brakebeams.com"
+
+sector = "Vehicles & RVs"
+products = ["Railroad Rolling Stock Manufacturing"]
+
+employees = 25
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Freight Car Brake Beams & Brake Systems. NAICS 336510: railroad rolling stock manufacturing."

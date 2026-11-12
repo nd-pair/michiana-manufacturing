@@ -1,0 +1,20 @@
+# Trophy Homes, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Trophy Homes, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "2730 Almac Court, Elkhart, IN 46514"
+lat = 41.72155
+lon = -85.92918
+website = "https://trophyparkmodel.com"
+
+sector = "Vehicles & RVs"
+products = ["Motor Home Manufacturing"]
+
+employees = 38
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Recreation Vehicles Park Models. NAICS 336213: motor home manufacturing."

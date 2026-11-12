@@ -1,0 +1,20 @@
+# Simpson's Enterprises, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Simpson's Enterprises, Inc."
+kind = "company"
+city = "Three Rivers"
+state = "MI"
+address = "55255 Franklin Drive, Three Rivers, MI 49093"
+lat = 41.99452
+lon = -85.62953
+website = "https://simpsonsent.com"
+
+sector = "Metal"
+products = ["Industrial Pattern Manufacturing"]
+
+employees = 50
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Casting Foundry Sand Cores. NAICS 332997: industrial pattern manufacturing."

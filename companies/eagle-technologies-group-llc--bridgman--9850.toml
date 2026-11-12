@@ -1,0 +1,20 @@
+# Eagle Technologies Group, LLC
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Eagle Technologies Group, LLC"
+kind = "company"
+city = "Bridgman"
+state = "MI"
+address = "9850 Red Arrow Highway, Bridgman, MI 49106"
+lat = 41.94045
+lon = -86.56544
+website = "https://eagletechnologies.com"
+
+sector = "Electronics"
+products = ["Instrument Manufacturing for Measuring and Testing Electricity and Electrical Signals"]
+
+employees = 80
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Machine Assembly. NAICS 334515: instrument manufacturing for measuring and testing electricity and electrical signals."

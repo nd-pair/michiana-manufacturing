@@ -1,0 +1,20 @@
+# Federal-Mogul Corp., Wiper Products
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Federal-Mogul Corp., Wiper Products"
+kind = "company"
+city = "Michigan City"
+state = "IN"
+address = "402 Royal Road, Michigan City, IN 46360"
+lat = 41.71479
+lon = -86.84097
+website = "https://federalmogul.com"
+
+sector = "Vehicles & RVs"
+products = ["All Other Motor Vehicle Parts Manufacturing"]
+
+employees = 200
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Windshield Wiper Arms & Blades. NAICS 336399: all other motor vehicle parts manufacturing."

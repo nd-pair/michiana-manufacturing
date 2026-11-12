@@ -1,0 +1,20 @@
+# Container Service Corp.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Container Service Corp."
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "2811 North Viridian Drive, South Bend, IN 46628"
+lat = 41.71426
+lon = -86.29996
+website = "https://containerservicecorp.com"
+
+sector = "Wood, paper & furniture"
+products = ["Corrugated and Solid Fiber Box Manufacturing"]
+
+employees = 56
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Corrugated Cartons. NAICS 322211: corrugated and solid fiber box manufacturing."

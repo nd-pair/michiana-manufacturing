@@ -1,0 +1,20 @@
+# C M I Automotive
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "C M I Automotive"
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "52742 Leer Court, Elkhart, IN 46514"
+lat = 41.72774
+lon = -85.94898
+website = "https://cmi-enterprises.com"
+
+sector = "Food & consumer goods"
+products = ["Broadwoven Fabric Mills"]
+
+employees = 70
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Interior Soft Trim Products & Solutions for Transportation & Contract Applications. NAICS 313210: broadwoven fabric mills."

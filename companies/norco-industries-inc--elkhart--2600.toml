@@ -1,0 +1,20 @@
+# Norco Industries, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Norco Industries, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "2600 Jeanwood Drive, Elkhart, IN 46514"
+lat = 41.72105
+lon = -85.92706
+website = "https://norcoind.com"
+
+sector = "Wood, paper & furniture"
+products = ["Institutional Furniture Manufacturing"]
+
+employees = 180
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Seating Structures, Pedestals & Jacks & Trailer Slide Out Frames. NAICS 337127: institutional furniture manufacturing."

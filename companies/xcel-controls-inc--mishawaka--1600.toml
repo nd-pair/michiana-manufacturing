@@ -1,0 +1,20 @@
+# Xcel Controls, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Xcel Controls, Inc."
+kind = "company"
+city = "Mishawaka"
+state = "IN"
+address = "1600 West 6th Street, Mishawaka, IN 46544"
+lat = 41.65710
+lon = -86.20020
+website = "https://xcel.com"
+
+sector = "Electronics"
+products = ["Other Measuring and Controlling Device Manufacturing"]
+
+employees = 22
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Electrical Control Panels. NAICS 334519: other measuring and controlling device manufacturing."

@@ -1,0 +1,20 @@
+# Ktr Corp.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Ktr Corp."
+kind = "company"
+city = "Michigan City"
+state = "IN"
+address = "122 Anchor Road, Michigan City, IN 46360"
+lat = 41.73699
+lon = -86.83065
+website = "https://ktrcorp.com"
+
+sector = "Mechatronics & automation"
+products = ["Mechanical Power Transmission Equipment Manufacturing"]
+
+employees = 45
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Power Transmission Equipment. NAICS 333613: mechanical power transmission equipment manufacturing."

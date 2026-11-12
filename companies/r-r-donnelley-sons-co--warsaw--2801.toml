@@ -1,0 +1,20 @@
+# R.r. Donnelley & Sons Co.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "R.r. Donnelley & Sons Co."
+kind = "company"
+city = "Warsaw"
+state = "IN"
+address = "2801 West Old Road 30, Warsaw, IN 46580"
+lat = 41.24739
+lon = -85.89827
+website = "https://rrd.com"
+
+sector = "Wood, paper & furniture"
+products = ["Other Commercial Printing"]
+
+employees = 1200
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Commercial Printing. NAICS 323119: other commercial printing."

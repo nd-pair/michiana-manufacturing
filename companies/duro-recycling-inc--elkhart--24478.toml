@@ -1,0 +1,20 @@
+# Duro Recycling, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Duro Recycling, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "24478 County Road 45, Elkhart, IN 46516"
+lat = 41.64953
+lon = -85.93593
+website = "https://recyclednew.com"
+
+sector = "Wood, paper & furniture"
+products = ["Wood Container and Pallet Manufacturing"]
+
+employees = 35
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Wooden Pallets. NAICS 321920: wood container and pallet manufacturing."

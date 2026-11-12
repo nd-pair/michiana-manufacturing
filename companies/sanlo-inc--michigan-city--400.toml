@@ -1,0 +1,20 @@
+# Sanlo, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Sanlo, Inc."
+kind = "company"
+city = "Michigan City"
+state = "IN"
+address = "400 Indiana Highway 212, Michigan City, IN 46360"
+lat = 41.73338
+lon = -86.82579
+website = "https://sanlo.com"
+
+sector = "Electronics"
+products = ["Other Communication and Energy Wire Manufacturing"]
+
+employees = 75
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Plastic Coated Steel Wire Rope Products, Aircraft-Type Cables & Cable Assemblies. NAICS 335929: other communication and energy wire manufacturing."

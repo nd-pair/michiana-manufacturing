@@ -1,0 +1,20 @@
+# Gulf Stream Coach, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Gulf Stream Coach, Inc."
+kind = "company"
+city = "Nappanee"
+state = "IN"
+address = "503 South Oakland Avenue, Nappanee, IN 46550"
+lat = 41.43804
+lon = -85.98177
+website = "https://gulfstreamrv.com"
+
+sector = "Vehicles & RVs"
+products = ["Motor Home Manufacturing"]
+
+employees = 300
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Class A & Class C Recreational Vehicles, Travel Trailers, 5th Wheels & Toy Haulers. NAICS 336213: motor home manufacturing."

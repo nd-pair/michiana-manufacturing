@@ -1,0 +1,20 @@
+# Elumatec USA, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Elumatec USA, Inc."
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "4320 Ralph Jones Court, South Bend, IN 46628"
+lat = 41.73401
+lon = -86.30039
+website = "https://elumatecusa.com"
+
+sector = "Mechatronics & automation"
+products = ["Machine Tool (metal Cutting Types) Manufacturing"]
+
+employees = 19
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Metal Cutting Machine Tools. NAICS 333512: machine tool (metal cutting types) manufacturing."

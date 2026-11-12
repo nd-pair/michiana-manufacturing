@@ -1,0 +1,20 @@
+# General Machine & Saw Co.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "General Machine & Saw Co."
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "3636 Gagnon Street, South Bend, IN 46628"
+lat = 41.71782
+lon = -86.29968
+website = "https://not available"
+
+sector = "Metal"
+products = ["Iron and Steel Mills"]
+
+employees = 18
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Steel Bar Cutting. NAICS 331111: iron and steel mills."

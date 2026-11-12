@@ -1,0 +1,20 @@
+# South Bay
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "South Bay"
+kind = "company"
+city = "Middlebury"
+state = "IN"
+address = "51773 County Road 39, Middlebury, IN 46540"
+lat = 41.74231
+lon = -85.69904
+website = "https://southbaypontoons.com"
+
+sector = "Vehicles & RVs"
+products = ["Boat Building"]
+
+employees = 100
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Pontoon Boats. NAICS 336612: boat building."

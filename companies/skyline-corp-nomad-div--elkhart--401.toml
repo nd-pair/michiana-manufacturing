@@ -1,0 +1,20 @@
+# Skyline Corp., Nomad Div.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Skyline Corp., Nomad Div."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "401 County Road 15 South, Elkhart, IN 46516"
+lat = 41.68868
+lon = -85.90787
+website = "https://skylinecorp.com"
+
+sector = "Vehicles & RVs"
+products = ["Motor Home Manufacturing"]
+
+employees = 140
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Recreational Vehicles. NAICS 336213: motor home manufacturing."

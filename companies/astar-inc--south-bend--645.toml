@@ -1,0 +1,20 @@
+# Astar, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Astar, Inc."
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "645 Wilber Street, South Bend, IN 46628"
+lat = 41.68353
+lon = -86.27430
+website = "https://not available"
+
+sector = "Materials & composites"
+products = ["All Other Plastics Product Manufacturing"]
+
+employees = 32
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Plastic Injection Molding. NAICS 326199: all other plastics product manufacturing."

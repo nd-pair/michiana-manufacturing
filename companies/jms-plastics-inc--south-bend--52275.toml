@@ -1,0 +1,20 @@
+# Jms Plastics, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Jms Plastics, Inc."
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "52275 State Road 933 North, South Bend, IN 46637"
+lat = 41.73397
+lon = -86.25105
+website = "https://jmsplasticsinc.com"
+
+sector = "Materials & composites"
+products = ["All Other Plastics Product Manufacturing"]
+
+employees = 60
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Plastic Injection Molding. NAICS 326199: all other plastics product manufacturing."

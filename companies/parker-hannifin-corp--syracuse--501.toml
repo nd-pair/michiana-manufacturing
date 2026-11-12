@@ -1,0 +1,20 @@
+# Parker Hannifin Corp.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Parker Hannifin Corp."
+kind = "company"
+city = "Syracuse"
+state = "IN"
+address = "501 South Sycamore Street, Syracuse, IN 46567"
+lat = 41.41790
+lon = -85.74970
+website = "https://parker.com"
+
+sector = "Materials & composites"
+products = ["Synthetic Rubber Manufacturing"]
+
+employees = 330
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Engineered Elastomeric Shapes & Rubber Molding. NAICS 325212: synthetic rubber manufacturing."

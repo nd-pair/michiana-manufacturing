@@ -1,0 +1,20 @@
+# Merchants Metals, Inc., Midwest Div.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Merchants Metals, Inc., Midwest Div."
+kind = "company"
+city = "New Paris"
+state = "IN"
+address = "71347 County Road 23, New Paris, IN 46553"
+lat = 41.45900
+lon = -85.84005
+website = "https://merchantsmetals.com"
+
+sector = "Metal"
+products = ["Other Fabricated Wire Product Manufacturing"]
+
+employees = 150
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Chain Link Fencing. NAICS 332618: other fabricated wire product manufacturing."

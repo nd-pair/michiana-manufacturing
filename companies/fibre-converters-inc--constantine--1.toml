@@ -1,0 +1,20 @@
+# Fibre Converters, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Fibre Converters, Inc."
+kind = "company"
+city = "Constantine"
+state = "MI"
+address = "1 Industrial Drive, Constantine, MI 49042"
+lat = 41.83805
+lon = -85.65599
+website = "https://fibreconverters.com"
+
+sector = "Wood, paper & furniture"
+products = ["Coated and Laminated Paper Manufacturing"]
+
+employees = 100
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Solid Fiber Paperboard Laminating. NAICS 322222: coated and laminated paper manufacturing."

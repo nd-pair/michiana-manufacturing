@@ -1,0 +1,20 @@
+# Ronard Industries, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Ronard Industries, Inc."
+kind = "company"
+city = "Michigan City"
+state = "IN"
+address = "10th Street and Michigan Boulevard, Michigan City, IN 46360"
+lat = 41.71414
+lon = -86.88989
+website = "https://ronard.com"
+
+sector = "Metal"
+products = ["Hardware Manufacturing"]
+
+employees = 69
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Wireless Broadband Antenna Installation Hardware. NAICS 332510: hardware manufacturing."

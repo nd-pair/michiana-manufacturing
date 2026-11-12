@@ -1,0 +1,20 @@
+# Aearo Safety
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Aearo Safety"
+kind = "company"
+city = "Plymouth"
+state = "IN"
+address = "401 East Jefferson Street, Plymouth, IN 46563"
+lat = 41.34390
+lon = -86.30491
+website = "https://aearo.com"
+
+sector = "Medical devices & other"
+products = ["Ophthalmic Goods Manufacturing"]
+
+employees = 100
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Safety Prescription Glasses. NAICS 339115: ophthalmic goods manufacturing."

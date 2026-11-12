@@ -1,0 +1,20 @@
+# Ward, Inc., Elkhart Div., Ashley F.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Ward, Inc., Elkhart Div., Ashley F."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "56883 Elk Court, Elkhart, IN 46516"
+lat = 41.66913
+lon = -86.03561
+website = "https://ashleyward.com"
+
+sector = "Metal"
+products = ["Machine Shops"]
+
+employees = 50
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Automatic Screw Machine Products. NAICS 332710: machine shops."

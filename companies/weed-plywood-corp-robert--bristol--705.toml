@@ -1,0 +1,20 @@
+# Weed Plywood Corp., Robert
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Weed Plywood Corp., Robert"
+kind = "company"
+city = "Bristol"
+state = "IN"
+address = "705 Maple Street, Bristol, IN 46507"
+lat = 41.71597
+lon = -85.82259
+website = "https://robertweedplywood.com"
+
+sector = "Electronics"
+products = ["Switchgear and Switchboard Apparatus Manufacturing"]
+
+employees = 450
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Laminated Panels, Shelving & Drawer Sides, Wrapped, Stained, Painted & Top Coated Profile Mouldings & Picture Frames. NAICS 335313: switchgear and switchboard apparatus manufacturing."

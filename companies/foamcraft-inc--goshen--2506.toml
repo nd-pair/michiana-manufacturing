@@ -1,0 +1,20 @@
+# Foamcraft, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Foamcraft, Inc."
+kind = "company"
+city = "Goshen"
+state = "IN"
+address = "2506 Industrial Park Drive, Goshen, IN 46526"
+lat = 41.55412
+lon = -85.82002
+website = "https://foamcraftinc.com"
+
+sector = "Materials & composites"
+products = ["Polystyrene Foam Product Manufacturing"]
+
+employees = 50
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Foam Cushioning. NAICS 326140: polystyrene foam product manufacturing."

@@ -1,0 +1,20 @@
+# Koontz-Wagner Electric Co., Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Koontz-Wagner Electric Co., Inc."
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "3801 Voorde Drive, South Bend, IN 46628"
+lat = 41.69880
+lon = -86.30180
+website = "https://koontz-wagner.com"
+
+sector = "Electronics"
+products = ["Switchgear and Switchboard Apparatus Manufacturing"]
+
+employees = 350
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Corporate Headquarters & Control Panels & Integrated Electrics for Packaged Control Room Systems. NAICS 335313: switchgear and switchboard apparatus manufacturing."

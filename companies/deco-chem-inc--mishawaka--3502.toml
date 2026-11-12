@@ -1,0 +1,20 @@
+# Deco-Chem, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Deco-Chem, Inc."
+kind = "company"
+city = "Mishawaka"
+state = "IN"
+address = "3502 North Home Street, Mishawaka, IN 46545"
+lat = 41.69210
+lon = -86.14923
+website = "https://decochem.com"
+
+sector = "Materials & composites"
+products = ["Printing Ink Manufacturing"]
+
+employees = 15
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Inks, Including UV & Conventional Solvent-Based Screen Printing, UV Flexography & UV & Solvent-Based Roller. NAICS 325910: printing ink manufacturing."

@@ -1,0 +1,20 @@
+# Indiana Industrial Services, LLC
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Indiana Industrial Services, LLC"
+kind = "company"
+city = "Mishawaka"
+state = "IN"
+address = "1906 Clover Road, Mishawaka, IN 46545"
+lat = 41.67711
+lon = -86.15343
+website = "https://not available"
+
+sector = "Metal"
+products = ["Machine Shops"]
+
+employees = 70
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Material Handling Equipment. NAICS 332710: machine shops."

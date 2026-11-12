@@ -1,0 +1,20 @@
+# Commercial Structures Corp.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Commercial Structures Corp."
+kind = "company"
+city = "Nappanee"
+state = "IN"
+address = "655 North Tomahawk Trail, Nappanee, IN 46550"
+lat = 41.44722
+lon = -86.02996
+website = "https://comstruc.com"
+
+sector = "Vehicles & RVs"
+products = ["Travel Trailer and Camper Manufacturing"]
+
+employees = 50
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Corporate Headquarters & Office Trailers & Modular Buildings. NAICS 336214: travel trailer and camper manufacturing."

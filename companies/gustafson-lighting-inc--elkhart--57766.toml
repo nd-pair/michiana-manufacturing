@@ -1,0 +1,20 @@
+# Gustafson Lighting, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Gustafson Lighting, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "57766 County Road 3, Elkhart, IN 46517"
+lat = 41.65590
+lon = -86.02204
+website = "https://gustafsonlighting.com"
+
+sector = "Electronics"
+products = ["Commercial, Industrial, and Institutional Electric Lighting Fixture Manufacturing"]
+
+employees = 100
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "RV Lighting Fixtures. NAICS 335122: commercial, industrial, and institutional electric lighting fixture manufacturing."

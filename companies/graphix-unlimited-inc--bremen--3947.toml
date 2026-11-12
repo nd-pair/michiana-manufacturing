@@ -1,0 +1,20 @@
+# Graphix Unlimited, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Graphix Unlimited, Inc."
+kind = "company"
+city = "Bremen"
+state = "IN"
+address = "3947 State Road 106, Bremen, IN 46506"
+lat = 41.44851
+lon = -86.13732
+website = "https://graphixunlimited.com"
+
+sector = "Vehicles & RVs"
+products = ["All Other Motor Vehicle Parts Manufacturing"]
+
+employees = 130
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Recreational Vehicle Striping, Die Cutting & Screen Printing. NAICS 336399: all other motor vehicle parts manufacturing."

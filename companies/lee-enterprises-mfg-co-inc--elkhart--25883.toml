@@ -1,0 +1,20 @@
+# Lee Enterprises Mfg. Co., Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Lee Enterprises Mfg. Co., Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "25883 North Park Avenue, Elkhart, IN 46514"
+lat = 41.71193
+lon = -85.96425
+website = "https://not available"
+
+sector = "Vehicles & RVs"
+products = ["Travel Trailer and Camper Manufacturing"]
+
+employees = 23
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Recreational Vehicle Park Models. NAICS 336214: travel trailer and camper manufacturing."

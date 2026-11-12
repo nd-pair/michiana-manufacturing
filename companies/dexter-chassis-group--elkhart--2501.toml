@@ -1,0 +1,20 @@
+# Dexter Chassis Group
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Dexter Chassis Group"
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "2501 Jeanwood Drive, Elkhart, IN 46514"
+lat = 41.71916
+lon = -85.92782
+website = "https://dexterchassisgroup.com"
+
+sector = "Metal"
+products = ["Iron and Steel Mills"]
+
+employees = 200
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Steel Frame Fabrication & Electro & Powder Coatings for Paint Products. NAICS 331111: iron and steel mills."

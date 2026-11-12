@@ -1,0 +1,20 @@
+# Absolute Innovations
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Absolute Innovations"
+kind = "company"
+city = "Osceola"
+state = "IN"
+address = "1320 3rd Street, Osceola, IN 46561"
+lat = 41.66117
+lon = -86.08544
+website = "https://absoluteinnovations.net"
+
+sector = "Mechatronics & automation"
+products = ["Farm Machinery and Equipment Manufacturing"]
+
+employees = 16
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Tractor-Attached Arena Drag Tools. NAICS 333111: farm machinery and equipment manufacturing."

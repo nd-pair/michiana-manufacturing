@@ -1,0 +1,20 @@
+# Rlm Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Rlm Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "1500 West Hively Avenue, Elkhart, IN 46517"
+lat = 41.65999
+lon = -85.99051
+website = "https://epw.com"
+
+sector = "Medical devices & other"
+products = ["Sporting and Athletic Goods Manufacturing"]
+
+employees = 22
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Flexible & Rigid Polyurethane Parts & Reaction Injection Molding. NAICS 339920: sporting and athletic goods manufacturing."

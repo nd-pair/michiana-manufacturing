@@ -1,0 +1,20 @@
+# Vent-Rite Valve Corp.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Vent-Rite Valve Corp."
+kind = "company"
+city = "Benton Harbor"
+state = "MI"
+address = "1875 Dewey Avenue, Benton Harbor, MI 49022"
+lat = 42.08005
+lon = -86.39728
+website = "https://not available"
+
+sector = "Mechatronics & automation"
+products = ["Pump and Pumping Equipment Manufacturing"]
+
+employees = 40
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Condensate & Boiler Feed Pumps & Control Panels. NAICS 333911: pump and pumping equipment manufacturing."

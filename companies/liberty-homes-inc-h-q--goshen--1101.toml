@@ -1,0 +1,20 @@
+# Liberty Homes, Inc. (h Q)
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Liberty Homes, Inc. (h Q)"
+kind = "company"
+city = "Goshen"
+state = "IN"
+address = "1101 Eisenhower Drive North, Goshen, IN 46526"
+lat = 41.55770
+lon = -85.81682
+website = "https://libertyhomesinc.com"
+
+sector = "Wood, paper & furniture"
+products = ["Manufactured Home (mobile Home) Manufacturing"]
+
+employees = 45
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Corporate Headquarters; Manufactured Housing. NAICS 321991: manufactured home (mobile home) manufacturing."

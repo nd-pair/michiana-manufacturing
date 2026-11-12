@@ -1,0 +1,20 @@
+# Welded Products
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Welded Products"
+kind = "company"
+city = "Mishawaka"
+state = "IN"
+address = "1030 North Merrifield Avenue, Mishawaka, IN 46545"
+lat = 41.67038
+lon = -86.16690
+website = "https://not available"
+
+sector = "Metal"
+products = ["All Other Miscellaneous Fabricated Metal Product Manufacturing"]
+
+employees = 30
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Metal Fabrication. NAICS 332999: all other miscellaneous fabricated metal product manufacturing."

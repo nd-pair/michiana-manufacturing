@@ -1,0 +1,20 @@
+# Altec Engineering, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Altec Engineering, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "28274 County Road 20, Elkhart, IN 46517"
+lat = 41.65649
+lon = -86.00844
+website = "https://altecengineering.com"
+
+sector = "Materials & composites"
+products = ["Mineral Wool Manufacturing"]
+
+employees = 85
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Recreational Vehicle Painting & Tooling for Fiberglass Products. NAICS 327993: mineral wool manufacturing."

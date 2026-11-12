@@ -1,0 +1,20 @@
+# Winona Powder Coating, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Winona Powder Coating, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "800 Summa Drive, Elkhart, IN 46516"
+lat = 41.67949
+lon = -85.90374
+website = "https://winonapowder.com"
+
+sector = "Metal"
+products = ["Metal Coating, Engraving (except Jewelry and Silverware), and Allied Services To Manufacturers"]
+
+employees = 50
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Powder Coating. NAICS 332812: metal coating, engraving (except jewelry and silverware), and allied services to manufacturers."

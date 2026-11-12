@@ -1,0 +1,20 @@
+# Kinro, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Kinro, Inc."
+kind = "company"
+city = "Goshen"
+state = "IN"
+address = "2423 Messick Drive South, Goshen, IN 46526"
+lat = 41.55330
+lon = -85.81281
+website = "https://kimro.com"
+
+sector = "Metal"
+products = ["Metal Window and Door Manufacturing"]
+
+employees = 170
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Aluminum & Vinyl Windows. NAICS 332321: metal window and door manufacturing."

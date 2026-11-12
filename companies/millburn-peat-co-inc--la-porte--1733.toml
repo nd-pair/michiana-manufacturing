@@ -1,0 +1,20 @@
+# Millburn Peat Co., Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Millburn Peat Co., Inc."
+kind = "company"
+city = "La Porte"
+state = "IN"
+address = "1733 East Division Road, La Porte, IN 46350"
+lat = 41.60529
+lon = -86.66541
+website = "https://not available"
+
+sector = "Materials & composites"
+products = ["Fertilizer (mixing Only) Manufacturing"]
+
+employees = 35
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Peat, Top & Potting Soil, Play Sand, Cow Manure, Top Dressing & Lawn & Garden Accessories. NAICS 325314: fertilizer (mixing only) manufacturing."

@@ -1,0 +1,20 @@
+# Midwest Orthotic & Technology Center
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Midwest Orthotic & Technology Center"
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "17530 Dugdale Drive, South Bend, IN 46635"
+lat = 41.71335
+lon = -86.20695
+website = "https://surestep.net"
+
+sector = "Medical devices & other"
+products = ["Surgical Appliance and Supplies Manufacturing"]
+
+employees = 28
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Prosthetic & Orthopedic Appliances. NAICS 339113: surgical appliance and supplies manufacturing."

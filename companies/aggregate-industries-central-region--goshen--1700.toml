@@ -1,0 +1,20 @@
+# Aggregate Industries - Central Region
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Aggregate Industries - Central Region"
+kind = "company"
+city = "Goshen"
+state = "IN"
+address = "1700 Egbert Avenue, Goshen, IN 46528"
+lat = 41.57849
+lon = -85.81303
+website = "https://aggregate-us.com"
+
+sector = "Materials & composites"
+products = ["Ready-Mix Concrete Manufacturing"]
+
+employees = 187
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Ready-Mixed Concrete & Blocks. NAICS 327320: ready-mix concrete manufacturing."

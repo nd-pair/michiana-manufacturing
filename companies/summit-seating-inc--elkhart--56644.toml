@@ -1,0 +1,20 @@
+# Summit Seating, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Summit Seating, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "56644 Elk Park Drive, Elkhart, IN 46516"
+lat = 41.67143
+lon = -86.03500
+website = "https://hometheatercollection.com"
+
+sector = "Wood, paper & furniture"
+products = ["Upholstered Household Furniture Manufacturing"]
+
+employees = 20
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Home Theater, Truck, Van & Bus Seating. NAICS 337121: upholstered household furniture manufacturing."

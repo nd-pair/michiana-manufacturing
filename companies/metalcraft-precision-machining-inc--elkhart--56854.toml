@@ -1,0 +1,20 @@
+# Metalcraft Precision Machining, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Metalcraft Precision Machining, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "56854 Elk Court, Elkhart, IN 46516"
+lat = 41.66873
+lon = -86.03638
+website = "https://not available"
+
+sector = "Metal"
+products = ["Machine Shops"]
+
+employees = 18
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Machine Parts, Including Tooling & CNC Machining & Wire EDM. NAICS 332710: machine shops."

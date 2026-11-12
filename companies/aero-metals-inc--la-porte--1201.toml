@@ -1,0 +1,20 @@
+# Aero Metals, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Aero Metals, Inc."
+kind = "company"
+city = "La Porte"
+state = "IN"
+address = "1201 East Lincolnway, La Porte, IN 46350"
+lat = 41.62289
+lon = -86.69636
+website = "https://aerometals.com"
+
+sector = "Metal"
+products = ["Steel Investment Foundries"]
+
+employees = 400
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Investment Castings. NAICS 331512: steel investment foundries."

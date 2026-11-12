@@ -1,0 +1,20 @@
+# Midwest Custom Finishing, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Midwest Custom Finishing, Inc."
+kind = "company"
+city = "Michigan City"
+state = "IN"
+address = "800 Royal Road, Michigan City, IN 46360"
+lat = 41.72297
+lon = -86.84114
+website = "https://not available"
+
+sector = "Metal"
+products = ["Metal Coating, Engraving (except Jewelry and Silverware), and Allied Services To Manufacturers"]
+
+employees = 28
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Colored Powder Coating. NAICS 332812: metal coating, engraving (except jewelry and silverware), and allied services to manufacturers."

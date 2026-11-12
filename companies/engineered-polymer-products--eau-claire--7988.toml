@@ -1,0 +1,20 @@
+# Engineered Polymer Products
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Engineered Polymer Products"
+kind = "company"
+city = "Eau Claire"
+state = "MI"
+address = "7988 West Eureka Road, Eau Claire, MI 49111"
+lat = 41.99915
+lon = -86.26458
+website = "https://not available"
+
+sector = "Materials & composites"
+products = ["All Other Plastics Product Manufacturing"]
+
+employees = 20
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Plastic Injection Molding. NAICS 326199: all other plastics product manufacturing."

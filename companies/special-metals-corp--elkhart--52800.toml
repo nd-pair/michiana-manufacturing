@@ -1,0 +1,20 @@
+# Special Metals Corp.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Special Metals Corp."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "52800 Higgins Boulevard, Elkhart, IN 46514"
+lat = 41.72513
+lon = -85.96174
+website = "https://specialmetals.com"
+
+sector = "Metal"
+products = ["Electroplating, Plating, Polishing, Anodizing and Coloring"]
+
+employees = 30
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Metal Finishing, Light Gauge Nickel Alloys Cold Roll, Annealing & Slitting. NAICS 332813: electroplating, plating, polishing, anodizing and coloring."

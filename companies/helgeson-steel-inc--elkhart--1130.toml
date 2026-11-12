@@ -1,0 +1,20 @@
+# Helgeson Steel, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Helgeson Steel, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "1130 Verdant Drive, Elkhart, IN 46516"
+lat = 41.67664
+lon = -85.89416
+website = "https://not available"
+
+sector = "Metal"
+products = ["Iron and Steel Mills"]
+
+employees = 15
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Structural Steel Fabrication. NAICS 331111: iron and steel mills."

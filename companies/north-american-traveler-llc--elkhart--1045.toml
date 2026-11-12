@@ -1,0 +1,20 @@
+# North American Traveler, LLC
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "North American Traveler, LLC"
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "1045 North Nappanee Street, Elkhart, IN 46514"
+lat = 41.69595
+lon = -86.00393
+website = "https://glacierbayrv.com"
+
+sector = "Vehicles & RVs"
+products = ["Travel Trailer and Camper Manufacturing"]
+
+employees = 15
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Travel Trailers & Fifth-Wheel Recreational Vehicles. NAICS 336214: travel trailer and camper manufacturing."

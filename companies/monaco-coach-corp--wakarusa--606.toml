@@ -1,0 +1,20 @@
+# Monaco Coach Corp.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Monaco Coach Corp."
+kind = "company"
+city = "Wakarusa"
+state = "IN"
+address = "606 Nelsons Parkway, Wakarusa, IN 46573"
+lat = 41.52760
+lon = -86.01024
+website = "https://monacocoach.com"
+
+sector = "Vehicles & RVs"
+products = ["Motor Home Manufacturing"]
+
+employees = 2300
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Motor Home Assembly & Towable Units. NAICS 336213: motor home manufacturing."

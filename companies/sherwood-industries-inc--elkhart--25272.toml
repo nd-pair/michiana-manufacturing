@@ -1,0 +1,20 @@
+# Sherwood Industries, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Sherwood Industries, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "25272 Leer Drive, Elkhart, IN 46514"
+lat = 41.72735
+lon = -85.95306
+website = "https://gosherwood.com"
+
+sector = "Materials & composites"
+products = ["Glass Product Manufacturing Made of Purchased Glass"]
+
+employees = 40
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Decorative Glass & Mirrors. NAICS 327215: glass product manufacturing made of purchased glass."

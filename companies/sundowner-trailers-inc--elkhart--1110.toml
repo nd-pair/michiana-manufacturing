@@ -1,0 +1,20 @@
+# Sundowner Trailers, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Sundowner Trailers, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "1110 County Road 6 West, Elkhart, IN 46514"
+lat = 41.72470
+lon = -85.99140
+website = "https://sundownertrailer.com"
+
+sector = "Vehicles & RVs"
+products = ["Truck Trailer Manufacturing"]
+
+employees = 100
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Horse Trailer Living Units. NAICS 336212: truck trailer manufacturing."

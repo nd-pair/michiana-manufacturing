@@ -1,0 +1,20 @@
+# Lithotone, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Lithotone, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "1313 West Hively Avenue, Elkhart, IN 46517"
+lat = 41.65938
+lon = -85.98716
+website = "https://not available"
+
+sector = "Wood, paper & furniture"
+products = ["Commercial Lithographic Printing"]
+
+employees = 65
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Commercial & Lithographic Printing. NAICS 323110: commercial lithographic printing."

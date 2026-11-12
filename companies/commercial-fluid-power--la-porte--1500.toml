@@ -1,0 +1,20 @@
+# Commercial Fluid Power
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Commercial Fluid Power"
+kind = "company"
+city = "La Porte"
+state = "IN"
+address = "1500 Genesis Drive, La Porte, IN 46350"
+lat = 41.62843
+lon = -86.70927
+website = "https://commercialfluidpower.com"
+
+sector = "Metal"
+products = ["Iron and Steel Pipe and Tube Manufacturing From Purchased Steel"]
+
+employees = 30
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Distributor of Carbon, Alloy, Aluminum & Stainless Steel Tubing & Bars, Including Honing, Skiving, Boring & Sawing. NAICS 331210: iron and steel pipe and tube manufacturing from purchased steel."

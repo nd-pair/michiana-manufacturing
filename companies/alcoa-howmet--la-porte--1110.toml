@@ -1,0 +1,20 @@
+# Alcoa Howmet
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Alcoa Howmet"
+kind = "company"
+city = "La Porte"
+state = "IN"
+address = "1110 East Lincolnway, La Porte, IN 46350"
+lat = 41.62119
+lon = -86.69823
+website = "https://alcoa.com"
+
+sector = "Metal"
+products = ["Steel Investment Foundries"]
+
+employees = 600
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Precision Investment Castings. NAICS 331512: steel investment foundries."

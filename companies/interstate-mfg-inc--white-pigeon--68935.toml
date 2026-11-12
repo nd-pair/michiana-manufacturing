@@ -1,0 +1,20 @@
+# Interstate Mfg., Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Interstate Mfg., Inc."
+kind = "company"
+city = "White Pigeon"
+state = "MI"
+address = "68935 Union Street, White Pigeon, MI 49099"
+lat = 41.79509
+lon = -85.75466
+website = "https://interstate-1.com"
+
+sector = "Wood, paper & furniture"
+products = ["Manufactured Home (mobile Home) Manufacturing"]
+
+employees = 65
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Cargo Trailers. NAICS 321991: manufactured home (mobile home) manufacturing."

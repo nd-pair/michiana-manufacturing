@@ -1,0 +1,20 @@
+# Sierra Motor Corp.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Sierra Motor Corp."
+kind = "company"
+city = "Bristol"
+state = "IN"
+address = "19224 County Road 8, Bristol, IN 46507"
+lat = 41.72299
+lon = -85.83644
+website = "https://sierrainteriors.com"
+
+sector = "Vehicles & RVs"
+products = ["All Other Motor Vehicle Parts Manufacturing"]
+
+employees = 115
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Trailer Interiors. NAICS 336399: all other motor vehicle parts manufacturing."

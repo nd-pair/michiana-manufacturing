@@ -1,0 +1,20 @@
+# Creative Foam Corp.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Creative Foam Corp."
+kind = "company"
+city = "Dowagiac"
+state = "MI"
+address = "55210 Rudy Road, Dowagiac, MI 49047"
+lat = 41.99467
+lon = -86.09629
+website = "https://creativefoam.com"
+
+sector = "Materials & composites"
+products = ["Polystyrene Foam Product Manufacturing"]
+
+employees = 100
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Foam Automotive Products. NAICS 326140: polystyrene foam product manufacturing."

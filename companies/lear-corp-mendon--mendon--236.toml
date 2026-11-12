@@ -1,0 +1,20 @@
+# Lear Corp., Mendon
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Lear Corp., Mendon"
+kind = "company"
+city = "Mendon"
+state = "MI"
+address = "236 West Clark Street, Mendon, MI 49072"
+lat = 42.01258
+lon = -85.45135
+website = "https://lear.com"
+
+sector = "Vehicles & RVs"
+products = ["All Other Motor Vehicle Parts Manufacturing"]
+
+employees = 750
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Automotive Interior Parts. NAICS 336399: all other motor vehicle parts manufacturing."

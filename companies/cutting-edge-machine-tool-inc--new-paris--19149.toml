@@ -1,0 +1,20 @@
+# Cutting Edge Machine & Tool, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Cutting Edge Machine & Tool, Inc."
+kind = "company"
+city = "New Paris"
+state = "IN"
+address = "19149 County Road 146, New Paris, IN 46553"
+lat = 41.49349
+lon = -85.83158
+website = "https://cemti.com"
+
+sector = "Metal"
+products = ["Machine Shops"]
+
+employees = 80
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "General Machining Job Shop. NAICS 332710: machine shops."

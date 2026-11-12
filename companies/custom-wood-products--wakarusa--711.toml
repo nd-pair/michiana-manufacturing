@@ -1,0 +1,20 @@
+# Custom Wood Products
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Custom Wood Products"
+kind = "company"
+city = "Wakarusa"
+state = "IN"
+address = "711 East Waterford Street, Wakarusa, IN 46573"
+lat = 41.53593
+lon = -86.00859
+website = "https://customwoodinc.com"
+
+sector = "Wood, paper & furniture"
+products = ["Metal Household Furniture Manufacturing"]
+
+employees = 75
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Hardwood Dining, End & Coffee Tables & Chairs & Upholstered Chairs. NAICS 337124: metal household furniture manufacturing."

@@ -1,0 +1,20 @@
+# Turtle Top
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Turtle Top"
+kind = "company"
+city = "New Paris"
+state = "IN"
+address = "67895 State Road 15, New Paris, IN 46553"
+lat = 41.50938
+lon = -85.83803
+website = "https://turtletop.com"
+
+sector = "Vehicles & RVs"
+products = ["Motor Home Manufacturing"]
+
+employees = 170
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Mid-Size Shuttle Buses & Vehicles. NAICS 336213: motor home manufacturing."

@@ -1,0 +1,20 @@
+# Independent Concrete Pipe Corp.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Independent Concrete Pipe Corp."
+kind = "company"
+city = "Mishawaka"
+state = "IN"
+address = "401 South Beiger Street, Mishawaka, IN 46544"
+lat = 41.65941
+lon = -86.15085
+website = "https://hyspanbridge.com"
+
+sector = "Materials & composites"
+products = ["Other Concrete Product Manufacturing"]
+
+employees = 18
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Concrete Sewer Pipes & Manholes. NAICS 327390: other concrete product manufacturing."

@@ -1,0 +1,20 @@
+# Gar-V Mfg., Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Gar-V Mfg., Inc."
+kind = "company"
+city = "Three Rivers"
+state = "MI"
+address = "1111 River Street, Three Rivers, MI 49093"
+lat = 41.93985
+lon = -85.62147
+website = "https://gar-v.com"
+
+sector = "Metal"
+products = ["Metal Stamping"]
+
+employees = 20
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Metal Stampings. NAICS 332116: metal stamping."

@@ -1,0 +1,20 @@
+# Kenco Plastics, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Kenco Plastics, Inc."
+kind = "company"
+city = "La Porte"
+state = "IN"
+address = "2022 West 450 North, La Porte, IN 46350"
+lat = 41.67158
+lon = -86.74010
+website = "https://kenco.net"
+
+sector = "Materials & composites"
+products = ["All Other Plastics Product Manufacturing"]
+
+employees = 70
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Corporate Headquarters & Plastic Injection Molding for the Medical, Automotive, Marine & Appliance Industries. NAICS 326199: all other plastics product manufacturing."

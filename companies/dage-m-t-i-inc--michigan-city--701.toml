@@ -1,0 +1,20 @@
+# Dage/m T I, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Dage/m T I, Inc."
+kind = "company"
+city = "Michigan City"
+state = "IN"
+address = "701 North Roeske Avenue, Michigan City, IN 46360"
+lat = 41.71583
+lon = -86.86447
+website = "https://dagemti.com"
+
+sector = "Mechatronics & automation"
+products = ["Photographic and Photocopying Equipment Manufacturing"]
+
+employees = 35
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Closed-Circuit Television Cameras. NAICS 333315: photographic and photocopying equipment manufacturing."

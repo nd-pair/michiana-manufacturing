@@ -1,0 +1,20 @@
+# Gtw Enterprises, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Gtw Enterprises, Inc."
+kind = "company"
+city = "La Porte"
+state = "IN"
+address = "183 West 800 North, La Porte, IN 46350"
+lat = 41.72326
+lon = -86.70465
+website = "https://gtwenterprises.com"
+
+sector = "Mechatronics & automation"
+products = ["Paper Industry Machinery Manufacturing"]
+
+employees = 19
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Paper Converting & Honeycombing Machinery. NAICS 333291: paper industry machinery manufacturing."

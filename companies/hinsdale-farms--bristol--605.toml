@@ -1,0 +1,20 @@
+# Hinsdale Farms
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Hinsdale Farms"
+kind = "company"
+city = "Bristol"
+state = "IN"
+address = "605 Kesco Drive, Bristol, IN 46507"
+lat = 41.71629
+lon = -85.81299
+website = "https://hinsdalefarms.com"
+
+sector = "Food & consumer goods"
+products = ["Meat Processed From Carcasses"]
+
+employees = 250
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Corn Dogs. NAICS 311612: meat processed from carcasses."

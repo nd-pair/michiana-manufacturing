@@ -1,0 +1,20 @@
+# M & M Diecast, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "M & M Diecast, Inc."
+kind = "company"
+city = "Bridgman"
+state = "MI"
+address = "8556 North Gast Road, Bridgman, MI 49106"
+lat = 41.96368
+lon = -86.54251
+website = "https://mmdci.com"
+
+sector = "Metal"
+products = ["Nonferrous (except Aluminum) Die-Casting Foundries"]
+
+employees = 30
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Aluminum Die Castings. NAICS 331522: nonferrous (except aluminum) die-casting foundries."

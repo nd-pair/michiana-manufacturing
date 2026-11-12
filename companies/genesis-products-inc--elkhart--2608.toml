@@ -1,0 +1,20 @@
+# Genesis Products, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Genesis Products, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "2608 Almac Court, Elkhart, IN 46514"
+lat = 41.72054
+lon = -85.92925
+website = "https://genesisproductsinc.com"
+
+sector = "Wood, paper & furniture"
+products = ["Prefabricated Wood Building Manufacturing"]
+
+employees = 210
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Corporate Headquarters & Laminated Wooden Wall Panels, Interior Passage Doors & Hardwood Kitchen Cabinets. NAICS 321992: prefabricated wood building manufacturing."

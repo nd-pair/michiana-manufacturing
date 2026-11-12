@@ -1,0 +1,20 @@
+# R T I Products, LLC
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "R T I Products, LLC"
+kind = "company"
+city = "Niles"
+state = "MI"
+address = "1451 Lake Street, Niles, MI 49120"
+lat = 41.84162
+lon = -86.23972
+website = "https://rti-products.com"
+
+sector = "Electronics"
+products = ["Analytical Laboratory Instrument Manufacturing"]
+
+employees = 20
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Telecommunication & Industrial De-Icing Equipment, Sensors & Automotive Seat Heaters & Coolers. NAICS 334516: analytical laboratory instrument manufacturing."

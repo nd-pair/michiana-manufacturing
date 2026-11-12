@@ -1,0 +1,20 @@
+# Foamcraft, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Foamcraft, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "900 Industrial Parkway, Elkhart, IN 46516"
+lat = 41.67998
+lon = -85.93415
+website = "https://foamcraftinc.com"
+
+sector = "Materials & composites"
+products = ["Polystyrene Foam Product Manufacturing"]
+
+employees = 55
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Foam Cushioning. NAICS 326140: polystyrene foam product manufacturing."

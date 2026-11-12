@@ -1,0 +1,20 @@
+# G & H Industries
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "G & H Industries"
+kind = "company"
+city = "Centreville"
+state = "MI"
+address = "419 Eleanor Drive, Centreville, MI 49032"
+lat = 41.91934
+lon = -85.51138
+website = "https://ghplugs.com"
+
+sector = "Electronics"
+products = ["Electronic Connector Manufacturing"]
+
+employees = 20
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Connectors, Injection Molding & General Machining Job Shop. NAICS 334417: electronic connector manufacturing."

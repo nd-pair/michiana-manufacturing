@@ -1,0 +1,20 @@
+# Elkhart Cases, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Elkhart Cases, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "57459 Dewitt Street, Elkhart, IN 46517"
+lat = 41.66109
+lon = -86.00757
+website = "https://not available"
+
+sector = "Food & consumer goods"
+products = ["Luggage Manufacturing"]
+
+employees = 25
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Luggage & Carrying Cases. NAICS 316991: luggage manufacturing."

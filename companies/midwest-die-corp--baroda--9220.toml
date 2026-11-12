@@ -1,0 +1,20 @@
+# Midwest Die Corp.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Midwest Die Corp."
+kind = "company"
+city = "Baroda"
+state = "MI"
+address = "9220 1st Street, Baroda, MI 49101"
+lat = 41.95220
+lon = -86.48604
+website = "https://not available"
+
+sector = "Mechatronics & automation"
+products = ["Industrial Mold Manufacturing"]
+
+employees = 15
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Die Cast Dies. NAICS 333511: industrial mold manufacturing."

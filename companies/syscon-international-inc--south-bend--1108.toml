@@ -1,0 +1,20 @@
+# Syscon International, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Syscon International, Inc."
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "1108 High Street, South Bend, IN 46601"
+lat = 41.66245
+lon = -86.23906
+website = "https://plantstar.org"
+
+sector = "Electronics"
+products = ["Instruments & Related Products Mfg. for Measuring, Displaying, Controlling Industrial Process Variables"]
+
+employees = 50
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Production & Process Monitoring Systems. NAICS 334513: instruments & related products mfg for measuring, displaying, controlling industrial process variables."

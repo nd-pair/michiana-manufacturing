@@ -1,0 +1,20 @@
+# State Tool & Mfg. Co., Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "State Tool & Mfg. Co., Inc."
+kind = "company"
+city = "Benton Harbor"
+state = "MI"
+address = "1650 East Empire Avenue, Benton Harbor, MI 49022"
+lat = 42.10118
+lon = -86.41823
+website = "https://statetool.com"
+
+sector = "Electronics"
+products = ["Current-Carrying Wiring Device Manufacturing"]
+
+employees = 80
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Switches, Including Wire Harnesses & Light Socket Assemblies for Appliances. NAICS 335931: current-carrying wiring device manufacturing."

@@ -1,0 +1,20 @@
+# Kropf Industries, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Kropf Industries, Inc."
+kind = "company"
+city = "Goshen"
+state = "IN"
+address = "58647 State Road 15, Goshen, IN 46528"
+lat = 41.64306
+lon = -85.82283
+website = "https://kropfind.com"
+
+sector = "Vehicles & RVs"
+products = ["Motor Home Manufacturing"]
+
+employees = 50
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Recreational Vehicles & Park Models. NAICS 336213: motor home manufacturing."

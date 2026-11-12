@@ -1,0 +1,20 @@
+# Quali-Tone Corp.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Quali-Tone Corp."
+kind = "company"
+city = "Sawyer"
+state = "MI"
+address = "13092 Red Arrow Highway, Sawyer, MI 49125"
+lat = 41.87974
+lon = -86.61373
+website = "https://not available"
+
+sector = "Metal"
+products = ["Metal Coating, Engraving (except Jewelry and Silverware), and Allied Services To Manufacturers"]
+
+employees = 15
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Powder Coating. NAICS 332812: metal coating, engraving (except jewelry and silverware), and allied services to manufacturers."

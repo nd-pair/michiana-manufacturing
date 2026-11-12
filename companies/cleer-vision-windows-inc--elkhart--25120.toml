@@ -1,0 +1,20 @@
+# Cleer Vision Windows, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Cleer Vision Windows, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "25120 Leer Drive, Elkhart, IN 46514"
+lat = 41.72736
+lon = -85.95013
+website = "https://not available"
+
+sector = "Materials & composites"
+products = ["Glass Product Manufacturing Made of Purchased Glass"]
+
+employees = 25
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Van, RV, Bus, Boat & Ambulance Windows. NAICS 327215: glass product manufacturing made of purchased glass."

@@ -1,0 +1,20 @@
+# Ameri-Kart Corp.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Ameri-Kart Corp."
+kind = "company"
+city = "Bristol"
+state = "IN"
+address = "17196 State Road 120 East, Bristol, IN 46507"
+lat = 41.72288
+lon = -85.79964
+website = "https://amerikart.com"
+
+sector = "Materials & composites"
+products = ["All Other Plastics Product Manufacturing"]
+
+employees = 110
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Thermoformed & Rotational Molded Plastic Parts. NAICS 326199: all other plastics product manufacturing."

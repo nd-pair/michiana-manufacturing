@@ -1,0 +1,20 @@
+# Mm Spirit
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Mm Spirit"
+kind = "company"
+city = "Syracuse"
+state = "IN"
+address = "72298 State Road 13, Syracuse, IN 46567"
+lat = 41.44614
+lon = -85.74987
+website = "https://americanspiritmfg.com"
+
+sector = "Vehicles & RVs"
+products = ["Truck Trailer Manufacturing"]
+
+employees = 40
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Horse Trailers. NAICS 336212: truck trailer manufacturing."

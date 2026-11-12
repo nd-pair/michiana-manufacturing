@@ -1,0 +1,20 @@
+# Pro Air, LLC
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Pro Air, LLC"
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "28731 County Road 6, Elkhart, IN 46514"
+lat = 41.72474
+lon = -86.01870
+website = "https://proairllc.com"
+
+sector = "Mechatronics & automation"
+products = ["Air-Conditioning & Warm Air Heating Equipment & Commercial and Industrial Refrigeration Equipment Mfg."]
+
+employees = 75
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Automotive Heating & Air Conditioning Units. NAICS 333415: air-conditioning & warm air heating equipment & commercial and industrial refrigeration equipment mfg.."

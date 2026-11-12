@@ -1,0 +1,20 @@
+# Marson International, LLC
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Marson International, LLC"
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "1001 Sako Court, Elkhart, IN 46516"
+lat = 41.67840
+lon = -85.91412
+website = "https://marsonintl.com"
+
+sector = "Metal"
+products = ["Iron and Steel Pipe and Tube Manufacturing From Purchased Steel"]
+
+employees = 37
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "CNC Stainless, Galvanized & Aluminum Steel Tube Bending & Fabrication, Including Exhaust Pipes, Water Tubes. NAICS 331210: iron and steel pipe and tube manufacturing from purchased steel."

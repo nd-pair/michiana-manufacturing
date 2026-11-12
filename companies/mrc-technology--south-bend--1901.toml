@@ -1,0 +1,20 @@
+# Mrc Technology
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Mrc Technology"
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "1901 South Lafayette Boulevard, South Bend, IN 46613"
+lat = 41.65392
+lon = -86.25373
+website = "https://not available"
+
+sector = "Vehicles & RVs"
+products = ["Gasoline Engine and Engine Parts Manufacturing"]
+
+employees = 15
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Solid State Motor Starters, Industrial Controls & Battery Chargers. NAICS 336312: gasoline engine and engine parts manufacturing."

@@ -1,0 +1,20 @@
+# B P C Mfg.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "B P C Mfg."
+kind = "company"
+city = "Plymouth"
+state = "IN"
+address = "1755 North Oak Road, Plymouth, IN 46563"
+lat = 41.35553
+lon = -86.32921
+website = "https://lasallebristol.com"
+
+sector = "Materials & composites"
+products = ["All Other Plastics Product Manufacturing"]
+
+employees = 80
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Plastic Injection Molding. NAICS 326199: all other plastics product manufacturing."

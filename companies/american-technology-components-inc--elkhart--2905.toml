@@ -1,0 +1,20 @@
+# American Technology Components, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "American Technology Components, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "2905 Lavanture Place, Elkhart, IN 46514"
+lat = 41.72710
+lon = -85.99728
+website = "https://atcomp.com"
+
+sector = "Electronics"
+products = ["Other Electronic Component Manufacturing"]
+
+employees = 45
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Electronic Components, Wiring & Switching Systems. NAICS 334419: other electronic component manufacturing."

@@ -1,0 +1,20 @@
+# Monaco Coach Corp.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Monaco Coach Corp."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "2700 South Nappanee Street, Elkhart, IN 46517"
+lat = 41.65876
+lon = -86.00270
+website = "https://monacocoach.com"
+
+sector = "Vehicles & RVs"
+products = ["Motor Home Manufacturing"]
+
+employees = 450
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Custom Chassis for Motor Homes. NAICS 336213: motor home manufacturing."

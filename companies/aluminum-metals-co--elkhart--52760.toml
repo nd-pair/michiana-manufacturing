@@ -1,0 +1,20 @@
+# Aluminum Metals Co.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Aluminum Metals Co."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "52760 Bridger Court, Elkhart, IN 46514"
+lat = 41.72729
+lon = -85.90962
+website = "https://not available"
+
+sector = "Metal"
+products = ["Other Aluminum Rolling and Drawing"]
+
+employees = 21
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Aluminum Extrusions. NAICS 331319: other aluminum rolling and drawing."

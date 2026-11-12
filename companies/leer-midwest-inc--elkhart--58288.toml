@@ -1,0 +1,20 @@
+# Leer Midwest, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Leer Midwest, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "58288 Ventura Drive, Elkhart, IN 46517"
+lat = 41.64767
+lon = -86.01873
+website = "https://leer.com"
+
+sector = "Vehicles & RVs"
+products = ["Motor Vehicle Body Manufacturing"]
+
+employees = 180
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Aluminum & Fiberglass Pick-Up Cabs & Covers. NAICS 336211: motor vehicle body manufacturing."

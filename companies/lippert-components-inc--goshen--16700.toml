@@ -1,0 +1,20 @@
+# Lippert Components, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Lippert Components, Inc."
+kind = "company"
+city = "Goshen"
+state = "IN"
+address = "16700 Skyview Road, Goshen, IN 46526"
+lat = 41.54382
+lon = -85.78170
+website = "https://lci.com"
+
+sector = "Wood, paper & furniture"
+products = ["Manufactured Home (mobile Home) Manufacturing"]
+
+employees = 100
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Steel Mobile Home Chassis. NAICS 321991: manufactured home (mobile home) manufacturing."

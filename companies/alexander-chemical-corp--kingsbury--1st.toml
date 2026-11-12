@@ -1,0 +1,20 @@
+# Alexander Chemical Corp.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Alexander Chemical Corp."
+kind = "company"
+city = "Kingsbury"
+state = "IN"
+address = "1st Road, Kingsbury, IN 46345"
+lat = 41.51154
+lon = -86.67469
+website = "https://alexanderchemical.com"
+
+sector = "Materials & composites"
+products = ["Industrial Gas Manufacturing"]
+
+employees = 60
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Industrial Gases & Water Treatment Chemicals. NAICS 325120: industrial gas manufacturing."

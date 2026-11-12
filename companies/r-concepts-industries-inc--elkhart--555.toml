@@ -1,0 +1,20 @@
+# R Concepts Industries, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "R Concepts Industries, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "555 County Road 15, Elkhart, IN 46516"
+lat = 41.68707
+lon = -85.90785
+website = "https://rctoolbox.com"
+
+sector = "Materials & composites"
+products = ["Paint and Coating Manufacturing"]
+
+employees = 96
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Truck Mounted Toolbox & Custom Sheet Metal Fabrication. NAICS 325510: paint and coating manufacturing."

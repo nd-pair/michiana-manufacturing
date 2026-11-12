@@ -1,0 +1,20 @@
+# Four Winds International Corp.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Four Winds International Corp."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "701 County Road 15, Elkhart, IN 46516"
+lat = 41.68562
+lon = -85.90782
+website = "https://fourwinds-rv.com"
+
+sector = "Vehicles & RVs"
+products = ["Motor Home Manufacturing"]
+
+employees = 700
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Class A & C Motor Homes. NAICS 336213: motor home manufacturing."

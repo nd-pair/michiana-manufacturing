@@ -1,0 +1,20 @@
+# Allied Specialty Precision, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Allied Specialty Precision, Inc."
+kind = "company"
+city = "Mishawaka"
+state = "IN"
+address = "815 East Lowell Avenue, Mishawaka, IN 46545"
+lat = 41.67629
+lon = -86.17202
+website = "https://aspi-nc.com"
+
+sector = "Metal"
+products = ["Machine Shops"]
+
+employees = 80
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Precision Components, Shafts, Bushings, Pistons, Sleeves, Fasteners & Gears. NAICS 332710: machine shops."

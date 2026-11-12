@@ -1,0 +1,20 @@
+# Nimet Industries, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Nimet Industries, Inc."
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "2424 Foundation Drive, South Bend, IN 46628"
+lat = 41.71016
+lon = -86.30371
+website = "https://nimet.com"
+
+sector = "Metal"
+products = ["Electroplating, Plating, Polishing, Anodizing and Coloring"]
+
+employees = 70
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Aluminum Anodizing & Electroless Nickel, Nickel & Hard Coat Plating. NAICS 332813: electroplating, plating, polishing, anodizing and coloring."

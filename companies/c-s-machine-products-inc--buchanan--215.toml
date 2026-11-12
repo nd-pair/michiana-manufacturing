@@ -1,0 +1,20 @@
+# C & S Machine Products, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "C & S Machine Products, Inc."
+kind = "company"
+city = "Buchanan"
+state = "MI"
+address = "215 South Post Road, Buchanan, MI 49107"
+lat = 41.82649
+lon = -86.38166
+website = "https://candsmachine.com"
+
+sector = "Metal"
+products = ["Machine Shops"]
+
+employees = 45
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Precision Machined Components. NAICS 332710: machine shops."

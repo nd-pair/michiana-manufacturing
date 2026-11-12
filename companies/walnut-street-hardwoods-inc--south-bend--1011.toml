@@ -1,0 +1,20 @@
+# Walnut Street Hardwoods, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Walnut Street Hardwoods, Inc."
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "1011 South Walnut Street, South Bend, IN 46619"
+lat = 41.66357
+lon = -86.27129
+website = "https://walnut-street.com"
+
+sector = "Wood, paper & furniture"
+products = ["Sawmills"]
+
+employees = 24
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Kiln Dried & Lumber Processing. NAICS 321113: sawmills."

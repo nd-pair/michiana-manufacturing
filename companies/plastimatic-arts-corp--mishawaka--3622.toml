@@ -1,0 +1,20 @@
+# Plastimatic Arts Corp.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Plastimatic Arts Corp."
+kind = "company"
+city = "Mishawaka"
+state = "IN"
+address = "3622 North Home Street, Mishawaka, IN 46545"
+lat = 41.69319
+lon = -86.14925
+website = "https://pacbannerworks.com"
+
+sector = "Wood, paper & furniture"
+products = ["Commercial Screen Printing"]
+
+employees = 30
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Plastic Screen Printing. NAICS 323113: commercial screen printing."

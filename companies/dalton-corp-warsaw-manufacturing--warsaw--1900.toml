@@ -1,0 +1,20 @@
+# Dalton Corp., Warsaw Manufacturing
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Dalton Corp., Warsaw Manufacturing"
+kind = "company"
+city = "Warsaw"
+state = "IN"
+address = "1900 East Jefferson Street, Warsaw, IN 46580"
+lat = 41.23584
+lon = -85.83174
+website = "https://daltonfoundries.com"
+
+sector = "Metal"
+products = ["Iron Foundries"]
+
+employees = 600
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Gray Iron Castings. NAICS 331511: iron foundries."

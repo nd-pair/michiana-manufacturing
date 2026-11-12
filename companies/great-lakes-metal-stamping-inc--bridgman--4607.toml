@@ -1,0 +1,20 @@
+# Great Lakes Metal Stamping, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Great Lakes Metal Stamping, Inc."
+kind = "company"
+city = "Bridgman"
+state = "MI"
+address = "4607 Rambo Road, Bridgman, MI 49106"
+lat = 41.92876
+lon = -86.56475
+website = "https://glakesmetalstamping.com"
+
+sector = "Metal"
+products = ["Metal Stamping"]
+
+employees = 100
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Metal Stampings & Welded & Mechanically Fastened Sub-Assemblies. NAICS 332116: metal stamping."

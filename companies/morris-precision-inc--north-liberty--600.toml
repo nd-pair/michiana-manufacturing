@@ -1,0 +1,20 @@
+# Morris Precision, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Morris Precision, Inc."
+kind = "company"
+city = "North Liberty"
+state = "IN"
+address = "600 South State Street, North Liberty, IN 46554"
+lat = 41.52867
+lon = -86.43298
+website = "https://not available"
+
+sector = "Metal"
+products = ["Machine Shops"]
+
+employees = 18
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Precision Aerospace Fuel Control & Medical Prosthetic Machining Job Shop. NAICS 332710: machine shops."

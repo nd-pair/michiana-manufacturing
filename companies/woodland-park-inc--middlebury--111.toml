@@ -1,0 +1,20 @@
+# Woodland Park, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Woodland Park, Inc."
+kind = "company"
+city = "Middlebury"
+state = "IN"
+address = "111 Crystal Heights Boulevard, Middlebury, IN 46540"
+lat = 41.65348
+lon = -85.70264
+website = "https://woodland-park.com"
+
+sector = "Vehicles & RVs"
+products = ["Truck Trailer Manufacturing"]
+
+employees = 100
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Recreational Park Trailers & Cabins. NAICS 336212: truck trailer manufacturing."

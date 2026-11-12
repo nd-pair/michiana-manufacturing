@@ -1,0 +1,20 @@
+# Elkhart Plating Corp.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Elkhart Plating Corp."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "1913 South 14th Street, Elkhart, IN 46516"
+lat = 41.66898
+lon = -85.98828
+website = "https://elkhartplating.com"
+
+sector = "Metal"
+products = ["Electroplating, Plating, Polishing, Anodizing and Coloring"]
+
+employees = 35
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Electroplated Zinc Finishes. NAICS 332813: electroplating, plating, polishing, anodizing and coloring."

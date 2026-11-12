@@ -1,0 +1,20 @@
+# Kruz, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Kruz, Inc."
+kind = "company"
+city = "Knox"
+state = "IN"
+address = "1201 West Culver Road, Knox, IN 46534"
+lat = 41.28838
+lon = -86.63633
+website = "https://kruzinc.com"
+
+sector = "Vehicles & RVs"
+products = ["Truck Trailer Manufacturing"]
+
+employees = 45
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Steel & Aluminum Semi-Dump Trailers & Steel & Aluminum Dump Bodies. NAICS 336212: truck trailer manufacturing."

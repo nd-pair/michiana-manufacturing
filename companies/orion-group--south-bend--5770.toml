@@ -1,0 +1,20 @@
+# Orion Group
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Orion Group"
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "5770 Nimtz Parkway, South Bend, IN 46628"
+lat = 41.72430
+lon = -86.32992
+website = "https://not available"
+
+sector = "Electronics"
+products = ["Electronic Computer Manufacturing"]
+
+employees = 15
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Computer Systems. NAICS 334111: electronic computer manufacturing."

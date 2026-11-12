@@ -1,0 +1,20 @@
+# Midwest Finishing Systems, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Midwest Finishing Systems, Inc."
+kind = "company"
+city = "Mishawaka"
+state = "IN"
+address = "1906 Clover Road, Mishawaka, IN 46545"
+lat = 41.67711
+lon = -86.15343
+website = "https://midwestfinishing.com"
+
+sector = "Metal"
+products = ["Machine Shops"]
+
+employees = 60
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Corporate Headquarters & Powder & Metal Finishing Equipment, Including Washers, Ovens, Conveyors & Controls. NAICS 332710: machine shops."

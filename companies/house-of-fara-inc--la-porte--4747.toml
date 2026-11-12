@@ -1,0 +1,20 @@
+# House of Fara, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "House of Fara, Inc."
+kind = "company"
+city = "La Porte"
+state = "IN"
+address = "4747 West State Road 2, La Porte, IN 46350"
+lat = 41.59176
+lon = -86.79338
+website = "https://houseoffara.com"
+
+sector = "Wood, paper & furniture"
+products = ["Other Millwork (including Flooring )"]
+
+employees = 90
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Corporate Headquarters & Hardwood Mouldings. NAICS 321918: other millwork (including flooring )."

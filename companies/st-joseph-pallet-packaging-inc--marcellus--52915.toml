@@ -1,0 +1,20 @@
+# St. Joseph Pallet & Packaging, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "St. Joseph Pallet & Packaging, Inc."
+kind = "company"
+city = "Marcellus"
+state = "MI"
+address = "52915 Chamberlain Road, Marcellus, MI 49067"
+lat = 42.02838
+lon = -85.74213
+website = "https://not available"
+
+sector = "Wood, paper & furniture"
+products = ["Wood Container and Pallet Manufacturing"]
+
+employees = 15
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Wooden Pallets. NAICS 321920: wood container and pallet manufacturing."

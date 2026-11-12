@@ -1,0 +1,20 @@
+# Daman Products Co., Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Daman Products Co., Inc."
+kind = "company"
+city = "Mishawaka"
+state = "IN"
+address = "1811 North Home Street, Mishawaka, IN 46545"
+lat = 41.67650
+lon = -86.14854
+website = "https://damanifolds.com"
+
+sector = "Mechatronics & automation"
+products = ["Fluid Power Cylinder and Actuator Manufacturing"]
+
+employees = 90
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Hydraulic Valve Manifolds, Adapters & Cover Plates. NAICS 333995: fluid power cylinder and actuator manufacturing."

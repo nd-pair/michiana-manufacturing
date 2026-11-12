@@ -1,0 +1,20 @@
+# Mctd, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Mctd, Inc."
+kind = "company"
+city = "Michigan City"
+state = "IN"
+address = "200 Winski Drive, Michigan City, IN 46360"
+lat = 41.70187
+lon = -86.90959
+website = "https://mctdinc.com"
+
+sector = "Mechatronics & automation"
+products = ["All Other Industrial Machinery Manufacturing"]
+
+employees = 20
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Custom Machinery, Including Controls, Tooling, Fixtures & Design. NAICS 333298: all other industrial machinery manufacturing."

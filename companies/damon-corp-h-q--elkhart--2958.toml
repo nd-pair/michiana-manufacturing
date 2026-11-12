@@ -1,0 +1,20 @@
+# Damon Corp. (h Q)
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Damon Corp. (h Q)"
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "2958 Gateway Drive, Elkhart, IN 46514"
+lat = 41.73013
+lon = -86.00915
+website = "https://damonrv.com"
+
+sector = "Vehicles & RVs"
+products = ["Motor Home Manufacturing"]
+
+employees = 475
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Corporate Headquarters; Motor Homes Assembly. NAICS 336213: motor home manufacturing."

@@ -1,0 +1,20 @@
+# Master Metal Engineering, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Master Metal Engineering, Inc."
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "4520 South Burnett Drive, South Bend, IN 46614"
+lat = 41.62835
+lon = -86.26040
+website = "https://mastermetal.net"
+
+sector = "Metal"
+products = ["Machine Shops"]
+
+employees = 70
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Custom Contract Manufacturing, Including CNC Milling, Lathes, Swiss Turning, Wire EDM, Gear Cutting & Grinding Equip.. NAICS 332710: machine shops."

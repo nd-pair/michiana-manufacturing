@@ -1,0 +1,20 @@
+# Babbitt Co., Inc., J. J.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Babbitt Co., Inc., J. J."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "2201 Industrial Parkway, Elkhart, IN 46516"
+lat = 41.68638
+lon = -85.92958
+website = "https://jjbabbitt.com"
+
+sector = "Medical devices & other"
+products = ["Musical Instrument Manufacturing"]
+
+employees = 45
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Saxophone & Clarinet Mouthpieces. NAICS 339992: musical instrument manufacturing."

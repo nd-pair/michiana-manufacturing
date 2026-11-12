@@ -1,0 +1,20 @@
+# Slatile Roofing & Sheet Metal, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Slatile Roofing & Sheet Metal, Inc."
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "1703 South Ironwood Drive, South Bend, IN 46613"
+lat = 41.65666
+lon = -86.21653
+website = "https://not available"
+
+sector = "Metal"
+products = ["Sheet Metal Work Manufacturing"]
+
+employees = 60
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Sheet Metal Fabrication. NAICS 332322: sheet metal work manufacturing."

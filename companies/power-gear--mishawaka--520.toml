@@ -1,0 +1,20 @@
+# Power Gear
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Power Gear"
+kind = "company"
+city = "Mishawaka"
+state = "IN"
+address = "520 South Byrkit Street, Mishawaka, IN 46544"
+lat = 41.65774
+lon = -86.15728
+website = "https://powergearus.com"
+
+sector = "Mechatronics & automation"
+products = ["Pump and Pumping Equipment Manufacturing"]
+
+employees = 130
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Hydraulic Pumps. NAICS 333911: pump and pumping equipment manufacturing."

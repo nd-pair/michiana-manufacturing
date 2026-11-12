@@ -1,0 +1,20 @@
+# Kobelco Compressors America, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Kobelco Compressors America, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "3000 Hammond Avenue, Elkhart, IN 46516"
+lat = 41.65672
+lon = -85.94230
+website = "https://kocoa.com"
+
+sector = "Mechatronics & automation"
+products = ["Air and Gas Compressor Manufacturing"]
+
+employees = 53
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Air & Refrigeration Screw Compressors. NAICS 333912: air and gas compressor manufacturing."

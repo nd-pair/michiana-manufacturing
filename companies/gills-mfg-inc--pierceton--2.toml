@@ -1,0 +1,20 @@
+# Gills Mfg., Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Gills Mfg., Inc."
+kind = "company"
+city = "Pierceton"
+state = "IN"
+address = "2 Arnolt Drive, Pierceton, IN 46562"
+lat = 41.20571
+lon = -85.71861
+website = "https://lightsforholidays.com"
+
+sector = "Mechatronics & automation"
+products = ["Special Die and Tool, Die Set, Jig, and Fixture Manufacturing"]
+
+employees = 16
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Industrial Machinery & Tool & Die Job Shop. NAICS 333514: special die and tool, die set, jig, and fixture manufacturing."

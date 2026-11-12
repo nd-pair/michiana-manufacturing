@@ -1,0 +1,20 @@
+# Danco Anodizing, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Danco Anodizing, Inc."
+kind = "company"
+city = "Warsaw"
+state = "IN"
+address = "2450 Deelyn Drive, Warsaw, IN 46580"
+lat = 41.26775
+lon = -85.86962
+website = "https://danco.net"
+
+sector = "Metal"
+products = ["Electroplating, Plating, Polishing, Anodizing and Coloring"]
+
+employees = 50
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Anodizing. NAICS 332813: electroplating, plating, polishing, anodizing and coloring."

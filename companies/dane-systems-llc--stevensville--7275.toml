@@ -1,0 +1,20 @@
+# Dane Systems, LLC
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Dane Systems, LLC"
+kind = "company"
+city = "Stevensville"
+state = "MI"
+address = "7275 Red Arrow Highway, Stevensville, MI 49127"
+lat = 41.98663
+lon = -86.53803
+website = "https://danesys.com"
+
+sector = "Mechatronics & automation"
+products = ["Conveyor and Conveying Equipment Manufacturing"]
+
+employees = 70
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Assembly & Test Equipment Machines. NAICS 333922: conveyor and conveying equipment manufacturing."

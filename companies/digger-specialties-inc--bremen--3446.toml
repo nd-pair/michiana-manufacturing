@@ -1,0 +1,20 @@
+# Digger Specialties, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Digger Specialties, Inc."
+kind = "company"
+city = "Bremen"
+state = "IN"
+address = "3446 US Highway 6, Bremen, IN 46506"
+lat = 41.45410
+lon = -86.12778
+website = "https://diggerspecialties.com"
+
+sector = "Materials & composites"
+products = ["All Other Plastics Product Manufacturing"]
+
+employees = 60
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Corporate Headquarters & Vinyl & Aluminum Fencing & Railings. NAICS 326199: all other plastics product manufacturing."

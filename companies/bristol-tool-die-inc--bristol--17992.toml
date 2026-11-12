@@ -1,0 +1,20 @@
+# Bristol Tool & Die, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Bristol Tool & Die, Inc."
+kind = "company"
+city = "Bristol"
+state = "IN"
+address = "17992 Commerce Drive, Bristol, IN 46507"
+lat = 41.72907
+lon = -85.80337
+website = "https://not available"
+
+sector = "Mechatronics & automation"
+products = ["Special Die and Tool, Die Set, Jig, and Fixture Manufacturing"]
+
+employees = 18
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Tool & Die Job Shop. NAICS 333514: special die and tool, die set, jig, and fixture manufacturing."

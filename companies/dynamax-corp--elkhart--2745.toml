@@ -1,0 +1,20 @@
+# Dynamax Corp.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Dynamax Corp."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "2745 Northland Drive, Elkhart, IN 46514"
+lat = 41.72287
+lon = -85.93387
+website = "https://dynamaxcorp.com"
+
+sector = "Vehicles & RVs"
+products = ["Motor Home Manufacturing"]
+
+employees = 90
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Motor Homes. NAICS 336213: motor home manufacturing."

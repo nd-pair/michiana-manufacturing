@@ -1,0 +1,20 @@
+# Warsaw Engineering & Fabricating, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Warsaw Engineering & Fabricating, Inc."
+kind = "company"
+city = "Warsaw"
+state = "IN"
+address = "2780 East Durbin Street, Warsaw, IN 46580"
+lat = 41.23391
+lon = -85.81969
+website = "https://warsaweng.com"
+
+sector = "Metal"
+products = ["All Other Miscellaneous Fabricated Metal Product Manufacturing"]
+
+employees = 45
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Metal Fabrication. NAICS 332999: all other miscellaneous fabricated metal product manufacturing."

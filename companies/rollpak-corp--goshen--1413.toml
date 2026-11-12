@@ -1,0 +1,20 @@
+# Rollpak Corp.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Rollpak Corp."
+kind = "company"
+city = "Goshen"
+state = "IN"
+address = "1413 Eisenhower Drive South, Goshen, IN 46526"
+lat = 41.55483
+lon = -85.81437
+website = "https://berryplastics.com"
+
+sector = "Materials & composites"
+products = ["Plastics Bag Manufacturing"]
+
+employees = 40
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Plastic Bags. NAICS 326111: plastics bag manufacturing."

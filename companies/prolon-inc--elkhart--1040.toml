@@ -1,0 +1,20 @@
+# Prolon, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Prolon, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "1040 Sako Court, Elkhart, IN 46516"
+lat = 41.67820
+lon = -85.91334
+website = "https://prolon.com"
+
+sector = "Materials & composites"
+products = ["Plastics Material and Resin Manufacturing"]
+
+employees = 50
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Plastic Products. NAICS 325211: plastics material and resin manufacturing."

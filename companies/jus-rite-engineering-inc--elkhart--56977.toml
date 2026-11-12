@@ -1,0 +1,20 @@
+# Jus-Rite Engineering, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Jus-Rite Engineering, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "56977 Elk Court, Elkhart, IN 46516"
+lat = 41.67046
+lon = -86.03563
+website = "https://jus-rite.com"
+
+sector = "Electronics"
+products = ["Totalizing Fluid Meter and Counting Device Manufacturing"]
+
+employees = 20
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Gauges & Industrial Machinery. NAICS 334514: totalizing fluid meter and counting device manufacturing."

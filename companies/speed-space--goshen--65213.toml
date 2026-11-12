@@ -1,0 +1,20 @@
+# Speed Space
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Speed Space"
+kind = "company"
+city = "Goshen"
+state = "IN"
+address = "65213 County Road 31, Goshen, IN 46528"
+lat = 41.54880
+lon = -85.77098
+website = "https://speedspace.org"
+
+sector = "Wood, paper & furniture"
+products = ["Prefabricated Wood Building Manufacturing"]
+
+employees = 25
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Modular Building Systems. NAICS 321992: prefabricated wood building manufacturing."

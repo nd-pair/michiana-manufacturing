@@ -1,0 +1,20 @@
+# Glunz & Jensen K & F, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Glunz & Jensen K & F, Inc."
+kind = "company"
+city = "Granger"
+state = "IN"
+address = "12633 Industrial Park Drive, Granger, IN 46530"
+lat = 41.74778
+lon = -86.11252
+website = "https://k-f.com"
+
+sector = "Wood, paper & furniture"
+products = ["Prepress Services"]
+
+employees = 90
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Graphic Arts Equipment. NAICS 323122: prepress services."

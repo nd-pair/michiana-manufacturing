@@ -1,0 +1,20 @@
+# Custom Machine Mfr.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Custom Machine Mfr."
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "4111 Technology Drive, South Bend, IN 46628"
+lat = 41.73317
+lon = -86.34296
+website = "https://cmmbuilt.com"
+
+sector = "Mechatronics & automation"
+products = ["Power-Driven Hand Tool Manufacturing"]
+
+employees = 30
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Vinyl Routing Machines. NAICS 333991: power-driven hand tool manufacturing."

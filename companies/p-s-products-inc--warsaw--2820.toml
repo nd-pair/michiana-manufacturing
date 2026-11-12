@@ -1,0 +1,20 @@
+# P S Products, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "P S Products, Inc."
+kind = "company"
+city = "Warsaw"
+state = "IN"
+address = "2820 North Fox Farm Road, Warsaw, IN 46582"
+lat = 41.27340
+lon = -85.89756
+website = "https://not available"
+
+sector = "Materials & composites"
+products = ["Glass Product Manufacturing Made of Purchased Glass"]
+
+employees = 25
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Stained Glass Products & Mirrors. NAICS 327215: glass product manufacturing made of purchased glass."

@@ -1,0 +1,20 @@
+# Flamm Pickle & Packing Co., Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Flamm Pickle & Packing Co., Inc."
+kind = "company"
+city = "Eau Claire"
+state = "MI"
+address = "4545 Hipps Hollow Road, Eau Claire, MI 49111"
+lat = 41.97765
+lon = -86.34858
+website = "https://not available"
+
+sector = "Food & consumer goods"
+products = ["Fruit and Vegetable Canning"]
+
+employees = 15
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Pickle Relish. NAICS 311421: fruit and vegetable canning."

@@ -1,0 +1,20 @@
+# Hy-Line Enterprises Holding, LLC
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Hy-Line Enterprises Holding, LLC"
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "21674 Beck Drive, Elkhart, IN 46516"
+lat = 41.69357
+lon = -85.87949
+website = "https://hylinetrailers.com"
+
+sector = "Vehicles & RVs"
+products = ["Travel Trailer and Camper Manufacturing"]
+
+employees = 62
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Travel & Park Trailers. NAICS 336214: travel trailer and camper manufacturing."

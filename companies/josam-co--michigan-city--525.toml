@@ -1,0 +1,20 @@
+# Josam Co.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Josam Co."
+kind = "company"
+city = "Michigan City"
+state = "IN"
+address = "525 US Highway 20 West, Michigan City, IN 46360"
+lat = 41.68072
+lon = -86.90441
+website = "https://josam.com"
+
+sector = "Metal"
+products = ["Enameled Iron and Metal Sanitary Ware Manufacturing"]
+
+employees = 60
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Plumbing Drainage Products. NAICS 332998: enameled iron and metal sanitary ware manufacturing."

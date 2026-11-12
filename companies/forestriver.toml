@@ -8,7 +8,7 @@ state = "IN"
 address = "900 County Road 1 N, Elkhart, IN 46514"
 website = "https://forestriverinc.com"
 
-sector = "Mechatronics & automation"
+sector = "Vehicles & RVs"
 products = ["RV & specialty vehicle components", "High-mix assembly"]
 
 employees = 11000

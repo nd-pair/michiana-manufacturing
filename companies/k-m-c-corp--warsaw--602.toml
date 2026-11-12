@@ -1,0 +1,20 @@
+# K.m.c. Corp.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "K.m.c. Corp."
+kind = "company"
+city = "Warsaw"
+state = "IN"
+address = "602 North Leiter Drive, Warsaw, IN 46580"
+lat = 41.24207
+lon = -85.87577
+website = "https://not available"
+
+sector = "Wood, paper & furniture"
+products = ["Upholstered Household Furniture Manufacturing"]
+
+employees = 50
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Mobile Home & Recreational Vehicle Furniture & Seating. NAICS 337121: upholstered household furniture manufacturing."

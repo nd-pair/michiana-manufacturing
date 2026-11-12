@@ -1,0 +1,20 @@
+# Town & Country Press, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Town & Country Press, Inc."
+kind = "company"
+city = "Plymouth"
+state = "IN"
+address = "1920 Jim Neu Drive, Plymouth, IN 46563"
+lat = 41.35479
+lon = -86.33317
+website = "https://not available"
+
+sector = "Wood, paper & furniture"
+products = ["Commercial Lithographic Printing"]
+
+employees = 17
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Offset Printing. NAICS 323110: commercial lithographic printing."

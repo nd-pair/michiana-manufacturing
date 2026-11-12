@@ -1,0 +1,20 @@
+# Ultra/glas of Lakeville, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Ultra/glas of Lakeville, Inc."
+kind = "company"
+city = "Lakeville"
+state = "IN"
+address = "520 Industrial Drive, Lakeville, IN 46536"
+lat = 41.52881
+lon = -86.27565
+website = "https://not available"
+
+sector = "Materials & composites"
+products = ["Mineral Wool Manufacturing"]
+
+employees = 35
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Fiberglass Bathtubs. NAICS 327993: mineral wool manufacturing."

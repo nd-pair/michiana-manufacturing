@@ -1,0 +1,20 @@
+# Shells, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Shells, Inc."
+kind = "company"
+city = "Bourbon"
+state = "IN"
+address = "502 Old US Highway 30 East, Bourbon, IN 46504"
+lat = 41.29335
+lon = -86.10729
+website = "https://not available"
+
+sector = "Mechatronics & automation"
+products = ["All Other Industrial Machinery Manufacturing"]
+
+employees = 56
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Foundry Sand Cores. NAICS 333298: all other industrial machinery manufacturing."

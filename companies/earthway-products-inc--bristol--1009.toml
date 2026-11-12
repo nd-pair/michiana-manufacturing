@@ -1,0 +1,20 @@
+# Earthway Products, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Earthway Products, Inc."
+kind = "company"
+city = "Bristol"
+state = "IN"
+address = "1009 Maple Street, Bristol, IN 46507"
+lat = 41.71147
+lon = -85.82248
+website = "https://earthway.com"
+
+sector = "Mechatronics & automation"
+products = ["Farm Machinery and Equipment Manufacturing"]
+
+employees = 130
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Lawn & Garden Spreaders, Seeders & Cultivating Equipment. NAICS 333111: farm machinery and equipment manufacturing."

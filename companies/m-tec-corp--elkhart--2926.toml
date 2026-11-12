@@ -1,0 +1,20 @@
+# M-Tec Corp.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "M-Tec Corp."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "2926 Paul Drive, Elkhart, IN 46514"
+lat = 41.72850
+lon = -86.01933
+website = "https://not available"
+
+sector = "Metal"
+products = ["All Other Miscellaneous Fabricated Metal Product Manufacturing"]
+
+employees = 18
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Metal Fabrication. NAICS 332999: all other miscellaneous fabricated metal product manufacturing."

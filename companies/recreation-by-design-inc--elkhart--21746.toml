@@ -1,0 +1,20 @@
+# Recreation by Design, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Recreation by Design, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "21746 Buckingham Road, Elkhart, IN 46516"
+lat = 41.69913
+lon = -85.88263
+website = "https://recreationbydesign.com"
+
+sector = "Vehicles & RVs"
+products = ["Travel Trailer and Camper Manufacturing"]
+
+employees = 75
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Fifth Wheels, Park Models & Travel Trailers. NAICS 336214: travel trailer and camper manufacturing."

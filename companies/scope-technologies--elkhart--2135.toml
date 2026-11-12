@@ -1,0 +1,20 @@
+# Scope Technologies
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Scope Technologies"
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "2135 Industrial Parkway, Elkhart, IN 46516"
+lat = 41.68637
+lon = -85.93076
+website = "https://scopetechnologies.com"
+
+sector = "Vehicles & RVs"
+products = ["Motor Vehicle Seating and Interior Trim Manufacturing"]
+
+employees = 270
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "RV, Marine & Medical Seating. NAICS 336360: motor vehicle seating and interior trim manufacturing."

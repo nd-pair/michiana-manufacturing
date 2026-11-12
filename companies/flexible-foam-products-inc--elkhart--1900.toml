@@ -1,0 +1,20 @@
+# Flexible Foam Products, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Flexible Foam Products, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "1900 West Lusher Avenue, Elkhart, IN 46517"
+lat = 41.66729
+lon = -85.99954
+website = "https://ohiodec.com"
+
+sector = "Materials & composites"
+products = ["Urethane and Other Foam Product (except Polystyrene) Manufacturing"]
+
+employees = 72
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Polyurethane Foam. NAICS 326150: urethane and other foam product (except polystyrene) manufacturing."

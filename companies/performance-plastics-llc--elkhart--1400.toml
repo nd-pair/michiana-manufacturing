@@ -1,0 +1,20 @@
+# Performance Plastics, LLC
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Performance Plastics, LLC"
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "1400 Leininger Avenue, Elkhart, IN 46517"
+lat = 41.66360
+lon = -85.98791
+website = "https://not available"
+
+sector = "Materials & composites"
+products = ["All Other Plastics Product Manufacturing"]
+
+employees = 35
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Rotational Molded & Processed Plastics. NAICS 326199: all other plastics product manufacturing."

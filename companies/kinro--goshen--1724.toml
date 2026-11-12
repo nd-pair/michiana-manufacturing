@@ -1,0 +1,20 @@
+# Kinro
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Kinro"
+kind = "company"
+city = "Goshen"
+state = "IN"
+address = "1724 Eisenhower Drive South, Goshen, IN 46526"
+lat = 41.55425
+lon = -85.81503
+website = "https://kinro.com"
+
+sector = "Materials & composites"
+products = ["Flat Glass Manufacturing"]
+
+employees = 75
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Tempered Glass. NAICS 327211: flat glass manufacturing."

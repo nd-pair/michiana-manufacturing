@@ -1,0 +1,20 @@
+# M. G. Products, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "M. G. Products, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "4707 Chester Drive, Elkhart, IN 46516"
+lat = 41.67528
+lon = -85.89660
+website = "https://mgproductscnc.com"
+
+sector = "Metal"
+products = ["Machine Shops"]
+
+employees = 20
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Laser Tube Processing & CNC Machining Job Shop. NAICS 332710: machine shops."

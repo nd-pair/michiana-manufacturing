@@ -1,0 +1,20 @@
+# Jc Mfg., Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Jc Mfg., Inc."
+kind = "company"
+city = "North Webster"
+state = "IN"
+address = "7248 State Road 13 North, North Webster, IN 46555"
+lat = 41.34172
+lon = -85.70074
+website = "https://jcpontoon.com"
+
+sector = "Vehicles & RVs"
+products = ["Boat Building"]
+
+employees = 50
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Aluminum Pontoon Boats. NAICS 336612: boat building."

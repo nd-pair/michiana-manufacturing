@@ -1,0 +1,20 @@
+# Impressions, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Impressions, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "1227 West Beardsley Avenue, Elkhart, IN 46514"
+lat = 41.69240
+lon = -85.99268
+website = "https://impressionsprint.net"
+
+sector = "Wood, paper & furniture"
+products = ["Other Commercial Printing"]
+
+employees = 50
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Small & Large Press Printing & Promotional Products, Including Bindery, Mailing, Fulfillment, Foil Stamping, Embossing. NAICS 323119: other commercial printing."

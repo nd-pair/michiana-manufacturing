@@ -1,0 +1,20 @@
+# Four Seasons Housing, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Four Seasons Housing, Inc."
+kind = "company"
+city = "Middlebury"
+state = "IN"
+address = "11333 County Road 2, Middlebury, IN 46540"
+lat = 41.75517
+lon = -85.68698
+website = "https://fourseasonshousing.com"
+
+sector = "Wood, paper & furniture"
+products = ["Manufactured Home (mobile Home) Manufacturing"]
+
+employees = 240
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Manufactured & Modular Homes. NAICS 321991: manufactured home (mobile home) manufacturing."

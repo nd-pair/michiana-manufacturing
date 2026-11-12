@@ -1,0 +1,20 @@
+# Gateway
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Gateway"
+kind = "company"
+city = "Berrien Springs"
+state = "MI"
+address = "201 Sylvester Street, Berrien Springs, MI 49103"
+lat = 41.94353
+lon = -86.34559
+website = "https://gatewayvro.com"
+
+sector = "Wood, paper & furniture"
+products = ["Paper (except Newsprint) Mills"]
+
+employees = 125
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Paper Converting & Recycling. NAICS 322121: paper (except newsprint) mills."

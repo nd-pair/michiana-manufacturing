@@ -1,0 +1,20 @@
+# L & W Engineering, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "L & W Engineering, Inc."
+kind = "company"
+city = "Middlebury"
+state = "IN"
+address = "107 Industrial Parkway East, Middlebury, IN 46540"
+lat = 41.64496
+lon = -85.70191
+website = "https://lw-eng.com"
+
+sector = "Metal"
+products = ["All Other Miscellaneous Fabricated Metal Product Manufacturing"]
+
+employees = 146
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Steel & Aluminum Fabrication. NAICS 332999: all other miscellaneous fabricated metal product manufacturing."

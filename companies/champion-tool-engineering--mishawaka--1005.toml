@@ -1,0 +1,20 @@
+# Champion Tool & Engineering
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Champion Tool & Engineering"
+kind = "company"
+city = "Mishawaka"
+state = "IN"
+address = "1005 West 8th Street, Mishawaka, IN 46544"
+lat = 41.65503
+lon = -86.19258
+website = "https://championtool.com"
+
+sector = "Mechatronics & automation"
+products = ["All Other Industrial Machinery Manufacturing"]
+
+employees = 20
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Industrial Machinery & Tool & Die Job Shop. NAICS 333298: all other industrial machinery manufacturing."

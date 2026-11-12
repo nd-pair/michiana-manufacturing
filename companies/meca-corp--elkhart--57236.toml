@@ -1,0 +1,20 @@
+# Meca Corp.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Meca Corp."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "57236 Nagy Drive, Elkhart, IN 46517"
+lat = 41.66248
+lon = -86.01653
+website = "https://meca.ws"
+
+sector = "Mechatronics & automation"
+products = ["All Other Industrial Machinery Manufacturing"]
+
+employees = 15
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Industrial Machinery. NAICS 333298: all other industrial machinery manufacturing."

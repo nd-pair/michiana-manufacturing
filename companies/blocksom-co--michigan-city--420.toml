@@ -1,0 +1,20 @@
+# Blocksom & Co.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Blocksom & Co."
+kind = "company"
+city = "Michigan City"
+state = "IN"
+address = "420 East 5th Street, Michigan City, IN 46360"
+lat = 41.71913
+lon = -86.89707
+website = "https://blocksom.com"
+
+sector = "Mechatronics & automation"
+products = ["Air Purification Equipment Manufacturing"]
+
+employees = 25
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Natural Fiber Air Filters for HVAC Systems. NAICS 333411: air purification equipment manufacturing."

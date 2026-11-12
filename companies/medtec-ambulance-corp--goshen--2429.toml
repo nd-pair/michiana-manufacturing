@@ -1,0 +1,20 @@
+# Medtec Ambulance Corp.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Medtec Ambulance Corp."
+kind = "company"
+city = "Goshen"
+state = "IN"
+address = "2429 Lincolnway East, Goshen, IN 46526"
+lat = 41.55393
+lon = -85.78755
+website = "https://medtecambulance.com"
+
+sector = "Vehicles & RVs"
+products = ["Motor Vehicle Body Manufacturing"]
+
+employees = 200
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Corporate Headquarters & Ambulances & Rescue Vehicles. NAICS 336211: motor vehicle body manufacturing."

@@ -1,0 +1,20 @@
+# Interplastic Corp., Molding Products
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Interplastic Corp., Molding Products"
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "1545 South Olive Street, South Bend, IN 46619"
+lat = 41.65791
+lon = -86.28342
+website = "https://interplastic.com"
+
+sector = "Materials & composites"
+products = ["Synthetic Rubber Manufacturing"]
+
+employees = 50
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Sheet Molding Compounds. NAICS 325212: synthetic rubber manufacturing."

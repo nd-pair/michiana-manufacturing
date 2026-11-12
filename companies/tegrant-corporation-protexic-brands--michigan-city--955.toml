@@ -1,0 +1,20 @@
+# Tegrant Corporation, Protexic Brands
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Tegrant Corporation, Protexic Brands"
+kind = "company"
+city = "Michigan City"
+state = "IN"
+address = "955 South Woodland Avenue, Michigan City, IN 46360"
+lat = 41.69906
+lon = -86.87489
+website = "https://sca.com"
+
+sector = "Materials & composites"
+products = ["Polystyrene Foam Product Manufacturing"]
+
+employees = 150
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Packaging Foam. NAICS 326140: polystyrene foam product manufacturing."

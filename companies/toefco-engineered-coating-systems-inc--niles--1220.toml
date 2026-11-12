@@ -1,0 +1,20 @@
+# Toefco Engineered Coating Systems, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Toefco Engineered Coating Systems, Inc."
+kind = "company"
+city = "Niles"
+state = "MI"
+address = "1220 North 14th Street, Niles, MI 49120"
+lat = 41.83952
+lon = -86.24156
+website = "https://toefco.com"
+
+sector = "Metal"
+products = ["Metal Coating, Engraving (except Jewelry and Silverware), and Allied Services To Manufacturers"]
+
+employees = 50
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Metal Parts Powder Coating. NAICS 332812: metal coating, engraving (except jewelry and silverware), and allied services to manufacturers."

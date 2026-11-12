@@ -1,0 +1,20 @@
+# Dexter Axle Co.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Dexter Axle Co."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "222 Collins Road, Elkhart, IN 46516"
+lat = 41.68936
+lon = -85.92171
+website = "https://dexteraxle.com"
+
+sector = "Vehicles & RVs"
+products = ["Motor Vehicle Transmission and Power Train Parts Manufacturing"]
+
+employees = 175
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Trailer Axles, Wheels & Suspensions. NAICS 336350: motor vehicle transmission and power train parts manufacturing."

@@ -1,0 +1,20 @@
+# Peterson Spring Corp., Cima Div.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Peterson Spring Corp., Cima Div."
+kind = "company"
+city = "Three Rivers"
+state = "MI"
+address = "16805 Heimbach Road, Three Rivers, MI 49093"
+lat = 41.99812
+lon = -85.62936
+website = "https://pspring.com"
+
+sector = "Metal"
+products = ["Hardware Manufacturing"]
+
+employees = 80
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Automotive Hose Clamps, Wire Forms & Springs. NAICS 332510: hardware manufacturing."

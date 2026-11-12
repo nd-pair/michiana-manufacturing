@@ -1,0 +1,20 @@
+# Sunnybrook RV, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Sunnybrook RV, Inc."
+kind = "company"
+city = "Middlebury"
+state = "IN"
+address = "201 14th Avenue, Middlebury, IN 46540"
+lat = 41.68685
+lon = -85.69536
+website = "https://sunnybrook.com"
+
+sector = "Vehicles & RVs"
+products = ["Motor Home Manufacturing"]
+
+employees = 150
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Travel Trailers & Fifth Wheels. NAICS 336213: motor home manufacturing."

@@ -1,0 +1,20 @@
+# Precision Millwork & Plastics, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Precision Millwork & Plastics, Inc."
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "3311 William Richardson Drive, South Bend, IN 46628"
+lat = 41.73201
+lon = -86.29621
+website = "https://precisionmillwork.net"
+
+sector = "Wood, paper & furniture"
+products = ["Showcase, Partition, Shelving, and Locker Manufacturing"]
+
+employees = 25
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Store Fixtures & Cabinets. NAICS 337215: showcase, partition, shelving, and locker manufacturing."

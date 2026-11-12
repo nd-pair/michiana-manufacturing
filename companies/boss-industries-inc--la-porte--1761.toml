@@ -1,0 +1,20 @@
+# Boss Industries, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Boss Industries, Inc."
+kind = "company"
+city = "La Porte"
+state = "IN"
+address = "1761 Genesis Drive, La Porte, IN 46350"
+lat = 41.63478
+lon = -86.70811
+website = "https://bossair.com"
+
+sector = "Mechatronics & automation"
+products = ["Air and Gas Compressor Manufacturing"]
+
+employees = 40
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Air Compressors. NAICS 333912: air and gas compressor manufacturing."

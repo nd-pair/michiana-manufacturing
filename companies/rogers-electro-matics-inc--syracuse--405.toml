@@ -1,0 +1,20 @@
+# Rogers Electro-Matics, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Rogers Electro-Matics, Inc."
+kind = "company"
+city = "Syracuse"
+state = "IN"
+address = "405 West Chicago Street, Syracuse, IN 46567"
+lat = 41.41857
+lon = -85.75166
+website = "https://not available"
+
+sector = "Electronics"
+products = ["Relay and Industrial Control Manufacturing"]
+
+employees = 40
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Electronic Controls & Printed Circuit Boards. NAICS 335314: relay and industrial control manufacturing."

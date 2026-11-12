@@ -1,0 +1,20 @@
+# Superior Tool & Die Co., Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Superior Tool & Die Co., Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "2325 South Nappanee Street, Elkhart, IN 46517"
+lat = 41.66390
+lon = -86.00353
+website = "https://superiortd.com"
+
+sector = "Mechatronics & automation"
+products = ["Special Die and Tool, Die Set, Jig, and Fixture Manufacturing"]
+
+employees = 28
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Jigs, Fixtures, Gages, Dies, Special Machines & Contract Machining. NAICS 333514: special die and tool, die set, jig, and fixture manufacturing."

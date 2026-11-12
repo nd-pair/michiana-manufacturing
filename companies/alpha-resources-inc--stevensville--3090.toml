@@ -1,0 +1,20 @@
+# Alpha Resources, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Alpha Resources, Inc."
+kind = "company"
+city = "Stevensville"
+state = "MI"
+address = "3090 Johnson Road, Stevensville, MI 49127"
+lat = 42.00693
+lon = -86.52425
+website = "https://alpharesources.com"
+
+sector = "Metal"
+products = ["Machine Shops"]
+
+employees = 40
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Laboratory Supplies. NAICS 332710: machine shops."

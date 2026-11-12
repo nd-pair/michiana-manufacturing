@@ -1,0 +1,20 @@
+# Phoenix U. S. A., Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Phoenix U. S. A., Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "2601 Marina Drive, Elkhart, IN 46514"
+lat = 41.72138
+lon = -85.91751
+website = "https://phoenixusrv.com"
+
+sector = "Vehicles & RVs"
+products = ["Motor Home Manufacturing"]
+
+employees = 25
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Recreational Vehicles. NAICS 336213: motor home manufacturing."

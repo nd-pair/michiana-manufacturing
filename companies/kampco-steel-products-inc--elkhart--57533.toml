@@ -1,0 +1,20 @@
+# Kampco Steel Products, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Kampco Steel Products, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "57533 County Road 3, Elkhart, IN 46517"
+lat = 41.65925
+lon = -86.02286
+website = "https://kampco.com"
+
+sector = "Vehicles & RVs"
+products = ["Truck Trailer Manufacturing"]
+
+employees = 52
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Trailer & Truck Parts. NAICS 336212: truck trailer manufacturing."

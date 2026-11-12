@@ -1,0 +1,20 @@
+# Insulation Enterprise, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Insulation Enterprise, Inc."
+kind = "company"
+city = "Niles"
+state = "MI"
+address = "1370 Maple Street, Niles, MI 49120"
+lat = 41.82487
+lon = -86.24227
+website = "https://not available"
+
+sector = "Materials & composites"
+products = ["Mineral Wool Manufacturing"]
+
+employees = 20
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Foam Insulation Panels & Sheets. NAICS 327993: mineral wool manufacturing."

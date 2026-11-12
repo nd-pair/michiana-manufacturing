@@ -1,0 +1,20 @@
+# Copper & Brass Sales, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Copper & Brass Sales, Inc."
+kind = "company"
+city = "Mishawaka"
+state = "IN"
+address = "1015 Saint Jerome Street, Mishawaka, IN 46544"
+lat = 41.64556
+lon = -86.16586
+website = "https://copperandbrass.com"
+
+sector = "Metal"
+products = ["Aluminum Sheet, Plate, and Foil Manufacturing"]
+
+employees = 35
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Aluminum Plate Processing. NAICS 331315: aluminum sheet, plate, and foil manufacturing."

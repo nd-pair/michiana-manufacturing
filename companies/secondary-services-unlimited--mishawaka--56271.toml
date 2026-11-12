@@ -1,0 +1,20 @@
+# Secondary Services Unlimited
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Secondary Services Unlimited"
+kind = "company"
+city = "Mishawaka"
+state = "IN"
+address = "56271 Erickson Drive, Mishawaka, IN 46545"
+lat = 41.67896
+lon = -86.09799
+website = "https://not available"
+
+sector = "Medical devices & other"
+products = ["All Other Miscellaneous Manufacturing"]
+
+employees = 22
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Small Machine Parts Assembly. NAICS 339999: all other miscellaneous manufacturing."

@@ -1,0 +1,20 @@
+# Delivery Concepts, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Delivery Concepts, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "29301 County Road 20, Elkhart, IN 46517"
+lat = 41.65930
+lon = -86.02860
+website = "https://deliveryconcepts.com"
+
+sector = "Materials & composites"
+products = ["Mineral Wool Manufacturing"]
+
+employees = 20
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Fiberglass Food Delivery Vehicle Bodies. NAICS 327993: mineral wool manufacturing."

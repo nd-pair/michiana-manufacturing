@@ -1,0 +1,20 @@
+# Wevac Plastics
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Wevac Plastics"
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "2401 17th Street, Elkhart, IN 46517"
+lat = 41.66423
+lon = -85.99488
+website = "https://wevacplastics.com"
+
+sector = "Materials & composites"
+products = ["All Other Plastics Product Manufacturing"]
+
+employees = 50
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Plastic Vacuum Forming. NAICS 326199: all other plastics product manufacturing."

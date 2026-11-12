@@ -1,0 +1,20 @@
+# Eagle Pack Pet Foods, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Eagle Pack Pet Foods, Inc."
+kind = "company"
+city = "Mishawaka"
+state = "IN"
+address = "1025 West 11th Street, Mishawaka, IN 46544"
+lat = 41.65247
+lon = -86.19339
+website = "https://eaglepack.com"
+
+sector = "Food & consumer goods"
+products = ["Dog and Cat Food Manufacturing"]
+
+employees = 66
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Pet Food. NAICS 311111: dog and cat food manufacturing."

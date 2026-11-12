@@ -1,0 +1,20 @@
+# Rbc Precision Products (plymouth)
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Rbc Precision Products (plymouth)"
+kind = "company"
+city = "Plymouth"
+state = "IN"
+address = "2928 Gary Drive, Plymouth, IN 46563"
+lat = 41.36293
+lon = -86.35044
+website = "https://rbcbearings.com"
+
+sector = "Metal"
+products = ["Ball and Roller Bearing Manufacturing"]
+
+employees = 120
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Loose Needle Rollers & Needle Bearings. NAICS 332991: ball and roller bearing manufacturing."

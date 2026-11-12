@@ -1,0 +1,20 @@
+# Ameri-Kan
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Ameri-Kan"
+kind = "company"
+city = "Warsaw"
+state = "IN"
+address = "515 Anchorage Road, Warsaw, IN 46580"
+lat = 41.26328
+lon = -85.84965
+website = "https://ameri-kan.com"
+
+sector = "Metal"
+products = ["Metal Can Manufacturing"]
+
+employees = 50
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Metal Trash Cans. NAICS 332431: metal can manufacturing."

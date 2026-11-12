@@ -1,0 +1,20 @@
+# Hoosier Tire & Rubber Corp.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Hoosier Tire & Rubber Corp."
+kind = "company"
+city = "Plymouth"
+state = "IN"
+address = "2307 Pidco Drive, Plymouth, IN 46563"
+lat = 41.35164
+lon = -86.33466
+website = "https://hoosiertire.com"
+
+sector = "Materials & composites"
+products = ["All Other Rubber Product Manufacturing"]
+
+employees = 150
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Racing Tires. NAICS 326299: all other rubber product manufacturing."

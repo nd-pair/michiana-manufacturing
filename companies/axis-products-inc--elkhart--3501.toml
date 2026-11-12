@@ -1,0 +1,20 @@
+# Axis Products, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Axis Products, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "3501 Reedy Drive, Elkhart, IN 46514"
+lat = 41.72720
+lon = -85.92219
+website = "https://axisproducts.com"
+
+sector = "Vehicles & RVs"
+products = ["Motor Vehicle Transmission and Power Train Parts Manufacturing"]
+
+employees = 80
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Manufacturer & Contract Fabrication of Trailer Parts & Axles & Distributor of Spindles, Hubs, Drums & Brakes. NAICS 336350: motor vehicle transmission and power train parts manufacturing."

@@ -1,0 +1,20 @@
+# Warsaw Coil Co., Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Warsaw Coil Co., Inc."
+kind = "company"
+city = "Warsaw"
+state = "IN"
+address = "1809 West Winona Avenue, Warsaw, IN 46580"
+lat = 41.23335
+lon = -85.88030
+website = "https://warsawcoil.com"
+
+sector = "Electronics"
+products = ["Noncurrent-Carrying Wiring Device Manufacturing"]
+
+employees = 85
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Electric Coils. NAICS 335932: noncurrent-carrying wiring device manufacturing."

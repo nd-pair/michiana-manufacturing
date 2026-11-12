@@ -1,0 +1,20 @@
+# Med Cast, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Med Cast, Inc."
+kind = "company"
+city = "Warsaw"
+state = "IN"
+address = "596 East 200 North, Warsaw, IN 46582"
+lat = 41.26358
+lon = -85.83031
+website = "https://medcast-inc.com"
+
+sector = "Metal"
+products = ["Steel Investment Foundries"]
+
+employees = 45
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Investment Castings. NAICS 331512: steel investment foundries."

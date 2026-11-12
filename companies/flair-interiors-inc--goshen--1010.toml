@@ -1,0 +1,20 @@
+# Flair Interiors, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Flair Interiors, Inc."
+kind = "company"
+city = "Goshen"
+state = "IN"
+address = "1010 Eisenhower Drive South, Goshen, IN 46526"
+lat = 41.55424
+lon = -85.82165
+website = "https://not available"
+
+sector = "Vehicles & RVs"
+products = ["Motor Home Manufacturing"]
+
+employees = 250
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Recreational Vehicle & Motorized Furniture. NAICS 336213: motor home manufacturing."

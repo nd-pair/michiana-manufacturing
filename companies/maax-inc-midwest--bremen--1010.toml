@@ -1,0 +1,20 @@
+# Maax, Inc., Midwest
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Maax, Inc., Midwest"
+kind = "company"
+city = "Bremen"
+state = "IN"
+address = "1010 West Dewey Street, Bremen, IN 46506"
+lat = 41.45031
+lon = -86.15674
+website = "https://maax.com"
+
+sector = "Materials & composites"
+products = ["Mineral Wool Manufacturing"]
+
+employees = 65
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Fiberglass, Acrylic & Plastic Tubs & Showers. NAICS 327993: mineral wool manufacturing."

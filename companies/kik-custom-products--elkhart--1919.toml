@@ -1,0 +1,20 @@
+# Kik Custom Products
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Kik Custom Products"
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "1919 Superior Street, Elkhart, IN 46516"
+lat = 41.68904
+lon = -85.94603
+website = "https://kikcorp.com"
+
+sector = "Materials & composites"
+products = ["Pharmaceutical Preparation Manufacturing"]
+
+employees = 950
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Aerosols, Pharmaceuticals, Liquid & Cream Packaging. NAICS 325412: pharmaceutical preparation manufacturing."

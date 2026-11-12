@@ -1,0 +1,20 @@
+# Michiana Plastics, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Michiana Plastics, Inc."
+kind = "company"
+city = "Mishawaka"
+state = "IN"
+address = "1702 East 7th Street, Mishawaka, IN 46544"
+lat = 41.65660
+lon = -86.15007
+website = "https://not available"
+
+sector = "Mechatronics & automation"
+products = ["Industrial Mold Manufacturing"]
+
+employees = 27
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Injection, Hot Runner, Automatic Unscrew & Prototype Molds. NAICS 333511: industrial mold manufacturing."

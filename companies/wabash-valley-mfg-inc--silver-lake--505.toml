@@ -1,0 +1,20 @@
+# Wabash Valley Mfg., Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Wabash Valley Mfg., Inc."
+kind = "company"
+city = "Silver Lake"
+state = "IN"
+address = "505 East Main Street, Silver Lake, IN 46982"
+lat = 41.07230
+lon = -85.88688
+website = "https://wabashvalley.com"
+
+sector = "Wood, paper & furniture"
+products = ["Nonupholstered Wood Household Furniture Manufacturing"]
+
+employees = 185
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Outdoor Furniture & Plastic Coatings. NAICS 337122: nonupholstered wood household furniture manufacturing."

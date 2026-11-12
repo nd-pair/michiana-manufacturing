@@ -1,0 +1,20 @@
+# Hess Industries, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Hess Industries, Inc."
+kind = "company"
+city = "Niles"
+state = "MI"
+address = "2950 Redfield Road, Niles, MI 49120"
+lat = 41.76759
+lon = -86.15203
+website = "https://hessindustries.com"
+
+sector = "Mechatronics & automation"
+products = ["Machine Tool (metal Forming Types) Manufacturing"]
+
+employees = 250
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Corporate Headquarters & Metalforming Equipment for the Automotive, HVAC, White Goods & General Industries. NAICS 333513: machine tool (metal forming types) manufacturing."

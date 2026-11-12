@@ -1,0 +1,20 @@
+# Royal Adhesives & Sealants, LLC
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Royal Adhesives & Sealants, LLC"
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "2001 West Washington Street, South Bend, IN 46628"
+lat = 41.67717
+lon = -86.27842
+website = "https://royaladhesives.com"
+
+sector = "Materials & composites"
+products = ["Adhesive Manufacturing"]
+
+employees = 105
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Company Headquarters & Roofing, Construction & Automotive Adhesives & Sealants. NAICS 325520: adhesive manufacturing."

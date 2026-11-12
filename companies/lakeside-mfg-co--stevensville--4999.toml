@@ -1,0 +1,20 @@
+# Lakeside Mfg. Co.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Lakeside Mfg. Co."
+kind = "company"
+city = "Stevensville"
+state = "MI"
+address = "4999 Advance Way, Stevensville, MI 49127"
+lat = 42.02810
+lon = -86.51102
+website = "https://lakesidemfgco.com"
+
+sector = "Mechatronics & automation"
+products = ["Special Die and Tool, Die Set, Jig, and Fixture Manufacturing"]
+
+employees = 30
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Contract Machining Job Shop, Bar Feed Turning and Secondary Operations, Production Machining of Castings & Billet. NAICS 333514: special die and tool, die set, jig, and fixture manufacturing."

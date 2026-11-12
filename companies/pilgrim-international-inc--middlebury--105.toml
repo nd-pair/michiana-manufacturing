@@ -1,0 +1,20 @@
+# Pilgrim International, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Pilgrim International, Inc."
+kind = "company"
+city = "Middlebury"
+state = "IN"
+address = "105 14th Avenue, Middlebury, IN 46540"
+lat = 41.68686
+lon = -85.69865
+website = "https://pilgriminternational.com"
+
+sector = "Vehicles & RVs"
+products = ["Travel Trailer and Camper Manufacturing"]
+
+employees = 450
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Travel Trailers. NAICS 336214: travel trailer and camper manufacturing."

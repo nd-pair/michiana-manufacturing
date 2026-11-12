@@ -1,0 +1,20 @@
+# Tigmaster Co., Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Tigmaster Co., Inc."
+kind = "company"
+city = "Baroda"
+state = "MI"
+address = "9283 1st Street, Baroda, MI 49101"
+lat = 41.95137
+lon = -86.48526
+website = "https://tigmaster.com"
+
+sector = "Metal"
+products = ["Metal Stamping"]
+
+employees = 45
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Laser Cutting, Welding & Precision Machining Job Shop. NAICS 332116: metal stamping."

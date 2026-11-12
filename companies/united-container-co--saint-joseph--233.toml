@@ -1,0 +1,20 @@
+# United Container Co.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "United Container Co."
+kind = "company"
+city = "Saint Joseph"
+state = "MI"
+address = "233 Hawthorne Avenue, Saint Joseph, MI 49085"
+lat = 42.07285
+lon = -86.49723
+website = "https://unitedcontainer.com"
+
+sector = "Materials & composites"
+products = ["Plastics Bag Manufacturing"]
+
+employees = 40
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Plastic Bags & Corrugated Boxes. NAICS 326111: plastics bag manufacturing."

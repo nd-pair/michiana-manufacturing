@@ -1,0 +1,20 @@
+# M A C Engineering & Equipment Co., Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "M A C Engineering & Equipment Co., Inc."
+kind = "company"
+city = "Benton Harbor"
+state = "MI"
+address = "2775 Meadowbrook Road, Benton Harbor, MI 49022"
+lat = 42.07998
+lon = -86.39114
+website = "https://mac-eng.com"
+
+sector = "Metal"
+products = ["Machine Shops"]
+
+employees = 50
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Automotive & Industrial Battery Fabrication Equipment. NAICS 332710: machine shops."

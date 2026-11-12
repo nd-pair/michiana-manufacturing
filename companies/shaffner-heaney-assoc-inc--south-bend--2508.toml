@@ -1,0 +1,20 @@
+# Shaffner Heaney Assoc., Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Shaffner Heaney Assoc., Inc."
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "2508 South Main Street, South Bend, IN 46614"
+lat = 41.64882
+lon = -86.25095
+website = "https://shaffnerheaney.com"
+
+sector = "Metal"
+products = ["Primary Aluminum Production"]
+
+employees = 30
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Aluminum Fabrication. NAICS 331312: primary aluminum production."

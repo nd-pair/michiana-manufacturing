@@ -1,0 +1,20 @@
+# C & D Associates, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "C & D Associates, Inc."
+kind = "company"
+city = "Buchanan"
+state = "MI"
+address = "302 Post Road, Buchanan, MI 49107"
+lat = 41.82162
+lon = -86.38204
+website = "https://aircraftheater.com"
+
+sector = "Vehicles & RVs"
+products = ["Other Aircraft Part and Auxiliary Equipment Manufacturing"]
+
+employees = 15
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Aircraft Combustion Heaters & Test Equipment. NAICS 336413: other aircraft part and auxiliary equipment manufacturing."

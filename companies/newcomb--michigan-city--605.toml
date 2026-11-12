@@ -1,0 +1,20 @@
+# Newcomb
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Newcomb"
+kind = "company"
+city = "Michigan City"
+state = "IN"
+address = "605 East 9th Street, Michigan City, IN 46360"
+lat = 41.71436
+lon = -86.89186
+website = "https://newcombsolutions.com"
+
+sector = "Wood, paper & furniture"
+products = ["Other Commercial Printing"]
+
+employees = 30
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Commercial Printing, Including Marketing Solutions. NAICS 323119: other commercial printing."

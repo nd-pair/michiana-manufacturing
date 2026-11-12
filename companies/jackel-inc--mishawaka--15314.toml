@@ -1,0 +1,20 @@
+# Jackel, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Jackel, Inc."
+kind = "company"
+city = "Mishawaka"
+state = "IN"
+address = "15314 Harrison Road, Mishawaka, IN 46544"
+lat = 41.65096
+lon = -86.16301
+website = "https://jackelinc.com"
+
+sector = "Materials & composites"
+products = ["All Other Plastics Product Manufacturing"]
+
+employees = 60
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Plastic Injection Molding. NAICS 326199: all other plastics product manufacturing."

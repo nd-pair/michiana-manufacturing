@@ -1,0 +1,20 @@
+# Coachmen RV
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Coachmen RV"
+kind = "company"
+city = "Middlebury"
+state = "IN"
+address = "423 North Main Street, Middlebury, IN 46540"
+lat = 41.68617
+lon = -85.70036
+website = "https://coachmen.com"
+
+sector = "Vehicles & RVs"
+products = ["Motor Home Manufacturing"]
+
+employees = 1000
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Motor Homes. NAICS 336213: motor home manufacturing."

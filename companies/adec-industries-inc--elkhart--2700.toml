@@ -1,0 +1,20 @@
+# Adec Industries, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Adec Industries, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "2700 Industrial Parkway, Elkhart, IN 46516"
+lat = 41.68698
+lon = -85.91966
+website = "https://adecinc.com"
+
+sector = "Materials & composites"
+products = ["All Other Plastics Product Manufacturing"]
+
+employees = 250
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Contract Packaging & Assembly. NAICS 326199: all other plastics product manufacturing."

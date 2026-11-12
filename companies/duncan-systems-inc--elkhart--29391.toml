@@ -1,0 +1,20 @@
+# Duncan Systems, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Duncan Systems, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "29391 Old US 33, Elkhart, IN 46516"
+lat = 41.66762
+lon = -86.02917
+website = "https://duncansys.com"
+
+sector = "Materials & composites"
+products = ["Glass Product Manufacturing Made of Purchased Glass"]
+
+employees = 75
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Recreational Vehicle & Truck Glass. NAICS 327215: glass product manufacturing made of purchased glass."

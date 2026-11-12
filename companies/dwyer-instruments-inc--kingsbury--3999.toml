@@ -1,0 +1,20 @@
+# Dwyer Instruments, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Dwyer Instruments, Inc."
+kind = "company"
+city = "Kingsbury"
+state = "IN"
+address = "3999 Hupp Road, Kingsbury, IN 46345"
+lat = 41.51911
+lon = -86.63906
+website = "https://dwyer-inst.com"
+
+sector = "Metal"
+products = ["Metal Stamping"]
+
+employees = 47
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Metal Stampings. NAICS 332116: metal stamping."

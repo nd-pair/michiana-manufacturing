@@ -1,0 +1,20 @@
+# Plastic Solutions, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Plastic Solutions, Inc."
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "759 West Chippewa Avenue, South Bend, IN 46614"
+lat = 41.63633
+lon = -86.26059
+website = "https://plasticsolutions.com"
+
+sector = "Materials & composites"
+products = ["All Other Plastics Product Manufacturing"]
+
+employees = 125
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Plastic Injection Molding. NAICS 326199: all other plastics product manufacturing."

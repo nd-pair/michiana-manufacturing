@@ -1,0 +1,20 @@
+# Smor Cases, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Smor Cases, Inc."
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "4622 South Burnett Drive, South Bend, IN 46614"
+lat = 41.62608
+lon = -86.26128
+website = "https://smorcases.com"
+
+sector = "Food & consumer goods"
+products = ["Luggage Manufacturing"]
+
+employees = 30
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Soft-Sided & Semi-Rigid Cases. NAICS 316991: luggage manufacturing."

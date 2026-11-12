@@ -1,0 +1,20 @@
+# Modar, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Modar, Inc."
+kind = "company"
+city = "Benton Harbor"
+state = "MI"
+address = "1394 East Empire Avenue, Benton Harbor, MI 49022"
+lat = 42.10121
+lon = -86.42396
+website = "https://modarinc.com"
+
+sector = "Wood, paper & furniture"
+products = ["Reconstituted Wood Product Manufacturing"]
+
+employees = 100
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Particleboard. NAICS 321219: reconstituted wood product manufacturing."

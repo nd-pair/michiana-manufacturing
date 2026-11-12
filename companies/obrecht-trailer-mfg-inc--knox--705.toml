@@ -1,0 +1,20 @@
+# Obrecht Trailer Mfg., Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Obrecht Trailer Mfg., Inc."
+kind = "company"
+city = "Knox"
+state = "IN"
+address = "705 East New York Street, Knox, IN 46534"
+lat = 41.29425
+lon = -86.61404
+website = "https://not available"
+
+sector = "Vehicles & RVs"
+products = ["Motor Vehicle Body Manufacturing"]
+
+employees = 15
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Semi Trailers & Equipment. NAICS 336211: motor vehicle body manufacturing."

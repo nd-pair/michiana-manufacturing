@@ -1,0 +1,20 @@
+# Hoosier Crane Service
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Hoosier Crane Service"
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "58144 Charlotte Avenue, Elkhart, IN 46517"
+lat = 41.65002
+lon = -86.00979
+website = "https://hoosiercrane.com"
+
+sector = "Mechatronics & automation"
+products = ["Overhead Traveling Crane, Hoist, and Monorail System Manufacturing"]
+
+employees = 28
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Overhead Cranes. NAICS 333923: overhead traveling crane, hoist, and monorail system manufacturing."

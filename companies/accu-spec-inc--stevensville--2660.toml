@@ -1,0 +1,20 @@
+# Accu Spec, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Accu Spec, Inc."
+kind = "company"
+city = "Stevensville"
+state = "MI"
+address = "2660 Lawrence Street, Stevensville, MI 49127"
+lat = 42.01232
+lon = -86.51916
+website = "https://accuspec-inc.com"
+
+sector = "Metal"
+products = ["Machine Shops"]
+
+employees = 18
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Screw Machine Products. NAICS 332710: machine shops."

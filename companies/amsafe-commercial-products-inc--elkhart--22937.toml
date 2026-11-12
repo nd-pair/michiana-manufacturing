@@ -1,0 +1,20 @@
+# Amsafe Commercial Products, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Amsafe Commercial Products, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "22937 Gallatin Way, Elkhart, IN 46514"
+lat = 41.72699
+lon = -85.90657
+website = "https://amsafe.com"
+
+sector = "Vehicles & RVs"
+products = ["Motor Vehicle Seating and Interior Trim Manufacturing"]
+
+employees = 98
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Seat Belts & Safety Restraints. NAICS 336360: motor vehicle seating and interior trim manufacturing."

@@ -1,0 +1,20 @@
+# Indalex, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Indalex, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "3406 Reedy Drive, Elkhart, IN 46514"
+lat = 41.72777
+lon = -85.92413
+website = "https://indalex.com"
+
+sector = "Metal"
+products = ["Other Aluminum Rolling and Drawing"]
+
+employees = 190
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Aluminum Extrusions & Fabrication. NAICS 331319: other aluminum rolling and drawing."

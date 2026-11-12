@@ -1,0 +1,20 @@
+# Damon Corp., Motor Home Div.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Damon Corp., Motor Home Div."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "2950 Paul Drive, Elkhart, IN 46514"
+lat = 41.72883
+lon = -86.01933
+website = "https://damonrv.com"
+
+sector = "Vehicles & RVs"
+products = ["Motor Home Manufacturing"]
+
+employees = 75
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Motor Home Chassis & Lamination. NAICS 336213: motor home manufacturing."

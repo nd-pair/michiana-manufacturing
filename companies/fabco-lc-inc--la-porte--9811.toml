@@ -1,0 +1,20 @@
+# Fabco/lc, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Fabco/lc, Inc."
+kind = "company"
+city = "La Porte"
+state = "IN"
+address = "9811 West State Road 2, La Porte, IN 46350"
+lat = 41.56322
+lon = -86.89377
+website = "https://not available"
+
+sector = "Metal"
+products = ["All Other Miscellaneous Fabricated Metal Product Manufacturing"]
+
+employees = 24
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Metal Fabrication. NAICS 332999: all other miscellaneous fabricated metal product manufacturing."

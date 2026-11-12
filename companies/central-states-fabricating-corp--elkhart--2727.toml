@@ -1,0 +1,20 @@
+# Central States Fabricating Corp.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Central States Fabricating Corp."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "2727 17th Street, Elkhart, IN 46517"
+lat = 41.65893
+lon = -85.99483
+website = "https://not available"
+
+sector = "Metal"
+products = ["Iron and Steel Mills"]
+
+employees = 18
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Steel Fabrication & Tool & Die Job Shop. NAICS 331111: iron and steel mills."

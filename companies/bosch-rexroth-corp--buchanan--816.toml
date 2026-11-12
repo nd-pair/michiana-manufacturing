@@ -1,0 +1,20 @@
+# Bosch Rexroth Corp.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Bosch Rexroth Corp."
+kind = "company"
+city = "Buchanan"
+state = "MI"
+address = "816 East 3rd Street, Buchanan, MI 49107"
+lat = 41.83016
+lon = -86.35164
+website = "https://boschrexroth-us.com"
+
+sector = "Mechatronics & automation"
+products = ["Conveyor and Conveying Equipment Manufacturing"]
+
+employees = 100
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Conveyor Systems. NAICS 333922: conveyor and conveying equipment manufacturing."

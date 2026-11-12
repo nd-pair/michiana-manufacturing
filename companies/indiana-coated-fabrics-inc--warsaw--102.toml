@@ -1,0 +1,20 @@
+# Indiana Coated Fabrics, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Indiana Coated Fabrics, Inc."
+kind = "company"
+city = "Warsaw"
+state = "IN"
+address = "102 Enterprise Drive, Warsaw, IN 46580"
+lat = 41.25906
+lon = -85.85624
+website = "https://indianacoatedfabrics.com"
+
+sector = "Food & consumer goods"
+products = ["Fabric Coating Mills"]
+
+employees = 43
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Coated & Laminated Window Shade Fabrics. NAICS 313320: fabric coating mills."

@@ -1,0 +1,20 @@
+# U. S. Signcrafters, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "U. S. Signcrafters, Inc."
+kind = "company"
+city = "Osceola"
+state = "IN"
+address = "216 Lincoln Way East, Osceola, IN 46561"
+lat = 41.66368
+lon = -86.06800
+website = "https://ussigncrafters.com"
+
+sector = "Medical devices & other"
+products = ["Sign Manufacturing"]
+
+employees = 15
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Interior & Exterior Signs. NAICS 339950: sign manufacturing."

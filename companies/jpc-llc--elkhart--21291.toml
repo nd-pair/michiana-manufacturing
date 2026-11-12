@@ -1,0 +1,20 @@
+# Jpc, LLC
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Jpc, LLC"
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "21291 Buckingham Road, Elkhart, IN 46516"
+lat = 41.70077
+lon = -85.87658
+website = "https://jpcind.com"
+
+sector = "Materials & composites"
+products = ["All Other Plastics Product Manufacturing"]
+
+employees = 25
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Floor Mats, Sewn Custom Covers & Lumbar Supports. NAICS 326199: all other plastics product manufacturing."

@@ -1,0 +1,20 @@
+# Rosback Co.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Rosback Co."
+kind = "company"
+city = "Saint Joseph"
+state = "MI"
+address = "125 Hawthorne Avenue, Saint Joseph, MI 49085"
+lat = 42.07286
+lon = -86.50158
+website = "https://rosbackcompany.com"
+
+sector = "Mechatronics & automation"
+products = ["Printing Machinery and Equipment Manufacturing"]
+
+employees = 50
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Bookbinding & Finishing Equipment, Perforators & Trucks. NAICS 333293: printing machinery and equipment manufacturing."

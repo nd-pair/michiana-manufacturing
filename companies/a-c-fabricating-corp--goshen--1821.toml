@@ -1,0 +1,20 @@
+# A/C Fabricating Corp.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "A/C Fabricating Corp."
+kind = "company"
+city = "Goshen"
+state = "IN"
+address = "1821 Century Drive, Goshen, IN 46528"
+lat = 41.56316
+lon = -85.78882
+website = "https://acfabricating.com"
+
+sector = "Metal"
+products = ["Iron and Steel Pipe and Tube Manufacturing From Purchased Steel"]
+
+employees = 40
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Nonferrous Tube Bending & Fabrication. NAICS 331210: iron and steel pipe and tube manufacturing from purchased steel."

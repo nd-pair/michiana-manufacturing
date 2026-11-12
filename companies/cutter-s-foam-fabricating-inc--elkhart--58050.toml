@@ -1,0 +1,20 @@
+# Cutter's Foam Fabricating, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Cutter's Foam Fabricating, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "58050 Charlotte Avenue, Elkhart, IN 46517"
+lat = 41.65144
+lon = -86.00980
+website = "https://not available"
+
+sector = "Materials & composites"
+products = ["Urethane and Other Foam Product (except Polystyrene) Manufacturing"]
+
+employees = 45
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Polyurethane Foam Fabrication. NAICS 326150: urethane and other foam product (except polystyrene) manufacturing."

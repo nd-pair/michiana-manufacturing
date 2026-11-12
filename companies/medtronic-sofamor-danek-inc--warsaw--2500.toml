@@ -1,0 +1,20 @@
+# Medtronic Sofamor Danek, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Medtronic Sofamor Danek, Inc."
+kind = "company"
+city = "Warsaw"
+state = "IN"
+address = "2500 Silveus Crossing, Warsaw, IN 46582"
+lat = 41.27113
+lon = -85.87142
+website = "https://sofamordanek.com"
+
+sector = "Medical devices & other"
+products = ["Surgical Appliance and Supplies Manufacturing"]
+
+employees = 550
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Spinal Implants. NAICS 339113: surgical appliance and supplies manufacturing."

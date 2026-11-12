@@ -1,0 +1,20 @@
+# Rtw Enterprises, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Rtw Enterprises, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "2924 County Road 6 East, Elkhart, IN 46514"
+lat = 41.72434
+lon = -85.93278
+website = "https://rtwcorp.com"
+
+sector = "Electronics"
+products = ["Other Electronic Component Manufacturing"]
+
+employees = 30
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Wire Harnesses. NAICS 334419: other electronic component manufacturing."

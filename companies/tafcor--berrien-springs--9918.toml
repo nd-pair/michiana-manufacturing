@@ -1,0 +1,20 @@
+# Tafcor
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Tafcor"
+kind = "company"
+city = "Berrien Springs"
+state = "MI"
+address = "9918 North Tudor Road, Berrien Springs, MI 49103"
+lat = 41.93936
+lon = -86.34497
+website = "https://tafcor.com"
+
+sector = "Wood, paper & furniture"
+products = ["Other Millwork (including Flooring )"]
+
+employees = 25
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Laminated Wooden Mouldings. NAICS 321918: other millwork (including flooring )."

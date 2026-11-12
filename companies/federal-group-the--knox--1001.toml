@@ -1,0 +1,20 @@
+# Federal Group, the
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Federal Group, the"
+kind = "company"
+city = "Knox"
+state = "IN"
+address = "1001 West Culver Road, Knox, IN 46534"
+lat = 41.28781
+lon = -86.63765
+website = "https://barberandross.com"
+
+sector = "Wood, paper & furniture"
+products = ["Wood Window and Door Manufacturing"]
+
+employees = 100
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Primed Wood & Aluminum-Clad Windows, Patio & Pre-Hung Steel Entry Doors & Interior Trim Packages. NAICS 321911: wood window and door manufacturing."

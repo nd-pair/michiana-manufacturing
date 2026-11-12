@@ -1,0 +1,20 @@
+# Braun Seating, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Braun Seating, Inc."
+kind = "company"
+city = "Rochester"
+state = "IN"
+address = "7346 West County Road 400 North, Rochester, IN 46975"
+lat = 41.11376
+lon = -86.38331
+website = "https://braun-corp.com"
+
+sector = "Vehicles & RVs"
+products = ["Motor Vehicle Seating and Interior Trim Manufacturing"]
+
+employees = 35
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Transit Seating Products. NAICS 336360: motor vehicle seating and interior trim manufacturing."

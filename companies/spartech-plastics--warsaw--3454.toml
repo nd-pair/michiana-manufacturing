@@ -1,0 +1,20 @@
+# Spartech Plastics
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Spartech Plastics"
+kind = "company"
+city = "Warsaw"
+state = "IN"
+address = "3454 North Detroit Street, Warsaw, IN 46582"
+lat = 41.28378
+lon = -85.85261
+website = "https://spartech.com"
+
+sector = "Materials & composites"
+products = ["Plastics Packaging Film and Sheet (including Laminated) Manufacturing"]
+
+employees = 166
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Plastic Extruded Sheets & Roll Stock. NAICS 326112: plastics packaging film and sheet (including laminated) manufacturing."

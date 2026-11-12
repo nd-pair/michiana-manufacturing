@@ -1,0 +1,20 @@
+# Pioneer Hi-Bred International, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Pioneer Hi-Bred International, Inc."
+kind = "company"
+city = "Plymouth"
+state = "IN"
+address = "2300 North Pine Road, Plymouth, IN 46563"
+lat = 41.44025
+lon = -86.34807
+website = "https://pioneer.com"
+
+sector = "Food & consumer goods"
+products = ["Wet Corn Milling"]
+
+employees = 300
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Hybrid Corn Seed Processing. NAICS 311221: wet corn milling."

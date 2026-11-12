@@ -1,0 +1,20 @@
+# South Bend Form Tool Co., Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "South Bend Form Tool Co., Inc."
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "408 West Indiana Avenue, South Bend, IN 46613"
+lat = 41.65756
+lon = -86.25508
+website = "https://sbform.com"
+
+sector = "Mechatronics & automation"
+products = ["Special Die and Tool, Die Set, Jig, and Fixture Manufacturing"]
+
+employees = 19
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Tools, Jigs, Fixtures, Gages, Precision Grinding & CNC Machining Job Shop. NAICS 333514: special die and tool, die set, jig, and fixture manufacturing."

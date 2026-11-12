@@ -1,0 +1,20 @@
+# Acousticom Corp.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Acousticom Corp."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "28180 Clay Street, Elkhart, IN 46517"
+lat = 41.66129
+lon = -86.00618
+website = "https://acousticom.com"
+
+sector = "Electronics"
+products = ["Radio and Television Broadcasting and Wireless Communications Equipment Manufacturing"]
+
+employees = 30
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Audio Communication Equipment. NAICS 334220: radio and television broadcasting and wireless communications equipment manufacturing."

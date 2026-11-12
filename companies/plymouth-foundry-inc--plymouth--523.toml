@@ -1,0 +1,20 @@
+# Plymouth Foundry, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Plymouth Foundry, Inc."
+kind = "company"
+city = "Plymouth"
+state = "IN"
+address = "523 West Harrison Street, Plymouth, IN 46563"
+lat = 41.34711
+lon = -86.31486
+website = "https://plymouthfoundry.com"
+
+sector = "Metal"
+products = ["Other Nonferrous Foundries (except Die-Casting)"]
+
+employees = 53
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Gray & Ductile Iron Castings & General Machining Job Shop. NAICS 331528: other nonferrous foundries (except die-casting)."

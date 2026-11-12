@@ -1,0 +1,20 @@
+# Midstates Tool & Die & Engineering, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Midstates Tool & Die & Engineering, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "23816 Cooper Drive, Elkhart, IN 46514"
+lat = 41.71996
+lon = -85.92350
+website = "https://mtdsales.com"
+
+sector = "Mechatronics & automation"
+products = ["Special Die and Tool, Die Set, Jig, and Fixture Manufacturing"]
+
+employees = 25
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Automated Equipment & Production Tooling, Including Special Machines, Forming, Bending, Rolling, Form Lines, Roll Form. NAICS 333514: special die and tool, die set, jig, and fixture manufacturing."

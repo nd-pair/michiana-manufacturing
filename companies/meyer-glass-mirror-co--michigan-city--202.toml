@@ -1,0 +1,20 @@
+# Meyer Glass & Mirror Co.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Meyer Glass & Mirror Co."
+kind = "company"
+city = "Michigan City"
+state = "IN"
+address = "202 West Harrison Street, Michigan City, IN 46360"
+lat = 41.69988
+lon = -86.89577
+website = "https://meyer-glass.com"
+
+sector = "Materials & composites"
+products = ["Glass Product Manufacturing Made of Purchased Glass"]
+
+employees = 20
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Mirrors. NAICS 327215: glass product manufacturing made of purchased glass."

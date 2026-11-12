@@ -1,0 +1,20 @@
+# Elkhart Brass Mfg. Co.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Elkhart Brass Mfg. Co."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "1302 West Beardsley Avenue, Elkhart, IN 46514"
+lat = 41.69296
+lon = -85.99422
+website = "https://elkhartbrass.com"
+
+sector = "Metal"
+products = ["Other Metal Valve and Pipe Fitting Manufacturing"]
+
+employees = 171
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Company Headquarters & Firefighting Equipment & Brass Goods. NAICS 332919: other metal valve and pipe fitting manufacturing."

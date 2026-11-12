@@ -1,0 +1,20 @@
+# J & L's Cargo Express, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "J & L's Cargo Express, Inc."
+kind = "company"
+city = "Bristol"
+state = "IN"
+address = "708 South Division Street, Bristol, IN 46507"
+lat = 41.71547
+lon = -85.81695
+website = "https://cargoexpress.com"
+
+sector = "Vehicles & RVs"
+products = ["Truck Trailer Manufacturing"]
+
+employees = 150
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Steel Frame, Aluminum Skin Enclosed Cargo Trailers. NAICS 336212: truck trailer manufacturing."

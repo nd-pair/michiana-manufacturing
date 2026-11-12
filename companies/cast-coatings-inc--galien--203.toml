@@ -1,0 +1,20 @@
+# Cast Coatings, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Cast Coatings, Inc."
+kind = "company"
+city = "Galien"
+state = "MI"
+address = "203 West Southeastern Street, Galien, MI 49113"
+lat = 41.80139
+lon = -86.50097
+website = "https://not available"
+
+sector = "Materials & composites"
+products = ["Paint and Coating Manufacturing"]
+
+employees = 22
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Corporate Headquarters & Industrial Powder & Liquid Coatings & Shot Blasting. NAICS 325510: paint and coating manufacturing."

@@ -1,0 +1,20 @@
+# Kinro, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Kinro, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "2101 Kinro Court, Elkhart, IN 46514"
+lat = 41.71423
+lon = -86.00799
+website = "https://kinro.com"
+
+sector = "Mechatronics & automation"
+products = ["Scale and Balance Manufacturing"]
+
+employees = 200
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Baggage Doors. NAICS 333997: scale and balance manufacturing."

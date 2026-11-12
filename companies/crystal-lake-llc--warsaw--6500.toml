@@ -1,0 +1,20 @@
+# Crystal Lake, LLC
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Crystal Lake, LLC"
+kind = "company"
+city = "Warsaw"
+state = "IN"
+address = "6500 West Crystal Lake Road, Warsaw, IN 46580"
+lat = 41.23255
+lon = -85.96815
+website = "https://cb-cl.com"
+
+sector = "Food & consumer goods"
+products = ["All Other Miscellaneous Food Manufacturing"]
+
+employees = 70
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Frozen Eggs. NAICS 311999: all other miscellaneous food manufacturing."

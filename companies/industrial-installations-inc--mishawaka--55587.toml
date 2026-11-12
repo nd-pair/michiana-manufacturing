@@ -1,0 +1,20 @@
+# Industrial Installations, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Industrial Installations, Inc."
+kind = "company"
+city = "Mishawaka"
+state = "IN"
+address = "55587 Currant Road, Mishawaka, IN 46545"
+lat = 41.68754
+lon = -86.12944
+website = "https://industrialinstallations.com"
+
+sector = "Mechatronics & automation"
+products = ["Overhead Traveling Crane, Hoist, and Monorail System Manufacturing"]
+
+employees = 20
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Industrial Cranes. NAICS 333923: overhead traveling crane, hoist, and monorail system manufacturing."

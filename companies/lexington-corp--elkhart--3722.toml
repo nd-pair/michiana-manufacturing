@@ -1,0 +1,20 @@
+# Lexington Corp.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Lexington Corp."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "3722 Lexington Park Drive, Elkhart, IN 46514"
+lat = 41.69076
+lon = -86.03025
+website = "https://not available"
+
+sector = "Wood, paper & furniture"
+products = ["Nonupholstered Wood Household Furniture Manufacturing"]
+
+employees = 25
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Recreational Vehicle, Marine & Boat Furniture. NAICS 337122: nonupholstered wood household furniture manufacturing."

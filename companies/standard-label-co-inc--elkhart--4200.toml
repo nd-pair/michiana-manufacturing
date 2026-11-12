@@ -1,0 +1,20 @@
+# Standard Label Co., Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Standard Label Co., Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "4200 Wyland Drive, Elkhart, IN 46516"
+lat = 41.69280
+lon = -85.90560
+website = "https://standard-label.com"
+
+sector = "Wood, paper & furniture"
+products = ["Coated and Laminated Paper Manufacturing"]
+
+employees = 18
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Pressure Sensitive Labels. NAICS 322222: coated and laminated paper manufacturing."

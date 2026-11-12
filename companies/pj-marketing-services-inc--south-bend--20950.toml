@@ -1,0 +1,20 @@
+# Pj Marketing Services, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Pj Marketing Services, Inc."
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "20950 Ireland Road, South Bend, IN 46614"
+lat = 41.62844
+lon = -86.27131
+website = "https://pjpromo.com"
+
+sector = "Food & consumer goods"
+products = ["All Other Miscellaneous Textile Product Mills"]
+
+employees = 28
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Textile Embroidery & Screen Printing. NAICS 314999: all other miscellaneous textile product mills."

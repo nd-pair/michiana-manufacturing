@@ -1,0 +1,20 @@
+# Quality Steel & Aluminum Products
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Quality Steel & Aluminum Products"
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "28620 County Road 20, Elkhart, IN 46517"
+lat = 41.65730
+lon = -86.01591
+website = "https://not available"
+
+sector = "Vehicles & RVs"
+products = ["Truck Trailer Manufacturing"]
+
+employees = 30
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Cargo Trailers. NAICS 336212: truck trailer manufacturing."

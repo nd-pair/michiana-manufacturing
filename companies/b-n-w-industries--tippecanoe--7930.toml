@@ -1,0 +1,20 @@
+# B.n.w. Industries
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "B.n.w. Industries"
+kind = "company"
+city = "Tippecanoe"
+state = "IN"
+address = "7930 North 700 East, Tippecanoe, IN 46570"
+lat = 41.17139
+lon = -86.11631
+website = "https://belt-o-matic.com"
+
+sector = "Metal"
+products = ["Machine Shops"]
+
+employees = 15
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Horizontal Conveyor Dryers & Coolers. NAICS 332710: machine shops."

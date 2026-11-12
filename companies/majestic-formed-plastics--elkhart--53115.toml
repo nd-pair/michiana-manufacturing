@@ -1,0 +1,20 @@
+# Majestic Formed Plastics
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Majestic Formed Plastics"
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "53115 Faith Avenue, Elkhart, IN 46514"
+lat = 41.72332
+lon = -86.02483
+website = "https://majesticformedplastics.com"
+
+sector = "Materials & composites"
+products = ["All Other Plastics Product Manufacturing"]
+
+employees = 32
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Plastic Thermoforming. NAICS 326199: all other plastics product manufacturing."

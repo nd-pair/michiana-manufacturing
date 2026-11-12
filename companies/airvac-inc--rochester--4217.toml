@@ -1,0 +1,20 @@
+# Airvac, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Airvac, Inc."
+kind = "company"
+city = "Rochester"
+state = "IN"
+address = "4217 North Old US Highway 31, Rochester, IN 46975"
+lat = 41.11392
+lon = -86.22412
+website = "https://airvac.com"
+
+sector = "Mechatronics & automation"
+products = ["Other Commercial and Service Industry Machinery Manufacturing"]
+
+employees = 60
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Wastewater Vacuum Collection Systems. NAICS 333319: other commercial and service industry machinery manufacturing."

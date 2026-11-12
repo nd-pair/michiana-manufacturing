@@ -1,0 +1,20 @@
+# Micro-Screen, LLC
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Micro-Screen, LLC"
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "1106 High Street, South Bend, IN 46601"
+lat = 41.66255
+lon = -86.23906
+website = "https://microscreen.org"
+
+sector = "Mechatronics & automation"
+products = ["Printing Machinery and Equipment Manufacturing"]
+
+employees = 25
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Printing Screens & Equipment. NAICS 333293: printing machinery and equipment manufacturing."

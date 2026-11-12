@@ -1,0 +1,20 @@
+# South Bend Scrap & Processing
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "South Bend Scrap & Processing"
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "1305 Prairie Avenue, South Bend, IN 46613"
+lat = 41.66063
+lon = -86.26377
+website = "https://not available"
+
+sector = "Metal"
+products = ["Secondary Smelting, Refining, and Alloying of Nonferrous Metal (except Copper and Aluminum)"]
+
+employees = 100
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Scrap Metal Processing. NAICS 331492: secondary smelting, refining, and alloying of nonferrous metal (except copper and aluminum)."

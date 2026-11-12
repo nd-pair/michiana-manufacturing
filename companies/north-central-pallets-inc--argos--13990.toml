@@ -1,0 +1,20 @@
+# North Central Pallets, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "North Central Pallets, Inc."
+kind = "company"
+city = "Argos"
+state = "IN"
+address = "13990 State Road 10, Argos, IN 46501"
+lat = 41.23161
+lon = -86.32818
+website = "https://ncpallets.com"
+
+sector = "Wood, paper & furniture"
+products = ["Wood Container and Pallet Manufacturing"]
+
+employees = 45
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "New, Wooden & Remanufactured Pallets, Boxes & Crates, Colored & Bark Mulch & Sawdust, Including Scrap Wood Removal. NAICS 321920: wood container and pallet manufacturing."

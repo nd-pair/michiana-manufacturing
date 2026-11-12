@@ -1,0 +1,20 @@
+# Parker Hannifin Corp., Power Components
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Parker Hannifin Corp., Power Components"
+kind = "company"
+city = "Mishawaka"
+state = "IN"
+address = "56641 Twin Branch Drive, Mishawaka, IN 46545"
+lat = 41.67146
+lon = -86.13141
+website = "https://parker.com"
+
+sector = "Electronics"
+products = ["Instruments & Related Products Mfg. for Measuring, Displaying, Controlling Industrial Process Variables"]
+
+employees = 170
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Proximity & Position Sensors & Switches. NAICS 334513: instruments & related products mfg for measuring, displaying, controlling industrial process variables."

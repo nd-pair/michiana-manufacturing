@@ -1,0 +1,20 @@
+# T & M Rubber, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "T & M Rubber, Inc."
+kind = "company"
+city = "Goshen"
+state = "IN"
+address = "1102 South 10th Street, Goshen, IN 46526"
+lat = 41.57209
+lon = -85.82478
+website = "https://tmrubber.com"
+
+sector = "Medical devices & other"
+products = ["Gasket, Packing, and Sealing Device Manufacturing"]
+
+employees = 50
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Precision Lathe-Cut Rubber Gaskets. NAICS 339991: gasket, packing, and sealing device manufacturing."

@@ -1,0 +1,20 @@
+# Dwyer Instruments, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Dwyer Instruments, Inc."
+kind = "company"
+city = "Michigan City"
+state = "IN"
+address = "102 in 212, Michigan City, IN 46360"
+lat = 41.74279
+lon = -86.82577
+website = "https://dwyer-inst.com"
+
+sector = "Electronics"
+products = ["Instruments & Related Products Mfg. for Measuring, Displaying, Controlling Industrial Process Variables"]
+
+employees = 150
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Corporate Headquarters & Flow, Level, Pressure & Temperature Controls & Gages. NAICS 334513: instruments & related products mfg for measuring, displaying, controlling industrial process variables."

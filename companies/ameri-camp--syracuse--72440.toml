@@ -1,0 +1,20 @@
+# Ameri-Camp
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Ameri-Camp"
+kind = "company"
+city = "Syracuse"
+state = "IN"
+address = "72440 State Road 13, Syracuse, IN 46567"
+lat = 41.44415
+lon = -85.74978
+website = "https://ameri-camp.com"
+
+sector = "Vehicles & RVs"
+products = ["Travel Trailer and Camper Manufacturing"]
+
+employees = 150
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Travel Campers. NAICS 336214: travel trailer and camper manufacturing."

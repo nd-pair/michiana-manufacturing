@@ -1,0 +1,20 @@
+# United Roll Forming, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "United Roll Forming, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "58288 County Road 3, Elkhart, IN 46517"
+lat = 41.64783
+lon = -86.02186
+website = "https://unitedrollforming.org"
+
+sector = "Metal"
+products = ["Custom Roll Forming"]
+
+employees = 40
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Metal Roll Forming, Including Roll-Formed Parts, Tube Bending & Steel Rings. NAICS 332114: custom roll forming."

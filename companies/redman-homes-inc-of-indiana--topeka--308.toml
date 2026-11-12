@@ -1,0 +1,20 @@
+# Redman Homes, Inc. of Indiana
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Redman Homes, Inc. of Indiana"
+kind = "company"
+city = "Topeka"
+state = "IN"
+address = "308 Sheridan Drive, Topeka, IN 46571"
+lat = 41.53710
+lon = -85.55419
+website = "https://redmanhomesofindiana.com"
+
+sector = "Metal"
+products = ["Hardware Manufacturing"]
+
+employees = 500
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Modular Homes & Manufactured Housing. NAICS 332510: hardware manufacturing."

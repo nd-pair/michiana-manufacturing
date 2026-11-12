@@ -1,0 +1,20 @@
+# Bull Moose Tube Co.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Bull Moose Tube Co."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "29851 County Road 20, Elkhart, IN 46517"
+lat = 41.66086
+lon = -86.03870
+website = "https://bullmoosetube.com"
+
+sector = "Metal"
+products = ["Iron and Steel Pipe and Tube Manufacturing From Purchased Steel"]
+
+employees = 110
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Electric Welded Steel Tubing. NAICS 331210: iron and steel pipe and tube manufacturing from purchased steel."

@@ -1,0 +1,20 @@
+# Champion Mfg., Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Champion Mfg., Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "2601 Industrial Parkway, Elkhart, IN 46516"
+lat = 41.68640
+lon = -85.92169
+website = "https://championchair.com"
+
+sector = "Wood, paper & furniture"
+products = ["Institutional Furniture Manufacturing"]
+
+employees = 30
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Hospital Chairs. NAICS 337127: institutional furniture manufacturing."

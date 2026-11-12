@@ -1,0 +1,20 @@
+# Intermet Corp., Stevensville Plant
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Intermet Corp., Stevensville Plant"
+kind = "company"
+city = "Stevensville"
+state = "MI"
+address = "2800 Yasdick Drive, Stevensville, MI 49127"
+lat = 42.01112
+lon = -86.51972
+website = "https://intermet.com"
+
+sector = "Metal"
+products = ["Aluminum Die-Casting Foundries"]
+
+employees = 160
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Aluminum Die Casting. NAICS 331521: aluminum die-casting foundries."

@@ -1,0 +1,20 @@
+# Atwood Mobile Products, Elkhart Opers.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Atwood Mobile Products, Elkhart Opers."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "57912 Charlotte Avenue, Elkhart, IN 46517"
+lat = 41.65352
+lon = -86.00984
+website = "https://atwoodmobile.com"
+
+sector = "Vehicles & RVs"
+products = ["Motor Vehicle Seating and Interior Trim Manufacturing"]
+
+employees = 280
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Recreational Vehicle Seat Frames, Lounges & RV Doors. NAICS 336360: motor vehicle seating and interior trim manufacturing."

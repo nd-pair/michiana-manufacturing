@@ -1,0 +1,20 @@
+# Eagle Ready Mix
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Eagle Ready Mix"
+kind = "company"
+city = "Goshen"
+state = "IN"
+address = "65723 US Highway 33, Goshen, IN 46526"
+lat = 41.54117
+lon = -85.78038
+website = "https://eaglereadymix.com"
+
+sector = "Materials & composites"
+products = ["Ready-Mix Concrete Manufacturing"]
+
+employees = 33
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Ready-Mixed Concrete. NAICS 327320: ready-mix concrete manufacturing."

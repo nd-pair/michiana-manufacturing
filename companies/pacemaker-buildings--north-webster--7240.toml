@@ -1,0 +1,20 @@
+# Pacemaker Buildings
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Pacemaker Buildings"
+kind = "company"
+city = "North Webster"
+state = "IN"
+address = "7240 North State Road 13, North Webster, IN 46555"
+lat = 41.34137
+lon = -85.70073
+website = "https://pacemakerbuildings.com"
+
+sector = "Wood, paper & furniture"
+products = ["Other Millwork (including Flooring )"]
+
+employees = 30
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Pole Barns. NAICS 321918: other millwork (including flooring )."

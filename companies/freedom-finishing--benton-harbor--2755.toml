@@ -1,0 +1,20 @@
+# Freedom Finishing
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Freedom Finishing"
+kind = "company"
+city = "Benton Harbor"
+state = "MI"
+address = "2755 Meadowbrook Road, Benton Harbor, MI 49022"
+lat = 42.07998
+lon = -86.39159
+website = "https://freedomfinishing.com"
+
+sector = "Metal"
+products = ["Metal Coating, Engraving (except Jewelry and Silverware), and Allied Services To Manufacturers"]
+
+employees = 70
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Powder, Fluoropolymer & Electrocoatings. NAICS 332812: metal coating, engraving (except jewelry and silverware), and allied services to manufacturers."

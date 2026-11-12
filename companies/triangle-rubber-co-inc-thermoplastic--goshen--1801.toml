@@ -1,0 +1,20 @@
+# Triangle Rubber Co., Inc., Thermoplastic
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Triangle Rubber Co., Inc., Thermoplastic"
+kind = "company"
+city = "Goshen"
+state = "IN"
+address = "1801 Eisenhower Drive North, Goshen, IN 46526"
+lat = 41.55772
+lon = -85.80800
+website = "https://trianglerubberco.com"
+
+sector = "Materials & composites"
+products = ["All Other Plastics Product Manufacturing"]
+
+employees = 15
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Molded Thermoplastic Elastomer Products. NAICS 326199: all other plastics product manufacturing."

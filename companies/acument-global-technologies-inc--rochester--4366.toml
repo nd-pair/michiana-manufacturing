@@ -1,0 +1,20 @@
+# Acument Global Technologies, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Acument Global Technologies, Inc."
+kind = "company"
+city = "Rochester"
+state = "IN"
+address = "4366 Old US Highway 31 North, Rochester, IN 46975"
+lat = 41.11712
+lon = -86.22634
+website = "https://acument.com"
+
+sector = "Medical devices & other"
+products = ["Fastener, Button, Needle, and Pin Manufacturing"]
+
+employees = 145
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Fasteners, Studs, Nuts & Machine Screws. NAICS 339993: fastener, button, needle, and pin manufacturing."

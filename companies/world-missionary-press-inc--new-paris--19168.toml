@@ -1,0 +1,20 @@
+# World Missionary Press, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "World Missionary Press, Inc."
+kind = "company"
+city = "New Paris"
+state = "IN"
+address = "19168 County Road 146, New Paris, IN 46553"
+lat = 41.49290
+lon = -85.83264
+website = "https://wmpress.org"
+
+sector = "Wood, paper & furniture"
+products = ["Prepress Services"]
+
+employees = 45
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Publishing of New Testament Scripture & Bible Study Booklets. NAICS 323122: prepress services."

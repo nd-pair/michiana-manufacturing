@@ -1,0 +1,20 @@
+# Kmc Controls Co., Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Kmc Controls Co., Inc."
+kind = "company"
+city = "New Paris"
+state = "IN"
+address = "19476 Industrial Drive, New Paris, IN 46553"
+lat = 41.50893
+lon = -85.83707
+website = "https://kmccontrols.com"
+
+sector = "Electronics"
+products = ["Automatic Environmental Control Manufacturing for Residential, Commercial, and Appliance Use"]
+
+employees = 250
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Building Automation Systems & HVAC Controls. NAICS 334512: automatic environmental control manufacturing for residential, commercial, and appliance use."

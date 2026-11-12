@@ -1,0 +1,20 @@
+# Dexter Axle Co. (h Q)
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Dexter Axle Co. (h Q)"
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "2900 Industrial Parkway, Elkhart, IN 46516"
+lat = 41.68699
+lon = -85.91611
+website = "https://dexteraxle.com"
+
+sector = "Vehicles & RVs"
+products = ["Motor Vehicle Transmission and Power Train Parts Manufacturing"]
+
+employees = 85
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Divisional Headquarters; Axles & Trailer Running Gear Components. NAICS 336350: motor vehicle transmission and power train parts manufacturing."

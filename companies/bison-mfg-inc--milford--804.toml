@@ -1,0 +1,20 @@
+# Bison Mfg., Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Bison Mfg., Inc."
+kind = "company"
+city = "Milford"
+state = "IN"
+address = "804 South Higbee Street, Milford, IN 46542"
+lat = 41.40119
+lon = -85.85473
+website = "https://bisontrailer.com"
+
+sector = "Vehicles & RVs"
+products = ["Truck Trailer Manufacturing"]
+
+employees = 115
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Horse Trailers With & Without Living Quarters. NAICS 336212: truck trailer manufacturing."

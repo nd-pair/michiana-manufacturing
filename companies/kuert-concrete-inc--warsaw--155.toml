@@ -1,0 +1,20 @@
+# Kuert Concrete, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Kuert Concrete, Inc."
+kind = "company"
+city = "Warsaw"
+state = "IN"
+address = "155 West 600 North, Warsaw, IN 46582"
+lat = 41.32079
+lon = -85.84794
+website = "https://kuert.com"
+
+sector = "Materials & composites"
+products = ["Ready-Mix Concrete Manufacturing"]
+
+employees = 15
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Ready-Mixed Concrete. NAICS 327320: ready-mix concrete manufacturing."

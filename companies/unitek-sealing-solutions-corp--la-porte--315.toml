@@ -1,0 +1,20 @@
+# Unitek Sealing Solutions Corp.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Unitek Sealing Solutions Corp."
+kind = "company"
+city = "La Porte"
+state = "IN"
+address = "315 Brighton Street, La Porte, IN 46350"
+lat = 41.61715
+lon = -86.71369
+website = "https://unitekss.com"
+
+sector = "Materials & composites"
+products = ["Rubber Product Manufacturing for Mechanical Use"]
+
+employees = 50
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Open & Closed Extruded & Dense Molded Rubber Products & Extruded Thermoplastics. NAICS 326291: rubber product manufacturing for mechanical use."

@@ -1,0 +1,20 @@
+# Diedrich Drill, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Diedrich Drill, Inc."
+kind = "company"
+city = "La Porte"
+state = "IN"
+address = "5 Fisher Street, La Porte, IN 46350"
+lat = 41.60692
+lon = -86.73297
+website = "https://diedrichdrill.com"
+
+sector = "Mechatronics & automation"
+products = ["Mining Machinery and Equipment Manufacturing"]
+
+employees = 47
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Soil Sampling Equipment, Auger Drill Rigs, Well Supplies & Sonic Drill Rigs & Tooling. NAICS 333131: mining machinery and equipment manufacturing."

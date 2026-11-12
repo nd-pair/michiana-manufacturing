@@ -1,0 +1,20 @@
+# Double Eagle Industries, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Double Eagle Industries, Inc."
+kind = "company"
+city = "Shipshewana"
+state = "IN"
+address = "605 North State Road 5, Shipshewana, IN 46565"
+lat = 41.64856
+lon = -85.57976
+website = "https://doubleeagleind.com"
+
+sector = "Vehicles & RVs"
+products = ["All Other Motor Vehicle Parts Manufacturing"]
+
+employees = 34
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Truck Sleepers & Liquid Cooled Generators. NAICS 336399: all other motor vehicle parts manufacturing."

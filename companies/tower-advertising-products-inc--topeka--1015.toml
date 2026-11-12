@@ -1,0 +1,20 @@
+# Tower Advertising Products, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Tower Advertising Products, Inc."
+kind = "company"
+city = "Topeka"
+state = "IN"
+address = "1015 West Lake Street, Topeka, IN 46571"
+lat = 41.53896
+lon = -85.55325
+website = "https://toweradv.com"
+
+sector = "Food & consumer goods"
+products = ["Broadwoven Fabric Mills"]
+
+employees = 120
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Awards & Ribbons & Imprinting. NAICS 313210: broadwoven fabric mills."

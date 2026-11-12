@@ -1,0 +1,20 @@
+# Dexstar Wheel Co.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Dexstar Wheel Co."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "400 Collins Road, Elkhart, IN 46516"
+lat = 41.68824
+lon = -85.92170
+website = "https://dexstarwheel.com"
+
+sector = "Vehicles & RVs"
+products = ["All Other Motor Vehicle Parts Manufacturing"]
+
+employees = 110
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Trailer Rims & Wheels. NAICS 336399: all other motor vehicle parts manufacturing."

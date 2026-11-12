@@ -1,0 +1,20 @@
+# Qsi, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Qsi, Inc."
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "3024 Mishawaka Avenue, South Bend, IN 46615"
+lat = 41.66543
+lon = -86.20482
+website = "https://qsibillers.com"
+
+sector = "Wood, paper & furniture"
+products = ["Other Commercial Printing"]
+
+employees = 17
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Commercial Printing. NAICS 323119: other commercial printing."

@@ -1,0 +1,20 @@
+# Colbert Packaging Corp.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Colbert Packaging Corp."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "1511 West Lusher Avenue, Elkhart, IN 46517"
+lat = 41.66666
+lon = -85.99023
+website = "https://colbertpkg.com"
+
+sector = "Wood, paper & furniture"
+products = ["Setup Paperboard Box Manufacturing"]
+
+employees = 95
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Rigid Paper Boxes, Folding Cartons & Game Boards. NAICS 322213: setup paperboard box manufacturing."

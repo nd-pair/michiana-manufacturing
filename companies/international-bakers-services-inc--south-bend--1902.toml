@@ -1,0 +1,20 @@
+# International Bakers Services, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "International Bakers Services, Inc."
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "1902 North Sheridan Street, South Bend, IN 46628"
+lat = 41.70108
+lon = -86.30285
+website = "https://internationalbakers.com"
+
+sector = "Food & consumer goods"
+products = ["Flavoring Syrup and Concentrate Manufacturing"]
+
+employees = 20
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Dry & Liquid Flavors. NAICS 311930: flavoring syrup and concentrate manufacturing."

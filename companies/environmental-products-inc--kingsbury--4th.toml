@@ -1,0 +1,20 @@
+# Environmental Products, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Environmental Products, Inc."
+kind = "company"
+city = "Kingsbury"
+state = "IN"
+address = "4th Road, Kingsbury, IN 46345"
+lat = 41.51361
+lon = -86.64278
+website = "https://episeating.com"
+
+sector = "Wood, paper & furniture"
+products = ["Institutional Furniture Manufacturing"]
+
+employees = 100
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Technical & Industrial School Seating & Work Stations. NAICS 337127: institutional furniture manufacturing."

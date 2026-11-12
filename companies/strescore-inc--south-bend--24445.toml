@@ -1,0 +1,20 @@
+# Strescore, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Strescore, Inc."
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "24445 State Road 23, South Bend, IN 46614"
+lat = 41.62039
+lon = -86.33942
+website = "https://strescore.com"
+
+sector = "Materials & composites"
+products = ["Other Concrete Product Manufacturing"]
+
+employees = 20
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Precast Concrete Products. NAICS 327390: other concrete product manufacturing."

@@ -1,0 +1,20 @@
+# Skyline Corp., Bristol Div.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Skyline Corp., Bristol Div."
+kind = "company"
+city = "Bristol"
+state = "IN"
+address = "In 15 South, Bristol, IN 46507"
+lat = 41.70930
+lon = -85.81760
+website = "https://skylinecorp.com"
+
+sector = "Wood, paper & furniture"
+products = ["Manufactured Home (mobile Home) Manufacturing"]
+
+employees = 100
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Mobile Homes. NAICS 321991: manufactured home (mobile home) manufacturing."

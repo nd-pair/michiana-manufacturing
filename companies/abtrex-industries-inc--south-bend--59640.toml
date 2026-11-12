@@ -1,0 +1,20 @@
+# Abtrex Industries, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Abtrex Industries, Inc."
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "59640 Market Street, South Bend, IN 46614"
+lat = 41.62676
+lon = -86.31468
+website = "https://abtrex.com"
+
+sector = "Materials & composites"
+products = ["All Other Plastics Product Manufacturing"]
+
+employees = 24
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Fiberglass & Steel Tanks. NAICS 326199: all other plastics product manufacturing."

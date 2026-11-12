@@ -1,0 +1,20 @@
+# Franklin Coach Co., Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Franklin Coach Co., Inc."
+kind = "company"
+city = "Nappanee"
+state = "IN"
+address = "160 South Oakland Avenue, Nappanee, IN 46550"
+lat = 41.44201
+lon = -85.98178
+website = "https://not available"
+
+sector = "Vehicles & RVs"
+products = ["Motor Home Manufacturing"]
+
+employees = 50
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Recreational Vehicles. NAICS 336213: motor home manufacturing."

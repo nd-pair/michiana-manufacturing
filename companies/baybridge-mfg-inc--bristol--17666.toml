@@ -1,0 +1,20 @@
+# Baybridge Mfg., Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Baybridge Mfg., Inc."
+kind = "company"
+city = "Bristol"
+state = "IN"
+address = "17666 Commerce Drive, Bristol, IN 46507"
+lat = 41.72988
+lon = -85.79669
+website = "https://baybridgemfg.com"
+
+sector = "Vehicles & RVs"
+products = ["Motor Vehicle Body Manufacturing"]
+
+employees = 20
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Truck Bodies. NAICS 336211: motor vehicle body manufacturing."

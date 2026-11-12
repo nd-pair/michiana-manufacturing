@@ -1,0 +1,20 @@
+# Snuggles, Inc., T. J.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Snuggles, Inc., T. J."
+kind = "company"
+city = "Bremen"
+state = "IN"
+address = "1851 Dogwood Road, Bremen, IN 46506"
+lat = 41.45260
+lon = -86.11791
+website = "https://not available"
+
+sector = "Food & consumer goods"
+products = ["Canvas and Related Product Mills"]
+
+employees = 30
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Canvas Products & Awnings. NAICS 314912: canvas and related product mills."

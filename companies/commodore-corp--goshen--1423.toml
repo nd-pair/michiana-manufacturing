@@ -1,0 +1,20 @@
+# Commodore Corp.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Commodore Corp."
+kind = "company"
+city = "Goshen"
+state = "IN"
+address = "1423 Lincolnway East, Goshen, IN 46526"
+lat = 41.57172
+lon = -85.81079
+website = "https://commodorehomes.com"
+
+sector = "Wood, paper & furniture"
+products = ["Manufactured Home (mobile Home) Manufacturing"]
+
+employees = 40
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Corporate Headquarters & Modular & Manufactured Homes. NAICS 321991: manufactured home (mobile home) manufacturing."

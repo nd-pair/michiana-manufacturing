@@ -1,0 +1,20 @@
+# Spartech Industries
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Spartech Industries"
+kind = "company"
+city = "Warsaw"
+state = "IN"
+address = "1851 Fox Farm Road, Warsaw, IN 46580"
+lat = 41.25741
+lon = -85.86801
+website = "https://spartech.com"
+
+sector = "Materials & composites"
+products = ["Tire Manufacturing (except Retreading)"]
+
+employees = 80
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Semi-Pneumatic Tires, Tread Cap Hubs & Plastic Extrusion & Molding. NAICS 326211: tire manufacturing (except retreading)."

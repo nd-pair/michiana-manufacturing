@@ -1,0 +1,20 @@
+# Chardon Rubber Co.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Chardon Rubber Co."
+kind = "company"
+city = "Saint Joseph"
+state = "MI"
+address = "1776 Hilltop Road, Saint Joseph, MI 49085"
+lat = 42.08022
+lon = -86.49472
+website = "https://chardonrubber.com"
+
+sector = "Vehicles & RVs"
+products = ["All Other Motor Vehicle Parts Manufacturing"]
+
+employees = 100
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Rubber Automotive Products. NAICS 336399: all other motor vehicle parts manufacturing."

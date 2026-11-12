@@ -1,0 +1,20 @@
+# Lambright Woodworking, LLC
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Lambright Woodworking, LLC"
+kind = "company"
+city = "Topeka"
+state = "IN"
+address = "7785 West 300 South, Topeka, IN 46571"
+lat = 41.59735
+lon = -85.57546
+website = "https://not available"
+
+sector = "Wood, paper & furniture"
+products = ["Wood Kitchen Cabinet and Countertop Manufacturing"]
+
+employees = 34
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Kitchen Cabinets & Furniture. NAICS 337110: wood kitchen cabinet and countertop manufacturing."

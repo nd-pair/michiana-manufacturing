@@ -1,0 +1,20 @@
+# Hose Assemblies
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Hose Assemblies"
+kind = "company"
+city = "Mishawaka"
+state = "IN"
+address = "1906 East Mckinley Avenue, Mishawaka, IN 46545"
+lat = 41.68058
+lon = -86.15090
+website = "https://hoseassem.com"
+
+sector = "Materials & composites"
+products = ["Rubber and Plastics Hoses and Belting Manufacturing"]
+
+employees = 25
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Air & Water Hose Assembly. NAICS 326220: rubber and plastics hoses and belting manufacturing."

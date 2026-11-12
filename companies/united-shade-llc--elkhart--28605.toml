@@ -1,0 +1,20 @@
+# United Shade, LLC
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "United Shade, LLC"
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "28605 County Road 6, Elkhart, IN 46514"
+lat = 41.72475
+lon = -86.01438
+website = "https://unitedshade.com"
+
+sector = "Wood, paper & furniture"
+products = ["Blind and Shade Manufacturing"]
+
+employees = 50
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Window Shades & Windshield Covers. NAICS 337920: blind and shade manufacturing."

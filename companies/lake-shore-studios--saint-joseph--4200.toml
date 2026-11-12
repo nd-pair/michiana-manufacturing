@@ -1,0 +1,20 @@
+# Lake Shore Studios
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Lake Shore Studios"
+kind = "company"
+city = "Saint Joseph"
+state = "MI"
+address = "4200 Niles Road, Saint Joseph, MI 49085"
+lat = 42.04284
+lon = -86.43745
+website = "https://lakeshorestudios.com"
+
+sector = "Electronics"
+products = ["Other Lighting Equipment Manufacturing"]
+
+employees = 150
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Lighting Equipment & Shades. NAICS 335129: other lighting equipment manufacturing."

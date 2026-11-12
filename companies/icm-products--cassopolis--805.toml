@@ -1,0 +1,20 @@
+# Icm Products
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Icm Products"
+kind = "company"
+city = "Cassopolis"
+state = "MI"
+address = "805 Wolfe Avenue, Cassopolis, MI 49031"
+lat = 41.91316
+lon = -86.00080
+website = "https://not available"
+
+sector = "Materials & composites"
+products = ["All Other Miscellaneous Chemical Product and Preparation Manufacturing"]
+
+employees = 15
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Chemicals, Including Silicones, Release Agents, Uniformers, Polyers & Rust Inhibitors. NAICS 325998: all other miscellaneous chemical product and preparation manufacturing."

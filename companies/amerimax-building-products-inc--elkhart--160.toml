@@ -1,0 +1,20 @@
+# Amerimax Building Products, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Amerimax Building Products, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "160 County Road 15 South, Elkhart, IN 46516"
+lat = 41.69168
+lon = -85.90714
+website = "https://amerimaxbp.com"
+
+sector = "Vehicles & RVs"
+products = ["Motor Vehicle Seating and Interior Trim Manufacturing"]
+
+employees = 70
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Recreational Vehicle Doors, Fabricated Painted Aluminum Siding & Laminated Products. NAICS 336360: motor vehicle seating and interior trim manufacturing."

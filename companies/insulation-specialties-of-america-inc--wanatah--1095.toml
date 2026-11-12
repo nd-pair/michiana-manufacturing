@@ -1,0 +1,20 @@
+# Insulation Specialties of America, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Insulation Specialties of America, Inc."
+kind = "company"
+city = "Wanatah"
+state = "IN"
+address = "1095 Kabert Drive, Wanatah, IN 46390"
+lat = 41.43234
+lon = -86.90893
+website = "https://insulationspecialties.com"
+
+sector = "Materials & composites"
+products = ["Vitreous China, Fine Earthenware, and Other Pottery Product Manufacturing"]
+
+employees = 40
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Vacuum Formed Ceramic Fiber Parts. NAICS 327112: vitreous china, fine earthenware, and other pottery product manufacturing."

@@ -1,0 +1,20 @@
+# Indiana Dimensional Products
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Indiana Dimensional Products"
+kind = "company"
+city = "North Webster"
+state = "IN"
+address = "7224 North State Road 13, North Webster, IN 46555"
+lat = 41.34066
+lon = -85.70070
+website = "https://indianadimensional.com"
+
+sector = "Medical devices & other"
+products = ["Sign Manufacturing"]
+
+employees = 65
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Advertising & Display Dimensional Signs. NAICS 339950: sign manufacturing."

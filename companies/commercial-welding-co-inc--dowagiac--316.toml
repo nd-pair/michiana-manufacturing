@@ -1,0 +1,20 @@
+# Commercial Welding Co., Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Commercial Welding Co., Inc."
+kind = "company"
+city = "Dowagiac"
+state = "MI"
+address = "316 Cass Avenue, Dowagiac, MI 49047"
+lat = 41.97386
+lon = -86.10765
+website = "https://not available"
+
+sector = "Metal"
+products = ["Metal Tank (heavy Gauge) Manufacturing"]
+
+employees = 16
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Steel Storage Tanks. NAICS 332420: metal tank (heavy gauge) manufacturing."

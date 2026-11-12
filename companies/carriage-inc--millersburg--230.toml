@@ -1,0 +1,20 @@
+# Carriage, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Carriage, Inc."
+kind = "company"
+city = "Millersburg"
+state = "IN"
+address = "230 Wabash Street, Millersburg, IN 46543"
+lat = 41.52596
+lon = -85.69033
+website = "https://carriageinc.com"
+
+sector = "Vehicles & RVs"
+products = ["Travel Trailer and Camper Manufacturing"]
+
+employees = 300
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Fifth Wheel Trailers. NAICS 336214: travel trailer and camper manufacturing."

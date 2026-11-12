@@ -1,0 +1,20 @@
+# Stoutco, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Stoutco, Inc."
+kind = "company"
+city = "Bristol"
+state = "IN"
+address = "52470 State Road 15, Bristol, IN 46507"
+lat = 41.73276
+lon = -85.80068
+website = "https://ameri-kan.com"
+
+sector = "Materials & composites"
+products = ["All Other Plastics Product Manufacturing"]
+
+employees = 125
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Corporate Headquarters & Steel Fabrication. NAICS 326199: all other plastics product manufacturing."

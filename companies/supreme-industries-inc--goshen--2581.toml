@@ -1,0 +1,20 @@
+# Supreme Industries, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Supreme Industries, Inc."
+kind = "company"
+city = "Goshen"
+state = "IN"
+address = "2581 Kercher Road, Goshen, IN 46528"
+lat = 41.55217
+lon = -85.77990
+website = "https://supremeind.com"
+
+sector = "Vehicles & RVs"
+products = ["Truck Trailer Manufacturing"]
+
+employees = 1024
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Company Headquarters & Aluminum & Refrigerated Truck Bodies & Shuttle Buses. NAICS 336212: truck trailer manufacturing."

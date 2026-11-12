@@ -1,0 +1,20 @@
+# Kibbechem, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Kibbechem, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "1139 All Pro Drive, Elkhart, IN 46514"
+lat = 41.72991
+lon = -85.99405
+website = "https://kibbechem.com"
+
+sector = "Materials & composites"
+products = ["Inorganic Dye and Pigment Manufacturing"]
+
+employees = 40
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Plastic Pigments, Dispersions & Foaming Agents. NAICS 325131: inorganic dye and pigment manufacturing."

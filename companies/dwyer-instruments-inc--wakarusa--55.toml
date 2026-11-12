@@ -1,0 +1,20 @@
+# Dwyer Instruments, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Dwyer Instruments, Inc."
+kind = "company"
+city = "Wakarusa"
+state = "IN"
+address = "55 Ward Street, Wakarusa, IN 46573"
+lat = 41.52705
+lon = -86.01474
+website = "https://dwyer-inst.com"
+
+sector = "Mechatronics & automation"
+products = ["Special Die and Tool, Die Set, Jig, and Fixture Manufacturing"]
+
+employees = 85
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Pressure Gages & Temperature Controls. NAICS 333514: special die and tool, die set, jig, and fixture manufacturing."

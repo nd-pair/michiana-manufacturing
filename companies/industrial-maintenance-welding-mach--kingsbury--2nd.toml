@@ -1,0 +1,20 @@
+# Industrial Maintenance Welding & Mach.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Industrial Maintenance Welding & Mach."
+kind = "company"
+city = "Kingsbury"
+state = "IN"
+address = "2nd Road and Hupp Road, Kingsbury, IN 46345"
+lat = 41.51684
+lon = -86.67029
+website = "https://imwnet.com"
+
+sector = "Metal"
+products = ["Machine Shops"]
+
+employees = 40
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Corporate Headquarters & Welding & Heavy Machining Job Shop. NAICS 332710: machine shops."

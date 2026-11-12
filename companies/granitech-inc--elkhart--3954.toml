@@ -1,0 +1,20 @@
+# Granitech, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Granitech, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "3954 Lexington Park Drive, Elkhart, IN 46514"
+lat = 41.69081
+lon = -86.02456
+website = "https://granitech.net"
+
+sector = "Materials & composites"
+products = ["Cut Stone and Stone Product Manufacturing"]
+
+employees = 25
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Granite Countertops. NAICS 327991: cut stone and stone product manufacturing."

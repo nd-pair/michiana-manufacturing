@@ -1,0 +1,20 @@
+# Royal Outdoor Products
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Royal Outdoor Products"
+kind = "company"
+city = "Milford"
+state = "IN"
+address = "401 East Syracuse Street, Milford, IN 46542"
+lat = 41.41411
+lon = -85.84054
+website = "https://royalcrownltd.com"
+
+sector = "Metal"
+products = ["Other Fabricated Wire Product Manufacturing"]
+
+employees = 110
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Fencing, Decking, Railing, Docks & Columns. NAICS 332618: other fabricated wire product manufacturing."

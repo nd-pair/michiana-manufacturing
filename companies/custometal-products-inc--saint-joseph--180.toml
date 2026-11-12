@@ -1,0 +1,20 @@
+# Custometal Products, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Custometal Products, Inc."
+kind = "company"
+city = "Saint Joseph"
+state = "MI"
+address = "180 Kerth Street, Saint Joseph, MI 49085"
+lat = 42.07424
+lon = -86.50188
+website = "https://custometalproducts.com"
+
+sector = "Metal"
+products = ["Sheet Metal Work Manufacturing"]
+
+employees = 15
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Sheet Metal Fabrication. NAICS 332322: sheet metal work manufacturing."

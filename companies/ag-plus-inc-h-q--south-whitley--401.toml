@@ -1,0 +1,20 @@
+# Ag Plus, Inc. (h Q)
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Ag Plus, Inc. (h Q)"
+kind = "company"
+city = "South Whitley"
+state = "IN"
+address = "401 North Main Street, South Whitley, IN 46787"
+lat = 41.08763
+lon = -85.62972
+website = "https://agplusinc.com"
+
+sector = "Materials & composites"
+products = ["Fertilizer (mixing Only) Manufacturing"]
+
+employees = 24
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Corporate Headquarters; Feed Blending & Fertilizer. NAICS 325314: fertilizer (mixing only) manufacturing."

@@ -1,0 +1,20 @@
+# Abro Industries, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Abro Industries, Inc."
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "3580 Blackthorn Court, South Bend, IN 46628"
+lat = 41.72430
+lon = -86.33630
+website = "https://abro.com"
+
+sector = "Wood, paper & furniture"
+products = ["Coated and Laminated Paper Manufacturing"]
+
+employees = 22
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Pressure Sensitive Tapes. NAICS 322222: coated and laminated paper manufacturing."

@@ -1,0 +1,20 @@
+# Mercury Displacement Industries, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Mercury Displacement Industries, Inc."
+kind = "company"
+city = "Edwardsburg"
+state = "MI"
+address = "25028 US Highway 12 East, Edwardsburg, MI 49112"
+lat = 41.79842
+lon = -86.05059
+website = "https://mdius.com"
+
+sector = "Electronics"
+products = ["Other Electronic Component Manufacturing"]
+
+employees = 80
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Mercury Switch Relays, Contactors & Liquid Level Float Swithces. NAICS 334419: other electronic component manufacturing."

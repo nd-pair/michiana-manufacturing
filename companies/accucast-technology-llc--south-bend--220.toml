@@ -1,0 +1,20 @@
+# Accucast Technology, LLC
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Accucast Technology, LLC"
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "220 West Eckman Street, South Bend, IN 46614"
+lat = 41.64629
+lon = -86.25180
+website = "https://accucastech.com"
+
+sector = "Metal"
+products = ["Iron Foundries"]
+
+employees = 75
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Iron Castings. NAICS 331511: iron foundries."

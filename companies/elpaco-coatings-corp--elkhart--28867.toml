@@ -1,0 +1,20 @@
+# Elpaco Coatings Corp.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Elpaco Coatings Corp."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "28867 Old US 33, Elkhart, IN 46516"
+lat = 41.66857
+lon = -86.01903
+website = "https://elpacocoatings.com"
+
+sector = "Materials & composites"
+products = ["Paint and Coating Manufacturing"]
+
+employees = 24
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Industrial Paints & Finishes. NAICS 325510: paint and coating manufacturing."

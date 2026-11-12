@@ -1,0 +1,20 @@
+# Magnetech Industrial Services, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Magnetech Industrial Services, Inc."
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "806 West Sample Street, South Bend, IN 46601"
+lat = 41.66478
+lon = -86.26166
+website = "https://magnetech.com"
+
+sector = "Metal"
+products = ["Fabricated Pipe and Pipe Fitting Manufacturing"]
+
+employees = 45
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Copper & Metal Industrial Piping Systems. NAICS 332996: fabricated pipe and pipe fitting manufacturing."

@@ -1,0 +1,20 @@
+# Christianson Industries, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Christianson Industries, Inc."
+kind = "company"
+city = "Edwardsburg"
+state = "MI"
+address = "27328 May Street, Edwardsburg, MI 49112"
+lat = 41.78231
+lon = -86.09514
+website = "https://christiansons.com"
+
+sector = "Metal"
+products = ["Primary Aluminum Production"]
+
+employees = 17
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Aluminum Fabrication. NAICS 331312: primary aluminum production."

@@ -1,0 +1,20 @@
+# Rotational Molding Technologies, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Rotational Molding Technologies, Inc."
+kind = "company"
+city = "New Paris"
+state = "IN"
+address = "67742 County Road 23, New Paris, IN 46553"
+lat = 41.51078
+lon = -85.82798
+website = "https://romotek.com"
+
+sector = "Mechatronics & automation"
+products = ["Farm Machinery and Equipment Manufacturing"]
+
+employees = 54
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Rotational Molded Plastic Products. NAICS 333111: farm machinery and equipment manufacturing."

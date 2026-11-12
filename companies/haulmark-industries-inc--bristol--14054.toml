@@ -1,0 +1,20 @@
+# Haulmark Industries, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Haulmark Industries, Inc."
+kind = "company"
+city = "Bristol"
+state = "IN"
+address = "14054 County Road 4 East, Bristol, IN 46507"
+lat = 41.73959
+lon = -85.73884
+website = "https://haulmark.com"
+
+sector = "Wood, paper & furniture"
+products = ["Manufactured Home (mobile Home) Manufacturing"]
+
+employees = 80
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Divisional Headquarters & Cargo Trailers. NAICS 321991: manufactured home (mobile home) manufacturing."

@@ -1,0 +1,20 @@
+# J & L Dimensional Services, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "J & L Dimensional Services, Inc."
+kind = "company"
+city = "La Porte"
+state = "IN"
+address = "16 Industrial Parkway, La Porte, IN 46350"
+lat = 41.62405
+lon = -86.67793
+website = "https://j-ldimensional.com"
+
+sector = "Metal"
+products = ["Electroplating, Plating, Polishing, Anodizing and Coloring"]
+
+employees = 45
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Metal Finishing, Including Dimensional Layout Inspection. NAICS 332813: electroplating, plating, polishing, anodizing and coloring."

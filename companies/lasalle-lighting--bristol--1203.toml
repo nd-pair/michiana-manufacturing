@@ -1,0 +1,20 @@
+# Lasalle Lighting
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Lasalle Lighting"
+kind = "company"
+city = "Bristol"
+state = "IN"
+address = "1203 State Road 15 South, Bristol, IN 46507"
+lat = 41.71087
+lon = -85.81762
+website = "https://lasallebristol.com"
+
+sector = "Electronics"
+products = ["Commercial, Industrial, and Institutional Electric Lighting Fixture Manufacturing"]
+
+employees = 23
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Residential & Commercial Lighting Fixtures. NAICS 335122: commercial, industrial, and institutional electric lighting fixture manufacturing."

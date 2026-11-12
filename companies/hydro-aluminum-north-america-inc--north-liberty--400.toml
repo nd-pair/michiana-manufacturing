@@ -1,0 +1,20 @@
+# Hydro Aluminum North America, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Hydro Aluminum North America, Inc."
+kind = "company"
+city = "North Liberty"
+state = "IN"
+address = "400 South Main Street, North Liberty, IN 46554"
+lat = 41.53083
+lon = -86.42655
+website = "https://hydrona.com"
+
+sector = "Metal"
+products = ["Other Aluminum Rolling and Drawing"]
+
+employees = 220
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Aluminum Extrusions, Anodizing & Metal Fabrication. NAICS 331319: other aluminum rolling and drawing."

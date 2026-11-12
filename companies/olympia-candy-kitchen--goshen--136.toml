@@ -1,0 +1,20 @@
+# Olympia Candy Kitchen
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Olympia Candy Kitchen"
+kind = "company"
+city = "Goshen"
+state = "IN"
+address = "136 North Main Street, Goshen, IN 46526"
+lat = 41.58704
+lon = -85.83414
+website = "https://olympiacandykitchen.com"
+
+sector = "Food & consumer goods"
+products = ["Confectionery Manufacturing From Purchased Chocolate"]
+
+employees = 15
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Hand-Dipped Chocolate Candy. NAICS 311330: confectionery manufacturing from purchased chocolate."

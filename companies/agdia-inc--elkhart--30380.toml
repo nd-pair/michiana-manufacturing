@@ -1,0 +1,20 @@
+# Agdia, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Agdia, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "30380 County Road 6, Elkhart, IN 46514"
+lat = 41.72423
+lon = -86.04998
+website = "https://agdia.com"
+
+sector = "Electronics"
+products = ["Instrument Manufacturing for Measuring and Testing Electricity and Electrical Signals"]
+
+employees = 50
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Agricultural Testing Products. NAICS 334515: instrument manufacturing for measuring and testing electricity and electrical signals."

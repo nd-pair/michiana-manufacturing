@@ -1,0 +1,20 @@
+# Johnson Products, Inc., L. E.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Johnson Products, Inc., L. E."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "2100 Sterling Avenue, Elkhart, IN 46516"
+lat = 41.66655
+lon = -85.95169
+website = "https://johnsonhardware.com"
+
+sector = "Metal"
+products = ["Hardware Manufacturing"]
+
+employees = 210
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Sliding & Folding Door Hardware, Pocket Door Frames, Locks & Closet Rods. NAICS 332510: hardware manufacturing."

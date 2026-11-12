@@ -1,0 +1,20 @@
+# Precision Medical Technologies, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Precision Medical Technologies, Inc."
+kind = "company"
+city = "Warsaw"
+state = "IN"
+address = "2059 North Pound Drive West, Warsaw, IN 46582"
+lat = 41.26368
+lon = -85.82753
+website = "https://premedtec.com"
+
+sector = "Medical devices & other"
+products = ["Surgical Appliance and Supplies Manufacturing"]
+
+employees = 35
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Orthopedic Implants, Plates & Instruments for Spinal Surgery. NAICS 339113: surgical appliance and supplies manufacturing."

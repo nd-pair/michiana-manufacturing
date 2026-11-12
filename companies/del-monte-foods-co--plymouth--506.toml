@@ -1,0 +1,20 @@
+# Del Monte Foods Co.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Del Monte Foods Co."
+kind = "company"
+city = "Plymouth"
+state = "IN"
+address = "506 North Street, Plymouth, IN 46563"
+lat = 41.34948
+lon = -86.31495
+website = "https://delmonte.com"
+
+sector = "Food & consumer goods"
+products = ["Fruit and Vegetable Canning"]
+
+employees = 200
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Ketchup, Tomato & Spaghetti Sauce. NAICS 311421: fruit and vegetable canning."

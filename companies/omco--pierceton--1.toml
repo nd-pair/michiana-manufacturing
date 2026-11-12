@@ -1,0 +1,20 @@
+# Omco
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Omco"
+kind = "company"
+city = "Pierceton"
+state = "IN"
+address = "1 Arnolt Drive, Pierceton, IN 46562"
+lat = 41.20513
+lon = -85.71854
+website = "https://omcoform.com"
+
+sector = "Metal"
+products = ["Custom Roll Forming"]
+
+employees = 70
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Roll-Formed Steel Structural Components. NAICS 332114: custom roll forming."

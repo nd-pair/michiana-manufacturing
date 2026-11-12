@@ -1,0 +1,20 @@
+# Simplicity Pattern Co., Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Simplicity Pattern Co., Inc."
+kind = "company"
+city = "Niles"
+state = "MI"
+address = "901 Wayne Street, Niles, MI 49121"
+lat = 41.83594
+lon = -86.24830
+website = "https://simplicity.com"
+
+sector = "Wood, paper & furniture"
+products = ["Other Commercial Printing"]
+
+employees = 170
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Paper Sewing Patterns. NAICS 323119: other commercial printing."

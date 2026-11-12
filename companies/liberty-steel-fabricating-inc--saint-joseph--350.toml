@@ -1,0 +1,20 @@
+# Liberty Steel Fabricating, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Liberty Steel Fabricating, Inc."
+kind = "company"
+city = "Saint Joseph"
+state = "MI"
+address = "350 Palladium Drive, Saint Joseph, MI 49085"
+lat = 42.05580
+lon = -86.46502
+website = "https://libsteel.com"
+
+sector = "Metal"
+products = ["Iron and Steel Mills"]
+
+employees = 20
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Steel Fabrication for Medical & Food Processing Equipment & Laser Cutting & Precision Forming. NAICS 331111: iron and steel mills."

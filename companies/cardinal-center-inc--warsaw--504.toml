@@ -1,0 +1,20 @@
+# Cardinal Center, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Cardinal Center, Inc."
+kind = "company"
+city = "Warsaw"
+state = "IN"
+address = "504 North Bay Drive, Warsaw, IN 46580"
+lat = 41.23431
+lon = -85.83303
+website = "https://cardinalcenter.org"
+
+sector = "Materials & composites"
+products = ["All Other Plastics Product Manufacturing"]
+
+employees = 75
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Small Parts Assembly. NAICS 326199: all other plastics product manufacturing."

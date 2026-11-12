@@ -1,0 +1,20 @@
+# Berkel Co. (h Q)
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Berkel Co. (h Q)"
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "4406 Technology Drive, South Bend, IN 46628"
+lat = 41.73566
+lon = -86.34226
+website = "https://berkel.com"
+
+sector = "Mechatronics & automation"
+products = ["Other Commercial and Service Industry Machinery Manufacturing"]
+
+employees = 30
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Company Headquarters; Slicing Machines, Mixers, Tenderizers & Choppers. NAICS 333319: other commercial and service industry machinery manufacturing."

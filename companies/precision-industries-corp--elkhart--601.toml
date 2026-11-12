@@ -1,0 +1,20 @@
+# Precision Industries Corp.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Precision Industries Corp."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "601 Wagner Avenue, Elkhart, IN 46516"
+lat = 41.67472
+lon = -85.97560
+website = "https://precisionindustriescorp.com"
+
+sector = "Mechatronics & automation"
+products = ["Machine Tool (metal Forming Types) Manufacturing"]
+
+employees = 25
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Mechanical Punch Presses. NAICS 333513: machine tool (metal forming types) manufacturing."

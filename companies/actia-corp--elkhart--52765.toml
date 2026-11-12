@@ -1,0 +1,20 @@
+# Actia Corp.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Actia Corp."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "52765 Bridger Court, Elkhart, IN 46514"
+lat = 41.72726
+lon = -85.91040
+website = "https://actia.com"
+
+sector = "Electronics"
+products = ["Other Electronic Component Manufacturing"]
+
+employees = 110
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Electronic Components, Computers, Instruments & Switch Panels, Vehicle Electronics & Diagnostics Components. NAICS 334419: other electronic component manufacturing."

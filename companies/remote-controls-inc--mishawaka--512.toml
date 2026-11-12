@@ -1,0 +1,20 @@
+# Remote Controls, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Remote Controls, Inc."
+kind = "company"
+city = "Mishawaka"
+state = "IN"
+address = "512 South Merrifield Avenue, Mishawaka, IN 46544"
+lat = 41.65668
+lon = -86.16692
+website = "https://rci-products.com"
+
+sector = "Metal"
+products = ["Other Metal Valve and Pipe Fitting Manufacturing"]
+
+employees = 24
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Metal Finishing, Including Anodizing, Film, Black Oxide, Zinc & Manganese Phosphate of Aluminum & Steel Parts. NAICS 332919: other metal valve and pipe fitting manufacturing."

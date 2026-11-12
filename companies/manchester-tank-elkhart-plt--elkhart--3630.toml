@@ -1,0 +1,20 @@
+# Manchester Tank, Elkhart Plt.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Manchester Tank, Elkhart Plt."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "3630 Manchester Drive, Elkhart, IN 46514"
+lat = 41.69109
+lon = -86.03201
+website = "https://mantank.com"
+
+sector = "Metal"
+products = ["Power Boiler and Heat Exchanger Manufacturing"]
+
+employees = 210
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Propane Cylinders & Pressure Vessels. NAICS 332410: power boiler and heat exchanger manufacturing."

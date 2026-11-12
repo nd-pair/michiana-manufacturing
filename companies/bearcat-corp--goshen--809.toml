@@ -1,0 +1,20 @@
+# Bearcat Corp.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Bearcat Corp."
+kind = "company"
+city = "Goshen"
+state = "IN"
+address = "809 Logan Street, Goshen, IN 46528"
+lat = 41.58441
+lon = -85.81970
+website = "https://bearcatcorp.com"
+
+sector = "Metal"
+products = ["Primary Aluminum Production"]
+
+employees = 30
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Aluminum Snowmobile Covers, Marine Ladders, Pontoon Mini & Hard Tops & Flatbed & Enclosed Trailers. NAICS 331312: primary aluminum production."

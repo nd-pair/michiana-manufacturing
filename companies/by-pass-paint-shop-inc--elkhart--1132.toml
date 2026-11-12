@@ -1,0 +1,20 @@
+# By-Pass Paint Shop, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "By-Pass Paint Shop, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "1132 North Nappanee Street, Elkhart, IN 46514"
+lat = 41.69760
+lon = -86.00319
+website = "https://not available"
+
+sector = "Wood, paper & furniture"
+products = ["Other Millwork (including Flooring )"]
+
+employees = 18
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Corporate Headquarters & Profiled Wrapped Moldings. NAICS 321918: other millwork (including flooring )."

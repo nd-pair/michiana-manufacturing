@@ -1,0 +1,20 @@
+# Bh Awning & Tent Co.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Bh Awning & Tent Co."
+kind = "company"
+city = "Benton Harbor"
+state = "MI"
+address = "2275 M-139, Benton Harbor, MI 49022"
+lat = 42.07656
+lon = -86.43618
+website = "https://bhawning.com"
+
+sector = "Metal"
+products = ["Other Aluminum Rolling and Drawing"]
+
+employees = 18
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Fabric & Metal Awnings, Tents, Banners, Flags, Signs, Tension & Fabric Structures. NAICS 331319: other aluminum rolling and drawing."

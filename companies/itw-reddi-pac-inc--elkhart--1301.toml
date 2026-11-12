@@ -1,0 +1,20 @@
+# Itw Reddi-Pac, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Itw Reddi-Pac, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "1301 North Nappanee Street, Elkhart, IN 46514"
+lat = 41.70104
+lon = -86.00304
+website = "https://itwreddipac.com"
+
+sector = "Wood, paper & furniture"
+products = ["Paper (except Newsprint) Mills"]
+
+employees = 35
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Paper Converting. NAICS 322121: paper (except newsprint) mills."

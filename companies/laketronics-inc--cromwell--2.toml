@@ -1,0 +1,20 @@
+# Laketronics, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Laketronics, Inc."
+kind = "company"
+city = "Cromwell"
+state = "IN"
+address = "2 Moore Street, Cromwell, IN 46732"
+lat = 41.40113
+lon = -85.61845
+website = "https://laketronicsinc.com"
+
+sector = "Electronics"
+products = ["Other Electronic Component Manufacturing"]
+
+employees = 25
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Electronic Controls, Wiring Harnesses & Cable Assemblies. NAICS 334419: other electronic component manufacturing."

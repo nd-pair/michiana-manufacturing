@@ -1,0 +1,20 @@
+# Osborn Mfg. Corp.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Osborn Mfg. Corp."
+kind = "company"
+city = "Warsaw"
+state = "IN"
+address = "960 North Lake Street, Warsaw, IN 46580"
+lat = 41.24668
+lon = -85.86590
+website = "https://osbornmfg.com"
+
+sector = "Materials & composites"
+products = ["All Other Plastics Product Manufacturing"]
+
+employees = 16
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Thermoformed Plastic, Toe Protection Products & Aluminum & Steel Safety Lockout Devices & Tools. NAICS 326199: all other plastics product manufacturing."

@@ -1,0 +1,20 @@
+# Middlebury Enterprises, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Middlebury Enterprises, Inc."
+kind = "company"
+city = "Middlebury"
+state = "IN"
+address = "325 North Main Street, Middlebury, IN 46540"
+lat = 41.67883
+lon = -85.70596
+website = "https://not available"
+
+sector = "Metal"
+products = ["Machine Shops"]
+
+employees = 20
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Metal Stamping, Heat Treating, Tube Forming, CNC Machining & Welding Job Shop. NAICS 332710: machine shops."

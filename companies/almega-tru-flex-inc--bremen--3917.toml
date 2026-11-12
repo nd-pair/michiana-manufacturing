@@ -1,0 +1,20 @@
+# Almega/tru-Flex, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Almega/tru-Flex, Inc."
+kind = "company"
+city = "Bremen"
+state = "IN"
+address = "3917 State Road 106, Bremen, IN 46506"
+lat = 41.44923
+lon = -86.13734
+website = "https://almegatf.com"
+
+sector = "Electronics"
+products = ["Other Electronic Component Manufacturing"]
+
+employees = 50
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Wiring Harnesses, Wire Leads & Power Supply Cords. NAICS 334419: other electronic component manufacturing."

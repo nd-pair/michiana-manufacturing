@@ -1,0 +1,20 @@
+# Superior Sample Co., Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Superior Sample Co., Inc."
+kind = "company"
+city = "Ligonier"
+state = "IN"
+address = "520 Gerber Street, Ligonier, IN 46767"
+lat = 41.46845
+lon = -85.59657
+website = "https://superiorsample.com"
+
+sector = "Wood, paper & furniture"
+products = ["Tradebinding and Related Work"]
+
+employees = 80
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Sample & Wallpaper Books & Vinyl Wall Covering Catalogues. NAICS 323121: tradebinding and related work."

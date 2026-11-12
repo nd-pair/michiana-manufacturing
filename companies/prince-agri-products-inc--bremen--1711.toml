@@ -1,0 +1,20 @@
+# Prince Agri Products, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Prince Agri Products, Inc."
+kind = "company"
+city = "Bremen"
+state = "IN"
+address = "1711 West Dewey Street, Bremen, IN 46506"
+lat = 41.45084
+lon = -86.16879
+website = "https://princeagri.com"
+
+sector = "Food & consumer goods"
+products = ["Other Animal Food Manufacturing"]
+
+employees = 20
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Animal Feed Supplements. NAICS 311119: other animal food manufacturing."

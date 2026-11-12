@@ -1,0 +1,20 @@
+# Hi-Tech Housing, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Hi-Tech Housing, Inc."
+kind = "company"
+city = "Bristol"
+state = "IN"
+address = "19319 County Road 8, Bristol, IN 46507"
+lat = 41.72353
+lon = -85.83812
+website = "https://hi-techhousing.com"
+
+sector = "Wood, paper & furniture"
+products = ["Manufactured Home (mobile Home) Manufacturing"]
+
+employees = 100
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Modular & Mobile Homes & Commercial Structures. NAICS 321991: manufactured home (mobile home) manufacturing."

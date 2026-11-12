@@ -1,0 +1,20 @@
+# Ssd Control Technology
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Ssd Control Technology"
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "1801 South Main Street, South Bend, IN 46613"
+lat = 41.65555
+lon = -86.25207
+website = "https://ssdcontrol.com"
+
+sector = "Materials & composites"
+products = ["All Other Plastics Product Manufacturing"]
+
+employees = 30
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Vinyl Fencing, Handrails, Decking Machinery & Hybrid Friction Welders. NAICS 326199: all other plastics product manufacturing."

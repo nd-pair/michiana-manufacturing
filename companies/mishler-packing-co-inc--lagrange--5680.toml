@@ -1,0 +1,20 @@
+# Mishler Packing Co., Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Mishler Packing Co., Inc."
+kind = "company"
+city = "Lagrange"
+state = "IN"
+address = "5680 West 100 North, Lagrange, IN 46761"
+lat = 41.65464
+lon = -85.53850
+website = "https://not available"
+
+sector = "Food & consumer goods"
+products = ["Meat Processed From Carcasses"]
+
+employees = 25
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Meat Processing. NAICS 311612: meat processed from carcasses."

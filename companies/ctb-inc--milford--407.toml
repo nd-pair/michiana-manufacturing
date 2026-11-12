@@ -1,0 +1,20 @@
+# Ctb, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Ctb, Inc."
+kind = "company"
+city = "Milford"
+state = "IN"
+address = "407 North Main Street, Milford, IN 46542"
+lat = 41.41444
+lon = -85.84688
+website = "https://ctbinc.com"
+
+sector = "Mechatronics & automation"
+products = ["Farm Machinery and Equipment Manufacturing"]
+
+employees = 500
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Corporate Headquarters & Poultry & Livestock Feed & Grain Storage, Handling & Conditioning Products & Systems. NAICS 333111: farm machinery and equipment manufacturing."

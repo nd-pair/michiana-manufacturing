@@ -1,0 +1,20 @@
+# Whimet, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Whimet, Inc."
+kind = "company"
+city = "Warsaw"
+state = "IN"
+address = "2100 North Detroit Street, Warsaw, IN 46580"
+lat = 41.25643
+lon = -85.85198
+website = "https://not available"
+
+sector = "Medical devices & other"
+products = ["Surgical and Medical Instrument Manufacturing"]
+
+employees = 60
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Metal Finishing. NAICS 339112: surgical and medical instrument manufacturing."

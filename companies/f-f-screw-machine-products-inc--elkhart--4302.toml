@@ -1,0 +1,20 @@
+# F & F Screw Machine Products, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "F & F Screw Machine Products, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "4302 Wyland Drive, Elkhart, IN 46516"
+lat = 41.69233
+lon = -85.90436
+website = "https://ffscrewmachine.com"
+
+sector = "Metal"
+products = ["Machine Shops"]
+
+employees = 40
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Automatic Screw Machine Products for the Musical Instruments & Medical Supplies Industries. NAICS 332710: machine shops."

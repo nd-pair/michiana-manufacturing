@@ -1,0 +1,20 @@
+# Lakepark Industries of Indiana, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Lakepark Industries of Indiana, Inc."
+kind = "company"
+city = "Shipshewana"
+state = "IN"
+address = "750 East Middlebury Street, Shipshewana, IN 46565"
+lat = 41.67671
+lon = -85.57159
+website = "https://midwayproducts.com"
+
+sector = "Vehicles & RVs"
+products = ["Motor Vehicle Metal Stamping"]
+
+employees = 250
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Automotive Metal Stampings. NAICS 336370: motor vehicle metal stamping."

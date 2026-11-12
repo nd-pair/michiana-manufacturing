@@ -1,0 +1,20 @@
+# Hart Housing
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Hart Housing"
+kind = "company"
+city = "Wakarusa"
+state = "IN"
+address = "1025 East Waterford Street, Wakarusa, IN 46573"
+lat = 41.53586
+lon = -86.00006
+website = "https://harthousing.com"
+
+sector = "Wood, paper & furniture"
+products = ["Manufactured Home (mobile Home) Manufacturing"]
+
+employees = 200
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Modular Housing. NAICS 321991: manufactured home (mobile home) manufacturing."

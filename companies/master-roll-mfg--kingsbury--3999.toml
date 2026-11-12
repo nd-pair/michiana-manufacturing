@@ -1,0 +1,20 @@
+# Master Roll Mfg.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Master Roll Mfg."
+kind = "company"
+city = "Kingsbury"
+state = "IN"
+address = "3999 Hupp Road, Kingsbury, IN 46345"
+lat = 41.51911
+lon = -86.63905
+website = "https://masterrollmfgs.com"
+
+sector = "Mechatronics & automation"
+products = ["Mechanical Power Transmission Equipment Manufacturing"]
+
+employees = 17
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Rolls & Shafts for Levelers, Flatteners & Straighteners & Back-Up Bearings & Related Rolls for Cut-To-Length. NAICS 333613: mechanical power transmission equipment manufacturing."

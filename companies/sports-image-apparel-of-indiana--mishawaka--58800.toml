@@ -1,0 +1,20 @@
+# Sports Image Apparel of Indiana
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Sports Image Apparel of Indiana"
+kind = "company"
+city = "Mishawaka"
+state = "IN"
+address = "58800 Executive Drive, Mishawaka, IN 46544"
+lat = 41.63949
+lon = -86.14864
+website = "https://sportsindiana.com"
+
+sector = "Food & consumer goods"
+products = ["All Other Miscellaneous Textile Product Mills"]
+
+employees = 20
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Textile Embroidery. NAICS 314999: all other miscellaneous textile product mills."

@@ -1,0 +1,20 @@
+# Home City Ice Co.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Home City Ice Co."
+kind = "company"
+city = "North Webster"
+state = "IN"
+address = "7056 North in 13, North Webster, IN 46555"
+lat = 41.33858
+lon = -85.70025
+website = "https://homecityice.com"
+
+sector = "Food & consumer goods"
+products = ["Ice Manufacturing"]
+
+employees = 25
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Ice. NAICS 312113: ice manufacturing."

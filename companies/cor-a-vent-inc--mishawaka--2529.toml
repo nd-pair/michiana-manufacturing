@@ -1,0 +1,20 @@
+# Cor-A-Vent, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Cor-A-Vent, Inc."
+kind = "company"
+city = "Mishawaka"
+state = "IN"
+address = "2529 Lincolnway West, Mishawaka, IN 46544"
+lat = 41.65746
+lon = -86.21117
+website = "https://cor-a-vent.com"
+
+sector = "Mechatronics & automation"
+products = ["Industrial and Commercial Fan and Blower Manufacturing"]
+
+employees = 30
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Extruded Polypropylene Plastic Continuous Ridge, Soffit & Siding Ventilation Products. NAICS 333412: industrial and commercial fan and blower manufacturing."

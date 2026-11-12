@@ -1,0 +1,20 @@
+# Covermaster, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Covermaster, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "57784 County Road 3, Elkhart, IN 46517"
+lat = 41.65545
+lon = -86.02203
+website = "https://covermasterinc.com"
+
+sector = "Vehicles & RVs"
+products = ["Travel Trailer and Camper Manufacturing"]
+
+employees = 50
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Fiberglass Truck Caps. NAICS 336214: travel trailer and camper manufacturing."

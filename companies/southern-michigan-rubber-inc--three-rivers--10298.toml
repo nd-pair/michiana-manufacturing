@@ -1,0 +1,20 @@
+# Southern Michigan Rubber, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Southern Michigan Rubber, Inc."
+kind = "company"
+city = "Three Rivers"
+state = "MI"
+address = "10298 M-60 West, Three Rivers, MI 49093"
+lat = 41.90627
+lon = -85.75618
+website = "https://smrubber.com"
+
+sector = "Materials & composites"
+products = ["Rubber and Plastics Hoses and Belting Manufacturing"]
+
+employees = 30
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Rubber Gaskets. NAICS 326220: rubber and plastics hoses and belting manufacturing."

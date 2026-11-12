@@ -1,0 +1,20 @@
+# C & C Fiberglass, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "C & C Fiberglass, Inc."
+kind = "company"
+city = "Bremen"
+state = "IN"
+address = "3659 Destiny Drive, Bremen, IN 46506"
+lat = 41.45356
+lon = -86.13318
+website = "https://ccfiberglass.com"
+
+sector = "Materials & composites"
+products = ["Mineral Wool Manufacturing"]
+
+employees = 130
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Fiberglass Fabrication. NAICS 327993: mineral wool manufacturing."

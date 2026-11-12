@@ -1,0 +1,20 @@
+# Jessen Mfg. Co., Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Jessen Mfg. Co., Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "1409 West Beardsley Avenue, Elkhart, IN 46514"
+lat = 41.69236
+lon = -85.99601
+website = "https://jessenmfg.com"
+
+sector = "Metal"
+products = ["Machine Shops"]
+
+employees = 75
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Screw Machine & CNC Products. NAICS 332710: machine shops."

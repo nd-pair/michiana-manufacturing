@@ -1,0 +1,20 @@
+# Palletone, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Palletone, Inc."
+kind = "company"
+city = "Shipshewana"
+state = "IN"
+address = "5345 West 200 North, Shipshewana, IN 46565"
+lat = 41.66986
+lon = -85.52827
+website = "https://palletone.com"
+
+sector = "Wood, paper & furniture"
+products = ["Wood Container and Pallet Manufacturing"]
+
+employees = 75
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Wooden Pallets & Grade Lumber. NAICS 321920: wood container and pallet manufacturing."

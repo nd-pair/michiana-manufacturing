@@ -1,0 +1,20 @@
+# Niles Steel Tank
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Niles Steel Tank"
+kind = "company"
+city = "Niles"
+state = "MI"
+address = "1701 Terminal Road, Niles, MI 49120"
+lat = 41.84991
+lon = -86.22882
+website = "https://nilesst.com"
+
+sector = "Metal"
+products = ["Fabricated Structural Metal Manufacturing"]
+
+employees = 46
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Steel Tank & Pressure Vessel Fabrication. NAICS 332312: fabricated structural metal manufacturing."

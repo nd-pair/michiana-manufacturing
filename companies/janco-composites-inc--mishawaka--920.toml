@@ -1,0 +1,20 @@
+# Janco Composites, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+
+name = "Janco Composites, Inc."
+kind = "company"
+city = "Mishawaka"
+state = "IN"
+address = "920 South Logan Street, Mishawaka, IN 46544"
+lat = 41.65320
+lon = -86.19602
+website = "https://jancocomposites.com"
+
+sector = "Materials & composites"
+products = ["All Other Plastics Product Manufacturing"]
+
+employees = 250
+employees_scope = "site"
+employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+
+description = "Fiberglass Reinforced Products. NAICS 326199: all other plastics product manufacturing."
