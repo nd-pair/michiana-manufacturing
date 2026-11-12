@@ -1,13 +1,13 @@
 # Scientific Methods Inc.
-# Imported from SBIR.gov award data (public). Placed at the city center: small firms often list a home address.
+# Imported from SBIR.gov award data (public); the address is the one on the firm's latest award.
 
 name = "Scientific Methods Inc."
 kind = "company"
 city = "Granger"
 state = "IN"
-lat = 41.75338
-lon = -86.11084
-location_precision = "city"
+address = "12441 Beckley St, Granger, IN 46530"
+lat = 41.75466
+lon = -86.11012
 website = "http://www.scientificmethods.com"
 uei = "JA5QYJHRS5K1"
 

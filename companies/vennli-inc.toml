@@ -1,13 +1,13 @@
 # Vennli, Inc.
-# Imported from SBIR.gov award data (public). Placed at the city center: small firms often list a home address.
+# Imported from SBIR.gov award data (public); the address is the one on the firm's latest award.
 
 name = "Vennli, Inc."
 kind = "company"
 city = "Elkhart"
 state = "IN"
-lat = 41.68199
-lon = -85.97667
-location_precision = "city"
+address = "57113 Coppergate Dr, Elkhart, IN 46516"
+lat = 41.66578
+lon = -85.93139
 website = "https://www.vennli.com/"
 uei = "HAC8DM4C1MA2"
 

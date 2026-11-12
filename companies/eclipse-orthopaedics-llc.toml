@@ -1,13 +1,13 @@
 # Eclipse Orthopaedics, LLC
-# Imported from SBIR.gov award data (public). Placed at the city center: small firms often list a home address.
+# Imported from SBIR.gov award data (public); the address is the one on the firm's latest award.
 
 name = "Eclipse Orthopaedics, LLC"
 kind = "company"
 city = "Warsaw"
 state = "IN"
-lat = 41.23810
-lon = -85.85305
-location_precision = "city"
+address = "827 S Union St, Ste 230, Warsaw, IN 46580"
+lat = 41.23031
+lon = -85.86171
 website = "https://www.eclipseortho.com"
 uei = "QJLLFSUXWTA6"
 

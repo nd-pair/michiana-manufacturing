@@ -1,14 +1,15 @@
 # White Briar Corporation
-# Imported from SBIR.gov award data (public). Placed at the city center: small firms often list a home address.
+# Imported from SBIR.gov award data (public); the address is the one on the firm's latest award.
 
 name = "White Briar Corporation"
 kind = "company"
 city = "Niles"
 state = "MI"
+address = "1900 Briar Rd, Niles, MI 49120"
 lat = 41.82977
 lon = -86.25418
-uei = "H9JJHWJVHNK4"
 location_precision = "city"
+uei = "H9JJHWJVHNK4"
 
 sector = "Medical devices & other"
 products = ["SBIR/STTR research and development"]

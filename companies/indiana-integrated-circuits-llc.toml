@@ -1,13 +1,13 @@
 # Indiana Integrated Circuits LLC
-# Imported from SBIR.gov award data (public). Placed at the city center: small firms often list a home address.
+# Imported from SBIR.gov award data (public); the address is the one on the firm's latest award.
 
 name = "Indiana Integrated Circuits LLC"
 kind = "company"
 city = "South Bend"
 state = "IN"
-lat = 41.68338
-lon = -86.25001
-location_precision = "city"
+address = "1400 E Angela Blvd, Unit 107, South Bend, IN 46617"
+lat = 41.69313
+lon = -86.22930
 website = "https://indianaic.com"
 uei = "W1FUVNENSJN4"
 

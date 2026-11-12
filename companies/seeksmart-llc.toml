@@ -1,13 +1,13 @@
 # Seeksmart LLC
-# Imported from SBIR.gov award data (public). Placed at the city center: small firms often list a home address.
+# Imported from SBIR.gov award data (public); the address is the one on the firm's latest award.
 
 name = "Seeksmart LLC"
 kind = "company"
 city = "Granger"
 state = "IN"
-lat = 41.75338
-lon = -86.11084
-location_precision = "city"
+address = "111 Concept Drive, Apt 102, Granger, IN 46530"
+lat = 41.72986
+lon = -86.17840
 uei = "D5G9XA81N175"
 
 sector = "Electronics"

@@ -66,6 +66,9 @@ def main(args):
         f["count"] += 1; f["amount"] += amt; f["agencies"].add(agency); f["years"].append(year); f["titles"].append((year, title))
         if staff and year >= f["staff_year"]:
             f["staff"], f["staff_year"] = staff, year
+        street = ", ".join(x for x in ((row.get("Address1") or "").strip(), (row.get("Address2") or "").strip()) if x)
+        if street and year >= f.get("address_year", ""):
+            f["address"] = "%s, %s, %s %s" % (street.title(), city, state, (row.get("Zip") or "").strip()[:5]); f["address_year"] = year
         cid = by_uei.get(uei) or by_domain.get(domain(row.get("Company Website"))) or match(firm, city)
         if cid and uei and cid not in has_uei and uei not in by_uei:
             learned.setdefault(cid, uei)
@@ -75,6 +78,8 @@ def main(args):
             if agency and agency not in e["agencies"]: e["agencies"].append(agency)
             if year and year not in e["years"]: e["years"].append(year)
             if firm not in e["firms"]: e["firms"].append(firm)
+            if f.get("address") and f.get("address_year", "") >= e.get("address_year", ""):
+                e["address"], e["address_year"] = f["address"], f["address_year"]
     for e in by_company.values():
         e["amount"] = round(e["amount"]); e["years"].sort()
     def matched(f, d):
@@ -84,7 +89,7 @@ def main(args):
                "firms_not_in_map": [{"firm": f, "city": d["city"], "state": d["state"], "count": d["count"], "amount": round(d["amount"]),
                                      "agencies": sorted(x for x in d["agencies"] if x), "website": d["website"], "uei": d["uei"],
                                      "first_year": min(y for y in d["years"] if y) if any(d["years"]) else "", "last_year": max(d["years"]) if d["years"] else "",
-                                     "titles": [t for y, t in sorted(d["titles"], reverse=True)[:5]], "staff": d["staff"], "staff_year": d["staff_year"]}
+                                     "titles": [t for y, t in sorted(d["titles"], reverse=True)[:5]], "staff": d["staff"], "staff_year": d["staff_year"], "address": d.get("address", "")}
                                     for f, d in unmatched]},
               open(P("data", "sbir.json"), "w"), indent=0)
     for cid, uei in learned.items():

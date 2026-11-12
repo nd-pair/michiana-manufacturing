@@ -1,13 +1,13 @@
 # TayCo Brace, Inc.
-# Imported from SBIR.gov award data (public). Placed at the city center: small firms often list a home address.
+# Imported from SBIR.gov award data (public); the address is the one on the firm's latest award.
 
 name = "TayCo Brace, Inc."
 kind = "company"
 city = "South Bend"
 state = "IN"
-lat = 41.68338
-lon = -86.25001
-location_precision = "city"
+address = "205 W Western Ave Ste 101, South Bend, IN 46601"
+lat = 41.67237
+lon = -86.25200
 website = "https://www.taycobrace.com"
 uei = "JF59ECFX7P66"
 

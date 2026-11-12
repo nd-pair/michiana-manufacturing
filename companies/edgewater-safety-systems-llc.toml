@@ -1,13 +1,13 @@
 # Edgewater Safety Systems LLC
-# Imported from SBIR.gov award data (public). Placed at the city center: small firms often list a home address.
+# Imported from SBIR.gov award data (public); the address is the one on the firm's latest award.
 
 name = "Edgewater Safety Systems LLC"
 kind = "company"
 city = "Saint Joseph"
 state = "MI"
-lat = 42.10958
-lon = -86.47995
-location_precision = "city"
+address = "481 Renaissance Dr, Saint Joseph, MI 49085"
+lat = 42.11746
+lon = -86.47586
 website = "https://www.edgewatersafetysystems.com"
 uei = "WEAYDCX3CFH8"
 

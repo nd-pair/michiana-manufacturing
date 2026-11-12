@@ -1,13 +1,13 @@
 # Nanovis, LLC
-# Imported from SBIR.gov award data (public). Placed at the city center: small firms often list a home address.
+# Imported from SBIR.gov award data (public); the address is the one on the firm's latest award.
 
 name = "Nanovis, LLC"
 kind = "company"
 city = "Columbia City"
 state = "IN"
-lat = 41.15693
-lon = -85.48846
-location_precision = "city"
+address = "5865 East State Road 14, Columbia City, IN 46725"
+lat = 41.07842
+lon = -85.38124
 website = "https://www.nanovisinc.com"
 uei = "MYFBDVHYFBP5"
 

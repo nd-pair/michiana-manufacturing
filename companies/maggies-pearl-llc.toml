@@ -1,13 +1,13 @@
 # Maggies Pearl LLC
-# Imported from SBIR.gov award data (public). Placed at the city center: small firms often list a home address.
+# Imported from SBIR.gov award data (public); the address is the one on the firm's latest award.
 
 name = "Maggies Pearl LLC"
 kind = "company"
 city = "Sturgis"
 state = "MI"
-lat = 41.79922
-lon = -85.41915
-location_precision = "city"
+address = "903 Independence St, Sturgis, MI 49091"
+lat = 41.79406
+lon = -85.40728
 uei = "DZGEHEGC3BJ8"
 
 sector = "Software & services"

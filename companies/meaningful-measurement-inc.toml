@@ -1,13 +1,13 @@
 # Meaningful Measurement, Inc.
-# Imported from SBIR.gov award data (public). Placed at the city center: small firms often list a home address.
+# Imported from SBIR.gov award data (public); the address is the one on the firm's latest award.
 
 name = "Meaningful Measurement, Inc."
 kind = "company"
 city = "South Bend"
 state = "IN"
-lat = 41.68338
-lon = -86.25001
-location_precision = "city"
+address = "17220 Mcerlain St, South Bend, IN 46635"
+lat = 41.70652
+lon = -86.20150
 website = "https://www.meaningfulmeasurement.com"
 uei = "RRQNRD74AWU4"
 

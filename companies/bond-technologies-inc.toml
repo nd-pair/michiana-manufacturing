@@ -1,13 +1,13 @@
 # Bond Technologies, Inc.
-# Imported from SBIR.gov award data (public). Placed at the city center: small firms often list a home address.
+# Imported from SBIR.gov award data (public); the address is the one on the firm's latest award.
 
 name = "Bond Technologies, Inc."
 kind = "company"
 city = "Elkhart"
 state = "IN"
-lat = 41.68199
-lon = -85.97667
-location_precision = "city"
+address = "1353 Wade Dr Ste B, Elkhart, IN 46514"
+lat = 41.72636
+lon = -86.00360
 website = "http://www.bondtechnologies.net"
 uei = "MJGPRTAV5EU8"
 

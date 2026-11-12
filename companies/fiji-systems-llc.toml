@@ -1,13 +1,13 @@
 # Fiji Systems LLC
-# Imported from SBIR.gov award data (public). Placed at the city center: small firms often list a home address.
+# Imported from SBIR.gov award data (public); the address is the one on the firm's latest award.
 
 name = "Fiji Systems LLC"
 kind = "company"
 city = "South Bend"
 state = "IN"
-lat = 41.68338
-lon = -86.25001
-location_precision = "city"
+address = "19039 Auten Rd., South Bend, IN 46637"
+lat = 41.74493
+lon = -86.26297
 
 sector = "Medical devices & other"
 products = ["SBIR/STTR research and development"]

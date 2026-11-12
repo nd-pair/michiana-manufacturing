@@ -1,13 +1,13 @@
 # Forever Analytical Services, Inc.
-# Imported from SBIR.gov award data (public). Placed at the city center: small firms often list a home address.
+# Imported from SBIR.gov award data (public); the address is the one on the firm's latest award.
 
 name = "Forever Analytical Services, Inc."
 kind = "company"
 city = "South Bend"
 state = "IN"
-lat = 41.68338
-lon = -86.25001
-location_precision = "city"
+address = "1400 E. Angela Blvd., South Bend, IN 46617"
+lat = 41.69313
+lon = -86.22930
 uei = "E8DMQP3A2W74"
 
 sector = "Software & services"

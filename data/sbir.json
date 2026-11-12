@@ -1,6 +1,6 @@
 {
 "source": "SBIR.gov public award data file (monthly)",
-"pulled": "2026-11-11",
+"pulled": "2026-11-12",
 "companies": {
 "intrepid-phoenix-ventures-inc": {
 "count": 1,
@@ -16,7 +16,9 @@
 },
 "firms": [
 "Intrepid Phoenix Ventures, Inc."
-]
+],
+"address": "4220 Edison Lakes Parkway, Suite 230, Mishawaka, IN 46545",
+"address_year": "2025"
 },
 "simba": {
 "count": 12,
@@ -40,7 +42,9 @@
 },
 "firms": [
 "SIMBA Chain, Inc."
-]
+],
+"address": "510 W. Adams St., Ste 45, Plymouth, IN 46563",
+"address_year": "2025"
 },
 "trion-coatings-llc": {
 "count": 1,
@@ -56,7 +60,9 @@
 },
 "firms": [
 "TRION COATINGS, LLC"
-]
+],
+"address": "1400 E Angela Blvd Unit 104, Unit 104, South Bend, IN 46617",
+"address_year": "2025"
 },
 "third-coast-federal-inc": {
 "count": 4,
@@ -76,7 +82,9 @@
 },
 "firms": [
 "Third Coast Federal, Inc."
-]
+],
+"address": "1400 E Angela Blvd # 237, South Bend, IN 46617",
+"address_year": "2025"
 },
 "nd-diagenomix-inc": {
 "count": 1,
@@ -92,7 +100,9 @@
 },
 "firms": [
 "ND-DIAGENOMIX, INC."
-]
+],
+"address": "1400 E Angela Blvd, South Bend, IN 46617",
+"address_year": "2025"
 },
 "meaningful-measurement-inc": {
 "count": 1,
@@ -108,7 +118,9 @@
 },
 "firms": [
 "MEANINGFUL MEASUREMENT, INC."
-]
+],
+"address": "17220 Mcerlain St, South Bend, IN 46635",
+"address_year": "2024"
 },
 "tayco-brace-inc": {
 "count": 9,
@@ -129,7 +141,9 @@
 },
 "firms": [
 "TayCo Brace, Inc."
-]
+],
+"address": "205 W Western Ave Ste 101, South Bend, IN 46601",
+"address_year": "2024"
 },
 "bond-technologies-inc": {
 "count": 2,
@@ -147,7 +161,9 @@
 },
 "firms": [
 "Bond Technologies, Inc."
-]
+],
+"address": "1353 Wade Dr Ste B, Elkhart, IN 46514",
+"address_year": "2024"
 },
 "trekfed": {
 "count": 15,
@@ -170,7 +186,9 @@
 },
 "firms": [
 "Trek10 Inc."
-]
+],
+"address": "1400 E Angela Blvd # 150, South Bend, IN 46617",
+"address_year": "2024"
 },
 "forever-analytical-services-inc": {
 "count": 2,
@@ -188,7 +206,9 @@
 },
 "firms": [
 "FOREVER ANALYTICAL SERVICES, INC."
-]
+],
+"address": "1400 E. Angela Blvd., South Bend, IN 46617",
+"address_year": "2024"
 },
 "eclipse-orthopaedics-llc": {
 "count": 2,
@@ -206,7 +226,9 @@
 },
 "firms": [
 "ECLIPSE ORTHOPAEDICS, LLC"
-]
+],
+"address": "827 S Union St, Ste 230, Warsaw, IN 46580",
+"address_year": "2023"
 },
 "tessellated-inc": {
 "count": 4,
@@ -225,7 +247,9 @@
 },
 "firms": [
 "TESSELLATED INC"
-]
+],
+"address": "2501 Indiana Ct, Service Door 16B, South Bend, IN 46619",
+"address_year": "2023"
 },
 "biomineral-systems-llc": {
 "count": 6,
@@ -248,7 +272,9 @@
 },
 "firms": [
 "Biomineral Systems LLC"
-]
+],
+"address": "3315 Bremen Hwy, Mishawaka, IN 46544",
+"address_year": "2023"
 },
 "bci": {
 "count": 2,
@@ -266,7 +292,9 @@
 },
 "firms": [
 "BCI SOLUTIONS, INC"
-]
+],
+"address": "500 N Baltimore St, Bremen, IN 46506",
+"address_year": "2023"
 },
 "3degrees-llc": {
 "count": 1,
@@ -282,7 +310,9 @@
 },
 "firms": [
 "3DEGREES, LLC"
-]
+],
+"address": "1400 E Angela Blvd, Ste 220, South Bend, IN 46617",
+"address_year": "2023"
 },
 "seeksmart-llc": {
 "count": 1,
@@ -298,7 +328,9 @@
 },
 "firms": [
 "SEEKSMART LLC"
-]
+],
+"address": "111 Concept Drive, Apt 102, Granger, IN 46530",
+"address_year": "2023"
 },
 "maggies-pearl-llc": {
 "count": 1,
@@ -314,7 +346,9 @@
 },
 "firms": [
 "MAGGIES PEARL LLC"
-]
+],
+"address": "903 Independence St, Sturgis, MI 49091",
+"address_year": "2022"
 },
 "mti": {
 "count": 3,
@@ -333,7 +367,9 @@
 },
 "firms": [
 "MANUFACTURING TECHNOLOGY INC"
-]
+],
+"address": "1702 W Washington St, South Bend, IN 46628",
+"address_year": "2022"
 },
 "edgewater-safety-systems-llc": {
 "count": 1,
@@ -349,7 +385,9 @@
 },
 "firms": [
 "Edgewater Safety Systems LLC"
-]
+],
+"address": "481 Renaissance Dr, Saint Joseph, MI 49085",
+"address_year": "2021"
 },
 "polar-clean-llc": {
 "count": 2,
@@ -365,7 +403,9 @@
 },
 "firms": [
 "Polar Clean, L.L.C."
-]
+],
+"address": "1231 Prairie Ave Suite 100, South Bend, IN 46601",
+"address_year": "2021"
 },
 "indiana-integrated-circuits-llc": {
 "count": 7,
@@ -389,7 +429,9 @@
 },
 "firms": [
 "INDIANA INTEGRATED CIRCUITS LLC"
-]
+],
+"address": "1400 E Angela Blvd, Unit 107, South Bend, IN 46617",
+"address_year": "2021"
 },
 "consensus-networks-inc": {
 "count": 4,
@@ -409,7 +451,9 @@
 },
 "firms": [
 "CONSENSUS NETWORKS INC."
-]
+],
+"address": "1400 E Angela Blvd Ste 287, South Bend, IN 46617",
+"address_year": "2021"
 },
 "vennli-inc": {
 "count": 4,
@@ -429,7 +473,9 @@
 },
 "firms": [
 "VENNLI, INC."
-]
+],
+"address": "57113 Coppergate Dr, Elkhart, IN 46516",
+"address_year": "2021"
 },
 "south-bend-woodworks-llc": {
 "count": 1,
@@ -445,7 +491,9 @@
 },
 "firms": [
 "SOUTH BEND WOODWORKS LLC"
-]
+],
+"address": "707 S Scott St, South Bend, IN 46601",
+"address_year": "2021"
 },
 "itamco": {
 "count": 7,
@@ -466,7 +514,9 @@
 },
 "firms": [
 "INDIANA TOOL & MFG. CO., INC."
-]
+],
+"address": "6100 Michigan Rd, Plymouth, IN 46563",
+"address_year": "2020"
 },
 "scientific-methods-inc": {
 "count": 15,
@@ -489,7 +539,9 @@
 },
 "firms": [
 "SCIENTIFIC METHODS INC"
-]
+],
+"address": "12441 Beckley St, Granger, IN 46530",
+"address_year": "2020"
 },
 "agdia-inc-elkhart-30380": {
 "count": 7,
@@ -511,7 +563,9 @@
 },
 "firms": [
 "Agdia, Inc."
-]
+],
+"address": "52642 Cr 1, Elkhart, IN 46514",
+"address_year": "2018"
 },
 "nanovis-llc": {
 "count": 4,
@@ -530,7 +584,9 @@
 },
 "firms": [
 "NANOVIS, LLC"
-]
+],
+"address": "5865 East State Road 14, Columbia City, IN 46725",
+"address_year": "2015"
 },
 "omicron-biochemicals-inc": {
 "count": 3,
@@ -548,7 +604,9 @@
 },
 "firms": [
 "OMICRON BIOCHEMICALS, INC."
-]
+],
+"address": "115 S Hill St, South Bend, IN 46617",
+"address_year": "2015"
 },
 "us-nano-llc": {
 "count": 2,
@@ -566,7 +624,9 @@
 },
 "firms": [
 "US Nano LLC"
-]
+],
+"address": "1400 E Angela Blvd., Unit 148, South Bend, IN 46617",
+"address_year": "2014"
 },
 "fiji-systems-llc": {
 "count": 3,
@@ -585,7 +645,9 @@
 },
 "firms": [
 "Fiji Systems LLC"
-]
+],
+"address": "19039 Auten Rd., South Bend, IN 46637",
+"address_year": "2013"
 },
 "odyssian-technology-llc": {
 "count": 12,
@@ -608,7 +670,9 @@
 },
 "firms": [
 "Odyssian Technology, L.L.C."
-]
+],
+"address": "511 E Colfax Ave, South Bend, IN 46617",
+"address_year": "2012"
 },
 "lono-llc": {
 "count": 2,
@@ -645,7 +709,9 @@
 },
 "firms": [
 "DAMPING TECHNOLOGIES, INC."
-]
+],
+"address": "12970 Mckinley Highway, Unit Ix, Mishawaka, IN 46545",
+"address_year": "2001"
 },
 "white-briar-corporation": {
 "count": 1,
@@ -661,7 +727,9 @@
 },
 "firms": [
 "WHITE BRIAR CORPORATION"
-]
+],
+"address": "1900 Briar Rd, Niles, MI 49120",
+"address_year": "2013"
 }
 },
 "firms_not_in_map": [
@@ -687,7 +755,8 @@
 "Systems Biology Platform to Study the Influence of Nutrient Compounds on Cancer D"
 ],
 "staff": 0,
-"staff_year": ""
+"staff_year": "",
+"address": "Genego, Inc., 500 Renaissance Dr, Ste 106, St. Joseph, MI 49085"
 },
 {
 "firm": "Yinnel Tech, Inc.",
@@ -711,7 +780,8 @@
 "Development of Large Size and Low Cost Cadmium Zinc Telluride Single Crystals for Improved Room Temperature Radiation Detectors used for National Security"
 ],
 "staff": 6,
-"staff_year": "2007"
+"staff_year": "2007",
+"address": "3702 W. Sample Street, Suite 1109, South Bend, IN 46619"
 },
 {
 "firm": "Gds Technology, Inc.",
@@ -735,7 +805,8 @@
 "AN ON-SITE STRIP TEST FOR SCREENING OF PHENYLKETONURIA"
 ],
 "staff": 0,
-"staff_year": ""
+"staff_year": "",
+"address": "25235 Leer Dr, Elkhart, IN 46514"
 },
 {
 "firm": "Lucid Energy Technologies, Llp",
@@ -755,7 +826,8 @@
 "Recovery Act - Lucid Energy Technologies In-conduit Hydropower"
 ],
 "staff": 12,
-"staff_year": "2010"
+"staff_year": "2010",
+"address": "118 East Washington Street, Suite 2, Goshen, IN 46528"
 },
 {
 "firm": "Granger Eng",
@@ -775,7 +847,8 @@
 "STTR Phase I:     Variable Diameter Fiber Reinforced Biopolymers for Minimally Invasive Orthopedic Implants"
 ],
 "staff": 1,
-"staff_year": "2006"
+"staff_year": "2006",
+"address": "P O Box 845, Granger, IN 46530"
 },
 {
 "firm": "Phillips Engineering Co",
@@ -797,7 +870,8 @@
 "DEVELOPMENT OF A MULTICOMPONENT ABSORBENT FOR USE IN ADVANCED ABSORPTION REFRIGERATION CYCLES-"
 ],
 "staff": 18,
-"staff_year": "1987"
+"staff_year": "1987",
+"address": "721 Pleasant St, St Joseph, MI 49085"
 },
 {
 "firm": "Simulation Resources Inc.",
@@ -817,7 +891,8 @@
 "ADDING SCOP TO PHOPHET II"
 ],
 "staff": 0,
-"staff_year": ""
+"staff_year": "",
+"address": "300 South Bluff Street, Berrien Springs, MI 49103"
 },
 {
 "firm": "Serim Research Corpon",
@@ -841,7 +916,8 @@
 "A DIRECT TEST FOR CHLORAMINES IN HEMODIALYSIS WATER"
 ],
 "staff": 0,
-"staff_year": ""
+"staff_year": "",
+"address": "23575 County Road 106, Elkhart, IN 46514"
 },
 {
 "firm": "SITES",
@@ -860,7 +936,8 @@
 "SBIR Phase I:  Laser Textured Orthopedic Implants"
 ],
 "staff": 1,
-"staff_year": "2006"
+"staff_year": "2006",
+"address": "3385 North 150 West, Columbia City, IN 46725"
 },
 {
 "firm": "REMSENSE, INC.",
@@ -879,7 +956,8 @@
 "Radio Frequency (RF) Tomography for Reduction of Improvised Explosive Device (IED) Threat"
 ],
 "staff": 1,
-"staff_year": "2009"
+"staff_year": "2009",
+"address": "50849 Hawthorne Meadows, South Bend, IN 46628"
 },
 {
 "firm": "Sbr Technologies, Inc.",
@@ -900,7 +978,8 @@
 "MANNED DEEP BASE USING THE SEQUENCING BATCH REACTOR: AN INNOVATIVE BIOLOGI"
 ],
 "staff": 0,
-"staff_year": ""
+"staff_year": "",
+"address": "15631 Springmill Drive, Mishawaka, IN 46545"
 },
 {
 "firm": "Phycotech Inc.",
@@ -919,7 +998,8 @@
 "SBIR Phase I:  Computerized Algal Identification System     (CAIS)"
 ],
 "staff": 5,
-"staff_year": "1997"
+"staff_year": "1997",
+"address": "620 Broad St Ste 100, Saint Joseph, MI 49085"
 },
 {
 "firm": "RFware LLC",
@@ -938,7 +1018,8 @@
 "\u00b5SHARK: Software Radio Tools for Power-Efficient Programming of Multi-Core and Many-Core Digital Signal Processors"
 ],
 "staff": 3,
-"staff_year": "2009"
+"staff_year": "2009",
+"address": "1723 Rockne Drive, South Bend, IN 46617"
 },
 {
 "firm": "Mas Technology Corporation Dba",
@@ -957,7 +1038,8 @@
 "A Novel Method to Detect and Enumerate Viable Cyptosporidium parvum Occyst in Water Using Integrated Cell Culture-rRNA In Situ Hybridization"
 ],
 "staff": 0,
-"staff_year": ""
+"staff_year": "",
+"address": "110 S. Hill Street, South Bend, IN 46617"
 },
 {
 "firm": "Sigma Technology, Inc.",
@@ -976,7 +1058,8 @@
 "Alternative Curing Technology For Composites and Adhesive Bond Processing"
 ],
 "staff": 14,
-"staff_year": "1997"
+"staff_year": "1997",
+"address": "3702 W. Sample St., South Bend, IN 46619"
 },
 {
 "firm": "South Bend Lathe Inc",
@@ -995,7 +1078,8 @@
 "MACHINE TOOL PRODUCTS AND PROCESSES"
 ],
 "staff": 18,
-"staff_year": "1990"
+"staff_year": "1990",
+"address": "400 W Sample St, South Bend, IN 46625"
 },
 {
 "firm": "American Biogenetic Scie Inc",
@@ -1014,7 +1098,8 @@
 "SYNTHETIC VACCINES UTILIZING BACULOVIRUS POLYHEDRA"
 ],
 "staff": 0,
-"staff_year": ""
+"staff_year": "",
+"address": "Po Box 1001, Notre Dame, IN 46556"
 },
 {
 "firm": "Great Lakes Bioscience",
@@ -1033,7 +1118,8 @@
 "WE PROPOSE TO DEVELOP CLONING AND EXPRESSION VECTORS FROM NUCLEAR POLYHEDROSIS VIRUSES (NPV) WITH CAPABILITIES FOR EFFICIENTLY PRODUCING ONE OF SEVERAL GENES SIMULTANEOUSLY IN INFECTED INSECT CELL CULTURES."
 ],
 "staff": 19,
-"staff_year": "1984"
+"staff_year": "1984",
+"address": "505 Pleasant Street, P.O. Box 364, St. Joseph, MI 49085"
 }
 ]
 }

@@ -1,13 +1,13 @@
 # Omicron Biochemicals, Inc.
-# Imported from SBIR.gov award data (public). Placed at the city center: small firms often list a home address.
+# Imported from SBIR.gov award data (public); the address is the one on the firm's latest award.
 
 name = "Omicron Biochemicals, Inc."
 kind = "company"
 city = "South Bend"
 state = "IN"
-lat = 41.68338
-lon = -86.25001
-location_precision = "city"
+address = "115 S Hill St, South Bend, IN 46617"
+lat = 41.67606
+lon = -86.24296
 website = "https://www.omicronbio.com"
 uei = "Y9SRZJ4D17Z1"
 

@@ -1,13 +1,13 @@
 # Odyssian Technology, LLC
-# Imported from SBIR.gov award data (public). Placed at the city center: small firms often list a home address.
+# Imported from SBIR.gov award data (public); the address is the one on the firm's latest award.
 
 name = "Odyssian Technology, LLC"
 kind = "company"
 city = "South Bend"
 state = "IN"
-lat = 41.68338
-lon = -86.25001
-location_precision = "city"
+address = "511 E Colfax Ave, South Bend, IN 46617"
+lat = 41.67778
+lon = -86.24585
 uei = "KQLCCKGFHXN7"
 
 sector = "Electronics"

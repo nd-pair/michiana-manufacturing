@@ -1,13 +1,13 @@
 # Biomineral Systems LLC
-# Imported from SBIR.gov award data (public). Placed at the city center: small firms often list a home address.
+# Imported from SBIR.gov award data (public); the address is the one on the firm's latest award.
 
 name = "Biomineral Systems LLC"
 kind = "company"
 city = "Mishawaka"
 state = "IN"
-lat = 41.66116
-lon = -86.18070
-location_precision = "city"
+address = "3315 Bremen Hwy, Mishawaka, IN 46544"
+lat = 41.62730
+lon = -86.17670
 uei = "RJB9PA2KMN57"
 
 sector = "Food & consumer goods"

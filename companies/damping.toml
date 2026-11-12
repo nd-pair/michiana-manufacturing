@@ -6,6 +6,8 @@ kind = "company"
 city = "Mishawaka"
 state = "IN"
 address = "55656 Currant Rd, Mishawaka, IN 46545"
+lat = 41.68745
+lon = -86.12898
 website = "https://www.damping.com"
 uei = "R7YJXFHG6GN6"
 

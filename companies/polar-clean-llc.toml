@@ -1,13 +1,13 @@
 # Polar Clean, LLC
-# Imported from SBIR.gov award data (public). Placed at the city center: small firms often list a home address.
+# Imported from SBIR.gov award data (public); the address is the one on the firm's latest award.
 
 name = "Polar Clean, LLC"
 kind = "company"
 city = "South Bend"
 state = "IN"
-lat = 41.68338
-lon = -86.25001
-location_precision = "city"
+address = "1231 Prairie Ave Suite 100, South Bend, IN 46601"
+lat = 41.66167
+lon = -86.26275
 website = "https://www.polarclean.com/"
 uei = "FLGAJ6K8FA91"
 

@@ -4,14 +4,15 @@
     python3 scripts/pull_sbir.py          # first: refreshes data/sbir.json
     python3 scripts/import_sbir_firms.py  # then: writes companies/<firm>.toml for new firms
 
-Only public facts from SBIR.gov's award data go into the files: company name, city, website, the
-headcount the firm reported on its latest award, its UEI, and a summary of its awards. Small SBIR
-firms often list a home address, so the street address is deliberately not used: the firm is
-placed at its city's center (`location_precision = "city"`). Firms whose last award is older than
-2012 are skipped as likely inactive. Existing files are never overwritten.
+Only public facts from SBIR.gov's award data go into the files: company name, the address on its
+latest award, website, the headcount it reported on that award, its UEI, and a summary of its
+awards. The address is geocoded with OpenStreetMap; when that fails, the firm is placed at its city's
+center (`location_precision = "city"`). Firms whose last award is older than 2012 are skipped as
+likely inactive. Existing files are never overwritten.
 """
 import datetime, json, os, re, time, urllib.parse, urllib.request
 from common import P, companies, norm
+from geocode import geocode
 
 SINCE = "2012"
 UA = {"User-Agent": "michiana-manufacturing/1.0 (github.com/nd-pair/michiana-manufacturing)"}
@@ -71,7 +72,16 @@ def main():
         name = titlecase(f["firm"]); fname = "%s.toml" % slug(name)
         if os.path.exists(P("companies", fname)):
             skipped += 1; continue
-        ll = city_coords(f["city"], f["state"], cache)
+        ll, prec = None, "city"
+        if f.get("address"):
+            try:
+                ll = geocode(f["address"]); time.sleep(1.1)
+            except Exception:
+                ll = None
+            if ll:
+                ll, prec = [round(ll[0], 5), round(ll[1], 5)], "address"
+        if not ll:
+            ll = city_coords(f["city"], f["state"], cache)
         if not ll:
             print("no coordinates for", f["city"], f["state"]); continue
         sector = sector_for(f["firm"], f.get("titles", []))
@@ -81,9 +91,13 @@ def main():
         site = f.get("website") or ""
         if site and not site.startswith("http"):
             site = "https://" + site.lower().lstrip("/")
-        lines = ["# %s" % name, "# Imported from SBIR.gov award data (public). Placed at the city center: small firms often list a home address.", "",
-                 "name = %s" % q(name), 'kind = "company"', "city = %s" % q(f["city"]), "state = %s" % q(f["state"]),
-                 "lat = %.5f" % ll[0], "lon = %.5f" % ll[1], 'location_precision = "city"']
+        lines = ["# %s" % name, "# Imported from SBIR.gov award data (public); the address is the one on the firm's latest award.", "",
+                 "name = %s" % q(name), 'kind = "company"', "city = %s" % q(f["city"]), "state = %s" % q(f["state"])]
+        if f.get("address"):
+            lines.append("address = %s" % q(f["address"]))
+        lines += ["lat = %.5f" % ll[0], "lon = %.5f" % ll[1]]
+        if prec == "city":
+            lines.append('location_precision = "city"')
         if site:
             lines.append("website = %s" % q(site))
         if f.get("uei"):

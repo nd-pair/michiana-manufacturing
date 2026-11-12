@@ -1,13 +1,13 @@
 # Intrepid Phoenix Ventures, Inc.
-# Imported from SBIR.gov award data (public). Placed at the city center: small firms often list a home address.
+# Imported from SBIR.gov award data (public); the address is the one on the firm's latest award.
 
 name = "Intrepid Phoenix Ventures, Inc."
 kind = "company"
 city = "Mishawaka"
 state = "IN"
-lat = 41.66116
-lon = -86.18070
-location_precision = "city"
+address = "4220 Edison Lakes Parkway, Suite 230, Mishawaka, IN 46545"
+lat = 41.70400
+lon = -86.18028
 website = "https://intrepidphoenix.app/"
 uei = "Z6YMA32KSAJ4"
 
