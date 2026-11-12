@@ -22,5 +22,8 @@ employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 
 
 description = "Men's Clothing. NAICS 315228: men's and boys' cut and sew other outerwear manufacturing."
 
+closed = 2009-11-04
+closed_note = "Trans-Apparel Group, operating as Jaymar-Ruby, Inc. (a Hartmarx business), shut down its Michigan City operations on November 4, 2009. HIFLD still lists the facility."
+
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"

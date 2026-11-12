@@ -144,13 +144,16 @@ def main():
     places = load_toml(P("data", "places.toml"))
     cities = {c["name"]: (c["lat"], c["lon"]) for c in places["city"]}
 
-    companies = []
+    companies, closed = [], []
     for name in sorted(os.listdir(P("companies"))):
         if not name.endswith(".toml"):
             continue
         path = P("companies", name)
         c = load_toml(path)
         check(c, path, sectors)
+        if c.get("closed"):
+            # kept on file so the importers do not add it again, but not shown
+            closed.append(name); continue
         cid = re.sub(r"[^a-z0-9]+", "-", name[:-5].lower()).strip("-")
         if "lat" in c:
             lat, lon, prec = float(c["lat"]), float(c["lon"]), c.get("location_precision", "address")
@@ -273,7 +276,7 @@ def main():
             "{{FDAPULLED}}": fda.get("pulled", "not yet pulled"), "{{QCEWYEARS}}": ("%s–%s" % (qyears[0], qyears[-1])) if qyears else "none",
             "{{QCEWPULLED}}": qcew.get("pulled", "not yet pulled"), "{{EVENTS}}": "{:,}".format(len(events)),
             "{{PATENTS}}": ("%d companies, pulled %s" % (sum(1 for o in companies if o.get("patents")), patents.get("pulled"))) if patents.get("pulled") else "not yet available (needs a PatentsView API key)",
-            "{{CITYLEVEL}}": str(sum(1 for o in companies if o["prec"] == "city")), "{{GROUPED}}": str(sum(1 for o in companies if o["parent"])),
+            "{{CITYLEVEL}}": str(sum(1 for o in companies if o["prec"] == "city")), "{{CLOSED}}": str(len(closed)), "{{GROUPED}}": str(sum(1 for o in companies if o["parent"])),
             "{{PARENTS}}": str(len({o["group"] for o in companies if o["parent"]}))}
     about = read("site", "about.html")
     for k, v in fill.items():

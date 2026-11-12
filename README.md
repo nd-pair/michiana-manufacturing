@@ -66,6 +66,12 @@ Field by field:
 | `standalone` | no | `true` keeps an entry out of automatic grouping, e.g. a fund whose page lives on another organization's site |
 | `uei` | no | Unique Entity ID; federal and SBIR awards then match exactly. Filled in automatically once a unique name match is found |
 | `location_precision` | no | `"city"` when lat/lon is a city center rather than the address (used for SBIR firms) |
+| `closed`, `closed_note` | no | Date the site closed (e.g. `closed = 2009-11-04`) and how we know. The entry is then left off the map |
+
+**Closed companies.** Do not delete the file of a company that has shut down: the monthly HIFLD
+import would add the facility again, since HIFLD lags closures by years. Add `closed` with the date
+and a `closed_note` with the source instead. The build leaves the entry off the map and the
+importers keep skipping it.
 
 **Positions.** If you give an address but no `lat`/`lon`, run `python3 scripts/geocode.py` and it
 looks the address up on OpenStreetMap and writes the coordinates into the file. Check the result
