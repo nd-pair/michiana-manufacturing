@@ -153,7 +153,6 @@ const dome=(function(){const g=new THREE.Group(),B=0.0016,TL=new THREE.TextureLo
   const slate=photo(T.roof,0.92),slateTop=new THREE.MeshBasicMaterial({color:0x4a5258});
   const mansard=(cx,cz,w,d)=>{const geo=uv(new THREE.CylinderGeometry(0.8,1,(HM-HC)*B,4,1,true,Math.PI/4),8,1);geo.scale(w*B/2/Math.SQRT1_2,1,d*B/2/Math.SQRT1_2);
     add(geo,slate,cx,(HC+HM)/2,cz);const top=new THREE.PlaneGeometry(w*B*0.8,d*B*0.8);top.rotateX(-Math.PI/2);add(top,slateTop,cx,HM,cz)};
-  add(new THREE.BoxGeometry(1.9*B,0.015*B,1.1*B),new THREE.MeshStandardMaterial({color:0x1d4a2e,roughness:1}),0,0.005,0);
   /* center block: photo front, bays on the other three sides, mansard, and the gable's ridge running back */
   box4(0,0,FW,D);mansard(0,0,FW,D);
   add(new THREE.PlaneGeometry(FW*B,FH*B),photo(T.facade,1,{alphaTest:0.5}),0,FH/2,D/2+0.002);
