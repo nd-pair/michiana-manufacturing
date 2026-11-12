@@ -1,6 +1,6 @@
 {
 "source": "USAspending.gov: procurement contracts and grants by recipient and awarding agency, FY2016 to date, recipients located in the Michiana counties",
-"pulled": "2026-11-11",
+"pulled": "2026-11-12",
 "companies": {
 "amgeneral": {
 "contracts": 10770684792,
@@ -20,12 +20,12 @@
 "total": 312881651
 },
 "transhield-inc-elkhart-2932": {
-"contracts": 35965545,
+"contracts": 36120898,
 "grants": 0,
 "recipient_names": [
 "TRANSHIELD, INC."
 ],
-"total": 35965545
+"total": 36120898
 },
 "flexible": {
 "contracts": 34332446,
@@ -728,7 +728,7 @@
 "agencies": [
 {
 "name": "Department of Defense",
-"contracts": 15257894990,
+"contracts": 15258050343,
 "grants": 122048167
 },
 {
