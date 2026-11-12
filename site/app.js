@@ -19,7 +19,7 @@ function fmtEmp(c){if(!c.emp)return "unknown";const bits=[c.emp_year,c.emp_quali
 
 /* ---------- state, addressable through the URL hash ---------- */
 const st={sec:new Set(),tag:new Set(),cap:new Set(),fed:false,fda:false,rings:false,radius:0,sel:null,hot:null,q:"",open:new Set(),
-  sort:{sec:{key:"n",dir:-1},tag:{key:"n",dir:-1},cap:{key:"n",dir:-1},fed:{key:"e",dir:-1},roster:{key:"emp",dir:-1},ev:{key:"date",dir:-1},spec:{key:"lq",dir:-1},occ:{key:"emp",dir:-1},ue:{key:"rate",dir:-1},hum:{key:"cost",dir:-1}},wv:"spec",hum:null,hb:"confirmed",rlim:20,
+  sort:{sec:{key:"n",dir:-1},tag:{key:"n",dir:-1},cap:{key:"n",dir:-1},fed:{key:"e",dir:-1},roster:{key:"emp",dir:-1},ev:{key:"date",dir:-1},spec:{key:"lq",dir:-1},occ:{key:"emp",dir:-1},ue:{key:"rate",dir:-1},hum:{key:"cost",dir:-1}},wv:"spec",hum:null,hb:"related",rlim:20,rpage:0,
   evKind:"all",evYear:null,evMore:0,qv:"county",qs:"abs"};
 function readHash(){st.sec.clear();st.tag.clear();st.cap.clear();st.fed=st.fda=st.rings=false;st.radius=0;st.sel=null;st.hum=null;
   try{const raw=location.hash.slice(1),h=decodeURIComponent(raw);if(h&&byId[h]){st.sel=h;return}
@@ -374,8 +374,8 @@ function renderHumanoid(){const el=document.getElementById("hum");if(!el||!HUM.c
   const fy=Object.entries(HUM.funding||{}).filter(([y])=>+y>=2016),ftot=fy.reduce((a,[,v])=>a+v.amount,0),fmax=Math.max(1,...fy.map(([,v])=>v.amount));
   const prog=Object.entries(HUM.progress||{}),p0=prog[0];
   const tiles=`<div class="mm-htiles">
-    <div class="mm-htile"><div class="k">Confirmed local supply</div><div class="v">${share(x=>x>=2,"conf")}%</div><div class="s">of a humanoid's cost has two or more local suppliers that have confirmed they make the part</div></div>
     <div class="mm-htile"><div class="k">Related local capability</div><div class="v">${share(x=>x>=2,"all")}%</div><div class="s">of the cost has two or more local companies in a related line of work; ${share(x=>x===1,"all")}% has one${gaps.length?`; gap: ${esc(gaps.map(c=>c.name.split(" (")[0].toLowerCase()).join(", "))}`:""}</div></div>
+    <div class="mm-htile"><div class="k">Confirmed local supply</div><div class="v">${share(x=>x>=2,"conf")}%</div><div class="s">of a humanoid's cost has two or more local suppliers that have confirmed they make the part</div></div>
     <div class="mm-htile"><div class="k">Companies</div><div class="v">${sup.size}</div><div class="s">with a related capability; ${supc.size} confirmed</div></div>
     <div class="mm-htile"><div class="k">Robotics-related awards since 2016</div><div class="v">${fmtUSD(ftot)}</div><div class="mm-hbars">${fy.map(([y,v])=>`<i title="${y}: ${fmtUSD(v.amount)}, ${v.n} award${v.n===1?"":"s"}" style="height:${Math.max(2,Math.round(28*v.amount/fmax))}px"></i>`).join("")}</div><div class="s">federal awards of $250k+ and SBIR/STTR awards mentioning robots, actuators or sensors${fy.length?`, ${fy[0][0]}–${fy[fy.length-1][0]}`:""}</div></div>
     <div class="mm-htile"><div class="k">Tracking since</div><div class="v">${p0?esc(monthName(p0[0])):"–"}</div><div class="s">${prog.length>1?prog.map(([m,v])=>`${esc(monthName(m))}: ${v.confirmed_two_plus}% confirmed, ${v.two_plus}% related`).slice(-3).join("<br>"):"a snapshot is saved every month; the trend appears from the second month"}</div></div></div>`;
@@ -495,12 +495,14 @@ function renderTable(){const tb=document.querySelector("#table tbody"),rs=st.sor
   document.querySelectorAll("[data-rsort]").forEach(b=>{b.setAttribute("aria-pressed",String(b.dataset.rsort===rs.key));b.textContent=b.textContent.replace(/ [▾▴]$/,"")+(b.dataset.rsort===rs.key?ARROW(rs.dir):"")});
   const web=u=>u?`<a href="${esc(u)}" rel="noopener">${esc(u.replace(/^https?:\/\/(www\.)?/,"").replace(/\/$/,""))}</a>`:"–";
   const siteRow=(c,child)=>`<tr id="row-${c.id}" class="${st.sel===c.id?"sel":""}${child?" child":""}" data-id="${c.id}"><td class="name">${esc(c.name)}<small>${esc(c.city)}, ${esc(c.state)}</small></td><td><span class="mm-dot" style="background:${SCOL[c.sector]};color:${SCOL[c.sector]}"></span>${esc(c.sector)}</td><td class="num">${empCell([c])}</td><td class="tags">${esc(c.tags.join(", "))}</td><td class="num">${c.federal?fmtUSD(c.federal.total):"–"}${c.fda?'<span class="mm-badge fda">FDA</span>':""}${c.sbir?'<span class="mm-badge fed">SBIR</span>':""}</td><td>${web(c.website)}</td></tr>`;
-  let html="",lim=0;for(const r of rows){if(lim++>=st.rlim)break;
+  const pages=Math.max(1,Math.ceil(rows.length/st.rlim));st.rpage=Math.min(st.rpage,pages-1);const first=st.rlim===Infinity?0:st.rpage*st.rlim;
+  let html="";for(const r of rows.slice(first,first+st.rlim)){
     if(r.list.length===1){html+=siteRow(r.list[0],false);continue}
     const open=st.open.has(r.gid),cities=[...new Set(r.list.map(c=>c.city))];
     html+=`<tr class="grp${r.list.some(c=>c.id===st.sel)?" sel":""}" data-group="${esc(r.gid)}"><td class="name"><button type="button" class="mm-caret" aria-expanded="${open}" aria-label="${open?"Collapse":"Expand"} ${esc(r.name)}">${open?"▾":"▸"}</button>${esc(r.name)}<small>${r.list.length} sites · ${esc(cities.slice(0,3).join(", "))}${cities.length>3?" …":""}</small></td><td><span class="mm-dot" style="background:${SCOL[r.sector]};color:${SCOL[r.sector]}"></span>${esc(r.sector)}</td><td class="num">${empCell(r.list)}</td><td class="tags">${esc([...new Set(r.list.flatMap(c=>c.tags))].slice(0,4).join(", "))}</td><td class="num">${r.fed?fmtUSD(r.fed):"–"}</td><td>${web(r.list.find(c=>c.website)?.website)}</td></tr>`;
     if(open)for(const c of r.list.slice().sort((a,b)=>(b.emp||0)-(a.emp||0)))html+=siteRow(c,true)}
-  const more=rows.length>20?`<tr class="mm-more"><td colspan="6"><span class="mm-count">Showing ${Math.min(st.rlim,rows.length).toLocaleString()} of ${rows.length.toLocaleString()} companies</span>${[[20,"20"],[100,"100"],[Infinity,"All"]].map(([n,l])=>`<button type="button" class="mm-chip" data-rlim="${n}" aria-pressed="${st.rlim===n}">${l}</button>`).join("")}</td></tr>`:"";
+  const last=Math.min(rows.length,first+st.rlim),nav=pages>1?`<button type="button" class="mm-chip mm-pg" data-rpage="${st.rpage-1}" aria-label="Previous page" ${st.rpage===0?"disabled":""}>‹</button><span class="mm-count">${(first+1).toLocaleString()}–${last.toLocaleString()} of ${rows.length.toLocaleString()} companies · page ${st.rpage+1} of ${pages}</span><button type="button" class="mm-chip mm-pg" data-rpage="${st.rpage+1}" aria-label="Next page" ${st.rpage>=pages-1?"disabled":""}>›</button>`:`<span class="mm-count">${rows.length.toLocaleString()} companies</span>`;
+  const more=rows.length>20?`<tr class="mm-more"><td colspan="6">${nav}<span class="mm-lb">Per page</span>${[[20,"20"],[100,"100"],[Infinity,"All"]].map(([n,l])=>`<button type="button" class="mm-chip" data-rlim="${n}" aria-pressed="${st.rlim===n}">${l}</button>`).join("")}</td></tr>`:"";
   tb.innerHTML=(html||`<tr><td colspan="6" class="mm-count">No company matches these filters.</td></tr>`)+more;
   const txt=`${nGroups(vis)} companies at ${vis.length} sites shown, of ${nGroups(C)} at ${C.length}`;document.getElementById("shown").textContent=txt;document.getElementById("rostercount").textContent=txt}
 
@@ -515,7 +517,8 @@ document.getElementById("radius").addEventListener("change",e=>{st.radius=+e.tar
 for(const [id,k] of [["lay-rings","rings"],["f-fed","fed"],["f-fda","fda"]])document.getElementById(id).addEventListener("click",()=>{st[k]=!st[k];if(k==="rings")buildRings();render()});
 document.getElementById("humlink").addEventListener("click",()=>document.getElementById("humanoid").scrollIntoView({behavior:"smooth",block:"start"}));
 document.addEventListener("click",e=>{
-  const rl=e.target.closest("[data-rlim]");if(rl){st.rlim=rl.dataset.rlim==="Infinity"?Infinity:+rl.dataset.rlim;renderTable();return}
+  const rl=e.target.closest("[data-rlim]");if(rl){st.rlim=rl.dataset.rlim==="Infinity"?Infinity:+rl.dataset.rlim;st.rpage=0;renderTable();return}
+  const rp=e.target.closest("[data-rpage]");if(rp&&!rp.disabled){st.rpage=Math.max(0,+rp.dataset.rpage);renderTable();document.querySelector(".mm-roster").scrollIntoView({block:"start"});return}
   const hb=e.target.closest("[data-hb]");if(hb){st.hb=hb.dataset.hb;renderHumanoid();return}
   const hg=e.target.closest("[data-hum]");if(hg){const v=hg.dataset.hum;st.hum=st.hum===v?null:v;render();return}
   const wv=e.target.closest("[data-wv]");if(wv){st.wv=wv.dataset.wv;renderWork();return}
@@ -523,7 +526,7 @@ document.addEventListener("click",e=>{
   const sib=e.target.closest("[data-sel]");if(sib){const c=byId[sib.dataset.sel];select(c.id);flyTo(c.lat,c.lon,Math.min(view.dist,0.05));return}
   const cb=e.target.closest("[data-cap]");if(cb){const k=cb.dataset.cap;st.cap.has(k)?st.cap.delete(k):st.cap.add(k);render();return}
   const h=e.target.closest("[data-sort]");if(h){const s=st.sort[h.dataset.kind];if(s.key===h.dataset.sort)s.dir=-s.dir;else{s.key=h.dataset.sort;s.dir=-1}render();return}
-  const rs=e.target.closest("[data-rsort]");if(rs){const s=st.sort.roster;if(s.key===rs.dataset.rsort)s.dir=-s.dir;else{s.key=rs.dataset.rsort;s.dir=rs.dataset.rsort==="emp"||rs.dataset.rsort==="fed"?-1:1}renderTable();return}
+  const rs=e.target.closest("[data-rsort]");if(rs){const s=st.sort.roster;if(s.key===rs.dataset.rsort)s.dir=-s.dir;else{s.key=rs.dataset.rsort;s.dir=rs.dataset.rsort==="emp"||rs.dataset.rsort==="fed"?-1:1}st.rpage=0;renderTable();return}
   const yb=e.target.closest("[data-evyear]");if(yb){const y=+yb.dataset.evyear;st.evYear=st.evYear===y?null:y;st.evMore=0;renderEvents();return}
   const kb=e.target.closest("[data-evkind]");if(kb){st.evKind=kb.dataset.evkind;st.evMore=0;renderEvents();return}
   if(e.target.id==="evmore"){st.evMore+=60;renderEvents();return}
