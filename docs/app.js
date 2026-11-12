@@ -273,11 +273,11 @@ function resize(){const w=box.clientWidth,h=Math.max(360,Math.min(640,Math.round
 const find=document.getElementById("find"),sug=document.getElementById("find-list");let sugItems=[],sugIdx=-1;
 function searchItems(q){q=q.trim().toLowerCase();if(q.length<2)return [];const out=[],seen=new Set();
   for(const g of Object.values(GROUPS))if(g.sites.length>1&&g.name.toLowerCase().includes(q)){out.push({kind:"group",g});seen.add(g.id)}
-  for(const c of C){if(out.length>=40)break;if(c.name.toLowerCase().includes(q)||c.city.toLowerCase().startsWith(q))out.push({kind:"site",c})}
+  for(const c of C){if(out.length>=40)break;if(c.name.toLowerCase().includes(q)||(c.formerly&&c.formerly.toLowerCase().includes(q))||c.city.toLowerCase().startsWith(q))out.push({kind:"site",c})}
   return out.sort((a,b)=>{const na=(a.g?a.g.name:a.c.name).toLowerCase(),nb=(b.g?b.g.name:b.c.name).toLowerCase();return (nb.startsWith(q)-na.startsWith(q))||(a.kind==="group"?-1:0)-(b.kind==="group"?-1:0)||na.localeCompare(nb)}).slice(0,10)}
 function showSug(){sugItems=searchItems(find.value);sugIdx=sugItems.length?0:-1;
   sug.innerHTML=sugItems.map((it,i)=>it.kind==="group"?`<div class="mm-sugi" role="option" id="sug-${i}" data-i="${i}" aria-selected="${i===sugIdx}"><b>${esc(it.g.name)}</b><span>${it.g.sites.length} sites</span></div>`
-    :`<div class="mm-sugi" role="option" id="sug-${i}" data-i="${i}" aria-selected="${i===sugIdx}"><b>${esc(it.c.name)}</b><span>${esc(it.c.city)} · ${esc(it.c.sector)}</span></div>`).join("")||(find.value.trim().length>1?`<div class="mm-sugi none">No company matches “${esc(find.value)}”.</div>`:"");
+    :`<div class="mm-sugi" role="option" id="sug-${i}" data-i="${i}" aria-selected="${i===sugIdx}"><b>${esc(it.c.name)}</b><span>${it.c.formerly?"formerly "+esc(it.c.formerly)+" · ":""}${esc(it.c.city)} · ${esc(it.c.sector)}</span></div>`).join("")||(find.value.trim().length>1?`<div class="mm-sugi none">No company matches “${esc(find.value)}”.</div>`:"");
   sug.hidden=!sug.innerHTML;find.setAttribute("aria-expanded",String(!sug.hidden));find.setAttribute("aria-activedescendant",sugIdx>=0?"sug-"+sugIdx:"")}
 function choose(it){if(!it)return;sug.hidden=true;find.setAttribute("aria-expanded","false");
   if(it.kind==="group"){const s=it.g.sites,la=s.reduce((a,c)=>a+c.lat,0)/s.length,lo=s.reduce((a,c)=>a+c.lon,0)/s.length,ext=Math.max(...s.map(c=>km(la,lo,c.lat,c.lon)));
@@ -356,7 +356,7 @@ function renderEvents(){const vis=new Set(C.filter(visible).map(c=>c.id));let ev
 function renderDetail(){const d=document.getElementById("detail"),c=st.sel&&byId[st.sel];
   if(!c){d.innerHTML=`<p class="mm-empty">Select a company on the map or in the roster, or find one by name above the map.</p>`;return}
   const g=groupOf(c),sib=g.sites.filter(s=>s!==c).sort((a,b)=>(b.emp||0)-(a.emp||0));const site=u=>u?esc(u.replace(/^https?:\/\/(www\.)?/,"").replace(/\/$/,"")):"";
-  d.innerHTML=`<h3><span class="mm-dot" style="background:${SCOL[c.sector]};color:${SCOL[c.sector]}"></span>${esc(c.name)}</h3>
+  d.innerHTML=`<h3><span class="mm-dot" style="background:${SCOL[c.sector]};color:${SCOL[c.sector]}"></span>${esc(c.name)}</h3>${c.formerly?`<p class="mm-note">formerly ${esc(c.formerly)}</p>`:""}${c.status?`<p class="mm-note">${esc(c.status)}</p>`:""}
   ${g.sites.length>1?`<div class="mm-grp"><div class="k">Part of ${esc(g.name)}: ${g.sites.length} sites, ${fmtK(empSum(g.sites))} staff known</div>${sib.slice(0,12).map(s=>`<button type="button" class="mm-sib" data-sel="${s.id}">${esc(s.city)}${s.emp?" · "+fmtK(s.emp):""}<span>${esc(s.name.replace(g.name,"").replace(/^[,\s]+/,"")||s.addr||"site")}</span></button>`).join("")}${sib.length>12?`<span class="mm-count">and ${sib.length-12} more</span>`:""}</div>`:""}
   <div><div class="k">What they do</div>${esc(c.blurb)||"–"}<div class="k">Products &amp; services</div>${esc(c.tags.join(", "))}${c.naics?`<div class="k">NAICS</div>${esc(c.naics)}`:""}${c.caps.length?`<div class="k">Capabilities</div>${esc(c.caps.join(", "))}`:""}</div>
   <div><div class="k">Employees</div>${esc(fmtEmp(c))}${c.emp_note?`<div class="mm-note">${esc(c.emp_note)}</div>`:""}<div class="k">Location</div>${esc(c.addr||c.city+", "+c.state)}${c.prec==="city"?" (placed at the city center)":""}
