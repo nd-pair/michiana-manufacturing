@@ -117,10 +117,9 @@ Beyond the map, the page carries:
   they came from. The detail panel shows both.
 - **Sharing.** The URL hash holds the filters, layers and selection ("Copy link to this view"), and
   the roster downloads as CSV with every field.
-- **Search, groups, density, rings.** Find a company by name above the map; plants of one company
-  collapse under its name in the roster and the detail panel lists its other sites; zoomed out, or
-  with the Density layer on, columns become a grid of counts; distance rings and the "within"
-  filter center on the selected company, or the campus when none is selected.
+- **Search, groups, rings.** Find a company by name above the map; plants of one company
+  collapse under its name in the roster and the detail panel lists its other sites; distance rings
+  and the "within" filter center on the selected company, or the campus when none is selected.
 - **Sector employment.** The employment chart switches between counties and sectors (3-digit NAICS
   from the QCEW area files, folded into the map's sectors) and between head counts and an index.
 - **Patents.** `scripts/pull_patents.py` reads USPTO PatentsView. It needs a free API key

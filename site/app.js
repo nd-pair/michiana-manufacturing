@@ -18,18 +18,18 @@ const shortYear=y=>y?"’"+String(y).slice(2):"";
 function fmtEmp(c){if(!c.emp)return "unknown";const bits=[c.emp_year,c.emp_quality,c.emp_scope==="company"?"company-wide":""].filter(Boolean);return (c.emp_quality==="estimate"?"about ":"")+c.emp.toLocaleString()+(bits.length?" ("+bits.join(", ")+")":"")}
 
 /* ---------- state, addressable through the URL hash ---------- */
-const st={sec:new Set(),tag:new Set(),cap:new Set(),fed:false,fda:false,rings:false,density:false,radius:0,sel:null,hot:null,q:"",open:new Set(),
+const st={sec:new Set(),tag:new Set(),cap:new Set(),fed:false,fda:false,rings:false,radius:0,sel:null,hot:null,q:"",open:new Set(),
   sort:{sec:{key:"n",dir:-1},tag:{key:"n",dir:-1},cap:{key:"n",dir:-1},fed:{key:"e",dir:-1},roster:{key:"emp",dir:-1},ev:{key:"date",dir:-1}},
   evKind:"all",evYear:null,evMore:0,qv:"county",qs:"abs"};
-function readHash(){st.sec.clear();st.tag.clear();st.cap.clear();st.fed=st.fda=st.rings=st.density=false;st.radius=0;st.sel=null;
+function readHash(){st.sec.clear();st.tag.clear();st.cap.clear();st.fed=st.fda=st.rings=false;st.radius=0;st.sel=null;
   try{const raw=location.hash.slice(1),h=decodeURIComponent(raw);if(h&&byId[h]){st.sel=h;return}
     for(const kv of raw.split("&")){const i=kv.indexOf("=");if(i<0)continue;const k=kv.slice(0,i),v=decodeURIComponent(kv.slice(i+1));if(!v)continue;const vals=kv.slice(i+1).split("|").map(decodeURIComponent);
       if(k==="sec")vals.forEach(x=>st.sec.add(x));else if(k==="tag")vals.forEach(x=>st.tag.add(x));else if(k==="cap")vals.forEach(x=>st.cap.add(x));
-      else if(k==="fed")st.fed=v==="1";else if(k==="fda")st.fda=v==="1";else if(k==="rings")st.rings=v==="1";else if(k==="dens")st.density=v==="1";
+      else if(k==="fed")st.fed=v==="1";else if(k==="fda")st.fda=v==="1";else if(k==="rings")st.rings=v==="1";
       else if(k==="r")st.radius=+v||0;else if(k==="sel"&&byId[v])st.sel=v}}catch(e){}}
 const enc=set=>[...set].map(encodeURIComponent).join("|");
 function hashState(){const p=[];if(st.sec.size)p.push("sec="+enc(st.sec));if(st.tag.size)p.push("tag="+enc(st.tag));if(st.cap.size)p.push("cap="+enc(st.cap));
-  if(st.fed)p.push("fed=1");if(st.fda)p.push("fda=1");if(st.rings)p.push("rings=1");if(st.density)p.push("dens=1");if(st.radius)p.push("r="+st.radius);if(st.sel)p.push("sel="+st.sel);
+  if(st.fed)p.push("fed=1");if(st.fda)p.push("fda=1");if(st.rings)p.push("rings=1");if(st.radius)p.push("r="+st.radius);if(st.sel)p.push("sel="+st.sel);
   return p.length?"#"+p.join("&"):""}
 function updateHash(){try{history.replaceState(null,"",hashState()||location.pathname)}catch(e){}}
 readHash();
@@ -49,11 +49,11 @@ const hotMatch=c=>st.hot&&(st.hot.sec?c.sector===st.hot.sec:st.hot.cap?c.caps.in
 const THEMES={
   dark:{bg:"#05070b",ground:0x0a0e14,groundMetal:0.7,grat:0x17212c,lakeFill:"#0b1b30",lakeStroke:"rgba(42,127,166,0.9)",core:0x182734,far:0x10161e,landMetal:0.6,
     coreLine:0x35d6ff,coreLineOp:0.75,farLine:0x2a4150,cityDot:0xe6edf3,dotMajor:0xffb020,dotMinor:0x9fb0c0,ring:0x35d6ff,halo:0x35d6ff,hemi:[0x9fd6ff,0x0a0f16,0.8],key:0.9,
-    glow:0.09,dimMix:null,dimK:0.3,dimOp:0.12,heat:["#0d3446","#1aa3c9","#e8fbff"],
+    glow:0.09,dimMix:null,dimK:0.3,dimOp:0.12,
     labels:{city:["#dfe9f2"],county:["#35d6ff"],metroMajor:["#ffd280","#ffb020"],metroMinor:["#b8c6d4"],state:["#4f6478"],region:["#35d6ff","#35d6ff"],ring:["#35d6ff"],landmark:["#ffd280","#ffb020"]}},
   light:{bg:"#e8edf2",ground:0xdbe2e9,groundMetal:0.05,grat:0xc6d0da,lakeFill:"#bcd6ea",lakeStroke:"rgba(30,100,150,0.85)",core:0xfbfcfd,far:0xe9eef2,landMetal:0.05,
     coreLine:0x0a7fa8,coreLineOp:0.85,farLine:0xb3c0cc,cityDot:0x1b2733,dotMajor:0xb86e00,dotMinor:0x5d6b78,ring:0x0a7fa8,halo:0x0a6f93,hemi:[0xffffff,0xb8c2cc,1.05],key:0.55,
-    glow:0,dimMix:"#ffffff",dimK:0.55,dimOp:0.22,heat:["#cfe3ee","#2a8db8","#0b2f45"],
+    glow:0,dimMix:"#ffffff",dimK:0.55,dimOp:0.22,
     labels:{city:["#1b2733"],county:["#0a6f93"],metroMajor:["#8a4b00"],metroMinor:["#3d4a57"],state:["#8794a1"],region:["#0a6f93"],ring:["#0a6f93"],landmark:["#8a5a00"]}}};
 let TH=THEMES.dark;
 const themeName=()=>document.body.getAttribute("data-theme")==="light"?"light":"dark";
@@ -145,30 +145,33 @@ const dome=(function(){const g=new THREE.Group(),B=0.0016,TL=new THREE.TextureLo
     const t=new THREE.CanvasTexture(cv);t.mapping=THREE.EquirectangularReflectionMapping;t.encoding=THREE.sRGBEncoding;
     const pm=new THREE.PMREMGenerator(renderer);const out=pm.fromEquirectangular(t).texture;pm.dispose();t.dispose();return out})();
   const gold=new THREE.MeshStandardMaterial({color:0xffc94a,metalness:1,roughness:0.1,envMap:env,envMapIntensity:2.4,emissive:0x5a3c00,emissiveIntensity:0.22});
-  /* proportions measured off the photo, in units of B: facade 0.62 wide; wall cornice 0.383, mansard top 0.44,
-     gable 0.407 to 0.516; a window bay 0.0556 wide; drum face 0.084 wide and 0.066 tall, its top at 0.60 */
-  const FW=0.62,FH=FW*853/1024,HC=0.383,HM=0.44,D=0.42,BAY=0.0556,LW=0.5,DW=0.2,ZW=D/2-0.05-DW/2;
+  /* plan from an aerial photo, heights from the frontal photo, in units of B (origin at the dome, x east, z south):
+     a long east-west range crossed by a north-south spine; the spine ends south in the wide front pavilion
+     (the photographed facade, 0.62 wide) and north in a short arm. Wall cornice 0.383, mansard top 0.44, a window
+     bay 0.0556 wide; the drum is an octagon 0.25 across under the gold dome. */
+  const HC=0.383,HM=0.44,BAY=0.0556,FW=0.62,FH=FW*853/1024;
   const wall=(w,h,x,y,z,rot,shade)=>{const geo=uv(new THREE.PlaneGeometry(w*B,h*B),Math.max(1,Math.round(w/BAY)),1);geo.rotateY(rot);return add(geo,photo(T.bay,shade),x,y,z)};
   const box4=(cx,cz,w,d)=>{wall(w,HC,cx,HC/2,cz+d/2,0,1);wall(w,HC,cx,HC/2,cz-d/2,Math.PI,0.62);wall(d,HC,cx+w/2,HC/2,cz,Math.PI/2,0.8);wall(d,HC,cx-w/2,HC/2,cz,-Math.PI/2,0.8)};
   const slate=photo(T.roof,0.92),slateTop=new THREE.MeshBasicMaterial({color:0x4a5258});
   const mansard=(cx,cz,w,d)=>{const geo=uv(new THREE.CylinderGeometry(0.8,1,(HM-HC)*B,4,1,true,Math.PI/4),8,1);geo.scale(w*B/2/Math.SQRT1_2,1,d*B/2/Math.SQRT1_2);
-    add(geo,slate,cx,(HC+HM)/2,cz);const top=new THREE.PlaneGeometry(w*B*0.8,d*B*0.8);top.rotateX(-Math.PI/2);add(top,slateTop,cx,HM,cz)};
-  /* center block: photo front, bays on the other three sides, mansard, and the gable's ridge running back */
-  box4(0,0,FW,D);mansard(0,0,FW,D);
-  add(new THREE.PlaneGeometry(FW*B,FH*B),photo(T.facade,1,{alphaTest:0.5}),0,FH/2,D/2+0.002);
-  const ridge=new THREE.CylinderGeometry(1,1,D*B*0.98,3);ridge.rotateX(-Math.PI/2);const sx=0.54*FW/2/0.866,sy=(FH-0.407)/1.5;ridge.scale(sx*B,sy*B,1);
-  add(uv(ridge,4,1),slate,0,0.407+0.5*sy,0);
-  /* the long east and west wings, a little set back */
-  for(const s of [-1,1]){box4(s*(FW/2+LW/2),ZW,LW,DW);mansard(s*(FW/2+LW/2),ZW,LW,DW)}
+    add(geo,slate,cx,(HC+HM)/2,cz);const top=new THREE.PlaneGeometry(w*B*0.8,d*B*0.8);top.rotateX(-Math.PI/2);add(top,slateTop,cx,HM+0.001,cz)};
+  const block=(x0,x1,z0,z1)=>{box4((x0+x1)/2,(z0+z1)/2,x1-x0,z1-z0);mansard((x0+x1)/2,(z0+z1)/2,x1-x0,z1-z0)};
+  block(-0.87,-0.6,-0.19,0.17);block(0.55,0.81,-0.16,0.17);                 /* end pavilions of the east-west range */
+  block(-0.6,-0.17,-0.2,0.25);block(0.17,0.55,-0.24,0.21);                  /* the range between them and the crossing */
+  block(-0.18,0.18,-0.41,0.32);                                             /* the spine: north arm, crossing, south arm */
+  block(-FW/2,FW/2,0.32,0.63);                                              /* the front pavilion */
+  add(new THREE.PlaneGeometry(FW*B,FH*B),photo(T.facade,1,{alphaTest:0.5}),0,FH/2,0.632);
+  const ridge=new THREE.CylinderGeometry(1,1,0.3*B,3);ridge.rotateX(-Math.PI/2);const sx=0.54*FW/2/0.866,sy=(FH-0.407)/1.5;ridge.scale(sx*B,sy*B,1);
+  add(uv(ridge,4,1),slate,0,0.407+0.5*sy,0.475);
   /* drum: a plain octagon up from the roof, then the photo's drum face repeated on its eight sides */
-  const R=0.11,drumBase=new THREE.MeshBasicMaterial({color:0xb9b3a3});
+  const R=0.125,drumBase=new THREE.MeshBasicMaterial({color:0xb9b3a3});
   const oct=(h,mat,y,rTop,rBot)=>{const geo=new THREE.CylinderGeometry((rTop||R)*B,(rBot||R)*B,h*B,8,1,true,Math.PI/8);return add(geo,mat,0,y,0)};
-  oct(0.534-HM+0.01,drumBase,(HM+0.534)/2-0.005);
-  const face=oct(0.066,photo(T.drum,1,{alphaTest:0.5}),0.567);uv(face.geometry,8,1);
-  oct(0.008,new THREE.MeshBasicMaterial({color:0xe6dfcc}),0.604,R*0.95,R*1.04);
-  /* the gold dome, lantern and statue */
-  const dm=add(new THREE.SphereGeometry(0.098*B,48,24,0,Math.PI*2,0,Math.PI/2),gold,0,0.608,0);dm.scale.y=1.35;
-  add(new THREE.CylinderGeometry(0.02*B,0.024*B,0.04*B,12),gold,0,0.762,0);add(new THREE.CylinderGeometry(0.006*B,0.013*B,0.04*B,8),gold,0,0.802,0);add(new THREE.SphereGeometry(0.009*B,10,8),gold,0,0.827,0);
+  oct(0.535-HM+0.01,drumBase,(HM+0.535)/2-0.005);
+  const face=oct(0.076,photo(T.drum,1,{alphaTest:0.5}),0.573);uv(face.geometry,8,1);
+  oct(0.009,new THREE.MeshBasicMaterial({color:0xe6dfcc}),0.615,R*0.95,R*1.04);
+  /* the gold dome, octagonal in plan like the drum, its lantern and statue */
+  const dm=add(new THREE.SphereGeometry(0.112*B,8,24,Math.PI/8,Math.PI*2,0,Math.PI/2),gold,0,0.619,0);dm.scale.y=1.3;
+  add(new THREE.CylinderGeometry(0.026*B,0.03*B,0.045*B,8,1,false,Math.PI/8),gold,0,0.786,0);add(new THREE.CylinderGeometry(0.007*B,0.015*B,0.045*B,8),gold,0,0.83,0);add(new THREE.SphereGeometry(0.01*B,10,8),gold,0,0.858,0);
   const glint=new THREE.PointLight(0xfff2c0,1.4,B*8);glint.position.set(-0.6*B,1.6*B,1.2*B);g.add(glint);
   place(g,DATA.landmark.lat,DATA.landmark.lon,lift(1.8),{mode:"map"});
   const lo=DATA.landmark.lon*RAD,east=new THREE.Vector3(Math.cos(lo),0,-Math.sin(lo)),upv=P(DATA.landmark.lat,DATA.landmark.lon).normalize(),south=new THREE.Vector3().crossVectors(east,upv).normalize();
@@ -199,21 +202,8 @@ function paintBars(){assignBars();
   if(TH.dimMix)_w.set(TH.dimMix).convertSRGBToLinear();
   offList.forEach((b,i)=>{_c.copy(b.color);if(TH.dimMix)_c.lerp(_w,TH.dimK);else _c.multiplyScalar(TH.dimK);dimMesh.setColorAt(i,_c)});
   for(const m of [barMesh,glowMesh,dimMesh])m.instanceColor.needsUpdate=true;
-  halo.material.opacity=st.sel?0.9:0;layoutBars(lastK);paintHeat()}
+  halo.material.opacity=st.sel?0.9:0;layoutBars(lastK)}
 
-/* density: companies in the filter counted on a grid; two grids, fine (about 4.5 km) and coarse (about 13 km), by zoom */
-const HEAT=[{dLa:0.04,dLo:0.054},{dLa:0.12,dLo:0.16}].map(g=>{const cells={};for(const b of bars){const k=Math.floor(b.c.lat/g.dLa)+":"+Math.floor(b.c.lon/g.dLo);
-    (cells[k]=cells[k]||{la:(Math.floor(b.c.lat/g.dLa)+0.5)*g.dLa,lo:(Math.floor(b.c.lon/g.dLo)+0.5)*g.dLo,members:[]}).members.push(b.c)}
-  const list=Object.values(cells),geo=new THREE.BoxGeometry(1,1,1);geo.translate(0,0.5,0);
-  const mesh=new THREE.InstancedMesh(geo,new THREE.MeshBasicMaterial({transparent:true,opacity:0.88}),list.length);mesh.instanceColor=new THREE.InstancedBufferAttribute(new Float32Array(list.length*3),3);
-  mesh.visible=false;globe.add(mesh);
-  list.forEach(cl=>{cl.pos=P(cl.la,cl.lo,lift(2.1));cl.quat=new THREE.Quaternion().setFromUnitVectors(new THREE.Vector3(0,1,0),cl.pos.clone().normalize());
-    cl.sx=g.dLo*Math.cos(cl.la*RAD)*R*RAD*0.92;cl.sz=g.dLa*R*RAD*0.92});return {g,list,mesh}});
-const heatColor=(t,out)=>{const [a,b,c]=TH.heat.map(h=>new THREE.Color(h));return t<0.5?out.copy(a).lerp(b,t*2):out.copy(b).lerp(c,(t-0.5)*2)};
-function paintHeat(){for(const H of HEAT){let max=1;for(const cl of H.list){cl.n=cl.members.filter(visible).length;cl.e=empSum(cl.members.filter(visible));if(cl.n>max)max=cl.n}
-  H.list.forEach((cl,i)=>{const t=cl.n?Math.log(1+cl.n)/Math.log(1+max):0;_s.set(cl.n?cl.sx:1e-6,cl.n?Math.max(lift(1),lift(40)*t):1e-6,cl.n?cl.sz:1e-6);_m.compose(cl.pos,cl.quat,_s);H.mesh.setMatrixAt(i,_m);
-    heatColor(t,_c);_c.convertSRGBToLinear();H.mesh.setColorAt(i,_c)});H.mesh.instanceMatrix.needsUpdate=true;H.mesh.instanceColor.needsUpdate=true}}
-const heatOn=()=>st.density||view.dist>0.55;
 
 /* distance rings, centered on the selected company or the campus */
 const ringGroup=new THREE.Group();ringGroup.visible=false;globe.add(ringGroup);
@@ -232,7 +222,7 @@ function applyTheme(){TH=THEMES[themeName()];scene.background.set(TH.bg);hemi.co
   groundMat.color.setHex(TH.ground);groundMat.metalness=TH.groundMetal;gratMat.color.setHex(TH.grat);
   coreMat.color.setHex(TH.core);farMat.color.setHex(TH.far);coreMat.metalness=farMat.metalness=TH.landMetal;coreLine.color.setHex(TH.coreLine);coreLine.opacity=TH.coreLineOp;farLine.color.setHex(TH.farLine);
   cityDotMat.color.setHex(TH.cityDot);majorDotMat.color.setHex(TH.dotMajor);minorDotMat.color.setHex(TH.dotMinor);ringMat.color.setHex(TH.ring);halo.material.color.setHex(TH.halo);
-  glowMesh.material.opacity=TH.glow;glowMesh.visible=TH.glow>0&&!heatOn();dimMesh.material.opacity=TH.dimOp;
+  glowMesh.material.opacity=TH.glow;glowMesh.visible=TH.glow>0;dimMesh.material.opacity=TH.dimOp;
   paintLakes();labels.forEach(drawLabel);paintBars();if(typeof renderQcew==="function")renderQcew()}
 
 /* ---------- view: one continuous zoom on a true-scale globe ---------- */
@@ -242,9 +232,9 @@ const tiltFor=d=>0.58*(1-THREE.MathUtils.smoothstep(Math.log(d),Math.log(0.12),M
 function layout(){const d=view.dist,screen=d/D_HOME;
   for(const o of placed){const L=o.userData.lay;if(L.mode==="map")continue;o.scale.copy(L.base).multiplyScalar(screen)}
   layoutBars(KREF*Math.min(screen,2.2));
-  const heat=heatOn(),fine=d<0.7;barMesh.visible=dimMesh.visible=!heat;glowMesh.visible=!heat&&TH.glow>0;HEAT[0].mesh.visible=heat&&fine;HEAT[1].mesh.visible=heat&&!fine;halo.visible=!heat;
+  glowMesh.visible=TH.glow>0;
   near.visible=d<0.55;mid.visible=d>0.45;far.visible=d>0.7;dome.visible=d<0.09;ringGroup.visible=st.rings;
-  hud.innerHTML=`<span>ALT</span> ${(d*KM).toFixed(d<0.05?1:0)} km &nbsp; <span>CTR</span> ${view.lat.toFixed(3)}°N ${(-view.lon).toFixed(3)}°W &nbsp; <span>SPAN</span> ${(2*d*Math.tan(0.3665)*KM).toFixed(0)} km${heat?" &nbsp; <span>DENSITY</span>":""}`}
+  hud.innerHTML=`<span>ALT</span> ${(d*KM).toFixed(d<0.05?1:0)} km &nbsp; <span>CTR</span> ${view.lat.toFixed(3)}°N ${(-view.lon).toFixed(3)}°W &nbsp; <span>SPAN</span> ${(2*d*Math.tan(0.3665)*KM).toFixed(0)} km`}
 function applyView(){layout();const d=view.dist,t=tiltFor(d);globe.rotation.set(view.lat*RAD,-view.lon*RAD,0);
   camera.near=Math.max(0.0005,d*0.04);camera.far=d*60+2*R;camera.updateProjectionMatrix();camera.position.set(0,-d*Math.sin(t),R+d*Math.cos(t));camera.lookAt(0,0,R)}
 let tween=null;
@@ -254,14 +244,14 @@ const ray=new THREE.Raycaster(),ndc=new THREE.Vector2();
 const pickSphere=new THREE.Mesh(new THREE.SphereGeometry(R,64,32),new THREE.MeshBasicMaterial({visible:false}));globe.add(pickSphere);
 function toNdc(e){const r=renderer.domElement.getBoundingClientRect();ndc.set(((e.clientX-r.left)/r.width)*2-1,-((e.clientY-r.top)/r.height)*2+1);ray.setFromCamera(ndc,camera)}
 function surfaceAt(e){toNdc(e);const h=ray.intersectObject(pickSphere,false)[0];return h?latLonOf(globe.worldToLocal(h.point.clone())):null}
-function pick(e){toNdc(e);if(heatOn()){const H=HEAT[view.dist<0.7?0:1],hit=ray.intersectObject(H.mesh,false)[0];return hit&&hit.instanceId!=null&&H.list[hit.instanceId].n?{cell:H.list[hit.instanceId],mesh:H.mesh,i:hit.instanceId}:null}
+function pick(e){toNdc(e);
   const hit=ray.intersectObject(barMesh,false)[0];return hit&&hit.instanceId!=null?onList[hit.instanceId]:null}
 let drag=null,hoverId=null;
 box.addEventListener("pointerdown",e=>{if(e.target.closest(".mm-ctl"))return;tween=null;drag={x:e.clientX,y:e.clientY,lat:view.lat,lon:view.lon,moved:false};box.setPointerCapture(e.pointerId)});
 box.addEventListener("pointermove",e=>{if(drag){const r=renderer.domElement.getBoundingClientRect(),k=(2*view.dist*Math.tan(0.3665)/r.height)/(R*RAD);
     view.lat=THREE.MathUtils.clamp(drag.lat+(e.clientY-drag.y)*k,36,48);view.lon=THREE.MathUtils.clamp(drag.lon-(e.clientX-drag.x)*k/Math.cos(view.lat*RAD),-95,-77);
     if(Math.hypot(e.clientX-drag.x,e.clientY-drag.y)>4)drag.moved=true;applyView();tip.style.opacity=0}else hover(e)});
-box.addEventListener("pointerup",e=>{if(drag&&!drag.moved){const b=pick(e);if(b&&b.cell){const cl=b.cell;flyTo(cl.la,cl.lo,0.12);if(st.density){st.density=false;render()}}else if(b)select(b.c.id)}drag=null});
+box.addEventListener("pointerup",e=>{if(drag&&!drag.moved){const b=pick(e);if(b)select(b.c.id)}drag=null});
 box.addEventListener("pointerleave",()=>{tip.style.opacity=0});
 function zoomBy(f,e){tween=null;const d0=view.dist,d1=THREE.MathUtils.clamp(d0*f,D_MIN,D_MAX);
   if(e&&d1!==d0){const ll=surfaceAt(e);if(ll){const k=1-d1/d0;view.lat+=(ll[0]-view.lat)*k;view.lon+=(ll[1]-view.lon)*k}}view.dist=d1;applyView()}
@@ -273,9 +263,6 @@ document.getElementById("reset").onclick=()=>flyTo(home.lat,home.lon,home.dist);
 document.getElementById("campus").onclick=()=>flyTo(DATA.landmark.lat,DATA.landmark.lon,0.008);
 function hover(e){const b=pick(e);const id=b&&b.c?b.c.id:null;if(id!==hoverId){hoverId=id;paintBars()}
   const r=renderer.domElement.getBoundingClientRect();
-  if(b&&b.cell){b.mesh.getMatrixAt(b.i,_m);const top=new THREE.Vector3(0,1,0).applyMatrix4(_m).applyMatrix4(globe.matrixWorld).project(camera);
-    tip.innerHTML=`<b>${b.cell.n} compan${b.cell.n===1?"y":"ies"} here</b>${b.cell.e?fmtK(b.cell.e)+" staff, known headcounts":""}<div class="m">click to zoom in</div>`;
-    tip.style.left=((top.x+1)/2*r.width)+"px";tip.style.top=((1-top.y)/2*r.height)+"px";tip.style.opacity=1;box.style.cursor="pointer";return}
   if(b){barMesh.getMatrixAt(b.oi,_m);const top=new THREE.Vector3(0,1,0).applyMatrix4(_m).applyMatrix4(globe.matrixWorld).project(camera);const g=groupOf(b.c);
     tip.innerHTML=`<b>${esc(b.c.name)}</b>${esc(b.c.city)}, ${esc(b.c.state)} · ${esc(b.c.sector)}${g.sites.length>1?`<div class="m">one of ${g.sites.length} sites of ${esc(g.name)}</div>`:""}<div class="m">${esc(fmtEmp(b.c))} employees</div>`;
     tip.style.left=((top.x+1)/2*r.width)+"px";tip.style.top=((1-top.y)/2*r.height)+"px";tip.style.opacity=1;box.style.cursor="pointer"}
@@ -400,12 +387,12 @@ function renderTable(){const tb=document.querySelector("#table tbody"),rs=st.sor
 /* ---------- wiring ---------- */
 function select(id){st.sel=(st.sel===id?null:id);_ctr=center();if(st.rings||st.radius)buildRings();render();
   if(st.sel){const row=document.getElementById("row-"+st.sel);if(row)row.scrollIntoView({block:"nearest",behavior:reduced?"auto":"smooth"})}}
-function clearAll(){Object.assign(st,{evKind:"all",evYear:null,evMore:0,fed:false,fda:false,density:false,radius:0,sel:null,q:""});st.cap.clear();st.sec.clear();st.tag.clear();
+function clearAll(){Object.assign(st,{evKind:"all",evYear:null,evMore:0,fed:false,fda:false,radius:0,sel:null,q:""});st.cap.clear();st.sec.clear();st.tag.clear();
   document.getElementById("tagsearch").value="";_ctr=center();render()}
 document.getElementById("clear").addEventListener("click",clearAll);document.getElementById("resetall").addEventListener("click",clearAll);
 document.getElementById("tagsearch").addEventListener("input",e=>{st.q=e.target.value.trim().toLowerCase();renderTags()});
 document.getElementById("radius").addEventListener("change",e=>{st.radius=+e.target.value;_ctr=center();buildRings();render()});
-for(const [id,k] of [["lay-rings","rings"],["lay-density","density"],["f-fed","fed"],["f-fda","fda"]])document.getElementById(id).addEventListener("click",()=>{st[k]=!st[k];if(k==="rings")buildRings();render()});
+for(const [id,k] of [["lay-rings","rings"],["f-fed","fed"],["f-fda","fda"]])document.getElementById(id).addEventListener("click",()=>{st[k]=!st[k];if(k==="rings")buildRings();render()});
 document.addEventListener("click",e=>{
   const q=e.target.closest("[data-qv],[data-qs]");if(q){if(q.dataset.qv)st.qv=q.dataset.qv;if(q.dataset.qs)st.qs=q.dataset.qs;renderQcew();return}
   const sib=e.target.closest("[data-sel]");if(sib){const c=byId[sib.dataset.sel];select(c.id);flyTo(c.lat,c.lon,Math.min(view.dist,0.05));return}
@@ -430,13 +417,13 @@ document.getElementById("csv").addEventListener("click",()=>{const rows=C.filter
     c.federal?c.federal.contracts:"",c.federal?c.federal.grants:"",c.sbir?c.sbir.count:"",c.sbir?c.sbir.amount:"",c.patents?c.patents.count:"",c.fda?"yes":"",c.certs.join("; "),c.website,c.source,c.updated].map(q).join(",")}));
   const blob=new Blob(["﻿"+lines.join("\n")],{type:"text/csv;charset=utf-8"}),a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download="michiana-manufacturing-"+(hashState()?"filtered":"all")+".csv";document.body.appendChild(a);a.click();a.remove();toast(`${rows.length} rows downloaded`)});
 const chip=(id,on)=>document.getElementById(id).setAttribute("aria-pressed",String(on));
-function render(){chip("lay-rings",st.rings);chip("lay-density",st.density);chip("f-fed",st.fed);chip("f-fda",st.fda);document.getElementById("radius").value=String(st.radius);
+function render(){chip("lay-rings",st.rings);chip("f-fed",st.fed);chip("f-fda",st.fda);document.getElementById("radius").value=String(st.radius);
   _ctr=center();document.getElementById("radius-of").textContent="of "+(st.sel?_ctr.name:"the campus");if(st.rings||st.radius)buildRings();
   document.getElementById("brieflink").href="brief.html"+(st.sec.size?"#sec="+[...st.sec].map(encodeURIComponent).join("|"):"");
   renderSectors();renderTags();renderFederal();renderCaps();renderEvents();paintBars();renderDetail();renderTable();layout();updateHash()}
 window.addEventListener("hashchange",()=>{if(location.hash!==hashState()){readHash();render()}});
 document.getElementById("legend").innerHTML=DATA.sectors.map(s=>`<span><i class="mm-sw" style="background:${SCOL[s]};color:${SCOL[s]}"></i>${esc(s)}</span>`).join("")
-  +`<span>column height = employees, log scale <i class="mm-hl"><i style="height:6px"></i><i style="height:10px"></i><i style="height:14px"></i><i style="height:18px"></i></i>10 · 100 · 1,000 · 10,000</span><span>~ estimate · ’22 year of the figure · * company-wide</span><span>zoomed out, columns become a density grid</span>`;
+  +`<span>column height = employees, log scale <i class="mm-hl"><i style="height:6px"></i><i style="height:10px"></i><i style="height:14px"></i><i style="height:18px"></i></i>10 · 100 · 1,000 · 10,000</span><span>~ estimate · ’22 year of the figure · * company-wide</span>`;
 const known=C.filter(c=>c.emp).length;
 document.getElementById("foot").innerHTML=`${nGroups(C)} companies at ${C.length} sites, built ${esc(DATA.built)}. Every figure comes from a public source; headcounts are approximate and dated (${known} known). Methods, sources and known gaps: <a href="about.html">About the data</a>. Main Building textures adapted from <a href="https://commons.wikimedia.org/wiki/File:Golden_Dome_frontal.jpg">a photo by Eccekevin</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.`;
 
