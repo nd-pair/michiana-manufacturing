@@ -2,14 +2,6 @@
 "pulled": "2026-11-11",
 "events": [
 {
-"date": "2026-10-29",
-"company": "dexter-axle-co-elkhart-222",
-"kind": "warn",
-"amount": 51,
-"title": "WARN plant closing at Dexter Axle, Elkhart: 51 workers affected",
-"source": "https://www.in.gov/dwd/warn-notices/current-warn-notices/"
-},
-{
 "date": "2026-09-23",
 "company": "leco-corp-saint-joseph-3000",
 "kind": "federal",
@@ -48,22 +40,6 @@
 "amount": 104990707,
 "title": "Federal contract from Department of Defense (Department of the Army): The purpose of this delivery order is to procure a total of 400 high mobility multipurpose wheeled vehicles (hmmwvs) for army national guard(arng), army, and na",
 "source": "https://www.usaspending.gov/award/CONT_AWD_W912CH26F0389_9700_W56HZV17D0071_9700"
-},
-{
-"date": "2026-07-21",
-"company": "owens-corning-goshen-3168",
-"kind": "warn",
-"amount": 130,
-"title": "WARN plant closing at Owens Corning, Walkerton: 130 workers affected",
-"source": "https://www.in.gov/dwd/warn-notices/current-warn-notices/"
-},
-{
-"date": "2026-07-17",
-"company": "forestriver",
-"kind": "warn",
-"amount": 105,
-"title": "WARN plant closing at Forest River, Inc., Bristol: 105 workers affected",
-"source": "https://www.in.gov/dwd/warn-notices/current-warn-notices/"
 },
 {
 "date": "2026-06-25",
@@ -176,14 +152,6 @@
 "amount": 1082195,
 "title": "Federal contract from Department of Defense (Department of the Army): Jltv field service rep support for slovenia. case s3-b-uca",
 "source": "https://www.usaspending.gov/award/CONT_AWD_W912CH26F0119_9700_W56HZV23D0008_9700"
-},
-{
-"date": "2026-03-10",
-"company": "kemkrest",
-"kind": "warn",
-"amount": 77,
-"title": "WARN plant closing at Kem Krest LLC, Carmel: 77 workers affected",
-"source": "https://www.in.gov/dwd/warn-notices/current-warn-notices/"
 },
 {
 "date": "2026-03-04",
@@ -354,14 +322,6 @@
 "source": "https://www.usaspending.gov/award/CONT_AWD_W912CH26F0030_9700_W56HZV23D0008_9700"
 },
 {
-"date": "2025-12-29",
-"company": "dalton-corp-warsaw-3755",
-"kind": "warn",
-"amount": 257,
-"title": "WARN plant closing at Dalton Corporation, Warsaw: 257 workers affected",
-"source": "https://www.in.gov/dwd/warn-notices/current-warn-notices/"
-},
-{
 "date": "2025-12-22",
 "company": "amgeneral",
 "kind": "federal",
@@ -384,14 +344,6 @@
 "amount": 542917,
 "title": "Federal contract from Department of Defense (Defense Logistics Agency): 8511823188!clutch,fan,engine",
 "source": "https://www.usaspending.gov/award/CONT_AWD_SPE7LX26F079M_9700_SPE7LX20D0222_9700"
-},
-{
-"date": "2025-12-12",
-"company": "spartech-industries-warsaw-1851",
-"kind": "warn",
-"amount": 125,
-"title": "WARN plant closing at Spartech LLC, Muncie: 125 workers affected",
-"source": "https://www.in.gov/dwd/warn-notices/current-warn-notices/"
 },
 {
 "date": "2025-12-10",
@@ -674,14 +626,6 @@
 "source": "https://www.usaspending.gov/award/CONT_AWD_SPE7LX25F03Y0_9700_SPE7LX20D0222_9700"
 },
 {
-"date": "2025-04-21",
-"company": "heartland-recreational-vehicles-llc-elkhart-1001",
-"kind": "warn",
-"amount": 147,
-"title": "WARN plant closing at Heartland Recreational Vehicles, LLC, Elkhart: 147 workers affected",
-"source": "https://www.in.gov/dwd/warn-notices/current-warn-notices/"
-},
-{
 "date": "2025-04-15",
 "company": "amgeneral",
 "kind": "federal",
@@ -864,14 +808,6 @@
 "amount": 282327,
 "title": "Federal contract from Department of Defense (Defense Logistics Agency): 8510993752!parts kit,ball join",
 "source": "https://www.usaspending.gov/award/CONT_AWD_SPE7LX25F6081_9700_SPE7LX20D0222_9700"
-},
-{
-"date": "2024-10-31",
-"company": "forestriver",
-"kind": "warn",
-"amount": 160,
-"title": "WARN plant closing at Forest River Inc., Elkhart: 160 workers affected",
-"source": "https://www.in.gov/dwd/warn-notices/current-warn-notices/"
 },
 {
 "date": "2024-10-25",
@@ -1306,14 +1242,6 @@
 "source": "https://www.usaspending.gov/award/CONT_AWD_123J1424C1082_12K2_-NONE-_-NONE-"
 },
 {
-"date": "2024-02-12",
-"company": "forestriver",
-"kind": "warn",
-"amount": 83,
-"title": "WARN plant closing at Forest River Inc., Elkhart: 83 workers affected",
-"source": "https://www.in.gov/dwd/warn-notices/current-warn-notices/"
-},
-{
 "date": "2024-02-08",
 "company": "amgeneral",
 "kind": "federal",
@@ -1376,14 +1304,6 @@
 "amount": 383722,
 "title": "Federal contract from Department of Defense (Defense Logistics Agency): 8510258036!valve,positive cran",
 "source": "https://www.usaspending.gov/award/CONT_AWD_SPE7M124F0374_9700_SPE7MX23D5040_9700"
-},
-{
-"date": "2023-10-29",
-"company": "dwyer-instruments-inc-kingsbury-3999",
-"kind": "warn",
-"amount": 55,
-"title": "WARN plant closing at Dwyer Instruments, LLC., Wakarusa: 55 workers affected",
-"source": "https://www.in.gov/dwd/warn-notices/current-warn-notices/"
 },
 {
 "date": "2023-10-19",
@@ -1498,14 +1418,6 @@
 "source": "https://www.usaspending.gov/award/CONT_AWD_36C25623C0006_3600_-NONE-_-NONE-"
 },
 {
-"date": "2023-08-18",
-"company": "owens-corning-goshen-3168",
-"kind": "warn",
-"amount": 87,
-"title": "WARN plant closing at Owens Corning, Wabash: 87 workers affected",
-"source": "https://www.in.gov/dwd/warn-notices/current-warn-notices/"
-},
-{
 "date": "2023-08-08",
 "company": "amgeneral",
 "kind": "federal",
@@ -1600,14 +1512,6 @@
 "amount": 580483986,
 "title": "Federal contract from Department of Defense (Department of the Army): Joint light tactical vehcile (jltv) family of vehicles priced delivery order for 513 trucks and 273 trailers to support ukraine tranche presidential drawdown.",
 "source": "https://www.usaspending.gov/award/CONT_AWD_W56HZV23F0294_9700_W56HZV23D0008_9700"
-},
-{
-"date": "2023-05-24",
-"company": "graphic-packaging-international-inc-la-porte-115",
-"kind": "warn",
-"amount": 70,
-"title": "WARN plant closing at Graphic Packaging International, LLC, Auburn: 70 workers affected",
-"source": "https://www.in.gov/dwd/warn-notices/current-warn-notices/"
 },
 {
 "date": "2023-05-23",
@@ -1842,14 +1746,6 @@
 "source": "https://www.usaspending.gov/award/CONT_AWD_SPRDL123F0009_9700_SPRDL120D0055_9700"
 },
 {
-"date": "2022-09-28",
-"company": "masonite-international-corp-walkerton-111",
-"kind": "warn",
-"amount": 74,
-"title": "WARN layoff at Masonite Corporation, Walkerton: 74 workers affected",
-"source": "https://www.in.gov/dwd/warn-notices/current-warn-notices/"
-},
-{
 "date": "2022-09-21",
 "company": "amgeneral",
 "kind": "federal",
@@ -1936,14 +1832,6 @@
 "amount": 4982591,
 "title": "Federal contract from Department of Defense (Defense Logistics Agency): Delivery order to add 270 units. nsn 2815-01-439-6664",
 "source": "https://www.usaspending.gov/award/CONT_AWD_SPRDL122F0206_9700_SPRDL118D0068_9700"
-},
-{
-"date": "2022-07-18",
-"company": "keystone-rv-co-goshen-2642",
-"kind": "warn",
-"amount": 334,
-"title": "WARN plant closing at Keystone RV Company, Goshen: 334 workers affected",
-"source": "https://www.in.gov/dwd/warn-notices/current-warn-notices/"
 },
 {
 "date": "2022-07-12",
@@ -2530,14 +2418,6 @@
 "source": "https://www.usaspending.gov/award/CONT_AWD_W56HZV21F0004_9700_W56HZV19D0001_9700"
 },
 {
-"date": "2020-11-11",
-"company": "wabash-valley-mfg-inc-silver-lake-505",
-"kind": "warn",
-"amount": 80,
-"title": "WARN plant closing at Wabash Valley, Silver Lake: 80 workers affected",
-"source": "https://www.in.gov/dwd/warn-notices/current-warn-notices/"
-},
-{
 "date": "2020-11-05",
 "company": "amgeneral",
 "kind": "federal",
@@ -2616,14 +2496,6 @@
 "amount": 1416500,
 "title": "Federal contract from Department of Veterans Affairs (Department of Veterans Affairs): Rosa surgical robot",
 "source": "https://www.usaspending.gov/award/CONT_AWD_36C26020P0655_3600_-NONE-_-NONE-"
-},
-{
-"date": "2020-08-28",
-"company": "universal-bearings-inc-bremen-431",
-"kind": "warn",
-"amount": 61,
-"title": "WARN layoff at Universal Bearings, LLC, Bremen: 61 workers affected",
-"source": "https://www.in.gov/dwd/warn-notices/current-warn-notices/"
 },
 {
 "date": "2020-08-25",
@@ -2800,14 +2672,6 @@
 "amount": 2415300,
 "title": "Federal contract from Department of Defense (Defense Logistics Agency): Delivery order to increase units. nsn 2815-01-461-7078",
 "source": "https://www.usaspending.gov/award/CONT_AWD_SPRDL120F0145_9700_SPRDL117D0103_9700"
-},
-{
-"date": "2020-03-24",
-"company": "gdc-inc-goshen-815",
-"kind": "warn",
-"amount": 293,
-"title": "WARN layoff at GDC, Inc., Goshen Elkhart: 293 workers affected",
-"source": "https://www.in.gov/dwd/warn-notices/current-warn-notices/"
 },
 {
 "date": "2020-03-23",
@@ -3330,14 +3194,6 @@
 "source": "https://www.usaspending.gov/award/CONT_AWD_SPRDL119F0272_9700_SPRDL118D0021_9700"
 },
 {
-"date": "2019-05-16",
-"company": "nibco-inc-goshen-701",
-"kind": "warn",
-"amount": 97,
-"title": "WARN plant closing at NIBCO, Inc., Charlestown: 97 workers affected",
-"source": "https://www.in.gov/dwd/warn-notices/current-warn-notices/"
-},
-{
 "date": "2019-05-13",
 "company": "ncp-coatings-inc-niles-225",
 "kind": "federal",
@@ -3818,14 +3674,6 @@
 "source": "https://www.usaspending.gov/award/CONT_AWD_0002_9700_W52P1J17D0080_9700"
 },
 {
-"date": "2018-07-24",
-"company": "cts",
-"kind": "warn",
-"amount": 103,
-"title": "WARN plant closing at CTS Corp., Elkhart: 103 workers affected",
-"source": "https://www.in.gov/dwd/warn-notices/current-warn-notices/"
-},
-{
 "date": "2018-07-23",
 "company": "amgeneral",
 "kind": "federal",
@@ -3896,14 +3744,6 @@
 "amount": 300642,
 "title": "Federal contract from Department of Agriculture (Forest Service): Peg4dcln15d, pegasus 4d-cxgs system with ln2 cooled thermal modulator,259-061-cpk, pegasus4d chroma tof software, latest version, additional license and protect",
 "source": "https://www.usaspending.gov/award/CONT_AWD_12568018P0055_12C2_-NONE-_-NONE-"
-},
-{
-"date": "2018-06-22",
-"company": "diversified-machine-inc-bristol-bristol-51650",
-"kind": "warn",
-"amount": 95,
-"title": "WARN plant closing at Diversified Machine Bristol LLC, Bristol: 95 workers affected",
-"source": "https://www.in.gov/dwd/warn-notices/current-warn-notices/"
 },
 {
 "date": "2018-06-19",
@@ -4186,14 +4026,6 @@
 "source": "https://www.usaspending.gov/award/CONT_AWD_SPE5EK18P0823_9700_-NONE-_-NONE-"
 },
 {
-"date": "2018-01-29",
-"company": "lee-enterprises-mfg-co-inc-elkhart-25883",
-"kind": "warn",
-"amount": 93,
-"title": "WARN plant closing at Lee Enterprises, Crown Point and Munster: 93 workers affected",
-"source": "https://www.in.gov/dwd/warn-notices/current-warn-notices/"
-},
-{
 "date": "2018-01-24",
 "company": "amgeneral",
 "kind": "federal",
@@ -4296,14 +4128,6 @@
 "amount": 656075,
 "title": "Federal contract from Department of Defense (Defense Logistics Agency): 8504892704!parts kit,ball join",
 "source": "https://www.usaspending.gov/award/CONT_AWD_SPE7L418P0226_9700_-NONE-_-NONE-"
-},
-{
-"date": "2017-11-02",
-"company": "parker-hannifin-corp-goshen-1525",
-"kind": "warn",
-"amount": 61,
-"title": "WARN plant closing at Parker Hannifin Corporation, Tell City: 61 workers affected",
-"source": "https://www.in.gov/dwd/warn-notices/current-warn-notices/"
 },
 {
 "date": "2017-10-30",
@@ -4418,14 +4242,6 @@
 "source": "https://www.usaspending.gov/award/CONT_AWD_0009_9700_W56HZV17D0071_9700"
 },
 {
-"date": "2017-09-12",
-"company": "del-monte-foods-co-plymouth-506",
-"kind": "warn",
-"amount": 107,
-"title": "WARN plant closing at Del Monte Foods, Plymouth: 107 workers affected",
-"source": "https://www.in.gov/dwd/warn-notices/current-warn-notices/"
-},
-{
 "date": "2017-09-08",
 "company": "amgeneral",
 "kind": "federal",
@@ -4448,14 +4264,6 @@
 "amount": 636277,
 "title": "Federal contract from Department of Defense (Defense Logistics Agency): Cylinder head,diese nsn: 2815-01-411-2137 mfr cage: 34623 mfr part number: 05743222 qty 940",
 "source": "https://www.usaspending.gov/award/CONT_AWD_0004_9700_SPRDL115D0010_9700"
-},
-{
-"date": "2017-08-31",
-"company": "bay-valley-foods-llc-plymouth-1430",
-"kind": "warn",
-"amount": null,
-"title": "WARN plant closing at Bay Valley Foods LLC, Tree House Foods Occupations Affected, Plymouth",
-"source": "https://www.in.gov/dwd/warn-notices/current-warn-notices/"
 },
 {
 "date": "2017-08-29",
@@ -4504,14 +4312,6 @@
 "amount": 458546,
 "title": "Federal contract from Department of Defense (Defense Logistics Agency): 8504600669!armor,supplemental,",
 "source": "https://www.usaspending.gov/award/CONT_AWD_SPE7L417C0108_9700_-NONE-_-NONE-"
-},
-{
-"date": "2017-07-28",
-"company": "amgeneral",
-"kind": "warn",
-"amount": 435,
-"title": "WARN layoff at AM General, Mishawaka: 435 workers affected",
-"source": "https://www.in.gov/dwd/warn-notices/current-warn-notices/"
 },
 {
 "date": "2017-07-27",
@@ -4608,14 +4408,6 @@
 "amount": 310134,
 "title": "Federal contract from Department of Defense (Defense Logistics Agency): 8504476382!turbosupercharger,e",
 "source": "https://www.usaspending.gov/award/CONT_AWD_0021_9700_SPE7LX17D0048_9700"
-},
-{
-"date": "2017-05-22",
-"company": "mark-line-industries-inc-bristol-51687",
-"kind": "warn",
-"amount": 73,
-"title": "WARN plant closing at Mark Line Industries, Bristol: 73 workers affected",
-"source": "https://www.in.gov/dwd/warn-notices/current-warn-notices/"
 },
 {
 "date": "2017-05-12",
@@ -4882,14 +4674,6 @@
 "source": "https://www.usaspending.gov/award/CONT_AWD_0006_9700_W56HZV15D0102_9700"
 },
 {
-"date": "2016-08-31",
-"company": "goshen-coach-elkhart-25161",
-"kind": "warn",
-"amount": 159,
-"title": "WARN plant closing at Goshen Coach, Elkhart: 159 workers affected",
-"source": "https://www.in.gov/dwd/warn-notices/current-warn-notices/"
-},
-{
 "date": "2016-08-18",
 "company": "amgeneral",
 "kind": "federal",
@@ -4960,14 +4744,6 @@
 "amount": 9973575,
 "title": "Federal contract from Department of Defense (Defense Logistics Agency): Item: engine with container nsn: 2815-01-461-7078 qty: 417 basic, 208 option available",
 "source": "https://www.usaspending.gov/award/CONT_AWD_SPRDL116C0195_9700_-NONE-_-NONE-"
-},
-{
-"date": "2016-05-20",
-"company": "diversified-machine-inc-bristol-bristol-51650",
-"kind": "warn",
-"amount": 500,
-"title": "WARN layoff at Diversified Machine Bristol LLC, Bristol: 500 workers affected",
-"source": "https://www.in.gov/dwd/warn-notices/current-warn-notices/"
 },
 {
 "date": "2016-05-17",
@@ -5138,14 +4914,6 @@
 "source": "https://www.usaspending.gov/award/CONT_AWD_W56HZV16C0012_9700_-NONE-_-NONE-"
 },
 {
-"date": "2016-02-01",
-"company": "silgan-containers-mfg-corp-la-porte-300",
-"kind": "warn",
-"amount": 62,
-"title": "WARN plant closing at Silgan Containers, LaPorte: 62 workers affected",
-"source": "https://www.in.gov/dwd/warn-notices/current-warn-notices/"
-},
-{
 "date": "2016-01-29",
 "company": "amgeneral",
 "kind": "federal",
@@ -5306,28 +5074,12 @@
 "source": "https://www.usaspending.gov/award/CONT_AWD_0008_9700_W52P1J10D0077_9700"
 },
 {
-"date": "2015-07-22",
-"company": "parker-hannifin-corp-goshen-1525",
-"kind": "warn",
-"amount": 150,
-"title": "WARN plant closing at Parker Hannifin Corp., New Haven: 150 workers affected",
-"source": "https://www.in.gov/dwd/warn-notices/current-warn-notices/"
-},
-{
 "date": "2015-07-06",
 "company": "amgeneral",
 "kind": "federal",
 "amount": 1053502310,
 "title": "Federal contract from Department of Defense (Department of the Army): Foreign military sales contract for 2,082 high mobility multipurpose wheeled vehicles and spare parts.",
 "source": "https://www.usaspending.gov/award/CONT_AWD_W56HZV15C0155_9700_-NONE-_-NONE-"
-},
-{
-"date": "2015-06-26",
-"company": "silgan-plastics-corp-ligonier-910",
-"kind": "warn",
-"amount": 69,
-"title": "WARN layoff at Silgan Plastics Corporation, Ligonier: 69 workers affected",
-"source": "https://www.in.gov/dwd/warn-notices/current-warn-notices/"
 },
 {
 "date": "2015-06-10",
@@ -5458,30 +5210,6 @@
 "source": "https://www.usaspending.gov/award/CONT_AWD_W56HZV14C0132_9700_-NONE-_-NONE-"
 },
 {
-"date": "2014-03-12",
-"company": "supreme-industries-inc-goshen-2581",
-"kind": "warn",
-"amount": 50,
-"title": "WARN plant closing at Supreme Corporation, Goshen: 50 workers affected",
-"source": "https://www.in.gov/dwd/warn-notices/current-warn-notices/"
-},
-{
-"date": "2013-12-10",
-"company": "fulton-industries-inc-south-bend-4050",
-"kind": "warn",
-"amount": 90,
-"title": "WARN plant closing at Fulton Industries, Inc, Rochester: 90 workers affected",
-"source": "https://www.in.gov/dwd/warn-notices/current-warn-notices/"
-},
-{
-"date": "2013-10-01",
-"company": "nyloncraft-inc-mishawaka-616",
-"kind": "warn",
-"amount": 96,
-"title": "WARN plant closing at Nyloncraft, Inc., Fort Wayne: 96 workers affected",
-"source": "https://www.in.gov/dwd/warn-notices/current-warn-notices/"
-},
-{
 "date": "2013-09-30",
 "company": "transhield-inc-elkhart-2932",
 "kind": "federal",
@@ -5506,14 +5234,6 @@
 "source": "https://www.usaspending.gov/award/CONT_AWD_N0017413C0022_9700_-NONE-_-NONE-"
 },
 {
-"date": "2013-02-19",
-"company": "whitley-products-inc-plymouth-1403",
-"kind": "warn",
-"amount": 86,
-"title": "WARN plant closing at Whitley Products, Inc, Plymouth: 86 workers affected",
-"source": "https://www.in.gov/dwd/warn-notices/current-warn-notices/"
-},
-{
 "date": "2012-09-20",
 "company": "transhield-inc-elkhart-2932",
 "kind": "federal",
@@ -5530,52 +5250,12 @@
 "source": "https://www.usaspending.gov/award/CONT_AWD_W56HZV12C0258_9700_-NONE-_-NONE-"
 },
 {
-"date": "2011-10-12",
-"company": "graphic-packaging-international-inc-la-porte-115",
-"kind": "warn",
-"amount": 128,
-"title": "WARN plant closing at Graphic Packaging International, LaPorte: 128 workers affected",
-"source": "https://www.in.gov/dwd/warn-notices/current-warn-notices/"
-},
-{
-"date": "2011-09-13",
-"company": "pace-american-inc-middlebury-11550",
-"kind": "warn",
-"amount": 106,
-"title": "WARN layoff at Pace American Enterprises, Inc, Middlebury: 106 workers affected",
-"source": "https://www.in.gov/dwd/warn-notices/current-warn-notices/"
-},
-{
-"date": "2011-09-01",
-"company": "ingersoll-rand-co-goshen-2516",
-"kind": "warn",
-"amount": 17,
-"title": "WARN layoff at Ingersoll Rand, Indianapolis And Carmel: 17 workers affected",
-"source": "https://www.in.gov/dwd/warn-notices/current-warn-notices/"
-},
-{
 "date": "2011-06-13",
 "company": "flexible",
 "kind": "federal",
 "amount": 397040,
 "title": "Federal contract from Department of Defense (Department of the Army): Purchase of 62,915 each of shock attenuating lifting plug w/ gasket m795.",
 "source": "https://www.usaspending.gov/award/CONT_AWD_0001_9700_W15QKN11D0109_9700"
-},
-{
-"date": "2011-05-31",
-"company": "r-r-donnelley-sons-co-warsaw-2801",
-"kind": "warn",
-"amount": 107,
-"title": "WARN plant closing at R.R. Donnelley & Sons, South Bend: 107 workers affected",
-"source": "https://www.in.gov/dwd/warn-notices/current-warn-notices/"
-},
-{
-"date": "2011-01-11",
-"company": "medtec-ambulance-corp-goshen-2429",
-"kind": "warn",
-"amount": 154,
-"title": "WARN plant closing at Medtec Ambulance Corp., Goshen: 154 workers affected",
-"source": "https://www.in.gov/dwd/warn-notices/current-warn-notices/"
 },
 {
 "date": "2011",
@@ -5602,228 +5282,12 @@
 "source": "https://www.usaspending.gov/award/CONT_AWD_W56HZV10C0405_9700_-NONE-_-NONE-"
 },
 {
-"date": "2010-06-01",
-"company": "pace-american-inc-middlebury-11550",
-"kind": "warn",
-"amount": 150,
-"title": "WARN plant closing at Pace American, Middlebury: 150 workers affected",
-"source": "https://www.in.gov/dwd/warn-notices/current-warn-notices/"
-},
-{
-"date": "2010-02-18",
-"company": "gunite-corp-elkhart-801",
-"kind": "warn",
-"amount": 100,
-"title": "WARN plant closing at Gunite Corporation, Elkhart: 100 workers affected",
-"source": "https://www.in.gov/dwd/warn-notices/current-warn-notices/"
-},
-{
-"date": "2010-01-12",
-"company": "gunite-corp-elkhart-801",
-"kind": "warn",
-"amount": 136,
-"title": "WARN layoff at Gunite Corporation, Elkhart: 136 workers affected",
-"source": "https://www.in.gov/dwd/warn-notices/current-warn-notices/"
-},
-{
-"date": "2009-11-03",
-"company": "graphic-packaging-international-inc-la-porte-115",
-"kind": "warn",
-"amount": 118,
-"title": "WARN plant closing at Graphic Packaging, Fort Wayne: 118 workers affected",
-"source": "https://www.in.gov/dwd/warn-notices/current-warn-notices/"
-},
-{
-"date": "2009-10-22",
-"company": "masonite-international-corp-walkerton-111",
-"kind": "warn",
-"amount": 73,
-"title": "WARN plant closing at Masonite Corporation, South Bend: 73 workers affected",
-"source": "https://www.in.gov/dwd/warn-notices/current-warn-notices/"
-},
-{
-"date": "2009-07-30",
-"company": "mann-hummel-usa-inc-south-bend-1827",
-"kind": "warn",
-"amount": 57,
-"title": "WARN plant closing at MANN+HUMMEL USA Inc., South Bend: 57 workers affected",
-"source": "https://www.in.gov/dwd/warn-notices/current-warn-notices/"
-},
-{
-"date": "2009-07-23",
-"company": "valmont-industries-inc-elkhart-58027",
-"kind": "warn",
-"amount": 15,
-"title": "WARN layoff at Valmont Industries, Elkhart: 15 workers affected",
-"source": "https://www.in.gov/dwd/warn-notices/current-warn-notices/"
-},
-{
-"date": "2009-06-03",
-"company": "philips-products-inc-elkhart-3221",
-"kind": "warn",
-"amount": 8,
-"title": "WARN plant closing at Philips Products, Bristol: 8 workers affected",
-"source": "https://www.in.gov/dwd/warn-notices/current-warn-notices/"
-},
-{
-"date": "2009-06-03",
-"company": "philips-products-inc-elkhart-3221",
-"kind": "warn",
-"amount": 249,
-"title": "WARN plant closing at Philips Products, Elkhart: 249 workers affected",
-"source": "https://www.in.gov/dwd/warn-notices/current-warn-notices/"
-},
-{
-"date": "2009-06-02",
-"company": "contech-usa-llc-pierceton-5",
-"kind": "warn",
-"amount": 59,
-"title": "WARN layoff at Contech, Pierceton: 59 workers affected",
-"source": "https://www.in.gov/dwd/warn-notices/current-warn-notices/"
-},
-{
-"date": "2009-04-15",
-"company": "valmont-industries-inc-elkhart-58027",
-"kind": "warn",
-"amount": 70,
-"title": "WARN layoff at Valmont Industries, Elkhart: 70 workers affected",
-"source": "https://www.in.gov/dwd/warn-notices/current-warn-notices/"
-},
-{
-"date": "2009-03-30",
-"company": "smoker-craft-inc-new-paris-68143",
-"kind": "warn",
-"amount": 69,
-"title": "WARN layoff at Smoker Craft, Inc, New Paris: 69 workers affected",
-"source": "https://www.in.gov/dwd/warn-notices/current-warn-notices/"
-},
-{
-"date": "2009-03-30",
-"company": "smoker-craft-inc-new-paris-68143",
-"kind": "warn",
-"amount": 25,
-"title": "WARN plant closing at Smoker Craft, Inc, Topeka: 25 workers affected",
-"source": "https://www.in.gov/dwd/warn-notices/current-warn-notices/"
-},
-{
-"date": "2009-03-30",
-"company": "graphic-packaging-international-inc-la-porte-115",
-"kind": "warn",
-"amount": 151,
-"title": "WARN plant closing at Graphic Packaging, Muncie: 151 workers affected",
-"source": "https://www.in.gov/dwd/warn-notices/current-warn-notices/"
-},
-{
-"date": "2009-03-20",
-"company": "dexter-axle-co-elkhart-222",
-"kind": "warn",
-"amount": 119,
-"title": "WARN plant closing at Dexter Axle, Elkhart: 119 workers affected",
-"source": "https://www.in.gov/dwd/warn-notices/current-warn-notices/"
-},
-{
-"date": "2009-03-03",
-"company": "monaco-coach-corp-elkhart-2700",
-"kind": "warn",
-"amount": 515,
-"title": "WARN plant closing at Monaco Coach Corporation, Wakarusa, Milford, Warsaw: 515 workers affected",
-"source": "https://www.in.gov/dwd/warn-notices/current-warn-notices/"
-},
-{
-"date": "2009-02-27",
-"company": "vibracoustic-north-america-ligonier-1497",
-"kind": "warn",
-"amount": 54,
-"title": "WARN layoff at Vibracoustic North America (Fruedenburg-NOK), Ligonier: 54 workers affected",
-"source": "https://www.in.gov/dwd/warn-notices/current-warn-notices/"
-},
-{
-"date": "2009-02-02",
-"company": "keystone-rv-co-goshen-2642",
-"kind": "warn",
-"amount": 265,
-"title": "WARN plant closing at Keystone RV Company, Goshen Howe: 265 workers affected",
-"source": "https://www.in.gov/dwd/warn-notices/current-warn-notices/"
-},
-{
-"date": "2009-01-16",
-"company": "liberty-homes-inc-syracuse-203",
-"kind": "warn",
-"amount": 81,
-"title": "WARN plant closing at Liberty Homes, Inc, Syracuse: 81 workers affected",
-"source": "https://www.in.gov/dwd/warn-notices/current-warn-notices/"
-},
-{
-"date": "2008-12-09",
-"company": "dalton-corp-warsaw-3755",
-"kind": "warn",
-"amount": 281,
-"title": "WARN plant closing at Dalton Corporation, Kendallville: 281 workers affected",
-"source": "https://www.in.gov/dwd/warn-notices/current-warn-notices/"
-},
-{
-"date": "2008-12-01",
-"company": "dexter-axle-co-elkhart-222",
-"kind": "warn",
-"amount": 164,
-"title": "WARN plant closing at Dexter Axle Company, North Manchester: 164 workers affected",
-"source": "https://www.in.gov/dwd/warn-notices/current-warn-notices/"
-},
-{
-"date": "2008-11-17",
-"company": "starcraft-rv-inc-topeka-536",
-"kind": "warn",
-"amount": 244,
-"title": "WARN plant closing at Starcraft RV, Inc., Topeka: 244 workers affected",
-"source": "https://www.in.gov/dwd/warn-notices/current-warn-notices/"
-},
-{
 "date": "2008-11-08",
 "company": "flexible",
 "kind": "federal",
 "amount": 1087184,
 "title": "Federal contract from Department of Defense (Department of the Navy): Cases and bases",
 "source": "https://www.usaspending.gov/award/CONT_AWD_N0017409C0008_9700_-NONE-_-NONE-"
-},
-{
-"date": "2008-11-05",
-"company": "kinro-goshen-1724",
-"kind": "warn",
-"amount": 143,
-"title": "WARN layoff at Kinro, Inc, Bristol: 143 workers affected",
-"source": "https://www.in.gov/dwd/warn-notices/current-warn-notices/"
-},
-{
-"date": "2008-10-08",
-"company": "scott-brass-inc-mishawaka-700",
-"kind": "warn",
-"amount": 107,
-"title": "WARN layoff at Scott Brass Inc., Mishawaka & New Carlisle: 107 workers affected",
-"source": "https://www.in.gov/dwd/warn-notices/current-warn-notices/"
-},
-{
-"date": "2008-09-10",
-"company": "flexsteel-industries-inc-new-paris-72104",
-"kind": "warn",
-"amount": 157,
-"title": "WARN plant closing at Flexsteel, New Paris: 157 workers affected",
-"source": "https://www.in.gov/dwd/warn-notices/current-warn-notices/"
-},
-{
-"date": "2008-08-01",
-"company": "sundowner-trailers-inc-elkhart-1110",
-"kind": "warn",
-"amount": 80,
-"title": "WARN plant closing at Sundowner Trailers, Elkhart: 80 workers affected",
-"source": "https://www.in.gov/dwd/warn-notices/current-warn-notices/"
-},
-{
-"date": "2008-07-17",
-"company": "monaco-coach-corp-elkhart-2700",
-"kind": "warn",
-"amount": 1430,
-"title": "WARN plant closing at Monaco Coach, Elkhart & Nappanee: 1430 workers affected",
-"source": "https://www.in.gov/dwd/warn-notices/current-warn-notices/"
 },
 {
 "date": "2007-10-04",

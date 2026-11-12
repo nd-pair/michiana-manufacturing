@@ -8,18 +8,15 @@ Sources, each optional:
   (phase, agency, title, amount, year).
 - Federal contracts and grants of $250,000 or more, from USAspending.gov, for recipients in the
   Michiana counties that match a company in the map (start date, agency, description, amount).
-- Indiana WARN notices (plant closings and mass layoffs) from the Department of Workforce
-  Development's notice pages, matched to companies by name.
-Hand-written events stay in data/events.toml; the build merges both.
+Each award becomes one dated event on the timeline.
 """
-import csv, datetime, html, io, json, re, sys, time, urllib.request
+import csv, datetime, io, json, sys, time, urllib.request
 from common import P, COUNTIES, companies, matcher
 sys.path.insert(0, P("scripts"))
 import pull_sbir
 
 UA = {"User-Agent": "michiana-manufacturing/1.0 (github.com/nd-pair/michiana-manufacturing)"}
 USA = "https://api.usaspending.gov/api/v2/search/spending_by_award/"
-WARN_PAGES = ["https://www.in.gov/dwd/warn-notices/current-warn-notices/"]
 
 def sbir_events(cs, match, by_domain):
     out = []
@@ -74,39 +71,10 @@ def federal_events(cs, match):
             page += 1
     return out
 
-def warn_events(cs, match):
-    out = []
-    for url in WARN_PAGES:
-        try:
-            with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=60) as r:
-                text = r.read().decode("utf-8", "replace")
-        except Exception as e:
-            print("WARN page skipped:", url, e); continue
-        headers = [html.unescape(re.sub(r"<[^>]+>", " ", h)).strip().lower() for h in re.findall(r"<th[^>]*>(.*?)</th>", text, flags=re.S)]
-        col = lambda name: next((i for i, h in enumerate(headers) if name in h), None)
-        iname, icity, inum, idate, itype = col("company"), col("city"), col("affected"), col("notice date"), col("notice type")
-        for tr in re.findall(r"<tr[^>]*>(.*?)</tr>", text, flags=re.S):
-            cells = [re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", c))).strip() for c in re.findall(r"<td[^>]*>(.*?)</td>", tr, flags=re.S)]
-            if len(cells) < 4:
-                continue
-            get = lambda i, d="": cells[i] if i is not None and i < len(cells) else d
-            name, city, num, date, ntype = get(iname, cells[0]), get(icity), get(inum), get(idate), get(itype)
-            cid = match(name, city)
-            if not cid:
-                continue
-            m = re.match(r"(\d{1,2})/(\d{1,2})/(\d{2,4})", date)
-            if not m:
-                continue
-            iso = "%s-%02d-%02d" % (m.group(3) if len(m.group(3)) == 4 else "20" + m.group(3), int(m.group(1)), int(m.group(2)))
-            what = {"CL": "plant closing", "LO": "layoff"}.get(ntype.strip().upper(), "notice")
-            out.append({"date": iso, "company": cid, "kind": "warn", "amount": int(num) if num.isdigit() else None,
-                        "title": "WARN %s at %s, %s%s" % (what, name, city, (": %s workers affected" % num) if num.isdigit() else ""), "source": url})
-    return out
-
 def main():
     cs = companies(); match = matcher(cs); by_domain = {pull_sbir.domain(c["website"]): c["_id"] for c in cs if c.get("website")}
     events = []
-    for fn, args in ((sbir_events, (cs, match, by_domain)), (federal_events, (cs, match)), (warn_events, (cs, match))):
+    for fn, args in ((sbir_events, (cs, match, by_domain)), (federal_events, (cs, match))):
         try:
             got = fn(*args); print("%s: %d events" % (fn.__name__, len(got))); events += got
         except Exception as e:

@@ -31,7 +31,7 @@ jobs:
       - name: SBIR/STTR awards (SBIR.gov bulk file)
         continue-on-error: true
         run: python3 scripts/pull_sbir.py
-      - name: Timeline events (SBIR awards, federal awards, Indiana WARN notices)
+      - name: Timeline events (SBIR awards, federal awards)
         continue-on-error: true
         run: python3 scripts/pull_events.py
       - name: Manufacturing employment by county (BLS QCEW)
