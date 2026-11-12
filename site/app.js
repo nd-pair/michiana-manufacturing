@@ -128,13 +128,22 @@ place(label("SOUTH BEND–ELKHART","region",{weight:700,cx:0.5}),LATC-0.28,LONC+
 
 /* Notre Dame Main Building: schematic, ten times its footprint, compass-oriented, shown only at the closest zoom */
 const dome=(function(){const g=new THREE.Group(),brick=new THREE.MeshStandardMaterial({color:0xd8c48f,roughness:0.85}),trim=new THREE.MeshStandardMaterial({color:0xf2ead6,roughness:0.7});
-  const gold=new THREE.MeshStandardMaterial({color:0xe3b53a,metalness:0.95,roughness:0.22,emissive:0x5a3f00,emissiveIntensity:0.5}),slate=new THREE.MeshStandardMaterial({color:0x5b6670,roughness:0.9});
+  /* polished gold: metal only shines when it has something to reflect, so the gold gets its own small studio
+     environment (sky gradient, warm horizon, bright soft-box highlights) prefiltered for image-based lighting */
+  const env=(function(){const cv=document.createElement("canvas");cv.width=1024;cv.height=512;const x=cv.getContext("2d");
+    const g=x.createLinearGradient(0,0,0,512);g.addColorStop(0,"#ffffff");g.addColorStop(0.3,"#e4eeff");g.addColorStop(0.48,"#fff6dc");g.addColorStop(0.53,"#ffd98a");g.addColorStop(0.62,"#d9a441");g.addColorStop(1,"#8a6424");
+    x.fillStyle=g;x.fillRect(0,0,1024,512);
+    for(const [cx,cy,r,a] of [[180,120,70,1],[560,90,55,0.95],[860,150,80,1],[360,210,40,0.8],[720,230,35,0.7],[90,330,60,0.6],[620,360,70,0.55]]){const rg=x.createRadialGradient(cx,cy,0,cx,cy,r);rg.addColorStop(0,"rgba(255,255,255,"+a+")");rg.addColorStop(1,"rgba(255,255,255,0)");x.fillStyle=rg;x.fillRect(cx-r,cy-r,2*r,2*r)}
+    const t=new THREE.CanvasTexture(cv);t.mapping=THREE.EquirectangularReflectionMapping;t.encoding=THREE.sRGBEncoding;
+    const pm=new THREE.PMREMGenerator(renderer);const out=pm.fromEquirectangular(t).texture;pm.dispose();t.dispose();return out})();
+  const gold=new THREE.MeshStandardMaterial({color:0xffc94a,metalness:1,roughness:0.1,envMap:env,envMapIntensity:2.4,emissive:0x5a3c00,emissiveIntensity:0.22}),slate=new THREE.MeshStandardMaterial({color:0x5b6670,roughness:0.9});
   const add=(geo,mat,x,y,z)=>{const m=new THREE.Mesh(geo,mat);m.position.set(x,y,z);g.add(m)};const B=0.0016;
   add(new THREE.BoxGeometry(1.9*B,0.015*B,1.1*B),new THREE.MeshStandardMaterial({color:0x1d4a2e,roughness:1}),0,0.005*B,0);
   add(new THREE.BoxGeometry(1.5*B,0.30*B,0.34*B),brick,0,0.15*B,0.2*B);add(new THREE.BoxGeometry(1.5*B,0.03*B,0.36*B),slate,0,0.315*B,0.2*B);
   add(new THREE.BoxGeometry(0.46*B,0.46*B,0.46*B),brick,0,0.23*B,0.2*B);add(new THREE.BoxGeometry(0.50*B,0.03*B,0.50*B),trim,0,0.47*B,0.2*B);
   add(new THREE.CylinderGeometry(0.17*B,0.19*B,0.20*B,24),trim,0,0.58*B,0.2*B);add(new THREE.SphereGeometry(0.19*B,32,16,0,Math.PI*2,0,Math.PI/2),gold,0,0.68*B,0.2*B);
   add(new THREE.CylinderGeometry(0.045*B,0.05*B,0.09*B,12),gold,0,0.91*B,0.2*B);add(new THREE.CylinderGeometry(0.012*B,0.025*B,0.08*B,8),gold,0,0.99*B,0.2*B);add(new THREE.SphereGeometry(0.02*B,8,8),gold,0,1.04*B,0.2*B);
+  const glint=new THREE.PointLight(0xfff2c0,1.4,B*8);glint.position.set(-0.6*B,1.6*B,1.2*B);g.add(glint);
   place(g,DATA.landmark.lat,DATA.landmark.lon,lift(1.8),{mode:"map"});
   const lo=DATA.landmark.lon*RAD,east=new THREE.Vector3(Math.cos(lo),0,-Math.sin(lo)),upv=P(DATA.landmark.lat,DATA.landmark.lon).normalize(),south=new THREE.Vector3().crossVectors(east,upv).normalize();
   g.quaternion.setFromRotationMatrix(new THREE.Matrix4().makeBasis(east,upv,south));
@@ -201,7 +210,7 @@ function applyTheme(){TH=THEMES[themeName()];scene.background.set(TH.bg);hemi.co
   paintLakes();labels.forEach(drawLabel);paintBars();if(typeof renderQcew==="function")renderQcew()}
 
 /* ---------- view: one continuous zoom on a true-scale globe ---------- */
-const D_MIN=0.012, D_MAX=1.35, D_HOME=0.26;
+const D_MIN=0.005, D_MAX=1.35, D_HOME=0.26;            // 0.005 ≈ 3 km up, close enough to see the dome
 const view={lat:LATC,lon:LONC,dist:D_HOME}, home={...view};
 const tiltFor=d=>0.58*(1-THREE.MathUtils.smoothstep(Math.log(d),Math.log(0.12),Math.log(1.3)))+0.08;
 function layout(){const d=view.dist,screen=d/D_HOME;
@@ -235,7 +244,7 @@ let pinch=null;box.addEventListener("touchstart",e=>{if(e.touches.length===2)pin
 box.addEventListener("touchmove",e=>{if(e.touches.length===2&&pinch){const d=Math.hypot(e.touches[0].clientX-e.touches[1].clientX,e.touches[0].clientY-e.touches[1].clientY);zoomBy(pinch/d);pinch=d}},{passive:true});
 document.getElementById("zin").onclick=()=>zoomBy(0.7);document.getElementById("zout").onclick=()=>zoomBy(1/0.7);
 document.getElementById("reset").onclick=()=>flyTo(home.lat,home.lon,home.dist);
-document.getElementById("campus").onclick=()=>flyTo(DATA.landmark.lat,DATA.landmark.lon,0.018);
+document.getElementById("campus").onclick=()=>flyTo(DATA.landmark.lat,DATA.landmark.lon,0.008);
 function hover(e){const b=pick(e);const id=b&&b.c?b.c.id:null;if(id!==hoverId){hoverId=id;paintBars()}
   const r=renderer.domElement.getBoundingClientRect();
   if(b&&b.cell){b.mesh.getMatrixAt(b.i,_m);const top=new THREE.Vector3(0,1,0).applyMatrix4(_m).applyMatrix4(globe.matrixWorld).project(camera);
