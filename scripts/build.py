@@ -8,7 +8,7 @@ Dame theme chrome from site/partials/), docs/data.js (everything the map needs) 
 site/app.js and site/app.css. The GitHub Action runs the same command on every push.
 Needs Python 3.11 or newer (for tomllib); nothing else.
 """
-import datetime, json, os, sys, tomllib, shutil, re
+import datetime, json, os, sys, tomllib, shutil, re, hashlib
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 P = lambda *a: os.path.join(ROOT, *a)
@@ -108,6 +108,8 @@ def main():
         "landmark": {"name": places["view"]["landmark_name"], "lat": places["view"]["landmark_lat"], "lon": places["view"]["landmark_lon"]},
         "built": datetime.date.today().isoformat(),
     }
+    # a content hash in the asset URLs, so browsers and the Pages CDN never serve a stale script with a new page
+    stamp = hashlib.sha1((json.dumps(data, sort_keys=True) + read("site", "app.js") + read("site", "app.css")).encode()).hexdigest()[:10]
     os.makedirs(P("docs"), exist_ok=True)
     with open(P("docs", "data.js"), "w", encoding="utf-8") as fh:
         fh.write("window.MM_DATA=" + json.dumps(data, separators=(",", ":")) + ";\n")
@@ -117,7 +119,7 @@ def main():
     title = "Michiana Manufacturing"
     desc = ("The manufacturing and technology companies of the South Bend–Elkhart region on one map: "
             "%d companies, by sector, product and headcount." % len(companies))
-    page = (read("site", "partials", "head.html").replace("{{TITLE}}", title).replace("{{DESCRIPTION}}", desc).replace("{{CANONICAL}}", BASE)
+    page = (read("site", "partials", "head.html").replace("{{TITLE}}", title).replace("{{DESCRIPTION}}", desc).replace("{{CANONICAL}}", BASE).replace("{{BUILD}}", stamp)
             + read("site", "partials", "sprite.svg").strip() + "\n"
             + read("site", "partials", "skiplinks.html").strip() + "\n"
             + '<div class="wrapper page--full-width nav-top--false" id="wrapper">\n'
@@ -126,7 +128,7 @@ def main():
             + read("site", "partials", "footer.html").replace("{{YEAR}}", str(datetime.date.today().year)) + "\n"
             + "</div><!-- .wrapper -->\n"
             + read("site", "partials", "globalmenu.html").replace("{{MOBILENAV}}", nav_html(mobile=True)) + "\n"
-            + read("site", "partials", "tail.html"))
+            + read("site", "partials", "tail.html").replace("{{BUILD}}", stamp))
     with open(P("docs", "index.html"), "w", encoding="utf-8") as fh:
         fh.write(page)
     open(P("docs", ".nojekyll"), "w").close()
