@@ -80,9 +80,11 @@ Beyond the map, the page carries:
   (`scripts/pull_fda.py` → `data/fda.json`), shown as a badge and a filter. Other certifications
   (AS9100, ISO 9001, Nadcap, CMMC) go in a company file as `certifications = ["AS9100", ...]`
   from the company's own public statements; the registries themselves are not open for bulk use.
-- **SBIR/STTR awards.** SBIR.gov's API rejects scripts, so `scripts/pull_sbir.py` reads a CSV
-  exported by hand from https://www.sbir.gov/awards (State = Indiana, then Michigan) and writes
-  `data/sbir.json`; awards appear in the detail panel once that file exists.
+- **SBIR/STTR awards.** `scripts/pull_sbir.py` downloads SBIR.gov's public bulk award file
+  (every award, refreshed monthly, about 65 MB), keeps awards to companies in the region's cities,
+  matches them by website domain and then by name, and writes `data/sbir.json`; awards appear in
+  the detail panel and the CSV export. Local SBIR firms that are not yet in the map are listed in
+  that file for review. The script also accepts a CSV exported by hand from sbir.gov/awards.
 - **Capabilities.** `data/capabilities.toml` maps NAICS prefixes and product keywords to process
   capabilities (casting, machining, molding, circuit boards, ...). The panel counts companies per
   capability, names the largest site, flags capabilities with one or no company as a gap, and
@@ -100,7 +102,7 @@ Beyond the map, the page carries:
 ## Keeping the data current
 
 [`refresh-data.yml`](.github/workflows/refresh-data.yml) runs on the 2nd of every month (and on
-demand from the Actions tab): it imports new HIFLD facilities, re-pulls USAspending, openFDA and
+demand from the Actions tab): it imports new HIFLD facilities, re-pulls USAspending, SBIR.gov, openFDA and
 QCEW, geocodes any file with an address but no coordinates, rebuilds and commits. Each source is
 optional, so an outage at one does not block the others. Hand-written files are never touched.
 
@@ -134,6 +136,6 @@ The page uses the University's web theme (NDT4) for its frame, as the PAIR site 
 Company descriptions, products and headcounts: the HIFLD General Manufacturing Facilities
 dataset (U.S. DHS, public domain) for most entries, and the companies' own websites, public
 filings, press and business directories for the rest; headcounts are approximate and dated.
-Federal awards: USAspending.gov. Device registrations: openFDA. Employment: BLS QCEW. County boundaries: U.S.
+Federal awards: USAspending.gov. SBIR/STTR: SBIR.gov. Device registrations: openFDA. Employment: BLS QCEW. County boundaries: U.S.
 Census Bureau cartographic boundary files. Shorelines: Natural Earth. Code: MIT license (see
 LICENSE); company data is factual public information.
