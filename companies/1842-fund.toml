@@ -1,0 +1,17 @@
+# 1842 Fund and 1842 Studio
+# Investor; public sources only (own site, regional news). See README.md for the fields.
+
+name = "1842 Fund and 1842 Studio"
+kind = "investor"
+city = "South Bend"
+state = "IN"
+address = "1400 E Angela Blvd, South Bend, IN 46617"
+lat = 41.69313
+lon = -86.22930
+website = "https://ideacenter.nd.edu"
+
+sector = "Capital & anchors"
+products = ["University venture fund", "Venture studio"]
+
+
+description = "Venture fund and on-campus venture studio announced in 2023 with the IDEA Center ($17.5M first close toward $35M), investing in startups emerging from Notre Dame and building software companies aimed at health, poverty and sustainability; managed by a partner firm with an office inside the IDEA Center."

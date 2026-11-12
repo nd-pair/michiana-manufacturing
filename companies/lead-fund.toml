@@ -1,0 +1,17 @@
+# LEAD Fund (Leighton Elevate Angel Development Fund)
+# Investor; public sources only (own site, regional news). See README.md for the fields.
+
+name = "LEAD Fund (Leighton Elevate Angel Development Fund)"
+kind = "investor"
+city = "South Bend"
+state = "IN"
+address = "202 S Michigan St, Suite 910, South Bend, IN 46601"
+lat = 41.67483
+lon = -86.24944
+website = "https://elevateventures.com"
+
+sector = "Capital & anchors"
+products = ["Seed fund", "Angel network"]
+
+
+description = "$1M seed fund launched in 2021 by the Judd Leighton Foundation with Elevate Ventures, writing $50K to $200K checks for high-growth startups headquartered in Elkhart, Marshall or St. Joseph counties with matching co-investment; investments include Cobomba and HelloFrom."

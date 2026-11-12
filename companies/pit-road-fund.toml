@@ -1,0 +1,17 @@
+# Notre Dame Pit Road Fund
+# Investor; public sources only (own site, regional news). See README.md for the fields.
+
+name = "Notre Dame Pit Road Fund"
+kind = "investor"
+city = "South Bend"
+state = "IN"
+address = "1400 E Angela Blvd, South Bend, IN 46617"
+lat = 41.69313
+lon = -86.22930
+website = "https://ideacenter.nd.edu"
+
+sector = "Capital & anchors"
+products = ["University venture fund", "Venture capital"]
+
+
+description = "Industry-agnostic pre-seed to Series A fund established in 2018 for startups from Notre Dame faculty, students, alumni and the South Bend–Elkhart community vetted by the IDEA Center; more than $22M raised and reported fully deployed, with portfolio companies including SIMBA Chain."

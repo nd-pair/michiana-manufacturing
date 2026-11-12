@@ -1,0 +1,17 @@
+# LINC, Local Investor Network for Capital
+# Investor; public sources only (own site, regional news). See README.md for the fields.
+
+name = "LINC, Local Investor Network for Capital"
+kind = "investor"
+city = "South Bend"
+state = "IN"
+address = "635 S Lafayette Blvd, Suite 123, South Bend, IN 46601"
+lat = 41.66828
+lon = -86.25542
+website = "https://startupsouthbendelkhart.com/access-to-capital/"
+
+sector = "Capital & anchors"
+products = ["Angel network"]
+
+
+description = "Angel network of accredited investors convened by the South Bend–Elkhart Regional Partnership in 2026 to put local capital into early-stage and acquisition-stage companies in St. Joseph, Elkhart and Marshall counties in Indiana and Berrien and Cass counties in Michigan; each deal runs through its own vehicle, with a $20K minimum per investor."

@@ -1,0 +1,14 @@
+# AcceLINX (OrthoWorx)
+# Investor; public sources only (own site, regional news). See README.md for the fields.
+
+name = "AcceLINX (OrthoWorx)"
+kind = "investor"
+city = "Warsaw"
+state = "IN"
+website = "https://orthoworxindiana.com"
+
+sector = "Capital & anchors"
+products = ["Accelerator", "Medical devices"]
+
+
+description = "Musculoskeletal and orthopedic device accelerator launched by OrthoWorx in 2016 with state, city and county funding, vetting startups and pairing them with investment partners, mostly on a fee-for-service basis with a limited number of equity agreements."

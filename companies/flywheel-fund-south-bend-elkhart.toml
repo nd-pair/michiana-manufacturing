@@ -1,0 +1,14 @@
+# Flywheel Fund, South Bend–Elkhart chapter
+# Investor; public sources only (own site, regional news). See README.md for the fields.
+
+name = "Flywheel Fund, South Bend–Elkhart chapter"
+kind = "investor"
+city = "South Bend"
+state = "IN"
+website = "https://flywheelfund.vc"
+
+sector = "Capital & anchors"
+products = ["Angel network", "Seed fund"]
+
+
+description = "Member-managed angel fund run from Bloomington's The Mill, whose South Bend–Elkhart chapter launched in 2023; accredited members pool capital from $10K each to make initial investments of about $75K in early-stage Indiana technology startups."

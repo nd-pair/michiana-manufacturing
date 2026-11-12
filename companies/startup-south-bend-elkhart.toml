@@ -1,0 +1,17 @@
+# Startup South Bend–Elkhart
+# Investor; public sources only (own site, regional news). See README.md for the fields.
+
+name = "Startup South Bend–Elkhart"
+kind = "anchor"
+city = "South Bend"
+state = "IN"
+address = "635 S Lafayette Blvd, Suite 123, South Bend, IN 46601"
+lat = 41.66828
+lon = -86.25542
+website = "https://startupsouthbendelkhart.com"
+
+sector = "Capital & anchors"
+products = ["Startup programs", "Entrepreneurship hub"]
+
+
+description = "Entrepreneurship program of the South Bend–Elkhart Regional Partnership: proof-of-concept grants, the Founder Fellowship, the Momentum Entrepreneurship Hub downtown, and the LINC angel network."

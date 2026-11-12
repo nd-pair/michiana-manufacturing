@@ -1,0 +1,20 @@
+# Heartland Ventures
+# Investor; public sources only (own site, regional news). See README.md for the fields.
+
+name = "Heartland Ventures"
+kind = "investor"
+city = "South Bend"
+state = "IN"
+address = "112 W Jefferson Blvd, Suite 200, South Bend, IN 46601"
+lat = 41.67459
+lon = -86.25103
+website = "https://heartlandvc.com"
+
+sector = "Capital & anchors"
+products = ["Venture capital"]
+
+employees = 9
+employees_scope = "company"
+employees_note = "team size reported 2022"
+
+description = "Seed and Series A venture fund founded in South Bend in 2016 that co-invests $500K to $2M and connects startups with a network of Midwestern industrial operators in manufacturing, logistics, construction and real estate. Fund I $15M (2017), Fund II $52M (2022), Fund III targeting $60M (first close 2026); headquarters now listed in Columbus, Ohio, with the South Bend office retained."

@@ -1,0 +1,17 @@
+# Schurz Communications
+# Investor; public sources only (own site, regional news). See README.md for the fields.
+
+name = "Schurz Communications"
+kind = "investor"
+city = "Mishawaka"
+state = "IN"
+address = "1301 E Douglas Rd, Suite 200, Mishawaka, IN 46545"
+lat = 41.70947
+lon = -86.17906
+website = "https://schurz.com/investments"
+
+sector = "Capital & anchors"
+products = ["Corporate venture", "Venture capital"]
+
+
+description = "Family-owned broadband and cloud company founded in 1872 that invests patient early-stage capital in revenue-generating companies, with holdings including Heartland Ventures, IrishAngels, Aunalytics, Data Realty, Jebbit and Niche."

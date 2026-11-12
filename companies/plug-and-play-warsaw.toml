@@ -1,0 +1,17 @@
+# Plug and Play Warsaw
+# Investor; public sources only (own site, regional news). See README.md for the fields.
+
+name = "Plug and Play Warsaw"
+kind = "investor"
+city = "Warsaw"
+state = "IN"
+address = "345 E Main St, Warsaw, IN 46580"
+lat = 41.23917
+lon = -85.85475
+website = "https://www.plugandplaytechcenter.com"
+
+sector = "Capital & anchors"
+products = ["Accelerator", "Venture capital", "Medical devices"]
+
+
+description = "Orthopedics and medical-technology accelerator opened in 2024 on the Zimmer Biomet campus, running twelve-week cohorts with corporate partners including Zimmer Biomet, Paragon Medical, OrthoPediatrics and Parkview Health; the parent firm's venture arm invests in cohort companies."
