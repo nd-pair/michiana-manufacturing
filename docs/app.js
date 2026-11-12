@@ -253,8 +253,8 @@ function renderQcew(){const q=DATA.qcew||{};const keys=Object.keys(q);if(!keys.l
     svg+=`<polyline class="ln ${ci<0?"dim":""}" points="${pts.join(" ")}" stroke="${ci<0?"#627386":cols[ci]}"/>`;
     if(ci>=0){const ly=years.filter(y=>q[k].years[y]).pop();svg+=`<text class="lbl" x="${X(ly)-4}" y="${Y(q[k].years[ly].emp)-5}" text-anchor="end" fill="${cols[ci]}">${esc(q[k].name.replace(", IN",""))} ${fmtK(q[k].years[ly].emp)}</text>`}}
   svg+=`</svg>`;document.getElementById("qcew").innerHTML=svg;document.getElementById("qcewnote").textContent=`BLS QCEW, private, annual averages, ${y0}–${y1}`}
-const EVKINDS=[["all","All"],["federal","Federal awards"],["sbir","SBIR/STTR"],["warn","WARN notices"],["announcement","Announcements"]];
-const evKindOf=e=>e.kind==="federal"||e.kind==="sbir"||e.kind==="warn"?e.kind:"announcement";
+const EVKINDS=[["all","All"],["federal","Federal awards"],["sbir","SBIR/STTR"]];
+const evKindOf=e=>e.kind;
 function renderEvents(){const vis=new Set(C.filter(visible).map(c=>c.id));
   let evs=DATA.events.filter(e=>!e.company||vis.has(e.company));
   const kindCounts=Object.fromEntries(EVKINDS.map(([k])=>[k,k==="all"?evs.length:evs.filter(e=>evKindOf(e)===k).length]));
@@ -262,12 +262,12 @@ function renderEvents(){const vis=new Set(C.filter(visible).map(c=>c.id));
   const years={};for(const e of evs){const y=+String(e.date).slice(0,4);if(y)years[y]=(years[y]||0)+1}
   const ys=Object.keys(years).map(Number).sort();const ymax=Math.max(1,...Object.values(years));
   if(st.evYear)evs=evs.filter(e=>+String(e.date).slice(0,4)===st.evYear);
-  const srt=st.sort.ev,amt=e=>(e.kind!=="warn"||st.evKind==="warn")?(e.amount||0):0;evs=evs.slice().sort((a,b)=>{const r=srt.key==="amount"?(amt(a)-amt(b)):String(a.date).localeCompare(String(b.date));return r*srt.dir});
+  const srt=st.sort.ev;evs=evs.slice().sort((a,b)=>{const r=srt.key==="amount"?((a.amount||0)-(b.amount||0)):String(a.date).localeCompare(String(b.date));return r*srt.dir});
   document.getElementById("evcount").textContent=`${evs.length} events for the companies shown`;
   document.getElementById("evkinds").innerHTML=EVKINDS.map(([k,l])=>`<button type="button" class="mm-chip" data-evkind="${k}" aria-pressed="${st.evKind===k}">${l} <span class="mm-count">${kindCounts[k]}</span></button>`).join("");
   document.getElementById("evyears").innerHTML=ys.length?ys.map(y=>`<button type="button" data-evyear="${y}" aria-pressed="${st.evYear===y}" title="${years[y]} events in ${y}"><i style="height:${Math.max(2,Math.round(34*years[y]/ymax))}px"></i><span>${String(y).slice(2)}</span></button>`).join(""):"";
   const shown=evs.slice(0,60+st.evMore);
-  document.getElementById("events").innerHTML=HH("ev",[{key:"date",label:"date"},{key:"amount",label:"$ / workers",title:"amount"}])+(shown.map(e=>{const c=e.company?byId[e.company]:null;const amt=e.amount?(e.kind==="warn"?e.amount+" workers":fmtUSD(e.amount)):"";
+  document.getElementById("events").innerHTML=HH("ev",[{key:"date",label:"date"},{key:"amount",label:"$",title:"amount"}])+(shown.map(e=>{const c=e.company?byId[e.company]:null;const amt=e.amount?fmtUSD(e.amount):"";
     return `<div class="mm-ev" data-id="${esc(e.company||"")}"><span class="d">${esc(String(e.date))}</span><span class="t">${c?`<span class="c">${esc(c.name)}</span> · `:""}${esc(e.title)}<span class="k">${esc(e.kind)}</span>${e.source?` <a href="${esc(e.source)}" rel="noopener">source</a>`:""}</span><span class="a">${esc(amt)}</span></div>`}).join("")||`<p class="mm-count">No events for this selection.</p>`)
     +(evs.length>shown.length?`<button type="button" class="mm-chip mm-more" id="evmore">Show ${Math.min(60,evs.length-shown.length)} more of ${evs.length}</button>`:"")}
 document.getElementById("events").addEventListener("click",e=>{if(e.target.closest("a"))return;const r=e.target.closest(".mm-ev");if(r&&r.dataset.id&&byId[r.dataset.id]){select(r.dataset.id);const c=byId[r.dataset.id];view.lat=c.lat;view.lon=c.lon;view.dist=Math.min(view.dist,0.12);applyView()}});
