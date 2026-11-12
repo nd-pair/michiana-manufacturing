@@ -14,7 +14,7 @@ import datetime, json, os, sys, tomllib, shutil, re, hashlib
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 P = lambda *a: os.path.join(ROOT, *a)
 BASE = "https://nd-pair.github.io/michiana-manufacturing/"
-NAV = [("index.html", "Map"), ("about.html", "About the data"), ("https://nd-pair.github.io/web/", "PAIR")]
+NAV = [("index.html", "Map"), ("about.html", "About the data")]
 GENERIC_DOMAINS = {"gmail.com", "yahoo.com", "hotmail.com", "aol.com", "outlook.com", "facebook.com", "linkedin.com", "comcast.net", "att.net", "sbcglobal.net", "msn.com", "google.com", "sites.google.com"}
 
 def read(*a):
