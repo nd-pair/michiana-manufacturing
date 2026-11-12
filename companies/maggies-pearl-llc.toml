@@ -1,0 +1,25 @@
+# Maggies Pearl LLC
+# Imported from SBIR.gov award data (public). Placed at the city center: small firms often list a home address.
+
+name = "Maggies Pearl LLC"
+kind = "company"
+city = "Sturgis"
+state = "MI"
+lat = 41.79922
+lon = -85.41915
+location_precision = "city"
+uei = "DZGEHEGC3BJ8"
+
+sector = "Software & services"
+products = ["SBIR/STTR research and development"]
+
+employees = 2
+employees_scope = "company"
+employees_year = 2022
+employees_quality = "reported"
+employees_note = "reported by the firm on its 2022 SBIR/STTR award"
+
+description = "SBIR/STTR awardee: 1 award from Department of Health and Human Services, 2022. Most recent: Targeting aldose reductase: A Phase IIb/III trial for the novel use of Epalrestat to treat Congenital Disorders of Glycosylation (PMM2-CDG)."
+
+source = "SBIR.gov award data"
+updated = "2026-11-11"

@@ -1,7 +1,7 @@
-# Berkel Co. (h Q)
+# Berkel Co. (HQ)
 # Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
 
-name = "Berkel Co. (h Q)"
+name = "Berkel Co. (HQ)"
 kind = "company"
 city = "South Bend"
 state = "IN"
@@ -16,7 +16,9 @@ naics = "333319"
 
 employees = 30
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Company Headquarters; Slicing Machines, Mixers, Tenderizers & Choppers. NAICS 333319: other commercial and service industry machinery manufacturing."
 

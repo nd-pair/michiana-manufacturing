@@ -8,7 +8,6 @@ state = "IN"
 address = "6595 East in 10, Knox, IN 46534"
 lat = 41.22954
 lon = -86.57132
-website = "https://not available"
 
 sector = "Metal"
 products = ["All Other Miscellaneous Fabricated Metal Product Manufacturing"]
@@ -16,7 +15,9 @@ naics = "332999"
 
 employees = 23
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Foil Laminated Lids. NAICS 332999: all other miscellaneous fabricated metal product manufacturing."
 

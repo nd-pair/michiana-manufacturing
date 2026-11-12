@@ -16,7 +16,9 @@ naics = "333415"
 
 employees = 500
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Corporate Headquarters & Refrigerated Cases, Walk-In Coolers for Supermarket, Convenience Stores, Restaurants, Wholesale. NAICS 333415: air-conditioning & warm air heating equipment & commercial and industrial refrigeration equipment mfg.."
 

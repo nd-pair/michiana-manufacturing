@@ -42,6 +42,14 @@
 "source": "https://www.usaspending.gov/award/CONT_AWD_W912CH26F0389_9700_W56HZV17D0071_9700"
 },
 {
+"date": "2026-07-13",
+"company": "trion-coatings-llc",
+"kind": "federal",
+"amount": 1800000,
+"title": "Federal contract from Department of Defense (Department of the Army): Trion- analogue test assets and g3 flow reactor implantation",
+"source": "https://www.usaspending.gov/award/CONT_AWD_W911PT26PA122_9700_-NONE-_-NONE-"
+},
+{
 "date": "2026-06-25",
 "company": "amgeneral",
 "kind": "federal",
@@ -450,6 +458,14 @@
 "source": "https://www.usaspending.gov/award/CONT_AWD_W912CH25F0404_9700_W56HZV22D0002_9700"
 },
 {
+"date": "2025-08-28",
+"company": "intrepid-phoenix-ventures-inc",
+"kind": "sbir",
+"amount": 149057,
+"title": "SBIR Phase I from Department of Defense: Generative AI for Addiction Recovery: Enhancing Personalized Engagement, Outcomes, and Predictive Relapse Prevention",
+"source": "https://www.sbir.gov/awards"
+},
+{
 "date": "2025-08-27",
 "company": "zimmer-holdings-inc-warsaw-1800",
 "kind": "federal",
@@ -530,6 +546,14 @@
 "source": "https://www.usaspending.gov/award/CONT_AWD_W912CH25F0328_9700_W56HZV23D0008_9700"
 },
 {
+"date": "2025-08-05",
+"company": "trion-coatings-llc",
+"kind": "sbir",
+"amount": 203677,
+"title": "STTR Phase I from Department of Defense: SAFE Chrome\u00ae: A Sustainable Replacement for Small Caliber Barrels",
+"source": "https://www.sbir.gov/awards"
+},
+{
 "date": "2025-07-30",
 "company": "amgeneral",
 "kind": "federal",
@@ -602,6 +626,14 @@
 "source": "https://www.usaspending.gov/award/CONT_AWD_123J1425C1358_12K2_-NONE-_-NONE-"
 },
 {
+"date": "2025-05-23",
+"company": "trion-coatings-llc",
+"kind": "federal",
+"amount": 1700000,
+"title": "Federal contract from Department of Defense (Department of the Army): 1 each - minor parts plating line",
+"source": "https://www.usaspending.gov/award/CONT_AWD_W911PT25P0065_9700_-NONE-_-NONE-"
+},
+{
 "date": "2025-05-13",
 "company": "amgeneral",
 "kind": "federal",
@@ -642,12 +674,28 @@
 "source": "https://www.usaspending.gov/award/CONT_AWD_SPRDL125F0114_9700_SPRDL124D0064_9700"
 },
 {
+"date": "2025-04-02",
+"company": "trion-coatings-llc",
+"kind": "federal",
+"amount": 1600000,
+"title": "Federal contract from Department of Defense (Department of the Army): Advanced electrode system",
+"source": "https://www.usaspending.gov/award/CONT_AWD_W911PT25P0019_9700_-NONE-_-NONE-"
+},
+{
 "date": "2025-03-27",
 "company": "amgeneral",
 "kind": "federal",
 "amount": 408419,
 "title": "Federal contract from Department of Defense (Department of the Army): Amg wd 0008-028 rev. 0 army vehicle maintenance",
 "source": "https://www.usaspending.gov/award/CONT_AWD_W912CH25F0186_9700_W56HZV23D0008_9700"
+},
+{
+"date": "2025-03-25",
+"company": "trion-coatings-llc",
+"kind": "federal",
+"amount": 1600000,
+"title": "Federal contract from Department of Defense (Department of the Army): Hex-trivalent chrome production materials conversion.",
+"source": "https://www.usaspending.gov/award/CONT_AWD_W911PT25P0034_9700_-NONE-_-NONE-"
 },
 {
 "date": "2025-03-20",
@@ -664,6 +712,22 @@
 "amount": 378253,
 "title": "Federal contract from Department of Defense (Defense Logistics Agency): 8511257539!turbo supercharger,",
 "source": "https://www.usaspending.gov/award/CONT_AWD_SPE7LX25F754N_9700_SPE7LX20D0222_9700"
+},
+{
+"date": "2025-03-14",
+"company": "third-coast-federal-inc",
+"kind": "federal",
+"amount": 1399316,
+"title": "Federal contract from Department of Defense (Department of the Navy): Base award for sttr phase ii topic af20c-tcso1",
+"source": "https://www.usaspending.gov/award/CONT_AWD_N0002425CT042_9700_-NONE-_-NONE-"
+},
+{
+"date": "2025-03-10",
+"company": "third-coast-federal-inc",
+"kind": "sbir",
+"amount": 699749,
+"title": "STTR Phase II from Department of Defense: AI Powered Market Intelligence & Tech Scouting Recommendation Engine to Drive DoD Discovery and Engagement of an Innovative Industrial Supply Chain",
+"source": "https://www.sbir.gov/awards"
 },
 {
 "date": "2025-03-04",
@@ -730,6 +794,22 @@
 "source": "https://www.usaspending.gov/award/CONT_AWD_W912CH25F0160_9700_W56HZV23D0008_9700"
 },
 {
+"date": "2025-02-01",
+"company": "nd-diagenomix-inc",
+"kind": "federal",
+"amount": 305000,
+"title": "Federal grant from National Science Foundation (National Science Foundation): Sttr phase i: design a just-in-time formative assessment algorithm for an adaptive education platform -the broader/commercial impact of this small business tech",
+"source": "https://www.usaspending.gov/award/ASST_NON_2451599_049"
+},
+{
+"date": "2025-01-17",
+"company": "nd-diagenomix-inc",
+"kind": "sbir",
+"amount": 305000,
+"title": "STTR Phase I from National Science Foundation: STTR Phase I:  Design a Just-In-Time Formative Assessment Algorithm for an Adaptive Education Platform",
+"source": "https://www.sbir.gov/awards"
+},
+{
 "date": "2024-12-30",
 "company": "amgeneral",
 "kind": "federal",
@@ -794,6 +874,14 @@
 "source": "https://www.usaspending.gov/award/CONT_AWD_SPE7LX25FA9E3_9700_SPE7LX24D0020_9700"
 },
 {
+"date": "2024-11-08",
+"company": "trekfed",
+"kind": "federal",
+"amount": 424631,
+"title": "Federal contract from Department of Defense (Department of the Air Force): Cloud ops task order number 31- mit horizon off of the cloud operations service sbir iii idiq fa8771-22-d-0004.",
+"source": "https://www.usaspending.gov/award/CONT_AWD_FA877125F0004_9700_FA877122D0004_9700"
+},
+{
 "date": "2024-11-05",
 "company": "amgeneral",
 "kind": "federal",
@@ -851,6 +939,14 @@
 },
 {
 "date": "2024-09-30",
+"company": "meaningful-measurement-inc",
+"kind": "sbir",
+"amount": 285707,
+"title": "STTR Phase I from Department of Health and Human Services: Reentry-Assist App Development for Individuals with Addiction and Mental Illness",
+"source": "https://www.sbir.gov/awards"
+},
+{
+"date": "2024-09-30",
 "company": "simba",
 "kind": "federal",
 "amount": 1999987,
@@ -864,6 +960,14 @@
 "amount": 564176,
 "title": "Federal contract from Department of Defense (Defense Logistics Agency): 8510925270!turbo supercharger,",
 "source": "https://www.usaspending.gov/award/CONT_AWD_SPE7LX24F25JK_9700_SPE7LX20D0222_9700"
+},
+{
+"date": "2024-09-26",
+"company": "biomineral-systems-llc",
+"kind": "federal",
+"amount": 3789472,
+"title": "Federal grant from Department of Agriculture (Natural Resources Conservation Service): Novel highly efficient fertilizers and seed treatments for organic production systems for hu producers organic production systems for hu producers",
+"source": "https://www.usaspending.gov/award/ASST_NON_NR243A750011G040_012"
 },
 {
 "date": "2024-09-25",
@@ -978,6 +1082,22 @@
 "source": "https://www.usaspending.gov/award/CONT_AWD_N0017424C0010_9700_-NONE-_-NONE-"
 },
 {
+"date": "2024-08-16",
+"company": "tayco-brace-inc",
+"kind": "federal",
+"amount": 1795669,
+"title": "Federal contract from Department of Defense (Department of the Air Force): Expeditionary triage ankle brace",
+"source": "https://www.usaspending.gov/award/CONT_AWD_FA864924P1104_9700_-NONE-_-NONE-"
+},
+{
+"date": "2024-08-15",
+"company": "tayco-brace-inc",
+"kind": "sbir",
+"amount": 1795669,
+"title": "STTR Phase II from Department of Defense: Expeditionary Triage Ankle Brace",
+"source": "https://www.sbir.gov/awards"
+},
+{
 "date": "2024-08-15",
 "company": "amgeneral",
 "kind": "federal",
@@ -1042,6 +1162,22 @@
 "source": "https://www.usaspending.gov/award/CONT_AWD_SPRDL124F0195_9700_SPRDL124D0040_9700"
 },
 {
+"date": "2024-07-25",
+"company": "bond-technologies-inc",
+"kind": "sbir",
+"amount": 849096,
+"title": "SBIR Phase II from National Aeronautics and Space Administration: Lunar Truss Design and Construction",
+"source": "https://www.sbir.gov/awards"
+},
+{
+"date": "2024-07-25",
+"company": "bond-technologies-inc",
+"kind": "federal",
+"amount": 849096,
+"title": "Federal contract from National Aeronautics and Space Administration (National Aeronautics and Space Administration): Fy24 phase ii - lunar truss design and construction",
+"source": "https://www.usaspending.gov/award/CONT_AWD_80NSSC24CA070_8000_-NONE-_-NONE-"
+},
+{
 "date": "2024-07-23",
 "company": "amgeneral",
 "kind": "federal",
@@ -1067,6 +1203,14 @@
 },
 {
 "date": "2024-06-18",
+"company": "tayco-brace-inc",
+"kind": "sbir",
+"amount": 1798703,
+"title": "STTR Phase II from Department of Defense: Sensor Ankle Brace for Special Operations Rehabilitation",
+"source": "https://www.sbir.gov/awards"
+},
+{
+"date": "2024-06-18",
 "company": "zimmer-holdings-inc-warsaw-1800",
 "kind": "federal",
 "amount": 452671,
@@ -1075,11 +1219,27 @@
 },
 {
 "date": "2024-06-17",
+"company": "tayco-brace-inc",
+"kind": "federal",
+"amount": 1798703,
+"title": "Federal contract from Department of Defense (Department of the Air Force): Sttr phase ii proposal f2-17496 - sensor ankle brace for special operations rehabilitation",
+"source": "https://www.usaspending.gov/award/CONT_AWD_FA864924P0534_9700_-NONE-_-NONE-"
+},
+{
+"date": "2024-06-17",
 "company": "amgeneral",
 "kind": "federal",
 "amount": 277704,
 "title": "Federal contract from Department of Defense (Defense Logistics Agency): 8510667696!door,vehicular",
 "source": "https://www.usaspending.gov/award/CONT_AWD_SPE7L324P5729_9700_-NONE-_-NONE-"
+},
+{
+"date": "2024-06-05",
+"company": "3degrees-llc",
+"kind": "federal",
+"amount": 250000,
+"title": "Federal contract from Department of Defense (Department of the Air Force): This requirement is to purchase trace am software to organize, analyze, and deploy critical technical data packages for hill air force base, utah additive manuf",
+"source": "https://www.usaspending.gov/award/CONT_AWD_FA822724P0038_9700_-NONE-_-NONE-"
 },
 {
 "date": "2024-05-30",
@@ -1160,6 +1320,14 @@
 "amount": 602388,
 "title": "Federal contract from Department of Defense (Defense Logistics Agency): 8510547618!filter element,flui",
 "source": "https://www.usaspending.gov/award/CONT_AWD_SPE7MX24F013Z_9700_SPE7MX24D5010_9700"
+},
+{
+"date": "2024-03-27",
+"company": "trekfed",
+"kind": "federal",
+"amount": 403430,
+"title": "Federal contract from Department of Defense (Department of the Air Force): Bespin is seeking to award a (to) off of (cloud ops) sbir iii idiq for continued maintenance provided by trek10. to 23 will allow tesseract to procure the cloud",
+"source": "https://www.usaspending.gov/award/CONT_AWD_FA877124F0042_9700_FA877122D0004_9700"
 },
 {
 "date": "2024-03-22",
@@ -1290,6 +1458,14 @@
 "source": "https://www.sbir.gov/awards"
 },
 {
+"date": "2023-12-08",
+"company": "tayco-brace-inc",
+"kind": "sbir",
+"amount": 109906,
+"title": "STTR Phase I from Department of Defense: External Ankle Brace for Orthopedic Remote Patient Monitoring",
+"source": "https://www.sbir.gov/awards"
+},
+{
 "date": "2023-11-15",
 "company": "amgeneral",
 "kind": "federal",
@@ -1304,6 +1480,14 @@
 "amount": 383722,
 "title": "Federal contract from Department of Defense (Defense Logistics Agency): 8510258036!valve,positive cran",
 "source": "https://www.usaspending.gov/award/CONT_AWD_SPE7M124F0374_9700_SPE7MX23D5040_9700"
+},
+{
+"date": "2023-10-19",
+"company": "forever-analytical-services-inc",
+"kind": "sbir",
+"amount": 400000,
+"title": "SBIR Phase II from Environmental Protection Agency: Scaling Up a Field-Deployable Water Sampling Device to Rapidly Screen Adsorbable Organic Fluorine in situ",
+"source": "https://www.sbir.gov/awards"
 },
 {
 "date": "2023-10-19",
@@ -1322,6 +1506,14 @@
 "source": "https://www.usaspending.gov/award/CONT_AWD_SPE7L324P0433_9700_-NONE-_-NONE-"
 },
 {
+"date": "2023-10-17",
+"company": "forever-analytical-services-inc",
+"kind": "federal",
+"amount": 400000,
+"title": "Federal contract from Environmental Protection Agency (Environmental Protection Agency): Scaling up a field-deployable water sampling device to rapidly screen adsorbable organic fluorine in situ",
+"source": "https://www.usaspending.gov/award/CONT_AWD_68HERC24C0003_6800_-NONE-_-NONE-"
+},
+{
 "date": "2023-10-13",
 "company": "transhield-inc-elkhart-2932",
 "kind": "federal",
@@ -1338,6 +1530,22 @@
 "source": "https://www.usaspending.gov/award/CONT_AWD_SPE7LX24F1655_9700_SPE7LX20D0218_9700"
 },
 {
+"date": "2023-09-30",
+"company": "trekfed",
+"kind": "federal",
+"amount": 901579,
+"title": "Federal contract from Department of Defense (Department of the Air Force): Task order number 16 - cloud ops sbir iii idiq",
+"source": "https://www.usaspending.gov/award/CONT_AWD_FA877123F0167_9700_FA877122D0004_9700"
+},
+{
+"date": "2023-09-30",
+"company": "trekfed",
+"kind": "federal",
+"amount": 365820,
+"title": "Federal contract from Department of Defense (Department of the Air Force): Cloud operations bespin ecosystem sbir iii idiq, task number 19",
+"source": "https://www.usaspending.gov/award/CONT_AWD_FA877123F0154_9700_FA877122D0004_9700"
+},
+{
 "date": "2023-09-29",
 "company": "simba",
 "kind": "federal",
@@ -1346,12 +1554,44 @@
 "source": "https://www.usaspending.gov/award/CONT_AWD_FA239423CB029_9700_-NONE-_-NONE-"
 },
 {
+"date": "2023-09-29",
+"company": "trekfed",
+"kind": "federal",
+"amount": 315858,
+"title": "Federal contract from Department of Defense (Department of the Air Force): Task order number 21 - cloud ops sbir iii idiq",
+"source": "https://www.usaspending.gov/award/CONT_AWD_FA877123F0158_9700_FA877122D0004_9700"
+},
+{
+"date": "2023-09-26",
+"company": "trekfed",
+"kind": "federal",
+"amount": 833475,
+"title": "Federal contract from General Services Administration (Federal Acquisition Service): Simulator technology module virtualization",
+"source": "https://www.usaspending.gov/award/CONT_AWD_47QFLA23F0213_4732_47QFLA23D0011_4732"
+},
+{
 "date": "2023-09-25",
 "company": "zimmer-holdings-inc-warsaw-1800",
 "kind": "federal",
 "amount": 881952,
 "title": "Federal contract from Department of Veterans Affairs (Department of Veterans Affairs): Rosa knee",
 "source": "https://www.usaspending.gov/award/CONT_AWD_36C24123P1243_3600_-NONE-_-NONE-"
+},
+{
+"date": "2023-09-22",
+"company": "eclipse-orthopaedics-llc",
+"kind": "sbir",
+"amount": 2022828,
+"title": "SBIR Phase II from Department of Health and Human Services: Fluoroscopic drill attachment for orthopedic trauma surgery",
+"source": "https://www.sbir.gov/awards"
+},
+{
+"date": "2023-09-22",
+"company": "eclipse-orthopaedics-llc",
+"kind": "federal",
+"amount": 2022828,
+"title": "Federal grant from Department of Health and Human Services (National Institutes of Health): Fluoroscopic drill attachment for orthopedic trauma surgery - abstract for about 175,000 leg and hip fractures each year, the best treatment is for an orthopaed",
+"source": "https://www.usaspending.gov/award/ASST_NON_R44AR082780_075"
 },
 {
 "date": "2023-09-15",
@@ -1376,6 +1616,14 @@
 "amount": 343267,
 "title": "Federal contract from Department of Defense (Defense Logistics Agency): Delivery order to add 391 units. nsn 2530-01-562-8935",
 "source": "https://www.usaspending.gov/award/CONT_AWD_SPRDL123F0212_9700_SPRDL120D0060_9700"
+},
+{
+"date": "2023-09-01",
+"company": "biomineral-systems-llc",
+"kind": "federal",
+"amount": 650000,
+"title": "Federal grant from Department of Agriculture (National Institute of Food and Agriculture): **awards issued prior to january 20, 2025, were funded under previous administrations and may not reflect the priorities and policies of the current administrat",
+"source": "https://www.usaspending.gov/award/ASST_NON_20233361040592_012"
 },
 {
 "date": "2023-08-31",
@@ -1474,12 +1722,44 @@
 "source": "https://www.usaspending.gov/award/CONT_AWD_SPE7LX23F99A9_9700_SPE7LX20D0161_9700"
 },
 {
+"date": "2023-07-11",
+"company": "bond-technologies-inc",
+"kind": "sbir",
+"amount": 145958,
+"title": "SBIR Phase I from National Aeronautics and Space Administration: Lunar Truss Design and Construction",
+"source": "https://www.sbir.gov/awards"
+},
+{
 "date": "2023-06-26",
 "company": "amgeneral",
 "kind": "federal",
 "amount": 327416,
 "title": "Federal contract from Department of Defense (Defense Logistics Agency): 8509976182!turbosupercharger,e",
 "source": "https://www.usaspending.gov/award/CONT_AWD_SPE7LX23F84C7_9700_SPE7LX20D0222_9700"
+},
+{
+"date": "2023-06-22",
+"company": "tessellated-inc",
+"kind": "sbir",
+"amount": 1149778,
+"title": "STTR Phase II from Department of Defense: Understanding and optimizing roll-to-roll manufacturing of high- strength, transparent polymer composite films",
+"source": "https://www.sbir.gov/awards"
+},
+{
+"date": "2023-06-22",
+"company": "tessellated-inc",
+"kind": "federal",
+"amount": 1149778,
+"title": "Federal contract from Department of Defense (Department of the Army): Tessellated's phase ii sttr-base",
+"source": "https://www.usaspending.gov/award/CONT_AWD_W911QY23C0074_9700_-NONE-_-NONE-"
+},
+{
+"date": "2023-06-21",
+"company": "biomineral-systems-llc",
+"kind": "sbir",
+"amount": 650000,
+"title": "SBIR Phase II from Department of Agriculture: Phosphorus Biofertilizer for Sustainable Agriculture",
+"source": "https://www.sbir.gov/awards"
 },
 {
 "date": "2023-06-20",
@@ -1538,12 +1818,28 @@
 "source": "https://www.usaspending.gov/award/CONT_AWD_SPE7LX23F43B6_9700_SPE7LX20D0161_9700"
 },
 {
+"date": "2023-05-05",
+"company": "tayco-brace-inc",
+"kind": "sbir",
+"amount": 74956,
+"title": "STTR Phase I from Department of Defense: TayCo Airborne Ankle Brace",
+"source": "https://www.sbir.gov/awards"
+},
+{
 "date": "2023-05-03",
 "company": "amgeneral",
 "kind": "federal",
 "amount": 662865,
 "title": "Federal contract from Department of Defense (Defense Logistics Agency): Delivery order to add 709 units. nsn 2815-01-411-2137",
 "source": "https://www.usaspending.gov/award/CONT_AWD_SPRDL123F0131_9700_SPRDL120D0097_9700"
+},
+{
+"date": "2023-05-01",
+"company": "third-coast-federal-inc",
+"kind": "sbir",
+"amount": 74919,
+"title": "SBIR Phase I from Department of Defense: Deep Learning Classifier to Support DoD Supply Chain Diversity & Resiliency through Automated Data Labeling and Summarization",
+"source": "https://www.sbir.gov/awards"
 },
 {
 "date": "2023-04-30",
@@ -1576,6 +1872,14 @@
 "amount": 1083957,
 "title": "Federal contract from Department of Defense (Department of the Army): Integrated product support services for the jltv fov a2 contract.",
 "source": "https://www.usaspending.gov/award/CONT_AWD_W56HZV23F0252_9700_W56HZV23D0008_9700"
+},
+{
+"date": "2023-04-11",
+"company": "trekfed",
+"kind": "federal",
+"amount": 1209815,
+"title": "Federal contract from Department of Defense (Department of the Air Force): Cloudops task order 15",
+"source": "https://www.usaspending.gov/award/CONT_AWD_FA877123F0051_9700_FA877122D0004_9700"
 },
 {
 "date": "2023-04-10",
@@ -1690,6 +1994,22 @@
 "source": "https://www.usaspending.gov/award/CONT_AWD_W56HZV23F0173_9700_W56HZV23D0008_9700"
 },
 {
+"date": "2023-02-09",
+"company": "bci",
+"kind": "federal",
+"amount": 1249848,
+"title": "Federal contract from Department of Defense (Department of the Air Force): Operate and optimize machine vision guided robots",
+"source": "https://www.usaspending.gov/award/CONT_AWD_FA864923P0471_9700_-NONE-_-NONE-"
+},
+{
+"date": "2023-02-07",
+"company": "3degrees-llc",
+"kind": "sbir",
+"amount": 1249992,
+"title": "SBIR Phase II \u2013 Direct to Phase II from Department of Defense: Accelerating Additive Manufacturing Materials Development for Enhanced Munitions",
+"source": "https://www.sbir.gov/awards"
+},
+{
 "date": "2023-01-12",
 "company": "amgeneral",
 "kind": "federal",
@@ -1723,6 +2043,14 @@
 },
 {
 "date": "2022-12-01",
+"company": "forever-analytical-services-inc",
+"kind": "sbir",
+"amount": 99983,
+"title": "SBIR Phase I from Environmental Protection Agency: Rapid, Field-Deployable Water Sampling Device to Facilitate On-Site Total PFAS Measurement",
+"source": "https://www.sbir.gov/awards"
+},
+{
+"date": "2022-12-01",
 "company": "amgeneral",
 "kind": "federal",
 "amount": 527635,
@@ -1738,12 +2066,52 @@
 "source": "https://www.usaspending.gov/award/CONT_AWD_N0042123P0040_9700_-NONE-_-NONE-"
 },
 {
+"date": "2022-11-07",
+"company": "seeksmart-llc",
+"kind": "sbir",
+"amount": 68939,
+"title": "SBIR Phase I from Department of Defense: Military Working Dog Temperature & Position Sensors",
+"source": "https://www.sbir.gov/awards"
+},
+{
+"date": "2022-11-01",
+"company": "tayco-brace-inc",
+"kind": "sbir",
+"amount": 74914,
+"title": "SBIR Phase I from Department of Defense: Functional Recovery with the Smart TayCo Ankle Brace",
+"source": "https://www.sbir.gov/awards"
+},
+{
+"date": "2022-10-31",
+"company": "tessellated-inc",
+"kind": "sbir",
+"amount": 74509,
+"title": "SBIR Phase I from Department of Defense: Light-weight , Ultra-strong Polymer Films for Aerospace Applications",
+"source": "https://www.sbir.gov/awards"
+},
+{
 "date": "2022-10-17",
 "company": "amgeneral",
 "kind": "federal",
 "amount": 5702850,
 "title": "Federal contract from Department of Defense (Defense Logistics Agency): Delivery order to add 874 units. nsn 2520-01-625-7876",
 "source": "https://www.usaspending.gov/award/CONT_AWD_SPRDL123F0009_9700_SPRDL120D0055_9700"
+},
+{
+"date": "2022-09-30",
+"company": "trekfed",
+"kind": "federal",
+"amount": 1645795,
+"title": "Federal contract from Department of Defense (Department of the Air Force): Cloud ops ton 01",
+"source": "https://www.usaspending.gov/award/CONT_AWD_FA877122F0079_9700_FA877122D0004_9700"
+},
+{
+"date": "2022-09-30",
+"company": "trekfed",
+"kind": "federal",
+"amount": 1355273,
+"title": "Federal contract from Department of Defense (Department of the Air Force): Task order number 02 for cloud ops sbir iii idiq",
+"source": "https://www.usaspending.gov/award/CONT_AWD_FA877122F0112_9700_FA877122D0004_9700"
 },
 {
 "date": "2022-09-21",
@@ -1834,6 +2202,22 @@
 "source": "https://www.usaspending.gov/award/CONT_AWD_SPRDL122F0206_9700_SPRDL118D0068_9700"
 },
 {
+"date": "2022-07-19",
+"company": "tayco-brace-inc",
+"kind": "sbir",
+"amount": 749605,
+"title": "SBIR Phase II from Department of Defense: TayCo Brace - Training and Combat Readiness External Ankle Brace",
+"source": "https://www.sbir.gov/awards"
+},
+{
+"date": "2022-07-19",
+"company": "tayco-brace-inc",
+"kind": "federal",
+"amount": 749605,
+"title": "Federal contract from Department of Defense (Department of the Air Force): Training and combat readiness external ankle brace",
+"source": "https://www.usaspending.gov/award/CONT_AWD_FA864922P1043_9700_-NONE-_-NONE-"
+},
+{
 "date": "2022-07-12",
 "company": "leco-corp-saint-joseph-3000",
 "kind": "federal",
@@ -1856,6 +2240,30 @@
 "amount": 4936130,
 "title": "Federal contract from Department of Defense (Defense Logistics Agency): Delivery order to add 262 units. nsn 2815-01-439-8164",
 "source": "https://www.usaspending.gov/award/CONT_AWD_SPRDL122F0179_9700_SPRDL120D0118_9700"
+},
+{
+"date": "2022-06-27",
+"company": "tessellated-inc",
+"kind": "sbir",
+"amount": 193141,
+"title": "STTR Phase I from Department of Energy: Characterization of Thermally Conductive Composite Polymer Films with Enhanced Properties",
+"source": "https://www.sbir.gov/awards"
+},
+{
+"date": "2022-06-22",
+"company": "tayco-brace-inc",
+"kind": "sbir",
+"amount": 1249941,
+"title": "SBIR Phase II \u2013 Direct to Phase II from Department of Defense: Reducing SOF Airborne Injuries with TayCo XAB",
+"source": "https://www.sbir.gov/awards"
+},
+{
+"date": "2022-06-22",
+"company": "tayco-brace-inc",
+"kind": "federal",
+"amount": 1249941,
+"title": "Federal contract from Department of Defense (Department of the Air Force): Reducing special operations forces airborne injuries with tayco external ankle brace",
+"source": "https://www.usaspending.gov/award/CONT_AWD_FA864922P0890_9700_-NONE-_-NONE-"
 },
 {
 "date": "2022-06-15",
@@ -1922,12 +2330,28 @@
 "source": "https://www.usaspending.gov/award/CONT_AWD_SPE7LX22F66V4_9700_SPE7LX21D0134_9700"
 },
 {
+"date": "2022-05-03",
+"company": "maggies-pearl-llc",
+"kind": "sbir",
+"amount": 1805996,
+"title": "SBIR Phase II from Department of Health and Human Services: Targeting aldose reductase: A Phase IIb/III trial for the novel use of Epalrestat to treat Congenital Disorders of Glycosylation (PMM2-CDG)",
+"source": "https://www.sbir.gov/awards"
+},
+{
 "date": "2022-04-29",
 "company": "flexible",
 "kind": "federal",
 "amount": 2177235,
 "title": "Federal contract from Department of Defense (Department of the Army): Ordering the following mortar tail fins: qty. 88,522 m24 81mm, 6,376 m28 81mm,and 29,788 m27 60mm from flexible concepts inc. under op5.",
 "source": "https://www.usaspending.gov/award/CONT_AWD_W52P1J22F0156_9700_W52P1J17D0080_9700"
+},
+{
+"date": "2022-04-29",
+"company": "mti",
+"kind": "federal",
+"amount": 749896,
+"title": "Federal contract from Department of Defense (Department of the Air Force): Augmented heating of dissimilar metals to improve joinability of friction welds",
+"source": "https://www.usaspending.gov/award/CONT_AWD_FA865022C5008_9700_-NONE-_-NONE-"
 },
 {
 "date": "2022-04-16",
@@ -1970,6 +2394,14 @@
 "source": "https://www.usaspending.gov/award/CONT_AWD_SPE7LX22F963J_9700_SPE7LX20D0222_9700"
 },
 {
+"date": "2022-03-18",
+"company": "tessellated-inc",
+"kind": "sbir",
+"amount": 172499,
+"title": "STTR Phase I from Department of Defense: Understanding and optimizing roll-to-roll manufacturing of high-strength, transparent polymer composite films",
+"source": "https://www.sbir.gov/awards"
+},
+{
 "date": "2022-03-11",
 "company": "simba",
 "kind": "sbir",
@@ -1987,11 +2419,35 @@
 },
 {
 "date": "2022-03-10",
+"company": "third-coast-federal-inc",
+"kind": "sbir",
+"amount": 749830,
+"title": "STTR Phase II from Department of Defense: AI Powered Tech Scouting & Recommendation Engine",
+"source": "https://www.sbir.gov/awards"
+},
+{
+"date": "2022-03-10",
 "company": "trekfed",
 "kind": "sbir",
 "amount": 749999,
 "title": "SBIR Phase II from Department of Defense: Hyperplane",
 "source": "https://www.sbir.gov/awards"
+},
+{
+"date": "2022-03-10",
+"company": "trekfed",
+"kind": "federal",
+"amount": 749999,
+"title": "Federal contract from Department of Defense (Department of the Air Force): Hyperplane",
+"source": "https://www.usaspending.gov/award/CONT_AWD_FA864922P0662_9700_-NONE-_-NONE-"
+},
+{
+"date": "2022-03-10",
+"company": "third-coast-federal-inc",
+"kind": "federal",
+"amount": 749830,
+"title": "Federal contract from Department of Defense (Department of the Air Force): F2-14589 artificial intelligence powered tech scouting & recommendation engine",
+"source": "https://www.usaspending.gov/award/CONT_AWD_FA864922P0730_9700_-NONE-_-NONE-"
 },
 {
 "date": "2022-03-09",
@@ -2099,6 +2555,14 @@
 },
 {
 "date": "2021-11-03",
+"company": "tayco-brace-inc",
+"kind": "sbir",
+"amount": 49755,
+"title": "SBIR Phase I from Department of Defense: TayCo Brace",
+"source": "https://www.sbir.gov/awards"
+},
+{
+"date": "2021-11-03",
 "company": "amgeneral",
 "kind": "federal",
 "amount": 305667,
@@ -2128,6 +2592,14 @@
 "amount": 484082,
 "title": "Federal contract from Department of Defense (Department of the Army): Sts b-kit",
 "source": "https://www.usaspending.gov/award/CONT_AWD_W56HZV22F0010_9700_W56HZV19D0001_9700"
+},
+{
+"date": "2021-10-06",
+"company": "trekfed",
+"kind": "federal",
+"amount": 4262149,
+"title": "Federal contract from Department of Defense (Department of the Air Force): Small business innovation research (sbir) phase iii for trek10 cloud ops support.",
+"source": "https://www.usaspending.gov/award/CONT_AWD_FA877122C0001_9700_-NONE-_-NONE-"
 },
 {
 "date": "2021-09-24",
@@ -2226,6 +2698,14 @@
 "source": "https://www.usaspending.gov/award/CONT_AWD_SPE4A621C0052_9700_-NONE-_-NONE-"
 },
 {
+"date": "2021-09-15",
+"company": "edgewater-safety-systems-llc",
+"kind": "sbir",
+"amount": 499969,
+"title": "SBIR Phase I from Department of Health and Human Services: Development of Memesto, a wearable repetitive message and music therapy device that senses and reduces agitation in persons with AD/ADRD.",
+"source": "https://www.sbir.gov/awards"
+},
+{
 "date": "2021-09-11",
 "company": "leco-corp-saint-joseph-3000",
 "kind": "federal",
@@ -2242,12 +2722,28 @@
 "source": "https://www.sbir.gov/awards"
 },
 {
+"date": "2021-08-06",
+"company": "trekfed",
+"kind": "federal",
+"amount": 750000,
+"title": "Federal contract from Department of Defense (Department of the Air Force): Proposal f2d-2576 facial and license plate extractable data ingestion platform (fled-ip)",
+"source": "https://www.usaspending.gov/award/CONT_AWD_FA864921P1540_9700_-NONE-_-NONE-"
+},
+{
 "date": "2021-08-05",
 "company": "trekfed",
 "kind": "sbir",
 "amount": 750000,
 "title": "STTR Phase II from Department of Defense: Just-in-Time Multi-Mission Airman Data Ingestion (MMADI)",
 "source": "https://www.sbir.gov/awards"
+},
+{
+"date": "2021-08-05",
+"company": "trekfed",
+"kind": "federal",
+"amount": 750000,
+"title": "Federal contract from Department of Defense (Department of the Air Force): Just-in-time multi-mission airman data ingestion (mmadi)",
+"source": "https://www.usaspending.gov/award/CONT_AWD_FA864921P1624_9700_-NONE-_-NONE-"
 },
 {
 "date": "2021-07-26",
@@ -2266,6 +2762,14 @@
 "source": "https://www.usaspending.gov/award/CONT_AWD_W56HZV21F0298_9700_W56HZV17D0071_9700"
 },
 {
+"date": "2021-06-23",
+"company": "polar-clean-llc",
+"kind": "sbir",
+"amount": 49968,
+"title": "STTR Phase I from Department of Defense: Automated Method for Cleaning the Surface of the Interior Diameter of Metal Pipes with Dry Ice Blasting",
+"source": "https://www.sbir.gov/awards"
+},
+{
 "date": "2021-06-16",
 "company": "zimmer-holdings-inc-warsaw-1800",
 "kind": "federal",
@@ -2274,12 +2778,36 @@
 "source": "https://www.usaspending.gov/award/CONT_AWD_SPE2D021F0279_9700_SPE2D020D0017_9700"
 },
 {
+"date": "2021-06-01",
+"company": "biomineral-systems-llc",
+"kind": "sbir",
+"amount": 168087,
+"title": "SBIR Phase I from Department of Health and Human Services: Green and Sustainable in situ Remediation of Heavy Metals Contaminated Soils and Aqueous Systems",
+"source": "https://www.sbir.gov/awards"
+},
+{
 "date": "2021-05-27",
 "company": "flexible",
 "kind": "federal",
 "amount": 3194527,
 "title": "Federal contract from Department of Defense (Department of the Army): 118,171 m24 mortar tail fins and 124,673 m27 mortar tail fins orders to be delivered between october 2021 through march 2022.",
 "source": "https://www.usaspending.gov/award/CONT_AWD_W52P1J21F0266_9700_W52P1J17D0080_9700"
+},
+{
+"date": "2021-05-12",
+"company": "indiana-integrated-circuits-llc",
+"kind": "sbir",
+"amount": 117084,
+"title": "SBIR Phase I from National Aeronautics and Space Administration: PCB \"Boardlets\" for Modular, Scalable High-Performance Printed Circuit Assemblies\"",
+"source": "https://www.sbir.gov/awards"
+},
+{
+"date": "2021-04-30",
+"company": "polar-clean-llc",
+"kind": "sbir",
+"amount": 49968,
+"title": "STTR Phase I from Department of Defense: Method for Objectively Measuring Level of Surface Cleanliness",
+"source": "https://www.sbir.gov/awards"
 },
 {
 "date": "2021-04-21",
@@ -2306,6 +2834,22 @@
 "source": "https://www.sbir.gov/awards"
 },
 {
+"date": "2021-04-01",
+"company": "consensus-networks-inc",
+"kind": "sbir",
+"amount": 1177590,
+"title": "SBIR Phase II from Department of Defense: Digital Logistics Challenge for Improved Medical Care, HealthNet: Secure, dynamic, and reliable health information exchange",
+"source": "https://www.sbir.gov/awards"
+},
+{
+"date": "2021-04-01",
+"company": "consensus-networks-inc",
+"kind": "federal",
+"amount": 1177590,
+"title": "Federal contract from Department of Defense (Department of the Navy): Phase ii kickoff brief",
+"source": "https://www.usaspending.gov/award/CONT_AWD_N6833521C0288_9700_-NONE-_-NONE-"
+},
+{
 "date": "2021-03-26",
 "company": "amgeneral",
 "kind": "federal",
@@ -2322,6 +2866,22 @@
 "source": "https://www.usaspending.gov/award/CONT_AWD_36C25021N0419_3600_VA11917D0015_3600"
 },
 {
+"date": "2021-03-12",
+"company": "vennli-inc",
+"kind": "sbir",
+"amount": 749708,
+"title": "SBIR Phase II \u2013 Direct to Phase II from Department of Defense: Vennli Operational Intelligence Platform (VOIP): Command & Control Optimization Project",
+"source": "https://www.sbir.gov/awards"
+},
+{
+"date": "2021-03-12",
+"company": "vennli-inc",
+"kind": "federal",
+"amount": 749708,
+"title": "Federal contract from Department of Defense (Department of the Air Force): Vennli operational intelligence platform (voip): command & control optimization project",
+"source": "https://www.usaspending.gov/award/CONT_AWD_FA864921P0890_9700_-NONE-_-NONE-"
+},
+{
 "date": "2021-03-08",
 "company": "simba",
 "kind": "sbir",
@@ -2336,6 +2896,22 @@
 "amount": 295790,
 "title": "Federal contract from Department of Defense (Department of the Army): Fsc:  8010 epoxy primer",
 "source": "https://www.usaspending.gov/award/CONT_AWD_W9098S21F0041_9700_W9098S16D0011_9700"
+},
+{
+"date": "2021-02-09",
+"company": "third-coast-federal-inc",
+"kind": "sbir",
+"amount": 49940,
+"title": "STTR Phase I from Department of Defense: Artificial Intelligence for decision support system to discover, map, assess, and engage Nontraditional Defense Contractors to Accelerate DoD Innovation, Enhance National Security and Strengthen the U.S. Economy.",
+"source": "https://www.sbir.gov/awards"
+},
+{
+"date": "2021-02-01",
+"company": "south-bend-woodworks-llc",
+"kind": "sbir",
+"amount": 225000,
+"title": "STTR Phase I from National Science Foundation: STTR Phase I: Making Waves: Educational Technologies Combining STEM and Music Learning",
+"source": "https://www.sbir.gov/awards"
 },
 {
 "date": "2021-01-27",
@@ -2394,6 +2970,22 @@
 "source": "https://www.usaspending.gov/award/CONT_AWD_SPRDL121F0016_9700_SPRDL120D0118_9700"
 },
 {
+"date": "2020-12-03",
+"company": "indiana-integrated-circuits-llc",
+"kind": "sbir",
+"amount": 149865,
+"title": "STTR Phase I from Department of Defense: Cryogenic Adiabatic CMOS for Ultra-Low Power Circuits",
+"source": "https://www.sbir.gov/awards"
+},
+{
+"date": "2020-12-03",
+"company": "vennli-inc",
+"kind": "sbir",
+"amount": 149862,
+"title": "STTR Phase I from Department of Defense: AI-Lifted Airman's Voice & Quality of Life Resilience (A2VQ)",
+"source": "https://www.sbir.gov/awards"
+},
+{
 "date": "2020-11-25",
 "company": "trekfed",
 "kind": "sbir",
@@ -2448,6 +3040,14 @@
 "amount": 500000,
 "title": "STTR Phase II from Department of Defense: Cloud Enablement Curriculium",
 "source": "https://www.sbir.gov/awards"
+},
+{
+"date": "2020-09-25",
+"company": "trekfed",
+"kind": "federal",
+"amount": 500000,
+"title": "Federal contract from Department of Defense (Department of the Air Force): Cloud enablement curriculium",
+"source": "https://www.usaspending.gov/award/CONT_AWD_FA864920P0997_9700_-NONE-_-NONE-"
 },
 {
 "date": "2020-09-24",
@@ -2514,6 +3114,14 @@
 "source": "https://www.sbir.gov/awards"
 },
 {
+"date": "2020-08-12",
+"company": "trekfed",
+"kind": "federal",
+"amount": 1730000,
+"title": "Federal contract from Department of Defense (Department of the Air Force): Covid-19 - cloudops is a robust offering (technology readiness level 8) that combines devsecops best practices with modern software tooling to secure, manage, a",
+"source": "https://www.usaspending.gov/award/CONT_AWD_FA864920C0306_9700_-NONE-_-NONE-"
+},
+{
 "date": "2020-08-04",
 "company": "amgeneral",
 "kind": "federal",
@@ -2546,6 +3154,14 @@
 "source": "https://www.usaspending.gov/award/CONT_AWD_SPRDL120F0326_9700_SPRDL120D0118_9700"
 },
 {
+"date": "2020-07-13",
+"company": "consensus-networks-inc",
+"kind": "sbir",
+"amount": 149476,
+"title": "SBIR Phase I from Department of Defense: Digital Logistics Challenge for Improved Medical Care, HealthNet: Secure, dynamic, and reliable health information exchange",
+"source": "https://www.sbir.gov/awards"
+},
+{
 "date": "2020-07-10",
 "company": "itamco",
 "kind": "sbir",
@@ -2554,12 +3170,28 @@
 "source": "https://www.sbir.gov/awards"
 },
 {
+"date": "2020-07-01",
+"company": "itamco",
+"kind": "federal",
+"amount": 999986,
+"title": "Federal contract from Department of Defense (Department of the Air Force): Sibr phase ii - itamco topic af 183-015",
+"source": "https://www.usaspending.gov/award/CONT_AWD_FA805120C0007_9700_-NONE-_-NONE-"
+},
+{
 "date": "2020-06-30",
 "company": "amgeneral",
 "kind": "federal",
 "amount": 18922004,
 "title": "Federal contract from Department of Defense (Department of the Army): The supply of 200 4 man revi-b rolling chassis 190hp diesel engine upgraded to 205hp turbo charged engine part no 6103989.",
 "source": "https://www.usaspending.gov/award/CONT_AWD_W56HZV20F0356_9700_W56HZV17D0071_9700"
+},
+{
+"date": "2020-06-22",
+"company": "vennli-inc",
+"kind": "federal",
+"amount": 1497912,
+"title": "Federal contract from Department of Defense (Department of the Air Force): Covid-19 dib: national defense-related mission need to decrease time-to-production for s-shops multi-flight-platform data and information flow.",
+"source": "https://www.usaspending.gov/award/CONT_AWD_FA864920C0061_9700_-NONE-_-NONE-"
 },
 {
 "date": "2020-06-08",
@@ -2616,6 +3248,30 @@
 "amount": 1193226,
 "title": "Federal contract from Department of Defense (Defense Logistics Agency): First delivery order for noun: diesel, cylinder head, nsn: 2815-01-411-2137, part number: 05743222 (cage 34623), quantity 1,354 each",
 "source": "https://www.usaspending.gov/award/CONT_AWD_SPRDL120F0272_9700_SPRDL120D0097_9700"
+},
+{
+"date": "2020-05-01",
+"company": "indiana-integrated-circuits-llc",
+"kind": "sbir",
+"amount": 749801,
+"title": "STTR Phase II from Department of Defense: Adiabatic Circuits for Ultra-Low Energy Consumption",
+"source": "https://www.sbir.gov/awards"
+},
+{
+"date": "2020-05-01",
+"company": "vennli-inc",
+"kind": "sbir",
+"amount": 1497912,
+"title": "SBIR Phase II from Department of Defense: Open Call for Innovative Defense-Related Dual-Purpose Technologies/Solutions with a Clear Air Force Stakeholder Need",
+"source": "https://www.sbir.gov/awards"
+},
+{
+"date": "2020-05-01",
+"company": "indiana-integrated-circuits-llc",
+"kind": "federal",
+"amount": 849796,
+"title": "Federal contract from Department of Defense (Department of the Air Force): Adiabatic circuits for ultra-low energy consumption",
+"source": "https://www.usaspending.gov/award/CONT_AWD_FA945320C0560_9700_-NONE-_-NONE-"
 },
 {
 "date": "2020-04-03",
@@ -2707,6 +3363,14 @@
 },
 {
 "date": "2020-03-09",
+"company": "tayco-brace-inc",
+"kind": "sbir",
+"amount": 50000,
+"title": "SBIR Phase I from Department of Defense: TayCo EAB",
+"source": "https://www.sbir.gov/awards"
+},
+{
+"date": "2020-03-09",
 "company": "amgeneral",
 "kind": "federal",
 "amount": 7665276,
@@ -2728,6 +3392,14 @@
 "amount": 315959,
 "title": "Federal contract from Department of Defense (Defense Logistics Agency): Steering gear 1290-01-618-4602",
 "source": "https://www.usaspending.gov/award/CONT_AWD_SPRDL120F0148_9700_SPRDL118D0021_9700"
+},
+{
+"date": "2020-03-01",
+"company": "scientific-methods-inc",
+"kind": "sbir",
+"amount": 99998,
+"title": "SBIR Phase I from Environmental Protection Agency: Development of Simple, Field-Deployable Kit for Detecting Antibiotic Resistant Bacteria in Wastewater",
+"source": "https://www.sbir.gov/awards"
 },
 {
 "date": "2020-02-18",
@@ -2762,6 +3434,14 @@
 "source": "https://www.usaspending.gov/award/CONT_AWD_SPE7M120P3120_9700_-NONE-_-NONE-"
 },
 {
+"date": "2020-02-01",
+"company": "biomineral-systems-llc",
+"kind": "sbir",
+"amount": 224982,
+"title": "SBIR Phase I from National Science Foundation: SBIR Phase I: Broad Spectrum biorational bio- and synthetic insecticides and mosquito repellents",
+"source": "https://www.sbir.gov/awards"
+},
+{
 "date": "2020-01-29",
 "company": "amgeneral",
 "kind": "federal",
@@ -2794,6 +3474,22 @@
 "source": "https://www.sbir.gov/awards"
 },
 {
+"date": "2020-01-16",
+"company": "itamco",
+"kind": "federal",
+"amount": 1514630,
+"title": "Federal contract from Department of Defense (Defense Contract Management Agency): Research and development",
+"source": "https://www.usaspending.gov/award/CONT_AWD_N6833520C0302_9700_-NONE-_-NONE-"
+},
+{
+"date": "2020-01-11",
+"company": "trekfed",
+"kind": "federal",
+"amount": 1000000,
+"title": "Federal contract from Department of Defense (Department of the Air Force): 2020 pitch day trek10 sbir phase ii",
+"source": "https://www.usaspending.gov/award/CONT_AWD_FA862121C0058_9700_-NONE-_-NONE-"
+},
+{
 "date": "2019-12-21",
 "company": "amgeneral",
 "kind": "federal",
@@ -2816,6 +3512,14 @@
 "amount": 16242942,
 "title": "Federal contract from Department of Defense (Department of the Army): Foreign military sale for country of jordan hmmwv reset of 200 m998 to mission capable vehicles.",
 "source": "https://www.usaspending.gov/award/CONT_AWD_W56HZV20C0037_9700_-NONE-_-NONE-"
+},
+{
+"date": "2019-12-12",
+"company": "consensus-networks-inc",
+"kind": "sbir",
+"amount": 49859,
+"title": "SBIR Phase I from Department of Defense: Open Call for Innovative Defense-Related Dual-Purpose Technologies/Solutions with a Clear Air Force Stakeholder Need",
+"source": "https://www.sbir.gov/awards"
 },
 {
 "date": "2019-12-09",
@@ -3059,6 +3763,14 @@
 },
 {
 "date": "2019-08-02",
+"company": "vennli-inc",
+"kind": "sbir",
+"amount": 49950,
+"title": "SBIR Phase I from Department of Defense: Open Call for Innovative Defense-Related Dual-Purpose Technologies/Solutions with a Clear Air Force Stakeholder Need",
+"source": "https://www.sbir.gov/awards"
+},
+{
+"date": "2019-08-02",
 "company": "transhield-inc-elkhart-2932",
 "kind": "federal",
 "amount": 379766,
@@ -3184,6 +3896,14 @@
 "amount": 750000,
 "title": "SBIR Phase II from Department of Defense: Open Call for Innovative Defense-Related Dual-Purpose Technologies/Solutions with a Clear Air Force Stakeholder Need (RAPID)",
 "source": "https://www.sbir.gov/awards"
+},
+{
+"date": "2019-05-21",
+"company": "trekfed",
+"kind": "federal",
+"amount": 750000,
+"title": "Federal contract from Department of Defense (Department of the Air Force): Innovative defense-related dual-purpose technologies/solutions",
+"source": "https://www.usaspending.gov/award/CONT_AWD_FA875119CA055_9700_-NONE-_-NONE-"
 },
 {
 "date": "2019-05-20",
@@ -3360,6 +4080,14 @@
 "amount": 1690366,
 "title": "Federal contract from Department of Defense (Department of the Army): Contemplation letter #3 award",
 "source": "https://www.usaspending.gov/award/CONT_AWD_W52P1J19F0123_9700_W52P1J17D0080_9700"
+},
+{
+"date": "2018-12-20",
+"company": "indiana-integrated-circuits-llc",
+"kind": "sbir",
+"amount": 145854,
+"title": "STTR Phase I from Department of Defense: Adiabatic Circuits for Ultra-Low Energy Consumption",
+"source": "https://www.sbir.gov/awards"
 },
 {
 "date": "2018-12-18",
@@ -3579,6 +4307,14 @@
 },
 {
 "date": "2018-09-13",
+"company": "eclipse-orthopaedics-llc",
+"kind": "sbir",
+"amount": 279995,
+"title": "SBIR Phase I from Department of Health and Human Services: Fluoroscopic drill attachment for orthopedic trauma surgery",
+"source": "https://www.sbir.gov/awards"
+},
+{
+"date": "2018-09-13",
 "company": "amgeneral",
 "kind": "federal",
 "amount": 32392255,
@@ -3600,6 +4336,22 @@
 "amount": 279971,
 "title": "Federal contract from Department of Defense (Department of the Army): M1165a1 hmmwvs, 2 each and contractor unique spare parts for tunisia, fms case 7m-b-ufk",
 "source": "https://www.usaspending.gov/award/CONT_AWD_W56HZV18F0048_9700_W56HZV17D0071_9700"
+},
+{
+"date": "2018-09-13",
+"company": "eclipse-orthopaedics-llc",
+"kind": "federal",
+"amount": 279995,
+"title": "Federal grant from Department of Health and Human Services (National Institutes of Health): Fluoroscopic drill attachment for orthopedic trauma surgery",
+"source": "https://www.usaspending.gov/award/ASST_NON_R43AR074332_075"
+},
+{
+"date": "2018-09-10",
+"company": "consensus-networks-inc",
+"kind": "sbir",
+"amount": 224385,
+"title": "SBIR Phase I from Department of Health and Human Services: HealthLink: A blockchain-enabled healthcare network for population health data",
+"source": "https://www.sbir.gov/awards"
 },
 {
 "date": "2018-09-01",
@@ -3656,6 +4408,14 @@
 "amount": 451878,
 "title": "Federal contract from Department of Defense (Defense Logistics Agency): 8505757645!seat,vehicular",
 "source": "https://www.usaspending.gov/award/CONT_AWD_SPE7L418P2133_9700_-NONE-_-NONE-"
+},
+{
+"date": "2018-08-01",
+"company": "biomineral-systems-llc",
+"kind": "sbir",
+"amount": 100000,
+"title": "SBIR Phase I from Department of Agriculture: Phosphorus biofertilizer for sustainable crop production",
+"source": "https://www.sbir.gov/awards"
 },
 {
 "date": "2018-07-26",
@@ -4266,6 +5026,14 @@
 "source": "https://www.usaspending.gov/award/CONT_AWD_0004_9700_SPRDL115D0010_9700"
 },
 {
+"date": "2017-09-01",
+"company": "biomineral-systems-llc",
+"kind": "sbir",
+"amount": 100000,
+"title": "SBIR Phase I from Department of Agriculture: Nitrogen Biofertilizer for sustainable agriculture",
+"source": "https://www.sbir.gov/awards"
+},
+{
 "date": "2017-08-29",
 "company": "amgeneral",
 "kind": "federal",
@@ -4386,12 +5154,28 @@
 "source": "https://www.usaspending.gov/award/CONT_AWD_SPE7L417C0094_9700_-NONE-_-NONE-"
 },
 {
+"date": "2017-07-01",
+"company": "biomineral-systems-llc",
+"kind": "sbir",
+"amount": 224911,
+"title": "SBIR Phase I from National Science Foundation: SBIR Phase I: Novel Biomimetic Production of Broad-Spectrum Fungicide BioSurF-I",
+"source": "https://www.sbir.gov/awards"
+},
+{
 "date": "2017-06-15",
 "company": "amgeneral",
 "kind": "federal",
 "amount": 484447,
 "title": "Federal contract from Department of Defense (Defense Logistics Agency): 8504487432!clutch,fan,engine",
 "source": "https://www.usaspending.gov/award/CONT_AWD_SPE7L417P1918_9700_-NONE-_-NONE-"
+},
+{
+"date": "2017-06-12",
+"company": "indiana-integrated-circuits-llc",
+"kind": "sbir",
+"amount": 149976,
+"title": "SBIR Phase I from Department of Energy: Enabling Large Format Deep Pixel Detectors Through 3D Quilt Packaging",
+"source": "https://www.sbir.gov/awards"
 },
 {
 "date": "2017-06-09",
@@ -5026,6 +5810,14 @@
 "source": "https://www.usaspending.gov/award/CONT_AWD_0067_9700_SPE7LX15DP055_9700"
 },
 {
+"date": "2015-09-18",
+"company": "omicron-biochemicals-inc",
+"kind": "federal",
+"amount": 999991,
+"title": "Federal contract from Department of Health and Human Services (National Institutes of Health): Igf::ot::igf synthesis of high-mannose n-glycans",
+"source": "https://www.usaspending.gov/award/CONT_AWD_HHSN261201500020C_7529_-NONE-_-NONE-"
+},
+{
 "date": "2015-09-15",
 "company": "amgeneral",
 "kind": "federal",
@@ -5066,6 +5858,14 @@
 "source": "https://www.usaspending.gov/award/CONT_AWD_HHSF223201510368G_7524_GS24F7549D_4730"
 },
 {
+"date": "2015-08-01",
+"company": "nanovis-llc",
+"kind": "sbir",
+"amount": 149830,
+"title": "SBIR Phase I from Department of Health and Human Services: Spinal Pseudoarthrosis Mitigation Using Nano Devices",
+"source": "https://www.sbir.gov/awards"
+},
+{
 "date": "2015-07-28",
 "company": "flexible",
 "kind": "federal",
@@ -5080,6 +5880,14 @@
 "amount": 1053502310,
 "title": "Federal contract from Department of Defense (Department of the Army): Foreign military sales contract for 2,082 high mobility multipurpose wheeled vehicles and spare parts.",
 "source": "https://www.usaspending.gov/award/CONT_AWD_W56HZV15C0155_9700_-NONE-_-NONE-"
+},
+{
+"date": "2015-07-02",
+"company": "nanovis-llc",
+"kind": "sbir",
+"amount": 213126,
+"title": "SBIR Phase I from Department of Health and Human Services: Durable Biomechanical Stabilization of Spinal Fusion Segments Despite Pseudoarthrosis Using Spinal Implants with Nano and Micron Porous Hierarchical Structures in a Novel Non-Union Model",
+"source": "https://www.sbir.gov/awards"
 },
 {
 "date": "2015-06-10",
@@ -5146,6 +5954,14 @@
 "source": "https://www.usaspending.gov/award/CONT_AWD_AG6395D150257_12K3_AG6395C130063_12K3"
 },
 {
+"date": "2015-04-01",
+"company": "omicron-biochemicals-inc",
+"kind": "sbir",
+"amount": 143995,
+"title": "SBIR Phase I from Department of Health and Human Services: Large Scale Synthesis of N-acetyllactosamine and Human Milk Oligosaccharides",
+"source": "https://www.sbir.gov/awards"
+},
+{
 "date": "2015-03-12",
 "company": "flexible",
 "kind": "federal",
@@ -5160,6 +5976,22 @@
 "amount": 1307689,
 "title": "Federal contract from Department of Defense (Defense Logistics Agency): 8501755630!plate,mounting",
 "source": "https://www.usaspending.gov/award/CONT_AWD_SPE7L415C0048_9700_-NONE-_-NONE-"
+},
+{
+"date": "2015",
+"company": "omicron-biochemicals-inc",
+"kind": "sbir",
+"amount": 999991,
+"title": "SBIR Phase II from Department of Health and Human Services: IGF  OT  IGF SYNTHESIS OF HIGH MANNOSE N GLYCANS",
+"source": "https://www.sbir.gov/awards"
+},
+{
+"date": "2014-12-31",
+"company": "scientific-methods-inc",
+"kind": "federal",
+"amount": 303416,
+"title": "Federal contract from Environmental Protection Agency (Environmental Protection Agency): Igf::cl::igf analytical microbiology laboratory services supporting the unregulated contaminant monitoring program, task order 4",
+"source": "https://www.usaspending.gov/award/CONT_AWD_0005_6800_EPC13017_6800"
 },
 {
 "date": "2014-12-23",
@@ -5194,12 +6026,36 @@
 "source": "https://www.usaspending.gov/award/CONT_AWD_W56HZV14C0129_9700_-NONE-_-NONE-"
 },
 {
+"date": "2014-06-20",
+"company": "indiana-integrated-circuits-llc",
+"kind": "sbir",
+"amount": 124869,
+"title": "SBIR Phase I from National Aeronautics and Space Administration: Heterogeneous Chip Integration for GHz Systems",
+"source": "https://www.sbir.gov/awards"
+},
+{
 "date": "2014-06-11",
 "company": "amgeneral",
 "kind": "federal",
 "amount": 132941765,
 "title": "Federal contract from Department of Defense (Defense Contract Management Agency): Recapitalize the army national guard s (arng) aging fleet of high mobility multi-wheeled vehicle (hmmwv) m1152a1b2 and m1165a1b3 variants.  amg will recap hmmwv",
 "source": "https://www.usaspending.gov/award/CONT_AWD_W56HZV14C0146_9700_-NONE-_-NONE-"
+},
+{
+"date": "2014-05-19",
+"company": "nanovis-llc",
+"kind": "sbir",
+"amount": 1499999,
+"title": "SBIR Phase II from Department of Health and Human Services: Development and Commercialization of Nanostructured Resorbable Urogenital Grafts",
+"source": "https://www.sbir.gov/awards"
+},
+{
+"date": "2014-04-15",
+"company": "us-nano-llc",
+"kind": "sbir",
+"amount": 747743,
+"title": "SBIR Phase II from National Science Foundation: SBIR Phase II: Innovations in Nanowire Manufacturing: Large Scale Synthesis of Inorganic Semiconducting Nanowires and Application to Printed Photosensors",
+"source": "https://www.sbir.gov/awards"
 },
 {
 "date": "2014-04-10",
@@ -5234,6 +6090,38 @@
 "source": "https://www.usaspending.gov/award/CONT_AWD_N0017413C0022_9700_-NONE-_-NONE-"
 },
 {
+"date": "2013-07-31",
+"company": "indiana-integrated-circuits-llc",
+"kind": "sbir",
+"amount": 149757,
+"title": "SBIR Phase I from Department of Defense: Advanced Chip Integration for Enhanced Arrays",
+"source": "https://www.sbir.gov/awards"
+},
+{
+"date": "2013-01-01",
+"company": "fiji-systems-llc",
+"kind": "sbir",
+"amount": 126800,
+"title": "SBIR Phase I from National Science Foundation: SBIR Phase I: Secure Real-time For Medical Consumer Electronics",
+"source": "https://www.sbir.gov/awards"
+},
+{
+"date": "2013",
+"company": "white-briar-corporation",
+"kind": "sbir",
+"amount": 99672,
+"title": "STTR Phase I from Department of Health and Human Services: Lighting System for Premature Infant Incubators",
+"source": "https://www.sbir.gov/awards"
+},
+{
+"date": "2013",
+"company": "omicron-biochemicals-inc",
+"kind": "sbir",
+"amount": 299586,
+"title": "SBIR Phase I from Department of Health and Human Services: SBIR TOPIC321:CHEMICALLY DEFINED GLYCAN LIBRARIES FOR REFERENCE STANDARDS AND GLY",
+"source": "https://www.sbir.gov/awards"
+},
+{
 "date": "2012-09-20",
 "company": "transhield-inc-elkhart-2932",
 "kind": "federal",
@@ -5250,12 +6138,60 @@
 "source": "https://www.usaspending.gov/award/CONT_AWD_W56HZV12C0258_9700_-NONE-_-NONE-"
 },
 {
+"date": "2012-07-19",
+"company": "odyssian-technology-llc",
+"kind": "sbir",
+"amount": 150000,
+"title": "SBIR Phase I from Department of Transportation: Smart Pipeline Network - Pipe & Repair Sensor System",
+"source": "https://www.sbir.gov/awards"
+},
+{
+"date": "2012-07-19",
+"company": "odyssian-technology-llc",
+"kind": "sbir",
+"amount": 150000,
+"title": "SBIR Phase I from Department of Transportation: Smart Pipeline Network - Seal Sensor System",
+"source": "https://www.sbir.gov/awards"
+},
+{
+"date": "2012-07-19",
+"company": "odyssian-technology-llc",
+"kind": "sbir",
+"amount": 150000,
+"title": "SBIR Phase I from Department of Transportation: Smart Pipeline Network - Cased Pipe for Monitoring and Sensor System",
+"source": "https://www.sbir.gov/awards"
+},
+{
+"date": "2012-07-01",
+"company": "us-nano-llc",
+"kind": "sbir",
+"amount": 146800,
+"title": "SBIR Phase I from National Science Foundation: SBIR Phase I: Innovations in Nanowire Manufacturing: Large Scale Synthesis of Inorganic Semiconducting Nanowires and Application to Printed Electronics",
+"source": "https://www.sbir.gov/awards"
+},
+{
+"date": "2012-03-15",
+"company": "lono-llc",
+"kind": "sbir",
+"amount": 500000,
+"title": "SBIR Phase II from National Science Foundation: SBIR Phase II: Thin Film Patterned Optical Retarders for Low Energy Smart Glass Applications",
+"source": "https://www.sbir.gov/awards"
+},
+{
 "date": "2011-06-13",
 "company": "flexible",
 "kind": "federal",
 "amount": 397040,
 "title": "Federal contract from Department of Defense (Department of the Army): Purchase of 62,915 each of shock attenuating lifting plug w/ gasket m795.",
 "source": "https://www.usaspending.gov/award/CONT_AWD_0001_9700_W15QKN11D0109_9700"
+},
+{
+"date": "2011-01-01",
+"company": "lono-llc",
+"kind": "sbir",
+"amount": 149141,
+"title": "SBIR Phase I from National Science Foundation: SBIR Phase I: Thin Film Patterned Optical Retarders for Low Energy Smart Glass Applications",
+"source": "https://www.sbir.gov/awards"
 },
 {
 "date": "2011",
@@ -5282,12 +6218,100 @@
 "source": "https://www.usaspending.gov/award/CONT_AWD_W56HZV10C0405_9700_-NONE-_-NONE-"
 },
 {
+"date": "2010-05-01",
+"company": "scientific-methods-inc",
+"kind": "sbir",
+"amount": 224987,
+"title": "SBIR Phase II from Environmental Protection Agency: Rapid Concentration of Viruses from Water",
+"source": "https://www.sbir.gov/awards"
+},
+{
+"date": "2010",
+"company": "scientific-methods-inc",
+"kind": "sbir",
+"amount": 224987,
+"title": "SBIR Phase II from Environmental Protection Agency: Rapid Concentration of Viruses from Water",
+"source": "https://www.sbir.gov/awards"
+},
+{
+"date": "2010",
+"company": "nanovis-llc",
+"kind": "sbir",
+"amount": 210755,
+"title": "SBIR Phase I from Department of Health and Human Services: Creation of the First Nanostructured Synthetic Regenerative Bladder Graft Materia",
+"source": "https://www.sbir.gov/awards"
+},
+{
+"date": "2009-12-18",
+"company": "fiji-systems-llc",
+"kind": "sbir",
+"amount": 99999,
+"title": "SBIR Phase I from Department of Defense: High-Productivity, Assured, Mixed-Criticality Systems Development with Real-time Java",
+"source": "https://www.sbir.gov/awards"
+},
+{
+"date": "2009-12-07",
+"company": "odyssian-technology-llc",
+"kind": "sbir",
+"amount": 100000,
+"title": "SBIR Phase I from Department of Defense: Structurally Embedded Power and Signal Cabling for Air Vehicles",
+"source": "https://www.sbir.gov/awards"
+},
+{
+"date": "2009-10-15",
+"company": "odyssian-technology-llc",
+"kind": "sbir",
+"amount": 749819,
+"title": "STTR Phase II from Department of Defense: Advanced Distribution and Control for Hybrid Intelligent Power Systems",
+"source": "https://www.sbir.gov/awards"
+},
+{
+"date": "2009-02-01",
+"company": "scientific-methods-inc",
+"kind": "sbir",
+"amount": 70000,
+"title": "SBIR Phase I from Environmental Protection Agency: Rapid concentration of viruses from water",
+"source": "https://www.sbir.gov/awards"
+},
+{
+"date": "2009",
+"company": "fiji-systems-llc",
+"kind": "sbir",
+"amount": 100000,
+"title": "SBIR Phase I from National Science Foundation: SBIR Phase I:  Low-power Real-time Java for Mission-critical Systems",
+"source": "https://www.sbir.gov/awards"
+},
+{
+"date": "2009",
+"company": "scientific-methods-inc",
+"kind": "sbir",
+"amount": 70000,
+"title": "SBIR Phase I from Environmental Protection Agency: Rapid Concentration of Viruses from Water",
+"source": "https://www.sbir.gov/awards"
+},
+{
 "date": "2008-11-08",
 "company": "flexible",
 "kind": "federal",
 "amount": 1087184,
 "title": "Federal contract from Department of Defense (Department of the Navy): Cases and bases",
 "source": "https://www.usaspending.gov/award/CONT_AWD_N0017409C0008_9700_-NONE-_-NONE-"
+},
+{
+"date": "2008-08-06",
+"company": "odyssian-technology-llc",
+"kind": "sbir",
+"amount": 99998,
+"title": "STTR Phase I from Department of Defense: Advanced Distribution and Control for Hybrid Intelligent Power Systems",
+"source": "https://www.sbir.gov/awards"
+},
+{
+"date": "2008",
+"company": "odyssian-technology-llc",
+"kind": "sbir",
+"amount": 99877,
+"title": "SBIR Phase I from Department of Transportation: New In-field Composite Repair Techniques for Transmission or Distribution Pipelines",
+"source": "https://www.sbir.gov/awards"
 },
 {
 "date": "2007-10-04",
@@ -5304,6 +6328,126 @@
 "amount": 19132080,
 "title": "Federal contract from Department of Defense (Department of the Army): Sts",
 "source": "https://www.usaspending.gov/award/CONT_AWD_W56HZV07C0538_9700_-NONE-_-NONE-"
+},
+{
+"date": "2007-05-01",
+"company": "scientific-methods-inc",
+"kind": "sbir",
+"amount": 224998,
+"title": "SBIR Phase II from Environmental Protection Agency: Automated Sample Collection and Concentration System for Multiple Pathogens in Water",
+"source": "https://www.sbir.gov/awards"
+},
+{
+"date": "2007",
+"company": "scientific-methods-inc",
+"kind": "sbir",
+"amount": 344938,
+"title": "SBIR Phase II from Environmental Protection Agency: Automated Sample Collection and Concentration System for Multiple Pathogens in Water",
+"source": "https://www.sbir.gov/awards"
+},
+{
+"date": "2006-11-02",
+"company": "odyssian-technology-llc",
+"kind": "sbir",
+"amount": 749968,
+"title": "SBIR Phase II from Department of Defense: Thin Film Thermal Battery Igniters for Ballistic Missile Defense Systems",
+"source": "https://www.sbir.gov/awards"
+},
+{
+"date": "2006-04-01",
+"company": "scientific-methods-inc",
+"kind": "sbir",
+"amount": 224929,
+"title": "SBIR Phase II from Environmental Protection Agency: Development of a Novel Virus Capture System using Positively Charged Silica Matrix",
+"source": "https://www.sbir.gov/awards"
+},
+{
+"date": "2006-03-01",
+"company": "scientific-methods-inc",
+"kind": "sbir",
+"amount": 69999,
+"title": "SBIR Phase I from Environmental Protection Agency: Automated Sample Collection and Concentration System for Multiple Pathogens in Water",
+"source": "https://www.sbir.gov/awards"
+},
+{
+"date": "2006",
+"company": "scientific-methods-inc",
+"kind": "sbir",
+"amount": 296000,
+"title": "SBIR Phase II from Department of Agriculture: Development of a Simple, Quantitative Kit to Test Vegetables and Fruits for Evidence of Fecal Contamination",
+"source": "https://www.sbir.gov/awards"
+},
+{
+"date": "2006",
+"company": "scientific-methods-inc",
+"kind": "sbir",
+"amount": 343486,
+"title": "SBIR Phase II from Environmental Protection Agency: Development of a Novel Virus Capture System Using Positively Charged Silica Matrix",
+"source": "https://www.sbir.gov/awards"
+},
+{
+"date": "2006",
+"company": "scientific-methods-inc",
+"kind": "sbir",
+"amount": 69999,
+"title": "SBIR Phase I from Environmental Protection Agency: Automated Sample Collection and Concentration System for Multiple Pathogens in Water",
+"source": "https://www.sbir.gov/awards"
+},
+{
+"date": "2005-06-02",
+"company": "odyssian-technology-llc",
+"kind": "sbir",
+"amount": 749898,
+"title": "SBIR Phase II from Department of Defense: ABL Smart Piping System for Containment and Control of Highly Corrosive and Hazardous Chemicals",
+"source": "https://www.sbir.gov/awards"
+},
+{
+"date": "2005-04-01",
+"company": "odyssian-technology-llc",
+"kind": "sbir",
+"amount": 99944,
+"title": "SBIR Phase I from Department of Defense: Structurally Integrated Hybrid Battery for Improved Performance of Small Unmanned Aerial Vehicles (SUAV)",
+"source": "https://www.sbir.gov/awards"
+},
+{
+"date": "2005-03-01",
+"company": "scientific-methods-inc",
+"kind": "sbir",
+"amount": 69973,
+"title": "SBIR Phase I from Environmental Protection Agency: Development of a Novel Virus Capture System Using Positively Charged Silica Matrix",
+"source": "https://www.sbir.gov/awards"
+},
+{
+"date": "2005-01-24",
+"company": "odyssian-technology-llc",
+"kind": "sbir",
+"amount": 99946,
+"title": "SBIR Phase I from Department of Defense: Improved Reliability and Producibility of Ballistic Missile Defense Systems through Highly Controlled Deposition of Critical Battery Components",
+"source": "https://www.sbir.gov/awards"
+},
+{
+"date": "2005",
+"company": "scientific-methods-inc",
+"kind": "sbir",
+"amount": 79917,
+"title": "SBIR Phase I from Department of Agriculture: Development of a Simple, Quantitative Kit to Test Vegetables and Fruits for Evidence of Fecal Contamination",
+"source": "https://www.sbir.gov/awards"
+},
+{
+"date": "2005",
+"company": "scientific-methods-inc",
+"kind": "sbir",
+"amount": 69930,
+"title": "SBIR Phase I from Environmental Protection Agency: Development of a Novel Virus Capture System Using Positively Charged Silica Matrix",
+"source": "https://www.sbir.gov/awards"
+},
+{
+"date": "2003",
+"company": "odyssian-technology-llc",
+"kind": "sbir",
+"amount": 69361,
+"title": "SBIR Phase I from Department of Defense: Multifunctional Structures with Structurally Integrated Circuitry for Use on the Airborne Laser (ABL)",
+"source": "https://www.sbir.gov/awards"
 },
 {
 "date": "2002",

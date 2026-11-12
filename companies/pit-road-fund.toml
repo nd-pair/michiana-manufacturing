@@ -10,6 +10,8 @@ lat = 41.69313
 lon = -86.22930
 website = "https://ideacenter.nd.edu"
 
+standalone = true   # not a site of the IDEA Center, though its page lives there
+
 sector = "Capital & anchors"
 products = ["University venture fund", "Venture capital"]
 

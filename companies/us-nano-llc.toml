@@ -1,0 +1,24 @@
+# US Nano LLC
+# Imported from SBIR.gov award data (public). Placed at the city center: small firms often list a home address.
+
+name = "US Nano LLC"
+kind = "company"
+city = "South Bend"
+state = "IN"
+lat = 41.68338
+lon = -86.25001
+location_precision = "city"
+
+sector = "Materials & composites"
+products = ["SBIR/STTR research and development"]
+
+employees = 5
+employees_scope = "company"
+employees_year = 2014
+employees_quality = "reported"
+employees_note = "reported by the firm on its 2014 SBIR/STTR award"
+
+description = "SBIR/STTR awardee: 2 awards from National Science Foundation, 2012 to 2014. Most recent: SBIR Phase II: Innovations in Nanowire Manufacturing: Large Scale Synthesis of Inorganic Semiconducting Nanowires and Application to Printed Photosensors."
+
+source = "SBIR.gov award data"
+updated = "2026-11-11"

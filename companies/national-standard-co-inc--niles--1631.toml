@@ -8,7 +8,6 @@ state = "MI"
 address = "1631 Lake Street, Niles, MI 49120"
 lat = 41.84157
 lon = -86.23548
-website = "https://nationalstandard.com"
 
 sector = "Medical devices & other"
 products = ["Lead Pencil and Art Good Manufacturing"]
@@ -16,7 +15,9 @@ naics = "339942"
 
 employees = 200
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Corporate Headquarters & Wire. NAICS 339942: lead pencil and art good manufacturing."
 

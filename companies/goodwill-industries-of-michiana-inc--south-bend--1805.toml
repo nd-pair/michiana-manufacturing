@@ -9,6 +9,7 @@ address = "1805 Western Avenue, South Bend, IN 46619"
 lat = 41.67244
 lon = -86.27669
 website = "https://goodwill-ni.org"
+uei = "L6AENFMBT2Y9"
 
 sector = "Food & consumer goods"
 products = ["All Other Miscellaneous Textile Product Mills"]
@@ -16,7 +17,9 @@ naics = "314999"
 
 employees = 25
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Wiping Cloths & Contract Packaging & Assembly. NAICS 314999: all other miscellaneous textile product mills."
 

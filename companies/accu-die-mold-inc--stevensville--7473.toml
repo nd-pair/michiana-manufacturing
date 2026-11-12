@@ -8,7 +8,6 @@ state = "MI"
 address = "7473 Red Arrow Highway, Stevensville, MI 49127"
 lat = 41.98167
 lon = -86.54035
-website = "https://not available"
 
 sector = "Mechatronics & automation"
 products = ["Special Die and Tool, Die Set, Jig, and Fixture Manufacturing"]
@@ -16,7 +15,9 @@ naics = "333514"
 
 employees = 45
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Tool & Die Job Shop. NAICS 333514: special die and tool, die set, jig, and fixture manufacturing."
 

@@ -8,7 +8,6 @@ state = "IN"
 address = "2727 17th Street, Elkhart, IN 46517"
 lat = 41.65893
 lon = -85.99483
-website = "https://not available"
 
 sector = "Metal"
 products = ["Iron and Steel Mills"]
@@ -16,7 +15,9 @@ naics = "331111"
 
 employees = 18
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Steel Fabrication & Tool & Die Job Shop. NAICS 331111: iron and steel mills."
 

@@ -8,7 +8,6 @@ state = "IN"
 address = "1130 Verdant Drive, Elkhart, IN 46516"
 lat = 41.67664
 lon = -85.89416
-website = "https://not available"
 
 sector = "Metal"
 products = ["Iron and Steel Mills"]
@@ -16,7 +15,9 @@ naics = "331111"
 
 employees = 15
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Structural Steel Fabrication. NAICS 331111: iron and steel mills."
 

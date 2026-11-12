@@ -11,10 +11,11 @@ Sources, each optional:
 Each award becomes one dated event on the timeline.
 """
 import csv, datetime, io, json, sys, time, urllib.request
-from common import P, COUNTIES, companies, matcher
+from common import P, COUNTIES, companies, matcher, norm, uei_index, exact_name_index
 sys.path.insert(0, P("scripts"))
 import pull_sbir
 
+BY_UEI, BY_NAME = {}, {}
 UA = {"User-Agent": "michiana-manufacturing/1.0 (github.com/nd-pair/michiana-manufacturing)"}
 USA = "https://api.usaspending.gov/api/v2/search/spending_by_award/"
 
@@ -24,7 +25,7 @@ def sbir_events(cs, match, by_domain):
         allowed = pull_sbir.CITY_SETS.get((row.get("State") or "").strip())
         if not allowed or (row.get("City") or "").strip().lower() not in allowed:
             continue
-        cid = by_domain.get(pull_sbir.domain(row.get("Company Website"))) or match(row.get("Company") or "", row.get("City") or "")
+        cid = BY_UEI.get((row.get("UEI") or "").strip()) or by_domain.get(pull_sbir.domain(row.get("Company Website"))) or match(row.get("Company") or "", row.get("City") or "")
         if not cid:
             continue
         try:
@@ -45,7 +46,7 @@ def federal_events(cs, match):
         while True:
             body = {"filters": {"time_period": [{"start_date": "2015-10-01", "end_date": datetime.date.today().isoformat()}], "award_type_codes": codes,
                                 "recipient_locations": locs, "award_amounts": [{"lower_bound": 250000}]},
-                    "fields": ["Award ID", "Recipient Name", "Award Amount", "Start Date", "Awarding Agency", "Awarding Sub Agency", "Description"], "limit": 100, "page": page,
+                    "fields": ["Award ID", "Recipient Name", "Recipient UEI", "Award Amount", "Start Date", "Awarding Agency", "Awarding Sub Agency", "Description"], "limit": 100, "page": page,
                     "sort": "Award Amount", "order": "desc"}
             req = urllib.request.Request(USA, data=json.dumps(body).encode(), headers={**UA, "Content-Type": "application/json"})
             for attempt in range(4):
@@ -58,7 +59,7 @@ def federal_events(cs, match):
                         raise
                     time.sleep(3)
             for a in d.get("results", []):
-                cid = match(a.get("Recipient Name") or "")
+                cid = BY_UEI.get(a.get("Recipient UEI") or "") or BY_NAME.get(norm(a.get("Recipient Name") or ""))
                 if not cid or not a.get("Start Date"):
                     continue
                 desc = (a.get("Description") or "").strip().capitalize()
@@ -72,7 +73,9 @@ def federal_events(cs, match):
     return out
 
 def main():
+    global BY_UEI, BY_NAME
     cs = companies(); match = matcher(cs); by_domain = {pull_sbir.domain(c["website"]): c["_id"] for c in cs if c.get("website")}
+    BY_UEI, BY_NAME = uei_index(cs), exact_name_index(cs)
     events = []
     for fn, args in ((sbir_events, (cs, match, by_domain)), (federal_events, (cs, match))):
         try:

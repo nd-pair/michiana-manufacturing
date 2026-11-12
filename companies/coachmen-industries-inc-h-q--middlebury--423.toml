@@ -1,7 +1,7 @@
-# Coachmen Industries, Inc. (h Q)
+# Coachmen Industries, Inc. (HQ)
 # Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
 
-name = "Coachmen Industries, Inc. (h Q)"
+name = "Coachmen Industries, Inc. (HQ)"
 kind = "company"
 city = "Middlebury"
 state = "IN"
@@ -16,7 +16,9 @@ naics = "336213"
 
 employees = 50
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Corporate Headquarters; Recreational Vehicles, Systems-Built Homes & Commercial Buildings. NAICS 336213: motor home manufacturing."
 

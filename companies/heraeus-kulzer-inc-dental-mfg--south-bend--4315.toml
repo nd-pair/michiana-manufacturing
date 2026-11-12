@@ -16,7 +16,9 @@ naics = "339114"
 
 employees = 70
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Dental Products. NAICS 339114: dental equipment and supplies manufacturing."
 

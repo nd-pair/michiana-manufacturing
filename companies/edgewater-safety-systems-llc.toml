@@ -1,0 +1,26 @@
+# Edgewater Safety Systems LLC
+# Imported from SBIR.gov award data (public). Placed at the city center: small firms often list a home address.
+
+name = "Edgewater Safety Systems LLC"
+kind = "company"
+city = "Saint Joseph"
+state = "MI"
+lat = 42.10958
+lon = -86.47995
+location_precision = "city"
+website = "https://www.edgewatersafetysystems.com"
+uei = "WEAYDCX3CFH8"
+
+sector = "Medical devices & other"
+products = ["SBIR/STTR research and development"]
+
+employees = 176
+employees_scope = "company"
+employees_year = 2021
+employees_quality = "reported"
+employees_note = "reported by the firm on its 2021 SBIR/STTR award"
+
+description = "SBIR/STTR awardee: 1 award from Department of Health and Human Services, 2021. Most recent: Development of Memesto, a wearable repetitive message and music therapy device that senses and reduces agitation in persons with AD/ADRD."
+
+source = "SBIR.gov award data"
+updated = "2026-11-11"

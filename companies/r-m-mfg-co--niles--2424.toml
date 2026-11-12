@@ -8,7 +8,6 @@ state = "MI"
 address = "2424 North 5th Street, Niles, MI 49120"
 lat = 41.85657
 lon = -86.24445
-website = "https://not available"
 
 sector = "Mechatronics & automation"
 products = ["All Other Industrial Machinery Manufacturing"]
@@ -16,7 +15,9 @@ naics = "333298"
 
 employees = 17
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Industrial Machinery. NAICS 333298: all other industrial machinery manufacturing."
 

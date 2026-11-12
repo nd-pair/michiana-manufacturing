@@ -16,7 +16,9 @@ naics = "333514"
 
 employees = 30
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Contract Machining Job Shop, Bar Feed Turning and Secondary Operations, Production Machining of Castings & Billet. NAICS 333514: special die and tool, die set, jig, and fixture manufacturing."
 

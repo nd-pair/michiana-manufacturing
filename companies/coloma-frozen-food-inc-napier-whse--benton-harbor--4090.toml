@@ -8,7 +8,6 @@ state = "MI"
 address = "4090 East Napier Avenue, Benton Harbor, MI 49022"
 lat = 42.09085
 lon = -86.35939
-website = "https://not available"
 
 sector = "Food & consumer goods"
 products = ["Frozen Fruit, Juice, and Vegetable Manufacturing"]
@@ -16,7 +15,9 @@ naics = "311411"
 
 employees = 35
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Repackaged Frozen Fruits & Vegetables. NAICS 311411: frozen fruit, juice, and vegetable manufacturing."
 

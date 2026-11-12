@@ -16,7 +16,9 @@ naics = "313210"
 
 employees = 70
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Interior Soft Trim Products & Solutions for Transportation & Contract Applications. NAICS 313210: broadwoven fabric mills."
 

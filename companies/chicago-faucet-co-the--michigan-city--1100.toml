@@ -16,7 +16,9 @@ naics = "332919"
 
 employees = 100
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Bath Waste & Overflow Kitchen Sink Accessories, Toilet Flush Systems & Touch-Free Faucets. NAICS 332919: other metal valve and pipe fitting manufacturing."
 

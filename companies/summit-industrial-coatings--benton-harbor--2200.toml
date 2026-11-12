@@ -8,7 +8,6 @@ state = "MI"
 address = "2200 East Empire Avenue, Benton Harbor, MI 49022"
 lat = 42.10116
 lon = -86.40584
-website = "https://not available"
 
 sector = "Metal"
 products = ["Metal Coating, Engraving (except Jewelry and Silverware), and Allied Services To Manufacturers"]
@@ -16,7 +15,9 @@ naics = "332812"
 
 employees = 40
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Powder Coating. NAICS 332812: metal coating, engraving (except jewelry and silverware), and allied services to manufacturers."
 

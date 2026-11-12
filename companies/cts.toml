@@ -9,6 +9,7 @@ address = "905 West Blvd N, Elkhart, IN 46514"
 lat = 41.69437
 lon = -85.99847
 website = "https://www.ctscorp.com"
+uei = "N59QW3N8TBQ7"
 
 sector = "Electronics"
 products = ["Sensors", "Electronic components", "Frequency control"]

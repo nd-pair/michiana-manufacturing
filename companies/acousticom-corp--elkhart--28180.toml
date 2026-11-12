@@ -9,6 +9,7 @@ address = "28180 Clay Street, Elkhart, IN 46517"
 lat = 41.66129
 lon = -86.00618
 website = "https://acousticom.com"
+uei = "EYEXABBRY3W3"
 
 sector = "Electronics"
 products = ["Radio and Television Broadcasting and Wireless Communications Equipment Manufacturing"]
@@ -16,7 +17,9 @@ naics = "334220"
 
 employees = 30
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Audio Communication Equipment. NAICS 334220: radio and television broadcasting and wireless communications equipment manufacturing."
 

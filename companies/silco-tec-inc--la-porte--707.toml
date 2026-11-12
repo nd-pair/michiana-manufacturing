@@ -8,7 +8,6 @@ state = "IN"
 address = "707 Boyd Boulevard, La Porte, IN 46350"
 lat = 41.61452
 lon = -86.68930
-website = "https://not available"
 
 sector = "Materials & composites"
 products = ["Synthetic Rubber Manufacturing"]
@@ -16,7 +15,9 @@ naics = "325212"
 
 employees = 40
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Silicone Rubber. NAICS 325212: synthetic rubber manufacturing."
 

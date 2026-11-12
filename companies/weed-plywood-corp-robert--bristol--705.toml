@@ -16,7 +16,9 @@ naics = "335313"
 
 employees = 450
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Laminated Panels, Shelving & Drawer Sides, Wrapped, Stained, Painted & Top Coated Profile Mouldings & Picture Frames. NAICS 335313: switchgear and switchboard apparatus manufacturing."
 

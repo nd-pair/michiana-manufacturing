@@ -4,11 +4,12 @@
     python3 scripts/pull_federal.py        # writes data/federal.json
 
 For each recipient located in the region: total obligated amount since FY2016 for contracts and for
-grants, matched to our company files by name. Also the regional totals by awarding agency, for the
+grants, matched to our company files by UEI (Unique Entity ID) where a file has one, otherwise by a
+unique exact name; the UEI found that way is written into the company file so later runs match exactly. Also the regional totals by awarding agency, for the
 federal-footprint panel. Public API, no key.
 """
 import json, sys, time, urllib.request, datetime
-from common import P, COUNTIES, companies, matcher
+from common import P, COUNTIES, companies, norm, uei_index, exact_name_index, company_path, set_field
 
 API = "https://api.usaspending.gov/api/v2/search/spending_by_category/%s/"
 TIME = [{"start_date": "2015-10-01", "end_date": datetime.date.today().isoformat()}]
@@ -39,14 +40,20 @@ def all_pages(kind, filters):
             return out
 
 def main():
-    cs = companies(); match = matcher(cs)
-    by_company, agencies = {}, {}
+    cs = companies(); by_uei = uei_index(cs); by_name = exact_name_index(cs); has_uei = {c["_id"] for c in cs if c.get("uei")}
+    by_company, agencies, learned = {}, {}, {}
     for label, codes in TYPES.items():
         filters = {"time_period": TIME, "award_type_codes": codes, "recipient_locations": LOCS}
         recips = all_pages("recipient", filters)
         print("%s: %d recipients" % (label, len(recips)))
         for r in recips:
-            cid = match(r["name"])
+            uei = r.get("uei") or ""
+            cid = by_uei.get(uei)
+            if not cid:
+                cid = by_name.get(norm(r["name"]))
+                # remember the identifier so the next run matches exactly, unless another file already holds it
+                if cid and uei and cid not in has_uei and uei not in by_uei and cid not in learned:
+                    learned[cid] = uei
             if not cid:
                 continue
             e = by_company.setdefault(cid, {"contracts": 0, "grants": 0, "recipient_names": []})
@@ -64,6 +71,11 @@ def main():
             "pulled": datetime.date.today().isoformat(), "companies": by_company,
             "agencies": [{"name": n, **{k: round(v) for k, v in d.items()}} for n, d in top]}
     json.dump(data, open(P("data", "federal.json"), "w"), indent=0)
+    for cid, uei in learned.items():
+        path = company_path(cid)
+        if path:
+            set_field(path, "uei", uei)
+    print("stored %d new UEIs in company files" % len(learned))
     print("matched %d companies; top agencies: %s" % (len(by_company), ", ".join(a["name"] for a in data["agencies"][:5])))
 
 if __name__ == "__main__":

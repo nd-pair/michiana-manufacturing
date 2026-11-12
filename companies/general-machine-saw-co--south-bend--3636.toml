@@ -8,7 +8,6 @@ state = "IN"
 address = "3636 Gagnon Street, South Bend, IN 46628"
 lat = 41.71782
 lon = -86.29968
-website = "https://not available"
 
 sector = "Metal"
 products = ["Iron and Steel Mills"]
@@ -16,7 +15,9 @@ naics = "331111"
 
 employees = 18
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Steel Bar Cutting. NAICS 331111: iron and steel mills."
 

@@ -22,24 +22,32 @@ jobs:
       - name: New facilities from HIFLD (never overwrites existing files)
         continue-on-error: true
         run: python3 scripts/import_hifld.py
-      - name: Federal contracts and grants (USAspending)
+      - name: SBIR/STTR awards (SBIR.gov bulk file)
+        continue-on-error: true
+        run: python3 scripts/pull_sbir.py
+      - name: New SBIR/STTR firms in the region (city-level positions)
+        continue-on-error: true
+        run: python3 scripts/import_sbir_firms.py
+      - name: Fill in coordinates for files that have an address but no lat/lon
+        continue-on-error: true
+        run: python3 scripts/geocode.py
+      - name: Federal contracts and grants (USAspending; stores UEIs as they are found)
         continue-on-error: true
         run: python3 scripts/pull_federal.py
       - name: FDA device establishment registrations (openFDA)
         continue-on-error: true
         run: python3 scripts/pull_fda.py
-      - name: SBIR/STTR awards (SBIR.gov bulk file)
+      - name: Patents (PatentsView; skipped without the PATENTSVIEW_API_KEY secret)
         continue-on-error: true
-        run: python3 scripts/pull_sbir.py
+        env:
+          PATENTSVIEW_API_KEY: ${{ secrets.PATENTSVIEW_API_KEY }}
+        run: python3 scripts/pull_patents.py
       - name: Timeline events (SBIR awards, federal awards)
         continue-on-error: true
         run: python3 scripts/pull_events.py
-      - name: Manufacturing employment by county (BLS QCEW)
+      - name: Manufacturing employment by county and sector (BLS QCEW)
         continue-on-error: true
         run: python3 scripts/pull_qcew.py
-      - name: Fill in coordinates for files that have an address but no lat/lon
-        continue-on-error: true
-        run: python3 scripts/geocode.py
       - name: Build docs/
         run: python3 scripts/build.py
       - name: Commit the refresh

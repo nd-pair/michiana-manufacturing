@@ -8,7 +8,6 @@ state = "IN"
 address = "52941 Glenview Drive, Elkhart, IN 46514"
 lat = 41.72542
 lon = -86.01295
-website = "https://not available"
 
 sector = "Vehicles & RVs"
 products = ["Motor Home Manufacturing"]
@@ -16,7 +15,9 @@ naics = "336213"
 
 employees = 68
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Recreational Vehicles, Steel Parts & Weldments. NAICS 336213: motor home manufacturing."
 

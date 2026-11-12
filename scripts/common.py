@@ -39,3 +39,42 @@ def matcher(cs):
         k = (" ".join(n.split()[:3]), (city or "").lower())
         return prefix.get(k)
     return match
+
+def company_path(cid):
+    """The file for a company id (ids are file names without .toml, normalized)."""
+    for n in os.listdir(P("companies")):
+        if n.endswith(".toml") and re.sub(r"[^a-z0-9]+", "-", n[:-5].lower()).strip("-") == cid:
+            return P("companies", n)
+    return None
+
+def set_field(path, key, value):
+    """Set `key = value` in a company file: replace the line if present, otherwise add it after the
+    `name`/`website`/`address` block. Values are written as TOML strings or integers."""
+    v = '"%s"' % str(value).replace("\\", "\\\\").replace('"', '\\"') if isinstance(value, str) else str(value)
+    with open(path, encoding="utf-8") as fh:
+        text = fh.read()
+    line = "%s = %s" % (key, v)
+    if re.search(r"^%s\s*=.*$" % re.escape(key), text, re.M):
+        text = re.sub(r"^%s\s*=.*$" % re.escape(key), line.replace("\\", "\\\\"), text, count=1, flags=re.M)
+    else:
+        anchor = None
+        for k in ("website", "lon", "address", "state", "name"):
+            m = re.search(r"^%s\s*=.*$" % k, text, re.M)
+            if m:
+                anchor = m; break
+        text = text[:anchor.end()] + "\n" + line + text[anchor.end():] if anchor else text.rstrip() + "\n" + line + "\n"
+    with open(path, "w", encoding="utf-8") as fh:
+        fh.write(text)
+
+def uei_index(cs):
+    return {c["uei"]: c["_id"] for c in cs if c.get("uei")}
+
+def exact_name_index(cs):
+    """Normalized name -> company id, only for names that are unique among the files."""
+    seen, dup = {}, set()
+    for c in cs:
+        n = norm(c["name"])
+        if n in seen:
+            dup.add(n)
+        seen[n] = c["_id"]
+    return {n: i for n, i in seen.items() if n not in dup}

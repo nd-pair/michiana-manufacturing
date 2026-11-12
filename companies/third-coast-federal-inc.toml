@@ -1,0 +1,26 @@
+# Third Coast Federal, Inc.
+# Imported from SBIR.gov award data (public). Placed at the city center: small firms often list a home address.
+
+name = "Third Coast Federal, Inc."
+kind = "company"
+city = "South Bend"
+state = "IN"
+lat = 41.68338
+lon = -86.25001
+location_precision = "city"
+website = "http://www.thirdcoastfederal.com"
+uei = "R9LHT475WKB8"
+
+sector = "Software & services"
+products = ["SBIR/STTR research and development"]
+
+employees = 5
+employees_scope = "company"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "reported by the firm on its 2025 SBIR/STTR award"
+
+description = "SBIR/STTR awardee: 4 awards from Department of Defense, 2021 to 2025. Most recent: AI Powered Market Intelligence & Tech Scouting Recommendation Engine to Drive DoD Discovery and Engagement of an Innovative Industrial Supply Chain."
+
+source = "SBIR.gov award data"
+updated = "2026-11-11"

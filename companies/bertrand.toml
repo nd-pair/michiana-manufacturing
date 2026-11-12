@@ -9,6 +9,7 @@ address = "2323 Foundation Dr, South Bend, IN 46628"
 lat = 41.70871
 lon = -86.30479
 website = "https://www.bertrandproducts.com"
+uei = "M9N3CA9VJTD5"
 
 sector = "Metal"
 products = ["Aerospace machining", "Precision machining"]

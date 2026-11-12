@@ -1,0 +1,71 @@
+<main id="content" class="site-content">
+    <div class="page-primary">
+      <div class="section">
+        <h1>About the data</h1>
+        <p class="lede">The map shows {{COMPANIES}} companies at {{SITES}} sites in the South Bend–Elkhart region. Every figure on it comes from a public source, listed below with how it is matched, how current it is, and what it leaves out. Built {{BUILT}}.</p>
+      </div>
+
+      <section class="section">
+        <h2>Where the companies come from</h2>
+        <table class="table">
+          <thead><tr><th>Source</th><th>Entries</th><th>What it provides</th></tr></thead>
+          <tbody>
+            <tr><td>HIFLD General Manufacturing Facilities (U.S. Department of Homeland Security, served by the Department of Energy's NETL)</td><td>{{HIFLD}}</td><td>Every NAICS 31–33 facility in the region's counties: name, street address, NAICS code, product line, website and an employee estimate.</td></tr>
+            <tr><td>SBIR.gov award data</td><td>{{SBIRFIRMS}}</td><td>Firms in the region with an SBIR or STTR award since 2012 that are not in the HIFLD data: name, city, website, the headcount reported on their latest award, and their awards.</td></tr>
+            <tr><td>Company websites, filings, press and regional directories</td><td>{{HAND}}</td><td>Companies, investors and university units entered individually, with the source of each figure noted in the file.</td></tr>
+          </tbody>
+        </table>
+        <p>Plants of one company are grouped: by an explicit parent in the data, by a shared website, or by the same name once plant and division qualifiers are removed. {{GROUPED}} sites belong to {{PARENTS}} multi-site companies. Panel counts of "companies" count each group once; staff sums add every site.</p>
+      </section>
+
+      <section class="section">
+        <h2>Positions</h2>
+        <p>Columns stand at geocoded street addresses (OpenStreetMap Nominatim). {{CITYLEVEL}} entries are placed at their city's center instead: SBIR firms, because small firms often list a home address, and a few companies whose address could not be geocoded. Several organizations at one address are spread in a small ring so each stays visible. The globe is true scale; county boundaries are from the U.S. Census Bureau and shorelines from Natural Earth.</p>
+      </section>
+
+      <section class="section">
+        <h2>Headcounts</h2>
+        <p>Column height is headcount on a log scale. Every figure carries a year and a grade, shown in the roster and the detail panel:</p>
+        <ul>
+          <li><strong>Estimate.</strong> HIFLD's employee figures are modeled estimates; the year shown is the base dataset's (2022), not a survey date. Business-directory ranges are graded the same way.</li>
+          <li><strong>Reported.</strong> Figures a company states itself (website, filing, press release) or reported on an SBIR award, with that year.</li>
+          <li><strong>Company-wide.</strong> Marked separately where only a figure for the whole company exists, as for the Elkhart RV manufacturers.</li>
+        </ul>
+        <p>Staff totals in the panels add the known figures as they are, so they are approximate and mix years.</p>
+      </section>
+
+      <section class="section">
+        <h2>Federal awards, SBIR and certifications</h2>
+        <table class="table">
+          <thead><tr><th>Layer</th><th>Source and method</th><th>Matched</th><th>Pulled</th></tr></thead>
+          <tbody>
+            <tr><td>Federal contracts and grants</td><td>USAspending.gov, procurement contracts and grants since FY2016 to recipients located in the region's counties (loans, insurance and direct payments excluded). Matched by UEI (Unique Entity ID) where a company file has one, otherwise by a unique exact name; the UEI found that way is stored so later runs match exactly. {{UEI}} entries carry a UEI.</td><td>{{FEDN}}</td><td>{{FEDPULLED}}</td></tr>
+            <tr><td>SBIR/STTR awards</td><td>SBIR.gov's monthly bulk award file, matched by UEI, website domain, then name and city.</td><td>{{SBIRN}}</td><td>{{SBIRPULLED}}</td></tr>
+            <tr><td>FDA device establishments</td><td>openFDA device registration and listing, by city.</td><td>{{FDAN}}</td><td>{{FDAPULLED}}</td></tr>
+            <tr><td>Patents</td><td>USPTO PatentsView, patents granted since 2015 to assignees in the region's cities.</td><td colspan="2">{{PATENTS}}</td></tr>
+          </tbody>
+        </table>
+        <p>Dollar figures are obligations as recorded, which can include later de-obligations. A company's federal total is attributed to the site whose file carries the UEI; for multi-site companies the group total is the meaningful figure.</p>
+      </section>
+
+      <section class="section">
+        <h2>Capabilities, employment and the timeline</h2>
+        <p><strong>Capabilities</strong> are inferred from NAICS codes and product keywords with an editable mapping; a capability with one or no company in the current selection is flagged as a gap. <strong>Manufacturing employment</strong> is from the BLS Quarterly Census of Employment and Wages, private ownership, annual averages, {{QCEWYEARS}} (pulled {{QCEWPULLED}}). The sector view sums 3-digit NAICS rows over the region's counties; BLS withholds cells that would reveal a single employer, so sector totals are a lower bound. The <strong>timeline</strong> lists {{EVENTS}} dated events: federal awards of $250,000 or more, SBIR/STTR awards and, where available, patents.</p>
+      </section>
+
+      <section class="section">
+        <h2>Known gaps</h2>
+        <ul>
+          <li>HIFLD omits some small shops and lags openings and closures; the monthly refresh adds new facilities but does not remove closed ones.</li>
+          <li>Sectors for SBIR firms are assigned from the words in their award titles and may be wrong for firms whose awards span fields.</li>
+          <li>Name matching can still miss a federal recipient that uses a different legal name and has no UEI on file.</li>
+          <li>Certifications other than FDA registration (AS9100, ISO 9001, Nadcap, CMMC) are not in open registries and appear only where a company publishes them.</li>
+        </ul>
+      </section>
+
+      <section class="section">
+        <h2>Refresh and reuse</h2>
+        <p>A scheduled job refreshes every source on the 2nd of each month and rebuilds the site. The data files and scripts are public at <a href="https://github.com/nd-pair/michiana-manufacturing">github.com/nd-pair/michiana-manufacturing</a>; the map's roster downloads as CSV with every field, and any filtered view can be shared as a link.</p>
+      </section>
+    </div>
+</main>

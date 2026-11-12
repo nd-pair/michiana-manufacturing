@@ -1,0 +1,26 @@
+# Bond Technologies, Inc.
+# Imported from SBIR.gov award data (public). Placed at the city center: small firms often list a home address.
+
+name = "Bond Technologies, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+lat = 41.68199
+lon = -85.97667
+location_precision = "city"
+website = "http://www.bondtechnologies.net"
+uei = "MJGPRTAV5EU8"
+
+sector = "Software & services"
+products = ["SBIR/STTR research and development"]
+
+employees = 15
+employees_scope = "company"
+employees_year = 2024
+employees_quality = "reported"
+employees_note = "reported by the firm on its 2024 SBIR/STTR award"
+
+description = "SBIR/STTR awardee: 2 awards from National Aeronautics and Space Administration, 2023 to 2024. Most recent: Lunar Truss Design and Construction."
+
+source = "SBIR.gov award data"
+updated = "2026-11-11"

@@ -1,0 +1,25 @@
+# Seeksmart LLC
+# Imported from SBIR.gov award data (public). Placed at the city center: small firms often list a home address.
+
+name = "Seeksmart LLC"
+kind = "company"
+city = "Granger"
+state = "IN"
+lat = 41.75338
+lon = -86.11084
+location_precision = "city"
+uei = "D5G9XA81N175"
+
+sector = "Electronics"
+products = ["SBIR/STTR research and development"]
+
+employees = 1
+employees_scope = "company"
+employees_year = 2023
+employees_quality = "reported"
+employees_note = "reported by the firm on its 2023 SBIR/STTR award"
+
+description = "SBIR/STTR awardee: 1 award from Department of Defense, 2023. Most recent: Military Working Dog Temperature & Position Sensors."
+
+source = "SBIR.gov award data"
+updated = "2026-11-11"

@@ -9,6 +9,7 @@ address = "935 South Woodland Avenue, Michigan City, IN 46360"
 lat = 41.69940
 lon = -86.87490
 website = "https://dekkervacuum.com"
+uei = "LHK6TKGJFLM7"
 
 sector = "Mechatronics & automation"
 products = ["Air and Gas Compressor Manufacturing"]
@@ -16,7 +17,9 @@ naics = "333912"
 
 employees = 45
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Vacuum Pumps. NAICS 333912: air and gas compressor manufacturing."
 

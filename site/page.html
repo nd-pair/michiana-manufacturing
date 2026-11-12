@@ -3,16 +3,25 @@
       <section class="section mm-band" aria-label="The map">
       <div class="mm-app" id="mm-app">
         <div class="mm-wrap">
-          <div class="mm-layerbar" role="group" aria-label="Layers and filters">
+          <div class="mm-layerbar" role="group" aria-label="Search, layers and filters">
+            <div class="mm-findbox">
+              <input class="mm-search mm-find" id="find" type="search" placeholder="Find a company" aria-label="Find a company" autocomplete="off" role="combobox" aria-expanded="false" aria-controls="find-list" aria-autocomplete="list">
+              <div class="mm-sug" id="find-list" role="listbox" hidden></div>
+            </div>
             <span class="mm-lb">Layers</span>
+            <button class="mm-chip" id="lay-density" type="button" aria-pressed="false">Density</button>
             <button class="mm-chip" id="lay-rings" type="button" aria-pressed="false">Distance rings</button>
             <span class="mm-lb">Filters</span>
+            <label class="mm-selwrap" for="radius"><span>Within</span>
+              <select class="mm-select" id="radius"><option value="0">any distance</option><option value="25">25 km</option><option value="50">50 km</option><option value="100">100 km</option></select>
+              <span id="radius-of">of the campus</span></label>
             <button class="mm-chip" id="f-fed" type="button" aria-pressed="false">Federal contracts or grants</button>
             <button class="mm-chip" id="f-fda" type="button" aria-pressed="false">FDA-registered</button>
             <button class="mm-chip" id="resetall" type="button">Reset all filters</button>
             <span class="mm-lb">Share</span>
             <button class="mm-chip" id="copylink" type="button">Copy link to this view</button>
             <button class="mm-chip" id="csv" type="button">Download roster CSV</button>
+            <a class="mm-chip" id="brieflink" href="brief.html">Sector briefs</a>
           </div>
           <div class="mm-grid">
             <div class="mm-panel">
@@ -21,13 +30,13 @@
                 <div class="mm-tip" id="tip"></div>
                 <div class="mm-ctl"><button class="mm-iconbtn" id="zin" type="button" aria-label="Zoom in">+</button><button class="mm-iconbtn" id="zout" type="button" aria-label="Zoom out">−</button><button class="mm-iconbtn" id="reset" type="button" aria-label="Reset view">⟲</button><button class="mm-iconbtn" id="campus" type="button" aria-label="Fly to the Notre Dame campus" title="Notre Dame campus">ND</button></div>
                 <div class="mm-hud" id="hud"></div>
-                <div class="mm-hint">drag · scroll · hover</div>
+                <div class="mm-hint" id="hint">drag · scroll · hover</div>
               </div>
               <div class="mm-legend" id="legend"></div>
               <div class="mm-detail" id="detail"><p class="mm-empty">Select a company on the map or in the roster.</p></div>
             </div>
             <div class="mm-side">
-              <div class="mm-panel"><div class="mm-ph"><h2>Sectors</h2><span class="mm-count">click cos or staff to sort</span></div><div class="mm-hist" id="sectors"></div></div>
+              <div class="mm-panel"><div class="mm-ph"><h2>Sectors</h2><span class="mm-count">click a header to sort</span></div><div class="mm-hist" id="sectors"></div></div>
               <div class="mm-panel"><div class="mm-ph"><h2>Products &amp; services</h2><span class="mm-count" id="tagcount"></span></div>
                 <div class="mm-hist"><input class="mm-search" id="tagsearch" type="search" placeholder="Find a product or service, e.g. sheet metal" aria-label="Filter the product list"><div class="mm-tagbox" id="tags"></div></div></div>
             </div>
@@ -35,17 +44,19 @@
           <div class="mm-grid2">
             <div class="mm-panel"><div class="mm-ph"><h2>Federal footprint</h2><span class="mm-count" id="fedcount"></span></div><div class="mm-hist" id="federal"></div></div>
             <div class="mm-panel"><div class="mm-ph"><h2>Capabilities</h2><span class="mm-count">click to filter · gap = one or none</span></div><div class="mm-hist" id="caps"></div></div>
-            <div class="mm-panel"><div class="mm-ph"><h2>Manufacturing employment by county</h2><span class="mm-count" id="qcewnote"></span></div><div class="mm-chart" id="qcew"></div></div>
+            <div class="mm-panel"><div class="mm-ph"><h2>Manufacturing employment</h2><span class="mm-count" id="qcewnote"></span></div>
+              <div class="mm-segbar"><div class="mm-seg" role="group" aria-label="Employment view"><button type="button" data-qv="county" aria-pressed="true">By county</button><button type="button" data-qv="sector" aria-pressed="false">By sector</button></div>
+                <div class="mm-seg" role="group" aria-label="Employment scale"><button type="button" data-qs="abs" aria-pressed="true">Employees</button><button type="button" data-qs="idx" aria-pressed="false">Indexed</button></div></div>
+              <div class="mm-chart" id="qcew"></div></div>
             <div class="mm-panel"><div class="mm-ph"><h2>Timeline</h2><span class="mm-count" id="evcount"></span></div><div class="mm-evbar" id="evkinds"></div><div class="mm-years" id="evyears"></div><div class="mm-events" id="events"></div></div>
           </div>
           <div class="mm-panel mm-roster">
-            <div class="mm-ph"><h2>Roster</h2><button class="mm-chip" id="clear" type="button">Clear all filters</button></div>
+            <div class="mm-ph"><h2>Roster</h2><span class="mm-count" id="rostercount"></span><button class="mm-chip" id="clear" type="button">Clear all filters</button></div>
             <table id="table"><thead><tr><th><button type="button" data-rsort="name">Company</button></th><th><button type="button" data-rsort="sector">Sector</button></th><th><button type="button" data-rsort="emp">Employees</button></th><th>Products &amp; services</th><th><button type="button" data-rsort="fed">Federal $</button></th><th>Website</th></tr></thead><tbody></tbody></table>
           </div>
           <p class="mm-foot" id="foot"></p>
         </div>
       </div>
       </section>
-
     </div>
 </main>

@@ -8,7 +8,6 @@ state = "IN"
 address = "4th Road, Kingsbury, IN 46345"
 lat = 41.50976
 lon = -86.64125
-website = "https://not available"
 
 sector = "Materials & composites"
 products = ["All Other Plastics Product Manufacturing"]
@@ -16,7 +15,9 @@ naics = "326199"
 
 employees = 40
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Plastic Injection Molding. NAICS 326199: all other plastics product manufacturing."
 

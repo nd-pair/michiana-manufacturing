@@ -8,7 +8,6 @@ state = "IN"
 address = "25895 Miner Road, Elkhart, IN 46514"
 lat = 41.71464
 lon = -85.96419
-website = "https://not available"
 
 sector = "Vehicles & RVs"
 products = ["Motor Home Manufacturing"]
@@ -16,7 +15,9 @@ naics = "336213"
 
 employees = 20
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Wood, Metal & Aluminum Recreational Vehicles. NAICS 336213: motor home manufacturing."
 

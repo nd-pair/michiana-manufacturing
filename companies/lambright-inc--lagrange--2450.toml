@@ -8,7 +8,6 @@ state = "IN"
 address = "2450 US Highway 20 West, Lagrange, IN 46761"
 lat = 41.64072
 lon = -85.47192
-website = "https://not available"
 
 sector = "Food & consumer goods"
 products = ["Other Animal Food Manufacturing"]
@@ -16,7 +15,9 @@ naics = "311119"
 
 employees = 75
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Livestock Feed. NAICS 311119: other animal food manufacturing."
 

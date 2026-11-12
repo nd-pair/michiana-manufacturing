@@ -9,6 +9,7 @@ address = "10478 16th Road, Argos, IN 46501"
 lat = 41.24465
 lon = -86.26275
 website = "https://bgtruck.com"
+uei = "GT91CGJT3ZW3"
 
 sector = "Wood, paper & furniture"
 products = ["Manufactured Home (mobile Home) Manufacturing"]
@@ -16,7 +17,9 @@ naics = "321991"
 
 employees = 20
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Housing Transport Equipment. NAICS 321991: manufactured home (mobile home) manufacturing."
 

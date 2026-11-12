@@ -16,7 +16,9 @@ naics = "336510"
 
 employees = 25
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Freight Car Brake Beams & Brake Systems. NAICS 336510: railroad rolling stock manufacturing."
 

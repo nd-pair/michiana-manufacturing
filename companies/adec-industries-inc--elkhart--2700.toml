@@ -9,6 +9,7 @@ address = "2700 Industrial Parkway, Elkhart, IN 46516"
 lat = 41.68698
 lon = -85.91966
 website = "https://adecinc.com"
+uei = "SUKPKLEPLHJ3"
 
 sector = "Materials & composites"
 products = ["All Other Plastics Product Manufacturing"]
@@ -16,7 +17,9 @@ naics = "326199"
 
 employees = 250
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Contract Packaging & Assembly. NAICS 326199: all other plastics product manufacturing."
 

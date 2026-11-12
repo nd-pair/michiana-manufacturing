@@ -8,7 +8,6 @@ state = "MI"
 address = "801 Carberry Road, Niles, MI 49120"
 lat = 41.81233
 lon = -86.21461
-website = "https://not available"
 
 sector = "Metal"
 products = ["Industrial Valve Manufacturing"]
@@ -16,7 +15,9 @@ naics = "332911"
 
 employees = 25
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Industrial Valves. NAICS 332911: industrial valve manufacturing."
 

@@ -16,7 +16,9 @@ naics = "333411"
 
 employees = 40
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Natural Fiber Air Filtration for HVAC Systems, Attic Ventilation, Erosion Control & Foam Media & Packaging Cushions. NAICS 333411: air purification equipment manufacturing."
 

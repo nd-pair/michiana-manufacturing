@@ -16,7 +16,9 @@ naics = "332991"
 
 employees = 65
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Needle Bearings & Stainless & Precision Pins Rollers & Shafts. NAICS 332991: ball and roller bearing manufacturing."
 

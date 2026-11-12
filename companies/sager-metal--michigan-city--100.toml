@@ -16,7 +16,9 @@ naics = "333922"
 
 employees = 49
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Conveyors, Metal Fabrication & Laser Cutting. NAICS 333922: conveyor and conveying equipment manufacturing."
 

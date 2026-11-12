@@ -8,7 +8,6 @@ state = "MI"
 address = "7240 1st Street, Eau Claire, MI 49111"
 lat = 41.98571
 lon = -86.30217
-website = "https://not available"
 
 sector = "Metal"
 products = ["Nonferrous (except Aluminum) Die-Casting Foundries"]
@@ -16,7 +15,9 @@ naics = "331522"
 
 employees = 15
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Zinc & Aluminum Die Castings & Prototypes. NAICS 331522: nonferrous (except aluminum) die-casting foundries."
 

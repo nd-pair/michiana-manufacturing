@@ -8,7 +8,7 @@ state = "IN"
 address = "5621 South US Highway 35, Kingsbury, IN 46345"
 lat = 41.52191
 lon = -86.69728
-website = "https://not available"
+uei = "VCTGBBCLKLF5"
 
 sector = "Food & consumer goods"
 products = ["Other Animal Food Manufacturing"]
@@ -16,7 +16,9 @@ naics = "311119"
 
 employees = 20
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Feed & Fertilizer Blending. NAICS 311119: other animal food manufacturing."
 

@@ -8,7 +8,6 @@ state = "MI"
 address = "1099 Milton Street, Benton Harbor, MI 49022"
 lat = 42.09825
 lon = -86.43762
-website = "https://not available"
 
 sector = "Metal"
 products = ["Nonferrous (except Aluminum) Die-Casting Foundries"]
@@ -16,7 +15,9 @@ naics = "331522"
 
 employees = 30
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Zinc Die Castings. NAICS 331522: nonferrous (except aluminum) die-casting foundries."
 

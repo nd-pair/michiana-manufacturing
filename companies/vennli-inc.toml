@@ -1,0 +1,26 @@
+# Vennli, Inc.
+# Imported from SBIR.gov award data (public). Placed at the city center: small firms often list a home address.
+
+name = "Vennli, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+lat = 41.68199
+lon = -85.97667
+location_precision = "city"
+website = "https://www.vennli.com/"
+uei = "HAC8DM4C1MA2"
+
+sector = "Software & services"
+products = ["SBIR/STTR research and development"]
+
+employees = 11
+employees_scope = "company"
+employees_year = 2021
+employees_quality = "reported"
+employees_note = "reported by the firm on its 2021 SBIR/STTR award"
+
+description = "SBIR/STTR awardee: 4 awards from Department of Defense, 2019 to 2021. Most recent: Vennli Operational Intelligence Platform (VOIP): Command & Control Optimization Project."
+
+source = "SBIR.gov award data"
+updated = "2026-11-11"

@@ -1,7 +1,7 @@
-# Cast Products Corp. (h Q)
+# Cast Products Corp. (HQ)
 # Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
 
-name = "Cast Products Corp. (h Q)"
+name = "Cast Products Corp. (HQ)"
 kind = "company"
 city = "Elkhart"
 state = "IN"
@@ -16,7 +16,9 @@ naics = "325520"
 
 employees = 60
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Corporate Headquarters; Sealants & Adhesives. NAICS 325520: adhesive manufacturing."
 

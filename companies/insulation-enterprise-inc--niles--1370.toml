@@ -8,7 +8,6 @@ state = "MI"
 address = "1370 Maple Street, Niles, MI 49120"
 lat = 41.82487
 lon = -86.24227
-website = "https://not available"
 
 sector = "Materials & composites"
 products = ["Mineral Wool Manufacturing"]
@@ -16,7 +15,9 @@ naics = "327993"
 
 employees = 20
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Foam Insulation Panels & Sheets. NAICS 327993: mineral wool manufacturing."
 

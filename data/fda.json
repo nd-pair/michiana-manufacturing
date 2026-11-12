@@ -1,6 +1,6 @@
 {
 "source": "openFDA device registration and listing",
-"pulled": "2026-11-12",
+"pulled": "2026-11-11",
 "companies": {
 "zimmer-holdings-inc-warsaw-1800": {
 "fei": "1000220733",
@@ -103,6 +103,15 @@
 ],
 "device_names": [
 "Template"
+]
+},
+"tayco-brace-inc": {
+"fei": "3020880065",
+"establishment_types": [
+"Develop Specifications But Do Not Manufacture At This Facility"
+],
+"device_names": [
+"Joint, Ankle, External Brace"
 ]
 },
 "wieland-designs-inc-goshen-901": {

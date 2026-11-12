@@ -8,7 +8,6 @@ state = "MI"
 address = "1875 Dewey Avenue, Benton Harbor, MI 49022"
 lat = 42.08005
 lon = -86.39728
-website = "https://not available"
 
 sector = "Mechatronics & automation"
 products = ["Pump and Pumping Equipment Manufacturing"]
@@ -16,7 +15,9 @@ naics = "333911"
 
 employees = 40
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Condensate & Boiler Feed Pumps & Control Panels. NAICS 333911: pump and pumping equipment manufacturing."
 

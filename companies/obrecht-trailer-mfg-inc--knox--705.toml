@@ -8,7 +8,6 @@ state = "IN"
 address = "705 East New York Street, Knox, IN 46534"
 lat = 41.29425
 lon = -86.61404
-website = "https://not available"
 
 sector = "Vehicles & RVs"
 products = ["Motor Vehicle Body Manufacturing"]
@@ -16,7 +15,9 @@ naics = "336211"
 
 employees = 15
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Semi Trailers & Equipment. NAICS 336211: motor vehicle body manufacturing."
 

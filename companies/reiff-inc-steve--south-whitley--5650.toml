@@ -16,7 +16,9 @@ naics = "332813"
 
 employees = 27
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Sandblasting. NAICS 332813: electroplating, plating, polishing, anodizing and coloring."
 

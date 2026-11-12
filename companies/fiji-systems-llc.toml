@@ -1,0 +1,24 @@
+# Fiji Systems LLC
+# Imported from SBIR.gov award data (public). Placed at the city center: small firms often list a home address.
+
+name = "Fiji Systems LLC"
+kind = "company"
+city = "South Bend"
+state = "IN"
+lat = 41.68338
+lon = -86.25001
+location_precision = "city"
+
+sector = "Medical devices & other"
+products = ["SBIR/STTR research and development"]
+
+employees = 3
+employees_scope = "company"
+employees_year = 2013
+employees_quality = "reported"
+employees_note = "reported by the firm on its 2013 SBIR/STTR award"
+
+description = "SBIR/STTR awardee: 3 awards from Department of Defense, National Science Foundation, 2009 to 2013. Most recent: SBIR Phase I: Secure Real-time For Medical Consumer Electronics."
+
+source = "SBIR.gov award data"
+updated = "2026-11-11"

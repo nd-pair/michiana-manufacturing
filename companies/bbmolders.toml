@@ -9,6 +9,7 @@ address = "58471 Fir Rd, Mishawaka, IN 46544"
 lat = 41.64288
 lon = -86.15763
 website = "https://bandbmolders.com"
+uei = "E18BLP9WHNQ3"
 
 sector = "Materials & composites"
 products = ["Injection molding", "Plastics"]

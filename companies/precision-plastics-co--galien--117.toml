@@ -8,7 +8,6 @@ state = "MI"
 address = "117 Grant Street, Galien, MI 49113"
 lat = 41.80321
 lon = -86.50013
-website = "https://not available"
 
 sector = "Materials & composites"
 products = ["All Other Plastics Product Manufacturing"]
@@ -16,7 +15,9 @@ naics = "326199"
 
 employees = 65
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Company Headquarters & Plastic Injection Molding. NAICS 326199: all other plastics product manufacturing."
 

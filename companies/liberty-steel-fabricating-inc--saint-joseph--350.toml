@@ -16,7 +16,9 @@ naics = "331111"
 
 employees = 20
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Steel Fabrication for Medical & Food Processing Equipment & Laser Cutting & Precision Forming. NAICS 331111: iron and steel mills."
 

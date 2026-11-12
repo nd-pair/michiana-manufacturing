@@ -1,7 +1,7 @@
-# Fan Group Inc. (h Q)
+# Fan Group Inc. (HQ)
 # Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
 
-name = "Fan Group Inc. (h Q)"
+name = "Fan Group Inc. (HQ)"
 kind = "company"
 city = "Niles"
 state = "MI"
@@ -16,7 +16,9 @@ naics = "333412"
 
 employees = 54
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Corporate Headquarters; Fans & Blowers (mfg. Subcontracted). NAICS 333412: industrial and commercial fan and blower manufacturing."
 

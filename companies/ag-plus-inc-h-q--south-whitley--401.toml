@@ -1,7 +1,7 @@
-# Ag Plus, Inc. (h Q)
+# Ag Plus, Inc. (HQ)
 # Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
 
-name = "Ag Plus, Inc. (h Q)"
+name = "Ag Plus, Inc. (HQ)"
 kind = "company"
 city = "South Whitley"
 state = "IN"
@@ -16,7 +16,9 @@ naics = "325314"
 
 employees = 24
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Corporate Headquarters; Feed Blending & Fertilizer. NAICS 325314: fertilizer (mixing only) manufacturing."
 

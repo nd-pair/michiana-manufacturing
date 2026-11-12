@@ -9,6 +9,7 @@ address = "1702 W Washington St, South Bend, IN 46628"
 lat = 41.67680
 lon = -86.27556
 website = "https://www.mtiwelding.com"
+uei = "KHTCNGHTNJQ3"
 
 sector = "Metal"
 products = ["Friction welding", "Machine tools & systems", "Aerospace machining"]

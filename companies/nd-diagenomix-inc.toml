@@ -1,0 +1,26 @@
+# Nd-diagenomix, Inc.
+# Imported from SBIR.gov award data (public). Placed at the city center: small firms often list a home address.
+
+name = "Nd-diagenomix, Inc."
+kind = "company"
+city = "South Bend"
+state = "IN"
+lat = 41.68338
+lon = -86.25001
+location_precision = "city"
+website = "https://www.adaptaeducation.com"
+uei = "J4FBXN13NLQ3"
+
+sector = "Software & services"
+products = ["SBIR/STTR research and development"]
+
+employees = 7
+employees_scope = "company"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "reported by the firm on its 2025 SBIR/STTR award"
+
+description = "SBIR/STTR awardee: 1 award from National Science Foundation, 2025. Most recent: STTR Phase I:  Design a Just-In-Time Formative Assessment Algorithm for an Adaptive Education Platform."
+
+source = "SBIR.gov award data"
+updated = "2026-11-11"

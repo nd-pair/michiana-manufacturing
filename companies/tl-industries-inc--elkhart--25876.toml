@@ -9,6 +9,7 @@ address = "25876 Miner Road, Elkhart, IN 46514"
 lat = 41.71406
 lon = -85.96388
 website = "https://scenicview-rv.com"
+uei = "MJ4CA4V9DWJ5"
 
 sector = "Vehicles & RVs"
 products = ["Travel Trailer and Camper Manufacturing"]
@@ -16,7 +17,9 @@ naics = "336214"
 
 employees = 38
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Travel Trailers & Park Models. NAICS 336214: travel trailer and camper manufacturing."
 

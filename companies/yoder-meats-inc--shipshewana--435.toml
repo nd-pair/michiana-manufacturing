@@ -8,7 +8,6 @@ state = "IN"
 address = "435 South Van Buren Street, Shipshewana, IN 46565"
 lat = 41.67195
 lon = -85.58014
-website = "https://not available"
 
 sector = "Food & consumer goods"
 products = ["Meat Processed From Carcasses"]
@@ -16,7 +15,9 @@ naics = "311612"
 
 employees = 15
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Meat Processing. NAICS 311612: meat processed from carcasses."
 

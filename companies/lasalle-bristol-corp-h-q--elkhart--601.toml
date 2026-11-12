@@ -1,7 +1,7 @@
-# Lasalle Bristol Corp. (h Q)
+# Lasalle Bristol Corp. (HQ)
 # Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
 
-name = "Lasalle Bristol Corp. (h Q)"
+name = "Lasalle Bristol Corp. (HQ)"
 kind = "company"
 city = "Elkhart"
 state = "IN"
@@ -16,7 +16,9 @@ naics = "335121"
 
 employees = 160
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Corporate Headquarters; Residential & Commercial Lighting Fixtures. NAICS 335121: residential electric lighting fixture manufacturing."
 

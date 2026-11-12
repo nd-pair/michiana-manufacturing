@@ -8,7 +8,6 @@ state = "MI"
 address = "2126 South 11th Street, Niles, MI 49120"
 lat = 41.79183
 lon = -86.25064
-website = "https://not available"
 
 sector = "Metal"
 products = ["Sheet Metal Work Manufacturing"]
@@ -16,7 +15,9 @@ naics = "332322"
 
 employees = 25
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Sheet Metal Fabrication. NAICS 332322: sheet metal work manufacturing."
 

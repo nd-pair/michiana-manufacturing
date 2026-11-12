@@ -8,7 +8,6 @@ state = "MI"
 address = "1400 South 3rd Street, Niles, MI 49120"
 lat = 41.81219
 lon = -86.25470
-website = "https://not available"
 
 sector = "Materials & composites"
 products = ["Unlaminated Plastics Profile Shape Manufacturing"]
@@ -16,7 +15,9 @@ naics = "326121"
 
 employees = 18
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Polyurethane Composite Boards. NAICS 326121: unlaminated plastics profile shape manufacturing."
 

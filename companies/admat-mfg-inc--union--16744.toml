@@ -8,7 +8,6 @@ state = "MI"
 address = "16744 US Highway 12, Union, MI 49130"
 lat = 41.77953
 lon = -85.89177
-website = "https://not available"
 
 sector = "Metal"
 products = ["Metal Stamping"]
@@ -16,7 +15,9 @@ naics = "332116"
 
 employees = 15
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Metal Stamping. NAICS 332116: metal stamping."
 

@@ -9,6 +9,7 @@ address = "16840 Skyview Road, Goshen, IN 46526"
 lat = 41.54352
 lon = -85.78364
 website = "https://lippertcomponents.com"
+parent = "Lippert (LCI Industries)"
 
 sector = "Vehicles & RVs"
 products = ["Motor Home Manufacturing"]
@@ -16,7 +17,9 @@ naics = "336213"
 
 employees = 40
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Recreational Vehicle Flight-Out Systems & Ramps. NAICS 336213: motor home manufacturing."
 

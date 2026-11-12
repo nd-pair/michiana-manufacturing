@@ -8,7 +8,6 @@ state = "IN"
 address = "1851 Dogwood Road, Bremen, IN 46506"
 lat = 41.45260
 lon = -86.11791
-website = "https://not available"
 
 sector = "Food & consumer goods"
 products = ["Canvas and Related Product Mills"]
@@ -16,7 +15,9 @@ naics = "314912"
 
 employees = 30
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Canvas Products & Awnings. NAICS 314912: canvas and related product mills."
 

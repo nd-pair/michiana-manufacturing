@@ -8,7 +8,6 @@ state = "IN"
 address = "1203 Kent Street, Elkhart, IN 46514"
 lat = 41.69981
 lon = -86.00673
-website = "https://not available"
 
 sector = "Metal"
 products = ["Fabricated Structural Metal Manufacturing"]
@@ -16,7 +15,9 @@ naics = "332312"
 
 employees = 20
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Structural Steel Fabrication. NAICS 332312: fabricated structural metal manufacturing."
 

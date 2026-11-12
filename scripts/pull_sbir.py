@@ -10,7 +10,7 @@ Awards whose company city is in the region are matched to company files by websi
 by name. Firms with awards that are not yet in the map are listed in data/sbir.json for review.
 """
 import csv, io, json, sys, datetime, urllib.request
-from common import P, companies, matcher
+from common import P, companies, matcher, uei_index, company_path, set_field
 
 BULK = "https://data.www.sbir.gov/mod_awarddatapublic_no_abstract/award_data_no_abstract.csv"
 IN_CITIES = {"south bend", "mishawaka", "elkhart", "goshen", "plymouth", "bremen", "walkerton", "argos", "warsaw", "nappanee", "la porte", "laporte",
@@ -40,23 +40,35 @@ def rows_from(source):
         yield from csv.DictReader(text)
 
 def main(args):
-    cs = companies(); match = matcher(cs)
+    cs = companies(); match = matcher(cs); by_uei = uei_index(cs); has_uei = {c["_id"] for c in cs if c.get("uei")}
     by_domain = {domain(c["website"]): c["_id"] for c in cs if c.get("website")}
-    by_company, firms, n = {}, {}, 0
+    by_company, firms, learned, n = {}, {}, {}, 0
     for row in rows_from(args[0] if args else None):
         n += 1
         allowed = CITY_SETS.get((row.get("State") or "").strip())
         if not allowed or (row.get("City") or "").strip().lower() not in allowed:
             continue
         firm = (row.get("Company") or "").strip(); city = (row.get("City") or "").strip().title()
+        state = "IN" if (row.get("State") or "").strip() in ("Indiana", "IN") else "MI"
         try:
             amt = float(row.get("Award Amount") or 0)
         except ValueError:
             amt = 0
-        agency = (row.get("Agency") or "").strip(); year = (row.get("Award Year") or "").strip(); phase = (row.get("Phase") or "").strip()
-        f = firms.setdefault(firm, {"city": city, "count": 0, "amount": 0, "agencies": set(), "website": row.get("Company Website") or "", "uei": row.get("UEI") or ""})
-        f["count"] += 1; f["amount"] += amt; f["agencies"].add(agency)
-        cid = by_domain.get(domain(row.get("Company Website"))) or match(firm, city)
+        agency = (row.get("Agency") or "").replace("Department of War", "Department of Defense").strip()
+        year = (row.get("Award Year") or "").strip(); phase = (row.get("Phase") or "").strip(); uei = (row.get("UEI") or "").strip()
+        title = (row.get("Award Title") or "").strip()
+        try:
+            staff = int(float(row.get("Number Employees") or 0))
+        except ValueError:
+            staff = 0
+        f = firms.setdefault(firm, {"city": city, "state": state, "count": 0, "amount": 0, "agencies": set(), "website": row.get("Company Website") or "",
+                                    "uei": uei, "years": [], "titles": [], "staff": 0, "staff_year": ""})
+        f["count"] += 1; f["amount"] += amt; f["agencies"].add(agency); f["years"].append(year); f["titles"].append((year, title))
+        if staff and year >= f["staff_year"]:
+            f["staff"], f["staff_year"] = staff, year
+        cid = by_uei.get(uei) or by_domain.get(domain(row.get("Company Website"))) or match(firm, city)
+        if cid and uei and cid not in has_uei and uei not in by_uei:
+            learned.setdefault(cid, uei)
         if cid:
             e = by_company.setdefault(cid, {"count": 0, "amount": 0, "agencies": [], "years": [], "phases": {}, "firms": []})
             e["count"] += 1; e["amount"] += amt; e["phases"][phase] = e["phases"].get(phase, 0) + 1
@@ -65,12 +77,22 @@ def main(args):
             if firm not in e["firms"]: e["firms"].append(firm)
     for e in by_company.values():
         e["amount"] = round(e["amount"]); e["years"].sort()
-    unmatched = sorted(((f, d) for f, d in firms.items() if not (by_domain.get(domain(d["website"])) or match(f, d["city"]))), key=lambda kv: -kv[1]["amount"])
+    def matched(f, d):
+        return by_uei.get(d["uei"]) or by_domain.get(domain(d["website"])) or match(f, d["city"])
+    unmatched = sorted(((f, d) for f, d in firms.items() if not matched(f, d)), key=lambda kv: -kv[1]["amount"])
     json.dump({"source": "SBIR.gov public award data file (monthly)", "pulled": datetime.date.today().isoformat(), "companies": by_company,
-               "firms_not_in_map": [{"firm": f, "city": d["city"], "count": d["count"], "amount": round(d["amount"]), "agencies": sorted(x for x in d["agencies"] if x), "website": d["website"]} for f, d in unmatched[:150]]},
+               "firms_not_in_map": [{"firm": f, "city": d["city"], "state": d["state"], "count": d["count"], "amount": round(d["amount"]),
+                                     "agencies": sorted(x for x in d["agencies"] if x), "website": d["website"], "uei": d["uei"],
+                                     "first_year": min(y for y in d["years"] if y) if any(d["years"]) else "", "last_year": max(d["years"]) if d["years"] else "",
+                                     "titles": [t for y, t in sorted(d["titles"], reverse=True)[:5]], "staff": d["staff"], "staff_year": d["staff_year"]}
+                                    for f, d in unmatched]},
               open(P("data", "sbir.json"), "w"), indent=0)
-    print("read %d awards; %d firms in Michiana cities; matched %d companies; %d local SBIR firms not in the map (listed in data/sbir.json)"
-          % (n, len(firms), len(by_company), len(unmatched)))
+    for cid, uei in learned.items():
+        path = company_path(cid)
+        if path:
+            set_field(path, "uei", uei)
+    print("read %d awards; %d firms in Michiana cities; matched %d companies; %d local SBIR firms not in the map; stored %d UEIs"
+          % (n, len(firms), len(by_company), len(unmatched), len(learned)))
 
 if __name__ == "__main__":
     main(sys.argv[1:])

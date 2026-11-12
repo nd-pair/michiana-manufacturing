@@ -16,7 +16,9 @@ naics = "335122"
 
 employees = 23
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Residential & Commercial Lighting Fixtures. NAICS 335122: commercial, industrial, and institutional electric lighting fixture manufacturing."
 

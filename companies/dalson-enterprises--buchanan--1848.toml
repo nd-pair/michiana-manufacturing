@@ -8,7 +8,6 @@ state = "MI"
 address = "1848 Grange Road, Buchanan, MI 49107"
 lat = 41.90657
 lon = -86.41429
-website = "https://not available"
 
 sector = "Wood, paper & furniture"
 products = ["Truss Manufacturing"]
@@ -16,7 +15,9 @@ naics = "321214"
 
 employees = 25
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Roof Trusses. NAICS 321214: truss manufacturing."
 

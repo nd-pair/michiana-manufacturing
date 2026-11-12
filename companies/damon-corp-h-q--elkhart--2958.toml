@@ -1,7 +1,7 @@
-# Damon Corp. (h Q)
+# Damon Corp. (HQ)
 # Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
 
-name = "Damon Corp. (h Q)"
+name = "Damon Corp. (HQ)"
 kind = "company"
 city = "Elkhart"
 state = "IN"
@@ -16,7 +16,9 @@ naics = "336213"
 
 employees = 475
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Corporate Headquarters; Motor Homes Assembly. NAICS 336213: motor home manufacturing."
 

@@ -21,6 +21,7 @@ import datetime, json, os, re, sys, tomllib, urllib.parse, urllib.request
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 P = lambda *a: os.path.join(ROOT, *a)
+HIFLD_YEAR = 2022   # the DHS base dataset behind the NETL layer; its employee figures carry no survey date of their own
 URL = "https://arcgis.netl.doe.gov/server/rest/services/Hosted/ManFacNAICS3133_Emissions/FeatureServer/0/query"
 BBOX = {"xmin": -87.1, "ymin": 41.15, "xmax": -85.55, "ymax": 42.05, "spatialReference": {"wkid": 4326}}
 COUNTIES = {"ELKHART", "ST JOSEPH", "MARSHALL", "LA PORTE", "KOSCIUSKO", "STARKE", "FULTON", "LAGRANGE", "NOBLE",
@@ -122,10 +123,12 @@ def main():
         a, g = f["attributes"], f["geometry"]
         if (a.get("county") or "").upper() not in COUNTIES:
             skipped_county += 1; continue
-        name = titlecase(a["name"]); street, city, state, zip_ = parse_address(a["facility_address"] or "")
+        name = re.sub(r"\(h ?q\)", "(HQ)", titlecase(a["name"]), flags=re.I); street, city, state, zip_ = parse_address(a["facility_address"] or "")
         if not city:
             continue
         dom = domain(a.get("web"))
+        if not re.match(r"^[a-z0-9.-]+\.[a-z]{2,}$", dom or ""):
+            dom = ""             # HIFLD writes "NOT AVAILABLE" where it has no website
         if norm_name(name) in existing_names or (dom and dom in existing_domains):
             skipped_dup.append(name); continue
         fname = "%s--%s--%s.toml" % (slug(name), slug(city), slug(street.split(" ")[0] or "x"))
@@ -149,7 +152,8 @@ def main():
             lines.append("naics = %s" % q(naics6))
         lines.append("")
         if a.get("emp"):
-            lines += ["employees = %d" % int(a["emp"]), 'employees_scope = "site"', 'employees_note = "HIFLD General Manufacturing Facilities employee estimate"']
+            lines += ["employees = %d" % int(a["emp"]), 'employees_scope = "site"', "employees_year = %d" % HIFLD_YEAR, 'employees_quality = "estimate"',
+                      'employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset %d)"' % HIFLD_YEAR]
         lines += ["", "description = %s" % q(desc), "", 'source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"',
                   "updated = %s" % q(datetime.date.today().isoformat()), ""]
         if not dry:

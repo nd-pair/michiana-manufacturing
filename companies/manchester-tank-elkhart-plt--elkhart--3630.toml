@@ -16,7 +16,9 @@ naics = "332410"
 
 employees = 210
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Propane Cylinders & Pressure Vessels. NAICS 332410: power boiler and heat exchanger manufacturing."
 

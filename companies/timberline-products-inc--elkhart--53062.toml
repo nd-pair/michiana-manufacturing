@@ -8,7 +8,6 @@ state = "IN"
 address = "53062 Faith Avenue, Elkhart, IN 46514"
 lat = 41.72370
 lon = -86.02405
-website = "https://not available"
 
 sector = "Wood, paper & furniture"
 products = ["Nonupholstered Wood Household Furniture Manufacturing"]
@@ -16,7 +15,9 @@ naics = "337122"
 
 employees = 15
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Wooden Furniture & Products. NAICS 337122: nonupholstered wood household furniture manufacturing."
 

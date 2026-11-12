@@ -8,7 +8,6 @@ state = "IN"
 address = "1005 East Michigan Boulevard, Michigan City, IN 46360"
 lat = 41.71375
 lon = -86.88913
-website = "https://not available"
 
 sector = "Metal"
 products = ["Fabricated Structural Metal Manufacturing"]
@@ -16,7 +15,9 @@ naics = "332312"
 
 employees = 35
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Steel Towers & Tubes. NAICS 332312: fabricated structural metal manufacturing."
 

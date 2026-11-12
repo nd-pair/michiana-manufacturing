@@ -8,7 +8,6 @@ state = "MI"
 address = "1090 South Crystal Avenue, Benton Harbor, MI 49022"
 lat = 42.09757
 lon = -86.41770
-website = "https://not available"
 
 sector = "Wood, paper & furniture"
 products = ["Tradebinding and Related Work"]
@@ -16,7 +15,9 @@ naics = "323121"
 
 employees = 20
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Bag Film Printing, Laminating & Converting. NAICS 323121: tradebinding and related work."
 

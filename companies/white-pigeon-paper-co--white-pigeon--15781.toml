@@ -16,7 +16,9 @@ naics = "331492"
 
 employees = 100
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Paper Recycling. NAICS 331492: secondary smelting, refining, and alloying of nonferrous metal (except copper and aluminum)."
 

@@ -1,7 +1,9 @@
 <script>window.NDTConductorHost='https://conductor.nd.edu';</script>
 <script src="https://conductor.nd.edu/javascripts/themes/ndt/4.0/ndt.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
-<script src="data.js?v={{BUILD}}"></script>
-<script src="app.js?v={{BUILD}}"></script>
+<script>/* the theme script falls back to the OS setting because its preference cookie lives on nd.edu; keep dark as the default and remember this visitor's own choice here */
+(function(){var t;try{t=localStorage.getItem("mm-theme")}catch(e){}t=t||"dark";document.body.setAttribute("data-theme",t);
+document.querySelectorAll(".light-dark-toggle").forEach(function(x){x.checked=t==="dark";x.addEventListener("change",function(){var v=x.checked?"dark":"light";try{localStorage.setItem("mm-theme",v)}catch(e){}
+document.querySelectorAll(".light-dark-toggle").forEach(function(y){y.checked=x.checked})})})})();</script>
+{{SCRIPTS}}
 </body>
 </html>

@@ -1,0 +1,26 @@
+# Eclipse Orthopaedics, LLC
+# Imported from SBIR.gov award data (public). Placed at the city center: small firms often list a home address.
+
+name = "Eclipse Orthopaedics, LLC"
+kind = "company"
+city = "Warsaw"
+state = "IN"
+lat = 41.23810
+lon = -85.85305
+location_precision = "city"
+website = "https://www.eclipseortho.com"
+uei = "QJLLFSUXWTA6"
+
+sector = "Medical devices & other"
+products = ["SBIR/STTR research and development"]
+
+employees = 1
+employees_scope = "company"
+employees_year = 2023
+employees_quality = "reported"
+employees_note = "reported by the firm on its 2023 SBIR/STTR award"
+
+description = "SBIR/STTR awardee: 2 awards from Department of Health and Human Services, 2018 to 2023. Most recent: Fluoroscopic drill attachment for orthopedic trauma surgery."
+
+source = "SBIR.gov award data"
+updated = "2026-11-11"

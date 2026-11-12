@@ -8,7 +8,6 @@ state = "MI"
 address = "100 Lagrange Street, Dowagiac, MI 49047"
 lat = 41.98270
 lon = -86.10529
-website = "https://not available"
 
 sector = "Wood, paper & furniture"
 products = ["Other Commercial Printing"]
@@ -16,7 +15,9 @@ naics = "323119"
 
 employees = 25
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Commercial Printing. NAICS 323119: other commercial printing."
 

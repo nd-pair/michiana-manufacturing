@@ -16,7 +16,9 @@ naics = "335931"
 
 employees = 80
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Switches, Including Wire Harnesses & Light Socket Assemblies for Appliances. NAICS 335931: current-carrying wiring device manufacturing."
 

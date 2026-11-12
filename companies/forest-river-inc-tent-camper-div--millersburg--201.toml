@@ -8,7 +8,6 @@ state = "IN"
 address = "201 West Elm Street, Millersburg, IN 46543"
 lat = 41.52738
 lon = -85.70075
-website = "https://not available"
 
 sector = "Vehicles & RVs"
 products = ["Travel Trailer and Camper Manufacturing"]
@@ -16,7 +15,9 @@ naics = "336214"
 
 employees = 240
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Travel Trailers & Folding Tent Campers. NAICS 336214: travel trailer and camper manufacturing."
 

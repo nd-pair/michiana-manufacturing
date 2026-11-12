@@ -8,7 +8,6 @@ state = "IN"
 address = "345 East Hupp Road, La Porte, IN 46350"
 lat = 41.55538
 lon = -86.60379
-website = "https://not available"
 
 sector = "Materials & composites"
 products = ["Fertilizer (mixing Only) Manufacturing"]
@@ -16,7 +15,9 @@ naics = "325314"
 
 employees = 53
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Potting Soils & Amendments. NAICS 325314: fertilizer (mixing only) manufacturing."
 

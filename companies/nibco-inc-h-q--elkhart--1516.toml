@@ -1,7 +1,7 @@
-# Nibco Inc. (h Q)
+# Nibco Inc. (HQ)
 # Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
 
-name = "Nibco Inc. (h Q)"
+name = "Nibco Inc. (HQ)"
 kind = "company"
 city = "Elkhart"
 state = "IN"
@@ -16,7 +16,9 @@ naics = "332919"
 
 employees = 270
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Corporate Headquarters; Pipe Fittings, Valves & Flow Stops. NAICS 332919: other metal valve and pipe fitting manufacturing."
 

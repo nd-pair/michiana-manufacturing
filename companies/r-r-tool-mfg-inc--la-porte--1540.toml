@@ -8,7 +8,6 @@ state = "IN"
 address = "1540 Lake Street, La Porte, IN 46350"
 lat = 41.60900
 lon = -86.73489
-website = "https://not available"
 
 sector = "Metal"
 products = ["Machine Shops"]
@@ -16,7 +15,9 @@ naics = "332710"
 
 employees = 34
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Metal Fabrication & Welding Job Shop, Including Powder Coating & Painting. NAICS 332710: machine shops."
 

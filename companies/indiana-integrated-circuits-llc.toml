@@ -1,0 +1,26 @@
+# Indiana Integrated Circuits LLC
+# Imported from SBIR.gov award data (public). Placed at the city center: small firms often list a home address.
+
+name = "Indiana Integrated Circuits LLC"
+kind = "company"
+city = "South Bend"
+state = "IN"
+lat = 41.68338
+lon = -86.25001
+location_precision = "city"
+website = "https://indianaic.com"
+uei = "W1FUVNENSJN4"
+
+sector = "Electronics"
+products = ["SBIR/STTR research and development"]
+
+employees = 3
+employees_scope = "company"
+employees_year = 2021
+employees_quality = "reported"
+employees_note = "reported by the firm on its 2021 SBIR/STTR award"
+
+description = "SBIR/STTR awardee: 7 awards from Department of Defense, Department of Energy, National Aeronautics and Space Administration, 2013 to 2021. Most recent: PCB \"Boardlets\" for Modular, Scalable High-Performance Printed Circuit Assemblies\"."
+
+source = "SBIR.gov award data"
+updated = "2026-11-11"

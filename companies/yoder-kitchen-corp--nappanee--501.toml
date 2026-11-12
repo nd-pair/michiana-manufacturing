@@ -16,7 +16,9 @@ naics = "337110"
 
 employees = 28
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Kitchen, Dining Room & Office Furniture, Entertainment Centers & Bathroom Vanities. NAICS 337110: wood kitchen cabinet and countertop manufacturing."
 

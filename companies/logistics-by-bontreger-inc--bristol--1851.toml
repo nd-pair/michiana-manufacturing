@@ -8,7 +8,6 @@ state = "IN"
 address = "1851 Bloomingdale Drive, Bristol, IN 46507"
 lat = 41.71155
 lon = -85.81100
-website = "https://not available"
 
 sector = "Vehicles & RVs"
 products = ["Railroad Rolling Stock Manufacturing"]
@@ -16,7 +15,9 @@ naics = "336510"
 
 employees = 24
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Heavy-Duty Aluminum Loading Ramps for Semitrailer Trucks & 5th Wheel Slip Platform for RV Transporters. NAICS 336510: railroad rolling stock manufacturing."
 

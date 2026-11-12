@@ -1,0 +1,26 @@
+# Consensus Networks Inc.
+# Imported from SBIR.gov award data (public). Placed at the city center: small firms often list a home address.
+
+name = "Consensus Networks Inc."
+kind = "company"
+city = "South Bend"
+state = "IN"
+lat = 41.68338
+lon = -86.25001
+location_precision = "city"
+website = "https://www.consensusnetworks.com"
+uei = "XN2HBBWNVUK5"
+
+sector = "Medical devices & other"
+products = ["SBIR/STTR research and development"]
+
+employees = 5
+employees_scope = "company"
+employees_year = 2021
+employees_quality = "reported"
+employees_note = "reported by the firm on its 2021 SBIR/STTR award"
+
+description = "SBIR/STTR awardee: 4 awards from Department of Defense, Department of Health and Human Services, 2018 to 2021. Most recent: Digital Logistics Challenge for Improved Medical Care, HealthNet: Secure, dynamic, and reliable health information exchange."
+
+source = "SBIR.gov award data"
+updated = "2026-11-11"

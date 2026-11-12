@@ -9,6 +9,7 @@ address = "56 East Bell Drive, Warsaw, IN 46582"
 lat = 41.26634
 lon = -85.84123
 website = "https://biomet.com"
+uei = "LBKFGAHNLGY3"
 
 sector = "Medical devices & other"
 products = ["Surgical Appliance and Supplies Manufacturing"]
@@ -16,7 +17,9 @@ naics = "339113"
 
 employees = 1500
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Corporate Headquarters & Orthopedic Implants & Instruments. NAICS 339113: surgical appliance and supplies manufacturing."
 

@@ -8,7 +8,6 @@ state = "IN"
 address = "325 North Main Street, Middlebury, IN 46540"
 lat = 41.67883
 lon = -85.70596
-website = "https://not available"
 
 sector = "Metal"
 products = ["Machine Shops"]
@@ -16,7 +15,9 @@ naics = "332710"
 
 employees = 20
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Metal Stamping, Heat Treating, Tube Forming, CNC Machining & Welding Job Shop. NAICS 332710: machine shops."
 

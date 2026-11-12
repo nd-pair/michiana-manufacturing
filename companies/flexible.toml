@@ -9,6 +9,7 @@ address = "1620 Middlebury St, Elkhart, IN 46516"
 lat = 41.68132
 lon = -85.93797
 website = "https://www.flexibleconcepts.com"
+uei = "LV5JH64F3286"
 
 sector = "Metal"
 products = ["Swiss turning", "Gears & splines", "Ordnance components"]

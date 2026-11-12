@@ -9,6 +9,7 @@ address = "510 W Adams St, Plymouth, IN 46563"
 lat = 41.34237
 lon = -86.31433
 website = "https://www.simbachain.com"
+uei = "HT9SYDMCKD77"
 
 sector = "Software & services"
 products = ["Blockchain & provenance", "Software"]

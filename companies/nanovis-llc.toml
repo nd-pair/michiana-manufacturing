@@ -1,0 +1,26 @@
+# Nanovis, LLC
+# Imported from SBIR.gov award data (public). Placed at the city center: small firms often list a home address.
+
+name = "Nanovis, LLC"
+kind = "company"
+city = "Columbia City"
+state = "IN"
+lat = 41.15693
+lon = -85.48846
+location_precision = "city"
+website = "https://www.nanovisinc.com"
+uei = "MYFBDVHYFBP5"
+
+sector = "Materials & composites"
+products = ["SBIR/STTR research and development"]
+
+employees = 3
+employees_scope = "company"
+employees_year = 2015
+employees_quality = "reported"
+employees_note = "reported by the firm on its 2015 SBIR/STTR award"
+
+description = "SBIR/STTR awardee: 4 awards from Department of Health and Human Services, 2010 to 2015. Most recent: Spinal Pseudoarthrosis Mitigation Using Nano Devices."
+
+source = "SBIR.gov award data"
+updated = "2026-11-11"

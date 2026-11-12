@@ -9,6 +9,7 @@ address = "12215 County Road 10, Middlebury, IN 46540"
 lat = 41.70410
 lon = -85.70134
 website = "https://culverduck.com"
+uei = "RNMTN1MF6CV4"
 
 sector = "Food & consumer goods"
 products = ["Poultry Processing"]
@@ -16,7 +17,9 @@ naics = "311615"
 
 employees = 130
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Poultry Processing. NAICS 311615: poultry processing."
 

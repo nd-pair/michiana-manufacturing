@@ -16,7 +16,9 @@ naics = "333995"
 
 employees = 30
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Hydraulic Levelers. NAICS 333995: fluid power cylinder and actuator manufacturing."
 

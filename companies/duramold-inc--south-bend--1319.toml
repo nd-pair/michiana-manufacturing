@@ -8,7 +8,6 @@ state = "IN"
 address = "1319 North Iowa Street, South Bend, IN 46628"
 lat = 41.69240
 lon = -86.29618
-website = "https://not available"
 
 sector = "Vehicles & RVs"
 products = ["All Other Motor Vehicle Parts Manufacturing"]
@@ -16,7 +15,9 @@ naics = "336399"
 
 employees = 30
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Bus & Truck Grab Rails, Seals & Transportation Parts. NAICS 336399: all other motor vehicle parts manufacturing."
 

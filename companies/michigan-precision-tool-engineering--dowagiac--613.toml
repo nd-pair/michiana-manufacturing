@@ -8,7 +8,6 @@ state = "MI"
 address = "613 Rudy Road, Dowagiac, MI 49047"
 lat = 41.99196
 lon = -86.09888
-website = "https://not available"
 
 sector = "Mechatronics & automation"
 products = ["Special Die and Tool, Die Set, Jig, and Fixture Manufacturing"]
@@ -16,7 +15,9 @@ naics = "333514"
 
 employees = 20
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Tool & Die & CNC Machining Job Shop. NAICS 333514: special die and tool, die set, jig, and fixture manufacturing."
 

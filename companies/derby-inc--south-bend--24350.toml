@@ -9,6 +9,7 @@ address = "24350 State Road 23, South Bend, IN 46614"
 lat = 41.62168
 lon = -86.33521
 website = "https://derbycase.com"
+uei = "QLDUCDJAVZQ9"
 
 sector = "Materials & composites"
 products = ["All Other Plastics Product Manufacturing"]
@@ -16,7 +17,9 @@ naics = "326199"
 
 employees = 100
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Medical Carrying Cases. NAICS 326199: all other plastics product manufacturing."
 

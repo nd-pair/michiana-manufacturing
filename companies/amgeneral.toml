@@ -9,6 +9,7 @@ address = "105 N Niles Ave, South Bend, IN 46617"
 lat = 41.67725
 lon = -86.24423
 website = "https://www.amgeneral.com"
+uei = "NWM1JWVDA853"
 
 sector = "Vehicles & RVs"
 products = ["Vehicle integration", "Defense prime"]

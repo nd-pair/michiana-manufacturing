@@ -1,0 +1,26 @@
+# TayCo Brace, Inc.
+# Imported from SBIR.gov award data (public). Placed at the city center: small firms often list a home address.
+
+name = "TayCo Brace, Inc."
+kind = "company"
+city = "South Bend"
+state = "IN"
+lat = 41.68338
+lon = -86.25001
+location_precision = "city"
+website = "https://www.taycobrace.com"
+uei = "JF59ECFX7P66"
+
+sector = "Medical devices & other"
+products = ["SBIR/STTR research and development"]
+
+employees = 14
+employees_scope = "company"
+employees_year = 2024
+employees_quality = "reported"
+employees_note = "reported by the firm on its 2024 SBIR/STTR award"
+
+description = "SBIR/STTR awardee: 9 awards from Department of Defense, 2020 to 2024. Most recent: Sensor Ankle Brace for Special Operations Rehabilitation."
+
+source = "SBIR.gov award data"
+updated = "2026-11-11"

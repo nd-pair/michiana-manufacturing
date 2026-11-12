@@ -16,7 +16,9 @@ naics = "333415"
 
 employees = 75
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Automotive Heating & Air Conditioning Units. NAICS 333415: air-conditioning & warm air heating equipment & commercial and industrial refrigeration equipment mfg.."
 

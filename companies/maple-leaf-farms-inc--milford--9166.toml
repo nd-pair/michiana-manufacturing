@@ -16,7 +16,9 @@ naics = "311615"
 
 employees = 450
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Corporate Headquarters & Poultry Processing. NAICS 311615: poultry processing."
 

@@ -8,7 +8,6 @@ state = "IN"
 address = "1130 Kent Street, Elkhart, IN 46514"
 lat = 41.69817
 lon = -86.00594
-website = "https://not available"
 
 sector = "Mechatronics & automation"
 products = ["Industrial Mold Manufacturing"]
@@ -16,7 +15,9 @@ naics = "333511"
 
 employees = 20
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Plastic Injection Molds & Wire Bonding. NAICS 333511: industrial mold manufacturing."
 

@@ -16,7 +16,9 @@ naics = "333315"
 
 employees = 35
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Closed-Circuit Television Cameras. NAICS 333315: photographic and photocopying equipment manufacturing."
 

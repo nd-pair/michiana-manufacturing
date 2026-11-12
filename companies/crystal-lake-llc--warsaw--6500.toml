@@ -9,6 +9,7 @@ address = "6500 West Crystal Lake Road, Warsaw, IN 46580"
 lat = 41.23255
 lon = -85.96815
 website = "https://cb-cl.com"
+uei = "MH5GG8LERRV3"
 
 sector = "Food & consumer goods"
 products = ["All Other Miscellaneous Food Manufacturing"]
@@ -16,7 +17,9 @@ naics = "311999"
 
 employees = 70
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Frozen Eggs. NAICS 311999: all other miscellaneous food manufacturing."
 

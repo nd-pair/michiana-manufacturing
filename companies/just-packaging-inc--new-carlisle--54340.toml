@@ -8,7 +8,7 @@ state = "IN"
 address = "54340 Smilax Road, New Carlisle, IN 46552"
 lat = 41.70145
 lon = -86.44756
-website = "https://not available"
+uei = "UF1ASNLYTJ59"
 
 sector = "Wood, paper & furniture"
 products = ["Corrugated and Solid Fiber Box Manufacturing"]
@@ -16,7 +16,9 @@ naics = "322211"
 
 employees = 35
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Corrugated Packaging & Triplewall, Chipboard & Polyform Products. NAICS 322211: corrugated and solid fiber box manufacturing."
 

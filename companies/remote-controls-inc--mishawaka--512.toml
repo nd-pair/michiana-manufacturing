@@ -9,6 +9,7 @@ address = "512 South Merrifield Avenue, Mishawaka, IN 46544"
 lat = 41.65668
 lon = -86.16692
 website = "https://rci-products.com"
+uei = "LFKFECBDUGM5"
 
 sector = "Metal"
 products = ["Other Metal Valve and Pipe Fitting Manufacturing"]
@@ -16,7 +17,9 @@ naics = "332919"
 
 employees = 24
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Metal Finishing, Including Anodizing, Film, Black Oxide, Zinc & Manganese Phosphate of Aluminum & Steel Parts. NAICS 332919: other metal valve and pipe fitting manufacturing."
 

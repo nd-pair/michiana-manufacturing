@@ -16,7 +16,9 @@ naics = "334418"
 
 employees = 25
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Contract Manufacturing of Printed Circuit Board Assemblies & Electronic & Electromechanical Products. NAICS 334418: printed circuit assembly (electronic assembly) manufacturing."
 

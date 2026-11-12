@@ -8,7 +8,6 @@ state = "IN"
 address = "122 Redman Drive, Topeka, IN 46571"
 lat = 41.53868
 lon = -85.54934
-website = "https://not available"
 
 sector = "Metal"
 products = ["All Other Miscellaneous Fabricated Metal Product Manufacturing"]
@@ -16,7 +15,9 @@ naics = "332999"
 
 employees = 20
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Metal Wheel Wells, Generator Housings, Heating Ducts & Furnace & Grill Adapters. NAICS 332999: all other miscellaneous fabricated metal product manufacturing."
 

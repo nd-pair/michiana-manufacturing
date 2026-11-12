@@ -9,6 +9,7 @@ address = "306 South Nappanee Street, Nappanee, IN 46550"
 lat = 41.44078
 lon = -86.00551
 website = "https://aluminumtrailer.com"
+uei = "KJ6WLLLGDS88"
 
 sector = "Vehicles & RVs"
 products = ["Truck Trailer Manufacturing"]
@@ -16,7 +17,9 @@ naics = "336212"
 
 employees = 110
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Aluminum & Steel Car Haulers, Stackers & Custom Applications for Commercial Trailers. NAICS 336212: truck trailer manufacturing."
 

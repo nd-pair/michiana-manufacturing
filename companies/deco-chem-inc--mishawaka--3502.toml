@@ -16,7 +16,9 @@ naics = "325910"
 
 employees = 15
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Inks, Including UV & Conventional Solvent-Based Screen Printing, UV Flexography & UV & Solvent-Based Roller. NAICS 325910: printing ink manufacturing."
 

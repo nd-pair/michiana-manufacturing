@@ -8,7 +8,6 @@ state = "IN"
 address = "1555 East US Highway 12, Michigan City, IN 46360"
 lat = 41.72333
 lon = -86.88148
-website = "https://not available"
 
 sector = "Metal"
 products = ["Electroplating, Plating, Polishing, Anodizing and Coloring"]
@@ -16,7 +15,9 @@ naics = "332813"
 
 employees = 35
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Zinc Plating. NAICS 332813: electroplating, plating, polishing, anodizing and coloring."
 

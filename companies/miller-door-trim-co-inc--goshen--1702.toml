@@ -8,7 +8,6 @@ state = "IN"
 address = "1702 East Monroe Street, Goshen, IN 46528"
 lat = 41.58043
 lon = -85.81141
-website = "https://not available"
 
 sector = "Wood, paper & furniture"
 products = ["Wood Window and Door Manufacturing"]
@@ -16,7 +15,9 @@ naics = "321911"
 
 employees = 20
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Wooden Pre-Hung Door Units & Moldings. NAICS 321911: wood window and door manufacturing."
 

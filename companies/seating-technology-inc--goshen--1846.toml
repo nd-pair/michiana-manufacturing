@@ -8,7 +8,6 @@ state = "IN"
 address = "1846 Eisenhower Drive South, Goshen, IN 46526"
 lat = 41.55424
 lon = -85.80688
-website = "https://not available"
 
 sector = "Wood, paper & furniture"
 products = ["Nonupholstered Wood Household Furniture Manufacturing"]
@@ -16,7 +15,9 @@ naics = "337122"
 
 employees = 70
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Recreational Vehicle Furniture. NAICS 337122: nonupholstered wood household furniture manufacturing."
 

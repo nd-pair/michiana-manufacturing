@@ -8,7 +8,6 @@ state = "IN"
 address = "1838 Middlebury Street, Elkhart, IN 46516"
 lat = 41.68157
 lon = -85.93624
-website = "https://not available"
 
 sector = "Wood, paper & furniture"
 products = ["Commercial Screen Printing"]
@@ -16,7 +15,9 @@ naics = "323113"
 
 employees = 47
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Mirror Screen Printing. NAICS 323113: commercial screen printing."
 

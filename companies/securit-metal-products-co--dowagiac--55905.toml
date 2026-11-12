@@ -8,7 +8,6 @@ state = "MI"
 address = "55905 92nd Avenue, Dowagiac, MI 49047"
 lat = 42.08479
 lon = -86.08965
-website = "https://not available"
 
 sector = "Metal"
 products = ["Bolt, Nut, Screw, Rivet, and Washer Manufacturing"]
@@ -16,7 +15,9 @@ naics = "332722"
 
 employees = 25
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Solid Rivets. NAICS 332722: bolt, nut, screw, rivet, and washer manufacturing."
 

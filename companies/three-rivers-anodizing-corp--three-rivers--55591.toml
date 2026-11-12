@@ -8,7 +8,6 @@ state = "MI"
 address = "55591 Franklin Drive, Three Rivers, MI 49093"
 lat = 41.98992
 lon = -85.62767
-website = "https://not available"
 
 sector = "Metal"
 products = ["Electroplating, Plating, Polishing, Anodizing and Coloring"]
@@ -16,7 +15,9 @@ naics = "332813"
 
 employees = 15
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Aluminum Finishing. NAICS 332813: electroplating, plating, polishing, anodizing and coloring."
 

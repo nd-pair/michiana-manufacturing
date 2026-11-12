@@ -1,0 +1,26 @@
+# Tessellated Inc.
+# Imported from SBIR.gov award data (public). Placed at the city center: small firms often list a home address.
+
+name = "Tessellated Inc."
+kind = "company"
+city = "South Bend"
+state = "IN"
+lat = 41.68338
+lon = -86.25001
+location_precision = "city"
+website = "https://www.tessellatedinc.com/"
+uei = "TKN4JMW69KU7"
+
+sector = "Materials & composites"
+products = ["SBIR/STTR research and development"]
+
+employees = 3
+employees_scope = "company"
+employees_year = 2023
+employees_quality = "reported"
+employees_note = "reported by the firm on its 2023 SBIR/STTR award"
+
+description = "SBIR/STTR awardee: 4 awards from Department of Defense, Department of Energy, 2022 to 2023. Most recent: Understanding and optimizing roll-to-roll manufacturing of high- strength, transparent polymer composite films."
+
+source = "SBIR.gov award data"
+updated = "2026-11-11"

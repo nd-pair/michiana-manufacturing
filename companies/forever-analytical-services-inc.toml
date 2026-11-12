@@ -1,0 +1,25 @@
+# Forever Analytical Services, Inc.
+# Imported from SBIR.gov award data (public). Placed at the city center: small firms often list a home address.
+
+name = "Forever Analytical Services, Inc."
+kind = "company"
+city = "South Bend"
+state = "IN"
+lat = 41.68338
+lon = -86.25001
+location_precision = "city"
+uei = "E8DMQP3A2W74"
+
+sector = "Software & services"
+products = ["SBIR/STTR research and development"]
+
+employees = 2
+employees_scope = "company"
+employees_year = 2024
+employees_quality = "reported"
+employees_note = "reported by the firm on its 2024 SBIR/STTR award"
+
+description = "SBIR/STTR awardee: 2 awards from Environmental Protection Agency, 2023 to 2024. Most recent: Scaling Up a Field-Deployable Water Sampling Device to Rapidly Screen Adsorbable Organic Fluorine in situ."
+
+source = "SBIR.gov award data"
+updated = "2026-11-11"

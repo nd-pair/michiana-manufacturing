@@ -8,7 +8,6 @@ state = "IN"
 address = "323 South Elkhart Avenue, Elkhart, IN 46516"
 lat = 41.68689
 lon = -85.96890
-website = "https://not available"
 
 sector = "Metal"
 products = ["Metal Window and Door Manufacturing"]
@@ -16,7 +15,9 @@ naics = "332321"
 
 employees = 16
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Aluminum Windows & Curtain Walls. NAICS 332321: metal window and door manufacturing."
 

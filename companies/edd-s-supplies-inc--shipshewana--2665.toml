@@ -8,7 +8,6 @@ state = "IN"
 address = "2665 North 850 West, Shipshewana, IN 46565"
 lat = 41.67793
 lon = -85.59003
-website = "https://not available"
 
 sector = "Materials & composites"
 products = ["Fertilizer (mixing Only) Manufacturing"]
@@ -16,7 +15,9 @@ naics = "325314"
 
 employees = 20
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Fertilizer Blending. NAICS 325314: fertilizer (mixing only) manufacturing."
 

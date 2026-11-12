@@ -8,7 +8,6 @@ state = "MI"
 address = "15512 Walton Road, Buchanan, MI 49107"
 lat = 41.83882
 lon = -86.34343
-website = "https://not available"
 
 sector = "Materials & composites"
 products = ["All Other Plastics Product Manufacturing"]
@@ -16,7 +15,9 @@ naics = "326199"
 
 employees = 35
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Plastic Agricultural & Automotive Parts. NAICS 326199: all other plastics product manufacturing."
 

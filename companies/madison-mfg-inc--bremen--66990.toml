@@ -8,7 +8,6 @@ state = "IN"
 address = "66990 State Road 331, Bremen, IN 46506"
 lat = 41.52016
 lon = -86.16614
-website = "https://not available"
 
 sector = "Metal"
 products = ["Machine Shops"]
@@ -16,7 +15,9 @@ naics = "332710"
 
 employees = 30
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Sheet Metal Fabrication. NAICS 332710: machine shops."
 

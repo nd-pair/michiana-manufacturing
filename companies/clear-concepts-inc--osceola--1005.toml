@@ -8,7 +8,6 @@ state = "IN"
 address = "1005 3rd Street, Osceola, IN 46561"
 lat = 41.66073
 lon = -86.08109
-website = "https://not available"
 
 sector = "Vehicles & RVs"
 products = ["Motor Home Manufacturing"]
@@ -16,7 +15,9 @@ naics = "336213"
 
 employees = 20
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "RV Laminated Products. NAICS 336213: motor home manufacturing."
 

@@ -16,7 +16,9 @@ naics = "311999"
 
 employees = 135
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Fresh, Frozen, Hard Cooked & Peeled Egg Products. NAICS 311999: all other miscellaneous food manufacturing."
 

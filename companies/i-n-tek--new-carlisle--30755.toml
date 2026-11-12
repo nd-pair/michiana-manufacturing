@@ -8,7 +8,6 @@ state = "IN"
 address = "30755 Edison Road, New Carlisle, IN 46552"
 lat = 41.69411
 lon = -86.46312
-website = "https://not available"
 
 sector = "Metal"
 products = ["Rolled Steel Shape Manufacturing"]
@@ -16,7 +15,9 @@ naics = "331221"
 
 employees = 243
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Joint Venture Between Arcelormittal USA, Inc. & Nippon Steel USA, Inc. & Cold Rolled Steel. NAICS 331221: rolled steel shape manufacturing."
 

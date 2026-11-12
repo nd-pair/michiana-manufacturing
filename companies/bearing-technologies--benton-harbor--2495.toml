@@ -8,7 +8,6 @@ state = "MI"
 address = "2495 Pipestone Road, Benton Harbor, MI 49022"
 lat = 42.07284
 lon = -86.41663
-website = "https://not available"
 
 sector = "Metal"
 products = ["Ball and Roller Bearing Manufacturing"]
@@ -16,7 +15,9 @@ naics = "332991"
 
 employees = 32
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Mounted Bearings. NAICS 332991: ball and roller bearing manufacturing."
 

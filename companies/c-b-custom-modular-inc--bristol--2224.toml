@@ -8,7 +8,6 @@ state = "IN"
 address = "2224 Bloomingdale Drive, Bristol, IN 46507"
 lat = 41.71215
 lon = -85.80871
-website = "https://not available"
 
 sector = "Wood, paper & furniture"
 products = ["Manufactured Home (mobile Home) Manufacturing"]
@@ -16,7 +15,9 @@ naics = "321991"
 
 employees = 70
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Mobile Offices. NAICS 321991: manufactured home (mobile home) manufacturing."
 

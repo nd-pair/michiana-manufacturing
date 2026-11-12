@@ -1,0 +1,26 @@
+# 3degrees, LLC
+# Imported from SBIR.gov award data (public). Placed at the city center: small firms often list a home address.
+
+name = "3degrees, LLC"
+kind = "company"
+city = "South Bend"
+state = "IN"
+lat = 41.68338
+lon = -86.25001
+location_precision = "city"
+website = "http://www.3degreescompany.com"
+uei = "Q43UC7ZWQA55"
+
+sector = "Materials & composites"
+products = ["SBIR/STTR research and development"]
+
+employees = 5
+employees_scope = "company"
+employees_year = 2023
+employees_quality = "reported"
+employees_note = "reported by the firm on its 2023 SBIR/STTR award"
+
+description = "SBIR/STTR awardee: 1 award from Department of Defense, 2023. Most recent: Accelerating Additive Manufacturing Materials Development for Enhanced Munitions."
+
+source = "SBIR.gov award data"
+updated = "2026-11-11"

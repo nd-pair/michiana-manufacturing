@@ -8,7 +8,6 @@ state = "IN"
 address = "1701 Conant Street, Elkhart, IN 46516"
 lat = 41.68523
 lon = -85.93871
-website = "https://not available"
 
 sector = "Materials & composites"
 products = ["Gypsum Product Manufacturing"]
@@ -16,7 +15,9 @@ naics = "327420"
 
 employees = 20
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Laminated Wallboards. NAICS 327420: gypsum product manufacturing."
 

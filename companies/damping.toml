@@ -7,6 +7,7 @@ city = "Mishawaka"
 state = "IN"
 address = "55656 Currant Rd, Mishawaka, IN 46545"
 website = "https://www.damping.com"
+uei = "R7YJXFHG6GN6"
 
 sector = "Materials & composites"
 products = ["Damping materials"]

@@ -9,6 +9,7 @@ address = "2581 Kercher Road, Goshen, IN 46528"
 lat = 41.55217
 lon = -85.77990
 website = "https://supremeind.com"
+uei = "WK1DJQKJEWG5"
 
 sector = "Vehicles & RVs"
 products = ["Truck Trailer Manufacturing"]
@@ -16,7 +17,9 @@ naics = "336212"
 
 employees = 1024
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Company Headquarters & Aluminum & Refrigerated Truck Bodies & Shuttle Buses. NAICS 336212: truck trailer manufacturing."
 

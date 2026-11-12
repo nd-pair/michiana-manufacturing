@@ -1,7 +1,7 @@
-# Dutchmen Mfg., Inc. (h Q)
+# Dutchmen Mfg., Inc. (HQ)
 # Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
 
-name = "Dutchmen Mfg., Inc. (h Q)"
+name = "Dutchmen Mfg., Inc. (HQ)"
 kind = "company"
 city = "Goshen"
 state = "IN"
@@ -16,7 +16,9 @@ naics = "336213"
 
 employees = 100
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Corporate Headquarters; Recreational Vehicles. NAICS 336213: motor home manufacturing."
 

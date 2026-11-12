@@ -8,7 +8,6 @@ state = "IN"
 address = "25687 East Woodlawn Avenue, Elkhart, IN 46514"
 lat = 41.70845
 lon = -85.96150
-website = "https://not available"
 
 sector = "Vehicles & RVs"
 products = ["Motor Home Manufacturing"]
@@ -16,7 +15,9 @@ naics = "336213"
 
 employees = 25
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "RV, Cargo Trailers & Mobile Home Steel & Frame Components. NAICS 336213: motor home manufacturing."
 

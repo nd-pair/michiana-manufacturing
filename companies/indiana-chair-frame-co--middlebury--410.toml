@@ -9,6 +9,7 @@ address = "410 North Main Street, Middlebury, IN 46540"
 lat = 41.68329
 lon = -85.70166
 website = "https://icfnet.com"
+uei = "RN3CXWB7JJL3"
 
 sector = "Wood, paper & furniture"
 products = ["Wood Office Furniture Manufacturing"]
@@ -16,7 +17,9 @@ naics = "337211"
 
 employees = 60
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Office Furniture Components. NAICS 337211: wood office furniture manufacturing."
 

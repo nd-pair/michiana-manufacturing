@@ -1,0 +1,19 @@
+# Taktline
+# Added by hand; description from the company's own website.
+
+name = "Taktline"
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "712 Forest Ave, South Bend, IN 46616"
+lat = 41.68458
+lon = -86.25719
+website = "https://taktline.com"
+
+sector = "Software & services"
+products = ["Manufacturing execution software", "Digital kanban", "Software"]
+
+description = "Browser-based digital kanban and manufacturing execution system for small manufacturers (job shops, assembly lines and remanufacturers of roughly 5 to 200 people): every lot and station live on the shop's own floor plan, pull scheduling, and analysis of what to fix first."
+
+source = "company website"
+updated = "2026-11-11"

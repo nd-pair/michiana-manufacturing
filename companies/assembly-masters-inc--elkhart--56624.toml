@@ -16,7 +16,9 @@ naics = "334416"
 
 employees = 18
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Wire Harnesses, Cable Assemblies, Bobbin Wound Coils, Air Coils, Circuit Board Jumpers, Toroidal Transformers. NAICS 334416: electronic coil, transformer, and other inductor manufacturing."
 

@@ -9,6 +9,7 @@ address = "215 South Post Road, Buchanan, MI 49107"
 lat = 41.82649
 lon = -86.38166
 website = "https://candsmachine.com"
+uei = "MPDCLN4MHM75"
 
 sector = "Metal"
 products = ["Machine Shops"]
@@ -16,7 +17,9 @@ naics = "332710"
 
 employees = 45
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Precision Machined Components. NAICS 332710: machine shops."
 

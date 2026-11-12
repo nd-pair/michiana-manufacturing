@@ -1,7 +1,7 @@
-# Ashley Worldwide (h Q)
+# Ashley Worldwide (HQ)
 # Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
 
-name = "Ashley Worldwide (h Q)"
+name = "Ashley Worldwide (HQ)"
 kind = "company"
 city = "Mishawaka"
 state = "IN"
@@ -16,7 +16,9 @@ naics = "315225"
 
 employees = 60
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Company Headquarters; Uniform Jackets, Parkas & Rainwear for Law Enforcement, Public Safety & Ems Personnel. NAICS 315225: men's and boys' cut and sew work clothing manufacturing."
 

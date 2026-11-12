@@ -1,0 +1,26 @@
+# Scientific Methods Inc.
+# Imported from SBIR.gov award data (public). Placed at the city center: small firms often list a home address.
+
+name = "Scientific Methods Inc."
+kind = "company"
+city = "Granger"
+state = "IN"
+lat = 41.75338
+lon = -86.11084
+location_precision = "city"
+website = "http://www.scientificmethods.com"
+uei = "JA5QYJHRS5K1"
+
+sector = "Software & services"
+products = ["SBIR/STTR research and development"]
+
+employees = 7
+employees_scope = "company"
+employees_year = 2020
+employees_quality = "reported"
+employees_note = "reported by the firm on its 2020 SBIR/STTR award"
+
+description = "SBIR/STTR awardee: 15 awards from Department of Agriculture, Environmental Protection Agency, 2005 to 2020. Most recent: Development of Simple, Field-Deployable Kit for Detecting Antibiotic Resistant Bacteria in Wastewater."
+
+source = "SBIR.gov award data"
+updated = "2026-11-11"

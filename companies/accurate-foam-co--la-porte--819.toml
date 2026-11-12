@@ -8,7 +8,6 @@ state = "IN"
 address = "819 Fox Street, La Porte, IN 46350"
 lat = 41.59932
 lon = -86.71291
-website = "https://not available"
 
 sector = "Materials & composites"
 products = ["Urethane and Other Foam Product (except Polystyrene) Manufacturing"]
@@ -16,7 +15,9 @@ naics = "326150"
 
 employees = 22
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Polyurethane Foam, Die Cutting, Pressure-Sensitive Products, PVC Tape, Polyethylene & Molded Bumpers. NAICS 326150: urethane and other foam product (except polystyrene) manufacturing."
 

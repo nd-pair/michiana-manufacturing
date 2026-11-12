@@ -8,7 +8,6 @@ state = "IN"
 address = "524 East Jackson Street, Goshen, IN 46526"
 lat = 41.57401
 lon = -85.82737
-website = "https://not available"
 
 sector = "Wood, paper & furniture"
 products = ["Other Commercial Printing"]
@@ -16,7 +15,9 @@ naics = "323119"
 
 employees = 17
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Classroom Maps, Globes & Multimedia Teaching Systems. NAICS 323119: other commercial printing."
 

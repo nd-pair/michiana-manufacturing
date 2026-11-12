@@ -1,0 +1,25 @@
+# Biomineral Systems LLC
+# Imported from SBIR.gov award data (public). Placed at the city center: small firms often list a home address.
+
+name = "Biomineral Systems LLC"
+kind = "company"
+city = "Mishawaka"
+state = "IN"
+lat = 41.66116
+lon = -86.18070
+location_precision = "city"
+uei = "RJB9PA2KMN57"
+
+sector = "Food & consumer goods"
+products = ["SBIR/STTR research and development"]
+
+employees = 8
+employees_scope = "company"
+employees_year = 2023
+employees_quality = "reported"
+employees_note = "reported by the firm on its 2023 SBIR/STTR award"
+
+description = "SBIR/STTR awardee: 6 awards from Department of Agriculture, Department of Health and Human Services, National Science Foundation, 2017 to 2023. Most recent: Phosphorus Biofertilizer for Sustainable Agriculture."
+
+source = "SBIR.gov award data"
+updated = "2026-11-11"

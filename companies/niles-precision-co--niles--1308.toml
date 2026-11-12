@@ -9,6 +9,7 @@ address = "1308 Fort Street, Niles, MI 49120"
 lat = 41.81207
 lon = -86.24543
 website = "https://nilesprecision.com"
+uei = "K1K2RWBQNTA7"
 
 sector = "Vehicles & RVs"
 products = ["Other Aircraft Part and Auxiliary Equipment Manufacturing"]
@@ -16,7 +17,9 @@ naics = "336413"
 
 employees = 175
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Aircraft Components. NAICS 336413: other aircraft part and auxiliary equipment manufacturing."
 

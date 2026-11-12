@@ -9,6 +9,7 @@ address = "6100 Michigan Rd, Plymouth, IN 46563"
 lat = 41.36628
 lon = -86.31256
 website = "https://www.itamco.com"
+uei = "G75GHR5MLBX3"
 
 sector = "Metal"
 products = ["Gears & splines", "Additive manufacturing (DMLS)", "Aerospace machining"]

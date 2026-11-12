@@ -8,7 +8,6 @@ state = "MI"
 address = "2235 Pipestone Road, Benton Harbor, MI 49022"
 lat = 42.07732
 lon = -86.41668
-website = "https://not available"
 
 sector = "Materials & composites"
 products = ["Clay Refractory Manufacturing"]
@@ -16,7 +15,9 @@ naics = "327124"
 
 employees = 42
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Refractory Products. NAICS 327124: clay refractory manufacturing."
 

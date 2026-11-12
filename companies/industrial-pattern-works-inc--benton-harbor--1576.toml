@@ -8,7 +8,6 @@ state = "MI"
 address = "1576 Milton Street, Benton Harbor, MI 49022"
 lat = 42.08955
 lon = -86.43826
-website = "https://not available"
 
 sector = "Metal"
 products = ["Industrial Pattern Manufacturing"]
@@ -16,7 +15,9 @@ naics = "332997"
 
 employees = 15
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Industrial Patterns. NAICS 332997: industrial pattern manufacturing."
 

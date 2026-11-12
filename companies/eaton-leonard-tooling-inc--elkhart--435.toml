@@ -8,7 +8,6 @@ state = "IN"
 address = "435 Roske Drive, Elkhart, IN 46516"
 lat = 41.69225
 lon = -85.89670
-website = "https://not available"
 
 sector = "Metal"
 products = ["Machine Shops"]
@@ -16,7 +15,9 @@ naics = "332710"
 
 employees = 19
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "CNC Machining & Tool & Die Job Shop. NAICS 332710: machine shops."
 

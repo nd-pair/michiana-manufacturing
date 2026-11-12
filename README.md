@@ -61,6 +61,11 @@ Field by field:
 | `products` | yes | Free text, one or more. Reuse existing names where they fit so the product filter stays useful |
 | `employees`, `employees_scope`, `employees_note` | no | Approximate is fine; say where the number comes from and whether it is this site or the whole company |
 | `description` | no | Plain language, from public sources |
+| `employees_year`, `employees_quality` | no | Year of the headcount and `"reported"` or `"estimate"`; shown with every figure |
+| `parent` | no | Groups the plants of one company under this name (otherwise grouped by shared website or base name) |
+| `standalone` | no | `true` keeps an entry out of automatic grouping, e.g. a fund whose page lives on another organization's site |
+| `uei` | no | Unique Entity ID; federal and SBIR awards then match exactly. Filled in automatically once a unique name match is found |
+| `location_precision` | no | `"city"` when lat/lon is a city center rather than the address (used for SBIR firms) |
 
 **Positions.** If you give an address but no `lat`/`lon`, run `python3 scripts/geocode.py` and it
 looks the address up on OpenStreetMap and writes the coordinates into the file. Check the result
@@ -103,6 +108,23 @@ Beyond the map, the page carries:
   they came from. The detail panel shows both.
 - **Sharing.** The URL hash holds the filters, layers and selection ("Copy link to this view"), and
   the roster downloads as CSV with every field.
+- **Search, groups, density, rings.** Find a company by name above the map; plants of one company
+  collapse under its name in the roster and the detail panel lists its other sites; zoomed out, or
+  with the Density layer on, columns become a grid of counts; distance rings and the "within"
+  filter center on the selected company, or the campus when none is selected.
+- **Sector employment.** The employment chart switches between counties and sectors (3-digit NAICS
+  from the QCEW area files, folded into the map's sectors) and between head counts and an index.
+- **Patents.** `scripts/pull_patents.py` reads USPTO PatentsView. It needs a free API key
+  (https://patentsview.org/apis/keyrequest) stored as the repository secret `PATENTSVIEW_API_KEY`;
+  without it the step is skipped and the site shows no patent figures.
+- **SBIR firms.** `scripts/import_sbir_firms.py` adds a company file for every SBIR/STTR firm in the
+  region with an award since 2012 that is not on the map yet, placed at its city's center because
+  small firms often list a home address; sectors come from the words in the award titles.
+- **About the data and sector briefs.** `about.html` lists every source with match method, date and
+  known gaps, with live counts; `brief.html` prints a one-page summary per sector (key figures,
+  employment trend, largest companies, capability gaps, largest recent awards).
+- **Theme.** Dark by default; the page's Light/Dark switch changes the map and panels with it and is
+  remembered in the visitor's browser.
 
 ## Keeping the data current
 
@@ -128,8 +150,8 @@ so commit only your source changes (`companies/`, `data/`, `site/`, `scripts/`) 
 ```
 companies/      one TOML file per company (edit these)
 data/           sectors, places, capabilities (edit these); county boundaries (Census), shorelines (Natural Earth); pulled datasets (federal, fda, qcew, sbir)
-site/           the page: Notre Dame Web Theme chrome (partials/), page.html, app.js, app.css
-scripts/        build.py, geocode.py, import_hifld.py, pull_federal.py, pull_sbir.py, pull_fda.py, pull_qcew.py, pull_events.py, common.py
+site/           the pages: Notre Dame Web Theme chrome (partials/), page.html + app.js (map), about.html, brief.html + brief.js, app.css
+scripts/        build.py, geocode.py, import_hifld.py, import_sbir_firms.py, pull_federal.py, pull_sbir.py, pull_fda.py, pull_qcew.py, pull_events.py, pull_patents.py, common.py
 docs/           the built site (generated; do not edit by hand)
 ```
 

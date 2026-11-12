@@ -8,7 +8,6 @@ state = "IN"
 address = "355 North Tomahawk Trail, Nappanee, IN 46550"
 lat = 41.44509
 lon = -86.02996
-website = "https://not available"
 
 sector = "Mechatronics & automation"
 products = ["Farm Machinery and Equipment Manufacturing"]
@@ -16,7 +15,9 @@ naics = "333111"
 
 employees = 18
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Rebuilt Grain Equipment. NAICS 333111: farm machinery and equipment manufacturing."
 

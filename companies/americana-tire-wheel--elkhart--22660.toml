@@ -8,7 +8,6 @@ state = "IN"
 address = "22660 County Road 6, Elkhart, IN 46514"
 lat = 41.72416
 lon = -85.90073
-website = "https://not available"
 
 sector = "Vehicles & RVs"
 products = ["Automobile Manufacturing"]
@@ -16,7 +15,9 @@ naics = "336111"
 
 employees = 20
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Tires & Wheels. NAICS 336111: automobile manufacturing."
 

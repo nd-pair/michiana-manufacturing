@@ -16,7 +16,9 @@ naics = "337920"
 
 employees = 50
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Window Shades & Windshield Covers. NAICS 337920: blind and shade manufacturing."
 

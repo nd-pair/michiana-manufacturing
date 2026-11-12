@@ -8,7 +8,6 @@ state = "IN"
 address = "302 Dal Mar Way, Nappanee, IN 46550"
 lat = 41.44393
 lon = -85.97844
-website = "https://not available"
 
 sector = "Wood, paper & furniture"
 products = ["Commercial Screen Printing"]
@@ -16,7 +15,9 @@ naics = "323113"
 
 employees = 21
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Screen Printing & Embroidery. NAICS 323113: commercial screen printing."
 

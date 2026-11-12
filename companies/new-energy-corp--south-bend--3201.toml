@@ -8,7 +8,6 @@ state = "IN"
 address = "3201 West Calvert Street, South Bend, IN 46613"
 lat = 41.65411
 lon = -86.29360
-website = "https://not available"
 
 sector = "Materials & composites"
 products = ["All Other Basic Organic Chemical Manufacturing"]
@@ -16,7 +15,9 @@ naics = "325199"
 
 employees = 135
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Ethanol Processing. NAICS 325199: all other basic organic chemical manufacturing."
 

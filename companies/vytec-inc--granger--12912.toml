@@ -8,7 +8,6 @@ state = "IN"
 address = "12912 Industrial Park Drive, Granger, IN 46530"
 lat = 41.74720
 lon = -86.11733
-website = "https://not available"
 
 sector = "Materials & composites"
 products = ["Unlaminated Plastics Profile Shape Manufacturing"]
@@ -16,7 +15,9 @@ naics = "326121"
 
 employees = 35
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Plastic Profile Extrusions. NAICS 326121: unlaminated plastics profile shape manufacturing."
 

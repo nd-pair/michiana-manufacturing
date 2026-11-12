@@ -8,7 +8,6 @@ state = "IN"
 address = "1906 Clover Road, Mishawaka, IN 46545"
 lat = 41.67711
 lon = -86.15343
-website = "https://not available"
 
 sector = "Metal"
 products = ["Machine Shops"]
@@ -16,7 +15,9 @@ naics = "332710"
 
 employees = 70
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Material Handling Equipment. NAICS 332710: machine shops."
 

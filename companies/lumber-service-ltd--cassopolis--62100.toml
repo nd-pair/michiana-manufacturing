@@ -8,7 +8,6 @@ state = "MI"
 address = "62100 M-62, Cassopolis, MI 49031"
 lat = 41.89609
 lon = -86.01055
-website = "https://not available"
 
 sector = "Wood, paper & furniture"
 products = ["Sawmills"]
@@ -16,7 +15,9 @@ naics = "321113"
 
 employees = 18
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Lumber Processing, Including Industrial Cutting. NAICS 321113: sawmills."
 

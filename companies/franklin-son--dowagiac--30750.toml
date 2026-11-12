@@ -8,7 +8,6 @@ state = "MI"
 address = "30750 Edwards Street, Dowagiac, MI 49047"
 lat = 41.94907
 lon = -86.16161
-website = "https://not available"
 
 sector = "Metal"
 products = ["Secondary Smelting, Refining, and Alloying of Nonferrous Metal (except Copper and Aluminum)"]
@@ -16,7 +15,9 @@ naics = "331492"
 
 employees = 22
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Scrap Metal Processing. NAICS 331492: secondary smelting, refining, and alloying of nonferrous metal (except copper and aluminum)."
 

@@ -9,6 +9,7 @@ address = "4604 South Burnette Drive, South Bend, IN 46614"
 lat = 41.62764
 lon = -86.26038
 website = "https://hoosierspring.com"
+uei = "KMTNJVHPS1N9"
 
 sector = "Metal"
 products = ["Spring (heavy Gauge) Manufacturing"]
@@ -16,7 +17,9 @@ naics = "332611"
 
 employees = 50
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Precision Springs. NAICS 332611: spring (heavy gauge) manufacturing."
 

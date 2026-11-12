@@ -8,7 +8,6 @@ state = "IN"
 address = "30012 County Road 10, Elkhart, IN 46514"
 lat = 41.72631
 lon = -86.04284
-website = "https://not available"
 
 sector = "Wood, paper & furniture"
 products = ["Showcase, Partition, Shelving, and Locker Manufacturing"]
@@ -16,7 +15,9 @@ naics = "337215"
 
 employees = 40
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Patio & Porch Additions. NAICS 337215: showcase, partition, shelving, and locker manufacturing."
 

@@ -8,7 +8,6 @@ state = "IN"
 address = "2820 North Fox Farm Road, Warsaw, IN 46582"
 lat = 41.27340
 lon = -85.89756
-website = "https://not available"
 
 sector = "Materials & composites"
 products = ["Glass Product Manufacturing Made of Purchased Glass"]
@@ -16,7 +15,9 @@ naics = "327215"
 
 employees = 25
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Stained Glass Products & Mirrors. NAICS 327215: glass product manufacturing made of purchased glass."
 

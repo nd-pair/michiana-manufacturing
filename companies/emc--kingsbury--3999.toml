@@ -8,7 +8,6 @@ state = "IN"
 address = "3999 Hupp Road, Kingsbury, IN 46345"
 lat = 41.51911
 lon = -86.63904
-website = "https://not available"
 
 sector = "Metal"
 products = ["Aluminum Die-Casting Foundries"]
@@ -16,7 +15,9 @@ naics = "331521"
 
 employees = 20
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Aluminum Die Casting. NAICS 331521: aluminum die-casting foundries."
 

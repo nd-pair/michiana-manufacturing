@@ -16,7 +16,9 @@ naics = "311111"
 
 employees = 66
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Pet Food. NAICS 311111: dog and cat food manufacturing."
 

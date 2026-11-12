@@ -8,7 +8,6 @@ state = "IN"
 address = "1060 East Waterford Street, Wakarusa, IN 46573"
 lat = 41.53646
 lon = -85.99739
-website = "https://not available"
 
 sector = "Wood, paper & furniture"
 products = ["Nonupholstered Wood Household Furniture Manufacturing"]
@@ -16,7 +15,9 @@ naics = "337122"
 
 employees = 45
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Wooden Furniture. NAICS 337122: nonupholstered wood household furniture manufacturing."
 

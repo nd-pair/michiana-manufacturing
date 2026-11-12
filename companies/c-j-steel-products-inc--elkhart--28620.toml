@@ -8,7 +8,6 @@ state = "IN"
 address = "28620 County Road 20, Elkhart, IN 46517"
 lat = 41.65730
 lon = -86.01591
-website = "https://not available"
 
 sector = "Vehicles & RVs"
 products = ["Truck Trailer Manufacturing"]
@@ -16,7 +15,9 @@ naics = "336212"
 
 employees = 20
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Dump Trailers. NAICS 336212: truck trailer manufacturing."
 

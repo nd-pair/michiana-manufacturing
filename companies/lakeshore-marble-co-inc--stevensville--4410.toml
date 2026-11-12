@@ -8,7 +8,6 @@ state = "MI"
 address = "4410 North Roosevelt Road, Stevensville, MI 49127"
 lat = 42.03737
 lon = -86.50976
-website = "https://not available"
 
 sector = "Materials & composites"
 products = ["Cut Stone and Stone Product Manufacturing"]
@@ -16,7 +15,9 @@ naics = "327991"
 
 employees = 30
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Cultured Marble Countertops & Solid-Surface Materials. NAICS 327991: cut stone and stone product manufacturing."
 

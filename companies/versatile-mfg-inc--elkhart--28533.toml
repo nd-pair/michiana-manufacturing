@@ -8,7 +8,6 @@ state = "IN"
 address = "28533 Holiday Place, Elkhart, IN 46517"
 lat = 41.65514
 lon = -86.01491
-website = "https://not available"
 
 sector = "Metal"
 products = ["Metal Stamping"]
@@ -16,7 +15,9 @@ naics = "332116"
 
 employees = 25
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Metal Stampings & Fabrication Job Shop. NAICS 332116: metal stamping."
 

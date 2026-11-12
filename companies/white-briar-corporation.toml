@@ -1,0 +1,20 @@
+# White Briar Corporation
+# Imported from SBIR.gov award data (public). Placed at the city center: small firms often list a home address.
+
+name = "White Briar Corporation"
+kind = "company"
+city = "Niles"
+state = "MI"
+lat = 41.82977
+lon = -86.25418
+uei = "H9JJHWJVHNK4"
+location_precision = "city"
+
+sector = "Medical devices & other"
+products = ["SBIR/STTR research and development"]
+
+
+description = "SBIR/STTR awardee: 1 award from Department of Health and Human Services, 2013. Most recent: Lighting System for Premature Infant Incubators."
+
+source = "SBIR.gov award data"
+updated = "2026-11-11"

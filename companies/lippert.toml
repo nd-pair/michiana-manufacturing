@@ -9,6 +9,7 @@ address = "3501 County Road 6 E, Elkhart, IN 46514"
 lat = 41.72430
 lon = -85.96967
 website = "https://www.lci1.com"
+parent = "Lippert (LCI Industries)"
 
 sector = "Vehicles & RVs"
 products = ["RV & specialty vehicle components", "High-mix assembly"]

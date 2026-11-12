@@ -8,7 +8,6 @@ state = "IN"
 address = "1243 3rd Street, Osceola, IN 46561"
 lat = 41.66062
 lon = -86.08453
-website = "https://not available"
 
 sector = "Materials & composites"
 products = ["All Other Plastics Product Manufacturing"]
@@ -16,7 +15,9 @@ naics = "326199"
 
 employees = 15
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Plastic Injection Molding. NAICS 326199: all other plastics product manufacturing."
 

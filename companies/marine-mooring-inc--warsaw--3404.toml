@@ -8,7 +8,6 @@ state = "IN"
 address = "3404 North 600 East, Warsaw, IN 46582"
 lat = 41.28471
 lon = -85.72827
-website = "https://not available"
 
 sector = "Food & consumer goods"
 products = ["Canvas and Related Product Mills"]
@@ -16,7 +15,9 @@ naics = "314912"
 
 employees = 39
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Vinyl & Canvas Boat Supplies. NAICS 314912: canvas and related product mills."
 

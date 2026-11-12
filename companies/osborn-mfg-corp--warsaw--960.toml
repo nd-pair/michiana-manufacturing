@@ -16,7 +16,9 @@ naics = "326199"
 
 employees = 16
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Thermoformed Plastic, Toe Protection Products & Aluminum & Steel Safety Lockout Devices & Tools. NAICS 326199: all other plastics product manufacturing."
 

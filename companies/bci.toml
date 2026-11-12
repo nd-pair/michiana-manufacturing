@@ -9,6 +9,7 @@ address = "500 N Baltimore St, Bremen, IN 46506"
 lat = 41.45046
 lon = -86.15365
 website = "https://www.bcisolutions.com"
+uei = "KAJUT9DFFJK2"
 
 sector = "Metal"
 products = ["Foundry & casting", "Precision machining"]

@@ -8,7 +8,7 @@ state = "IN"
 address = "56854 Elk Court, Elkhart, IN 46516"
 lat = 41.66873
 lon = -86.03638
-website = "https://not available"
+uei = "WKHKWNLCNRN5"
 
 sector = "Metal"
 products = ["Machine Shops"]
@@ -16,7 +16,9 @@ naics = "332710"
 
 employees = 18
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Machine Parts, Including Tooling & CNC Machining & Wire EDM. NAICS 332710: machine shops."
 

@@ -16,7 +16,9 @@ naics = "331319"
 
 employees = 220
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Aluminum Extrusions, Anodizing & Metal Fabrication. NAICS 331319: other aluminum rolling and drawing."
 

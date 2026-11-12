@@ -22,3 +22,4 @@
 <link rel="stylesheet" href="app.css?v={{BUILD}}">
 </head>
 <body>
+<script>/* dark unless this visitor chose light */try{document.body.setAttribute("data-theme",localStorage.getItem("mm-theme")||"dark")}catch(e){document.body.setAttribute("data-theme","dark")}</script>

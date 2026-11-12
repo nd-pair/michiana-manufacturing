@@ -8,7 +8,6 @@ state = "IN"
 address = "2941 Moose Trail, Elkhart, IN 46514"
 lat = 41.72981
 lon = -86.00462
-website = "https://not available"
 
 sector = "Food & consumer goods"
 products = ["Ice Cream and Frozen Dessert Manufacturing"]
@@ -16,7 +15,9 @@ naics = "311520"
 
 employees = 20
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Ice Cream & Dairy Products. NAICS 311520: ice cream and frozen dessert manufacturing."
 

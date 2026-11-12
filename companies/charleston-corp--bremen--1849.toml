@@ -8,7 +8,6 @@ state = "IN"
 address = "1849 Dogwood Road, Bremen, IN 46506"
 lat = 41.45326
 lon = -86.11791
-website = "https://not available"
 
 sector = "Metal"
 products = ["Metal Stamping"]
@@ -16,7 +15,9 @@ naics = "332116"
 
 employees = 50
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Fiberglass Van Parts. NAICS 332116: metal stamping."
 

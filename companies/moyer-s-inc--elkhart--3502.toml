@@ -8,7 +8,6 @@ state = "IN"
 address = "3502 Reedy Drive, Elkhart, IN 46514"
 lat = 41.72776
 lon = -85.92005
-website = "https://not available"
 
 sector = "Vehicles & RVs"
 products = ["Motor Vehicle Seating and Interior Trim Manufacturing"]
@@ -16,7 +15,9 @@ naics = "336360"
 
 employees = 18
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Recreational Vehicle Seating Frames. NAICS 336360: motor vehicle seating and interior trim manufacturing."
 

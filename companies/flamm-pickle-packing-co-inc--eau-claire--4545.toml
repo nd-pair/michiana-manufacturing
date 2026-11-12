@@ -8,7 +8,6 @@ state = "MI"
 address = "4545 Hipps Hollow Road, Eau Claire, MI 49111"
 lat = 41.97765
 lon = -86.34858
-website = "https://not available"
 
 sector = "Food & consumer goods"
 products = ["Fruit and Vegetable Canning"]
@@ -16,7 +15,9 @@ naics = "311421"
 
 employees = 15
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Pickle Relish. NAICS 311421: fruit and vegetable canning."
 

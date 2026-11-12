@@ -8,7 +8,6 @@ state = "IN"
 address = "53379 County Road 113, Elkhart, IN 46514"
 lat = 41.71910
 lon = -85.91331
-website = "https://not available"
 
 sector = "Materials & composites"
 products = ["All Other Plastics Product Manufacturing"]
@@ -16,7 +15,9 @@ naics = "326199"
 
 employees = 30
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Plastic Injection Molding & Electrical & Mechanical Switches & Wire Harnesses for the Automotive Industry. NAICS 326199: all other plastics product manufacturing."
 

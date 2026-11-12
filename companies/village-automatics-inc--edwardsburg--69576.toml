@@ -8,7 +8,6 @@ state = "MI"
 address = "69576 Section Street, Edwardsburg, MI 49112"
 lat = 41.78710
 lon = -86.08878
-website = "https://not available"
 
 sector = "Metal"
 products = ["Fabricated Structural Metal Manufacturing"]
@@ -16,7 +15,9 @@ naics = "332312"
 
 employees = 15
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Steel Products & CNC Machining Job Shop. NAICS 332312: fabricated structural metal manufacturing."
 

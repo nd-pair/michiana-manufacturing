@@ -2,6 +2,22 @@
 "source": "SBIR.gov public award data file (monthly)",
 "pulled": "2026-11-11",
 "companies": {
+"intrepid-phoenix-ventures-inc": {
+"count": 1,
+"amount": 149057,
+"agencies": [
+"Department of Defense"
+],
+"years": [
+"2025"
+],
+"phases": {
+"Phase I": 1
+},
+"firms": [
+"Intrepid Phoenix Ventures, Inc."
+]
+},
 "simba": {
 "count": 12,
 "amount": 25129037,
@@ -24,6 +40,113 @@
 },
 "firms": [
 "SIMBA Chain, Inc."
+]
+},
+"trion-coatings-llc": {
+"count": 1,
+"amount": 203677,
+"agencies": [
+"Department of Defense"
+],
+"years": [
+"2025"
+],
+"phases": {
+"Phase I": 1
+},
+"firms": [
+"TRION COATINGS, LLC"
+]
+},
+"third-coast-federal-inc": {
+"count": 4,
+"amount": 1574438,
+"agencies": [
+"Department of Defense"
+],
+"years": [
+"2021",
+"2022",
+"2023",
+"2025"
+],
+"phases": {
+"Phase II": 2,
+"Phase I": 2
+},
+"firms": [
+"Third Coast Federal, Inc."
+]
+},
+"nd-diagenomix-inc": {
+"count": 1,
+"amount": 305000,
+"agencies": [
+"National Science Foundation"
+],
+"years": [
+"2025"
+],
+"phases": {
+"Phase I": 1
+},
+"firms": [
+"ND-DIAGENOMIX, INC."
+]
+},
+"meaningful-measurement-inc": {
+"count": 1,
+"amount": 285707,
+"agencies": [
+"Department of Health and Human Services"
+],
+"years": [
+"2024"
+],
+"phases": {
+"Phase I": 1
+},
+"firms": [
+"MEANINGFUL MEASUREMENT, INC."
+]
+},
+"tayco-brace-inc": {
+"count": 9,
+"amount": 5953449,
+"agencies": [
+"Department of Defense"
+],
+"years": [
+"2020",
+"2022",
+"2023",
+"2024"
+],
+"phases": {
+"Phase II": 3,
+"Phase I": 5,
+"Phase II \u2013 Direct to Phase II": 1
+},
+"firms": [
+"TayCo Brace, Inc."
+]
+},
+"bond-technologies-inc": {
+"count": 2,
+"amount": 995054,
+"agencies": [
+"National Aeronautics and Space Administration"
+],
+"years": [
+"2023",
+"2024"
+],
+"phases": {
+"Phase II": 1,
+"Phase I": 1
+},
+"firms": [
+"Bond Technologies, Inc."
 ]
 },
 "trekfed": {
@@ -49,6 +172,84 @@
 "Trek10 Inc."
 ]
 },
+"forever-analytical-services-inc": {
+"count": 2,
+"amount": 499983,
+"agencies": [
+"Environmental Protection Agency"
+],
+"years": [
+"2023",
+"2024"
+],
+"phases": {
+"Phase II": 1,
+"Phase I": 1
+},
+"firms": [
+"FOREVER ANALYTICAL SERVICES, INC."
+]
+},
+"eclipse-orthopaedics-llc": {
+"count": 2,
+"amount": 2302823,
+"agencies": [
+"Department of Health and Human Services"
+],
+"years": [
+"2018",
+"2023"
+],
+"phases": {
+"Phase II": 1,
+"Phase I": 1
+},
+"firms": [
+"ECLIPSE ORTHOPAEDICS, LLC"
+]
+},
+"tessellated-inc": {
+"count": 4,
+"amount": 1589927,
+"agencies": [
+"Department of Defense",
+"Department of Energy"
+],
+"years": [
+"2022",
+"2023"
+],
+"phases": {
+"Phase II": 1,
+"Phase I": 3
+},
+"firms": [
+"TESSELLATED INC"
+]
+},
+"biomineral-systems-llc": {
+"count": 6,
+"amount": 1467980,
+"agencies": [
+"Department of Agriculture",
+"Department of Health and Human Services",
+"National Science Foundation"
+],
+"years": [
+"2017",
+"2018",
+"2020",
+"2021",
+"2023"
+],
+"phases": {
+"Phase II": 1,
+"Phase I": 5
+},
+"firms": [
+"Biomineral Systems LLC"
+]
+},
 "bci": {
 "count": 2,
 "amount": 1299774,
@@ -65,6 +266,54 @@
 },
 "firms": [
 "BCI SOLUTIONS, INC"
+]
+},
+"3degrees-llc": {
+"count": 1,
+"amount": 1249992,
+"agencies": [
+"Department of Defense"
+],
+"years": [
+"2023"
+],
+"phases": {
+"Phase II \u2013 Direct to Phase II": 1
+},
+"firms": [
+"3DEGREES, LLC"
+]
+},
+"seeksmart-llc": {
+"count": 1,
+"amount": 68939,
+"agencies": [
+"Department of Defense"
+],
+"years": [
+"2023"
+],
+"phases": {
+"Phase I": 1
+},
+"firms": [
+"SEEKSMART LLC"
+]
+},
+"maggies-pearl-llc": {
+"count": 1,
+"amount": 1805996,
+"agencies": [
+"Department of Health and Human Services"
+],
+"years": [
+"2022"
+],
+"phases": {
+"Phase II": 1
+},
+"firms": [
+"MAGGIES PEARL LLC"
 ]
 },
 "mti": {
@@ -86,6 +335,118 @@
 "MANUFACTURING TECHNOLOGY INC"
 ]
 },
+"edgewater-safety-systems-llc": {
+"count": 1,
+"amount": 499969,
+"agencies": [
+"Department of Health and Human Services"
+],
+"years": [
+"2021"
+],
+"phases": {
+"Phase I": 1
+},
+"firms": [
+"Edgewater Safety Systems LLC"
+]
+},
+"polar-clean-llc": {
+"count": 2,
+"amount": 99936,
+"agencies": [
+"Department of Defense"
+],
+"years": [
+"2021"
+],
+"phases": {
+"Phase I": 2
+},
+"firms": [
+"Polar Clean, L.L.C."
+]
+},
+"indiana-integrated-circuits-llc": {
+"count": 7,
+"amount": 1587206,
+"agencies": [
+"National Aeronautics and Space Administration",
+"Department of Defense",
+"Department of Energy"
+],
+"years": [
+"2013",
+"2014",
+"2017",
+"2019",
+"2020",
+"2021"
+],
+"phases": {
+"Phase I": 6,
+"Phase II": 1
+},
+"firms": [
+"INDIANA INTEGRATED CIRCUITS LLC"
+]
+},
+"consensus-networks-inc": {
+"count": 4,
+"amount": 1601310,
+"agencies": [
+"Department of Defense",
+"Department of Health and Human Services"
+],
+"years": [
+"2018",
+"2020",
+"2021"
+],
+"phases": {
+"Phase II": 1,
+"Phase I": 3
+},
+"firms": [
+"CONSENSUS NETWORKS INC."
+]
+},
+"vennli-inc": {
+"count": 4,
+"amount": 2447432,
+"agencies": [
+"Department of Defense"
+],
+"years": [
+"2019",
+"2020",
+"2021"
+],
+"phases": {
+"Phase II \u2013 Direct to Phase II": 1,
+"Phase I": 2,
+"Phase II": 1
+},
+"firms": [
+"VENNLI, INC."
+]
+},
+"south-bend-woodworks-llc": {
+"count": 1,
+"amount": 225000,
+"agencies": [
+"National Science Foundation"
+],
+"years": [
+"2021"
+],
+"phases": {
+"Phase I": 1
+},
+"firms": [
+"SOUTH BEND WOODWORKS LLC"
+]
+},
 "itamco": {
 "count": 7,
 "amount": 3170901,
@@ -105,6 +466,29 @@
 },
 "firms": [
 "INDIANA TOOL & MFG. CO., INC."
+]
+},
+"scientific-methods-inc": {
+"count": 15,
+"amount": 2484141,
+"agencies": [
+"Environmental Protection Agency",
+"Department of Agriculture"
+],
+"years": [
+"2005",
+"2006",
+"2007",
+"2009",
+"2010",
+"2020"
+],
+"phases": {
+"Phase I": 8,
+"Phase II": 7
+},
+"firms": [
+"SCIENTIFIC METHODS INC"
 ]
 },
 "agdia-inc-elkhart-30380": {
@@ -129,6 +513,121 @@
 "Agdia, Inc."
 ]
 },
+"nanovis-llc": {
+"count": 4,
+"amount": 2073710,
+"agencies": [
+"Department of Health and Human Services"
+],
+"years": [
+"2010",
+"2014",
+"2015"
+],
+"phases": {
+"Phase I": 3,
+"Phase II": 1
+},
+"firms": [
+"NANOVIS, LLC"
+]
+},
+"omicron-biochemicals-inc": {
+"count": 3,
+"amount": 1443572,
+"agencies": [
+"Department of Health and Human Services"
+],
+"years": [
+"2013",
+"2015"
+],
+"phases": {
+"Phase I": 2,
+"Phase II": 1
+},
+"firms": [
+"OMICRON BIOCHEMICALS, INC."
+]
+},
+"us-nano-llc": {
+"count": 2,
+"amount": 894543,
+"agencies": [
+"National Science Foundation"
+],
+"years": [
+"2012",
+"2014"
+],
+"phases": {
+"Phase II": 1,
+"Phase I": 1
+},
+"firms": [
+"US Nano LLC"
+]
+},
+"fiji-systems-llc": {
+"count": 3,
+"amount": 326799,
+"agencies": [
+"National Science Foundation",
+"Department of Defense"
+],
+"years": [
+"2009",
+"2010",
+"2013"
+],
+"phases": {
+"Phase I": 3
+},
+"firms": [
+"Fiji Systems LLC"
+]
+},
+"odyssian-technology-llc": {
+"count": 12,
+"amount": 3268811,
+"agencies": [
+"Department of Transportation",
+"Department of Defense"
+],
+"years": [
+"2003",
+"2005",
+"2006",
+"2008",
+"2010",
+"2012"
+],
+"phases": {
+"Phase I": 9,
+"Phase II": 3
+},
+"firms": [
+"Odyssian Technology, L.L.C."
+]
+},
+"lono-llc": {
+"count": 2,
+"amount": 649141,
+"agencies": [
+"National Science Foundation"
+],
+"years": [
+"2011",
+"2012"
+],
+"phases": {
+"Phase II": 1,
+"Phase I": 1
+},
+"firms": [
+"Lono LLC"
+]
+},
 "damping": {
 "count": 4,
 "amount": 817700,
@@ -147,483 +646,394 @@
 "firms": [
 "DAMPING TECHNOLOGIES, INC."
 ]
+},
+"white-briar-corporation": {
+"count": 1,
+"amount": 99672,
+"agencies": [
+"Department of Health and Human Services"
+],
+"years": [
+"2013"
+],
+"phases": {
+"Phase I": 1
+},
+"firms": [
+"WHITE BRIAR CORPORATION"
+]
 }
 },
 "firms_not_in_map": [
 {
-"firm": "TayCo Brace, Inc.",
-"city": "South Bend",
-"count": 9,
-"amount": 5953449,
-"agencies": [
-"Department of Defense"
-],
-"website": "https://www.taycobrace.com"
-},
-{
 "firm": "GENEGO, INC.",
 "city": "St. Joseph",
+"state": "MI",
 "count": 15,
 "amount": 5657990,
 "agencies": [
 "Department of Defense",
 "Department of Health and Human Services"
 ],
-"website": ""
-},
-{
-"firm": "Odyssian Technology, L.L.C.",
-"city": "South Bend",
-"count": 12,
-"amount": 3268811,
-"agencies": [
-"Department of Defense",
-"Department of Transportation"
+"website": "",
+"uei": "",
+"first_year": "2003",
+"last_year": "2010",
+"titles": [
+"Regulation signatures for predicting drug resistance and its molecular mechanisms",
+"A Systems Biology Platform for the Assessment of Substance Abuse",
+"A Systems Biology Platform for Integrative Cancer Biology Research",
+"An integrated systems pharmacology platform for pharmacogenomic research",
+"Systems Biology Platform to Study the Influence of Nutrient Compounds on Cancer D"
 ],
-"website": ""
+"staff": 0,
+"staff_year": ""
 },
 {
 "firm": "Yinnel Tech, Inc.",
 "city": "South Bend",
+"state": "IN",
 "count": 7,
 "amount": 2741861,
 "agencies": [
 "Department of Energy",
 "Department of Health and Human Services"
 ],
-"website": ""
-},
-{
-"firm": "SCIENTIFIC METHODS INC",
-"city": "Granger",
-"count": 15,
-"amount": 2484141,
-"agencies": [
-"Department of Agriculture",
-"Environmental Protection Agency"
+"website": "",
+"uei": "",
+"first_year": "2000",
+"last_year": "2007",
+"titles": [
+"Annealing as Grown Large Volume CdZnTe (10%) Single Crystals for Increased Spectral Resolution",
+"Optimization of low-cost CZT for nuclear imaging devices",
+"Optimization of low-cost CZT for nuclear imaging devices",
+"Development of Low-Cost CZT for Nuclear Imaging.",
+"Development of Large Size and Low Cost Cadmium Zinc Telluride Single Crystals for Improved Room Temperature Radiation Detectors used for National Security"
 ],
-"website": "http://www.scientificmethods.com"
-},
-{
-"firm": "VENNLI, INC.",
-"city": "Elkhart",
-"count": 4,
-"amount": 2447432,
-"agencies": [
-"Department of Defense"
-],
-"website": "https://www.vennli.com/"
-},
-{
-"firm": "ECLIPSE ORTHOPAEDICS, LLC",
-"city": "Warsaw",
-"count": 2,
-"amount": 2302823,
-"agencies": [
-"Department of Health and Human Services"
-],
-"website": "www.eclipseortho.com"
-},
-{
-"firm": "NANOVIS, LLC",
-"city": "Columbia City",
-"count": 4,
-"amount": 2073710,
-"agencies": [
-"Department of Health and Human Services"
-],
-"website": "www.nanovisinc.com"
-},
-{
-"firm": "MAGGIES PEARL LLC",
-"city": "Sturgis",
-"count": 1,
-"amount": 1805996,
-"agencies": [
-"Department of Health and Human Services"
-],
-"website": ""
-},
-{
-"firm": "CONSENSUS NETWORKS INC.",
-"city": "South Bend",
-"count": 4,
-"amount": 1601310,
-"agencies": [
-"Department of Defense",
-"Department of Health and Human Services"
-],
-"website": "www.consensusnetworks.com"
-},
-{
-"firm": "TESSELLATED INC",
-"city": "South Bend",
-"count": 4,
-"amount": 1589927,
-"agencies": [
-"Department of Defense",
-"Department of Energy"
-],
-"website": "https://www.tessellatedinc.com/"
-},
-{
-"firm": "INDIANA INTEGRATED CIRCUITS LLC",
-"city": "South Bend",
-"count": 7,
-"amount": 1587206,
-"agencies": [
-"Department of Defense",
-"Department of Energy",
-"National Aeronautics and Space Administration"
-],
-"website": "indianaic.com"
-},
-{
-"firm": "Third Coast Federal, Inc.",
-"city": "South Bend",
-"count": 4,
-"amount": 1574438,
-"agencies": [
-"Department of Defense"
-],
-"website": "http://www.thirdcoastfederal.com"
-},
-{
-"firm": "Biomineral Systems LLC",
-"city": "Mishawaka",
-"count": 6,
-"amount": 1467980,
-"agencies": [
-"Department of Agriculture",
-"Department of Health and Human Services",
-"National Science Foundation"
-],
-"website": ""
-},
-{
-"firm": "OMICRON BIOCHEMICALS, INC.",
-"city": "South Bend",
-"count": 3,
-"amount": 1443572,
-"agencies": [
-"Department of Health and Human Services"
-],
-"website": "www.omicronbio.com"
+"staff": 6,
+"staff_year": "2007"
 },
 {
 "firm": "Gds Technology, Inc.",
 "city": "Elkhart",
+"state": "IN",
 "count": 10,
 "amount": 1431684,
 "agencies": [
 "Department of Defense",
 "Department of Health and Human Services"
 ],
-"website": ""
-},
-{
-"firm": "3DEGREES, LLC",
-"city": "South Bend",
-"count": 1,
-"amount": 1249992,
-"agencies": [
-"Department of Defense"
+"website": "",
+"uei": "",
+"first_year": "1988",
+"last_year": "1996",
+"titles": [
+"RAPID, POINT OF CARE TEST FOR GLYCATED HEMOGLOBIN",
+"DIRECT, ONE STEP, LDL-CHOLESTEROL TEST IN WHOLE BLOOD",
+"A NEW ENZYMATIC TEST FOR THEOPHYLLINE",
+"SIMPLE BLOOD TEST OF D-3-HYDROXYBUTYRATE FOR DIABETES",
+"AN ON-SITE STRIP TEST FOR SCREENING OF PHENYLKETONURIA"
 ],
-"website": "http://www.3degreescompany.com"
+"staff": 0,
+"staff_year": ""
 },
 {
 "firm": "Lucid Energy Technologies, Llp",
 "city": "Goshen",
+"state": "IN",
 "count": 2,
 "amount": 1150000,
 "agencies": [
 "Department of Energy"
 ],
-"website": ""
-},
-{
-"firm": "Bond Technologies, Inc.",
-"city": "Elkhart",
-"count": 2,
-"amount": 995054,
-"agencies": [
-"National Aeronautics and Space Administration"
+"website": "",
+"uei": "",
+"first_year": "2010",
+"last_year": "2010",
+"titles": [
+"Recovery Act - Power Pipe, Goshen Powerhouse Project",
+"Recovery Act - Lucid Energy Technologies In-conduit Hydropower"
 ],
-"website": "http://www.bondtechnologies.net"
-},
-{
-"firm": "US Nano LLC",
-"city": "South Bend",
-"count": 2,
-"amount": 894543,
-"agencies": [
-"National Science Foundation"
-],
-"website": ""
-},
-{
-"firm": "Lono LLC",
-"city": "South Bend",
-"count": 2,
-"amount": 649141,
-"agencies": [
-"National Science Foundation"
-],
-"website": ""
+"staff": 12,
+"staff_year": "2010"
 },
 {
 "firm": "Granger Eng",
 "city": "Granger",
+"state": "IN",
 "count": 2,
 "amount": 599837,
 "agencies": [
 "National Science Foundation"
 ],
-"website": ""
+"website": "",
+"uei": "",
+"first_year": "2004",
+"last_year": "2006",
+"titles": [
+"STTR Phase II:      Variable Diameter Fiber Reinforced Biopolymers for Minimally Invasive Orthopedic Implants",
+"STTR Phase I:     Variable Diameter Fiber Reinforced Biopolymers for Minimally Invasive Orthopedic Implants"
+],
+"staff": 1,
+"staff_year": "2006"
 },
 {
 "firm": "Phillips Engineering Co",
 "city": "St Joseph",
+"state": "MI",
 "count": 3,
 "amount": 586775,
 "agencies": [
 "Department of Defense",
 "Department of Energy"
 ],
-"website": ""
+"website": "",
+"uei": "",
+"first_year": "1985",
+"last_year": "1987",
+"titles": [
+"FREON ABSORPTION AIR CONDITIONING",
+"DEVELOPMENT OF A MULTICOMPONENT ABSORBENT FOR USE IN ADVANCED ABSORPTION REFRIGERATION CYCLES-",
+"DEVELOPMENT OF A MULTICOMPONENT ABSORBENT FOR USE IN ADVANCED ABSORPTION REFRIGERATION CYCLES-"
+],
+"staff": 18,
+"staff_year": "1987"
 },
 {
 "firm": "Simulation Resources Inc.",
 "city": "Berrien Springs",
+"state": "MI",
 "count": 2,
 "amount": 538938,
 "agencies": [
 "Department of Health and Human Services"
 ],
-"website": ""
-},
-{
-"firm": "FOREVER ANALYTICAL SERVICES, INC.",
-"city": "South Bend",
-"count": 2,
-"amount": 499983,
-"agencies": [
-"Environmental Protection Agency"
+"website": "",
+"uei": "",
+"first_year": "1992",
+"last_year": "1993",
+"titles": [
+"ADDING SCOP TO PHOPHET II",
+"ADDING SCOP TO PHOPHET II"
 ],
-"website": ""
-},
-{
-"firm": "Edgewater Safety Systems LLC",
-"city": "Saint Joseph",
-"count": 1,
-"amount": 499969,
-"agencies": [
-"Department of Health and Human Services"
-],
-"website": "https://www.edgewatersafetysystems.com"
-},
-{
-"firm": "Fiji Systems LLC",
-"city": "South Bend",
-"count": 3,
-"amount": 326799,
-"agencies": [
-"Department of Defense",
-"National Science Foundation"
-],
-"website": ""
-},
-{
-"firm": "ND-DIAGENOMIX, INC.",
-"city": "South Bend",
-"count": 1,
-"amount": 305000,
-"agencies": [
-"National Science Foundation"
-],
-"website": "https://www.adaptaeducation.com"
-},
-{
-"firm": "MEANINGFUL MEASUREMENT, INC.",
-"city": "South Bend",
-"count": 1,
-"amount": 285707,
-"agencies": [
-"Department of Health and Human Services"
-],
-"website": "https://www.meaningfulmeasurement.com"
-},
-{
-"firm": "SOUTH BEND WOODWORKS LLC",
-"city": "South Bend",
-"count": 1,
-"amount": 225000,
-"agencies": [
-"National Science Foundation"
-],
-"website": ""
+"staff": 0,
+"staff_year": ""
 },
 {
 "firm": "Serim Research Corpon",
 "city": "Elkhart",
+"state": "IN",
 "count": 5,
 "amount": 205645,
 "agencies": [
 "Department of Defense",
 "Department of Health and Human Services"
 ],
-"website": ""
-},
-{
-"firm": "TRION COATINGS, LLC",
-"city": "South Bend",
-"count": 1,
-"amount": 203677,
-"agencies": [
-"Department of Defense"
+"website": "",
+"uei": "",
+"first_year": "1990",
+"last_year": "1992",
+"titles": [
+"RAPID CHEMILUMINESCENT SCREEN TEST FOR MICROORGANISMS",
+"IMMUNOCHROMATOGRAPHY ASSAY FOR MICROALBUMINURIA",
+"DRY REAGENT TITRATORS FOR THE MEASUREMENT OF BLOOD ANALYTES",
+"A SCREENING TEST FOR MICROALBUMINURIA",
+"A DIRECT TEST FOR CHLORAMINES IN HEMODIALYSIS WATER"
 ],
-"website": "https://trioncoatings.com"
-},
-{
-"firm": "Intrepid Phoenix Ventures, Inc.",
-"city": "Mishawaka",
-"count": 1,
-"amount": 149057,
-"agencies": [
-"Department of Defense"
-],
-"website": "https://intrepidphoenix.app/"
+"staff": 0,
+"staff_year": ""
 },
 {
 "firm": "SITES",
 "city": "Columbia City",
+"state": "IN",
 "count": 1,
 "amount": 100000,
 "agencies": [
 "National Science Foundation"
 ],
-"website": ""
-},
-{
-"firm": "Polar Clean, L.L.C.",
-"city": "South Bend",
-"count": 2,
-"amount": 99936,
-"agencies": [
-"Department of Defense"
+"website": "",
+"uei": "",
+"first_year": "2006",
+"last_year": "2006",
+"titles": [
+"SBIR Phase I:  Laser Textured Orthopedic Implants"
 ],
-"website": "https://www.polarclean.com/"
-},
-{
-"firm": "WHITE BRIAR CORPORATION",
-"city": "Niles",
-"count": 1,
-"amount": 99672,
-"agencies": [
-"Department of Health and Human Services"
-],
-"website": ""
+"staff": 1,
+"staff_year": "2006"
 },
 {
 "firm": "REMSENSE, INC.",
 "city": "South Bend",
+"state": "IN",
 "count": 1,
 "amount": 99434,
 "agencies": [
 "Department of Defense"
 ],
-"website": ""
+"website": "",
+"uei": "DAP5CLBZ3CQ9",
+"first_year": "2009",
+"last_year": "2009",
+"titles": [
+"Radio Frequency (RF) Tomography for Reduction of Improvised Explosive Device (IED) Threat"
+],
+"staff": 1,
+"staff_year": "2009"
 },
 {
 "firm": "Sbr Technologies, Inc.",
 "city": "Mishawaka",
+"state": "IN",
 "count": 2,
 "amount": 98500,
 "agencies": [
 "Department of Defense",
 "Environmental Protection Agency"
 ],
-"website": ""
+"website": "",
+"uei": "",
+"first_year": "1984",
+"last_year": "1985",
+"titles": [
+"MUNICIPAL AND INDUSTRIAL WASTEWATER IN AN EGG-SHAPED REACTOR",
+"MANNED DEEP BASE USING THE SEQUENCING BATCH REACTOR: AN INNOVATIVE BIOLOGI"
+],
+"staff": 0,
+"staff_year": ""
 },
 {
 "firm": "Phycotech Inc.",
 "city": "Saint Joseph",
+"state": "MI",
 "count": 1,
 "amount": 75000,
 "agencies": [
 "National Science Foundation"
 ],
-"website": "https://www.phycotech.com/"
+"website": "https://www.phycotech.com/",
+"uei": "JYDFV9PTVNH4",
+"first_year": "1997",
+"last_year": "1997",
+"titles": [
+"SBIR Phase I:  Computerized Algal Identification System     (CAIS)"
+],
+"staff": 5,
+"staff_year": "1997"
 },
 {
 "firm": "RFware LLC",
 "city": "South Bend",
+"state": "IN",
 "count": 1,
 "amount": 70000,
 "agencies": [
 "Department of Defense"
 ],
-"website": ""
+"website": "",
+"uei": "",
+"first_year": "2009",
+"last_year": "2009",
+"titles": [
+"\u00b5SHARK: Software Radio Tools for Power-Efficient Programming of Multi-Core and Many-Core Digital Signal Processors"
+],
+"staff": 3,
+"staff_year": "2009"
 },
 {
 "firm": "Mas Technology Corporation Dba",
 "city": "South Bend",
+"state": "IN",
 "count": 1,
 "amount": 70000,
 "agencies": [
 "Environmental Protection Agency"
 ],
-"website": ""
+"website": "",
+"uei": "",
+"first_year": "1999",
+"last_year": "1999",
+"titles": [
+"A Novel Method to Detect and Enumerate Viable Cyptosporidium parvum Occyst in Water Using Integrated Cell Culture-rRNA In Situ Hybridization"
+],
+"staff": 0,
+"staff_year": ""
 },
 {
 "firm": "Sigma Technology, Inc.",
 "city": "South Bend",
+"state": "IN",
 "count": 1,
 "amount": 69778,
 "agencies": [
 "Department of Defense"
 ],
-"website": ""
-},
-{
-"firm": "SEEKSMART LLC",
-"city": "Granger",
-"count": 1,
-"amount": 68939,
-"agencies": [
-"Department of Defense"
+"website": "",
+"uei": "",
+"first_year": "1997",
+"last_year": "1997",
+"titles": [
+"Alternative Curing Technology For Composites and Adhesive Bond Processing"
 ],
-"website": ""
+"staff": 14,
+"staff_year": "1997"
 },
 {
 "firm": "South Bend Lathe Inc",
 "city": "South Bend",
+"state": "IN",
 "count": 1,
 "amount": 53848,
 "agencies": [
 "Department of Defense"
 ],
-"website": ""
+"website": "",
+"uei": "",
+"first_year": "1990",
+"last_year": "1990",
+"titles": [
+"MACHINE TOOL PRODUCTS AND PROCESSES"
+],
+"staff": 18,
+"staff_year": "1990"
 },
 {
 "firm": "American Biogenetic Scie Inc",
 "city": "Notre Dame",
+"state": "IN",
 "count": 1,
 "amount": 49000,
 "agencies": [
 "Department of Health and Human Services"
 ],
-"website": ""
+"website": "",
+"uei": "",
+"first_year": "1987",
+"last_year": "1987",
+"titles": [
+"SYNTHETIC VACCINES UTILIZING BACULOVIRUS POLYHEDRA"
+],
+"staff": 0,
+"staff_year": ""
 },
 {
 "firm": "Great Lakes Bioscience",
 "city": "St. Joseph",
+"state": "MI",
 "count": 1,
 "amount": 48950,
 "agencies": [
 "Department of Health and Human Services"
 ],
-"website": ""
+"website": "",
+"uei": "",
+"first_year": "1984",
+"last_year": "1984",
+"titles": [
+"WE PROPOSE TO DEVELOP CLONING AND EXPRESSION VECTORS FROM NUCLEAR POLYHEDROSIS VIRUSES (NPV) WITH CAPABILITIES FOR EFFICIENTLY PRODUCING ONE OF SEVERAL GENES SIMULTANEOUSLY IN INFECTED INSECT CELL CULTURES."
+],
+"staff": 19,
+"staff_year": "1984"
 }
 ]
 }

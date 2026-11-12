@@ -8,7 +8,6 @@ state = "IN"
 address = "110 Industrial Drive, Wakarusa, IN 46573"
 lat = 41.53460
 lon = -86.00590
-website = "https://not available"
 
 sector = "Wood, paper & furniture"
 products = ["Mattress Manufacturing"]
@@ -16,7 +15,9 @@ naics = "337910"
 
 employees = 20
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Mattresses & Box Springs. NAICS 337910: mattress manufacturing."
 

@@ -8,7 +8,6 @@ state = "IN"
 address = "508 West Lincoln Avenue, Goshen, IN 46526"
 lat = 41.58609
 lon = -85.84326
-website = "https://not available"
 
 sector = "Food & consumer goods"
 products = ["Commercial Bakeries"]
@@ -16,7 +15,9 @@ naics = "311812"
 
 employees = 25
 employees_scope = "site"
-employees_note = "HIFLD General Manufacturing Facilities employee estimate"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Bakery Products. NAICS 311812: commercial bakeries."
 

@@ -1,0 +1,26 @@
+# Intrepid Phoenix Ventures, Inc.
+# Imported from SBIR.gov award data (public). Placed at the city center: small firms often list a home address.
+
+name = "Intrepid Phoenix Ventures, Inc."
+kind = "company"
+city = "Mishawaka"
+state = "IN"
+lat = 41.66116
+lon = -86.18070
+location_precision = "city"
+website = "https://intrepidphoenix.app/"
+uei = "Z6YMA32KSAJ4"
+
+sector = "Software & services"
+products = ["SBIR/STTR research and development"]
+
+employees = 2
+employees_scope = "company"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "reported by the firm on its 2025 SBIR/STTR award"
+
+description = "SBIR/STTR awardee: 1 award from Department of Defense, 2025. Most recent: Generative AI for Addiction Recovery: Enhancing Personalized Engagement, Outcomes, and Predictive Relapse Prevention."
+
+source = "SBIR.gov award data"
+updated = "2026-11-11"

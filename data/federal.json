@@ -1,6 +1,6 @@
 {
 "source": "USAspending.gov: procurement contracts and grants by recipient and awarding agency, FY2016 to date, recipients located in the Michiana counties",
-"pulled": "2026-11-12",
+"pulled": "2026-11-11",
 "companies": {
 "amgeneral": {
 "contracts": 10770684792,
@@ -34,6 +34,14 @@
 "FLEXIBLE CONCEPTS INC"
 ],
 "total": 34332446
+},
+"trekfed": {
+"contracts": 31459459,
+"grants": 0,
+"recipient_names": [
+"TREK10 INC."
+],
+"total": 31459459
 },
 "ncp-coatings-inc-niles-225": {
 "contracts": 24531949,
@@ -76,6 +84,14 @@
 ],
 "total": 7009380
 },
+"trion-coatings-llc": {
+"contracts": 6903677,
+"grants": 0,
+"recipient_names": [
+"TRION COATINGS, LLC"
+],
+"total": 6903677
+},
 "biomet-inc-warsaw-56": {
 "contracts": 6854019,
 "grants": 0,
@@ -83,6 +99,14 @@
 "BIOMET, INC."
 ],
 "total": 6854019
+},
+"tayco-brace-inc": {
+"contracts": 5953426,
+"grants": 0,
+"recipient_names": [
+"TAYCO BRACE, INC."
+],
+"total": 5953426
 },
 "crystal-lake-llc-warsaw-6500": {
 "contracts": 3676133,
@@ -99,6 +123,30 @@
 "REMOTE CONTROLS INC"
 ],
 "total": 3221356
+},
+"itamco": {
+"contracts": 2921182,
+"grants": 267294,
+"recipient_names": [
+"INDIANA TOOL & MFG. CO., INC."
+],
+"total": 3188476
+},
+"vennli-inc": {
+"contracts": 2447432,
+"grants": 0,
+"recipient_names": [
+"VENNLI, INC."
+],
+"total": 2447432
+},
+"third-coast-federal-inc": {
+"contracts": 2274005,
+"grants": 0,
+"recipient_names": [
+"THIRD COAST FEDERAL INC"
+],
+"total": 2274005
 },
 "maxi-blast-inc-south-bend-3650": {
 "contracts": 1970207,
@@ -132,6 +180,54 @@
 ],
 "total": 1624093
 },
+"tessellated-inc": {
+"contracts": 1396786,
+"grants": 193141,
+"recipient_names": [
+"TESSELLATED INC"
+],
+"total": 1589927
+},
+"consensus-networks-inc": {
+"contracts": 1376925,
+"grants": 216659,
+"recipient_names": [
+"CONSENSUS NETWORKS INC."
+],
+"total": 1593584
+},
+"bci": {
+"contracts": 1299774,
+"grants": 0,
+"recipient_names": [
+"BCI SOLUTIONS, INC"
+],
+"total": 1299774
+},
+"indiana-integrated-circuits-llc": {
+"contracts": 1262599,
+"grants": 148460,
+"recipient_names": [
+"INDIANA INTEGRATED CIRCUITS LLC"
+],
+"total": 1411059
+},
+"mti": {
+"contracts": 1192573,
+"grants": 0,
+"recipient_names": [
+"MANUFACTURING TECHNOLOGY, INC"
+],
+"total": 1192573
+},
+"bond-technologies-inc": {
+"contracts": 995054,
+"grants": 0,
+"recipient_names": [
+"BOND TECHNOLOGIES INC"
+],
+"total": 995054
+},
 "lippert-components-inc-goshen-16700": {
 "contracts": 619010,
 "grants": 0,
@@ -155,6 +251,14 @@
 "INDIANA CHAIR FRAME COMPANY"
 ],
 "total": 528811
+},
+"forever-analytical-services-inc": {
+"contracts": 499983,
+"grants": 0,
+"recipient_names": [
+"FOREVER ANALYTICAL SERVICES, INC."
+],
+"total": 499983
 },
 "hoosier-spring-co-inc-south-bend-4604": {
 "contracts": 478589,
@@ -188,6 +292,38 @@
 ],
 "total": 258150
 },
+"3degrees-llc": {
+"contracts": 250000,
+"grants": 0,
+"recipient_names": [
+"3DEGREES, LLC"
+],
+"total": 250000
+},
+"scientific-methods-inc": {
+"contracts": 218135,
+"grants": 0,
+"recipient_names": [
+"SCIENTIFIC METHODS INC"
+],
+"total": 218135
+},
+"intrepid-phoenix-ventures-inc": {
+"contracts": 149057,
+"grants": 0,
+"recipient_names": [
+"INTREPID PHOENIX VENTURES, INC"
+],
+"total": 149057
+},
+"polar-clean-llc": {
+"contracts": 99936,
+"grants": 0,
+"recipient_names": [
+"POLAR CLEAN"
+],
+"total": 99936
+},
 "alpha-resources-inc-stevensville-3090": {
 "contracts": 89200,
 "grants": 0,
@@ -219,6 +355,14 @@
 "CTS CORPORATION"
 ],
 "total": 75465
+},
+"seeksmart-llc": {
+"contracts": 68939,
+"grants": 0,
+"recipient_names": [
+"SEEKSMART LLC"
+],
+"total": 68939
 },
 "fasnap-corp-elkhart-3500": {
 "contracts": 57316,
@@ -291,22 +435,6 @@
 "PAR-KAN CO"
 ],
 "total": 33084
-},
-"parker-hannifin-corp-goshen-1525": {
-"contracts": 32321,
-"grants": 0,
-"recipient_names": [
-"PARKER-HANNIFIN CORP"
-],
-"total": 32321
-},
-"dwyer-instruments-inc-kingsbury-3999": {
-"contracts": 29892,
-"grants": 0,
-"recipient_names": [
-"DWYER INSTRUMENTS INC"
-],
-"total": 29892
 },
 "accraline-inc-bremen-1420": {
 "contracts": 18425,
@@ -396,6 +524,14 @@
 ],
 "total": 3800
 },
+"odyssian-technology-llc": {
+"contracts": 2501,
+"grants": 0,
+"recipient_names": [
+"ODYSSIAN TECHNOLOGY, L.L.C."
+],
+"total": 2501
+},
 "sanlo-inc-michigan-city-400": {
 "contracts": 1802,
 "grants": 0,
@@ -444,6 +580,14 @@
 ],
 "total": 0
 },
+"omicron-biochemicals-inc": {
+"contracts": 0,
+"grants": 0,
+"recipient_names": [
+"OMICRON BIOCHEMICALS, INC."
+],
+"total": 0
+},
 "scope-technologies-elkhart-2135": {
 "contracts": 0,
 "grants": 0,
@@ -476,6 +620,22 @@
 ],
 "total": -919
 },
+"biomineral-systems-llc": {
+"contracts": 0,
+"grants": 5257452,
+"recipient_names": [
+"BIOMINERAL SYSTEMS LLC"
+],
+"total": 5257452
+},
+"eclipse-orthopaedics-llc": {
+"contracts": 0,
+"grants": 2302823,
+"recipient_names": [
+"ECLIPSE ORTHOPAEDICS INC"
+],
+"total": 2302823
+},
 "goodwill-industries-of-michiana-inc-south-bend-1805": {
 "contracts": 0,
 "grants": 567171,
@@ -491,6 +651,30 @@
 "HONEYVILLE METAL, LLC"
 ],
 "total": 545167
+},
+"nd-diagenomix-inc": {
+"contracts": 0,
+"grants": 305000,
+"recipient_names": [
+"ND-DIAGENOMIX, INC."
+],
+"total": 305000
+},
+"meaningful-measurement-inc": {
+"contracts": 0,
+"grants": 285707,
+"recipient_names": [
+"MEANINGFUL MEASUREMENT, INC."
+],
+"total": 285707
+},
+"south-bend-woodworks-llc": {
+"contracts": 0,
+"grants": 225000,
+"recipient_names": [
+"SOUTH BEND WOODWORKS LLC"
+],
+"total": 225000
 },
 "kingsbury-elevator-inc-kingsbury-5621": {
 "contracts": 0,
@@ -515,6 +699,30 @@
 "CULVER DUCK FARMS INC."
 ],
 "total": 75031
+},
+"edgewater-safety-systems-llc": {
+"contracts": 0,
+"grants": 0,
+"recipient_names": [
+"EDGEWATER SAFETY SYSTEMS LLC"
+],
+"total": 0
+},
+"nanovis-llc": {
+"contracts": 0,
+"grants": 0,
+"recipient_names": [
+"NANOVIS LLC"
+],
+"total": 0
+},
+"white-briar-corporation": {
+"contracts": 0,
+"grants": -24681,
+"recipient_names": [
+"WHITE BRIAR CORPORATION"
+],
+"total": -24681
 }
 },
 "agencies": [
