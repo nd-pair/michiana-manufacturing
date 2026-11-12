@@ -49,7 +49,7 @@ const hotMatch=c=>st.hot&&(st.hot.sec?c.sector===st.hot.sec:st.hot.cap?c.caps.in
 
 /* ---------- theme: dark by default; follows the page's Light/Dark switch ---------- */
 const THEMES={
-  dark:{bg:"#05070b",ground:0x0a0e14,groundMetal:0.7,grat:0x17212c,lakeFill:"#0b1b30",lakeStroke:"rgba(42,127,166,0.9)",core:0x182734,far:0x10161e,landMetal:0.6,
+  dark:{bg:"#071629",ground:0x0a1c33,groundMetal:0.7,grat:0x173254,lakeFill:"#0d2f55",lakeStroke:"rgba(53,160,214,0.9)",core:0x163a5e,far:0x0f2644,landMetal:0.6,
     coreLine:0x35d6ff,coreLineOp:0.75,farLine:0x2a4150,cityDot:0xe6edf3,dotMajor:0xffb020,dotMinor:0x9fb0c0,ring:0x35d6ff,halo:0x35d6ff,hemi:[0x9fd6ff,0x0a0f16,0.8],key:0.9,
     glow:0.09,dimMix:null,dimK:0.3,dimOp:0.12,
     labels:{city:["#dfe9f2"],county:["#35d6ff"],metroMajor:["#ffd280","#ffb020"],metroMinor:["#b8c6d4"],state:["#4f6478"],region:["#35d6ff","#35d6ff"],ring:["#35d6ff"],landmark:["#ffd280","#ffb020"]}},

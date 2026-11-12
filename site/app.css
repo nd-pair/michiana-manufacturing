@@ -9,10 +9,10 @@
 
 /* Michiana Manufacturing — the map application. Everything is scoped under .mm-app so the
    Notre Dame Web Theme (NDT4) keeps styling the page around it. The app is deliberately one
-   dark industrial look in both of the theme's color schemes: it is a screen inside the page. */
+   industrial look; in dark mode it takes the page's navy, in light mode the page's white. */
 .mm-app{
-  --bg:#07090d; --surface:#0e1218; --surface-2:#141a22; --line:#1f2a36; --line-2:#2c3b4b; --fg:#e6edf3; --fg-2:#9fb0c0; --fg-3:#627386;
-  --accent:#35d6ff; --accent-2:#ffb020; --accent-ink:#06131a; --scene:#05070b; --glow:0 0 10px; --scan:rgba(255,255,255,.025); --vignette:rgba(0,0,0,.55);
+  --bg:#091b34; --surface:#0c2240; --surface-2:#11294b; --line:#1b3658; --line-2:#29476f; --fg:#e6edf3; --fg-2:#9fb0c0; --fg-3:#627386;
+  --accent:#35d6ff; --accent-2:#ffb020; --accent-ink:#06131a; --scene:#071629; --glow:0 0 10px; --scan:rgba(255,255,255,.025); --vignette:rgba(0,0,0,.55);
   --display:"Rajdhani","Inter",system-ui,sans-serif; --font:"Inter",ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
   --mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
   color-scheme:dark;background:var(--bg);color:var(--fg);font-family:var(--font);font-size:14px;line-height:1.45;
