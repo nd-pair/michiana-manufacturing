@@ -22,5 +22,9 @@ employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 
 
 description = "Cold Headed Fasteners, Screws & Bolts. NAICS 332722: bolt, nut, screw, rivet, and washer manufacturing."
 
+closed = "2015-02"
+closed_note = "Global Fastener News announced a Cincinnati Industrial Auctioneers sale of the fastener machinery (19 cold headers and thread rollers) at the plant at 6768 N Talma Rd on February 26, 2015, consistent with Wikipedia's statement that the plant closed in 2014."
+closed_source = "https://www.globalfastenernews.com/?p=13001"
+
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"

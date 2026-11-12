@@ -22,5 +22,9 @@ employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 
 
 description = "Corporate Headquarters & Commercial Mobile & Modular Buildings. NAICS 332311: prefabricated metal building and component manufacturing."
 
+closed = 2017-05-22
+closed_note = "Mark Line Industries told the state in a May 2017 WARN notice that it was permanently closing its Bristol plant after failing to extend the building lease, laying off 73 workers."
+closed_source = "https://www.insideindianabusiness.com/articles/manufacturer-closes-bristol-facility"
+
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"

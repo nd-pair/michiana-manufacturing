@@ -22,5 +22,9 @@ employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 
 
 description = "Party, Promo & Banquet Supplies. NAICS 323119: other commercial printing."
 
+closed = 2021-12-15
+closed_note = "Stump Printing (Stumps, renamed Shindigz in 2006) suspended operations on 2021-12-15 and a January 2022 WPTA/Inside Indiana Business report says South Whitley plant workers were told the owner was shutting down, with no reopening reported since (Wikipedia lists it defunct 2021)."
+closed_source = "https://www.insideindianabusiness.com/articles/shindigz-employees-uncertain-about-future"
+
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
