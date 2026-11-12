@@ -113,7 +113,13 @@ def main():
     for o in companies:
         text = " ".join(o["tags"] + [o["blurb"]]).lower()
         o["caps"] = [k["name"] for k in caps if any(o["naics"].startswith(pfx) for pfx in k["naics"]) or any(kw in text for kw in k["keywords"])]
-    events = sorted(load_toml(P("data", "events.toml")).get("event", []), key=lambda e: str(e["date"]), reverse=True)
+    events = [dict(e, date=str(e["date"]), kind=e.get("kind", "announcement"), curated=True) for e in load_toml(P("data", "events.toml")).get("event", [])]
+    try:
+        events += json.load(open(P("data", "events_auto.json")))["events"]
+    except FileNotFoundError:
+        pass
+    ids_now = {o["id"] for o in companies}
+    events = sorted((e for e in events if not e.get("company") or e["company"] in ids_now), key=lambda e: e["date"], reverse=True)
     counties = json.load(open(P("data", "region_counties.json")))
     lakes = [o["ring"] for o in json.load(open(P("data", "great_lakes.json"))) if len(o["ring"]) >= 80 and "Cabonga" not in o["name"]]
     data = {

@@ -91,8 +91,15 @@ Beyond the map, the page carries:
   filters the map; with a sector or product filter active it becomes a gap analysis for that slice.
 - **Manufacturing employment by county.** Annual private manufacturing employment from the BLS
   Quarterly Census of Employment and Wages (`scripts/pull_qcew.py` → `data/qcew.json`).
-- **Timeline.** `data/events.toml`: openings, expansions, closures and funding events with a source;
-  clicking one selects the company and flies to it.
+- **Timeline.** Three event streams, pulled by `scripts/pull_events.py` into `data/events_auto.json`:
+  every SBIR/STTR award to a company on the map (phase, agency, title, amount), every federal
+  contract or grant of $250,000 or more (start date, agency, description, amount) from USAspending,
+  and Indiana WARN notices (plant closings and layoffs, workers affected) from the Department of
+  Workforce Development. Hand-written announcements live in `data/events.toml`. The panel follows
+  the map filters, has chips per stream, a year strip to narrow by year, and sorts by date or by
+  amount; clicking an event selects the company and flies to it.
+- **Sorting.** Every panel with numeric columns sorts by any of them from its header (companies,
+  staff, dollars, date), as does the roster (company, sector, employees, federal dollars).
 - **Distance rings.** 25, 50 and 100 km from the campus, straight-line distance.
 - **Provenance.** Every company carries `source` and `updated`; imported files say which dataset
   they came from. The detail panel shows both.
@@ -102,8 +109,8 @@ Beyond the map, the page carries:
 ## Keeping the data current
 
 [`refresh-data.yml`](.github/workflows/refresh-data.yml) runs on the 2nd of every month (and on
-demand from the Actions tab): it imports new HIFLD facilities, re-pulls USAspending, SBIR.gov, openFDA and
-QCEW, geocodes any file with an address but no coordinates, rebuilds and commits. Each source is
+demand from the Actions tab): it imports new HIFLD facilities, re-pulls USAspending, SBIR.gov, openFDA, the timeline
+streams and QCEW, geocodes any file with an address but no coordinates, rebuilds and commits. Each source is
 optional, so an outage at one does not block the others. Hand-written files are never touched.
 
 ## Building locally
@@ -124,7 +131,7 @@ so commit only your source changes (`companies/`, `data/`, `site/`, `scripts/`) 
 companies/      one TOML file per company (edit these)
 data/           sectors, places, capabilities, events (edit these); county boundaries (Census), shorelines (Natural Earth); pulled datasets (federal, fda, qcew, sbir)
 site/           the page: Notre Dame Web Theme chrome (partials/), page.html, app.js, app.css
-scripts/        build.py, geocode.py, import_hifld.py, pull_federal.py, pull_fda.py, pull_qcew.py, pull_sbir.py, common.py
+scripts/        build.py, geocode.py, import_hifld.py, pull_federal.py, pull_sbir.py, pull_fda.py, pull_qcew.py, pull_events.py, common.py
 docs/           the built site (generated; do not edit by hand)
 ```
 
@@ -136,6 +143,6 @@ The page uses the University's web theme (NDT4) for its frame, as the PAIR site 
 Company descriptions, products and headcounts: the HIFLD General Manufacturing Facilities
 dataset (U.S. DHS, public domain) for most entries, and the companies' own websites, public
 filings, press and business directories for the rest; headcounts are approximate and dated.
-Federal awards: USAspending.gov. SBIR/STTR: SBIR.gov. Device registrations: openFDA. Employment: BLS QCEW. County boundaries: U.S.
+Federal awards: USAspending.gov. SBIR/STTR: SBIR.gov. Device registrations: openFDA. Employment: BLS QCEW. WARN notices: Indiana DWD. County boundaries: U.S.
 Census Bureau cartographic boundary files. Shorelines: Natural Earth. Code: MIT license (see
 LICENSE); company data is factual public information.
