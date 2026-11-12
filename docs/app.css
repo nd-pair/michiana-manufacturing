@@ -125,3 +125,19 @@
 .mm-bar.ag{grid-template-columns:minmax(0,1fr) 0 64px}
 .mm-bar.ag .trk{flex:0 0 36%}
 .mm-bar.ag .lab span:first-child{flex:1}
+/* timeline controls */
+.mm-evbar{display:flex;flex-wrap:wrap;gap:6px;padding:0 12px 6px}
+.mm-evbar .mm-chip{padding:5px 8px;font-size:11px}
+.mm-years{display:flex;align-items:flex-end;gap:2px;height:44px;padding:0 12px 6px}
+.mm-years button{all:unset;flex:1;display:flex;flex-direction:column;justify-content:flex-end;align-items:center;height:100%;cursor:pointer;min-width:0}
+.mm-years i{display:block;width:100%;background:var(--accent);opacity:.55;border-radius:1px 1px 0 0;min-height:1px}
+.mm-years button[aria-pressed="true"] i{opacity:1;box-shadow:0 0 8px var(--accent)}
+.mm-years button:hover i{opacity:.9}
+.mm-years span{font:500 9px var(--mono);color:var(--fg-3);margin-top:2px}
+.mm-ev{grid-template-columns:72px 1fr 64px}
+.mm-ev .a{font:500 12px var(--mono);color:var(--accent-2);text-align:right;font-variant-numeric:tabular-nums}
+.mm-ev .c{color:var(--fg-2)}
+.mm-more{margin:8px 4px 0}
+/* sortable roster headers */
+.mm-app th button{all:unset;cursor:pointer;font:inherit;color:inherit;letter-spacing:inherit;text-transform:inherit;border-bottom:1px solid transparent}
+.mm-app th button:hover,.mm-app th button[aria-pressed="true"]{border-bottom-color:currentColor;color:var(--fg)}
