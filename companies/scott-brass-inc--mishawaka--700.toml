@@ -22,5 +22,9 @@ employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 
 
 description = "Brass Stripping. NAICS 331421: copper rolling, drawing, and extruding."
 
+closed = "2011-06"
+closed_note = "Biditup auctioned the former bankruptcy assets of Scott Brass, Inc., including the rolling mill and real estate at 700 S. Union St., Mishawaka, on June 22, 2011, after a 2008 WARN layoff of 107 workers."
+closed_source = "https://www.biditup.com/db-files/1305660549-216545.pdf"
+
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"

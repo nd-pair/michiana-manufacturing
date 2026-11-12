@@ -22,5 +22,9 @@ employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 
 
 description = "Gray Iron Castings. NAICS 331511: iron foundries."
 
+closed = 2026-02-27
+closed_note = "Parent First Brands Group filed a WARN notice in December 2025 to permanently close the Dalton gray iron foundry in Warsaw effective February 27, 2026, terminating about 260 workers, and News Now Warsaw reported production had ceased."
+closed_source = "https://www.abc57.com/news/dalton-corporation-in-warsaw-set-to-close-its-doors-after-112-years-over-250-workers-to-be-laid-off"
+
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"

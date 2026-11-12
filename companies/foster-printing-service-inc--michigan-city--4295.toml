@@ -22,5 +22,9 @@ employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 
 
 description = "Printing. NAICS 323119: other commercial printing."
 
+closed = 2017-05-31
+closed_note = "Printing Impressions reported on May 19, 2017 that Mossberg & Co. bought Foster's assets and the Michigan City plant would close May 31, 2017."
+closed_source = "https://www.piworld.com/article/mossberg-buys-94-year-old-foster-printing-fosters-indiana-plant-to-close-may-31/"
+
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"

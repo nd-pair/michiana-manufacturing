@@ -70,7 +70,7 @@ def main():
         for c, (strength, why, final) in zip(cs, ex.map(check, cs)):
             if strength:
                 rows.append({"strength": strength, "reason": why, "company": c["name"], "city": c["city"],
-                             "website": c["website"], "lands_on": final, "file": "companies/%s.toml" % c["_id"],
+                             "website": c["website"], "lands_on": final, "file": "companies/" + c["_file"],
                              "employees": c.get("employees", ""), "source": c.get("source", "")[:40]})
     order = {"strong": 0, "medium": 1, "weak": 2}
     rows.sort(key=lambda r: (order[r["strength"]], r["company"]))

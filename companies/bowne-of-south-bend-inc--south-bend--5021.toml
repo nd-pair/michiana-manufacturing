@@ -22,5 +22,9 @@ employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 
 
 description = "Financial Printing. NAICS 323119: other commercial printing."
 
+closed = "2011-07"
+closed_note = "Indianapolis Business Journal reported on June 2, 2011 that R.R. Donnelley, which had bought Bowne, would close the South Bend printing plant that summer with about 100 jobs lost (trade press gave a start date of about July 24, 2011, and a WARN notice was filed)."
+closed_source = "https://www.ibj.com/articles/27498-indiana-printing-plant-with-100-workers-to-close"
+
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"

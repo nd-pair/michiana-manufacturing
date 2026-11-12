@@ -22,5 +22,9 @@ employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 
 
 description = "Beer & Malt Beverages. NAICS 312120: breweries."
 
+closed = 2008-12-03
+closed_note = "The brewpub at 3703 N Main Street closed on December 3, 2008 with brewing consolidated in Elkhart, and the company sold its brewery equipment in April 2011; Brewbound lists the company as out of business."
+closed_source = "https://hoosierbeergeek.blogspot.com/2011/04/mishawaka-brewing-company-has-been-sold.html"
+
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"

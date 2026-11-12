@@ -22,6 +22,7 @@ def companies():
             with open(P("companies", n), "rb") as fh:
                 c = tomllib.load(fh)
             c["_id"] = re.sub(r"[^a-z0-9]+", "-", n[:-5].lower()).strip("-")
+            c["_file"] = n
             out.append(c)
     return out
 

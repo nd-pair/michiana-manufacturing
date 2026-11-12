@@ -22,5 +22,9 @@ employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 
 
 description = "Particleboard. NAICS 321219: reconstituted wood product manufacturing."
 
+closed = "2015"
+closed_note = "Moody on the Market reported the 1394 Empire Ave building had been vacant since Modar departed in 2015 and was bought by door maker Special-Lite, which now manufactures there (article seen only as a search snippet; page returned 403)."
+closed_source = "https://moodyonthemarket.com/?p=233341"
+
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"

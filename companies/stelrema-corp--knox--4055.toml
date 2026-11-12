@@ -22,5 +22,9 @@ employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 
 
 description = "Medical Instruments. NAICS 339112: surgical and medical instrument manufacturing."
 
+closed = "2012"
+closed_note = "WKVI reported in October 2014 that the former Stelrema plant north of Knox was sold after parent Gettig Technologies filed Chapter 7 bankruptcy in 2012."
+closed_source = "https://wkvi.com/2014/10/former-stelrema-building-sold-county-recoups-back-taxes"
+
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"

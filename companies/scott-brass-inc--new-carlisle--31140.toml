@@ -22,5 +22,9 @@ employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 
 
 description = "Metal Fabrication. NAICS 332999: all other miscellaneous fabricated metal product manufacturing."
 
+closed = "2011-06"
+closed_note = "Scott Brass, Inc. went bankrupt; its assets, including the Mishawaka rolling mill, were auctioned on June 22, 2011, after a 2008 WARN layoff of 107 workers at its Mishawaka and New Carlisle sites."
+closed_source = "https://www.biditup.com/db-files/1305660549-216545.pdf"
+
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"

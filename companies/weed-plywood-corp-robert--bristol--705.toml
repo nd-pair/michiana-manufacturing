@@ -22,5 +22,9 @@ employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 
 
 description = "Laminated Panels, Shelving & Drawer Sides, Wrapped, Stained, Painted & Top Coated Profile Mouldings & Picture Frames. NAICS 335313: switchgear and switchboard apparatus manufacturing."
 
+closed = 2025-11-25
+closed_note = "RV PRO, citing WSBT 22, reported on December 1, 2025 that Robert Weed Corp. in Bristol ceased operations immediately on November 25, 2025 after nearly 60 years."
+closed_source = "https://rv-pro.com/news/bristol-indiana-based-robert-weed-corp-closes-after-59-years/"
+
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"

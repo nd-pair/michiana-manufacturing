@@ -22,5 +22,9 @@ employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 
 
 description = "Aluminum Die Castings. NAICS 331524: aluminum foundries (except die-casting)."
 
+closed = "2008-11"
+closed_note = "Foundry Management & Technology (Sept 14, 2008) reported a WARN notice closing ICG's Dowagiac die-casting plant from November 5, 2008; the vacant plant was bought by Premier Tool & Die Cast in 2011, which became MV Metal Products & Solutions (HQ 415 N. Paul St) in 2016, whose current operation was not verified."
+closed_source = "https://www.foundrymag.com/uncategorized/article/21925116/warn-notice-indicates-diecaster-closing"
+
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"

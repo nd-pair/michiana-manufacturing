@@ -22,5 +22,9 @@ employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 
 
 description = "Corporate Headquarters & Gray Iron Castings. NAICS 331528: other nonferrous foundries (except die-casting)."
 
+closed = "2026-04"
+closed_note = "Parent First Brands Group filed an Indiana WARN notice on Dec. 29, 2025 to permanently close the Dalton Warsaw foundry (about 260 jobs), and News Now Warsaw reported on April 13, 2026 that production had ended; the WARN notice gives the plant address as 1900 E Jefferson St rather than 3755 Lake City Highway."
+closed_source = "https://www.newsnowwarsaw.com/?p=129657"
+
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"

@@ -22,5 +22,9 @@ employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 
 
 description = "Corporate Headquarters & Refrigerated Cases, Walk-In Coolers for Supermarket, Convenience Stores, Restaurants, Wholesale. NAICS 333415: air-conditioning & warm air heating equipment & commercial and industrial refrigeration equipment mfg.."
 
+closed = "2009"
+closed_note = "Tyler filed a Michigan WARN plant-closure notice for its Niles plant on May 8, 2009 covering 520 workers, after Carrier stopped making Tyler display cases and sold the product lines to Hill Phoenix without the Niles facility."
+closed_source = "https://laborcurrent.com/layoffs/company/tyler-refrigeration"
+
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
