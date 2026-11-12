@@ -138,6 +138,14 @@ def assign_groups(companies):
             o["group"], o["parent"] = o["id"], ""
         o.pop("parent_field", None); o.pop("standalone", None)
 
+def bls_month(bls):
+    """The latest month in the CES series, e.g. "September 2026"."""
+    ms = [m["months"][-1][0] for m in (bls.get("ces") or {}).values() if m.get("months")]
+    if not ms:
+        return "not yet pulled"
+    y, m = max(ms).split("-")
+    return datetime.date(int(y), int(m), 1).strftime("%B %Y")
+
 def main():
     sectors_t = load_toml(P("data", "sectors.toml"))["sector"]
     sectors = [s["name"] for s in sectors_t]
@@ -193,6 +201,7 @@ def main():
         except FileNotFoundError:
             return {"companies": {}}
     federal, fda, qcew, sbir, patents = sidecar("federal.json"), sidecar("fda.json"), sidecar("qcew.json"), sidecar("sbir.json"), sidecar("patents.json")
+    bls = sidecar("bls.json")
     for o in companies:
         f = federal["companies"].get(o["id"]); o["federal"] = {"contracts": f["contracts"], "grants": f["grants"], "total": f["total"]} if f else None
         sb = sbir["companies"].get(o["id"]); o["sbir"] = {"count": sb["count"], "amount": sb["amount"], "agencies": sb.get("agencies", [])} if sb else None
@@ -232,6 +241,7 @@ def main():
         "federalAgencies": federal.get("agencies", []), "federalSource": federal.get("source", ""), "federalPulled": federal.get("pulled", ""),
         "fdaSource": fda.get("source", ""), "qcew": qcew.get("counties", {}), "qcewSource": qcew.get("source", ""),
         "qcewSectors": qcew.get("sectors", {}), "qcewPulled": qcew.get("pulled", ""),
+        "qcewSpec": qcew.get("specialization", {}), "bls": {k: bls.get(k) for k in ("occupations", "ces", "laus", "pulled") if bls.get(k)},
         "sbirPulled": sbir.get("pulled", ""), "fdaPulled": fda.get("pulled", ""), "patentsPulled": patents.get("pulled", ""),
     }
     # a content hash in the asset URLs, so browsers and the Pages CDN never serve a stale script with a new page
@@ -276,6 +286,9 @@ def main():
             "{{FDAPULLED}}": fda.get("pulled", "not yet pulled"), "{{QCEWYEARS}}": ("%s–%s" % (qyears[0], qyears[-1])) if qyears else "none",
             "{{QCEWPULLED}}": qcew.get("pulled", "not yet pulled"), "{{EVENTS}}": "{:,}".format(len(events)),
             "{{PATENTS}}": ("%d companies, pulled %s" % (sum(1 for o in companies if o.get("patents")), patents.get("pulled"))) if patents.get("pulled") else "not yet available (needs a PatentsView API key)",
+            "{{SPECYEAR}}": str(qcew.get("specialization", {}).get("year", "not yet pulled")),
+            "{{OEWSYEAR}}": str((bls.get("occupations") or {}).get("year") or "–"),
+            "{{BLSMONTH}}": bls_month(bls), "{{BLSPULLED}}": bls.get("pulled", "not yet pulled"),
             "{{CITYLEVEL}}": str(sum(1 for o in companies if o["prec"] == "city")), "{{CLOSED}}": str(len(closed)), "{{GROUPED}}": str(sum(1 for o in companies if o["parent"])),
             "{{PARENTS}}": str(len({o["group"] for o in companies if o["parent"]}))}
     about = read("site", "about.html")

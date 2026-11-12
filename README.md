@@ -123,6 +123,16 @@ Beyond the map, the page carries:
   and the "within" filter center on the selected company, or the campus when none is selected.
 - **Sector employment.** The employment chart switches between counties and sectors (3-digit NAICS
   from the QCEW area files, folded into the map's sectors) and between head counts and an index.
+- **Workforce.** A panel with three views, all from the Bureau of Labor Statistics and sortable by
+  any column. *Specialization* lists every 3-digit manufacturing industry for the latest QCEW year
+  with jobs, establishments, average pay against the U.S., the region's location quotient (its
+  share of private jobs over the U.S. share) and the most concentrated county (`pull_qcew.py`).
+  *Occupations* gives jobs, jobs per 1,000 and median pay for production, engineering and
+  technician occupations in the four metro areas against the U.S. (OEWS). *Latest month* shows
+  monthly manufacturing jobs per metro area (CES) and county unemployment rates (LAUS). The last
+  two come from the BLS public API via `scripts/pull_bls.py` → `data/bls.json`; it works without a
+  key (25 requests a day; one run uses about ten), and a free key stored as the repository secret
+  `BLS_API_KEY` raises the limit.
 - **Patents.** `scripts/pull_patents.py` reads USPTO PatentsView. It needs a free API key
   (https://patentsview.org/apis/keyrequest) stored as the repository secret `PATENTSVIEW_API_KEY`;
   without it the step is skipped and the site shows no patent figures.
@@ -139,7 +149,7 @@ Beyond the map, the page carries:
 
 [`refresh-data.yml`](.github/workflows/refresh-data.yml) runs on the 2nd of every month (and on
 demand from the Actions tab): it imports new HIFLD facilities, re-pulls USAspending, SBIR.gov, openFDA, the timeline
-streams and QCEW, geocodes any file with an address but no coordinates, rebuilds and commits. Each source is
+streams, QCEW and the BLS workforce series, geocodes any file with an address but no coordinates, rebuilds and commits. Each source is
 optional, so an outage at one does not block the others. Hand-written files are never touched.
 
 ## Building locally
@@ -158,9 +168,9 @@ so commit only your source changes (`companies/`, `data/`, `site/`, `scripts/`) 
 
 ```
 companies/      one TOML file per company (edit these)
-data/           sectors, places, capabilities (edit these); county boundaries (Census), shorelines (Natural Earth); pulled datasets (federal, fda, qcew, sbir)
+data/           sectors, places, capabilities (edit these); county boundaries (Census), shorelines (Natural Earth); pulled datasets (federal, fda, qcew, bls, sbir)
 site/           the pages: Notre Dame Web Theme chrome (partials/), page.html + app.js (map), about.html, brief.html + brief.js, app.css
-scripts/        build.py, geocode.py, import_hifld.py, import_sbir_firms.py, pull_federal.py, pull_sbir.py, pull_fda.py, pull_qcew.py, pull_events.py, pull_patents.py, common.py
+scripts/        build.py, geocode.py, import_hifld.py, import_sbir_firms.py, pull_federal.py, pull_sbir.py, pull_fda.py, pull_qcew.py, pull_bls.py, pull_events.py, pull_patents.py, common.py
 docs/           the built site (generated; do not edit by hand)
 ```
 
@@ -172,6 +182,6 @@ The page uses the University's web theme (NDT4) for its frame, as the PAIR site 
 Company descriptions, products and headcounts: the HIFLD General Manufacturing Facilities
 dataset (U.S. DHS, public domain) for most entries, and the companies' own websites, public
 filings, press and business directories for the rest; headcounts are approximate and dated.
-Federal awards: USAspending.gov. SBIR/STTR: SBIR.gov. Device registrations: openFDA. Employment: BLS QCEW. County boundaries: U.S.
+Federal awards: USAspending.gov. SBIR/STTR: SBIR.gov. Device registrations: openFDA. Employment, pay, occupations and unemployment: BLS (QCEW, OEWS, CES, LAUS). County boundaries: U.S.
 Census Bureau cartographic boundary files. Shorelines: Natural Earth. Code: MIT license (see
 LICENSE); company data is factual public information.

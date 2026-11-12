@@ -45,9 +45,14 @@ jobs:
       - name: Timeline events (SBIR awards, federal awards)
         continue-on-error: true
         run: python3 scripts/pull_events.py
-      - name: Manufacturing employment by county and sector (BLS QCEW)
+      - name: Manufacturing employment, pay and specialization (BLS QCEW)
         continue-on-error: true
         run: python3 scripts/pull_qcew.py
+      - name: Occupations, monthly jobs and unemployment (BLS API; BLS_API_KEY optional)
+        continue-on-error: true
+        env:
+          BLS_API_KEY: ${{ secrets.BLS_API_KEY }}
+        run: python3 scripts/pull_bls.py
       - name: Build docs/
         run: python3 scripts/build.py
       - name: Commit the refresh
