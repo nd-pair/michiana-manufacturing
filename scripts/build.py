@@ -329,7 +329,10 @@ def main():
     three = '<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>\n'
     page("index.html", title, desc, read("site", "page.html"), three + '<script src="data.js?v={{BUILD}}"></script>\n<script src="app.js?v={{BUILD}}"></script>')
     src_counts = {"hifld": sum(1 for o in companies if o["source"].startswith("HIFLD")), "sbir": sum(1 for o in companies if o["source"].startswith("SBIR"))}
-    src_counts["hand"] = len(companies) - src_counts["hifld"] - src_counts["sbir"]
+    news_ids = {re.sub(r"[^a-z0-9]+", "-", n[:-5].lower()).strip("-") for n in os.listdir(P("companies")) if n.endswith(".toml")
+                and "Added by the automated news review" in open(P("companies", n), encoding="utf-8").read(400)}
+    src_counts["news"] = sum(1 for o in companies if o["id"] in news_ids)
+    src_counts["hand"] = len(companies) - src_counts["hifld"] - src_counts["sbir"] - src_counts["news"]
     qyears = sorted({y for d in qcew.get("counties", {}).values() for y in d.get("years", {})})
     fill = {"{{SITES}}": "{:,}".format(len(companies)), "{{COMPANIES}}": "{:,}".format(n_groups), "{{HIFLD}}": "{:,}".format(src_counts["hifld"]),
             "{{SBIRFIRMS}}": str(src_counts["sbir"]), "{{HAND}}": str(src_counts["hand"]), "{{BUILT}}": data["built"],
@@ -345,6 +348,9 @@ def main():
             "{{NDRESEARCH}}": ("<p><strong>Notre Dame research</strong> in the same panel lists the federal grants, cooperative agreements and contracts to the University of Notre Dame since FY2016, and its subawards on other institutions' awards, whose title (or description, at least three times) is about robots, autonomy and drones, prosthetics and exoskeletons, haptics, legged or humanoid systems or robotic manufacturing, from USAspending.gov, with investigators for NSF awards from the NSF Award Search. Amounts are obligations so far; industry, foundation and state funding are not included.</p>" if show_ndr else ""),
             "{{HUMCOMP}}": str(len(hspec["component"])),
             "{{REMOVED}}": str(len(removed)),
+            "{{NEWSADDED}}": str(src_counts["news"]),
+            "{{OPENITEMS}}": str(len((sidecar("open_items.json").get("items") or {}))),
+            "{{NEWSSOURCES}}": str(len(load_toml(P("data", "news_sources.toml")).get("domains", []))),
             "{{CITYLEVEL}}": str(sum(1 for o in companies if o["prec"] == "city")), "{{CLOSED}}": str(len(closed)), "{{GROUPED}}": str(sum(1 for o in companies if o["parent"])),
             "{{PARENTS}}": str(len({o["group"] for o in companies if o["parent"]}))}
     about = read("site", "about.html")
