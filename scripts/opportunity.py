@@ -12,6 +12,69 @@ def _ratio(local, us, invert=False):
         return None
     return round(100 * (us / local if invert else local / us), 1)
 
+def history(bls, qcew, qwi, bea):
+    """Yearly scores (U.S. = 100) for the parts that public data allows back in time: high-mix share
+    and establishment size (QCEW), unemployment (LAUS), workers 55+ and turnover (QWI), five-year job
+    and pay growth (QCEW) and value added per job (BEA). Task fit, readiness and local supply have no
+    history before monthly tracking began. Returns {pillar: {"parts": [{year: score}], "score": {year: score}}}."""
+    reg = {}
+    for c in qcew.get("counties", {}).values():
+        for y, v in c["years"].items():
+            r = reg.setdefault(str(y), {"emp": 0, "estab": 0, "wages": 0})
+            r["emp"] += v["emp"]; r["estab"] += v["estab"]; r["wages"] += v["emp"] * v["pay"]
+    us = qcew.get("us") or {}
+    hm = qcew.get("highmix_history") or {}
+    out = {"highmix": [{}, {}], "labor": [{}, {}, {}], "prosperity": [{}, {}, {}]}
+    for y, r in reg.items():
+        u = us.get(y)
+        if not u or not r["emp"]:
+            continue
+        if y in hm and u["emp"]:
+            out["highmix"][0][y] = _ratio(hm[y]["hm"] / r["emp"], hm[y]["us_hm"] / u["emp"])
+        if r["estab"] and u["estab"]:
+            out["highmix"][1][y] = _ratio(r["emp"] / r["estab"], u["emp"] / u["estab"], invert=True)
+        y5 = str(int(y) - 5)
+        if y5 in reg and y5 in us and reg[y5]["emp"] and us[y5]["emp"]:
+            out["prosperity"][0][y] = _ratio(r["emp"] / reg[y5]["emp"], u["emp"] / us[y5]["emp"])
+            rp, rp5 = r["wages"] / r["emp"], reg[y5]["wages"] / reg[y5]["emp"]
+            out["prosperity"][1][y] = _ratio(rp / rp5, u["pay"] / us[y5]["pay"])
+        gdp = (bea or {}).get("manufacturing_gdp", {})
+        cs = [f for f in qcew.get("counties", {}) if gdp.get(f, {}).get(y) and qcew["counties"][f]["years"].get(y)]
+        if cs and gdp.get("00000", {}).get(y) and u["emp"]:
+            out["prosperity"][2][y] = _ratio(sum(gdp[f][y] for f in cs) / sum(qcew["counties"][f]["years"][y]["emp"] for f in cs), gdp["00000"][y] / u["emp"])
+    # unemployment: labor-force-weighted county rates against the U.S.; the latest full year from the monthly series
+    annual = dict((bls or {}).get("laus_annual") or {})
+    L = (bls or {}).get("laus") or {}
+    for y in {m[:4] for c in L.get("counties", {}).values() for m, _ in (c.get("rate") or [])}:
+        if y in annual:
+            continue
+        row = {}
+        for f, c in L.get("counties", {}).items():
+            rv = [v for m, v in c.get("rate") or [] if m.startswith(y) and v is not None]
+            fv = [v for m, v in c.get("force") or [] if m.startswith(y) and v is not None]
+            if len(rv) >= 11 and len(fv) >= 11:      # October 2025 was not collected
+                row[f] = {"rate": sum(rv) / len(rv), "force": sum(fv) / len(fv)}
+        uv = [v for m, v in L.get("us_rate") or [] if m.startswith(y) and v is not None]
+        if row and len(uv) >= 11:
+            row["US"] = {"rate": sum(uv) / len(uv)}
+            annual[y] = row
+    for y, row in annual.items():
+        cs = [v for k, v in row.items() if k != "US" and v.get("rate") is not None and v.get("force")]
+        if cs and (row.get("US") or {}).get("rate"):
+            ur = sum(v["rate"] * v["force"] for v in cs) / sum(v["force"] for v in cs)
+            out["labor"][0][y] = _ratio(ur, row["US"]["rate"], invert=True)
+    for y, v in ((qwi or {}).get("history") or {}).items():
+        if v.get("age55") and v.get("us_age55"):
+            out["labor"][1][y] = _ratio(v["age55"], v["us_age55"])
+        if v.get("turnover") and v.get("us_turnover"):
+            out["labor"][2][y] = _ratio(v["turnover"], v["us_turnover"])
+    res = {}
+    for pid, parts in out.items():
+        parts = [{y: v for y, v in sorted(p.items()) if v is not None and int(y) >= 2016} for p in parts]
+        years = sorted({y for p in parts for y in p})
+        res[pid] = {"parts": parts, "score": {y: round(sum(p[y] for p in parts if y in p) / sum(1 for p in parts if y in p), 1) for y in years}}
+    return res
+
 def compute(bls, qcew, qwi, bea, task, available_share):
     spec = tomllib.load(open(P("data", "opportunity.toml"), "rb"))
     occ = (bls.get("occupations") or {}).get("list", [])
@@ -122,6 +185,12 @@ def compute(bls, qcew, qwi, bea, task, available_share):
         table.append({"code": o["code"], "name": o["name"], "jobs": jobs, "per1000": round(1000 * jobs / local_all, 1) if local_all else None,
                       "fit": f and f["fit"], "traits": [tnames.get(k, k) for k, v in top if v >= 50][:3], "median": med and round(med), "us_median": o["us"].get("median"),
                       "readiness": o["code"] in spec["readiness"]["soc"]})
+    hist = history(bls, qcew, qwi, bea)
+    for p in pillars:
+        h = hist.get(p["id"])
+        p["history"] = h["score"] if h else {}
+        for i, x in enumerate(p["parts"]):
+            x["history"] = h["parts"][i] if h and i < len(h["parts"]) else {}
     return {"index": index, "pillars": pillars, "occupations": sorted(table, key=lambda r: -(r["jobs"] * (r["fit"] or 0))),
             "oews_year": (bls.get("occupations") or {}).get("year"), "qcew_year": (qcew.get("specialization") or {}).get("year"), "bea_year": vyear,
             "qwi_quarters": (q.get("region") or {}).get("age_quarters", []), "sources": {k: (v or {}).get("source", "") for k, v in (("task", task), ("qwi", qwi), ("bea", bea))}}

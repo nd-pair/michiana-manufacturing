@@ -1,6 +1,6 @@
 {
  "source": "U.S. Census Bureau, LEHD Quarterly Workforce Indicators (private, NAICS 31-33)",
- "pulled": "2026-11-13",
+ "pulled": "2026-11-12",
  "region": {
   "age55": 0.2504,
   "age_quarters": [
@@ -32,5 +32,163 @@
    "2024-Q3",
    "2024-Q2"
   ]
+ },
+ "history": {
+  "1999": {
+   "age55": 0.1247,
+   "us_age55": 0.128,
+   "turnover": 0.0818,
+   "us_turnover": 0.0703
+  },
+  "2000": {
+   "age55": 0.1283,
+   "us_age55": 0.1326,
+   "turnover": 0.0798,
+   "us_turnover": 0.0722
+  },
+  "2001": {
+   "age55": 0.1358,
+   "us_age55": 0.1392,
+   "turnover": 0.0673,
+   "us_turnover": 0.0663
+  },
+  "2002": {
+   "age55": 0.1429,
+   "us_age55": 0.1485,
+   "turnover": 0.0684,
+   "us_turnover": 0.0585
+  },
+  "2003": {
+   "age55": 0.1479,
+   "us_age55": 0.1564,
+   "turnover": 0.0661,
+   "us_turnover": 0.0555
+  },
+  "2004": {
+   "age55": 0.1515,
+   "us_age55": 0.1627,
+   "turnover": 0.0718,
+   "us_turnover": 0.0582
+  },
+  "2005": {
+   "age55": 0.1564,
+   "us_age55": 0.1687,
+   "turnover": 0.0714,
+   "us_turnover": 0.0597
+  },
+  "2006": {
+   "age55": 0.1629,
+   "us_age55": 0.1757,
+   "turnover": 0.0732,
+   "us_turnover": 0.0615
+  },
+  "2007": {
+   "age55": 0.1726,
+   "us_age55": 0.1835,
+   "turnover": 0.071,
+   "us_turnover": 0.0592
+  },
+  "2008": {
+   "age55": 0.183,
+   "us_age55": 0.1928,
+   "turnover": 0.0775,
+   "us_turnover": 0.061
+  },
+  "2009": {
+   "age55": 0.1972,
+   "us_age55": 0.206,
+   "turnover": 0.0484,
+   "us_turnover": 0.0467
+  },
+  "2010": {
+   "age55": 0.1994,
+   "us_age55": 0.2165,
+   "turnover": 0.0578,
+   "us_turnover": 0.0483
+  },
+  "2011": {
+   "age55": 0.2025,
+   "us_age55": 0.2248,
+   "turnover": 0.0584,
+   "us_turnover": 0.0512
+  },
+  "2012": {
+   "age55": 0.2073,
+   "us_age55": 0.2329,
+   "turnover": 0.0702,
+   "us_turnover": 0.0515
+  },
+  "2013": {
+   "age55": 0.2105,
+   "us_age55": 0.2416,
+   "turnover": 0.073,
+   "us_turnover": 0.0515
+  },
+  "2014": {
+   "age55": 0.2128,
+   "us_age55": 0.2485,
+   "turnover": 0.0723,
+   "us_turnover": 0.0532
+  },
+  "2015": {
+   "age55": 0.2166,
+   "us_age55": 0.2546,
+   "turnover": 0.0728,
+   "us_turnover": 0.0558
+  },
+  "2016": {
+   "age55": 0.2214,
+   "us_age55": 0.2611,
+   "turnover": 0.0749,
+   "us_turnover": 0.056
+  },
+  "2017": {
+   "age55": 0.2222,
+   "us_age55": 0.2667,
+   "turnover": 0.0799,
+   "us_turnover": 0.0575
+  },
+  "2018": {
+   "age55": 0.2239,
+   "us_age55": 0.2702,
+   "turnover": 0.0759,
+   "us_turnover": 0.0598
+  },
+  "2019": {
+   "age55": 0.2346,
+   "us_age55": 0.2747,
+   "turnover": 0.0656,
+   "us_turnover": 0.0612
+  },
+  "2020": {
+   "age55": 0.2424,
+   "us_age55": 0.2805,
+   "turnover": 0.0708,
+   "us_turnover": 0.0567
+  },
+  "2021": {
+   "age55": 0.2364,
+   "us_age55": 0.2814,
+   "turnover": 0.0899,
+   "us_turnover": 0.067
+  },
+  "2022": {
+   "age55": 0.2317,
+   "us_age55": 0.2802,
+   "turnover": 0.0848,
+   "us_turnover": 0.071
+  },
+  "2023": {
+   "age55": 0.2447,
+   "us_age55": 0.2805,
+   "turnover": 0.0661,
+   "us_turnover": 0.0638
+  },
+  "2024": {
+   "age55": 0.2497,
+   "us_age55": 0.282,
+   "turnover": 0.0613,
+   "us_turnover": 0.0597
+  }
  }
 }

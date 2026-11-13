@@ -62,6 +62,8 @@ def main():
     only = sys.argv[sys.argv.index("--occupations") + 1:] if "--occupations" in sys.argv else None
     if only:
         return merge_occupations(only)
+    if "--laus-history" in sys.argv:
+        return laus_history()
     data = {"source": "BLS public data API (OEWS, CES, LAUS)", "pulled": datetime.date.today().isoformat()}
     # occupations: employment (01) and annual median wage (13) per metro, and the U.S.
     occ_ids = {}
@@ -94,6 +96,10 @@ def main():
     for sid, (f, k) in laus.items():
         counties[f][k] = series(got.get(sid) or [])
     data["laus"] = {"counties": counties, "us_rate": series(got.get("LNU04000000") or [])}
+    try:
+        data["laus_annual"] = json.load(open(P("data", "bls.json"))).get("laus_annual", {})
+    except (FileNotFoundError, ValueError):
+        pass
     json.dump(data, open(P("data", "bls.json"), "w"), indent=0)
     n_occ = sum(1 for o in data["occupations"]["list"] if o["metros"])
     print("occupations %s: %d of %d with metro data; CES months: %s; LAUS counties: %d"
@@ -122,6 +128,30 @@ def merge_occupations(codes):
     data["occupations"]["list"] = [lst[c] for c, _ in OCCUPATIONS if c in lst]
     json.dump(data, open(P("data", "bls.json"), "w"), indent=0)
     print("added %d occupations; %d with metro data" % (len(codes), sum(1 for c in codes if lst[c]["metros"])))
+
+def laus_history():
+    """Annual unemployment rates (BLS annual averages, period M13) for the region's counties and the U.S.,
+    for up to ten years; kept in data/bls.json under laus_annual."""
+    data = json.load(open(P("data", "bls.json")))
+    y1 = datetime.date.today().year
+    ids = {"LAUCN%s0000000003" % f: (f, "rate") for f in COUNTIES}
+    ids.update({"LAUCN%s0000000006" % f: (f, "force") for f in COUNTIES})
+    ids["LNU04000000"] = ("US", "rate")
+    got = fetch(list(ids), y1 - 9, y1)
+    # annual averages of the twelve monthly values (the API returns no annual period for these series)
+    out = {}
+    for sid, (area, k) in ids.items():
+        months = {}
+        for p in got.get(sid) or []:
+            v = num(p["value"])
+            if v is not None and p["period"].startswith("M") and p["period"] != "M13":
+                months.setdefault(p["year"], []).append(v)
+        for y, vs in months.items():
+            if len(vs) >= 11 and y != str(y1):     # complete past years; October 2025 was not collected
+                out.setdefault(y, {}).setdefault(area, {})[k] = round(sum(vs) / len(vs), 2)
+    data["laus_annual"] = dict(sorted(out.items()))
+    json.dump(data, open(P("data", "bls.json"), "w"), indent=0)
+    print("laus annual: %s" % ", ".join("%s (%d areas)" % (y, len(v)) for y, v in sorted(out.items())))
 
 if __name__ == "__main__":
     main()

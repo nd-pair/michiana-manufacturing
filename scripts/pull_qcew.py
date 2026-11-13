@@ -64,12 +64,33 @@ def main():
                     withheld.setdefault(str(y), 0); withheld[str(y)] += 1
                 sectors.setdefault(sec, {}); sectors[sec][y] = sectors[sec].get(y, 0) + emp
     spec = specialization(texts, years)
-    data = {"source": "BLS QCEW, private, annual averages", "pulled": datetime.date.today().isoformat(), "specialization": spec,
+    hist = highmix_history(texts, years)
+    data = {"source": "BLS QCEW, private, annual averages", "pulled": datetime.date.today().isoformat(), "specialization": spec, "highmix_history": hist,
             "counties": {k: {"name": COUNTIES[k], "years": counties[k]} for k in COUNTIES}, "us": us_years,
             "sectors": {s: {str(y): v for y, v in sorted(d.items())} for s, d in sectors.items()},
             "withheld_cells": withheld}
     json.dump(data, open(P("data", "qcew.json"), "w"), indent=0)
     print("counties: %d with data; sectors: %s" % (sum(1 for k in counties if counties[k]), ", ".join("%s %d" % (s, d[max(d)]) for s, d in sorted(sectors.items()))))
+
+def highmix_history(texts, years):
+    """For every year with all county slices: manufacturing jobs in custom and short-run industries
+    (data/opportunity.toml) in the region and the U.S. Region figures are lower bounds where BLS
+    withholds a county's 6-digit row."""
+    hm = tuple(tomllib.load(open(P("data", "opportunity.toml"), "rb"))["highmix"]["naics"])
+    six = lambda r: r.get("own_code") == "5" and len(r.get("industry_code", "")) == 6 and r["industry_code"].isdigit() and r["industry_code"][:2] in ("31", "32", "33")
+    out = {}
+    for y in years:
+        if not all((y, f) in texts for f in COUNTIES):
+            continue
+        try:
+            us = csv.DictReader(io.StringIO(get("https://data.bls.gov/cew/data/api/%d/a/area/US000.csv" % y)))
+            us_hm = sum(float(r.get("annual_avg_emplvl") or 0) for r in us if six(r) and r["industry_code"].startswith(hm))
+        except Exception as e:
+            print(y, "US slice skipped:", e); continue
+        reg = sum(float(r.get("annual_avg_emplvl") or 0) for f in COUNTIES for r in csv.DictReader(io.StringIO(texts[(y, f)]))
+                  if six(r) and r["industry_code"].startswith(hm))
+        out[str(y)] = {"hm": round(reg), "us_hm": round(us_hm)}
+    return out
 
 NAICS3 = {"311": "Food", "312": "Beverages and tobacco", "313": "Textile mills", "314": "Textile products", "315": "Apparel", "316": "Leather",
           "321": "Wood products", "322": "Paper", "323": "Printing", "324": "Petroleum and coal products", "325": "Chemicals",

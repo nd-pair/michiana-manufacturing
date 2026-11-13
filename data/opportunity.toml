@@ -4,6 +4,11 @@
 # geometric mean of the pillars, so a weak pillar, including falling jobs or pay, pulls it down.
 # Weights, traits and lists are editable assumptions.
 
+[display]
+# Notre Dame's physical-AI research awards are pulled every month (scripts/pull_nd_research.py) but
+# shown on the map only when this is true.
+nd_research = false
+
 [weights]          # relative weights in the geometric mean
 task = 1           # task fit: hard, repetitive or hazardous work in local jobs, from O*NET
 highmix = 1        # high-mix potential: job shops and custom, short-run industries

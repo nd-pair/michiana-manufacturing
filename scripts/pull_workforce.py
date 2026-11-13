@@ -93,8 +93,27 @@ def qwi():
                 "turnover": round(sum(v for _, v in turn) / len(turn), 4), "turnover_quarters": [q for q, _ in turn]}
     nat = summary({q: [g] for q, g in us.items()})
     reg = summary({q: list(c.values()) for q, c in region.items()}, set(nat["age_quarters"]), set(nat["turnover_quarters"]))
+    # yearly history: the mean of each year's four quarters where both region and U.S. have them
+    def per_quarter(get_rows):
+        out = {}
+        for q, groups in get_rows.items():
+            e = sum(num(g["A00"]["Emp"]) or 0 for g in groups if "A00" in g)
+            old = sum((num(g.get("A07", {}).get("Emp")) or 0) + (num(g.get("A08", {}).get("Emp")) or 0) for g in groups)
+            tw = [(num(g["A00"]["TurnOvrS"]), num(g["A00"]["EmpS"]) or num(g["A00"]["Emp"]) or 0) for g in groups if "A00" in g and num(g["A00"].get("TurnOvrS")) is not None]
+            out[q] = {"age55": old / e if e else None, "turnover": sum(t * w for t, w in tw) / sum(w for _, w in tw) if tw and sum(w for _, w in tw) else None}
+        return out
+    rq, uq = per_quarter({q: list(c.values()) for q, c in region.items()}), per_quarter({q: [g] for q, g in us.items()})
+    history = {}
+    for y in sorted({q[:4] for q in rq}):
+        row = {}
+        for k in ("age55", "turnover"):
+            qs = [q for q in ("%s-Q%d" % (y, i) for i in range(1, 5)) if (rq.get(q) or {}).get(k) is not None and (uq.get(q) or {}).get(k) is not None]
+            if len(qs) == 4:
+                row[k] = round(sum(rq[q][k] for q in qs) / 4, 4); row["us_" + k] = round(sum(uq[q][k] for q in qs) / 4, 4)
+        if row:
+            history[y] = row
     json.dump({"source": "U.S. Census Bureau, LEHD Quarterly Workforce Indicators (private, NAICS 31-33)", "pulled": datetime.date.today().isoformat(),
-               "region": reg, "us": nat}, open(P("data", "qwi.json"), "w"), indent=1)
+               "region": reg, "us": nat, "history": history}, open(P("data", "qwi.json"), "w"), indent=1)
     print("qwi: region 55+ %.1f%% turnover %.1f%%; U.S. 55+ %.1f%% turnover %.1f%%" % (100 * reg["age55"], 100 * reg["turnover"], 100 * nat["age55"], 100 * nat["turnover"]))
 
 def bea():

@@ -206,7 +206,8 @@ def main():
     federal, fda, qcew, sbir, patents = sidecar("federal.json"), sidecar("fda.json"), sidecar("qcew.json"), sidecar("sbir.json"), sidecar("patents.json")
     bls = sidecar("bls.json")
     qwi, bea, taskfit = sidecar("qwi.json"), sidecar("bea.json"), sidecar("task_fit.json")
-    ndr = sidecar("nd_research.json")
+    show_ndr = load_toml(P("data", "opportunity.toml")).get("display", {}).get("nd_research", False)
+    ndr = sidecar("nd_research.json") if show_ndr else {}   # pulled every month; shown only when switched on
     for o in companies:
         f = federal["companies"].get(o["id"]); o["federal"] = {"contracts": f["contracts"], "grants": f["grants"], "total": f["total"]} if f else None
         sb = sbir["companies"].get(o["id"]); o["sbir"] = {"count": sb["count"], "amount": sb["amount"], "agencies": sb.get("agencies", [])} if sb else None
@@ -255,6 +256,8 @@ def main():
     hcov = humanoid.coverage(hspec, companies)
     opp = opportunity.compute(bls, qcew, qwi, bea, taskfit, hcov["available_two_plus"])
     hcov["index"] = opp["index"]
+    hcov["pillars"] = {p["id"]: p["score"] for p in opp["pillars"]}
+    hcov["parts"] = {p["id"]: [x["score"] for x in p["parts"]] for p in opp["pillars"]}
     progress_path = P("data", "progress.json")
     try:
         progress = json.load(open(progress_path))
@@ -334,6 +337,7 @@ def main():
             "{{SPECYEAR}}": str(qcew.get("specialization", {}).get("year", "not yet pulled")),
             "{{OEWSYEAR}}": str((bls.get("occupations") or {}).get("year") or "–"),
             "{{BLSMONTH}}": bls_month(bls), "{{BLSPULLED}}": bls.get("pulled", "not yet pulled"),
+            "{{NDRESEARCH}}": ("<p><strong>Notre Dame research</strong> in the same panel lists the federal grants, cooperative agreements and contracts to the University of Notre Dame since FY2016, and its subawards on other institutions' awards, whose title (or description, at least three times) is about robots, autonomy and drones, prosthetics and exoskeletons, haptics, legged or humanoid systems or robotic manufacturing, from USAspending.gov, with investigators for NSF awards from the NSF Award Search. Amounts are obligations so far; industry, foundation and state funding are not included.</p>" if show_ndr else ""),
             "{{HUMCOMP}}": str(len(hspec["component"])),
             "{{CITYLEVEL}}": str(sum(1 for o in companies if o["prec"] == "city")), "{{CLOSED}}": str(len(closed)), "{{GROUPED}}": str(sum(1 for o in companies if o["parent"])),
             "{{PARENTS}}": str(len({o["group"] for o in companies if o["parent"]}))}
