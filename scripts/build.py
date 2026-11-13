@@ -293,7 +293,7 @@ def main():
         "qcewSectors": qcew.get("sectors", {}), "qcewPulled": qcew.get("pulled", ""),
         "humanoid": {"groups": hspec["group"], "components": [{k: v for k, v in c.items() if not k.startswith("_") and k not in ("patterns", "exclude", "exclude_naics", "naics")} for c in hspec["component"]],
                      "funding": humanoid.funding(events), "progress": progress},
-        "opportunity": opp, "ndResearch": {k: ndr.get(k) for k in ("awards", "pulled", "source", "scanned")} if ndr.get("awards") else {},
+        "opportunity": opp, "comparison": {k: v for k, v in sidecar("comparison.json").items() if k in ("updated", "inputs", "ranking", "regions", "history")}, "ndResearch": {k: ndr.get(k) for k in ("awards", "pulled", "source", "scanned")} if ndr.get("awards") else {},
         "qcewSpec": qcew.get("specialization", {}), "bls": {k: bls.get(k) for k in ("occupations", "ces", "laus", "pulled") if bls.get(k)},
         "sbirPulled": sbir.get("pulled", ""), "fdaPulled": fda.get("pulled", ""), "patentsPulled": patents.get("pulled", ""),
     }

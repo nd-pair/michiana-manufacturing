@@ -19,16 +19,17 @@ function fmtEmp(c){if(!c.emp)return "unknown";const bits=[c.emp_year,c.emp_quali
 
 /* ---------- state, addressable through the URL hash ---------- */
 const st={sec:new Set(),tag:new Set(),cap:new Set(),fed:false,fda:false,rings:false,radius:0,sel:null,hot:null,q:"",open:new Set(),
-  sort:{sec:{key:"n",dir:-1},tag:{key:"n",dir:-1},cap:{key:"n",dir:-1},fed:{key:"e",dir:-1},roster:{key:"emp",dir:-1},ev:{key:"date",dir:-1},spec:{key:"lq",dir:-1},occ:{key:"emp",dir:-1},ue:{key:"rate",dir:-1},hum:{key:"cost",dir:-1},opp:{key:"impact",dir:-1},ndr:{key:"start",dir:-1}},ndrAll:false,wv:"spec",hum:null,hb:"related",rlim:20,rpage:0,
-  evKind:"all",evYear:null,evMore:0,qv:"county",qs:"abs"};
-function readHash(){st.sec.clear();st.tag.clear();st.cap.clear();st.fed=st.fda=st.rings=false;st.radius=0;st.sel=null;st.hum=null;
+  sort:{sec:{key:"n",dir:-1},tag:{key:"n",dir:-1},cap:{key:"n",dir:-1},fed:{key:"e",dir:-1},roster:{key:"emp",dir:-1},ev:{key:"date",dir:-1},spec:{key:"lq",dir:-1},occ:{key:"emp",dir:-1},ue:{key:"rate",dir:-1},hum:{key:"cost",dir:-1},opp:{key:"impact",dir:-1},cmp:{key:"index",dir:-1},ndr:{key:"start",dir:-1}},ndrAll:false,wv:"spec",hum:null,hb:"related",rlim:20,rpage:0,
+  evKind:"all",evYear:null,evMore:0,qv:"county",qs:"abs",tab:"companies"};
+const TABS=["companies","occupations","readiness","humanoid"];
+function readHash(){st.sec.clear();st.tag.clear();st.cap.clear();st.fed=st.fda=st.rings=false;st.radius=0;st.sel=null;st.hum=null;st.tab="companies";
   try{const raw=location.hash.slice(1),h=decodeURIComponent(raw);if(h&&byId[h]){st.sel=h;return}
     for(const kv of raw.split("&")){const i=kv.indexOf("=");if(i<0)continue;const k=kv.slice(0,i),v=decodeURIComponent(kv.slice(i+1));if(!v)continue;const vals=kv.slice(i+1).split("|").map(decodeURIComponent);
       if(k==="sec")vals.forEach(x=>st.sec.add(x));else if(k==="tag")vals.forEach(x=>st.tag.add(x));else if(k==="cap")vals.forEach(x=>st.cap.add(x));
       else if(k==="fed")st.fed=v==="1";else if(k==="fda")st.fda=v==="1";else if(k==="rings")st.rings=v==="1";
-      else if(k==="r")st.radius=+v||0;else if(k==="hum"&&/^[gk]:[a-z]+$/.test(v))st.hum=v;else if(k==="sel"&&byId[v])st.sel=v}}catch(e){}}
+      else if(k==="r")st.radius=+v||0;else if(k==="hum"&&/^[gk]:[a-z]+$/.test(v))st.hum=v;else if(k==="sel"&&byId[v])st.sel=v;else if(k==="tab"&&TABS.includes(v))st.tab=v}}catch(e){}}
 const enc=set=>[...set].map(encodeURIComponent).join("|");
-function hashState(){const p=[];if(st.sec.size)p.push("sec="+enc(st.sec));if(st.tag.size)p.push("tag="+enc(st.tag));if(st.cap.size)p.push("cap="+enc(st.cap));
+function hashState(withTab=true){const p=[];if(withTab&&st.tab!=="companies")p.push("tab="+st.tab);if(st.sec.size)p.push("sec="+enc(st.sec));if(st.tag.size)p.push("tag="+enc(st.tag));if(st.cap.size)p.push("cap="+enc(st.cap));
   if(st.fed)p.push("fed=1");if(st.fda)p.push("fda=1");if(st.rings)p.push("rings=1");if(st.radius)p.push("r="+st.radius);if(st.hum)p.push("hum="+st.hum);if(st.sel)p.push("sel="+st.sel);
   return p.length?"#"+p.join("&"):""}
 function updateHash(){try{history.replaceState(null,"",hashState()||location.pathname)}catch(e){}}
@@ -66,7 +67,12 @@ const [LATC,LONC]=DATA.center;
 const P=(lat,lon,h=0)=>{const la=lat*RAD,lo=lon*RAD,r=R+h;return new THREE.Vector3(r*Math.cos(la)*Math.sin(lo),r*Math.sin(la),r*Math.cos(la)*Math.cos(lo))};
 const latLonOf=p=>{const r=p.length();return [Math.asin(p.y/r)/RAD,Math.atan2(p.x,p.z)/RAD]};
 const box=document.getElementById("scene"), tip=document.getElementById("tip"), hud=document.getElementById("hud");
-const renderer=new THREE.WebGLRenderer({antialias:true,logarithmicDepthBuffer:true}); renderer.setPixelRatio(Math.min(devicePixelRatio,2)); renderer.outputEncoding=THREE.sRGBEncoding; box.appendChild(renderer.domElement);
+/* without WebGL (turned off, or no GPU) the page still works: the map shows a notice, every other panel renders */
+let renderer,NOGL=false;
+try{renderer=new THREE.WebGLRenderer({antialias:true,logarithmicDepthBuffer:true});renderer.setPixelRatio(Math.min(devicePixelRatio,2));renderer.outputEncoding=THREE.sRGBEncoding}
+catch(e){NOGL=true;const d=document.createElement("div");d.className="mm-nogl";d.innerHTML="<p><b>The 3D map needs WebGL</b>, which this browser has turned off or does not support. The roster, filters and the other tabs work without it.</p>";
+  renderer={domElement:d,setSize(){},render(){},setPixelRatio(){},capabilities:{getMaxAnisotropy:()=>1}}}
+box.appendChild(renderer.domElement);
 const scene=new THREE.Scene(); scene.background=new THREE.Color(TH.bg);
 const camera=new THREE.PerspectiveCamera(42,1.6,0.001,100);
 const globe=new THREE.Group(); scene.add(globe);
@@ -145,7 +151,7 @@ const dome=(function(){const g=new THREE.Group(),B=0.0016,TL=new THREE.TextureLo
     x.fillStyle=g;x.fillRect(0,0,1024,512);
     for(const [cx,cy,r,a] of [[180,120,70,1],[560,90,55,0.95],[860,150,80,1],[360,210,40,0.8],[720,230,35,0.7],[90,330,60,0.6],[620,360,70,0.55]]){const rg=x.createRadialGradient(cx,cy,0,cx,cy,r);rg.addColorStop(0,"rgba(255,255,255,"+a+")");rg.addColorStop(1,"rgba(255,255,255,0)");x.fillStyle=rg;x.fillRect(cx-r,cy-r,2*r,2*r)}
     const t=new THREE.CanvasTexture(cv);t.mapping=THREE.EquirectangularReflectionMapping;t.encoding=THREE.sRGBEncoding;
-    const pm=new THREE.PMREMGenerator(renderer);const out=pm.fromEquirectangular(t).texture;pm.dispose();t.dispose();return out})();
+    if(NOGL)return t;const pm=new THREE.PMREMGenerator(renderer);const out=pm.fromEquirectangular(t).texture;pm.dispose();t.dispose();return out})();
   const gold=new THREE.MeshStandardMaterial({color:0xffc94a,metalness:1,roughness:0.1,envMap:env,envMapIntensity:2.4,emissive:0x5a3c00,emissiveIntensity:0.22});
   /* plan from an aerial photo, heights from the frontal photo, in units of B (origin at the dome, x east, z south):
      a long east-west range crossed by a north-south spine; the spine ends south in the wide front pavilion
@@ -269,7 +275,7 @@ function hover(e){const b=pick(e);const id=b&&b.c?b.c.id:null;if(id!==hoverId){h
     tip.innerHTML=`<b>${esc(b.c.name)}</b>${esc(b.c.city)}, ${esc(b.c.state)} · ${esc(b.c.sector)}${g.sites.length>1?`<div class="m">one of ${g.sites.length} sites of ${esc(g.name)}</div>`:""}<div class="m">${esc(fmtEmp(b.c))} employees</div>`;
     tip.style.left=((top.x+1)/2*r.width)+"px";tip.style.top=((1-top.y)/2*r.height)+"px";tip.style.opacity=1;box.style.cursor="pointer"}
   else{tip.style.opacity=0;box.style.cursor=drag?"grabbing":"grab"}}
-function resize(){const w=box.clientWidth,h=Math.max(360,Math.min(640,Math.round(w*0.64)));box.style.height=h+"px";renderer.setSize(w,h,false);camera.aspect=w/h;camera.updateProjectionMatrix()}
+function resize(){if(!box.clientWidth)return;const w=box.clientWidth,h=Math.max(360,Math.min(640,Math.round(w*0.64)));box.style.height=h+"px";renderer.setSize(w,h,false);camera.aspect=w/h;camera.updateProjectionMatrix()}
 
 /* ---------- company search ---------- */
 const find=document.getElementById("find"),sug=document.getElementById("find-list");let sugItems=[],sugIdx=-1;
@@ -383,7 +389,6 @@ function renderOpportunity(){const el=document.getElementById("opp"),O=DATA.oppo
   const phist=p=>Object.entries(p.history||{}).concat(prog.filter(([,v])=>v.pillars&&v.pillars[p.id]!=null).map(([m,v])=>[m,v.pillars[p.id]]));
   const xhist=(p,i)=>Object.entries(p.parts[i].history||{}).concat(prog.filter(([,v])=>v.parts&&v.parts[p.id]&&v.parts[p.id][i]!=null).map(([m,v])=>[m,v.parts[p.id][i]]));
   const ihist=prog.map(([m,v])=>[m,v.index]);
-  const rows=(O.occupations||[]).map(r=>({...r,impact:r.fit!=null?r.jobs*r.fit/100:null,role:r.readiness?"deploys automation":"production",traitsText:r.traits.join(", ")}));
   el.innerHTML=`<div class="mm-ohead"><div class="mm-oidx"><div class="k">Physical-AI Opportunity Index</div><div class="v">${O.index==null?"–":Math.round(O.index)} ${gbadge(O.index)}</div><div class="s">U.S. = 100 · ${ihist.length>1?histSpark(ihist,170,34)+" "+span(ihist):"tracked monthly from "+esc(monthName(Object.keys(HUM.progress||{})[0]||""))+"; the index needs every pillar, so its history starts there"}</div></div>
     <p class="mm-fedsum">Where humanoid robots could make the region's manufacturers more competitive: taking on the hard, repetitive and hazardous work so the same or more people can make more complex, higher-mix products. Each pillar compares the region with the U.S.; the index is their geometric mean, so a weak pillar pulls it down, and <b>shared prosperity</b> (manufacturing jobs, pay and value added per job) is one of them: the index can only rise for good if workers gain too.</p></div>
     <div class="mm-opills">${O.pillars.map(p=>`<div class="mm-opill"><div class="hd"><b>${esc(p.name)}</b>${bar(p.score)}</div><div class="w">${esc(p.what)}</div>
@@ -391,14 +396,33 @@ function renderOpportunity(){const el=document.getElementById("opp"),O=DATA.oppo
       ${p.parts.map((x,i)=>`<div class="pt"><span>${esc(x.name)}${x.note?` <small class="mm-mut">${esc(x.note)}</small>`:""}</span>${histSpark(xhist(p,i),84,22)}<span class="nums">${fmt(x.local,x.unit)}${x.us!=null?` <small class="mm-mut">vs U.S. ${fmt(x.us,x.unit)}</small>`:""}${x.score!=null?` <b>${Math.round(x.score)}</b> ${gbadge(x.score)}`:""}</span></div>`).join("")}</div>`).join("")}</div>
     <div class="mm-gleg">${GRADES.map(([g,t],i)=>`<span title="${BAND[i]}"><span class="mm-gsw g${g}"></span>${i===0?"150 or more":i===GRADES.length-1?"under 60":t+"–"+(GRADES[i-1][1]-1)}</span>`).join("")}<span class="mm-mut">score against the U.S. average of 100 · yellow is about the U.S. level; orange and red: areas that need work</span></div>
     ${ndResearch()}
-    <h3 class="mm-wh" style="margin-top:14px">Occupations: where humanoids could help</h3>
-    ${sortTable("opp",[{key:"name",label:"Occupation",cell:r=>`<b>${esc(r.name)}</b>${r.readiness?' <small class="mm-mut">deploys automation</small>':""}`},
+    <p class="mm-wnote">Task fit is scored per occupation on the Occupations tab. Jobs and pay: BLS OEWS May ${esc(String(O.oews_year||""))}, four metro areas. Industry, establishment and growth figures: BLS QCEW ${esc(String(O.qcew_year||""))}; age and turnover: Census Quarterly Workforce Indicators${O.qwi_quarters&&O.qwi_quarters.length?" ("+esc(O.qwi_quarters[O.qwi_quarters.length-1])+" to "+esc(O.qwi_quarters[0])+")":""}; value added: BEA ${esc(String(O.bea_year||""))}. Weights and lists are editable in data/opportunity.toml.</p>`}
+function renderOccHelp(){const el=document.getElementById("occ-help"),O=DATA.opportunity;if(!el||!O||!O.occupations)return;
+  const rows=(O.occupations||[]).map(r=>({...r,impact:r.fit!=null?r.jobs*r.fit/100:null,role:r.readiness?"deploys automation":"production",traitsText:r.traits.join(", ")}));
+  el.innerHTML=`${sortTable("opp",[{key:"name",label:"Occupation",cell:r=>`<b>${esc(r.name)}</b>${r.readiness?' <small class="mm-mut">deploys automation</small>':""}`},
       {key:"jobs",label:"Jobs",num:true,cell:r=>Math.round(r.jobs).toLocaleString()},{key:"per1000",label:"Per 1,000 jobs",num:true,cell:r=>r.per1000==null?"–":r.per1000.toFixed(1)},
       {key:"fit",label:"Task fit",title:"0 to 100, from O*NET task traits",cell:r=>r.fit==null?"–":`<span class="mm-ratio"><span class="trk"><span class="fil" style="width:${r.fit}%"></span></span><span class="v">${Math.round(r.fit)}</span></span>`},
       {key:"impact",label:"Jobs × fit",title:"local jobs weighted by task fit: where humanoids would help the most people",num:true,cell:r=>r.impact==null?"–":Math.round(r.impact).toLocaleString()},
       {key:"traitsText",label:"Work a humanoid could take on",cell:r=>esc(r.traitsText||"–")},
       {key:"median",label:"Median pay",num:true,cell:r=>usd(r.median)},{key:"us_median",label:"U.S. median",num:true,cell:r=>usd(r.us_median)}],rows)}
-    <p class="mm-wnote">Task fit scores how much of an occupation's work is handling and moving parts, repetitive motion, awkward postures and hazards (O*NET 31.0, 0 to 100); it marks the tasks a humanoid could relieve people of, not jobs to cut. Jobs and pay: BLS OEWS May ${esc(String(O.oews_year||""))}, four metro areas. Industry, establishment and growth figures: BLS QCEW ${esc(String(O.qcew_year||""))}; age and turnover: Census Quarterly Workforce Indicators${O.qwi_quarters&&O.qwi_quarters.length?" ("+esc(O.qwi_quarters[O.qwi_quarters.length-1])+" to "+esc(O.qwi_quarters[0])+")":""}; value added: BEA ${esc(String(O.bea_year||""))}. Weights and lists are editable in data/opportunity.toml.</p>`}
+    <p class="mm-wnote">Task fit scores how much of an occupation's work is handling and moving parts, repetitive motion, awkward postures and hazards (O*NET 31.0, 0 to 100); it marks the tasks a humanoid could relieve people of, not jobs to cut. Jobs and pay: BLS OEWS May ${esc(String(O.oews_year||""))}, four metro areas. "Deploys automation" marks the occupations counted in adoption readiness.</p>`}
+/* ---------- region comparison: the same index for similar regions (scripts/compare_regions.py) ---------- */
+function renderComparison(){const el=document.getElementById("cmp"),X=DATA.comparison;if(!el)return;
+  if(!X||!X.regions){document.getElementById("comparison").hidden=true;return}
+  const P=[["task","Task fit"],["highmix","High-mix"],["labor","Labor"],["readiness","Readiness"],["supply","Supply"],["prosperity","Prosperity"]];
+  const full=Object.fromEntries(((DATA.opportunity||{}).pillars||[]).map(p=>[p.id,p.name]));
+  const rank=Object.fromEntries((X.ranking||[]).map((n,i)=>[n,i+1]));
+  const rows=Object.entries(X.regions).map(([n,v])=>({name:n,university:v.university,index:v.index,rank:rank[n]??null,home:v.home,cls:v.home?"mm-home":"",...Object.fromEntries(P.map(([k])=>[k,v.pillars[k]]))}));
+  const max=Math.max(150,...rows.map(r=>r.index||0));
+  const sc=v=>v==null?"–":`${Math.round(v)}${gbadge(v)}`;
+  const months=Object.keys(X.history||{}).sort(),I=X.inputs||{};
+  document.getElementById("cmpnote").textContent=`${rows.length} regions · U.S. = 100 · updated ${X.updated||""}`;
+  el.innerHTML=`<p class="mm-fedsum">The Physical-AI Opportunity Index for metro areas of similar size, each with a well-known research university, computed the same way and from the same public sources as the region's own index above. Michiana is highlighted.</p>
+    ${sortTable("cmp",[{key:"rank",label:"#",num:true,cell:r=>r.rank??"–"},
+      {key:"name",label:"Region",cell:r=>`<b>${esc(r.name)}</b><br><small class="mm-mut">${esc(r.university||"")}</small>`},
+      {key:"index",label:"Index",title:"Physical-AI Opportunity Index",cell:r=>r.index==null?"–":`<span class="mm-ratio"><span class="trk"><span class="fil g${grade(r.index)}" style="width:${Math.min(100,100*r.index/max).toFixed(1)}%"></span><span class="one" style="left:${(100*100/max).toFixed(1)}%"></span></span><span class="v">${Math.round(r.index)}</span>${gbadge(r.index)}</span>`},
+      ...P.map(([k,l])=>({key:k,label:l,title:full[k]||l,num:true,cell:r=>sc(r[k])}))],rows)}
+    <p class="mm-wnote">Each region is a set of counties (jobs, establishments, pay, unemployment, workforce age and turnover, value added) and the BLS metro areas that cover them (occupations). Sources: BLS QCEW ${esc(String(I.qcew_year||""))}, OEWS May ${esc(String(I.oews_year||""))}, LAUS (latest month), Census QWI, BEA ${esc(String(I.value_added_year||""))}. Michigan has published no Census workforce quarters since 2023, so Ann Arbor and Lansing score labor pressure on unemployment alone, and Michiana's Michigan counties are left out of its age and turnover figures. Local supply counts build-to-print parts with two or more establishments in their industries, so it tops out at 38 for every region. Recomputed every month${months.length?" since "+esc(monthName(months[0])):""}; the regions are listed in data/regions.toml.</p>`}
 /* ---------- humanoid coverage: which parts of a humanoid local companies could supply ---------- */
 const TIERS=["no supplier","one supplier","2–4 suppliers","5 or more"],tierOf=n=>n===0?0:n===1?1:n<5?2:3;
 function humStats(){const comp={};for(const k of Object.keys(HCOMP))comp[k]={all:new Map(),conf:new Map()};
@@ -442,7 +466,7 @@ function renderHumanoid(){const el=document.getElementById("hum");if(!el||!HUM.c
   const rows=HUM.components.map(c=>({id:c.id,name:c.name,btp:!!c.build_to_print,group:HGROUP[c.group].name,cost:c.cost,n:S[c.id].n,nc:S[c.id].na,tier:tierOf(n(c.id)),top:S[c.id].top,toplabel:S[c.id].top.map(t=>t.g.name).join(", ")}));
   el.innerHTML=`${tiles}<div class="mm-hmain"><div class="mm-hfigwrap">${humSvg()}<div class="mm-hleg">${TIERS.map((t,i)=>`<span><i class="sw t${i}"></i>${t}</span>`).join("")}</div></div>
     <div class="mm-hside"><p class="mm-wnote" style="margin-top:0">Each region is shaded by the cost-weighted depth of local supply for its parts${conf?", counting contract shops for build-to-print parts and only confirmed makers for the rest":", counting every company in a related line of work"}. Click a region or a group to show its companies on the map and in the roster.</p>${glist}</div></div>
-    ${st.hum?`<p class="mm-hfilter">Map and roster show companies for <b>${esc(st.hum[0]==="g"?HGROUP[st.hum.slice(2)].name:HCOMP[st.hum.slice(2)].name)}</b>. <button type="button" class="mm-chip" data-hum="${esc(st.hum)}">Show all companies</button></p>`:""}
+    ${st.hum?`<p class="mm-hfilter">Map and roster show companies for <b>${esc(st.hum[0]==="g"?HGROUP[st.hum.slice(2)].name:HCOMP[st.hum.slice(2)].name)}</b>. <button type="button" class="mm-chip" data-tab="companies" data-map="1">Show on the map</button> <button type="button" class="mm-chip" data-hum="${esc(st.hum)}">Show all companies</button></p>`:""}
     ${sortTable("hum",[{key:"name",label:"Component",cell:r=>`<button type="button" class="mm-hk${st.hum==="k:"+r.id?" on":""}" data-hum="k:${r.id}">${esc(r.name)}</button>${r.btp?' <small class="mm-mut" title="any capable contract shop counts as available">build to print</small>':""}`},{key:"group",label:"Group"},
       {key:"cost",label:"Share of cost",num:true,cell:r=>r.cost+"%"},{key:"n",label:"Related",title:"local companies with a related capability",num:true,cell:r=>String(r.n)},
       {key:"nc",label:"Available",title:"contract shops for build-to-print parts, confirmed makers for the rest",num:true,cell:r=>String(r.nc)},{key:"tier",label:"Depth",cell:r=>`<span class="mm-ht"><i class="sw t${r.tier}"></i>${esc(TIERS[r.tier])}</span>`},
@@ -573,8 +597,15 @@ document.getElementById("clear").addEventListener("click",clearAll);document.get
 document.getElementById("tagsearch").addEventListener("input",e=>{st.q=e.target.value.trim().toLowerCase();renderTags()});
 document.getElementById("radius").addEventListener("change",e=>{st.radius=+e.target.value;_ctr=center();buildRings();render()});
 for(const [id,k] of [["lay-rings","rings"],["f-fed","fed"],["f-fda","fda"]])document.getElementById(id).addEventListener("click",()=>{st[k]=!st[k];if(k==="rings")buildRings();render()});
-document.getElementById("humlink").addEventListener("click",()=>document.getElementById("opportunity").scrollIntoView({behavior:"smooth",block:"start"}));
+/* tabs: Companies, Occupations, Physical AI readiness, Humanoid supply chain; the open tab is part of the URL */
+function applyTab(){for(const t of TABS){const on=st.tab===t,b=document.getElementById("t-"+t);b.setAttribute("aria-selected",String(on));b.tabIndex=on?0:-1;document.getElementById("tab-"+t).hidden=!on}
+  if(st.tab==="companies")resize()}
+function setTab(t,focus){if(!TABS.includes(t)||st.tab===t)return;st.tab=t;applyTab();updateHash();if(focus)document.getElementById("t-"+t).focus();
+  const bar=document.querySelector(".mm-tabs");if(bar.getBoundingClientRect().top<parseFloat(getComputedStyle(bar).scrollMarginTop))bar.scrollIntoView({block:"start"})}
+document.querySelector(".mm-tabs").addEventListener("keydown",e=>{const i=TABS.indexOf(st.tab),n=TABS.length;
+  const j=e.key==="ArrowRight"?(i+1)%n:e.key==="ArrowLeft"?(i+n-1)%n:e.key==="Home"?0:e.key==="End"?n-1:-1;if(j<0)return;e.preventDefault();setTab(TABS[j],true)});
 document.addEventListener("click",e=>{
+  const tb=e.target.closest("[data-tab]");if(tb){const t=tb.dataset.tab;setTab(t);if(t==="companies"&&tb.dataset.map)document.getElementById("scene").scrollIntoView({block:"center",behavior:reduced?"auto":"smooth"});return}
   const rl=e.target.closest("[data-rlim]");if(rl){st.rlim=rl.dataset.rlim==="Infinity"?Infinity:+rl.dataset.rlim;st.rpage=0;renderTable();return}
   const rp=e.target.closest("[data-rpage]");if(rp&&!rp.disabled){st.rpage=Math.max(0,+rp.dataset.rpage);renderTable();document.querySelector(".mm-roster").scrollIntoView({block:"start"});return}
   const hb=e.target.closest("[data-hb]");if(hb){st.hb=hb.dataset.hb;renderHumanoid();return}
@@ -582,7 +613,7 @@ document.addEventListener("click",e=>{
   const na=e.target.closest("[data-ndrall]");if(na){st.ndrAll=!st.ndrAll;renderOpportunity();return}
   const wv=e.target.closest("[data-wv]");if(wv){st.wv=wv.dataset.wv;renderWork();return}
   const q=e.target.closest("[data-qv],[data-qs]");if(q){if(q.dataset.qv)st.qv=q.dataset.qv;if(q.dataset.qs)st.qs=q.dataset.qs;renderQcew();return}
-  const sib=e.target.closest("[data-sel]");if(sib){const c=byId[sib.dataset.sel];select(c.id);flyTo(c.lat,c.lon,Math.min(view.dist,0.05));return}
+  const sib=e.target.closest("[data-sel]");if(sib){const c=byId[sib.dataset.sel],away=st.tab!=="companies";setTab("companies");if(st.sel!==c.id)select(c.id);flyTo(c.lat,c.lon,Math.min(view.dist,0.05));if(away)document.getElementById("scene").scrollIntoView({block:"center"});return}
   const cb=e.target.closest("[data-cap]");if(cb){const k=cb.dataset.cap;st.cap.has(k)?st.cap.delete(k):st.cap.add(k);render();return}
   const h=e.target.closest("[data-sort]");if(h){const s=st.sort[h.dataset.kind];if(s.key===h.dataset.sort)s.dir=-s.dir;else{s.key=h.dataset.sort;s.dir=-1}render();return}
   const rs=e.target.closest("[data-rsort]");if(rs){const s=st.sort.roster;if(s.key===rs.dataset.rsort)s.dir=-s.dir;else{s.key=rs.dataset.rsort;s.dir=rs.dataset.rsort==="emp"||rs.dataset.rsort==="fed"?-1:1}st.rpage=0;renderTable();return}
@@ -602,13 +633,13 @@ document.getElementById("csv").addEventListener("click",()=>{const rows=C.filter
   const head=["name","company_group","group_sites","kind","city","state","address","lat","lon","location_precision","sector","products","naics","capabilities","employees","employees_scope","employees_year","employees_quality","employees_note","uei","federal_contracts_usd","federal_grants_usd","sbir_awards","sbir_usd","patents_since_2015","fda_registered","certifications","humanoid_parts","humanoid_evidence","formerly","status_note","website","source","updated"];
   const lines=[head.join(",")].concat(rows.map(c=>{const g=groupOf(c);return [c.name,g.name,g.sites.length,c.kind,c.city,c.state,c.addr,c.lat,c.lon,c.prec,c.sector,c.tags.join("; "),c.naics,c.caps.join("; "),c.emp??"",c.emp?c.emp_scope:"",c.emp_year,c.emp_quality,c.emp_note,c.uei,
     c.federal?c.federal.contracts:"",c.federal?c.federal.grants:"",c.sbir?c.sbir.count:"",c.sbir?c.sbir.amount:"",c.patents?c.patents.count:"",c.fda?"yes":"",c.certs.join("; "),c.hum.join("; "),c.hum.length?c.hum_ev:"",c.formerly,c.status,c.website,c.source,c.updated].map(q).join(",")}));
-  const blob=new Blob(["﻿"+lines.join("\n")],{type:"text/csv;charset=utf-8"}),a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download="michiana-manufacturing-"+(hashState()?"filtered":"all")+".csv";document.body.appendChild(a);a.click();a.remove();toast(`${rows.length} rows downloaded`)});
+  const blob=new Blob(["﻿"+lines.join("\n")],{type:"text/csv;charset=utf-8"}),a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download="michiana-manufacturing-"+(hashState(false)?"filtered":"all")+".csv";document.body.appendChild(a);a.click();a.remove();toast(`${rows.length} rows downloaded`)});
 const chip=(id,on)=>document.getElementById(id).setAttribute("aria-pressed",String(on));
 function render(){chip("lay-rings",st.rings);chip("f-fed",st.fed);chip("f-fda",st.fda);document.getElementById("radius").value=String(st.radius);
   _ctr=center();document.getElementById("radius-of").textContent="of "+(st.sel?_ctr.name:"the campus");if(st.rings||st.radius)buildRings();
   document.getElementById("brieflink").href="brief.html"+(st.sec.size?"#sec="+[...st.sec].map(encodeURIComponent).join("|"):"");
-  renderSectors();renderTags();renderFederal();renderCaps();renderEvents();renderWork();renderOpportunity();renderHumanoid();paintBars();renderDetail();renderTable();layout();updateHash()}
-window.addEventListener("hashchange",()=>{if(location.hash!==hashState()){readHash();render()}});
+  renderSectors();renderTags();renderFederal();renderCaps();renderEvents();renderWork();renderOccHelp();renderOpportunity();renderHumanoid();renderComparison();paintBars();renderDetail();renderTable();layout();updateHash()}
+window.addEventListener("hashchange",()=>{if(location.hash!==hashState()){readHash();applyTab();render()}});
 document.getElementById("legend").innerHTML=DATA.sectors.map(s=>`<span><i class="mm-sw" style="background:${SCOL[s]};color:${SCOL[s]}"></i>${esc(s)}</span>`).join("")
   +`<span>column height = employees, log scale <i class="mm-hl"><i style="height:6px"></i><i style="height:10px"></i><i style="height:14px"></i><i style="height:18px"></i></i>10 · 100 · 1,000 · 10,000</span><span>~ estimate · ’22 year of the figure · * company-wide</span>`;
 const known=C.filter(c=>c.emp).length;
@@ -616,7 +647,7 @@ document.getElementById("foot").innerHTML=`${nGroups(C)} companies at ${C.length
 
 /* theme: follow the page's Light/Dark switch (body[data-theme]) */
 new MutationObserver(applyTheme).observe(document.body,{attributes:true,attributeFilter:["data-theme"]});
-assignBars();new ResizeObserver(resize).observe(box);resize();applyTheme();applyView();render();
+assignBars();applyTab();new ResizeObserver(resize).observe(box);resize();applyTheme();applyView();render();
 if(st.sel){const c=byId[st.sel];view.lat=c.lat;view.lon=c.lon;view.dist=0.06}
 let t0=performance.now(),intro=!st.sel&&!reduced;
 (function loop(now){requestAnimationFrame(loop);

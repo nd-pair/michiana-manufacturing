@@ -3,6 +3,13 @@
       <section class="section mm-band" aria-label="The map">
       <div class="mm-app" id="mm-app">
         <div class="mm-wrap">
+          <div class="mm-tabs" role="tablist" aria-label="Sections of the map">
+            <button type="button" role="tab" id="t-companies" data-tab="companies" aria-controls="tab-companies" aria-selected="true">Companies</button>
+            <button type="button" role="tab" id="t-occupations" data-tab="occupations" aria-controls="tab-occupations" aria-selected="false" tabindex="-1">Occupations</button>
+            <button type="button" role="tab" id="t-readiness" data-tab="readiness" aria-controls="tab-readiness" aria-selected="false" tabindex="-1">Physical AI readiness</button>
+            <button type="button" role="tab" id="t-humanoid" data-tab="humanoid" aria-controls="tab-humanoid" aria-selected="false" tabindex="-1">Humanoid supply chain</button>
+          </div>
+          <div class="mm-tabpanel" id="tab-companies" role="tabpanel" aria-labelledby="t-companies">
           <div class="mm-layerbar" role="group" aria-label="Search, layers and filters">
             <div class="mm-findbox">
               <input class="mm-search mm-find" id="find" type="search" placeholder="Find a company" aria-label="Find a company" autocomplete="off" role="combobox" aria-expanded="false" aria-controls="find-list" aria-autocomplete="list">
@@ -21,7 +28,6 @@
             <button class="mm-chip" id="copylink" type="button">Copy link to this view</button>
             <button class="mm-chip" id="csv" type="button">Download roster CSV</button>
             <a class="mm-chip" id="brieflink" href="brief.html">Sector briefs</a>
-            <button class="mm-chip" id="humlink" type="button">Physical AI ↓</button>
           </div>
           <div class="mm-grid">
             <div class="mm-panel">
@@ -41,27 +47,38 @@
                 <div class="mm-hist"><input class="mm-search" id="tagsearch" type="search" placeholder="Find a product or service, e.g. sheet metal" aria-label="Filter the product list"><div class="mm-tagbox" id="tags"></div></div></div>
             </div>
           </div>
-          <div class="mm-grid2">
-            <div class="mm-panel"><div class="mm-ph"><h2>Federal footprint</h2><span class="mm-count" id="fedcount"></span></div><div class="mm-hist" id="federal"></div></div>
-            <div class="mm-panel"><div class="mm-ph"><h2>Capabilities</h2><span class="mm-count">click to filter · gap = one or none</span></div><div class="mm-hist" id="caps"></div></div>
-            <div class="mm-panel"><div class="mm-ph"><h2>Manufacturing employment</h2><span class="mm-count" id="qcewnote"></span></div>
-              <div class="mm-segbar"><div class="mm-seg" role="group" aria-label="Employment view"><button type="button" data-qv="county" aria-pressed="true">By county</button><button type="button" data-qv="sector" aria-pressed="false">By sector</button></div>
-                <div class="mm-seg" role="group" aria-label="Employment scale"><button type="button" data-qs="abs" aria-pressed="true">Employees</button><button type="button" data-qs="idx" aria-pressed="false">Indexed</button></div></div>
-              <div class="mm-chart" id="qcew"></div></div>
-            <div class="mm-panel"><div class="mm-ph"><h2>Timeline</h2><span class="mm-count" id="evcount"></span></div><div class="mm-evbar" id="evkinds"></div><div class="mm-years" id="evyears"></div><div class="mm-events" id="events"></div></div>
-          </div>
-          <div class="mm-panel mm-work"><div class="mm-ph"><h2>Workforce</h2><span class="mm-count" id="worknote"></span></div>
-            <div class="mm-segbar"><div class="mm-seg" role="group" aria-label="Workforce view"><button type="button" data-wv="spec" aria-pressed="true">Specialization</button><button type="button" data-wv="occ" aria-pressed="false">Occupations</button><button type="button" data-wv="month" aria-pressed="false">Latest month</button></div></div>
-            <div class="mm-workbody" id="work"></div></div>
           <div class="mm-panel mm-roster">
             <div class="mm-ph"><h2>Roster</h2><span class="mm-count" id="rostercount"></span><button class="mm-chip" id="clear" type="button">Clear all filters</button></div>
             <table id="table"><thead><tr><th><button type="button" data-rsort="name">Company</button></th><th><button type="button" data-rsort="sector">Sector</button></th><th><button type="button" data-rsort="emp">Employees</button></th><th>Products &amp; services</th><th><button type="button" data-rsort="fed">Federal $</button></th><th>Website</th></tr></thead><tbody></tbody></table>
           </div>
+          <div class="mm-grid2">
+            <div class="mm-panel"><div class="mm-ph"><h2>Federal footprint</h2><span class="mm-count" id="fedcount"></span></div><div class="mm-hist" id="federal"></div></div>
+            <div class="mm-panel"><div class="mm-ph"><h2>Capabilities</h2><span class="mm-count">click to filter · gap = one or none</span></div><div class="mm-hist" id="caps"></div></div>
+          </div>
+            <div class="mm-panel"><div class="mm-ph"><h2>Timeline</h2><span class="mm-count" id="evcount"></span></div><div class="mm-evbar" id="evkinds"></div><div class="mm-years" id="evyears"></div><div class="mm-events" id="events"></div></div>
+          </div>
+          <div class="mm-tabpanel" id="tab-occupations" role="tabpanel" aria-labelledby="t-occupations" hidden>
+          <div class="mm-panel mm-work"><div class="mm-ph"><h2>Workforce</h2><span class="mm-count" id="worknote"></span></div>
+            <div class="mm-segbar"><div class="mm-seg" role="group" aria-label="Workforce view"><button type="button" data-wv="spec" aria-pressed="true">Specialization</button><button type="button" data-wv="occ" aria-pressed="false">Occupations</button><button type="button" data-wv="month" aria-pressed="false">Latest month</button></div></div>
+            <div class="mm-workbody" id="work"></div></div>
+            <div class="mm-panel"><div class="mm-ph"><h2>Manufacturing employment</h2><span class="mm-count" id="qcewnote"></span></div>
+              <div class="mm-segbar"><div class="mm-seg" role="group" aria-label="Employment view"><button type="button" data-qv="county" aria-pressed="true">By county</button><button type="button" data-qv="sector" aria-pressed="false">By sector</button></div>
+                <div class="mm-seg" role="group" aria-label="Employment scale"><button type="button" data-qs="abs" aria-pressed="true">Employees</button><button type="button" data-qs="idx" aria-pressed="false">Indexed</button></div></div>
+              <div class="mm-chart" id="qcew"></div></div>
+          <div class="mm-panel mm-occhelp" id="occhelp"><div class="mm-ph"><h2>Occupations: where humanoids could help</h2><span class="mm-count">local jobs and the work a humanoid could take on</span></div>
+            <div class="mm-workbody" id="occ-help"></div></div>
+          </div>
+          <div class="mm-tabpanel" id="tab-readiness" role="tabpanel" aria-labelledby="t-readiness" hidden>
           <div class="mm-panel mm-opp" id="opportunity"><div class="mm-ph"><h2>Physical-AI opportunity</h2><span class="mm-count">the region against the U.S. average (= 100)</span></div>
             <div class="mm-workbody" id="opp"></div></div>
+          <div class="mm-panel mm-cmp" id="comparison"><div class="mm-ph"><h2>Region comparison</h2><span class="mm-count" id="cmpnote">the same index for similar regions, U.S. = 100</span></div>
+            <div class="mm-workbody" id="cmp"></div></div>
+          </div>
+          <div class="mm-tabpanel" id="tab-humanoid" role="tabpanel" aria-labelledby="t-humanoid" hidden>
           <div class="mm-panel mm-hum" id="humanoid"><div class="mm-ph"><h2>Humanoid supply chain</h2><span class="mm-count">which parts of a humanoid robot local companies could make</span></div>
             <div class="mm-segbar"><div class="mm-seg" role="group" aria-label="Count suppliers"><button type="button" data-hb="related" aria-pressed="true">Related capability</button><button type="button" data-hb="available" aria-pressed="false">Available now</button></div></div>
             <div class="mm-workbody" id="hum"></div><div class="mm-tip" id="htip"></div></div>
+          </div>
           <p class="mm-foot" id="foot"></p>
         </div>
       </div>

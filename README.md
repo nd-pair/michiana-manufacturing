@@ -88,7 +88,12 @@ metros, state labels and the campus landmark in `data/places.toml`.
 
 ## Layers and panels
 
-Beyond the map, the page carries:
+The page has four tabs, each with its own link (`#tab=occupations`, `#tab=readiness`,
+`#tab=humanoid`): **Companies** (the map, sectors, products, roster, federal footprint, capabilities
+and timeline), **Occupations** (workforce, manufacturing employment and the occupations humanoids
+could help), **Physical AI readiness** (the opportunity index and the region comparison) and
+**Humanoid supply chain**. Filters carry across tabs, and a company named on another tab opens on the map.
+Without WebGL the map shows a notice and everything else still works. The page carries:
 
 - **Federal footprint.** Procurement contracts and grants since FY2016 for every company, from
   USAspending.gov, matched by recipient name, plus the region-wide totals by awarding agency.
@@ -128,8 +133,8 @@ Beyond the map, the page carries:
 - **Humanoid supply chain.** The goal is to make Michiana a hub for manufacturing physical AI,
   from motors and sensors to full humanoids. [`data/humanoid.toml`](data/humanoid.toml) lists the
   20 components of a full-size humanoid, each with a body region, a rough share of its cost and
-  rules that match local companies by industry code or product description. The panel at the bottom
-  of the map draws a humanoid with each region shaded by the depth of local supply, counting either
+  rules that match local companies by industry code or product description. The Humanoid supply chain tab
+  draws a humanoid with each region shaded by the depth of local supply, counting either
   every company with a related capability (the potential) or what is available now: for
   build-to-print parts (machined, cast, stamped and molded parts, harnesses, board assembly) any
   capable contract shop, for the rest only companies confirmed to make the part. Tiles give the share of a humanoid's cost with two or more local
@@ -139,7 +144,7 @@ Beyond the map, the page carries:
   `humanoid = [...]` and `humanoid_evidence = "confirmed"` with a `humanoid_note` to its file.
   Milestones (first local actuator line, first assembled humanoid) go in
   [`data/milestones.toml`](data/milestones.toml) and appear on the timeline.
-- **Physical-AI Opportunity Index.** A panel above the humanoid one scores where humanoid robots
+- **Physical-AI Opportunity Index.** The Physical AI readiness tab scores where humanoid robots
   could make local manufacturers more competitive, not where they would replace people. Six
   pillars compare the region with the U.S. (= 100): *task fit* (local jobs weighted by how much of
   the work is handling parts, repetitive motion, awkward postures and hazards, from O*NET),
@@ -153,10 +158,11 @@ Beyond the map, the page carries:
   [`data/opportunity.toml`](data/opportunity.toml); `scripts/pull_workforce.py` pulls O*NET,
   the Census Bureau's Quarterly Workforce Indicators (bulk files, no key) and BEA county GDP; the
   index is saved monthly with the humanoid figures in `data/progress.json`.
-- **Comparison regions (not shown on the site).** `scripts/compare_regions.py` scores the same index,
+- **Region comparison.** `scripts/compare_regions.py` scores the same index,
   with the same method and U.S. benchmarks, for the regions in [`data/regions.toml`](data/regions.toml)
   (ten metros of similar size with a well-known university, plus Michiana) and keeps the ranking, the
-  pillars and a monthly history in `data/comparison.json`. It runs in the monthly refresh after the
+  pillars and a monthly history in `data/comparison.json`, shown as a table at the bottom of the
+  Physical AI readiness tab. It runs in the monthly refresh after the
   other pulls; inputs that change yearly or quarterly (occupations, Census QWI) are fetched again only
   when a new release is out. The BLS API key (`BLS_API_KEY` secret) keeps it within the BLS limits.
 - **Notre Dame research.** `scripts/pull_nd_research.py` reads every federal grant, cooperative

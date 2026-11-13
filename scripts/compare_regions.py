@@ -6,7 +6,7 @@
 
 Same pillars, parts, weights and U.S. benchmarks as the map (scripts/opportunity.py, data/opportunity.toml),
 so run it after pull_qcew.py, pull_bls.py and pull_workforce.py, whose files it reads for the U.S. side.
-Not shown on the site.
+Shown at the bottom of the site's Physical AI readiness tab.
 
 Sources and how often they are fetched:
 - QCEW (data.bls.gov/cew, no API limit): county manufacturing jobs, establishments and pay, by 6-digit
@@ -290,7 +290,7 @@ def main(offline=False):
     month = datetime.date.today().strftime("%Y-%m")
     history = old.get("history") or {}
     history[month] = {n: {"index": v["index"], "pillars": v["pillars"]} for n, v in results.items()}
-    out = {"note": "Comparison of the Physical-AI Opportunity Index across data/regions.toml, same method as the map; not shown on the site.",
+    out = {"note": "Comparison of the Physical-AI Opportunity Index across data/regions.toml, same method as the map; shown on the Physical AI readiness tab.",
            "updated": datetime.date.today().isoformat(), "log": log,
            "inputs": {"qcew_year": Y, "prosperity_span": [str(int(Y) - 5), Y], "value_added_year": vy, "oews_year": str(bls["occupations"].get("year")),
                       "unemployment_us_month": bls["laus"]["us_rate"][-1][0], "unemployment_county_months": sorted({v.get("month") for v in laus.values() if v.get("month")}),
