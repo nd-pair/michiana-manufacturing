@@ -10,6 +10,9 @@ lat = 41.72254
 lon = -86.34344
 website = "https://schaferindustries.com"
 
+humanoid = ["reducers"]
+humanoid_note = "Same South Bend gear works as Schafer Gear Works; precision gears and spline shafts, also for aerospace."
+
 sector = "Metal"
 products = ["Gears & splines", "Aerospace machining"]
 

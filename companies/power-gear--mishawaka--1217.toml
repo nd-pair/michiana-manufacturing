@@ -10,6 +10,10 @@ lat = 41.65597
 lon = -86.16039
 website = "https://powergearus.com"
 
+humanoid = ["screws"]
+humanoid_not = ["reducers"]
+humanoid_note = "Lippert's Power Gear designs RV leveling and slide-out linear actuators; at least one Power Gear actuator motor is made in China (lippert.com listing, November 2026)."
+
 sector = "Mechatronics & automation"
 products = ["Pump and Pumping Equipment Manufacturing"]
 naics = "333911"

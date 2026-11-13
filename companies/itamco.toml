@@ -11,6 +11,9 @@ lon = -86.31256
 website = "https://www.itamco.com"
 uei = "G75GHR5MLBX3"
 
+humanoid = ["reducers", "machining"]
+humanoid_note = "Designs, builds, assembles and tests precision gear drives and gearboxes, including for electric vehicles; additive manufacturing. Gearboxes up to 160,000 lb, so robot-scale reducers would be a new line (company site, November 2026)."
+
 sector = "Metal"
 products = ["Gears & splines", "Additive manufacturing (DMLS)", "Aerospace machining"]
 

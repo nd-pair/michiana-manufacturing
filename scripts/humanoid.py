@@ -52,7 +52,9 @@ def coverage(spec, companies):
             if o.get("hum_ev") == "confirmed":
                 comp[k]["confirmed"].add(o["group"])
     cost = {c["id"]: c["cost"] for c in spec["component"]}
+    for c in spec["component"]:   # build-to-print parts: any capable contract shop is available
+        comp[c["id"]]["available"] = comp[c["id"]]["all"] if c.get("build_to_print") else comp[c["id"]]["confirmed"]
     share = lambda key, lo, hi=10**9: sum(cost[k] for k, v in comp.items() if lo <= len(v[key]) <= hi)
-    return {"two_plus": share("all", 2), "one": share("all", 1, 1), "confirmed_two_plus": share("confirmed", 2),
+    return {"two_plus": share("all", 2), "one": share("all", 1, 1), "available_two_plus": share("available", 2), "confirmed_two_plus": share("confirmed", 2),
             "gaps": sum(1 for v in comp.values() if not v["all"]), "components": len(comp),
             "suppliers": len({o["group"] for o in companies if o.get("hum")})}

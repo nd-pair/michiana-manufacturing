@@ -10,6 +10,9 @@ lat = 41.72674
 lon = -86.00114
 website = "https://gillettegenerators.com"
 
+humanoid_not = ["motors"]
+humanoid_note = "Assembles generators, not motors for robots."
+
 sector = "Electronics"
 products = ["Motor and Generator Manufacturing"]
 naics = "335312"

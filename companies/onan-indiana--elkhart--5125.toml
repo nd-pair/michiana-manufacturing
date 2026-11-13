@@ -10,6 +10,9 @@ lat = 41.69354
 lon = -85.89133
 website = "https://onanindiana.com"
 
+humanoid_not = ["motors"]
+humanoid_note = "Generator plant, not motors for robots."
+
 sector = "Electronics"
 products = ["Motor and Generator Manufacturing"]
 naics = "335312"

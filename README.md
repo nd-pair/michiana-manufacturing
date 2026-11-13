@@ -126,11 +126,12 @@ Beyond the map, the page carries:
   from the QCEW area files, folded into the map's sectors) and between head counts and an index.
 - **Humanoid supply chain.** The goal is to make Michiana a hub for manufacturing physical AI,
   from motors and sensors to full humanoids. [`data/humanoid.toml`](data/humanoid.toml) lists the
-  19 components of a full-size humanoid, each with a body region, a rough share of its cost and
+  20 components of a full-size humanoid, each with a body region, a rough share of its cost and
   rules that match local companies by industry code or product description. The panel at the bottom
   of the map draws a humanoid with each region shaded by the depth of local supply, counting either
-  confirmed suppliers (the progress measure, which starts at zero) or every company with a related
-  capability (the potential). Tiles give the share of a humanoid's cost with two or more local
+  every company with a related capability (the potential) or what is available now: for
+  build-to-print parts (machined, cast, stamped and molded parts, harnesses, board assembly) any
+  capable contract shop, for the rest only companies confirmed to make the part. Tiles give the share of a humanoid's cost with two or more local
   suppliers in each view, the number of companies, robotics-related federal and SBIR awards by year,
   and the monthly trend: every build saves the current month's figures to `data/progress.json`.
   Clicking a region or component filters the map and roster. To confirm a supplier, add

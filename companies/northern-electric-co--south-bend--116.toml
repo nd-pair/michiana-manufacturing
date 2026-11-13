@@ -10,6 +10,9 @@ lat = 41.67688
 lon = -86.24249
 website = "https://northernelectricco.com"
 
+humanoid = ["motors", "reducers", "drivers"]
+humanoid_note = "Rebuilds servo and robot motors, gear reducers and AC/DC drives in a dedicated servo and robotic motor department; a service shop that knows robot actuators, not a motor maker (company site, November 2026)."
+
 sector = "Electronics"
 products = ["Relay and Industrial Control Manufacturing"]
 naics = "335314"

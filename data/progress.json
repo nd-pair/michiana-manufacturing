@@ -1,10 +1,11 @@
 {
  "2026-11": {
-  "two_plus": 99,
+  "two_plus": 92,
   "one": 1,
+  "available_two_plus": 19,
   "confirmed_two_plus": 0,
-  "gaps": 0,
-  "components": 19,
-  "suppliers": 400
+  "gaps": 1,
+  "components": 20,
+  "suppliers": 395
  }
 }

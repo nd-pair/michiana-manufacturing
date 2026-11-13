@@ -10,6 +10,9 @@ lat = 41.36385
 lon = -86.37637
 website = "https://kayind.com"
 
+humanoid_not = ["motors"]
+humanoid_note = "Makes rotary and static phase converters, not motors for robots."
+
 sector = "Electronics"
 products = ["Motor and Generator Manufacturing"]
 naics = "335312"

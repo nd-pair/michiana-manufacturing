@@ -10,6 +10,9 @@ lat = 42.08000
 lon = -86.40075
 website = "https://gastmfg.com"
 
+humanoid_not = ["motors"]
+humanoid_note = "Makes air motors, vacuum pumps and compressors, not electric motors."
+
 sector = "Mechatronics & automation"
 products = ["Air and Gas Compressor Manufacturing"]
 naics = "333912"

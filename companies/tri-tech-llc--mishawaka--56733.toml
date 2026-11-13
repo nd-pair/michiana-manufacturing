@@ -12,6 +12,9 @@ lon = -86.12854
 website = "https://www.kendrion.com"
 status_note = "Kendrion bought Tri-Tech in 2008."
 
+humanoid = ["motors", "screws"]
+humanoid_note = "Designs and builds custom solenoids, electromagnetic actuators and encapsulated coils; Kendrion also sells precision brakes and electromagnetic end effectors for robots, though not confirmed from Mishawaka (kendrion.com, November 2026)."
+
 sector = "Electronics"
 products = ["Other Electronic Component Manufacturing"]
 naics = "334419"

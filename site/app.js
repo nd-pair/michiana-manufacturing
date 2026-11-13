@@ -345,7 +345,7 @@ function renderQcew(){const el=document.getElementById("qcew");document.querySel
 const TIERS=["no supplier","one supplier","2–4 suppliers","5 or more"],tierOf=n=>n===0?0:n===1?1:n<5?2:3;
 function humStats(){const comp={};for(const k of Object.keys(HCOMP))comp[k]={all:new Map(),conf:new Map()};
   for(const c of C)for(const k of c.hum){const g=groupOf(c),e=comp[k];if(!e)continue;if(!e.all.has(g.id))e.all.set(g.id,{g,c});if(c.hum_ev==="confirmed"&&!e.conf.has(g.id))e.conf.set(g.id,{g,c})}
-  for(const [k,e] of Object.entries(comp)){e.n=e.all.size;e.nc=e.conf.size;e.top=[...e.all.values()].sort((a,b)=>(empSum(b.g.sites)||0)-(empSum(a.g.sites)||0)).slice(0,3)}
+  for(const [k,e] of Object.entries(comp)){e.n=e.all.size;e.nc=e.conf.size;e.na=HCOMP[k].build_to_print?e.n:e.nc;e.top=[...e.all.values()].sort((a,b)=>(empSum(b.g.sites)||0)-(empSum(a.g.sites)||0)).slice(0,3)}
   return comp}
 const humSvg=()=>{const R=(g,attrs,label)=>`<rect data-hum="g:${g}" data-hg="${g}" ${attrs} aria-label="${esc(label)}"/>`,J=(x,y,r)=>`<circle data-hum="g:actuators" data-hg="actuators" class="jt" cx="${x}" cy="${y}" r="${r}"/>`;
   return `<svg class="mm-hfig" viewBox="0 0 260 486" role="img" aria-label="Humanoid robot, each region shaded by how many local companies could supply its parts">
@@ -365,35 +365,35 @@ const humSvg=()=>{const R=(g,attrs,label)=>`<rect data-hum="g:${g}" data-hg="${g
   ${J(64,98,13)}${J(196,98,13)}${J(64,183,9)}${J(196,183,9)}${J(64,263,7)}${J(196,263,7)}${J(130,86,7)}${J(130,229,9)}${J(110,272,11)}${J(150,272,11)}${J(110,367,10)}${J(150,367,10)}${J(110,448,8)}${J(150,448,8)}
   </svg>`};
 function renderHumanoid(){const el=document.getElementById("hum");if(!el||!HUM.components.length)return;
-  const S=humStats(),conf=st.hb==="confirmed",n=k=>conf?S[k].nc:S[k].n;
+  const S=humStats(),conf=st.hb==="available",n=k=>conf?S[k].na:S[k].n;
   document.querySelectorAll("[data-hb]").forEach(b=>b.setAttribute("aria-pressed",String(b.dataset.hb===st.hb)));
   /* a group's shade: the cost-weighted tier of its components */
   const gt={};for(const g of HUM.groups){const cs=HUM.components.filter(c=>c.group===g.id),w=cs.reduce((a,c)=>a+c.cost,0);gt[g.id]=Math.round(cs.reduce((a,c)=>a+c.cost*tierOf(n(c.id)),0)/(w||1))}
-  const share=(f,key)=>HUM.components.filter(c=>f(key==="conf"?S[c.id].nc:S[c.id].n)).reduce((a,c)=>a+c.cost,0);
+  const share=(f,key)=>HUM.components.filter(c=>f(key==="avail"?S[c.id].na:S[c.id].n)).reduce((a,c)=>a+c.cost,0);
   const gaps=HUM.components.filter(c=>!S[c.id].n),sup=new Set(C.filter(c=>c.hum.length).map(c=>groupOf(c).id)),supc=new Set(C.filter(c=>c.hum.length&&c.hum_ev==="confirmed").map(c=>groupOf(c).id));
   const fy=Object.entries(HUM.funding||{}).filter(([y])=>+y>=2016),ftot=fy.reduce((a,[,v])=>a+v.amount,0),fmax=Math.max(1,...fy.map(([,v])=>v.amount));
   const prog=Object.entries(HUM.progress||{}),p0=prog[0];
   const tiles=`<div class="mm-htiles">
     <div class="mm-htile"><div class="k">Related local capability</div><div class="v">${share(x=>x>=2,"all")}%</div><div class="s">of the cost has two or more local companies in a related line of work; ${share(x=>x===1,"all")}% has one${gaps.length?`; gap: ${esc(gaps.map(c=>c.name.split(" (")[0].toLowerCase()).join(", "))}`:""}</div></div>
-    <div class="mm-htile"><div class="k">Confirmed local supply</div><div class="v">${share(x=>x>=2,"conf")}%</div><div class="s">of a humanoid's cost has two or more local suppliers that have confirmed they make the part</div></div>
-    <div class="mm-htile"><div class="k">Companies</div><div class="v">${sup.size}</div><div class="s">with a related capability; ${supc.size} confirmed</div></div>
+    <div class="mm-htile"><div class="k">Available now</div><div class="v">${share(x=>x>=2,"avail")}%</div><div class="s">of the cost has two or more local suppliers today: contract shops for build-to-print parts, confirmed makers for the rest</div></div>
+    <div class="mm-htile"><div class="k">Companies</div><div class="v">${sup.size}</div><div class="s">with a related capability; ${supc.size} confirmed for a humanoid part</div></div>
     <div class="mm-htile"><div class="k">Robotics-related awards since 2016</div><div class="v">${fmtUSD(ftot)}</div><div class="mm-hbars">${fy.map(([y,v])=>`<i title="${y}: ${fmtUSD(v.amount)}, ${v.n} award${v.n===1?"":"s"}" style="height:${Math.max(2,Math.round(28*v.amount/fmax))}px"></i>`).join("")}</div><div class="s">federal awards of $250k+ and SBIR/STTR awards mentioning robots, actuators or sensors${fy.length?`, ${fy[0][0]}–${fy[fy.length-1][0]}`:""}</div></div>
-    <div class="mm-htile"><div class="k">Tracking since</div><div class="v">${p0?esc(monthName(p0[0])):"–"}</div><div class="s">${prog.length>1?prog.map(([m,v])=>`${esc(monthName(m))}: ${v.confirmed_two_plus}% confirmed, ${v.two_plus}% related`).slice(-3).join("<br>"):"a snapshot is saved every month; the trend appears from the second month"}</div></div></div>`;
+    <div class="mm-htile"><div class="k">Tracking since</div><div class="v">${p0?esc(monthName(p0[0])):"–"}</div><div class="s">${prog.length>1?prog.map(([m,v])=>`${esc(monthName(m))}: ${v.available_two_plus??v.confirmed_two_plus}% available, ${v.two_plus}% related`).slice(-3).join("<br>"):"a snapshot is saved every month; the trend appears from the second month"}</div></div></div>`;
   const glist=HUM.groups.map(g=>{const cs=HUM.components.filter(c=>c.group===g.id),gp=cs.filter(c=>!n(c.id)).length,w=cs.reduce((a,c)=>a+c.cost,0);
     return `<button type="button" class="mm-hg${st.hum==="g:"+g.id?" on":""}" data-hum="g:${g.id}" data-hg="${g.id}"><i class="sw t${gt[g.id]}"></i><span><b>${esc(g.name)}</b><small>${esc(g.region)} · ${w}% of cost · ${esc(TIERS[gt[g.id]])}${gp?` · ${gp} gap${gp>1?"s":""}`:""}</small></span></button>`}).join("");
-  const rows=HUM.components.map(c=>({id:c.id,name:c.name,group:HGROUP[c.group].name,cost:c.cost,n:S[c.id].n,nc:S[c.id].nc,tier:tierOf(n(c.id)),top:S[c.id].top,toplabel:S[c.id].top.map(t=>t.g.name).join(", ")}));
+  const rows=HUM.components.map(c=>({id:c.id,name:c.name,btp:!!c.build_to_print,group:HGROUP[c.group].name,cost:c.cost,n:S[c.id].n,nc:S[c.id].na,tier:tierOf(n(c.id)),top:S[c.id].top,toplabel:S[c.id].top.map(t=>t.g.name).join(", ")}));
   el.innerHTML=`${tiles}<div class="mm-hmain"><div class="mm-hfigwrap">${humSvg()}<div class="mm-hleg">${TIERS.map((t,i)=>`<span><i class="sw t${i}"></i>${t}</span>`).join("")}</div></div>
-    <div class="mm-hside"><p class="mm-wnote" style="margin-top:0">Each region is shaded by the cost-weighted depth of local supply for its parts${conf?", counting only confirmed suppliers":", counting every company in a related line of work"}. Click a region or a group to show its companies on the map and in the roster.</p>${glist}</div></div>
+    <div class="mm-hside"><p class="mm-wnote" style="margin-top:0">Each region is shaded by the cost-weighted depth of local supply for its parts${conf?", counting contract shops for build-to-print parts and only confirmed makers for the rest":", counting every company in a related line of work"}. Click a region or a group to show its companies on the map and in the roster.</p>${glist}</div></div>
     ${st.hum?`<p class="mm-hfilter">Map and roster show companies for <b>${esc(st.hum[0]==="g"?HGROUP[st.hum.slice(2)].name:HCOMP[st.hum.slice(2)].name)}</b>. <button type="button" class="mm-chip" data-hum="${esc(st.hum)}">Show all companies</button></p>`:""}
-    ${sortTable("hum",[{key:"name",label:"Component",cell:r=>`<button type="button" class="mm-hk${st.hum==="k:"+r.id?" on":""}" data-hum="k:${r.id}">${esc(r.name)}</button>`},{key:"group",label:"Group"},
+    ${sortTable("hum",[{key:"name",label:"Component",cell:r=>`<button type="button" class="mm-hk${st.hum==="k:"+r.id?" on":""}" data-hum="k:${r.id}">${esc(r.name)}</button>${r.btp?' <small class="mm-mut" title="any capable contract shop counts as available">build to print</small>':""}`},{key:"group",label:"Group"},
       {key:"cost",label:"Share of cost",num:true,cell:r=>r.cost+"%"},{key:"n",label:"Related",title:"local companies with a related capability",num:true,cell:r=>String(r.n)},
-      {key:"nc",label:"Confirmed",num:true,cell:r=>String(r.nc)},{key:"tier",label:"Depth",cell:r=>`<span class="mm-ht"><i class="sw t${r.tier}"></i>${esc(TIERS[r.tier])}</span>`},
+      {key:"nc",label:"Available",title:"contract shops for build-to-print parts, confirmed makers for the rest",num:true,cell:r=>String(r.nc)},{key:"tier",label:"Depth",cell:r=>`<span class="mm-ht"><i class="sw t${r.tier}"></i>${esc(TIERS[r.tier])}</span>`},
       {key:"toplabel",label:"Largest related companies",cell:r=>r.top.map(t=>`<button type="button" class="mm-link" data-sel="${t.c.id}">${esc(t.g.sites.length>1?t.g.name:t.c.name)}</button>`).join(", ")||"–"}],rows)}
-    <p class="mm-wnote">Costs are rough shares of a humanoid's bill of materials from public teardown estimates, editable in data/humanoid.toml with the matching rules. "Related" is inferred from industry codes and product descriptions: a company that rebuilds industrial motors counts toward motors, though it may not make humanoid joint motors. A company becomes "confirmed" when its file records that it makes the part (humanoid_evidence = "confirmed").</p>`;
+    <p class="mm-wnote">Costs are rough shares of a humanoid's bill of materials from public teardown estimates, editable in data/humanoid.toml with the matching rules. "Related" is inferred from industry codes and product descriptions: a company that rebuilds industrial motors counts toward motors, though it may not make humanoid joint motors. Parts marked "build to print" are made to the robot maker's drawings, so any capable local contract shop counts as available; other parts count as available only once a company confirms it makes them (humanoid_evidence = "confirmed" in its file).</p>`;
   const fig=el.querySelector(".mm-hfig");fig.querySelectorAll("[data-hg]").forEach(r=>{const g=r.dataset.hg;r.setAttribute("class",(r.getAttribute("class")||"")+" t"+gt[g]+(st.hum==="g:"+g?" on":""))});
   const tip=document.getElementById("htip");
   fig.addEventListener("pointermove",e=>{const r=e.target.closest("[data-hg]");if(!r){tip.style.opacity=0;return}const g=r.dataset.hg,cs=HUM.components.filter(c=>c.group===g);
-    tip.innerHTML=`<b>${esc(HGROUP[g].name)}</b>${esc(HGROUP[g].region)}`+cs.map(c=>`<div class="m">${esc(c.name)}: ${S[c.id].n} related, ${S[c.id].nc} confirmed</div>`).join("")+`<div class="m">click to show them on the map</div>`;
+    tip.innerHTML=`<b>${esc(HGROUP[g].name)}</b>${esc(HGROUP[g].region)}`+cs.map(c=>`<div class="m">${esc(c.name)}: ${S[c.id].n} related, ${S[c.id].na} available${c.build_to_print?" (build to print)":""}</div>`).join("")+`<div class="m">click to show them on the map</div>`;
     const b=el.getBoundingClientRect();tip.style.left=(e.clientX-b.left)+"px";tip.style.top=(e.clientY-b.top)+"px";tip.style.opacity=1});
   fig.addEventListener("pointerleave",()=>{tip.style.opacity=0})}
 /* ---------- workforce: BLS specialization, occupations and the latest month ---------- */

@@ -10,6 +10,9 @@ lat = 41.58893
 lon = -86.89756
 website = "https://tportho.com"
 
+humanoid_not = ["vision"]
+humanoid_note = "Orthodontic products; HIFLD files it under optical instruments and lenses."
+
 sector = "Mechatronics & automation"
 products = ["Optical Instrument and Lens Manufacturing"]
 naics = "333314"
