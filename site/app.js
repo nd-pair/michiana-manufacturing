@@ -429,22 +429,33 @@ function humStats(){const comp={};for(const k of Object.keys(HCOMP))comp[k]={all
   for(const c of C)for(const k of c.hum){const g=groupOf(c),e=comp[k];if(!e)continue;if(!e.all.has(g.id))e.all.set(g.id,{g,c});if(c.hum_ev==="confirmed"&&!e.conf.has(g.id))e.conf.set(g.id,{g,c})}
   for(const [k,e] of Object.entries(comp)){e.n=e.all.size;e.nc=e.conf.size;e.na=HCOMP[k].build_to_print?e.n:e.nc;e.top=[...e.all.values()].sort((a,b)=>(empSum(b.g.sites)||0)-(empSum(a.g.sites)||0)).slice(0,3)}
   return comp}
-const humSvg=()=>{const R=(g,attrs,label)=>`<rect data-hum="g:${g}" data-hg="${g}" ${attrs} aria-label="${esc(label)}"/>`,J=(x,y,r)=>`<circle data-hum="g:actuators" data-hg="actuators" class="jt" cx="${x}" cy="${y}" r="${r}"/>`;
+/* the figure: one path per body segment (left side drawn, right side mirrored), seams for detail; seams take a contrasting shade of their segment's tier */
+const humSvg=()=>{const mir=d=>d.replace(/(-?[\d.]+),(-?[\d.]+)/g,(m,x,y)=>(260-x)+","+y),
+    P=(g,d,label)=>`<path data-hum="g:${g}" data-hg="${g}" d="${d}" aria-label="${esc(label)}"/>`,P2=(g,d,label)=>P(g,d,label)+P(g,mir(d),label),
+    S=(g,d)=>`<path data-sg="${g}" class="seam" d="${d}"/>`,S2=(g,d)=>S(g,d)+S(g,mir(d)),
+    J=(x,y,r)=>`<circle data-hum="g:actuators" data-hg="actuators" class="jt" cx="${x}" cy="${y}" r="${r}"/><circle class="jc" cx="${x}" cy="${y}" r="${(r*.42).toFixed(1)}"/>`,J2=(x,y,r)=>J(x,y,r)+J(260-x,y,r);
   return `<svg class="mm-hfig" viewBox="0 0 260 486" role="img" aria-label="Humanoid robot, each region shaded by how many local companies could supply its parts">
   <defs><pattern id="hhatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="6" class="hh"/></pattern></defs>
-  ${R("integration",'class="plate" x="56" y="470" width="148" height="10" rx="3"',"Integration and test: the whole robot")}
-  ${R("perception",'x="104" y="10" width="52" height="60" rx="20"',"Head: perception")}<rect class="visor" x="111" y="30" width="38" height="13" rx="6" pointer-events="none"/>
-  ${R("structure",'x="122" y="70" width="16" height="14"',"Neck: structure")}
-  <path data-hum="g:compute" data-hg="compute" d="M84,92 L176,92 L168,178 L92,178 Z" aria-label="Chest: compute and electronics"/>
-  ${R("power",'x="96" y="182" width="68" height="44" rx="8"',"Abdomen: power")}
-  <path data-hum="g:structure" data-hg="structure" d="M92,232 L168,232 L158,266 L102,266 Z" aria-label="Pelvis: structure"/>
-  ${R("structure",'x="52" y="98" width="24" height="80" rx="10"',"Upper arm: structure")}${R("structure",'x="184" y="98" width="24" height="80" rx="10"',"Upper arm: structure")}
-  ${R("structure",'x="54" y="188" width="20" height="70" rx="9"',"Forearm: structure")}${R("structure",'x="186" y="188" width="20" height="70" rx="9"',"Forearm: structure")}
-  ${R("hands",'x="50" y="268" width="28" height="36" rx="9"',"Hand")}${R("hands",'x="182" y="268" width="28" height="36" rx="9"',"Hand")}
-  ${R("structure",'x="96" y="278" width="28" height="84" rx="11"',"Thigh: structure")}${R("structure",'x="136" y="278" width="28" height="84" rx="11"',"Thigh: structure")}
-  ${R("structure",'x="98" y="372" width="24" height="72" rx="10"',"Shin: structure")}${R("structure",'x="138" y="372" width="24" height="72" rx="10"',"Shin: structure")}
-  ${R("hands",'x="88" y="452" width="40" height="14" rx="6"',"Foot: force sensing")}${R("hands",'x="132" y="452" width="40" height="14" rx="6"',"Foot: force sensing")}
-  ${J(64,98,13)}${J(196,98,13)}${J(64,183,9)}${J(196,183,9)}${J(64,263,7)}${J(196,263,7)}${J(130,86,7)}${J(130,229,9)}${J(110,272,11)}${J(150,272,11)}${J(110,367,10)}${J(150,367,10)}${J(110,448,8)}${J(150,448,8)}
+  <rect data-hum="g:integration" data-hg="integration" class="plate" x="56" y="470" width="148" height="10" rx="3" aria-label="Integration and test: the whole robot"/>
+  ${S("integration","M70,475 L190,475")}
+  ${P("perception","M130,8 C151,8 161,22 161,40 L161,53 C161,64 151,73 139,75 L121,75 C109,73 99,64 99,53 L99,40 C99,22 109,8 130,8 Z","Head: perception")}
+  ${P2("perception","M99,33 L95,34 C92,35 91,38 91,41 L91,49 C91,52 92,54 95,55 L99,56 Z","Head: perception, side sensor")}
+  ${S("perception","M112,16 C122,12 138,12 148,16")}${S("perception","M118,62 L142,62")}${S("perception","M121,67 L139,67")}
+  ${P("structure","M122,75 L138,75 L141,91 L119,91 Z","Neck: structure")}${S2("structure","M126,77 L125,89")}
+  ${P("compute","M88,96 C100,92 113,90 121,90 L139,90 C147,90 160,92 172,96 C178,98 180,104 178,111 L172,150 C170,166 160,176 148,178 L112,178 C100,176 90,166 88,150 L82,111 C80,104 82,98 88,96 Z","Chest: compute and electronics")}
+  ${S("compute","M98,116 C110,126 121,127 130,122 C139,127 150,126 162,116")}${S("compute","M130,122 L130,170")}${S2("compute","M108,146 L120,146 M108,152 L120,152 M108,158 L120,158")}
+  ${P("power","M98,182 L162,182 C166,182 168,184 167,188 L164,222 C164,225 162,226 159,226 L101,226 C98,226 96,225 96,222 L93,188 C92,184 94,182 98,182 Z","Abdomen: power")}
+  ${S("power","M97,197 L163,197")}${S("power","M98,211 L162,211")}${S2("power","M114,184 L114,224")}
+  ${P("structure","M96,232 L164,232 C168,232 170,235 169,239 L160,264 C159,267 156,268 153,268 L107,268 C104,268 101,267 100,264 L91,239 C90,235 92,232 96,232 Z","Pelvis: structure")}
+  ${S("structure","M114,240 L130,259 L146,240")}
+  ${P2("structure","M51,106 C51,96 77,96 77,106 C79,130 76,150 73,172 C72,178 57,178 56,172 C53,150 49,130 51,106 Z","Upper arm: structure")}${S2("structure","M57,150 C62,153 67,153 72,150")}
+  ${P2("structure","M53,192 C53,185 75,185 75,192 C76,215 72,240 70,256 C69,260 59,260 58,256 C56,240 52,215 53,192 Z","Forearm: structure")}${S2("structure","M56,225 C61,228 67,228 72,225")}
+  ${P2("hands","M54,268 L74,268 C77,268 78,270 78,273 L78,280 C82,281 85,284 84,289 C83,292 80,292 78,291 L77,294 L76,302 C76,305 71,305 71,302 L70,296 L69,305 C69,308 64,308 64,305 L63,297 L62,306 C62,309 57,309 57,306 L56,297 L55,303 C55,306 50,306 50,303 L51,292 L52,273 C52,270 53,268 54,268 Z","Hand")}${S2("hands","M53,289 L77,289")}
+  ${P2("structure","M95,285 C95,276 125,276 125,285 C126,310 123,340 121,358 C120,364 100,364 99,358 C96,340 93,310 95,285 Z","Thigh: structure")}${S2("structure","M101,330 C107,334 113,334 119,330")}
+  ${P2("structure","M98,377 C98,370 122,370 122,377 C123,400 120,425 118,442 C117,446 103,446 102,442 C98,425 95,400 98,377 Z","Shin: structure")}${S2("structure","M101,400 C102,415 104,428 106,438")}
+  ${P2("hands","M98,454 L122,454 C126,455 128,458 129,462 L130,466 L88,466 L89,462 C90,458 94,455 98,454 Z","Foot: force sensing")}${S2("hands","M91,461 L127,461")}
+  <path class="visor" d="M105,31 C117,27 143,27 155,31 L155,42 C143,46 117,46 105,42 Z" pointer-events="none"/><circle class="eye" cx="117" cy="36.5" r="2.2"/><circle class="eye" cx="143" cy="36.5" r="2.2"/>
+  ${J2(64,99,13)}${J2(64,182,9)}${J2(64,263,7)}${J(130,84,7)}${J(130,229,9)}${J2(110,272,11)}${J2(110,366,10)}${J2(110,448,8)}
   </svg>`};
 function renderHumanoid(){const el=document.getElementById("hum");if(!el||!HUM.components.length)return;
   const S=humStats(),conf=st.hb==="available",n=k=>conf?S[k].na:S[k].n;
@@ -472,7 +483,7 @@ function renderHumanoid(){const el=document.getElementById("hum");if(!el||!HUM.c
       {key:"nc",label:"Available",title:"contract shops for build-to-print parts, confirmed makers for the rest",num:true,cell:r=>String(r.nc)},{key:"tier",label:"Depth",cell:r=>`<span class="mm-ht"><i class="sw t${r.tier}"></i>${esc(TIERS[r.tier])}</span>`},
       {key:"toplabel",label:"Largest related companies",cell:r=>r.top.map(t=>`<button type="button" class="mm-link" data-sel="${t.c.id}">${esc(t.g.sites.length>1?t.g.name:t.c.name)}</button>`).join(", ")||"–"}],rows)}
     <p class="mm-wnote">Costs are rough shares of a humanoid's bill of materials from public teardown estimates, editable in data/humanoid.toml with the matching rules. "Related" is inferred from industry codes and product descriptions: a company that rebuilds industrial motors counts toward motors, though it may not make humanoid joint motors. Parts marked "build to print" are made to the robot maker's drawings, so any capable local contract shop counts as available; other parts count as available only once a company confirms it makes them (humanoid_evidence = "confirmed" in its file).</p>`;
-  const fig=el.querySelector(".mm-hfig");fig.querySelectorAll("[data-hg]").forEach(r=>{const g=r.dataset.hg;r.setAttribute("class",(r.getAttribute("class")||"")+" t"+gt[g]+(st.hum==="g:"+g?" on":""))});
+  const fig=el.querySelector(".mm-hfig");fig.querySelectorAll("[data-sg]").forEach(r=>r.setAttribute("class","seam s"+gt[r.dataset.sg]));fig.querySelectorAll("[data-hg]").forEach(r=>{const g=r.dataset.hg;r.setAttribute("class",(r.getAttribute("class")||"")+" t"+gt[g]+(st.hum==="g:"+g?" on":""))});
   const tip=document.getElementById("htip");
   fig.addEventListener("pointermove",e=>{const r=e.target.closest("[data-hg]");if(!r){tip.style.opacity=0;return}const g=r.dataset.hg,cs=HUM.components.filter(c=>c.group===g);
     tip.innerHTML=`<b>${esc(HGROUP[g].name)}</b>${esc(HGROUP[g].region)}`+cs.map(c=>`<div class="m">${esc(c.name)}: ${S[c.id].n} related, ${S[c.id].na} available${c.build_to_print?" (build to print)":""}</div>`).join("")+`<div class="m">click to show them on the map</div>`;
