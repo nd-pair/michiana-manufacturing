@@ -132,7 +132,20 @@ def create(client, kw, prompt_has_json):
                     return client.beta.messages.create(betas=["server-side-fallback-2026-07-01"], extra_body={"fallbacks": "default"}, **req)
             return client.messages.create(**req)
         except anthropic.BadRequestError as e:
-            print("  request rejected (%s): %s" % (VARIANTS[_variant[0]], getattr(e, "message", e)))
+            msg = str(getattr(e, "message", e))
+            blocked = re.search(r"not accessible to our user agent: \[([^\]]*)\]", msg)
+            if blocked:
+                # sites that block Anthropic's crawler cannot be searched or read: drop them for this run and retry
+                names = re.findall(r"'([^']+)'", blocked.group(1))
+                allowed = kw["tools"][0]["allowed_domains"]     # the trusted list itself, shared by both tools
+                gone = [d for d in names if d in allowed]
+                if not gone:
+                    raise
+                for d in gone:
+                    allowed.remove(d)
+                print("  dropped for this run, they block Anthropic's crawler: %s" % ", ".join(gone))
+                continue
+            print("  request rejected (%s): %s" % (VARIANTS[_variant[0]], msg))
             if _variant[0] + 1 >= len(VARIANTS):
                 raise
             _variant[0] += 1
