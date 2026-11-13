@@ -1,7 +1,7 @@
 # Michiana Manufacturing
 
 An interactive map of the manufacturing and technology companies of the South Bend–Elkhart region,
-by the [Physical AI and Robotics Initiative](https://nd-pair.github.io/web/) at the University of
+by the [Correll Lab](https://correlllab.nd.edu) at the University of
 Notre Dame.
 
 **Live:** https://nd-pair.github.io/michiana-manufacturing/
