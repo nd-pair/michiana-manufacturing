@@ -343,7 +343,8 @@ function renderQcew(){const el=document.getElementById("qcew");document.querySel
   document.getElementById("qcewnote").textContent=`BLS QCEW, private, ${y0}–${y1}${st.qv==="sector"?" · lower bound, withheld cells":""}${st.qs==="idx"?" · "+y0+" = 100":""}`}
 /* ---------- physical-AI opportunity index: every part against the U.S. (= 100) ---------- */
 const GRADES=[["A",150],["B",125],["C",105],["D",95],["E",80],["F",60],["G",-Infinity]],grade=v=>v==null?null:GRADES.find(([,t])=>v>=t)[0];
-const gbadge=v=>{const g=grade(v);return g?`<span class="mm-grade g${g}" title="grade ${g}: ${Math.round(v)} against the U.S. at 100">${g}</span>`:""};
+const BAND=["far ahead of the U.S.","well ahead of the U.S.","ahead of the U.S.","about the U.S. level","behind the U.S.","well behind the U.S.","far behind the U.S."],
+  gbadge=v=>{const g=grade(v);if(!g)return "";const t=`${Math.round(v)}: ${BAND[GRADES.findIndex(x=>x[0]===g)]} (U.S. = 100)`;return `<span class="mm-gsw g${g}" role="img" aria-label="${t}" title="${t}"></span>`};
 /* Notre Dame's physical-AI research awards (federal prime awards and subawards) */
 function ndResearch(){const R=DATA.ndResearch;if(!R||!R.awards||!R.awards.length)return "";
   const A=R.awards,tot=A.reduce((a,x)=>a+x.amount,0),today=new Date().toISOString().slice(0,10),active=A.filter(x=>x.end&&x.end>=today),
@@ -388,7 +389,7 @@ function renderOpportunity(){const el=document.getElementById("opp"),O=DATA.oppo
     <div class="mm-opills">${O.pillars.map(p=>`<div class="mm-opill"><div class="hd"><b>${esc(p.name)}</b>${bar(p.score)}</div><div class="w">${esc(p.what)}</div>
       ${(()=>{const hp=phist(p);return hp.filter(([,v])=>v!=null).length>1?`<div class="mm-ohist">${histSpark(hp,220,38)}<span class="mm-olab">${span(hp)}</span></div>`:`<div class="mm-ohist"><span class="mm-mut">history starts with monthly tracking</span></div>`})()}
       ${p.parts.map((x,i)=>`<div class="pt"><span>${esc(x.name)}${x.note?` <small class="mm-mut">${esc(x.note)}</small>`:""}</span>${histSpark(xhist(p,i),84,22)}<span class="nums">${fmt(x.local,x.unit)}${x.us!=null?` <small class="mm-mut">vs U.S. ${fmt(x.us,x.unit)}</small>`:""}${x.score!=null?` <b>${Math.round(x.score)}</b> ${gbadge(x.score)}`:""}</span></div>`).join("")}</div>`).join("")}</div>
-    <div class="mm-gleg">${GRADES.map(([g,t],i)=>`<span><span class="mm-grade g${g}">${g}</span>${i===0?"150 or more":i===GRADES.length-1?"under 60":t+"–"+(GRADES[i-1][1]-1)}</span>`).join("")}<span class="mm-mut">score against the U.S. average of 100 · orange and red: areas that need work</span></div>
+    <div class="mm-gleg">${GRADES.map(([g,t],i)=>`<span title="${BAND[i]}"><span class="mm-gsw g${g}"></span>${i===0?"150 or more":i===GRADES.length-1?"under 60":t+"–"+(GRADES[i-1][1]-1)}</span>`).join("")}<span class="mm-mut">score against the U.S. average of 100 · yellow is about the U.S. level; orange and red: areas that need work</span></div>
     ${ndResearch()}
     <h3 class="mm-wh" style="margin-top:14px">Occupations: where humanoids could help</h3>
     ${sortTable("opp",[{key:"name",label:"Occupation",cell:r=>`<b>${esc(r.name)}</b>${r.readiness?' <small class="mm-mut">deploys automation</small>':""}`},
