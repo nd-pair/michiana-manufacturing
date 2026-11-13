@@ -10,7 +10,7 @@ site/. The GitHub Action runs the same command on every push.
 Needs Python 3.11 or newer (for tomllib); nothing else.
 """
 import datetime, json, os, sys, tomllib, shutil, re, hashlib
-import humanoid
+import humanoid, opportunity
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 P = lambda *a: os.path.join(ROOT, *a)
@@ -205,6 +205,7 @@ def main():
             return {"companies": {}}
     federal, fda, qcew, sbir, patents = sidecar("federal.json"), sidecar("fda.json"), sidecar("qcew.json"), sidecar("sbir.json"), sidecar("patents.json")
     bls = sidecar("bls.json")
+    qwi, bea, taskfit = sidecar("qwi.json"), sidecar("bea.json"), sidecar("task_fit.json")
     for o in companies:
         f = federal["companies"].get(o["id"]); o["federal"] = {"contracts": f["contracts"], "grants": f["grants"], "total": f["total"]} if f else None
         sb = sbir["companies"].get(o["id"]); o["sbir"] = {"count": sb["count"], "amount": sb["amount"], "agencies": sb.get("agencies", [])} if sb else None
@@ -244,6 +245,8 @@ def main():
                        "amount": None, "source": m.get("source", "")})
     events.sort(key=lambda e: e["date"], reverse=True)
     hcov = humanoid.coverage(hspec, companies)
+    opp = opportunity.compute(bls, qcew, qwi, bea, taskfit, hcov["available_two_plus"])
+    hcov["index"] = opp["index"]
     progress_path = P("data", "progress.json")
     try:
         progress = json.load(open(progress_path))
@@ -274,6 +277,7 @@ def main():
         "qcewSectors": qcew.get("sectors", {}), "qcewPulled": qcew.get("pulled", ""),
         "humanoid": {"groups": hspec["group"], "components": [{k: v for k, v in c.items() if not k.startswith("_") and k not in ("patterns", "exclude", "exclude_naics", "naics")} for c in hspec["component"]],
                      "funding": humanoid.funding(events), "progress": progress},
+        "opportunity": opp,
         "qcewSpec": qcew.get("specialization", {}), "bls": {k: bls.get(k) for k in ("occupations", "ces", "laus", "pulled") if bls.get(k)},
         "sbirPulled": sbir.get("pulled", ""), "fdaPulled": fda.get("pulled", ""), "patentsPulled": patents.get("pulled", ""),
     }

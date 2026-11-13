@@ -1,0 +1,36 @@
+{
+ "source": "U.S. Census Bureau, LEHD Quarterly Workforce Indicators (private, NAICS 31-33)",
+ "pulled": "2026-11-12",
+ "region": {
+  "age55": 0.2504,
+  "age_quarters": [
+   "2025-Q3",
+   "2025-Q2",
+   "2025-Q1",
+   "2024-Q4"
+  ],
+  "turnover": 0.0606,
+  "turnover_quarters": [
+   "2025-Q1",
+   "2024-Q4",
+   "2024-Q3",
+   "2024-Q2"
+  ]
+ },
+ "us": {
+  "age55": 0.282,
+  "age_quarters": [
+   "2025-Q3",
+   "2025-Q2",
+   "2025-Q1",
+   "2024-Q4"
+  ],
+  "turnover": 0.059,
+  "turnover_quarters": [
+   "2025-Q1",
+   "2024-Q4",
+   "2024-Q3",
+   "2024-Q2"
+  ]
+ }
+}

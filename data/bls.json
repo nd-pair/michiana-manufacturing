@@ -548,6 +548,298 @@
 "emp": 597370.0,
 "median": 48570.0
 }
+},
+{
+"code": "512028",
+"name": "Electrical and electromechanical assemblers",
+"metros": {
+"43780": {
+"emp": 210.0,
+"median": 38050.0
+},
+"21140": {
+"emp": 560.0,
+"median": 38810.0
+},
+"35660": {
+"emp": 50.0,
+"median": 47190.0
+},
+"33140": {
+"emp": 180.0,
+"median": 43390.0
+}
+},
+"us": {
+"emp": 246970.0,
+"median": 45850.0
+}
+},
+{
+"code": "512041",
+"name": "Structural metal fabricators and fitters",
+"metros": {
+"43780": {
+"emp": 130.0,
+"median": 45740.0
+},
+"21140": {
+"emp": 410.0,
+"median": 49960.0
+},
+"35660": {
+"emp": 50.0,
+"median": 45270.0
+}
+},
+"us": {
+"emp": 52360.0,
+"median": 51330.0
+}
+},
+{
+"code": "514081",
+"name": "Multiple machine tool setters and operators",
+"metros": {
+"43780": {
+"emp": 220.0,
+"median": 46560.0
+},
+"21140": {
+"emp": 290.0,
+"median": 47940.0
+},
+"35660": {
+"emp": 170.0,
+"median": 40100.0
+}
+},
+"us": {
+"emp": 124590.0,
+"median": 47180.0
+}
+},
+{
+"code": "514072",
+"name": "Molding and casting machine setters",
+"metros": {
+"43780": {
+"emp": 420.0,
+"median": 37650.0
+},
+"21140": {
+"emp": 530.0,
+"median": 43880.0
+},
+"35660": {
+"emp": 200.0,
+"median": 36600.0
+},
+"33140": {
+"emp": 300.0,
+"median": 45600.0
+}
+},
+"us": {
+"emp": 150470.0,
+"median": 44350.0
+}
+},
+{
+"code": "519124",
+"name": "Coating and painting machine setters",
+"metros": {
+"43780": {
+"emp": 280.0,
+"median": 47870.0
+},
+"21140": {
+"emp": 1400.0,
+"median": 47320.0
+},
+"35660": {
+"emp": 190.0,
+"median": 39200.0
+},
+"33140": {
+"emp": 90.0,
+"median": 46300.0
+}
+},
+"us": {
+"emp": 158740.0,
+"median": 48250.0
+}
+},
+{
+"code": "517011",
+"name": "Cabinetmakers and bench carpenters",
+"metros": {
+"43780": {
+"emp": 130.0,
+"median": 45010.0
+},
+"21140": {
+"emp": 1830.0,
+"median": 46240.0
+}
+},
+"us": {
+"emp": 77170.0,
+"median": 46680.0
+}
+},
+{
+"code": "517042",
+"name": "Woodworking machine setters",
+"metros": {
+"43780": {
+"emp": 180.0,
+"median": 44530.0
+},
+"21140": {
+"emp": 1070.0,
+"median": 44790.0
+},
+"35660": {
+"emp": 40.0,
+"median": 39790.0
+}
+},
+"us": {
+"emp": 61420.0,
+"median": 43380.0
+}
+},
+{
+"code": "519111",
+"name": "Packaging and filling machine operators",
+"metros": {
+"43780": {
+"emp": 230.0,
+"median": 42050.0
+},
+"21140": {
+"emp": 440.0,
+"median": 38510.0
+},
+"35660": {
+"emp": 80.0,
+"median": 37680.0
+},
+"33140": {
+"emp": 390.0,
+"median": 37790.0
+}
+},
+"us": {
+"emp": 379060.0,
+"median": 43220.0
+}
+},
+{
+"code": "519198",
+"name": "Production helpers",
+"metros": {
+"43780": {
+"emp": 80.0,
+"median": 45170.0
+},
+"21140": {
+"emp": 210.0,
+"median": 38490.0
+},
+"35660": {
+"emp": 60.0,
+"median": 37870.0
+},
+"33140": {
+"emp": 40.0,
+"median": 43720.0
+}
+},
+"us": {
+"emp": 165700.0,
+"median": 39070.0
+}
+},
+{
+"code": "537062",
+"name": "Hand laborers and material movers",
+"metros": {
+"43780": {
+"emp": 2660.0,
+"median": 38830.0
+},
+"21140": {
+"emp": 2980.0,
+"median": 40820.0
+},
+"35660": {
+"emp": 690.0,
+"median": 37790.0
+},
+"33140": {
+"emp": 870.0,
+"median": 37820.0
+}
+},
+"us": {
+"emp": 2950280.0,
+"median": 40240.0
+}
+},
+{
+"code": "537064",
+"name": "Hand packers and packagers",
+"metros": {
+"43780": {
+"emp": 310.0,
+"median": 35790.0
+},
+"21140": {
+"emp": 640.0,
+"median": 37900.0
+},
+"35660": {
+"emp": 280.0,
+"median": 34270.0
+},
+"33140": {
+"emp": 160.0,
+"median": 35490.0
+}
+},
+"us": {
+"emp": 559820.0,
+"median": 36280.0
+}
+},
+{
+"code": "537051",
+"name": "Industrial truck and tractor operators",
+"metros": {
+"43780": {
+"emp": 590.0,
+"median": 44350.0
+},
+"21140": {
+"emp": 1030.0,
+"median": 46090.0
+},
+"35660": {
+"emp": 290.0,
+"median": 41690.0
+},
+"33140": {
+"emp": 170.0,
+"median": 46990.0
+}
+},
+"us": {
+"emp": 774420.0,
+"median": 46420.0
+}
 }
 ]
 },

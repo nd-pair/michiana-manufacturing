@@ -1,0 +1,52 @@
+# The Physical-AI Opportunity Index: where humanoid robots could make Michiana's manufacturers more
+# competitive (more complex, higher-mix products with the same or more people), not where they would
+# replace workers. Every pillar is scored against the U.S. average (= 100); the index is the
+# geometric mean of the pillars, so a weak pillar, including falling jobs or pay, pulls it down.
+# Weights, traits and lists are editable assumptions.
+
+[weights]          # relative weights in the geometric mean
+task = 1           # task fit: hard, repetitive or hazardous work in local jobs, from O*NET
+highmix = 1        # high-mix potential: job shops and custom, short-run industries
+labor = 1          # labor pressure: tight, aging, high-turnover workforce
+readiness = 1      # adoption readiness: people who install and maintain automation
+supply = 1         # local supply: share of a humanoid's cost available locally
+prosperity = 1     # shared prosperity: manufacturing jobs, pay and value added per job
+
+# Task traits from O*NET 31.0. Each element is rated 1 to 5 (work context: how often or how much;
+# work activities: importance); an occupation's trait score is the mean of its elements scaled to
+# 0 to 100, and its task fit is the mean of the traits.
+[[trait]]
+id = "handling"
+name = "handling and moving parts"
+elements = ["4.A.3.a.2", "4.C.2.d.1.g"]
+
+[[trait]]
+id = "repetitive"
+name = "repetitive motions"
+elements = ["4.C.2.d.1.i"]
+
+[[trait]]
+id = "posture"
+name = "bending, kneeling and long standing"
+elements = ["4.C.2.d.1.h", "4.C.2.d.1.e", "4.C.2.d.1.b"]
+
+[[trait]]
+id = "hazard"
+name = "hazardous equipment, fumes and heat"
+elements = ["4.C.2.c.1.e", "4.C.2.b.1.d", "4.C.2.b.1.b"]
+
+[highmix]
+# Industries that typically make many variants in short runs (6-digit NAICS prefixes): machine and job
+# shops, fabrication, molds and dies, RVs, motor homes and trailers, boats, custom woodwork and
+# furniture, medical devices.
+naics = ["332710", "3323", "333514", "333511", "336213", "336214", "336212", "336611", "336612",
+         "337110", "337212", "337127", "3391", "332710", "332999"]
+
+[readiness]
+# Occupations that install, program and maintain automation (2018 SOC, as OEWS reports them).
+soc = ["499041", "472111", "173024", "173026", "173027", "172112", "172141", "172071", "151252"]
+
+[supply]
+# Local supply is scored as twice the share of a humanoid's cost available locally from two or more
+# suppliers, so 100 means half of the robot could be sourced in the region.
+scale = 2

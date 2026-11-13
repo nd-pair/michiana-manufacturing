@@ -14,7 +14,7 @@ Two views, both private ownership, annual averages:
   industry divided by the U.S. share; above 1 means the region is specialized in it), and the county
   where it is most concentrated by BLS's own county quotient.
 """
-import csv, io, json, urllib.request, datetime
+import csv, io, json, urllib.request, datetime, tomllib
 from concurrent.futures import ThreadPoolExecutor
 from common import P, COUNTIES
 from import_hifld import SECTOR_BY_NAICS3
@@ -29,6 +29,7 @@ def get(url):
 def main():
     years = list(range(FIRST, datetime.date.today().year))
     counties = {k: {} for k in COUNTIES}
+    us_years = {}
     for y in years:
         try:
             text = get("https://data.bls.gov/cew/data/api/%d/a/industry/1013.csv" % y)
@@ -37,6 +38,8 @@ def main():
         for row in csv.DictReader(io.StringIO(text)):
             if row.get("own_code") == "5" and row.get("area_fips") in counties:
                 counties[row["area_fips"]][y] = {"estab": int(row["annual_avg_estabs"] or 0), "emp": int(row["annual_avg_emplvl"] or 0), "pay": int(row["avg_annual_pay"] or 0)}
+            elif row.get("own_code") == "5" and row.get("area_fips") == "US000":
+                us_years[str(y)] = {"estab": int(row["annual_avg_estabs"] or 0), "emp": int(row["annual_avg_emplvl"] or 0), "pay": int(row["avg_annual_pay"] or 0)}
     sectors, withheld = {}, {}
     def area(job):
         y, fips = job
@@ -62,7 +65,7 @@ def main():
                 sectors.setdefault(sec, {}); sectors[sec][y] = sectors[sec].get(y, 0) + emp
     spec = specialization(texts, years)
     data = {"source": "BLS QCEW, private, annual averages", "pulled": datetime.date.today().isoformat(), "specialization": spec,
-            "counties": {k: {"name": COUNTIES[k], "years": counties[k]} for k in COUNTIES},
+            "counties": {k: {"name": COUNTIES[k], "years": counties[k]} for k in COUNTIES}, "us": us_years,
             "sectors": {s: {str(y): v for y, v in sorted(d.items())} for s, d in sectors.items()},
             "withheld_cells": withheld}
     json.dump(data, open(P("data", "qcew.json"), "w"), indent=0)
@@ -89,7 +92,10 @@ def specialization(texts, years):
     us_tot = next(r for r in us if r.get("own_code") == "5" and r.get("industry_code") == "10")
     us_rows, us_mfg = rows(us), next(r for r in us if r.get("own_code") == "5" and r.get("industry_code") == "31-33")
     reg = {k: {"emp": 0, "estab": 0, "wages": 0.0, "withheld": False, "top": None} for k in NAICS3}
-    reg_tot = reg_mfg_emp = reg_mfg_wages = 0
+    reg_tot = reg_mfg_emp = reg_mfg_wages = reg_mfg_estab = 0
+    hm = tuple(tomllib.load(open(P("data", "opportunity.toml"), "rb"))["highmix"]["naics"])
+    six = lambda r: r.get("own_code") == "5" and len(r.get("industry_code", "")) == 6 and r["industry_code"].isdigit() and r["industry_code"][:2] in ("31", "32", "33")
+    reg_hm = 0.0
     for f in COUNTIES:
         rs = list(csv.DictReader(io.StringIO(texts[(year, f)])))
         for r in rs:
@@ -98,7 +104,9 @@ def specialization(texts, years):
             if r["industry_code"] == "10":
                 reg_tot += num(r, "annual_avg_emplvl")
             elif r["industry_code"] == "31-33":
-                reg_mfg_emp += num(r, "annual_avg_emplvl"); reg_mfg_wages += num(r, "total_annual_wages")
+                reg_mfg_emp += num(r, "annual_avg_emplvl"); reg_mfg_wages += num(r, "total_annual_wages"); reg_mfg_estab += num(r, "annual_avg_estabs")
+            if six(r) and r["industry_code"].startswith(hm):
+                reg_hm += num(r, "annual_avg_emplvl")
         for k, r in rows(rs).items():
             e = reg[k]
             e["emp"] += num(r, "annual_avg_emplvl"); e["estab"] += num(r, "annual_avg_estabs"); e["wages"] += num(r, "total_annual_wages")
@@ -117,11 +125,14 @@ def specialization(texts, years):
                     "pay": round(e["wages"] / e["emp"]) if e["emp"] else None, "us_pay": round(num(u, "avg_annual_pay")),
                     "lq": round(share / us_share, 2) if us_share else None, "withheld": e["withheld"],
                     "top_county": e["top"][0] if e["top"] else "", "top_lq": e["top"][1] if e["top"] else None})
+    us_hm = sum(num(r, "annual_avg_emplvl") for r in us if six(r) and r["industry_code"].startswith(hm))
     mfg_lq = (reg_mfg_emp / reg_tot) / (num(us_mfg, "annual_avg_emplvl") / num(us_tot, "annual_avg_emplvl"))
     return {"year": year, "industries": sorted(out, key=lambda r: -(r["lq"] or 0)),
             "total": {"emp": round(reg_mfg_emp), "share": round(reg_mfg_emp / reg_tot, 3), "lq": round(mfg_lq, 2),
                       "pay": round(reg_mfg_wages / reg_mfg_emp), "us_pay": round(num(us_mfg, "avg_annual_pay")),
-                      "us_share": round(num(us_mfg, "annual_avg_emplvl") / num(us_tot, "annual_avg_emplvl"), 3)}}
+                      "us_share": round(num(us_mfg, "annual_avg_emplvl") / num(us_tot, "annual_avg_emplvl"), 3),
+                      "estab": round(reg_mfg_estab), "us_emp": round(num(us_mfg, "annual_avg_emplvl")), "us_estab": round(num(us_mfg, "annual_avg_estabs")),
+                      "highmix_share": round(reg_hm / reg_mfg_emp, 3), "us_highmix_share": round(us_hm / num(us_mfg, "annual_avg_emplvl"), 3)}}
 
 if __name__ == "__main__":
     main()

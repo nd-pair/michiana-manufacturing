@@ -138,6 +138,20 @@ Beyond the map, the page carries:
   `humanoid = [...]` and `humanoid_evidence = "confirmed"` with a `humanoid_note` to its file.
   Milestones (first local actuator line, first assembled humanoid) go in
   [`data/milestones.toml`](data/milestones.toml) and appear on the timeline.
+- **Physical-AI Opportunity Index.** A panel above the humanoid one scores where humanoid robots
+  could make local manufacturers more competitive, not where they would replace people. Six
+  pillars compare the region with the U.S. (= 100): *task fit* (local jobs weighted by how much of
+  the work is handling parts, repetitive motion, awkward postures and hazards, from O*NET),
+  *high-mix potential* (jobs in custom and short-run industries; smaller establishments),
+  *labor pressure* (unemployment, workers aged 55+, turnover), *adoption readiness* (mechanics,
+  electricians, technicians and engineers per 1,000 jobs), *local supply* (from the humanoid panel)
+  and *shared prosperity* (manufacturing job and pay growth over five years, value added per job).
+  The index is the weighted geometric mean of the pillars, so it can only rise for good if workers
+  gain too. An occupation table lists local jobs, task fit, the work a humanoid could take on and
+  pay. Weights, traits, industry and occupation lists are in
+  [`data/opportunity.toml`](data/opportunity.toml); `scripts/pull_workforce.py` pulls O*NET,
+  the Census Bureau's Quarterly Workforce Indicators (bulk files, no key) and BEA county GDP; the
+  index is saved monthly with the humanoid figures in `data/progress.json`.
 - **Roster size.** The roster shows the first 20 companies in the current sort, with buttons for
   100 or all.
 - **Workforce.** A panel with three views, all from the Bureau of Labor Statistics and sortable by
@@ -187,7 +201,7 @@ so commit only your source changes (`companies/`, `data/`, `site/`, `scripts/`) 
 companies/      one TOML file per company (edit these)
 data/           sectors, places, capabilities (edit these); county boundaries (Census), shorelines (Natural Earth); pulled datasets (federal, fda, qcew, bls, sbir)
 site/           the pages: Notre Dame Web Theme chrome (partials/), page.html + app.js (map), about.html, brief.html + brief.js, app.css
-scripts/        build.py, humanoid.py, geocode.py, import_hifld.py, import_sbir_firms.py, pull_federal.py, pull_sbir.py, pull_fda.py, pull_qcew.py, pull_bls.py, pull_events.py, pull_patents.py, common.py
+scripts/        build.py, humanoid.py, opportunity.py, geocode.py, import_hifld.py, import_sbir_firms.py, pull_federal.py, pull_sbir.py, pull_fda.py, pull_qcew.py, pull_bls.py, pull_workforce.py, pull_events.py, pull_patents.py, common.py
 docs/           the built site (generated; do not edit by hand)
 ```
 
@@ -199,6 +213,6 @@ The page uses the University's web theme (NDT4) for its frame, as the PAIR site 
 Company descriptions, products and headcounts: the HIFLD General Manufacturing Facilities
 dataset (U.S. DHS, public domain) for most entries, and the companies' own websites, public
 filings, press and business directories for the rest; headcounts are approximate and dated.
-Federal awards: USAspending.gov. SBIR/STTR: SBIR.gov. Device registrations: openFDA. Employment, pay, occupations and unemployment: BLS (QCEW, OEWS, CES, LAUS). County boundaries: U.S.
+Federal awards: USAspending.gov. SBIR/STTR: SBIR.gov. Device registrations: openFDA. Employment, pay, occupations and unemployment: BLS (QCEW, OEWS, CES, LAUS). Task traits: O*NET 31.0 (CC BY 4.0). Workforce age and turnover: Census LEHD QWI. Value added: BEA. County boundaries: U.S.
 Census Bureau cartographic boundary files. Shorelines: Natural Earth. Code: MIT license (see
 LICENSE); company data is factual public information.

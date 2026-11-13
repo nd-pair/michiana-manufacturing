@@ -14,7 +14,7 @@
   in the region, monthly, with the U.S. rate.
 Without a key the API allows 25 requests a day of up to 25 series each; one run uses about ten.
 """
-import datetime, json, os, urllib.request
+import datetime, json, os, sys, urllib.request
 from common import P, COUNTIES
 
 UA = {"Content-Type": "application/json", "User-Agent": "michiana-manufacturing/1.0 (github.com/nd-pair/michiana-manufacturing)"}
@@ -28,6 +28,12 @@ OCCUPATIONS = [  # 2018 SOC codes as OEWS uses them
     ("514041", "Machinists"), ("514111", "Tool and die makers"), ("519161", "CNC tool operators"), ("519162", "CNC tool programmers"),
     ("514121", "Welders, cutters, solderers and brazers"), ("514031", "Cutting, punching and press machine setters"),
     ("512090", "Assemblers and fabricators (misc.)"), ("519061", "Inspectors, testers and samplers"),
+    ("512028", "Electrical and electromechanical assemblers"), ("512041", "Structural metal fabricators and fitters"),
+    ("514081", "Multiple machine tool setters and operators"), ("514072", "Molding and casting machine setters"),
+    ("519124", "Coating and painting machine setters"), ("517011", "Cabinetmakers and bench carpenters"),
+    ("517042", "Woodworking machine setters"), ("519111", "Packaging and filling machine operators"),
+    ("519198", "Production helpers"), ("537062", "Hand laborers and material movers"),
+    ("537064", "Hand packers and packagers"), ("537051", "Industrial truck and tractor operators"),
 ]
 
 def fetch(ids, start=None, end=None):
@@ -53,6 +59,9 @@ def num(v):
         return None   # "-" and "*" mark suppressed estimates
 
 def main():
+    only = sys.argv[sys.argv.index("--occupations") + 1:] if "--occupations" in sys.argv else None
+    if only:
+        return merge_occupations(only)
     data = {"source": "BLS public data API (OEWS, CES, LAUS)", "pulled": datetime.date.today().isoformat()}
     # occupations: employment (01) and annual median wage (13) per metro, and the U.S.
     occ_ids = {}
@@ -89,6 +98,30 @@ def main():
     n_occ = sum(1 for o in data["occupations"]["list"] if o["metros"])
     print("occupations %s: %d of %d with metro data; CES months: %s; LAUS counties: %d"
           % (year, n_occ, len(OCCUPATIONS), {v["name"]: len(v["months"]) for v in data["ces"].values()}, sum(1 for c in counties.values() if c["rate"])))
+
+def merge_occupations(codes):
+    """Fetch a few occupations and add them to data/bls.json, keeping everything else."""
+    data = json.load(open(P("data", "bls.json")))
+    names = dict(OCCUPATIONS)
+    ids = {}
+    for code in codes:
+        for m in METROS:
+            for dt in ("01", "13"):
+                ids["OEUM%07d000000%s%s" % (int(m), code, dt)] = (m, code, dt)
+        for dt in ("01", "13"):
+            ids["OEUN0000000000000%s%s" % (code, dt)] = ("US", code, dt)
+    got = fetch(list(ids))
+    lst = {o["code"]: o for o in data["occupations"]["list"]}
+    for code in codes:
+        lst[code] = {"code": code, "name": names[code], "metros": {}, "us": {}}
+    for sid, (area, code, dt) in ids.items():
+        pts = got.get(sid) or []
+        if pts:
+            v = num(pts[0]["value"]); k = "emp" if dt == "01" else "median"
+            (lst[code]["us"] if area == "US" else lst[code]["metros"].setdefault(area, {}))[k] = v
+    data["occupations"]["list"] = [lst[c] for c, _ in OCCUPATIONS if c in lst]
+    json.dump(data, open(P("data", "bls.json"), "w"), indent=0)
+    print("added %d occupations; %d with metro data" % (len(codes), sum(1 for c in codes if lst[c]["metros"])))
 
 if __name__ == "__main__":
     main()
