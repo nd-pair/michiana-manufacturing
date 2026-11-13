@@ -19,7 +19,7 @@ function fmtEmp(c){if(!c.emp)return "unknown";const bits=[c.emp_year,c.emp_quali
 
 /* ---------- state, addressable through the URL hash ---------- */
 const st={sec:new Set(),tag:new Set(),cap:new Set(),fed:false,fda:false,rings:false,radius:0,sel:null,hot:null,q:"",open:new Set(),
-  sort:{sec:{key:"n",dir:-1},tag:{key:"n",dir:-1},cap:{key:"n",dir:-1},fed:{key:"e",dir:-1},roster:{key:"emp",dir:-1},ev:{key:"date",dir:-1},spec:{key:"lq",dir:-1},occ:{key:"emp",dir:-1},ue:{key:"rate",dir:-1},hum:{key:"cost",dir:-1},opp:{key:"impact",dir:-1}},wv:"spec",hum:null,hb:"related",rlim:20,rpage:0,
+  sort:{sec:{key:"n",dir:-1},tag:{key:"n",dir:-1},cap:{key:"n",dir:-1},fed:{key:"e",dir:-1},roster:{key:"emp",dir:-1},ev:{key:"date",dir:-1},spec:{key:"lq",dir:-1},occ:{key:"emp",dir:-1},ue:{key:"rate",dir:-1},hum:{key:"cost",dir:-1},opp:{key:"impact",dir:-1},ndr:{key:"start",dir:-1}},ndrAll:false,wv:"spec",hum:null,hb:"related",rlim:20,rpage:0,
   evKind:"all",evYear:null,evMore:0,qv:"county",qs:"abs"};
 function readHash(){st.sec.clear();st.tag.clear();st.cap.clear();st.fed=st.fda=st.rings=false;st.radius=0;st.sel=null;st.hum=null;
   try{const raw=location.hash.slice(1),h=decodeURIComponent(raw);if(h&&byId[h]){st.sel=h;return}
@@ -344,6 +344,25 @@ function renderQcew(){const el=document.getElementById("qcew");document.querySel
 /* ---------- physical-AI opportunity index: every part against the U.S. (= 100) ---------- */
 const GRADES=[["A",150],["B",125],["C",105],["D",95],["E",80],["F",60],["G",-Infinity]],grade=v=>v==null?null:GRADES.find(([,t])=>v>=t)[0];
 const gbadge=v=>{const g=grade(v);return g?`<span class="mm-grade g${g}" title="grade ${g}: ${Math.round(v)} against the U.S. at 100">${g}</span>`:""};
+/* Notre Dame's physical-AI research awards (federal prime awards and subawards) */
+function ndResearch(){const R=DATA.ndResearch;if(!R||!R.awards||!R.awards.length)return "";
+  const A=R.awards,tot=A.reduce((a,x)=>a+x.amount,0),today=new Date().toISOString().slice(0,10),active=A.filter(x=>x.end&&x.end>=today),
+    ag={};for(const x of A){const k=x.agency.replace("National Science Foundation","NSF").replace("National Aeronautics and Space Administration","NASA").replace("Department of Defense","DoD").replace("Department of Health and Human Services","NIH/HHS").replace("Department of Energy","DOE");ag[k]=(ag[k]||0)+x.amount}
+  const yr={};for(const x of A){const y=x.start.slice(0,4);if(y)yr[y]=(yr[y]||0)+x.amount}const ys=Object.keys(yr).sort(),ymax=Math.max(1,...Object.values(yr));
+  const tp={};for(const x of A)for(const t of x.topics)tp[t]=(tp[t]||0)+1;
+  const rows=A.map(x=>({...x,agencyShort:x.agency.replace("National Science Foundation","NSF").replace("National Aeronautics and Space Administration","NASA").replace("Department of Defense","DoD").replace("Department of Health and Human Services","NIH/HHS"),type:x.kind==="subaward"?"subaward via "+x.via:x.kind}));
+  const shown=st.ndrAll?rows:null;
+  return `<h3 class="mm-wh" style="margin-top:16px">Notre Dame physical-AI research</h3>
+    <div class="mm-htiles" style="grid-template-columns:repeat(4,minmax(0,1fr))">
+      <div class="mm-htile"><div class="k">Federal awards since FY2016</div><div class="v">${fmtUSD(tot)}</div><div class="s">${A.length} awards on robots, autonomy, prosthetics and exoskeletons, haptics and robotic manufacturing</div></div>
+      <div class="mm-htile"><div class="k">Active now</div><div class="v">${active.length}</div><div class="s">${fmtUSD(active.reduce((a,x)=>a+x.amount,0))} on awards that have not yet ended</div></div>
+      <div class="mm-htile"><div class="k">By agency</div><div class="s">${Object.entries(ag).sort((a,b)=>b[1]-a[1]).map(([k,v])=>`${esc(k)} ${fmtUSD(v)}`).join("<br>")}</div></div>
+      <div class="mm-htile"><div class="k">By start year</div><div class="mm-hbars">${ys.map(y=>`<i title="${y}: ${fmtUSD(yr[y])}" style="height:${Math.max(2,Math.round(28*yr[y]/ymax))}px"></i>`).join("")}</div><div class="s">${ys[0]||""}–${ys[ys.length-1]||""}; ${Object.entries(tp).sort((a,b)=>b[1]-a[1]).map(([t,n])=>`${esc(t.toLowerCase())} ${n}`).join(", ")}</div></div></div>
+    ${sortTable("ndr",[{key:"start",label:"Start",cell:r=>esc(r.start.slice(0,7))},{key:"title",label:"Award",cell:r=>`<a href="${esc(r.url)}" rel="noopener">${esc(r.title)}</a>`},
+      {key:"agencyShort",label:"Agency"},{key:"pi",label:"Investigator",cell:r=>esc(r.pi||"–")},{key:"amount",label:"Amount",num:true,cell:r=>fmtUSD(r.amount)},{key:"type",label:"Type"}],
+      st.ndrAll?rows:rows.slice().sort((a,b)=>b.start.localeCompare(a.start)).slice(0,8)).replace("<table","<table class=\"mm-ndr\"")}
+    ${rows.length>8?`<button type="button" class="mm-chip" data-ndrall="1" style="margin-top:8px">${st.ndrAll?"Show the 8 latest":"Show all "+rows.length+" awards"}</button>`:""}
+    <p class="mm-wnote">Federal grants, cooperative agreements and contracts to the University of Notre Dame du Lac since FY2016, and its subawards on other institutions' awards, from USAspending.gov (all agencies), kept when the title, or the description at least three times, is about robots, autonomy, drones, prosthetics or exoskeletons, haptics, legged or humanoid systems, or robotic manufacturing (${esc(String(R.scanned||""))} prime awards scanned). Amounts are obligations so far. Industry, foundation and state funding are not in this data. Pulled ${esc(R.pulled||"")}.</p>`}
 function renderOpportunity(){const el=document.getElementById("opp"),O=DATA.opportunity;if(!el||!O||!O.pillars)return;
   const fmt=(v,u)=>v==null?"–":u==="share"?(100*v).toFixed(1)+"%":u==="pct"?Math.round(v)+"%":u==="%"?v.toFixed(1)+"%":u==="growth"?(v>=0?"+":"−")+(100*Math.abs(v)).toFixed(1)+"%":u==="usd"?"$"+Math.round(v).toLocaleString():String(v);
   const max=Math.max(200,...O.pillars.map(p=>p.score||0)),bar=v=>v==null?`<span class="mm-count">not yet available</span>`:`<span class="mm-ratio"><span class="trk"><span class="fil g${grade(v)}" style="width:${Math.min(100,100*v/max).toFixed(1)}%"></span><span class="one" style="left:${(100*100/max).toFixed(1)}%"></span></span><span class="v">${Math.round(v)}</span>${gbadge(v)}</span>`;
@@ -354,6 +373,7 @@ function renderOpportunity(){const el=document.getElementById("opp"),O=DATA.oppo
     <div class="mm-opills">${O.pillars.map(p=>`<div class="mm-opill"><div class="hd"><b>${esc(p.name)}</b>${bar(p.score)}</div><div class="w">${esc(p.what)}</div>
       ${p.parts.map(x=>`<div class="pt"><span>${esc(x.name)}${x.note?` <small class="mm-mut">${esc(x.note)}</small>`:""}</span><span class="nums">${fmt(x.local,x.unit)}${x.us!=null?` <small class="mm-mut">vs U.S. ${fmt(x.us,x.unit)}</small>`:""}${x.score!=null?` <b>${Math.round(x.score)}</b> ${gbadge(x.score)}`:""}</span></div>`).join("")}</div>`).join("")}</div>
     <div class="mm-gleg">${GRADES.map(([g,t],i)=>`<span><span class="mm-grade g${g}">${g}</span>${i===0?"150 or more":i===GRADES.length-1?"under 60":t+"–"+(GRADES[i-1][1]-1)}</span>`).join("")}<span class="mm-mut">score against the U.S. average of 100 · orange and red: areas that need work</span></div>
+    ${ndResearch()}
     <h3 class="mm-wh" style="margin-top:14px">Occupations: where humanoids could help</h3>
     ${sortTable("opp",[{key:"name",label:"Occupation",cell:r=>`<b>${esc(r.name)}</b>${r.readiness?' <small class="mm-mut">deploys automation</small>':""}`},
       {key:"jobs",label:"Jobs",num:true,cell:r=>Math.round(r.jobs).toLocaleString()},{key:"per1000",label:"Per 1,000 jobs",num:true,cell:r=>r.per1000==null?"–":r.per1000.toFixed(1)},
@@ -479,7 +499,7 @@ function renderWork(){const el=document.getElementById("work"),note=document.get
     const at=j=>{xh.setAttribute("x1",X(j));xh.setAttribute("x2",X(j));xh.style.opacity=1;pt.setAttribute("cx",X(j));pt.setAttribute("cy",Y(pts[j][1]));rd.textContent=`${monthName(pts[j][0])}: ${Math.round(pts[j][1]*1000).toLocaleString()} jobs`};
     svg.addEventListener("pointermove",e=>{const r=svg.getBoundingClientRect(),x=(e.clientX-r.left)/r.width*W;at(Math.max(0,Math.min(pts.length-1,Math.round((x-pad)/((W-2*pad)/(pts.length-1))))))});
     svg.addEventListener("pointerleave",()=>{xh.style.opacity=0;pt.setAttribute("cx",X(pts.length-1));pt.setAttribute("cy",Y(pts[pts.length-1][1]));rd.textContent=rd.dataset.def})})}
-const EVKINDS=[["all","All"],["federal","Federal awards"],["sbir","SBIR/STTR"],["patent","Patents"],["milestone","Milestones"]];
+const EVKINDS=[["all","All"],["federal","Federal awards"],["sbir","SBIR/STTR"],["patent","Patents"],["research","Notre Dame research"],["milestone","Milestones"]];
 function renderEvents(){const vis=new Set(C.filter(visible).map(c=>c.id));let evs=DATA.events.filter(e=>!e.company||vis.has(e.company));
   const kinds=EVKINDS.filter(([k])=>k==="all"||DATA.events.some(e=>e.kind===k)),counts=Object.fromEntries(kinds.map(([k])=>[k,k==="all"?evs.length:evs.filter(e=>e.kind===k).length]));
   if(st.evKind!=="all")evs=evs.filter(e=>e.kind===st.evKind);
@@ -542,6 +562,7 @@ document.addEventListener("click",e=>{
   const rp=e.target.closest("[data-rpage]");if(rp&&!rp.disabled){st.rpage=Math.max(0,+rp.dataset.rpage);renderTable();document.querySelector(".mm-roster").scrollIntoView({block:"start"});return}
   const hb=e.target.closest("[data-hb]");if(hb){st.hb=hb.dataset.hb;renderHumanoid();return}
   const hg=e.target.closest("[data-hum]");if(hg){const v=hg.dataset.hum;st.hum=st.hum===v?null:v;render();return}
+  const na=e.target.closest("[data-ndrall]");if(na){st.ndrAll=!st.ndrAll;renderOpportunity();return}
   const wv=e.target.closest("[data-wv]");if(wv){st.wv=wv.dataset.wv;renderWork();return}
   const q=e.target.closest("[data-qv],[data-qs]");if(q){if(q.dataset.qv)st.qv=q.dataset.qv;if(q.dataset.qs)st.qs=q.dataset.qs;renderQcew();return}
   const sib=e.target.closest("[data-sel]");if(sib){const c=byId[sib.dataset.sel];select(c.id);flyTo(c.lat,c.lon,Math.min(view.dist,0.05));return}
