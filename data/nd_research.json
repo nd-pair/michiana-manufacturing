@@ -1,0 +1,324 @@
+{
+"source": "USAspending.gov (all agencies, grants and contracts to the University of Notre Dame du Lac since FY2016); NSF Award Search for investigators",
+"pulled": "2026-11-12",
+"scanned": 1393,
+"subawards_kept": 2,
+"awards": [
+{
+"id": "2617355",
+"title": "HCC: Human-Centered Interfaces for Safe and Effective Supervision of Autonomous Drone Swarms",
+"agency": "National Science Foundation",
+"sub_agency": "National Science Foundation",
+"funding_sub_agency": "National Science Foundation",
+"amount": 799964,
+"start": "2026-10-01",
+"end": "2029-09-30",
+"pi": "Jane Huang",
+"topics": [
+"Robots and manipulation",
+"Autonomy and drones"
+],
+"url": "https://www.usaspending.gov/award/ASST_NON_2617355_049",
+"kind": "grant"
+},
+{
+"id": "2625230",
+"title": "Collaborative Research: Unified Sensing and Control for Generalizable Real-Time Arc Welding",
+"agency": "National Science Foundation",
+"sub_agency": "National Science Foundation",
+"funding_sub_agency": "National Science Foundation",
+"amount": 325000,
+"start": "2026-10-01",
+"end": "2029-09-30",
+"pi": "Hai Lin",
+"topics": [
+"Robots and manipulation",
+"Autonomy and drones",
+"Manufacturing and cyber-physical systems"
+],
+"url": "https://www.usaspending.gov/award/ASST_NON_2625230_049",
+"kind": "grant"
+},
+{
+"id": "AJ237 (19213)",
+"title": "NRI: A Novel Framework for the Hardware and Control Co-design of Dynamic Humanoid Robots with Electric Motors",
+"agency": "National Science Foundation",
+"sub_agency": "National Science Foundation",
+"funding_sub_agency": "",
+"amount": 87750,
+"start": "2025-08-06",
+"end": "",
+"pi": "",
+"topics": [
+"Robots and manipulation"
+],
+"url": "https://www.usaspending.gov/award/ASST_NON_2220924_049",
+"kind": "subaward",
+"via": "University Of Illinois"
+},
+{
+"id": "2442914",
+"title": "CAREER: Security Foundations of Safe Learning Enabled Cyber-Physical Systems",
+"agency": "National Science Foundation",
+"sub_agency": "National Science Foundation",
+"funding_sub_agency": "National Science Foundation",
+"amount": 594777,
+"start": "2025-05-01",
+"end": "2030-04-30",
+"pi": "Fanxin Kong",
+"topics": [
+"Robots and manipulation",
+"Autonomy and drones",
+"Manufacturing and cyber-physical systems"
+],
+"url": "https://www.usaspending.gov/award/ASST_NON_2442914_049",
+"kind": "grant"
+},
+{
+"id": "(19213)",
+"title": "NRI: A Novel Framework for the Hardware and Control Co-design of Dynamic Humanoid Robots with Electric Motors",
+"agency": "National Science Foundation",
+"sub_agency": "National Science Foundation",
+"funding_sub_agency": "",
+"amount": 150922,
+"start": "2024-09-26",
+"end": "",
+"pi": "",
+"topics": [
+"Robots and manipulation"
+],
+"url": "https://www.usaspending.gov/award/ASST_NON_2220924_049",
+"kind": "subaward",
+"via": "University Of Illinois"
+},
+{
+"id": "2344765",
+"title": "Collaborative Research: Integrating Optimal Function and Compliant Mechanisms for Ubiquitous Lower-Limb Powered Prostheses",
+"agency": "National Science Foundation",
+"sub_agency": "National Science Foundation",
+"funding_sub_agency": "National Science Foundation",
+"amount": 357240,
+"start": "2024-09-01",
+"end": "2027-08-31",
+"pi": "Edgar Bolivar-Nieto",
+"topics": [
+"Robots and manipulation",
+"Prosthetics, exoskeletons and rehabilitation",
+"Manufacturing and cyber-physical systems"
+],
+"url": "https://www.usaspending.gov/award/ASST_NON_2344765_049",
+"kind": "grant"
+},
+{
+"id": "2448327",
+"title": "Collaborative Research: Designing Intelligent Industrial Robots for STEM Inclusion by Leveraging Self-Determination Theory to Foster Autistic Talent in Manufacturing Work",
+"agency": "National Science Foundation",
+"sub_agency": "National Science Foundation",
+"funding_sub_agency": "National Science Foundation",
+"amount": 300000,
+"start": "2024-08-15",
+"end": "2029-07-31",
+"pi": "Zhi Zheng",
+"topics": [
+"Robots and manipulation",
+"Autonomy and drones",
+"Manufacturing and cyber-physical systems"
+],
+"url": "https://www.usaspending.gov/award/ASST_NON_2448327_049",
+"kind": "grant"
+},
+{
+"id": "80NSSC21K1955",
+"title": "In Recent Times Potential Package Retrieval Unmanned Aerial Vehicles (UAVs) Have Mainly Consisted of Multi-copter (i.e. Vertical Lift) Topologies.",
+"agency": "National Aeronautics and Space Administration",
+"sub_agency": "National Aeronautics and Space Administration",
+"funding_sub_agency": "National Aeronautics and Space Administration",
+"amount": 61064,
+"start": "2021-09-01",
+"end": "2024-05-31",
+"pi": "",
+"topics": [
+"Autonomy and drones"
+],
+"url": "https://www.usaspending.gov/award/ASST_NON_80NSSC21K1955_080",
+"kind": "grant"
+},
+{
+"id": "2007949",
+"title": "CHS: Small: Formal Design of Human Robot Collaboration in Safety Critical Scenarios",
+"agency": "National Science Foundation",
+"sub_agency": "National Science Foundation",
+"funding_sub_agency": "",
+"amount": 499848,
+"start": "2020-10-01",
+"end": "2023-09-30",
+"pi": "Hai Lin",
+"topics": [
+"Robots and manipulation"
+],
+"url": "https://www.usaspending.gov/award/ASST_NON_2007949_049",
+"kind": "grant"
+},
+{
+"id": "1943703",
+"title": "CAREER: Task-Level Coordination of Motor and Machine for Fluent Lower-Limb Prostheses",
+"agency": "National Science Foundation",
+"sub_agency": "National Science Foundation",
+"funding_sub_agency": "National Science Foundation",
+"amount": 530119,
+"start": "2020-08-01",
+"end": "2025-07-31",
+"pi": "Patrick Wensing",
+"topics": [
+"Prosthetics, exoskeletons and rehabilitation"
+],
+"url": "https://www.usaspending.gov/award/ASST_NON_1943703_049",
+"kind": "grant"
+},
+{
+"id": "1931962",
+"title": "CPS:Medium:Interactive Human-Drone Partnerships in Emergency Response Scenarios",
+"agency": "National Science Foundation",
+"sub_agency": "National Science Foundation",
+"funding_sub_agency": "National Science Foundation",
+"amount": 1233394,
+"start": "2019-10-01",
+"end": "2025-03-31",
+"pi": "Jane Huang",
+"topics": [
+"Autonomy and drones"
+],
+"url": "https://www.usaspending.gov/award/ASST_NON_1931962_049",
+"kind": "grant"
+},
+{
+"id": "1830335",
+"title": "NRI: INT: COLLAB: Interactive and collaborative robot-assisted emergency evacuations",
+"agency": "National Science Foundation",
+"sub_agency": "National Science Foundation",
+"funding_sub_agency": "National Science Foundation",
+"amount": 509527,
+"start": "2018-10-01",
+"end": "2022-09-30",
+"pi": "Hai Lin",
+"topics": [
+"Robots and manipulation"
+],
+"url": "https://www.usaspending.gov/award/ASST_NON_1830335_049",
+"kind": "grant"
+},
+{
+"id": "1835186",
+"title": "EAGER/Collaborative Research: Unlocking Legged Mobility Through Structured Prediction",
+"agency": "National Science Foundation",
+"sub_agency": "National Science Foundation",
+"funding_sub_agency": "National Science Foundation",
+"amount": 75000,
+"start": "2018-08-01",
+"end": "2019-07-31",
+"pi": "Patrick Wensing",
+"topics": [
+"Robots and manipulation"
+],
+"url": "https://www.usaspending.gov/award/ASST_NON_1835186_049",
+"kind": "grant"
+},
+{
+"id": "1737496",
+"title": "SCC-Planning: Coordinated Autonomous Operation of UAVs in Urban First Responder Scenarios",
+"agency": "National Science Foundation",
+"sub_agency": "National Science Foundation",
+"funding_sub_agency": "National Science Foundation",
+"amount": 100000,
+"start": "2017-10-01",
+"end": "2018-09-30",
+"pi": "Christian Poellabauer",
+"topics": [
+"Autonomy and drones"
+],
+"url": "https://www.usaspending.gov/award/ASST_NON_1737496_049",
+"kind": "grant"
+},
+{
+"id": "1734532",
+"title": "NRI: FND: Using Template Models to Identify Exoskeleton User Intent",
+"agency": "National Science Foundation",
+"sub_agency": "National Science Foundation",
+"funding_sub_agency": "National Science Foundation",
+"amount": 753811,
+"start": "2017-09-01",
+"end": "2020-08-31",
+"pi": "James Schmiedeler",
+"topics": [
+"Prosthetics, exoskeletons and rehabilitation"
+],
+"url": "https://www.usaspending.gov/award/ASST_NON_1734532_049",
+"kind": "grant"
+},
+{
+"id": "1724070",
+"title": "S&AS: INT: COLLAB: Composable and Verifiable Design for Autonomous Humanoid Robots in Space Missions",
+"agency": "National Science Foundation",
+"sub_agency": "National Science Foundation",
+"funding_sub_agency": "National Science Foundation",
+"amount": 459470,
+"start": "2017-09-01",
+"end": "2021-08-31",
+"pi": "Hai Lin",
+"topics": [
+"Robots and manipulation",
+"Autonomy and drones"
+],
+"url": "https://www.usaspending.gov/award/ASST_NON_1724070_049",
+"kind": "grant"
+},
+{
+"id": "1527393",
+"title": "RI: Small: A New Mechanical Coupling Metric to Enable Effective Biped Locomotion Control",
+"agency": "National Science Foundation",
+"sub_agency": "National Science Foundation",
+"funding_sub_agency": "National Science Foundation",
+"amount": 502145,
+"start": "2015-09-01",
+"end": "2019-08-31",
+"pi": "John Goodwine",
+"topics": [
+"Robots and manipulation"
+],
+"url": "https://www.usaspending.gov/award/ASST_NON_1527393_049",
+"kind": "grant"
+},
+{
+"id": "1527759",
+"title": "CHS: Small: Collaborative Research: Modeling Social Context to Improve Human-Robot Interaction",
+"agency": "National Science Foundation",
+"sub_agency": "National Science Foundation",
+"funding_sub_agency": "National Science Foundation",
+"amount": 88750,
+"start": "2015-09-01",
+"end": "2017-08-31",
+"pi": "Laurel Riek",
+"topics": [
+"Robots and manipulation"
+],
+"url": "https://www.usaspending.gov/award/ASST_NON_1527759_049",
+"kind": "grant"
+},
+{
+"id": "FA95501510186",
+"title": "An Adaptive Distibuted Approach to DDAS for Surveillance Missions with UAV Swarms",
+"agency": "Department of Defense",
+"sub_agency": "Department of Defense",
+"funding_sub_agency": "",
+"amount": 170000,
+"start": "2015-06-01",
+"end": "2018-05-31",
+"pi": "",
+"topics": [
+"Autonomy and drones"
+],
+"url": "https://www.usaspending.gov/award/ASST_NON_FA95501510186_097",
+"kind": "contract"
+}
+]
+}

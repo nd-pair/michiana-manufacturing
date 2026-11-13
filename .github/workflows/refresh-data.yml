@@ -56,6 +56,9 @@ jobs:
       - name: Task fit, workforce age and turnover, value added (O*NET, Census QWI, BEA)
         continue-on-error: true
         run: python3 scripts/pull_workforce.py
+      - name: Notre Dame physical-AI research awards (USAspending, NSF)
+        continue-on-error: true
+        run: python3 scripts/pull_nd_research.py
       - name: Build docs/
         run: python3 scripts/build.py
       - name: Commit the refresh

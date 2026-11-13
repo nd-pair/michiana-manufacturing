@@ -206,6 +206,7 @@ def main():
     federal, fda, qcew, sbir, patents = sidecar("federal.json"), sidecar("fda.json"), sidecar("qcew.json"), sidecar("sbir.json"), sidecar("patents.json")
     bls = sidecar("bls.json")
     qwi, bea, taskfit = sidecar("qwi.json"), sidecar("bea.json"), sidecar("task_fit.json")
+    ndr = sidecar("nd_research.json")
     for o in companies:
         f = federal["companies"].get(o["id"]); o["federal"] = {"contracts": f["contracts"], "grants": f["grants"], "total": f["total"]} if f else None
         sb = sbir["companies"].get(o["id"]); o["sbir"] = {"count": sb["count"], "amount": sb["amount"], "agencies": sb.get("agencies", [])} if sb else None
@@ -239,6 +240,13 @@ def main():
     events += patents.get("events", [])
     ids_now = {o["id"] for o in companies}
     events = sorted((e for e in events if not e.get("company") or e["company"] in ids_now), key=lambda e: e["date"], reverse=True)
+    # Notre Dame's physical-AI research awards join the timeline
+    agency_short = {"National Science Foundation": "NSF", "Department of Defense": "DoD", "National Aeronautics and Space Administration": "NASA",
+                    "Department of Health and Human Services": "NIH/HHS", "Department of Energy": "DOE"}
+    for a in ndr.get("awards", []):
+        who = agency_short.get(a["agency"], a["agency"]) + (" via " + a["via"] if a.get("via") else "")
+        events.append({"kind": "research", "date": a["start"], "company": "", "amount": a["amount"], "source": a["url"],
+                       "title": "Notre Dame research (%s): %s%s" % (who, a["title"][:160], " · " + a["pi"] if a.get("pi") else "")})
     # milestones toward the humanoid goal, entered by hand, join the timeline
     for m in load_toml(P("data", "milestones.toml")).get("milestone", []):
         events.append({"kind": "milestone", "date": str(m["date"]), "title": m["title"], "company": m.get("company", ""),
@@ -277,7 +285,7 @@ def main():
         "qcewSectors": qcew.get("sectors", {}), "qcewPulled": qcew.get("pulled", ""),
         "humanoid": {"groups": hspec["group"], "components": [{k: v for k, v in c.items() if not k.startswith("_") and k not in ("patterns", "exclude", "exclude_naics", "naics")} for c in hspec["component"]],
                      "funding": humanoid.funding(events), "progress": progress},
-        "opportunity": opp,
+        "opportunity": opp, "ndResearch": {k: ndr.get(k) for k in ("awards", "pulled", "source", "scanned")} if ndr.get("awards") else {},
         "qcewSpec": qcew.get("specialization", {}), "bls": {k: bls.get(k) for k in ("occupations", "ces", "laus", "pulled") if bls.get(k)},
         "sbirPulled": sbir.get("pulled", ""), "fdaPulled": fda.get("pulled", ""), "patentsPulled": patents.get("pulled", ""),
     }

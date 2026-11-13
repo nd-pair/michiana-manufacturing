@@ -152,6 +152,14 @@ Beyond the map, the page carries:
   [`data/opportunity.toml`](data/opportunity.toml); `scripts/pull_workforce.py` pulls O*NET,
   the Census Bureau's Quarterly Workforce Indicators (bulk files, no key) and BEA county GDP; the
   index is saved monthly with the humanoid figures in `data/progress.json`.
+- **Notre Dame research.** `scripts/pull_nd_research.py` reads every federal grant, cooperative
+  agreement and contract to the University of Notre Dame since FY2016, and its subawards on other
+  institutions' awards, from USAspending.gov (all agencies), and keeps those about physical AI:
+  robots, autonomy and drones, prosthetics and exoskeletons, haptics, legged or humanoid systems,
+  robotic manufacturing (in the title, or three times in the description). NSF awards get their
+  investigators from the NSF Award Search API. The opportunity panel shows totals, active awards,
+  agencies, years and a table; the awards also appear on the timeline as "Notre Dame research".
+  Industry, foundation and state funding are not in this data.
 - **Roster size.** The roster shows the first 20 companies in the current sort, with buttons for
   100 or all.
 - **Workforce.** A panel with three views, all from the Bureau of Labor Statistics and sortable by
@@ -201,7 +209,7 @@ so commit only your source changes (`companies/`, `data/`, `site/`, `scripts/`) 
 companies/      one TOML file per company (edit these)
 data/           sectors, places, capabilities (edit these); county boundaries (Census), shorelines (Natural Earth); pulled datasets (federal, fda, qcew, bls, sbir)
 site/           the pages: Notre Dame Web Theme chrome (partials/), page.html + app.js (map), about.html, brief.html + brief.js, app.css
-scripts/        build.py, humanoid.py, opportunity.py, geocode.py, import_hifld.py, import_sbir_firms.py, pull_federal.py, pull_sbir.py, pull_fda.py, pull_qcew.py, pull_bls.py, pull_workforce.py, pull_events.py, pull_patents.py, common.py
+scripts/        build.py, humanoid.py, opportunity.py, geocode.py, import_hifld.py, import_sbir_firms.py, pull_federal.py, pull_sbir.py, pull_fda.py, pull_qcew.py, pull_bls.py, pull_workforce.py, pull_nd_research.py, pull_events.py, pull_patents.py, common.py
 docs/           the built site (generated; do not edit by hand)
 ```
 
