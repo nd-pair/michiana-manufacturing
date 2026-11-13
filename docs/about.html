@@ -19,7 +19,7 @@
 <link rel="apple-touch-icon" href="https://static.nd.edu/images/webclips/default/webclip-180.png">
 <link rel="stylesheet" href="https://conductor.nd.edu/stylesheets/themes/ndt/4.0/ndt.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
-<link rel="stylesheet" href="app.css?v=b8fece627e">
+<link rel="stylesheet" href="app.css?v=d54d47c69d">
 </head>
 <body>
 <script>/* dark unless this visitor chose light */try{document.body.setAttribute("data-theme",localStorage.getItem("mm-theme")||"dark")}catch(e){document.body.setAttribute("data-theme","dark")}</script>
@@ -227,6 +227,20 @@
       <section class="section">
         <h2>Capabilities, employment and the timeline</h2>
         <p><strong>Capabilities</strong> are inferred from NAICS codes and product keywords with an editable mapping; a capability with one or no company in the current selection is flagged as a gap. <strong>Manufacturing employment</strong> is from the BLS Quarterly Census of Employment and Wages, private ownership, annual averages, 2014–2025 (pulled 2026-11-12). The sector view sums 3-digit NAICS rows over the region's counties; BLS withholds cells that would reveal a single employer, so sector totals are a lower bound. The <strong>workforce</strong> panel draws on four BLS programs. Specialization, pay and establishment counts are from the same QCEW files (2025); the location quotient divides an industry's share of the region's private jobs by its share nationally, and region-wide job counts are lower bounds where BLS withholds a county's figure. Occupations are from Occupational Employment and Wage Statistics (May 2025) for the South Bend–Mishawaka, Elkhart–Goshen, Niles and Michigan City–La Porte metro areas, which leave out counties such as Kosciusko and Starke; estimates BLS cannot publish are omitted. Monthly manufacturing jobs are from Current Employment Statistics and county unemployment from Local Area Unemployment Statistics, not seasonally adjusted, through September 2026 (pulled 2026-11-12). The <strong>timeline</strong> lists 817 dated events: federal awards of $250,000 or more, SBIR/STTR awards and, where available, patents.</p>
+      </section>
+
+      <section class="section">
+        <h2>Physical-AI Opportunity Index</h2>
+        <p>The index asks where humanoid robots could make the region's manufacturers more competitive: taking on the hard, repetitive and hazardous work so the same or more people can make more complex, higher-mix products. It is not a count of jobs at risk. Six pillars each compare the region with the U.S. average, set to 100, and the index is their geometric mean, so one weak pillar pulls it down.</p>
+        <ul>
+          <li><strong>Task fit:</strong> local jobs in production, engineering and material-handling occupations (BLS OEWS, May 2025, the four metro areas) weighted by how much of each occupation's work is handling and moving parts, repetitive motion, bending, kneeling and long standing, and hazardous equipment, fumes and heat, from the O*NET 31.0 work-context and work-activity ratings (CC BY 4.0), per job, against the same measure for the U.S.</li>
+          <li><strong>High-mix potential:</strong> the share of manufacturing jobs in custom and short-run industries (machine and job shops, fabrication, molds and dies, RVs and trailers, boats, custom woodwork, medical devices; a lower bound where BLS withholds county figures), and workers per establishment, where smaller scores higher (BLS QCEW).</li>
+          <li><strong>Labor pressure:</strong> the unemployment rate (lower scores higher), the share of manufacturing workers aged 55 and older, and quarterly manufacturing turnover, from the Census Bureau's Quarterly Workforce Indicators, averaged over the latest four quarters with data.</li>
+          <li><strong>Adoption readiness:</strong> industrial machinery mechanics, electricians, engineering and mechatronics technicians, and industrial, mechanical, electrical and software engineers per 1,000 jobs.</li>
+          <li><strong>Local supply:</strong> twice the share of a humanoid's cost available from two or more local suppliers, so that half the robot sourced locally scores 100; there is no U.S. benchmark for this pillar.</li>
+          <li><strong>Shared prosperity:</strong> growth of manufacturing jobs and average pay over the latest five years against the U.S., and manufacturing value added per job (BEA county GDP over QCEW jobs, for the counties BEA publishes). Because it is part of the index, gains that came with falling jobs or pay would lower it.</li>
+        </ul>
+        <p>Weights are equal, and the weights, traits and lists are editable. The index is saved every month.</p>
       </section>
 
       <section class="section">

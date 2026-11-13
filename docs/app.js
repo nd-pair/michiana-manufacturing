@@ -19,7 +19,7 @@ function fmtEmp(c){if(!c.emp)return "unknown";const bits=[c.emp_year,c.emp_quali
 
 /* ---------- state, addressable through the URL hash ---------- */
 const st={sec:new Set(),tag:new Set(),cap:new Set(),fed:false,fda:false,rings:false,radius:0,sel:null,hot:null,q:"",open:new Set(),
-  sort:{sec:{key:"n",dir:-1},tag:{key:"n",dir:-1},cap:{key:"n",dir:-1},fed:{key:"e",dir:-1},roster:{key:"emp",dir:-1},ev:{key:"date",dir:-1},spec:{key:"lq",dir:-1},occ:{key:"emp",dir:-1},ue:{key:"rate",dir:-1},hum:{key:"cost",dir:-1}},wv:"spec",hum:null,hb:"related",rlim:20,rpage:0,
+  sort:{sec:{key:"n",dir:-1},tag:{key:"n",dir:-1},cap:{key:"n",dir:-1},fed:{key:"e",dir:-1},roster:{key:"emp",dir:-1},ev:{key:"date",dir:-1},spec:{key:"lq",dir:-1},occ:{key:"emp",dir:-1},ue:{key:"rate",dir:-1},hum:{key:"cost",dir:-1},opp:{key:"impact",dir:-1}},wv:"spec",hum:null,hb:"related",rlim:20,rpage:0,
   evKind:"all",evYear:null,evMore:0,qv:"county",qs:"abs"};
 function readHash(){st.sec.clear();st.tag.clear();st.cap.clear();st.fed=st.fda=st.rings=false;st.radius=0;st.sel=null;st.hum=null;
   try{const raw=location.hash.slice(1),h=decodeURIComponent(raw);if(h&&byId[h]){st.sel=h;return}
@@ -341,6 +341,24 @@ function renderQcew(){const el=document.getElementById("qcew");document.querySel
   for(const e of ends)svg+=`<text class="lbl" x="${e.x+6}" y="${e.y+3}" fill="${e.s.color}">${esc(e.s.name)} ${st.qs==="idx"?Math.round(e.v):fmtK(Math.round(e.v))}</text>`;
   el.innerHTML=svg+`</svg>`;
   document.getElementById("qcewnote").textContent=`BLS QCEW, private, ${y0}–${y1}${st.qv==="sector"?" · lower bound, withheld cells":""}${st.qs==="idx"?" · "+y0+" = 100":""}`}
+/* ---------- physical-AI opportunity index: every part against the U.S. (= 100) ---------- */
+function renderOpportunity(){const el=document.getElementById("opp"),O=DATA.opportunity;if(!el||!O||!O.pillars)return;
+  const fmt=(v,u)=>v==null?"–":u==="share"?(100*v).toFixed(1)+"%":u==="pct"?Math.round(v)+"%":u==="%"?v.toFixed(1)+"%":u==="growth"?(v>=0?"+":"−")+(100*Math.abs(v)).toFixed(1)+"%":u==="usd"?"$"+Math.round(v).toLocaleString():String(v);
+  const max=Math.max(200,...O.pillars.map(p=>p.score||0)),bar=v=>v==null?`<span class="mm-count">not yet available</span>`:`<span class="mm-ratio"><span class="trk"><span class="fil" style="width:${Math.min(100,100*v/max).toFixed(1)}%"></span><span class="one" style="left:${(100*100/max).toFixed(1)}%"></span></span><span class="v">${Math.round(v)}</span></span>`;
+  const prog=Object.entries(HUM.progress||{}).filter(([,v])=>v.index!=null);
+  const rows=(O.occupations||[]).map(r=>({...r,impact:r.fit!=null?r.jobs*r.fit/100:null,role:r.readiness?"deploys automation":"production",traitsText:r.traits.join(", ")}));
+  el.innerHTML=`<div class="mm-ohead"><div class="mm-oidx"><div class="k">Physical-AI Opportunity Index</div><div class="v">${O.index==null?"–":Math.round(O.index)}</div><div class="s">U.S. = 100 · ${prog.length>1?prog.slice(-3).map(([m,v])=>`${esc(monthName(m))}: ${v.index}`).join(" · "):"tracked monthly from "+esc(monthName(Object.keys(HUM.progress||{})[0]||""))}</div></div>
+    <p class="mm-fedsum">Where humanoid robots could make the region's manufacturers more competitive: taking on the hard, repetitive and hazardous work so the same or more people can make more complex, higher-mix products. Each pillar compares the region with the U.S.; the index is their geometric mean, so a weak pillar pulls it down, and <b>shared prosperity</b> (manufacturing jobs, pay and value added per job) is one of them: the index can only rise for good if workers gain too.</p></div>
+    <div class="mm-opills">${O.pillars.map(p=>`<div class="mm-opill"><div class="hd"><b>${esc(p.name)}</b>${bar(p.score)}</div><div class="w">${esc(p.what)}</div>
+      ${p.parts.map(x=>`<div class="pt"><span>${esc(x.name)}${x.note?` <small class="mm-mut">${esc(x.note)}</small>`:""}</span><span class="nums">${fmt(x.local,x.unit)}${x.us!=null?` <small class="mm-mut">vs U.S. ${fmt(x.us,x.unit)}</small>`:""}${x.score!=null?` <b>${Math.round(x.score)}</b>`:""}</span></div>`).join("")}</div>`).join("")}</div>
+    <h3 class="mm-wh" style="margin-top:14px">Occupations: where humanoids could help</h3>
+    ${sortTable("opp",[{key:"name",label:"Occupation",cell:r=>`<b>${esc(r.name)}</b>${r.readiness?' <small class="mm-mut">deploys automation</small>':""}`},
+      {key:"jobs",label:"Jobs",num:true,cell:r=>Math.round(r.jobs).toLocaleString()},{key:"per1000",label:"Per 1,000 jobs",num:true,cell:r=>r.per1000==null?"–":r.per1000.toFixed(1)},
+      {key:"fit",label:"Task fit",title:"0 to 100, from O*NET task traits",cell:r=>r.fit==null?"–":`<span class="mm-ratio"><span class="trk"><span class="fil" style="width:${r.fit}%"></span></span><span class="v">${Math.round(r.fit)}</span></span>`},
+      {key:"impact",label:"Jobs × fit",title:"local jobs weighted by task fit: where humanoids would help the most people",num:true,cell:r=>r.impact==null?"–":Math.round(r.impact).toLocaleString()},
+      {key:"traitsText",label:"Work a humanoid could take on",cell:r=>esc(r.traitsText||"–")},
+      {key:"median",label:"Median pay",num:true,cell:r=>usd(r.median)},{key:"us_median",label:"U.S. median",num:true,cell:r=>usd(r.us_median)}],rows)}
+    <p class="mm-wnote">Task fit scores how much of an occupation's work is handling and moving parts, repetitive motion, awkward postures and hazards (O*NET 31.0, 0 to 100); it marks the tasks a humanoid could relieve people of, not jobs to cut. Jobs and pay: BLS OEWS May ${esc(String(O.oews_year||""))}, four metro areas. Industry, establishment and growth figures: BLS QCEW ${esc(String(O.qcew_year||""))}; age and turnover: Census Quarterly Workforce Indicators${O.qwi_quarters&&O.qwi_quarters.length?" ("+esc(O.qwi_quarters[O.qwi_quarters.length-1])+" to "+esc(O.qwi_quarters[0])+")":""}; value added: BEA ${esc(String(O.bea_year||""))}. Weights and lists are editable in data/opportunity.toml.</p>`}
 /* ---------- humanoid coverage: which parts of a humanoid local companies could supply ---------- */
 const TIERS=["no supplier","one supplier","2–4 suppliers","5 or more"],tierOf=n=>n===0?0:n===1?1:n<5?2:3;
 function humStats(){const comp={};for(const k of Object.keys(HCOMP))comp[k]={all:new Map(),conf:new Map()};
@@ -515,7 +533,7 @@ document.getElementById("clear").addEventListener("click",clearAll);document.get
 document.getElementById("tagsearch").addEventListener("input",e=>{st.q=e.target.value.trim().toLowerCase();renderTags()});
 document.getElementById("radius").addEventListener("change",e=>{st.radius=+e.target.value;_ctr=center();buildRings();render()});
 for(const [id,k] of [["lay-rings","rings"],["f-fed","fed"],["f-fda","fda"]])document.getElementById(id).addEventListener("click",()=>{st[k]=!st[k];if(k==="rings")buildRings();render()});
-document.getElementById("humlink").addEventListener("click",()=>document.getElementById("humanoid").scrollIntoView({behavior:"smooth",block:"start"}));
+document.getElementById("humlink").addEventListener("click",()=>document.getElementById("opportunity").scrollIntoView({behavior:"smooth",block:"start"}));
 document.addEventListener("click",e=>{
   const rl=e.target.closest("[data-rlim]");if(rl){st.rlim=rl.dataset.rlim==="Infinity"?Infinity:+rl.dataset.rlim;st.rpage=0;renderTable();return}
   const rp=e.target.closest("[data-rpage]");if(rp&&!rp.disabled){st.rpage=Math.max(0,+rp.dataset.rpage);renderTable();document.querySelector(".mm-roster").scrollIntoView({block:"start"});return}
@@ -548,7 +566,7 @@ const chip=(id,on)=>document.getElementById(id).setAttribute("aria-pressed",Stri
 function render(){chip("lay-rings",st.rings);chip("f-fed",st.fed);chip("f-fda",st.fda);document.getElementById("radius").value=String(st.radius);
   _ctr=center();document.getElementById("radius-of").textContent="of "+(st.sel?_ctr.name:"the campus");if(st.rings||st.radius)buildRings();
   document.getElementById("brieflink").href="brief.html"+(st.sec.size?"#sec="+[...st.sec].map(encodeURIComponent).join("|"):"");
-  renderSectors();renderTags();renderFederal();renderCaps();renderEvents();renderWork();renderHumanoid();paintBars();renderDetail();renderTable();layout();updateHash()}
+  renderSectors();renderTags();renderFederal();renderCaps();renderEvents();renderWork();renderOpportunity();renderHumanoid();paintBars();renderDetail();renderTable();layout();updateHash()}
 window.addEventListener("hashchange",()=>{if(location.hash!==hashState()){readHash();render()}});
 document.getElementById("legend").innerHTML=DATA.sectors.map(s=>`<span><i class="mm-sw" style="background:${SCOL[s]};color:${SCOL[s]}"></i>${esc(s)}</span>`).join("")
   +`<span>column height = employees, log scale <i class="mm-hl"><i style="height:6px"></i><i style="height:10px"></i><i style="height:14px"></i><i style="height:18px"></i></i>10 · 100 · 1,000 · 10,000</span><span>~ estimate · ’22 year of the figure · * company-wide</span>`;
