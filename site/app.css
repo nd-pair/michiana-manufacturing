@@ -313,3 +313,15 @@
 .mm-opill .w{font-size:12px;color:var(--fg-2);margin:3px 0 6px}
 .mm-opill .pt{display:flex;justify-content:space-between;gap:10px;font-size:12px;padding:3px 0;border-top:1px solid var(--line)}
 .mm-opill .nums{font:500 12px var(--mono);white-space:nowrap;text-align:right}
+
+/* A–G grades in the EU energy-label colors: dark green (well ahead of the U.S.) to red (needs work) */
+.mm-app{--gA:#00a651;--gB:#50b848;--gC:#bed630;--gD:#fff200;--gE:#fdb913;--gF:#f37021;--gG:#ed1c24}
+.mm-ratio .fil.gA{background:var(--gA)}.mm-ratio .fil.gB{background:var(--gB)}.mm-ratio .fil.gC{background:var(--gC)}.mm-ratio .fil.gD{background:var(--gD)}
+.mm-ratio .fil.gE{background:var(--gE)}.mm-ratio .fil.gF{background:var(--gF)}.mm-ratio .fil.gG{background:var(--gG)}
+.mm-grade{display:inline-grid;place-items:center;min-width:20px;height:18px;padding:0 4px;border-radius:2px;font:700 11px var(--mono);margin-left:6px;vertical-align:1px;
+  clip-path:polygon(0 0,calc(100% - 5px) 0,100% 50%,calc(100% - 5px) 100%,0 100%);padding-right:8px}
+.mm-grade.gA{background:var(--gA);color:#fff}.mm-grade.gB{background:var(--gB);color:#0b1a10}.mm-grade.gC{background:var(--gC);color:#14180a}
+.mm-grade.gD{background:var(--gD);color:#1c1a00}.mm-grade.gE{background:var(--gE);color:#1f1400}.mm-grade.gF{background:var(--gF);color:#1f0d00}.mm-grade.gG{background:var(--gG);color:#fff}
+.mm-oidx .v .mm-grade{font-size:16px;height:28px;min-width:30px;vertical-align:8px}
+.mm-gleg{display:flex;flex-wrap:wrap;gap:6px 14px;align-items:center;font:500 11px var(--mono);color:var(--fg-2);margin-top:10px}
+.mm-gleg .mm-grade{margin:0 5px 0 0}
