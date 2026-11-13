@@ -1,6 +1,6 @@
 {
  "source": "U.S. Census Bureau, LEHD Quarterly Workforce Indicators (private, NAICS 31-33)",
- "pulled": "2026-11-12",
+ "pulled": "2026-11-13",
  "region": {
   "age55": 0.2504,
   "age_quarters": [
