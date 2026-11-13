@@ -348,3 +348,6 @@
 .site-footer .mm-footer-nd a{color:inherit;text-decoration:none}
 .site-header .header-title-name{border-left:0;padding-left:0;margin-left:0}
 .site-header .header-title-name::before{content:none;display:none}
+/* the map page has no page title, so drop the theme's title spacing above the map */
+main.site-content:has(.mm-band){padding-top:0}
+.page-secondary.full-width:has(> .mm-band){margin-top:0}
