@@ -325,3 +325,18 @@
 .mm-oidx .v .mm-grade{font-size:16px;height:28px;min-width:30px;vertical-align:8px}
 .mm-gleg{display:flex;flex-wrap:wrap;gap:6px 14px;align-items:center;font:500 11px var(--mono);color:var(--fg-2);margin-top:10px}
 .mm-gleg .mm-grade{margin:0 5px 0 0}
+
+/* history sparklines */
+.mm-hsp{display:inline-block;vertical-align:middle;overflow:visible}
+.mm-hsp polyline{fill:none;stroke:var(--fg);stroke-opacity:.8;stroke-width:2;stroke-linejoin:round}
+.mm-hsp .ref{stroke:var(--fg-3);stroke-width:1;stroke-dasharray:2 3}
+.mm-hsp .hit{fill:transparent;cursor:default}
+.mm-hsp .hit:hover{fill:var(--accent);fill-opacity:.35}
+.mm-hsp .end{stroke:var(--surface);stroke-width:1}
+.mm-hsp .end.gA{fill:var(--gA)}.mm-hsp .end.gB{fill:var(--gB)}.mm-hsp .end.gC{fill:var(--gC)}.mm-hsp .end.gD{fill:var(--gD)}.mm-hsp .end.gE{fill:var(--gE)}.mm-hsp .end.gF{fill:var(--gF)}.mm-hsp .end.gG{fill:var(--gG)}
+.mm-ohist{display:flex;align-items:center;gap:8px;margin:0 0 6px}
+.mm-opill .pt{align-items:center}
+.mm-opill .pt .mm-hsp{flex:none;margin-left:auto}
+.mm-olab{font:500 11px var(--mono);color:var(--fg-2)}
+.mm-olab b{color:var(--fg)}
+.mm-hsp .end{r:3.2px}
