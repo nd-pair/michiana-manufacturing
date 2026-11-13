@@ -1,0 +1,7795 @@
+{
+ "note": "Comparison of the Physical-AI Opportunity Index across data/regions.toml, same method as the map; not shown on the site.",
+ "updated": "2026-11-13",
+ "log": [],
+ "inputs": {
+  "qcew_year": "2025",
+  "prosperity_span": [
+   "2020",
+   "2025"
+  ],
+  "value_added_year": "2024",
+  "oews_year": "2025",
+  "unemployment_us_month": "2026-10",
+  "unemployment_county_months": [
+   "2026-09"
+  ],
+  "qwi_age_quarters": [
+   "2025-Q3",
+   "2025-Q2",
+   "2025-Q1",
+   "2024-Q4"
+  ],
+  "qwi_turnover_quarters": [
+   "2025-Q1",
+   "2024-Q4",
+   "2024-Q3",
+   "2024-Q2"
+  ]
+ },
+ "ranking": [
+  "Michiana (South Bend–Elkhart)",
+  "Dayton, OH",
+  "Greenville–Anderson, SC",
+  "Rochester, NY",
+  "Ann Arbor, MI",
+  "Madison, WI",
+  "Knoxville, TN",
+  "Lansing–East Lansing, MI",
+  "Cedar Rapids–Iowa City, IA",
+  "Lafayette–West Lafayette, IN",
+  "Champaign–Urbana, IL"
+ ],
+ "regions": {
+  "Michiana (South Bend–Elkhart)": {
+   "index": 102.7,
+   "pillars": {
+    "task": 235.8,
+    "readiness": 90.1,
+    "highmix": 160.9,
+    "labor": 97.4,
+    "supply": 38.0,
+    "prosperity": 92.8
+   },
+   "parts": {
+    "task": [
+     235.8
+    ],
+    "readiness": [
+     90.1
+    ],
+    "highmix": [
+     261.1,
+     60.7
+    ],
+    "labor": [
+     100.5,
+     88.8,
+     102.8
+    ],
+    "supply": [
+     38
+    ],
+    "prosperity": [
+     94.9,
+     98.6,
+     84.8
+    ]
+   },
+   "missing": [],
+   "facts": {
+    "metro_jobs": 360210.0,
+    "readiness_per_1000": 22.4,
+    "mfg_jobs": 139299,
+    "mfg_share": 0.318,
+    "highmix_share": 0.324,
+    "unemployment": 3.88,
+    "age55": 0.25,
+    "turnover": 0.061,
+    "job_growth": -0.012,
+    "va_per_job": 191800
+   },
+   "university": "Notre Dame",
+   "home": true
+  },
+  "Lafayette–West Lafayette, IN": {
+   "index": 63.4,
+   "pillars": {
+    "task": 198.4,
+    "readiness": 111.2,
+    "highmix": 18.4,
+    "labor": 92.2,
+    "supply": 18.0,
+    "prosperity": 96.7
+   },
+   "parts": {
+    "task": [
+     198.4
+    ],
+    "readiness": [
+     111.2
+    ],
+    "highmix": [
+     5.5,
+     31.2
+    ],
+    "labor": [
+     113.0,
+     84.3,
+     79.3
+    ],
+    "supply": [
+     18
+    ],
+    "prosperity": [
+     109.5,
+     101.4,
+     79.2
+    ]
+   },
+   "missing": [],
+   "facts": {
+    "metro_jobs": 102200.0,
+    "readiness_per_1000": 27.7,
+    "mfg_jobs": 19060,
+    "mfg_share": 0.235,
+    "highmix_share": 0.007,
+    "unemployment": 3.45,
+    "age55": 0.238,
+    "turnover": 0.047,
+    "job_growth": 0.14,
+    "va_per_job": 179125
+   },
+   "university": "Purdue",
+   "home": false
+  },
+  "Champaign–Urbana, IL": {
+   "index": 61.3,
+   "pillars": {
+    "task": 86.6,
+    "readiness": 61.3,
+    "highmix": 44.0,
+    "labor": 110.0,
+    "supply": 24.0,
+    "prosperity": 85.8
+   },
+   "parts": {
+    "task": [
+     86.6
+    ],
+    "readiness": [
+     61.3
+    ],
+    "highmix": [
+     7.7,
+     80.3
+    ],
+    "labor": [
+     110.2,
+     91.3,
+     128.6
+    ],
+    "supply": [
+     24
+    ],
+    "prosperity": [
+     90.6,
+     96.1,
+     70.6
+    ]
+   },
+   "missing": [],
+   "facts": {
+    "metro_jobs": 105500.0,
+    "readiness_per_1000": 15.3,
+    "mfg_jobs": 6264,
+    "mfg_share": 0.09,
+    "highmix_share": 0.01,
+    "unemployment": 3.54,
+    "age55": 0.258,
+    "turnover": 0.076,
+    "job_growth": -0.057,
+    "va_per_job": 159823
+   },
+   "university": "Illinois",
+   "home": false
+  },
+  "Ann Arbor, MI": {
+   "index": 77.5,
+   "pillars": {
+    "task": 71.0,
+    "readiness": 148.9,
+    "highmix": 75.4,
+    "labor": 105.4,
+    "supply": 30.0,
+    "prosperity": 85.7
+   },
+   "parts": {
+    "task": [
+     71.0
+    ],
+    "readiness": [
+     148.9
+    ],
+    "highmix": [
+     19.1,
+     131.7
+    ],
+    "labor": [
+     105.4,
+     null,
+     null
+    ],
+    "supply": [
+     30
+    ],
+    "prosperity": [
+     87.5,
+     98.8,
+     70.9
+    ]
+   },
+   "missing": [],
+   "facts": {
+    "metro_jobs": 219730.0,
+    "readiness_per_1000": 37.1,
+    "mfg_jobs": 11228,
+    "mfg_share": 0.083,
+    "highmix_share": 0.024,
+    "unemployment": 3.7,
+    "age55": null,
+    "turnover": null,
+    "job_growth": -0.089,
+    "va_per_job": 160327
+   },
+   "university": "Michigan",
+   "home": false
+  },
+  "Lansing–East Lansing, MI": {
+   "index": 73.8,
+   "pillars": {
+    "task": 122.1,
+    "readiness": 121.8,
+    "highmix": 40.7,
+    "labor": 98.4,
+    "supply": 26.0,
+    "prosperity": 104.5
+   },
+   "parts": {
+    "task": [
+     122.1
+    ],
+    "readiness": [
+     121.8
+    ],
+    "highmix": [
+     2.9,
+     78.5
+    ],
+    "labor": [
+     98.4,
+     null,
+     null
+    ],
+    "supply": [
+     26
+    ],
+    "prosperity": [
+     111.7,
+     96.9,
+     104.9
+    ]
+   },
+   "missing": [],
+   "facts": {
+    "metro_jobs": 217180.0,
+    "readiness_per_1000": 30.3,
+    "mfg_jobs": 21247,
+    "mfg_share": 0.12,
+    "highmix_share": 0.004,
+    "unemployment": 3.96,
+    "age55": null,
+    "turnover": null,
+    "job_growth": 0.163,
+    "va_per_job": 237397
+   },
+   "university": "Michigan State",
+   "home": false
+  },
+  "Madison, WI": {
+   "index": 76.2,
+   "pillars": {
+    "task": 100.8,
+    "readiness": 124.4,
+    "highmix": 57.5,
+    "labor": 113.8,
+    "supply": 26.0,
+    "prosperity": 91.6
+   },
+   "parts": {
+    "task": [
+     100.8
+    ],
+    "readiness": [
+     124.4
+    ],
+    "highmix": [
+     50.1,
+     65.0
+    ],
+    "labor": [
+     156.4,
+     93.3,
+     91.7
+    ],
+    "supply": [
+     26
+    ],
+    "prosperity": [
+     101.1,
+     99.8,
+     74.0
+    ]
+   },
+   "missing": [],
+   "facts": {
+    "metro_jobs": 408070.0,
+    "readiness_per_1000": 31.0,
+    "mfg_jobs": 37214,
+    "mfg_share": 0.116,
+    "highmix_share": 0.062,
+    "unemployment": 2.49,
+    "age55": 0.263,
+    "turnover": 0.054,
+    "job_growth": 0.053,
+    "va_per_job": 167417
+   },
+   "university": "Wisconsin",
+   "home": false
+  },
+  "Rochester, NY": {
+   "index": 80.8,
+   "pillars": {
+    "task": 88.3,
+    "readiness": 107.9,
+    "highmix": 79.2,
+    "labor": 101.3,
+    "supply": 38.0,
+    "prosperity": 95.5
+   },
+   "parts": {
+    "task": [
+     88.3
+    ],
+    "readiness": [
+     107.9
+    ],
+    "highmix": [
+     76.6,
+     81.7
+    ],
+    "labor": [
+     97.3,
+     116.6,
+     90.1
+    ],
+    "supply": [
+     38
+    ],
+    "prosperity": [
+     89.9,
+     95.3,
+     101.3
+    ]
+   },
+   "missing": [],
+   "facts": {
+    "metro_jobs": 494280.0,
+    "readiness_per_1000": 26.9,
+    "mfg_jobs": 50320,
+    "mfg_share": 0.116,
+    "highmix_share": 0.095,
+    "unemployment": 4.01,
+    "age55": 0.329,
+    "turnover": 0.053,
+    "job_growth": -0.064,
+    "va_per_job": 229227
+   },
+   "university": "Rochester, RIT",
+   "home": false
+  },
+  "Dayton, OH": {
+   "index": 86.8,
+   "pillars": {
+    "task": 125.3,
+    "readiness": 116.8,
+    "highmix": 82.6,
+    "labor": 105.3,
+    "supply": 38.0,
+    "prosperity": 88.3
+   },
+   "parts": {
+    "task": [
+     125.3
+    ],
+    "readiness": [
+     116.8
+    ],
+    "highmix": [
+     86.3,
+     78.9
+    ],
+    "labor": [
+     105.5,
+     105.4,
+     105.0
+    ],
+    "supply": [
+     38
+    ],
+    "prosperity": [
+     98.4,
+     101.8,
+     64.7
+    ]
+   },
+   "missing": [],
+   "facts": {
+    "metro_jobs": 372660.0,
+    "readiness_per_1000": 29.1,
+    "mfg_jobs": 41431,
+    "mfg_share": 0.132,
+    "highmix_share": 0.107,
+    "unemployment": 3.7,
+    "age55": 0.297,
+    "turnover": 0.062,
+    "job_growth": 0.024,
+    "va_per_job": 146462
+   },
+   "university": "Dayton, Wright State, AFRL",
+   "home": false
+  },
+  "Greenville–Anderson, SC": {
+   "index": 85.3,
+   "pillars": {
+    "task": 155.2,
+    "readiness": 116.4,
+    "highmix": 54.5,
+    "labor": 106.9,
+    "supply": 38.0,
+    "prosperity": 96.5
+   },
+   "parts": {
+    "task": [
+     155.2
+    ],
+    "readiness": [
+     116.4
+    ],
+    "highmix": [
+     25.0,
+     84.1
+    ],
+    "labor": [
+     117.1,
+     100.9,
+     102.6
+    ],
+    "supply": [
+     38
+    ],
+    "prosperity": [
+     105.9,
+     98.1,
+     85.6
+    ]
+   },
+   "missing": [],
+   "facts": {
+    "metro_jobs": 434900.0,
+    "readiness_per_1000": 29.0,
+    "mfg_jobs": 59560,
+    "mfg_share": 0.159,
+    "highmix_share": 0.031,
+    "unemployment": 3.33,
+    "age55": 0.285,
+    "turnover": 0.061,
+    "job_growth": 0.103,
+    "va_per_job": 193603
+   },
+   "university": "Clemson",
+   "home": false
+  },
+  "Knoxville, TN": {
+   "index": 74.1,
+   "pillars": {
+    "task": 119.1,
+    "readiness": 86.4,
+    "highmix": 49.2,
+    "labor": 109.0,
+    "supply": 32.0,
+    "prosperity": 94.0
+   },
+   "parts": {
+    "task": [
+     119.1
+    ],
+    "readiness": [
+     86.4
+    ],
+    "highmix": [
+     20.3,
+     78.1
+    ],
+    "labor": [
+     134.1,
+     94.1,
+     98.7
+    ],
+    "supply": [
+     32
+    ],
+    "prosperity": [
+     103.3,
+     104.0,
+     74.7
+    ]
+   },
+   "missing": [],
+   "facts": {
+    "metro_jobs": 424600.0,
+    "readiness_per_1000": 21.5,
+    "mfg_jobs": 42541,
+    "mfg_share": 0.117,
+    "highmix_share": 0.025,
+    "unemployment": 2.91,
+    "age55": 0.265,
+    "turnover": 0.058,
+    "job_growth": 0.076,
+    "va_per_job": 169109
+   },
+   "university": "Tennessee, Oak Ridge",
+   "home": false
+  },
+  "Cedar Rapids–Iowa City, IA": {
+   "index": 69.1,
+   "pillars": {
+    "task": 94.5,
+    "readiness": 104.7,
+    "highmix": 36.5,
+    "labor": 95.3,
+    "supply": 32.0,
+    "prosperity": 98.6
+   },
+   "parts": {
+    "task": [
+     94.5
+    ],
+    "readiness": [
+     104.7
+    ],
+    "highmix": [
+     13.2,
+     59.7
+    ],
+    "labor": [
+     124.1,
+     88.6,
+     73.3
+    ],
+    "supply": [
+     32
+    ],
+    "prosperity": [
+     100.3,
+     98.4,
+     97.2
+    ]
+   },
+   "missing": [],
+   "facts": {
+    "metro_jobs": 233020.0,
+    "readiness_per_1000": 26.1,
+    "mfg_jobs": 25985,
+    "mfg_share": 0.144,
+    "highmix_share": 0.016,
+    "unemployment": 3.14,
+    "age55": 0.25,
+    "turnover": 0.043,
+    "job_growth": 0.045,
+    "va_per_job": 219916
+   },
+   "university": "Iowa",
+   "home": false
+  }
+ },
+ "history": {
+  "2026-11": {
+   "Michiana (South Bend–Elkhart)": {
+    "index": 102.7,
+    "pillars": {
+     "task": 235.8,
+     "readiness": 90.1,
+     "highmix": 160.9,
+     "labor": 97.4,
+     "supply": 38.0,
+     "prosperity": 92.8
+    }
+   },
+   "Lafayette–West Lafayette, IN": {
+    "index": 63.4,
+    "pillars": {
+     "task": 198.4,
+     "readiness": 111.2,
+     "highmix": 18.4,
+     "labor": 92.2,
+     "supply": 18.0,
+     "prosperity": 96.7
+    }
+   },
+   "Champaign–Urbana, IL": {
+    "index": 61.3,
+    "pillars": {
+     "task": 86.6,
+     "readiness": 61.3,
+     "highmix": 44.0,
+     "labor": 110.0,
+     "supply": 24.0,
+     "prosperity": 85.8
+    }
+   },
+   "Ann Arbor, MI": {
+    "index": 77.5,
+    "pillars": {
+     "task": 71.0,
+     "readiness": 148.9,
+     "highmix": 75.4,
+     "labor": 105.4,
+     "supply": 30.0,
+     "prosperity": 85.7
+    }
+   },
+   "Lansing–East Lansing, MI": {
+    "index": 73.8,
+    "pillars": {
+     "task": 122.1,
+     "readiness": 121.8,
+     "highmix": 40.7,
+     "labor": 98.4,
+     "supply": 26.0,
+     "prosperity": 104.5
+    }
+   },
+   "Madison, WI": {
+    "index": 76.2,
+    "pillars": {
+     "task": 100.8,
+     "readiness": 124.4,
+     "highmix": 57.5,
+     "labor": 113.8,
+     "supply": 26.0,
+     "prosperity": 91.6
+    }
+   },
+   "Rochester, NY": {
+    "index": 80.8,
+    "pillars": {
+     "task": 88.3,
+     "readiness": 107.9,
+     "highmix": 79.2,
+     "labor": 101.3,
+     "supply": 38.0,
+     "prosperity": 95.5
+    }
+   },
+   "Dayton, OH": {
+    "index": 86.8,
+    "pillars": {
+     "task": 125.3,
+     "readiness": 116.8,
+     "highmix": 82.6,
+     "labor": 105.3,
+     "supply": 38.0,
+     "prosperity": 88.3
+    }
+   },
+   "Greenville–Anderson, SC": {
+    "index": 85.3,
+    "pillars": {
+     "task": 155.2,
+     "readiness": 116.4,
+     "highmix": 54.5,
+     "labor": 106.9,
+     "supply": 38.0,
+     "prosperity": 96.5
+    }
+   },
+   "Knoxville, TN": {
+    "index": 74.1,
+    "pillars": {
+     "task": 119.1,
+     "readiness": 86.4,
+     "highmix": 49.2,
+     "labor": 109.0,
+     "supply": 32.0,
+     "prosperity": 94.0
+    }
+   },
+   "Cedar Rapids–Iowa City, IA": {
+    "index": 69.1,
+    "pillars": {
+     "task": 94.5,
+     "readiness": 104.7,
+     "highmix": 36.5,
+     "labor": 95.3,
+     "supply": 32.0,
+     "prosperity": 98.6
+    }
+   }
+  }
+ },
+ "cache": {
+  "qcew": {
+   "17019": {
+    "all": 67040.0,
+    "mfg": 6058.0,
+    "mfg_estab": 142.0,
+    "hm": 60.0,
+    "parts": {
+     "compute": 1.0,
+     "harness": 0,
+     "castings": 3.0,
+     "machining": 4.0,
+     "sheetmetal": 2.0,
+     "plastics": 4.0,
+     "composites": 0
+    }
+   },
+   "17147": {
+    "all": 2793.0,
+    "mfg": 206.0,
+    "mfg_estab": 18.0,
+    "hm": 0,
+    "parts": {
+     "compute": 0,
+     "harness": 0,
+     "castings": 0,
+     "machining": 0,
+     "sheetmetal": 0,
+     "plastics": 1.0,
+     "composites": 0
+    }
+   },
+   "18007": {
+    "all": 1500.0,
+    "mfg": 373.0,
+    "mfg_estab": 12.0,
+    "hm": 0,
+    "parts": {
+     "compute": 0,
+     "harness": 0,
+     "castings": 0,
+     "machining": 0,
+     "sheetmetal": 2.0,
+     "plastics": 1.0,
+     "composites": 0
+    }
+   },
+   "18015": {
+    "all": 4879.0,
+    "mfg": 0,
+    "mfg_estab": 30.0,
+    "hm": 0,
+    "parts": {
+     "compute": 0,
+     "harness": 0,
+     "castings": 0,
+     "machining": 2.0,
+     "sheetmetal": 3.0,
+     "plastics": 1.0,
+     "composites": 1.0
+    }
+   },
+   "18039": {
+    "all": 118321.0,
+    "mfg": 60299.0,
+    "mfg_estab": 872.0,
+    "hm": 34835.0,
+    "parts": {
+     "compute": 2.0,
+     "harness": 2.0,
+     "castings": 13.0,
+     "machining": 36.0,
+     "sheetmetal": 49.0,
+     "plastics": 74.0,
+     "composites": 21.0
+    }
+   },
+   "18049": {
+    "all": 4922.0,
+    "mfg": 1593.0,
+    "mfg_estab": 38.0,
+    "hm": 0,
+    "parts": {
+     "compute": 0,
+     "harness": 0,
+     "castings": 1.0,
+     "machining": 3.0,
+     "sheetmetal": 2.0,
+     "plastics": 2.0,
+     "composites": 0
+    }
+   },
+   "18085": {
+    "all": 32892.0,
+    "mfg": 12262.0,
+    "mfg_estab": 191.0,
+    "hm": 5359.0,
+    "parts": {
+     "compute": 0,
+     "harness": 0,
+     "castings": 5.0,
+     "machining": 10.0,
+     "sheetmetal": 6.0,
+     "plastics": 6.0,
+     "composites": 4.0
+    }
+   },
+   "18087": {
+    "all": 13328.0,
+    "mfg": 6746.0,
+    "mfg_estab": 198.0,
+    "hm": 2304.0,
+    "parts": {
+     "compute": 0,
+     "harness": 0,
+     "castings": 0,
+     "machining": 2.0,
+     "sheetmetal": 8.0,
+     "plastics": 4.0,
+     "composites": 0
+    }
+   },
+   "18091": {
+    "all": 34198.0,
+    "mfg": 8167.0,
+    "mfg_estab": 156.0,
+    "hm": 0,
+    "parts": {
+     "compute": 1.0,
+     "harness": 0,
+     "castings": 6.0,
+     "machining": 14.0,
+     "sheetmetal": 7.0,
+     "plastics": 10.0,
+     "composites": 2.0
+    }
+   },
+   "18099": {
+    "all": 17540.0,
+    "mfg": 7400.0,
+    "mfg_estab": 140.0,
+    "hm": 352.0,
+    "parts": {
+     "compute": 0,
+     "harness": 1.0,
+     "castings": 2.0,
+     "machining": 12.0,
+     "sheetmetal": 7.0,
+     "plastics": 14.0,
+     "composites": 5.0
+    }
+   },
+   "18113": {
+    "all": 14826.0,
+    "mfg": 6976.0,
+    "mfg_estab": 129.0,
+    "hm": 0,
+    "parts": {
+     "compute": 0,
+     "harness": 1.0,
+     "castings": 2.0,
+     "machining": 15.0,
+     "sheetmetal": 10.0,
+     "plastics": 5.0,
+     "composites": 2.0
+    }
+   },
+   "18141": {
+    "all": 109856.0,
+    "mfg": 12893.0,
+    "mfg_estab": 362.0,
+    "hm": 1235.0,
+    "parts": {
+     "compute": 2.0,
+     "harness": 0,
+     "castings": 5.0,
+     "machining": 33.0,
+     "sheetmetal": 22.0,
+     "plastics": 24.0,
+     "composites": 7.0
+    }
+   },
+   "18149": {
+    "all": 3154.0,
+    "mfg": 634.0,
+    "mfg_estab": 22.0,
+    "hm": 0,
+    "parts": {
+     "compute": 0,
+     "harness": 0,
+     "castings": 0,
+     "machining": 1.0,
+     "sheetmetal": 2.0,
+     "plastics": 1.0,
+     "composites": 0
+    }
+   },
+   "18157": {
+    "all": 73149.0,
+    "mfg": 18239.0,
+    "mfg_estab": 136.0,
+    "hm": 131.0,
+    "parts": {
+     "compute": 0,
+     "harness": 0,
+     "castings": 0,
+     "machining": 9.0,
+     "sheetmetal": 5.0,
+     "plastics": 4.0,
+     "composites": 1.0
+    }
+   },
+   "18171": {
+    "all": 1572.0,
+    "mfg": 448.0,
+    "mfg_estab": 11.0,
+    "hm": 0,
+    "parts": {
+     "compute": 0,
+     "harness": 0,
+     "castings": 0,
+     "machining": 3.0,
+     "sheetmetal": 3.0,
+     "plastics": 1.0,
+     "composites": 0
+    }
+   },
+   "18183": {
+    "all": 12637.0,
+    "mfg": 6000.0,
+    "mfg_estab": 78.0,
+    "hm": 34.0,
+    "parts": {
+     "compute": 0,
+     "harness": 0,
+     "castings": 1.0,
+     "machining": 12.0,
+     "sheetmetal": 1.0,
+     "plastics": 2.0,
+     "composites": 2.0
+    }
+   },
+   "19011": {
+    "all": 4498.0,
+    "mfg": 786.0,
+    "mfg_estab": 34.0,
+    "hm": 0,
+    "parts": {
+     "compute": 0,
+     "harness": 0,
+     "castings": 0,
+     "machining": 0,
+     "sheetmetal": 4.0,
+     "plastics": 2.0,
+     "composites": 0
+    }
+   },
+   "19103": {
+    "all": 51863.0,
+    "mfg": 4967.0,
+    "mfg_estab": 116.0,
+    "hm": 28.0,
+    "parts": {
+     "compute": 1.0,
+     "harness": 0,
+     "castings": 0,
+     "machining": 4.0,
+     "sheetmetal": 4.0,
+     "plastics": 4.0,
+     "composites": 0
+    }
+   },
+   "19105": {
+    "all": 4939.0,
+    "mfg": 770.0,
+    "mfg_estab": 30.0,
+    "hm": 0,
+    "parts": {
+     "compute": 0,
+     "harness": 0,
+     "castings": 0,
+     "machining": 4.0,
+     "sheetmetal": 4.0,
+     "plastics": 3.0,
+     "composites": 1.0
+    }
+   },
+   "19113": {
+    "all": 111917.0,
+    "mfg": 18389.0,
+    "mfg_estab": 269.0,
+    "hm": 399.0,
+    "parts": {
+     "compute": 1.0,
+     "harness": 0,
+     "castings": 1.0,
+     "machining": 13.0,
+     "sheetmetal": 12.0,
+     "plastics": 9.0,
+     "composites": 4.0
+    }
+   },
+   "19183": {
+    "all": 7171.0,
+    "mfg": 1073.0,
+    "mfg_estab": 44.0,
+    "hm": 0,
+    "parts": {
+     "compute": 0,
+     "harness": 0,
+     "castings": 1.0,
+     "machining": 1.0,
+     "sheetmetal": 3.0,
+     "plastics": 3.0,
+     "composites": 0
+    }
+   },
+   "26021": {
+    "all": 52215.0,
+    "mfg": 10798.0,
+    "mfg_estab": 317.0,
+    "hm": 1040.0,
+    "parts": {
+     "compute": 0,
+     "harness": 1.0,
+     "castings": 16.0,
+     "machining": 27.0,
+     "sheetmetal": 15.0,
+     "plastics": 6.0,
+     "composites": 4.0
+    }
+   },
+   "26027": {
+    "all": 7207.0,
+    "mfg": 2031.0,
+    "mfg_estab": 78.0,
+    "hm": 0,
+    "parts": {
+     "compute": 0,
+     "harness": 0,
+     "castings": 1.0,
+     "machining": 12.0,
+     "sheetmetal": 2.0,
+     "plastics": 8.0,
+     "composites": 4.0
+    }
+   },
+   "26037": {
+    "all": 16700.0,
+    "mfg": 1572.0,
+    "mfg_estab": 70.0,
+    "hm": 0,
+    "parts": {
+     "compute": 0,
+     "harness": 0,
+     "castings": 0,
+     "machining": 5.0,
+     "sheetmetal": 4.0,
+     "plastics": 1.0,
+     "composites": 1.0
+    }
+   },
+   "26045": {
+    "all": 39598.0,
+    "mfg": 8337.0,
+    "mfg_estab": 126.0,
+    "hm": 0,
+    "parts": {
+     "compute": 0,
+     "harness": 1.0,
+     "castings": 1.0,
+     "machining": 4.0,
+     "sheetmetal": 4.0,
+     "plastics": 3.0,
+     "composites": 0
+    }
+   },
+   "26065": {
+    "all": 108056.0,
+    "mfg": 9439.0,
+    "mfg_estab": 257.0,
+    "hm": 76.0,
+    "parts": {
+     "compute": 1.0,
+     "harness": 0,
+     "castings": 7.0,
+     "machining": 11.0,
+     "sheetmetal": 9.0,
+     "plastics": 12.0,
+     "composites": 3.0
+    }
+   },
+   "26155": {
+    "all": 12310.0,
+    "mfg": 1899.0,
+    "mfg_estab": 77.0,
+    "hm": 0,
+    "parts": {
+     "compute": 0,
+     "harness": 0,
+     "castings": 0,
+     "machining": 4.0,
+     "sheetmetal": 1.0,
+     "plastics": 5.0,
+     "composites": 0
+    }
+   },
+   "26159": {
+    "all": 16993.0,
+    "mfg": 3500.0,
+    "mfg_estab": 107.0,
+    "hm": 27.0,
+    "parts": {
+     "compute": 2.0,
+     "harness": 0,
+     "castings": 0,
+     "machining": 7.0,
+     "sheetmetal": 4.0,
+     "plastics": 6.0,
+     "composites": 1.0
+    }
+   },
+   "26161": {
+    "all": 134542.0,
+    "mfg": 11228.0,
+    "mfg_estab": 470.0,
+    "hm": 266.0,
+    "parts": {
+     "compute": 4.0,
+     "harness": 0,
+     "castings": 2.0,
+     "machining": 28.0,
+     "sheetmetal": 7.0,
+     "plastics": 8.0,
+     "composites": 1.0
+    }
+   },
+   "36051": {
+    "all": 14442.0,
+    "mfg": 1624.0,
+    "mfg_estab": 69.0,
+    "hm": 0,
+    "parts": {
+     "compute": 0,
+     "harness": 0,
+     "castings": 0,
+     "machining": 4.0,
+     "sheetmetal": 2.0,
+     "plastics": 3.0,
+     "composites": 2.0
+    }
+   },
+   "36055": {
+    "all": 338718.0,
+    "mfg": 34448.0,
+    "mfg_estab": 823.0,
+    "hm": 4536.0,
+    "parts": {
+     "compute": 4.0,
+     "harness": 2.0,
+     "castings": 8.0,
+     "machining": 103.0,
+     "sheetmetal": 34.0,
+     "plastics": 35.0,
+     "composites": 0
+    }
+   },
+   "36069": {
+    "all": 45760.0,
+    "mfg": 6133.0,
+    "mfg_estab": 182.0,
+    "hm": 31.0,
+    "parts": {
+     "compute": 3.0,
+     "harness": 0,
+     "castings": 0,
+     "machining": 11.0,
+     "sheetmetal": 11.0,
+     "plastics": 11.0,
+     "composites": 0
+    }
+   },
+   "36073": {
+    "all": 7994.0,
+    "mfg": 1442.0,
+    "mfg_estab": 39.0,
+    "hm": 20.0,
+    "parts": {
+     "compute": 1.0,
+     "harness": 0,
+     "castings": 0,
+     "machining": 6.0,
+     "sheetmetal": 1.0,
+     "plastics": 2.0,
+     "composites": 0
+    }
+   },
+   "36117": {
+    "all": 21829.0,
+    "mfg": 5388.0,
+    "mfg_estab": 138.0,
+    "hm": 205.0,
+    "parts": {
+     "compute": 0,
+     "harness": 0,
+     "castings": 1.0,
+     "machining": 26.0,
+     "sheetmetal": 8.0,
+     "plastics": 6.0,
+     "composites": 3.0
+    }
+   },
+   "36123": {
+    "all": 6057.0,
+    "mfg": 1285.0,
+    "mfg_estab": 56.0,
+    "hm": 0,
+    "parts": {
+     "compute": 0,
+     "harness": 0,
+     "castings": 0,
+     "machining": 3.0,
+     "sheetmetal": 0,
+     "plastics": 1.0,
+     "composites": 0
+    }
+   },
+   "39057": {
+    "all": 56792.0,
+    "mfg": 3894.0,
+    "mfg_estab": 136.0,
+    "hm": 61.0,
+    "parts": {
+     "compute": 2.0,
+     "harness": 1.0,
+     "castings": 2.0,
+     "machining": 12.0,
+     "sheetmetal": 1.0,
+     "plastics": 1.0,
+     "composites": 1.0
+    }
+   },
+   "39109": {
+    "all": 36763.0,
+    "mfg": 9938.0,
+    "mfg_estab": 208.0,
+    "hm": 118.0,
+    "parts": {
+     "compute": 1.0,
+     "harness": 0,
+     "castings": 6.0,
+     "machining": 30.0,
+     "sheetmetal": 9.0,
+     "plastics": 12.0,
+     "composites": 0
+    }
+   },
+   "39113": {
+    "all": 221157.0,
+    "mfg": 27599.0,
+    "mfg_estab": 695.0,
+    "hm": 4266.0,
+    "parts": {
+     "compute": 6.0,
+     "harness": 2.0,
+     "castings": 10.0,
+     "machining": 99.0,
+     "sheetmetal": 34.0,
+     "plastics": 27.0,
+     "composites": 10.0
+    }
+   },
+   "45007": {
+    "all": 60194.0,
+    "mfg": 16012.0,
+    "mfg_estab": 284.0,
+    "hm": 250.0,
+    "parts": {
+     "compute": 1.0,
+     "harness": 0,
+     "castings": 4.0,
+     "machining": 24.0,
+     "sheetmetal": 15.0,
+     "plastics": 16.0,
+     "composites": 5.0
+    }
+   },
+   "45045": {
+    "all": 269409.0,
+    "mfg": 30903.0,
+    "mfg_estab": 1057.0,
+    "hm": 1145.0,
+    "parts": {
+     "compute": 3.0,
+     "harness": 4.0,
+     "castings": 5.0,
+     "machining": 39.0,
+     "sheetmetal": 30.0,
+     "plastics": 61.0,
+     "composites": 12.0
+    }
+   },
+   "45059": {
+    "all": 16638.0,
+    "mfg": 7172.0,
+    "mfg_estab": 91.0,
+    "hm": 314.0,
+    "parts": {
+     "compute": 0,
+     "harness": 1.0,
+     "castings": 2.0,
+     "machining": 7.0,
+     "sheetmetal": 4.0,
+     "plastics": 6.0,
+     "composites": 2.0
+    }
+   },
+   "45077": {
+    "all": 29358.0,
+    "mfg": 5473.0,
+    "mfg_estab": 160.0,
+    "hm": 140.0,
+    "parts": {
+     "compute": 1.0,
+     "harness": 0,
+     "castings": 3.0,
+     "machining": 18.0,
+     "sheetmetal": 5.0,
+     "plastics": 2.0,
+     "composites": 1.0
+    }
+   },
+   "47001": {
+    "all": 41991.0,
+    "mfg": 14484.0,
+    "mfg_estab": 104.0,
+    "hm": 0,
+    "parts": {
+     "compute": 0,
+     "harness": 0,
+     "castings": 2.0,
+     "machining": 11.0,
+     "sheetmetal": 5.0,
+     "plastics": 5.0,
+     "composites": 1.0
+    }
+   },
+   "47009": {
+    "all": 49520.0,
+    "mfg": 8740.0,
+    "mfg_estab": 149.0,
+    "hm": 0,
+    "parts": {
+     "compute": 1.0,
+     "harness": 0,
+     "castings": 0,
+     "machining": 6.0,
+     "sheetmetal": 12.0,
+     "plastics": 9.0,
+     "composites": 1.0
+    }
+   },
+   "47013": {
+    "all": 7350.0,
+    "mfg": 1195.0,
+    "mfg_estab": 50.0,
+    "hm": 30.0,
+    "parts": {
+     "compute": 0,
+     "harness": 0,
+     "castings": 2.0,
+     "machining": 5.0,
+     "sheetmetal": 1.0,
+     "plastics": 1.0,
+     "composites": 0
+    }
+   },
+   "47093": {
+    "all": 229102.0,
+    "mfg": 12849.0,
+    "mfg_estab": 596.0,
+    "hm": 156.0,
+    "parts": {
+     "compute": 2.0,
+     "harness": 1.0,
+     "castings": 2.0,
+     "machining": 23.0,
+     "sheetmetal": 25.0,
+     "plastics": 16.0,
+     "composites": 5.0
+    }
+   },
+   "47105": {
+    "all": 15716.0,
+    "mfg": 3628.0,
+    "mfg_estab": 80.0,
+    "hm": 873.0,
+    "parts": {
+     "compute": 0,
+     "harness": 0,
+     "castings": 0,
+     "machining": 3.0,
+     "sheetmetal": 3.0,
+     "plastics": 5.0,
+     "composites": 0
+    }
+   },
+   "47129": {
+    "all": 1620.0,
+    "mfg": 274.0,
+    "mfg_estab": 20.0,
+    "hm": 0,
+    "parts": {
+     "compute": 0,
+     "harness": 0,
+     "castings": 0,
+     "machining": 6.0,
+     "sheetmetal": 0,
+     "plastics": 0,
+     "composites": 0
+    }
+   },
+   "47145": {
+    "all": 16630.0,
+    "mfg": 891.0,
+    "mfg_estab": 43.0,
+    "hm": 13.0,
+    "parts": {
+     "compute": 0,
+     "harness": 0,
+     "castings": 2.0,
+     "machining": 4.0,
+     "sheetmetal": 2.0,
+     "plastics": 1.0,
+     "composites": 1.0
+    }
+   },
+   "47173": {
+    "all": 1933.0,
+    "mfg": 480.0,
+    "mfg_estab": 14.0,
+    "hm": 0,
+    "parts": {
+     "compute": 0,
+     "harness": 0,
+     "castings": 0,
+     "machining": 0,
+     "sheetmetal": 0,
+     "plastics": 1.0,
+     "composites": 0
+    }
+   },
+   "55021": {
+    "all": 18101.0,
+    "mfg": 5028.0,
+    "mfg_estab": 105.0,
+    "hm": 258.0,
+    "parts": {
+     "compute": 0,
+     "harness": 0,
+     "castings": 2.0,
+     "machining": 5.0,
+     "sheetmetal": 2.0,
+     "plastics": 7.0,
+     "composites": 2.0
+    }
+   },
+   "55025": {
+    "all": 279473.0,
+    "mfg": 25939.0,
+    "mfg_estab": 544.0,
+    "hm": 2042.0,
+    "parts": {
+     "compute": 1.0,
+     "harness": 0,
+     "castings": 9.0,
+     "machining": 25.0,
+     "sheetmetal": 23.0,
+     "plastics": 21.0,
+     "composites": 5.0
+    }
+   },
+   "55045": {
+    "all": 13759.0,
+    "mfg": 4168.0,
+    "mfg_estab": 74.0,
+    "hm": 16.0,
+    "parts": {
+     "compute": 0,
+     "harness": 0,
+     "castings": 3.0,
+     "machining": 4.0,
+     "sheetmetal": 0,
+     "plastics": 1.0,
+     "composites": 0
+    }
+   },
+   "55049": {
+    "all": 9488.0,
+    "mfg": 2079.0,
+    "mfg_estab": 46.0,
+    "hm": 0,
+    "parts": {
+     "compute": 0,
+     "harness": 0,
+     "castings": 1.0,
+     "machining": 1.0,
+     "sheetmetal": 1.0,
+     "plastics": 0,
+     "composites": 0
+    }
+   }
+  },
+  "totals": {
+   "2020": {
+    "17019": {
+     "emp": 6416.0,
+     "pay": 54221.0
+    },
+    "17147": {
+     "emp": 224.0,
+     "pay": 46650.0
+    },
+    "18007": {
+     "emp": 395.0,
+     "pay": 43376.0
+    },
+    "18015": {
+     "emp": 0,
+     "pay": 0
+    },
+    "18039": {
+     "emp": 61529.0,
+     "pay": 55874.0
+    },
+    "18049": {
+     "emp": 1564.0,
+     "pay": 46727.0
+    },
+    "18085": {
+     "emp": 14377.0,
+     "pay": 68680.0
+    },
+    "18087": {
+     "emp": 6181.0,
+     "pay": 56286.0
+    },
+    "18091": {
+     "emp": 7507.0,
+     "pay": 56940.0
+    },
+    "18099": {
+     "emp": 6200.0,
+     "pay": 49980.0
+    },
+    "18113": {
+     "emp": 7669.0,
+     "pay": 50300.0
+    },
+    "18141": {
+     "emp": 13472.0,
+     "pay": 58919.0
+    },
+    "18149": {
+     "emp": 677.0,
+     "pay": 43727.0
+    },
+    "18157": {
+     "emp": 15834.0,
+     "pay": 70006.0
+    },
+    "18171": {
+     "emp": 485.0,
+     "pay": 43614.0
+    },
+    "18183": {
+     "emp": 5329.0,
+     "pay": 58588.0
+    },
+    "19011": {
+     "emp": 822.0,
+     "pay": 53044.0
+    },
+    "19103": {
+     "emp": 4771.0,
+     "pay": 63218.0
+    },
+    "19105": {
+     "emp": 721.0,
+     "pay": 47491.0
+    },
+    "19113": {
+     "emp": 17790.0,
+     "pay": 94150.0
+    },
+    "19183": {
+     "emp": 769.0,
+     "pay": 44285.0
+    },
+    "26021": {
+     "emp": 11645.0,
+     "pay": 83311.0
+    },
+    "26027": {
+     "emp": 2159.0,
+     "pay": 49951.0
+    },
+    "26037": {
+     "emp": 1236.0,
+     "pay": 70467.0
+    },
+    "26045": {
+     "emp": 5555.0,
+     "pay": 69966.0
+    },
+    "26065": {
+     "emp": 9694.0,
+     "pay": 71394.0
+    },
+    "26155": {
+     "emp": 1789.0,
+     "pay": 54210.0
+    },
+    "26159": {
+     "emp": 2664.0,
+     "pay": 55875.0
+    },
+    "26161": {
+     "emp": 12324.0,
+     "pay": 71387.0
+    },
+    "36051": {
+     "emp": 1652.0,
+     "pay": 59274.0
+    },
+    "36055": {
+     "emp": 36882.0,
+     "pay": 73323.0
+    },
+    "36069": {
+     "emp": 6577.0,
+     "pay": 63168.0
+    },
+    "36073": {
+     "emp": 1790.0,
+     "pay": 57133.0
+    },
+    "36117": {
+     "emp": 5706.0,
+     "pay": 58697.0
+    },
+    "36123": {
+     "emp": 1148.0,
+     "pay": 43464.0
+    },
+    "39057": {
+     "emp": 2800.0,
+     "pay": 61080.0
+    },
+    "39109": {
+     "emp": 10421.0,
+     "pay": 58178.0
+    },
+    "39113": {
+     "emp": 27239.0,
+     "pay": 57905.0
+    },
+    "45007": {
+     "emp": 14335.0,
+     "pay": 59653.0
+    },
+    "45045": {
+     "emp": 28492.0,
+     "pay": 65017.0
+    },
+    "45059": {
+     "emp": 6284.0,
+     "pay": 56226.0
+    },
+    "45077": {
+     "emp": 4907.0,
+     "pay": 62234.0
+    },
+    "47001": {
+     "emp": 11888.0,
+     "pay": 84589.0
+    },
+    "47009": {
+     "emp": 7956.0,
+     "pay": 66176.0
+    },
+    "47013": {
+     "emp": 1428.0,
+     "pay": 44931.0
+    },
+    "47093": {
+     "emp": 12945.0,
+     "pay": 60862.0
+    },
+    "47105": {
+     "emp": 3639.0,
+     "pay": 64728.0
+    },
+    "47129": {
+     "emp": 318.0,
+     "pay": 51116.0
+    },
+    "47145": {
+     "emp": 899.0,
+     "pay": 50459.0
+    },
+    "47173": {
+     "emp": 465.0,
+     "pay": 58025.0
+    },
+    "55021": {
+     "emp": 5647.0,
+     "pay": 57696.0
+    },
+    "55025": {
+     "emp": 24541.0,
+     "pay": 67575.0
+    },
+    "55045": {
+     "emp": 3823.0,
+     "pay": 49242.0
+    },
+    "55049": {
+     "emp": 1330.0,
+     "pay": 49758.0
+    }
+   },
+   "2024": {
+    "17019": {
+     "emp": 7082.0,
+     "pay": 62403.0
+    },
+    "17147": {
+     "emp": 221.0,
+     "pay": 53396.0
+    },
+    "18007": {
+     "emp": 387.0,
+     "pay": 49659.0
+    },
+    "18015": {
+     "emp": 0,
+     "pay": 0
+    },
+    "18039": {
+     "emp": 60633.0,
+     "pay": 65456.0
+    },
+    "18049": {
+     "emp": 1613.0,
+     "pay": 59138.0
+    },
+    "18085": {
+     "emp": 12688.0,
+     "pay": 78612.0
+    },
+    "18087": {
+     "emp": 6995.0,
+     "pay": 61432.0
+    },
+    "18091": {
+     "emp": 8461.0,
+     "pay": 66086.0
+    },
+    "18099": {
+     "emp": 7129.0,
+     "pay": 62001.0
+    },
+    "18113": {
+     "emp": 7025.0,
+     "pay": 60112.0
+    },
+    "18141": {
+     "emp": 13078.0,
+     "pay": 68948.0
+    },
+    "18149": {
+     "emp": 636.0,
+     "pay": 52431.0
+    },
+    "18157": {
+     "emp": 18500.0,
+     "pay": 83085.0
+    },
+    "18171": {
+     "emp": 421.0,
+     "pay": 49564.0
+    },
+    "18183": {
+     "emp": 5977.0,
+     "pay": 73516.0
+    },
+    "19011": {
+     "emp": 753.0,
+     "pay": 56950.0
+    },
+    "19103": {
+     "emp": 4912.0,
+     "pay": 76958.0
+    },
+    "19105": {
+     "emp": 766.0,
+     "pay": 65727.0
+    },
+    "19113": {
+     "emp": 18530.0,
+     "pay": 105172.0
+    },
+    "19183": {
+     "emp": 926.0,
+     "pay": 64526.0
+    },
+    "26021": {
+     "emp": 11601.0,
+     "pay": 83266.0
+    },
+    "26027": {
+     "emp": 2023.0,
+     "pay": 56947.0
+    },
+    "26037": {
+     "emp": 1671.0,
+     "pay": 70753.0
+    },
+    "26045": {
+     "emp": 7983.0,
+     "pay": 77674.0
+    },
+    "26065": {
+     "emp": 10106.0,
+     "pay": 81443.0
+    },
+    "26155": {
+     "emp": 1771.0,
+     "pay": 62607.0
+    },
+    "26159": {
+     "emp": 3524.0,
+     "pay": 63637.0
+    },
+    "26161": {
+     "emp": 11602.0,
+     "pay": 83431.0
+    },
+    "36051": {
+     "emp": 1745.0,
+     "pay": 62921.0
+    },
+    "36055": {
+     "emp": 34851.0,
+     "pay": 81793.0
+    },
+    "36069": {
+     "emp": 6229.0,
+     "pay": 73960.0
+    },
+    "36073": {
+     "emp": 1414.0,
+     "pay": 68631.0
+    },
+    "36117": {
+     "emp": 5348.0,
+     "pay": 71446.0
+    },
+    "36123": {
+     "emp": 1260.0,
+     "pay": 52575.0
+    },
+    "39057": {
+     "emp": 3722.0,
+     "pay": 74353.0
+    },
+    "39109": {
+     "emp": 10127.0,
+     "pay": 68348.0
+    },
+    "39113": {
+     "emp": 27229.0,
+     "pay": 67948.0
+    },
+    "45007": {
+     "emp": 15784.0,
+     "pay": 64693.0
+    },
+    "45045": {
+     "emp": 31239.0,
+     "pay": 76620.0
+    },
+    "45059": {
+     "emp": 7000.0,
+     "pay": 63659.0
+    },
+    "45077": {
+     "emp": 5395.0,
+     "pay": 69581.0
+    },
+    "47001": {
+     "emp": 14852.0,
+     "pay": 101165.0
+    },
+    "47009": {
+     "emp": 9183.0,
+     "pay": 77677.0
+    },
+    "47013": {
+     "emp": 1269.0,
+     "pay": 57012.0
+    },
+    "47093": {
+     "emp": 13262.0,
+     "pay": 73330.0
+    },
+    "47105": {
+     "emp": 3557.0,
+     "pay": 77115.0
+    },
+    "47129": {
+     "emp": 273.0,
+     "pay": 55876.0
+    },
+    "47145": {
+     "emp": 916.0,
+     "pay": 61211.0
+    },
+    "47173": {
+     "emp": 509.0,
+     "pay": 73968.0
+    },
+    "55021": {
+     "emp": 5178.0,
+     "pay": 69473.0
+    },
+    "55025": {
+     "emp": 26318.0,
+     "pay": 77670.0
+    },
+    "55045": {
+     "emp": 4115.0,
+     "pay": 61592.0
+    },
+    "55049": {
+     "emp": 2177.0,
+     "pay": 71054.0
+    }
+   },
+   "2025": {
+    "17019": {
+     "emp": 6058.0,
+     "pay": 63387.0
+    },
+    "17147": {
+     "emp": 206.0,
+     "pay": 58195.0
+    },
+    "18007": {
+     "emp": 373.0,
+     "pay": 51271.0
+    },
+    "18015": {
+     "emp": 0,
+     "pay": 0
+    },
+    "18039": {
+     "emp": 60299.0,
+     "pay": 70515.0
+    },
+    "18049": {
+     "emp": 1593.0,
+     "pay": 60633.0
+    },
+    "18085": {
+     "emp": 12262.0,
+     "pay": 79028.0
+    },
+    "18087": {
+     "emp": 6746.0,
+     "pay": 67324.0
+    },
+    "18091": {
+     "emp": 8167.0,
+     "pay": 67799.0
+    },
+    "18099": {
+     "emp": 7400.0,
+     "pay": 65921.0
+    },
+    "18113": {
+     "emp": 6976.0,
+     "pay": 61713.0
+    },
+    "18141": {
+     "emp": 12893.0,
+     "pay": 70966.0
+    },
+    "18149": {
+     "emp": 634.0,
+     "pay": 52431.0
+    },
+    "18157": {
+     "emp": 18239.0,
+     "pay": 86246.0
+    },
+    "18171": {
+     "emp": 448.0,
+     "pay": 52632.0
+    },
+    "18183": {
+     "emp": 6000.0,
+     "pay": 74595.0
+    },
+    "19011": {
+     "emp": 786.0,
+     "pay": 62331.0
+    },
+    "19103": {
+     "emp": 4967.0,
+     "pay": 79643.0
+    },
+    "19105": {
+     "emp": 770.0,
+     "pay": 66448.0
+    },
+    "19113": {
+     "emp": 18389.0,
+     "pay": 111089.0
+    },
+    "19183": {
+     "emp": 1073.0,
+     "pay": 72059.0
+    },
+    "26021": {
+     "emp": 10798.0,
+     "pay": 83666.0
+    },
+    "26027": {
+     "emp": 2031.0,
+     "pay": 61475.0
+    },
+    "26037": {
+     "emp": 1572.0,
+     "pay": 72540.0
+    },
+    "26045": {
+     "emp": 8337.0,
+     "pay": 83387.0
+    },
+    "26065": {
+     "emp": 9439.0,
+     "pay": 85016.0
+    },
+    "26155": {
+     "emp": 1899.0,
+     "pay": 66462.0
+    },
+    "26159": {
+     "emp": 3500.0,
+     "pay": 65481.0
+    },
+    "26161": {
+     "emp": 11228.0,
+     "pay": 85993.0
+    },
+    "36051": {
+     "emp": 1624.0,
+     "pay": 65657.0
+    },
+    "36055": {
+     "emp": 34448.0,
+     "pay": 83688.0
+    },
+    "36069": {
+     "emp": 6133.0,
+     "pay": 75132.0
+    },
+    "36073": {
+     "emp": 1442.0,
+     "pay": 73274.0
+    },
+    "36117": {
+     "emp": 5388.0,
+     "pay": 74287.0
+    },
+    "36123": {
+     "emp": 1285.0,
+     "pay": 56126.0
+    },
+    "39057": {
+     "emp": 3894.0,
+     "pay": 79294.0
+    },
+    "39109": {
+     "emp": 9938.0,
+     "pay": 72232.0
+    },
+    "39113": {
+     "emp": 27599.0,
+     "pay": 71182.0
+    },
+    "45007": {
+     "emp": 16012.0,
+     "pay": 66562.0
+    },
+    "45045": {
+     "emp": 30903.0,
+     "pay": 80807.0
+    },
+    "45059": {
+     "emp": 7172.0,
+     "pay": 68822.0
+    },
+    "45077": {
+     "emp": 5473.0,
+     "pay": 69939.0
+    },
+    "47001": {
+     "emp": 14484.0,
+     "pay": 104941.0
+    },
+    "47009": {
+     "emp": 8740.0,
+     "pay": 82695.0
+    },
+    "47013": {
+     "emp": 1195.0,
+     "pay": 59135.0
+    },
+    "47093": {
+     "emp": 12849.0,
+     "pay": 76928.0
+    },
+    "47105": {
+     "emp": 3628.0,
+     "pay": 78835.0
+    },
+    "47129": {
+     "emp": 274.0,
+     "pay": 62987.0
+    },
+    "47145": {
+     "emp": 891.0,
+     "pay": 61213.0
+    },
+    "47173": {
+     "emp": 480.0,
+     "pay": 75241.0
+    },
+    "55021": {
+     "emp": 5028.0,
+     "pay": 73274.0
+    },
+    "55025": {
+     "emp": 25939.0,
+     "pay": 80360.0
+    },
+    "55045": {
+     "emp": 4168.0,
+     "pay": 63038.0
+    },
+    "55049": {
+     "emp": 2079.0,
+     "pay": 72628.0
+    }
+   }
+  },
+  "bea": {
+   "17019": {
+    "2001": 770508000,
+    "2002": 761063000,
+    "2003": 797357000,
+    "2004": 752655000,
+    "2005": 750161000,
+    "2006": 788992000,
+    "2007": 794855000,
+    "2008": 750026000,
+    "2009": 734259000,
+    "2010": 708945000,
+    "2011": 707336000,
+    "2012": 786594000,
+    "2013": 780638000,
+    "2014": 779926000,
+    "2015": 829978000,
+    "2016": 833115000,
+    "2017": 830931000,
+    "2018": 836754000,
+    "2019": 857354000,
+    "2020": 830917000,
+    "2021": 949778000,
+    "2022": 1001449000,
+    "2023": 1100225000,
+    "2024": 1139336000
+   },
+   "17147": {
+    "2001": 37535000,
+    "2002": 29952000,
+    "2003": 25752000,
+    "2004": 20932000,
+    "2005": 21512000,
+    "2006": 27679000,
+    "2007": 27505000,
+    "2008": 26683000,
+    "2009": 18491000,
+    "2010": 20734000,
+    "2011": 21124000,
+    "2012": 27645000,
+    "2013": 25168000,
+    "2014": 23137000,
+    "2015": 20412000,
+    "2016": 24077000,
+    "2017": 27070000,
+    "2018": 29543000,
+    "2019": 28674000,
+    "2020": 25591000,
+    "2021": 24960000,
+    "2022": 27350000,
+    "2023": 29021000,
+    "2024": 27852000
+   },
+   "18007": {
+    "2001": 28087000,
+    "2002": 25704000,
+    "2003": 29045000,
+    "2004": 28762000,
+    "2005": 30414000,
+    "2006": 30640000,
+    "2007": 27378000,
+    "2008": 23109000,
+    "2009": 24226000,
+    "2010": 28522000,
+    "2011": 31062000,
+    "2012": 31405000,
+    "2013": 43425000,
+    "2014": 49093000,
+    "2015": 49521000,
+    "2016": 45086000,
+    "2017": 44646000,
+    "2018": 45804000,
+    "2019": 47092000,
+    "2020": 46267000,
+    "2021": 53565000,
+    "2022": 57207000,
+    "2023": 58491000,
+    "2024": 58133000
+   },
+   "18015": {
+    "2001": 140103000,
+    "2002": 159839000,
+    "2003": 159344000,
+    "2004": 151880000,
+    "2005": 140513000,
+    "2006": 159226000,
+    "2007": 185542000,
+    "2008": 202826000,
+    "2009": 210984000,
+    "2010": 213906000,
+    "2011": 228974000,
+    "2012": 193210000
+   },
+   "18039": {
+    "2001": 3640272000,
+    "2002": 4169994000,
+    "2003": 4694632000,
+    "2004": 4933398000,
+    "2005": 5311110000,
+    "2006": 5556106000,
+    "2007": 5653981000,
+    "2008": 4249187000,
+    "2009": 2696867000,
+    "2010": 4716438000,
+    "2011": 4432352000,
+    "2012": 4587189000,
+    "2013": 5324980000,
+    "2014": 6000406000,
+    "2015": 7219782000,
+    "2016": 8316261000,
+    "2017": 9391716000,
+    "2018": 9253639000,
+    "2019": 8900121000,
+    "2020": 8588630000,
+    "2021": 10746930000,
+    "2022": 11473214000,
+    "2023": 10445608000,
+    "2024": 10375028000
+   },
+   "18049": {
+    "2001": 145586000,
+    "2002": 160790000,
+    "2003": 165940000,
+    "2004": 183978000,
+    "2005": 178067000,
+    "2006": 175764000,
+    "2007": 201299000,
+    "2008": 201212000,
+    "2009": 148307000,
+    "2010": 176193000,
+    "2011": 170180000,
+    "2012": 176230000,
+    "2013": 167610000,
+    "2014": 157603000,
+    "2015": 157914000,
+    "2016": 160182000,
+    "2017": 174304000,
+    "2018": 204552000,
+    "2019": 210079000,
+    "2020": 174366000,
+    "2021": 220247000,
+    "2022": 251698000,
+    "2023": 258877000,
+    "2024": 247865000
+   },
+   "18085": {
+    "2001": 2253995000,
+    "2002": 2489852000,
+    "2003": 2616537000,
+    "2004": 2893414000,
+    "2005": 3258500000,
+    "2006": 2772178000,
+    "2007": 2745527000,
+    "2008": 2594031000,
+    "2009": 2964235000,
+    "2010": 3448848000,
+    "2011": 3339650000,
+    "2012": 2706498000,
+    "2013": 2339625000,
+    "2014": 2749042000,
+    "2015": 2876191000,
+    "2016": 2503099000,
+    "2017": 2771502000,
+    "2018": 3093341000,
+    "2019": 3330356000,
+    "2020": 3682801000,
+    "2021": 4003004000,
+    "2022": 3977655000,
+    "2023": 4485176000,
+    "2024": 4532857000
+   },
+   "18087": {
+    "2001": 379964000,
+    "2002": 419233000,
+    "2003": 478365000,
+    "2004": 495518000,
+    "2005": 555513000,
+    "2006": 559659000,
+    "2007": 556882000,
+    "2008": 421360000,
+    "2009": 269723000,
+    "2010": 416701000,
+    "2011": 414649000,
+    "2012": 443813000,
+    "2013": 525604000,
+    "2014": 605514000,
+    "2015": 687046000,
+    "2016": 799626000,
+    "2017": 947460000,
+    "2018": 1033656000,
+    "2019": 946327000,
+    "2020": 809657000,
+    "2021": 956850000,
+    "2022": 1084346000,
+    "2023": 962351000,
+    "2024": 970688000
+   },
+   "18091": {
+    "2001": 790002000,
+    "2002": 753757000,
+    "2003": 759159000,
+    "2004": 872896000,
+    "2005": 860887000,
+    "2006": 853112000,
+    "2007": 1016245000,
+    "2008": 1051314000,
+    "2009": 864289000,
+    "2010": 1004338000,
+    "2011": 1033324000,
+    "2012": 1004352000,
+    "2013": 990681000,
+    "2014": 1050493000,
+    "2015": 1032013000,
+    "2016": 945192000,
+    "2017": 979072000,
+    "2018": 1132724000,
+    "2019": 1160054000,
+    "2020": 963946000,
+    "2021": 1325661000,
+    "2022": 1506135000,
+    "2023": 1588016000,
+    "2024": 1597520000
+   },
+   "18099": {
+    "2001": 438444000,
+    "2002": 458332000,
+    "2003": 455242000,
+    "2004": 468417000,
+    "2005": 475185000,
+    "2006": 487098000,
+    "2007": 551078000,
+    "2008": 510548000,
+    "2009": 424765000,
+    "2010": 504367000,
+    "2011": 525086000,
+    "2012": 567540000,
+    "2013": 600182000,
+    "2014": 616639000,
+    "2015": 618275000,
+    "2016": 635212000,
+    "2017": 617975000,
+    "2018": 649169000,
+    "2019": 648132000,
+    "2020": 586858000,
+    "2021": 672902000,
+    "2022": 758888000,
+    "2023": 828244000,
+    "2024": 854819000
+   },
+   "18113": {
+    "2001": 675553000,
+    "2002": 742953000,
+    "2003": 797676000,
+    "2004": 793941000,
+    "2005": 779676000,
+    "2006": 758311000,
+    "2007": 791640000,
+    "2008": 703109000,
+    "2009": 558260000,
+    "2010": 787459000,
+    "2011": 841714000,
+    "2012": 847251000,
+    "2013": 942583000,
+    "2014": 1003680000,
+    "2015": 1068002000,
+    "2016": 1005225000,
+    "2017": 939860000,
+    "2018": 978828000,
+    "2019": 991748000,
+    "2020": 917252000,
+    "2021": 981644000,
+    "2022": 1044986000,
+    "2023": 1103432000,
+    "2024": 1091773000
+   },
+   "18141": {
+    "2001": 1727841000,
+    "2002": 1882886000,
+    "2003": 2184323000,
+    "2004": 2369503000,
+    "2005": 2284695000,
+    "2006": 2303497000,
+    "2007": 2521041000,
+    "2008": 2223499000,
+    "2009": 1786325000,
+    "2010": 2264170000,
+    "2011": 2339035000,
+    "2012": 2449110000,
+    "2013": 2502551000,
+    "2014": 2575794000,
+    "2015": 2481317000,
+    "2016": 2448856000,
+    "2017": 2384655000,
+    "2018": 2502359000,
+    "2019": 2696423000,
+    "2020": 2665167000,
+    "2021": 3077249000,
+    "2022": 3324587000,
+    "2023": 3503210000,
+    "2024": 3533223000
+   },
+   "18149": {
+    "2001": 58260000,
+    "2002": 61412000,
+    "2003": 61602000,
+    "2004": 63265000,
+    "2005": 65643000,
+    "2006": 69670000,
+    "2007": 75092000,
+    "2008": 84088000,
+    "2009": 70782000,
+    "2010": 77976000,
+    "2011": 77830000,
+    "2012": 84381000,
+    "2013": 84348000,
+    "2014": 89054000,
+    "2015": 92234000,
+    "2016": 98969000,
+    "2017": 96781000,
+    "2018": 160573000,
+    "2019": 194033000,
+    "2020": 181737000,
+    "2021": 212304000,
+    "2022": 194805000,
+    "2023": 207815000,
+    "2024": 216127000
+   },
+   "18157": {
+    "2001": 1378875000,
+    "2002": 1448637000,
+    "2003": 1600996000,
+    "2004": 1645964000,
+    "2005": 1672101000,
+    "2006": 1617406000,
+    "2007": 1954864000,
+    "2008": 1764392000,
+    "2009": 1365495000,
+    "2010": 1758205000,
+    "2011": 1816007000,
+    "2012": 1802495000,
+    "2013": 1945821000,
+    "2014": 2142764000,
+    "2015": 2346117000,
+    "2016": 2533654000,
+    "2017": 2745100000,
+    "2018": 3092452000,
+    "2019": 3087246000,
+    "2020": 2747301000,
+    "2021": 2564081000,
+    "2022": 2962533000,
+    "2023": 3268041000,
+    "2024": 3357620000
+   },
+   "18171": {
+    "2001": 20059000,
+    "2002": 21712000,
+    "2003": 25806000,
+    "2004": 27541000,
+    "2005": 32265000,
+    "2006": 35367000,
+    "2007": 36959000,
+    "2008": 33466000,
+    "2009": 24086000,
+    "2010": 37223000,
+    "2011": 47100000,
+    "2012": 45963000,
+    "2013": 42257000,
+    "2014": 46684000,
+    "2015": 56491000,
+    "2016": 59480000,
+    "2017": 45322000,
+    "2018": 46790000,
+    "2019": 43416000,
+    "2020": 37800000,
+    "2021": 41674000,
+    "2022": 46627000,
+    "2023": 43709000,
+    "2024": 42793000
+   },
+   "18183": {
+    "2001": 258104000,
+    "2002": 273359000,
+    "2003": 309014000,
+    "2004": 338566000,
+    "2005": 359378000,
+    "2006": 356572000,
+    "2007": 458535000,
+    "2008": 437782000,
+    "2009": 322309000,
+    "2010": 439741000,
+    "2011": 421652000,
+    "2012": 455417000,
+    "2013": 468775000,
+    "2014": 506201000,
+    "2015": 564839000,
+    "2016": 624005000,
+    "2017": 682396000,
+    "2018": 850496000,
+    "2019": 861692000,
+    "2020": 752276000,
+    "2021": 1119281000,
+    "2022": 1232815000,
+    "2023": 1197827000,
+    "2024": 1093498000
+   },
+   "19011": {
+    "2001": 60520000,
+    "2002": 61322000,
+    "2003": 60193000,
+    "2004": 66565000,
+    "2005": 64978000,
+    "2006": 68356000,
+    "2007": 70140000,
+    "2008": 70356000,
+    "2009": 68068000,
+    "2010": 58051000,
+    "2011": 57902000,
+    "2012": 67442000,
+    "2013": 98218000,
+    "2014": 131151000,
+    "2015": 145900000,
+    "2016": 139560000,
+    "2017": 151907000,
+    "2018": 161002000,
+    "2019": 166425000,
+    "2020": 160054000,
+    "2021": 199521000,
+    "2022": 198561000,
+    "2023": 182905000,
+    "2024": 193288000
+   },
+   "19103": {
+    "2001": 632778000,
+    "2002": 641598000,
+    "2003": 607967000,
+    "2004": 601638000,
+    "2005": 542087000,
+    "2006": 602986000,
+    "2007": 519829000,
+    "2008": 644345000,
+    "2009": 661235000,
+    "2010": 750292000,
+    "2011": 788113000,
+    "2012": 789927000,
+    "2013": 996975000,
+    "2014": 960455000,
+    "2015": 869917000,
+    "2016": 732481000,
+    "2017": 896035000,
+    "2018": 999732000,
+    "2019": 912035000,
+    "2020": 959324000,
+    "2021": 1120026000,
+    "2022": 1091444000,
+    "2023": 1107160000,
+    "2024": 1185538000
+   },
+   "19105": {
+    "2001": 59598000,
+    "2002": 63604000,
+    "2003": 67023000,
+    "2004": 74746000,
+    "2005": 76144000,
+    "2006": 78525000,
+    "2007": 81597000,
+    "2008": 75811000,
+    "2009": 66837000,
+    "2010": 70904000,
+    "2011": 71319000,
+    "2012": 85752000,
+    "2013": 105781000,
+    "2014": 101561000,
+    "2015": 94405000,
+    "2016": 75641000,
+    "2017": 80847000,
+    "2018": 81642000,
+    "2019": 81193000,
+    "2020": 69175000,
+    "2021": 71473000,
+    "2022": 79727000,
+    "2023": 91039000,
+    "2024": 92602000
+   },
+   "19113": {
+    "2001": 1914097000,
+    "2002": 1686347000,
+    "2003": 2007314000,
+    "2004": 2192705000,
+    "2005": 2203022000,
+    "2006": 2366493000,
+    "2007": 2700047000,
+    "2008": 2870968000,
+    "2009": 3050912000,
+    "2010": 3258526000,
+    "2011": 3254431000,
+    "2012": 2888513000,
+    "2013": 3016709000,
+    "2014": 3146542000,
+    "2015": 3369184000,
+    "2016": 3179869000,
+    "2017": 3330023000,
+    "2018": 3713233000,
+    "2019": 3351704000,
+    "2020": 3559088000,
+    "2021": 3333362000,
+    "2022": 3634861000,
+    "2023": 3829771000,
+    "2024": 4014884000
+   },
+   "19183": {
+    "2001": 74274000,
+    "2002": 76060000,
+    "2003": 82291000,
+    "2004": 79142000,
+    "2005": 83734000,
+    "2006": 80829000,
+    "2007": 69377000,
+    "2008": 84731000,
+    "2009": 83370000,
+    "2010": 99902000,
+    "2011": 109947000,
+    "2012": 152731000,
+    "2013": 98710000,
+    "2014": 91531000,
+    "2015": 81950000,
+    "2016": 80912000,
+    "2017": 97131000,
+    "2018": 131951000,
+    "2019": 171315000,
+    "2020": 141096000,
+    "2021": 153271000,
+    "2022": 158425000,
+    "2023": 182156000,
+    "2024": 206644000
+   },
+   "26021": {
+    "2001": 1294945000,
+    "2002": 1411667000,
+    "2003": 1416393000,
+    "2004": 1404118000,
+    "2005": 1372836000,
+    "2006": 1501309000,
+    "2007": 1752330000,
+    "2008": 1539894000,
+    "2009": 1217956000,
+    "2010": 1321985000,
+    "2011": 1301035000,
+    "2012": 1278687000,
+    "2013": 1463066000,
+    "2014": 1516008000,
+    "2015": 1733853000,
+    "2016": 1857238000,
+    "2017": 1979678000,
+    "2018": 1874006000,
+    "2019": 1835210000,
+    "2020": 1792406000,
+    "2021": 1818631000,
+    "2022": 2037038000,
+    "2023": 1994002000,
+    "2024": 1955460000
+   },
+   "26027": {
+    "2001": 174583000,
+    "2002": 179728000,
+    "2003": 181615000,
+    "2004": 205383000,
+    "2005": 211864000,
+    "2006": 193252000,
+    "2007": 200114000,
+    "2008": 184074000,
+    "2009": 142517000,
+    "2010": 164021000,
+    "2011": 161034000,
+    "2012": 163826000,
+    "2013": 149352000,
+    "2014": 148077000,
+    "2015": 167638000,
+    "2016": 186349000,
+    "2017": 202619000,
+    "2018": 210937000,
+    "2019": 235597000,
+    "2020": 216199000,
+    "2021": 251973000,
+    "2022": 248110000,
+    "2023": 232709000,
+    "2024": 237001000
+   },
+   "26037": {
+    "2001": 212039000,
+    "2002": 236313000,
+    "2003": 243631000,
+    "2004": 238753000,
+    "2005": 279564000,
+    "2006": 255387000,
+    "2007": 240983000,
+    "2008": 220782000,
+    "2009": 192982000,
+    "2010": 232313000,
+    "2011": 250454000,
+    "2012": 260576000,
+    "2013": 296458000,
+    "2014": 286511000,
+    "2015": 279560000,
+    "2016": 277057000,
+    "2017": 274039000,
+    "2018": 258549000,
+    "2019": 233647000,
+    "2020": 227393000,
+    "2021": 266910000,
+    "2022": 286006000,
+    "2023": 317958000,
+    "2024": 310610000
+   },
+   "26045": {
+    "2001": 317395000,
+    "2002": 551903000,
+    "2003": 621939000,
+    "2004": 654816000,
+    "2005": 767595000,
+    "2006": 758390000,
+    "2007": 850866000,
+    "2008": 711442000,
+    "2009": 483228000,
+    "2010": 830953000,
+    "2011": 806151000,
+    "2012": 860844000,
+    "2013": 965967000,
+    "2014": 1058071000,
+    "2015": 1258133000,
+    "2016": 1341625000,
+    "2017": 1406281000,
+    "2018": 1303176000,
+    "2019": 1251500000,
+    "2020": 1311299000,
+    "2021": 1355814000,
+    "2022": 1660623000,
+    "2023": 1885903000,
+    "2024": 2049703000
+   },
+   "26065": {
+    "2001": 2070334000,
+    "2002": 2276203000,
+    "2003": 2368197000,
+    "2004": 1963279000,
+    "2005": 1588466000,
+    "2006": 1706718000,
+    "2007": 1920761000,
+    "2008": 1590379000,
+    "2009": 1100596000,
+    "2010": 1750291000,
+    "2011": 1570790000,
+    "2012": 1411259000,
+    "2013": 1250402000,
+    "2014": 1280059000,
+    "2015": 1373024000,
+    "2016": 1654894000,
+    "2017": 1913903000,
+    "2018": 2049731000,
+    "2019": 1982799000,
+    "2020": 1885463000,
+    "2021": 1899914000,
+    "2022": 2217661000,
+    "2023": 2486995000,
+    "2024": 2463054000
+   },
+   "26155": {
+    "2001": 162854000,
+    "2002": 167630000,
+    "2003": 175522000,
+    "2004": 179689000,
+    "2005": 174175000,
+    "2006": 166255000,
+    "2007": 175976000,
+    "2008": 169522000,
+    "2009": 156903000,
+    "2010": 197104000,
+    "2011": 200521000,
+    "2012": 191468000,
+    "2013": 215499000,
+    "2014": 207953000,
+    "2015": 226721000,
+    "2016": 220852000,
+    "2017": 226045000,
+    "2018": 327932000,
+    "2019": 231892000,
+    "2020": 217384000,
+    "2021": 205453000,
+    "2022": 295448000,
+    "2023": 310825000,
+    "2024": 288026000
+   },
+   "26159": {
+    "2001": 288404000,
+    "2002": 322666000,
+    "2003": 315426000,
+    "2004": 310637000,
+    "2005": 294242000,
+    "2006": 311670000,
+    "2007": 322098000,
+    "2008": 307959000,
+    "2009": 282667000,
+    "2010": 316033000,
+    "2011": 292198000,
+    "2012": 211646000,
+    "2013": 208496000,
+    "2014": 198291000,
+    "2015": 213520000,
+    "2016": 220626000,
+    "2017": 253804000,
+    "2018": 269126000,
+    "2019": 284279000,
+    "2020": 291165000,
+    "2021": 305492000,
+    "2022": 331250000,
+    "2023": 396615000,
+    "2024": 411375000
+   },
+   "26161": {
+    "2001": 2971793000,
+    "2002": 3318723000,
+    "2003": 3324183000,
+    "2004": 2934794000,
+    "2005": 2908176000,
+    "2006": 2772466000,
+    "2007": 2908622000,
+    "2008": 2078345000,
+    "2009": 1604057000,
+    "2010": 1642281000,
+    "2011": 1747340000,
+    "2012": 1700350000,
+    "2013": 1789223000,
+    "2014": 1700725000,
+    "2015": 1749123000,
+    "2016": 1839370000,
+    "2017": 1926634000,
+    "2018": 1941536000,
+    "2019": 1833047000,
+    "2020": 1683889000,
+    "2021": 1714474000,
+    "2022": 1786551000,
+    "2023": 1798663000,
+    "2024": 1860119000
+   },
+   "36051": {
+    "2001": 154911000,
+    "2002": 158838000,
+    "2003": 159381000,
+    "2004": 169995000,
+    "2005": 184137000,
+    "2006": 206534000,
+    "2007": 216232000,
+    "2008": 193880000,
+    "2009": 199204000,
+    "2010": 203859000,
+    "2011": 179794000,
+    "2012": 167198000,
+    "2013": 205862000,
+    "2014": 232762000,
+    "2015": 253969000,
+    "2016": 233002000,
+    "2017": 246288000,
+    "2018": 245176000,
+    "2019": 290883000,
+    "2020": 270721000,
+    "2021": 288212000,
+    "2022": 307263000,
+    "2023": 305030000,
+    "2024": 307592000
+   },
+   "36055": {
+    "2001": 8361477000,
+    "2002": 8599422000,
+    "2003": 8177138000,
+    "2004": 8041322000,
+    "2005": 8053624000,
+    "2006": 8990477000,
+    "2007": 8754859000,
+    "2008": 8370713000,
+    "2009": 8654350000,
+    "2010": 7751420000,
+    "2011": 6603568000,
+    "2012": 5915414000,
+    "2013": 5848458000,
+    "2014": 5446576000,
+    "2015": 5591332000,
+    "2016": 5340920000,
+    "2017": 5404997000,
+    "2018": 5619142000,
+    "2019": 6089628000,
+    "2020": 5898208000,
+    "2021": 6984353000,
+    "2022": 7750934000,
+    "2023": 7838685000,
+    "2024": 7928016000
+   },
+   "36069": {
+    "2001": 1213562000,
+    "2002": 638571000,
+    "2003": 607048000,
+    "2004": 622181000,
+    "2005": 669896000,
+    "2006": 643911000,
+    "2007": 587278000,
+    "2008": 608426000,
+    "2009": 710827000,
+    "2010": 740497000,
+    "2011": 706773000,
+    "2012": 728355000,
+    "2013": 777074000,
+    "2014": 832019000,
+    "2015": 929769000,
+    "2016": 978656000,
+    "2017": 1055492000,
+    "2018": 1140483000,
+    "2019": 1223499000,
+    "2020": 1258860000,
+    "2021": 1438316000,
+    "2022": 1510240000,
+    "2023": 1549280000,
+    "2024": 1549968000
+   },
+   "36073": {
+    "2001": 108594000,
+    "2002": 109448000,
+    "2003": 110740000,
+    "2004": 117702000,
+    "2005": 131676000,
+    "2006": 138476000,
+    "2007": 152913000,
+    "2008": 231312000,
+    "2009": 320272000,
+    "2010": 329825000,
+    "2011": 260452000,
+    "2012": 217367000,
+    "2013": 272709000,
+    "2014": 298276000,
+    "2015": 343089000,
+    "2016": 286852000,
+    "2017": 288886000,
+    "2018": 270969000,
+    "2019": 274966000,
+    "2020": 305949000,
+    "2021": 378330000,
+    "2022": 376571000,
+    "2023": 401381000,
+    "2024": 388886000
+   },
+   "36117": {
+    "2001": 698327000,
+    "2002": 673004000,
+    "2003": 562092000,
+    "2004": 519259000,
+    "2005": 524668000,
+    "2006": 510334000,
+    "2007": 518627000,
+    "2008": 574659000,
+    "2009": 665922000,
+    "2010": 648952000,
+    "2011": 603518000,
+    "2012": 609473000,
+    "2013": 664285000,
+    "2014": 717940000,
+    "2015": 814527000,
+    "2016": 883442000,
+    "2017": 1035128000,
+    "2018": 1171482000,
+    "2019": 1215799000,
+    "2020": 1056801000,
+    "2021": 1048437000,
+    "2022": 1185301000,
+    "2023": 1222511000,
+    "2024": 1179644000
+   },
+   "36123": {
+    "2001": 67709000,
+    "2002": 77639000,
+    "2003": 68025000,
+    "2004": 394721000,
+    "2005": 316387000,
+    "2006": 238904000,
+    "2007": 125478000,
+    "2008": 109235000,
+    "2009": 121867000,
+    "2010": 112086000,
+    "2011": 101634000,
+    "2012": 94128000,
+    "2013": 102536000,
+    "2014": 115239000,
+    "2015": 142748000,
+    "2016": 153613000,
+    "2017": 170285000,
+    "2018": 164314000,
+    "2019": 194644000,
+    "2020": 208829000,
+    "2021": 261893000,
+    "2022": 284557000,
+    "2023": 295792000,
+    "2024": 301419000
+   },
+   "39057": {
+    "2001": 344680000,
+    "2002": 366843000,
+    "2003": 369100000,
+    "2004": 365775000,
+    "2005": 375206000,
+    "2006": 371591000,
+    "2007": 383597000,
+    "2008": 386675000,
+    "2009": 341071000,
+    "2010": 349283000,
+    "2011": 376126000,
+    "2012": 380312000,
+    "2013": 422125000,
+    "2014": 481626000,
+    "2015": 510409000,
+    "2016": 564532000,
+    "2017": 667944000,
+    "2018": 581831000,
+    "2019": 541982000,
+    "2020": 534099000,
+    "2021": 574092000,
+    "2022": 566406000,
+    "2023": 705312000,
+    "2024": 742027000
+   },
+   "39109": {
+    "2001": 932683000,
+    "2002": 928701000,
+    "2003": 931492000,
+    "2004": 942949000,
+    "2005": 986243000,
+    "2006": 1016745000,
+    "2007": 1061352000,
+    "2008": 1062133000,
+    "2009": 849464000,
+    "2010": 948953000,
+    "2011": 1158033000,
+    "2012": 1326036000,
+    "2013": 1317981000,
+    "2014": 1302397000,
+    "2015": 1290376000,
+    "2016": 1345961000,
+    "2017": 1435657000,
+    "2018": 1316809000,
+    "2019": 1272884000,
+    "2020": 1175408000,
+    "2021": 1220717000,
+    "2022": 1328839000,
+    "2023": 1434541000,
+    "2024": 1438341000
+   },
+   "39113": {
+    "2001": 4576719000,
+    "2002": 4615411000,
+    "2003": 4604877000,
+    "2004": 4836644000,
+    "2005": 4713113000,
+    "2006": 4817579000,
+    "2007": 4293679000,
+    "2008": 3492332000,
+    "2009": 2519516000,
+    "2010": 2674755000,
+    "2011": 2960138000,
+    "2012": 2965971000,
+    "2013": 2990909000,
+    "2014": 3073201000,
+    "2015": 3041315000,
+    "2016": 3139996000,
+    "2017": 3159754000,
+    "2018": 3220260000,
+    "2019": 3328783000,
+    "2020": 3131931000,
+    "2021": 3290523000,
+    "2022": 3631664000,
+    "2023": 3702912000,
+    "2024": 3836015000
+   },
+   "45007": {
+    "2001": 1164805000,
+    "2002": 1086832000,
+    "2003": 1153651000,
+    "2004": 1189588000,
+    "2005": 1159405000,
+    "2006": 1189163000,
+    "2007": 1188337000,
+    "2008": 1237514000,
+    "2009": 1136232000,
+    "2010": 1190595000,
+    "2011": 1453479000,
+    "2012": 1636519000,
+    "2013": 1505271000,
+    "2014": 1459700000,
+    "2015": 1620545000,
+    "2016": 1737088000,
+    "2017": 1706828000,
+    "2018": 1777116000,
+    "2019": 1930309000,
+    "2020": 1820863000,
+    "2021": 1831319000,
+    "2022": 2103536000,
+    "2023": 2228566000,
+    "2024": 2250324000
+   },
+   "45045": {
+    "2001": 5899892000,
+    "2002": 6955900000,
+    "2003": 7153400000,
+    "2004": 3875774000,
+    "2005": 3526065000,
+    "2006": 3331303000,
+    "2007": 3641910000,
+    "2008": 3505840000,
+    "2009": 3795519000,
+    "2010": 3832665000,
+    "2011": 4180518000,
+    "2012": 4077615000,
+    "2013": 3871425000,
+    "2014": 3802397000,
+    "2015": 4412653000,
+    "2016": 4783079000,
+    "2017": 4722130000,
+    "2018": 5144017000,
+    "2019": 5139558000,
+    "2020": 4647881000,
+    "2021": 5073511000,
+    "2022": 6136821000,
+    "2023": 6645010000,
+    "2024": 7015416000
+   },
+   "45059": {
+    "2001": 303404000,
+    "2002": 291622000,
+    "2003": 347061000,
+    "2004": 398730000,
+    "2005": 446175000,
+    "2006": 453047000,
+    "2007": 519695000,
+    "2008": 500737000,
+    "2009": 420358000,
+    "2010": 414839000,
+    "2011": 488544000,
+    "2012": 585700000,
+    "2013": 1593539000,
+    "2014": 2001497000,
+    "2015": 1883858000,
+    "2016": 1482371000,
+    "2017": 986508000,
+    "2018": 972358000,
+    "2019": 1006519000,
+    "2020": 928594000,
+    "2021": 938056000,
+    "2022": 1048291000,
+    "2023": 1124230000,
+    "2024": 1132572000
+   },
+   "45077": {
+    "2001": 430762000,
+    "2002": 434330000,
+    "2003": 431130000,
+    "2004": 429873000,
+    "2005": 430704000,
+    "2006": 448284000,
+    "2007": 522416000,
+    "2008": 464469000,
+    "2009": 440149000,
+    "2010": 504148000,
+    "2011": 561163000,
+    "2012": 596621000,
+    "2013": 601199000,
+    "2014": 632633000,
+    "2015": 630822000,
+    "2016": 720304000,
+    "2017": 711040000,
+    "2018": 753733000,
+    "2019": 878352000,
+    "2020": 757348000,
+    "2021": 852660000,
+    "2022": 929993000,
+    "2023": 1078794000,
+    "2024": 1105214000
+   },
+   "47001": {
+    "2001": 1025862000,
+    "2002": 1090118000,
+    "2003": 1052541000,
+    "2004": 1095232000,
+    "2005": 1116221000,
+    "2006": 1198285000,
+    "2007": 1251263000,
+    "2008": 1252133000,
+    "2009": 1226870000,
+    "2010": 1166303000,
+    "2011": 1250162000,
+    "2012": 1357688000,
+    "2013": 1352495000,
+    "2014": 1326442000,
+    "2015": 1309627000,
+    "2016": 1491488000,
+    "2017": 1571581000,
+    "2018": 1692415000,
+    "2019": 1762571000,
+    "2020": 1849349000,
+    "2021": 2009882000,
+    "2022": 2286306000,
+    "2023": 2446763000,
+    "2024": 2470433000
+   },
+   "47009": {
+    "2001": 723599000,
+    "2002": 690669000,
+    "2003": 672668000,
+    "2004": 847611000,
+    "2005": 929723000,
+    "2006": 1041543000,
+    "2007": 900941000,
+    "2008": 820556000,
+    "2009": 576122000,
+    "2010": 677585000,
+    "2011": 858097000,
+    "2012": 1029111000,
+    "2013": 1023577000,
+    "2014": 1032173000,
+    "2015": 1007024000,
+    "2016": 1262351000,
+    "2017": 1446193000,
+    "2018": 1502218000,
+    "2019": 1463831000,
+    "2020": 1376664000,
+    "2021": 1267473000,
+    "2022": 1437349000,
+    "2023": 1556704000,
+    "2024": 1507244000
+   },
+   "47013": {
+    "2001": 118974000,
+    "2002": 105667000,
+    "2003": 121527000,
+    "2004": 151236000,
+    "2005": 166575000,
+    "2006": 141374000,
+    "2007": 142526000,
+    "2008": 151791000,
+    "2009": 153321000,
+    "2010": 147660000,
+    "2011": 126808000,
+    "2012": 101991000,
+    "2013": 138297000,
+    "2014": 123609000,
+    "2015": 145258000,
+    "2016": 140312000,
+    "2017": 184735000,
+    "2018": 221892000,
+    "2019": 236256000,
+    "2020": 239966000,
+    "2021": 246073000,
+    "2022": 260298000,
+    "2023": 283038000,
+    "2024": 302478000
+   },
+   "47093": {
+    "2001": 1379946000,
+    "2002": 1554955000,
+    "2003": 1994767000,
+    "2004": 2314294000,
+    "2005": 2220055000,
+    "2006": 2172083000,
+    "2007": 2057572000,
+    "2008": 1979363000,
+    "2009": 1683356000,
+    "2010": 1213208000,
+    "2011": 1206095000,
+    "2012": 1350339000,
+    "2013": 1414707000,
+    "2014": 1404157000,
+    "2015": 1504222000,
+    "2016": 1647291000,
+    "2017": 1752010000,
+    "2018": 1797560000,
+    "2019": 1874482000,
+    "2020": 1938610000,
+    "2021": 1981026000,
+    "2022": 2172983000,
+    "2023": 2210018000,
+    "2024": 2167514000
+   },
+   "47105": {
+    "2001": 193381000,
+    "2002": 227074000,
+    "2003": 245473000,
+    "2004": 271900000,
+    "2005": 287291000,
+    "2006": 305320000,
+    "2007": 311535000,
+    "2008": 302479000,
+    "2009": 281363000,
+    "2010": 289519000,
+    "2011": 302060000,
+    "2012": 319395000,
+    "2013": 346356000,
+    "2014": 351703000,
+    "2015": 394820000,
+    "2016": 438748000,
+    "2017": 506352000,
+    "2018": 564872000,
+    "2019": 640330000,
+    "2020": 666222000,
+    "2021": 761790000,
+    "2022": 796590000,
+    "2023": 714252000,
+    "2024": 705720000
+   },
+   "47129": {
+    "2001": 21837000,
+    "2002": 20934000,
+    "2003": 22105000,
+    "2004": 19340000,
+    "2005": 20056000,
+    "2006": 25006000,
+    "2007": 23226000,
+    "2008": 22932000,
+    "2009": 24192000,
+    "2010": 23506000,
+    "2011": 26109000,
+    "2012": 27189000,
+    "2013": 30242000,
+    "2014": 25411000,
+    "2015": 25588000,
+    "2016": 25117000,
+    "2017": 23366000,
+    "2018": 26363000,
+    "2019": 46954000,
+    "2020": 40872000,
+    "2021": 41415000,
+    "2022": 47769000,
+    "2023": 45855000,
+    "2024": 38121000
+   },
+   "47145": {
+    "2001": 102231000,
+    "2002": 106082000,
+    "2003": 101335000,
+    "2004": 102270000,
+    "2005": 109791000,
+    "2006": 123742000,
+    "2007": 125310000,
+    "2008": 127903000,
+    "2009": 102406000,
+    "2010": 100581000,
+    "2011": 107600000,
+    "2012": 107119000,
+    "2013": 101976000,
+    "2014": 93941000,
+    "2015": 97915000,
+    "2016": 96499000,
+    "2017": 116190000,
+    "2018": 121810000,
+    "2019": 126298000,
+    "2020": 118061000,
+    "2021": 125213000,
+    "2022": 144125000,
+    "2023": 136194000,
+    "2024": 140722000
+   },
+   "47173": {
+    "2001": 45271000,
+    "2002": 51804000,
+    "2003": 50335000,
+    "2004": 51230000,
+    "2005": 60896000,
+    "2006": 68835000,
+    "2007": 65133000,
+    "2008": 78743000,
+    "2009": 67307000,
+    "2010": 71407000,
+    "2011": 65493000,
+    "2012": 74864000,
+    "2013": 45188000,
+    "2014": 41734000,
+    "2015": 45235000,
+    "2016": 46118000,
+    "2017": 48185000,
+    "2018": 49882000,
+    "2019": 49963000,
+    "2020": 54189000,
+    "2021": 67840000,
+    "2022": 77406000,
+    "2023": 74653000,
+    "2024": 78303000
+   },
+   "55021": {
+    "2001": 315175000,
+    "2002": 323937000,
+    "2003": 348028000,
+    "2004": 382887000,
+    "2005": 412703000,
+    "2006": 480480000,
+    "2007": 505137000,
+    "2008": 493208000,
+    "2009": 440273000,
+    "2010": 451216000,
+    "2011": 518257000,
+    "2012": 538025000,
+    "2013": 594876000,
+    "2014": 620130000,
+    "2015": 649230000,
+    "2016": 666115000,
+    "2017": 682882000,
+    "2018": 666186000,
+    "2019": 680471000,
+    "2020": 682111000,
+    "2021": 702089000,
+    "2022": 797033000,
+    "2023": 868702000,
+    "2024": 869540000
+   },
+   "55025": {
+    "2001": 2341987000,
+    "2002": 2439522000,
+    "2003": 2428991000,
+    "2004": 2489980000,
+    "2005": 2901186000,
+    "2006": 3152401000,
+    "2007": 3231064000,
+    "2008": 2712292000,
+    "2009": 2639083000,
+    "2010": 2879183000,
+    "2011": 2836607000,
+    "2012": 2880404000,
+    "2013": 3035192000,
+    "2014": 3155066000,
+    "2015": 3337162000,
+    "2016": 3245130000,
+    "2017": 3083797000,
+    "2018": 3241730000,
+    "2019": 3372181000,
+    "2020": 3461198000,
+    "2021": 3774278000,
+    "2022": 4218129000,
+    "2023": 4372183000,
+    "2024": 4484810000
+   },
+   "55045": {
+    "2001": 195650000,
+    "2002": 195118000,
+    "2003": 205632000,
+    "2004": 206849000,
+    "2005": 233373000,
+    "2006": 275475000,
+    "2007": 273709000,
+    "2008": 267949000,
+    "2009": 232851000,
+    "2010": 260059000,
+    "2011": 290761000,
+    "2012": 327037000,
+    "2013": 352376000,
+    "2014": 373759000,
+    "2015": 416332000,
+    "2016": 441946000,
+    "2017": 450529000,
+    "2018": 465825000,
+    "2019": 527751000,
+    "2020": 470856000,
+    "2021": 533691000,
+    "2022": 589966000,
+    "2023": 647091000,
+    "2024": 668723000
+   },
+   "55049": {
+    "2001": 27535000,
+    "2002": 26824000,
+    "2003": 29194000,
+    "2004": 33115000,
+    "2005": 35630000,
+    "2006": 40208000,
+    "2007": 63635000,
+    "2008": 63962000,
+    "2009": 64224000,
+    "2010": 72339000,
+    "2011": 83944000,
+    "2012": 96015000,
+    "2013": 104982000,
+    "2014": 107092000,
+    "2015": 108062000,
+    "2016": 106239000,
+    "2017": 116960000,
+    "2018": 135417000,
+    "2019": 150947000,
+    "2020": 146017000,
+    "2021": 192584000,
+    "2022": 246495000,
+    "2023": 291178000,
+    "2024": 303285000
+   }
+  },
+  "qwi": {
+   "18007": {
+    "2023-Q1": [
+     440.0,
+     124.0,
+     0.056,
+     400.0
+    ],
+    "2023-Q2": [
+     424.0,
+     124.0,
+     0.057,
+     393.0
+    ],
+    "2023-Q3": [
+     440.0,
+     126.0,
+     0.054,
+     392.0
+    ],
+    "2023-Q4": [
+     419.0,
+     122.0,
+     0.058,
+     396.0
+    ],
+    "2024-Q1": [
+     433.0,
+     124.0,
+     0.057,
+     397.0
+    ],
+    "2024-Q2": [
+     429.0,
+     128.0,
+     0.053,
+     398.0
+    ],
+    "2024-Q3": [
+     430.0,
+     131.0,
+     0.051,
+     393.0
+    ],
+    "2024-Q4": [
+     416.0,
+     131.0,
+     0.053,
+     386.0
+    ],
+    "2025-Q1": [
+     401.0,
+     127.0,
+     0.051,
+     372.0
+    ],
+    "2025-Q2": [
+     402.0,
+     125.0,
+     0.065,
+     367.0
+    ],
+    "2025-Q3": [
+     412.0,
+     123.0,
+     0.072,
+     370.0
+    ],
+    "2025-Q4": [
+     399.0,
+     119.0,
+     null,
+     369.0
+    ],
+    "2026-Q1": [
+     395.0,
+     118.0,
+     null,
+     null
+    ]
+   },
+   "18015": {
+    "2023-Q1": [
+     2340.0,
+     432.0,
+     0.109,
+     1955.0
+    ],
+    "2023-Q2": [
+     2378.0,
+     425.0,
+     0.117,
+     1962.0
+    ],
+    "2023-Q3": [
+     2372.0,
+     436.0,
+     0.113,
+     1983.0
+    ],
+    "2023-Q4": [
+     2332.0,
+     449.0,
+     0.107,
+     2010.0
+    ],
+    "2024-Q1": [
+     2305.0,
+     438.0,
+     0.089,
+     2012.0
+    ],
+    "2024-Q2": [
+     2204.0,
+     431.0,
+     0.07,
+     1983.0
+    ],
+    "2024-Q3": [
+     2250.0,
+     433.0,
+     0.073,
+     2045.0
+    ],
+    "2024-Q4": [
+     2230.0,
+     434.0,
+     0.063,
+     2097.0
+    ],
+    "2025-Q1": [
+     2282.0,
+     435.0,
+     0.069,
+     2103.0
+    ],
+    "2025-Q2": [
+     2245.0,
+     434.0,
+     0.068,
+     2026.0
+    ],
+    "2025-Q3": [
+     2310.0,
+     434.0,
+     0.081,
+     2025.0
+    ],
+    "2025-Q4": [
+     2362.0,
+     447.0,
+     null,
+     2114.0
+    ],
+    "2026-Q1": [
+     2311.0,
+     445.0,
+     null,
+     null
+    ]
+   },
+   "18039": {
+    "2023-Q1": [
+     70046.0,
+     14823.0,
+     0.075,
+     63080.0
+    ],
+    "2023-Q2": [
+     66959.0,
+     14466.0,
+     0.064,
+     59916.0
+    ],
+    "2023-Q3": [
+     63996.0,
+     14109.0,
+     0.056,
+     58027.0
+    ],
+    "2023-Q4": [
+     62417.0,
+     13941.0,
+     0.065,
+     57907.0
+    ],
+    "2024-Q1": [
+     61448.0,
+     13810.0,
+     0.058,
+     56547.0
+    ],
+    "2024-Q2": [
+     60986.0,
+     13715.0,
+     0.064,
+     56268.0
+    ],
+    "2024-Q3": [
+     61052.0,
+     13725.0,
+     0.059,
+     55943.0
+    ],
+    "2024-Q4": [
+     60118.0,
+     13688.0,
+     0.064,
+     56209.0
+    ],
+    "2025-Q1": [
+     59629.0,
+     13629.0,
+     0.057,
+     55059.0
+    ],
+    "2025-Q2": [
+     60762.0,
+     13754.0,
+     0.075,
+     55961.0
+    ],
+    "2025-Q3": [
+     61109.0,
+     13741.0,
+     0.064,
+     55626.0
+    ],
+    "2025-Q4": [
+     60771.0,
+     13707.0,
+     null,
+     56169.0
+    ],
+    "2026-Q1": [
+     61307.0,
+     13797.0,
+     null,
+     null
+    ]
+   },
+   "18049": {
+    "2023-Q1": [
+     1627.0,
+     460.0,
+     0.075,
+     1485.0
+    ],
+    "2023-Q2": [
+     1629.0,
+     461.0,
+     0.067,
+     1463.0
+    ],
+    "2023-Q3": [
+     1634.0,
+     460.0,
+     0.07,
+     1465.0
+    ],
+    "2023-Q4": [
+     1606.0,
+     458.0,
+     0.073,
+     1465.0
+    ],
+    "2024-Q1": [
+     1657.0,
+     474.0,
+     0.086,
+     1508.0
+    ],
+    "2024-Q2": [
+     1636.0,
+     453.0,
+     0.072,
+     1488.0
+    ],
+    "2024-Q3": [
+     1667.0,
+     444.0,
+     0.072,
+     1481.0
+    ],
+    "2024-Q4": [
+     1649.0,
+     440.0,
+     0.068,
+     1502.0
+    ],
+    "2025-Q1": [
+     1627.0,
+     434.0,
+     0.062,
+     1508.0
+    ],
+    "2025-Q2": [
+     1616.0,
+     432.0,
+     0.064,
+     1482.0
+    ],
+    "2025-Q3": [
+     1589.0,
+     424.0,
+     0.069,
+     1451.0
+    ],
+    "2025-Q4": [
+     1583.0,
+     424.0,
+     null,
+     1426.0
+    ],
+    "2026-Q1": [
+     1508.0,
+     401.0,
+     null,
+     null
+    ]
+   },
+   "18085": {
+    "2023-Q1": [
+     14033.0,
+     3876.0,
+     0.06,
+     13016.0
+    ],
+    "2023-Q2": [
+     14008.0,
+     3805.0,
+     0.065,
+     12997.0
+    ],
+    "2023-Q3": [
+     14235.0,
+     3789.0,
+     0.064,
+     12893.0
+    ],
+    "2023-Q4": [
+     13685.0,
+     3754.0,
+     0.07,
+     12646.0
+    ],
+    "2024-Q1": [
+     13253.0,
+     3699.0,
+     0.055,
+     11950.0
+    ],
+    "2024-Q2": [
+     12800.0,
+     3416.0,
+     0.069,
+     11803.0
+    ],
+    "2024-Q3": [
+     12870.0,
+     3366.0,
+     0.049,
+     11463.0
+    ],
+    "2024-Q4": [
+     12099.0,
+     3260.0,
+     0.052,
+     11462.0
+    ],
+    "2025-Q1": [
+     11862.0,
+     3244.0,
+     0.039,
+     11070.0
+    ],
+    "2025-Q2": [
+     12099.0,
+     3222.0,
+     0.067,
+     11271.0
+    ],
+    "2025-Q3": [
+     12233.0,
+     3228.0,
+     0.058,
+     11075.0
+    ],
+    "2025-Q4": [
+     11753.0,
+     3150.0,
+     null,
+     10885.0
+    ],
+    "2026-Q1": [
+     11225.0,
+     3066.0,
+     null,
+     null
+    ]
+   },
+   "18087": {
+    "2023-Q1": [
+     7285.0,
+     1346.0,
+     0.068,
+     6562.0
+    ],
+    "2023-Q2": [
+     7171.0,
+     1340.0,
+     0.073,
+     6504.0
+    ],
+    "2023-Q3": [
+     7093.0,
+     1358.0,
+     0.063,
+     6423.0
+    ],
+    "2023-Q4": [
+     7033.0,
+     1388.0,
+     0.074,
+     6501.0
+    ],
+    "2024-Q1": [
+     6920.0,
+     1391.0,
+     0.064,
+     6356.0
+    ],
+    "2024-Q2": [
+     6968.0,
+     1397.0,
+     0.072,
+     6367.0
+    ],
+    "2024-Q3": [
+     6966.0,
+     1411.0,
+     0.065,
+     6332.0
+    ],
+    "2024-Q4": [
+     6823.0,
+     1403.0,
+     0.067,
+     6301.0
+    ],
+    "2025-Q1": [
+     6768.0,
+     1391.0,
+     0.083,
+     6237.0
+    ],
+    "2025-Q2": [
+     6935.0,
+     1412.0,
+     0.084,
+     6137.0
+    ],
+    "2025-Q3": [
+     6693.0,
+     1377.0,
+     0.068,
+     6066.0
+    ],
+    "2025-Q4": [
+     6622.0,
+     1366.0,
+     null,
+     6119.0
+    ],
+    "2026-Q1": [
+     6429.0,
+     1341.0,
+     null,
+     null
+    ]
+   },
+   "18091": {
+    "2023-Q1": [
+     8071.0,
+     2295.0,
+     0.067,
+     7399.0
+    ],
+    "2023-Q2": [
+     8054.0,
+     2273.0,
+     0.067,
+     7375.0
+    ],
+    "2023-Q3": [
+     8139.0,
+     2275.0,
+     0.064,
+     7380.0
+    ],
+    "2023-Q4": [
+     8065.0,
+     2290.0,
+     0.071,
+     7422.0
+    ],
+    "2024-Q1": [
+     8056.0,
+     2301.0,
+     0.068,
+     7312.0
+    ],
+    "2024-Q2": [
+     7995.0,
+     2290.0,
+     0.066,
+     7275.0
+    ],
+    "2024-Q3": [
+     8090.0,
+     2285.0,
+     0.067,
+     7299.0
+    ],
+    "2024-Q4": [
+     7897.0,
+     2253.0,
+     0.061,
+     7282.0
+    ],
+    "2025-Q1": [
+     7828.0,
+     2229.0,
+     0.065,
+     7247.0
+    ],
+    "2025-Q2": [
+     7772.0,
+     2216.0,
+     0.059,
+     7128.0
+    ],
+    "2025-Q3": [
+     7781.0,
+     2190.0,
+     0.063,
+     7106.0
+    ],
+    "2025-Q4": [
+     7694.0,
+     2192.0,
+     null,
+     7057.0
+    ],
+    "2026-Q1": [
+     7656.0,
+     2169.0,
+     null,
+     null
+    ]
+   },
+   "18099": {
+    "2023-Q1": [
+     6936.0,
+     1748.0,
+     0.076,
+     6340.0
+    ],
+    "2023-Q2": [
+     6954.0,
+     1757.0,
+     0.075,
+     6262.0
+    ],
+    "2023-Q3": [
+     6889.0,
+     1744.0,
+     0.064,
+     6219.0
+    ],
+    "2023-Q4": [
+     6799.0,
+     1753.0,
+     0.065,
+     6290.0
+    ],
+    "2024-Q1": [
+     6793.0,
+     1733.0,
+     0.065,
+     6313.0
+    ],
+    "2024-Q2": [
+     6884.0,
+     1723.0,
+     0.069,
+     6330.0
+    ],
+    "2024-Q3": [
+     6900.0,
+     1686.0,
+     0.061,
+     6302.0
+    ],
+    "2024-Q4": [
+     6885.0,
+     1697.0,
+     0.066,
+     6396.0
+    ],
+    "2025-Q1": [
+     7177.0,
+     1793.0,
+     0.058,
+     6654.0
+    ],
+    "2025-Q2": [
+     7081.0,
+     1795.0,
+     0.053,
+     6530.0
+    ],
+    "2025-Q3": [
+     7085.0,
+     1799.0,
+     0.06,
+     6520.0
+    ],
+    "2025-Q4": [
+     7107.0,
+     1804.0,
+     null,
+     6610.0
+    ],
+    "2026-Q1": [
+     7216.0,
+     1828.0,
+     null,
+     null
+    ]
+   },
+   "18113": {
+    "2023-Q1": [
+     7458.0,
+     2016.0,
+     0.075,
+     6858.0
+    ],
+    "2023-Q2": [
+     7521.0,
+     2012.0,
+     0.072,
+     6865.0
+    ],
+    "2023-Q3": [
+     7425.0,
+     1992.0,
+     0.062,
+     6756.0
+    ],
+    "2023-Q4": [
+     7357.0,
+     2015.0,
+     0.073,
+     6752.0
+    ],
+    "2024-Q1": [
+     7188.0,
+     1979.0,
+     0.062,
+     6530.0
+    ],
+    "2024-Q2": [
+     6985.0,
+     1934.0,
+     0.054,
+     6429.0
+    ],
+    "2024-Q3": [
+     6953.0,
+     1915.0,
+     0.055,
+     6445.0
+    ],
+    "2024-Q4": [
+     7158.0,
+     2019.0,
+     0.064,
+     6703.0
+    ],
+    "2025-Q1": [
+     7001.0,
+     1999.0,
+     0.045,
+     6597.0
+    ],
+    "2025-Q2": [
+     7070.0,
+     2019.0,
+     0.054,
+     6607.0
+    ],
+    "2025-Q3": [
+     7112.0,
+     2041.0,
+     0.049,
+     6581.0
+    ],
+    "2025-Q4": [
+     7029.0,
+     2046.0,
+     null,
+     6618.0
+    ],
+    "2026-Q1": [
+     7052.0,
+     2070.0,
+     null,
+     null
+    ]
+   },
+   "18141": {
+    "2023-Q1": [
+     13147.0,
+     4361.0,
+     0.066,
+     12072.0
+    ],
+    "2023-Q2": [
+     13029.0,
+     4333.0,
+     0.062,
+     11938.0
+    ],
+    "2023-Q3": [
+     13070.0,
+     4291.0,
+     0.06,
+     11932.0
+    ],
+    "2023-Q4": [
+     13055.0,
+     4295.0,
+     0.071,
+     12129.0
+    ],
+    "2024-Q1": [
+     12914.0,
+     4284.0,
+     0.058,
+     11915.0
+    ],
+    "2024-Q2": [
+     12708.0,
+     4230.0,
+     0.057,
+     11772.0
+    ],
+    "2024-Q3": [
+     12787.0,
+     4203.0,
+     0.063,
+     11775.0
+    ],
+    "2024-Q4": [
+     12730.0,
+     4211.0,
+     0.059,
+     11774.0
+    ],
+    "2025-Q1": [
+     12846.0,
+     4212.0,
+     0.063,
+     11987.0
+    ],
+    "2025-Q2": [
+     12829.0,
+     4186.0,
+     0.059,
+     11808.0
+    ],
+    "2025-Q3": [
+     12878.0,
+     4145.0,
+     0.063,
+     11797.0
+    ],
+    "2025-Q4": [
+     12805.0,
+     4145.0,
+     null,
+     11771.0
+    ],
+    "2026-Q1": [
+     12578.0,
+     4080.0,
+     null,
+     null
+    ]
+   },
+   "18149": {
+    "2023-Q1": [
+     752.0,
+     231.0,
+     0.089,
+     611.0
+    ],
+    "2023-Q2": [
+     689.0,
+     216.0,
+     0.074,
+     605.0
+    ],
+    "2023-Q3": [
+     684.0,
+     216.0,
+     0.064,
+     605.0
+    ],
+    "2023-Q4": [
+     698.0,
+     215.0,
+     0.085,
+     638.0
+    ],
+    "2024-Q1": [
+     665.0,
+     204.0,
+     0.06,
+     598.0
+    ],
+    "2024-Q2": [
+     668.0,
+     210.0,
+     0.076,
+     602.0
+    ],
+    "2024-Q3": [
+     682.0,
+     209.0,
+     0.076,
+     607.0
+    ],
+    "2024-Q4": [
+     693.0,
+     216.0,
+     0.082,
+     621.0
+    ],
+    "2025-Q1": [
+     699.0,
+     210.0,
+     0.073,
+     630.0
+    ],
+    "2025-Q2": [
+     716.0,
+     220.0,
+     0.115,
+     651.0
+    ],
+    "2025-Q3": [
+     721.0,
+     213.0,
+     0.07,
+     605.0
+    ],
+    "2025-Q4": [
+     670.0,
+     208.0,
+     null,
+     606.0
+    ],
+    "2026-Q1": [
+     662.0,
+     204.0,
+     null,
+     null
+    ]
+   },
+   "18157": {
+    "2023-Q1": [
+     19045.0,
+     4431.0,
+     0.056,
+     17926.0
+    ],
+    "2023-Q2": [
+     20038.0,
+     4629.0,
+     0.07,
+     18541.0
+    ],
+    "2023-Q3": [
+     20076.0,
+     4623.0,
+     0.053,
+     18654.0
+    ],
+    "2023-Q4": [
+     19824.0,
+     4631.0,
+     0.046,
+     18677.0
+    ],
+    "2024-Q1": [
+     19853.0,
+     4693.0,
+     0.049,
+     18829.0
+    ],
+    "2024-Q2": [
+     19842.0,
+     4731.0,
+     0.041,
+     18696.0
+    ],
+    "2024-Q3": [
+     20028.0,
+     4721.0,
+     0.047,
+     18919.0
+    ],
+    "2024-Q4": [
+     19926.0,
+     4736.0,
+     0.043,
+     18932.0
+    ],
+    "2025-Q1": [
+     19861.0,
+     4767.0,
+     0.045,
+     18944.0
+    ],
+    "2025-Q2": [
+     19702.0,
+     4765.0,
+     0.04,
+     18548.0
+    ],
+    "2025-Q3": [
+     19486.0,
+     4744.0,
+     0.038,
+     18360.0
+    ],
+    "2025-Q4": [
+     19283.0,
+     4749.0,
+     null,
+     18406.0
+    ],
+    "2026-Q1": [
+     19238.0,
+     4821.0,
+     null,
+     null
+    ]
+   },
+   "18171": {
+    "2023-Q1": [
+     749.0,
+     166.0,
+     0.092,
+     674.0
+    ],
+    "2023-Q2": [
+     735.0,
+     163.0,
+     0.064,
+     657.0
+    ],
+    "2023-Q3": [
+     732.0,
+     166.0,
+     0.062,
+     663.0
+    ],
+    "2023-Q4": [
+     741.0,
+     167.0,
+     0.071,
+     690.0
+    ],
+    "2024-Q1": [
+     734.0,
+     172.0,
+     0.059,
+     685.0
+    ],
+    "2024-Q2": [
+     743.0,
+     176.0,
+     0.058,
+     678.0
+    ],
+    "2024-Q3": [
+     727.0,
+     180.0,
+     0.051,
+     675.0
+    ],
+    "2024-Q4": [
+     720.0,
+     179.0,
+     0.055,
+     671.0
+    ],
+    "2025-Q1": [
+     704.0,
+     181.0,
+     0.056,
+     653.0
+    ],
+    "2025-Q2": [
+     678.0,
+     178.0,
+     0.05,
+     620.0
+    ],
+    "2025-Q3": [
+     668.0,
+     174.0,
+     0.054,
+     606.0
+    ],
+    "2025-Q4": [
+     646.0,
+     170.0,
+     null,
+     603.0
+    ],
+    "2026-Q1": [
+     655.0,
+     172.0,
+     null,
+     null
+    ]
+   },
+   "18183": {
+    "2023-Q1": [
+     5450.0,
+     1341.0,
+     0.063,
+     5032.0
+    ],
+    "2023-Q2": [
+     5434.0,
+     1353.0,
+     0.061,
+     5006.0
+    ],
+    "2023-Q3": [
+     5596.0,
+     1337.0,
+     0.073,
+     5082.0
+    ],
+    "2023-Q4": [
+     5605.0,
+     1354.0,
+     0.067,
+     5116.0
+    ],
+    "2024-Q1": [
+     5474.0,
+     1341.0,
+     0.056,
+     5126.0
+    ],
+    "2024-Q2": [
+     5608.0,
+     1357.0,
+     0.064,
+     5170.0
+    ],
+    "2024-Q3": [
+     5640.0,
+     1353.0,
+     0.057,
+     5202.0
+    ],
+    "2024-Q4": [
+     5548.0,
+     1344.0,
+     0.052,
+     5202.0
+    ],
+    "2025-Q1": [
+     5537.0,
+     1347.0,
+     0.051,
+     5204.0
+    ],
+    "2025-Q2": [
+     5553.0,
+     1344.0,
+     0.056,
+     5201.0
+    ],
+    "2025-Q3": [
+     5625.0,
+     1361.0,
+     0.053,
+     5159.0
+    ],
+    "2025-Q4": [
+     5605.0,
+     1355.0,
+     null,
+     5247.0
+    ],
+    "2026-Q1": [
+     5607.0,
+     1370.0,
+     null,
+     null
+    ]
+   },
+   "17019": {
+    "2023-Q1": [
+     6805.0,
+     1750.0,
+     0.089,
+     6270.0
+    ],
+    "2023-Q2": [
+     6985.0,
+     1810.0,
+     0.078,
+     6208.0
+    ],
+    "2023-Q3": [
+     7020.0,
+     1799.0,
+     0.09,
+     6290.0
+    ],
+    "2023-Q4": [
+     6954.0,
+     1807.0,
+     0.073,
+     6210.0
+    ],
+    "2024-Q1": [
+     6895.0,
+     1739.0,
+     0.079,
+     6356.0
+    ],
+    "2024-Q2": [
+     7028.0,
+     1759.0,
+     0.083,
+     6385.0
+    ],
+    "2024-Q3": [
+     7049.0,
+     1771.0,
+     0.067,
+     6271.0
+    ],
+    "2024-Q4": [
+     7155.0,
+     1814.0,
+     0.084,
+     6583.0
+    ],
+    "2025-Q1": [
+     7063.0,
+     1804.0,
+     0.07,
+     6567.0
+    ],
+    "2025-Q2": [
+     6140.0,
+     1568.0,
+     0.07,
+     5554.0
+    ],
+    "2025-Q3": [
+     6002.0,
+     1540.0,
+     null,
+     5477.0
+    ],
+    "2025-Q4": [
+     5959.0,
+     1534.0,
+     null,
+     null
+    ]
+   },
+   "17147": {
+    "2023-Q1": [
+     230.0,
+     65.0,
+     0.089,
+     203.0
+    ],
+    "2023-Q2": [
+     207.0,
+     63.0,
+     0.052,
+     182.0
+    ],
+    "2023-Q3": [
+     203.0,
+     64.0,
+     0.082,
+     182.0
+    ],
+    "2023-Q4": [
+     214.0,
+     64.0,
+     0.113,
+     182.0
+    ],
+    "2024-Q1": [
+     206.0,
+     65.0,
+     0.092,
+     174.0
+    ],
+    "2024-Q2": [
+     209.0,
+     61.0,
+     0.107,
+     183.0
+    ],
+    "2024-Q3": [
+     203.0,
+     61.0,
+     0.069,
+     181.0
+    ],
+    "2024-Q4": [
+     200.0,
+     65.0,
+     0.065,
+     184.0
+    ],
+    "2025-Q1": [
+     197.0,
+     64.0,
+     0.041,
+     183.0
+    ],
+    "2025-Q2": [
+     195.0,
+     67.0,
+     0.07,
+     185.0
+    ],
+    "2025-Q3": [
+     202.0,
+     70.0,
+     null,
+     177.0
+    ],
+    "2025-Q4": [
+     195.0,
+     70.0,
+     null,
+     null
+    ]
+   },
+   "55021": {
+    "2023-Q1": [
+     5297.0,
+     1544.0,
+     0.068,
+     4887.0
+    ],
+    "2023-Q2": [
+     5246.0,
+     1540.0,
+     0.062,
+     4793.0
+    ],
+    "2023-Q3": [
+     5429.0,
+     1610.0,
+     0.079,
+     4929.0
+    ],
+    "2023-Q4": [
+     5437.0,
+     1647.0,
+     0.067,
+     4858.0
+    ],
+    "2024-Q1": [
+     5239.0,
+     1563.0,
+     0.073,
+     4814.0
+    ],
+    "2024-Q2": [
+     5153.0,
+     1525.0,
+     0.058,
+     4617.0
+    ],
+    "2024-Q3": [
+     5285.0,
+     1546.0,
+     0.082,
+     4800.0
+    ],
+    "2024-Q4": [
+     5265.0,
+     1560.0,
+     0.06,
+     4737.0
+    ],
+    "2025-Q1": [
+     5073.0,
+     1481.0,
+     0.066,
+     4721.0
+    ],
+    "2025-Q2": [
+     4988.0,
+     1431.0,
+     0.06,
+     4524.0
+    ],
+    "2025-Q3": [
+     5006.0,
+     1442.0,
+     0.078,
+     4566.0
+    ],
+    "2025-Q4": [
+     4955.0,
+     1457.0,
+     null,
+     4441.0
+    ],
+    "2026-Q1": [
+     4466.0,
+     1324.0,
+     null,
+     null
+    ]
+   },
+   "55025": {
+    "2023-Q1": [
+     26225.0,
+     6621.0,
+     0.056,
+     24472.0
+    ],
+    "2023-Q2": [
+     26099.0,
+     6603.0,
+     0.054,
+     24484.0
+    ],
+    "2023-Q3": [
+     26804.0,
+     6693.0,
+     0.062,
+     24849.0
+    ],
+    "2023-Q4": [
+     26557.0,
+     6771.0,
+     0.056,
+     24794.0
+    ],
+    "2024-Q1": [
+     25898.0,
+     6627.0,
+     0.053,
+     24202.0
+    ],
+    "2024-Q2": [
+     25514.0,
+     6525.0,
+     0.051,
+     23860.0
+    ],
+    "2024-Q3": [
+     25732.0,
+     6466.0,
+     0.058,
+     23887.0
+    ],
+    "2024-Q4": [
+     25279.0,
+     6474.0,
+     0.045,
+     23653.0
+    ],
+    "2025-Q1": [
+     24737.0,
+     6403.0,
+     0.049,
+     23534.0
+    ],
+    "2025-Q2": [
+     24848.0,
+     6390.0,
+     0.052,
+     23439.0
+    ],
+    "2025-Q3": [
+     25272.0,
+     6413.0,
+     0.056,
+     23521.0
+    ],
+    "2025-Q4": [
+     24891.0,
+     6434.0,
+     null,
+     23391.0
+    ],
+    "2026-Q1": [
+     24890.0,
+     6428.0,
+     null,
+     null
+    ]
+   },
+   "55045": {
+    "2023-Q1": [
+     3942.0,
+     1110.0,
+     0.066,
+     3649.0
+    ],
+    "2023-Q2": [
+     3955.0,
+     1105.0,
+     0.066,
+     3674.0
+    ],
+    "2023-Q3": [
+     4091.0,
+     1109.0,
+     0.066,
+     3723.0
+    ],
+    "2023-Q4": [
+     4079.0,
+     1117.0,
+     0.065,
+     3796.0
+    ],
+    "2024-Q1": [
+     4103.0,
+     1139.0,
+     0.065,
+     3815.0
+    ],
+    "2024-Q2": [
+     4113.0,
+     1139.0,
+     0.066,
+     3782.0
+    ],
+    "2024-Q3": [
+     4177.0,
+     1131.0,
+     0.068,
+     3807.0
+    ],
+    "2024-Q4": [
+     4117.0,
+     1121.0,
+     0.062,
+     3794.0
+    ],
+    "2025-Q1": [
+     4149.0,
+     1144.0,
+     0.065,
+     3852.0
+    ],
+    "2025-Q2": [
+     4147.0,
+     1138.0,
+     0.073,
+     3822.0
+    ],
+    "2025-Q3": [
+     4179.0,
+     1130.0,
+     0.064,
+     3735.0
+    ],
+    "2025-Q4": [
+     4088.0,
+     1102.0,
+     null,
+     3786.0
+    ],
+    "2026-Q1": [
+     4148.0,
+     1117.0,
+     null,
+     null
+    ]
+   },
+   "55049": {
+    "2023-Q1": [
+     1683.0,
+     416.0,
+     0.056,
+     1583.0
+    ],
+    "2023-Q2": [
+     1656.0,
+     413.0,
+     0.04,
+     1563.0
+    ],
+    "2023-Q3": [
+     1663.0,
+     416.0,
+     0.045,
+     1571.0
+    ],
+    "2023-Q4": [
+     1694.0,
+     420.0,
+     0.047,
+     1596.0
+    ],
+    "2024-Q1": [
+     1684.0,
+     421.0,
+     0.054,
+     1619.0
+    ],
+    "2024-Q2": [
+     1708.0,
+     422.0,
+     0.041,
+     1600.0
+    ],
+    "2024-Q3": [
+     1703.0,
+     415.0,
+     0.046,
+     1614.0
+    ],
+    "2024-Q4": [
+     1659.0,
+     409.0,
+     0.031,
+     1584.0
+    ],
+    "2025-Q1": [
+     1641.0,
+     413.0,
+     0.045,
+     1573.0
+    ],
+    "2025-Q2": [
+     1626.0,
+     408.0,
+     0.038,
+     1531.0
+    ],
+    "2025-Q3": [
+     1583.0,
+     397.0,
+     0.038,
+     1491.0
+    ],
+    "2025-Q4": [
+     1549.0,
+     403.0,
+     null,
+     1467.0
+    ],
+    "2026-Q1": [
+     1503.0,
+     401.0,
+     null,
+     null
+    ]
+   },
+   "36051": {
+    "2023-Q1": [
+     1679.0,
+     514.0,
+     0.076,
+     1522.0
+    ],
+    "2023-Q2": [
+     1639.0,
+     488.0,
+     0.062,
+     1486.0
+    ],
+    "2023-Q3": [
+     1666.0,
+     495.0,
+     0.078,
+     1524.0
+    ],
+    "2023-Q4": [
+     1773.0,
+     514.0,
+     0.069,
+     1531.0
+    ],
+    "2024-Q1": [
+     1650.0,
+     485.0,
+     0.066,
+     1529.0
+    ],
+    "2024-Q2": [
+     1615.0,
+     472.0,
+     0.059,
+     1490.0
+    ],
+    "2024-Q3": [
+     1691.0,
+     488.0,
+     0.099,
+     1518.0
+    ],
+    "2024-Q4": [
+     1711.0,
+     496.0,
+     0.078,
+     1469.0
+    ],
+    "2025-Q1": [
+     1588.0,
+     462.0,
+     0.066,
+     1439.0
+    ],
+    "2025-Q2": [
+     1570.0,
+     460.0,
+     0.073,
+     1424.0
+    ],
+    "2025-Q3": [
+     1636.0,
+     480.0,
+     null,
+     1477.0
+    ],
+    "2025-Q4": [
+     1688.0,
+     489.0,
+     null,
+     null
+    ]
+   },
+   "36055": {
+    "2023-Q1": [
+     36742.0,
+     12633.0,
+     0.056,
+     34493.0
+    ],
+    "2023-Q2": [
+     36532.0,
+     12584.0,
+     0.052,
+     34157.0
+    ],
+    "2023-Q3": [
+     36422.0,
+     12521.0,
+     0.051,
+     33876.0
+    ],
+    "2023-Q4": [
+     35820.0,
+     12443.0,
+     0.051,
+     33635.0
+    ],
+    "2024-Q1": [
+     35449.0,
+     12434.0,
+     0.049,
+     33364.0
+    ],
+    "2024-Q2": [
+     35084.0,
+     12257.0,
+     0.047,
+     32874.0
+    ],
+    "2024-Q3": [
+     35100.0,
+     12068.0,
+     0.053,
+     32797.0
+    ],
+    "2024-Q4": [
+     34674.0,
+     11987.0,
+     0.05,
+     32478.0
+    ],
+    "2025-Q1": [
+     34523.0,
+     12012.0,
+     0.051,
+     32518.0
+    ],
+    "2025-Q2": [
+     34323.0,
+     11895.0,
+     0.052,
+     32040.0
+    ],
+    "2025-Q3": [
+     34272.0,
+     11710.0,
+     null,
+     31927.0
+    ],
+    "2025-Q4": [
+     33810.0,
+     11555.0,
+     null,
+     null
+    ]
+   },
+   "36069": {
+    "2023-Q1": [
+     6446.0,
+     1949.0,
+     0.058,
+     5999.0
+    ],
+    "2023-Q2": [
+     6390.0,
+     1950.0,
+     0.055,
+     5935.0
+    ],
+    "2023-Q3": [
+     6436.0,
+     1943.0,
+     0.062,
+     5951.0
+    ],
+    "2023-Q4": [
+     6443.0,
+     1942.0,
+     0.053,
+     5909.0
+    ],
+    "2024-Q1": [
+     6332.0,
+     1916.0,
+     0.053,
+     5954.0
+    ],
+    "2024-Q2": [
+     6306.0,
+     1914.0,
+     0.049,
+     5898.0
+    ],
+    "2024-Q3": [
+     6374.0,
+     1909.0,
+     0.063,
+     5938.0
+    ],
+    "2024-Q4": [
+     6378.0,
+     1916.0,
+     0.057,
+     5815.0
+    ],
+    "2025-Q1": [
+     6306.0,
+     1870.0,
+     0.062,
+     5839.0
+    ],
+    "2025-Q2": [
+     6215.0,
+     1824.0,
+     0.054,
+     5752.0
+    ],
+    "2025-Q3": [
+     6309.0,
+     1828.0,
+     null,
+     5848.0
+    ],
+    "2025-Q4": [
+     6357.0,
+     1866.0,
+     null,
+     null
+    ]
+   },
+   "36073": {
+    "2023-Q1": [
+     1831.0,
+     491.0,
+     0.058,
+     1720.0
+    ],
+    "2023-Q2": [
+     1855.0,
+     502.0,
+     0.057,
+     1711.0
+    ],
+    "2023-Q3": [
+     1830.0,
+     501.0,
+     0.056,
+     1694.0
+    ],
+    "2023-Q4": [
+     1578.0,
+     438.0,
+     0.042,
+     1466.0
+    ],
+    "2024-Q1": [
+     1533.0,
+     421.0,
+     0.057,
+     1461.0
+    ],
+    "2024-Q2": [
+     1554.0,
+     410.0,
+     0.054,
+     1451.0
+    ],
+    "2024-Q3": [
+     1557.0,
+     417.0,
+     0.055,
+     1449.0
+    ],
+    "2024-Q4": [
+     1570.0,
+     418.0,
+     0.05,
+     1443.0
+    ],
+    "2025-Q1": [
+     1528.0,
+     415.0,
+     0.047,
+     1438.0
+    ],
+    "2025-Q2": [
+     1527.0,
+     422.0,
+     0.061,
+     1444.0
+    ],
+    "2025-Q3": [
+     1554.0,
+     422.0,
+     null,
+     1435.0
+    ],
+    "2025-Q4": [
+     1568.0,
+     433.0,
+     null,
+     null
+    ]
+   },
+   "36117": {
+    "2023-Q1": [
+     5683.0,
+     1699.0,
+     0.063,
+     5298.0
+    ],
+    "2023-Q2": [
+     5668.0,
+     1674.0,
+     0.06,
+     5209.0
+    ],
+    "2023-Q3": [
+     5649.0,
+     1688.0,
+     0.06,
+     5198.0
+    ],
+    "2023-Q4": [
+     5640.0,
+     1703.0,
+     0.054,
+     5210.0
+    ],
+    "2024-Q1": [
+     5468.0,
+     1647.0,
+     0.056,
+     5100.0
+    ],
+    "2024-Q2": [
+     5407.0,
+     1611.0,
+     0.052,
+     5050.0
+    ],
+    "2024-Q3": [
+     5383.0,
+     1614.0,
+     0.048,
+     5005.0
+    ],
+    "2024-Q4": [
+     5398.0,
+     1651.0,
+     0.053,
+     5028.0
+    ],
+    "2025-Q1": [
+     5410.0,
+     1658.0,
+     0.056,
+     5086.0
+    ],
+    "2025-Q2": [
+     5419.0,
+     1641.0,
+     0.054,
+     5047.0
+    ],
+    "2025-Q3": [
+     5489.0,
+     1648.0,
+     null,
+     5107.0
+    ],
+    "2025-Q4": [
+     5470.0,
+     1653.0,
+     null,
+     null
+    ]
+   },
+   "36123": {
+    "2023-Q1": [
+     1277.0,
+     330.0,
+     0.075,
+     1156.0
+    ],
+    "2023-Q2": [
+     1263.0,
+     332.0,
+     0.078,
+     1132.0
+    ],
+    "2023-Q3": [
+     1437.0,
+     381.0,
+     0.136,
+     1240.0
+    ],
+    "2023-Q4": [
+     1401.0,
+     390.0,
+     0.07,
+     1201.0
+    ],
+    "2024-Q1": [
+     1301.0,
+     347.0,
+     0.069,
+     1226.0
+    ],
+    "2024-Q2": [
+     1334.0,
+     355.0,
+     0.072,
+     1218.0
+    ],
+    "2024-Q3": [
+     1475.0,
+     393.0,
+     0.141,
+     1292.0
+    ],
+    "2024-Q4": [
+     1433.0,
+     403.0,
+     0.065,
+     1184.0
+    ],
+    "2025-Q1": [
+     1260.0,
+     334.0,
+     0.063,
+     1173.0
+    ],
+    "2025-Q2": [
+     1269.0,
+     341.0,
+     0.071,
+     1167.0
+    ],
+    "2025-Q3": [
+     1455.0,
+     416.0,
+     null,
+     1277.0
+    ],
+    "2025-Q4": [
+     1464.0,
+     408.0,
+     null,
+     null
+    ]
+   },
+   "39057": {
+    "2023-Q1": [
+     3752.0,
+     1063.0,
+     0.064,
+     3500.0
+    ],
+    "2023-Q2": [
+     3723.0,
+     1058.0,
+     0.061,
+     3495.0
+    ],
+    "2023-Q3": [
+     3925.0,
+     1115.0,
+     0.057,
+     3630.0
+    ],
+    "2023-Q4": [
+     3943.0,
+     1118.0,
+     0.059,
+     3699.0
+    ],
+    "2024-Q1": [
+     3965.0,
+     1119.0,
+     0.056,
+     3733.0
+    ],
+    "2024-Q2": [
+     4017.0,
+     1121.0,
+     0.058,
+     3742.0
+    ],
+    "2024-Q3": [
+     4079.0,
+     1108.0,
+     0.054,
+     3781.0
+    ],
+    "2024-Q4": [
+     4077.0,
+     1121.0,
+     0.053,
+     3842.0
+    ],
+    "2025-Q1": [
+     4057.0,
+     1133.0,
+     0.05,
+     3845.0
+    ],
+    "2025-Q2": [
+     4061.0,
+     1118.0,
+     0.053,
+     3802.0
+    ],
+    "2025-Q3": [
+     4156.0,
+     1133.0,
+     0.052,
+     3839.0
+    ],
+    "2025-Q4": [
+     4087.0,
+     1121.0,
+     null,
+     3851.0
+    ],
+    "2026-Q1": [
+     4046.0,
+     1113.0,
+     null,
+     null
+    ]
+   },
+   "39109": {
+    "2023-Q1": [
+     10196.0,
+     3000.0,
+     0.064,
+     9389.0
+    ],
+    "2023-Q2": [
+     10010.0,
+     2956.0,
+     0.055,
+     9244.0
+    ],
+    "2023-Q3": [
+     9976.0,
+     2925.0,
+     0.054,
+     9151.0
+    ],
+    "2023-Q4": [
+     9894.0,
+     2911.0,
+     0.057,
+     9213.0
+    ],
+    "2024-Q1": [
+     9856.0,
+     2861.0,
+     0.058,
+     9166.0
+    ],
+    "2024-Q2": [
+     9813.0,
+     2819.0,
+     0.057,
+     9076.0
+    ],
+    "2024-Q3": [
+     9898.0,
+     2829.0,
+     0.06,
+     9035.0
+    ],
+    "2024-Q4": [
+     9821.0,
+     2832.0,
+     0.061,
+     9096.0
+    ],
+    "2025-Q1": [
+     9789.0,
+     2827.0,
+     0.069,
+     9096.0
+    ],
+    "2025-Q2": [
+     9704.0,
+     2783.0,
+     0.057,
+     8815.0
+    ],
+    "2025-Q3": [
+     9559.0,
+     2694.0,
+     0.055,
+     8778.0
+    ],
+    "2025-Q4": [
+     9550.0,
+     2711.0,
+     null,
+     8900.0
+    ],
+    "2026-Q1": [
+     9425.0,
+     2666.0,
+     null,
+     null
+    ]
+   },
+   "39113": {
+    "2023-Q1": [
+     27424.0,
+     8653.0,
+     0.072,
+     25054.0
+    ],
+    "2023-Q2": [
+     27121.0,
+     8597.0,
+     0.066,
+     24626.0
+    ],
+    "2023-Q3": [
+     27173.0,
+     8521.0,
+     0.062,
+     24671.0
+    ],
+    "2023-Q4": [
+     26921.0,
+     8490.0,
+     0.064,
+     24862.0
+    ],
+    "2024-Q1": [
+     27155.0,
+     8539.0,
+     0.063,
+     25079.0
+    ],
+    "2024-Q2": [
+     27099.0,
+     8554.0,
+     0.06,
+     24915.0
+    ],
+    "2024-Q3": [
+     27023.0,
+     8407.0,
+     0.06,
+     24715.0
+    ],
+    "2024-Q4": [
+     26749.0,
+     8298.0,
+     0.067,
+     24699.0
+    ],
+    "2025-Q1": [
+     27017.0,
+     8343.0,
+     0.066,
+     24840.0
+    ],
+    "2025-Q2": [
+     27127.0,
+     8185.0,
+     0.068,
+     24924.0
+    ],
+    "2025-Q3": [
+     27664.0,
+     8201.0,
+     0.068,
+     25104.0
+    ],
+    "2025-Q4": [
+     27766.0,
+     8227.0,
+     null,
+     25631.0
+    ],
+    "2026-Q1": [
+     27743.0,
+     8184.0,
+     null,
+     null
+    ]
+   },
+   "45007": {
+    "2023-Q1": [
+     16321.0,
+     4059.0,
+     0.068,
+     14858.0
+    ],
+    "2023-Q2": [
+     16055.0,
+     4058.0,
+     0.069,
+     14613.0
+    ],
+    "2023-Q3": [
+     15897.0,
+     4054.0,
+     0.062,
+     14392.0
+    ],
+    "2023-Q4": [
+     15705.0,
+     4093.0,
+     0.066,
+     14553.0
+    ],
+    "2024-Q1": [
+     14533.0,
+     3824.0,
+     0.069,
+     13537.0
+    ],
+    "2024-Q2": [
+     14726.0,
+     3840.0,
+     0.066,
+     13583.0
+    ],
+    "2024-Q3": [
+     14817.0,
+     3849.0,
+     0.06,
+     13639.0
+    ],
+    "2024-Q4": [
+     14868.0,
+     3880.0,
+     0.063,
+     13872.0
+    ],
+    "2025-Q1": [
+     15050.0,
+     3863.0,
+     0.065,
+     14112.0
+    ],
+    "2025-Q2": [
+     15388.0,
+     3876.0,
+     0.07,
+     14303.0
+    ],
+    "2025-Q3": [
+     15429.0,
+     3883.0,
+     null,
+     14164.0
+    ],
+    "2025-Q4": [
+     15163.0,
+     3865.0,
+     null,
+     null
+    ]
+   },
+   "45045": {
+    "2023-Q1": [
+     33224.0,
+     9526.0,
+     0.064,
+     30931.0
+    ],
+    "2023-Q2": [
+     34105.0,
+     9835.0,
+     0.062,
+     31404.0
+    ],
+    "2023-Q3": [
+     33938.0,
+     9763.0,
+     0.055,
+     31181.0
+    ],
+    "2023-Q4": [
+     33657.0,
+     9811.0,
+     0.06,
+     31525.0
+    ],
+    "2024-Q1": [
+     33495.0,
+     9918.0,
+     0.059,
+     31305.0
+    ],
+    "2024-Q2": [
+     32962.0,
+     9815.0,
+     0.056,
+     30568.0
+    ],
+    "2024-Q3": [
+     32949.0,
+     9770.0,
+     0.059,
+     30361.0
+    ],
+    "2024-Q4": [
+     32386.0,
+     9684.0,
+     0.057,
+     30115.0
+    ],
+    "2025-Q1": [
+     32187.0,
+     9701.0,
+     0.059,
+     30128.0
+    ],
+    "2025-Q2": [
+     32495.0,
+     9809.0,
+     0.061,
+     30113.0
+    ],
+    "2025-Q3": [
+     32648.0,
+     9829.0,
+     null,
+     30154.0
+    ],
+    "2025-Q4": [
+     32129.0,
+     9751.0,
+     null,
+     null
+    ]
+   },
+   "45059": {
+    "2023-Q1": [
+     6926.0,
+     1751.0,
+     0.061,
+     6412.0
+    ],
+    "2023-Q2": [
+     6861.0,
+     1759.0,
+     0.058,
+     6338.0
+    ],
+    "2023-Q3": [
+     6907.0,
+     1782.0,
+     0.055,
+     6315.0
+    ],
+    "2023-Q4": [
+     6899.0,
+     1783.0,
+     0.057,
+     6464.0
+    ],
+    "2024-Q1": [
+     6768.0,
+     1753.0,
+     0.062,
+     6342.0
+    ],
+    "2024-Q2": [
+     6770.0,
+     1760.0,
+     0.06,
+     6298.0
+    ],
+    "2024-Q3": [
+     6848.0,
+     1773.0,
+     0.069,
+     6319.0
+    ],
+    "2024-Q4": [
+     6817.0,
+     1818.0,
+     0.056,
+     6237.0
+    ],
+    "2025-Q1": [
+     6890.0,
+     1832.0,
+     0.078,
+     6406.0
+    ],
+    "2025-Q2": [
+     6936.0,
+     1835.0,
+     0.068,
+     6344.0
+    ],
+    "2025-Q3": [
+     6989.0,
+     1803.0,
+     null,
+     6375.0
+    ],
+    "2025-Q4": [
+     7050.0,
+     1776.0,
+     null,
+     null
+    ]
+   },
+   "45077": {
+    "2023-Q1": [
+     5763.0,
+     1687.0,
+     0.072,
+     5286.0
+    ],
+    "2023-Q2": [
+     5796.0,
+     1695.0,
+     0.078,
+     5307.0
+    ],
+    "2023-Q3": [
+     5775.0,
+     1714.0,
+     0.063,
+     5235.0
+    ],
+    "2023-Q4": [
+     5711.0,
+     1679.0,
+     0.065,
+     5232.0
+    ],
+    "2024-Q1": [
+     5631.0,
+     1648.0,
+     0.066,
+     5191.0
+    ],
+    "2024-Q2": [
+     5568.0,
+     1632.0,
+     0.061,
+     5131.0
+    ],
+    "2024-Q3": [
+     5702.0,
+     1676.0,
+     0.061,
+     5207.0
+    ],
+    "2024-Q4": [
+     5696.0,
+     1681.0,
+     0.067,
+     5270.0
+    ],
+    "2025-Q1": [
+     5668.0,
+     1674.0,
+     0.062,
+     5233.0
+    ],
+    "2025-Q2": [
+     5613.0,
+     1671.0,
+     0.06,
+     5165.0
+    ],
+    "2025-Q3": [
+     5672.0,
+     1690.0,
+     null,
+     5226.0
+    ],
+    "2025-Q4": [
+     5815.0,
+     1714.0,
+     null,
+     null
+    ]
+   },
+   "47001": {
+    "2023-Q1": [
+     16292.0,
+     4149.0,
+     0.065,
+     15241.0
+    ],
+    "2023-Q2": [
+     16429.0,
+     4182.0,
+     0.067,
+     15315.0
+    ],
+    "2023-Q3": [
+     16577.0,
+     4186.0,
+     0.054,
+     15061.0
+    ],
+    "2023-Q4": [
+     15949.0,
+     4063.0,
+     0.047,
+     15047.0
+    ],
+    "2024-Q1": [
+     15918.0,
+     4093.0,
+     0.047,
+     15114.0
+    ],
+    "2024-Q2": [
+     16021.0,
+     4113.0,
+     0.083,
+     15096.0
+    ],
+    "2024-Q3": [
+     16046.0,
+     4133.0,
+     0.044,
+     14007.0
+    ],
+    "2024-Q4": [
+     14795.0,
+     3931.0,
+     0.043,
+     14155.0
+    ],
+    "2025-Q1": [
+     14591.0,
+     3871.0,
+     0.043,
+     13935.0
+    ],
+    "2025-Q2": [
+     15621.0,
+     4082.0,
+     0.038,
+     13771.0
+    ],
+    "2025-Q3": [
+     14511.0,
+     3877.0,
+     0.04,
+     13742.0
+    ],
+    "2025-Q4": [
+     14446.0,
+     3877.0,
+     null,
+     13717.0
+    ],
+    "2026-Q1": [
+     14664.0,
+     3939.0,
+     null,
+     null
+    ]
+   },
+   "47009": {
+    "2023-Q1": [
+     9891.0,
+     2440.0,
+     0.052,
+     9351.0
+    ],
+    "2023-Q2": [
+     9761.0,
+     2436.0,
+     0.043,
+     9200.0
+    ],
+    "2023-Q3": [
+     9944.0,
+     2481.0,
+     0.048,
+     9351.0
+    ],
+    "2023-Q4": [
+     9921.0,
+     2485.0,
+     0.047,
+     9403.0
+    ],
+    "2024-Q1": [
+     9938.0,
+     2502.0,
+     0.051,
+     9433.0
+    ],
+    "2024-Q2": [
+     9789.0,
+     2498.0,
+     0.039,
+     9213.0
+    ],
+    "2024-Q3": [
+     9806.0,
+     2542.0,
+     0.045,
+     9267.0
+    ],
+    "2024-Q4": [
+     9677.0,
+     2551.0,
+     0.04,
+     9248.0
+    ],
+    "2025-Q1": [
+     9551.0,
+     2561.0,
+     0.04,
+     9109.0
+    ],
+    "2025-Q2": [
+     9429.0,
+     2553.0,
+     0.031,
+     8881.0
+    ],
+    "2025-Q3": [
+     9401.0,
+     2525.0,
+     0.041,
+     8924.0
+    ],
+    "2025-Q4": [
+     9351.0,
+     2575.0,
+     null,
+     8845.0
+    ],
+    "2026-Q1": [
+     9223.0,
+     2542.0,
+     null,
+     null
+    ]
+   },
+   "47013": {
+    "2023-Q1": [
+     1391.0,
+     376.0,
+     0.082,
+     1275.0
+    ],
+    "2023-Q2": [
+     1360.0,
+     364.0,
+     0.075,
+     1202.0
+    ],
+    "2023-Q3": [
+     1348.0,
+     362.0,
+     0.113,
+     1213.0
+    ],
+    "2023-Q4": [
+     1345.0,
+     358.0,
+     0.069,
+     1126.0
+    ],
+    "2024-Q1": [
+     1223.0,
+     343.0,
+     0.076,
+     1122.0
+    ],
+    "2024-Q2": [
+     1195.0,
+     346.0,
+     0.062,
+     1066.0
+    ],
+    "2024-Q3": [
+     1262.0,
+     356.0,
+     0.102,
+     1137.0
+    ],
+    "2024-Q4": [
+     1252.0,
+     349.0,
+     0.062,
+     1146.0
+    ],
+    "2025-Q1": [
+     1245.0,
+     343.0,
+     0.084,
+     1169.0
+    ],
+    "2025-Q2": [
+     1283.0,
+     347.0,
+     0.102,
+     1138.0
+    ],
+    "2025-Q3": [
+     1199.0,
+     327.0,
+     0.074,
+     1028.0
+    ],
+    "2025-Q4": [
+     1114.0,
+     305.0,
+     null,
+     976.0
+    ],
+    "2026-Q1": [
+     1087.0,
+     289.0,
+     null,
+     null
+    ]
+   },
+   "47093": {
+    "2023-Q1": [
+     14280.0,
+     3807.0,
+     0.075,
+     13017.0
+    ],
+    "2023-Q2": [
+     14212.0,
+     3819.0,
+     0.072,
+     12850.0
+    ],
+    "2023-Q3": [
+     13892.0,
+     3720.0,
+     0.074,
+     12575.0
+    ],
+    "2023-Q4": [
+     13898.0,
+     3706.0,
+     0.073,
+     12679.0
+    ],
+    "2024-Q1": [
+     13333.0,
+     3588.0,
+     0.07,
+     12216.0
+    ],
+    "2024-Q2": [
+     13252.0,
+     3617.0,
+     0.07,
+     12093.0
+    ],
+    "2024-Q3": [
+     13355.0,
+     3618.0,
+     0.075,
+     12165.0
+    ],
+    "2024-Q4": [
+     13288.0,
+     3609.0,
+     0.068,
+     12145.0
+    ],
+    "2025-Q1": [
+     13221.0,
+     3596.0,
+     0.061,
+     12160.0
+    ],
+    "2025-Q2": [
+     13051.0,
+     3554.0,
+     0.064,
+     12059.0
+    ],
+    "2025-Q3": [
+     12985.0,
+     3571.0,
+     0.063,
+     11919.0
+    ],
+    "2025-Q4": [
+     12963.0,
+     3574.0,
+     null,
+     11935.0
+    ],
+    "2026-Q1": [
+     12785.0,
+     3515.0,
+     null,
+     null
+    ]
+   },
+   "47105": {
+    "2023-Q1": [
+     3896.0,
+     784.0,
+     0.072,
+     3598.0
+    ],
+    "2023-Q2": [
+     3941.0,
+     798.0,
+     0.068,
+     3561.0
+    ],
+    "2023-Q3": [
+     3971.0,
+     810.0,
+     0.097,
+     3629.0
+    ],
+    "2023-Q4": [
+     3868.0,
+     819.0,
+     0.064,
+     3376.0
+    ],
+    "2024-Q1": [
+     3542.0,
+     765.0,
+     0.059,
+     3229.0
+    ],
+    "2024-Q2": [
+     3523.0,
+     782.0,
+     0.072,
+     3231.0
+    ],
+    "2024-Q3": [
+     3495.0,
+     792.0,
+     0.062,
+     3173.0
+    ],
+    "2024-Q4": [
+     3465.0,
+     792.0,
+     0.101,
+     3186.0
+    ],
+    "2025-Q1": [
+     3533.0,
+     794.0,
+     0.077,
+     3023.0
+    ],
+    "2025-Q2": [
+     3359.0,
+     759.0,
+     0.075,
+     3072.0
+    ],
+    "2025-Q3": [
+     3454.0,
+     779.0,
+     0.076,
+     3115.0
+    ],
+    "2025-Q4": [
+     3637.0,
+     796.0,
+     null,
+     3321.0
+    ],
+    "2026-Q1": [
+     3637.0,
+     796.0,
+     null,
+     null
+    ]
+   },
+   "47129": {
+    "2023-Q1": [
+     297.0,
+     68.0,
+     0.051,
+     274.0
+    ],
+    "2023-Q2": [
+     293.0,
+     68.0,
+     0.052,
+     278.0
+    ],
+    "2023-Q3": [
+     320.0,
+     72.0,
+     0.08,
+     294.0
+    ],
+    "2023-Q4": [
+     330.0,
+     82.0,
+     0.058,
+     313.0
+    ],
+    "2024-Q1": [
+     290.0,
+     78.0,
+     0.068,
+     279.0
+    ],
+    "2024-Q2": [
+     307.0,
+     81.0,
+     0.08,
+     280.0
+    ],
+    "2024-Q3": [
+     326.0,
+     82.0,
+     0.1,
+     296.0
+    ],
+    "2024-Q4": [
+     331.0,
+     80.0,
+     0.1,
+     291.0
+    ],
+    "2025-Q1": [
+     304.0,
+     75.0,
+     0.052,
+     270.0
+    ],
+    "2025-Q2": [
+     297.0,
+     75.0,
+     0.078,
+     276.0
+    ],
+    "2025-Q3": [
+     322.0,
+     79.0,
+     0.119,
+     294.0
+    ],
+    "2025-Q4": [
+     319.0,
+     77.0,
+     null,
+     280.0
+    ],
+    "2026-Q1": [
+     298.0,
+     71.0,
+     null,
+     null
+    ]
+   },
+   "47145": {
+    "2023-Q1": [
+     1124.0,
+     356.0,
+     0.124,
+     1012.0
+    ],
+    "2023-Q2": [
+     1077.0,
+     343.0,
+     0.076,
+     872.0
+    ],
+    "2023-Q3": [
+     935.0,
+     276.0,
+     0.084,
+     831.0
+    ],
+    "2023-Q4": [
+     893.0,
+     272.0,
+     0.063,
+     793.0
+    ],
+    "2024-Q1": [
+     964.0,
+     293.0,
+     0.085,
+     887.0
+    ],
+    "2024-Q2": [
+     949.0,
+     288.0,
+     0.07,
+     827.0
+    ],
+    "2024-Q3": [
+     930.0,
+     287.0,
+     0.077,
+     833.0
+    ],
+    "2024-Q4": [
+     901.0,
+     282.0,
+     0.08,
+     843.0
+    ],
+    "2025-Q1": [
+     916.0,
+     281.0,
+     0.059,
+     823.0
+    ],
+    "2025-Q2": [
+     916.0,
+     275.0,
+     0.077,
+     840.0
+    ],
+    "2025-Q3": [
+     911.0,
+     276.0,
+     0.067,
+     822.0
+    ],
+    "2025-Q4": [
+     899.0,
+     274.0,
+     null,
+     826.0
+    ],
+    "2026-Q1": [
+     833.0,
+     263.0,
+     null,
+     null
+    ]
+   },
+   "47173": {
+    "2023-Q1": [
+     532.0,
+     126.0,
+     0.049,
+     500.0
+    ],
+    "2023-Q2": [
+     529.0,
+     124.0,
+     0.054,
+     499.0
+    ],
+    "2023-Q3": [
+     519.0,
+     121.0,
+     0.036,
+     484.0
+    ],
+    "2023-Q4": [
+     522.0,
+     123.0,
+     0.054,
+     498.0
+    ],
+    "2024-Q1": [
+     569.0,
+     135.0,
+     0.042,
+     537.0
+    ],
+    "2024-Q2": [
+     571.0,
+     131.0,
+     0.048,
+     540.0
+    ],
+    "2024-Q3": [
+     579.0,
+     130.0,
+     0.052,
+     548.0
+    ],
+    "2024-Q4": [
+     582.0,
+     132.0,
+     0.047,
+     553.0
+    ],
+    "2025-Q1": [
+     581.0,
+     128.0,
+     0.067,
+     550.0
+    ],
+    "2025-Q2": [
+     571.0,
+     125.0,
+     0.047,
+     513.0
+    ],
+    "2025-Q3": [
+     539.0,
+     125.0,
+     0.045,
+     502.0
+    ],
+    "2025-Q4": [
+     523.0,
+     125.0,
+     null,
+     493.0
+    ],
+    "2026-Q1": [
+     513.0,
+     123.0,
+     null,
+     null
+    ]
+   },
+   "19011": {
+    "2023-Q1": [
+     813.0,
+     221.0,
+     0.05,
+     763.0
+    ],
+    "2023-Q2": [
+     810.0,
+     224.0,
+     0.058,
+     755.0
+    ],
+    "2023-Q3": [
+     811.0,
+     226.0,
+     0.071,
+     730.0
+    ],
+    "2023-Q4": [
+     791.0,
+     215.0,
+     0.052,
+     702.0
+    ],
+    "2024-Q1": [
+     757.0,
+     209.0,
+     0.065,
+     712.0
+    ],
+    "2024-Q2": [
+     780.0,
+     202.0,
+     0.061,
+     710.0
+    ],
+    "2024-Q3": [
+     807.0,
+     215.0,
+     0.072,
+     743.0
+    ],
+    "2024-Q4": [
+     800.0,
+     219.0,
+     0.059,
+     757.0
+    ],
+    "2025-Q1": [
+     830.0,
+     218.0,
+     0.065,
+     766.0
+    ],
+    "2025-Q2": [
+     825.0,
+     214.0,
+     0.07,
+     764.0
+    ],
+    "2025-Q3": [
+     855.0,
+     214.0,
+     0.069,
+     770.0
+    ],
+    "2025-Q4": [
+     837.0,
+     198.0,
+     null,
+     779.0
+    ],
+    "2026-Q1": [
+     827.0,
+     192.0,
+     null,
+     null
+    ]
+   },
+   "19103": {
+    "2023-Q1": [
+     5129.0,
+     945.0,
+     0.047,
+     4842.0
+    ],
+    "2023-Q2": [
+     5087.0,
+     932.0,
+     0.047,
+     4801.0
+    ],
+    "2023-Q3": [
+     5137.0,
+     952.0,
+     0.052,
+     4771.0
+    ],
+    "2023-Q4": [
+     5024.0,
+     944.0,
+     0.047,
+     4694.0
+    ],
+    "2024-Q1": [
+     4934.0,
+     958.0,
+     0.042,
+     4662.0
+    ],
+    "2024-Q2": [
+     4913.0,
+     949.0,
+     0.048,
+     4628.0
+    ],
+    "2024-Q3": [
+     4949.0,
+     952.0,
+     0.05,
+     4624.0
+    ],
+    "2024-Q4": [
+     4992.0,
+     966.0,
+     0.054,
+     4729.0
+    ],
+    "2025-Q1": [
+     4998.0,
+     954.0,
+     0.048,
+     4764.0
+    ],
+    "2025-Q2": [
+     4985.0,
+     949.0,
+     0.045,
+     4732.0
+    ],
+    "2025-Q3": [
+     5059.0,
+     939.0,
+     0.047,
+     4774.0
+    ],
+    "2025-Q4": [
+     5007.0,
+     945.0,
+     null,
+     4764.0
+    ],
+    "2026-Q1": [
+     4894.0,
+     940.0,
+     null,
+     null
+    ]
+   },
+   "19105": {
+    "2023-Q1": [
+     865.0,
+     271.0,
+     0.065,
+     785.0
+    ],
+    "2023-Q2": [
+     854.0,
+     273.0,
+     0.063,
+     782.0
+    ],
+    "2023-Q3": [
+     859.0,
+     273.0,
+     0.075,
+     788.0
+    ],
+    "2023-Q4": [
+     839.0,
+     278.0,
+     0.066,
+     761.0
+    ],
+    "2024-Q1": [
+     814.0,
+     273.0,
+     0.082,
+     739.0
+    ],
+    "2024-Q2": [
+     778.0,
+     259.0,
+     0.046,
+     689.0
+    ],
+    "2024-Q3": [
+     739.0,
+     224.0,
+     0.035,
+     677.0
+    ],
+    "2024-Q4": [
+     738.0,
+     231.0,
+     0.047,
+     703.0
+    ],
+    "2025-Q1": [
+     757.0,
+     235.0,
+     0.077,
+     708.0
+    ],
+    "2025-Q2": [
+     774.0,
+     231.0,
+     0.061,
+     702.0
+    ],
+    "2025-Q3": [
+     773.0,
+     230.0,
+     0.066,
+     718.0
+    ],
+    "2025-Q4": [
+     786.0,
+     237.0,
+     null,
+     724.0
+    ],
+    "2026-Q1": [
+     763.0,
+     232.0,
+     null,
+     null
+    ]
+   },
+   "19113": {
+    "2023-Q1": [
+     17713.0,
+     4662.0,
+     0.042,
+     16899.0
+    ],
+    "2023-Q2": [
+     17907.0,
+     4662.0,
+     0.044,
+     16941.0
+    ],
+    "2023-Q3": [
+     18189.0,
+     4675.0,
+     0.048,
+     17225.0
+    ],
+    "2023-Q4": [
+     18070.0,
+     4725.0,
+     0.035,
+     17227.0
+    ],
+    "2024-Q1": [
+     17801.0,
+     4748.0,
+     0.034,
+     17155.0
+    ],
+    "2024-Q2": [
+     17827.0,
+     4737.0,
+     0.034,
+     17056.0
+    ],
+    "2024-Q3": [
+     18263.0,
+     4779.0,
+     0.043,
+     17342.0
+    ],
+    "2024-Q4": [
+     18185.0,
+     4815.0,
+     0.043,
+     17454.0
+    ],
+    "2025-Q1": [
+     18057.0,
+     4803.0,
+     0.036,
+     17202.0
+    ],
+    "2025-Q2": [
+     17891.0,
+     4747.0,
+     0.038,
+     17041.0
+    ],
+    "2025-Q3": [
+     17949.0,
+     4688.0,
+     0.043,
+     16972.0
+    ],
+    "2025-Q4": [
+     17655.0,
+     4623.0,
+     null,
+     16758.0
+    ],
+    "2026-Q1": [
+     17375.0,
+     4603.0,
+     null,
+     null
+    ]
+   },
+   "19183": {
+    "2023-Q1": [
+     678.0,
+     175.0,
+     0.071,
+     630.0
+    ],
+    "2023-Q2": [
+     668.0,
+     178.0,
+     0.06,
+     604.0
+    ],
+    "2023-Q3": [
+     674.0,
+     177.0,
+     0.053,
+     589.0
+    ],
+    "2023-Q4": [
+     789.0,
+     205.0,
+     0.147,
+     735.0
+    ],
+    "2024-Q1": [
+     791.0,
+     206.0,
+     0.062,
+     730.0
+    ],
+    "2024-Q2": [
+     806.0,
+     211.0,
+     0.065,
+     731.0
+    ],
+    "2024-Q3": [
+     826.0,
+     209.0,
+     0.071,
+     756.0
+    ],
+    "2024-Q4": [
+     844.0,
+     214.0,
+     0.07,
+     788.0
+    ],
+    "2025-Q1": [
+     882.0,
+     224.0,
+     0.07,
+     818.0
+    ],
+    "2025-Q2": [
+     1033.0,
+     234.0,
+     0.129,
+     950.0
+    ],
+    "2025-Q3": [
+     1090.0,
+     240.0,
+     0.082,
+     977.0
+    ],
+    "2025-Q4": [
+     1080.0,
+     238.0,
+     null,
+     973.0
+    ],
+    "2026-Q1": [
+     1081.0,
+     241.0,
+     null,
+     null
+    ]
+   }
+  },
+  "qwi_files": {
+   "in": "Fri, 06 Nov 2026 16:10:51 GMT",
+   "il": "Tue, 11 Aug 2026 19:45:55 GMT",
+   "mi": "Thu, 05 Nov 2026 19:02:39 GMT",
+   "wi": "Thu, 12 Nov 2026 20:45:56 GMT",
+   "ny": "Wed, 26 Aug 2026 13:06:49 GMT",
+   "oh": "Thu, 12 Nov 2026 22:22:31 GMT",
+   "sc": "Thu, 27 Aug 2026 17:30:27 GMT",
+   "tn": "Thu, 05 Nov 2026 15:19:30 GMT",
+   "ia": "Thu, 12 Nov 2026 14:50:50 GMT"
+  },
+  "oews": {
+   "11460": {
+    "000000": 219730.0,
+    "510000": 8580.0,
+    "170000": 6320.0,
+    "113051": 340.0,
+    "511011": 650.0,
+    "172112": 930.0,
+    "172141": 2280.0,
+    "172071": 810.0,
+    "151252": 2740.0,
+    "173026": 110.0,
+    "173027": 280.0,
+    "499041": 390.0,
+    "472111": 610.0,
+    "514041": 290.0,
+    "514111": 220.0,
+    "519161": 120.0,
+    "519162": 40.0,
+    "514121": 220.0,
+    "514031": 410.0,
+    "512090": 1420.0,
+    "519061": 800.0,
+    "512028": 390.0,
+    "514081": 380.0,
+    "514072": 270.0,
+    "519124": 110.0,
+    "519111": 260.0,
+    "519198": 100.0,
+    "537062": 2010.0,
+    "537064": 320.0,
+    "537051": 250.0
+   },
+   "16300": {
+    "000000": 139260.0,
+    "510000": 11470.0,
+    "170000": 2390.0,
+    "113051": 310.0,
+    "511011": 780.0,
+    "172112": 330.0,
+    "172141": 350.0,
+    "172071": 390.0,
+    "151252": 1250.0,
+    "173026": 40.0,
+    "173027": 30.0,
+    "499041": 530.0,
+    "472111": 1690.0,
+    "514041": 180.0,
+    "514111": 30.0,
+    "519161": 190.0,
+    "519162": 40.0,
+    "514121": 560.0,
+    "514031": 100.0,
+    "512090": 1290.0,
+    "519061": 650.0,
+    "512028": 1680.0,
+    "512041": 70.0,
+    "514081": 530.0,
+    "514072": 290.0,
+    "519124": 120.0,
+    "517011": 40.0,
+    "519111": 1080.0,
+    "519198": 50.0,
+    "537062": 2730.0,
+    "537064": 490.0,
+    "537051": 530.0
+   },
+   "16580": {
+    "000000": 105500.0,
+    "510000": 5510.0,
+    "170000": 1240.0,
+    "113051": 140.0,
+    "511011": 400.0,
+    "172112": 200.0,
+    "172141": 150.0,
+    "172071": 110.0,
+    "151252": 670.0,
+    "499041": 70.0,
+    "472111": 410.0,
+    "514041": 100.0,
+    "514111": 60.0,
+    "519161": 40.0,
+    "514121": 100.0,
+    "514031": 90.0,
+    "512090": 1260.0,
+    "519061": 490.0,
+    "512028": 130.0,
+    "514072": 200.0,
+    "519124": 100.0,
+    "519111": 390.0,
+    "519198": 40.0,
+    "537062": 1960.0,
+    "537064": 350.0,
+    "537051": 250.0
+   },
+   "19430": {
+    "000000": 372660.0,
+    "510000": 27730.0,
+    "170000": 11570.0,
+    "113051": 910.0,
+    "511011": 2010.0,
+    "172112": 1720.0,
+    "172141": 1180.0,
+    "172071": 660.0,
+    "151252": 3910.0,
+    "173026": 390.0,
+    "173027": 160.0,
+    "499041": 900.0,
+    "472111": 1920.0,
+    "514041": 1360.0,
+    "514111": 390.0,
+    "519161": 2110.0,
+    "519162": 180.0,
+    "514121": 820.0,
+    "514031": 870.0,
+    "512090": 5770.0,
+    "519061": 1960.0,
+    "512028": 840.0,
+    "512041": 50.0,
+    "514081": 530.0,
+    "514072": 640.0,
+    "519124": 510.0,
+    "517011": 120.0,
+    "517042": 80.0,
+    "519111": 610.0,
+    "519198": 190.0,
+    "537062": 6510.0,
+    "537064": 640.0,
+    "537051": 3440.0
+   },
+   "24860": {
+    "000000": 434900.0,
+    "510000": 40960.0,
+    "170000": 11310.0,
+    "113051": 1510.0,
+    "511011": 2810.0,
+    "172112": 2670.0,
+    "172141": 1800.0,
+    "172071": 690.0,
+    "151252": 2070.0,
+    "173026": 820.0,
+    "173024": 30.0,
+    "173027": 390.0,
+    "499041": 2470.0,
+    "472111": 1670.0,
+    "514041": 1050.0,
+    "514111": 200.0,
+    "519161": 640.0,
+    "519162": 100.0,
+    "514121": 1760.0,
+    "514031": 1130.0,
+    "512090": 9860.0,
+    "519061": 3480.0,
+    "512028": 1310.0,
+    "512041": 230.0,
+    "514081": 1990.0,
+    "514072": 820.0,
+    "519124": 540.0,
+    "517011": 180.0,
+    "517042": 190.0,
+    "519111": 1260.0,
+    "519198": 480.0,
+    "537062": 11960.0,
+    "537064": 1870.0,
+    "537051": 2320.0
+   },
+   "26980": {
+    "000000": 93760.0,
+    "510000": 3900.0,
+    "170000": 920.0,
+    "113051": 130.0,
+    "511011": 280.0,
+    "172112": 180.0,
+    "172141": 60.0,
+    "172071": 60.0,
+    "151252": 690.0,
+    "499041": 110.0,
+    "472111": 370.0,
+    "514121": 130.0,
+    "512090": 430.0,
+    "519061": 200.0,
+    "519124": 40.0,
+    "519111": 110.0,
+    "537062": 830.0,
+    "537064": 170.0,
+    "537051": 130.0
+   },
+   "28940": {
+    "000000": 424600.0,
+    "510000": 31480.0,
+    "170000": 8410.0,
+    "113051": 750.0,
+    "511011": 2550.0,
+    "172112": 960.0,
+    "172141": 760.0,
+    "172071": 630.0,
+    "151252": 2390.0,
+    "173026": 490.0,
+    "173027": 180.0,
+    "499041": 1560.0,
+    "472111": 2170.0,
+    "514041": 1470.0,
+    "514111": 500.0,
+    "519161": 260.0,
+    "519162": 40.0,
+    "514121": 1780.0,
+    "514031": 720.0,
+    "512090": 5940.0,
+    "519061": 2160.0,
+    "512028": 200.0,
+    "512041": 400.0,
+    "514072": 590.0,
+    "519124": 490.0,
+    "517011": 220.0,
+    "517042": 220.0,
+    "519111": 520.0,
+    "519198": 470.0,
+    "537062": 10120.0,
+    "537064": 1540.0,
+    "537051": 1640.0
+   },
+   "29200": {
+    "000000": 102200.0,
+    "510000": 15420.0,
+    "170000": 2090.0,
+    "113051": 270.0,
+    "511011": 1720.0,
+    "172112": 630.0,
+    "172141": 510.0,
+    "172071": 120.0,
+    "151252": 490.0,
+    "173026": 40.0,
+    "173027": 90.0,
+    "499041": 370.0,
+    "472111": 580.0,
+    "514041": 720.0,
+    "514111": 80.0,
+    "519161": 180.0,
+    "519162": 30.0,
+    "514121": 560.0,
+    "514031": 260.0,
+    "512090": 6280.0,
+    "519061": 680.0,
+    "512028": 250.0,
+    "514081": 80.0,
+    "519124": 190.0,
+    "519111": 220.0,
+    "537062": 2470.0,
+    "537064": 190.0,
+    "537051": 290.0
+   },
+   "29620": {
+    "000000": 217180.0,
+    "510000": 14790.0,
+    "170000": 3830.0,
+    "113051": 580.0,
+    "511011": 770.0,
+    "172112": 810.0,
+    "172141": 650.0,
+    "172071": 320.0,
+    "151252": 3020.0,
+    "173026": 100.0,
+    "173024": 40.0,
+    "173027": 80.0,
+    "499041": 430.0,
+    "472111": 1140.0,
+    "514041": 750.0,
+    "514111": 280.0,
+    "519161": 270.0,
+    "519162": 60.0,
+    "514121": 370.0,
+    "514031": 450.0,
+    "512090": 6170.0,
+    "519061": 770.0,
+    "512028": 70.0,
+    "514081": 140.0,
+    "514072": 220.0,
+    "519124": 150.0,
+    "517042": 40.0,
+    "519111": 150.0,
+    "519198": 70.0,
+    "537062": 4270.0,
+    "537064": 600.0,
+    "537051": 790.0
+   },
+   "31540": {
+    "000000": 408070.0,
+    "510000": 23800.0,
+    "170000": 7560.0,
+    "113051": 1450.0,
+    "511011": 2000.0,
+    "172112": 1510.0,
+    "172141": 770.0,
+    "172071": 500.0,
+    "151252": 6720.0,
+    "173026": 260.0,
+    "173024": 80.0,
+    "173027": 110.0,
+    "499041": 930.0,
+    "472111": 1760.0,
+    "514041": 700.0,
+    "514111": 150.0,
+    "519161": 450.0,
+    "519162": 120.0,
+    "514121": 1010.0,
+    "514031": 510.0,
+    "512090": 4510.0,
+    "519061": 1590.0,
+    "512028": 770.0,
+    "512041": 390.0,
+    "514081": 190.0,
+    "514072": 790.0,
+    "519124": 420.0,
+    "517011": 80.0,
+    "517042": 130.0,
+    "519111": 1490.0,
+    "519198": 130.0,
+    "537062": 7130.0,
+    "537064": 1250.0,
+    "537051": 770.0
+   },
+   "40380": {
+    "000000": 494280.0,
+    "510000": 29730.0,
+    "170000": 9560.0,
+    "113051": 800.0,
+    "511011": 2230.0,
+    "172112": 1920.0,
+    "172141": 1040.0,
+    "172071": 1000.0,
+    "151252": 4650.0,
+    "173026": 700.0,
+    "173024": 90.0,
+    "173027": 50.0,
+    "499041": 1290.0,
+    "472111": 2540.0,
+    "514041": 1940.0,
+    "514111": 280.0,
+    "519161": 940.0,
+    "519162": 220.0,
+    "514121": 650.0,
+    "514031": 390.0,
+    "512090": 3920.0,
+    "519061": 2350.0,
+    "512028": 2070.0,
+    "512041": 140.0,
+    "514081": 550.0,
+    "514072": 920.0,
+    "519124": 390.0,
+    "517011": 150.0,
+    "517042": 60.0,
+    "519111": 1780.0,
+    "519198": 500.0,
+    "537062": 5160.0,
+    "537064": 1120.0,
+    "537051": 1270.0
+   }
+  },
+  "oews_year": {
+   "11460": "2025",
+   "16300": "2025",
+   "16580": "2025",
+   "19430": "2025",
+   "24860": "2025",
+   "26980": "2025",
+   "28940": "2025",
+   "29200": "2025",
+   "29620": "2025",
+   "31540": "2025",
+   "40380": "2025"
+  },
+  "laus": {
+   "17019": {
+    "rate": 3.6,
+    "month": "2026-09",
+    "force": 110798.0
+   },
+   "17147": {
+    "rate": 2.8,
+    "month": "2026-09",
+    "force": 8895.0
+   },
+   "18007": {
+    "rate": 3.0,
+    "month": "2026-09",
+    "force": 4548.0
+   },
+   "18015": {
+    "rate": 3.3,
+    "month": "2026-09",
+    "force": 10966.0
+   },
+   "18157": {
+    "rate": 3.5,
+    "month": "2026-09",
+    "force": 101622.0
+   },
+   "18171": {
+    "rate": 3.2,
+    "month": "2026-09",
+    "force": 4545.0
+   },
+   "19011": {
+    "rate": 2.9,
+    "month": "2026-09",
+    "force": 13350.0
+   },
+   "19103": {
+    "rate": 2.8,
+    "month": "2026-09",
+    "force": 89903.0
+   },
+   "19105": {
+    "rate": 3.2,
+    "month": "2026-09",
+    "force": 10320.0
+   },
+   "19113": {
+    "rate": 3.5,
+    "month": "2026-09",
+    "force": 119865.0
+   },
+   "19183": {
+    "rate": 2.4,
+    "month": "2026-09",
+    "force": 12231.0
+   },
+   "26037": {
+    "rate": 3.5,
+    "month": "2026-09",
+    "force": 38465.0
+   },
+   "26045": {
+    "rate": 3.8,
+    "month": "2026-09",
+    "force": 52082.0
+   },
+   "26065": {
+    "rate": 4.1,
+    "month": "2026-09",
+    "force": 139224.0
+   },
+   "26155": {
+    "rate": 4.2,
+    "month": "2026-09",
+    "force": 31180.0
+   },
+   "26161": {
+    "rate": 3.7,
+    "month": "2026-09",
+    "force": 189854.0
+   },
+   "36051": {
+    "rate": 3.9,
+    "month": "2026-09",
+    "force": 30147.0
+   },
+   "36055": {
+    "rate": 4.2,
+    "month": "2026-09",
+    "force": 375739.0
+   },
+   "36069": {
+    "rate": 3.6,
+    "month": "2026-09",
+    "force": 56225.0
+   },
+   "36073": {
+    "rate": 3.7,
+    "month": "2026-09",
+    "force": 19108.0
+   },
+   "36117": {
+    "rate": 3.4,
+    "month": "2026-09",
+    "force": 46006.0
+   },
+   "36123": {
+    "rate": 3.0,
+    "month": "2026-09",
+    "force": 12261.0
+   },
+   "39057": {
+    "rate": 3.4,
+    "month": "2026-09",
+    "force": 83492.0
+   },
+   "39109": {
+    "rate": 3.2,
+    "month": "2026-09",
+    "force": 55628.0
+   },
+   "39113": {
+    "rate": 3.9,
+    "month": "2026-09",
+    "force": 255117.0
+   },
+   "45007": {
+    "rate": 3.7,
+    "month": "2026-09",
+    "force": 107538.0
+   },
+   "45045": {
+    "rate": 3.2,
+    "month": "2026-09",
+    "force": 306446.0
+   },
+   "45059": {
+    "rate": 3.6,
+    "month": "2026-09",
+    "force": 33345.0
+   },
+   "45077": {
+    "rate": 3.2,
+    "month": "2026-09",
+    "force": 69415.0
+   },
+   "47001": {
+    "rate": 3.1,
+    "month": "2026-09",
+    "force": 36422.0
+   },
+   "47009": {
+    "rate": 2.8,
+    "month": "2026-09",
+    "force": 70218.0
+   },
+   "47013": {
+    "rate": 3.4,
+    "month": "2026-09",
+    "force": 16636.0
+   },
+   "47093": {
+    "rate": 2.8,
+    "month": "2026-09",
+    "force": 262224.0
+   },
+   "47105": {
+    "rate": 2.9,
+    "month": "2026-09",
+    "force": 28033.0
+   },
+   "47129": {
+    "rate": 3.8,
+    "month": "2026-09",
+    "force": 8266.0
+   },
+   "47145": {
+    "rate": 3.3,
+    "month": "2026-09",
+    "force": 24827.0
+   },
+   "47173": {
+    "rate": 3.3,
+    "month": "2026-09",
+    "force": 9231.0
+   },
+   "55021": {
+    "rate": 2.6,
+    "month": "2026-09",
+    "force": 32165.0
+   },
+   "55025": {
+    "rate": 2.5,
+    "month": "2026-09",
+    "force": 347110.0
+   },
+   "55045": {
+    "rate": 2.3,
+    "month": "2026-09",
+    "force": 21118.0
+   },
+   "55049": {
+    "rate": 2.4,
+    "month": "2026-09",
+    "force": 13933.0
+   }
+  },
+  "qcew_year": "2025"
+ }
+}

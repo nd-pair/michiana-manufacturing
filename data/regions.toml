@@ -1,0 +1,71 @@
+# Regions for the monthly comparison of the Physical-AI Opportunity Index (scripts/compare_regions.py).
+# Not shown on the site. Each region is a set of counties (5-digit FIPS, for QCEW, LAUS, QWI and BEA)
+# and the BLS metro areas (MSA codes, for OEWS occupations) that cover them. Picked for a similar size
+# and a research university with name recognition; edit freely, results follow on the next run.
+
+[[region]]
+name = "Michiana (South Bend–Elkhart)"
+home = true                     # the map's own region
+university = "Notre Dame"
+counties = ["18141", "18039", "18099", "18091", "18085", "18149", "18049", "18087", "18113", "18183", "26021", "26027", "26159"]
+msas = ["43780", "21140", "35660", "33140"]
+
+[[region]]
+name = "Lafayette–West Lafayette, IN"
+university = "Purdue"
+counties = ["18007", "18015", "18157", "18171"]
+msas = ["29200"]
+
+[[region]]
+name = "Champaign–Urbana, IL"
+university = "Illinois"
+counties = ["17019", "17147"]
+msas = ["16580"]
+
+[[region]]
+name = "Ann Arbor, MI"
+university = "Michigan"
+counties = ["26161"]
+msas = ["11460"]
+
+[[region]]
+name = "Lansing–East Lansing, MI"
+university = "Michigan State"
+counties = ["26037", "26045", "26065", "26155"]
+msas = ["29620"]
+
+[[region]]
+name = "Madison, WI"
+university = "Wisconsin"
+counties = ["55021", "55025", "55045", "55049"]
+msas = ["31540"]
+
+[[region]]
+name = "Rochester, NY"
+university = "Rochester, RIT"
+counties = ["36051", "36055", "36069", "36073", "36117", "36123"]
+msas = ["40380"]
+
+[[region]]
+name = "Dayton, OH"
+university = "Dayton, Wright State, AFRL"
+counties = ["39057", "39109", "39113"]
+msas = ["19430"]
+
+[[region]]
+name = "Greenville–Anderson, SC"
+university = "Clemson"
+counties = ["45007", "45045", "45059", "45077"]
+msas = ["24860"]
+
+[[region]]
+name = "Knoxville, TN"
+university = "Tennessee, Oak Ridge"
+counties = ["47001", "47009", "47013", "47093", "47105", "47129", "47145", "47173"]
+msas = ["28940"]
+
+[[region]]
+name = "Cedar Rapids–Iowa City, IA"
+university = "Iowa"
+counties = ["19011", "19105", "19113", "19103", "19183"]
+msas = ["16300", "26980"]

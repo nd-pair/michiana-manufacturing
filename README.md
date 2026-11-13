@@ -153,6 +153,12 @@ Beyond the map, the page carries:
   [`data/opportunity.toml`](data/opportunity.toml); `scripts/pull_workforce.py` pulls O*NET,
   the Census Bureau's Quarterly Workforce Indicators (bulk files, no key) and BEA county GDP; the
   index is saved monthly with the humanoid figures in `data/progress.json`.
+- **Comparison regions (not shown on the site).** `scripts/compare_regions.py` scores the same index,
+  with the same method and U.S. benchmarks, for the regions in [`data/regions.toml`](data/regions.toml)
+  (ten metros of similar size with a well-known university, plus Michiana) and keeps the ranking, the
+  pillars and a monthly history in `data/comparison.json`. It runs in the monthly refresh after the
+  other pulls; inputs that change yearly or quarterly (occupations, Census QWI) are fetched again only
+  when a new release is out. The BLS API key (`BLS_API_KEY` secret) keeps it within the BLS limits.
 - **Notre Dame research.** `scripts/pull_nd_research.py` reads every federal grant, cooperative
   agreement and contract to the University of Notre Dame since FY2016, and its subawards on other
   institutions' awards, from USAspending.gov (all agencies), and keeps those about physical AI:
