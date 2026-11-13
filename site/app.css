@@ -299,7 +299,7 @@
 .mm-app tr.mm-more .mm-pg:disabled{opacity:.35;cursor:default}
 .mm-app tr.mm-more .mm-lb{margin-left:18px}
 
-/* physical-AI opportunity panel */
+/* physical AI prosperity index panel */
 .mm-ohead{display:grid;grid-template-columns:minmax(180px,220px) minmax(0,1fr);gap:18px;align-items:start;margin-bottom:12px}
 @media (max-width:700px){.mm-ohead{grid-template-columns:1fr}}
 .mm-oidx{border:1px solid var(--line);border-radius:3px;padding:10px 12px}
@@ -352,7 +352,7 @@
 main.site-content:has(.mm-band){padding-top:0}
 .page-secondary.full-width:has(> .mm-band){margin-top:0}
 
-/* tabs: Companies, Occupations, Physical AI readiness */
+/* tabs: Companies, Occupations, Physical AI outlook */
 .mm-tabs{display:flex;flex-wrap:wrap;gap:2px;border-bottom:1px solid var(--line-2);scroll-margin-top:96px}
 .mm-tabs [role="tab"]{all:unset;cursor:pointer;white-space:nowrap;padding:10px 16px 9px;font:600 15px var(--sans,inherit);color:var(--fg-2);border-bottom:3px solid transparent;margin-bottom:-1px}
 .mm-tabs [role="tab"]:hover{color:var(--fg)}

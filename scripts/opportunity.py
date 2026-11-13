@@ -1,4 +1,4 @@
-"""The Physical-AI Opportunity Index, from data/opportunity.toml and the pulled datasets. Used by build.py.
+"""The Physical AI Prosperity Index, from data/opportunity.toml and the pulled datasets. Used by build.py.
 
 Every part compares the region with the U.S. (100 = the U.S. average). A pillar is the mean of its
 parts; the index is the weighted geometric mean of the pillars, so a pillar near zero, or falling

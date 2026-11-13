@@ -88,10 +88,10 @@ metros, state labels and the campus landmark in `data/places.toml`.
 
 ## Layers and panels
 
-The page has four tabs, each with its own link (`#tab=occupations`, `#tab=readiness`,
+The page has four tabs, each with its own link (`#tab=occupations`, `#tab=outlook`,
 `#tab=humanoid`): **Companies** (the map, sectors, products, roster, federal footprint, capabilities
 and timeline), **Occupations** (workforce, manufacturing employment and the occupations humanoids
-could help), **Physical AI readiness** (the opportunity index and the region comparison) and
+could help), **Physical AI outlook** (the prosperity index and the region comparison) and
 **Humanoid supply chain**. Filters carry across tabs, and a company named on another tab opens on the map.
 Without WebGL the map shows a notice and everything else still works. The page carries:
 
@@ -144,7 +144,7 @@ Without WebGL the map shows a notice and everything else still works. The page c
   `humanoid = [...]` and `humanoid_evidence = "confirmed"` with a `humanoid_note` to its file.
   Milestones (first local actuator line, first assembled humanoid) go in
   [`data/milestones.toml`](data/milestones.toml) and appear on the timeline.
-- **Physical-AI Opportunity Index.** The Physical AI readiness tab scores where humanoid robots
+- **Physical AI Prosperity Index.** The Physical AI outlook tab scores where humanoid robots
   could make local manufacturers more competitive, not where they would replace people. Six
   pillars compare the region with the U.S. (= 100): *task fit* (local jobs weighted by how much of
   the work is handling parts, repetitive motion, awkward postures and hazards, from O*NET),
@@ -162,7 +162,7 @@ Without WebGL the map shows a notice and everything else still works. The page c
   with the same method and U.S. benchmarks, for the regions in [`data/regions.toml`](data/regions.toml)
   (ten metros of similar size with a well-known university, plus Michiana) and keeps the ranking, the
   pillars and a monthly history in `data/comparison.json`, shown as a table at the bottom of the
-  Physical AI readiness tab. It runs in the monthly refresh after the
+  Physical AI outlook tab. It runs in the monthly refresh after the
   other pulls; inputs that change yearly or quarterly (occupations, Census QWI) are fetched again only
   when a new release is out. The BLS API key (`BLS_API_KEY` secret) keeps it within the BLS limits.
 - **Notre Dame research.** `scripts/pull_nd_research.py` reads every federal grant, cooperative
@@ -170,7 +170,7 @@ Without WebGL the map shows a notice and everything else still works. The page c
   institutions' awards, from USAspending.gov (all agencies), and keeps those about physical AI:
   robots, autonomy and drones, prosthetics and exoskeletons, haptics, legged or humanoid systems,
   robotic manufacturing (in the title, or three times in the description). NSF awards get their
-  investigators from the NSF Award Search API. The opportunity panel shows totals, active awards,
+  investigators from the NSF Award Search API. The index panel shows totals, active awards,
   agencies, years and a table; the awards also appear on the timeline as "Notre Dame research".
   Industry, foundation and state funding are not in this data.
 - **Roster size.** The roster shows the first 20 companies in the current sort, with buttons for

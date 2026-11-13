@@ -21,13 +21,13 @@ function fmtEmp(c){if(!c.emp)return "unknown";const bits=[c.emp_year,c.emp_quali
 const st={sec:new Set(),tag:new Set(),cap:new Set(),fed:false,fda:false,rings:false,radius:0,sel:null,hot:null,q:"",open:new Set(),
   sort:{sec:{key:"n",dir:-1},tag:{key:"n",dir:-1},cap:{key:"n",dir:-1},fed:{key:"e",dir:-1},roster:{key:"emp",dir:-1},ev:{key:"date",dir:-1},spec:{key:"lq",dir:-1},occ:{key:"emp",dir:-1},ue:{key:"rate",dir:-1},hum:{key:"cost",dir:-1},opp:{key:"impact",dir:-1},cmp:{key:"index",dir:-1},ndr:{key:"start",dir:-1}},ndrAll:false,wv:"spec",hum:null,hb:"related",rlim:20,rpage:0,
   evKind:"all",evYear:null,evMore:0,qv:"county",qs:"abs",tab:"companies"};
-const TABS=["companies","occupations","readiness","humanoid"];
+const TABS=["companies","occupations","outlook","humanoid"];
 function readHash(){st.sec.clear();st.tag.clear();st.cap.clear();st.fed=st.fda=st.rings=false;st.radius=0;st.sel=null;st.hum=null;st.tab="companies";
   try{const raw=location.hash.slice(1),h=decodeURIComponent(raw);if(h&&byId[h]){st.sel=h;return}
     for(const kv of raw.split("&")){const i=kv.indexOf("=");if(i<0)continue;const k=kv.slice(0,i),v=decodeURIComponent(kv.slice(i+1));if(!v)continue;const vals=kv.slice(i+1).split("|").map(decodeURIComponent);
       if(k==="sec")vals.forEach(x=>st.sec.add(x));else if(k==="tag")vals.forEach(x=>st.tag.add(x));else if(k==="cap")vals.forEach(x=>st.cap.add(x));
       else if(k==="fed")st.fed=v==="1";else if(k==="fda")st.fda=v==="1";else if(k==="rings")st.rings=v==="1";
-      else if(k==="r")st.radius=+v||0;else if(k==="hum"&&/^[gk]:[a-z]+$/.test(v))st.hum=v;else if(k==="sel"&&byId[v])st.sel=v;else if(k==="tab"&&TABS.includes(v))st.tab=v}}catch(e){}}
+      else if(k==="r")st.radius=+v||0;else if(k==="hum"&&/^[gk]:[a-z]+$/.test(v))st.hum=v;else if(k==="sel"&&byId[v])st.sel=v;else if(k==="tab"){const t=v==="readiness"?"outlook":v;if(TABS.includes(t))st.tab=t}}}catch(e){}}
 const enc=set=>[...set].map(encodeURIComponent).join("|");
 function hashState(withTab=true){const p=[];if(withTab&&st.tab!=="companies")p.push("tab="+st.tab);if(st.sec.size)p.push("sec="+enc(st.sec));if(st.tag.size)p.push("tag="+enc(st.tag));if(st.cap.size)p.push("cap="+enc(st.cap));
   if(st.fed)p.push("fed=1");if(st.fda)p.push("fda=1");if(st.rings)p.push("rings=1");if(st.radius)p.push("r="+st.radius);if(st.hum)p.push("hum="+st.hum);if(st.sel)p.push("sel="+st.sel);
@@ -347,7 +347,7 @@ function renderQcew(){const el=document.getElementById("qcew");document.querySel
   for(const e of ends)svg+=`<text class="lbl" x="${e.x+6}" y="${e.y+3}" fill="${e.s.color}">${esc(e.s.name)} ${st.qs==="idx"?Math.round(e.v):fmtK(Math.round(e.v))}</text>`;
   el.innerHTML=svg+`</svg>`;
   document.getElementById("qcewnote").textContent=`BLS QCEW, private, ${y0}–${y1}${st.qv==="sector"?" · lower bound, withheld cells":""}${st.qs==="idx"?" · "+y0+" = 100":""}`}
-/* ---------- physical-AI opportunity index: every part against the U.S. (= 100) ---------- */
+/* ---------- physical AI prosperity index: every part against the U.S. (= 100) ---------- */
 const GRADES=[["A",150],["B",125],["C",105],["D",95],["E",80],["F",60],["G",-Infinity]],grade=v=>v==null?null:GRADES.find(([,t])=>v>=t)[0];
 const BAND=["far ahead of the U.S.","well ahead of the U.S.","ahead of the U.S.","about the U.S. level","behind the U.S.","well behind the U.S.","far behind the U.S."],
   gbadge=v=>{const g=grade(v);if(!g)return "";const t=`${Math.round(v)}: ${BAND[GRADES.findIndex(x=>x[0]===g)]} (U.S. = 100)`;return `<span class="mm-gsw g${g}" role="img" aria-label="${t}" title="${t}"></span>`};
@@ -389,7 +389,7 @@ function renderOpportunity(){const el=document.getElementById("opp"),O=DATA.oppo
   const phist=p=>Object.entries(p.history||{}).concat(prog.filter(([,v])=>v.pillars&&v.pillars[p.id]!=null).map(([m,v])=>[m,v.pillars[p.id]]));
   const xhist=(p,i)=>Object.entries(p.parts[i].history||{}).concat(prog.filter(([,v])=>v.parts&&v.parts[p.id]&&v.parts[p.id][i]!=null).map(([m,v])=>[m,v.parts[p.id][i]]));
   const ihist=prog.map(([m,v])=>[m,v.index]);
-  el.innerHTML=`<div class="mm-ohead"><div class="mm-oidx"><div class="k">Physical-AI Opportunity Index</div><div class="v">${O.index==null?"–":Math.round(O.index)} ${gbadge(O.index)}</div><div class="s">U.S. = 100 · ${ihist.length>1?histSpark(ihist,170,34)+" "+span(ihist):"tracked monthly from "+esc(monthName(Object.keys(HUM.progress||{})[0]||""))+"; the index needs every pillar, so its history starts there"}</div></div>
+  el.innerHTML=`<div class="mm-ohead"><div class="mm-oidx"><div class="k">Physical AI Prosperity Index</div><div class="v">${O.index==null?"–":Math.round(O.index)} ${gbadge(O.index)}</div><div class="s">U.S. = 100 · ${ihist.length>1?histSpark(ihist,170,34)+" "+span(ihist):"tracked monthly from "+esc(monthName(Object.keys(HUM.progress||{})[0]||""))+"; the index needs every pillar, so its history starts there"}</div></div>
     <p class="mm-fedsum">Where humanoid robots could make the region's manufacturers more competitive: taking on the hard, repetitive and hazardous work so the same or more people can make more complex, higher-mix products. Each pillar compares the region with the U.S.; the index is their geometric mean, so a weak pillar pulls it down, and <b>shared prosperity</b> (manufacturing jobs, pay and value added per job) is one of them: the index can only rise for good if workers gain too.</p></div>
     <div class="mm-opills">${O.pillars.map(p=>`<div class="mm-opill"><div class="hd"><b>${esc(p.name)}</b>${bar(p.score)}</div><div class="w">${esc(p.what)}</div>
       ${(()=>{const hp=phist(p);return hp.filter(([,v])=>v!=null).length>1?`<div class="mm-ohist">${histSpark(hp,220,38)}<span class="mm-olab">${span(hp)}</span></div>`:`<div class="mm-ohist"><span class="mm-mut">history starts with monthly tracking</span></div>`})()}
@@ -417,10 +417,10 @@ function renderComparison(){const el=document.getElementById("cmp"),X=DATA.compa
   const sc=v=>v==null?"–":`${Math.round(v)}${gbadge(v)}`;
   const months=Object.keys(X.history||{}).sort(),I=X.inputs||{};
   document.getElementById("cmpnote").textContent=`${rows.length} regions · U.S. = 100 · updated ${X.updated||""}`;
-  el.innerHTML=`<p class="mm-fedsum">The Physical-AI Opportunity Index for metro areas of similar size, each with a well-known research university, computed the same way and from the same public sources as the region's own index above. Michiana is highlighted.</p>
+  el.innerHTML=`<p class="mm-fedsum">The Physical AI Prosperity Index for metro areas of similar size, each with a well-known research university, computed the same way and from the same public sources as the region's own index above. Michiana is highlighted.</p>
     ${sortTable("cmp",[{key:"rank",label:"#",num:true,cell:r=>r.rank??"–"},
       {key:"name",label:"Region",cell:r=>`<b>${esc(r.name)}</b><br><small class="mm-mut">${esc(r.university||"")}</small>`},
-      {key:"index",label:"Index",title:"Physical-AI Opportunity Index",cell:r=>r.index==null?"–":`<span class="mm-ratio"><span class="trk"><span class="fil g${grade(r.index)}" style="width:${Math.min(100,100*r.index/max).toFixed(1)}%"></span><span class="one" style="left:${(100*100/max).toFixed(1)}%"></span></span><span class="v">${Math.round(r.index)}</span>${gbadge(r.index)}</span>`},
+      {key:"index",label:"Index",title:"Physical AI Prosperity Index",cell:r=>r.index==null?"–":`<span class="mm-ratio"><span class="trk"><span class="fil g${grade(r.index)}" style="width:${Math.min(100,100*r.index/max).toFixed(1)}%"></span><span class="one" style="left:${(100*100/max).toFixed(1)}%"></span></span><span class="v">${Math.round(r.index)}</span>${gbadge(r.index)}</span>`},
       ...P.map(([k,l])=>({key:k,label:l,title:full[k]||l,num:true,cell:r=>sc(r[k])}))],rows)}
     <p class="mm-wnote">Each region is a set of counties (jobs, establishments, pay, unemployment, workforce age and turnover, value added) and the BLS metro areas that cover them (occupations). Sources: BLS QCEW ${esc(String(I.qcew_year||""))}, OEWS May ${esc(String(I.oews_year||""))}, LAUS (latest month), Census QWI, BEA ${esc(String(I.value_added_year||""))}. Michigan has published no Census workforce quarters since 2023, so Ann Arbor and Lansing score labor pressure on unemployment alone, and Michiana's Michigan counties are left out of its age and turnover figures. Local supply counts build-to-print parts with two or more establishments in their industries, so it tops out at 38 for every region. Recomputed every month${months.length?" since "+esc(monthName(months[0])):""}; the regions are listed in data/regions.toml.</p>`}
 /* ---------- humanoid coverage: which parts of a humanoid local companies could supply ---------- */
@@ -597,7 +597,7 @@ document.getElementById("clear").addEventListener("click",clearAll);document.get
 document.getElementById("tagsearch").addEventListener("input",e=>{st.q=e.target.value.trim().toLowerCase();renderTags()});
 document.getElementById("radius").addEventListener("change",e=>{st.radius=+e.target.value;_ctr=center();buildRings();render()});
 for(const [id,k] of [["lay-rings","rings"],["f-fed","fed"],["f-fda","fda"]])document.getElementById(id).addEventListener("click",()=>{st[k]=!st[k];if(k==="rings")buildRings();render()});
-/* tabs: Companies, Occupations, Physical AI readiness, Humanoid supply chain; the open tab is part of the URL */
+/* tabs: Companies, Occupations, Physical AI outlook, Humanoid supply chain; the open tab is part of the URL */
 function applyTab(){for(const t of TABS){const on=st.tab===t,b=document.getElementById("t-"+t);b.setAttribute("aria-selected",String(on));b.tabIndex=on?0:-1;document.getElementById("tab-"+t).hidden=!on}
   if(st.tab==="companies")resize()}
 function setTab(t,focus){if(!TABS.includes(t)||st.tab===t)return;st.tab=t;applyTab();updateHash();if(focus)document.getElementById("t-"+t).focus();
