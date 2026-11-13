@@ -19,7 +19,7 @@
 <link rel="apple-touch-icon" href="img/favicon-180.png">
 <link rel="stylesheet" href="https://conductor.nd.edu/stylesheets/themes/ndt/4.0/ndt.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
-<link rel="stylesheet" href="app.css?v=bfb3a44fe9">
+<link rel="stylesheet" href="app.css?v=2a8e625a73">
 </head>
 <body>
 <script>/* dark unless this visitor chose light */try{document.body.setAttribute("data-theme",localStorage.getItem("mm-theme")||"dark")}catch(e){document.body.setAttribute("data-theme","dark")}</script>
@@ -129,7 +129,7 @@
           <div class="mm-tabs" role="tablist" aria-label="Sections of the map">
             <button type="button" role="tab" id="t-companies" data-tab="companies" aria-controls="tab-companies" aria-selected="true">Companies</button>
             <button type="button" role="tab" id="t-occupations" data-tab="occupations" aria-controls="tab-occupations" aria-selected="false" tabindex="-1">Occupations</button>
-            <button type="button" role="tab" id="t-readiness" data-tab="readiness" aria-controls="tab-readiness" aria-selected="false" tabindex="-1">Physical AI readiness</button>
+            <button type="button" role="tab" id="t-outlook" data-tab="outlook" aria-controls="tab-outlook" aria-selected="false" tabindex="-1">Physical AI outlook</button>
             <button type="button" role="tab" id="t-humanoid" data-tab="humanoid" aria-controls="tab-humanoid" aria-selected="false" tabindex="-1">Humanoid supply chain</button>
           </div>
           <div class="mm-tabpanel" id="tab-companies" role="tabpanel" aria-labelledby="t-companies">
@@ -191,8 +191,8 @@
           <div class="mm-panel mm-occhelp" id="occhelp"><div class="mm-ph"><h2>Occupations: where humanoids could help</h2><span class="mm-count">local jobs and the work a humanoid could take on</span></div>
             <div class="mm-workbody" id="occ-help"></div></div>
           </div>
-          <div class="mm-tabpanel" id="tab-readiness" role="tabpanel" aria-labelledby="t-readiness" hidden>
-          <div class="mm-panel mm-opp" id="opportunity"><div class="mm-ph"><h2>Physical-AI opportunity</h2><span class="mm-count">the region against the U.S. average (= 100)</span></div>
+          <div class="mm-tabpanel" id="tab-outlook" role="tabpanel" aria-labelledby="t-outlook" hidden>
+          <div class="mm-panel mm-opp" id="opportunity"><div class="mm-ph"><h2>Physical AI prosperity</h2><span class="mm-count">the region against the U.S. average (= 100)</span></div>
             <div class="mm-workbody" id="opp"></div></div>
           <div class="mm-panel mm-cmp" id="comparison"><div class="mm-ph"><h2>Region comparison</h2><span class="mm-count" id="cmpnote">the same index for similar regions, U.S. = 100</span></div>
             <div class="mm-workbody" id="cmp"></div></div>
@@ -317,7 +317,7 @@
 document.querySelectorAll(".light-dark-toggle").forEach(function(x){x.checked=t==="dark";x.addEventListener("change",function(){var v=x.checked?"dark":"light";try{localStorage.setItem("mm-theme",v)}catch(e){}
 document.querySelectorAll(".light-dark-toggle").forEach(function(y){y.checked=x.checked})})})})();</script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
-<script src="data.js?v=bfb3a44fe9"></script>
-<script src="app.js?v=bfb3a44fe9"></script>
+<script src="data.js?v=2a8e625a73"></script>
+<script src="app.js?v=2a8e625a73"></script>
 </body>
 </html>
