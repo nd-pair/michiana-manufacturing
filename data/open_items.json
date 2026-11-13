@@ -1,0 +1,835 @@
+{
+ "items": {
+  "accu-spec-inc--stevensville--2660.toml:website": {
+   "file": "accu-spec-inc--stevensville--2660.toml",
+   "company": "Accu Spec, Inc.",
+   "field": "website",
+   "problem": "domain does not resolve",
+   "value": "https://accuspec-inc.com",
+   "opened": "2026-11-13",
+   "attempts": 1,
+   "last_attempt": "2026-11-13"
+  },
+  "accucast-technology-llc--south-bend--220.toml:website": {
+   "file": "accucast-technology-llc--south-bend--220.toml",
+   "company": "Accucast Technology, LLC",
+   "field": "website",
+   "problem": "domain does not resolve",
+   "value": "https://accucastech.com",
+   "opened": "2026-11-13",
+   "attempts": 1,
+   "last_attempt": "2026-11-13"
+  },
+  "alpha-systems-llc--elkhart--5120.toml:website": {
+   "file": "alpha-systems-llc--elkhart--5120.toml",
+   "company": "Alpha Systems, LLC",
+   "field": "website",
+   "problem": "domain does not resolve",
+   "value": "https://alphasystemsinc.com",
+   "opened": "2026-11-13",
+   "attempts": 1,
+   "last_attempt": "2026-11-13"
+  },
+  "autocam-medical--warsaw.toml:address": {
+   "file": "autocam-medical--warsaw.toml",
+   "company": "Autocam Medical",
+   "field": "address",
+   "problem": "address without a street number",
+   "value": "Warsaw Technology Park, US 30, Warsaw, IN",
+   "opened": "2026-11-13",
+   "attempts": 1,
+   "last_attempt": "2026-11-13"
+  },
+  "axis-products-inc--elkhart--3501.toml:status": {
+   "file": "axis-products-inc--elkhart--3501.toml",
+   "company": "Axis Products, Inc.",
+   "field": "status",
+   "problem": "status not confirmed",
+   "value": "Merged into AL-KO Axis in 2011, whose North American assets Dexter Axle bought in 2014; whether this building is in use is unconfirmed.",
+   "opened": "2026-11-13",
+   "attempts": 1,
+   "last_attempt": "2026-11-13"
+  },
+  "b-b-industries-inc--elkhart--1121.toml:website": {
+   "file": "b-b-industries-inc--elkhart--1121.toml",
+   "company": "B & B Industries, Inc.",
+   "field": "website",
+   "problem": "domain does not resolve",
+   "value": "https://billbottom.com",
+   "opened": "2026-11-13",
+   "attempts": 1,
+   "last_attempt": "2026-11-13"
+  },
+  "batson-printing-inc--benton-harbor--195.toml:website": {
+   "file": "batson-printing-inc--benton-harbor--195.toml",
+   "company": "Batson Printing, Inc.",
+   "field": "website",
+   "problem": "domain does not resolve",
+   "value": "https://batsonprinting.com",
+   "opened": "2026-11-13",
+   "attempts": 1,
+   "last_attempt": "2026-11-13"
+  },
+  "baycote-metal-finishing-inc--mishawaka--1302.toml:website": {
+   "file": "baycote-metal-finishing-inc--mishawaka--1302.toml",
+   "company": "Baycote Metal Finishing, Inc.",
+   "field": "website",
+   "problem": "domain does not resolve",
+   "value": "https://baycote.com",
+   "opened": "2026-11-13",
+   "attempts": 1,
+   "last_attempt": "2026-11-13"
+  },
+  "bkt-inc--bridgman--4015.toml:status": {
+   "file": "bkt-inc--bridgman--4015.toml",
+   "company": "Bkt, Inc.",
+   "field": "status",
+   "problem": "status not confirmed",
+   "value": "Kruger Plastic Products renamed itself Springboard Manufacturing in 2019, now part of Alentra, which does not list a Bridgman plant; status unconfirmed.",
+   "opened": "2026-11-13",
+   "attempts": 1,
+   "last_attempt": "2026-11-13"
+  },
+  "bremen-corp--bremen--405.toml:website": {
+   "file": "bremen-corp--bremen--405.toml",
+   "company": "Creative Foam Medical Systems",
+   "field": "website",
+   "problem": "domain does not resolve",
+   "value": "https://creativefoammedicalsystems.com",
+   "opened": "2026-11-13",
+   "attempts": 1,
+   "last_attempt": "2026-11-13"
+  },
+  "briter-products.toml:status": {
+   "file": "briter-products.toml",
+   "company": "Briter Products, Inc.",
+   "field": "status",
+   "problem": "status not confirmed",
+   "value": "One listing gives 901 N. Bendix Drive instead; the address is unconfirmed.",
+   "opened": "2026-11-13",
+   "attempts": 1,
+   "last_attempt": "2026-11-13"
+  },
+  "cal-pro-fence-co-inc--south-bend--1700.toml:website": {
+   "file": "cal-pro-fence-co-inc--south-bend--1700.toml",
+   "company": "Cal-Pro Fence Co., Inc.",
+   "field": "website",
+   "problem": "domain does not resolve",
+   "value": "https://calprofence.com",
+   "opened": "2026-11-13",
+   "attempts": 1,
+   "last_attempt": "2026-11-13"
+  },
+  "cast-products-corp-h-q--elkhart--58263.toml:website": {
+   "file": "cast-products-corp-h-q--elkhart--58263.toml",
+   "company": "Cast Products Corp. (HQ)",
+   "field": "website",
+   "problem": "domain does not resolve",
+   "value": "https://castproductscorp.com",
+   "opened": "2026-11-13",
+   "attempts": 1,
+   "last_attempt": "2026-11-13"
+  },
+  "chardon-rubber-co--saint-joseph--1776.toml:website": {
+   "file": "chardon-rubber-co--saint-joseph--1776.toml",
+   "company": "Chardon Rubber Co.",
+   "field": "website",
+   "problem": "domain does not resolve",
+   "value": "https://chardonrubber.com",
+   "opened": "2026-11-13",
+   "attempts": 1,
+   "last_attempt": "2026-11-13"
+  },
+  "chematics-inc--north-webster--in.toml:address": {
+   "file": "chematics-inc--north-webster--in.toml",
+   "company": "Chematics, Inc.",
+   "field": "address",
+   "problem": "address without a street number",
+   "value": "In 13 South, North Webster, IN 46555",
+   "opened": "2026-11-13",
+   "attempts": 1,
+   "last_attempt": "2026-11-13"
+  },
+  "covermaster-inc--elkhart--57784.toml:website": {
+   "file": "covermaster-inc--elkhart--57784.toml",
+   "company": "Covermaster, Inc.",
+   "field": "website",
+   "problem": "domain does not resolve",
+   "value": "https://covermasterinc.com",
+   "opened": "2026-11-13",
+   "attempts": 1,
+   "last_attempt": "2026-11-13"
+  },
+  "cqs-innovation-inc--benton-harbor--2390.toml:status": {
+   "file": "cqs-innovation-inc--benton-harbor--2390.toml",
+   "company": "Cqs Innovation, Inc.",
+   "field": "status",
+   "problem": "status not confirmed",
+   "value": "A systems integrator bought by MAVERICK Technologies (now Rockwell Automation) in 2014; whether a Benton Harbor office remains is unconfirmed.",
+   "opened": "2026-11-13",
+   "attempts": 1,
+   "last_attempt": "2026-11-13"
+  },
+  "creighton-bros-llc--warsaw--4217.toml:website": {
+   "file": "creighton-bros-llc--warsaw--4217.toml",
+   "company": "Creighton Bros., LLC",
+   "field": "website",
+   "problem": "domain does not resolve",
+   "value": "https://cb-cl.com",
+   "opened": "2026-11-13",
+   "attempts": 1,
+   "last_attempt": "2026-11-13"
+  },
+  "crystal-lake-llc--warsaw--6500.toml:website": {
+   "file": "crystal-lake-llc--warsaw--6500.toml",
+   "company": "Crystal Lake, LLC",
+   "field": "website",
+   "problem": "domain does not resolve",
+   "value": "https://cb-cl.com",
+   "opened": "2026-11-13",
+   "attempts": 1,
+   "last_attempt": "2026-11-13"
+  },
+  "cullip-industries-inc--elkhart--1900.toml:website": {
+   "file": "cullip-industries-inc--elkhart--1900.toml",
+   "company": "Cullip Industries, Inc.",
+   "field": "website",
+   "problem": "domain does not resolve",
+   "value": "https://cullipindustries.com",
+   "opened": "2026-11-13",
+   "attempts": 1,
+   "last_attempt": "2026-11-13"
+  },
+  "damon-corp-breckenridge-div-plt-5--nappanee--656.toml:website": {
+   "file": "damon-corp-breckenridge-div-plt-5--nappanee--656.toml",
+   "company": "Damon Corp., Breckenridge Div., Plt. 5",
+   "field": "website",
+   "problem": "domain does not resolve",
+   "value": "https://breckenridgeparkmodels.com",
+   "opened": "2026-11-13",
+   "attempts": 1,
+   "last_attempt": "2026-11-13"
+  },
+  "dexter-chassie-group--elkhart--3133.toml:website": {
+   "file": "dexter-chassie-group--elkhart--3133.toml",
+   "company": "Dexter Chassie Group",
+   "field": "website",
+   "problem": "domain does not resolve",
+   "value": "https://dexterchassiegroup.com",
+   "opened": "2026-11-13",
+   "attempts": 1,
+   "last_attempt": "2026-11-13"
+  },
+  "dirilyte-line-the--warsaw--315.toml:website": {
+   "file": "dirilyte-line-the--warsaw--315.toml",
+   "company": "Dirilyte Line, the",
+   "field": "website",
+   "problem": "domain does not resolve",
+   "value": "https://dirilyte.com",
+   "opened": "2026-11-13",
+   "attempts": 1,
+   "last_attempt": "2026-11-13"
+  },
+  "ecm-photo-tooling-inc--elkhart--58157.toml:website": {
+   "file": "ecm-photo-tooling-inc--elkhart--58157.toml",
+   "company": "Ecm Photo Tooling, Inc.",
+   "field": "website",
+   "problem": "domain does not resolve",
+   "value": "https://ecmphototooling.com",
+   "opened": "2026-11-13",
+   "attempts": 1,
+   "last_attempt": "2026-11-13"
+  },
+  "edgewater-safety-systems-llc.toml:website": {
+   "file": "edgewater-safety-systems-llc.toml",
+   "company": "Edgewater Safety Systems LLC",
+   "field": "website",
+   "problem": "domain does not resolve",
+   "value": "https://www.edgewatersafetysystems.com",
+   "opened": "2026-11-13",
+   "attempts": 1,
+   "last_attempt": "2026-11-13"
+  },
+  "elixir-industries-inc--mishawaka--5201.toml:website": {
+   "file": "elixir-industries-inc--mishawaka--5201.toml",
+   "company": "Elixir Industries, Inc.",
+   "field": "website",
+   "problem": "domain does not resolve",
+   "value": "https://elixirdiv28.com",
+   "opened": "2026-11-13",
+   "attempts": 1,
+   "last_attempt": "2026-11-13"
+  },
+  "elkhart-tool-die-inc--elkhart--2400.toml:website": {
+   "file": "elkhart-tool-die-inc--elkhart--2400.toml",
+   "company": "Elkhart Tool & Die, Inc.",
+   "field": "website",
+   "problem": "domain does not resolve",
+   "value": "https://elkharttool.com",
+   "opened": "2026-11-13",
+   "attempts": 1,
+   "last_attempt": "2026-11-13"
+  },
+  "fedex-office-print-center--south-bend--2202.toml:website": {
+   "file": "fedex-office-print-center--south-bend--2202.toml",
+   "company": "Fedex Office & Print Center",
+   "field": "website",
+   "problem": "domain does not resolve",
+   "value": "https://fedexkinkos.com",
+   "opened": "2026-11-13",
+   "attempts": 1,
+   "last_attempt": "2026-11-13"
+  },
+  "flint-group--warsaw--3025.toml:website": {
+   "file": "flint-group--warsaw--3025.toml",
+   "company": "Flint Group",
+   "field": "website",
+   "problem": "domain does not resolve",
+   "value": "https://flintink.com",
+   "opened": "2026-11-13",
+   "attempts": 1,
+   "last_attempt": "2026-11-13"
+  },
+  "grrreat-creations-inc--nappanee--597.toml:website": {
+   "file": "grrreat-creations-inc--nappanee--597.toml",
+   "company": "Grrreat Creations, Inc.",
+   "field": "website",
+   "problem": "domain does not resolve",
+   "value": "https://grrreatcreations.com",
+   "opened": "2026-11-13",
+   "attempts": 1,
+   "last_attempt": "2026-11-13"
+  },
+  "harbor-brake-beam-co--saint-joseph--4133.toml:website": {
+   "file": "harbor-brake-beam-co--saint-joseph--4133.toml",
+   "company": "Harbor Brake Beam Co.",
+   "field": "website",
+   "problem": "domain does not resolve",
+   "value": "https://brakebeams.com",
+   "opened": "2026-11-13",
+   "attempts": 1,
+   "last_attempt": "2026-11-13"
+  },
+  "healthcare-safety-systems-inc--elkhart--21279.toml:website": {
+   "file": "healthcare-safety-systems-inc--elkhart--21279.toml",
+   "company": "Healthcare Safety Systems, Inc.",
+   "field": "website",
+   "problem": "parked or for sale",
+   "value": "https://chemosafety.com",
+   "opened": "2026-11-13",
+   "attempts": 1,
+   "last_attempt": "2026-11-13"
+  },
+  "heritage-park-models-inc--elkhart--25786.toml:website": {
+   "file": "heritage-park-models-inc--elkhart--25786.toml",
+   "company": "Heritage Park Models, Inc.",
+   "field": "website",
+   "problem": "domain does not resolve",
+   "value": "https://heritageparkmodels.com",
+   "opened": "2026-11-13",
+   "attempts": 1,
+   "last_attempt": "2026-11-13"
+  },
+  "impressions-inc--elkhart--1227.toml:website": {
+   "file": "impressions-inc--elkhart--1227.toml",
+   "company": "Impressions, Inc.",
+   "field": "website",
+   "problem": "domain does not resolve",
+   "value": "https://impressionsprint.net",
+   "opened": "2026-11-13",
+   "attempts": 1,
+   "last_attempt": "2026-11-13"
+  },
+  "independent-concrete-pipe-corp--mishawaka--401.toml:status": {
+   "file": "independent-concrete-pipe-corp--mishawaka--401.toml",
+   "company": "Independent Concrete Pipe Corp.",
+   "field": "status",
+   "problem": "status not confirmed",
+   "value": "County Materials bought Independent Concrete Pipe's Indiana assets in 2014; whether this site still runs is unconfirmed.",
+   "opened": "2026-11-13",
+   "attempts": 1,
+   "last_attempt": "2026-11-13"
+  },
+  "indiana-wiping-cloth-inc--mishawaka--2340.toml:website": {
+   "file": "indiana-wiping-cloth-inc--mishawaka--2340.toml",
+   "company": "Indiana Wiping Cloth, Inc.",
+   "field": "website",
+   "problem": "domain does not resolve",
+   "value": "https://indianawipingcloth.com",
+   "opened": "2026-11-13",
+   "attempts": 1,
+   "last_attempt": "2026-11-13"
+  },
+  "ingersoll-rand-co--goshen--2516.toml:website": {
+   "file": "ingersoll-rand-co--goshen--2516.toml",
+   "company": "Ingersoll-Rand Co.",
+   "field": "website",
+   "problem": "domain does not resolve",
+   "value": "https://irgoshen.com",
+   "opened": "2026-11-13",
+   "attempts": 1,
+   "last_attempt": "2026-11-13"
+  },
+  "itw-reddi-pac-inc--elkhart--1301.toml:website": {
+   "file": "itw-reddi-pac-inc--elkhart--1301.toml",
+   "company": "Itw Reddi-Pac, Inc.",
+   "field": "website",
+   "problem": "domain does not resolve",
+   "value": "https://itwreddipac.com",
+   "opened": "2026-11-13",
+   "attempts": 1,
+   "last_attempt": "2026-11-13"
+  },
+  "jessen-mfg-co-inc--elkhart--1409.toml:website": {
+   "file": "jessen-mfg-co-inc--elkhart--1409.toml",
+   "company": "Jessen Mfg. Co., Inc.",
+   "field": "website",
+   "problem": "parked or for sale",
+   "value": "https://jessenmfg.com",
+   "opened": "2026-11-13",
+   "attempts": 1,
+   "last_attempt": "2026-11-13"
+  },
+  "jms-plastics-inc--south-bend--52275.toml:website": {
+   "file": "jms-plastics-inc--south-bend--52275.toml",
+   "company": "Jms Plastics, Inc.",
+   "field": "website",
+   "problem": "domain does not resolve",
+   "value": "https://jmsplasticsinc.com",
+   "opened": "2026-11-13",
+   "attempts": 1,
+   "last_attempt": "2026-11-13"
+  },
+  "johnson-bros-sign-co-inc--south-whitley--307.toml:website": {
+   "file": "johnson-bros-sign-co-inc--south-whitley--307.toml",
+   "company": "Johnson Bros. Sign Co., Inc.",
+   "field": "website",
+   "problem": "domain does not resolve",
+   "value": "https://johnsonbros-sign.com",
+   "opened": "2026-11-13",
+   "attempts": 1,
+   "last_attempt": "2026-11-13"
+  },
+  "jpc-llc--elkhart--21291.toml:website": {
+   "file": "jpc-llc--elkhart--21291.toml",
+   "company": "Jpc, LLC",
+   "field": "website",
+   "problem": "domain does not resolve",
+   "value": "https://jpcind.com",
+   "opened": "2026-11-13",
+   "attempts": 1,
+   "last_attempt": "2026-11-13"
+  },
+  "jus-rite-engineering-inc--elkhart--56977.toml:website": {
+   "file": "jus-rite-engineering-inc--elkhart--56977.toml",
+   "company": "Jus-Rite Engineering, Inc.",
+   "field": "website",
+   "problem": "domain does not resolve",
+   "value": "https://jus-rite.com",
+   "opened": "2026-11-13",
+   "attempts": 1,
+   "last_attempt": "2026-11-13"
+  },
+  "kib-enterprises-corp--elkhart--2504.toml:website": {
+   "file": "kib-enterprises-corp--elkhart--2504.toml",
+   "company": "Kib Enterprises Corp.",
+   "field": "website",
+   "problem": "domain does not resolve",
+   "value": "https://kibinterprises.com",
+   "opened": "2026-11-13",
+   "attempts": 1,
+   "last_attempt": "2026-11-13"
+  },
+  "lacay-fabrication-mfg-inc--south-bend--1344.toml:website": {
+   "file": "lacay-fabrication-mfg-inc--south-bend--1344.toml",
+   "company": "Lacay Fabrication & Mfg., Inc.",
+   "field": "website",
+   "problem": "parked or for sale",
+   "value": "https://lacayfab.com",
+   "opened": "2026-11-13",
+   "attempts": 1,
+   "last_attempt": "2026-11-13"
+  },
+  "lono-llc.toml:address": {
+   "file": "lono-llc.toml",
+   "company": "Lono LLC",
+   "field": "address",
+   "problem": "no street address",
+   "opened": "2026-11-13",
+   "attempts": 1,
+   "last_attempt": "2026-11-13"
+  },
+  "m-g-products-inc--elkhart--4707.toml:website": {
+   "file": "m-g-products-inc--elkhart--4707.toml",
+   "company": "M. G. Products, Inc.",
+   "field": "website",
+   "problem": "domain does not resolve",
+   "value": "https://mgproductscnc.com",
+   "opened": "2026-11-13",
+   "attempts": 1,
+   "last_attempt": "2026-11-13"
+  },
+  "m-m-diecast-inc--bridgman--8556.toml:website": {
+   "file": "m-m-diecast-inc--bridgman--8556.toml",
+   "company": "M & M Diecast, Inc.",
+   "field": "website",
+   "problem": "domain does not resolve",
+   "value": "https://mmdci.com",
+   "opened": "2026-11-13",
+   "attempts": 1,
+   "last_attempt": "2026-11-13"
+  },
+  "mckay-printing-services--michigan-city--500.toml:website": {
+   "file": "mckay-printing-services--michigan-city--500.toml",
+   "company": "Mckay Printing Services",
+   "field": "website",
+   "problem": "domain does not resolve",
+   "value": "https://mckayprinting.com",
+   "opened": "2026-11-13",
+   "attempts": 1,
+   "last_attempt": "2026-11-13"
+  },
+  "metal-processors-inc--stevensville--1010.toml:website": {
+   "file": "metal-processors-inc--stevensville--1010.toml",
+   "company": "Metal Processors, Inc.",
+   "field": "website",
+   "problem": "domain does not resolve",
+   "value": "https://metaltro.com",
+   "opened": "2026-11-13",
+   "attempts": 1,
+   "last_attempt": "2026-11-13"
+  },
+  "michiana-mobile-structures-corp--elkhart--21141.toml:website": {
+   "file": "michiana-mobile-structures-corp--elkhart--21141.toml",
+   "company": "Michiana Mobile Structures Corp.",
+   "field": "website",
+   "problem": "domain does not resolve",
+   "value": "https://michianamobile.net",
+   "opened": "2026-11-13",
+   "attempts": 1,
+   "last_attempt": "2026-11-13"
+  },
+  "midstates-tool-die-engineering-inc--elkhart--23816.toml:status": {
+   "file": "midstates-tool-die-engineering-inc--elkhart--23816.toml",
+   "company": "Lippert Automation, Tool and Die",
+   "field": "status",
+   "problem": "status not confirmed",
+   "value": "Lippert bought Midstates' assets and engineering team in July 2013; the current address was not confirmed.",
+   "opened": "2026-11-13",
+   "attempts": 1,
+   "last_attempt": "2026-11-13"
+  },
+  "millennium-products-inc--elkhart--57755.toml:website": {
+   "file": "millennium-products-inc--elkhart--57755.toml",
+   "company": "Millennium Products, Inc.",
+   "field": "website",
+   "problem": "domain does not resolve",
+   "value": "https://millenniumproducts.com",
+   "opened": "2026-11-13",
+   "attempts": 1,
+   "last_attempt": "2026-11-13"
+  },
+  "mm-spirit--syracuse--72298.toml:website": {
+   "file": "mm-spirit--syracuse--72298.toml",
+   "company": "Mm Spirit",
+   "field": "website",
+   "problem": "domain does not resolve",
+   "value": "https://americanspiritmfg.com",
+   "opened": "2026-11-13",
+   "attempts": 1,
+   "last_attempt": "2026-11-13"
+  },
+  "mossberg-company-inc--south-bend--301.toml:website": {
+   "file": "mossberg-company-inc--south-bend--301.toml",
+   "company": "Mossberg & Company, Inc.",
+   "field": "website",
+   "problem": "parked or for sale",
+   "value": "https://mossbergco.com",
+   "opened": "2026-11-13",
+   "attempts": 1,
+   "last_attempt": "2026-11-13"
+  },
+  "niblock-machinery-inc--elkhart--130.toml:website": {
+   "file": "niblock-machinery-inc--elkhart--130.toml",
+   "company": "Niblock Machinery, Inc.",
+   "field": "website",
+   "problem": "domain does not resolve",
+   "value": "https://niblockmachinery.com",
+   "opened": "2026-11-13",
+   "attempts": 1,
+   "last_attempt": "2026-11-13"
+  },
+  "north-american-traveler-llc--elkhart--1045.toml:website": {
+   "file": "north-american-traveler-llc--elkhart--1045.toml",
+   "company": "North American Traveler, LLC",
+   "field": "website",
+   "problem": "domain does not resolve",
+   "value": "https://glacierbayrv.com",
+   "opened": "2026-11-13",
+   "attempts": 1,
+   "last_attempt": "2026-11-13"
+  },
+  "packard-industries-inc--niles--1515.toml:website": {
+   "file": "packard-industries-inc--niles--1515.toml",
+   "company": "Packard Industries, Inc.",
+   "field": "website",
+   "problem": "domain does not resolve",
+   "value": "https://packardindustries.com",
+   "opened": "2026-11-13",
+   "attempts": 1,
+   "last_attempt": "2026-11-13"
+  },
+  "parrish-meyer-machine-inc--south-bend--3702.toml:website": {
+   "file": "parrish-meyer-machine-inc--south-bend--3702.toml",
+   "company": "Parrish Meyer Machine, Inc.",
+   "field": "website",
+   "problem": "domain does not resolve",
+   "value": "https://parrishmeyer.com",
+   "opened": "2026-11-13",
+   "attempts": 1,
+   "last_attempt": "2026-11-13"
+  },
+  "pinnacle-building-systems--bristol--1103.toml:website": {
+   "file": "pinnacle-building-systems--bristol--1103.toml",
+   "company": "Pinnacle Building Systems",
+   "field": "website",
+   "problem": "domain does not resolve",
+   "value": "https://modguys.com",
+   "opened": "2026-11-13",
+   "attempts": 1,
+   "last_attempt": "2026-11-13"
+  },
+  "pj-marketing-services-inc--south-bend--20950.toml:website": {
+   "file": "pj-marketing-services-inc--south-bend--20950.toml",
+   "company": "Pj Marketing Services, Inc.",
+   "field": "website",
+   "problem": "domain does not resolve",
+   "value": "https://pjpromo.com",
+   "opened": "2026-11-13",
+   "attempts": 1,
+   "last_attempt": "2026-11-13"
+  },
+  "precision-industries-corp--elkhart--601.toml:website": {
+   "file": "precision-industries-corp--elkhart--601.toml",
+   "company": "Precision Industries Corp.",
+   "field": "website",
+   "problem": "parked or for sale",
+   "value": "https://precisionindustriescorp.com",
+   "opened": "2026-11-13",
+   "attempts": 1,
+   "last_attempt": "2026-11-13"
+  },
+  "proto-fab-inc--elkhart--1615.toml:website": {
+   "file": "proto-fab-inc--elkhart--1615.toml",
+   "company": "Proto-Fab, Inc.",
+   "field": "website",
+   "problem": "domain does not resolve",
+   "value": "https://protofab.net",
+   "opened": "2026-11-13",
+   "attempts": 1,
+   "last_attempt": "2026-11-13"
+  },
+  "qsi-inc--south-bend--3024.toml:website": {
+   "file": "qsi-inc--south-bend--3024.toml",
+   "company": "Qsi, Inc.",
+   "field": "website",
+   "problem": "domain does not resolve",
+   "value": "https://qsibillers.com",
+   "opened": "2026-11-13",
+   "attempts": 1,
+   "last_attempt": "2026-11-13"
+  },
+  "roadmasters-llc--goshen--310.toml:website": {
+   "file": "roadmasters-llc--goshen--310.toml",
+   "company": "Roadmasters, LLC",
+   "field": "website",
+   "problem": "domain does not resolve",
+   "value": "https://roadmasterllc.com",
+   "opened": "2026-11-13",
+   "attempts": 1,
+   "last_attempt": "2026-11-13"
+  },
+  "rtw-enterprises-inc--elkhart--2924.toml:website": {
+   "file": "rtw-enterprises-inc--elkhart--2924.toml",
+   "company": "Rtw Enterprises, Inc.",
+   "field": "website",
+   "problem": "domain does not resolve",
+   "value": "https://rtwcorp.com",
+   "opened": "2026-11-13",
+   "attempts": 1,
+   "last_attempt": "2026-11-13"
+  },
+  "samsung-sdi-new-carlisle.toml:address": {
+   "file": "samsung-sdi-new-carlisle.toml",
+   "company": "Samsung SDI battery cell plant (under construction)",
+   "field": "address",
+   "problem": "address without a street number",
+   "value": "Indiana Enterprise Center, Larrison Boulevard and State Road 2, New Carlisle, IN 46552",
+   "opened": "2026-11-13",
+   "attempts": 1,
+   "last_attempt": "2026-11-13"
+  },
+  "samsung-sdi-new-carlisle.toml:status": {
+   "file": "samsung-sdi-new-carlisle.toml",
+   "company": "Samsung SDI battery cell plant (under construction)",
+   "field": "status",
+   "problem": "status not confirmed",
+   "value": "Begun in 2024 as a GM and Samsung SDI joint venture; GM sold its half to Samsung SDI on August 11, 2026. Samsung plans to start with cells for energy storage. Reports in 2026 differ on whether construction is paused; production was last expected in 2027.",
+   "opened": "2026-11-13",
+   "attempts": 1,
+   "last_attempt": "2026-11-13"
+  },
+  "sandusky-chicago-abrasive-wheel-co-inc--michigan-city--1100.toml:website": {
+   "file": "sandusky-chicago-abrasive-wheel-co-inc--michigan-city--1100.toml",
+   "company": "Sandusky-Chicago Abrasive Wheel Co. Inc.",
+   "field": "website",
+   "problem": "domain does not resolve",
+   "value": "https://sandusky.com",
+   "opened": "2026-11-13",
+   "attempts": 1,
+   "last_attempt": "2026-11-13"
+  },
+  "scope-technologies--elkhart--2135.toml:website": {
+   "file": "scope-technologies--elkhart--2135.toml",
+   "company": "Scope Technologies",
+   "field": "website",
+   "problem": "domain does not resolve",
+   "value": "https://scopetechnologies.com",
+   "opened": "2026-11-13",
+   "attempts": 1,
+   "last_attempt": "2026-11-13"
+  },
+  "shomco-inc--elkhart--21240.toml:website": {
+   "file": "shomco-inc--elkhart--21240.toml",
+   "company": "Shomco, Inc.",
+   "field": "website",
+   "problem": "domain does not resolve",
+   "value": "https://santaferans.com",
+   "opened": "2026-11-13",
+   "attempts": 1,
+   "last_attempt": "2026-11-13"
+  },
+  "showtime-conversions-inc--middlebury--116.toml:website": {
+   "file": "showtime-conversions-inc--middlebury--116.toml",
+   "company": "Showtime Conversions, Inc.",
+   "field": "website",
+   "problem": "domain does not resolve",
+   "value": "https://showtimeconversions.com",
+   "opened": "2026-11-13",
+   "attempts": 1,
+   "last_attempt": "2026-11-13"
+  },
+  "simpson-s-enterprises-inc--three-rivers--55255.toml:website": {
+   "file": "simpson-s-enterprises-inc--three-rivers--55255.toml",
+   "company": "Simpson's Enterprises, Inc.",
+   "field": "website",
+   "problem": "domain does not resolve",
+   "value": "https://simpsonsent.com",
+   "opened": "2026-11-13",
+   "attempts": 1,
+   "last_attempt": "2026-11-13"
+  },
+  "skyline-corp-bristol-div--bristol--in.toml:address": {
+   "file": "skyline-corp-bristol-div--bristol--in.toml",
+   "company": "Skyline Corp., Bristol Div.",
+   "field": "address",
+   "problem": "address without a street number",
+   "value": "In 15 South, Bristol, IN 46507",
+   "opened": "2026-11-13",
+   "attempts": 1,
+   "last_attempt": "2026-11-13"
+  },
+  "sodus-hard-chrome-inc--sodus--3085.toml:website": {
+   "file": "sodus-hard-chrome-inc--sodus--3085.toml",
+   "company": "Sodus Hard Chrome, Inc.",
+   "field": "website",
+   "problem": "domain does not resolve",
+   "value": "https://sodushardchrome.com",
+   "opened": "2026-11-13",
+   "attempts": 1,
+   "last_attempt": "2026-11-13"
+  },
+  "summit-seating-inc--elkhart--56644.toml:website": {
+   "file": "summit-seating-inc--elkhart--56644.toml",
+   "company": "Summit Seating, Inc.",
+   "field": "website",
+   "problem": "domain does not resolve",
+   "value": "https://hometheatercollection.com",
+   "opened": "2026-11-13",
+   "attempts": 1,
+   "last_attempt": "2026-11-13"
+  },
+  "superior-laminating-inc--goshen--2117.toml:website": {
+   "file": "superior-laminating-inc--goshen--2117.toml",
+   "company": "Superior Laminating, Inc.",
+   "field": "website",
+   "problem": "domain does not resolve",
+   "value": "https://superiorlaminatinginc.com",
+   "opened": "2026-11-13",
+   "attempts": 1,
+   "last_attempt": "2026-11-13"
+  },
+  "tessellated-inc.toml:address": {
+   "file": "tessellated-inc.toml",
+   "company": "Tessellated Inc.",
+   "field": "address",
+   "problem": "address could not be geocoded",
+   "value": "2501 Indiana Ct, Service Door 16B, South Bend, IN 46619",
+   "opened": "2026-11-13",
+   "attempts": 1,
+   "last_attempt": "2026-11-13"
+  },
+  "thermal-ceramics-inc--elkhart--2730.toml:website": {
+   "file": "thermal-ceramics-inc--elkhart--2730.toml",
+   "company": "Thermal Ceramics, Inc.",
+   "field": "website",
+   "problem": "domain does not resolve",
+   "value": "https://thermalceramics.com",
+   "opened": "2026-11-13",
+   "attempts": 1,
+   "last_attempt": "2026-11-13"
+  },
+  "weiss-prestain--la-porte--3522.toml:website": {
+   "file": "weiss-prestain--la-porte--3522.toml",
+   "company": "Weiss Prestain",
+   "field": "website",
+   "problem": "domain does not resolve",
+   "value": "https://weissinc.net",
+   "opened": "2026-11-13",
+   "attempts": 1,
+   "last_attempt": "2026-11-13"
+  },
+  "white-briar-corporation.toml:address": {
+   "file": "white-briar-corporation.toml",
+   "company": "White Briar Corporation",
+   "field": "address",
+   "problem": "address could not be geocoded",
+   "value": "1900 Briar Rd, Niles, MI 49120",
+   "opened": "2026-11-13",
+   "attempts": 1,
+   "last_attempt": "2026-11-13"
+  },
+  "williams-sons-inc-reub--warsaw--market.toml:address": {
+   "file": "williams-sons-inc-reub--warsaw--market.toml",
+   "company": "Williams & Sons Inc., Reub",
+   "field": "address",
+   "problem": "address without a street number",
+   "value": "Market Street, Warsaw, IN 46580",
+   "opened": "2026-11-13",
+   "attempts": 1,
+   "last_attempt": "2026-11-13"
+  },
+  "wissco-irrigation-inc--south-bend--1820.toml:website": {
+   "file": "wissco-irrigation-inc--south-bend--1820.toml",
+   "company": "Wissco Irrigation, Inc.",
+   "field": "website",
+   "problem": "domain does not resolve",
+   "value": "https://wisscoirrigationinc.com",
+   "opened": "2026-11-13",
+   "attempts": 1,
+   "last_attempt": "2026-11-13"
+  }
+ },
+ "expired": {},
+ "log": []
+}
