@@ -7,12 +7,12 @@
   "gaps": 1,
   "components": 20,
   "suppliers": 395,
-  "index": 102.7,
+  "index": 111.0,
   "pillars": {
    "task": 235.8,
    "highmix": 161.0,
    "labor": 97.3,
-   "readiness": 90.1,
+   "readiness": 143.6,
    "supply": 38.0,
    "prosperity": 92.8
   },
@@ -30,7 +30,7 @@
     102.7
    ],
    "readiness": [
-    90.1
+    143.6
    ],
    "supply": [
     38

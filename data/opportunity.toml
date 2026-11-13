@@ -49,7 +49,9 @@ naics = ["332710", "3323", "333514", "333511", "336213", "336214", "336212", "33
 
 [readiness]
 # Occupations that install, program and maintain automation (2018 SOC, as OEWS reports them).
-soc = ["499041", "472111", "173024", "173026", "173027", "172112", "172141", "172071", "151252"]
+# Software developers (151252) were dropped on 2026-11-13: they are 44% of the U.S. count and mostly
+# measure a metro's size and tech sector, not factory automation skills.
+soc = ["499041", "472111", "173024", "173026", "173027", "172112", "172141", "172071"]
 
 [supply]
 # Local supply is scored as twice the share of a humanoid's cost available locally from two or more

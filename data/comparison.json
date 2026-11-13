@@ -29,12 +29,12 @@
  },
  "ranking": [
   "Michiana (South Bend–Elkhart)",
-  "Dayton, OH",
   "Greenville–Anderson, SC",
+  "Dayton, OH",
   "Rochester, NY",
   "Ann Arbor, MI",
-  "Madison, WI",
   "Knoxville, TN",
+  "Madison, WI",
   "Lansing–East Lansing, MI",
   "Cedar Rapids–Iowa City, IA",
   "Lafayette–West Lafayette, IN",
@@ -42,10 +42,10 @@
  ],
  "regions": {
   "Michiana (South Bend–Elkhart)": {
-   "index": 102.7,
+   "index": 111.0,
    "pillars": {
     "task": 235.8,
-    "readiness": 90.1,
+    "readiness": 143.6,
     "highmix": 160.9,
     "labor": 97.4,
     "supply": 38.0,
@@ -56,7 +56,7 @@
      235.8
     ],
     "readiness": [
-     90.1
+     143.6
     ],
     "highmix": [
      261.1,
@@ -79,7 +79,7 @@
    "missing": [],
    "facts": {
     "metro_jobs": 360210.0,
-    "readiness_per_1000": 22.4,
+    "readiness_per_1000": 20.2,
     "mfg_jobs": 139299,
     "mfg_share": 0.318,
     "highmix_share": 0.324,
@@ -93,10 +93,10 @@
    "home": true
   },
   "Lafayette–West Lafayette, IN": {
-   "index": 63.4,
+   "index": 67.6,
    "pillars": {
     "task": 198.4,
-    "readiness": 111.2,
+    "readiness": 162.9,
     "highmix": 18.4,
     "labor": 92.2,
     "supply": 18.0,
@@ -107,7 +107,7 @@
      198.4
     ],
     "readiness": [
-     111.2
+     162.9
     ],
     "highmix": [
      5.5,
@@ -130,7 +130,7 @@
    "missing": [],
    "facts": {
     "metro_jobs": 102200.0,
-    "readiness_per_1000": 27.7,
+    "readiness_per_1000": 22.9,
     "mfg_jobs": 19060,
     "mfg_share": 0.235,
     "highmix_share": 0.007,
@@ -144,10 +144,10 @@
    "home": false
   },
   "Champaign–Urbana, IL": {
-   "index": 61.3,
+   "index": 61.6,
    "pillars": {
     "task": 86.6,
-    "readiness": 61.3,
+    "readiness": 63.4,
     "highmix": 44.0,
     "labor": 110.0,
     "supply": 24.0,
@@ -158,7 +158,7 @@
      86.6
     ],
     "readiness": [
-     61.3
+     63.4
     ],
     "highmix": [
      7.7,
@@ -181,7 +181,7 @@
    "missing": [],
    "facts": {
     "metro_jobs": 105500.0,
-    "readiness_per_1000": 15.3,
+    "readiness_per_1000": 8.9,
     "mfg_jobs": 6264,
     "mfg_share": 0.09,
     "highmix_share": 0.01,
@@ -195,10 +195,10 @@
    "home": false
   },
   "Ann Arbor, MI": {
-   "index": 77.5,
+   "index": 79.6,
    "pillars": {
     "task": 71.0,
-    "readiness": 148.9,
+    "readiness": 175.2,
     "highmix": 75.4,
     "labor": 105.4,
     "supply": 30.0,
@@ -209,7 +209,7 @@
      71.0
     ],
     "readiness": [
-     148.9
+     175.2
     ],
     "highmix": [
      19.1,
@@ -232,7 +232,7 @@
    "missing": [],
    "facts": {
     "metro_jobs": 219730.0,
-    "readiness_per_1000": 37.1,
+    "readiness_per_1000": 24.6,
     "mfg_jobs": 11228,
     "mfg_share": 0.083,
     "highmix_share": 0.024,
@@ -246,10 +246,10 @@
    "home": false
   },
   "Lansing–East Lansing, MI": {
-   "index": 73.8,
+   "index": 73.3,
    "pillars": {
     "task": 122.1,
-    "readiness": 121.8,
+    "readiness": 117.0,
     "highmix": 40.7,
     "labor": 98.4,
     "supply": 26.0,
@@ -260,7 +260,7 @@
      122.1
     ],
     "readiness": [
-     121.8
+     117.0
     ],
     "highmix": [
      2.9,
@@ -283,7 +283,7 @@
    "missing": [],
    "facts": {
     "metro_jobs": 217180.0,
-    "readiness_per_1000": 30.3,
+    "readiness_per_1000": 16.4,
     "mfg_jobs": 21247,
     "mfg_share": 0.12,
     "highmix_share": 0.004,
@@ -297,10 +297,10 @@
    "home": false
   },
   "Madison, WI": {
-   "index": 76.2,
+   "index": 73.9,
    "pillars": {
     "task": 100.8,
-    "readiness": 124.4,
+    "readiness": 103.2,
     "highmix": 57.5,
     "labor": 113.8,
     "supply": 26.0,
@@ -311,7 +311,7 @@
      100.8
     ],
     "readiness": [
-     124.4
+     103.2
     ],
     "highmix": [
      50.1,
@@ -334,7 +334,7 @@
    "missing": [],
    "facts": {
     "metro_jobs": 408070.0,
-    "readiness_per_1000": 31.0,
+    "readiness_per_1000": 14.5,
     "mfg_jobs": 37214,
     "mfg_share": 0.116,
     "highmix_share": 0.062,
@@ -348,10 +348,10 @@
    "home": false
   },
   "Rochester, NY": {
-   "index": 80.8,
+   "index": 82.7,
    "pillars": {
     "task": 88.3,
-    "readiness": 107.9,
+    "readiness": 124.2,
     "highmix": 79.2,
     "labor": 101.3,
     "supply": 38.0,
@@ -362,7 +362,7 @@
      88.3
     ],
     "readiness": [
-     107.9
+     124.2
     ],
     "highmix": [
      76.6,
@@ -385,7 +385,7 @@
    "missing": [],
    "facts": {
     "metro_jobs": 494280.0,
-    "readiness_per_1000": 26.9,
+    "readiness_per_1000": 17.5,
     "mfg_jobs": 50320,
     "mfg_share": 0.116,
     "highmix_share": 0.095,
@@ -399,10 +399,10 @@
    "home": false
   },
   "Dayton, OH": {
-   "index": 86.8,
+   "index": 88.6,
    "pillars": {
     "task": 125.3,
-    "readiness": 116.8,
+    "readiness": 132.3,
     "highmix": 82.6,
     "labor": 105.3,
     "supply": 38.0,
@@ -413,7 +413,7 @@
      125.3
     ],
     "readiness": [
-     116.8
+     132.3
     ],
     "highmix": [
      86.3,
@@ -436,7 +436,7 @@
    "missing": [],
    "facts": {
     "metro_jobs": 372660.0,
-    "readiness_per_1000": 29.1,
+    "readiness_per_1000": 18.6,
     "mfg_jobs": 41431,
     "mfg_share": 0.132,
     "highmix_share": 0.107,
@@ -450,10 +450,10 @@
    "home": false
   },
   "Greenville–Anderson, SC": {
-   "index": 85.3,
+   "index": 91.1,
    "pillars": {
     "task": 155.2,
-    "readiness": 116.4,
+    "readiness": 172.4,
     "highmix": 54.5,
     "labor": 106.9,
     "supply": 38.0,
@@ -464,7 +464,7 @@
      155.2
     ],
     "readiness": [
-     116.4
+     172.4
     ],
     "highmix": [
      25.0,
@@ -487,7 +487,7 @@
    "missing": [],
    "facts": {
     "metro_jobs": 434900.0,
-    "readiness_per_1000": 29.0,
+    "readiness_per_1000": 24.2,
     "mfg_jobs": 59560,
     "mfg_share": 0.159,
     "highmix_share": 0.031,
@@ -501,10 +501,10 @@
    "home": false
   },
   "Knoxville, TN": {
-   "index": 74.1,
+   "index": 77.5,
    "pillars": {
     "task": 119.1,
-    "readiness": 86.4,
+    "readiness": 113.1,
     "highmix": 49.2,
     "labor": 109.0,
     "supply": 32.0,
@@ -515,7 +515,7 @@
      119.1
     ],
     "readiness": [
-     86.4
+     113.1
     ],
     "highmix": [
      20.3,
@@ -538,7 +538,7 @@
    "missing": [],
    "facts": {
     "metro_jobs": 424600.0,
-    "readiness_per_1000": 21.5,
+    "readiness_per_1000": 15.9,
     "mfg_jobs": 42541,
     "mfg_share": 0.117,
     "highmix_share": 0.025,
@@ -552,10 +552,10 @@
    "home": false
   },
   "Cedar Rapids–Iowa City, IA": {
-   "index": 69.1,
+   "index": 71.3,
    "pillars": {
     "task": 94.5,
-    "readiness": 104.7,
+    "readiness": 126.4,
     "highmix": 36.5,
     "labor": 95.3,
     "supply": 32.0,
@@ -566,7 +566,7 @@
      94.5
     ],
     "readiness": [
-     104.7
+     126.4
     ],
     "highmix": [
      13.2,
@@ -589,7 +589,7 @@
    "missing": [],
    "facts": {
     "metro_jobs": 233020.0,
-    "readiness_per_1000": 26.1,
+    "readiness_per_1000": 17.8,
     "mfg_jobs": 25985,
     "mfg_share": 0.144,
     "highmix_share": 0.016,
@@ -606,10 +606,10 @@
  "history": {
   "2026-11": {
    "Michiana (South Bend–Elkhart)": {
-    "index": 102.7,
+    "index": 111.0,
     "pillars": {
      "task": 235.8,
-     "readiness": 90.1,
+     "readiness": 143.6,
      "highmix": 160.9,
      "labor": 97.4,
      "supply": 38.0,
@@ -617,10 +617,10 @@
     }
    },
    "Lafayette–West Lafayette, IN": {
-    "index": 63.4,
+    "index": 67.6,
     "pillars": {
      "task": 198.4,
-     "readiness": 111.2,
+     "readiness": 162.9,
      "highmix": 18.4,
      "labor": 92.2,
      "supply": 18.0,
@@ -628,10 +628,10 @@
     }
    },
    "Champaign–Urbana, IL": {
-    "index": 61.3,
+    "index": 61.6,
     "pillars": {
      "task": 86.6,
-     "readiness": 61.3,
+     "readiness": 63.4,
      "highmix": 44.0,
      "labor": 110.0,
      "supply": 24.0,
@@ -639,10 +639,10 @@
     }
    },
    "Ann Arbor, MI": {
-    "index": 77.5,
+    "index": 79.6,
     "pillars": {
      "task": 71.0,
-     "readiness": 148.9,
+     "readiness": 175.2,
      "highmix": 75.4,
      "labor": 105.4,
      "supply": 30.0,
@@ -650,10 +650,10 @@
     }
    },
    "Lansing–East Lansing, MI": {
-    "index": 73.8,
+    "index": 73.3,
     "pillars": {
      "task": 122.1,
-     "readiness": 121.8,
+     "readiness": 117.0,
      "highmix": 40.7,
      "labor": 98.4,
      "supply": 26.0,
@@ -661,10 +661,10 @@
     }
    },
    "Madison, WI": {
-    "index": 76.2,
+    "index": 73.9,
     "pillars": {
      "task": 100.8,
-     "readiness": 124.4,
+     "readiness": 103.2,
      "highmix": 57.5,
      "labor": 113.8,
      "supply": 26.0,
@@ -672,10 +672,10 @@
     }
    },
    "Rochester, NY": {
-    "index": 80.8,
+    "index": 82.7,
     "pillars": {
      "task": 88.3,
-     "readiness": 107.9,
+     "readiness": 124.2,
      "highmix": 79.2,
      "labor": 101.3,
      "supply": 38.0,
@@ -683,10 +683,10 @@
     }
    },
    "Dayton, OH": {
-    "index": 86.8,
+    "index": 88.6,
     "pillars": {
      "task": 125.3,
-     "readiness": 116.8,
+     "readiness": 132.3,
      "highmix": 82.6,
      "labor": 105.3,
      "supply": 38.0,
@@ -694,10 +694,10 @@
     }
    },
    "Greenville–Anderson, SC": {
-    "index": 85.3,
+    "index": 91.1,
     "pillars": {
      "task": 155.2,
-     "readiness": 116.4,
+     "readiness": 172.4,
      "highmix": 54.5,
      "labor": 106.9,
      "supply": 38.0,
@@ -705,10 +705,10 @@
     }
    },
    "Knoxville, TN": {
-    "index": 74.1,
+    "index": 77.5,
     "pillars": {
      "task": 119.1,
-     "readiness": 86.4,
+     "readiness": 113.1,
      "highmix": 49.2,
      "labor": 109.0,
      "supply": 32.0,
@@ -716,10 +716,10 @@
     }
    },
    "Cedar Rapids–Iowa City, IA": {
-    "index": 69.1,
+    "index": 71.3,
     "pillars": {
      "task": 94.5,
-     "readiness": 104.7,
+     "readiness": 126.4,
      "highmix": 36.5,
      "labor": 95.3,
      "supply": 32.0,
