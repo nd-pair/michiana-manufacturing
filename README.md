@@ -191,6 +191,32 @@ demand from the Actions tab): it imports new HIFLD facilities, re-pulls USAspend
 streams, QCEW and the BLS workforce series, geocodes any file with an address but no coordinates, rebuilds and commits. Each source is
 optional, so an outage at one does not block the others. Hand-written files are never touched.
 
+## Automated news review
+
+Once a month, after the data pulls, `scripts/review_llm.py` has Claude read the region's news and
+apply what it finds, without a person approving each change. It is held to these limits:
+
+- **Trusted sources only.** Claude's web search and page reading are restricted, by the API's own
+  domain filter, to the outlets and government sites in [`data/news_sources.toml`](data/news_sources.toml).
+- **Rules.** [`CURATION.md`](CURATION.md) is sent as its instructions: what counts as a closure,
+  rename, move or new company, how to record humanoid capabilities and milestones, and what never
+  goes in.
+- **Checked in code.** A finding changes the data only if its source is on a trusted domain and was
+  actually retrieved in that run, it is marked high confidence, its date is real and not in the
+  future, and it matches exactly one company (or, for a new company, a known city, a valid sector,
+  and an address or city that geocodes). Only a fixed set of fields can change, and files are never
+  deleted.
+- **Budget.** Each run stops starting new tasks before it could pass `LLM_BUDGET_USD` (set to 20 in
+  the workflow); a typical month costs a few dollars. It searches last month's news three times
+  (closures; new plants, acquisitions and renames; robotics and physical AI) and checks up to 15
+  closure candidates from the website scan, in rotation.
+- **Logged.** Every applied change, with its source, and each run's cost are in
+  `data/news_review.json`; any change can be reverted from the git history.
+
+It needs an Anthropic API key in the repository secret `ANTHROPIC_API_KEY` (best a key from a
+Console workspace with its own monthly spend limit); without it the step is skipped. Try it locally
+with `python3 scripts/review_llm.py --dry-run`, which shows the plan without calling the API.
+
 ## Building locally
 
 ```bash
@@ -209,7 +235,7 @@ so commit only your source changes (`companies/`, `data/`, `site/`, `scripts/`) 
 companies/      one TOML file per company (edit these)
 data/           sectors, places, capabilities (edit these); county boundaries (Census), shorelines (Natural Earth); pulled datasets (federal, fda, qcew, bls, sbir)
 site/           the pages: Notre Dame Web Theme chrome (partials/), page.html + app.js (map), about.html, brief.html + brief.js, app.css
-scripts/        build.py, humanoid.py, opportunity.py, geocode.py, import_hifld.py, import_sbir_firms.py, pull_federal.py, pull_sbir.py, pull_fda.py, pull_qcew.py, pull_bls.py, pull_workforce.py, pull_nd_research.py, pull_events.py, pull_patents.py, common.py
+scripts/        review_llm.py (monthly news review), build.py, humanoid.py, opportunity.py, geocode.py, import_hifld.py, import_sbir_firms.py, pull_federal.py, pull_sbir.py, pull_fda.py, pull_qcew.py, pull_bls.py, pull_workforce.py, pull_nd_research.py, pull_events.py, pull_patents.py, common.py
 docs/           the built site (generated; do not edit by hand)
 ```
 

@@ -1,0 +1,30 @@
+# Trusted news sources for the automated monthly review (scripts/review_llm.py). Claude's web search
+# and page reading are restricted to these domains (subdomains included), and every change the
+# review makes must cite an article on one of them. Add or remove domains here.
+
+domains = [
+  # regional newsrooms
+  "southbendtribune.com",      # South Bend Tribune
+  "wsbt.com",                  # WSBT 22, South Bend
+  "wndu.com",                  # WNDU 16, South Bend
+  "abc57.com",                 # ABC57, South Bend
+  "elkharttruth.com",          # Elkhart Truth
+  "goshennews.com",            # Goshen News
+  "inkfreenews.com",           # InkFreeNews, Kosciusko County
+  "newsnowwarsaw.com",         # News Now Warsaw
+  "wkvi.com",                  # WKVI, Starke County
+  "thenewsdispatch.com",       # Michigan City News-Dispatch
+  "heraldpalladium.com",       # Herald-Palladium, St. Joseph and Benton Harbor
+  "leaderpub.com",             # Leader Publications (Niles Daily Star, Cassopolis Vigilant)
+  "mlive.com",                 # MLive, Michigan
+  # business and trade press
+  "insideindianabusiness.com", # Inside Indiana Business
+  "ibj.com",                   # Indianapolis Business Journal
+  "rv-pro.com",                # RV PRO
+  "rvbusiness.com",            # RV Business
+  "rvnews.com",                # RV News
+  # official sources
+  "news.nd.edu",               # Notre Dame News
+  "in.gov",                    # State of Indiana (WARN notices, IEDC announcements)
+  "michigan.gov",              # State of Michigan (WARN notices, MEDC announcements)
+]
