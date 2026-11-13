@@ -273,11 +273,6 @@
 .mm-hfig [data-hg]:hover,.mm-hfig .on{stroke:var(--fg);stroke-width:2}
 .mm-hfig .jt{stroke:var(--surface);stroke-width:2}
 .mm-hfig .visor{fill:var(--bg);opacity:.55}
-.mm-hfig .jc,.mm-hfig .seam,.mm-hfig .eye{pointer-events:none}
-.mm-hfig .jc{fill:var(--surface);opacity:.45}
-.mm-hfig .eye{fill:var(--accent)}
-.mm-hfig .seam{fill:none;stroke-width:1.2;stroke-linecap:round;stroke-linejoin:round;opacity:.9}
-.mm-hfig .seam.s0{stroke:var(--fg-3)}.mm-hfig .seam.s1,.mm-hfig .seam.s3{stroke:var(--h2)}.mm-hfig .seam.s2{stroke:var(--h1)}
 .mm-hfig .hh{stroke:var(--fg-3);stroke-width:1.5}
 .mm-hfig .t0{fill:url(#hhatch)}.mm-hfig .t1{fill:var(--h1)}.mm-hfig .t2{fill:var(--h2)}.mm-hfig .t3{fill:var(--h3)}
 .mm-app .sw{display:inline-block;width:12px;height:12px;border-radius:2px;border:1px solid var(--line-2);vertical-align:-2px;margin-right:6px;flex:none}
