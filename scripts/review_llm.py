@@ -105,8 +105,41 @@ def retrieved_urls(content):
         walk(b.model_dump() if hasattr(b, "model_dump") else b, False)
     return out
 
+# Request variants, tried in order until the API accepts one; the first that works is kept for the run.
+# Structured outputs and the server-side refusal fallback are preferred; without structured outputs the
+# prompt asks for the same JSON and the script parses it.
+VARIANTS = [{"format": True, "fallbacks": True}, {"format": False, "fallbacks": True}, {"format": False, "fallbacks": False}]
+_variant = [0]
+JSON_ONLY = ("\n\nEnd with your answer as a single JSON object and nothing else, of the form "
+             '{"findings": [{"type", "company_name", "city", "state", "date", "source_url", "source_title", "summary", '
+             '"new_name", "new_address", "website", "products", "sector", "components", "confidence"}]} with every field present '
+             '(empty strings or lists where they do not apply).')
+
+def create(client, kw, prompt_has_json):
+    import anthropic
+    while True:
+        v = VARIANTS[_variant[0]]
+        req = dict(kw)
+        if v["format"]:
+            req["output_config"] = dict(kw["output_config"])
+        else:
+            req["output_config"] = {"effort": kw["output_config"]["effort"]}
+        try:
+            if v["fallbacks"]:
+                try:
+                    return client.beta.messages.create(betas=["server-side-fallback-2026-07-01"], fallbacks="default", **req)
+                except TypeError:   # an SDK release without the fallbacks parameter
+                    return client.beta.messages.create(betas=["server-side-fallback-2026-07-01"], extra_body={"fallbacks": "default"}, **req)
+            return client.messages.create(**req)
+        except anthropic.BadRequestError as e:
+            print("  request rejected (%s): %s" % (VARIANTS[_variant[0]], getattr(e, "message", e)))
+            if _variant[0] + 1 >= len(VARIANTS):
+                raise
+            _variant[0] += 1
+
 def ask(client, ledger, system, prompt, fmt, trusted, searches, fetches):
     """One task: a request with the trusted-only web tools, resumed after pause_turn; returns (findings, retrieved urls)."""
+    prompt = prompt + JSON_ONLY
     tools = [{"type": "web_search_20260209", "name": "web_search", "max_uses": searches, "allowed_domains": trusted},
              {"type": "web_fetch_20260209", "name": "web_fetch", "max_uses": fetches, "allowed_domains": trusted}]
     messages = [{"role": "user", "content": prompt}]
@@ -114,10 +147,7 @@ def ask(client, ledger, system, prompt, fmt, trusted, searches, fetches):
     for _ in range(MAX_CONTINUATIONS + 1):
         kw = dict(model=MODEL, max_tokens=16000, system=[{"type": "text", "text": system, "cache_control": {"type": "ephemeral"}}],
                   messages=messages, tools=tools, output_config={"effort": "medium", "format": {"type": "json_schema", "schema": fmt}})
-        try:
-            resp = client.beta.messages.create(betas=["server-side-fallback-2026-07-01"], fallbacks="default", **kw)
-        except TypeError:   # an SDK release without the fallbacks parameter
-            resp = client.beta.messages.create(betas=["server-side-fallback-2026-07-01"], extra_body={"fallbacks": "default"}, **kw)
+        resp = create(client, kw, True)
         ledger.add(resp.usage)
         seen |= retrieved_urls(resp.content)
         if resp.stop_reason != "pause_turn":
@@ -127,8 +157,10 @@ def ask(client, ledger, system, prompt, fmt, trusted, searches, fetches):
         print("  task ended with stop_reason=%s; nothing used" % (resp and resp.stop_reason)); return [], seen
     texts = [b.text for b in resp.content if getattr(b, "type", "") == "text" and b.text.strip()]
     text = texts[-1].strip() if texts else ""     # the JSON answer comes after any search commentary
+    if text.startswith("```"):
+        text = text.strip("`").removeprefix("json").strip()
     try:
-        return json.loads(text[text.find("{"):]).get("findings", []), seen
+        return json.JSONDecoder().raw_decode(text[text.find("{"):])[0].get("findings", []), seen
     except (ValueError, AttributeError):
         print("  task returned no valid JSON; nothing used"); return [], seen
 
@@ -357,7 +389,7 @@ def main():
         try:
             got, urls = ask(client, ledger, system, prompt, fmt, trusted, s, f)
         except anthropic.APIStatusError as e:
-            print("  %s %s: API error %s" % (kind, label, e.status_code)); continue
+            print("  %s %s: API error %s: %s" % (kind, label, e.status_code, getattr(e, "message", e))); continue
         except anthropic.APIConnectionError:
             print("  %s %s: connection error" % (kind, label)); continue
         findings += got; seen |= urls; ran.append(label)
