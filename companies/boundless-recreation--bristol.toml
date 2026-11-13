@@ -1,0 +1,18 @@
+# Boundless Recreation
+# Added by the automated news review from www.inkfreenews.com.
+
+name = "Boundless Recreation"
+kind = "company"
+city = "Bristol"
+state = "IN"
+address = "705 Maple St., Bristol, IN"
+lat = 41.71608
+lon = -85.82230
+
+sector = "Vehicles & RVs"
+products = ["fifth-wheel RVs", "travel trailers"]
+
+description = "Boundless Recreation, an RV manufacturer founded in 2025, began production in October 2026 at a 104,000-square-foot facility at 705 Maple St. in Bristol, where it makes fifth wheels and plans to add travel trailers."
+
+source = "https://www.inkfreenews.com/2026/10/28/new-rv-manufacturer-launches-in-elkhart-county/"
+updated = "2026-11-13"

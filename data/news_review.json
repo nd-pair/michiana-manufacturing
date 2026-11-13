@@ -1,14 +1,31 @@
 {
  "2026-11-13": {
   "model": "claude-opus-5-5",
-  "cost_usd": 0.0,
+  "cost_usd": 1.7,
   "budget_usd": 20.0,
-  "requests": 0,
-  "searches": 0,
-  "tasks": 0,
+  "requests": 18,
+  "searches": 69,
+  "tasks": 18,
   "tasks_deferred": 0,
-  "findings": 0,
-  "applied": [],
-  "skipped": {}
+  "findings": 3,
+  "applied": [
+   {
+    "type": "new_company",
+    "file": "companies/boundless-recreation--bristol.toml",
+    "summary": "Boundless Recreation, an RV manufacturer founded in 2025, began production in October 2026 at a 104,000-square-foot facility at 705 Maple St. in Bristol, where it makes fifth wheels and plans to add travel trailers.",
+    "date": "2026-10",
+    "source": "https://www.inkfreenews.com/2026/10/28/new-rv-manufacturer-launches-in-elkhart-county/"
+   },
+   {
+    "type": "new_company",
+    "file": "companies/autocam-medical--warsaw.toml",
+    "summary": "Autocam Medical, a medical device contract manufacturer, opened a 100,000-square-foot, $70 million plant along US 30 in the Warsaw Technology Park, where it makes orthopedic and spinal implants, precision instruments and orthopedic cutting tools.",
+    "date": "2026-11-09",
+    "source": "https://www.newsnowwarsaw.com/autocam-medical-opens-70-million-orthopedic-manufacturing-plant-in-warsaw/"
+   }
+  ],
+  "skipped": {
+   "not high confidence": 1
+  }
  }
 }
