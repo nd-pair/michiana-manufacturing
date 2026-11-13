@@ -25,6 +25,7 @@ Rules for what may be recorded: CURATION.md (sent to Claude as its instructions)
 """
 import csv, datetime, json, os, re, sys, tomllib, urllib.parse
 from common import P, COUNTIES, companies, norm, set_field
+import open_items
 
 MODEL = os.environ.get("LLM_MODEL", "claude-opus-5-5")
 BUDGET = float(os.environ.get("LLM_BUDGET_USD", "20"))
@@ -34,10 +35,12 @@ CLOSURE_CHECKS = int(os.environ.get("LLM_CLOSURE_CHECKS", "15"))
 # ($5/$25). Cache writes at 1.25x input, cache reads at 0.05x.
 PRICE = {"in": 5.0, "out": 25.0, "cache_write": 6.25, "cache_read": 0.25, "search": 0.01}
 # Worst-case cost of one task, checked before it starts so a run never passes the budget.
-EST = {"news": 2.50, "closure": 0.80}
+# (The first runs cost $0.20-0.35 per news search and about $0.07 per closure or open-item check; these leave
+# room for long articles and paused turns.)
+EST = {"news": 1.50, "closure": 0.40, "open": 0.35}
 MAX_CONTINUATIONS = 5
 
-TYPES = ["closure", "rename", "move", "new_company", "milestone", "humanoid_capability", "none"]
+TYPES = ["closure", "rename", "move", "new_company", "milestone", "humanoid_capability", "address", "status_confirmed", "none"]
 STATES = {"IN": "IN", "MI": "MI"}
 
 def load_context():
@@ -311,6 +314,20 @@ def apply(findings, seen, ctx, today, dry=False):
             fields = {"address": addr[:160], "status_note": summary + " (%s)" % url}
             if ll:
                 fields.update({"lat": ll[0], "lon": ll[1]})
+        elif t == "address":
+            addr = (f.get("new_address") or "").strip()
+            if not re.match(r"^\s*\d", addr):
+                skip("address without a street number"); continue
+            ll = None if dry else locate(addr, c.get("city", ""), c.get("state", ""))
+            if not dry and (not ll or ll[2] != "address"):
+                skip("new address could not be geocoded"); continue
+            fields = {"address": addr[:160], "address_source": url}
+            if ll:
+                fields.update({"lat": ll[0], "lon": ll[1]})
+        elif t == "status_confirmed":
+            if open_items.DOUBT.search(summary):
+                skip("status still not confirmed"); continue
+            fields = {"status_note": summary + " (%s)" % url}
         elif t == "humanoid_capability":
             add = [k for k in f.get("components", []) if k in comps]
             if not add:
@@ -329,7 +346,7 @@ def apply(findings, seen, ctx, today, dry=False):
                     open(path, "w", encoding="utf-8").write(text)
                 else:
                     set_field(path, k, v)
-            if t == "move":
+            if t in ("move", "address"):
                 text = open(path, encoding="utf-8").read()
                 text = re.sub(r"(?m)^location_precision = .*\n", "", text)
                 open(path, "w", encoding="utf-8").write(text)
@@ -374,6 +391,12 @@ def main():
     today = datetime.date.today()
     ctx = load_context(); trusted, sectors, comps, cities, rules = ctx
     fmt = schema(sectors, comps)
+    cfg = tomllib.load(open(P("data", "news_sources.toml"), "rb")).get("open_items", {})
+    ttl, per_run = int(cfg.get("ttl", 3)), int(cfg.get("attempts_per_run", 20))
+    scan = P("data", ".closure-review.csv")
+    scan_ran = os.path.exists(scan) and datetime.date.fromtimestamp(os.path.getmtime(scan)) == today
+    reg = open_items.load()
+    open_items.refresh(reg, open_items.detect(scan if scan_ran else None), today.isoformat(), scan_ran)
     tasks = [("news", label, prompt, 8, 10) for label, prompt in news_prompts(today)]
     for r in closure_targets(today, CLOSURE_CHECKS):
         tasks.append(("closure", r["company"], (
@@ -381,6 +404,23 @@ def main():
             "%s, %s (%s), which makes %s. Report a closure only if an article states that this facility closed or ceased "
             "operations, with the date. If the sources say nothing about it, return an empty list."
             % (today, r["company"], r["city"], r.get("address") or "address not on file", r.get("products") or "products not on file")), 3, 3))
+    cs_by_file = {c["_file"]: c for c in companies()}
+    addr_items = [(k, v) for k, v in open_items.to_attempt(reg, "address", 10**6) if v["problem"] != "address could not be geocoded"][:per_run]
+    for key, it in addr_items:
+        c = cs_by_file.get(it["file"], {})
+        tasks.append(("open", key, (
+            "Today is %s. Search the trusted news sources for the street address of %s in %s, %s, which makes %s. The map has %s. "
+            "If an article gives the facility's full street address (with a street number), report it as a finding of type "
+            "\"address\" with the address in new_address. If it is not in the sources, return an empty list."
+            % (today, it["company"], c.get("city", ""), c.get("state", ""), ", ".join(c.get("products", [])[:3]) or "products not on file",
+               ("the address \"%s\"" % it["value"]) if it.get("value") else "no address")), 3, 3))
+    for key, it in open_items.to_attempt(reg, "status", per_run):
+        c = cs_by_file.get(it["file"], {})
+        tasks.append(("open", key, (
+            "Today is %s. The map notes this about %s in %s, %s: \"%s\". Search the trusted news sources for an article that settles it. "
+            "If one does, report a finding of type \"status_confirmed\" whose summary states the confirmed status in one factual sentence "
+            "(or a closure, rename or move if that is what the article reports). If the sources do not settle it, return an empty list."
+            % (today, it["company"], c.get("city", ""), c.get("state", ""), it["value"])), 3, 3))
     system = ("You review regional news for a public map of manufacturing in the South Bend-Elkhart region. Follow these rules "
               "exactly. Your findings are applied without a person reviewing them, so mark a finding high confidence only when the "
               "article states the fact outright for this facility, and leave out anything uncertain.\n\n" + rules)
@@ -388,10 +428,26 @@ def main():
         print("model %s, budget $%.2f, %d trusted domains" % (MODEL, BUDGET, len(trusted)))
         for kind, label, prompt, s, f in tasks:
             print("- %s: %s (up to %d searches, %d page reads; worst case $%.2f)" % (kind, label, s, f, EST[kind]))
+        print("open items: %d (%s); ttl %d attempts" % (len(reg["items"]), ", ".join("%s %d" % (fld, sum(1 for v in reg["items"].values() if v["field"] == fld)) for fld in ("address", "website", "status")), ttl))
         print("worst case for all tasks: $%.2f; tasks beyond the budget wait for next month" % sum(EST[k] for k, *_ in tasks))
         return
     if not os.environ.get("ANTHROPIC_API_KEY"):
         print("ANTHROPIC_API_KEY is not set; skipping the news review"); return
+    # full addresses the geocoders could not place: the attempt is another try with both geocoders
+    for k, v in list(reg["items"].items()):
+        if v["field"] == "address" and v["problem"] == "address could not be geocoded":
+            c = cs_by_file.get(v["file"], {})
+            ll = locate(v.get("value", ""), c.get("city", ""), c.get("state", ""))
+            if ll and ll[2] == "address":
+                path = P("companies", v["file"])
+                set_field(path, "lat", ll[0]); set_field(path, "lon", ll[1])
+                open_items.drop_line(path, "location_precision")
+                print("  placed %s at its address" % v["company"])
+            open_items.attempted(reg, k, today.isoformat())
+    if scan_ran:   # the website scan is the attempt for website items
+        for k, v in reg["items"].items():
+            if v["field"] == "website":
+                open_items.attempted(reg, k, today.isoformat())
     import anthropic
     client = anthropic.Anthropic()
     ledger = Ledger(BUDGET)
@@ -406,17 +462,25 @@ def main():
         except anthropic.APIConnectionError:
             print("  %s %s: connection error" % (kind, label)); continue
         findings += got; seen |= urls; ran.append(label)
+        if kind == "open":
+            open_items.attempted(reg, label, today.isoformat())
         print("  %s %s: %d findings, $%.2f spent so far" % (kind, label, len(got), ledger.spent))
     applied, skipped = apply(findings, seen, ctx, today)
+    open_items.refresh(reg, open_items.detect(scan if scan_ran else None), today.isoformat(), scan_ran)   # fixed facts close their items
+    expired = open_items.expire(reg, ttl, today.isoformat())
+    open_items.save(reg)
     log_path = P("data", "news_review.json")
     log = json.load(open(log_path)) if os.path.exists(log_path) else {}
     log[today.isoformat()] = {"model": MODEL, "cost_usd": round(ledger.spent, 2), "budget_usd": BUDGET, "requests": ledger.calls,
                               "searches": ledger.searches, "tasks": len(ran), "tasks_deferred": deferred, "findings": len(findings),
-                              "applied": applied, "skipped": skipped}
+                              "applied": applied, "skipped": skipped, "open_items": len(reg["items"]), "expired": expired}
     json.dump(log, open(log_path, "w"), indent=1, ensure_ascii=False)
     print("news review: %d tasks, %d findings, %d applied, $%.2f of $%.2f; skipped: %s" % (len(ran), len(findings), len(applied), ledger.spent, BUDGET, skipped or "none"))
     for a in applied:
         print("  applied %s: %s (%s)" % (a["type"], a.get("company") or a["file"], a["source"]))
+    for e in expired:
+        print("  expired %s of %s after %d attempts: %s" % (e["field"], e["company"], e["attempts"], e["action"]))
+    print("open items left: %d" % len(reg["items"]))
 
 if __name__ == "__main__":
     main()

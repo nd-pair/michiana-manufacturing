@@ -27,6 +27,19 @@ reading of every rule: when in doubt, it records nothing.
   closures. An announced future closure may go in `status_note`.
 - A plant that keeps running under a new owner or name is a rename, not a closure.
 
+## Removing entries
+
+- An entry that should never have been on the map (a duplicate, a site outside the region, an
+  office or warehouse that makes nothing, a business that does not exist) is marked `removed` with a
+  `removed_reason`, not deleted. A company that existed and shut down is marked closed instead.
+- Companies are not removed for lack of news.
+
+## Open items
+
+- Missing or doubtful facts (no street address, a dead website, an unconfirmed status note) are
+  open items with a time to live of three review attempts. A fix needs a trusted source, like any
+  other fact. When the attempts run out, the doubtful fact is removed rather than kept unverified.
+
 ## Renames, acquisitions and moves
 
 - When a plant keeps running under a new name or owner, set `name` to the current name, keep the

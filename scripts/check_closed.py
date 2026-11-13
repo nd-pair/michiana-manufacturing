@@ -64,7 +64,7 @@ def check(c):
 
 def main():
     out = sys.argv[1] if len(sys.argv) > 1 else P("data", ".closure-review.csv")
-    cs = [c for c in companies() if c.get("website") and not c.get("closed")]
+    cs = [c for c in companies() if c.get("website") and not c.get("closed") and not c.get("removed")]
     rows = []
     with concurrent.futures.ThreadPoolExecutor(32) as ex:
         for c, (strength, why, final) in zip(cs, ex.map(check, cs)):

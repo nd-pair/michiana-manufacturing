@@ -153,7 +153,7 @@ def main():
     places = load_toml(P("data", "places.toml"))
     cities = {c["name"]: (c["lat"], c["lon"]) for c in places["city"]}
 
-    companies, closed = [], []
+    companies, closed, removed = [], [], []
     for name in sorted(os.listdir(P("companies"))):
         if not name.endswith(".toml"):
             continue
@@ -163,6 +163,11 @@ def main():
         if c.get("closed"):
             # kept on file so the importers do not add it again, but not shown
             closed.append(name); continue
+        if c.get("removed"):
+            # taken off the map (duplicate, not a manufacturer, outside the region); kept on file for the same reason
+            if not c.get("removed_reason"):
+                sys.exit("%s: removed needs a removed_reason" % name)
+            removed.append(name); continue
         cid = re.sub(r"[^a-z0-9]+", "-", name[:-5].lower()).strip("-")
         if "lat" in c:
             lat, lon, prec = float(c["lat"]), float(c["lon"]), c.get("location_precision", "address")
@@ -339,6 +344,7 @@ def main():
             "{{BLSMONTH}}": bls_month(bls), "{{BLSPULLED}}": bls.get("pulled", "not yet pulled"),
             "{{NDRESEARCH}}": ("<p><strong>Notre Dame research</strong> in the same panel lists the federal grants, cooperative agreements and contracts to the University of Notre Dame since FY2016, and its subawards on other institutions' awards, whose title (or description, at least three times) is about robots, autonomy and drones, prosthetics and exoskeletons, haptics, legged or humanoid systems or robotic manufacturing, from USAspending.gov, with investigators for NSF awards from the NSF Award Search. Amounts are obligations so far; industry, foundation and state funding are not included.</p>" if show_ndr else ""),
             "{{HUMCOMP}}": str(len(hspec["component"])),
+            "{{REMOVED}}": str(len(removed)),
             "{{CITYLEVEL}}": str(sum(1 for o in companies if o["prec"] == "city")), "{{CLOSED}}": str(len(closed)), "{{GROUPED}}": str(sum(1 for o in companies if o["parent"])),
             "{{PARENTS}}": str(len({o["group"] for o in companies if o["parent"]}))}
     about = read("site", "about.html")

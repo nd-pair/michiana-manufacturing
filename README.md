@@ -68,6 +68,7 @@ Field by field:
 | `location_precision` | no | `"city"` when lat/lon is a city center rather than the address (used for SBIR firms) |
 | `humanoid`, `humanoid_not`, `humanoid_evidence`, `humanoid_note` | no | Humanoid parts the company supplies (ids from [`data/humanoid.toml`](data/humanoid.toml)), inferred ones it does not, `"confirmed"` or `"self-reported"` once that is established, and a note on what was confirmed |
 | `formerly`, `status_note` | no | A former name (still found by search) and a one-line note on ownership or status, both shown in the detail panel |
+| `removed`, `removed_reason` | no | Takes an entry off the map that should not be on it (duplicate, outside the region, not a manufacturer), keeping the file; set with `scripts/remove_company.py` |
 | `closed`, `closed_note`, `closed_source` | no | Date the site closed (`closed = 2009-11-04`, or `"2015"` when only the year is known), how we know, and a link. The entry is then left off the map |
 
 **Closed companies.** Do not delete the file of a company that has shut down: the monthly HIFLD
@@ -212,6 +213,23 @@ apply what it finds, without a person approving each change. It is held to these
   closure candidates from the website scan, in rotation.
 - **Logged.** Every applied change, with its source, and each run's cost are in
   `data/news_review.json`; any change can be reverted from the git history.
+
+**Open items and time to live.** Each review also lists the facts that are missing or doubtful in
+`data/open_items.json`: a company without a street address, an address the geocoders cannot place, a
+website whose domain no longer exists or is parked, and a status note marked unconfirmed or
+disputed. It tries to fix each one once per run (a search of the trusted sources for addresses and
+status notes, a new website scan, another geocoder try) and counts the attempt. After three
+attempts (`ttl` in `data/news_sources.toml`) the doubtful fact is removed: the dead website link or
+the unconfirmed note goes, and an address without a street number is dropped so the company stays
+at its city's center; a full address that cannot be placed is kept. An item closes as soon as the
+fact is fixed; every resolution and expiry is logged in the same file.
+
+**Removing a company.** For entries that should not be on the map at all (duplicates, sites outside
+the region, offices that make nothing, businesses that do not exist), run
+`python3 scripts/remove_company.py <file or exact name> "<reason>"`. It sets `removed` and
+`removed_reason`; the build leaves the entry off and the file stays, so the monthly imports do not
+add it again (`--undo` restores it). A company that shut down is marked closed instead. Companies are
+never removed automatically.
 
 It needs an Anthropic API key in the repository secret `ANTHROPIC_API_KEY` (best a key from a
 Console workspace with its own monthly spend limit); without it the step is skipped. Try it locally
