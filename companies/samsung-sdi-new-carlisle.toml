@@ -1,0 +1,21 @@
+# Samsung SDI battery plant, New Carlisle
+# Added by hand from news reports; the plant is not in HIFLD because it is not yet producing.
+
+name = "Samsung SDI battery cell plant (under construction)"
+kind = "company"
+city = "New Carlisle"
+state = "IN"
+address = "Indiana Enterprise Center, Larrison Boulevard and State Road 2, New Carlisle, IN 46552"
+lat = 41.6720
+lon = -86.4620
+website = "https://www.samsungsdi.com"
+status_note = "Begun in 2024 as a GM and Samsung SDI joint venture; GM sold its half to Samsung SDI on August 11, 2026. Samsung plans to start with cells for energy storage. Reports in 2026 differ on whether construction is paused; production was last expected in 2027."
+humanoid = ["battery"]
+
+sector = "Electronics"
+products = ["Lithium-ion battery cells", "Energy storage cells (planned)"]
+
+description = "A $3.5 billion lithium-ion battery cell plant on about 680 acres in the Indiana Enterprise Center east of New Carlisle, announced in 2024 with about 1,600 to 1,700 planned jobs. Now wholly owned by Samsung SDI, its first wholly owned plant in North America. Position approximate: the reported corner of Larrison Boulevard and State Road 2."
+
+source = "Inside Indiana Business (2024); Detroit News and electrive (August 11, 2026)"
+updated = "2026-11-12"

@@ -1,0 +1,19 @@
+# Briter Products, Inc.
+# Added by hand from Visit Elkhart County and Tiny Home Industry Association listings.
+
+name = "Briter Products, Inc."
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "1901 North Bendix Drive, South Bend, IN 46628"
+lat = 41.70106
+lon = -86.29373
+status_note = "One listing gives 901 N. Bendix Drive instead; the address is unconfirmed."
+
+sector = "Electronics"
+products = ["Lithium iron phosphate deep-cycle batteries", "Battery management systems", "RV and marine power systems", "Solar installation"]
+
+description = "Builds Ion Ready lithium iron phosphate deep-cycle batteries for RVs and boats, with a battery management system, replaceable cells and a steel enclosure, and installs solar and RV power systems. Recognized by Indiana's Technical Assistance Program in 2020 for a battery-safety proposal."
+
+source = "Visit Elkhart County listing; Tiny Home Industry Association (company profile)"
+updated = "2026-11-12"
