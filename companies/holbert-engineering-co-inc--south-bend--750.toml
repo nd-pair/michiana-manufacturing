@@ -8,6 +8,8 @@ state = "IN"
 address = "750 Chapin Street, South Bend, IN 46601"
 lat = 41.66730
 lon = -86.26088
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Only undated directories (Superpages, NAICS List, BBB) list Holbert Engineering at 750 Chapin St; a BBB entry also shows a New Carlisle address. No website (holbertengineering.com does not resolve), news, or 2023+ record was found, and the LoopNet record for 750 Chapin St was not readable (403). Source: https://naicslist.com/company-profile/holbert-engineering-company-inc-south-bend-in-46601"
+presumed_closed = "2026-11-14"
 unconfirmed_reason = "The company operates in the region, but no current source confirms a plant at this address (verification check, November 2026): Undated directory entries (Superpages, NAICS List, BBB) list Holbert Engineering at 750 Chapin St, but no dated evidence or website confirms it is still active."
 unconfirmed = "2026-11-14"
 

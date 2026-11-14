@@ -9,6 +9,8 @@ address = "28 Industrial Parkway, La Porte, IN 46350"
 lat = 41.62404
 lon = -86.67569
 website = "https://hytekhose.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. hytekhose.com returns only a JavaScript redirect to '/lander', which indicates a parked domain. The only listings are undated GlobalSpec and D&B directory entries (28 Industrial Parkway Drive). Address searches found only the neighboring 33 Industrial Pkwy distribution building listed for lease or sale. Source: https://www.globalspec.com/local/2210/C_US/IN/La Porte"
+presumed_closed = "2026-11-14"
 unconfirmed_reason = "The company operates in the region, but the verification check did not confirm a plant at this address (re-read November 14, 2026): GlobalSpec lists Hy-Tek Hose & Coupling at 28 Industrial Parkway Drive, La Porte (undated); the website fetch returned no content, so this is low confidence. Source: https://www.globalspec.com/local/2210/C_US/IN/La Porte"
 unconfirmed = "2026-11-14"
 

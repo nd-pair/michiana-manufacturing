@@ -8,8 +8,8 @@ state = "IN"
 address = "3002 Cheyenne Street, Nappanee, IN 46550"
 lat = 41.44831
 lon = -86.03494
-unconfirmed_reason = "The company operates in the region, but no current source confirms a plant at this address (verification check, November 2026): Equipment Service, Inc. of Nappanee (machine shop/Harvestore parts) is listed by Purdue MEP but no street address or date was found to tie it to 3002 Cheyenne St."
-unconfirmed = "2026-11-14"
+verified_note = "The live Equipment Service Inc. website (© 2026), which makes aftermarket Harvestore silo-unloader parts with CNC machining and fabrication, gives its address as \"3002 Cheyenne St, Nappanee, IN 46550\" with phone 574-773-7742. (source dated 2026) Source: https://www.equipserviceinc.com/"
+verified = "2026-11-14"
 
 sector = "Metal"
 products = ["Machine Shops"]

@@ -8,6 +8,8 @@ state = "IN"
 address = "911 Gerber Street, Ligonier, IN 46767"
 lat = 41.47032
 lon = -85.60127
+presumed_closed_reason = "Verification check: no current trace of this company at this address. No current source ties a Riverside Mfg. to 911 Gerber St, Ligonier. The BBB Ligonier metal-fabrication page the earlier check cited no longer shows the entry. Riverside Mfg., LLC's live site (© 2026) lists only 7310 Innovation Blvd., Suite 101, Fort Wayne, IN 46818, a building it opened July 8, 2026 to consolidate several sites, and no link to Ligonier was found. The parcel is class 340 industrial, and the Gerber St industrial park now holds Forest River RV plants (e.g. 710 Gerber St, bought 2017). What occupies 911 itself was not determined. (source dated 2026) Source: https://www.riversidemfg.com/"
+presumed_closed = "2026-11-14"
 unconfirmed_reason = "The company operates in the region, but the verification check did not confirm a plant at this address (re-read November 14, 2026): A BBB directory entry lists Riverside Manufacturing Inc at 911 Gerber St, Ligonier with phone (260) 894-9106, but it is undated and unconfirmed by other sources. Source: https://bbb.org/us/in/ligonier/category/metal-fabrication"
 unconfirmed = "2026-11-14"
 

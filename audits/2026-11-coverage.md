@@ -13,41 +13,41 @@ counting manufacturing establishments (NAICS 31–33) in the region's 13 countie
 
 | County | Census establishments | On the map | Coverage | Census, 20+ employees | On the map, 20+ | Coverage |
 |---|---:|---:|---:|---:|---:|---:|
-| Elkhart, IN | 841 | 424 | 50% | 449 | 360 | 80% |
-| St. Joseph, IN | 313 | 170 | 54% | 139 | 148 | 106% |
-| Berrien, MI | 275 | 108 | 39% | 105 | 95 | 90% |
-| LaGrange, IN | 188 | 41 | 22% | 56 | 34 | 61% |
-| Kosciusko, IN | 184 | 85 | 46% | 80 | 71 | 89% |
-| LaPorte, IN | 155 | 76 | 49% | 74 | 66 | 89% |
-| Marshall, IN | 133 | 56 | 42% | 62 | 51 | 82% |
-| Noble, IN | 116 | 40 | 34% | 57 | 38 | 67% |
+| Elkhart, IN | 841 | 417 | 50% | 449 | 354 | 79% |
+| St. Joseph, IN | 313 | 159 | 51% | 139 | 140 | 101% |
+| Berrien, MI | 275 | 107 | 39% | 105 | 95 | 90% |
+| LaGrange, IN | 188 | 39 | 21% | 56 | 32 | 57% |
+| Kosciusko, IN | 184 | 81 | 44% | 80 | 67 | 84% |
+| LaPorte, IN | 155 | 72 | 46% | 74 | 62 | 84% |
+| Marshall, IN | 133 | 56 | 42% | 62 | 50 | 81% |
+| Noble, IN | 116 | 39 | 34% | 57 | 37 | 65% |
 | Van Buren, MI | 91 | 23 | 25% | 35 | 21 | 60% |
 | Whitley, IN | 73 | 18 | 25% | 32 | 17 | 53% |
 | Cass, MI | 69 | 24 | 35% | 27 | 24 | 89% |
 | Fulton, IN | 38 | 12 | 32% | 17 | 12 | 71% |
 | Starke, IN | 19 | 10 | 53% | 12 | 7 | 58% |
-| **Region** | **2495** | **1087** | **44%** | **1145** | **944** | **82%** |
+| **Region** | **2495** | **1057** | **42%** | **1145** | **918** | **80%** |
 
 ## By industry
 
 | NAICS | Industry | Census establishments | On the map | Coverage |
 |---|---|---:|---:|---:|
-| 332 | Fabricated metal | 538 | 189 | 35% |
-| 336 | Transportation equipment | 306 | 184 | 60% |
-| 333 | Machinery | 225 | 101 | 45% |
-| 321 | Wood products | 205 | 56 | 27% |
-| 337 | Furniture | 200 | 51 | 26% |
-| 326 | Plastics and rubber | 191 | 110 | 58% |
-| 311 | Food | 139 | 48 | 35% |
-| 339 | Miscellaneous (incl. medical devices) | 122 | 50 | 41% |
-| 325 | Chemicals | 93 | 43 | 46% |
-| 327 | Nonmetallic minerals | 77 | 43 | 56% |
-| 323 | Printing | 74 | 24 | 32% |
-| 331 | Primary metals | 62 | 56 | 90% |
+| 332 | Fabricated metal | 538 | 185 | 34% |
+| 336 | Transportation equipment | 306 | 180 | 59% |
+| 333 | Machinery | 225 | 96 | 43% |
+| 321 | Wood products | 205 | 55 | 27% |
+| 337 | Furniture | 200 | 50 | 25% |
+| 326 | Plastics and rubber | 191 | 106 | 55% |
+| 311 | Food | 139 | 47 | 34% |
+| 339 | Miscellaneous (incl. medical devices) | 122 | 48 | 39% |
+| 325 | Chemicals | 93 | 42 | 45% |
+| 327 | Nonmetallic minerals | 77 | 41 | 53% |
+| 323 | Printing | 74 | 23 | 31% |
+| 331 | Primary metals | 62 | 55 | 89% |
 | 312 | Beverages | 50 | 3 | 6% |
-| 334 | Computers and electronics | 33 | 30 | 91% |
+| 334 | Computers and electronics | 33 | 28 | 85% |
 | 335 | Electrical equipment | 30 | 18 | 60% |
-| 322 | Paper | 25 | 29 | 116% |
+| 322 | Paper | 25 | 28 | 112% |
 | 314 | Textile products | 20 | 11 | 55% |
 | 313 | Textile mills | 4 | 6 | 150% |
 | 315 | Apparel | 3 | 0 | 0% |
@@ -60,16 +60,17 @@ counting manufacturing establishments (NAICS 31–33) in the region's 13 countie
   and wood products are in the 6–25% range. These are mostly small Amish and family shops in
   LaGrange, Elkhart and Kosciusko counties, and among the least covered.
 - **Whitley, Starke, LaGrange and Van Buren counties** are the thinnest for plants with 20 or more
-  employees (53–61%). Those plants should file with OSHA, so the spring 2027 OSHA import is the
+  employees (53–60%). Those plants should file with OSHA, so the spring 2027 OSHA import is the
   next chance to fill them. Some may have filed under a ZIP code that lies mostly in a neighboring
   county outside the region, which the import skips.
-- **St. Joseph County shows more plants with 20+ employees than Census (106%; 115% before the
-  November 14 fixes).** Two of the excess were stale HIFLD records next to the plant's current OSHA
-  filer: Copper & Brass Sales at 1015 St Jerome St (the import read 'Saint Jerome' and 'St Jerome'
-  as different streets, now fixed) and Eagle Pack, 40 m from United Petfood's plant; both are now
-  presumed closed. Of the remaining 148, 64 rest on HIFLD's 2022 modeled headcounts and 13 of those
-  are unconfirmed; no OSHA filing backs them, so some are likely under 20 employees today. 74 have
-  an OSHA filing, close to Census's 139 minus the plants that do not file.
+- **St. Joseph County is now level with Census (140 plants with 20+ employees against 139; it
+  read 115% before the November 14 fixes).** Two of the excess were stale HIFLD records next to the
+  plant's current OSHA filer: Copper & Brass Sales at 1015 St Jerome St (the import read 'Saint
+  Jerome' and 'St Jerome' as different streets, now fixed) and Eagle Pack, 40 m from United
+  Petfood's plant. A re-check of the region's unconfirmed records then took off Parker Hannifin's
+  Mishawaka plant (closed 2018), South Bend Controls (now listed in Arizona), Mann+Hummel's North
+  Bendix Drive site and several smaller shops with no trace since 2023. Of the remaining 140, 56 rest on
+  HIFLD's 2022 modeled headcounts and 74 have an OSHA filing.
 - **Comparisons are rough.** Census counts employer establishments; a map site can be one or
   several of them, and a few map sites are offices or research units without their own
   establishment code.

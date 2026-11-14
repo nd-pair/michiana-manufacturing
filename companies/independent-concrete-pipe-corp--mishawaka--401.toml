@@ -9,6 +9,8 @@ address = "401 South Beiger Street, Mishawaka, IN 46544"
 status_note = "County Materials bought Independent Concrete Pipe's Indiana assets in 2014; whether this site still runs is unconfirmed."
 lat = 41.65941
 lon = -86.15085
+presumed_closed_reason = "Verification check: no current trace of this company at this address. The only trace is an undated Yellow Pages listing (401 S Beiger St, (574) 259-5401), and the phone number turns up nowhere else. County Materials bought Independent Concrete Pipe's Indiana manufacturing business effective Dec 10, 2014, and its announcement names only the Indianapolis and Maxwell plants, not Mishawaka. The state parcel class for the address is 510 residential, and no current business at 401 S Beiger was found. (source dated 2014-12-12) Source: https://www.countymaterials.com/news/county-materials-corporation-acquires-new-locations"
+presumed_closed = "2026-11-14"
 unconfirmed_reason = "The company operates in the region, but the verification check did not confirm a plant at this address (re-read November 14, 2026): Weak: only an undated Yellow Pages listing places Independent Concrete Pipe Corp at 401 S Beiger St with phone (574) 259-5401; no dated evidence found. Source: https://www.yellowpages.com/deedsville-in/pipe"
 unconfirmed = "2026-11-14"
 

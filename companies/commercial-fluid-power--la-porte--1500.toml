@@ -9,6 +9,8 @@ address = "1500 Genesis Drive, La Porte, IN 46350"
 lat = 41.62843
 lon = -86.70927
 website = "https://commercialfluidpower.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. The live commercialfluidpower.com site (Commercial Honing LLC dba Commercial Fluid Power, posts dated 2026) has a Locations page listing nine sites in OH, GA, IL, TX, CA, WV and Canada, with none in Indiana. Searches for 1500 Genesis Drive found only neighboring parcels, such as 1540 Genesis Dr, a 14,200 SF industrial building listed for sale or lease. (source dated 2026) Source: https://www.commercialfluidpower.com/locations/"
+presumed_closed = "2026-11-14"
 unconfirmed_reason = "The company operates in the region, but the verification check did not confirm a plant at this address (re-read November 14, 2026): Company site is live with 2026 content and a chamber listing exists, but neither page shows the 1500 Genesis Drive address, so the location is unconfirmed. Source: https://commercialfluidpower.com"
 unconfirmed = "2026-11-14"
 

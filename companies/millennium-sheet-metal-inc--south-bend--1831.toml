@@ -8,6 +8,8 @@ state = "IN"
 address = "1831 South Main Street, South Bend, IN 46613"
 lat = 41.65442
 lon = -86.25185
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Only undated BBB listings place Millennium Sheet Metal Inc. at 1831 S. Main St (phone 574-232-3637); a separate BBB listing shows a Millennium Sheet Metal Inc. in Valparaiso (184 W State Road 130) with no link to this firm. No website, FMCSA record, dated source or current occupant of 1831 S Main was found. Source: https://prod.bbb.org/us/in/granger/category/sheet-metal-fabrication"
+presumed_closed = "2026-11-14"
 unconfirmed_reason = "The company operates in the region, but no current source confirms a plant at this address (verification check, November 2026): Only an undated BBB listing places Millennium Sheet Metal at 1831 S. Main St; no website, dated evidence, or other occupant was found."
 unconfirmed = "2026-11-14"
 

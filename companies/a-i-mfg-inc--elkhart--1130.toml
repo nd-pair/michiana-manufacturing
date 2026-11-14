@@ -8,6 +8,8 @@ state = "IN"
 address = "1130 Kent Street, Elkhart, IN 46514"
 lat = 41.69817
 lon = -86.00594
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Checked web searches for A.I. Mfg / AI Manufacturing in Elkhart and for '1130 Kent' Elkhart, EPA ECHO (no facility), and Panjiva (the 'A-I Mfg Inc' importer there is in Monroe, WA, a different firm); the only Elkhart mention is an undated ESCO Tools history saying AI Manufacturing (est. 1986) sits next to Elkhart Supply, and ESCO's own domains are dead or for sale. No source gives 1130 Kent St or current operation, and no other occupant was found. Source: https://www.toolsid.com/esco/"
+presumed_closed = "2026-11-14"
 unconfirmed_reason = "The company operates in the region, but no current source confirms a plant at this address (verification check, November 2026): ESCO Tools history says AI Manufacturing (est. 1986) sits next to Elkhart Supply on Kent Street, but no source gives the 1130 Kent Street address or current status."
 unconfirmed = "2026-11-14"
 

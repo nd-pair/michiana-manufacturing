@@ -9,6 +9,8 @@ address = "1711 West Dewey Street, Bremen, IN 46506"
 lat = 41.45084
 lon = -86.16879
 website = "https://princeagri.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. The FY2025 10-K property table of parent Phibro Animal Health (fiscal year ended June 30, 2025) lists no Bremen, Indiana facility, nor does the FY2022 10-K. Its Mineral Nutrition and nutritional-specialty production is in Quincy and Chillicothe, IL, Omaha, NE and Sarasota, FL. Searches found no source tying Prince Agri to 1711 W Dewey St; a directory lists an unrelated NGMG LLC (machine tools) next door at 1709 W Dewey St. (source dated 2025) Source: https://s23.q4cdn.com/951333210/files/doc_financials/2025/q4/d45f92a6-a063-444c-bf11-08534e4ff6c8.pdf"
+presumed_closed = "2026-11-14"
 unconfirmed_reason = "The company operates in the region, but no current source confirms a plant at this address (verification check, November 2026): Prince Agri is a Phibro Animal Health division that still operates, but only an undated OSHA aggregator lists 1711 W Dewey St and the website could not be fetched."
 unconfirmed = "2026-11-14"
 

@@ -8,8 +8,8 @@ state = "MI"
 address = "27263 May Street, Edwardsburg, MI 49112"
 lat = 41.78172
 lon = -86.09403
-unconfirmed_reason = "The company operates in the region, but no current source confirms a plant at this address (verification check, November 2026): North American Forest Products operates in Edwardsburg (a 2022 state report places the facility at 69708 Kraus Road), but nothing confirms 27263 May Street."
-unconfirmed = "2026-11-14"
+verified_note = "The live company contact page (copyright 2026) lists North American Forest Products at '27263 May St Edwardsburg, MI 49112'. An Aug 2022 Michigan EGLE inspection of the same address names the plant North American Moulding (same parent; laminate and millwork, about 250 employees); NAFP's own lumber plant is at 69708 Kraus Road. (source dated 2026) Source: https://www.nafpinc.com/contact/"
+verified = "2026-11-14"
 
 sector = "Wood, paper & furniture"
 products = ["Sawmills"]

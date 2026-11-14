@@ -8,8 +8,8 @@ state = "IN"
 address = "1210 Willow Street, Mishawaka, IN 46545"
 lat = 41.67169
 lon = -86.16891
-unconfirmed_reason = "The company operates in the region, but the verification check did not confirm a plant at this address (re-read November 14, 2026): Weak: a 2016 article and directories place Reliable Metalcraft (metal stampings) at 1210 N Willow St with an A+ BBB rating; no more recent dated evidence found. Source: https://www.fabricatingandmetalworking.com/2016/07/metalcraft-launches-new-website/"
-unconfirmed = "2026-11-14"
+verified_note = "The live company website (page metadata dateModified 2025-06-21) has the footer line 'MC Metalcraft Corporation - 1210 N. Willow St. - Mishawaka, Indiana 46545-6762 - Phone: 1-800-848-4788'. The footer's printed copyright still reads 2000-2016 and the site's certificate has expired, so the site is up but rarely maintained. (source dated 2025-06-21) Source: https://reliablemetalcraft.com/"
+verified = "2026-11-14"
 
 sector = "Metal"
 products = ["Metal Stamping"]

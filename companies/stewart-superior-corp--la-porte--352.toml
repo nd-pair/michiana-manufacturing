@@ -9,6 +9,8 @@ address = "352 North Fail Road, La Porte, IN 46350"
 lat = 41.63191
 lon = -86.68026
 website = "https://stewartsuperior.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. stewartsuperior.com fails on an expired TLS certificate. The naicslist directory (undated; now returns 403) lists 'Stewart Superior C' at 352 Fail Rd, La Porte, under a photofinishing code. Justia shows the company's ink and stamp-pad trademarks with no location, FMCSA SAFER has no match, and no dated source or current occupant of 352 Fail Rd was found. Source: https://naicslist.com/company-profile/stewart-superior-c-laporte-in-46350"
+presumed_closed = "2026-11-14"
 unconfirmed_reason = "The company operates in the region, but the verification check did not confirm a plant at this address (re-read November 14, 2026): An undated directory lists Stewart Superior at 352 Fail Rd, La Porte (about 26 employees); the website fetch failed on an expired certificate, so this is low confidence. Source: https://naicslist.com/company-profile/stewart-superior-c-laporte-in-46350"
 unconfirmed = "2026-11-14"
 

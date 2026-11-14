@@ -8,6 +8,8 @@ state = "IN"
 address = "160 South Oakland Avenue, Nappanee, IN 46550"
 lat = 41.44201
 lon = -85.98178
+presumed_closed_reason = "Verification check: no current trace of this company at this address. A Tin Can Tourists wiki page (undated, built from the old company site) lists Franklin Coach Co. only as 'Nappanee, IN 46550' with no street address. franklincoach.com fails with an SSL handshake error, searches for 160 S Oakland Ave Nappanee return nothing, and the address is not in the state address list. No closure notice was found either. Source: https://tincantourists.com/wiki/franklin/"
+presumed_closed = "2026-11-14"
 unconfirmed_reason = "The company operates in the region, but no current source confirms a plant at this address (verification check, November 2026): A Nappanee Franklin Coach (founded 1945) appears in a history wiki and directory, but no source confirms it is currently at 160 S Oakland Ave."
 unconfirmed = "2026-11-14"
 

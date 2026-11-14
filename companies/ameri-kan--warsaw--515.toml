@@ -9,6 +9,8 @@ address = "515 Anchorage Road, Warsaw, IN 46580"
 lat = 41.26328
 lon = -85.84965
 website = "https://ameri-kan.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Nothing ties Ameri-Kan to 515 Anchorage Road: searches for the address return only Anchorage Point commercial lots and other house numbers, and ameri-kan.com 301-redirects to ruggedsteelcontainers.com, which returns 404. The brand was bought in 2015 by Rugged Steel Works LLC, which directory and trademark records list at 4325 Meyer Rd, Fort Wayne (undated), so a Fort Wayne move is possible but unproven. Source: https://seamless.ai/b/rugged-steel-works-8517651"
+presumed_closed = "2026-11-14"
 unconfirmed_reason = "The company operates in the region, but no current source confirms a plant at this address (verification check, November 2026): Ameri-Kan.com now 301-redirects to ruggedsteelcontainers.com (404); undated MapQuest and OSHA records place the refuse-container maker at 515 Road 200 North, Warsaw, with no confirmation of Anchorage Road or current status."
 unconfirmed = "2026-11-14"
 

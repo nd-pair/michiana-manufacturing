@@ -9,6 +9,8 @@ address = "11280 West US Highway 20, Shipshewana, IN 46565"
 lat = 41.65382
 lon = -85.64322
 website = "https://forksrv.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. forksrv.com fails its certificate check, no source ties Forks RV to 11280 W US 20, and the last NHTSA recalls date from 2007-2008. NHTSA vPIC (last updated 2018-03-19) lists FORKS RV., INC. at 1165 West 025 South, Middlebury, IN 46540, and Superpages shows 11165 W 025 S, Middlebury; both are pre-2023 or undated, so this is not counted as a confirmed move. (source dated 2018-03-19) Source: https://vpic.nhtsa.dot.gov/api/vehicles/GetManufacturerDetails/forks%20rv?format=json"
+presumed_closed = "2026-11-14"
 unconfirmed_reason = "The company operates in the region, but no current source confirms a plant at this address (verification check, November 2026): A 2013 NHTSA filing lists Forks RV, Inc. at 11280 W US 20 and Superpages lists the company in the Topeka area, but forksrv.com failed its certificate check and no current evidence at the address was found."
 unconfirmed = "2026-11-14"
 

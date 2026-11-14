@@ -9,6 +9,9 @@ address = "28731 County Road 6, Elkhart, IN 46514"
 lat = 41.72474
 lon = -86.01870
 website = "https://proairllc.com"
+closed_source = "https://stnonline.com/news/hvac-manufacturer-proair-files-chapter-7-bankruptcy/"
+closed_note = "ProAir, the Elkhart maker of bus air-conditioning systems, filed for Chapter 7 bankruptcy and was liquidating, School Transportation News reported on November 22, 2022."
+closed = "2022"
 unconfirmed_reason = "The company operates in the region, but the verification check did not confirm a plant at this address (re-read November 14, 2026): Multiple trade directories list ProAir LLC (HVAC for specialty vehicles) at 28731 County Road 6, but listings are undated and the company site blocked fetching, so confidence is moderate. Source: https://www.oemoffhighway.com/10914979"
 unconfirmed = "2026-11-14"
 

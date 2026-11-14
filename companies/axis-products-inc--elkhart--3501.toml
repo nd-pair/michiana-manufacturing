@@ -9,6 +9,8 @@ address = "3501 Reedy Drive, Elkhart, IN 46514"
 status_note = "Merged into AL-KO Axis in 2011, whose North American assets Dexter Axle bought in 2014; whether this building is in use is unconfirmed."
 lat = 41.72720
 lon = -85.92219
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Axis Products merged with AL-KO Kober USA into AL-KO Axis, Inc. in September 2011, and Dexter Axle bought AL-KO Axis's North American assets in October 2014. No source after that ties any operation to 3501 Reedy Drive; searches for that number return only 3500, 3502 and 3505 Reedy and Nexus RVs at 3400 Reedy. (source dated 2011-09-29) Source: https://www.trailer-bodybuilders.com/trailers/al-ko-kober-and-axis-products-merge"
+presumed_closed = "2026-11-14"
 unconfirmed_reason = "The company operates in the region, but no current source confirms a plant at this address (verification check, November 2026): Axis Products (trailer axles) operates in Elkhart and is listed at 3403 Reedy Dr, same street, but 3501 Reedy Drive was not confirmed."
 unconfirmed = "2026-11-14"
 

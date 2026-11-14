@@ -1,16 +1,17 @@
 # Glaval Bus
 # Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
 
-name = "Glaval Bus"
+name = "Forest River Bus"
 kind = "company"
-city = "Elkhart"
+city = "Goshen"
 state = "IN"
-address = "55152 County Road 1, Elkhart, IN 46514"
-lat = 41.69392
-lon = -86.04193
-website = "https://forestriverbus.com/glaval"
-unconfirmed_reason = "The company operates in the region, but no current source confirms a plant at this address: glavalbus.com now redirects to Forest River Bus, whose 2026 site gives only 2367 Century Drive, Goshen, IN 46528, and Glaval files no separate OSHA summary (Forest River files company-wide)."
-unconfirmed = "2026-11-14"
+address = "2367 Century Drive, Goshen, IN 46528"
+lat = 41.55913
+lon = -85.78373
+website = "https://forestriverbus.com"
+status_note = "Moved from 55152 County Road 1, Elkhart: Forest River Bus lists its Goshen campus at 2367 Century Drive, where Glaval, Starcraft, StarTrans, Champion and ElDorado buses are built and inspected (forestriverbus.com, 2026); found in a verification check (2026-11-14)."
+verified = "2026-11-14"
+formerly = "Glaval Bus"
 former_website = "https://glavalbus.com"
 
 sector = "Vehicles & RVs"

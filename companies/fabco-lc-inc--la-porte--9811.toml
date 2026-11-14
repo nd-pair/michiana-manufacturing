@@ -8,6 +8,8 @@ state = "IN"
 address = "9811 West State Road 2, La Porte, IN 46350"
 lat = 41.56322
 lon = -86.89377
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Searches for Fabco/LC, Fabco-LC and Fabco LC in La Porte, and for '9811 W State Road 2', found no company site, news or dated record; the only hit is an undated naicslist directory entry (9811 State St, about 11 employees). The state parcel class at the address is 541 (residential), and no 2025 OSHA filer is there. Source: https://naicslist.com/company-profile/fabco-lc-inc-laporte-in-46350"
+presumed_closed = "2026-11-14"
 unconfirmed_reason = "The company operates in the region, but the verification check did not confirm a plant at this address (re-read November 14, 2026): Only an undated NAICS directory lists Fabco-lc Inc. at 9811 State St, La Porte (about 11 employees); low confidence, no company site or dated evidence found. Source: https://naicslist.com/company-profile/fabco-lc-inc-laporte-in-46350"
 unconfirmed = "2026-11-14"
 

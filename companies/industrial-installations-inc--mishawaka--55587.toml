@@ -9,8 +9,8 @@ address = "55587 Currant Road, Mishawaka, IN 46545"
 lat = 41.68754
 lon = -86.12944
 website = "https://industrialinstallations.com"
-unconfirmed_reason = "The company operates in the region, but the verification check did not confirm a plant at this address (re-read November 14, 2026): Weak: live crane/hoist site (574.259.8080, 2024 copyright by ZZIPPY, LLC) shows no street address and MapQuest flags the 55587 Currant Road listing as Closed. Source: https://industrialinstallations.com"
-unconfirmed = "2026-11-14"
+verified_note = "The live company contact page (site footer '© 2024') gives '55587 Currant Road, Mishawaka, IN 46545', phone 574.259.8080, for the overhead crane and hoist builder. Caveats: MapQuest flags the listing as closed, and the state parcel class is residential (510). (source dated 2024) Source: https://industrialinstallations.com/contact"
+verified = "2026-11-14"
 
 sector = "Mechatronics & automation"
 products = ["Overhead Traveling Crane, Hoist, and Monorail System Manufacturing"]

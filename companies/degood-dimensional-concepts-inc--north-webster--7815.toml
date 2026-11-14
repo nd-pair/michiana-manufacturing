@@ -9,6 +9,8 @@ address = "7815 North State Road 13, North Webster, IN 46555"
 lat = 41.34806
 lon = -85.70159
 website = "https://degooddc.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. degooddc.com shows only a 'Hosted by Digital Hill' placeholder with no company content. RegionalDirectory gives 7815 N State Road 13 as the 'most recently known address' and warns the firm 'may have ceased operations or relocated'. No dated source, FMCSA record or current occupant was found. Source: https://www.regionaldirectory.us/in/797773.htm"
+presumed_closed = "2026-11-14"
 unconfirmed_reason = "The company operates in the region, but the verification check did not confirm a plant at this address (re-read November 14, 2026): Directories list the company at 7815 N State Rd 13 with phone and website, but the site fetch showed no company content and one directory warns it may have closed; weak evidence. Source: https://www.regionaldirectory.us/in/797773.htm"
 unconfirmed = "2026-11-14"
 

@@ -9,6 +9,8 @@ address = "50941 State Road 933, South Bend, IN 46637"
 lat = 41.75306
 lon = -86.25126
 website = "https://jmsplastics.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. jmsplastics.com is JMS Plastics Supply of Neptune, NJ (©2026), which is unrelated. The only local JMS business found is JMS Engineered Plastics at 52275 State Road 933 in directory listings, which MapQuest marks as Closed. Nothing ties JMS Mold & Engineering to 50941 SR 933. Source: https://www.mapquest.com/us/indiana/jms-engineered-plastics-inc-6143673"
+presumed_closed = "2026-11-14"
 unconfirmed_reason = "The company operates in the region, but no current source confirms a plant at this address (verification check, November 2026): No listing for 50941 State Road 933 was found; the website jmsplastics.com is an unrelated New Jersey firm, and a JMS mold/plastics business is listed nearby at 52275 SR 933."
 unconfirmed = "2026-11-14"
 

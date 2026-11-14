@@ -8,6 +8,8 @@ state = "IN"
 address = "117 14th Avenue, Middlebury, IN 46540"
 lat = 41.68686
 lon = -85.69824
+presumed_closed_reason = "Verification check: no current trace of this company at this address. The only hit is an undated naicslist.com directory entry (117 14th St, Suite 313, Middlebury; wood window/door manufacturer, about 22 employees), which repeats old data. arborindustries.com returns HTTP 404, and no dated news, permit or company page ties Arbor Industries to 117 14th Ave. Searches found no other occupant at the address. Source: https://naicslist.com/company-profile/arbor-industries-inc-middlebury-in-46540"
+presumed_closed = "2026-11-14"
 unconfirmed_reason = "The company operates in the region, but no current source confirms a plant at this address (verification check, November 2026): Arbor Industries is listed in Middlebury (directory shows 117 14th St, chamber shows PO Box 313) but no dated source confirms this exact address."
 unconfirmed = "2026-11-14"
 

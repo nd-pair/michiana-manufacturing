@@ -9,6 +9,8 @@ address = "8701 East Backwater Road, North Webster, IN 46555"
 lat = 41.31602
 lon = -85.67640
 website = "https://dekko.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Dekko's live locations page lists Fort Wayne HQ (7310 Innovation Blvd), Garrett, Avilla, Ardmore AL, Socorro TX, Juarez and Grand Rapids, with no North Webster site. The 8645-8735 E Backwater Rd complex is now marketed as the multi-tenant Bluestem Business Park, and broker listings call 8645 'formerly Group Dekko's headquarters', available for lease or sale; no Dekko operation at 8701 was found. (source dated 2026) Source: https://dekko.com/locations"
+presumed_closed = "2026-11-14"
 unconfirmed_reason = "The company operates in the region, but the verification check did not confirm a plant at this address (re-read November 14, 2026): Dekko's own brochure lists North Webster as a location and BBB gives 8659 E Backwater Rd there, a nearby number rather than 8701, so exact address match is unconfirmed. Source: https://prod.bbb.org/us/in/yoder/category/wholesale-lighting-fixtures"
 unconfirmed = "2026-11-14"
 

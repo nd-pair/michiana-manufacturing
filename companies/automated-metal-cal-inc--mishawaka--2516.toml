@@ -9,6 +9,8 @@ address = "2516 North Home Street, Mishawaka, IN 46545"
 lat = 41.68413
 lon = -86.14786
 website = "https://automatedmetal.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. automatedmetal.com redirects to a HugeDomains for-sale page. Searches for the company name and for 2516 N Home St found only an undated MapQuest listing, and FMCSA SAFER has no matching carrier. No dated source and no current occupant of the address were found. Source: https://startpage.mapquest.com/us/indiana/automated-metal-cal-538013780"
+presumed_closed = "2026-11-14"
 unconfirmed_reason = "The company operates in the region, but the verification check did not confirm a plant at this address (re-read November 14, 2026): Only an undated MapQuest listing places Automated Metal Cal at 2516 N Home St, while automatedmetal.com is now a HugeDomains for-sale page, so this is weak evidence. Source: https://startpage.mapquest.com/us/indiana/automated-metal-cal-538013780"
 unconfirmed = "2026-11-14"
 

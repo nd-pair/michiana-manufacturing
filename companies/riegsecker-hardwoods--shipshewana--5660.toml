@@ -9,6 +9,8 @@ address = "5660 North State Road 5, Shipshewana, IN 46565"
 lat = 41.72525
 lon = -85.58243
 website = "https://riegsecker.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. The only listing for 'Riegsecker Hardwoods, Inc.' is an undated naicslist.com directory entry, which places it in LaGrange, IN 46761 as a lumber wholesaler. riegsecker.com is the Blue Gate/Riegsecker Marketplace hospitality site, and Riegsecker Cabinet Co. is at 255 Main St, Shipshewana. No source ties any of these to 5660 N State Road 5. Source: https://naicslist.com/company-profile/riegsecker-hardwoods-inc-lagrange-in-46761"
+presumed_closed = "2026-11-14"
 unconfirmed_reason = "The company operates in the region, but no current source confirms a plant at this address (verification check, November 2026): riegsecker.com is the Blue Gate Hospitality/Shipshewana Furniture site and Riegsecker Cabinet Co. operates at 255 Main St, Shipshewana, but nothing ties a Riegsecker Hardwoods operation to 5660 N State Road 5."
 unconfirmed = "2026-11-14"
 

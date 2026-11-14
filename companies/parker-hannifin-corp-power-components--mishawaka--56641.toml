@@ -9,6 +9,9 @@ address = "56641 Twin Branch Drive, Mishawaka, IN 46545"
 lat = 41.67146
 lon = -86.13141
 website = "https://parker.com"
+closed_source = "https://www.abc57.com/news/parker-hannifin-announces-mishawaka-facility-will-close"
+closed_note = "The Mishawaka plant at 56641 Twin Branch Drive (Electronic Controls Division) closed by June 30, 2018, its work moved to Morton, Illinois, as WBND ABC57 and WNDU reported on September 28, 2017."
+closed = "2018"
 unconfirmed_reason = "The company operates in the region, but the verification check did not confirm a plant at this address (re-read November 14, 2026): Weak: a member directory lists a Parker Hannifin site on Twin Branch Drive, Mishawaka (ZIP 46545-7479); the facility's function and date were not confirmed. Source: https://www.electronics.org/member-directory?page=353"
 unconfirmed = "2026-11-14"
 

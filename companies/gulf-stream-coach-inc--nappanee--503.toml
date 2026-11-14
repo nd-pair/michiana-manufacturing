@@ -9,9 +9,9 @@ address = "503 South Oakland Avenue, Nappanee, IN 46550"
 lat = 41.43804
 lon = -85.98177
 website = "https://www.gulfstreamcoach.com"
+verified_note = "The live gulfstreamcoach.com job page footer reads '503 South Oakland Ave', Nappanee, Indiana 46550. EPA ECHO lists the 503 S Oakland Ave air permit as 'Operating', the NPDES stormwater permit as 'Effective', and TRI 'Last Reported for 2024'; a job posting dated 2025-12-05 recruits for 'our Nappanee Plants'. (source dated 2025-12-05) Source: https://www.gulfstreamcoach.com/job-details/68"
+verified = "2026-11-14"
 former_website = "https://gulfstreamrv.com"
-unconfirmed_reason = "The company operates in the region, but no current source confirms a plant at this address (verification check, November 2026): gulfstreamrv.com refuses connections; Gulf Stream Coach exists in Nappanee but no dated source (2023 or later) confirmed 503 S Oakland Ave."
-unconfirmed = "2026-11-14"
 
 sector = "Vehicles & RVs"
 products = ["Motor Home Manufacturing"]

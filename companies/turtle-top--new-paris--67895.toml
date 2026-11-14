@@ -9,8 +9,8 @@ address = "67895 State Road 15, New Paris, IN 46553"
 lat = 41.50938
 lon = -85.83803
 website = "https://turtletop.com"
-unconfirmed_reason = "The company operates in the region, but the verification check did not confirm a plant at this address (re-read November 14, 2026): Turtle Top's 2025 site lists its New Paris campus at 67819 State Road 15; the adjacent 67895 number was not separately confirmed, so low confidence. Source: https://turtletop.com"
-unconfirmed = "2026-11-14"
+removed_reason = "Duplicate of turtle-top--new-paris--67819.toml: Turtle Top's 2025 website and its July 2024 NHTSA recall filing (24V-356) give 67819 State Road 15, New Paris; no source gives 67895."
+removed = "2026-11-14"
 
 sector = "Vehicles & RVs"
 products = ["Motor Home Manufacturing"]
