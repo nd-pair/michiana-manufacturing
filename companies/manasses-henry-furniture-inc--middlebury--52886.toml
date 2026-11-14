@@ -5,10 +5,12 @@ name = "Manasses Henry Furniture, Inc."
 kind = "company"
 city = "Middlebury"
 state = "IN"
-address = "52886 State Road 13, Middlebury, IN 46540"
-lat = 41.72689
-lon = -85.68336
+address = "240 US-20, Middlebury, IN 46540"
 website = "https://manasseshenryfurniturecompany.com"
+lon = -85.72601
+lat = 41.66784
+verified = "2026-11-13"
+status_note = "Moved from 52886 State Road 13, Middlebury, IN 46540; found in a verification check (2026-11-13): Superpages and Birdeye list Manasses Henry Furniture Co at 240 US Hwy 20 (phone 574-825-1185) with a 6,000+ sq ft showroom, while 52886 State Road 13 is now shown as The Barn Door antiques boutique."
 
 sector = "Wood, paper & furniture"
 products = ["Nonupholstered Wood Household Furniture Manufacturing"]

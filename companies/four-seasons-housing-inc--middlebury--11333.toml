@@ -9,6 +9,8 @@ address = "11333 County Road 2, Middlebury, IN 46540"
 lat = 41.75517
 lon = -85.68698
 website = "https://fourseasonshousing.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Only a LoopNet county-data record shows a 580,975 sq ft light-industrial parcel at the address; the company website returned no content and no listing or news of Four Seasons Housing operating there was found. Source: https://www.loopnet.com/property/11333-county-road-2-middlebury-in-46540/18039-200411400020000032"
+presumed_closed = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Manufactured Home (mobile Home) Manufacturing"]

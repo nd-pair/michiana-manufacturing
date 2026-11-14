@@ -9,6 +9,8 @@ address = "51773 County Road 39, Middlebury, IN 46540"
 lat = 41.74231
 lon = -85.69904
 website = "https://southbaypontoon.com"
+verified_note = "southbaypontoon.com is live as a Forest River Marine brand with a 2026 lineup, but no source confirmed the 51773 County Road 39 address itself. Source: https://southbaypontoon.com"
+verified = "2026-11-13"
 status_note = "A Forest River Marine pontoon brand."
 
 sector = "Vehicles & RVs"

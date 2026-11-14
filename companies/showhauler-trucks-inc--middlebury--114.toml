@@ -9,6 +9,8 @@ address = "114 Industrial Parkway East, Middlebury, IN 46540"
 lat = 41.64551
 lon = -85.70397
 website = "https://showhauler.com"
+verified_note = "ShowHauler Trucks site is live (2026 model references) and a directory lists 114 Industrial Pkwy East, though the company's own site gives 116 Industrial Pkwy East. Source: https://showhauler.com"
+verified = "2026-11-13"
 
 sector = "Vehicles & RVs"
 products = ["Motor Home Manufacturing"]

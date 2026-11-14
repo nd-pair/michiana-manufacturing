@@ -9,6 +9,8 @@ address = "230 Wabash Street, Millersburg, IN 46543"
 lat = 41.52596
 lon = -85.69033
 website = "https://carriageinc.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Searches found nothing for Carriage Inc at 230 Wabash St and carriageinc.com could not be read (expired certificate)."
+presumed_closed = "2026-11-13"
 
 sector = "Vehicles & RVs"
 products = ["Travel Trailer and Camper Manufacturing"]

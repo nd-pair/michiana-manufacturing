@@ -9,6 +9,8 @@ address = "410 North Main Street, Middlebury, IN 46540"
 lat = 41.68329
 lon = -85.70166
 website = "https://icfnet.com"
+presumed_closed_reason = "Verification check: renamed or acquired, but the new name is not tied to this address (Leggett & Platt Work Furniture). icfnet.com 301-redirects to lp-icf.com and then to lpworkfurniture.com (Leggett & Platt Work Furniture), which ties the brand to L&P, but no page confirmed that 410 N Main St is still occupied by it. Source: https://lpworkfurniture.com/"
+presumed_closed = "2026-11-13"
 uei = "RN3CXWB7JJL3"
 
 sector = "Wood, paper & furniture"

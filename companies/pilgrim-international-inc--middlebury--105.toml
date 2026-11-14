@@ -9,6 +9,8 @@ address = "105 14th Avenue, Middlebury, IN 46540"
 lat = 41.68686
 lon = -85.69865
 website = "https://pilgriminternational.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. pilgriminternational.com now redirects to a HugeDomains for-sale page and searches found no company listing at 105 14th Ave. Source: https://www.hugedomains.com/domain_profile.cfm?d=pilgriminternational.com"
+presumed_closed = "2026-11-13"
 
 sector = "Vehicles & RVs"
 products = ["Travel Trailer and Camper Manufacturing"]

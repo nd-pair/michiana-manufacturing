@@ -9,6 +9,8 @@ address = "601 North Old State Road 15, Milford, IN 46542"
 lat = 41.41618
 lon = -85.84221
 website = "https://sellers-mfginc.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Searches found no listing for Sellers Mfg at 601 N Old SR 15 and sellers-mfginc.com returned HTTP 403, which is not evidence of operation."
+presumed_closed = "2026-11-13"
 
 sector = "Metal"
 products = ["Secondary Smelting and Alloying of Aluminum"]

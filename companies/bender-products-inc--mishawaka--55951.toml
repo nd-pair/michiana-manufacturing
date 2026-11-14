@@ -9,6 +9,8 @@ address = "55951 Russell Industrial Parkway, Mishawaka, IN 46545"
 lat = 41.68179
 lon = -86.12321
 website = "https://benderprod.com"
+verified_note = "LeadIQ, NAICS List and BBB directories list Bender Products at 55951 Russell Industrial Pkwy as a 40,000 sq ft mold and injection-molding plant, though these listings are undated. Source: https://naicslist.com/company-profile/bender-products-inc-mishawaka-in-46545"
+verified = "2026-11-13"
 
 sector = "Mechatronics & automation"
 products = ["Industrial Mold Manufacturing"]

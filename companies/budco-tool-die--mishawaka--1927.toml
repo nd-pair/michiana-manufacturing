@@ -3,11 +3,13 @@
 
 name = "Budco Tool & Die"
 kind = "company"
-city = "Mishawaka"
+city = "Elkhart"
 state = "IN"
-address = "1927 North Cedar Street, Mishawaka, IN 46545"
-lat = 41.67783
-lon = -86.16886
+address = "56935 Elk Ct, Elkhart, IN 46516"
+lat = 41.66777
+lon = -86.03489
+verified = "2026-11-13"
+status_note = "Moved from 1927 North Cedar Street, Mishawaka, IN 46545; found in a verification check (2026-11-13): Directories list Budco Tool & Die at 56935 Elk Ct, Elkhart, and no listing for it at 1927 N Cedar St in Mishawaka was found."
 
 sector = "Mechatronics & automation"
 products = ["Special Die and Tool, Die Set, Jig, and Fixture Manufacturing"]

@@ -8,6 +8,8 @@ state = "IN"
 address = "325 North Main Street, Middlebury, IN 46540"
 lat = 41.67883
 lon = -85.70596
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Name and address searches returned no listing for Middlebury Enterprises or any machine shop at 325 N Main St."
+presumed_closed = "2026-11-13"
 
 sector = "Metal"
 products = ["Machine Shops"]

@@ -5,10 +5,12 @@ name = "Bison Mfg., Inc."
 kind = "company"
 city = "Milford"
 state = "IN"
-address = "804 South Higbee Street, Milford, IN 46542"
-lat = 41.40119
-lon = -85.85473
+address = "1002 N. Old State Road 15, Milford, IN 46542"
+lat = 41.41766
+lon = -85.84187
 website = "https://bisontrailer.com"
+verified = "2026-11-13"
+status_note = "Moved from 804 South Higbee Street, Milford, IN 46542; found in a verification check (2026-11-13): Bison Trailers' live 2026 site lists only 1002 N Old St Rd 15, Milford, while 804 S Higbee appears as its address in a 2017 NHTSA recall report."
 
 sector = "Vehicles & RVs"
 products = ["Truck Trailer Manufacturing"]

@@ -9,6 +9,8 @@ address = "101 Industrial Parkway East, Middlebury, IN 46540"
 lat = 41.64492
 lon = -85.70496
 website = "https://ziggity.com"
+verified_note = "ziggity.com serves a page naming 101 Industrial Parkway East (copyright 2020) and CPIF and WATT directories list the same address, but no dated 2023+ evidence was found. Source: https://ziggity.com"
+verified = "2026-11-13"
 
 sector = "Mechatronics & automation"
 products = ["Farm Machinery and Equipment Manufacturing"]

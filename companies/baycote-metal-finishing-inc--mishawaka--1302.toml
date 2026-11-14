@@ -9,6 +9,8 @@ address = "1302 Industrial Drive, Mishawaka, IN 46544"
 lat = 41.65009
 lon = -86.16450
 website = "https://baycote.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. baycote.com no longer resolves (last Wayback capture January 2016) and the only address evidence is an IDEM air permit for 1302 Industrial Dr that expired in 2008. Source: https://permits.air.idem.in.gov/16170f.pdf"
+presumed_closed = "2026-11-13"
 
 sector = "Metal"
 products = ["Electroplating, Plating, Polishing, Anodizing and Coloring"]

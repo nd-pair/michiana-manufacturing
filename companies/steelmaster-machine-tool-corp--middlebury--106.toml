@@ -8,6 +8,8 @@ state = "IN"
 address = "106 Industrial Parkway East, Middlebury, IN 46540"
 lat = 41.64550
 lon = -85.70454
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Name and address searches returned nothing for Steelmaster Machine & Tool in Middlebury, IN."
+presumed_closed = "2026-11-13"
 
 sector = "Metal"
 products = ["Metal Stamping"]

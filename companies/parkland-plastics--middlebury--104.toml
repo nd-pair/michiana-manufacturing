@@ -9,6 +9,8 @@ address = "104 Yoder Drive, Middlebury, IN 46540"
 lat = 41.69067
 lon = -85.69706
 website = "https://parklandplastics.com"
+verified_note = "Live company site plus Sweets, Arcat and Birdeye listings give 104 Yoder Dr, Middlebury with phone 574-825-4336 as a polymer wall-panel maker. Source: https://parklandplastics.com"
+verified = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["Laminated Plastics Plate, Sheet (except Packaging), and Shape Manufacturing"]

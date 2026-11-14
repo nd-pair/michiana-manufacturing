@@ -9,6 +9,8 @@ address = "11451 Harter Drive, Middlebury, IN 46540"
 lat = 41.74442
 lon = -85.68932
 website = "https://harter.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. harter.com redirects to a GoDaddy for-sale page, and the address shows only an M1 industrial property listed for sale on LoopNet in 2018 (no longer advertised) plus an undated Cortera branch entry. Source: https://loopnet.com/Listing/11451-Harter-Dr-Middlebury-IN/12651173"
+presumed_closed = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Wood Office Furniture Manufacturing"]
