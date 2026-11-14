@@ -9,8 +9,8 @@ address = "3999 Hupp Road, Kingsbury, IN 46345"
 lat = 41.51911
 lon = -86.63905
 website = "https://masterrollmfgs.com"
-verified_note = "Directory listings place Master Roll Manufacturing (Mayfield-Glenn Group) at 3999 Hupp Rd, La Porte; undated, and masterrollmfgs.com failed with an SSL error. Source: https://www.scrapmonster.com/company/master-induction-heat-treat-llc/79594"
-verified = "2026-11-13"
+presumed_closed_reason = "Master Roll Manufacturing's only 2025 OSHA filing is at 31140 Edison Road, New Carlisle (21 employees), already on the map (companies/master-roll-manufacturing--new-carlisle--31140.toml), and 3999 Hupp Road is the filing address of Dwyer Instruments (87 employees). The Hupp Road listing rests on an undated directory entry, and masterrollmfgs.com does not complete a secure connection; taken as a former site."
+presumed_closed = "2026-11-14"
 
 sector = "Mechatronics & automation"
 products = ["Mechanical Power Transmission Equipment Manufacturing"]
