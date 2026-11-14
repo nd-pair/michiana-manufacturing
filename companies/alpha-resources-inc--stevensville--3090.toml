@@ -9,6 +9,8 @@ address = "3090 Johnson Road, Stevensville, MI 49127"
 lat = 42.00693
 lon = -86.52425
 website = "https://alpharesources.com"
+verified_note = "Live company site (Alpha Resources LLC) and directory listings place the manufacturer at 3090 Johnson Road, Stevensville; pages carry no explicit date. Source: https://alpharesources.com"
+verified = "2026-11-13"
 uei = "S85KFE2N6P67"
 
 sector = "Metal"

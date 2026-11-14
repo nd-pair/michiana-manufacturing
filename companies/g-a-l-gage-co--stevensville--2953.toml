@@ -9,6 +9,8 @@ address = "2953 Hinchman Road, Stevensville, MI 49127"
 lat = 41.97218
 lon = -86.52498
 website = "https://galgage.com"
+verified_note = "Company site and GlobalSpec list G.A.L. Gage at 2953 Hinchman Road (site shows Bridgman mailing city); pages are undated. Source: https://galgage.com"
+verified = "2026-11-13"
 uei = "EY1TALXN4DN1"
 
 sector = "Electronics"

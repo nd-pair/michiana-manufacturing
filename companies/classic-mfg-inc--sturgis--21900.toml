@@ -10,6 +10,8 @@ address = "21900 US Highway 12, Sturgis, MI 49091"
 lat = 41.79339
 lon = -85.52815
 website = "https://neotrailers.com"
+verified_note = "NEO Manufacturing (NEO Trailers) site is live with a 2026 copyright and NHTSA and NAICS directories list it at 21900 US Hwy 12, Sturgis. Source: https://neotrailers.com"
+verified = "2026-11-13"
 status_note = "Classic Mfg. closed in November 2009; its former owners reopened the buildings as NEO trailers on February 1, 2010."
 
 sector = "Wood, paper & furniture"

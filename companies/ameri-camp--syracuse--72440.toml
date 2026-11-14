@@ -9,6 +9,9 @@ address = "72440 State Road 13, Syracuse, IN 46567"
 lat = 41.44415
 lon = -85.74978
 website = "https://ameri-camp.com"
+closed_source = "https://timesuniononline.com/news/2016/jul/28/syracuse-business-closes"
+closed_note = "Times-Union reported in July 2016 that Ameri-Camp (72440 Ind. 13) shut down (NADA says 2009), and ameri-camp.com is now a spam/gambling blog."
+closed = "2016"
 
 sector = "Vehicles & RVs"
 products = ["Travel Trailer and Camper Manufacturing"]

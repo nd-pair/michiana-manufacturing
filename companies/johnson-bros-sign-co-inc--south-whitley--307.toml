@@ -9,6 +9,8 @@ address = "307 South State Street, South Whitley, IN 46787"
 lat = 41.08261
 lon = -85.62785
 website = "https://johnsonbros-sign.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Only 1950s-60s archival photos tie Johnson Brothers Sign to 307 S State Street; no current listing and the domain is gone. Source: https://digital.library.in.gov/Record/PPO_IndianaAlbum-4BA2D457-D141-44AF-BB41-548986664683"
+presumed_closed = "2026-11-13"
 
 sector = "Medical devices & other"
 products = ["Sign Manufacturing"]

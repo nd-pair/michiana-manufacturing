@@ -9,6 +9,8 @@ address = "7059 Red Arrow Highway, Stevensville, MI 49127"
 lat = 41.99027
 lon = -86.53647
 website = "https://ctd1.com"
+presumed_closed_reason = "Verification check: renamed or acquired, but the new name is not tied to this address (Griffin Tool, Inc.). ctd1.com redirects to griffintool.com (2026), which says Griffin recently acquired Custom Tool and Die; Griffin is at 2951 Johnson Rd and it is unconfirmed whether production still occurs at 7059 Red Arrow Hwy. Source: http://www.griffintool.com/"
+presumed_closed = "2026-11-13"
 
 sector = "Mechatronics & automation"
 products = ["Special Die and Tool, Die Set, Jig, and Fixture Manufacturing"]

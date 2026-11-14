@@ -8,6 +8,8 @@ state = "MI"
 address = "4410 North Roosevelt Road, Stevensville, MI 49127"
 lat = 42.03737
 lon = -86.50976
+presumed_closed_reason = "Verification check: no current trace of this company at this address. No listing or news found for Lakeshore Marble at 4410 N Roosevelt Road, with only a name-only BBB category mention."
+presumed_closed = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["Cut Stone and Stone Product Manufacturing"]

@@ -9,6 +9,8 @@ address = "927 West Brooklyn Street, Syracuse, IN 46567"
 lat = 41.42434
 lon = -85.76123
 website = "https://imagegroupinc.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. No listing for an Image Group at 927 W Brooklyn St, Syracuse; other Image Group companies found are elsewhere."
+presumed_closed = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Other Commercial Printing"]

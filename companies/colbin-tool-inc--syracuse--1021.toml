@@ -8,6 +8,8 @@ state = "IN"
 address = "1021 North Indiana Avenue, Syracuse, IN 46567"
 lat = 41.43145
 lon = -85.75388
+verified_note = "BBB directory pages list Colbin Tool Co at 1021 N Indiana Ave, Syracuse with a phone number, but listings are undated and nothing else was found. Source: https://www.bbb.org/us/in/syracuse/category/tools"
+verified = "2026-11-13"
 
 sector = "Metal"
 products = ["Metal Stamping"]

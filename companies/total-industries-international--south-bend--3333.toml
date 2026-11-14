@@ -9,6 +9,8 @@ address = "3333 Lathrop Street, South Bend, IN 46628"
 lat = 41.70850
 lon = -86.29632
 website = "https://totalindustries.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. No listing for the company at 3333 Lathrop Street; totalindustries.com is an unrelated CNC shop in Imperial, CA."
+presumed_closed = "2026-11-13"
 
 sector = "Mechatronics & automation"
 products = ["Industrial Mold Manufacturing"]

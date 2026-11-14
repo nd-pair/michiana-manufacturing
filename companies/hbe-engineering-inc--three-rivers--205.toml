@@ -9,6 +9,8 @@ address = "205 Portage Avenue, Three Rivers, MI 49093"
 lat = 41.94747
 lon = -85.63264
 website = "https://hbe-engineering.com"
+presumed_closed_reason = "Verification check: the company operates elsewhere, not at this address. HBE Engineering's live 2026 site lists 220 Day Dr, Three Rivers, not 205 Portage Avenue (an older directory showed 1100 W Broadway St). Source: https://hbe-engineering.com"
+presumed_closed = "2026-11-13"
 
 sector = "Metal"
 products = ["Industrial Valve Manufacturing"]

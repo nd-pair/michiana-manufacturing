@@ -9,6 +9,8 @@ address = "1111 River Street, Three Rivers, MI 49093"
 lat = 41.93985
 lon = -85.62147
 website = "https://gar-v.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. No listing for Gar-V Mfg at 1111 River Street, Three Rivers, and its website returns 404."
+presumed_closed = "2026-11-13"
 
 sector = "Metal"
 products = ["Metal Stamping"]

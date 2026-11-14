@@ -9,6 +9,8 @@ address = "5650 West 800 South, South Whitley, IN 46787"
 lat = 41.04675
 lon = -85.59864
 website = "https://stevereiffinc.com"
+verified_note = "Site with 2026 copyright lists 5650 W 800 S, South Whitley; business is industrial painting and sandblasting rather than plating. Source: https://stevereiffinc.com"
+verified = "2026-11-13"
 
 sector = "Metal"
 products = ["Electroplating, Plating, Polishing, Anodizing and Coloring"]

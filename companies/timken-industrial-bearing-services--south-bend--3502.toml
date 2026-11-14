@@ -9,6 +9,8 @@ address = "3502 West Sample Street, South Bend, IN 46619"
 lat = 41.66439
 lon = -86.29750
 website = "https://timken.com"
+removed_reason = "not a production site (service or retail), found in a verification check: Timken contact listings give Industrial Bearing Services at 3502 West Sample Street, South Bend; listing is undated and the site is a bearing service/repair center."
+removed = "2026-11-13"
 
 sector = "Metal"
 products = ["Ball and Roller Bearing Manufacturing"]

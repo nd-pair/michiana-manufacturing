@@ -9,6 +9,8 @@ address = "6110 South State Road 5, South Whitley, IN 46787"
 lat = 41.07357
 lon = -85.62062
 website = "https://foxproducts.com"
+verified_note = "A February 2026 Indiana public media feature describes Fox Products as an active bassoon maker in South Whitley, and its site lists 6110 S State Road 5. Source: https://www.ipm.org/show/journeyindiana/2026-02-16/instrumental-in-indiana-the-story-of-fox-products"
+verified = "2026-11-13"
 
 sector = "Medical devices & other"
 products = ["Musical Instrument Manufacturing"]

@@ -9,6 +9,8 @@ address = "1820 South Bend Avenue, South Bend, IN 46637"
 lat = 41.69713
 lon = -86.22068
 website = "https://wisscoirrigationinc.com"
+removed_reason = "not a production site (service or retail), found in a verification check: Multiple directory and review listings (Angi, MapQuest, Birdeye) place the irrigation contractor at 1820 S Bend Ave with recent review activity; it is an irrigation business, not screen printing, and its own domain is dead."
+removed = "2026-11-13"
 status_note = "An irrigation contractor at this address; HIFLD lists it as a screen printer."
 
 sector = "Wood, paper & furniture"

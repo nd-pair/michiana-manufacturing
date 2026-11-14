@@ -9,6 +9,8 @@ address = "816 Maple Street, Three Rivers, MI 49093"
 lat = 41.95507
 lon = -85.63785
 website = "https://armstronginternational.com"
+verified_note = "Armstrong's 2026 site references its Three Rivers campus and an EPA TRI record lists an active facility at 816 Maple Street. Source: https://armstronginternational.com"
+verified = "2026-11-13"
 
 sector = "Metal"
 products = ["All Other Miscellaneous Fabricated Metal Product Manufacturing"]

@@ -9,6 +9,8 @@ address = "1510 North Main Street, Three Rivers, MI 49093"
 lat = 41.96278
 lon = -85.63523
 website = "https://camoplast.com"
+presumed_closed_reason = "Verification check: the company operates elsewhere, not at this address. The Camoplast-linked Exo-s polymer operation in Three Rivers was reported relocating to Howe, Indiana in 2013, and 1510 N Main now lists Chemoplast (crockerltd.com); exact tie to this address is inferred. Source: https://www.tradeandindustrydev.com/industry/automotive/news/auto-supplier-exo-s-us-relocating-lagrange-county-8413"
+presumed_closed = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["All Other Plastics Product Manufacturing"]

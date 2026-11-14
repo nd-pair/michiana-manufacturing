@@ -9,6 +9,8 @@ address = "55515 Franklin Drive, Three Rivers, MI 49093"
 lat = 41.99144
 lon = -85.62772
 website = "https://americanmetalfab.com"
+verified_note = "Live company site lists 55515 Franklin Drive, Three Rivers with current capabilities (fiber laser, ISO 9001:2015); page is undated. Source: https://americanmetalfab.com"
+verified = "2026-11-13"
 
 sector = "Metal"
 products = ["Sheet Metal Work Manufacturing"]
