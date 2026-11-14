@@ -14,7 +14,8 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 def street_only(address):
     """Drop suite, unit, apartment and door numbers, which OpenStreetMap does not know."""
-    a = re.sub(r"(?i)(,?\s*(ste\.?|suite|unit|apt\.?|room|rm\.?|service door|bldg\.?|building)\s*[#\w-]+)|(\s*#\s*\w+)", "", address)
+    # whole words only: without \b, "rm" inside "Herman" and "ste" inside "Western" were cut ("930 He Street")
+    a = re.sub(r"(?i),?\s*\b(?:ste|suite|unit|apt|room|rm|service door|bldg|building)\b\.?\s*[#\w-]+|\s*#\s*\w+", "", address)
     return re.sub(r"\s*,\s*,", ",", a).strip(" ,")
 
 def geocode(address):
@@ -30,12 +31,15 @@ def geocode(address):
 def census(address):
     """Fallback: the U.S. Census Bureau's geocoder, which interpolates along streets OpenStreetMap lacks numbers for."""
     q = urllib.parse.urlencode({"address": address, "benchmark": "Public_AR_Current", "format": "json"})
-    try:
-        r = json.load(urllib.request.urlopen("https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?" + q, timeout=30))
-    except Exception:
-        return None
-    m = r.get("result", {}).get("addressMatches") or []
-    return (float(m[0]["coordinates"]["y"]), float(m[0]["coordinates"]["x"])) if m else None
+    for attempt in range(3):   # the service times out now and then: an error is retried, only "no match" is final
+        try:
+            r = json.load(urllib.request.urlopen("https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?" + q, timeout=30))
+        except Exception:
+            time.sleep(3)
+            continue
+        m = r.get("result", {}).get("addressMatches") or []
+        return (float(m[0]["coordinates"]["y"]), float(m[0]["coordinates"]["x"])) if m else None
+    return None
 
 def main(paths):
     if not paths:

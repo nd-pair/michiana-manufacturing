@@ -5,10 +5,13 @@ name = "Vahala Foam, Inc."
 kind = "company"
 city = "Elkhart"
 state = "IN"
-address = "612 Kollar Street, Elkhart, IN 46514"
-lat = 41.68933
-lon = -86.02094
+address = "930 Herman Street, Elkhart, IN 46516"
+lat = 41.68076
+lon = -85.90062
 website = "https://vahalafoam.com"
+verified_note = "The company's own website (vahalafoam.com) lists Elkhart Plant 1 at 930 Herman St., Elkhart, IN 46516, and Vahala filed OSHA's 2025 Form 300A there (148 employees)."
+verified = "2026-11-14"
+status_note = "Vahala's website lists its Elkhart Plant 1 at 930 Herman St., and its 2025 OSHA filing gives '930 Herman St, 160 CR 15'; previously 612 Kollar Street, Elkhart, IN 46514 (HIFLD)."
 osha_id = "1080468"
 
 sector = "Vehicles & RVs"
