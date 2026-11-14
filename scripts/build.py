@@ -374,6 +374,19 @@ def main():
     osha = sidecar("osha.json")
     osha_ids = {o["id"] for o in companies if o["source"].startswith("OSHA")}
     qyears = sorted({y for d in qcew.get("counties", {}).values() for y in d.get("years", {})})
+    # freshness: how many imported HIFLD records were taken off the map, and what the shown plants rest on
+    raw = [load_toml(P("companies", n)) for n in sorted(os.listdir(P("companies"))) if n.endswith(".toml")]
+    hidden = lambda c: any(c.get(k) for k in ("closed", "presumed_closed", "removed"))
+    hifld_all = [c for c in raw if (c.get("source") or "").startswith("HIFLD")]
+    hifld_off = [c for c in hifld_all if hidden(c)]
+    shown = [c for c in raw if not hidden(c) and is_manufacturer(c)]
+    n_osha = sum(1 for c in shown if c.get("osha_id"))
+    n_web = sum(1 for c in shown if not c.get("osha_id") and not c.get("unconfirmed") and c.get("verified"))
+    n_unc = sum(1 for c in shown if not c.get("osha_id") and c.get("unconfirmed"))
+    pct = lambda a, b: "%d%%" % round(100 * a / b) if b else "–"
+    fresh = {"{{HIFLDALL}}": "{:,}".format(len(hifld_all)), "{{HIFLDOFF}}": "{:,}".format(len(hifld_off)), "{{HIFLDOFFPCT}}": pct(len(hifld_off), len(hifld_all)),
+             "{{FRESHPCT}}": pct(n_osha + n_web, len(shown)), "{{OSHAPCT}}": pct(n_osha, len(shown)), "{{WEBPCT}}": pct(n_web, len(shown)),
+             "{{UNCONFPCT}}": pct(n_unc, len(shown)), "{{OTHERPCT}}": pct(len(shown) - n_osha - n_web - n_unc, len(shown)), "{{SHOWN}}": "{:,}".format(len(shown))}
     fill = {"{{SITES}}": "{:,}".format(n_mfg_sites), "{{OTHERS}}": "{:,}".format(len(companies) - n_mfg_sites), "{{COMPANIES}}": "{:,}".format(n_groups), "{{HIFLD}}": "{:,}".format(src_counts["hifld"]),
             "{{SBIRFIRMS}}": str(src_counts["sbir"]), "{{OSHA}}": "{:,}".format(src_counts["osha"]), "{{OSHAYEAR}}": osha.get("latest_year", "–"),
             "{{OSHAMATCHED}}": "{:,}".format(sum(1 for o in companies if o["emp_note"].startswith("OSHA") and o["id"] not in osha_ids)), "{{WARNN}}": str(len(warn.get("notices", []))), "{{HAND}}": str(src_counts["hand"]), "{{BUILT}}": data["built"],
@@ -389,7 +402,7 @@ def main():
             "{{NDRESEARCH}}": ("<p><strong>Notre Dame research</strong> in the same panel lists the federal grants, cooperative agreements and contracts to the University of Notre Dame since FY2016, and its subawards on other institutions' awards, whose title (or description, at least three times) is about robots, autonomy and drones, prosthetics and exoskeletons, haptics, legged or humanoid systems or robotic manufacturing, from USAspending.gov, with investigators for NSF awards from the NSF Award Search. Amounts are obligations so far; industry, foundation and state funding are not included.</p>" if show_ndr else ""),
             "{{HUMCOMP}}": str(len(hspec["component"])),
             "{{REMOVED}}": str(len(removed)), "{{UNCONF}}": str(sum(1 for o in companies if o["unconf"])), "{{PRESUMED}}": str(len(presumed)),
-            "{{NEWSADDED}}": str(src_counts["news"]),
+            "{{NEWSADDED}}": str(src_counts["news"]), **fresh,
             "{{OPENITEMS}}": str(len((sidecar("open_items.json").get("items") or {}))),
             "{{NEWSSOURCES}}": str(len(load_toml(P("data", "news_sources.toml")).get("domains", []))),
             "{{CITYLEVEL}}": str(sum(1 for o in companies if o["prec"] == "city")), "{{CLOSED}}": str(len(closed)), "{{GROUPED}}": str(sum(1 for o in companies if o["parent"])),
