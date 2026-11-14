@@ -6,9 +6,8 @@ kind = "company"
 city = "Nappanee"
 state = "IN"
 address = "751 North Tomohawk Trail, Nappanee, IN 46550"
-lon = -86.0014
-lat = 41.4428
-location_precision = "city"
+lon = -86.02921
+lat = 41.45136
 osha_id = "1116688"
 
 sector = "Vehicles & RVs"

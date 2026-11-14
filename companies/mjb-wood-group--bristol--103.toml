@@ -6,9 +6,8 @@ kind = "company"
 city = "Bristol"
 state = "IN"
 address = "103 Stonemont Court, Bristol, IN 46507"
-location_precision = "city"
-lat = 41.71981
-lon = -85.81277
+lat = 41.7089
+lon = -85.85665
 osha_id = "1441317"
 
 sector = "Wood, paper & furniture"

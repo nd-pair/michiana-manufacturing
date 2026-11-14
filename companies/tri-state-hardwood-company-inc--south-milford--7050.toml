@@ -6,9 +6,8 @@ kind = "company"
 city = "South Milford"
 state = "IN"
 address = "7050 South State Road 3, South Milford, IN 46786"
-location_precision = "city"
-lat = 41.53148
-lon = -85.27240
+lat = 41.53958
+lon = -85.27233
 osha_id = "643958"
 
 sector = "Wood, paper & furniture"

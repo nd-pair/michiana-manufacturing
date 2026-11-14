@@ -6,9 +6,8 @@ kind = "company"
 city = "Topeka"
 state = "IN"
 address = "330 S Rainbow Rd, Topeka, IN 46571"
-location_precision = "city"
-lat = 41.53998
-lon = -85.54731
+lat = 41.53617
+lon = -85.57714
 osha_id = "951011"
 
 sector = "Food & consumer goods"

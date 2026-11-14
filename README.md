@@ -55,6 +55,10 @@ Rules worth knowing when reading its output:
   for metal stamping) are converted through the Census concordances, chained in
   `data/naics_concordance.json` (made once by `scripts/make_naics_concordance.py`, which needs
   `pip3 install xlrd` for the two old-format files); the HIFLD import does the same.
+- Indiana addresses that the Census geocoder and OpenStreetMap do not know (private and new industrial
+  streets such as Brinkley Way, Lakota Lane, Decio Drive) are looked up in Indiana's statewide address
+  points (Indiana Geographic Information Office, IndianaMap; `geocode.indiana_point`): same house
+  number, street name and town or ZIP code, in a region county.
 - A plant no geocoder can place goes to its town: `data/places.toml`, else the median of the plants
   mapped there, else the center of a small ZIP code area (`data/zip_centers.json`, made once by
   `scripts/make_zip_centers.py`). It is marked `location_precision = "city"`.

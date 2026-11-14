@@ -6,9 +6,8 @@ kind = "company"
 city = "Nappanee"
 state = "IN"
 address = "1574 US Highway 6 W, Nappanee, IN 46550"
-lon = -86.0014
-lat = 41.4428
-location_precision = "city"
+lon = -86.08939
+lat = 41.44913
 osha_id = "1315405"
 
 sector = "Wood, paper & furniture"

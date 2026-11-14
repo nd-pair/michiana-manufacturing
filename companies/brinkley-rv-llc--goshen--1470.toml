@@ -6,10 +6,8 @@ kind = "company"
 city = "Goshen"
 state = "IN"
 address = "1470 Brinkley Way W, Goshen, IN 46528"
-location_precision = "city"
-lat = 41.56948
-lon = -85.77886
-status_note = "Brinkley Way is a private street the geocoders do not know: placed at the center of Brinkley's mapped plants on it (1475, 1585 and 1655 Brinkley Way), not at this building."
+lat = 41.57143
+lon = -85.78288
 osha_id = "1517325"
 
 sector = "Vehicles & RVs"

@@ -5,7 +5,7 @@
     python3 scripts/geocode.py companies/acme.toml
 
 Uses OpenStreetMap's Nominatim (one request per second, as its usage policy asks), falling back to the
-U.S. Census Bureau's geocoder, and writes the two lines into the file. Check the result on the map; if a street address is unknown to
+U.S. Census Bureau's geocoder and, in Indiana, the state's address points, and writes the two lines into the file. Check the result on the map; if a street address is unknown to
 OpenStreetMap, look it up elsewhere and type lat/lon in by hand.
 """
 import json, os, re, sys, time, urllib.parse, urllib.request, tomllib
@@ -26,7 +26,58 @@ def geocode(address):
     r = json.load(urllib.request.urlopen(req, timeout=30))
     if r:
         return (float(r[0]["lat"]), float(r[0]["lon"]))
-    return census(address)
+    return census(address) or (indiana_point(address) if re.search(r",\s*IN\b", address) else None)
+
+IN_POINTS = "https://gisdata.in.gov/server/rest/services/Hosted/Address_Points_of_Indiana_Current/FeatureServer/0/query"
+IN_COUNTIES = ("Elkhart", "Fulton", "Kosciusko", "LaGrange", "LaPorte", "Marshall", "Noble", "St. Joseph", "Starke", "Whitley")
+ST_TYPES = {"st": "street", "ave": "avenue", "av": "avenue", "dr": "drive", "rd": "road", "ln": "lane", "ct": "court", "blvd": "boulevard",
+            "pkwy": "parkway", "trl": "trail", "hwy": "highway", "pl": "place", "cir": "circle", "way": "way", "pike": "pike"}
+DIRS = {"n": "north", "s": "south", "e": "east", "w": "west"}
+
+def indiana_point(address):
+    """(lat, lon) from Indiana's statewide address points (Indiana Geographic Information Office, IndianaMap; public,
+    no key), for an Indiana address the Census geocoder and OpenStreetMap do not know. The counties' 911 offices keep
+    these points, so they include private and new industrial streets (Brinkley Way in Goshen, Lakota Lane in Bristol,
+    Decio Drive in Elkhart). A point counts only with the same house number and street name, in a region county, in
+    the address's town or ZIP code; when the address gives a street type or direction that some points share, only
+    those count, and a direction no point shares is no match. Several points at one number (the buildings of one
+    plant) give their center, if they lie within about 500 m of each other."""
+    m = re.match(r"\s*(\d+)\s+(.+?),\s*([^,]+),\s*IN\b\s*(\d{5})?", address, re.I)
+    if not m:
+        return None
+    num, street, town, zip_ = int(m[1]), m[2], re.sub(r"[^a-z]", "", m[3].lower()), m[4]
+    w = [x.strip(".").lower() for x in street.split()]
+    pre = DIRS.get(w[0], w[0]) if w and DIRS.get(w[0], w[0]) in DIRS.values() and len(w) > 1 else None
+    if pre:
+        w = w[1:]
+    post = DIRS.get(w[-1], w[-1]) if len(w) > 1 and DIRS.get(w[-1], w[-1]) in DIRS.values() else None
+    if post:
+        w = w[:-1]
+    sr = re.match(r"(?:state road|sr|us highway|us hwy|us|county road|cr)\s+(\d+)", " ".join(w))
+    name = sr[1] if sr else w[0]
+    typ = ST_TYPES.get(w[-1], w[-1]) if not sr and len(w) > 1 else None
+    where = "add_number=%d AND UPPER(st_name)='%s' AND county IN (%s)" % (
+        num, name.upper().replace("'", "''"), ",".join("'%s County'" % c for c in IN_COUNTIES))
+    q = urllib.parse.urlencode({"where": where, "f": "json", "returnGeometry": "false",
+                                "outFields": "st_predir,st_postyp,st_posdir,inc_muni,post_comm,post_code,latitude,longitude"})
+    try:
+        req = urllib.request.Request(IN_POINTS + "?" + q, headers={"User-Agent": "michiana-manufacturing/1.0 (github.com/nd-pair/michiana-manufacturing)"})
+        pts = [f["attributes"] for f in json.load(urllib.request.urlopen(req, timeout=60)).get("features", [])]
+    except Exception:
+        return None
+    low = lambda v: re.sub(r"[^a-z]", "", (v or "").lower())
+    pts = [p for p in pts if town in (low(p["inc_muni"]), low(p["post_comm"])) or (zip_ and p["post_code"] == zip_)]
+    if typ and any(low(p["st_postyp"]) == typ for p in pts):
+        pts = [p for p in pts if low(p["st_postyp"]) == typ]
+    d = pre or post
+    if d and any(p["st_predir"] or p["st_posdir"] for p in pts):
+        pts = [p for p in pts if d in (low(p["st_predir"]), low(p["st_posdir"]))]
+    if not pts:
+        return None
+    lats, lons = [p["latitude"] for p in pts], [p["longitude"] for p in pts]
+    if max(lats) - min(lats) > 0.0045 or max(lons) - min(lons) > 0.006:
+        return None
+    return (sum(lats) / len(lats), sum(lons) / len(lons))
 
 def census(address):
     """Fallback: the U.S. Census Bureau's geocoder, which interpolates along streets OpenStreetMap lacks numbers for."""

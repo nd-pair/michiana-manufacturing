@@ -6,9 +6,8 @@ kind = "company"
 city = "Elkhart"
 state = "IN"
 address = "2507 Decio Drive, Elkhart, IN 46514"
-lon = -85.9767
-lat = 41.682
-location_precision = "city"
+lon = -85.91389
+lat = 41.71903
 osha_id = "235869"
 
 sector = "Vehicles & RVs"

@@ -183,7 +183,7 @@ def city_center(address):
 def geo(address):
     """(lat, lon, county FIPS): the Census geocoder first, then OpenStreetMap with the county from the
     region's county outlines (the Census geocoder lacks many newer streets), each also on a cleaned
-    form of the address."""
+    form of the address, then Indiana's address points (geocode.indiana_point)."""
     try:
         from geocode import geocode
     except Exception:
@@ -198,7 +198,12 @@ def geo(address):
             p = None
         if p:
             return (p[0], p[1], county_of(p[0], p[1]))
-    return None
+    try:
+        from geocode import indiana_point   # Indiana's address points know private and new industrial streets
+        p = indiana_point(address)
+    except Exception:
+        p = None
+    return (p[0], p[1], county_of(p[0], p[1])) if p else None
 
 def census_geo(address):
     """(lat, lon, county FIPS) from the Census geocoder, or None."""

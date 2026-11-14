@@ -6,9 +6,8 @@ kind = "company"
 city = "Bristol"
 state = "IN"
 address = "1151 Lakota Lane, Bristol, IN 46507"
-location_precision = "city"
-lat = 41.71981
-lon = -85.81277
+lat = 41.73349
+lon = -85.79628
 osha_id = "1309027"
 
 sector = "Vehicles & RVs"

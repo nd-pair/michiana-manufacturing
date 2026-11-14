@@ -6,9 +6,8 @@ kind = "company"
 city = "Elkhart"
 state = "IN"
 address = "30809 Corwin Street, Elkhart, IN 46514"
-lon = -85.9767
-lat = 41.682
-location_precision = "city"
+lon = -86.0582
+lat = 41.69173
 osha_id = "488594"
 
 sector = "Food & consumer goods"

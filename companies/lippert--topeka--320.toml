@@ -6,9 +6,8 @@ kind = "company"
 city = "Topeka"
 state = "IN"
 address = "320 S Fought Ave., Topeka, IN 46571"
-location_precision = "city"
-lat = 41.53998
-lon = -85.54731
+lat = 41.53607
+lon = -85.55988
 osha_id = "918195"
 
 sector = "Wood, paper & furniture"

@@ -6,9 +6,8 @@ kind = "company"
 city = "Bristol"
 state = "IN"
 address = "1220 SOUTH MAPLE, Bristol, IN 46507"
-location_precision = "city"
-lat = 41.71981
-lon = -85.81277
+lat = 41.7062
+lon = -85.81964
 osha_id = "1433240"
 
 sector = "Vehicles & RVs"

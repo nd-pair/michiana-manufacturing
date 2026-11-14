@@ -6,9 +6,8 @@ kind = "company"
 city = "La Porte"
 state = "IN"
 address = "301 Enterprise Drive, La Porte, IN 46350"
-lon = -86.7225
-lat = 41.6106
-location_precision = "city"
+lon = -86.70148
+lat = 41.63048
 osha_id = "1462884"
 
 sector = "Wood, paper & furniture"
