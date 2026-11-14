@@ -5,10 +5,12 @@ name = "Stoutco, Inc."
 kind = "company"
 city = "Bristol"
 state = "IN"
-address = "52470 State Road 15, Bristol, IN 46507"
-lat = 41.73276
-lon = -85.80068
+address = "881 Lakota Lane, Bristol, IN 46507"
 website = "https://ameri-kan.com"
+lon = -85.81299
+lat = 41.71878
+location_precision = "city"
+status_note = "Address from the company's OSHA Form 300A filing for 2025; previously 52470 State Road 15, Bristol, IN 46507. No geocoder knows Lakota Lane, so it is placed at Bristol's center."
 osha_id = "1437499"
 
 sector = "Materials & composites"

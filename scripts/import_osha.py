@@ -238,7 +238,15 @@ def main(args):
     by_id = {c["_id"]: c for c in cs}
     from check_sites import key as site_key
     street_of = lambda a: site_key(a or "")[1]
-    usable = lambda a: bool(re.match(r"\s*\d", a or "")) and not re.search(r"(?i)\bp\.?\s*o\.?\s*box\b", a) and "," not in a.strip().rstrip(",")
+    def filed_street(a, city):
+        """A filed street address without a PO box or a repeated town name: '881 Lakota Lane PO Box 309',
+        '401 North Bendix Drive South Bend,  South Bend', '703 E KERCHER ROAD GOSHEN BUILDING 1'."""
+        s = re.sub(r"\s+", " ", a or "").strip()
+        s = re.sub(r"(?i),?\s*p\.?\s*o\.?\s*box\s*#?\d+\s*,?", " ", s).strip().strip(",").strip()
+        s = re.sub(r"(?i)[\s,]+%s\b.*$" % re.escape(city), "", s) if city else s
+        return s.strip().rstrip(",").strip()
+    # one street address that can replace a file's address: no PO box only, not two addresses
+    usable = lambda a, city="": bool(re.match(r"\s*\d", filed_street(a, city))) and "," not in filed_street(a, city)
     def name_match(r, city, via=False):
         """The file with this filing's name in this city: by the establishment's own name first, then by
         the parent company's. With via=True, also says which ("est" or "company")."""
@@ -297,9 +305,8 @@ def main(args):
                 elif via == "company" and not ({w for w in norm(by_id[cid]["name"]).split() if len(w) > 2}
                                                & {w for w in norm(r["establishment_name"]).split() if len(w) > 2}):
                     cid = None            # matched only by the parent company's name: a differently named plant
-                elif usable(r["street_address"]):
-                    st_ = re.sub(r"\s+", " ", r["street_address"]).strip().rstrip(",")
-                    st_ = re.sub(r"(?i)\s+%s\b.*$" % re.escape(city), "", st_)          # '703 E KERCHER ROAD GOSHEN BUILDING 1'
+                elif usable(r["street_address"], city):
+                    st_ = filed_street(r["street_address"], city)
                     st_ = titlecase(st_) if st_.isupper() else st_
                     moved_to = "%s, %s, %s %s" % (st_, city, r["state"], r["zip_code"][:5])
             elif fs and fs == es and not same_number and cid in claimed and claimed[cid] != here:

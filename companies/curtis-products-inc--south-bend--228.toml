@@ -5,10 +5,11 @@ name = "Curtis Products, Inc."
 kind = "company"
 city = "South Bend"
 state = "IN"
-address = "228 East Bronson Street, South Bend, IN 46601"
-lat = 41.66804
-lon = -86.24802
+address = "401 North Bendix Drive, South Bend, IN 46628"
+lat = 41.68159
+lon = -86.28928
 website = "https://curtisproducts.com"
+status_note = "Address from the company's OSHA Form 300A filing for 2025; previously 228 East Bronson Street, South Bend, IN 46601."
 osha_id = "893493"
 
 sector = "Metal"
