@@ -1,0 +1,35 @@
+level,key,cbp_establishments,map_sites,coverage_pct,cbp_20_plus,map_20_plus,coverage_20_plus_pct
+county,"St. Joseph, IN",313,184,59,139,160,115
+county,"Elkhart, IN",841,406,48,449,339,76
+county,"Marshall, IN",133,55,41,62,51,82
+county,"LaPorte, IN",155,77,50,74,67,91
+county,"Kosciusko, IN",184,86,47,80,72,90
+county,"Starke, IN",19,9,47,12,6,50
+county,"Fulton, IN",38,12,32,17,12,71
+county,"LaGrange, IN",188,38,20,56,31,55
+county,"Noble, IN",116,40,34,57,38,67
+county,"Whitley, IN",73,17,23,32,16,50
+county,"Berrien, MI",275,111,40,105,98,93
+county,"Cass, MI",69,26,38,27,26,96
+county,"Van Buren, MI",91,22,24,35,20,57
+naics3,332,538,192,36,,,
+naics3,336,306,174,57,,,
+naics3,333,225,105,47,,,
+naics3,321,205,52,25,,,
+naics3,337,200,49,24,,,
+naics3,326,191,111,58,,,
+naics3,311,139,47,34,,,
+naics3,339,122,49,40,,,
+naics3,325,93,43,46,,,
+naics3,327,77,42,55,,,
+naics3,323,74,26,35,,,
+naics3,331,62,61,98,,,
+naics3,312,50,3,6,,,
+naics3,334,33,29,88,,,
+naics3,335,30,19,63,,,
+naics3,322,25,28,112,,,
+naics3,314,20,12,60,,,
+naics3,313,4,6,150,,,
+naics3,315,3,0,0,,,
+naics3,316,3,1,33,,,
+naics3,324,3,1,33,,,

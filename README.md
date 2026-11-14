@@ -98,7 +98,9 @@ closing notices matched to a plant whose closing date has passed (`scripts/pull_
 notice filed under a new owner's name is matched by hand in `data/warn_matches.toml`,
 `data/warn.json`; Michigan publishes no table), and plants that filed with OSHA one year but not the
 next. A dead website is a lead, not proof; confirm each
-closure from a dated source before marking it. `scripts/check_consistency.py` checks the files against each other: coordinates outside the region's
+closure from a dated source before marking it. `scripts/check_coverage.py` compares the map with the Census Bureau's County Business Patterns
+(manufacturing establishments by county, size and industry; `audits/coverage-check.csv`).
+`scripts/check_consistency.py` checks the files against each other: coordinates outside the region's
 counties, two files at one address or with one name within 300 m, site headcounts above 5,000,
 sectors that disagree with NAICS, and city-level placements (`audits/consistency-check.csv`).
 `scripts/check_sites.py` (monthly) reads the addresses on each company's own website and compares them
