@@ -3,9 +3,9 @@
 
 name = "Die Cast Press Mfg. Co. Inc."
 kind = "company"
-city = "paw paw"
+city = "Paw Paw"
 state = "MI"
-address = "56480 kasper drive, paw paw, MI 49079"
+address = "56480 kasper drive, Paw Paw, MI 49079"
 lat = 42.21478
 lon = -85.91259
 osha_id = "1310354"

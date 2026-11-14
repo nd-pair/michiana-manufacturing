@@ -3,9 +3,9 @@
 
 name = "Lambright, Inc."
 kind = "company"
-city = "Lagrange"
+city = "LaGrange"
 state = "IN"
-address = "2450 US Highway 20 West, Lagrange, IN 46761"
+address = "2450 US Highway 20 West, LaGrange, IN 46761"
 lat = 41.64072
 lon = -85.47192
 presumed_closed_reason = "Verification check: renamed or acquired, but the new name is not tied to this address (Agri Feeds LLC). A 2024 Indiana list shows Agri Feeds LLC (James Lambright) at 2450 W US 20, LaGrange, and an FMCSA carrier is listed there; the link to Lambright, Inc. is the shared name and address, not a stated rename. Source: https://in.gov/wcb/files/SBA_08162024.pdf"

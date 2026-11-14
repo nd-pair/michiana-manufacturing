@@ -3,9 +3,9 @@
 
 name = "Harloff Manufacturing Company LLC"
 kind = "company"
-city = "Paw Paw, MI"
+city = "Paw Paw"
 state = "MI"
-address = "828 Duotang Rd, Paw Paw, MI, MI 49079"
+address = "828 Duotang Rd, Paw Paw, MI 49079"
 lat = 42.21090
 lon = -85.89659
 osha_id = "1279933"

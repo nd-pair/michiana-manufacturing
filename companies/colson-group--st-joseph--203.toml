@@ -3,9 +3,9 @@
 
 name = "Colson Group"
 kind = "company"
-city = "St. Joseph"
+city = "Saint Joseph"
 state = "MI"
-address = "203 Kerth st., St. Joseph, MI 49085"
+address = "203 Kerth st., Saint Joseph, MI 49085"
 lat = 42.07459
 lon = -86.50135
 osha_id = "1082211"

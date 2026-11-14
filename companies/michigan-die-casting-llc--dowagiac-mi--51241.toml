@@ -3,9 +3,9 @@
 
 name = "Michigan Die Casting, LLC"
 kind = "company"
-city = "Dowagiac, Mi"
+city = "Dowagiac"
 state = "MI"
-address = "51241 M-51 North, Dowagiac, Mi, MI 49047"
+address = "51241 M-51 North, Dowagiac, MI 49047"
 lat = 42.05264
 lon = -86.10769
 osha_id = "1274552"

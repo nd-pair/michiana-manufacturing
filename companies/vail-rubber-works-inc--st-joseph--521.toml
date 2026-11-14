@@ -3,9 +3,9 @@
 
 name = "Vail Rubber Works, Inc."
 kind = "company"
-city = "St. Joseph"
+city = "Saint Joseph"
 state = "MI"
-address = "521 Langley Avenue, St. Joseph, MI 49085"
+address = "521 Langley Avenue, Saint Joseph, MI 49085"
 lat = 42.10367
 lon = -86.47491
 osha_id = "546378"

@@ -3,9 +3,9 @@
 
 name = "Valley Truck PArts (St. Joseph)"
 kind = "company"
-city = "St. Joseph"
+city = "Saint Joseph"
 state = "MI"
-address = "305 Palladium Dr., St. Joseph, MI 49085"
+address = "305 Palladium Dr., Saint Joseph, MI 49085"
 lat = 42.05649
 lon = -86.46060
 osha_id = "1199364"

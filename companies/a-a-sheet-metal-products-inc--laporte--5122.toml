@@ -3,9 +3,9 @@
 
 name = "A & A Sheet Metal Products, Inc"
 kind = "company"
-city = "Laporte"
+city = "La Porte"
 state = "IN"
-address = "5122 N State Rd 39, Laporte, IN 46350"
+address = "5122 N State Rd 39, La Porte, IN 46350"
 lat = 41.68106
 lon = -86.73786
 osha_id = "1110071"

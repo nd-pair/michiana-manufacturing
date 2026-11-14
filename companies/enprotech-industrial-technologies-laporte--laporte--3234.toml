@@ -3,9 +3,9 @@
 
 name = "Enprotech Industrial Technologies - LaPorte"
 kind = "company"
-city = "LaPorte,"
+city = "La Porte"
 state = "IN"
-address = "3234 N. State Road 39, LaPorte,, IN 46350"
+address = "3234 N. State Road 39, La Porte, IN 46350"
 lat = 41.65790
 lon = -86.73873
 osha_id = "1274212"

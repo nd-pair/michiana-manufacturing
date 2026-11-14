@@ -3,9 +3,9 @@
 
 name = "Hoffmann Die Cast"
 kind = "company"
-city = "St. Joseph"
+city = "Saint Joseph"
 state = "MI"
-address = "229 Kerth St., St. Joseph, MI 49085"
+address = "229 Kerth St., Saint Joseph, MI 49085"
 lat = 42.07461
 lon = -86.49784
 osha_id = "616023"

@@ -3,9 +3,9 @@
 
 name = "Robert Bosch LLC"
 kind = "company"
-city = "St. Joseph"
+city = "Saint Joseph"
 state = "MI"
-address = "3737 Red Arrow Hwy, St. Joseph, MI 49085"
+address = "3737 Red Arrow Hwy, Saint Joseph, MI 49085"
 lat = 42.05013
 lon = -86.51411
 osha_id = "798426"

@@ -97,6 +97,17 @@ def clean_name(est, company, city):
         return name
     return titlecase(name) if name.isupper() or name.islower() else name
 
+# one spelling per town, the one most files use: OSHA filers write "LAPORTE", "Lagrange", "St. Joseph",
+# "Paw Paw, MI", "LaPorte,"; name matching and town centers look files up by city
+CITY_SPELLING = {"laporte": "La Porte", "la porte": "La Porte", "lagrange": "LaGrange", "st joseph": "Saint Joseph",
+                 "st. joseph": "Saint Joseph", "saint joseph": "Saint Joseph"}
+
+def canon_city(raw):
+    """A filed city name in the spelling the company files use."""
+    c = re.sub(r"[\s,]*(,\s*(IN|MI|Indiana|Michigan))?[\s,.]*$", "", (raw or "").strip(), flags=re.I).strip()
+    c = titlecase(c) if c.isupper() or c.islower() else c
+    return CITY_SPELLING.get(c.lower().replace("  ", " "), c)
+
 _OUTLINES = []
 
 def county_of(lat, lon):
@@ -207,7 +218,8 @@ def main(args):
     cs = [c for c in companies()]
     by_osha = {str(c["osha_id"]): c["_id"] for c in cs if c.get("osha_id")}
     by_addr, by_name = {}, {}
-    for c in cs:
+    # at an address with several files, the live one first: a closed plant's address now used by its new tenant
+    for c in sorted(cs, key=lambda c: bool(c.get("closed") or c.get("removed") or c.get("presumed_closed"))):
         k = addr_key(c.get("address", ""), c.get("city", ""))
         if k:
             by_addr.setdefault(k, c["_id"])
@@ -231,23 +243,23 @@ def main(args):
     # files that some same-name filing confirms on their own street: other filings of that name are other plants
     on_street = set()
     for r in keep:
-        cty = titlecase(r["city"].strip()) if r["city"].isupper() else r["city"].strip()
+        cty = canon_city(r["city"])
         f = name_match(r, cty)
         if f and street_of(r["street_address"]) and street_of(r["street_address"]) == street_of(by_id[f].get("address", "")):
             on_street.add(f)
     claimed = {}           # file -> address key of the plant it now stands for
     rows_by_id = {str(r["establishment_id"]).strip(): r for r in keep}
     def on_files_street(r):
-        cty = titlecase(r["city"].strip()) if r["city"].isupper() else r["city"].strip()
+        cty = canon_city(r["city"])
         f = by_osha.get(str(r["establishment_id"]).strip()) or name_match(r, cty)
         return bool(f) and street_of(r["street_address"]) == street_of(by_id[f].get("address", ""))
     existing = set(os.listdir(P("companies")))
     out, matched, updated, written, outside, nogeo, new_addr, pending, occupants, restored, moves, summed = {}, 0, 0, 0, [], [], {}, [], 0, 0, [], []
     today = datetime.date.today().isoformat()
     # filings at a file's exact address first, then filings on their file's own street, so that file keeps its plant; then by size
-    at_a_file = lambda r: addr_key(r["street_address"], titlecase(r["city"].strip()) if r["city"].isupper() else r["city"].strip()) in by_addr
+    at_a_file = lambda r: addr_key(r["street_address"], canon_city(r["city"])) in by_addr
     for r in sorted(keep, key=lambda r: (0 if at_a_file(r) else 1 if on_files_street(r) else 2, -int(r.get("annual_average_employees") or 0))):
-        eid, city = str(r["establishment_id"]).strip(), titlecase(r["city"].strip()) if r["city"].isupper() else r["city"].strip()
+        eid, city = str(r["establishment_id"]).strip(), canon_city(r["city"])
         emp = emp_of(r) or None
         if emp and emp > 15000:
             emp = None          # a company-wide count filed for one establishment (e.g. 118,268), not a plant's

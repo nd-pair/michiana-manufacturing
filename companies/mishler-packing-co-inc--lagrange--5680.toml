@@ -3,9 +3,9 @@
 
 name = "Mishler Packing Co., Inc."
 kind = "company"
-city = "Lagrange"
+city = "LaGrange"
 state = "IN"
-address = "5680 West 100 North, Lagrange, IN 46761"
+address = "5680 West 100 North, LaGrange, IN 46761"
 lat = 41.65464
 lon = -85.53850
 verified_note = "USDA FSIS lists an inspected meat establishment at this address with Mishler Packing Co. as a DBA (accuracy audit, November 2026). Source: https://www.fsis.usda.gov/inspection/fsis-inspected-establishments/stutzman-brothers-meats-llc"
