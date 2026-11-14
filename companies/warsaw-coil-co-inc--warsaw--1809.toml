@@ -9,6 +9,8 @@ address = "1809 West Winona Avenue, Warsaw, IN 46580"
 lat = 41.23335
 lon = -85.88030
 website = "https://warsawcoil.com"
+verified_note = "Several directories list Warsaw Coil Company at 1809 W Winona Ave with warsawcoil.com, but the site could not be fetched and no dated evidence was found. Source: https://leadiq.com/c/warsaw-coil-company-inc/5a1d84a724000024005f5d66"
+verified = "2026-11-13"
 
 sector = "Electronics"
 products = ["Noncurrent-Carrying Wiring Device Manufacturing"]

@@ -9,6 +9,8 @@ address = "2098 North Pound Drive West, Warsaw, IN 46582"
 lat = 41.26371
 lon = -85.82676
 website = "https://imdortho.com"
+verified_note = "Directories and an active FDA registration list the orthopedic instrument maker at 2098 N Pound Dr W, Warsaw; its website timed out on check. Source: https://naicslist.com/company-profile/instrumental-machine-development-inc-warsaw-in-46582"
+verified = "2026-11-13"
 
 sector = "Metal"
 products = ["Machine Shops"]

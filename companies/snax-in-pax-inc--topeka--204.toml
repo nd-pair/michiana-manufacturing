@@ -9,6 +9,8 @@ address = "204 Hawpatch Drive, Topeka, IN 46571"
 lat = 41.53998
 lon = -85.54644
 website = "https://snaxinpax.com"
+verified_note = "BBB and ZoomInfo list Snax in Pax at 204 Hawpatch Dr, Topeka, but listings are undated and snaxinpax.com did not load. Source: https://prod.bbb.org/us/in/topeka/category/candy"
+verified = "2026-11-13"
 
 sector = "Food & consumer goods"
 products = ["Other Snack Food Manufacturing"]

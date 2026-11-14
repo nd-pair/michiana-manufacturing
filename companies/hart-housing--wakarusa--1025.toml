@@ -9,6 +9,8 @@ address = "1025 East Waterford Street, Wakarusa, IN 46573"
 lat = 41.53586
 lon = -86.00006
 website = "https://harthousing.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. No source ties Hart Housing/Hart Homes to 1025 E Waterford St or to Wakarusa; the Clayton plant is at 66700 State Rte 19."
+presumed_closed = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Manufactured Home (mobile Home) Manufacturing"]

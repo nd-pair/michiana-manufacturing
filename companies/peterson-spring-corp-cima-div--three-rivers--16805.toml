@@ -9,6 +9,8 @@ address = "16805 Heimbach Road, Three Rivers, MI 49093"
 lat = 41.99812
 lon = -85.62936
 website = "https://pspring.com"
+verified_note = "Peterson Spring's live 2026 site lists Peterson Spring Three Rivers North at 16805 Heimbach Road; the Cima name does not appear but the plant is the same address. Source: https://pspring.com/locations"
+verified = "2026-11-13"
 
 sector = "Metal"
 products = ["Hardware Manufacturing"]

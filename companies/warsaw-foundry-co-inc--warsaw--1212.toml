@@ -9,6 +9,8 @@ address = "1212 North Detroit Street, Warsaw, IN 46580"
 lat = 41.25014
 lon = -85.85204
 website = "https://warsawfoundryco.com"
+verified_note = "Directory listings place Warsaw Foundry Co. at 1212 N Detroit St, but the website returned empty content and no dated evidence was found. Source: https://www.iqsdirectory.com/profile/warsaw-foundry-67274/"
+verified = "2026-11-13"
 
 sector = "Metal"
 products = ["Other Nonferrous Foundries (except Die-Casting)"]

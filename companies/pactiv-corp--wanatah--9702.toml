@@ -9,6 +9,8 @@ address = "9702 West US Highway 30, Wanatah, IN 46390"
 lat = 41.43359
 lon = -86.88516
 website = "https://pactiv.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Searches on the address and on Pactiv/Reynolds aluminum foil in Wanatah found no mention of any plant at 9702 US 30."
+presumed_closed = "2026-11-13"
 
 sector = "Metal"
 products = ["Aluminum Sheet, Plate, and Foil Manufacturing"]

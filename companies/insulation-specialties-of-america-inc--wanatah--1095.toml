@@ -9,6 +9,8 @@ address = "1095 Kabert Drive, Wanatah, IN 46390"
 lat = 41.43234
 lon = -86.90893
 website = "https://insulationspecialties.com"
+verified_note = "Company site lists 1095 Kabert Drive, Wanatah (footer dated 2016) and several directories plus BBB list the ceramic fiber board maker there. Source: https://insulationspecialties.com"
+verified = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["Vitreous China, Fine Earthenware, and Other Pottery Product Manufacturing"]

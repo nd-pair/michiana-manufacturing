@@ -8,6 +8,8 @@ state = "IN"
 address = "28707 La Rue Street, Elkhart, IN 46516"
 lat = 41.66977
 lon = -86.01799
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Only a legacy directory entry for Beck Industries LP (manufactured housing) in Elkhart with no street address; nothing found for 28707 La Rue Street. Source: https://siccode.com/business/beck-industries-lp"
+presumed_closed = "2026-11-13"
 
 sector = "Vehicles & RVs"
 products = ["All Other Motor Vehicle Parts Manufacturing"]

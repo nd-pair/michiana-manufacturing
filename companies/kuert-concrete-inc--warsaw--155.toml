@@ -9,6 +9,8 @@ address = "155 West 600 North, Warsaw, IN 46582"
 lat = 41.32079
 lon = -85.84794
 website = "https://kuert.com"
+verified_note = "Kuert's live site (2026) serves the region and BBB lists its HQ at 155 W County Rd 600 N (Leesburg/Warsaw mailing), matching the record's county-road address. Source: https://kuert.com"
+verified = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["Ready-Mix Concrete Manufacturing"]

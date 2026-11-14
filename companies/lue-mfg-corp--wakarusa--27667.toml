@@ -8,6 +8,8 @@ state = "IN"
 address = "27667 County Road 40, Wakarusa, IN 46573"
 lat = 41.53652
 lon = -85.99174
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Name and address searches returned nothing for Lue Mfg Corp at 27667 County Road 40."
+presumed_closed = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Wood Kitchen Cabinet and Countertop Manufacturing"]

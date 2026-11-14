@@ -9,6 +9,8 @@ address = "711 East Waterford Street, Wakarusa, IN 46573"
 lat = 41.53593
 lon = -86.00859
 website = "https://customwoodinc.com"
+verified_note = "Arcat lists Custom Wood Products, Inc. at 711 E. Waterford St, Wakarusa (574-862-2815), undated, while Superpages shows another address at 66371 State Road 19; customwoodinc.com returned no content. Source: https://www.arcat.com/arcatcos/cos47/arc47934.html"
+verified = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Metal Household Furniture Manufacturing"]

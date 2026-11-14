@@ -9,6 +9,8 @@ address = "4015 Lemon Creek Road, Bridgman, MI 49106"
 status_note = "Kruger Plastic Products renamed itself Springboard Manufacturing in 2019, now part of Alentra, which does not list a Bridgman plant; status unconfirmed."
 lat = 41.95771
 lon = -86.55061
+verified_note = "A directory listing places BKT Inc, a medical-focus plastic injection molder, at 4015 Lemon Creek Rd (undated); no other occupant found, though Kruger Holdings LLC is also listed at that address. Source: https://startpage.mapquest.com/us/michigan/bkt-inc-6568550"
+verified = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["All Other Plastics Product Manufacturing"]

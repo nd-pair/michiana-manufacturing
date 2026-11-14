@@ -9,6 +9,8 @@ address = "2599 North Fox Farm Road, Warsaw, IN 46580"
 lat = 41.27048
 lon = -85.89632
 website = "https://cxrcompany.com"
+verified_note = "Live company site with 2025 copyright lists 2599 N. Fox Farm Road, Warsaw as its address. Source: https://cxrcompany.com"
+verified = "2026-11-13"
 
 sector = "Electronics"
 products = ["Irradiation Apparatus Manufacturing"]

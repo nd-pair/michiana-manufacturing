@@ -8,6 +8,8 @@ state = "MI"
 address = "69576 Section Street, Edwardsburg, MI 49112"
 lat = 41.78710
 lon = -86.08878
+presumed_closed_reason = "Verification check: no current trace of this company at this address. No listing found for Village Automatics or any occupant at 69576 Section Street."
+presumed_closed = "2026-11-13"
 
 sector = "Metal"
 products = ["Fabricated Structural Metal Manufacturing"]

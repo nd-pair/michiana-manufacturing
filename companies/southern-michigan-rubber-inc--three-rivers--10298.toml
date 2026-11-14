@@ -9,6 +9,8 @@ address = "10298 M-60 West, Three Rivers, MI 49093"
 lat = 41.90627
 lon = -85.75618
 website = "https://smrubber.com"
+verified_note = "The live smrubber.com site shows 10298 M60 West, Three Rivers with hours and a cart, matching directory listings. Source: https://smrubber.com"
+verified = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["Rubber and Plastics Hoses and Belting Manufacturing"]

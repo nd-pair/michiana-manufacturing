@@ -9,6 +9,8 @@ address = "55255 Franklin Drive, Three Rivers, MI 49093"
 lat = 41.99452
 lon = -85.62953
 website = "https://simpsonsent.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Name and address searches found nothing for Simpson's Enterprises and its simpsonsent.com domain does not resolve."
+presumed_closed = "2026-11-13"
 
 sector = "Metal"
 products = ["Industrial Pattern Manufacturing"]

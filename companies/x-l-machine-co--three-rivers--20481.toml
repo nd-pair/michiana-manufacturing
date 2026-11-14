@@ -8,6 +8,8 @@ state = "MI"
 address = "20481 M-60, Three Rivers, MI 49093"
 lat = 41.99898
 lon = -85.55770
+verified_note = "Directory listings (Cortera, IQS, Superpages) place the XL Machine CNC shop at 20481 M-60, noting a 2017 Top Shops honor and Burke Porter Group ownership. Source: https://start.cortera.com/company/research/k3o6jqq4k/xl-machine-co/"
+verified = "2026-11-13"
 
 sector = "Mechatronics & automation"
 products = ["Special Die and Tool, Die Set, Jig, and Fixture Manufacturing"]

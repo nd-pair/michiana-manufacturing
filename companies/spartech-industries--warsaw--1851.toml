@@ -9,6 +9,8 @@ address = "1851 Fox Farm Road, Warsaw, IN 46580"
 lat = 41.25741
 lon = -85.86801
 website = "https://spartech.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. No source ties Spartech or any occupant to 1851 Fox Farm Rd; Spartech's known Warsaw plant was at 3454 N Detroit St (closed 2014) and spartech.com does not mention Warsaw."
+presumed_closed = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["Tire Manufacturing (except Retreading)"]

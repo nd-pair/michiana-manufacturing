@@ -8,6 +8,8 @@ state = "MI"
 address = "8088 Jericho Road, Bridgman, MI 49106"
 lat = 41.97321
 lon = -86.53379
+verified_note = "Company website shows D&F Mold LLC at 8088 Jericho Road with a 2026 copyright, and BBB/directories list the same address. Source: https://www.dnfmold.com"
+verified = "2026-11-13"
 
 sector = "Mechatronics & automation"
 products = ["Special Die and Tool, Die Set, Jig, and Fixture Manufacturing"]

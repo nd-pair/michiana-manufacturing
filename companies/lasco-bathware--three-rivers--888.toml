@@ -9,6 +9,9 @@ address = "888 West Broadway Street, Three Rivers, MI 49093"
 lat = 41.93236
 lon = -85.64458
 website = "https://lascobathware.com"
+closed_source = "https://wlkm.com/2024/07/tr-business-to-close-doors/"
+closed_note = "Lasco merged into Aquatic Co. (American Bath Group), which filed a WARN notice in May 2024 to close the West Broadway Three Rivers plant in July 2024 (101 workers)."
+closed = "2024"
 
 sector = "Materials & composites"
 products = ["Vitreous China Plumbing Fixture and China and Earthenware Bathroom Accessories Manufacturing"]

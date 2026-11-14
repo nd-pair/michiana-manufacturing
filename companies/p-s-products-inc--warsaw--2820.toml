@@ -8,6 +8,8 @@ state = "IN"
 address = "2820 North Fox Farm Road, Warsaw, IN 46582"
 lat = 41.27340
 lon = -85.89756
+presumed_closed_reason = "Verification check: no current trace of this company at this address. No listing found for P S Products or for 2820 N Fox Farm Rd in name or address searches."
+presumed_closed = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["Glass Product Manufacturing Made of Purchased Glass"]

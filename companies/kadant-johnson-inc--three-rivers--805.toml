@@ -9,6 +9,8 @@ address = "805 Wood Street, Three Rivers, MI 49093"
 lat = 41.94958
 lon = -85.62456
 website = "https://kadantjohnson.com"
+verified_note = "Kadant Johnson LLC lists 805 Wood Street as its address and a September 2023 Michigan EGLE inspection report covers the plant at 805 Wood St. Source: https://fluidhandling.kadant.com/en/about/kadant-johnson-llc"
+verified = "2026-11-13"
 
 sector = "Metal"
 products = ["Sheet Metal Work Manufacturing"]

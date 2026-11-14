@@ -8,6 +8,8 @@ state = "MI"
 address = "1501 Kdf Drive, Three Rivers, MI 49093"
 lat = 41.92741
 lon = -85.65013
+presumed_closed_reason = "Verification check: no current trace of this company at this address. No listing found for NAP Tools at 1501 KDF Drive; the only NAP Tools LLC entry found is at 1180 Wernsing Road, Jasper, IN (Peak Toolworks). Source: https://www.machinetools.com/en/companies/65501-nap-tools-llc"
+presumed_closed = "2026-11-13"
 
 sector = "Mechatronics & automation"
 products = ["Cutting Tool and Machine Tool Accessory Manufacturing"]

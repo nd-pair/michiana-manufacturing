@@ -9,6 +9,8 @@ address = "960 North Lake Street, Warsaw, IN 46580"
 lat = 41.24668
 lon = -85.86590
 website = "https://osbornmfg.com"
+verified_note = "Live site (copyright 2024, Warsaw IN phone, open Mon-Thu) for Osborn Manufacturing Corp and GlobalSpec lists 960 N Lake St, though a MapQuest listing marks it closed. Source: https://osbornmfg.com"
+verified = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["All Other Plastics Product Manufacturing"]

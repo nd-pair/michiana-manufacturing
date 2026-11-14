@@ -9,6 +9,8 @@ address = "152 South Zimmer Road, Warsaw, IN 46580"
 lat = 41.23727
 lon = -85.88659
 website = "https://mavron.com"
+verified_note = "Live company site (serving public service agencies since 1973, '53 years') and directory listings place Mavron, Inc. at 152 S Zimmer Rd, Warsaw; the site itself shows no street address. Source: https://mavron.com"
+verified = "2026-11-13"
 
 sector = "Vehicles & RVs"
 products = ["Motor Home Manufacturing"]

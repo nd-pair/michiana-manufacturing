@@ -3,12 +3,14 @@
 
 name = "Starcraft Marine, LLC"
 kind = "company"
-city = "Topeka"
+city = "New Paris"
 state = "IN"
-address = "201 Starcraft Drive, Topeka, IN 46571"
-lat = 41.53351
-lon = -85.54078
+address = "68143 Clunette St, New Paris, IN 46553"
+lat = 41.50505
+lon = -85.82962
 website = "https://starcraftmarine.com"
+removed_reason = "duplicate: Starcraft boats are now built at the Smoker Craft plant in New Paris, already on the map as companies/smoker-craft-inc--new-paris--68143.toml (verification check)"
+removed = "2026-11-13"
 
 sector = "Vehicles & RVs"
 products = ["Boat Building"]

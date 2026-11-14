@@ -9,6 +9,8 @@ address = "504 North Bay Drive, Warsaw, IN 46580"
 lat = 41.23431
 lon = -85.83303
 website = "https://cardinalcenter.org"
+presumed_closed_reason = "Verification check: renamed or acquired, but the new name is not tied to this address (Cardinal Services). The same disability-services nonprofit was renamed Cardinal Services in 2016 and still operates at 504 N Bay Drive (renovation opened 2024). Source: https://timesuniononline.com/news/2016/jul/28/cardinal-center-receives-new-name-logo"
+presumed_closed = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["All Other Plastics Product Manufacturing"]

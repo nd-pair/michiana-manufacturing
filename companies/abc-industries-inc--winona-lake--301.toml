@@ -9,6 +9,8 @@ address = "301 Kings Highway, Winona Lake, IN 46590"
 lat = 41.23064
 lon = -85.81991
 website = "https://abc-industries.net"
+verified_note = "Live company site (copyright 2026) lists ABC Industries at 301 Kings Highway, Winona Lake, IN 46590. Source: https://abc-industries.net"
+verified = "2026-11-13"
 
 sector = "Mechatronics & automation"
 products = ["Industrial and Commercial Fan and Blower Manufacturing"]

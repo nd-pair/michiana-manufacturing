@@ -9,6 +9,8 @@ address = "315 South Hand Avenue, Warsaw, IN 46580"
 lat = 41.23564
 lon = -85.87003
 website = "https://dirilyte.com"
+verified_note = "Dirilyte is a Hand Industries division (315 S Hand Ave per directories and a 2016 news report) and handindustries.com (2025) still lists Dirilyte among its companies; dirilyte.com itself does not resolve. Source: https://handindustries.com"
+verified = "2026-11-13"
 status_note = "Dirilyte is a line of Hand Industries, Warsaw."
 
 sector = "Metal"

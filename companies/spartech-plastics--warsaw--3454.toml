@@ -9,6 +9,9 @@ address = "3454 North Detroit Street, Warsaw, IN 46582"
 lat = 41.28378
 lon = -85.85261
 website = "https://spartech.com"
+closed_source = "https://inkfreenews.com/2014/01/31/polyone-begins-local-closing-procedure"
+closed_note = "PolyOne (which bought Spartech) filed a WARN notice in Nov 2013 to close the 3454 N Detroit St plant with 110 workers, terminations beginning Jan 2014."
+closed = "2014"
 
 sector = "Materials & composites"
 products = ["Plastics Packaging Film and Sheet (including Laminated) Manufacturing"]

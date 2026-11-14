@@ -9,6 +9,8 @@ address = "600 North Bay Drive, Warsaw, IN 46580"
 lat = 41.23324
 lon = -85.83297
 website = "https://eisenbrauns.com"
+presumed_closed_reason = "Verification check: the company operates elsewhere, not at this address. Penn State University Press acquired Eisenbrauns in 2017 and it now runs as an imprint from University Park, PA, while the 600 N Bay Dr building was listed for sale in 2020; eisenbrauns.com refused connection. Source: https://www.psu.edu/news/academics/story/penn-state-university-press-acquires-eisenbrauns-new-imprint"
+presumed_closed = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Prepress Services"]

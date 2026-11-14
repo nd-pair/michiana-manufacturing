@@ -9,6 +9,8 @@ address = "28180 Clay Street, Elkhart, IN 46517"
 lat = 41.66129
 lon = -86.00618
 website = "https://acousticom.com"
+verified_note = "Directories list Acousticom Corp at 28180 Clay St, Elkhart, and acousticom.com responds, though its page only showed a loading placeholder. Source: https://www.zoominfo.com/c/acousticom/509577"
+verified = "2026-11-13"
 uei = "EYEXABBRY3W3"
 
 sector = "Electronics"

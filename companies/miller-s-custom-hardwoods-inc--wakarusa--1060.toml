@@ -8,6 +8,8 @@ state = "IN"
 address = "1060 East Waterford Street, Wakarusa, IN 46573"
 lat = 41.53646
 lon = -85.99739
+presumed_closed_reason = "Verification check: no current trace of this company at this address. No listing found for Miller's Custom Hardwoods or any occupant at 1060 E Waterford St, Wakarusa."
+presumed_closed = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Nonupholstered Wood Household Furniture Manufacturing"]

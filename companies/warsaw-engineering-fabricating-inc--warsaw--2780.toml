@@ -9,6 +9,8 @@ address = "2780 East Durbin Street, Warsaw, IN 46580"
 lat = 41.23391
 lon = -85.81969
 website = "https://warsaweng.com"
+verified_note = "Live site shows Warsaw Engineering & Fabricating at 2780 Durbin St, Warsaw, celebrating 40 years (founded 1985), with a Now Hiring page. Source: https://warsaweng.com"
+verified = "2026-11-13"
 
 sector = "Metal"
 products = ["All Other Miscellaneous Fabricated Metal Product Manufacturing"]

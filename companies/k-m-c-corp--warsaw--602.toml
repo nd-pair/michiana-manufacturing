@@ -8,6 +8,8 @@ state = "IN"
 address = "602 North Leiter Drive, Warsaw, IN 46580"
 lat = 41.24207
 lon = -85.87577
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Only an undated OSHA-derived profile with a malformed ZIP mentions a KMC at 602 N Leiter; no listing, site or news confirms the furniture maker or any occupant. Source: https://www.fastdol.com/employers/kmc-143e1ee3-f3b2-b77d-d2f3-697595ccce1c"
+presumed_closed = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Upholstered Household Furniture Manufacturing"]

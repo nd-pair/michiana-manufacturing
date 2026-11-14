@@ -9,6 +9,9 @@ address = "71049 South US Highway 131, White Pigeon, MI 49099"
 lat = 41.76454
 lon = -85.67258
 website = "https://medtecambulance.com"
+closed_source = "https://www.warntracker.com/layoff/medtec-ambulance-corp-2011-03-31"
+closed_note = "Oshkosh closed Medtec's Goshen and White Pigeon plants on March 31, 2011 (70 White Pigeon jobs) and moved production to Florida; the medtecambulance.com site is unreachable."
+closed = "2011"
 
 sector = "Vehicles & RVs"
 products = ["Motor Vehicle Body Manufacturing"]

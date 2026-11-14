@@ -8,6 +8,8 @@ state = "MI"
 address = "27350 Max Street, Edwardsburg, MI 49112"
 lat = 41.78887
 lon = -86.09199
+verified_note = "A directory lists Trinity Sheet Metal Inc dba Precision Sheet Metal at 27350 Max Street (undated, est. 1985); no other occupant found. Source: https://www.scrapmonster.com/company/trinity-sheet-metal-inc/92412"
+verified = "2026-11-13"
 
 sector = "Metal"
 products = ["Sheet Metal Work Manufacturing"]

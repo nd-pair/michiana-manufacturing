@@ -8,6 +8,8 @@ state = "IN"
 address = "1851 Dogwood Road, Bremen, IN 46506"
 lat = 41.45260
 lon = -86.11791
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Only an undated directory entry for T J Snuggles Inc. in Bremen with a PO box; nothing found for 1851 Dogwood Road. Source: https://naicslist.com/company-profile/t-j-snuggles-inc-bremen-in-46506"
+presumed_closed = "2026-11-13"
 
 sector = "Food & consumer goods"
 products = ["Canvas and Related Product Mills"]

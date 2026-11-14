@@ -9,6 +9,9 @@ address = "493 South Circle Drive West, Warsaw, IN 46580"
 lat = 41.22804
 lon = -85.79798
 website = "https://whitleyproducts.com"
+closed_source = "https://wkvi.com/2013/05/receiver-seeks-buyer-for-whitley-products"
+closed_note = "Warsaw-based Whitley Products shut down after its lender stopped funding (receiver sought a buyer in May 2013, assets sold in 2013); whitleyproducts.com is now a domain-for-sale page, and the closure year is approximate because source dates conflict."
+closed = "2013"
 
 sector = "Metal"
 products = ["Iron and Steel Pipe and Tube Manufacturing From Purchased Steel"]

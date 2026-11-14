@@ -9,6 +9,8 @@ address = "110 Menke Road, Trail Creek, IN 46360"
 lat = 41.70272
 lon = -86.84744
 website = "https://fiberbond.net"
+verified_note = "The live fiberbond.net site (2026 copyright) gives 110 Menke Road, Michigan City, IN 46360 as the address of the filtration media maker. Source: https://fiberbond.net"
+verified = "2026-11-13"
 
 sector = "Mechatronics & automation"
 products = ["Air-Conditioning & Warm Air Heating Equipment & Commercial and Industrial Refrigeration Equipment Mfg."]

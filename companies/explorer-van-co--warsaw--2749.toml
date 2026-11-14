@@ -9,6 +9,8 @@ address = "2749 North Fox Farm Road, Warsaw, IN 46580"
 lat = 41.26808
 lon = -85.89620
 website = "https://explorervan.com"
+verified_note = "Live company site (2026 copyright) gives 2749 N. Fox Farm Road, Warsaw as its address and lists current van models. Source: https://explorervan.com"
+verified = "2026-11-13"
 uei = "Y42LQW8JSMF3"
 
 sector = "Vehicles & RVs"

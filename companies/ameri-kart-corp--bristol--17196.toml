@@ -9,6 +9,8 @@ address = "17196 State Road 120 East, Bristol, IN 46507"
 lat = 41.72288
 lon = -85.79964
 website = "https://amerikart.com"
+verified_note = "Ameri-Kart (a Myers Industries company, amerikart.com now redirects to Myers/EPI site) is listed at 17196 State Road 120 in Bristol with Bristol job postings, and a 2020 expansion article. Source: https://www.areadevelopment.com/newsitems/6-8-2020/ameri-kart-north-industrial-park-elkhart-county-indiana.shtml"
+verified = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["All Other Plastics Product Manufacturing"]

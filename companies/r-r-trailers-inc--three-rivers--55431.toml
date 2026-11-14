@@ -9,6 +9,8 @@ address = "55431 Franklin Drive, Three Rivers, MI 49093"
 lat = 41.99236
 lon = -85.62775
 website = "https://rnrtrailers.com"
+verified_note = "A 2023 article and directory listings show R&R Trailers building trailers at 55431 Franklin Drive, though its rnrtrailers.com site currently shows an account-suspended page. Source: https://michsnowmag.com/2023/02/08/after-28-years-rr-trailers-is-a-leader-in-the-manufacturing-of-cargo-and-utility-trailers/"
+verified = "2026-11-13"
 
 sector = "Vehicles & RVs"
 products = ["Truck Trailer Manufacturing"]

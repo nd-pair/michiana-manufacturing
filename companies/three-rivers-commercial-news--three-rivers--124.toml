@@ -9,6 +9,8 @@ address = "124 North Main Street, Three Rivers, MI 49093"
 lat = 41.94648
 lon = -85.63504
 website = "https://threeriversnews.com"
+presumed_closed_reason = "Verification check: reported closed, without a dated source. The Commercial-News ceased publication after 127 years, and 124 N Main St is now listed for sale/lease as retail and warehouse space (closure year not confirmed in sources read); threeriversnews.com redirects to wilcoxnewspapers.com. Source: https://www.crexi.com/properties/2260244/michigan-124-n-main-street"
+presumed_closed = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Other Commercial Printing"]

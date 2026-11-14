@@ -34,7 +34,7 @@ from common import P, companies, company_path, set_field, del_field, norm
 
 UNSEARCHED = re.compile(r"(?i)\bunverified\b|search budget|budget ran out|not searched|never searched|no lookups|no name or address|no address search|not researched")
 HEDGED = re.compile(r"(?i)not confirm|unconfirm|inferen|no source|could just be|not verified|may be|possibly|appears to|unclear whether|no address|redirects? to|is down|is dead")
-TIED = re.compile(r"(?i)same (plant|address|site|phone)|at this address|lists? (its|a|the)? ?\w* ?(plant|site|location|facility)? ?(at|in) |\d+ [A-Z][a-z]+ (St|Rd|Dr|Ave|Blvd|Pkwy|Way|Ct|Ln)")
+TIED = re.compile(r"(?i)same (plant|address|site|phone)|at this address|lists? (its|a|the)? ?\w* ?(plant|site|location|facility)? ?(at|in) |\d+ ([NSEW]\.? )?\w+ (St|Rd|Dr|Ave|Blvd|Pkwy|Way|Ct|Ln|Street|Road|Drive|Avenue)\b")
 
 def main(args):
     dry = "--dry-run" in args

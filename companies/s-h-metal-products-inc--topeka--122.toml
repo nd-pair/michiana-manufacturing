@@ -8,6 +8,8 @@ state = "IN"
 address = "122 Redman Drive, Topeka, IN 46571"
 lat = 41.53868
 lon = -85.54934
+verified_note = "A directory lists S&H Metal at 122 Redman Dr and a trade article reports its RV sheet-metal expansion in Topeka, both undated. Source: https://naicslist.com/company-profile/sh-metal-topeka-in-46571"
+verified = "2026-11-13"
 
 sector = "Metal"
 products = ["All Other Miscellaneous Fabricated Metal Product Manufacturing"]

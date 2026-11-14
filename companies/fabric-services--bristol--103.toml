@@ -8,6 +8,8 @@ state = "IN"
 address = "103 Hinsdale Farm Road, Bristol, IN 46507"
 lat = 41.71981
 lon = -85.80746
+verified_note = "Directories (MapQuest, BBB) list Fabric Services at 103 Hinsdale Farm Rd, Bristol, as a textile lamination/treatment supplier; listings are undated. Source: https://startpage.mapquest.com/us/indiana/fabric-services-405459112"
+verified = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["Polystyrene Foam Product Manufacturing"]

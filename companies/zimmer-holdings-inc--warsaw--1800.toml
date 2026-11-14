@@ -1,15 +1,16 @@
 # Zimmer Holdings, Inc.
 # Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
 
-name = "Zimmer Holdings, Inc."
+name = "Zimmer Biomet"
 kind = "company"
 city = "Warsaw"
 state = "IN"
 address = "1800 West Center Street, Warsaw, IN 46580"
 lat = 41.23984
 lon = -85.88425
-website = "https://zimmer.com"
-uei = "KZVRFB7NM8T1"
+verified = "2026-11-13"
+status_note = "Zimmer Holdings became Zimmer Biomet after the 2015 Biomet merger; its contact page gives this Warsaw address (verification check, November 2026)."
+formerly = "Zimmer Holdings, Inc."
 
 sector = "Medical devices & other"
 products = ["Surgical Appliance and Supplies Manufacturing"]

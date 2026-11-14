@@ -9,6 +9,8 @@ address = "1321 3rd Street, Three Rivers, MI 49093"
 lat = 41.92981
 lon = -85.63137
 website = "https://weyerhaeuser.com"
+presumed_closed_reason = "Verification check: renamed or acquired, but the new name is not tied to this address (Three Rivers Box). An undated job listing gives Three Rivers Box at 1321 Third St, and Weyerhaeuser sold its containerboard packaging business in 2008, but no source explicitly links the new owner; this is an inference. Source: https://www.localjobs.com/job/three-rivers-mi-manufacturing-associate-1"
+presumed_closed = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Corrugated and Solid Fiber Box Manufacturing"]

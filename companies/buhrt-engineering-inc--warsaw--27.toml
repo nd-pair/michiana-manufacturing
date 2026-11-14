@@ -9,6 +9,8 @@ address = "27 East 250 North, Warsaw, IN 46582"
 lat = 41.27006
 lon = -85.84205
 website = "https://buhrt.com"
+verified_note = "Multiple directories list Buhrt Engineering (sheet metal and pipe fabrication) at 27 East 250 North, Warsaw and the website is live, though newest dated item found is a 2016 press release. Source: https://naicslist.com/company-profile/buhrt-engineering-construction-inc-warsaw-in-46582"
+verified = "2026-11-13"
 
 sector = "Metal"
 products = ["Iron and Steel Mills"]

@@ -8,6 +8,8 @@ state = "IN"
 address = "106 Industrial Park Drive, Walkerton, IN 46574"
 lat = 41.46725
 lon = -86.49385
+verified_note = "Several undated directories (Yellow Pages, ZoomInfo, NAICSList) list the CNC machine shop at 106 Industrial Park Dr, Walkerton with phone 574-586-3162. Source: https://naicslist.com/company-profile/walkerton-tool-die-inc-walkerton-in-46574"
+verified = "2026-11-13"
 
 sector = "Metal"
 products = ["Machine Shops"]

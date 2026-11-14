@@ -9,6 +9,8 @@ address = "7930 North 700 East, Tippecanoe, IN 46570"
 lat = 41.17139
 lon = -86.11631
 website = "https://belt-o-matic.com"
+presumed_closed_reason = "Verification check: renamed or acquired, but the new name is not tied to this address (Norris Thermal Technologies (Beltomatic)). The belt-o-matic.com domain redirects to beltomatic.com, a live site for Norris Thermal Technologies at 7930 N 700 E, the same address and Beltomatic dryer product line as B.N.W. Industries. Source: http://www.beltomatic.com/"
+presumed_closed = "2026-11-13"
 
 sector = "Metal"
 products = ["Machine Shops"]

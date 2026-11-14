@@ -1,16 +1,16 @@
 # Fan Group Inc. (HQ)
 # Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
 
-name = "Fan Group Inc. (HQ)"
+name = "FläktGroup (Flaktwoods Americas)"
 kind = "company"
 city = "Niles"
 state = "MI"
 address = "1701 Terminal Road, Niles, MI 49120"
 lat = 41.84991
 lon = -86.22882
-website = "https://flaktwoods.com"
-presumed_closed_reason = "Verification check: renamed or acquired, but the new name is not tied to this address (Flaktwoods Americas (FläktGroup)). GlobalSpec lists Flaktwoods Americas at 1701 Terminal Road Suite B, Niles (flaktwoods.com is the former Fan Group parent brand); the site itself did not load and no dated evidence was found. Source: https://www.globalspec.com/local/4690/C_US/MI/NILES"
-presumed_closed = "2026-11-13"
+verified = "2026-11-13"
+status_note = "GlobalSpec lists Flaktwoods Americas at 1701 Terminal Road, Niles; Fan Group was a Flaktwoods brand (verification check, November 2026)."
+formerly = "Fan Group Inc. (HQ)"
 
 sector = "Mechatronics & automation"
 products = ["Industrial and Commercial Fan and Blower Manufacturing"]

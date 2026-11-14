@@ -9,6 +9,8 @@ address = "1058 West 400 North, Warsaw, IN 46582"
 lat = 41.29204
 lon = -85.86312
 website = "https://swpcabinetry.com"
+verified_note = "Houzz profile lists Superior Wood Products cabinetry at 1058 West CR 400 North, Warsaw, but the company site could not be fetched (certificate error) and the listing is undated; Kelwood Designs also appears at this address. Source: https://www.houzz.com/professionals/cabinets-and-cabinetry/superior-wood-products-pfvwus-pf~1224998251"
+verified = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Wood Kitchen Cabinet and Countertop Manufacturing"]

@@ -1,14 +1,16 @@
 # Lake City Heat Treating Corp.
 # Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
 
-name = "Lake City Heat Treating Corp."
+name = "Bodycote"
 kind = "company"
 city = "Warsaw"
 state = "IN"
 address = "2427 North Boeing Road, Warsaw, IN 46582"
 lat = 41.26901
 lon = -85.83701
-website = "https://lakecityheattreating.com"
+verified = "2026-11-13"
+status_note = "Bodycote acquired Lake City Heat Treating on January 19, 2024 and lists the plant at 2427 N Boeing Road, Warsaw (verification check, November 2026)."
+formerly = "Lake City Heat Treating Corp."
 
 sector = "Metal"
 products = ["Metal Heat Treating"]

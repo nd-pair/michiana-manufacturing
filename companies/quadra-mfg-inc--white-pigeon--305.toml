@@ -9,6 +9,8 @@ address = "305 South US Highway 131, White Pigeon, MI 49099"
 lat = 41.79031
 lon = -85.66221
 website = "https://quadraleveler.com"
+presumed_closed_reason = "Verification check: renamed or acquired, but the new name is not tied to this address (Bigfoot Leveling Systems (Lippert)). quadraleveler.com redirects to thebigfootleveler.com, a Lippert-owned Bigfoot Leveling Systems site (2026) listing 305 US-131 South, White Pigeon, the same address on Quadra's manual. Source: http://thebigfootleveler.com/"
+presumed_closed = "2026-11-13"
 
 sector = "Mechatronics & automation"
 products = ["Fluid Power Cylinder and Actuator Manufacturing"]

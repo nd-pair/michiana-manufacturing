@@ -8,6 +8,8 @@ state = "MI"
 address = "16744 US Highway 12, Union, MI 49130"
 lat = 41.77953
 lon = -85.89177
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Only a federal OSHA-records aggregator lists Admat Mfg at 16744 US Hwy 12; no website, directory listing or evidence of current operation found. Source: https://www.fastdol.com/employers/249c17ef-b591-10e7-18ba-aaf28e47ce21"
+presumed_closed = "2026-11-13"
 
 sector = "Metal"
 products = ["Metal Stamping"]

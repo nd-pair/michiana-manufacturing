@@ -10,6 +10,8 @@ address = "15781 River Street, White Pigeon, MI 49099"
 lat = 41.78921
 lon = -85.64700
 website = "https://oxindustries.com"
+verified_note = "Ox Paperboard WP, LLC runs the former White Pigeon Paper mill at 15781 River St; a 2023 EGLE inspection found it operating and Ox's site lists 76 employees. Source: https://oxindustries.com/white-pigeon-paperboard-mill/"
+verified = "2026-11-13"
 status_note = "Graphic Packaging idled the mill in 2020; Ox Industries restarted it that September."
 
 sector = "Metal"

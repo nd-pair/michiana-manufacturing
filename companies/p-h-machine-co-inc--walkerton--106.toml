@@ -9,6 +9,8 @@ address = "106 Fulmer Street, Walkerton, IN 46574"
 lat = 41.47483
 lon = -86.47472
 website = "https://processregister.com"
+verified_note = "Hiler Industries' current locations page lists P & H Machine Company (CNC machine shop) at 106 Fulmer Street, Walkerton; the record's website processregister.com is an unrelated buyer's guide. Source: https://www.hilerindustries.com/locations"
+verified = "2026-11-13"
 
 sector = "Metal"
 products = ["Machine Shops"]

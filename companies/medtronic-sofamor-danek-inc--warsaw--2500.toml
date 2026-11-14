@@ -9,6 +9,8 @@ address = "2500 Silveus Crossing, Warsaw, IN 46582"
 lat = 41.27113
 lon = -85.87142
 website = "https://sofamordanek.com"
+verified_note = "Warsaw Orthopedic, Inc. dba Medtronic Sofamor Danek has an active FDA registration (expiry 2025) at 2500 Silveus Crossing; the sofamordanek.com site returned errors. Source: https://medicaldevices.icij.org/manufacturers/u-s-food-and-drug-administration-warsaw-orthopedic-inc-dba-medtronic-sofamor-danek-warsaw-orthopedic-inc-dba-medtronic-sofamor-danek-2500-silveus-crossing-warsaw-in-46582-8598"
+verified = "2026-11-13"
 uei = "NCWZAMNGJKH8"
 
 sector = "Medical devices & other"

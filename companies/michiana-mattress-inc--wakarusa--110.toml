@@ -8,6 +8,8 @@ state = "IN"
 address = "110 Industrial Drive, Wakarusa, IN 46573"
 lat = 41.53460
 lon = -86.00590
+presumed_closed_reason = "Verification check: no current trace of this company at this address. No listing found for Michiana Mattress or any occupant at 110 Industrial Drive, Wakarusa."
+presumed_closed = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Mattress Manufacturing"]

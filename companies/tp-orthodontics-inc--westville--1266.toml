@@ -9,6 +9,8 @@ address = "1266 South US Highway 421, Westville, IN 46391"
 lat = 41.58893
 lon = -86.89756
 website = "https://tportho.com"
+presumed_closed_reason = "Verification check: another business is at this address now (Kesling & Rocke Orthodontics (Dr. Christopher Kesling)). Directories list an orthodontic practice (Dr. Christopher Kesling) at 1266 S US Hwy 421, Westville; TP Orthodontics' listed headquarters is 100 Center Plaza, La Porte, and no source places the manufacturer at this address. Source: https://npiscan.com/npi/1205940731"
+presumed_closed = "2026-11-13"
 
 humanoid_not = ["vision"]
 humanoid_note = "Orthodontic products; HIFLD files it under optical instruments and lenses."

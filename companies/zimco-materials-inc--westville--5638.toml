@@ -8,6 +8,8 @@ state = "IN"
 address = "5638 South US Highway 421, Westville, IN 46391"
 lat = 41.52349
 lon = -86.89525
+presumed_closed_reason = "Verification check: no current trace of this company at this address. No listing found for Zimco Materials or for 5638 S US Hwy 421, Westville in name or address searches."
+presumed_closed = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["Ready-Mix Concrete Manufacturing"]

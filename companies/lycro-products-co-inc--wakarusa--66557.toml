@@ -8,6 +8,8 @@ state = "IN"
 address = "66557 State Road 19, Wakarusa, IN 46573"
 lat = 41.52789
 lon = -86.00176
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Only a 2020 PPP loan record shows Lycro Manufacturing Inc (machine shop, 41 jobs) at 66557 State Road 19; no evidence from 2023 or later. Source: https://newbizbot.ai/ppp-loans/loan/2304037110"
+presumed_closed = "2026-11-13"
 
 sector = "Metal"
 products = ["Machine Shops"]

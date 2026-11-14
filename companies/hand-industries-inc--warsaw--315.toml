@@ -9,6 +9,8 @@ address = "315 South Hand Avenue, Warsaw, IN 46580"
 lat = 41.23564
 lon = -85.87003
 website = "https://handindustries.com"
+verified_note = "Site with 2025 copyright says Hand Industries is based in Warsaw and directories give 315 S Hand Ave for the metal finisher. Source: https://handindustries.com"
+verified = "2026-11-13"
 
 sector = "Metal"
 products = ["Electroplating, Plating, Polishing, Anodizing and Coloring"]

@@ -9,6 +9,8 @@ address = "2030 North Boeing Road, Warsaw, IN 46582"
 lat = 41.26390
 lon = -85.83531
 website = "https://invacform.com"
+verified_note = "Live company site (2022 copyright) lists Indiana Vac-Form, Inc. at 2030 North Boeing Road, Warsaw. Source: https://invacform.com"
+verified = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["All Other Plastics Product Manufacturing"]
