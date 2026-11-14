@@ -41,6 +41,25 @@ def census(address):
         return (float(m[0]["coordinates"]["y"]), float(m[0]["coordinates"]["x"])) if m else None
     return None
 
+def census_zip(address, near):
+    """The ZIP code of an address that lacks one, from the Census geocoder's matched address, when the
+    match has the same house number and lies within 0.5 km of `near` (lat, lon); else None."""
+    if re.search(r"\b\d{5}(-\d{4})?\s*$", address) or not re.match(r"\s*\d", address):
+        return None
+    q = urllib.parse.urlencode({"address": street_only(address), "benchmark": "Public_AR_Current", "format": "json"})
+    try:
+        m = (json.load(urllib.request.urlopen("https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?" + q, timeout=30))
+             .get("result", {}).get("addressMatches") or [])
+    except Exception:
+        return None
+    if not m or m[0]["matchedAddress"].split()[0] != address.split()[0]:
+        return None
+    lat, lon = float(m[0]["coordinates"]["y"]), float(m[0]["coordinates"]["x"])
+    if abs(lat - near[0]) > 0.0045 or abs(lon - near[1]) > 0.006:   # about 0.5 km
+        return None
+    z = re.search(r"(\d{5})\s*$", m[0]["matchedAddress"])
+    return z[1] if z else None
+
 def main(paths):
     if not paths:
         paths = [os.path.join(ROOT, "companies", n) for n in sorted(os.listdir(os.path.join(ROOT, "companies"))) if n.endswith(".toml")]
@@ -54,6 +73,9 @@ def main(paths):
             print("%s: not found: %s" % (os.path.basename(path), c["address"]))
             time.sleep(1.1); continue
         text = open(path, encoding="utf-8").read()
+        z = census_zip(c["address"], hit)   # an address from a verification move often comes without its ZIP
+        if z:
+            text = re.sub(r'^(address\s*=\s*".*?)"\s*$', lambda mm: '%s %s"' % (mm[1].rstrip(), z), text, count=1, flags=re.M)
         line = re.search(r"^address\s*=.*$", text, re.M)
         ins = "\nlat = %.5f\nlon = %.5f" % hit
         text = text[:line.end()] + ins + text[line.end():]
