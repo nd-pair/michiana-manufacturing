@@ -5,10 +5,10 @@ name = "Thor Motor Coach, Inc"
 kind = "company"
 city = "Elkhart"
 state = "IN"
-address = "604 MIDDLE RUN ROAD, Elkhart, IN 46516"
-lon = -85.9767
-lat = 41.682
-location_precision = "city"
+address = "604 Middleton Run Road, Elkhart, IN 46516"
+lon = -85.91722
+status_note = "Thor's 2025 OSHA filing for Plant 750 gives '604 MIDDLE RUN ROAD'; Elkhart has no Middle Run Road, and 604 Middleton Run Road (where EFP and Kem Krest also file) is in the Census address list, so the street is read as Middleton Run Road."
+lat = 41.68656
 osha_id = "1433247"
 
 sector = "Vehicles & RVs"
