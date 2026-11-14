@@ -10,6 +10,8 @@ address = "7346 West County Road 400 North, Rochester, IN 46975"
 lat = 41.11376
 lon = -86.38331
 website = "https://www.freedmanseating.com"
+verified_note = "Freedman Mobility Seating operates a 110,000 sq ft plant between Leiters Ford and Rochester (Lippert bought Freedman's assets in 2025), but the exact street address 7346 W CR 400 N was not confirmed. Source: https://www.abc57.com/news/made-in-michiana-fms-seating-co"
+verified = "2026-11-13"
 status_note = "Freedman Seating bought Braun Seating's assets in December 2011 and runs the plant as FMS Seating; Freedman is now part of Lippert."
 
 sector = "Vehicles & RVs"

@@ -9,6 +9,8 @@ address = "2033 Western Avenue, Plymouth, IN 46563"
 lat = 41.35750
 lon = -86.31659
 website = "https://itequipment.com"
+verified_note = "Directory listings place I.T. Equipment, Inc. (Industrial Transmission Equipment) at 2033 Western Ave, Plymouth; the itequipment.com site could not be fetched and no dated evidence was found. Source: https://directory.designnews.com/i-t-equipment-inc-comp230917.html"
+verified = "2026-11-13"
 
 sector = "Mechatronics & automation"
 products = ["Conveyor and Conveying Equipment Manufacturing"]

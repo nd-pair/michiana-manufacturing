@@ -9,6 +9,8 @@ address = "533 South 1st Street, Pierceton, IN 46562"
 lat = 41.19099
 lon = -85.70489
 website = "https://tri-lakes.com"
+verified_note = "Welch Packaging acquired Tri-Lakes in January 2020 and its site lists Tri-Lakes Corrugated at 533 S 1st St, Pierceton; the tri-lakes.com domain now redirects to a HugeDomains sale page. Source: https://welchpkg.com/Tri-Lakes-Corrugated.html"
+verified = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Corrugated and Solid Fiber Box Manufacturing"]

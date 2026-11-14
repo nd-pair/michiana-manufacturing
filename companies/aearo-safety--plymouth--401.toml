@@ -9,6 +9,8 @@ address = "401 East Jefferson Street, Plymouth, IN 46563"
 lat = 41.34390
 lon = -86.30491
 website = "https://aearo.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Only an old supplier directory lists AO Safety at 401 E Jefferson; the former 3M/AO Safety eyewear lab (sold to HOYA) at 2925 Gary Dr closed in 2020, and nothing was found for the Jefferson St address. Source: https://medicregister.com/Aearo_Ao_Safety/Supplier/sid23106.htm"
+presumed_closed = "2026-11-13"
 
 sector = "Medical devices & other"
 products = ["Ophthalmic Goods Manufacturing"]

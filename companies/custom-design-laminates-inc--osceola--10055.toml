@@ -8,6 +8,8 @@ state = "IN"
 address = "10055 Mckinley Highway, Osceola, IN 46561"
 lat = 41.68873
 lon = -86.06241
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Only an undated aggregator profile (naicslist) lists this company at the address; no website, news or dated evidence found. Source: https://naicslist.com/company-profile/custom-design-laminates-inc-osceola-in-46561"
+presumed_closed = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Wood Kitchen Cabinet and Countertop Manufacturing"]

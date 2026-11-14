@@ -9,6 +9,8 @@ address = "2255 Walter Glaub Drive, Plymouth, IN 46563"
 lat = 41.35859
 lon = -86.33362
 website = "https://farminnovators.com"
+verified_note = "Live site with 2026 copyright footer lists 2255 Walter Glaub Dr, Plymouth, IN 46563. Source: https://farminnovators.com"
+verified = "2026-11-13"
 
 sector = "Mechatronics & automation"
 products = ["Farm Machinery and Equipment Manufacturing"]

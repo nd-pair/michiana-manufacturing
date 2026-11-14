@@ -9,6 +9,8 @@ address = "200 South Depot Street, Rolling Prairie, IN 46371"
 lat = 41.67264
 lon = -86.61662
 website = "https://gmdco.com"
+verified_note = "BBB directory lists Grimm Mold & Die at 200 S Depot St, Rolling Prairie; gmdco.com refused connection and no dated evidence was found. Source: https://www.bbb.org/us/in/rolling-prairie/category/machine-shop"
+verified = "2026-11-13"
 
 sector = "Mechatronics & automation"
 products = ["Industrial Mold Manufacturing"]

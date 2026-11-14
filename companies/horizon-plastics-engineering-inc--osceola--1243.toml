@@ -8,6 +8,8 @@ state = "IN"
 address = "1243 3rd Street, Osceola, IN 46561"
 lat = 41.66062
 lon = -86.08453
+verified_note = "DexKo Global completed its acquisition of Horizon Plastics & Engineering (1243 3rd St, Osceola, injection molding, ~20 employees) on April 21, 2023; no sign yet of a rename. Source: https://prnewswire.com/news-releases/dexko-global-inc-acquires-horizon-plastics--engineering-inc-301804564.html"
+verified = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["All Other Plastics Product Manufacturing"]

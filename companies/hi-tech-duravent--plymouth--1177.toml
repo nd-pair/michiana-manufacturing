@@ -9,6 +9,8 @@ address = "1177 Markley Drive, Plymouth, IN 46563"
 lat = 41.35905
 lon = -86.31958
 website = "https://hitechduravent.com"
+verified_note = "Live company site (2025 copyright) and directory listings give 1177 Markley Dr, Plymouth, IN 46563; the site itself shows no street address. Source: https://www.hitechduravent.com"
+verified = "2026-11-13"
 
 sector = "Metal"
 products = ["All Other Miscellaneous Fabricated Metal Product Manufacturing"]

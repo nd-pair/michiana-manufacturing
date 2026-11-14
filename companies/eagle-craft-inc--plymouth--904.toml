@@ -9,6 +9,8 @@ address = "904 Markley Drive, Plymouth, IN 46563"
 lat = 41.35964
 lon = -86.31835
 website = "https://eaglecaps.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Only a federal enforcement profile (OSHA history, NAICS 336214) places Eagle Craft at 904 Markley Dr; eaglecaps.com refused connection and no dated evidence found. Source: https://www.fastdol.com/employers/eagle-craft-inc-bdea65c4-1921-4802-2c5f-37f11ac6e39b"
+presumed_closed = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["Mineral Wool Manufacturing"]

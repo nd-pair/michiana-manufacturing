@@ -9,6 +9,8 @@ address = "180 Kerth Street, Saint Joseph, MI 49085"
 lat = 42.07424
 lon = -86.50188
 website = "https://custometalproducts.com"
+verified_note = "A 2022 Michigan EGLE inspection report and a local article place sheet-metal fabricator CustomMetal Products at 180 Kerth St, St. Joseph; the company site had an expired certificate when fetched. Source: https://www.moodyonthemarket.com/?p=232119"
+verified = "2026-11-13"
 
 sector = "Metal"
 products = ["Sheet Metal Work Manufacturing"]

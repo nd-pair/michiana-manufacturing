@@ -9,6 +9,8 @@ address = "1201 Markley Drive, Plymouth, IN 46563"
 lat = 41.35905
 lon = -86.32344
 website = "https://shamrock-homes.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Searches for Carlynn Enterprises or Shamrock Homes at 1201 Markley Dr returned nothing and the shamrock-homes.com page returned no content."
+presumed_closed = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Manufactured Home (mobile Home) Manufacturing"]

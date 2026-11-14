@@ -9,6 +9,8 @@ address = "2300 North Pine Road, Plymouth, IN 46563"
 lat = 41.44025
 lon = -86.34807
 website = "https://pioneer.com"
+verified_note = "IBJ reports Corteva's Pioneer seed plant in Plymouth, operating since 1989; the street address 2300 N Pine Rd was not confirmed by any source. Source: https://www.ibj.com/articles/made-in-indiana-pioneer-seeds-by-corteva-agriscience"
+verified = "2026-11-13"
 
 sector = "Food & consumer goods"
 products = ["Wet Corn Milling"]

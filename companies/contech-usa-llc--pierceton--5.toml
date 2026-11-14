@@ -9,6 +9,8 @@ address = "5 Arnolt Drive, Pierceton, IN 46562"
 lat = 41.20470
 lon = -85.71448
 website = "https://spx.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. No Contech presence found at 5 Arnolt Dr; spx.com does not mention Pierceton, and the only Arnolt Dr occupants found were OMCO (1 Arnolt) and Gills Manufacturing (2 Arnolt). Source: https://start.cortera.com/company/research/l2k4syn3k/omco/"
+presumed_closed = "2026-11-13"
 
 sector = "Vehicles & RVs"
 products = ["Gasoline Engine and Engine Parts Manufacturing"]

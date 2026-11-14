@@ -9,6 +9,8 @@ address = "4217 North Old US Highway 31, Rochester, IN 46975"
 lat = 41.11392
 lon = -86.22412
 website = "https://airvac.com"
+verified_note = "Airvac's live site locations page lists the Rochester manufacturing and administrative building at 4217 N Old US Highway 31 (Aqseptence Group brand); no dated item found. Source: https://airvac.com/en/about-us/locations"
+verified = "2026-11-13"
 
 sector = "Mechatronics & automation"
 products = ["Other Commercial and Service Industry Machinery Manufacturing"]

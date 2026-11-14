@@ -9,6 +9,8 @@ address = "216 Lincoln Way East, Osceola, IN 46561"
 lat = 41.66368
 lon = -86.06800
 website = "https://ussigncrafters.com"
+verified_note = "Live company site with 2026 copyright and April-May 2026 uploads lists 216 Lincolnway E, Osceola, IN. Source: https://ussigncrafters.com"
+verified = "2026-11-13"
 
 sector = "Medical devices & other"
 products = ["Sign Manufacturing"]

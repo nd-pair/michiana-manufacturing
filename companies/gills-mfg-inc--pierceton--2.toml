@@ -9,6 +9,8 @@ address = "2 Arnolt Drive, Pierceton, IN 46562"
 lat = 41.20571
 lon = -85.71861
 website = "https://lightsforholidays.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Listed website lightsforholidays.com now redirects to a GoDaddy for-sale page; only an undated aggregator profile shows Gills Manufacturing at 2 Arnolt Dr. Source: https://naicslist.com/company-profile/gills-manufacturing-inc-pierceton-in-46562"
+presumed_closed = "2026-11-13"
 
 sector = "Mechatronics & automation"
 products = ["Special Die and Tool, Die Set, Jig, and Fixture Manufacturing"]

@@ -9,6 +9,9 @@ address = "1403 Stanley Drive, Plymouth, IN 46563"
 lat = 41.35226
 lon = -86.33402
 website = "https://whitleyproducts.com"
+closed_source = "https://timesuniononline.com/news/2016/jul/28/whitley-products-closes-unexpectedly"
+closed_note = "Whitley Products closed its Plymouth facility without warning in July 2016 (an earlier January 2013 shutdown was also reported), and whitleyproducts.com is now a domain-for-sale page."
+closed = "2016"
 
 sector = "Metal"
 products = ["Iron and Steel Pipe and Tube Manufacturing From Purchased Steel"]

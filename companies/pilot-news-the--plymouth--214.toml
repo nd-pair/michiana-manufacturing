@@ -9,6 +9,8 @@ address = "214 North Michigan Street, Plymouth, IN 46563"
 lat = 41.34122
 lon = -86.30885
 website = "https://thepilotnews.com"
+removed_reason = "not a production site (office or hq), found in a verification check: The Pilot News site (2026 content) gives its address as 218 N. Michigan, Plymouth, a likely numbering variant of the 214 N Michigan listing on the same block."
+removed = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Prepress Services"]
