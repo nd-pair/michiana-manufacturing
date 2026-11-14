@@ -9,6 +9,8 @@ address = "4701 Nimtz Parkway, South Bend, IN 46628"
 lat = 41.72875
 lon = -86.31952
 website = "https://schaferindustries.com/gear-works"
+removed_reason = "duplicate: the same plant as companies/schafer.toml (Schafer Industries), found by the consistency check"
+removed = "2026-11-14"
 former_website = "https://schafergear.com"
 osha_id = "1470695"
 

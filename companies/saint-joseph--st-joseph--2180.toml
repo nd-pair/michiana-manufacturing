@@ -8,6 +8,8 @@ state = "MI"
 address = "2180 Maiden Lane, St Joseph, MI 49085"
 lat = 42.05060
 lon = -86.50671
+removed_reason = "duplicate: Walsworth's St. Joseph printing plant at 2180 Maiden Lane, already on the map as companies/ipc-print-services-inc--saint-joseph--2180.toml"
+removed = "2026-11-14"
 osha_id = "1021354"
 
 sector = "Wood, paper & furniture"

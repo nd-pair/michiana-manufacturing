@@ -5,10 +5,11 @@ name = "Serenade Foods Co., Inc."
 kind = "company"
 city = "Milford"
 state = "IN"
-address = "9166 North 200 East, Milford, IN 46542"
-lat = 41.36600
-lon = -85.80596
+address = "9179 North 200 East, Milford, IN 46542"
+lat = 41.36620
+lon = -85.80642
 website = "https://mapleleaffarms.com"
+status_note = "Maple Leaf Farms' Serenade (SER) plant files with OSHA at 9179 N 200 E; moved there from Maple Leaf's main address (November 2026)."
 verified_note = "USDA lists Serenade Foods, a division of Maple Leaf Farms, as an active poultry plant at 9179 N 200 E, and Maple Leaf Farms is listed at 9166 N 200 E on the same Milford campus. Source: https://www.fsis.usda.gov/inspection/fsis-inspected-establishments/serenade-foods-division-maple-leaf-farms-inc."
 verified = "2026-11-13"
 

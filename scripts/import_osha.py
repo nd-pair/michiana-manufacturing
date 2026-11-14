@@ -83,7 +83,8 @@ def clean_name(est, company, city):
     n = re.sub(r"(?i)\s+(llc|inc\.?)?\s*(wa|in|mi)$", lambda m: (" " + m[1]) if m[1] else "", n)
     coded = bool(re.search(r"\b(?=\w*[a-z])(?=\w*\d)\w+\b", n, re.I))   # 'FCE1-FOAM', 'IN222', '3MUS'
     n = re.sub(r"(?i)[\s\-–&,]+(plant|&)?$", "", strip_codes(n)).strip()
-    generic = (not n or coded or len(re.sub(r"[^a-z]", "", n.lower())) < 4 or norm(n) in ("", norm(city)) or DEPT.match(n)
+    same_town = lambda x: re.sub(r"\bsaint\b", "st", norm(x).replace(".", ""))
+    generic = (not n or coded or len(re.sub(r"[^a-z]", "", n.lower())) < 4 or norm(n) in ("", norm(city)) or same_town(n) == same_town(city) or DEPT.match(n)
                or re.fullmatch(r"(?i).*\b(ave|avenue|st|street|rd|road|dr|drive|cr\d*)\.?", n)
                or re.fullmatch(r"(?i)(us\s+)?[a-z .]+,?\s+(in|mi|indiana|michigan)", n)
                or norm(n) in {norm(x) for x in ("Elkhart", "South Bend", "Goshen", "Middlebury", "Bremen", "Kendallville", "Sawyer", "Etna Green",

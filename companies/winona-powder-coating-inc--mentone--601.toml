@@ -9,6 +9,8 @@ address = "9876 W Old Road 30, Etna Green, IN 46524"
 lat = 41.27394
 lon = -86.03120
 website = "https://winonapowder.com"
+removed_reason = "duplicate: the same plant as companies/winona-powder-coating-inc--etna-green--9876.toml (Winona Powder Coating, Inc.), found by the consistency check"
+removed = "2026-11-14"
 verified = "2026-11-13"
 status_note = "Moved from 601 South Franklin Street, Mentone, IN 46539; found in a verification check (2026-11-13): A 2013 release describes expansion from the 30,000 sq ft Mentone property to a 167,000 sq ft Etna Green plant; a 2025 IDEM notice lists the facility at 9876 W Old Road 30, and 601 S Franklin is now listed as industrial land with sales in 2018 and 2022."
 

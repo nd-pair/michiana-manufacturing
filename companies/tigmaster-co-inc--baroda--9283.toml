@@ -9,6 +9,8 @@ address = "9283 1st Street, Baroda, MI 49101"
 lat = 41.95137
 lon = -86.48526
 website = "https://tigmaster.com"
+removed_reason = "duplicate: the same plant as companies/tigmasters-inc--baroda--9283.toml (Tigmasters Inc), found by the consistency check"
+removed = "2026-11-14"
 verified_note = "Tigmaster, headquartered in Baroda with 40+ employees, was sold to the Lakeshore Die Cast owner in a deal posted around January 2025; the 9283 1st St address comes from a directory listing. Source: https://www.caldergr.com/tombstone/201-tigmaster-welding-of-baroda-mi-acquired-by-local-entrepreneur/"
 verified = "2026-11-13"
 

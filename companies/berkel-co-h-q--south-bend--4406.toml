@@ -9,6 +9,8 @@ address = "4406 Technology Drive, South Bend, IN 46628"
 lat = 41.73566
 lon = -86.34226
 website = "https://berkel.com"
+presumed_closed_reason = "Millennium Machinery Inc. occupies 4406 Technology Drive; nothing current places Berkel there (consistency check, November 2026)."
+presumed_closed = "2026-11-14"
 unconfirmed_reason = "The company operates in the region, but no current source confirms a plant at this address (verification check, November 2026): Berkel still operates as an ITW food-equipment brand, but the only 4406 Technology Dr source is an old product manual, berkel.com could not be fetched, and a third-party site says it moved to Troy, OH (unconfirmed)."
 unconfirmed = "2026-11-14"
 

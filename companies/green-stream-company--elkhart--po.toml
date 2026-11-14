@@ -6,6 +6,8 @@ kind = "company"
 city = "Elkhart"
 state = "IN"
 address = "2123 Middlebury Street, Elkhart, IN 46516"
+lat = 41.68119
+lon = -85.93050
 osha_id = "887686"
 
 sector = "Wood, paper & furniture"
