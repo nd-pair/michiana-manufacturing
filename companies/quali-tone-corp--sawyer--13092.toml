@@ -8,6 +8,8 @@ state = "MI"
 address = "13092 Red Arrow Highway, Sawyer, MI 49125"
 lat = 41.87974
 lon = -86.61373
+unconfirmed_reason = "The company operates in the region, but no current source confirms a plant at this address (verification check, November 2026): Michigan DEQ air-quality notices from 2014-2015 are addressed to Quali-Tone at 13092 Red Arrow Highway, and an FMCSA profile shows a Quali-Tone vehicle inspection in February 2026, but no source confirms the plant at this address now."
+unconfirmed = "2026-11-14"
 
 sector = "Metal"
 products = ["Metal Coating, Engraving (except Jewelry and Silverware), and Allied Services To Manufacturers"]

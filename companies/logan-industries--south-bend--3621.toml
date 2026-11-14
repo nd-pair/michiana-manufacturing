@@ -9,6 +9,8 @@ address = "3621 Boland Drive, South Bend, IN 46628"
 lat = 41.71593
 lon = -86.30058
 website = "https://loganindustries.com"
+unconfirmed_reason = "The company operates in the region, but no current source confirms a plant at this address (verification check, November 2026): loganindustries.com now redirects to logancenter.org's pre-vocational training page, MapQuest marks the Boland Dr listing closed, and no dated evidence of the plant was found."
+unconfirmed = "2026-11-14"
 
 sector = "Materials & composites"
 products = ["All Other Plastics Product Manufacturing"]

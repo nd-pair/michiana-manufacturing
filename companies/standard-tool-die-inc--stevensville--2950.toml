@@ -9,6 +9,8 @@ address = "2950 Johnson Road, Stevensville, MI 49127"
 lat = 42.00692
 lon = -86.52138
 website = "https://standardtool.net"
+unconfirmed_reason = "The company operates in the region, but no current source confirms a plant at this address (verification check, November 2026): Directories list Standard Tool & Die at 2950 Johnson Road but warn it may have closed or moved, and no dated evidence or live site was found."
+unconfirmed = "2026-11-14"
 
 sector = "Mechatronics & automation"
 products = ["Special Die and Tool, Die Set, Jig, and Fixture Manufacturing"]

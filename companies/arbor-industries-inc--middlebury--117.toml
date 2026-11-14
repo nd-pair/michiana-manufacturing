@@ -8,6 +8,8 @@ state = "IN"
 address = "117 14th Avenue, Middlebury, IN 46540"
 lat = 41.68686
 lon = -85.69824
+unconfirmed_reason = "The company operates in the region, but no current source confirms a plant at this address (verification check, November 2026): Arbor Industries is listed in Middlebury (directory shows 117 14th St, chamber shows PO Box 313) but no dated source confirms this exact address."
+unconfirmed = "2026-11-14"
 
 sector = "Wood, paper & furniture"
 products = ["Cut Stock, Resawing Lumber, and Planing"]

@@ -9,6 +9,8 @@ address = "1237 Northside Boulevard, South Bend, IN 46615"
 lat = 41.66257
 lon = -86.23122
 website = "https://sbcontrols.com"
+unconfirmed_reason = "The company operates in the region, but no current source confirms a plant at this address (verification check, November 2026): Curtiss-Wright acquired South Bend Controls in 2011 and sbcontrols.com redirects to Curtiss-Wright, but no dated source confirms operation at 1237 Northside Blvd."
+unconfirmed = "2026-11-14"
 
 sector = "Metal"
 products = ["Industrial Valve Manufacturing"]

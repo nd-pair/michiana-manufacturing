@@ -8,6 +8,8 @@ state = "MI"
 address = "27263 May Street, Edwardsburg, MI 49112"
 lat = 41.78172
 lon = -86.09403
+unconfirmed_reason = "The company operates in the region, but no current source confirms a plant at this address (verification check, November 2026): North American Forest Products operates in Edwardsburg (a 2022 state report places the facility at 69708 Kraus Road), but nothing confirms 27263 May Street."
+unconfirmed = "2026-11-14"
 
 sector = "Wood, paper & furniture"
 products = ["Sawmills"]

@@ -9,6 +9,8 @@ address = "65906 State Road 19, Wakarusa, IN 46573"
 lat = 41.53762
 lon = -86.00107
 website = "https://utilimaster.com"
+unconfirmed_reason = "The company operates in the region, but no current source confirms a plant at this address (verification check, November 2026): Utilimaster is live (2026, part of Aebi Schmidt) and an undated trade article says dry-freight bodies are still built in Wakarusa, but no dated source confirms this exact address."
+unconfirmed = "2026-11-14"
 
 sector = "Vehicles & RVs"
 products = ["Light Truck and Utility Vehicle Manufacturing"]

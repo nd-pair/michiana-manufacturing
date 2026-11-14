@@ -9,6 +9,8 @@ address = "1827 North Bendix Drive, South Bend, IN 46628"
 lat = 41.69929
 lon = -86.29397
 website = "https://mann-hummel.com"
+unconfirmed_reason = "The company operates in the region, but no current source confirms a plant at this address (verification check, November 2026): Mann+Hummel had a South Bend plant per 2005-2009 sources, but no source confirms the Bendix Drive address or current operation."
+unconfirmed = "2026-11-14"
 
 sector = "Materials & composites"
 products = ["All Other Plastics Product Manufacturing"]

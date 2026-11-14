@@ -9,6 +9,8 @@ address = "1001 North Oak Road, Plymouth, IN 46563"
 lat = 41.34855
 lon = -86.32914
 website = "https://maax.com"
+unconfirmed_reason = "The company operates in the region, but no current source confirms a plant at this address (verification check, November 2026): MAAX Bath still hires for a Plymouth, IN plant (2025 plant manager posting) but no source ties it to 1001 N Oak Rd (Cortera gives 1400 Pidco Dr), so the address is unconfirmed."
+unconfirmed = "2026-11-14"
 
 sector = "Materials & composites"
 products = ["Mineral Wool Manufacturing"]

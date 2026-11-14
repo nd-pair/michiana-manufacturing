@@ -9,6 +9,8 @@ address = "129 Roy Street, Topeka, IN 46571"
 lat = 41.54202
 lon = -85.54057
 website = "https://ascotent.com"
+unconfirmed_reason = "The company operates in the region, but no current source confirms a plant at this address (verification check, November 2026): Ascot's live 2026 site shows an active curtain maker with five US facilities, but no source confirms 129 Roy Street (directories list Nappanee 503 S Main and Elkhart addresses)."
+unconfirmed = "2026-11-14"
 
 sector = "Food & consumer goods"
 products = ["Curtain and Drapery Mills"]

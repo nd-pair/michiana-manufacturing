@@ -9,6 +9,8 @@ address = "515 Anchorage Road, Warsaw, IN 46580"
 lat = 41.26328
 lon = -85.84965
 website = "https://ameri-kan.com"
+unconfirmed_reason = "The company operates in the region, but no current source confirms a plant at this address (verification check, November 2026): Ameri-Kan.com now 301-redirects to ruggedsteelcontainers.com (404); undated MapQuest and OSHA records place the refuse-container maker at 515 Road 200 North, Warsaw, with no confirmation of Anchorage Road or current status."
+unconfirmed = "2026-11-14"
 
 sector = "Metal"
 products = ["Metal Can Manufacturing"]

@@ -208,6 +208,7 @@ def main():
             "hum_add": list(c.get("humanoid", [])), "hum_not": list(c.get("humanoid_not", [])),
             "hum_ev": c.get("humanoid_evidence", "inferred"), "hum_note": c.get("humanoid_note", ""),
             "mfg": is_manufacturer(c), "occupant": c.get("osha_occupant", ""),
+            "unconf": (c.get("unconfirmed_reason") or "address unconfirmed") if c.get("unconfirmed") else "",
         })
     # spread companies that share one address in a small ring (in degrees)
     import math
@@ -387,7 +388,7 @@ def main():
             "{{BLSMONTH}}": bls_month(bls), "{{BLSPULLED}}": bls.get("pulled", "not yet pulled"),
             "{{NDRESEARCH}}": ("<p><strong>Notre Dame research</strong> in the same panel lists the federal grants, cooperative agreements and contracts to the University of Notre Dame since FY2016, and its subawards on other institutions' awards, whose title (or description, at least three times) is about robots, autonomy and drones, prosthetics and exoskeletons, haptics, legged or humanoid systems or robotic manufacturing, from USAspending.gov, with investigators for NSF awards from the NSF Award Search. Amounts are obligations so far; industry, foundation and state funding are not included.</p>" if show_ndr else ""),
             "{{HUMCOMP}}": str(len(hspec["component"])),
-            "{{REMOVED}}": str(len(removed)), "{{PRESUMED}}": str(len(presumed)),
+            "{{REMOVED}}": str(len(removed)), "{{UNCONF}}": str(sum(1 for o in companies if o["unconf"])), "{{PRESUMED}}": str(len(presumed)),
             "{{NEWSADDED}}": str(src_counts["news"]),
             "{{OPENITEMS}}": str(len((sidecar("open_items.json").get("items") or {}))),
             "{{NEWSSOURCES}}": str(len(load_toml(P("data", "news_sources.toml")).get("domains", []))),

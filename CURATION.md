@@ -30,6 +30,10 @@ reading of every rule: when in doubt, it records nothing.
   with `presumed_closed_reason` (one sentence: what was checked and found). The build leaves it off
   the map. A same-name OSHA filing or a dated source that it operates brings it back: delete both
   fields. The automated news review does not set `presumed_closed`; it is for verification checks.
+- When a check finds that the company operates in the region but cannot confirm a plant at the listed
+  address, mark it `unconfirmed` (the date of the check) with `unconfirmed_reason`. It stays on the map
+  as a dim column with a note on its card. A dated source or OSHA filing for the address removes the
+  flag (delete both fields); a source that the plant is elsewhere or gone moves or closes it.
 - A WARN closing notice for a plant is a dated source. `scripts/pull_warn.py` marks an imported plant
   closed once the notice's closing date has passed, unless the plant filed with OSHA for a later year;
   notices for hand-written files go to the closure review.

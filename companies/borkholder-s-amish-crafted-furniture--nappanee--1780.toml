@@ -9,6 +9,8 @@ address = "1780 West Market Street, Nappanee, IN 46550"
 lat = 41.44305
 lon = -86.02257
 website = "https://borkholder.com"
+unconfirmed_reason = "The company operates in the region, but no current source confirms a plant at this address (verification check, November 2026): borkholder.com fetch failed with a certificate mismatch (serves ahfurniture.com) and no source confirms Borkholder Furniture at 1780 W Market St; a directory lists it at 352 Shawnee St."
+unconfirmed = "2026-11-14"
 
 sector = "Wood, paper & furniture"
 products = ["Nonupholstered Wood Household Furniture Manufacturing"]

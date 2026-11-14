@@ -9,6 +9,8 @@ address = "3840 Livingston Road, Bridgman, MI 49106"
 lat = 41.96804
 lon = -86.54633
 website = "https://fairmountminerals.com"
+unconfirmed_reason = "The company operates in the region, but no current source confirms a plant at this address (verification check, November 2026): State air-permit records show Technisand operating at 3840 Livingston Rd in 2014-2015 (Covia product line today), but no current confirmation of the Bridgman plant was found."
+unconfirmed = "2026-11-14"
 
 sector = "Materials & composites"
 products = ["Cut Stone and Stone Product Manufacturing"]

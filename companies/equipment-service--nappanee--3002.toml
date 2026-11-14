@@ -8,6 +8,8 @@ state = "IN"
 address = "3002 Cheyenne Street, Nappanee, IN 46550"
 lat = 41.44831
 lon = -86.03494
+unconfirmed_reason = "The company operates in the region, but no current source confirms a plant at this address (verification check, November 2026): Equipment Service, Inc. of Nappanee (machine shop/Harvestore parts) is listed by Purdue MEP but no street address or date was found to tie it to 3002 Cheyenne St."
+unconfirmed = "2026-11-14"
 
 sector = "Metal"
 products = ["Machine Shops"]

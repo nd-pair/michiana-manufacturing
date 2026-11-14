@@ -24,7 +24,7 @@ Rules, for imported records only (HIFLD or OSHA; hand-written files are never ch
   carries it: `name` becomes the current name, the old one goes to `formerly`, the old
   website and UEI are dropped; otherwise presumed_closed;
 - address_unconfirmed (the company operates in the region, but nothing confirms or contradicts this
-  address): left unchanged, since the company exists;
+  address): kept on the map with `unconfirmed` and `unconfirmed_reason`, shown as a dim column;
 - a finding whose note says the record was not actually searched (UNVERIFIED, search budget) is
   skipped and listed, to be checked again.
 Optionally writes every finding with the action taken to a CSV for the audit trail.
@@ -69,7 +69,10 @@ def main(args):
         elif UNSEARCHED.search(note):
             action = "skipped: not searched"; skipped.append(c["_id"])
         elif st == "address_unconfirmed":
-            action = "unchanged: the company operates in the region, this address is unconfirmed"
+            action = "flagged unconfirmed: the company operates in the region, this address is unconfirmed"
+            if not dry:
+                set_field(path, "unconfirmed", date)
+                set_field(path, "unconfirmed_reason", "The company operates in the region, but no current source confirms a plant at this address (verification check): " + note)
         elif st == "operating" and fac in ("office_or_hq", "service_or_retail", "warehouse_distribution") and not re.search(r"(?i)manufactur|plant|production|makes|fabricat", note):
             action = "removed"
             if not dry:
@@ -78,6 +81,7 @@ def main(args):
         elif st == "operating" and fac != "residence_or_vacant":
             action = "verified"
             if not dry:
+                del_field(path, "unconfirmed"); del_field(path, "unconfirmed_reason")
                 set_field(path, "verified", date)
                 set_field(path, "verified_note", note + (" Source: " + ev[0] if ev else ""))
         elif st == "moved" and in_region(x.get("current_address") or "") and fac not in ("office_or_hq", "service_or_retail", "warehouse_distribution") \

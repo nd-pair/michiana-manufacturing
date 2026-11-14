@@ -8,6 +8,8 @@ state = "IN"
 address = "160 South Oakland Avenue, Nappanee, IN 46550"
 lat = 41.44201
 lon = -85.98178
+unconfirmed_reason = "The company operates in the region, but no current source confirms a plant at this address (verification check, November 2026): A Nappanee Franklin Coach (founded 1945) appears in a history wiki and directory, but no source confirms it is currently at 160 S Oakland Ave."
+unconfirmed = "2026-11-14"
 
 sector = "Vehicles & RVs"
 products = ["Motor Home Manufacturing"]

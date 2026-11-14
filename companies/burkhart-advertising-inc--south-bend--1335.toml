@@ -9,6 +9,8 @@ state = "IN"
 address = "1247 Mishawaka Avenue, South Bend, IN 46615"
 lat = 41.66594
 lon = -86.23076
+unconfirmed_reason = "The company operates in the region, but no current source confirms a plant at this address (verification check, November 2026): City records place Burkhart Sign Systems at 1247 Mishawaka Ave and Hayes Design Co. acquired that sign business in 2021, but no source confirms Hayes operating there now (Burkhart Advertising, at 1335 Mishawaka Ave, was bought by Lamar)."
+unconfirmed = "2026-11-14"
 status_note = "Hayes Design Co. bought Burkhart's sign-making business in late 2021; Lamar bought its billboards in 2022."
 
 sector = "Medical devices & other"

@@ -9,6 +9,8 @@ address = "11280 West US Highway 20, Shipshewana, IN 46565"
 lat = 41.65382
 lon = -85.64322
 website = "https://forksrv.com"
+unconfirmed_reason = "The company operates in the region, but no current source confirms a plant at this address (verification check, November 2026): A 2013 NHTSA filing lists Forks RV, Inc. at 11280 W US 20 and Superpages lists the company in the Topeka area, but forksrv.com failed its certificate check and no current evidence at the address was found."
+unconfirmed = "2026-11-14"
 
 sector = "Vehicles & RVs"
 products = ["Truck Trailer Manufacturing"]

@@ -8,6 +8,8 @@ state = "IN"
 address = "1130 Kent Street, Elkhart, IN 46514"
 lat = 41.69817
 lon = -86.00594
+unconfirmed_reason = "The company operates in the region, but no current source confirms a plant at this address (verification check, November 2026): ESCO Tools history says AI Manufacturing (est. 1986) sits next to Elkhart Supply on Kent Street, but no source gives the 1130 Kent Street address or current status."
+unconfirmed = "2026-11-14"
 
 sector = "Mechatronics & automation"
 products = ["Industrial Mold Manufacturing"]

@@ -9,6 +9,8 @@ address = "1015 Saint Jerome Street, Mishawaka, IN 46544"
 lat = 41.64556
 lon = -86.16586
 website = "https://copperandbrass.com"
+unconfirmed_reason = "The company operates in the region, but no current source confirms a plant at this address (verification check, November 2026): Copper and Brass Sales is now branded Materials Plus with a South Bend location, but no source confirmed the 1015 St Jerome St address."
+unconfirmed = "2026-11-14"
 
 sector = "Metal"
 products = ["Aluminum Sheet, Plate, and Foil Manufacturing"]

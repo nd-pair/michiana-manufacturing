@@ -198,6 +198,8 @@ def main(args):
                 set_field(path, "osha_id", eid); by_osha[eid] = cid
             if c.get("presumed_closed"):
                 del_field(path, "presumed_closed"); del_field(path, "presumed_closed_reason"); restored += 1
+            if c.get("unconfirmed"):   # a same-name filing at this address confirms the plant
+                del_field(path, "unconfirmed"); del_field(path, "unconfirmed_reason")
             if emp and scope == "site" and c.get("employees_scope", "site") == "site" and (not c.get("employees") or c.get("employees_quality") == "estimate"
                                                                       or re.search(r"(?i)estimate", c.get("employees_note", ""))):
                 set_field(path, "employees", emp); set_field(path, "employees_year", int(year) if year.isdigit() else year)

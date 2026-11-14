@@ -8,6 +8,8 @@ state = "IN"
 address = "405 West Chicago Street, Syracuse, IN 46567"
 lat = 41.41857
 lon = -85.75166
+unconfirmed_reason = "The company operates in the region, but no current source confirms a plant at this address (verification check, November 2026): MapQuest describes Rogers Electro-Matics as a Syracuse, IN PCB assembly contract manufacturer but no source shows the 405 W Chicago St address."
+unconfirmed = "2026-11-14"
 
 sector = "Electronics"
 products = ["Relay and Industrial Control Manufacturing"]

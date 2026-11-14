@@ -8,6 +8,8 @@ state = "IN"
 address = "750 Chapin Street, South Bend, IN 46601"
 lat = 41.66730
 lon = -86.26088
+unconfirmed_reason = "The company operates in the region, but no current source confirms a plant at this address (verification check, November 2026): Undated directory entries (Superpages, NAICS List, BBB) list Holbert Engineering at 750 Chapin St, but no dated evidence or website confirms it is still active."
+unconfirmed = "2026-11-14"
 
 sector = "Mechatronics & automation"
 products = ["Special Die and Tool, Die Set, Jig, and Fixture Manufacturing"]

@@ -8,6 +8,8 @@ state = "IN"
 address = "355 North Tomahawk Trail, Nappanee, IN 46550"
 lat = 41.44509
 lon = -86.02996
+unconfirmed_reason = "The company operates in the region, but no current source confirms a plant at this address (verification check, November 2026): A Nappanee grain equipment firm of this name has an undated profile with no street address, and a BBB page lists 355 N Tomahawk Trl without clearly naming the company."
+unconfirmed = "2026-11-14"
 
 sector = "Mechatronics & automation"
 products = ["Farm Machinery and Equipment Manufacturing"]

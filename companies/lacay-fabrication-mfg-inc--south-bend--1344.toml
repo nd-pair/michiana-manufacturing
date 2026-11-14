@@ -9,6 +9,8 @@ address = "1344 West Sample Street, South Bend, IN 46619"
 lat = 41.66462
 lon = -86.26972
 website = "https://lacayfab.com"
+unconfirmed_reason = "The company operates in the region, but no current source confirms a plant at this address (verification check, November 2026): lacayfab.com now redirects to an expired-domain page and no listing exists for 1344 W Sample St; directories show Lacay at Glenview Dr in Elkhart, with no dated evidence."
+unconfirmed = "2026-11-14"
 
 sector = "Metal"
 products = ["Iron and Steel Mills"]

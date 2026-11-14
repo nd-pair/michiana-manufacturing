@@ -9,6 +9,8 @@ address = "205 in 104, Walkerton, IN 46574"
 lat = 41.47185
 lon = -86.49599
 website = "https://mgtechcorp.com"
+unconfirmed_reason = "The company operates in the region, but no current source confirms a plant at this address (verification check, November 2026): A 2003 USGS report says Magnesium Technologies Inc. bought the Rossborough reagent business including Walkerton plants, but the garbled address '205 in 104' was found nowhere and the site returned 403."
+unconfirmed = "2026-11-14"
 
 sector = "Materials & composites"
 products = ["All Other Miscellaneous Chemical Product and Preparation Manufacturing"]

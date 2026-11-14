@@ -9,6 +9,8 @@ address = "1711 West Dewey Street, Bremen, IN 46506"
 lat = 41.45084
 lon = -86.16879
 website = "https://princeagri.com"
+unconfirmed_reason = "The company operates in the region, but no current source confirms a plant at this address (verification check, November 2026): Prince Agri is a Phibro Animal Health division that still operates, but only an undated OSHA aggregator lists 1711 W Dewey St and the website could not be fetched."
+unconfirmed = "2026-11-14"
 
 sector = "Food & consumer goods"
 products = ["Other Animal Food Manufacturing"]

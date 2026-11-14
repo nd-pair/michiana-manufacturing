@@ -78,6 +78,7 @@ Field by field:
 | `standalone` | no | `true` keeps an entry out of automatic grouping, e.g. a fund whose page lives on another organization's site |
 | `manufacturer` | no | `false` leaves the company out of every count (on the map still); `true` counts it. Without it, NAICS 31–33 and hand-written companies count, and software firms, SBIR research firms with no production, investors and universities do not |
 | `presumed_closed`, `presumed_closed_reason` | no | Date of a verification check that found an imported record closed without a dated source, or with no current trace; the entry is left off the map until a same-name OSHA filing or a dated source shows it operating (see CURATION.md) |
+| `unconfirmed`, `unconfirmed_reason` | no | The company operates in the region, but no current source confirms a plant at this address; shown as a dim column and a note on the card (see CURATION.md) |
 | `verified`, `verified_note` | no | Date and finding of a verification check that found the plant operating at this address (`scripts/apply_checks.py`); later checks can skip it |
 | `osha_occupant` | no | Set by `scripts/import_osha.py` when another name filed with OSHA at this file's address: a successor, rename or new tenant to review. Shown on the card |
 | `uei` | no | Unique Entity ID; federal and SBIR awards then match exactly. Filled in automatically once a unique name match is found |

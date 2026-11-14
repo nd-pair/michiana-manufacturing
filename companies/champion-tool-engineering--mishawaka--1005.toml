@@ -9,6 +9,8 @@ address = "1005 West 8th Street, Mishawaka, IN 46544"
 lat = 41.65503
 lon = -86.19258
 website = "https://championtool.com"
+unconfirmed_reason = "The company operates in the region, but no current source confirms a plant at this address (verification check, November 2026): Undated directory listings place a tool and die shop at 1005 W 8th St, but the website domain does not resolve and no dated evidence was found."
+unconfirmed = "2026-11-14"
 
 sector = "Mechatronics & automation"
 products = ["All Other Industrial Machinery Manufacturing"]

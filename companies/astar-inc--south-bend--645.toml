@@ -8,6 +8,8 @@ state = "IN"
 address = "645 Wilber Street, South Bend, IN 46628"
 lat = 41.68353
 lon = -86.27430
+unconfirmed_reason = "The company operates in the region, but no current source confirms a plant at this address (verification check, November 2026): Thomasnet lists an Astar, Inc. in South Bend 46628 (a separate Astar in Niles, MI also appears), but no source gives a street address or confirms 645 Wilber St, and no other occupant was found."
+unconfirmed = "2026-11-14"
 
 sector = "Materials & composites"
 products = ["All Other Plastics Product Manufacturing"]

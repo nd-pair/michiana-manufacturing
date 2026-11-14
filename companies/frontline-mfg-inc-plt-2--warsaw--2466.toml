@@ -8,6 +8,8 @@ state = "IN"
 address = "2466 North 200 West, Warsaw, IN 46580"
 lat = 41.26916
 lon = -85.88215
+unconfirmed_reason = "The company operates in the region, but no current source confirms a plant at this address (verification check, November 2026): Frontline Mfg. is listed in Leesburg (306 School St) and Warsaw (1445 Polk Dr) but no source mentions 2466 N 200 W and no other occupant was found."
+unconfirmed = "2026-11-14"
 
 sector = "Materials & composites"
 products = ["Vitreous China Plumbing Fixture and China and Earthenware Bathroom Accessories Manufacturing"]

@@ -9,6 +9,8 @@ address = "5660 North State Road 5, Shipshewana, IN 46565"
 lat = 41.72525
 lon = -85.58243
 website = "https://riegsecker.com"
+unconfirmed_reason = "The company operates in the region, but no current source confirms a plant at this address (verification check, November 2026): riegsecker.com is the Blue Gate Hospitality/Shipshewana Furniture site and Riegsecker Cabinet Co. operates at 255 Main St, Shipshewana, but nothing ties a Riegsecker Hardwoods operation to 5660 N State Road 5."
+unconfirmed = "2026-11-14"
 
 sector = "Wood, paper & furniture"
 products = ["Wood Kitchen Cabinet and Countertop Manufacturing"]

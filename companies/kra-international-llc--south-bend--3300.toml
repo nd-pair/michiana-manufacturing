@@ -9,6 +9,8 @@ address = "3300 West Sample Street, South Bend, IN 46619"
 lat = 41.66442
 lon = -86.29504
 website = "https://krainternational.com"
+unconfirmed_reason = "The company operates in the region, but no current source confirms a plant at this address (verification check, November 2026): KRA's site refers to a Mishawaka plant and not 3300 W Sample St, which is a multi-tenant industrial complex with other named tenants."
+unconfirmed = "2026-11-14"
 
 sector = "Electronics"
 products = ["Other Electronic Component Manufacturing"]

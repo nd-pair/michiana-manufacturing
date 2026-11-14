@@ -9,6 +9,8 @@ address = "1125 South Walnut Street, South Bend, IN 46619"
 lat = 41.66250
 lon = -86.27127
 website = "https://magnetech.com"
+unconfirmed_reason = "The company operates in the region, but no current source confirms a plant at this address (verification check, November 2026): Magnetech's HQ moved to Massillon, Ohio; directories list parent MISCOR Group at 1125 S Walnut St, but no dated evidence confirms a current South Bend shop."
+unconfirmed = "2026-11-14"
 
 sector = "Electronics"
 products = ["Motor and Generator Manufacturing"]

@@ -9,6 +9,8 @@ address = "503 South Oakland Avenue, Nappanee, IN 46550"
 lat = 41.43804
 lon = -85.98177
 website = "https://gulfstreamrv.com"
+unconfirmed_reason = "The company operates in the region, but no current source confirms a plant at this address (verification check, November 2026): gulfstreamrv.com refuses connections; Gulf Stream Coach exists in Nappanee but no dated source (2023 or later) confirmed 503 S Oakland Ave."
+unconfirmed = "2026-11-14"
 
 sector = "Vehicles & RVs"
 products = ["Motor Home Manufacturing"]
