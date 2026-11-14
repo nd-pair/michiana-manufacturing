@@ -253,6 +253,9 @@
 .mm-spark .pt{fill:var(--accent);stroke:var(--surface);stroke-width:2}
 .mm-spark .ft{font:500 10px var(--mono);color:var(--fg-3)}
 
+.mm-disclaimer{margin:0 0 10px;padding:8px 12px;border-left:3px solid var(--accent-2);background:var(--surface-2);font-size:12.5px;line-height:1.45;color:var(--fg-2)}
+.mm-disclaimer b{color:var(--fg)}.mm-disclaimer a{color:var(--accent)}
+.mm-disclaimer-foot{font-size:12px;line-height:1.45;opacity:.8;max-width:46em}
 /* humanoid supply chain panel; t0..t3 = no supplier .. 5 or more (one hue, light to dark; gaps hatched) */
 .mm-app{--h1:#1b4d5c;--h2:#1f8aa8;--h3:#7fe0f7}
 [data-theme=light] .mm-app{--h1:#b9dce8;--h2:#3f9cc4;--h3:#0d5675}

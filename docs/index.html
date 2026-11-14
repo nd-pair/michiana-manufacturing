@@ -6,7 +6,7 @@
 <link rel="preconnect" href="https://conductor.nd.edu">
 <link rel="preconnect" href="https://static.nd.edu" crossorigin>
 <title>Michiana Manufacturing | Correll Lab | University of Notre Dame</title>
-<meta property="og:description" name="description" content="The manufacturing and technology companies of the South Bend–Elkhart region on one map: 1137 manufacturers at 1215 sites, by sector, product and headcount.">
+<meta property="og:description" name="description" content="The manufacturing and technology companies of the South Bend–Elkhart region on one map: 1388 manufacturers at 1516 sites, by sector, product and headcount.">
 <meta name="author" content="Correll Lab, University of Notre Dame">
 <meta property="og:title" content="Michiana Manufacturing">
 <meta property="og:site_name" content="Michiana Manufacturing">
@@ -19,7 +19,7 @@
 <link rel="apple-touch-icon" href="img/favicon-180.png">
 <link rel="stylesheet" href="https://conductor.nd.edu/stylesheets/themes/ndt/4.0/ndt.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
-<link rel="stylesheet" href="app.css?v=b49cf51e61">
+<link rel="stylesheet" href="app.css?v=29780b687b">
 </head>
 <body>
 <script>/* dark unless this visitor chose light */try{document.body.setAttribute("data-theme",localStorage.getItem("mm-theme")||"dark")}catch(e){document.body.setAttribute("data-theme","dark")}</script>
@@ -126,6 +126,7 @@
       <section class="section mm-band" aria-label="The map">
       <div class="mm-app" id="mm-app">
         <div class="mm-wrap">
+          <p class="mm-disclaimer" role="note"><b>Disclaimer.</b> The visualizations and code on this site were generated with AI tools. The data comes from public sources, almost all of them government datasets; records from different sources are combined automatically and can contain mistakes. <a href="about.html">About the data</a></p>
           <div class="mm-tabs" role="tablist" aria-label="Sections of the map">
             <button type="button" role="tab" id="t-companies" data-tab="companies" aria-controls="tab-companies" aria-selected="true">Companies</button>
             <button type="button" role="tab" id="t-occupations" data-tab="occupations" aria-controls="tab-occupations" aria-selected="false" tabindex="-1">Occupations</button>
@@ -216,6 +217,7 @@
         <li><a href="https://correlllab.nd.edu">Correll Lab</a></li>
       </ul>
       <p><a href="index.html" class="site-link" property="url"><span property="name">Michiana Manufacturing</span></a></p>
+      <p class="mm-disclaimer-foot">The visualizations and code on this site were generated with AI tools. The data comes from public sources, almost all of them government datasets; records from different sources are combined automatically and can contain mistakes.</p>
       <div class="footer-contacts">
         <p class="contact-info">
           <span class="address" property="address" typeof="PostalAddress">
@@ -317,7 +319,7 @@
 document.querySelectorAll(".light-dark-toggle").forEach(function(x){x.checked=t==="dark";x.addEventListener("change",function(){var v=x.checked?"dark":"light";try{localStorage.setItem("mm-theme",v)}catch(e){}
 document.querySelectorAll(".light-dark-toggle").forEach(function(y){y.checked=x.checked})})})})();</script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
-<script src="data.js?v=b49cf51e61"></script>
-<script src="app.js?v=b49cf51e61"></script>
+<script src="data.js?v=29780b687b"></script>
+<script src="app.js?v=29780b687b"></script>
 </body>
 </html>

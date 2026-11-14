@@ -19,7 +19,7 @@
 <link rel="apple-touch-icon" href="img/favicon-180.png">
 <link rel="stylesheet" href="https://conductor.nd.edu/stylesheets/themes/ndt/4.0/ndt.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
-<link rel="stylesheet" href="app.css?v=b49cf51e61">
+<link rel="stylesheet" href="app.css?v=29780b687b">
 </head>
 <body>
 <script>/* dark unless this visitor chose light */try{document.body.setAttribute("data-theme",localStorage.getItem("mm-theme")||"dark")}catch(e){document.body.setAttribute("data-theme","dark")}</script>
@@ -125,8 +125,13 @@
     <div class="page-primary">
       <div class="section">
         <h1>About the data</h1>
-        <p class="lede">The map shows 1,137 manufacturers at 1,215 sites in the South Bend–Elkhart region, plus 46 other organizations (research and software firms with no production, investors and universities) that appear on the map but are left out of every company count. Every figure on it comes from a public source, listed below with how it is matched, how current it is, and what it leaves out. Built 2026-11-14.</p>
+        <p class="lede">The map shows 1,388 manufacturers at 1,516 sites in the South Bend–Elkhart region, plus 46 other organizations (research and software firms with no production, investors and universities) that appear on the map but are left out of every company count. Every figure on it comes from a public source, listed below with how it is matched, how current it is, and what it leaves out. Built 2026-11-14.</p>
       </div>
+
+      <section class="section">
+        <h2>Disclaimer</h2>
+        <p>The visualizations, the code and most of the text on this site were generated with AI tools. The data comes from public sources, almost all of them government datasets (the Department of Homeland Security, OSHA, BLS, the Census Bureau, BEA, USAspending.gov, SBIR.gov, openFDA and Indiana's Department of Workforce Development); a few entries cite company websites or regional news, each named in its file. Records from different sources are matched and combined automatically, by name, address and identifiers, and the scores are computed from them without review of each figure, so the site can contain mistakes: a wrong match, a closed plant still shown, an outdated headcount or a misassigned sector. Corrections are welcome on <a href="https://github.com/nd-pair/michiana-manufacturing">GitHub</a>.</p>
+      </section>
 
       <section class="section">
         <h2>Where the companies come from</h2>
@@ -134,12 +139,13 @@
           <thead><tr><th>Source</th><th>Entries</th><th>What it provides</th></tr></thead>
           <tbody>
             <tr><td>HIFLD General Manufacturing Facilities (U.S. Department of Homeland Security, served by the Department of Energy's NETL)</td><td>1,180</td><td>Every NAICS 31–33 facility in the region's counties: name, street address, NAICS code, product line, website and an employee estimate.</td></tr>
+            <tr><td>OSHA establishment injury and illness data, Form 300A (U.S. Department of Labor)</td><td>301</td><td>Manufacturing establishments in the region that filed their annual summary for 2025 (required of manufacturers with 20 or more employees): name, street address, NAICS code and the annual average number of employees. Adds plants HIFLD lacks and replaces HIFLD's modeled headcounts with the reported figure for 305 sites. Imported once a year from OSHA's download page; ZIP codes are assigned to the county holding most of their land (Census 2020 ZIP–county file), and each new address is checked against the county by the Census geocoder.</td></tr>
             <tr><td>SBIR.gov award data</td><td>28</td><td>Firms in the region with an SBIR or STTR award since 2012 that are not in the HIFLD data: name, address, website, the headcount reported on their latest award, and their awards.</td></tr>
             <tr><td>Company websites, filings, press and regional directories</td><td>51</td><td>Companies, investors and university units entered individually, with the source of each figure noted in the file.</td></tr>
             <tr><td>Regional news (the automated monthly review, below)</td><td>2</td><td>New plants and companies reported by trusted regional newsrooms, each citing its article.</td></tr>
           </tbody>
         </table>
-        <p>Plants of one company are grouped: by an explicit parent in the data, by a shared website, or by the same name once plant and division qualifiers are removed. 143 sites belong to 63 multi-site companies. Panel counts of "companies" count each group once; staff sums add every site.</p>
+        <p>Plants of one company are grouped: by an explicit parent in the data, by a shared website, or by the same name once plant and division qualifiers are removed. 219 sites belong to 89 multi-site companies. Panel counts of "companies" count each group once; staff sums add every site.</p>
       </section>
 
       <section class="section">
@@ -152,7 +158,7 @@
         <p>Column height is headcount on a log scale. Every figure carries a year and a grade, shown in the roster and the detail panel:</p>
         <ul>
           <li><strong>Estimate.</strong> HIFLD's employee figures are modeled estimates; the year shown is the base dataset's (2022), not a survey date. Business-directory ranges are graded the same way.</li>
-          <li><strong>Reported.</strong> Figures a company states itself (website, filing, press release) or reported on an SBIR award, with that year.</li>
+          <li><strong>Reported.</strong> OSHA Form 300A annual average employees, the establishment's own filing for that year; figures a company states itself (website, filing, press release) or reported on an SBIR award, with that year.</li>
           <li><strong>Company-wide.</strong> Marked separately where only a figure for the whole company exists, as for the Elkhart RV manufacturers.</li>
         </ul>
         <p>Staff totals in the panels add the known figures as they are, so they are approximate and mix years.</p>
@@ -174,7 +180,7 @@
 
       <section class="section">
         <h2>Capabilities, employment and the timeline</h2>
-        <p><strong>Capabilities</strong> are inferred from NAICS codes and product keywords with an editable mapping; a capability with one or no company in the current selection is flagged as a gap. <strong>Manufacturing employment</strong> is from the BLS Quarterly Census of Employment and Wages, private ownership, annual averages, 2014–2025 (pulled 2026-11-12). The sector view sums 3-digit NAICS rows over the region's counties; BLS withholds cells that would reveal a single employer, so sector totals are a lower bound. The <strong>workforce</strong> panel draws on four BLS programs. Specialization, pay and establishment counts are from the same QCEW files (2025); the location quotient divides an industry's share of the region's private jobs by its share nationally, and region-wide job counts are lower bounds where BLS withholds a county's figure. Occupations are from Occupational Employment and Wage Statistics (May 2025) for the South Bend–Mishawaka, Elkhart–Goshen, Niles and Michigan City–La Porte metro areas, which leave out counties such as Kosciusko and Starke; estimates BLS cannot publish are omitted. Monthly manufacturing jobs are from Current Employment Statistics and county unemployment from Local Area Unemployment Statistics, not seasonally adjusted, through September 2026 (pulled 2026-11-13). The <strong>timeline</strong> lists 756 dated events: federal awards of $250,000 or more, SBIR/STTR awards, milestones toward manufacturing physical AI and, where available, patents.</p>
+        <p><strong>Capabilities</strong> are inferred from NAICS codes and product keywords with an editable mapping; a capability with one or no company in the current selection is flagged as a gap. <strong>Manufacturing employment</strong> is from the BLS Quarterly Census of Employment and Wages, private ownership, annual averages, 2014–2025 (pulled 2026-11-12). The sector view sums 3-digit NAICS rows over the region's counties; BLS withholds cells that would reveal a single employer, so sector totals are a lower bound. The <strong>workforce</strong> panel draws on four BLS programs. Specialization, pay and establishment counts are from the same QCEW files (2025); the location quotient divides an industry's share of the region's private jobs by its share nationally, and region-wide job counts are lower bounds where BLS withholds a county's figure. Occupations are from Occupational Employment and Wage Statistics (May 2025) for the South Bend–Mishawaka, Elkhart–Goshen, Niles and Michigan City–La Porte metro areas, which leave out counties such as Kosciusko and Starke; estimates BLS cannot publish are omitted. Monthly manufacturing jobs are from Current Employment Statistics and county unemployment from Local Area Unemployment Statistics, not seasonally adjusted, through September 2026 (pulled 2026-11-13). The <strong>timeline</strong> lists 810 dated events: federal awards of $250,000 or more, SBIR/STTR awards, milestones toward manufacturing physical AI and, where available, patents.</p>
       </section>
 
       <section class="section">
@@ -202,7 +208,7 @@
       <section class="section">
         <h2>Known gaps</h2>
         <ul>
-          <li>HIFLD omits some small shops and lags openings and closures, sometimes by years. The monthly refresh adds new facilities but cannot tell which have closed; a facility known to have closed is marked closed in its file and left off the map (18 so far).</li>
+          <li>HIFLD (base year 2022) omits some small shops and lags openings and closures, sometimes by years. OSHA's yearly filings add plants with 20 or more employees, but no free source names smaller shops. Closures are flagged for review, never applied automatically: from Indiana's WARN layoff and closing notices (54 manufacturing notices since 2016, on the timeline), from plants that stop filing with OSHA, and from websites that no longer resolve. Michigan publishes its WARN notices only through a search page, so the three Michigan counties lack that signal. A facility confirmed closed is marked in its file and left off the map (18 so far).</li>
           <li>Entries that should not be on the map at all (duplicates, sites outside the region, offices that make nothing) are marked removed with a reason and left off (0 so far).</li>
           <li>Missing or doubtful facts are kept on a public list of open items (83 now): a company without a street address, an address the geocoders cannot place, a website whose domain no longer exists or is parked, and a status note marked unconfirmed or disputed. Each monthly review tries once to fix each one; after three attempts the doubtful fact is removed. A dead website link or an unconfirmed note is deleted, an address without a street number is dropped so the company stays at its city's center, and a full address that cannot be placed is kept as it is.</li>
           <li>Sectors for SBIR firms are assigned from the words in their award titles and may be wrong for firms whose awards span fields.</li>
@@ -231,6 +237,7 @@
         <li><a href="https://correlllab.nd.edu">Correll Lab</a></li>
       </ul>
       <p><a href="index.html" class="site-link" property="url"><span property="name">Michiana Manufacturing</span></a></p>
+      <p class="mm-disclaimer-foot">The visualizations and code on this site were generated with AI tools. The data comes from public sources, almost all of them government datasets; records from different sources are combined automatically and can contain mistakes.</p>
       <div class="footer-contacts">
         <p class="contact-info">
           <span class="address" property="address" typeof="PostalAddress">
