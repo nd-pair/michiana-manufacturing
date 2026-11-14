@@ -8,7 +8,7 @@ state = "MI"
 address = "1010 West John Beers Road, Stevensville, MI 49127"
 lat = 42.01423
 lon = -86.47817
-website = "https://metaltro.com"
+former_website = "https://metaltro.com"
 presumed_closed_reason = "Verification check: no current trace of this company at this address. Only an OSHA record current through 2007 lists the company at 1010 W John Beers Rd and its domain no longer resolves. Source: https://safetyrecord.org/company/metal-processors-inc-stevensville-mi"
 presumed_closed = "2026-11-13"
 

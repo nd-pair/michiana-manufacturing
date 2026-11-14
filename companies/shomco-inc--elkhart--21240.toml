@@ -8,7 +8,7 @@ state = "IN"
 address = "21240 Protecta Drive, Elkhart, IN 46516"
 lat = 41.69639
 lon = -85.87233
-website = "https://santaferans.com"
+former_website = "https://santaferans.com"
 presumed_closed_reason = "Verification check: no current trace of this company at this address. santaferans.com does not resolve and has no Wayback captures; no listing for Shomco at 21240 Protecta Dr was found. Source: https://archive.org/wayback/available?url=santaferans.com"
 presumed_closed = "2026-11-13"
 

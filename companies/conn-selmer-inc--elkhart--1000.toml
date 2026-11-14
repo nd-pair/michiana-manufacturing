@@ -8,7 +8,8 @@ state = "IN"
 address = "1000 Industrial Parkway, Elkhart, IN 46516"
 lat = 41.67895
 lon = -85.93413
-website = "https://conn-selmer.com"
+website = "https://connselmer.com"
+former_website = "https://conn-selmer.com"
 verified_note = "Indiana environmental records list Conn-Selmer operations at 1000 Industrial Parkway, and a July 2026 company release says US manufacturing is consolidated in Elkhart. Source: https://www.in.gov/idem/oe/cause/AO/29880-A.htm"
 verified = "2026-11-13"
 

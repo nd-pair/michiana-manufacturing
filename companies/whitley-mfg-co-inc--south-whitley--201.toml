@@ -8,7 +8,8 @@ state = "IN"
 address = "201 West 1st Street, South Whitley, IN 46787"
 lat = 41.08932
 lon = -85.62910
-website = "https://whitleyman.com"
+website = "https://sunbeltmodular.com"
+former_website = "https://whitleyman.com"
 osha_id = "1436644"
 
 sector = "Wood, paper & furniture"

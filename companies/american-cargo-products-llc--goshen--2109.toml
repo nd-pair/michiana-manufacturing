@@ -8,7 +8,8 @@ state = "IN"
 address = "2940 Dexter Drive, Elkhart, IN 46514"
 lat = 41.72809
 lon = -85.99967
-website = "https://americancargo.com"
+website = "https://midwayspecialtyvehicles.com"
+former_website = "https://americancargo.com"
 verified = "2026-11-14"
 status_note = "Address from the company's own website (https://americancargo.com), checked November 14, 2026; previously 64141 US 33 South, Goshen, IN 46526."
 

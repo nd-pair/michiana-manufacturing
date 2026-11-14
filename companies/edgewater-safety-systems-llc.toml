@@ -8,7 +8,7 @@ state = "MI"
 address = "481 Renaissance Dr, Saint Joseph, MI 49085"
 lat = 42.11746
 lon = -86.47586
-website = "https://www.edgewatersafetysystems.com"
+former_website = "https://www.edgewatersafetysystems.com"
 uei = "WEAYDCX3CFH8"
 
 sector = "Medical devices & other"

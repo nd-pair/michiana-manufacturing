@@ -8,7 +8,7 @@ state = "IN"
 address = "656 Delaware Street, Nappanee, IN 46550"
 lat = 41.44620
 lon = -86.02472
-website = "https://breckenridgeparkmodels.com"
+former_website = "https://breckenridgeparkmodels.com"
 presumed_closed_reason = "Verification check: no current trace of this company at this address. Domain does not resolve and searches found nothing on Breckenridge or Damon at 656 Delaware St."
 presumed_closed = "2026-11-13"
 

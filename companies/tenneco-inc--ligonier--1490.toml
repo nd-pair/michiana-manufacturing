@@ -8,7 +8,8 @@ state = "IN"
 address = "1490 Gerber Street, Ligonier, IN 46767"
 lat = 41.47441
 lon = -85.60545
-website = "https://tenneco-automotive.com"
+website = "https://tenneco.com"
+former_website = "https://tenneco-automotive.com"
 osha_id = "556759"
 
 sector = "Vehicles & RVs"

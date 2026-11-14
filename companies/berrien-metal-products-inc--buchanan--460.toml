@@ -8,7 +8,8 @@ state = "MI"
 address = "460 South Post Road, Buchanan, MI 49107"
 lat = 41.81852
 lon = -86.38643
-website = "https://metalstamp.com"
+website = "https://bmp.us"
+former_website = "https://metalstamp.com"
 osha_id = "1501061"
 
 sector = "Metal"

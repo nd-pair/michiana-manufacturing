@@ -8,7 +8,8 @@ state = "IN"
 address = "1902 Century Drive, Goshen, IN 46528"
 lat = 41.56243
 lon = -85.78804
-website = "https://commodorehomes.com"
+website = "https://www.cavcohomes.com"
+former_website = "https://commodorehomes.com"
 osha_id = "1333950"
 
 sector = "Wood, paper & furniture"

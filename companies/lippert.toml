@@ -8,7 +8,8 @@ state = "IN"
 address = "3501 County Road 6 E, Elkhart, IN 46514"
 lat = 41.72430
 lon = -85.96967
-website = "https://www.lci1.com"
+website = "https://corporate.lippert.com"
+former_website = "https://www.lci1.com"
 osha_id = "899037"
 parent = "Lippert (LCI Industries)"
 

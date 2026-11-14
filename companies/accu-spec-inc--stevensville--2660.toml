@@ -8,7 +8,7 @@ state = "MI"
 address = "2660 Lawrence Street, Stevensville, MI 49127"
 lat = 42.01232
 lon = -86.51916
-website = "https://accuspec-inc.com"
+former_website = "https://accuspec-inc.com"
 presumed_closed_reason = "Verification check: no current trace of this company at this address. No trace of Accu Spec; 2660 Lawrence St is a 45,357 sq ft industrial building listed for sale/lease in 2026 with no occupant named. Source: https://www.crexi.com/properties/2559787/michigan-2660-lawrence-street"
 presumed_closed = "2026-11-13"
 

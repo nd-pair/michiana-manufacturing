@@ -8,7 +8,7 @@ state = "IN"
 address = "5120 Beck Drive, Elkhart, IN 46516"
 lat = 41.69412
 lon = -85.89140
-website = "https://alphasystemsinc.com"
+former_website = "https://alphasystemsinc.com"
 osha_id = "1564087"
 
 sector = "Materials & composites"

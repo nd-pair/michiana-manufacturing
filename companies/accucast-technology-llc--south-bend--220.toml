@@ -8,7 +8,7 @@ state = "IN"
 address = "220 West Eckman Street, South Bend, IN 46614"
 lat = 41.64629
 lon = -86.25180
-website = "https://accucastech.com"
+former_website = "https://accucastech.com"
 presumed_closed_reason = "HIFLD audit of November 2026 (audits/2026-11-hifld-audit.csv): No company or occupant found for 220 W Eckman (a heavy-industrial parcel); the domain's only Wayback captures are 2019 blank 'Loading' pages."
 presumed_closed = "2026-11-13"
 

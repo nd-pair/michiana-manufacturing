@@ -8,7 +8,8 @@ state = "IN"
 address = "1320 3rd Street, Osceola, IN 46561"
 lat = 41.66117
 lon = -86.08544
-website = "https://absoluteinnovations.net"
+website = "https://abiattachments.com"
+former_website = "https://absoluteinnovations.net"
 verified_note = "absoluteinnovations.net redirects to the live ABI Attachments site (2026 copyright); no street address or Osceola listing was found to tie it to 1320 3rd Street. Source: https://www.abiattachments.com/"
 verified = "2026-11-13"
 

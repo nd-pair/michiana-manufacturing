@@ -8,7 +8,8 @@ state = "MI"
 address = "201 Percy Street, Dowagiac, MI 49047"
 lat = 41.99207
 lon = -86.09665
-website = "https://autocam.com"
+website = "https://www.nninc.com"
+former_website = "https://autocam.com"
 
 sector = "Vehicles & RVs"
 products = ["All Other Motor Vehicle Parts Manufacturing"]

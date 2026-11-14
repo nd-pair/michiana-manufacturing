@@ -8,7 +8,8 @@ state = "MI"
 address = "3737 Red Arrow Highway, Saint Joseph, MI 49085"
 lat = 42.05008
 lon = -86.51383
-website = "https://boschusa.com"
+website = "https://www.bosch.us"
+former_website = "https://boschusa.com"
 verified_note = "MapQuest lists Bosch Automotive Group at 3737 Red Arrow Highway and Bosch St. Joseph plant job postings (brake boosters and master cylinders) dated late 2025 are current. Source: https://phoenix.aws.mapquest.com/us/michigan/bosch-automotive-group-412188864"
 verified = "2026-11-13"
 

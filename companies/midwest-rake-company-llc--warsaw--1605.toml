@@ -8,7 +8,8 @@ state = "IN"
 address = "2666 South Country Club Road, Warsaw, IN 46580"
 lat = 41.19613
 lon = -85.82645
-website = "https://midwestrake.com"
+website = "https://seymourmidwest.com"
+former_website = "https://midwestrake.com"
 verified = "2026-11-14"
 status_note = "Moved from 1605 West Center Street, Warsaw, IN 46580: the company's own website lists 2666 South Country Club Road, Warsaw, IN 46580 (checked November 14, 2026)."
 

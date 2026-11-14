@@ -8,7 +8,8 @@ state = "IN"
 address = "3520 Westmoor St, South Bend, IN 46628"
 lat = 41.68411
 lon = -86.29723
-website = "https://aerospace.honeywell.com"
+website = "https://www.honeywellaerospace.com"
+former_website = "https://aerospace.honeywell.com"
 
 sector = "Electronics"
 products = ["Avionics & inertial sensors", "Sensors"]

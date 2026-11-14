@@ -8,7 +8,7 @@ state = "IN"
 address = "57755 Holiday Place, Elkhart, IN 46517"
 lat = 41.65624
 lon = -86.01921
-website = "https://millenniumproducts.com"
+former_website = "https://millenniumproducts.com"
 presumed_closed_reason = "Verification check: no current trace of this company at this address. The domain does not resolve (last capture September 2017) and name, address and closure searches found nothing on this company. Source: https://archive.org/wayback/available?url=millenniumproducts.com"
 presumed_closed = "2026-11-13"
 

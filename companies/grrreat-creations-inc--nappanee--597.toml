@@ -8,7 +8,7 @@ state = "IN"
 address = "597 Shawnee Street, Nappanee, IN 46550"
 lat = 41.44764
 lon = -86.03384
-website = "https://grrreatcreations.com"
+former_website = "https://grrreatcreations.com"
 presumed_closed_reason = "Verification check: no current trace of this company at this address. Domain does not resolve and searches found no listing for Grrreat Creations or any occupant at 597 Shawnee St."
 presumed_closed = "2026-11-13"
 

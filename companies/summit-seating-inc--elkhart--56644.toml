@@ -8,7 +8,7 @@ state = "IN"
 address = "56644 Elk Park Drive, Elkhart, IN 46516"
 lat = 41.67143
 lon = -86.03500
-website = "https://hometheatercollection.com"
+former_website = "https://hometheatercollection.com"
 presumed_closed_reason = "Verification check: no current trace of this company at this address. Summit Seating was acquired by HSM in December 2013 and its domain no longer resolves, but no source ties any successor or occupant to 56644 Elk Park Drive. Source: https://stnonline.com/news/hsm-expands-presence-with-acquisition-of-summit-seating/"
 presumed_closed = "2026-11-13"
 

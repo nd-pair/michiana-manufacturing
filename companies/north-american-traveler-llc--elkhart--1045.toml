@@ -8,7 +8,7 @@ state = "IN"
 address = "1045 North Nappanee Street, Elkhart, IN 46514"
 lat = 41.69595
 lon = -86.00393
-website = "https://glacierbayrv.com"
+former_website = "https://glacierbayrv.com"
 presumed_closed_reason = "Verification check: another business is at this address now (Great Lakes RV). A 2017 Elkhart County RV tour sheet lists Great Lakes RV at 1045 N Nappanee St, and glacierbayrv.com no longer resolves (last capture 2017); the current occupant is not confirmed. Source: https://res.cloudinary.com/simpleview/image/upload/v1569528518/clients/elkhartcounty/2017_RV_Tour_Sheet_updated082017_wThor_717c0701-b789-44b2-8223-ecf7eba42d78.pdf"
 presumed_closed = "2026-11-13"
 

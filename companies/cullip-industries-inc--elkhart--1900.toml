@@ -8,7 +8,7 @@ state = "IN"
 address = "1900 Fieldhouse Avenue, Elkhart, IN 46517"
 lat = 41.66636
 lon = -85.99954
-website = "https://cullipindustries.com"
+former_website = "https://cullipindustries.com"
 presumed_closed_reason = "Verification check: no current trace of this company at this address. Domain does not resolve and searches for the name and address returned nothing. Source: https://www.dnb.com/business-directory/company-information.machine_shops_turned_product_and_screw_nut_and_bolt_manufacturing.us.indiana.elkhart.html"
 presumed_closed = "2026-11-13"
 

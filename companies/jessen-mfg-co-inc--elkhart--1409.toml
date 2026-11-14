@@ -8,7 +8,7 @@ state = "IN"
 address = "1409 West Beardsley Avenue, Elkhart, IN 46514"
 lat = 41.69236
 lon = -85.99601
-website = "https://jessenmfg.com"
+former_website = "https://jessenmfg.com"
 
 sector = "Metal"
 products = ["Machine Shops"]

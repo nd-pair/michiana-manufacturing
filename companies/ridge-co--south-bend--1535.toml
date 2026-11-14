@@ -8,7 +8,7 @@ state = "IN"
 address = "1535 South Main Street, South Bend, IN 46613"
 lat = 41.65867
 lon = -86.25199
-website = "https://ridgeap.com"
+former_website = "https://ridgeap.com"
 presumed_closed_reason = "Verification check: no current trace of this company at this address. ridgeap.com now redirects to a gambling-style site (slotpediaresmi.com), and no listing for a Ridge machine shop at 1535 S Main St was found; the Ridge Company auto parts chain was not tied to this address."
 presumed_closed = "2026-11-13"
 

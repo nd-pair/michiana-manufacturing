@@ -8,7 +8,8 @@ state = "IN"
 address = "223 Middleton Run Road, Elkhart, IN 46516"
 lat = 41.69076
 lon = -85.91772
-website = "https://efpcorp.com"
+website = "https://www.efppackaging.com"
+former_website = "https://efpcorp.com"
 osha_id = "801309"
 
 sector = "Materials & composites"

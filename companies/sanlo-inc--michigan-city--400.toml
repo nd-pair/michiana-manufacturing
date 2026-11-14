@@ -8,7 +8,8 @@ state = "IN"
 address = "400 Indiana Highway 212, Michigan City, IN 46360"
 lat = 41.73338
 lon = -86.82579
-website = "https://sanlo.com"
+website = "https://loosco.com"
+former_website = "https://sanlo.com"
 osha_id = "1115413"
 uei = "DYTVF19PK6G6"
 

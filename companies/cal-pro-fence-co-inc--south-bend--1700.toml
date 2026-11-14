@@ -8,7 +8,7 @@ state = "IN"
 address = "1700 Ford Street, South Bend, IN 46619"
 lat = 41.66820
 lon = -86.27540
-website = "https://calprofence.com"
+former_website = "https://calprofence.com"
 verified_note = "Weak: Angi and HomeAdvisor list Cal-Pro Fence at 1700 Ford St, South Bend with undated profiles, while its own domain no longer resolves. Source: https://angi.com/companylist/us/in/south-bend/cal-pro-fence-co-inc-reviews-2185559.htm"
 verified = "2026-11-13"
 

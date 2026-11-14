@@ -8,7 +8,7 @@ state = "MI"
 address = "3085 Yore Avenue, Sodus, MI 49126"
 lat = 42.06244
 lon = -86.38795
-website = "https://sodushardchrome.com"
+former_website = "https://sodushardchrome.com"
 presumed_closed_reason = "Verification check: no current trace of this company at this address. Last dated evidence is a 2018 state inspection report (9 employees); the domain is dead and the 27,528 sq ft building at 3085 Yore Ave has been listed for sale in 2025 with cranes and racking included, but no source says the company closed. Source: https://www.deq.state.mi.us/Aps/downloads/SRN/A0083/A0083_SAR_20180305.pdf"
 presumed_closed = "2026-11-13"
 

@@ -8,7 +8,7 @@ state = "IN"
 address = "4707 Chester Drive, Elkhart, IN 46516"
 lat = 41.67528
 lon = -85.89660
-website = "https://mgproductscnc.com"
+former_website = "https://mgproductscnc.com"
 presumed_closed_reason = "Verification check: no current trace of this company at this address. Domain is dead and only an undated directory entry lists MG Products at 4707 Chester Dr. Source: https://naicslist.com/company-profile/metalcraft-precision-machine-inc-elkhart-in-46516"
 presumed_closed = "2026-11-13"
 

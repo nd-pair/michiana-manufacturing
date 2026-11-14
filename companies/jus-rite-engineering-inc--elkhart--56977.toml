@@ -8,7 +8,7 @@ state = "IN"
 address = "56977 Elk Court, Elkhart, IN 46516"
 lat = 41.67046
 lon = -86.03563
-website = "https://jus-rite.com"
+former_website = "https://jus-rite.com"
 presumed_closed_reason = "Verification check: no current trace of this company at this address. Domain is dead and the only listing is an unclaimed Birdeye profile whose reviews are about six years old; no closure notice found. Source: https://reviews.birdeye.com/jus-rite-engineering-148478064220035"
 presumed_closed = "2026-11-13"
 

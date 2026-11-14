@@ -8,7 +8,8 @@ state = "IN"
 address = "3605 West Cleveland Road Extension, South Bend, IN 46628"
 lat = 41.72611
 lon = -86.29716
-website = "https://federalmogul.com"
+website = "https://www.tenneco.com"
+former_website = "https://federalmogul.com"
 osha_id = "808794"
 
 sector = "Vehicles & RVs"

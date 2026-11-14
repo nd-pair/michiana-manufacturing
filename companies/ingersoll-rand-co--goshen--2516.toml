@@ -8,7 +8,7 @@ state = "IN"
 address = "2516 Industrial Park Drive, Goshen, IN 46526"
 lat = 41.55332
 lon = -85.82002
-website = "https://irgoshen.com"
+former_website = "https://irgoshen.com"
 verified_note = "Undated BBB listing shows a compressor business at 2516-1 Industrial Park Dr, Goshen, and Ingersoll Rand advertises a Goshen air-compressor service technician job, but irgoshen.com is dead (last archived 2011) so manufacturing here is unconfirmed. Source: https://www.bbb.org/us/in/goshen/category/compressors"
 verified = "2026-11-13"
 

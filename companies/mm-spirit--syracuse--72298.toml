@@ -8,7 +8,7 @@ state = "IN"
 address = "72298 State Road 13, Syracuse, IN 46567"
 lat = 41.44614
 lon = -85.74987
-website = "https://americanspiritmfg.com"
+former_website = "https://americanspiritmfg.com"
 presumed_closed_reason = "Verification check: no current trace of this company at this address. No trace of American Spirit Mfg at 72298 State Road 13 and americanspiritmfg.com does not resolve."
 presumed_closed = "2026-11-13"
 

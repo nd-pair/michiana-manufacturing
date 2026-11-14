@@ -8,7 +8,8 @@ state = "IN"
 address = "2631 Jim Neu Drive, Plymouth, IN 46563"
 lat = 41.35417
 lon = -86.34074
-website = "https://wittgalvanizing.com"
+website = "https://www.azz.com"
+former_website = "https://wittgalvanizing.com"
 osha_id = "1329555"
 
 sector = "Metal"

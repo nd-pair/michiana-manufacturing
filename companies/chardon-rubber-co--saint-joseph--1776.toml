@@ -8,7 +8,7 @@ state = "MI"
 address = "1776 Hilltop Road, Saint Joseph, MI 49085"
 lat = 42.08022
 lon = -86.49472
-website = "https://chardonrubber.com"
+former_website = "https://chardonrubber.com"
 presumed_closed_reason = "Verification check: no current trace of this company at this address. Latest evidence is a 2007 Michigan air permit for 1776 Hilltop Rd; Chardon Rubber went through bankruptcy around 2009 and its domain no longer resolves, but no source states the St. Joseph plant closed. Source: https://www.deq.state.mi.us/aps/downloads/permits/finpticon/2007/124-07.pdf"
 presumed_closed = "2026-11-13"
 

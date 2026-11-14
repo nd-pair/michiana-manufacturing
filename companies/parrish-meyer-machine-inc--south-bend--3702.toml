@@ -8,7 +8,7 @@ state = "IN"
 address = "3702 Progress Drive, South Bend, IN 46628"
 lat = 41.70104
 lon = -86.29901
-website = "https://parrishmeyer.com"
+former_website = "https://parrishmeyer.com"
 presumed_closed_reason = "Verification check: no current trace of this company at this address. Only undated government-contractor directories list the firm at 3702 Progress Dr; its website domain does not resolve and no current or closure evidence turned up. Source: https://www.governmentcontracts.us/government-contractors/company-BSG2347242-parrish-meyer-machine-South-Bend-IN.htm"
 presumed_closed = "2026-11-13"
 

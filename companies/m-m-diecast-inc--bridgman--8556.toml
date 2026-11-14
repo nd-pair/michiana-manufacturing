@@ -8,7 +8,9 @@ state = "MI"
 address = "8556 North Gast Road, Bridgman, MI 49106"
 lat = 41.96368
 lon = -86.54251
-website = "https://mmdci.com"
+presumed_closed_reason = "Unconfirmed at this address (November 2026 verification), and its only website no longer exists or is parked (checked 2026-11-14)."
+presumed_closed = "2026-11-14"
+former_website = "https://mmdci.com"
 unconfirmed_reason = "The company operates in the region, but no current source confirms a plant at this address (verification check, November 2026): M & M Die Cast appears at 8556 Gast Rd in undated directories but its domain no longer resolves and no dated evidence of operation was found."
 unconfirmed = "2026-11-14"
 

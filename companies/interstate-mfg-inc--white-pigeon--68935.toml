@@ -8,7 +8,7 @@ state = "MI"
 address = "68935 Union Street, White Pigeon, MI 49099"
 lat = 41.79509
 lon = -85.75466
-website = "https://interstate-1.com"
+former_website = "https://interstate-1.com"
 presumed_closed_reason = "Verification check: no current trace of this company at this address. Latest dated evidence is a 2017 Michigan EGLE notice at 68935 Union St; undated directory listings only, website unreachable, and nothing found for 2023 or later. Source: https://www.egle.state.mi.us/aps/downloads/SRN/N7152/N7152_VN_20170405.pdf"
 presumed_closed = "2026-11-13"
 

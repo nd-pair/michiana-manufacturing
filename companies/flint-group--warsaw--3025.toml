@@ -8,7 +8,7 @@ state = "IN"
 address = "3025 West Old Road 30, Warsaw, IN 46580"
 lat = 41.24729
 lon = -85.90298
-website = "https://flintink.com"
+former_website = "https://flintink.com"
 unconfirmed_reason = "The company operates in the region, but no current source confirms a plant at this address (verification check, November 2026): A 2020 EPA consent order was addressed to Flint CPS Inks North America at 3025 W Old Rd 30, Warsaw and Flint remains active, but nothing newer confirms the site and flintink.com does not resolve."
 unconfirmed = "2026-11-14"
 

@@ -8,7 +8,8 @@ state = "IN"
 address = "1400 E Angela Blvd, South Bend, IN 46617"
 lat = 41.69313
 lon = -86.22930
-website = "https://www.trek10.com"
+website = "https://caylent.com"
+former_website = "https://www.trek10.com"
 uei = "K5ARZDMKC134"
 
 sector = "Software & services"

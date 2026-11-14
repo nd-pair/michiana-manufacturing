@@ -8,7 +8,7 @@ state = "IN"
 address = "1100 West Barker Avenue, Michigan City, IN 46360"
 lat = 41.70433
 lon = -86.90770
-website = "https://sandusky.com"
+former_website = "https://sandusky.com"
 presumed_closed_reason = "Verification check: reported closed, without a dated source. EPA describes 1100 W Barker Ave as the former Sandusky-Chicago Abrasive Wheel Company site, with lead-soil removal begun October 2024; closure year not found. Source: https://scribenet.response.epa.gov/sanduskyabrasives"
 presumed_closed = "2026-11-13"
 

@@ -8,7 +8,7 @@ state = "MI"
 address = "27328 May Street, Edwardsburg, MI 49112"
 lat = 41.78231
 lon = -86.09514
-website = "https://christiansons.com"
+former_website = "https://christiansons.com"
 presumed_closed_reason = "Verification check: no current trace of this company at this address. christiansons.com now redirects to mybible.com (unrelated) and a MapQuest listing is marked closed; no dated evidence of operation found. Source: https://startpage.mapquest.com/us/michigan/aircraft-industries-6569301"
 presumed_closed = "2026-11-13"
 

@@ -8,7 +8,7 @@ state = "IN"
 address = "160 County Road 15 South, Elkhart, IN 46516"
 lat = 41.69168
 lon = -85.90714
-website = "https://amerimaxbp.com"
+former_website = "https://amerimaxbp.com"
 presumed_closed_reason = "HIFLD audit of November 2026 (audits/2026-11-hifld-audit.csv): No Amerimax site at 160 County Rd 15 found (address not located); directories show an Amerimax plant in Nappanee and the domain now serves spam."
 presumed_closed = "2026-11-13"
 

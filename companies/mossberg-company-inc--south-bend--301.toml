@@ -8,7 +8,9 @@ state = "IN"
 address = "301 East Sample Street, South Bend, IN 46601"
 lat = 41.66555
 lon = -86.24587
-website = "https://mossbergco.com"
+presumed_closed_reason = "Unconfirmed at this address (November 2026 verification), and its only website no longer exists or is parked (checked 2026-11-14)."
+presumed_closed = "2026-11-14"
+former_website = "https://mossbergco.com"
 unconfirmed_reason = "The company operates in the region, but no current source confirms a plant at this address (verification check, November 2026): City records show a 2015 tax abatement for $490,000 of equipment at 301 E Sample St, but mossbergco.com now redirects to a domain-sale page and no later evidence was found."
 unconfirmed = "2026-11-14"
 

@@ -8,7 +8,7 @@ state = "IN"
 address = "601 Wagner Avenue, Elkhart, IN 46516"
 lat = 41.67472
 lon = -85.97560
-website = "https://precisionindustriescorp.com"
+former_website = "https://precisionindustriescorp.com"
 presumed_closed_reason = "Verification check: no current trace of this company at this address. Website domain is parked/for sale and only undated directory listings (about 6 employees) show the 601 Wagner Ave address. Source: https://naicslist.com/company-profile/precision-industries-corp-elkhart-in-46516"
 presumed_closed = "2026-11-13"
 

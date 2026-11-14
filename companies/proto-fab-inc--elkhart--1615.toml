@@ -8,7 +8,7 @@ state = "IN"
 address = "1615 Elreno Street, Elkhart, IN 46516"
 lat = 41.67275
 lon = -85.99863
-website = "https://protofab.net"
+former_website = "https://protofab.net"
 presumed_closed_reason = "Verification check: no current trace of this company at this address. Domain protofab.net is now a Chinese gambling-style site (2024 capture) and no other trace of Proto-Fab at 1615 Elreno St was found. Source: http://web.archive.org/web/20240803004925/https://www.protofab.net/"
 presumed_closed = "2026-11-13"
 

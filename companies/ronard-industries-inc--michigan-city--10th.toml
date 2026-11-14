@@ -8,7 +8,7 @@ state = "IN"
 address = "10th Street and Michigan Boulevard, Michigan City, IN 46360"
 lat = 41.71414
 lon = -86.88989
-website = "https://ronard.com"
+former_website = "https://ronard.com"
 presumed_closed_reason = "Verification check: no current trace of this company at this address. No trace of Ronard Industries found and its domain is parked or for sale."
 presumed_closed = "2026-11-13"
 

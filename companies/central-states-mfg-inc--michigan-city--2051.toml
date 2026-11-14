@@ -8,7 +8,8 @@ state = "IN"
 address = "2051 Tryon Road, Michigan City, IN 46360"
 lat = 41.72335
 lon = -86.82753
-website = "https://centralstatesmfg.com"
+website = "https://centralstatesco.com"
+former_website = "https://centralstatesmfg.com"
 verified_note = "Central States Manufacturing's contact page lists its Michigan City plant at 2051 Tryon Road, a metal building components plant operating since 1997. Source: https://centralstatesco.com/contact-us/"
 verified = "2026-11-13"
 

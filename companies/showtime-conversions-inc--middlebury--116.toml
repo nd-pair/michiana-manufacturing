@@ -8,7 +8,7 @@ state = "IN"
 address = "116 Industrial Parkway East, Middlebury, IN 46540"
 lat = 41.64559
 lon = -85.69836
-website = "https://showtimeconversions.com"
+former_website = "https://showtimeconversions.com"
 presumed_closed_reason = "Verification check: another business is at this address now (ShowHauler Trucks Inc.). showtimeconversions.com no longer resolves and no Showtime listing was found, while ShowHauler Trucks' live site lists 116 Industrial Parkway East as its address. Source: https://showhauler.com"
 presumed_closed = "2026-11-13"
 

@@ -8,7 +8,7 @@ state = "MI"
 address = "4133 South M 139, Saint Joseph, MI 49085"
 lat = 42.04340
 lon = -86.43487
-website = "https://brakebeams.com"
+former_website = "https://brakebeams.com"
 presumed_closed_reason = "Verification check: another business is at this address now (Duramold). brakebeams.com does not resolve and no listing for Harbor Brake Beam turned up; Cortera lists a Duramold branch at 4133 M 139 (undated) and Panjiva lists Barber Brake Beam LLC there with a 2009 shipment. Source: https://start.cortera.com/company/research/l6s4rsn6j/duramold/"
 presumed_closed = "2026-11-13"
 

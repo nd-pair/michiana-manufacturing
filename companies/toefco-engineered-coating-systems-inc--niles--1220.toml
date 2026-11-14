@@ -8,7 +8,8 @@ state = "MI"
 address = "1220 North 14th Street, Niles, MI 49120"
 lat = 41.83952
 lon = -86.24156
-website = "https://toefco.com"
+website = "https://iftworldwide.com"
+former_website = "https://toefco.com"
 osha_id = "1189751"
 
 sector = "Metal"

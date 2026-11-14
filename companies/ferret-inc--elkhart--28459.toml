@@ -8,7 +8,8 @@ state = "IN"
 address = "28459 Laura Court, Elkhart, IN 46517"
 lat = 41.64919
 lon = -86.01101
-website = "https://ferretrollforming.com"
+website = "https://thinkferret.com"
+former_website = "https://ferretrollforming.com"
 verified_note = "Ferret is active (2024 job posting, ferretrollforming.com redirects to thinkferret.com) but directories give its address as 2505 Laura Ct, not 28459 Laura Court. Source: https://thinkferret.com/"
 verified = "2026-11-13"
 

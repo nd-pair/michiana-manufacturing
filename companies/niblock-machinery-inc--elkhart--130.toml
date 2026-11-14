@@ -8,7 +8,7 @@ state = "IN"
 address = "130 East Windsor Avenue, Elkhart, IN 46514"
 lat = 41.72711
 lon = -85.97544
-website = "https://niblockmachinery.com"
+former_website = "https://niblockmachinery.com"
 presumed_closed_reason = "Verification check: no current trace of this company at this address. The domain no longer resolves (a capture exists from January 2025 that could not be read) and no listing for the company at 130 E Windsor Ave was found. Source: https://archive.org/wayback/available?url=niblockmachinery.com"
 presumed_closed = "2026-11-13"
 

@@ -8,7 +8,8 @@ state = "IN"
 address = "2806 West Sample Street, South Bend, IN 46619"
 lat = 41.66445
 lon = -86.28914
-website = "https://imfonline.com"
+website = "https://www.imfmidwest.com"
+former_website = "https://imfonline.com"
 verified_note = "imfonline.com redirects to imfmidwest.com, a live Industrial Metal Fab site stating it is located at 2806 W. Sample Street, South Bend. Source: http://www.imfmidwest.com/"
 verified = "2026-11-13"
 

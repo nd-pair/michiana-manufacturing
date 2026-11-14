@@ -8,7 +8,7 @@ state = "IN"
 address = "2340 Schumacher Drive, Mishawaka, IN 46545"
 lat = 41.68081
 lon = -86.18316
-website = "https://indianawipingcloth.com"
+former_website = "https://indianawipingcloth.com"
 presumed_closed_reason = "Verification check: no current trace of this company at this address. Domain no longer resolves (last Wayback capture August 2018) and no search result mentions the company or 2340 Schumacher Drive. Source: https://archive.org/wayback/available?url=indianawipingcloth.com"
 presumed_closed = "2026-11-13"
 

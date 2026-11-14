@@ -8,7 +8,7 @@ state = "IN"
 address = "500 Huron Street, Michigan City, IN 46360"
 lat = 41.71569
 lon = -86.90894
-website = "https://mckayprinting.com"
+former_website = "https://mckayprinting.com"
 presumed_closed_reason = "Verification check: no current trace of this company at this address. No listing for Mckay Printing Services at 500 Huron Street was found and the domain mckayprinting.com does not resolve."
 presumed_closed = "2026-11-13"
 

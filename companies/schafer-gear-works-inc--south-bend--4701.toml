@@ -8,7 +8,8 @@ state = "IN"
 address = "4701 Nimtz Parkway, South Bend, IN 46628"
 lat = 41.72875
 lon = -86.31952
-website = "https://schafergear.com"
+website = "https://schaferindustries.com/gear-works"
+former_website = "https://schafergear.com"
 osha_id = "1470695"
 
 humanoid = ["reducers"]

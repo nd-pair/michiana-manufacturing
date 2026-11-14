@@ -8,7 +8,9 @@ state = "IN"
 address = "759 West Chippewa Avenue, South Bend, IN 46614"
 lat = 41.63633
 lon = -86.26059
-website = "https://plasticsolutions.com"
+presumed_closed_reason = "Unconfirmed at this address (November 2026 verification), and its only website now redirects to an unrelated business (checked 2026-11-14)."
+presumed_closed = "2026-11-14"
+former_website = "https://plasticsolutions.com"
 unconfirmed_reason = "The company operates in the region, but no current source confirms a plant at this address (verification check, November 2026): A South Bend injection molder named Plastic Solutions is listed at 3615 Voorde Dr and a shipping record shows a W Chippewa Ave address without number, but no source confirms 759 W Chippewa; plasticsolutions.com now redirects to cardprinting.com."
 unconfirmed = "2026-11-14"
 

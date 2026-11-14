@@ -8,7 +8,8 @@ state = "IN"
 address = "1400 E Angela Blvd Unit 104, Unit 104, South Bend, IN 46617"
 lat = 41.69313
 lon = -86.22930
-website = "https://trioncoatings.com"
+website = "https://safechrome.com"
+former_website = "https://trioncoatings.com"
 uei = "G36KNDJR6JL3"
 
 sector = "Materials & composites"

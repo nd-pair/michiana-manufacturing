@@ -8,7 +8,7 @@ state = "MI"
 address = "1515 North US Highway 31, Niles, MI 49120"
 lat = 41.84394
 lon = -86.26192
-website = "https://packardindustries.com"
+former_website = "https://packardindustries.com"
 presumed_closed_reason = "Verification check: no current trace of this company at this address. Domain does not resolve, last Wayback capture is May 2015, and searches found no listing at 1515 N US 31. Source: https://archive.org/wayback/available?url=packardindustries.com"
 presumed_closed = "2026-11-13"
 

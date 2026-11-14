@@ -8,7 +8,7 @@ state = "IN"
 address = "3522 South State Road 104, La Porte, IN 46350"
 lat = 41.55522
 lon = -86.60270
-website = "https://weissinc.net"
+former_website = "https://weissinc.net"
 presumed_closed_reason = "Verification check: no current trace of this company at this address. No record of Weiss Prestain or the address was found and the website domain does not resolve."
 presumed_closed = "2026-11-13"
 

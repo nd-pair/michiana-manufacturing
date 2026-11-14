@@ -8,7 +8,8 @@ state = "IN"
 address = "67742 County Road 23, New Paris, IN 46553"
 lat = 41.51078
 lon = -85.82798
-website = "https://romotek.com"
+website = "https://www.romotechplastics.com"
+former_website = "https://romotek.com"
 osha_id = "951250"
 
 sector = "Mechatronics & automation"
