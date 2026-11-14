@@ -1,7 +1,7 @@
-# Viking R.v.
+# Viking R.V.
 # Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
 
-name = "Viking R.v."
+name = "Viking R.V."
 kind = "company"
 city = "Centreville"
 state = "MI"

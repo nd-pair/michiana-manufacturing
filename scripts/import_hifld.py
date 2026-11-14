@@ -48,8 +48,8 @@ def titlecase(s):
         u = w.upper().strip(",")
         if u in SUFFIX:
             out.append(SUFFIX[u] + ("," if w.endswith(",") else ""))
-        elif u.strip(".") in KEEP_UPPER or u in KEEP_UPPER:
-            out.append(w.upper())
+        elif u.strip(".") in KEEP_UPPER or u in KEEP_UPPER or re.fullmatch(r"(?:[A-Z]\.){2,}", u):
+            out.append(w.upper())   # also dotted initials: R.R. Donnelley, K.M.C. Corp., Viking R.V.
         elif w.lower() in SMALL and out:
             out.append(w.lower())
         elif "-" in w:

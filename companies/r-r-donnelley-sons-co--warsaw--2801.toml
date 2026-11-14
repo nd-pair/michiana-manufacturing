@@ -9,8 +9,8 @@ address = "2801 West Old Road 30, Warsaw, IN 46580"
 lat = 41.24739
 lon = -85.89827
 osha_id = "1441941"
-status_note = "Named from OSHA's 2025 Form 300A filing at this address; the earlier record here, R.r. Donnelley & Sons Co. (HIFLD), is a predecessor or a former occupant."
-formerly = "R.r. Donnelley & Sons Co."
+status_note = "Named from OSHA's 2025 Form 300A filing at this address; the earlier record here, R.R. Donnelley & Sons Co. (HIFLD), is a predecessor or a former occupant."
+formerly = "R.R. Donnelley & Sons Co."
 
 sector = "Vehicles & RVs"
 products = ["Electric automobiles for highway use manufacturing"]
