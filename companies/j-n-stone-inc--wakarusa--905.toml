@@ -9,6 +9,8 @@ address = "905 East Waterford Street, Wakarusa, IN 46573"
 lat = 41.53595
 lon = -86.00382
 website = "https://jnstone.com"
+verified_note = "The company's own website (jnstone.com) lists this address (checked November 14, 2026)."
+verified = "2026-11-14"
 
 sector = "Materials & composites"
 products = ["Other Concrete Product Manufacturing"]

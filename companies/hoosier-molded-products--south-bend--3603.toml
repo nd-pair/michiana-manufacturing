@@ -9,6 +9,8 @@ address = "3603 Progress Drive, South Bend, IN 46628"
 lat = 41.70162
 lon = -86.29890
 website = "https://hoosiermp.com"
+verified_note = "The company's own website (hoosiermp.com) lists this address (checked November 14, 2026)."
+verified = "2026-11-14"
 
 sector = "Mechatronics & automation"
 products = ["Industrial Mold Manufacturing"]

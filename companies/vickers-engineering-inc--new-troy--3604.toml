@@ -9,6 +9,8 @@ address = "3604 Glendora Road, New Troy, MI 49119"
 lat = 41.87341
 lon = -86.54110
 website = "https://vickerseng.com"
+verified_note = "The company's own website (vickerseng.com) lists this address (checked November 14, 2026)."
+verified = "2026-11-14"
 
 sector = "Mechatronics & automation"
 products = ["Special Die and Tool, Die Set, Jig, and Fixture Manufacturing"]

@@ -9,6 +9,8 @@ address = "1133 East 5th Street, Mishawaka, IN 46544"
 lat = 41.65820
 lon = -86.16234
 website = "https://dearborncrane.com"
+verified_note = "The company's own website (dearborncrane.com) lists this address (checked November 14, 2026)."
+verified = "2026-11-14"
 
 sector = "Mechatronics & automation"
 products = ["Overhead Traveling Crane, Hoist, and Monorail System Manufacturing"]

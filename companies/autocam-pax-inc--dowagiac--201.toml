@@ -9,6 +9,8 @@ address = "201 Percy Street, Dowagiac, MI 49047"
 lat = 41.99207
 lon = -86.09665
 website = "https://www.nninc.com"
+presumed_closed_reason = "No current trace at this address: parent NN, Inc.'s website lists its Michigan plants in Kentwood and Marshall but not Dowagiac, Autocam filed OSHA's 2025 Form 300A for Kentwood and Marshall only, and a plant of its estimated 44 employees would have to file. A same-name OSHA filing or a dated source brings it back."
+presumed_closed = "2026-11-14"
 former_website = "https://autocam.com"
 
 sector = "Vehicles & RVs"

@@ -9,6 +9,8 @@ address = "3500 Reedy Drive, Elkhart, IN 46514"
 lat = 41.72777
 lon = -85.92097
 website = "https://fasnap.com"
+verified_note = "The company's own website (fasnap.com) lists this address (checked November 14, 2026)."
+verified = "2026-11-14"
 uei = "NFHEP8VJ28Y3"
 
 sector = "Medical devices & other"

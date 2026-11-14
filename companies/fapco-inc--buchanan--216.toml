@@ -9,6 +9,8 @@ address = "216 Post Road, Buchanan, MI 49107"
 lat = 41.82612
 lon = -86.38088
 website = "https://fapcoinc.com"
+verified_note = "The company's own website (fapcoinc.com) lists this address (checked November 14, 2026)."
+verified = "2026-11-14"
 
 sector = "Materials & composites"
 products = ["All Other Plastics Product Manufacturing"]

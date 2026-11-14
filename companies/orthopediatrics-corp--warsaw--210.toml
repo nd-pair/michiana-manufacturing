@@ -9,6 +9,8 @@ address = "2850 Frontier Drive, Warsaw, IN 46582"
 lat = 41.28300
 lon = -85.85450
 website = "https://orthopediatrics.com"
+verified_note = "The company's own website (orthopediatrics.com) lists this address (checked November 14, 2026)."
+verified = "2026-11-14"
 status_note = "Moved to 2850 Frontier Drive, Warsaw (company headquarters); updated in the November 2026 audit."
 uei = "V2ULTCPLXLR1"
 

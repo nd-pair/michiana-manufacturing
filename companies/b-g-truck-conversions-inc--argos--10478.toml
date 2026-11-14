@@ -9,6 +9,8 @@ address = "10478 16th Road, Argos, IN 46501"
 lat = 41.24465
 lon = -86.26275
 website = "https://bgtruck.com"
+verified_note = "The company's own website (bgtruck.com) lists this address (checked November 14, 2026)."
+verified = "2026-11-14"
 uei = "GT91CGJT3ZW3"
 
 sector = "Wood, paper & furniture"

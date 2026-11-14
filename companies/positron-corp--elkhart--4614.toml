@@ -9,6 +9,8 @@ address = "4614 Wyland Drive, Elkhart, IN 46516"
 lat = 41.69219
 lon = -85.89926
 website = "https://positroncorp.com"
+verified_note = "The company's own website (positroncorp.com) lists this address (checked November 14, 2026)."
+verified = "2026-11-14"
 
 sector = "Vehicles & RVs"
 products = ["All Other Motor Vehicle Parts Manufacturing"]

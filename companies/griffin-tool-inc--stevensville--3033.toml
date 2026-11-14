@@ -9,6 +9,8 @@ address = "2951 Johnson Road, Stevensville, MI 49127"
 lat = 42.00711
 lon = -86.52427
 website = "https://griffintool.com"
+verified_note = "The company's own website (griffintool.com) lists this address (checked November 14, 2026)."
+verified = "2026-11-14"
 status_note = "Address corrected to 2951 Johnson Road in the November 2026 audit: every directory lists it there."
 
 sector = "Mechatronics & automation"
