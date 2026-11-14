@@ -14,11 +14,11 @@ sector = "Vehicles & RVs"
 products = ["RV Manufacturing"]
 naics = "336214"
 
-employees = 229
+employees = 408
 employees_scope = "site"
 employees_year = 2025
 employees_quality = "reported"
-employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+employees_note = "OSHA Form 300A, sum of 2 filings for buildings or departments at this address, 2025"
 
 parent = "Keystone RV Company"
 description = "NAICS 336214: rv manufacturing."

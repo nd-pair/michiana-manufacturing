@@ -60,6 +60,11 @@
 "employees": null,
 "naics": "336213"
 },
+"1433240": {
+"company": "thor-motor-coach-inc-bristol-1220",
+"employees": null,
+"naics": "336213"
+},
 "1433242": {
 "company": "thor-motor-coach-inc-bristol-1209",
 "employees": null,
@@ -202,6 +207,11 @@
 },
 "899006": {
 "company": "lci-goshen-2602",
+"employees": 586,
+"naics": "337121"
+},
+"918195": {
+"company": "lippert-topeka-320",
 "employees": 586,
 "naics": "337121"
 },
@@ -480,6 +490,11 @@
 "employees": 260,
 "naics": "333911"
 },
+"88472": {
+"company": "independent-protection-company-dba-turtle-top-new-paris-1607",
+"employees": 254,
+"naics": "336211"
+},
 "1462839": {
 "company": "leer-midwest-inc-elkhart-58288",
 "employees": 253,
@@ -579,11 +594,6 @@
 "company": "welch-packaging-group-inc-elkhart-1020",
 "employees": 230,
 "naics": "322211"
-},
-"943077": {
-"company": "keystone-rv-company-customer-service-goshen-3313",
-"employees": 229,
-"naics": "336214"
 },
 "943021": {
 "company": "keystone-rv-company-goshen-2478",
@@ -895,6 +905,11 @@
 "employees": 168,
 "naics": "336412"
 },
+"165225": {
+"company": "lakota-trailers-britol-807",
+"employees": 167,
+"naics": "336214"
+},
 "56187": {
 "company": "ctb-inc-milford-407",
 "employees": 166,
@@ -1071,9 +1086,10 @@
 "naics": "336214"
 },
 "1428600": {
-"company": "maple-leaf-farms-inc-milford-9166",
+"company": "serenade-foods-co-inc-milford-9166",
 "employees": 142,
-"naics": "311615"
+"naics": "311615",
+"occupant": "Maple Leaf Farms, Inc,. SER Plant and DC"
 },
 "943114": {
 "company": "keystone-rv-co-goshen-2642",
@@ -1610,6 +1626,11 @@
 "employees": 88,
 "naics": "332420"
 },
+"160704": {
+"company": "lovejoy-inc-south-haven-south-haven-200300",
+"employees": 88,
+"naics": "333613"
+},
 "575824": {
 "company": "bomarko-inc-plymouth-1955",
 "employees": 88,
@@ -1709,6 +1730,11 @@
 "company": "rc-middlebury-middlebury-51790",
 "employees": 81,
 "naics": "336212"
+},
+"1309027": {
+"company": "viaggio-bristol-1151",
+"employees": 81,
+"naics": "336612"
 },
 "59488": {
 "company": "global-composites-inc-elkhart-58190",
@@ -1944,6 +1970,11 @@
 "company": "power-gear-mishawaka-520",
 "employees": 68,
 "naics": "333111"
+},
+"1441317": {
+"company": "mjb-wood-group-bristol-103",
+"employees": 68,
+"naics": "321912"
 },
 "1176334": {
 "company": "dynamic-packaging-solutions-inc-bristol-406",
@@ -3020,6 +3051,11 @@
 "employees": 25,
 "naics": "336110"
 },
+"604794": {
+"company": "midwest-timer-service-inc-benton-harbor-4815",
+"employees": 24,
+"naics": "334513"
+},
 "1234874": {
 "company": "r-betker-associates-inc-benton-harbor-1400",
 "employees": 24,
@@ -3485,6 +3521,11 @@
 "employees": 7,
 "naics": "332812"
 },
+"951011": {
+"company": "herbruck-poultry-ranch-inc-topeka-330",
+"employees": 6,
+"naics": "311119"
+},
 "1417301": {
 "company": "bh-electronics-nappanee-1525",
 "employees": 6,
@@ -3580,36 +3621,21 @@
 "employees": null,
 "naics": "336213"
 },
-"1433240": {
-"company": "thor-motor-coach-inc-bristol-1220",
-"employees": null,
-"naics": "336213"
-},
-"918195": {
-"company": "lippert-topeka-320",
-"employees": 586,
-"naics": "337121"
-},
 "563972": {
 "company": "nanovis-llc",
 "employees": 508,
 "naics": "339112",
 "occupant": "Micropulse, Inc."
 },
-"88472": {
-"company": "independent-protection-company-dba-turtle-top-new-paris-1607",
-"employees": 254,
-"naics": "336211"
+"943077": {
+"company": "keystone-rv-company-customer-service-goshen-3313",
+"employees": 229,
+"naics": "336214"
 },
 "199004": {
 "company": "duo-form-of-michigan-inc-edwardsburg-69836",
 "employees": 172,
 "naics": "326191"
-},
-"165225": {
-"company": "lakota-trailers-britol-807",
-"employees": 167,
-"naics": "336214"
 },
 "1080468": {
 "company": "vahala-foam-inc-elkhart-612",
@@ -3642,16 +3668,6 @@
 "employees": 96,
 "naics": "332618"
 },
-"160704": {
-"company": "lovejoy-inc-south-haven-south-haven-200300",
-"employees": 88,
-"naics": "333613"
-},
-"1309027": {
-"company": "viaggio-bristol-1151",
-"employees": 81,
-"naics": "336612"
-},
 "1454069": {
 "company": "worldwide-foam-conant-elkhart-1806",
 "employees": 72,
@@ -3661,11 +3677,6 @@
 "company": "craftech-building-systems-inc-nappanee-2676",
 "employees": 71,
 "naics": "321992"
-},
-"1441317": {
-"company": "mjb-wood-group-bristol-103",
-"employees": 68,
-"naics": "321912"
 },
 "1276616": {
 "company": "dekker-vacuum-technologies-inc-michigan-city-935",
@@ -3735,11 +3746,6 @@
 "employees": 25,
 "naics": "335999"
 },
-"604794": {
-"company": "midwest-timer-service-inc-benton-harbor-4815",
-"employees": 24,
-"naics": "334513"
-},
 "575843": {
 "company": "bomarko-inc-plymouth-1955",
 "employees": 23,
@@ -3755,11 +3761,6 @@
 "company": "worldwide-foam-elkhart-620",
 "employees": 10,
 "naics": "326150"
-},
-"951011": {
-"company": "herbruck-poultry-ranch-inc-topeka-330",
-"employees": 6,
-"naics": "311119"
 },
 "1521593": {
 "company": "voyant-beauty-elkhart-personal-care-elkhart-2730",

@@ -14,11 +14,11 @@ sector = "Vehicles & RVs"
 products = ["Travel Trailer and Camper Manufacturing"]
 naics = "336214"
 
-employees = 234
+employees = 412
 employees_scope = "site"
 employees_year = 2025
 employees_quality = "reported"
-employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+employees_note = "OSHA Form 300A, sum of 2 filings for buildings or departments at this address, 2025"
 
 description = "NAICS 336214: travel trailer and camper manufacturing."
 

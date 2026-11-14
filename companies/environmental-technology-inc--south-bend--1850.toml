@@ -16,11 +16,11 @@ sector = "Electronics"
 products = ["Printed circuit assemblies manufacturing"]
 naics = "334418"
 
-employees = 7
+employees = 32
 employees_scope = "site"
 employees_year = 2025
 employees_quality = "reported"
-employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+employees_note = "OSHA Form 300A, sum of 2 filings for buildings or departments at this address, 2025"
 
 description = "NAICS 334418: printed circuit assemblies manufacturing."
 

@@ -169,3 +169,25 @@ import now ignores generic words ("coach", "products") when it compares names.
 
 **Names.** HIFLD title-cased acronyms ("Ak Industries", "Kz Rv", "Rbc Precision", "Mctd"). 62 are
 restored (AK, KZ RV, RBC, MCTD, LECO, CTB and others), and two raw OSHA names were cleaned up.
+
+## Follow-up: HIFLD headcount estimates against OSHA filings (November 14, 2026)
+
+228 plants had both a HIFLD employee estimate (base year 2022) and a 2025 OSHA Form 300A count:
+- The median estimate is 1.13 times the OSHA count, and 71% of estimates are within a factor of
+  two of it.
+- The error depends on size. Plants estimated under 50 employees are underestimated (median
+  0.79x), and plants estimated at 250 or more are overestimated (median 1.77x).
+- 10 plants estimated at 20 or more filed fewer than 20, and 5 the other way round.
+
+The largest gaps turned out to be our own matching: companies that file separately for buildings
+or departments at one address had only one filing on the plant's record. Keystone RV's Hackberry
+Drive plant showed 7 employees. The import now adds up the filings at a plant's address, counting
+an identical figure once. Sixteen plants were corrected, including Keystone (7 to 482), Carpenter
+(22 to 299), Welch Packaging (37 to 309) and Foamcraft (2 to 59).
+
+Same-address duplicates found by the consistency check were also resolved:
+- Removed as duplicates: Robert Bosch's St. Joseph plant (an estimated 700 against 182 filed with
+  OSHA), Schafer, Tigmaster, Winona Powder Coating, Securall / A & A, Thor at 701 County Road 15,
+  and a filing named "Saint Joseph" that is Walsworth's plant.
+- Removed as not a plant: FedEx Office.
+- Moved: Serenade Foods, to its own plant address.

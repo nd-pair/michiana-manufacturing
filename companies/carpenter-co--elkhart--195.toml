@@ -15,11 +15,11 @@ sector = "Materials & composites"
 products = ["Polystyrene Foam Product Manufacturing"]
 naics = "326140"
 
-employees = 22
+employees = 299
 employees_scope = "site"
 employees_year = 2025
 employees_quality = "reported"
-employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+employees_note = "OSHA Form 300A, sum of 2 filings for buildings or departments at this address, 2025"
 
 description = "Foam Fabrication. NAICS 326140: polystyrene foam product manufacturing."
 

@@ -14,11 +14,11 @@ sector = "Materials & composites"
 products = ["Hair sprays manufacturing"]
 naics = "325620"
 
-employees = 411
+employees = 635
 employees_scope = "site"
 employees_year = 2025
 employees_quality = "reported"
-employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+employees_note = "OSHA Form 300A, sum of 3 filings for buildings or departments at this address, 2025"
 
 parent = "Accra-Pac, INC DBA Voyant Beauty"
 description = "NAICS 325620: hair sprays manufacturing."

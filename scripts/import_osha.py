@@ -234,7 +234,7 @@ def main(args):
         f = by_osha.get(str(r["establishment_id"]).strip()) or name_match(r, cty)
         return bool(f) and street_of(r["street_address"]) == street_of(by_id[f].get("address", ""))
     existing = set(os.listdir(P("companies")))
-    out, matched, updated, written, outside, nogeo, new_addr, pending, occupants, restored, moves = {}, 0, 0, 0, [], [], {}, [], 0, 0, []
+    out, matched, updated, written, outside, nogeo, new_addr, pending, occupants, restored, moves, summed = {}, 0, 0, 0, [], [], {}, [], 0, 0, [], []
     today = datetime.date.today().isoformat()
     # filings on their file's own street first, so that file keeps its plant; then by size
     for r in sorted(keep, key=lambda r: (0 if on_files_street(r) else 1, -int(r.get("annual_average_employees") or 0))):
@@ -401,6 +401,27 @@ def main(args):
             new_addr[ak] = [cid_new, emp, fname, lines]
         pending.append((fname, lines, ak))
         existing.add(fname); written += 1
+    # a plant that files separately for buildings or departments at one address: its headcount is their sum
+    # (an identical count filed twice is counted once; company-wide counts are left out)
+    if not dry:
+        at_file = {}
+        for eid, v in out.items():
+            r = rows_by_id.get(eid)
+            if not r or v.get("occupant") or not v.get("employees") or v["company"] not in by_id:
+                continue
+            f = by_id[v["company"]]
+            if addr_key(r["street_address"], r["city"]) == addr_key(f.get("address", ""), f.get("city", "")):
+                at_file.setdefault(v["company"], {})[eid] = v["employees"]
+        for cid, ems in at_file.items():
+            f, path = by_id[cid], company_path(cid)
+            total = sum(set(ems.values()))
+            cur = int(open(path, encoding="utf-8").read().split("employees = ")[1].split("\n")[0]) if "\nemployees = " in open(path, encoding="utf-8").read() else 0
+            note = open(path, encoding="utf-8").read()
+            if len(ems) > 1 and total > cur and ("OSHA Form 300A" in note or "estimate" in note):
+                set_field(path, "employees", total); set_field(path, "employees_scope", "site")
+                set_field(path, "employees_year", int(year) if year.isdigit() else year); set_field(path, "employees_quality", "reported")
+                set_field(path, "employees_note", "OSHA Form 300A, sum of %d filings for buildings or departments at this address, %s" % (len(ems), year))
+                summed.append("%s: %d -> %d (%d filings)" % (f["name"], cur, total, len(ems)))
     for fname, lines, ak in pending:   # write after merging departments: the headcount is the plant's total
         tot = new_addr.get(ak, [None, None])[1] if ak else None
         if tot:
@@ -419,6 +440,9 @@ def main(args):
     print("%d regional manufacturing establishments in %s (filing year %s): %d matched, %d at a file's address under another name (file updated to the filer), %d presumed-closed restored, %d headcounts updated, %d new files %s, %d outside the region, %d not geocoded"
           % (len(keep), os.path.basename(files[0]), year, matched, occupants, restored, updated, written,
              "would be written" if dry else "written", len(outside), len(nogeo)))
+    print("%d plants now add up the filings at their address:" % len(summed))
+    for x in summed:
+        print("  summed:", x)
     print("%d files moved to the address of their own filing:" % len(moves))
     for x in moves:
         print("  moved:", x)

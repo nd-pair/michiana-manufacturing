@@ -14,11 +14,11 @@ sector = "Wood, paper & furniture"
 products = ["Manufactured Home (Mobile Home) Manufacturing"]
 naics = "321991"
 
-employees = 300
+employees = 488
 employees_scope = "site"
 employees_year = 2025
 employees_quality = "reported"
-employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+employees_note = "OSHA Form 300A, sum of 2 filings for buildings or departments at this address, 2025"
 
 description = "NAICS 321991: manufactured home (mobile home) manufacturing."
 

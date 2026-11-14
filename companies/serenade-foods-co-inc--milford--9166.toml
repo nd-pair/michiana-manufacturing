@@ -1,15 +1,16 @@
-# Serenade Foods Co., Inc.
-# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+# Serenade Foods (Maple Leaf Farms)
+# Imported from HIFLD, then updated from OSHA's Form 300A filing at this address (public); edit freely.
 
-name = "Serenade Foods Co., Inc."
+name = "Serenade Foods (Maple Leaf Farms)"
 kind = "company"
 city = "Milford"
 state = "IN"
 address = "9179 North 200 East, Milford, IN 46542"
 lat = 41.36620
 lon = -85.80642
-website = "https://mapleleaffarms.com"
-status_note = "Maple Leaf Farms' Serenade (SER) plant files with OSHA at 9179 N 200 E; moved there from Maple Leaf's main address (November 2026)."
+osha_id = "1428600"
+formerly = "Serenade Foods Co., Inc."
+status_note = "Named from OSHA's 2025 Form 300A filing at this address; the earlier record here, Serenade Foods Co., Inc. (HIFLD), is a predecessor or a former occupant."
 verified_note = "USDA lists Serenade Foods, a division of Maple Leaf Farms, as an active poultry plant at 9179 N 200 E, and Maple Leaf Farms is listed at 9166 N 200 E on the same Milford campus. Source: https://www.fsis.usda.gov/inspection/fsis-inspected-establishments/serenade-foods-division-maple-leaf-farms-inc."
 verified = "2026-11-13"
 
@@ -17,13 +18,13 @@ sector = "Food & consumer goods"
 products = ["Poultry Processing"]
 naics = "311615"
 
-employees = 135
+employees = 142
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
-description = "Poultry Processing. NAICS 311615: poultry processing."
+description = "NAICS 311615: poultry processing."
 
-source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
-updated = "2026-11-11"
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor); the earlier record at this address came from HIFLD"
+updated = "2026-11-14"
