@@ -222,8 +222,11 @@ def main(args):
     if not files:
         sys.exit(__doc__)
     zips = json.load(open(P("data", "region_zips.json")))["zips"]
-    keep = [r for r in rows_from(files[0]) if r.get("state") in ("IN", "MI") and (r.get("zip_code") or "")[:5] in zips
-            and (r.get("naics_code") or "")[:2] in ("31", "32", "33")]
+    regional = [r for r in rows_from(files[0]) if r.get("state") in ("IN", "MI") and (r.get("zip_code") or "")[:5] in zips]
+    keep = [r for r in regional if (r.get("naics_code") or "")[:2] in ("31", "32", "33")]
+    # filings under other codes (a modular builder as construction, a fastener maker as a wholesaler): used below only
+    # to refresh the headcount of a file at the same address with a shared name word, never to add or rename files
+    other_codes = [r for r in regional if (r.get("naics_code") or "")[:2] not in ("31", "32", "33", "11")]   # not farms: an egg farm's count is not its egg-products plant's
     year = max((r.get("year_filing_for") or "" for r in keep), default="")
     # a figure one company reports at two or more addresses (100+) or three or more is its company-wide count
     from collections import Counter
@@ -470,6 +473,28 @@ def main(args):
             new_addr[ak] = [cid_new, emp, fname, lines]
         pending.append((fname, lines, ak))
         existing.add(fname); written += 1
+    refreshed = []
+    if not dry:
+        GEN = {"inc", "llc", "corp", "co", "company", "the", "of", "and", "products", "industries", "manufacturing", "mfg", "group", "usa", "international"}
+        sig = lambda s: {w for w in norm(s).split() if len(w) > 2 and w not in GEN}
+        live = {}
+        for c in cs:
+            if not c.get("osha_id") and not any(c.get(k) for k in ("closed", "presumed_closed", "removed")) and c.get("employees_scope", "site") == "site":
+                live.setdefault(addr_key(c.get("address", ""), c.get("city", "")), []).append(c)
+        for r in other_codes:
+            e = emp_of(r)
+            for c in live.get(addr_key(r["street_address"], canon_city(r["city"])), []):
+                note = c.get("employees_note", "")
+                if not e or not sig(c["name"]) & sig(r["establishment_name"] + " " + r["company_name"]):
+                    continue
+                if c.get("employees_quality") == "estimate" or (not c.get("employees") and c.get("source", "").startswith(("HIFLD", "OSHA"))) or "filed under NAICS" in note:
+                    if c.get("employees") != e or "filed under NAICS" not in note:
+                        path = company_path(c["_id"])
+                        set_field(path, "employees", e); set_field(path, "employees_scope", "site")
+                        set_field(path, "employees_year", int(year) if year.isdigit() else year); set_field(path, "employees_quality", "reported")
+                        set_field(path, "employees_note", "OSHA Form 300A, annual average employees at this establishment, %s (filed under NAICS %s, %s)"
+                                  % (year, r["naics_code"], (r.get("industry_description") or "").strip().lower()))
+                        refreshed.append("%s: %s -> %d" % (c["name"], c.get("employees"), e))
     # a plant that files separately for buildings or departments at one address: its headcount is their sum
     # (an identical count filed twice is counted once; company-wide counts are left out)
     if not dry:
@@ -509,6 +534,9 @@ def main(args):
     print("%d regional manufacturing establishments in %s (filing year %s): %d matched, %d at a file's address under another name (file updated to the filer), %d presumed-closed restored, %d headcounts updated, %d new files %s, %d outside the region, %d not geocoded"
           % (len(keep), os.path.basename(files[0]), year, matched, occupants, restored, updated, written,
              "would be written" if dry else "written", len(outside), len(nogeo)))
+    print("%d headcounts refreshed from same-address filings under other industry codes:" % len(refreshed))
+    for x in refreshed:
+        print("  refreshed:", x)
     print("%d plants now add up the filings at their address:" % len(summed))
     for x in summed:
         print("  summed:", x)
