@@ -5,12 +5,12 @@ name = "Precision Process"
 kind = "company"
 city = "Walkerton"
 state = "IN"
-address = "31350 Fulmer Street, Walkerton, IN 46574"
-lat = 41.47483
-lon = -86.47589
+address = "104 Fulmer Street, Walkerton, IN 46574"
+lat = 41.47513
+lon = -86.47585
 website = "https://hilerindustries.com"
-unconfirmed_reason = "The company operates in the region, but no current source confirms a plant at this address (verification check, November 2026): Hiler Industries' Precision Processes Division operates a grinding and finishing site at 104 Fulmer Street, Walkerton (with grinder job postings), but no source shows the 31350 Fulmer Street number."
-unconfirmed = "2026-11-14"
+verified = "2026-11-14"
+status_note = "Moved from 31350 Fulmer Street, Walkerton, IN 46574: the company's own website lists 104 Fulmer Street, Walkerton, IN 46574 (checked November 14, 2026)."
 
 sector = "Metal"
 products = ["Electroplating, Plating, Polishing, Anodizing and Coloring"]

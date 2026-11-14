@@ -5,12 +5,12 @@ name = "Midwest Rake Company LLC"
 kind = "company"
 city = "Warsaw"
 state = "IN"
-address = "1605 West Center Street, Warsaw, IN 46580"
-lat = 41.23941
-lon = -85.87895
+address = "2666 South Country Club Road, Warsaw, IN 46580"
+lat = 41.19613
+lon = -85.82645
 website = "https://midwestrake.com"
-unconfirmed_reason = "The company operates in the region, but no current source confirms a plant at this address (verification check, November 2026): Midwest Rake (now Seymour Midwest, site redirects there) operates from a Warsaw corporate office at 2666 S Country Club Rd; 1605 W Center St is a light-manufacturing parcel with no occupant or company tie found."
-unconfirmed = "2026-11-14"
+verified = "2026-11-14"
+status_note = "Moved from 1605 West Center Street, Warsaw, IN 46580: the company's own website lists 2666 South Country Club Road, Warsaw, IN 46580 (checked November 14, 2026)."
 
 sector = "Metal"
 products = ["Hand and Edge Tool Manufacturing"]

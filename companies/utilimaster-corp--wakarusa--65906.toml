@@ -3,14 +3,14 @@
 
 name = "Utilimaster Corp."
 kind = "company"
-city = "Wakarusa"
+city = "Bristol"
 state = "IN"
-address = "65906 State Road 19, Wakarusa, IN 46573"
-lat = 41.53762
-lon = -86.00107
+address = "603 Earthway Blvd., Bristol, IN 46507"
+lat = 41.71114
+lon = -85.82942
 website = "https://utilimaster.com"
-unconfirmed_reason = "The company operates in the region, but no current source confirms a plant at this address (verification check, November 2026): Utilimaster is live (2026, part of Aebi Schmidt) and an undated trade article says dry-freight bodies are still built in Wakarusa, but no dated source confirms this exact address."
-unconfirmed = "2026-11-14"
+verified = "2026-11-14"
+status_note = "Moved from 65906 State Road 19, Wakarusa, IN 46573: the company's own website lists 603 Earthway Blvd., Bristol, IN 46507 (checked November 14, 2026)."
 
 sector = "Vehicles & RVs"
 products = ["Light Truck and Utility Vehicle Manufacturing"]

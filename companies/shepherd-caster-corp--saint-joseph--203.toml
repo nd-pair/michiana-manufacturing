@@ -5,12 +5,12 @@ name = "Shepherd Caster Corp."
 kind = "company"
 city = "Saint Joseph"
 state = "MI"
-address = "203 Kerth Street, Saint Joseph, MI 49085"
-lat = 42.07482
-lon = -86.50054
+address = "2024 Hawthorne Avenue, Saint Joseph, MI 49085"
+lat = 42.07257
+lon = -86.50109
 website = "https://shepherdcasters.com"
-unconfirmed_reason = "The company operates in the region, but no current source confirms a plant at this address (verification check, November 2026): shepherdcasters.com now redirects to the Colson Group's Shepherd brand page, a 2015 announcement placed a Shepherd distribution center in St. Joseph, and BBB lists 203 Kerth St in a casters category without a clear business name."
-unconfirmed = "2026-11-14"
+verified = "2026-11-14"
+status_note = "Moved from 203 Kerth Street, Saint Joseph, MI 49085: the company's own website lists 2024 Hawthorne Avenue, St. Joseph, MI 49085 (checked November 14, 2026)."
 
 sector = "Metal"
 products = ["Hardware Manufacturing"]
