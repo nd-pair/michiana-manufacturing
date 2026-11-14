@@ -9,6 +9,8 @@ address = "28731 County Road 6, Elkhart, IN 46514"
 lat = 41.72474
 lon = -86.01870
 website = "https://proairllc.com"
+verified_note = "Multiple trade directories list ProAir LLC (HVAC for specialty vehicles) at 28731 County Road 6, but listings are undated and the company site blocked fetching, so confidence is moderate. Source: https://www.oemoffhighway.com/10914979"
+verified = "2026-11-13"
 
 sector = "Mechatronics & automation"
 products = ["Air-Conditioning & Warm Air Heating Equipment & Commercial and Industrial Refrigeration Equipment Mfg."]

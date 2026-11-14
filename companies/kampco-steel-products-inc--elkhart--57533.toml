@@ -9,6 +9,8 @@ address = "57533 County Road 3, Elkhart, IN 46517"
 lat = 41.65925
 lon = -86.02286
 website = "https://kampco.com"
+verified_note = "Live company website with 2026 copyright lists the Elkhart location at 57533 County Road 3 South. Source: https://kampco.com"
+verified = "2026-11-13"
 
 sector = "Vehicles & RVs"
 products = ["Truck Trailer Manufacturing"]

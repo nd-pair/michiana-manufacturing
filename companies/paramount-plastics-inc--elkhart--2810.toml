@@ -9,6 +9,8 @@ address = "2810 Jeanwood Drive, Elkhart, IN 46514"
 lat = 41.72672
 lon = -85.92712
 website = "https://paramountplastics.com"
+verified_note = "Paramount Plastics' site shows 2810 Jeanwood Dr with a 2026 copyright, and the company was bought by Empowered Ventures (now ESOP-owned) while keeping its name. Source: https://paramountplastics.com"
+verified = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["All Other Plastics Product Manufacturing"]

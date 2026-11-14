@@ -5,11 +5,11 @@ name = "Aluminum Metals Co."
 kind = "company"
 city = "Elkhart"
 state = "IN"
-address = "52760 Bridger Court, Elkhart, IN 46514"
-lat = 41.72729
-lon = -85.90962
-presumed_closed_reason = "Verification check: the company operates elsewhere, not at this address. Aluminum Metals Company is listed at 640 Collins Rd, Elkhart (Patrick Industries subsidiary), and no source ties it to 52760 Bridger Court. Source: https://mergr.com/company/aluminum-metals"
-presumed_closed = "2026-11-13"
+address = "640 Collins Road, Elkhart, IN"
+lat = 41.68417
+lon = -85.92197
+verified = "2026-11-13"
+status_note = "Moved from 52760 Bridger Court, Elkhart, IN 46514; found in a verification check (2026-11-13): Aluminum Metals Company is listed at 640 Collins Rd, Elkhart (Patrick Industries subsidiary), and no source ties it to 52760 Bridger Court."
 
 sector = "Metal"
 products = ["Other Aluminum Rolling and Drawing"]

@@ -8,6 +8,8 @@ state = "IN"
 address = "1328 Mishawaka Street, Elkhart, IN 46514"
 lat = 41.69565
 lon = -85.99454
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Name and address searches returned nothing for Northern Box Co at 1328 Mishawaka Street."
+presumed_closed = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Corrugated and Solid Fiber Box Manufacturing"]

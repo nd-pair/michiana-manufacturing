@@ -9,6 +9,8 @@ address = "421 South 2nd Street, Elkhart, IN 46516"
 lat = 41.68307
 lon = -85.97333
 website = "https://etruth.com"
+presumed_closed_reason = "Verification check: renamed or acquired, but the new name is not tied to this address (The Elkhart Truth (Paxton Media Group)). Wikipedia gives the Elkhart Truth's headquarters as 421 South Second Street and says Federated Media sold it to Paxton Media Group in 2016; no dated evidence of current activity at the address was found and etruth.com redirects elsewhere. Source: https://en.wikipedia.com/wiki/Elkhart_Truth"
+presumed_closed = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Other Commercial Printing"]

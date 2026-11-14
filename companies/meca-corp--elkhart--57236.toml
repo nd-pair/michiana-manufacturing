@@ -9,6 +9,8 @@ address = "57236 Nagy Drive, Elkhart, IN 46517"
 lat = 41.66248
 lon = -86.01653
 website = "https://meca.ws"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Only an undated ZoomInfo listing shows Meca Corp at 57236 Nagy Dr; meca.ws fails to load (SSL error) and its last archive capture is 2016. Source: https://www.zoominfo.com/c/meca-corp/457705557"
+presumed_closed = "2026-11-13"
 
 sector = "Mechatronics & automation"
 products = ["All Other Industrial Machinery Manufacturing"]

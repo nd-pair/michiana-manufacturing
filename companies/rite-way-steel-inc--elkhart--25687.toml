@@ -8,6 +8,8 @@ state = "IN"
 address = "25687 East Woodlawn Avenue, Elkhart, IN 46514"
 lat = 41.70845
 lon = -85.96150
+presumed_closed_reason = "Verification check: no current trace of this company at this address. No listing, website or news found for Rite-Way Steel or the East Woodlawn Ave address. Source: https://thebluebook.com/iProView/1804792"
+presumed_closed = "2026-11-13"
 
 sector = "Vehicles & RVs"
 products = ["Motor Home Manufacturing"]

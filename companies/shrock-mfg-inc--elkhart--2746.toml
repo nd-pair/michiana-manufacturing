@@ -9,6 +9,8 @@ address = "2746 Jami Street, Elkhart, IN 46514"
 lat = 41.72896
 lon = -86.01419
 website = "https://shrockmfg.com"
+verified_note = "Live company website (copyright 2026) gives 2746 Jami Street, Elkhart as its address; steel seating-frame fabricator since 1979. Source: https://shrockmfg.com"
+verified = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Upholstered Household Furniture Manufacturing"]

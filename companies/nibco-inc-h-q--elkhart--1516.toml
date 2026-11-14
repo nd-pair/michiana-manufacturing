@@ -9,6 +9,8 @@ address = "1516 Middlebury Street, Elkhart, IN 46516"
 lat = 41.68153
 lon = -85.94203
 website = "https://nibco.com"
+removed_reason = "not a production site (office or hq), found in a verification check: Several directories give 1516 Middlebury St as NIBCO's world headquarters and the company is evidently active, but the listings are undated so no evidence year is stated."
+removed = "2026-11-13"
 
 sector = "Metal"
 products = ["Other Metal Valve and Pipe Fitting Manufacturing"]

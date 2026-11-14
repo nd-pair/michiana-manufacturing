@@ -5,12 +5,12 @@ name = "Molded Foam Products"
 kind = "company"
 city = "Bristol"
 state = "IN"
-address = "1150 Ponderosa Drive, Bristol, IN 46507"
-lat = 41.71263
-lon = -85.81210
+address = "1203 South Division Street, Bristol, IN"
+lat = 41.71168
+lon = -85.81736
 website = "https://moldedfoamproducts.com"
-presumed_closed_reason = "Verification check: the company operates elsewhere, not at this address. Company's website lists 1203 S Division St, Bristol, not 1150 Ponderosa Dr. Source: https://moldedfoamproducts.com"
-presumed_closed = "2026-11-13"
+verified = "2026-11-13"
+status_note = "Moved from 1150 Ponderosa Drive, Bristol, IN 46507; found in a verification check (2026-11-13): Company's website lists 1203 S Division St, Bristol, not 1150 Ponderosa Dr."
 
 sector = "Medical devices & other"
 products = ["Sporting and Athletic Goods Manufacturing"]

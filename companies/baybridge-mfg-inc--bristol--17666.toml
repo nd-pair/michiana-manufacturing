@@ -5,12 +5,12 @@ name = "Baybridge Mfg., Inc."
 kind = "company"
 city = "Bristol"
 state = "IN"
-address = "17666 Commerce Drive, Bristol, IN 46507"
-lat = 41.72988
-lon = -85.79669
+address = "1301 Commerce Drive, Bristol, IN"
+lat = 41.72975
+lon = -85.80011
 website = "https://baybridgemfg.com"
-presumed_closed_reason = "Verification check: the company operates elsewhere, not at this address. Live Bay Bridge site (2026, hiring) lists 1301 Commerce Drive, Bristol, not 17666; no source confirms the 17666 site. Source: https://baybridgemfg.com"
-presumed_closed = "2026-11-13"
+verified = "2026-11-13"
+status_note = "Moved from 17666 Commerce Drive, Bristol, IN 46507; found in a verification check (2026-11-13): Live Bay Bridge site (2026, hiring) lists 1301 Commerce Drive, Bristol, not 17666; no source confirms the 17666 site."
 
 sector = "Vehicles & RVs"
 products = ["Motor Vehicle Body Manufacturing"]

@@ -9,6 +9,8 @@ address = "420 Roske Drive, Elkhart, IN 46516"
 lat = 41.69237
 lon = -85.89593
 website = "https://litecousa.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. litecousa.com redirects to a GoDaddy for-sale page and only undated directory listings (Ramco Industries dba Liteco) show this address. Source: https://start.cortera.com/company/research/k2j7rvm1n/ramco-industries-inc/"
+presumed_closed = "2026-11-13"
 
 sector = "Vehicles & RVs"
 products = ["Vehicular Lighting Equipment Manufacturing"]

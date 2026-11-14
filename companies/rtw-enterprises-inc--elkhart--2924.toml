@@ -9,6 +9,8 @@ address = "2924 County Road 6 East, Elkhart, IN 46514"
 lat = 41.72434
 lon = -85.93278
 website = "https://rtwcorp.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. rtwcorp.com no longer resolves (last Wayback capture April 2022) and no listing for the County Road 6 East address was found. Source: http://web.archive.org/web/20220420185543/http://rtwcorp.com/"
+presumed_closed = "2026-11-13"
 
 sector = "Electronics"
 products = ["Other Electronic Component Manufacturing"]

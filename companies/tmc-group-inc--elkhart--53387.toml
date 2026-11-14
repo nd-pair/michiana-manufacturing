@@ -8,6 +8,9 @@ state = "IN"
 address = "53387 Ada Drive, Elkhart, IN 46514"
 lat = 41.71915
 lon = -85.92320
+closed_source = "https://www.metro-magazine.com/news/abc-companies-sells-ameritrans-bus-assets"
+closed_note = "ABC Companies bought TMC Group's Elkhart assets in 2012 and ran it as Ameritrans Bus, then sold the assets in 2016 and the operation closed; the specific street address was not confirmed."
+closed = "2016"
 
 sector = "Vehicles & RVs"
 products = ["Motor Vehicle Body Manufacturing"]

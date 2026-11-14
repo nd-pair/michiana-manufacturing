@@ -9,6 +9,8 @@ address = "1179 Kent Street, Elkhart, IN 46514"
 lat = 41.69943
 lon = -86.00673
 website = "https://rwps.com"
+removed_reason = "not a production site (office or hq), found in a verification check: Live Rollie Williams site (rwps.com redirects to rolliewilliams.com) lists its corporate office and showroom at 1179 Kent Street, Elkhart."
+removed = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["Paint and Coating Manufacturing"]

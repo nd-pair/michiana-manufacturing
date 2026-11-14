@@ -9,6 +9,8 @@ address = "4221 Middlebury Street, Elkhart, IN 46516"
 lat = 41.68126
 lon = -85.90646
 website = "https://thewoodcompany.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Only undated directory listings place the company at 4221 Middlebury St; thewoodcompany.com refused connections. Source: https://talents.vaia.com/companies/specialized-wood-products-inc/"
+presumed_closed = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Sawmills"]

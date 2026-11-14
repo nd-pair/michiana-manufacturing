@@ -8,6 +8,8 @@ state = "IN"
 address = "53379 County Road 113, Elkhart, IN 46514"
 lat = 41.71910
 lon = -85.91331
+presumed_closed_reason = "Verification check: no current trace of this company at this address. A supplier directory lists Quality Plastics & Engineering in Elkhart but gives no street address or date; County Road 113 address not confirmed. Source: https://www.sourceready.com/supplier/detail/quality-plastics-and-engineering"
+presumed_closed = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["All Other Plastics Product Manufacturing"]

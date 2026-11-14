@@ -9,6 +9,8 @@ address = "2123 Middlebury Street, Elkhart, IN 46516"
 lat = 41.68102
 lon = -85.93119
 website = "https://omegaplasticscorp.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. The domain redirects to Reschcor (Bristol, IN) which does not mention Omega Plastics, and only undated directory listings place Omega Plastic Corp at 2123 Middlebury St. Source: https://www.superpages.com/goshen-in/plastic-boxes"
+presumed_closed = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["Unlaminated Plastics Profile Shape Manufacturing"]

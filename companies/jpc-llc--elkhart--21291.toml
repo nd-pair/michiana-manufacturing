@@ -9,6 +9,8 @@ address = "21291 Buckingham Road, Elkhart, IN 46516"
 lat = 41.70077
 lon = -85.87658
 website = "https://jpcind.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Domain is dead (last Wayback capture 2007) and searches for the company and address returned nothing. Source: https://archive.org/wayback/available?url=jpcind.com"
+presumed_closed = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["All Other Plastics Product Manufacturing"]

@@ -9,6 +9,8 @@ address = "4420 Pine Creek Road, Elkhart, IN 46516"
 lat = 41.68909
 lon = -85.90079
 website = "https://marathonhomes.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. marathonhomes.com is a live site for a Breckenridge, Texas manufacturer that lists no Elkhart location, and only a MapQuest listing shows this address. Source: https://marathonhomes.com"
+presumed_closed = "2026-11-13"
 
 sector = "Vehicles & RVs"
 products = ["Motor Home Manufacturing"]

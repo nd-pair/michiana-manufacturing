@@ -10,6 +10,8 @@ address = "3200 County Road 6 East, Elkhart, IN 46514"
 status_note = "Edge Adhesives bought PARR Technologies in 2012 and makes PARR-brand sealants here."
 lat = 41.72420
 lon = -85.92918
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Undated directories list an Edge Adhesives/Parr Technologies plant at 3200 CR 6 East (Edge was acquired by Bostik in 2021), but no 2023-or-later evidence of operation was found. Source: https://buildingclean.org/manufacturers/facility/4952"
+presumed_closed = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["Adhesive Manufacturing"]

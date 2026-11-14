@@ -9,6 +9,8 @@ address = "2100 Sterling Avenue, Elkhart, IN 46516"
 lat = 41.66655
 lon = -85.95169
 website = "https://johnsonhardware.com"
+verified_note = "Live company site with 2026 copyright; the site itself does not show the street address, which comes from Arcat and directory listings. Source: https://johnsonhardware.com"
+verified = "2026-11-13"
 
 sector = "Metal"
 products = ["Hardware Manufacturing"]

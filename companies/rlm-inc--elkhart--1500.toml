@@ -9,6 +9,8 @@ address = "1500 West Hively Avenue, Elkhart, IN 46517"
 lat = 41.65999
 lon = -85.99051
 website = "https://epw.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Listed website epw.com is EPW Training, an unrelated business, and no record of Rlm Inc at 1500 W Hively Ave was found. Source: https://epw.com"
+presumed_closed = "2026-11-13"
 
 sector = "Medical devices & other"
 products = ["Sporting and Athletic Goods Manufacturing"]

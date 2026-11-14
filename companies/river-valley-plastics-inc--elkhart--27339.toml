@@ -9,6 +9,8 @@ address = "27339 D I Drive, Elkhart, IN 46514"
 lat = 41.72643
 lon = -85.99403
 website = "https://rivervalleyplastics.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Domain redirects to a parked lander page and no directory, news or address result was found for the company. Source: https://rivervalleyplastics.com"
+presumed_closed = "2026-11-13"
 uei = "DBJFSG33MK41"
 
 sector = "Materials & composites"

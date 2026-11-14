@@ -8,6 +8,8 @@ state = "IN"
 address = "27291 D I Drive, Elkhart, IN 46514"
 lat = 41.72643
 lon = -85.99136
+presumed_closed_reason = "Verification check: no current trace of this company at this address. No listing, website or news found for this company or the D I Drive address. Source: https://www.globalspec.com/local/4285/C_US/IN/Elkhart"
+presumed_closed = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["Paint and Coating Manufacturing"]

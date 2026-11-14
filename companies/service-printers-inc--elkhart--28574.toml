@@ -9,6 +9,8 @@ address = "28574 Phillips Street, Elkhart, IN 46514"
 lat = 41.69406
 lon = -86.01594
 website = "https://serviceprinterinc.com"
+verified_note = "Old domain redirects to serviceprinterselkhart.com, archived July 2025 with active variable-data printing content; GlobalSpec lists 28574 Phillips St. Source: https://web.archive.org/web/2025/https://www.serviceprinterinc.com/"
+verified = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Other Commercial Printing"]

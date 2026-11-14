@@ -8,6 +8,8 @@ state = "IN"
 address = "2925 Stephen Place, Elkhart, IN 46514"
 lat = 41.72885
 lon = -86.01671
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Only undated directory entries (unclaimed Thomasnet profile) list Qmp at 2925 Stephen Pl; no website or dated evidence. Source: https://naicslist.com/company-profile/qmp-inc-elkhart-in-46514"
+presumed_closed = "2026-11-13"
 
 sector = "Metal"
 products = ["Metal Stamping"]

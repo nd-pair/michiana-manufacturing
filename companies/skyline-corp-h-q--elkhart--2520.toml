@@ -9,6 +9,8 @@ address = "2520 Bypass Road, Elkhart, IN 46514"
 lat = 41.68703
 lon = -86.01034
 website = "https://skylinecorp.com"
+presumed_closed_reason = "Verification check: renamed or acquired, but the new name is not tied to this address (Champion Homes, Inc. (formerly Skyline Champion)). Skyline merged with Champion (skylinecorp.com now redirects to Champion Homes investor site) and directory listings give Skyline Champion HQ at 2520 By-Pass Rd, but no dated 2023+ evidence of Elkhart occupancy was found. Source: https://www.insideindianabusiness.com/articles/skyline-champion-merger-complete"
+presumed_closed = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Manufactured Home (mobile Home) Manufacturing"]

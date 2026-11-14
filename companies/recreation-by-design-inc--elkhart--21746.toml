@@ -5,10 +5,12 @@ name = "Recreation by Design, Inc."
 kind = "company"
 city = "Elkhart"
 state = "IN"
-address = "21746 Buckingham Road, Elkhart, IN 46516"
-lat = 41.69913
-lon = -85.88263
+address = "57420 County Road 3, Elkhart, IN"
+lat = 41.66094
+lon = -86.02241
 website = "https://recreationbydesign.com"
+verified = "2026-11-13"
+status_note = "Moved from 21746 Buckingham Road, Elkhart, IN 46516; found in a verification check (2026-11-13): Recreation By Design's live site gives its address as 57420 County Road 3, Elkhart, not 21746 Buckingham Road."
 uei = "GCS9B7UQ2B35"
 
 sector = "Vehicles & RVs"

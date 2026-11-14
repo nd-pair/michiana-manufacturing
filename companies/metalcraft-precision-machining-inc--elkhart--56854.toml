@@ -8,6 +8,8 @@ state = "IN"
 address = "56854 Elk Court, Elkhart, IN 46516"
 lat = 41.66873
 lon = -86.03638
+verified_note = "An FFL listing shows Metalcraft Precision Machining at 56854 Elk Ct with a license valid to July 2028 (implying a recent renewal; year inferred), plus a machine-shop directory profile. Source: https://www.gunmade.com/stores/indiana/elkhart/metalcraft-precision-machining-inc-33119/"
+verified = "2026-11-13"
 uei = "WKHKWNLCNRN5"
 
 sector = "Metal"

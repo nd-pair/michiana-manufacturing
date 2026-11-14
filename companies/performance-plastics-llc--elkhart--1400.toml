@@ -8,6 +8,8 @@ state = "IN"
 address = "1400 Leininger Avenue, Elkhart, IN 46517"
 lat = 41.66360
 lon = -85.98791
+presumed_closed_reason = "Verification check: no current trace of this company at this address. No listing for Performance Plastics at 1400 Leininger Avenue was found; the Performance Plastics located by search is a Cincinnati molder."
+presumed_closed = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["All Other Plastics Product Manufacturing"]

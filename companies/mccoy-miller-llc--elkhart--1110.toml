@@ -9,6 +9,8 @@ address = "1110 D I Drive, Elkhart, IN 46514"
 lat = 41.72701
 lon = -85.99286
 website = "https://mccoymiller.com"
+presumed_closed_reason = "Verification check: reported closed, without a dated source. The McCoy Miller site (now under REV Group branding) states the company is no longer accepting orders for McCoy Miller ambulances; no source found placing any occupant at 1110 D I Drive. Source: https://mccoymiller.com"
+presumed_closed = "2026-11-13"
 
 sector = "Vehicles & RVs"
 products = ["Motor Vehicle Body Manufacturing"]

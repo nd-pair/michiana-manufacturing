@@ -9,6 +9,8 @@ address = "1025 All Pro Drive, Elkhart, IN 46514"
 lat = 41.72991
 lon = -85.99017
 website = "https://qcmetalfab.com"
+verified_note = "Live website carries a 2026 copyright for QC Metal Fabricators, Inc. in Elkhart, IN 46514, though the street address was not shown in the text retrieved. Source: https://qcmetalfab.com"
+verified = "2026-11-13"
 
 sector = "Metal"
 products = ["All Other Miscellaneous Fabricated Metal Product Manufacturing"]

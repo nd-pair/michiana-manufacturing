@@ -5,12 +5,12 @@ name = "Asc Industries, Inc."
 kind = "company"
 city = "Elkhart"
 state = "IN"
-address = "23325 County Road 6, Elkhart, IN 46514"
-lat = 41.72458
-lon = -85.91371
+address = "3604 County Road 6, Elkhart, IN"
+lat = 41.72421
+lon = -85.91658
 website = "https://ascind.com"
-presumed_closed_reason = "Verification check: the company operates elsewhere, not at this address. ASC Industries' live site (tube fabrication) lists 3604 County Road 6, Elkhart rather than 23325 County Road 6, which may be a renumbering. Source: https://www.ascind.com/"
-presumed_closed = "2026-11-13"
+verified = "2026-11-13"
+status_note = "Moved from 23325 County Road 6, Elkhart, IN 46514; found in a verification check (2026-11-13): ASC Industries' live site (tube fabrication) lists 3604 County Road 6, Elkhart rather than 23325 County Road 6, which may be a renumbering."
 
 sector = "Metal"
 products = ["Iron and Steel Pipe and Tube Manufacturing From Purchased Steel"]

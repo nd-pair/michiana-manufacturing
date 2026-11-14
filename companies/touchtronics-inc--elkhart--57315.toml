@@ -9,6 +9,8 @@ address = "57315 Nagy Drive, Elkhart, IN 46517"
 lat = 41.66176
 lon = -86.01571
 website = "https://touchtronics.com"
+verified_note = "Company website (copyright 2026) lists 57315 Nagy Dr, Elkhart. Source: https://touchtronics.com"
+verified = "2026-11-13"
 
 sector = "Electronics"
 products = ["Other Communication and Energy Wire Manufacturing"]

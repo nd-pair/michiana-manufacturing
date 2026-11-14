@@ -8,6 +8,8 @@ state = "IN"
 address = "1313 West Hively Avenue, Elkhart, IN 46517"
 lat = 41.65938
 lon = -85.98716
+verified_note = "A November 2025 BizVoice article reports Lithotone has 36 employees and directories list it at 1313 Hively Ave, Elkhart. Source: https://www.bizvoicemagazine.com/wp-content/uploads/2025/11/Lithotone.pdf"
+verified = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Commercial Lithographic Printing"]

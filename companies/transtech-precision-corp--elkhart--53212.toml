@@ -5,10 +5,12 @@ name = "Transtech Precision Corp."
 kind = "company"
 city = "Elkhart"
 state = "IN"
-address = "53212 Ada Drive, Elkhart, IN 46514"
-lat = 41.72078
-lon = -85.92243
+address = "2600 Ada Drive, Elkhart, IN"
+lat = 41.72041
+lon = -85.92281
 website = "https://transtechprecision.com"
+verified = "2026-11-13"
+status_note = "Moved from 53212 Ada Drive, Elkhart, IN 46514; found in a verification check (2026-11-13): Company website now lists 2600 Ada Dr, Elkhart rather than 53212 Ada Drive."
 
 sector = "Vehicles & RVs"
 products = ["Motor Home Manufacturing"]

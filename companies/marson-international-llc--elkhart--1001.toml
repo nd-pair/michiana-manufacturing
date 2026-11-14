@@ -9,6 +9,8 @@ address = "1001 Sako Court, Elkhart, IN 46516"
 lat = 41.67840
 lon = -85.91412
 website = "https://marsonintl.com"
+verified_note = "A 2025 customs record lists Marson at 1001 Sako Ct and a 2020 report names it as an Elkhart site, though marsonintl.com shows only 3630 Manchester Dr. Source: https://nwindianabusiness.com/community/business-news-bits/marson-internationals-2-million-expansion-in-elkhart-may-add-up-to-25-new-jobs-by-2023"
+verified = "2026-11-13"
 
 sector = "Metal"
 products = ["Iron and Steel Pipe and Tube Manufacturing From Purchased Steel"]

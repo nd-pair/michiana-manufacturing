@@ -5,11 +5,12 @@ name = "Mito Corp."
 kind = "company"
 city = "Elkhart"
 state = "IN"
-address = "54905 County Road 17, Elkhart, IN 46516"
-lat = 41.69568
-lon = -85.88879
+address = "213 County Road 17, Elkhart, IN"
+lat = 41.69355
+lon = -85.88849
 website = "https://www.mitocorp.com"
-status_note = "Mito's own site gives 213 County Road 17, Elkhart."
+verified = "2026-11-13"
+status_note = "Moved from 54905 County Road 17, Elkhart, IN 46516; found in a verification check (2026-11-13): Mito Corp's site (copyright 2024) and a directory list 213 County Rd 17, Elkhart, not 54905 County Road 17, so this may be a renumbered address or a move that could not be distinguished."
 
 sector = "Electronics"
 products = ["All Other Miscellaneous Electrical Equipment and Component Manufacturing"]

@@ -9,6 +9,8 @@ address = "800 Lillian Avenue, Elkhart, IN 46516"
 lat = 41.68101
 lon = -85.92119
 website = "https://markleyent.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Website timed out and searches for the company and Lillian Avenue address found nothing."
+presumed_closed = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Commercial Screen Printing"]

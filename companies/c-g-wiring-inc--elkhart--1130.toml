@@ -5,11 +5,11 @@ name = "C & G Wiring, Inc."
 kind = "company"
 city = "Elkhart"
 state = "IN"
-address = "1130 County Road 6 West, Elkhart, IN 46514"
-lat = 41.72469
-lon = -85.99535
-presumed_closed_reason = "Verification check: the company operates elsewhere, not at this address. ZoomInfo lists C&G Wiring (website cngwiring.com) at 1823 Leer Dr, Elkhart, not this address; listing is undated. Source: https://www.zoominfo.com/c/cg-wiring/415746578"
-presumed_closed = "2026-11-13"
+address = "1823 Leer Drive, Elkhart, IN"
+lat = 41.72659
+lon = -85.95062
+verified = "2026-11-13"
+status_note = "Moved from 1130 County Road 6 West, Elkhart, IN 46514; found in a verification check (2026-11-13): ZoomInfo lists C&G Wiring (website cngwiring.com) at 1823 Leer Dr, Elkhart, not this address; listing is undated."
 
 sector = "Electronics"
 products = ["Other Electronic Component Manufacturing"]

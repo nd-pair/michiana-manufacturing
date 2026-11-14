@@ -9,6 +9,8 @@ address = "4733 Eastland Drive, Elkhart, IN 46516"
 lat = 41.67884
 lon = -85.89796
 website = "https://villainternational.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. No source ties Villa International (RV furniture maker) to 4733 Eastland Drive; the website could not be fetched (SSL handshake failure)."
+presumed_closed = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Nonupholstered Wood Household Furniture Manufacturing"]

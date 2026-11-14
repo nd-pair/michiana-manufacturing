@@ -9,6 +9,8 @@ address = "52800 Higgins Boulevard, Elkhart, IN 46514"
 lat = 41.72513
 lon = -85.96174
 website = "https://specialmetals.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Special Metals operates an Elkhart Division but its own site gives 2900 Higgins Blvd; 52800 Higgins appears only in undated directory/EPA records (A-1 Wire Tech, Huntington Alloys), so the address itself is unconfirmed. Source: https://specialmetals.com/services/conversion.html"
+presumed_closed = "2026-11-13"
 
 sector = "Metal"
 products = ["Electroplating, Plating, Polishing, Anodizing and Coloring"]

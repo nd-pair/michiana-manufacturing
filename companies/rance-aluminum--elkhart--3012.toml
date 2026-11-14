@@ -5,10 +5,12 @@ name = "Rance Aluminum"
 kind = "company"
 city = "Elkhart"
 state = "IN"
-address = "3012 Mobile Drive, Elkhart, IN 46514"
-lat = 41.72755
-lon = -85.97815
+address = "2323 Middlebury Street, Elkhart, IN"
+lat = 41.68140
+lon = -85.92580
 website = "https://rancealuminum.com"
+verified = "2026-11-13"
+status_note = "Moved from 3012 Mobile Drive, Elkhart, IN 46514; found in a verification check (2026-11-13): Rance Aluminum Trailers website is live and gives its address as 2323 Middlebury St, Elkhart, not 3012 Mobile Drive."
 
 sector = "Vehicles & RVs"
 products = ["All Other Motor Vehicle Parts Manufacturing"]

@@ -8,6 +8,8 @@ state = "IN"
 address = "1203 Kent Street, Elkhart, IN 46514"
 lat = 41.69981
 lon = -86.00673
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Only evidence is a 1987 OSHA inspection at 1203 Kent Street; no current listing or news found. Source: https://www.osha.gov/pls/imis/establishment.inspection_detail?id=2703734"
+presumed_closed = "2026-11-13"
 
 sector = "Metal"
 products = ["Fabricated Structural Metal Manufacturing"]

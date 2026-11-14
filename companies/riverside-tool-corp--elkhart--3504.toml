@@ -9,6 +9,8 @@ address = "3504 Henke Street, Elkhart, IN 46514"
 lat = 41.71716
 lon = -85.92027
 website = "https://riversidetool.com"
+presumed_closed_reason = "Verification check: renamed or acquired, but the new name is not tied to this address (Peak Toolworks). Riverside Tool was bought by Techniks in 2016 and riversidetool.com now shows Peak Toolworks, which lists Riverside Tool in its portfolio; no source ties Peak to the 3504 Henke St site. Source: https://riversidetool.com"
+presumed_closed = "2026-11-13"
 
 sector = "Mechatronics & automation"
 products = ["Sawmill and Woodworking Machinery Manufacturing"]

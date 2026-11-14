@@ -9,6 +9,8 @@ address = "401 County Road 15 South, Elkhart, IN 46516"
 lat = 41.68868
 lon = -85.90787
 website = "https://skylinecorp.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. No listing found for 401 County Road 15 South; Skyline's only recent Elkhart plant (leased from Forest River) was shut in 2017, but nothing ties it to this address. Source: https://www.insideindianabusiness.com/articles/skyline-corp-halting-operations-at-elkhart-plant"
+presumed_closed = "2026-11-13"
 
 sector = "Vehicles & RVs"
 products = ["Motor Home Manufacturing"]

@@ -8,6 +8,8 @@ state = "IN"
 address = "53062 Faith Avenue, Elkhart, IN 46514"
 lat = 41.72370
 lon = -86.02405
+presumed_closed_reason = "Verification check: no current trace of this company at this address. No listing for Timberline Products at 53062 Faith Avenue found in name or address searches."
+presumed_closed = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Nonupholstered Wood Household Furniture Manufacturing"]

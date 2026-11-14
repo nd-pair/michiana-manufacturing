@@ -9,6 +9,8 @@ address = "25272 Leer Drive, Elkhart, IN 46514"
 lat = 41.72735
 lon = -85.95306
 website = "https://gosherwood.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. gosherwood.com is the sister Accessories by Sherwood site (now refusing connections) and that firm is listed at a different Leer Dr address; nothing confirms Sherwood Industries at 25272. Source: https://web.archive.org/web/20260119015707/https://gosherwood.com/"
+presumed_closed = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["Glass Product Manufacturing Made of Purchased Glass"]

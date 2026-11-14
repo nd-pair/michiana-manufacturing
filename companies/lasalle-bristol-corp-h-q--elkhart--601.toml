@@ -9,6 +9,8 @@ address = "601 County Road 17, Elkhart, IN 46516"
 lat = 41.68598
 lon = -85.88863
 website = "https://lasallebristol.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Domain does not resolve and searches for the company and address found no listing for it."
+presumed_closed = "2026-11-13"
 
 sector = "Electronics"
 products = ["Residential Electric Lighting Fixture Manufacturing"]

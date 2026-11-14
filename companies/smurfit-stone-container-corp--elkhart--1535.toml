@@ -9,6 +9,8 @@ address = "1535 Fieldhouse Avenue, Elkhart, IN 46517"
 lat = 41.66572
 lon = -85.99058
 website = "https://smurfit.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. No source found mentioning an Smurfit-Stone/Smurfit Westrock plant at 1535 Fieldhouse Avenue; smurfit.com redirects to another domain."
+presumed_closed = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Corrugated and Solid Fiber Box Manufacturing"]

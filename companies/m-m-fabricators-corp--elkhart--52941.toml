@@ -8,6 +8,8 @@ state = "IN"
 address = "52941 Glenview Drive, Elkhart, IN 46514"
 lat = 41.72542
 lon = -86.01295
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Undated directories list M&M Fabricators (also as LCIM & M Fabricators and Lacay Fabrication) at this address with no dated evidence. Source: https://www.globalspec.com/local/3057/C_US/IN/Elkhart"
+presumed_closed = "2026-11-13"
 
 sector = "Vehicles & RVs"
 products = ["Motor Home Manufacturing"]

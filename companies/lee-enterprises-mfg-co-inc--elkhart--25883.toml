@@ -8,6 +8,8 @@ state = "IN"
 address = "25883 North Park Avenue, Elkhart, IN 46514"
 lat = 41.71193
 lon = -85.96425
+presumed_closed_reason = "Verification check: no current trace of this company at this address. No website and no search result for the company or the address."
+presumed_closed = "2026-11-13"
 
 sector = "Vehicles & RVs"
 products = ["Travel Trailer and Camper Manufacturing"]

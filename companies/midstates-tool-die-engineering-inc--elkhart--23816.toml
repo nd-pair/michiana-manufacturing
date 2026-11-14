@@ -10,6 +10,8 @@ address = "23816 Cooper Drive, Elkhart, IN 46514"
 lat = 41.71996
 lon = -85.92350
 website = "https://www.lippert.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. lippert.com lists only a 2917 Independence Court address and the address search for 23816 Cooper Drive returned nothing. Source: https://www.lippert.com"
+presumed_closed = "2026-11-13"
 status_note = "Lippert bought Midstates' assets and engineering team in July 2013; the current address was not confirmed."
 parent = "Lippert (LCI Industries)"
 

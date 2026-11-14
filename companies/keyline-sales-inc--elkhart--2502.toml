@@ -9,6 +9,8 @@ address = "2502 Marina Drive, Elkhart, IN 46514"
 lat = 41.71875
 lon = -85.91668
 website = "https://keylinesaleselkhart.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Website could not be fetched (certificate error) and only undated directory listings, some with a conflicting 2601 Marina Dr address, exist. Source: https://www.regionaldirectory.us/in/832508.htm"
+presumed_closed = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Other Millwork (including Flooring )"]

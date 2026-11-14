@@ -9,6 +9,8 @@ address = "701 County Road 15, Elkhart, IN 46516"
 lat = 41.68562
 lon = -85.90782
 website = "https://mandalaycoach.com"
+presumed_closed_reason = "Verification check: another business is at this address now (Thor Motor Coach). 701 County Road 15 is listed as Thor Motor Coach (Four Winds) and no source mentions Mandalay at this address. Source: https://maps.campendium.com/us/elkhart-in/activities/thor-motor-coach-elkhart-in--2"
+presumed_closed = "2026-11-13"
 
 sector = "Vehicles & RVs"
 products = ["Motor Home Manufacturing"]

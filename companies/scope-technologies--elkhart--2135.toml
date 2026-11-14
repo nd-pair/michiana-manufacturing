@@ -9,6 +9,8 @@ address = "2135 Industrial Parkway, Elkhart, IN 46516"
 lat = 41.68637
 lon = -85.93076
 website = "https://scopetechnologies.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. scopetechnologies.com is dead (last capture 2011); an undated Officer.com listing shows DOMORE 24/7 Seating / Scope Technologies at 2135 Industrial Pkwy, not enough to confirm operation. Source: https://www.officer.com/command-hq/supplies-services/company/10037704/domore-24-7-seating"
+presumed_closed = "2026-11-13"
 uei = "H3D9YX2P5RR9"
 
 sector = "Vehicles & RVs"

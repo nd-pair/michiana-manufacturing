@@ -9,6 +9,8 @@ address = "24402 County Road 45, Elkhart, IN 46516"
 lat = 41.64849
 lon = -85.93416
 website = "https://plumroseusa.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Plumrose domain now redirects to JBS Foods and a 2020 JBS item mentions a Plumrose Elkhart plant, but no source confirms the County Road 45 address or 2023+ activity. Source: https://hometownstrong.jbssa.com/?p=850"
+presumed_closed = "2026-11-13"
 
 sector = "Food & consumer goods"
 products = ["Meat Processed From Carcasses"]

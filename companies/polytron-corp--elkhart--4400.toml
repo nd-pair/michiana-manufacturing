@@ -9,6 +9,8 @@ address = "4400 Wyland Drive, Elkhart, IN 46516"
 lat = 41.69224
 lon = -85.90305
 website = "https://polytron-corp.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Undated directory listings place Polytron at 4400 Wyland Dr and the domain responds, but the site blocked automated reading so no dated evidence was obtained. Source: https://www.superpages.com/elkhart-in/bpp/polytron-corp-5645575"
+presumed_closed = "2026-11-13"
 
 sector = "Electronics"
 products = ["Other Electronic Component Manufacturing"]

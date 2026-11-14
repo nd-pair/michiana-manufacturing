@@ -8,6 +8,8 @@ state = "IN"
 address = "53208 Columbia Drive, Elkhart, IN 46514"
 lat = 41.72109
 lon = -85.89572
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Only an unnamed, undated BBB category entry exists for 53208 Columbia Dr; no company page, news or website found. Source: https://bbb.org/us/in/elkhart/category/plastic-fabrication"
+presumed_closed = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["Unlaminated Plastics Profile Shape Manufacturing"]

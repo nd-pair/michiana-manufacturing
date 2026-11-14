@@ -9,6 +9,8 @@ address = "2101 Kinro Court, Elkhart, IN 46514"
 lat = 41.71423
 lon = -86.00799
 website = "https://kinro.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. kinro.com is now an unrelated insurance business and no dated source names the current occupant of 2101 Kinro Ct. Source: https://www.loopnet.com/property/2101-kinro-ct-elkhart-in-46514/18039-200125400004000006"
+presumed_closed = "2026-11-13"
 
 sector = "Mechatronics & automation"
 products = ["Scale and Balance Manufacturing"]

@@ -8,6 +8,8 @@ state = "IN"
 address = "3733 Lexington Park Drive, Elkhart, IN 46514"
 lat = 41.69134
 lon = -86.03001
+presumed_closed_reason = "Verification check: no current trace of this company at this address. No listing for North American Moulding at 3733 Lexington Park Drive was found in name or address searches. Source: https://www.bloomberg.com/profile/company/750411Z:US"
+presumed_closed = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Other Millwork (including Flooring )"]

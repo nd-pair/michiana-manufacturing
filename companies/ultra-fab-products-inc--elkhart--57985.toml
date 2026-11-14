@@ -5,10 +5,12 @@ name = "Ultra-Fab Products, Inc."
 kind = "company"
 city = "Elkhart"
 state = "IN"
-address = "57985 State Road 19, Elkhart, IN 46517"
-lat = 41.65226
-lon = -86.00341
+address = "22412 Innovation Drive, Elkhart, IN"
+lat = 41.73330
+lon = -85.89346
 website = "https://ultra-fab.com"
+verified = "2026-11-13"
+status_note = "Moved from 57985 State Road 19, Elkhart, IN 46517; found in a verification check (2026-11-13): Company website gives its contact address as 22412 Innovation Dr, Elkhart, not 57985 State Road 19."
 
 sector = "Metal"
 products = ["All Other Miscellaneous Fabricated Metal Product Manufacturing"]

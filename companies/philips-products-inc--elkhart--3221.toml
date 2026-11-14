@@ -9,6 +9,9 @@ address = "3221 Magnum Drive, Elkhart, IN 46516"
 lat = 41.67731
 lon = -85.91650
 website = "https://philipsproducts.com"
+closed_source = "https://www.trailer-bodybuilders.com/equipment-parts/aftermarket-parts/article/21728067/dexter-axle-acquires-ventline-door-business-from-philips-products"
+closed_note = "A 2009 report says parent Tomkins would close Philips Products after Dexter Axle bought its RV door and Ventline businesses, and philipsproducts.com now redirects to a domain-sale page."
+closed = "2009"
 
 sector = "Metal"
 products = ["Metal Window and Door Manufacturing"]

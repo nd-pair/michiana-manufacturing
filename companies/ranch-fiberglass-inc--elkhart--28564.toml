@@ -9,6 +9,8 @@ address = "28564 Holiday Place, Elkhart, IN 46517"
 lat = 41.65456
 lon = -86.01531
 website = "https://ranchfiberglass.com"
+presumed_closed_reason = "Verification check: renamed or acquired, but the new name is not tied to this address (Venturous Truck Tops). ranchfiberglass.com states Ranch Fiberglass is now Venturous Truck Tops (same people); the tie is the brand rename, and the Holiday Place address itself was not confirmed. Source: https://ranchfiberglass.com"
+presumed_closed = "2026-11-13"
 
 sector = "Vehicles & RVs"
 products = ["Travel Trailer and Camper Manufacturing"]

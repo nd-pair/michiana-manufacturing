@@ -10,6 +10,8 @@ address = "55169 County Road 3, Elkhart, IN 46514"
 lat = 41.69305
 lon = -86.02319
 website = "https://www.phoenixusarv.com"
+verified_note = "Phoenix USA RV's live site (2026 copyright) lists its Elkhart service center at 55169 Co Rd 3, while production is listed elsewhere (3504 Cooper Dr). Source: https://www.phoenixusarv.com/service-rvs-dealership--service"
+verified = "2026-11-13"
 status_note = "Builds Cruiser motorhomes; its own site gives this address rather than the 2601 Marina Drive in HIFLD."
 
 sector = "Vehicles & RVs"

@@ -8,6 +8,8 @@ state = "IN"
 address = "3722 Lexington Park Drive, Elkhart, IN 46514"
 lat = 41.69076
 lon = -86.03025
+presumed_closed_reason = "Verification check: no current trace of this company at this address. The only listing found at 3722 Lexington Park Dr is Apex Graphics, shown as closed, and Lexington LLC's seating business was sold to Lippert in 2017. Source: https://phoenix.aws.mapquest.com/us/indiana/apex-graphics-6122789"
+presumed_closed = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Nonupholstered Wood Household Furniture Manufacturing"]

@@ -9,6 +9,8 @@ address = "28335 Clay Street, Elkhart, IN 46517"
 lat = 41.66185
 lon = -86.00884
 website = "https://valsparcomposites.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. No source found for a Valspar facility at 28335 Clay Street; valsparcomposites.com redirects to another domain and Valspar is now part of Sherwin-Williams (2017)."
+presumed_closed = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["Plastics Material and Resin Manufacturing"]

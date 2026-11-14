@@ -5,10 +5,12 @@ name = "Kibbechem, Inc."
 kind = "company"
 city = "Elkhart"
 state = "IN"
-address = "1139 All Pro Drive, Elkhart, IN 46514"
-lat = 41.72991
-lon = -85.99405
+address = "22243 Innovation Drive, Elkhart, IN"
+lat = 41.73343
+lon = -85.89558
 website = "https://kibbechem.com"
+verified = "2026-11-13"
+status_note = "Moved from 1139 All Pro Drive, Elkhart, IN 46514; found in a verification check (2026-11-13): A carrier profile updated March 2026 lists Kibbechem Incorporated at 22243 Innovation Drive, Elkhart, and nothing ties it to All Pro Drive; its website returned 403."
 
 sector = "Materials & composites"
 products = ["Inorganic Dye and Pigment Manufacturing"]

@@ -9,6 +9,8 @@ address = "28244 Clay Street, Elkhart, IN 46517"
 lat = 41.66127
 lon = -86.00800
 website = "https://m3assoc.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Searches for the company and the Clay Street address returned nothing relevant and the website did not respond."
+presumed_closed = "2026-11-13"
 
 sector = "Vehicles & RVs"
 products = ["Truck Trailer Manufacturing"]

@@ -9,6 +9,8 @@ address = "21496 Buckingham Road, Elkhart, IN 46516"
 lat = 41.69955
 lon = -85.88017
 website = "https://jamko.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. jamko.com now redirects to a GoDaddy for-sale page and only undated directory listings place the company at this address. Source: https://www.governmentcontracts.us/government-contractors/company-BSG1972896-jam-ko-engineering-Elkhart-IN.htm"
+presumed_closed = "2026-11-13"
 
 sector = "Metal"
 products = ["Metal Stamping"]

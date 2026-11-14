@@ -9,6 +9,8 @@ address = "1600 West Mishawaka Road, Elkhart, IN 46517"
 lat = 41.65515
 lon = -85.99080
 website = "https://nextechcorp.net"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. The site returns HTTP 500 with a last Wayback capture in February 2024, and searches found no listing for Nextech Corp at 1600 W Mishawaka Rd. Source: https://archive.org/wayback/available?url=nextechcorp.net"
+presumed_closed = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Wood Office Furniture Manufacturing"]

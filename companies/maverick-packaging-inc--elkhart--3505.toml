@@ -8,6 +8,8 @@ state = "IN"
 address = "3505 Reedy Drive, Elkhart, IN 46514"
 lat = 41.72718
 lon = -85.92012
+verified_note = "Sold to SOLV Holdings in July 2023 with operations remaining at its 3505 Reedy Dr Elkhart headquarters. Source: https://www.953mnc.com/2023/07/28/maverick-packaging-in-elkhart-sold-to-solv-holdings/"
+verified = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["Soap and Other Detergent Manufacturing"]

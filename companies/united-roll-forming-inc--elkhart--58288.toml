@@ -9,6 +9,8 @@ address = "58288 County Road 3, Elkhart, IN 46517"
 lat = 41.64783
 lon = -86.02186
 website = "https://unitedrollforming.org"
+verified_note = "Company website is live and lists 58288 Co Rd 3, Elkhart but looks stale (footer 2016), so current operation is weakly supported. Source: https://unitedrollforming.org"
+verified = "2026-11-13"
 
 sector = "Metal"
 products = ["Custom Roll Forming"]

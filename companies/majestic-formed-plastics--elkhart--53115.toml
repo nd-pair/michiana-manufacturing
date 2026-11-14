@@ -9,6 +9,8 @@ address = "53115 Faith Avenue, Elkhart, IN 46514"
 lat = 41.72332
 lon = -86.02483
 website = "https://majesticformedplastics.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Only an undated Mergr profile lists the company at 53115 Faith Ave, and its website redirects to another domain that was not verified. Source: https://mergr.com/company/majestic-formed-plastics"
+presumed_closed = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["All Other Plastics Product Manufacturing"]

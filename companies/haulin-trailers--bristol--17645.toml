@@ -5,12 +5,12 @@ name = "Haulin Trailers"
 kind = "company"
 city = "Bristol"
 state = "IN"
-address = "17645 Commerce Drive, Bristol, IN 46507"
-lat = 41.73046
-lon = -85.79629
+address = "1280 Commerce Drive, Bristol, IN"
+lat = 41.72975
+lon = -85.80011
 website = "https://haulin.com"
-presumed_closed_reason = "Verification check: the company operates elsewhere, not at this address. Haulin (a Forest River division) operates, but its website lists 1280 Commerce Dr, Bristol, not 17645 Commerce Dr. Source: https://haulin.com"
-presumed_closed = "2026-11-13"
+verified = "2026-11-13"
+status_note = "Moved from 17645 Commerce Drive, Bristol, IN 46507; found in a verification check (2026-11-13): Haulin (a Forest River division) operates, but its website lists 1280 Commerce Dr, Bristol, not 17645 Commerce Dr."
 
 sector = "Vehicles & RVs"
 products = ["Truck Trailer Manufacturing"]

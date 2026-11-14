@@ -3,14 +3,14 @@
 
 name = "Lazer Graphics"
 kind = "company"
-city = "Benton Harbor"
+city = "St. Joseph"
 state = "MI"
-address = "1101 Pipestone Road, Benton Harbor, MI 49022"
-lat = 42.09879
-lon = -86.43596
+address = "3001 South State Street, St. Joseph, MI"
+lat = 42.08160
+lon = -86.48786
 website = "https://lazergraphicsinc.com"
-presumed_closed_reason = "Verification check: the company operates elsewhere, not at this address. Company's own profile says it began on Pipestone Rd and now operates from a 16,000 sq ft facility at 3001 S State St, St. Joseph; the Pipestone listing is older. Source: https://www.moodyonthemarket.com/?p=262160"
-presumed_closed = "2026-11-13"
+verified = "2026-11-13"
+status_note = "Moved from 1101 Pipestone Road, Benton Harbor, MI 49022; found in a verification check (2026-11-13): Company's own profile says it began on Pipestone Rd and now operates from a 16,000 sq ft facility at 3001 S State St, St. Joseph; the Pipestone listing is older."
 
 sector = "Wood, paper & furniture"
 products = ["Commercial Screen Printing"]

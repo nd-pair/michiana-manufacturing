@@ -9,6 +9,8 @@ address = "2932 Thorne Drive, Elkhart, IN 46514"
 lat = 41.72927
 lon = -86.00224
 website = "https://transhield-usa.com"
+verified_note = "Company website (copyright 2026) lists 2932 Thorne Dr, Elkhart with current ISO 9001:2015 certification. Source: https://transhield-usa.com"
+verified = "2026-11-13"
 uei = "WEJVQCKLQ267"
 
 sector = "Materials & composites"

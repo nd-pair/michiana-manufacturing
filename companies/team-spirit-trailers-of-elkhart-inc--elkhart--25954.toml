@@ -8,6 +8,8 @@ state = "IN"
 address = "25954 Pierina Drive, Elkhart, IN 46514"
 lat = 41.71584
 lon = -85.96501
+verified_note = "Live website (copyright 2026) lists 1001 Pierina Drive with a map link to 25954 Pierina Dr, so the same site is probably operating under two street numbers. Source: https://teamspirittrailers.com"
+verified = "2026-11-13"
 
 sector = "Vehicles & RVs"
 products = ["Truck Trailer Manufacturing"]

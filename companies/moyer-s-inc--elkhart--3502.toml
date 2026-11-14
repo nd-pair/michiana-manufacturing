@@ -8,6 +8,8 @@ state = "IN"
 address = "3502 Reedy Drive, Elkhart, IN 46514"
 lat = 41.72776
 lon = -85.92005
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Only undated directory entries for Moyer's Inc at 3502 Reedy Dr exist and they describe conflicting businesses. Source: https://naicslist.com/company-profile/moyers-inc-elkhart-in-46514"
+presumed_closed = "2026-11-13"
 
 sector = "Vehicles & RVs"
 products = ["Motor Vehicle Seating and Interior Trim Manufacturing"]

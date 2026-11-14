@@ -8,6 +8,8 @@ state = "IN"
 address = "28533 Holiday Place, Elkhart, IN 46517"
 lat = 41.65514
 lon = -86.01491
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Only an unnamed BBB metal-stamping listing for 28533 Holiday Pl was found; nothing confirms Versatile Mfg there. Source: https://bbb.org/us/in/nappanee/category/metal-stamping"
+presumed_closed = "2026-11-13"
 
 sector = "Metal"
 products = ["Metal Stamping"]

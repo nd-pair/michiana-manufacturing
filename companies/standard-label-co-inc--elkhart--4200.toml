@@ -9,6 +9,8 @@ address = "4200 Wyland Drive, Elkhart, IN 46516"
 lat = 41.69280
 lon = -85.90560
 website = "https://standard-label.com"
+verified_note = "Company website is live with 2026 content and LeadIQ/BBB listings give 4200 Wyland Drive as headquarters. Source: https://standard-label.com"
+verified = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Coated and Laminated Paper Manufacturing"]

@@ -9,6 +9,8 @@ address = "1500 West Lusher Avenue, Elkhart, IN 46517"
 lat = 41.66723
 lon = -85.98989
 website = "https://jasoncaps.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Jason's cap business was sold to LTA Manufacturing in 2017 and jasoncaps.com no longer serves Jason content; no source confirms who occupies 1500 W Lusher now. Source: https://www.vehicleservicepros.com/aftermarket-business-world/news/article/21193666/lta-manufacturing-acquires-atc-truck-covers-jason-industries-ranch-fiberglass"
+presumed_closed = "2026-11-13"
 
 sector = "Vehicles & RVs"
 products = ["Travel Trailer and Camper Manufacturing"]

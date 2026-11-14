@@ -9,6 +9,8 @@ address = "3809 Lexington Park Drive, Elkhart, IN 46514"
 lat = 41.69136
 lon = -86.02815
 website = "https://mapeaston.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. mapeaston.com shows only the Easton, PA headquarters with no Elkhart plant, and nothing was found for 3809 Lexington Park Drive. Source: https://mapeaston.com"
+presumed_closed = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["Mineral Wool Manufacturing"]

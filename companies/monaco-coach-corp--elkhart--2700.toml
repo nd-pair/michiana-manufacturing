@@ -9,6 +9,9 @@ address = "2700 South Nappanee Street, Elkhart, IN 46517"
 lat = 41.65876
 lon = -86.00270
 website = "https://monacocoach.com"
+closed_source = "https://www.warntracker.com/layoff/monaco-coach-2008-09-17"
+closed_note = "Monaco Coach announced in 2008 it would close its Elkhart operations and went bankrupt in 2009; the exact South Nappanee site closure was not itemized in the sources found."
+closed = "2008"
 
 sector = "Vehicles & RVs"
 products = ["Motor Home Manufacturing"]
