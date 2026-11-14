@@ -9,6 +9,8 @@ address = "129 Roy Street, Topeka, IN 46571"
 lat = 41.54202
 lon = -85.54057
 website = "https://ascotent.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Third check, the last under the three-attempt limit (CURATION.md, Open items): Indiana's 2025 statewide parcel layer shows 129 Roy St, Topeka (parcel 441225400000042008) as class 340, light manufacturing, but it names no owner or occupant. Wayback captures of ascotent.com from 2023 to 2026, the live Nappanee Chamber directory, and EPA ECHO list Ascot only at Nappanee (503 S Main St) and Elkhart addresses, never Topeka; INBiz returned 403 and searches tying Ascot to Roy St or Topeka found nothing. Source: https://gisdata.in.gov/server/rest/services/Hosted/Parcel_Boundaries_of_Indiana_2025/FeatureServer/0"
+presumed_closed = "2026-11-14"
 unconfirmed_reason = "The company operates in the region, but no current source confirms a plant at this address (verification check, November 2026): Ascot's live 2026 site shows an active curtain maker with five US facilities, but no source confirms 129 Roy Street (directories list Nappanee 503 S Main and Elkhart addresses)."
 unconfirmed = "2026-11-14"
 

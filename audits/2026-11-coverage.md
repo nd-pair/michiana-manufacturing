@@ -13,42 +13,42 @@ counting manufacturing establishments (NAICS 31–33) in the region's 13 countie
 
 | County | Census establishments | On the map | Coverage | Census, 20+ employees | On the map, 20+ | Coverage |
 |---|---:|---:|---:|---:|---:|---:|
-| Elkhart, IN | 841 | 417 | 50% | 449 | 354 | 79% |
-| St. Joseph, IN | 313 | 159 | 51% | 139 | 140 | 101% |
+| Elkhart, IN | 841 | 411 | 49% | 449 | 348 | 78% |
+| St. Joseph, IN | 313 | 156 | 50% | 139 | 137 | 99% |
 | Berrien, MI | 275 | 107 | 39% | 105 | 95 | 90% |
-| LaGrange, IN | 188 | 39 | 21% | 56 | 32 | 57% |
-| Kosciusko, IN | 184 | 81 | 44% | 80 | 67 | 84% |
+| LaGrange, IN | 188 | 38 | 20% | 56 | 31 | 55% |
+| Kosciusko, IN | 184 | 80 | 43% | 80 | 66 | 82% |
 | LaPorte, IN | 155 | 72 | 46% | 74 | 62 | 84% |
 | Marshall, IN | 133 | 56 | 42% | 62 | 50 | 81% |
-| Noble, IN | 116 | 39 | 34% | 57 | 37 | 65% |
+| Noble, IN | 116 | 38 | 33% | 57 | 36 | 63% |
 | Van Buren, MI | 91 | 23 | 25% | 35 | 21 | 60% |
 | Whitley, IN | 73 | 18 | 25% | 32 | 17 | 53% |
 | Cass, MI | 69 | 24 | 35% | 27 | 24 | 89% |
-| Fulton, IN | 38 | 12 | 32% | 17 | 12 | 71% |
+| Fulton, IN | 38 | 11 | 29% | 17 | 11 | 65% |
 | Starke, IN | 19 | 10 | 53% | 12 | 7 | 58% |
-| **Region** | **2495** | **1057** | **42%** | **1145** | **918** | **80%** |
+| **Region** | **2495** | **1044** | **42%** | **1145** | **905** | **79%** |
 
 ## By industry
 
 | NAICS | Industry | Census establishments | On the map | Coverage |
 |---|---|---:|---:|---:|
-| 332 | Fabricated metal | 538 | 185 | 34% |
-| 336 | Transportation equipment | 306 | 180 | 59% |
-| 333 | Machinery | 225 | 96 | 43% |
-| 321 | Wood products | 205 | 55 | 27% |
-| 337 | Furniture | 200 | 50 | 25% |
-| 326 | Plastics and rubber | 191 | 106 | 55% |
+| 332 | Fabricated metal | 538 | 183 | 34% |
+| 336 | Transportation equipment | 306 | 177 | 58% |
+| 333 | Machinery | 225 | 95 | 42% |
+| 321 | Wood products | 205 | 54 | 26% |
+| 337 | Furniture | 200 | 48 | 24% |
+| 326 | Plastics and rubber | 191 | 105 | 55% |
 | 311 | Food | 139 | 47 | 34% |
 | 339 | Miscellaneous (incl. medical devices) | 122 | 48 | 39% |
-| 325 | Chemicals | 93 | 42 | 45% |
-| 327 | Nonmetallic minerals | 77 | 41 | 53% |
+| 325 | Chemicals | 93 | 41 | 44% |
+| 327 | Nonmetallic minerals | 77 | 40 | 52% |
 | 323 | Printing | 74 | 23 | 31% |
 | 331 | Primary metals | 62 | 55 | 89% |
 | 312 | Beverages | 50 | 3 | 6% |
 | 334 | Computers and electronics | 33 | 28 | 85% |
 | 335 | Electrical equipment | 30 | 18 | 60% |
 | 322 | Paper | 25 | 28 | 112% |
-| 314 | Textile products | 20 | 11 | 55% |
+| 314 | Textile products | 20 | 10 | 50% |
 | 313 | Textile mills | 4 | 6 | 150% |
 | 315 | Apparel | 3 | 0 | 0% |
 | 316 | Leather | 3 | 1 | 33% |
@@ -66,13 +66,13 @@ counting manufacturing establishments (NAICS 31–33) in the region's 13 countie
   clearly inside a region county (checked November 14 with the Census geocoder and Indiana's
   address points; the one near miss, Southern Michigan Rubber on M-60 near Jones, sits on the
   Cass/St. Joseph line and Michigan's own records name both counties).
-- **St. Joseph County is now level with Census (140 plants with 20+ employees against 139; it
+- **St. Joseph County is now level with Census (137 plants with 20+ employees against 139; it
   read 115% before the November 14 fixes).** Two of the excess were stale HIFLD records next to the
   plant's current OSHA filer: Copper & Brass Sales at 1015 St Jerome St (the import read 'Saint
   Jerome' and 'St Jerome' as different streets, now fixed) and Eagle Pack, 40 m from United
   Petfood's plant. A re-check of the region's unconfirmed records then took off Parker Hannifin's
   Mishawaka plant (closed 2018), South Bend Controls (now listed in Arizona), Mann+Hummel's North
-  Bendix Drive site and several smaller shops with no trace since 2023. Of the remaining 140, 56 rest on
+  Bendix Drive site and several smaller shops with no trace since 2023. Of the remaining 137, 53 rest on
   HIFLD's 2022 modeled headcounts and 74 have an OSHA filing.
 - **Comparisons are rough.** Census counts employer establishments; a map site can be one or
   several of them, and a few map sites are offices or research units without their own

@@ -8,6 +8,8 @@ state = "IN"
 address = "645 Wilber Street, South Bend, IN 46628"
 lat = 41.68353
 lon = -86.27430
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Third check, the last under the three-attempt limit (CURATION.md, Open items): The South Bend city parcel layer (tax roll 2025 pay 2026) lists 645 Wilber St as an 'Other Industrial Structure' owned by Kauffman Place LLC, not Astar, and names no occupant. FMCSA SAFER still lists ASTAR INC (USDOT 1044646) at 645 Wilber St, but its last MCS-150 update was 2002-07-25. No 2023+ source ties Astar to the address. A plastics-molding Astar Inc at 71135 Fir Rd, Niles, MI appears only in undated directories and is not linked to the South Bend firm. INBiz and Michigan LARA searches returned 403 and could not be checked. Source: https://gis.southbendin.gov/arcgis/rest/services/LandRecords/Parcels/FeatureServer/0"
+presumed_closed = "2026-11-14"
 unconfirmed_reason = "The company operates in the region, but no current source confirms a plant at this address (verification check, November 2026): Thomasnet lists an Astar, Inc. in South Bend 46628 (a separate Astar in Niles, MI also appears), but no source gives a street address or confirms 645 Wilber St, and no other occupant was found."
 unconfirmed = "2026-11-14"
 

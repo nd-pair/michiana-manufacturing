@@ -9,8 +9,8 @@ address = "8094 North State Road 13, Syracuse, IN 46567"
 lat = 41.35214
 lon = -85.70086
 website = "https://trantergraphics.com"
-unconfirmed_reason = "The company operates in the region, but no current source confirms a plant at this address (verification check): The company is clearly active: its live site advertises a 2026 catalog of custom printed napkins and cups, a February 2025 job post describes a 'fast paced printing company' in Syracuse, IN 46567, and it is in the PPAI 100 for 2024–2026. But no 2023+ source gives the street address: the website shows only phone numbers. 8094 N SR 13 appears only in undated directories and in an EPA FRS record (last inspection 2016), and EPA also has a second Tranter record at 1021 N Indiana Ave, Syracuse. Likely still at 8094 N SR 13, but this is not confirmed. (source dated 2025-02-05)"
-unconfirmed = "2026-11-14"
+verified_note = "Tranter Graphics' 2025 company timeline says the 75,000 sq ft plant it built in the 1980s is still its home; EPA (2016) and FMCSA records place that plant at 8094 N State Road 13, Syracuse. Source: https://www.trantergraphics.com/files/tgi-timeline---2025.pdf"
+verified = "2026-11-14"
 
 sector = "Wood, paper & furniture"
 products = ["All Other Converted Paper Product Manufacturing"]

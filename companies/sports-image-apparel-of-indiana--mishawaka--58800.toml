@@ -5,11 +5,12 @@ name = "Sports Image Apparel of Indiana"
 kind = "company"
 city = "Mishawaka"
 state = "IN"
-address = "58800 Executive Drive, Mishawaka, IN 46544"
-lat = 41.63949
-lon = -86.14864
+address = "4018 Lincolnway East, Mishawaka, IN 46544"
+lat = 41.66333
+lon = -86.11518
 website = "https://sportsindiana.com"
-unconfirmed_reason = "The company operates in the region, but no current source confirms a plant at this address (verification check): The live company site (sportsindiana.com/contact, undated, no copyright year) gives 'Postal Address: 4018 Lincolnway East, Mishawaka, IN 46544' and phone 574-258-0571. That is the same phone a 2014 Notre Dame vendor list gave for Sports Image Apparel at 58800 Executive Drive, so the business likely moved or uses a different mailing address. The site does not say whether 4018 Lincolnway East is the embroidery/screen-print shop or only a mailbox, I found no source tying the company to 58800 Executive Drive after 2014, and the state parcel class at that point is residential (510)."
+status_note = "Moved from 58800 Executive Drive: the company's contact page gave Executive Drive in July 2024 and 4018 Lincolnway East from October 2025 on (Internet Archive captures); found in a verification check (2026-11-14)."
+unconfirmed_reason = "The company's site calls 4018 Lincolnway East its postal address; whether its production is there is not confirmed (verification check, November 14, 2026)."
 unconfirmed = "2026-11-14"
 
 sector = "Food & consumer goods"

@@ -9,8 +9,8 @@ address = "1040 Sako Court, Elkhart, IN 46516"
 lat = 41.67820
 lon = -85.91334
 website = "https://prolon.com"
-unconfirmed_reason = "The company operates in the region, but the verification check did not confirm a plant at this address (re-read November 14, 2026): Prolon.com is live as Prolon Incorporated (PTFE parts, ISO 9001:2015) but the retrieved text did not show the Sako Court address or a date, so confidence is moderate. Source: https://prolon.com"
-unconfirmed = "2026-11-14"
+verified_note = "Prolon's contact page, archived 2026-05-14, gives 1040 Sako Court, Elkhart, as its only address; its manufacturing page (archived 2024) describes molding, extrusion and CNC departments. Source: https://web.archive.org/web/20260514230859/https://prolon.com/contact/"
+verified = "2026-11-14"
 
 sector = "Materials & composites"
 products = ["Plastics Material and Resin Manufacturing"]

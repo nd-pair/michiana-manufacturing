@@ -8,6 +8,8 @@ state = "IN"
 address = "2516 Industrial Park Drive, Goshen, IN 46526"
 lat = 41.55332
 lon = -85.82002
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Third check, the last under the three-attempt limit (CURATION.md, Open items): EPA ECHO lists an 'Ingersoll Rand Air Center' at 2516 Industrial Pk Dr S Ste I, Goshen, with no date. The building is a multi-tenant M-1 flex/industrial building (another ECHO record there is Hoosier House Furniture, Suite C), and 2024-26 leasing pages name no tenants. The Goshen service-technician job ad is now 410 Gone, so no dated 2023+ source ties Ingersoll Rand to the suite, and nothing shows manufacturing there. Source: https://echodata.epa.gov/echo/echo_rest_services.get_facilities?output=JSON&p_st=IN&p_fn=INGERSOLL"
+presumed_closed = "2026-11-14"
 unconfirmed_reason = "The company operates in the region, but the verification check did not confirm a plant at this address (re-read November 14, 2026): Undated BBB listing shows a compressor business at 2516-1 Industrial Park Dr, Goshen, and Ingersoll Rand advertises a Goshen air-compressor service technician job, but irgoshen.com is dead (last archived 2011) so manufacturing here is unconfirmed. Source: https://www.bbb.org/us/in/goshen/category/compressors"
 unconfirmed = "2026-11-14"
 former_website = "https://irgoshen.com"

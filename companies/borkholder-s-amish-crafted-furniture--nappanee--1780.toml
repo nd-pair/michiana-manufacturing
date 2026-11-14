@@ -9,6 +9,8 @@ address = "1780 West Market Street, Nappanee, IN 46550"
 lat = 41.44305
 lon = -86.02257
 website = "https://borkholder.com"
+presumed_closed_reason = "Verification check: another business is at this address now (Northern Indiana Axle). Third check, the last under the three-attempt limit (CURATION.md, Open items): The live Nappanee Chamber of Commerce member directory (2024 logo, directory items updated through 2025, retrieved 2026-11-14) lists Northern Indiana Axle, a manufacturer of buggy axles, cable and hitch products and gun components, at 1780 W. Market St., Nappanee. The Borkholder brand's parent, Kountry Wood, is listed at 352 Shawnee St. EPA ECHO ties Borkholder Corporation to 1780 W Market St only through a 2003 record. Source: https://www.nappaneechamber.com/member-directory"
+presumed_closed = "2026-11-14"
 unconfirmed_reason = "The company operates in the region, but no current source confirms a plant at this address (verification check, November 2026): borkholder.com fetch failed with a certificate mismatch (serves ahfurniture.com) and no source confirms Borkholder Furniture at 1780 W Market St; a directory lists it at 352 Shawnee St."
 unconfirmed = "2026-11-14"
 

@@ -9,6 +9,8 @@ address = "53706 County Road 9, Elkhart, IN 46514"
 lat = 41.71487
 lon = -85.96588
 website = "https://ascotent.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Third check, the last under the three-attempt limit (CURATION.md, Open items): The live site (2026) says Ascot has five U.S. facilities, four of them in Indiana, but names none of them; its contact page gives only 'Nappanee, IN 46550' with an Elkhart-exchange fax number. EPA FRS/RCRAInfo (ID IND985049568) still lists 'Ascot Enterprises Inc, 53706 CR 9 N, Elkhart' but marks the RCRA handler Inactive (undated). IndianaMap shows the two parcels there as light-manufacturing/industrial (class 340/350), with no occupant named. No 2023+ source ties the company to this street address. Source: https://ascotent.com/pages/about"
+presumed_closed = "2026-11-14"
 unconfirmed_reason = "The company operates in the region, but the verification check did not confirm a plant at this address (re-read November 14, 2026): Ascot Enterprises' live site (2026 copyright) shows blinds and OEM manufacturing but no street address, so the 53706 County Road 9 location is unconfirmed. Source: https://ascotent.com/"
 unconfirmed = "2026-11-14"
 

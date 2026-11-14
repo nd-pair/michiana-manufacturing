@@ -9,6 +9,8 @@ address = "786 US Highway 6, Nappanee, IN 46550"
 lat = 41.44298
 lon = -86.00950
 website = "https://borkholder.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Third check, the last under the three-attempt limit (CURATION.md, Open items): The company is active in Nappanee: a career.com posting dated 2025-12-08 is for an in-person job in Nappanee, and the 2025 NFBA accredited-builder list shows Borkholder Buildings & Supply in Nappanee. Neither gives a street address. IndianaMap shows three commercial parcels (class 429/499) at 786 US 6 in Marshall County, German Township, with no occupant named, so only undated directories (Arcat, Blue Book) tie the company to this address. Source: https://www.career.com/job/borkholder-buildings-supply-llc/building-material-estimator/j202512090443438749596"
+presumed_closed = "2026-11-14"
 unconfirmed_reason = "The company operates in the region, but no current source confirms a plant at this address (verification check): The company's own site borkholder.com could not be checked: its TLS certificate is issued to ahfurniture.com, so the fetch was refused. The FMCSA SAFER snapshot for USDOT 2125452 (Borkholder Buildings & Supply LLC, ACTIVE, MCS-150 dated 2025-04-09) gives the physical address as 11601 Stanton Road, Bremen, IN 46506 and the mailing address as PO Box 32, Nappanee. Only undated directories (Arcat, BBB, Blue Book: building materials, treated lumber, wood roof trusses) and an undated EPA FRS record ('Borkholder Building-Treatment Plant #1, 786 US 6, Nappanee') tie the company to 786 US 6. (source dated 2025-04-09)"
 unconfirmed = "2026-11-14"
 

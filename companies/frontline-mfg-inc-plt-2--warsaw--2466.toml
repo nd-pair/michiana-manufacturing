@@ -8,6 +8,8 @@ state = "IN"
 address = "2466 North 200 West, Warsaw, IN 46580"
 lat = 41.26916
 lon = -85.88215
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Third check, the last under the three-attempt limit (CURATION.md, Open items): In EPA ECHO, the air-program record at 2466 North 200 West for Composite Designs, Inc. (ICIS-Air IN0000001808500149) is marked 'Permanently Closed' (undated); Composite Designs shares Frontline's Leesburg address of 306 School St. The FRS record for 'Front Line Manufacturing Inc, 2466 N CR 200 W' has no activity, and a LoopNet record shows the 73,910 SF light-manufacturing building there marketed for sale in 2020 and for lease in 2021. An IDEM notice dated 2026-10-01 places Frontline Manufacturing's permitted operation at 1445 Polk Drive, Warsaw. Source: https://www.in.gov/idem/files/notice_20261001_air_50207pn-cm.pdf"
+presumed_closed = "2026-11-14"
 unconfirmed_reason = "The company operates in the region, but no current source confirms a plant at this address (verification check, November 2026): Frontline Mfg. is listed in Leesburg (306 School St) and Warsaw (1445 Polk Dr) but no source mentions 2466 N 200 W and no other occupant was found."
 unconfirmed = "2026-11-14"
 
