@@ -97,9 +97,17 @@ def clean_name(est, company, city):
         return name
     return titlecase(name) if name.isupper() or name.islower() else name
 
+_OUTLINES = []
+
 def county_of(lat, lon):
-    """County FIPS of a point, from the county outlines in data/region_counties.json (ray casting)."""
-    for f in json.load(open(P("data", "region_counties.json"))):
+    """County FIPS of a point (ray casting), from the Census Bureau's detailed county outlines in
+    data/region_counties_detail.json (scripts/make_county_detail.py), or the simplified map outlines in
+    data/region_counties.json if that file is missing. The simplified ones are off by up to 2 km near
+    county lines."""
+    if not _OUTLINES:
+        path = P("data", "region_counties_detail.json")
+        _OUTLINES.extend(json.load(open(path if os.path.exists(path) else P("data", "region_counties.json"))))
+    for f in _OUTLINES:
         for ring in f["rings"]:
             inside = False
             for (x1, y1), (x2, y2) in zip(ring, ring[1:] + ring[:1]):

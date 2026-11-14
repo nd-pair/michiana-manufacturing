@@ -4,7 +4,7 @@
     python3 scripts/check_consistency.py [out.csv]     # default: audits/consistency-check.csv
 
 Checks every company on the map (not closed, presumed closed or removed):
-- location: the coordinates fall in one of the region's counties (data/region_counties.json);
+- location: the coordinates fall in one of the region's counties (data/region_counties_detail.json);
 - duplicate: another file has the same street address, the same street address under another postal
   town within 1 km (Sawyer and Bridgman), or the same name within 300 m;
 - headcount: a site headcount above 5,000, or a headcount that looks company-wide;

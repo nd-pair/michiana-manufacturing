@@ -103,6 +103,9 @@ closure from a dated source before marking it. `scripts/check_coverage.py` compa
 `scripts/check_consistency.py` checks the files against each other: coordinates outside the region's
 counties, two files at one address or with one name within 300 m, site headcounts above 5,000,
 sectors that disagree with NAICS, and city-level placements (`audits/consistency-check.csv`).
+It places plants in counties with the Census Bureau's detailed county outlines,
+`data/region_counties_detail.json`, made once by `scripts/make_county_detail.py`. The map's own
+outlines in `data/region_counties.json` are simplified and are off by up to 2 km near county lines.
 `scripts/check_sites.py` (monthly) reads the addresses on each company's own website and compares them
 with the file's: `audits/site-address-check.csv` lists matches, the same street under another number
 (Elkhart County's two numbering systems), other addresses in the region, and sites without one. It
