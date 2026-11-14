@@ -9,17 +9,18 @@ address = "700 Orthopaedic Drive, Warsaw, IN 46582"
 lat = 41.23303
 lon = -85.79938
 website = "https://depuy.com"
+osha_id = "1539214"
 uei = "M6NHUY4K26P4"
 
 sector = "Medical devices & other"
 products = ["Surgical Appliance and Supplies Manufacturing"]
 naics = "339113"
 
-employees = 1400
+employees = 848
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Divisional Headquarters & Orthopedic Equipment & Fracture Appliances. NAICS 339113: surgical appliance and supplies manufacturing."
 

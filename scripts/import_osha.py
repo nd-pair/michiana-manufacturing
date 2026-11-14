@@ -188,6 +188,7 @@ def main(args):
         if f and street_of(r["street_address"]) and street_of(r["street_address"]) == street_of(by_id[f].get("address", "")):
             on_street.add(f)
     claimed = {}           # file -> address key of the plant it now stands for
+    rows_by_id = {str(r["establishment_id"]).strip(): r for r in keep}
     def on_files_street(r):
         cty = titlecase(r["city"].strip()) if r["city"].isupper() else r["city"].strip()
         f = by_osha.get(str(r["establishment_id"]).strip()) or name_match(r, cty)
@@ -245,8 +246,11 @@ def main(args):
                 cid = None   # a new tenant at a closed plant's address: the closure stays on record, the tenant gets its own file
         if cid:
             c, path = by_id[cid], company_path(cid)
-            if cid == by_address and not words(c["name"]) & (words(r["establishment_name"]) | words(r["company_name"]) | words(filer)):
-                # same address, different name: a successor, a rename or a new tenant. Note it for a person; keep the file's facts
+            own = clean_name(r["establishment_name"], "", city)
+            named_by_parent = not ({w for w in norm(own).split() if len(w) > 3} & {w for w in norm(filer).split() if len(w) > 3})
+            if cid == by_address and not named_by_parent and not words(c["name"]) & (words(r["establishment_name"]) | words(r["company_name"]) | words(filer)):
+                # same address, different name: a successor, a rename or a new tenant. Note it for a person; keep the file's facts.
+                # Not when the filing's own name is only a code ("US161 IN Warsaw" of Johnson & Johnson at DePuy): that is the same plant.
                 out[eid] = {"company": cid, "employees": emp, "naics": r["naics_code"], "occupant": filer}; occupants += 1
                 if dry or not path:
                     continue
@@ -286,7 +290,10 @@ def main(args):
                 set_field(path, "address", moved_to); set_field(path, "city", city)
                 del_field(path, "lat"); del_field(path, "lon")
                 set_field(path, "status_note", "Address from the company's OSHA Form 300A filing for %s; previously %s." % (year, c.get("address", "") or "no street address"))
-            if not c.get("osha_id") or (claimed.get(cid) == here and c.get("osha_id") != eid and not by_osha.get(eid)):
+            cur = rows_by_id.get(str(c.get("osha_id") or ""))
+            if not c.get("osha_id") or (claimed.get(cid) == here and not by_osha.get(eid)
+                                        and (cur is None or addr_key(cur["street_address"], cur["city"]) != here)):
+                # no ID yet, or the file's ID is not a filing at this plant this year: take this filing's
                 set_field(path, "osha_id", eid); by_osha[eid] = cid   # the filing at the file's own plant
             if c.get("presumed_closed"):
                 del_field(path, "presumed_closed"); del_field(path, "presumed_closed_reason"); restored += 1

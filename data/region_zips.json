@@ -1,5 +1,5 @@
 {
-"source": "U.S. Census Bureau 2020 ZCTA-to-county relationship file; each ZIP assigned to the county with most of its land area",
+"source": "U.S. Census Bureau 2020 ZCTA-to-county relationship file; each ZIP assigned to the county with most of its land area; plus PO-box ZIP codes without a Census ZIP area, assigned to their city's county by hand: 46515 (Elkhart), 46581 (Warsaw)",
 "zips": {
 "46340": "18091",
 "46345": "18091",
@@ -24,6 +24,7 @@
 "46511": "18099",
 "46513": "18099",
 "46514": "18039",
+"46515": "18039",
 "46516": "18039",
 "46517": "18039",
 "46524": "18085",
@@ -59,6 +60,7 @@
 "46573": "18039",
 "46574": "18091",
 "46580": "18085",
+"46581": "18085",
 "46582": "18085",
 "46590": "18085",
 "46595": "18141",
