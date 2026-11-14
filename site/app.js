@@ -9,6 +9,7 @@ const TAGS=[...new Set(C.flatMap(c=>c.tags))].sort((a,b)=>a.localeCompare(b));
 const GROUPS={};for(const c of C)(GROUPS[c.group]=GROUPS[c.group]||{id:c.group,name:c.parent||c.name,sites:[]}).sites.push(c);
 const groupOf=c=>GROUPS[c.group];
 const nGroups=list=>new Set(list.filter(c=>c.mfg).map(c=>c.group)).size;   /* counts manufacturers only: R&D, software, investors and universities are on the map but not counted */
+const nOrgs=list=>new Set(list.map(c=>c.group)).size;   /* every organization shown: for the sector, product and capability lists, where software firms, investors and anchors have their own rows */
 const reduced=matchMedia("(prefers-reduced-motion: reduce)").matches;
 const esc=s=>String(s??"").replace(/[&<>"]/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[m]));
 const fmtK=v=>v>=10000?Math.round(v/1000)+"k":v>=1000?(v/1000).toFixed(1)+"k":String(v);
@@ -305,15 +306,15 @@ function HH(kind,cols,lead){const s=st.sort[kind];return `<div class="mm-hh"><sp
 const sorter=kind=>{const s=st.sort[kind];return (a,b)=>{const va=a[s.key],vb=b[s.key];const r=typeof va==="string"?va.localeCompare(vb):((va||0)-(vb||0));return r*s.dir||(b.n||0)-(a.n||0)||(b.e||0)-(a.e||0)||String(a.label||"").localeCompare(String(b.label||""))}};
 const SORTCOLS=[{key:"n",label:"cos",title:"number of companies"},{key:"e",label:"staff"}];
 function bar(cls,label,n,max,e,emax,pressed,extra,col,eText){return `<button type="button" class="mm-bar ${cls} ${n?"":"zero"}" aria-pressed="${pressed}" ${extra} ${col?`style="--c:${col}"`:""}><span class="lab">${col?`<span class="mm-dot" style="background:${col};color:${col}"></span>`:""}<span>${label}</span><span class="trk"><span class="fil" style="width:${max?Math.round(100*n/max):0}%"></span><span class="fil2" style="width:${emax?Math.round(100*e/emax):0}%"></span></span></span><span class="n">${n}</span><span class="e">${eText??(e?fmtK(e):"–")}</span></button>`}
-function renderSectors(){const base=C.filter(visibleExcept("sec"));const rows=DATA.sectors.map(s=>{const l=base.filter(c=>c.sector===s);return {label:s,n:nGroups(l),e:empSum(l)}}).sort(sorter("sec"));
+function renderSectors(){const base=C.filter(visibleExcept("sec"));const rows=DATA.sectors.map(s=>{const l=base.filter(c=>c.sector===s);return {label:s,n:nOrgs(l),e:empSum(l)}}).sort(sorter("sec"));
   const max=Math.max(1,...rows.map(x=>x.n)),emax=Math.max(1,...rows.map(x=>x.e));
   document.getElementById("sectors").innerHTML=HH("sec",SORTCOLS)+rows.map(({label:s,n,e})=>bar("sec",esc(s),n,max,e,emax,st.sec.has(s),`data-sec="${esc(s)}"`,SCOL[s])).join("")}
-function renderTags(){const base=C.filter(visibleExcept("tag"));let rows=TAGS.map(t=>{const l=base.filter(c=>c.tags.includes(t));return {label:t,n:nGroups(l),e:empSum(l)}}).sort(sorter("tag"));
+function renderTags(){const base=C.filter(visibleExcept("tag"));let rows=TAGS.map(t=>{const l=base.filter(c=>c.tags.includes(t));return {label:t,n:nOrgs(l),e:empSum(l)}}).sort(sorter("tag"));
   if(st.q)rows=rows.filter(x=>x.label.toLowerCase().includes(st.q));const max=Math.max(1,...rows.map(x=>x.n)),emax=Math.max(1,...rows.map(x=>x.e));
   document.getElementById("tags").innerHTML=HH("tag",SORTCOLS)+(rows.slice(0,150).map(({label:t,n,e})=>bar("tag",esc(t),n,max,e,emax,st.tag.has(t),`data-tag="${esc(t)}"`)).join("")||`<p class="mm-count">No product matches “${esc(st.q)}”.</p>`);
   document.getElementById("tagcount").textContent=`${TAGS.length} categories`}
 function renderFederal(){const rows=C.filter(visible),withFed=rows.filter(c=>c.federal),total=withFed.reduce((a,c)=>a+c.federal.total,0);
-  const bySec=DATA.sectors.map(s=>{const l=withFed.filter(c=>c.sector===s);return {label:s,e:l.reduce((a,c)=>a+c.federal.total,0),n:nGroups(l)}}).filter(x=>x.e>0).sort(sorter("fed"));
+  const bySec=DATA.sectors.map(s=>{const l=withFed.filter(c=>c.sector===s);return {label:s,e:l.reduce((a,c)=>a+c.federal.total,0),n:nOrgs(l)}}).filter(x=>x.e>0).sort(sorter("fed"));
   const smax=Math.max(1,...bySec.map(x=>x.e)),ag=DATA.federalAgencies.slice(0,8),amax=Math.max(1,...ag.map(a=>a.contracts+a.grants));
   const sbirN=rows.filter(c=>c.sbir),patN=rows.filter(c=>c.patents);
   document.getElementById("fedcount").textContent=DATA.federalPulled?`USAspending, FY2016 to ${DATA.federalPulled.slice(0,4)}`:"";
@@ -323,7 +324,7 @@ function renderFederal(){const rows=C.filter(visible),withFed=rows.filter(c=>c.f
     +`<div class="mm-hh" style="margin-top:8px"><span>region-wide, by awarding agency (all recipients, work performed here)</span><span></span><span>$</span></div>`
     +ag.map(a=>`<div class="mm-bar ag" style="cursor:default"><span class="lab"><span>${esc(a.name)}</span><span class="trk"><span class="fil" style="width:${Math.round(100*(a.contracts+a.grants)/amax)}%;background:var(--accent-2)"></span></span></span><span class="n"></span><span class="e">${fmtUSD(a.contracts+a.grants)}</span></div>`).join("")}
 function renderCaps(){const base=C.filter(visibleExcept("cap"));
-  const rows=DATA.capabilities.map(k=>{const l=base.filter(c=>c.caps.includes(k));const big=l.slice().sort((a,b)=>(b.emp||0)-(a.emp||0))[0];return {label:k,n:nGroups(l),e:empSum(l),big}}).sort(sorter("cap"));
+  const rows=DATA.capabilities.map(k=>{const l=base.filter(c=>c.caps.includes(k));const big=l.slice().sort((a,b)=>(b.emp||0)-(a.emp||0))[0];return {label:k,n:nOrgs(l),e:empSum(l),big}}).sort(sorter("cap"));
   const max=Math.max(1,...rows.map(x=>x.n)),emax=Math.max(1,...rows.map(x=>x.e));
   document.getElementById("caps").innerHTML=HH("cap",SORTCOLS,"process capability · largest site")+rows.map(({label:k,n,e,big})=>bar(n<=1?"gap":"",esc(k)+(n<=1?' <span class="g">gap</span>':"")+(big?` <span class="mm-count">· ${esc(groupOf(big).name)}</span>`:""),n,max,e,emax,st.cap.has(k),`data-cap="${esc(k)}"`)).join("")}
 function renderQcew(){const el=document.getElementById("qcew");document.querySelectorAll("[data-qv]").forEach(b=>b.setAttribute("aria-pressed",String(b.dataset.qv===st.qv)));
