@@ -9,6 +9,8 @@ address = "955 South Woodland Avenue, Michigan City, IN 46360"
 lat = 41.69906
 lon = -86.87489
 website = "https://sca.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. No source links Tegrant or Protexic to 955 S Woodland Ave; Protexic is listed in New Brighton, PA."
+presumed_closed = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["Polystyrene Foam Product Manufacturing"]

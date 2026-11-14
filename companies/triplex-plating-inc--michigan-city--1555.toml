@@ -8,6 +8,8 @@ state = "IN"
 address = "1555 East US Highway 12, Michigan City, IN 46360"
 lat = 41.72333
 lon = -86.88148
+verified_note = "Zinc plating shop (est. 1939) has a LinkedIn page, active job posting and directory listings at 1555 E US Hwy 12. Source: https://linkedin.com/company/triplex-plating"
+verified = "2026-11-13"
 
 sector = "Metal"
 products = ["Electroplating, Plating, Polishing, Anodizing and Coloring"]

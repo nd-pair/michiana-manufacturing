@@ -9,6 +9,8 @@ address = "3168 Maple City Drive, Goshen, IN 46526"
 lat = 41.54800
 lon = -85.78437
 website = "https://owenscorning.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Searches for the address and for an Owens Corning Goshen mineral wool plant found nothing; Owens Corning's Indiana mineral wool site is in Wabash."
+presumed_closed = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["Mineral Wool Manufacturing"]

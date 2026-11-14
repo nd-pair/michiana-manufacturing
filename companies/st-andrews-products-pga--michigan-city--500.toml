@@ -9,6 +9,8 @@ address = "500 Mariner Drive, Michigan City, IN 46360"
 lat = 41.73312
 lon = -86.82941
 website = "https://standrewsproducts-golf.com"
+verified_note = "Trade-data records show St. Andrews Products at 500 Mariner Dr with 2026 shipments; evidence is indirect and no company site was reachable. Source: https://panjiva.com/St-Andrews-Products/30546533"
+verified = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Commercial Screen Printing"]

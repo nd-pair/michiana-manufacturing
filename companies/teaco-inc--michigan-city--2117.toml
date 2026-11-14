@@ -9,6 +9,8 @@ address = "2117 Ohio Street, Michigan City, IN 46360"
 lat = 41.70112
 lon = -86.90420
 website = "https://teacoinc.com"
+verified_note = "Live Teaco site (electronics contract manufacturer, est. 1976) and directory listings place it at 2117 Ohio St; one MapQuest page is labeled Closed, likely referring to hours. Source: https://teacoinc.com"
+verified = "2026-11-13"
 
 sector = "Electronics"
 products = ["Other Electronic Component Manufacturing"]

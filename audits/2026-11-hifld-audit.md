@@ -176,24 +176,37 @@ After these changes, 798 HIFLD records have no confirmation newer than HIFLD its
 calibration shows that website checks alone cannot sort them: 15 to 25% of records with no website
 or a dead domain were operating. They need the same per-record check.
 
-## Full verification, in progress
+## Full verification of all HIFLD records (November 13, 2026)
 
-The remaining HIFLD records are checked in batches of 25: name and address searches, the company
-website, Wayback Machine captures and news. `scripts/apply_checks.py` applies each finding under
-CURATION.md and logs it to [`2026-11-hifld-verification.csv`](2026-11-hifld-verification.csv).
+Every HIFLD record that no same-name 2025 OSHA filing confirmed, 798 in all, was checked: name and
+address searches, the company website, Wayback Machine captures where reachable, news and listings.
+`scripts/apply_checks.py` applied each finding under CURATION.md, and every finding, its source and
+the action taken are in [`2026-11-hifld-verification.csv`](2026-11-hifld-verification.csv). Records
+the first pass could not search (the session's web-search limit) were searched in a second pass.
 
-| Status on November 13, 2026 | Records |
-|---|---:|
-| Checked | 456 of 798 |
-| Verified operating at the listed address | 146 |
-| Moved within the region (address updated) | 35 |
-| Renamed (new name tied to the address) | 9 |
-| Closed, with a dated source | 15 |
-| Presumed closed (no trace, moved away, or another business at the address) | 236 |
-| Removed (offices, showrooms, distributors, service businesses) | 14 |
-| Not yet searched (web-search limit), still on the map | 44, plus 300 not yet started |
+Where the 1,113 HIFLD-sourced company files stand now:
 
-Each finding comes from automated web searches. Many "operating" calls rest on undated directory
-listings, and many "presumed closed" calls on the absence of any listing. The CSV gives every
-finding and source, so a person can reverse a call. A presumed-closed record comes back
-automatically when it files with OSHA.
+| Status | Files | On the map |
+|---|---:|---|
+| Confirmed by a same-name 2025 OSHA filing at the address | 221 | yes |
+| Verified operating by the web check (some at a corrected address or under a current name) | 351 | yes |
+| Company operates in the region, this address not confirmed | 83 | yes, unverified |
+| Closed, with a dated source | 54 | no |
+| Presumed closed: no current trace, moved away, or another business at the address | 374 | no |
+| Removed: offices, stores, service businesses, distributors, duplicates | 30 | no |
+
+So 655 of the 1,113 HIFLD records remain on the map, 572 of them confirmed. The 85 HIFLD addresses
+that now carry their 2025 OSHA filer, and the 301 plants OSHA added, come on top of these.
+
+What to keep in mind:
+- Many "verified" calls rest on a current but undated directory listing or a live website; many
+  "presumed closed" calls rest on finding nothing. That fits the policy that a missing plant is
+  better than a listed one that does not exist, and it errs toward omission.
+- The review caught and corrected rule errors along the way. Plants in Elkhart County's two
+  street-numbering systems were first read as moves. Renames were missed when the street had a
+  direction letter, such as Zimmer Biomet's two Warsaw campuses. A food hall and a store branch were
+  taken for plants. Corrections are marked "review correction" in the CSV.
+- A presumed-closed plant comes back automatically when it files with OSHA (`scripts/import_osha.py`).
+  Any call can be reversed by editing the company file; the CSV gives the source.
+- Next: repeat a 100-record random audit after the spring 2027 OSHA import, to measure how accurate
+  the map is now.

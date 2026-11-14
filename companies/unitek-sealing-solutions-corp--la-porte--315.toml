@@ -5,10 +5,12 @@ name = "Unitek Sealing Solutions Corp."
 kind = "company"
 city = "La Porte"
 state = "IN"
-address = "315 Brighton Street, La Porte, IN 46350"
-lat = 41.61715
-lon = -86.71369
+address = "115 Koomler Drive, La Porte, IN 46350"
+lat = 41.62817
+lon = -86.71347
 website = "https://unitekss.com"
+verified = "2026-11-13"
+status_note = "Moved from 315 Brighton Street, La Porte, IN 46350; found in a verification check (2026-11-13): Jaeger-Unitek Sealing Solutions operates at 115 Koomler Dr, while 315 Brighton St is advertised as a 36,000 SF industrial building for lease."
 
 sector = "Materials & composites"
 products = ["Rubber Product Manufacturing for Mechanical Use"]

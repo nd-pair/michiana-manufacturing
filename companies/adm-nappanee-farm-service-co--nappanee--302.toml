@@ -9,6 +9,8 @@ address = "302 South Main Street, Nappanee, IN 46550"
 lat = 41.44072
 lon = -86.00172
 website = "https://admworld.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. No source confirms an ADM facility at 302 S Main St, Nappanee, and ADM does not appear on Indiana grain licensee lists for Nappanee."
+presumed_closed = "2026-11-13"
 
 sector = "Food & consumer goods"
 products = ["Other Animal Food Manufacturing"]

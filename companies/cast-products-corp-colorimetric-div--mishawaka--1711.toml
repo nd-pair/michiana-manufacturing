@@ -9,6 +9,8 @@ address = "1711 Clover Road, Mishawaka, IN 46545"
 lat = 41.67580
 lon = -86.15418
 website = "https://dehco.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Only an addressless Colorimetric Division listing in Mishawaka was found; no source for 1711 Clover Road. Source: https://siccode.com/business/colorimetric-division"
+presumed_closed = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["Adhesive Manufacturing"]

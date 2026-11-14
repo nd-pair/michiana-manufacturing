@@ -9,6 +9,8 @@ address = "605 East 9th Street, Michigan City, IN 46360"
 lat = 41.71436
 lon = -86.89186
 website = "https://newcombsolutions.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. 605 E 9th St appears only as a commercial space listing with no named occupant, and newcombsolutions.com shows an under-construction notice. Source: https://www.rofo.com/commercial-real-estate/building/IN/Michigan-City/605-E-9th-St-216155.html"
+presumed_closed = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Other Commercial Printing"]

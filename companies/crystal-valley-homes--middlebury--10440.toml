@@ -9,6 +9,8 @@ address = "10440 County Road 2, Middlebury, IN 46540"
 lat = 41.75477
 lon = -85.66819
 website = "https://patriothomes.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. No listing for Crystal Valley Homes or any occupant at 10440 County Road 2 was found, and patriothomes.com could not be fetched."
+presumed_closed = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Manufactured Home (mobile Home) Manufacturing"]

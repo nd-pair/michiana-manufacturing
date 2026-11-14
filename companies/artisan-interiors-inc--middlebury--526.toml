@@ -9,6 +9,8 @@ address = "526 South Main Street, Middlebury, IN 46540"
 lat = 41.66544
 lon = -85.70547
 website = "https://artisan-interiors.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. artisan-interiors.com redirects to a GoDaddy for-sale page and no listing for the company at 526 S Main was found."
+presumed_closed = "2026-11-13"
 
 sector = "Food & consumer goods"
 products = ["Curtain and Drapery Mills"]

@@ -9,6 +9,8 @@ address = "1306 West US Highway 20, Michigan City, IN 46360"
 lat = 41.68027
 lon = -86.92363
 website = "https://strancoinc.com"
+verified_note = "Live company site and its contact page give 1306 W US Highway 20, Michigan City as the address for this labeling and marking manufacturer. Source: https://strancoinc.com/?p=20"
+verified = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Other Commercial Printing"]

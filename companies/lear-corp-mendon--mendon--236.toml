@@ -9,6 +9,8 @@ address = "236 West Clark Street, Mendon, MI 49072"
 lat = 42.01258
 lon = -85.45135
 website = "https://lear.com"
+presumed_closed_reason = "Verification check: no current trace of Lear at this address; the only records are 2006-07 OSHA entries."
+presumed_closed = "2026-11-13"
 
 sector = "Vehicles & RVs"
 products = ["All Other Motor Vehicle Parts Manufacturing"]

@@ -9,6 +9,8 @@ address = "701 State Street, La Porte, IN 46350"
 lat = 41.61251
 lon = -86.72159
 website = "https://heraldargus.com"
+presumed_closed_reason = "Verification check: renamed or acquired, but the new name is not tied to this address (La Porte County Herald-Dispatch (News-Dispatch)). The Herald-Argus was at 701 State St and merged with the News-Dispatch in August 2020 under Paxton Media; current occupancy of 701 State St was not confirmed. Source: https://www.wikiwand.com/en/articles/La_Porte_County_Herald-Dispatch"
+presumed_closed = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Other Commercial Printing"]

@@ -9,6 +9,8 @@ address = "423 North Main Street, Middlebury, IN 46540"
 lat = 41.68617
 lon = -85.70036
 website = "https://coachmen.com"
+removed_reason = "duplicate: the same Coachmen RV plant at 423 N Main St, Middlebury, as companies/coachmen-recreational-vehicle-co-llc--middlebury--423.toml (verification check)"
+removed = "2026-11-13"
 
 sector = "Vehicles & RVs"
 products = ["Motor Home Manufacturing"]

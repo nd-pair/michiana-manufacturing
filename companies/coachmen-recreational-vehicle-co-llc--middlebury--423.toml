@@ -9,6 +9,8 @@ address = "423 North Main Street, Middlebury, IN 46540"
 lat = 41.68617
 lon = -85.70036
 website = "https://coachmenrv.com"
+verified_note = "Coachmen RV (Forest River) is listed at 423 N Main St, Middlebury, with 2026 models and a Middlebury service shop; the LLC name specifically was not separately confirmed. Source: https://www.cbinsights.com/company/coachmen-rv"
+verified = "2026-11-13"
 
 sector = "Vehicles & RVs"
 products = ["Motor Home Manufacturing"]

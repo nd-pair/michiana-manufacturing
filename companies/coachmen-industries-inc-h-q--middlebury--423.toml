@@ -9,6 +9,8 @@ address = "423 North Main Street, Middlebury, IN 46540"
 lat = 41.68617
 lon = -85.70036
 website = "https://coachmen.com"
+presumed_closed_reason = "Verification check: renamed or acquired, but the new name is not tied to this address (Coachmen RV (division of Forest River, Inc.)). Forest River bought Coachmen in 2008 and Coachmen RV headquarters remain at 423 N Main St, Middlebury, with a Coachmen service shop in Middlebury advertising jobs. Source: https://www.cbinsights.com/company/coachmen-rv"
+presumed_closed = "2026-11-13"
 
 sector = "Vehicles & RVs"
 products = ["Motor Home Manufacturing"]

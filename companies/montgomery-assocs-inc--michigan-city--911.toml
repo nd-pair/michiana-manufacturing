@@ -9,6 +9,8 @@ address = "911 Franklin Street, Michigan City, IN 46360"
 lat = 41.71244
 lon = -86.89983
 website = "https://m-assoc.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Only an undated aggregator listing exists and m-assoc.com is a placeholder WordPress site last posted in 2019. Source: https://naicslist.com/company-profile/montgomery-associates-inc-michigan-city-in-46360"
+presumed_closed = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Other Commercial Printing"]

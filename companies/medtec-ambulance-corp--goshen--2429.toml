@@ -9,6 +9,9 @@ address = "2429 Lincolnway East, Goshen, IN 46526"
 lat = 41.55393
 lon = -85.78755
 website = "https://medtecambulance.com"
+closed_source = "https://www.warntracker.com/layoff/medtec-ambulance-corp-2011-03-31"
+closed_note = "Oshkosh closed Medtec's Goshen and White Pigeon ambulance plants on March 31, 2011."
+closed = "2011-03-31"
 
 sector = "Vehicles & RVs"
 products = ["Motor Vehicle Body Manufacturing"]
