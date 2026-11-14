@@ -2,7 +2,7 @@
 # One company per file. See README.md for the fields; delete a line to leave it blank.
 
 name = "Elevate Ventures"
-kind = "company"
+kind = "investor"
 city = "South Bend"
 state = "IN"
 address = "1400 E Angela Blvd, South Bend, IN 46617"

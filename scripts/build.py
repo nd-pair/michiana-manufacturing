@@ -98,10 +98,10 @@ def group_key(name):
 
 def is_manufacturer(c):
     """Whether a company file counts as a manufacturer in the site's counts. Investors, universities and
-    anchors never do; `manufacturer = true/false` in the file wins; a NAICS 31-33 code counts; software and
+    anchors never do, nor does anything in the "Capital & anchors" sector; `manufacturer = true/false` in the file wins; a NAICS 31-33 code counts; software and
     services firms and SBIR research firms with no evidence of production do not; other hand-written
     company entries do (they were added as manufacturers)."""
-    if c.get("kind", "company") != "company":
+    if c.get("kind", "company") != "company" or c.get("sector") == "Capital & anchors":
         return False
     if "manufacturer" in c:
         return bool(c["manufacturer"])
