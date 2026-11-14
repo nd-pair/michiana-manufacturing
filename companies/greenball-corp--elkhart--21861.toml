@@ -1,27 +1,28 @@
-# Greenball Corp.
-# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+# Great Lakes Forest Products
+# Imported from HIFLD, then updated from OSHA's Form 300A filing at this address (public); edit freely.
 
-name = "Greenball Corp."
+name = "Great Lakes Forest Products"
 kind = "company"
 city = "Elkhart"
 state = "IN"
 address = "21861 Protecta Drive, Elkhart, IN 46516"
 lat = 41.69687
 lon = -85.88551
-website = "https://greenball.com"
-osha_occupant = "Great Lakes Forest Products (OSHA Form 300A filer at this address, 2025)"
+osha_id = "930163"
+status_note = "Named from OSHA's 2025 Form 300A filing at this address; the earlier record here, Greenball Corp. (HIFLD), is a predecessor or a former occupant."
+formerly = "Greenball Corp."
 
-sector = "Materials & composites"
-products = ["Tire Manufacturing (except Retreading)"]
-naics = "326211"
+sector = "Wood, paper & furniture"
+products = ["Boards, wood, resawing purchased lumber"]
+naics = "321912"
 
-employees = 20
+employees = 330
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
-description = "Specialty Tires & Tire & Wheel Assembly. NAICS 326211: tire manufacturing (except retreading)."
+description = "NAICS 321912: boards, wood, resawing purchased lumber."
 
-source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
-updated = "2026-11-11"
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor); the earlier record at this address came from HIFLD"
+updated = "2026-11-13"

@@ -1,26 +1,28 @@
-# Whimet, Inc.
-# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+# Paragon Medical (Ametek)
+# Imported from HIFLD, then updated from OSHA's Form 300A filing at this address (public); edit freely.
 
-name = "Whimet, Inc."
+name = "Paragon Medical (Ametek)"
 kind = "company"
 city = "Warsaw"
 state = "IN"
 address = "2100 North Detroit Street, Warsaw, IN 46580"
 lat = 41.25643
 lon = -85.85198
-osha_occupant = "Ametek, Inc PARAGON MEDICAL, INC. N. DETROIT ST (OSHA Form 300A filer at this address, 2025)"
+osha_id = "1363319"
+status_note = "Named from OSHA's 2025 Form 300A filing at this address; the earlier record here, Whimet, Inc. (HIFLD), is a predecessor or a former occupant."
+formerly = "Whimet, Inc."
 
 sector = "Medical devices & other"
 products = ["Surgical and Medical Instrument Manufacturing"]
 naics = "339112"
 
-employees = 60
+employees = 88
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
-description = "Metal Finishing. NAICS 339112: surgical and medical instrument manufacturing."
+description = "NAICS 339112: surgical and medical instrument manufacturing."
 
-source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
-updated = "2026-11-11"
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor); the earlier record at this address came from HIFLD"
+updated = "2026-11-13"

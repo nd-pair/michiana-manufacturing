@@ -1,27 +1,28 @@
-# Koontz-Wagner Electric Co., Inc.
-# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+# Masterbilt Precision Machining
+# Imported from HIFLD, then updated from OSHA's Form 300A filing at this address (public); edit freely.
 
-name = "Koontz-Wagner Electric Co., Inc."
+name = "Masterbilt Precision Machining"
 kind = "company"
 city = "South Bend"
 state = "IN"
 address = "3801 Voorde Drive, South Bend, IN 46628"
 lat = 41.69880
 lon = -86.30180
-website = "https://koontz-wagner.com"
-osha_occupant = "Masterbilt Precision Machining (OSHA Form 300A filer at this address, 2025)"
+osha_id = "1566405"
+status_note = "Named from OSHA's 2025 Form 300A filing at this address; the earlier record here, Koontz-Wagner Electric Co., Inc. (HIFLD), is a predecessor or a former occupant."
+formerly = "Koontz-Wagner Electric Co., Inc."
 
-sector = "Electronics"
-products = ["Switchgear and Switchboard Apparatus Manufacturing"]
-naics = "335313"
+sector = "Metal"
+products = ["Machine shops"]
+naics = "332710"
 
-employees = 350
+employees = 60
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
-description = "Corporate Headquarters & Control Panels & Integrated Electrics for Packaged Control Room Systems. NAICS 335313: switchgear and switchboard apparatus manufacturing."
+description = "NAICS 332710: machine shops."
 
-source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
-updated = "2026-11-11"
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor); the earlier record at this address came from HIFLD"
+updated = "2026-11-13"

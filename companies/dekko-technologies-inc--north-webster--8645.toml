@@ -9,6 +9,8 @@ address = "8645 East Backwater Road, North Webster, IN 46555"
 lat = 41.31599
 lon = -85.67819
 website = "https://dekko.com"
+presumed_closed_reason = "HIFLD audit of November 2026 (audits/2026-11-hifld-audit.csv): Dekko lists no North Webster site; 8645 E Backwater Rd is a 2000-built office/flex building in Bluestem Business Park offered for sale or lease with no tenant named."
+presumed_closed = "2026-11-13"
 
 sector = "Mechatronics & automation"
 products = ["Heating Equipment (except Warm Air Furnaces) Manufacturing"]

@@ -9,6 +9,9 @@ address = "4366 Old US Highway 31 North, Rochester, IN 46975"
 lat = 41.11712
 lon = -86.22634
 website = "https://acument.com"
+closed_source = "https://www.insideindianabusiness.com/articles/rochester-company-to-cease-operations"
+closed_note = "Acument announced the permanent closure of its Rochester plant in October 2020, with layoffs through March 2021."
+closed = "2021"
 
 sector = "Medical devices & other"
 products = ["Fastener, Button, Needle, and Pin Manufacturing"]

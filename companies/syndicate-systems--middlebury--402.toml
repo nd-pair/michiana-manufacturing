@@ -1,26 +1,28 @@
-# Syndicate Systems
-# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+# Lozier Corporation
+# Imported from HIFLD, then updated from OSHA's Form 300A filing at this address (public); edit freely.
 
-name = "Syndicate Systems"
+name = "Lozier Corporation"
 kind = "company"
 city = "Middlebury"
 state = "IN"
 address = "402 North Main Street, Middlebury, IN 46540"
 lat = 41.68161
 lon = -85.70292
-osha_occupant = "Lozier Corporation (OSHA Form 300A filer at this address, 2025)"
+osha_id = "1263910"
+status_note = "Named from OSHA's 2025 Form 300A filing at this address; the earlier record here, Syndicate Systems (HIFLD), is a predecessor or a former occupant."
+formerly = "Syndicate Systems"
 
 sector = "Wood, paper & furniture"
-products = ["Showcase, Partition, Shelving, and Locker Manufacturing"]
+products = ["Store display fixtures manufacturing"]
 naics = "337215"
 
-employees = 1000
+employees = 352
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
-description = "Store Display Fixtures. NAICS 337215: showcase, partition, shelving, and locker manufacturing."
+description = "NAICS 337215: store display fixtures manufacturing."
 
-source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
-updated = "2026-11-11"
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor); the earlier record at this address came from HIFLD"
+updated = "2026-11-13"

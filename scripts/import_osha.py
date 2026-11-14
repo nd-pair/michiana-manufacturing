@@ -18,8 +18,11 @@ What the script does:
 - matches each to a company file by its OSHA establishment ID (`osha_id`, written on the first
   match), then by street number, street name and city, then by normalized name and city;
 - when the match is by address only and the names share no word, the filer is a successor, a renamed
-  company or a new tenant: the file gets `osha_occupant` (the filer's name) for a person to review and
-  keeps its own facts;
+  company or a new tenant, and it is the plant at that address now. An imported (HIFLD) file is
+  rewritten to the filer: name, NAICS, products, sector and headcount from OSHA, the old name kept in
+  `formerly`, the old website dropped, and a `status_note` saying so. A hand-written file only gets
+  `osha_occupant` (the filer's name) for a person to review;
+- a same-name filing brings back a file marked `presumed_closed`;
 - on a match, writes `osha_id`, and replaces the headcount with OSHA's annual average employees when
   the file's headcount is an estimate (such as HIFLD's) or missing; reported headcounts stay;
 - otherwise geocodes the address with the Census geocoder, checks that it falls in a region county
@@ -31,7 +34,7 @@ What the script does:
 Re-running is safe: existing files are never overwritten, only the fields above are set.
 """
 import csv, datetime, io, json, os, re, sys, time, tomllib, urllib.parse, urllib.request, zipfile
-from common import P, COUNTIES, companies, norm, company_path, set_field
+from common import P, COUNTIES, companies, norm, company_path, set_field, del_field, set_list
 from import_hifld import SECTOR_BY_NAICS3, titlecase, slug, q
 
 SOURCE = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
@@ -71,6 +74,9 @@ def clean_name(est, company, city):
     est, company = (est or "").strip(), strip_codes((company or "").strip())
     n = re.sub(r"\s*[-–]\s*(%s|[a-z .]+,?\s+(in|mi))\b.*$" % re.escape(city), "", est, flags=re.I).strip() if city else est
     n = re.sub(r",\s*\d+\s+\w.*$", "", n)                      # 'StairSupplies, 1010 Eisenhower Dr. South'
+    if city:
+        n = re.sub(r"(?i)[\s\-–,]+%s(,?\s+(in|mi))?\s*$" % re.escape(city), "", n)   # 'Wieland Designs Topeka', 'MasterBrand Goshen'
+    n = re.sub(r"(?i)\s+(llc|inc\.?)?\s*(wa|in|mi)$", lambda m: (" " + m[1]) if m[1] else "", n)
     coded = bool(re.search(r"\b(?=\w*[a-z])(?=\w*\d)\w+\b", n, re.I))   # 'FCE1-FOAM', 'IN222', '3MUS'
     n = re.sub(r"(?i)[\s\-–&,]+(plant|&)?$", "", strip_codes(n)).strip()
     generic = (not n or coded or len(re.sub(r"[^a-z]", "", n.lower())) < 4 or norm(n) in ("", norm(city)) or DEPT.match(n)
@@ -134,7 +140,7 @@ def main(args):
             by_name.setdefault((norm(c["name"]), z[0]), c["_id"])
     by_id = {c["_id"]: c for c in cs}
     existing = set(os.listdir(P("companies")))
-    out, matched, updated, written, outside, nogeo, new_addr, pending, occupants = {}, 0, 0, 0, [], [], {}, [], 0
+    out, matched, updated, written, outside, nogeo, new_addr, pending, occupants, restored = {}, 0, 0, 0, [], [], {}, [], 0, 0
     today = datetime.date.today().isoformat()
     for r in sorted(keep, key=lambda r: -int(r.get("annual_average_employees") or 0)):
         eid, city = str(r["establishment_id"]).strip(), titlecase(r["city"].strip()) if r["city"].isupper() else r["city"].strip()
@@ -156,14 +162,42 @@ def main(args):
             if cid == by_address and not words(c["name"]) & (words(r["establishment_name"]) | words(r["company_name"]) | words(filer)):
                 # same address, different name: a successor, a rename or a new tenant. Note it for a person; keep the file's facts
                 out[eid] = {"company": cid, "employees": emp, "naics": r["naics_code"], "occupant": filer}; occupants += 1
-                if not dry and path:
+                if dry or not path:
+                    continue
+                if not (c.get("source") or "").startswith("HIFLD"):
                     set_field(path, "osha_occupant", "%s (OSHA Form 300A filer at this address, %s)" % (filer, year))
+                    continue
+                desc = (r.get("industry_description") or "").strip()
+                old = c["name"]
+                set_field(path, "name", filer)
+                set_field(path, "formerly", "; ".join(x for x in (c.get("formerly"), old) if x))
+                set_field(path, "status_note", "Named from OSHA's %s Form 300A filing at this address; the earlier record here, %s (HIFLD), is a predecessor or a former occupant." % (year, old))
+                set_field(path, "naics", r["naics_code"]); set_field(path, "sector", SECTOR_BY_NAICS3.get(r["naics_code"][:3], c.get("sector")))
+                set_list(path, "products", [desc or "Manufacturing"])
+                set_field(path, "description", "NAICS %s: %s." % (r["naics_code"], desc.lower() or "manufacturing"))
+                set_field(path, "osha_id", eid)
+                for k in ("website", "uei", "osha_occupant", "presumed_closed", "presumed_closed_reason", "humanoid", "humanoid_evidence", "humanoid_note"):
+                    del_field(path, k)
+                if emp:
+                    set_field(path, "employees", emp); set_field(path, "employees_scope", scope)
+                    set_field(path, "employees_year", int(year) if year.isdigit() else year); set_field(path, "employees_quality", "reported")
+                    set_field(path, "employees_note", "OSHA Form 300A, annual average employees at this establishment, %s" % year)
+                else:
+                    for k in ("employees", "employees_scope", "employees_year", "employees_quality", "employees_note"):
+                        del_field(path, k)
+                set_field(path, "source", SOURCE + "; the earlier record at this address came from HIFLD")
+                text = open(path, encoding="utf-8").read()
+                text = re.sub(r"\A# .*\n# Imported from the HIFLD.*\n", lambda m: "# %s\n# Imported from HIFLD, then updated from OSHA's Form 300A filing at this address (public); edit freely.\n" % filer, text)
+                open(path, "w", encoding="utf-8").write(text)
+                set_field(path, "updated", today)
                 continue
             out[eid] = {"company": cid, "employees": emp, "naics": r["naics_code"]}; matched += 1
             if dry or not path:
                 continue
             if not c.get("osha_id"):
                 set_field(path, "osha_id", eid); by_osha[eid] = cid
+            if c.get("presumed_closed"):
+                del_field(path, "presumed_closed"); del_field(path, "presumed_closed_reason"); restored += 1
             if emp and scope == "site" and c.get("employees_scope", "site") == "site" and (not c.get("employees") or c.get("employees_quality") == "estimate"
                                                                       or re.search(r"(?i)estimate", c.get("employees_note", ""))):
                 set_field(path, "employees", emp); set_field(path, "employees_year", int(year) if year.isdigit() else year)
@@ -231,8 +265,8 @@ def main(args):
         years[year] = out
         json.dump({"source": SOURCE, "file": os.path.basename(files[0]), "imported": today, "latest_year": year,
                    "years": dict(sorted(years.items()))}, open(P("data", "osha.json"), "w"), indent=0)
-    print("%d regional manufacturing establishments in %s (filing year %s): %d matched, %d at a file's address under another name (noted as osha_occupant), %d headcounts updated, %d new files %s, %d outside the region, %d not geocoded"
-          % (len(keep), os.path.basename(files[0]), year, matched, occupants, updated, written,
+    print("%d regional manufacturing establishments in %s (filing year %s): %d matched, %d at a file's address under another name (file updated to the filer), %d presumed-closed restored, %d headcounts updated, %d new files %s, %d outside the region, %d not geocoded"
+          % (len(keep), os.path.basename(files[0]), year, matched, occupants, restored, updated, written,
              "would be written" if dry else "written", len(outside), len(nogeo)))
     for x in nogeo:
         print("  not geocoded, add by hand if wanted:", x)

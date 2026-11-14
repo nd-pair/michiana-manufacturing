@@ -1,27 +1,28 @@
-# R Concepts Industries, Inc.
-# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+# RC Industries
+# Imported from HIFLD, then updated from OSHA's Form 300A filing at this address (public); edit freely.
 
-name = "R Concepts Industries, Inc."
+name = "RC Industries"
 kind = "company"
 city = "Elkhart"
 state = "IN"
 address = "555 County Road 15, Elkhart, IN 46516"
 lat = 41.68707
 lon = -85.90785
-website = "https://rctoolbox.com"
-osha_occupant = "RC Industries (OSHA Form 300A filer at this address, 2025)"
+osha_id = "472135"
+status_note = "Named from OSHA's 2025 Form 300A filing at this address; the earlier record here, R Concepts Industries, Inc. (HIFLD), is a predecessor or a former occupant."
+formerly = "R Concepts Industries, Inc."
 
-sector = "Materials & composites"
-products = ["Paint and Coating Manufacturing"]
-naics = "325510"
+sector = "Metal"
+products = ["Boxes, light gauge metal, manufacturing"]
+naics = "332439"
 
-employees = 96
+employees = 131
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
-description = "Truck Mounted Toolbox & Custom Sheet Metal Fabrication. NAICS 325510: paint and coating manufacturing."
+description = "NAICS 332439: boxes, light gauge metal, manufacturing."
 
-source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
-updated = "2026-11-11"
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor); the earlier record at this address came from HIFLD"
+updated = "2026-11-13"

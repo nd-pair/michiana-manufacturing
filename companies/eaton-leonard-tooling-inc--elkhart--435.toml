@@ -1,26 +1,28 @@
-# Eaton Leonard Tooling, Inc.
-# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+# Tube Form Solutions
+# Imported from HIFLD, then updated from OSHA's Form 300A filing at this address (public); edit freely.
 
-name = "Eaton Leonard Tooling, Inc."
+name = "Tube Form Solutions"
 kind = "company"
 city = "Elkhart"
 state = "IN"
 address = "435 Roske Drive, Elkhart, IN 46516"
 lat = 41.69225
 lon = -85.89670
-osha_occupant = "Tube Form Solutions, LLC-Roske (OSHA Form 300A filer at this address, 2025)"
+osha_id = "809584"
+status_note = "Named from OSHA's 2025 Form 300A filing at this address; the earlier record here, Eaton Leonard Tooling, Inc. (HIFLD), is a predecessor or a former occupant."
+formerly = "Eaton Leonard Tooling, Inc."
 
-sector = "Metal"
-products = ["Machine Shops"]
-naics = "332710"
+sector = "Mechatronics & automation"
+products = ["Machine tools, metal forming, manufacturing"]
+naics = "333517"
 
-employees = 19
+employees = 15
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
-description = "CNC Machining & Tool & Die Job Shop. NAICS 332710: machine shops."
+description = "NAICS 333517: machine tools, metal forming, manufacturing."
 
-source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
-updated = "2026-11-11"
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor); the earlier record at this address came from HIFLD"
+updated = "2026-11-13"

@@ -1,27 +1,28 @@
-# Elkhart Tool & Die, Inc.
-# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+# Chase Manufacturing
+# Imported from HIFLD, then updated from OSHA's Form 300A filing at this address (public); edit freely.
 
-name = "Elkhart Tool & Die, Inc."
+name = "Chase Manufacturing"
 kind = "company"
 city = "Elkhart"
 state = "IN"
 address = "2400 South 15th Street, Elkhart, IN 46517"
 lat = 41.66299
 lon = -85.98925
-website = "https://elkharttool.com"
-osha_occupant = "Chase Manufacturing (OSHA Form 300A filer at this address, 2025)"
+osha_id = "1315387"
+status_note = "Named from OSHA's 2025 Form 300A filing at this address; the earlier record here, Elkhart Tool & Die, Inc. (HIFLD), is a predecessor or a former occupant."
+formerly = "Elkhart Tool & Die, Inc."
 
-sector = "Vehicles & RVs"
-products = ["Motor Home Manufacturing"]
-naics = "336213"
+sector = "Wood, paper & furniture"
+products = ["Parquetry, hardwood, manufacturing"]
+naics = "321918"
 
-employees = 15
+employees = 19
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
-description = "RV Trailer Steps & Aluminum & Steel Continuous Hinges, Including Metal Stampings & Fabrication. NAICS 336213: motor home manufacturing."
+description = "NAICS 321918: parquetry, hardwood, manufacturing."
 
-source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
-updated = "2026-11-11"
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor); the earlier record at this address came from HIFLD"
+updated = "2026-11-13"

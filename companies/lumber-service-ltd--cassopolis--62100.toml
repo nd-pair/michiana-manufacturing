@@ -8,6 +8,8 @@ state = "MI"
 address = "62100 M-62, Cassopolis, MI 49031"
 lat = 41.89609
 lon = -86.01055
+presumed_closed_reason = "HIFLD audit of November 2026 (audits/2026-11-hifld-audit.csv): Name and address searches (M-62 listings, BBB, sawmill directories) returned no record of this business."
+presumed_closed = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Sawmills"]

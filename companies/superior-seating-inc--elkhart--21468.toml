@@ -9,6 +9,8 @@ address = "21468 C Street, Elkhart, IN 46516"
 lat = 41.69879
 lon = -85.87510
 website = "https://superior-seats.com"
+presumed_closed_reason = "HIFLD audit of November 2026 (audits/2026-11-hifld-audit.csv): Undated BBB and contractor-directory listings show the address (incorporated 2001, seat maker); website returns 403 and no dated activity was found."
+presumed_closed = "2026-11-13"
 
 sector = "Vehicles & RVs"
 products = ["Motor Vehicle Seating and Interior Trim Manufacturing"]

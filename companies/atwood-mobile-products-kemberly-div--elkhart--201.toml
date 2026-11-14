@@ -9,6 +9,8 @@ address = "201 East Simonton Street, Elkhart, IN 46514"
 lat = 41.69760
 lon = -85.97508
 website = "https://kemberly.com"
+presumed_closed_reason = "HIFLD audit of November 2026 (audits/2026-11-hifld-audit.csv): No Kemberly business or occupant found at 201 E Simonton St; kemberly.com is a for-sale parked domain."
+presumed_closed = "2026-11-13"
 
 sector = "Vehicles & RVs"
 products = ["All Other Motor Vehicle Parts Manufacturing"]

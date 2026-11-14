@@ -23,6 +23,16 @@ reading of every rule: when in doubt, it records nothing.
 - A closure needs a dated source that says this facility, in this region, has closed, shut down,
   ceased operations or was liquidated. A dead website, a missing listing or a directory entry is
   not enough.
+- Imported records (HIFLD, OSHA, SBIR) are held to a stricter standard, because listing a plant
+  that does not exist is worse than missing one. When a verification check finds an imported record
+  closed without a dated source, or finds no current trace of it at its address (no OSHA filing, no
+  working website, no listing or news since 2023), mark it `presumed_closed` (the date of the check)
+  with `presumed_closed_reason` (one sentence: what was checked and found). The build leaves it off
+  the map. A same-name OSHA filing or a dated source that it operates brings it back: delete both
+  fields. The automated news review does not set `presumed_closed`; it is for verification checks.
+- A WARN closing notice for a plant is a dated source. `scripts/pull_warn.py` marks an imported plant
+  closed once the notice's closing date has passed, unless the plant filed with OSHA for a later year;
+  notices for hand-written files go to the closure review.
 - Layoffs, temporary shutdowns, shift cuts and announced closures with a future date are not
   closures. An announced future closure may go in `status_note`.
 - A plant that keeps running under a new owner or name is a rename, not a closure.
@@ -32,7 +42,8 @@ reading of every rule: when in doubt, it records nothing.
 - An entry that should never have been on the map (a duplicate, a site outside the region, an
   office or warehouse that makes nothing, a business that does not exist) is marked `removed` with a
   `removed_reason`, not deleted. A company that existed and shut down is marked closed instead.
-- Companies are not removed for lack of news.
+- Companies are not removed for lack of news. Imported records that a verification check cannot
+  confirm are presumed closed instead (see Closures).
 
 ## Open items
 

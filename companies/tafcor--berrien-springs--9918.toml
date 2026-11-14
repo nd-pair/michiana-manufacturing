@@ -1,27 +1,28 @@
-# Tafcor
-# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+# Northern Contours
+# Imported from HIFLD, then updated from OSHA's Form 300A filing at this address (public); edit freely.
 
-name = "Tafcor"
+name = "Northern Contours"
 kind = "company"
 city = "Berrien Springs"
 state = "MI"
 address = "9918 North Tudor Road, Berrien Springs, MI 49103"
 lat = 41.93936
 lon = -86.34497
-website = "https://tafcor.com"
-osha_occupant = "Northern Contours Michigan PLM (OSHA Form 300A filer at this address, 2025)"
+osha_id = "1417460"
+status_note = "Named from OSHA's 2025 Form 300A filing at this address; the earlier record here, Tafcor (HIFLD), is a predecessor or a former occupant."
+formerly = "Tafcor"
 
 sector = "Wood, paper & furniture"
-products = ["Other Millwork (including Flooring )"]
-naics = "321918"
+products = ["Door frames and sash, wood and covered wood, manufacturing"]
+naics = "321911"
 
-employees = 25
+employees = 21
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
-description = "Laminated Wooden Mouldings. NAICS 321918: other millwork (including flooring )."
+description = "NAICS 321911: door frames and sash, wood and covered wood, manufacturing."
 
-source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
-updated = "2026-11-11"
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor); the earlier record at this address came from HIFLD"
+updated = "2026-11-13"

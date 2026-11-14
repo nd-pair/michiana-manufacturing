@@ -1,27 +1,28 @@
-# Pinnacle Building Systems
-# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+# Great Lakes Lamination
+# Imported from HIFLD, then updated from OSHA's Form 300A filing at this address (public); edit freely.
 
-name = "Pinnacle Building Systems"
+name = "Great Lakes Lamination"
 kind = "company"
 city = "Bristol"
 state = "IN"
 address = "1103 Maple Street, Bristol, IN 46507"
 lat = 41.70993
 lon = -85.82244
-website = "https://modguys.com"
-osha_occupant = "Great Lakes Lamination (OSHA Form 300A filer at this address, 2025)"
+osha_id = "930179"
+status_note = "Named from OSHA's 2025 Form 300A filing at this address; the earlier record here, Pinnacle Building Systems (HIFLD), is a predecessor or a former occupant."
+formerly = "Pinnacle Building Systems"
 
-sector = "Wood, paper & furniture"
-products = ["Prefabricated Wood Building Manufacturing"]
-naics = "321992"
+sector = "Materials & composites"
+products = ["Laminated plastics plate, rod, and sheet, manufacturing"]
+naics = "326130"
 
-employees = 70
+employees = 205
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
-description = "Prefabricated Modular Homes. NAICS 321992: prefabricated wood building manufacturing."
+description = "NAICS 326130: laminated plastics plate, rod, and sheet, manufacturing."
 
-source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
-updated = "2026-11-11"
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor); the earlier record at this address came from HIFLD"
+updated = "2026-11-13"

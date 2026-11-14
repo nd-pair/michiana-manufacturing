@@ -1,27 +1,28 @@
-# Pace American Inc.
-# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+# Novae LLC
+# Imported from HIFLD, then updated from OSHA's Form 300A filing at this address (public); edit freely.
 
-name = "Pace American Inc."
+name = "Novae LLC"
 kind = "company"
 city = "Middlebury"
 state = "IN"
 address = "11550 Harter Drive, Middlebury, IN 46540"
 lat = 41.74383
 lon = -85.69057
-website = "https://paceamerican.com"
-osha_occupant = "Novae LLC (OSHA Form 300A filer at this address, 2025)"
+osha_id = "926304"
+status_note = "Named from OSHA's 2025 Form 300A filing at this address; the earlier record here, Pace American Inc. (HIFLD), is a predecessor or a former occupant."
+formerly = "Pace American Inc."
 
-sector = "Wood, paper & furniture"
-products = ["Manufactured Home (mobile Home) Manufacturing"]
-naics = "321991"
+sector = "Vehicles & RVs"
+products = ["Manufacturing"]
+naics = "336212"
 
-employees = 300
+employees = 118
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
-description = "Corporate Headquarters & Cargo Trailers. NAICS 321991: manufactured home (mobile home) manufacturing."
+description = "NAICS 336212: manufacturing."
 
-source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
-updated = "2026-11-11"
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor); the earlier record at this address came from HIFLD"
+updated = "2026-11-13"

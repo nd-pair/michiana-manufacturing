@@ -1,27 +1,28 @@
-# Manchester Tank, Elkhart Plt.
-# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+# Marson International LLC
+# Imported from HIFLD, then updated from OSHA's Form 300A filing at this address (public); edit freely.
 
-name = "Manchester Tank, Elkhart Plt."
+name = "Marson International LLC"
 kind = "company"
 city = "Elkhart"
 state = "IN"
 address = "3630 Manchester Drive, Elkhart, IN 46514"
 lat = 41.69109
 lon = -86.03201
-website = "https://mantank.com"
-osha_occupant = "Marson International LLC (OSHA Form 300A filer at this address, 2025)"
+osha_id = "281239"
+status_note = "Named from OSHA's 2025 Form 300A filing at this address; the earlier record here, Manchester Tank, Elkhart Plt. (HIFLD), is a predecessor or a former occupant."
+formerly = "Manchester Tank, Elkhart Plt."
 
 sector = "Metal"
-products = ["Power Boiler and Heat Exchanger Manufacturing"]
-naics = "332410"
+products = ["Pipe fabricating (i.e., bending, cutting, threading) made from purchased metal pipe"]
+naics = "332996"
 
-employees = 210
+employees = 139
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
-description = "Propane Cylinders & Pressure Vessels. NAICS 332410: power boiler and heat exchanger manufacturing."
+description = "NAICS 332996: pipe fabricating (i.e., bending, cutting, threading) made from purchased metal pipe."
 
-source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
-updated = "2026-11-11"
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor); the earlier record at this address came from HIFLD"
+updated = "2026-11-13"

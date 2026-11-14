@@ -9,6 +9,8 @@ address = "10517 East Wilson Road, New Buffalo, MI 49117"
 lat = 41.77036
 lon = -86.70765
 website = "https://artruss.com"
+presumed_closed_reason = "HIFLD audit of November 2026 (audits/2026-11-hifld-audit.csv): No truss business or occupant found at 10517 E Wilson Rd or by name; artruss.com is an unrelated art gallery."
+presumed_closed = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Truss Manufacturing"]

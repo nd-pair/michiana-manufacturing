@@ -1,27 +1,28 @@
-# Med Cast, Inc.
-# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+# Texmo Blank USA Inc
+# Imported from HIFLD, then updated from OSHA's Form 300A filing at this address (public); edit freely.
 
-name = "Med Cast, Inc."
+name = "Texmo Blank USA Inc"
 kind = "company"
 city = "Warsaw"
 state = "IN"
 address = "596 East 200 North, Warsaw, IN 46582"
 lat = 41.26358
 lon = -85.83031
-website = "https://medcast-inc.com"
-osha_occupant = "Texmo Blank USA Inc (OSHA Form 300A filer at this address, 2025)"
+osha_id = "1462220"
+status_note = "Named from OSHA's 2025 Form 300A filing at this address; the earlier record here, Med Cast, Inc. (HIFLD), is a predecessor or a former occupant."
+formerly = "Med Cast, Inc."
 
-sector = "Metal"
-products = ["Steel Investment Foundries"]
-naics = "331512"
+sector = "Mechatronics & automation"
+products = ["Castings Foundry"]
+naics = "333511"
 
-employees = 45
+employees = 65
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
-description = "Investment Castings. NAICS 331512: steel investment foundries."
+description = "NAICS 333511: castings foundry."
 
-source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
-updated = "2026-11-11"
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor); the earlier record at this address came from HIFLD"
+updated = "2026-11-13"

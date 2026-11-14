@@ -9,6 +9,9 @@ address = "505 East Main Street, Silver Lake, IN 46982"
 lat = 41.07230
 lon = -85.88688
 website = "https://wabashvalley.com"
+closed_source = "https://www.in.gov/dwd/warn-notices/current-warn-notices/"
+closed_note = "Wabash Valley gave notice on 2020-11-11 that it would close this plant on 2021-03-19, with 80 workers (Indiana WARN notice)."
+closed = "2021-03-19"
 uei = "S461LC2F9L11"
 
 sector = "Wood, paper & furniture"

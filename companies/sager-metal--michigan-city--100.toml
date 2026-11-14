@@ -1,27 +1,28 @@
-# Sager Metal
-# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+# Michigan City Paper Box Company
+# Imported from HIFLD, then updated from OSHA's Form 300A filing at this address (public); edit freely.
 
-name = "Sager Metal"
+name = "Michigan City Paper Box Company"
 kind = "company"
 city = "Michigan City"
 state = "IN"
 address = "100 Boone Drive, Michigan City, IN 46360"
 lat = 41.67296
 lon = -86.90594
-website = "https://sagermetal.com"
-osha_occupant = "Michigan City Paper Box Company (OSHA Form 300A filer at this address, 2025)"
+osha_id = "1263367"
+status_note = "Named from OSHA's 2025 Form 300A filing at this address; the earlier record here, Sager Metal (HIFLD), is a predecessor or a former occupant."
+formerly = "Sager Metal"
 
-sector = "Mechatronics & automation"
-products = ["Conveyor and Conveying Equipment Manufacturing"]
-naics = "333922"
+sector = "Wood, paper & furniture"
+products = ["Setup (i.e., not shipped flat) boxes made from purchased paperboard"]
+naics = "322219"
 
-employees = 49
+employees = 59
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
-description = "Conveyors, Metal Fabrication & Laser Cutting. NAICS 333922: conveyor and conveying equipment manufacturing."
+description = "NAICS 322219: setup (i.e., not shipped flat) boxes made from purchased paperboard."
 
-source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
-updated = "2026-11-11"
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor); the earlier record at this address came from HIFLD"
+updated = "2026-11-13"

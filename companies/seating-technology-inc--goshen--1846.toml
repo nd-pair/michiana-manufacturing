@@ -1,26 +1,28 @@
-# Seating Technology, Inc.
-# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+# Genesis Products
+# Imported from HIFLD, then updated from OSHA's Form 300A filing at this address (public); edit freely.
 
-name = "Seating Technology, Inc."
+name = "Genesis Products"
 kind = "company"
 city = "Goshen"
 state = "IN"
 address = "1846 Eisenhower Drive South, Goshen, IN 46526"
 lat = 41.55424
 lon = -85.80688
-osha_occupant = "Genesis Products (OSHA Form 300A filer at this address, 2025)"
+osha_id = "294386"
+status_note = "Named from OSHA's 2025 Form 300A filing at this address; the earlier record here, Seating Technology, Inc. (HIFLD), is a predecessor or a former occupant."
+formerly = "Seating Technology, Inc."
 
 sector = "Wood, paper & furniture"
-products = ["Nonupholstered Wood Household Furniture Manufacturing"]
-naics = "337122"
+products = ["Countertops (i.e., kitchen, bathroom), wood or plastics laminated on wood, manufacturing"]
+naics = "337110"
 
-employees = 70
+employees = 55
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
-description = "Recreational Vehicle Furniture. NAICS 337122: nonupholstered wood household furniture manufacturing."
+description = "NAICS 337110: countertops (i.e., kitchen, bathroom), wood or plastics laminated on wood, manufacturing."
 
-source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
-updated = "2026-11-11"
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor); the earlier record at this address came from HIFLD"
+updated = "2026-11-13"

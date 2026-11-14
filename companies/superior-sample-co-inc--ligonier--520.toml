@@ -9,6 +9,8 @@ address = "520 Gerber Street, Ligonier, IN 46767"
 lat = 41.46845
 lon = -85.59657
 website = "https://superiorsample.com"
+presumed_closed_reason = "HIFLD audit of November 2026 (audits/2026-11-hifld-audit.csv): Domain expired Oct 2022 and now serves a gambling site; last company blog posts are 2013 and a directory warns it may have closed or moved."
+presumed_closed = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Tradebinding and Related Work"]

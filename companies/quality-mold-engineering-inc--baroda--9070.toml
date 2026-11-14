@@ -8,6 +8,8 @@ state = "MI"
 address = "9070 1st Street, Baroda, MI 49101"
 lat = 41.95459
 lon = -86.48604
+presumed_closed_reason = "HIFLD audit of November 2026 (audits/2026-11-hifld-audit.csv): Only an undated GlobalSpec listing for QME, Inc. at 9070 First St (PO Box 285); no website or dated evidence."
+presumed_closed = "2026-11-13"
 
 sector = "Mechatronics & automation"
 products = ["Industrial Mold Manufacturing"]

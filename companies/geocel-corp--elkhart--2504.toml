@@ -1,27 +1,28 @@
-# Geocel Corp.
-# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+# Sherwin-Williams
+# Imported from HIFLD, then updated from OSHA's Form 300A filing at this address (public); edit freely.
 
-name = "Geocel Corp."
+name = "Sherwin-Williams"
 kind = "company"
 city = "Elkhart"
 state = "IN"
 address = "2504 Marina Drive, Elkhart, IN 46514"
 lat = 41.71928
 lon = -85.91669
-website = "https://geocelusa.com"
-osha_occupant = "USA IN Elkhart (OSHA Form 300A filer at this address, 2025)"
+osha_id = "209002"
+status_note = "Named from OSHA's 2025 Form 300A filing at this address; the earlier record here, Geocel Corp. (HIFLD), is a predecessor or a former occupant."
+formerly = "Geocel Corp."
 
 sector = "Materials & composites"
-products = ["Adhesive Manufacturing"]
-naics = "325520"
+products = ["Paint and Coating Manufacturing"]
+naics = "325510"
 
-employees = 65
+employees = 63
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
-description = "Interior & Exterior Construction & Bathroom Caulking Sealants. NAICS 325520: adhesive manufacturing."
+description = "NAICS 325510: paint and coating manufacturing."
 
-source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
-updated = "2026-11-11"
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor); the earlier record at this address came from HIFLD"
+updated = "2026-11-13"

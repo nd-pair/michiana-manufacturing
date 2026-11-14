@@ -1,27 +1,28 @@
-# Nu-Wood Co.
-# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+# Stair Supplies
+# Imported from HIFLD, then updated from OSHA's Form 300A filing at this address (public); edit freely.
 
-name = "Nu-Wood Co."
+name = "Stair Supplies"
 kind = "company"
 city = "Goshen"
 state = "IN"
 address = "1722 Eisenhower Drive North, Goshen, IN 46526"
 lat = 41.55714
 lon = -85.80898
-website = "https://nu-wood.com"
-osha_occupant = "Stair Supplies (OSHA Form 300A filer at this address, 2025)"
+osha_id = "801156"
+status_note = "Named from OSHA's 2025 Form 300A filing at this address; the earlier record here, Nu-Wood Co. (HIFLD), is a predecessor or a former occupant."
+formerly = "Nu-Wood Co."
 
-sector = "Materials & composites"
-products = ["All Other Plastics Product Manufacturing"]
-naics = "326199"
+sector = "Wood, paper & furniture"
+products = ["Railings, wood stair, manufacturing"]
+naics = "321918"
 
-employees = 30
+employees = 69
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
-description = "Urethane Millwork & Molded Urethane High Density Foam. NAICS 326199: all other plastics product manufacturing."
+description = "NAICS 321918: railings, wood stair, manufacturing."
 
-source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
-updated = "2026-11-11"
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor); the earlier record at this address came from HIFLD"
+updated = "2026-11-13"

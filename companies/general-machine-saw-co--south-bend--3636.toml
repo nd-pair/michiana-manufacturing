@@ -8,6 +8,8 @@ state = "IN"
 address = "3636 Gagnon Street, South Bend, IN 46628"
 lat = 41.71782
 lon = -86.29968
+presumed_closed_reason = "HIFLD audit of November 2026 (audits/2026-11-hifld-audit.csv): No General Machine & Saw found; the only record at 3636 Gagnon St is a 2006 city notice naming B & J Industry, Inc."
+presumed_closed = "2026-11-13"
 
 sector = "Metal"
 products = ["Iron and Steel Mills"]

@@ -9,6 +9,8 @@ address = "401 East Syracuse Street, Milford, IN 46542"
 lat = 41.41411
 lon = -85.84054
 website = "https://royalcrownltd.com"
+presumed_closed_reason = "HIFLD audit of November 2026 (audits/2026-11-hifld-audit.csv): royalcrownltd.com has a Dec 2025 archive capture but the page text is empty and no source ties Royal Outdoor or Royal Crown Ltd to 401 E Syracuse St."
+presumed_closed = "2026-11-13"
 
 sector = "Metal"
 products = ["Other Fabricated Wire Product Manufacturing"]

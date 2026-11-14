@@ -1,27 +1,28 @@
-# Ecp Safe-Way Door, LLC
-# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+# SafeWay Garage Doors
+# Imported from HIFLD, then updated from OSHA's Form 300A filing at this address (public); edit freely.
 
-name = "Ecp Safe-Way Door, LLC"
+name = "SafeWay Garage Doors"
 kind = "company"
 city = "Warsaw"
 state = "IN"
 address = "3814 East US Highway 30, Warsaw, IN 46580"
 lat = 41.23131
 lon = -85.80058
-website = "https://safe-waydoor.com"
-osha_occupant = "SafeWay Garage Doors LLC WA (OSHA Form 300A filer at this address, 2025)"
+osha_id = "1046427"
+status_note = "Named from OSHA's 2025 Form 300A filing at this address; the earlier record here, Ecp Safe-Way Door, LLC (HIFLD), is a predecessor or a former occupant."
+formerly = "Ecp Safe-Way Door, LLC"
 
-sector = "Wood, paper & furniture"
-products = ["Wood Window and Door Manufacturing"]
-naics = "321911"
+sector = "Metal"
+products = ["Garage doors, metal, manufacturing"]
+naics = "332321"
 
-employees = 95
+employees = 86
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
-description = "Company Headquarters & Overhead Garage Doors & Operators. NAICS 321911: wood window and door manufacturing."
+description = "NAICS 332321: garage doors, metal, manufacturing."
 
-source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
-updated = "2026-11-11"
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor); the earlier record at this address came from HIFLD"
+updated = "2026-11-13"

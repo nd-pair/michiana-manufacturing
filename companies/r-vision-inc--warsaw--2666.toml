@@ -9,6 +9,8 @@ address = "2666 South Country Club Road, Warsaw, IN 46580"
 lat = 41.19548
 lon = -85.82575
 website = "https://trail-lite.com"
+presumed_closed_reason = "HIFLD audit of November 2026 (audits/2026-11-hifld-audit.csv): trail-lite.com is a for-sale parked domain; R-Vision was Monaco-owned with a Warsaw facility of unstated address; nothing confirms an R-Vision plant at 2666 S Country Club Rd."
+presumed_closed = "2026-11-13"
 
 sector = "Vehicles & RVs"
 products = ["Truck Trailer Manufacturing"]

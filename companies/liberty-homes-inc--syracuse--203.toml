@@ -1,27 +1,28 @@
-# Liberty Homes, Inc.
-# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+# AIA Countertops
+# Imported from HIFLD, then updated from OSHA's Form 300A filing at this address (public); edit freely.
 
-name = "Liberty Homes, Inc."
+name = "AIA Countertops"
 kind = "company"
 city = "Syracuse"
 state = "IN"
 address = "203 South Huntington Street, Syracuse, IN 46567"
 lat = 41.42129
 lon = -85.74798
-website = "https://libertyhomesinc.com"
-osha_occupant = "AIA Countertops (OSHA Form 300A filer at this address, 2025)"
+osha_id = "1356961"
+status_note = "Named from OSHA's 2025 Form 300A filing at this address; the earlier record here, Liberty Homes, Inc. (HIFLD), is a predecessor or a former occupant."
+formerly = "Liberty Homes, Inc."
 
-sector = "Metal"
-products = ["Hardware Manufacturing"]
-naics = "332510"
+sector = "Wood, paper & furniture"
+products = ["Countertops (i.e., kitchen, bathroom), wood or plastics laminated on wood, manufacturing"]
+naics = "337110"
 
-employees = 80
+employees = 163
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
-description = "Prefabricated Homes. NAICS 332510: hardware manufacturing."
+description = "NAICS 337110: countertops (i.e., kitchen, bathroom), wood or plastics laminated on wood, manufacturing."
 
-source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
-updated = "2026-11-11"
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor); the earlier record at this address came from HIFLD"
+updated = "2026-11-13"

@@ -1,27 +1,28 @@
-# Harbor Metal Treating Co. of Indiana
-# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+# Bluewater Thermal Solutions
+# Imported from HIFLD, then updated from OSHA's Form 300A filing at this address (public); edit freely.
 
-name = "Harbor Metal Treating Co. of Indiana"
+name = "Bluewater Thermal Solutions"
 kind = "company"
 city = "South Bend"
 state = "IN"
 address = "802 South Fellows Street, South Bend, IN 46601"
 lat = 41.66785
 lon = -86.24415
-website = "https://bluewaterthermal.com"
-osha_occupant = "Bluewater Thermal Solutions (OSHA Form 300A filer at this address, 2025)"
+osha_id = "45304"
+status_note = "Named from OSHA's 2025 Form 300A filing at this address; the earlier record here, Harbor Metal Treating Co. of Indiana (HIFLD), is a predecessor or a former occupant."
+formerly = "Harbor Metal Treating Co. of Indiana"
 
 sector = "Metal"
-products = ["Metal Heat Treating"]
+products = ["Heat treating metals and metal products for the trade"]
 naics = "332811"
 
-employees = 35
+employees = 25
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
-description = "Metal Tool & Die Heat Treating. NAICS 332811: metal heat treating."
+description = "NAICS 332811: heat treating metals and metal products for the trade."
 
-source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
-updated = "2026-11-11"
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor); the earlier record at this address came from HIFLD"
+updated = "2026-11-13"

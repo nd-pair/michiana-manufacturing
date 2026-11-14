@@ -1,27 +1,28 @@
-# Vitamins, Inc.
-# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+# Viobin Products
+# Imported from HIFLD, then updated from OSHA's Form 300A filing at this address (public); edit freely.
 
-name = "Vitamins, Inc."
+name = "Viobin Products"
 kind = "company"
 city = "Michigan City"
 state = "IN"
 address = "1700 East US Highway 12, Michigan City, IN 46360"
 lat = 41.72532
 lon = -86.87521
-website = "https://vitamins-inc.com"
-osha_occupant = "Viobin Products (OSHA Form 300A filer at this address, 2025)"
+osha_id = "1447789"
+status_note = "Named from OSHA's 2025 Form 300A filing at this address; the earlier record here, Vitamins, Inc. (HIFLD), is a predecessor or a former occupant."
+formerly = "Vitamins, Inc."
 
-sector = "Materials & composites"
-products = ["Pharmaceutical Preparation Manufacturing"]
-naics = "325412"
+sector = "Food & consumer goods"
+products = ["Vegetable oils made in crushing mills"]
+naics = "311224"
 
-employees = 25
+employees = 1
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
-description = "Biochemicals & Food Processing. NAICS 325412: pharmaceutical preparation manufacturing."
+description = "NAICS 311224: vegetable oils made in crushing mills."
 
-source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
-updated = "2026-11-11"
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor); the earlier record at this address came from HIFLD"
+updated = "2026-11-13"

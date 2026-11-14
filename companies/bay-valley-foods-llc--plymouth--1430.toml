@@ -8,6 +8,9 @@ state = "IN"
 address = "1430 Western Avenue, Plymouth, IN 46563"
 lat = 41.34943
 lon = -86.31561
+closed_source = "https://www.in.gov/dwd/warn-notices/current-warn-notices/"
+closed_note = "Bay Valley Foods LLC, Tree House Foods Occupations Affected gave notice on 2017-08-31 that it would close this plant on 2017-10-30 (Indiana WARN notice)."
+closed = "2017-10-30"
 
 sector = "Food & consumer goods"
 products = ["Fruit and Vegetable Canning"]

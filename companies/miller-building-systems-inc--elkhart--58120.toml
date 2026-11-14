@@ -1,27 +1,28 @@
-# Miller Building Systems, Inc.
-# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+# Thermo Bond Buildings
+# Imported from HIFLD, then updated from OSHA's Form 300A filing at this address (public); edit freely.
 
-name = "Miller Building Systems, Inc."
+name = "Thermo Bond Buildings"
 kind = "company"
 city = "Elkhart"
 state = "IN"
 address = "58120 County Road 3, Elkhart, IN 46517"
 lat = 41.65036
 lon = -86.02193
-website = "https://mbsionline.com"
-osha_occupant = "Thermo Bond Buildings (OSHA Form 300A filer at this address, 2025)"
+osha_id = "1505341"
+status_note = "Named from OSHA's 2025 Form 300A filing at this address; the earlier record here, Miller Building Systems, Inc. (HIFLD), is a predecessor or a former occupant."
+formerly = "Miller Building Systems, Inc."
 
 sector = "Wood, paper & furniture"
-products = ["Prefabricated Wood Building Manufacturing"]
+products = ["Buildings, prefabricated, wood, manufacturing"]
 naics = "321992"
 
-employees = 178
+employees = 120
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
-description = "Corporate Headquarters & Modular, Mobile, Commercial & Classroom Structures & Telecommunications Shelters. NAICS 321992: prefabricated wood building manufacturing."
+description = "NAICS 321992: buildings, prefabricated, wood, manufacturing."
 
-source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
-updated = "2026-11-11"
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor); the earlier record at this address came from HIFLD"
+updated = "2026-11-13"

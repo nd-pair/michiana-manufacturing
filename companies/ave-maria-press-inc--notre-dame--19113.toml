@@ -9,6 +9,8 @@ address = "19113 Douglas Road, Notre Dame, IN 46556"
 lat = 41.70896
 lon = -86.23705
 website = "https://avemariapress.com"
+removed_reason = "a publisher whose own printing reportedly ended; no production found at this address; found in the HIFLD audit of November 2026 (audits/2026-11-hifld-audit.csv)"
+removed = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Book Printing"]

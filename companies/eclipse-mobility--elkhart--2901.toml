@@ -9,6 +9,8 @@ address = "2901 Dexter Drive, Elkhart, IN 46514"
 lat = 41.72671
 lon = -86.00004
 website = "https://eclipsemobility.com"
+presumed_closed_reason = "HIFLD audit of November 2026 (audits/2026-11-hifld-audit.csv): No occupant or listing found for 2901 Dexter Dr and no Eclipse Mobility trace; eclipsemobility.com is a domain for sale."
+presumed_closed = "2026-11-13"
 
 sector = "Vehicles & RVs"
 products = ["Motor Home Manufacturing"]

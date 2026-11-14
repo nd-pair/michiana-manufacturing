@@ -1,26 +1,28 @@
-# Flair Interiors, Inc.
-# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+# Stair Supplies
+# Imported from HIFLD, then updated from OSHA's Form 300A filing at this address (public); edit freely.
 
-name = "Flair Interiors, Inc."
+name = "Stair Supplies"
 kind = "company"
 city = "Goshen"
 state = "IN"
 address = "1010 Eisenhower Drive South, Goshen, IN 46526"
 lat = 41.55424
 lon = -85.82165
-osha_occupant = "StairSupplies (OSHA Form 300A filer at this address, 2025)"
+osha_id = "801147"
+status_note = "Named from OSHA's 2025 Form 300A filing at this address; the earlier record here, Flair Interiors, Inc. (HIFLD), is a predecessor or a former occupant."
+formerly = "Flair Interiors, Inc."
 
-sector = "Vehicles & RVs"
-products = ["Motor Home Manufacturing"]
-naics = "336213"
+sector = "Metal"
+products = ["Precision turned product manufacturing"]
+naics = "332721"
 
-employees = 250
+employees = 36
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
-description = "Recreational Vehicle & Motorized Furniture. NAICS 336213: motor home manufacturing."
+description = "NAICS 332721: precision turned product manufacturing."
 
-source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
-updated = "2026-11-11"
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor); the earlier record at this address came from HIFLD"
+updated = "2026-11-13"

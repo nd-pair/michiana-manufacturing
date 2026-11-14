@@ -8,6 +8,8 @@ state = "IN"
 address = "921 Summa Drive, Elkhart, IN 46516"
 lat = 41.68058
 lon = -85.90450
+presumed_closed_reason = "HIFLD audit of November 2026 (audits/2026-11-hifld-audit.csv): No record of the company or any listing for 921 Summa Dr in name, address or awning-industry searches."
+presumed_closed = "2026-11-13"
 
 sector = "Food & consumer goods"
 products = ["Canvas and Related Product Mills"]

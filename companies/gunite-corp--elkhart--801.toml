@@ -9,6 +9,9 @@ address = "801 County Road 15, Elkhart, IN 46516"
 lat = 41.68125
 lon = -85.90774
 website = "https://gunite.com"
+closed_source = "https://www.tirereview.com/gunite-consolidation-will-close-ind-plant/"
+closed_note = "Accuride closed Gunite's Elkhart plant in early 2013."
+closed = "2013"
 
 sector = "Vehicles & RVs"
 products = ["All Other Motor Vehicle Parts Manufacturing"]

@@ -8,6 +8,7 @@ state = "IN"
 address = "1955 North Oak Drive, Plymouth, IN 46563"
 lat = 41.35837
 lon = -86.32894
+osha_occupant = "Patty Processing, Inc. (OSHA Form 300A filer at this address, 2025)"
 osha_id = "575824"
 
 sector = "Wood, paper & furniture"

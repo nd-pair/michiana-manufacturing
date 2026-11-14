@@ -1,27 +1,28 @@
-# Precision Piece Parts, Inc.
-# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+# Husky Trails, LLC
+# Imported from HIFLD, then updated from OSHA's Form 300A filing at this address (public); edit freely.
 
-name = "Precision Piece Parts, Inc."
+name = "Husky Trails, LLC"
 kind = "company"
 city = "Mishawaka"
 state = "IN"
 address = "712 South Logan Street, Mishawaka, IN 46544"
 lat = 41.65501
 lon = -86.19604
-website = "https://ppp-inc.com"
-osha_occupant = "Husky Trails, LLC (OSHA Form 300A filer at this address, 2025)"
+osha_id = "1472572"
+status_note = "Named from OSHA's 2025 Form 300A filing at this address; the earlier record here, Precision Piece Parts, Inc. (HIFLD), is a predecessor or a former occupant."
+formerly = "Precision Piece Parts, Inc."
 
-sector = "Metal"
-products = ["Machine Shops"]
-naics = "332710"
+sector = "Materials & composites"
+products = ["Laminated plastics plate, rod, and sheet, manufacturing"]
+naics = "326130"
 
-employees = 41
+employees = 22
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
-description = "Precision Machine Parts. NAICS 332710: machine shops."
+description = "NAICS 326130: laminated plastics plate, rod, and sheet, manufacturing."
 
-source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
-updated = "2026-11-11"
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor); the earlier record at this address came from HIFLD"
+updated = "2026-11-13"

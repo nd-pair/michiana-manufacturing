@@ -1,29 +1,28 @@
-# Crane Composites, Goshen plant
-# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+# Valto Engineered Materials
+# Imported from HIFLD, then updated from OSHA's Form 300A filing at this address (public); edit freely.
 
-name = "Crane Composites, Goshen plant"
-formerly = "Noble Composites, Inc."
+name = "Valto Engineered Materials"
+formerly = "Noble Composites, Inc.; Crane Composites, Goshen plant"
 kind = "company"
 city = "Goshen"
 state = "IN"
 address = "2424 East Kercher Road, Goshen, IN 46526"
 lat = 41.55150
 lon = -85.79345
-website = "https://www.cranecomposites.com"
-osha_occupant = "Valto Engineered Materials (OSHA Form 300A filer at this address, 2025)"
-status_note = "The former Noble Composites plant is Crane Composites' Goshen plant; Crane agreed to sell the business to KPS Capital Partners in December 2024."
+osha_id = "1441867"
+status_note = "Named from OSHA's 2025 Form 300A filing at this address; the earlier record here, Crane Composites, Goshen plant (HIFLD), is a predecessor or a former occupant."
 
 sector = "Materials & composites"
-products = ["Mineral Wool Manufacturing"]
-naics = "327993"
+products = ["Septic tanks, plastics or fiberglass, manufacturing"]
+naics = "326199"
 
-employees = 110
+employees = 99
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
-description = "Fiberglass Sidewalls. NAICS 327993: mineral wool manufacturing."
+description = "NAICS 326199: septic tanks, plastics or fiberglass, manufacturing."
 
-source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
-updated = "2026-11-12"
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor); the earlier record at this address came from HIFLD"
+updated = "2026-11-13"

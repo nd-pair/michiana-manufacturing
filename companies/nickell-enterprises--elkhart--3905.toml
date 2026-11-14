@@ -1,27 +1,28 @@
-# Nickell Enterprises
-# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+# Revel Products
+# Imported from HIFLD, then updated from OSHA's Form 300A filing at this address (public); edit freely.
 
-name = "Nickell Enterprises"
+name = "Revel Products"
 kind = "company"
 city = "Elkhart"
 state = "IN"
 address = "3905 Lexington Park Drive, Elkhart, IN 46514"
 lat = 41.69138
 lon = -86.02579
-website = "https://patrickindustries.com"
-osha_occupant = "Revel Products (OSHA Form 300A filer at this address, 2025)"
+osha_id = "1082124"
+status_note = "Named from OSHA's 2025 Form 300A filing at this address; the earlier record here, Nickell Enterprises (HIFLD), is a predecessor or a former occupant."
+formerly = "Nickell Enterprises"
 
 sector = "Wood, paper & furniture"
-products = ["Nonupholstered Wood Household Furniture Manufacturing"]
-naics = "337122"
+products = ["Countertops, wood, manufacturing"]
+naics = "337110"
 
-employees = 25
+employees = 23
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
-description = "Wooden Drawer Sides. NAICS 337122: nonupholstered wood household furniture manufacturing."
+description = "NAICS 337110: countertops, wood, manufacturing."
 
-source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
-updated = "2026-11-11"
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor); the earlier record at this address came from HIFLD"
+updated = "2026-11-13"

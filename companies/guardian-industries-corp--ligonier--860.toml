@@ -1,27 +1,28 @@
-# Guardian Industries Corp.
-# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+# Carlex Glass
+# Imported from HIFLD, then updated from OSHA's Form 300A filing at this address (public); edit freely.
 
-name = "Guardian Industries Corp."
+name = "Carlex Glass"
 kind = "company"
 city = "Ligonier"
 state = "IN"
 address = "860 West US Highway 6, Ligonier, IN 46767"
 lat = 41.45228
 lon = -85.60274
-website = "https://guardian.com"
-osha_occupant = "Carlex Glass (OSHA Form 300A filer at this address, 2025)"
+osha_id = "1426398"
+status_note = "Named from OSHA's 2025 Form 300A filing at this address; the earlier record here, Guardian Industries Corp. (HIFLD), is a predecessor or a former occupant."
+formerly = "Guardian Industries Corp."
 
 sector = "Materials & composites"
-products = ["Glass Product Manufacturing Made of Purchased Glass"]
+products = ["Safety glass (including motor vehicle) made from purchased glass"]
 naics = "327215"
 
-employees = 300
+employees = 288
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
-description = "Automotive Glass. NAICS 327215: glass product manufacturing made of purchased glass."
+description = "NAICS 327215: safety glass (including motor vehicle) made from purchased glass."
 
-source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
-updated = "2026-11-11"
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor); the earlier record at this address came from HIFLD"
+updated = "2026-11-13"

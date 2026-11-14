@@ -1,26 +1,28 @@
-# Lci Continental Stamping
-# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+# Lippert Components
+# Imported from HIFLD, then updated from OSHA's Form 300A filing at this address (public); edit freely.
 
-name = "Lci Continental Stamping"
+name = "Lippert Components"
 kind = "company"
 city = "Goshen"
 state = "IN"
 address = "2475 East Kercher Road, Goshen, IN 46526"
 lat = 41.55209
 lon = -85.79181
-osha_occupant = "Lippert Components (OSHA Form 300A filer at this address, 2025)"
+osha_id = "1512482"
+status_note = "Named from OSHA's 2025 Form 300A filing at this address; the earlier record here, Lci Continental Stamping (HIFLD), is a predecessor or a former occupant."
+formerly = "Lci Continental Stamping"
 
 sector = "Metal"
-products = ["Metal Stamping"]
-naics = "332116"
+products = ["Stampings (except automotive, cans, coins), metal, unfinished, manufacturing"]
+naics = "332119"
 
-employees = 130
+employees = 206
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
-description = "Metal Stampings & Fabricated Parts. NAICS 332116: metal stamping."
+description = "NAICS 332119: stampings (except automotive, cans, coins), metal, unfinished, manufacturing."
 
-source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
-updated = "2026-11-11"
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor); the earlier record at this address came from HIFLD"
+updated = "2026-11-13"

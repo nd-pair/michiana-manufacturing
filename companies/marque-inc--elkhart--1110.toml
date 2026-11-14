@@ -9,6 +9,8 @@ address = "1110 D I Drive, Elkhart, IN 46514"
 lat = 41.72701
 lon = -85.99288
 website = "https://marqueinc.com"
+presumed_closed_reason = "HIFLD audit of November 2026 (audits/2026-11-hifld-audit.csv): Marque Ambulance was sold to Allied Specialty Vehicles in 2013 and Elkhart ambulance production was reported shifted to Florida (source is ambiguous between Marque and McCoy-Miller lines); marqueinc.com is now a MarkMonitor parked domain; no D I Drive 1110 listing found."
+presumed_closed = "2026-11-13"
 
 sector = "Vehicles & RVs"
 products = ["Motor Vehicle Body Manufacturing"]

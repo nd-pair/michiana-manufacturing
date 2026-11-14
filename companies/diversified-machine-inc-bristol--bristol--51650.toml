@@ -9,6 +9,9 @@ address = "51650 County Road 133, Bristol, IN 46507"
 lat = 41.74519
 lon = -85.73718
 website = "https://divmi.com"
+closed_source = "https://www.ibj.com/articles/69485-closures-of-auto-parts-factory-bus-plant-to-eliminate-170-jobs"
+closed_note = "Chassix closed the Diversified Machine plant in Bristol in August 2018 (Indiana WARN notice, 95 workers)."
+closed = "2018-08"
 
 sector = "Metal"
 products = ["Aluminum Foundries (except Die-Casting)"]

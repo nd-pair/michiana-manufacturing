@@ -9,6 +9,8 @@ address = "5201 Lincolnway East, Mishawaka, IN 46544"
 lat = 41.66310
 lon = -86.10210
 website = "https://elixirdiv28.com"
+presumed_closed_reason = "HIFLD audit of November 2026 (audits/2026-11-hifld-audit.csv): Only old undated OSHA records tie an Elixir aluminum extrusion division to 5201 Lincolnway E (a 146,449 sq ft light-industrial parcel); no current occupant or closure news found."
+presumed_closed = "2026-11-13"
 
 sector = "Metal"
 products = ["Other Aluminum Rolling and Drawing"]

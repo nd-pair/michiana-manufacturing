@@ -1,27 +1,23 @@
-# Pleasant Street Homes, LLC
-# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+# Keystone RV Dutchmen
+# Imported from HIFLD, then updated from OSHA's Form 300A filing at this address (public); edit freely.
 
-name = "Pleasant Street Homes, LLC"
+name = "Keystone RV Dutchmen"
 kind = "company"
 city = "Middlebury"
 state = "IN"
 address = "51700 Lovejoy Drive, Middlebury, IN 46540"
 lat = 41.74246
 lon = -85.68667
-website = "https://holly-park.com"
-osha_occupant = "Keystone RV Dutchmen (OSHA Form 300A filer at this address, 2025)"
+osha_id = "945745"
+status_note = "Named from OSHA's 2025 Form 300A filing at this address; the earlier record here, Pleasant Street Homes, LLC (HIFLD), is a predecessor or a former occupant."
+formerly = "Pleasant Street Homes, LLC"
 
-sector = "Wood, paper & furniture"
-products = ["Manufactured Home (mobile Home) Manufacturing"]
-naics = "321991"
+sector = "Vehicles & RVs"
+products = ["RV Manufacturing"]
+naics = "336214"
 
-employees = 125
-employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
-description = "Company Headquarters & Prefabricated Homes. NAICS 321991: manufactured home (mobile home) manufacturing."
+description = "NAICS 336214: rv manufacturing."
 
-source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
-updated = "2026-11-11"
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor); the earlier record at this address came from HIFLD"
+updated = "2026-11-13"

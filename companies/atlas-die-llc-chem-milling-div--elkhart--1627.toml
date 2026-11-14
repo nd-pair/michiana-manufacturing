@@ -9,6 +9,8 @@ address = "1627 West Lusher Avenue, Elkhart, IN 46517"
 lat = 41.66668
 lon = -85.99288
 website = "https://atlaschemmilling.com"
+presumed_closed_reason = "HIFLD audit of November 2026 (audits/2026-11-hifld-audit.csv): Probably vacated: the 30,000 sq ft building at 1627 W Lusher was listed for sale as-is in 2025 (MLS 202517366), though atlaschemmilling.com (undated, captured 2025) still shows this address, so status is unconfirmed."
+presumed_closed = "2026-11-13"
 
 sector = "Mechatronics & automation"
 products = ["Special Die and Tool, Die Set, Jig, and Fixture Manufacturing"]

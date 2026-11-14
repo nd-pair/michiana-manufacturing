@@ -8,6 +8,8 @@ state = "IN"
 address = "30755 Edison Road, New Carlisle, IN 46552"
 lat = 41.69411
 lon = -86.46312
+removed_reason = "duplicate: the same Cleveland-Cliffs New Carlisle works as companies/i-n-kote--new-carlisle--30755.toml; found in the HIFLD audit of November 2026 (audits/2026-11-hifld-audit.csv)"
+removed = "2026-11-13"
 
 sector = "Metal"
 products = ["Rolled Steel Shape Manufacturing"]

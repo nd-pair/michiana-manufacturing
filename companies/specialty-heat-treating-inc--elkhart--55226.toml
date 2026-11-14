@@ -1,14 +1,15 @@
 # Specialty Heat Treating, Inc.
 # Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
 
-name = "Specialty Heat Treating, Inc."
+name = "Bodycote"
 kind = "company"
 city = "Elkhart"
 state = "IN"
 address = "55226 County Road 1, Elkhart, IN 46514"
 lat = 41.69369
 lon = -86.04193
-website = "https://specialtyheat.com"
+status_note = "The heat treater at this address appears to be Bodycote (2026 listing; not confirmed by a dated source). Source: https://thermalprocessing.com/storefront/bodycote-elkhart/"
+formerly = "Specialty Heat Treating, Inc."
 
 sector = "Metal"
 products = ["Metal Heat Treating"]

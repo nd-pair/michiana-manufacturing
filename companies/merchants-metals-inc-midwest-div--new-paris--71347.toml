@@ -9,6 +9,9 @@ address = "71347 County Road 23, New Paris, IN 46553"
 lat = 41.45900
 lon = -85.84005
 website = "https://merchantsmetals.com"
+closed_source = "https://www.in.gov/dwd/warn-notices/current-warn-notices/"
+closed_note = "Merchants Metals, LLC gave notice on 2020-01-20 that it would close this plant on 2020-03-20, with 68 workers (Indiana WARN notice)."
+closed = "2020-03-20"
 
 sector = "Metal"
 products = ["Other Fabricated Wire Product Manufacturing"]

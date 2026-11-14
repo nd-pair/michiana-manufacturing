@@ -1,27 +1,28 @@
-# Rollpak Corp.
-# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+# Rollpack
+# Imported from HIFLD, then updated from OSHA's Form 300A filing at this address (public); edit freely.
 
-name = "Rollpak Corp."
+name = "Rollpack"
 kind = "company"
 city = "Goshen"
 state = "IN"
 address = "1413 Eisenhower Drive South, Goshen, IN 46526"
 lat = 41.55483
 lon = -85.81437
-website = "https://berryplastics.com"
-osha_occupant = "Rollpack (OSHA Form 300A filer at this address, 2025)"
+osha_id = "1108091"
+status_note = "Named from OSHA's 2025 Form 300A filing at this address; the earlier record here, Rollpak Corp. (HIFLD), is a predecessor or a former occupant."
+formerly = "Rollpak Corp."
 
 sector = "Materials & composites"
-products = ["Plastics Bag Manufacturing"]
+products = ["Bags, plastics film, single wall or multiwall, manufacturing"]
 naics = "326111"
 
-employees = 40
+employees = 106
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
-description = "Plastic Bags. NAICS 326111: plastics bag manufacturing."
+description = "NAICS 326111: bags, plastics film, single wall or multiwall, manufacturing."
 
-source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
-updated = "2026-11-11"
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor); the earlier record at this address came from HIFLD"
+updated = "2026-11-13"

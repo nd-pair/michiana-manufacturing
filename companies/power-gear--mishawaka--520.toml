@@ -1,31 +1,30 @@
-# Power Gear
-# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+# ABI Attachments
+# Imported from HIFLD, then updated from OSHA's Form 300A filing at this address (public); edit freely.
 
-name = "Power Gear"
+name = "ABI Attachments"
 kind = "company"
 city = "Mishawaka"
 state = "IN"
 address = "520 South Byrkit Street, Mishawaka, IN 46544"
 lat = 41.65774
 lon = -86.15728
-website = "https://powergearus.com"
-osha_occupant = "ABI Attachments (OSHA Form 300A filer at this address, 2025)"
+osha_id = "1371035"
+status_note = "Named from OSHA's 2025 Form 300A filing at this address; the earlier record here, Power Gear (HIFLD), is a predecessor or a former occupant."
+formerly = "Power Gear"
 
-humanoid = ["screws"]
 humanoid_not = ["reducers"]
-humanoid_note = "Lippert's Power Gear designs RV leveling and slide-out linear actuators; at least one Power Gear actuator motor is made in China (lippert.com listing, November 2026)."
 
 sector = "Mechatronics & automation"
-products = ["Pump and Pumping Equipment Manufacturing"]
-naics = "333911"
+products = ["Sod harvesting machines manufacturing"]
+naics = "333111"
 
-employees = 130
+employees = 68
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
-description = "Hydraulic Pumps. NAICS 333911: pump and pumping equipment manufacturing."
+description = "NAICS 333111: sod harvesting machines manufacturing."
 
-source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
-updated = "2026-11-11"
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor); the earlier record at this address came from HIFLD"
+updated = "2026-11-13"

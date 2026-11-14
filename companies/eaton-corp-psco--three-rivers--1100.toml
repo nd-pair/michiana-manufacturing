@@ -9,6 +9,8 @@ address = "1100 West Broadway Street, Three Rivers, MI 49093"
 lat = 41.93233
 lon = -85.64686
 website = "https://eaton.com"
+presumed_closed_reason = "HIFLD audit of November 2026 (audits/2026-11-hifld-audit.csv): Eaton Three Rivers worker group got trade certification (2010-11) and a 2024 state report lists a different occupant; Eaton evidence is old."
+presumed_closed = "2026-11-13"
 
 sector = "Vehicles & RVs"
 products = ["All Other Motor Vehicle Parts Manufacturing"]

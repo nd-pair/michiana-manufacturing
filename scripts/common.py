@@ -67,6 +67,27 @@ def set_field(path, key, value):
     with open(path, "w", encoding="utf-8") as fh:
         fh.write(text)
 
+def del_field(path, key):
+    """Remove `key = ...` (a one-line value) from a company file, if present."""
+    with open(path, encoding="utf-8") as fh:
+        text = fh.read()
+    new = re.sub(r"^%s\s*=.*\n?" % re.escape(key), "", text, flags=re.M)
+    if new != text:
+        with open(path, "w", encoding="utf-8") as fh:
+            fh.write(new)
+
+def set_list(path, key, values):
+    """Set a one-line TOML list of strings, e.g. products = ["a", "b"]."""
+    raw = "%s = [%s]" % (key, ", ".join('"%s"' % v.replace("\\", "\\\\").replace('"', '\\"') for v in values))
+    with open(path, encoding="utf-8") as fh:
+        text = fh.read()
+    if re.search(r"^%s\s*=.*$" % re.escape(key), text, re.M):
+        text = re.sub(r"^%s\s*=.*$" % re.escape(key), lambda m: raw, text, count=1, flags=re.M)
+    else:
+        text = text.rstrip() + "\n" + raw + "\n"
+    with open(path, "w", encoding="utf-8") as fh:
+        fh.write(text)
+
 def uei_index(cs):
     return {c["uei"]: c["_id"] for c in cs if c.get("uei")}
 

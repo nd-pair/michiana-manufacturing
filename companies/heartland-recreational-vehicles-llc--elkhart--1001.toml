@@ -9,6 +9,9 @@ address = "1001 All Pro Drive, Elkhart, IN 46514"
 lat = 41.72991
 lon = -85.98967
 website = "https://heartlandrvs.com"
+closed_source = "https://www.in.gov/dwd/warn-notices/current-warn-notices/"
+closed_note = "Heartland Recreational Vehicles, LLC gave notice on 2025-04-21 that it would close this plant on 2025-06-20, with 147 workers (Indiana WARN notice)."
+closed = "2025-06-20"
 
 sector = "Vehicles & RVs"
 products = ["Motor Home Manufacturing"]

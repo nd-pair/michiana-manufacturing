@@ -9,6 +9,9 @@ address = "In 15 South, Bristol, IN 46507"
 lat = 41.70930
 lon = -85.81760
 website = "https://skylinecorp.com"
+closed_source = "https://www.insideindianabusiness.com/articles/evergreen-rv-officially-closing-middlebury-plants"
+closed_note = "Skyline sold its Bristol RV business to EverGreen in 2014, which moved it out of Bristol."
+closed = "2014"
 
 sector = "Wood, paper & furniture"
 products = ["Manufactured Home (mobile Home) Manufacturing"]

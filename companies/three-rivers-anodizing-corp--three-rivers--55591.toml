@@ -8,6 +8,8 @@ state = "MI"
 address = "55591 Franklin Drive, Three Rivers, MI 49093"
 lat = 41.98992
 lon = -85.62767
+presumed_closed_reason = "HIFLD audit of November 2026 (audits/2026-11-hifld-audit.csv): Only undated directory listings (as Three Rivers Anodizing Inc, 269-279-7426); GlobalSpec also lists Alliance Injection Molding at the same address, undated, so occupancy is unresolved."
+presumed_closed = "2026-11-13"
 
 sector = "Metal"
 products = ["Electroplating, Plating, Polishing, Anodizing and Coloring"]

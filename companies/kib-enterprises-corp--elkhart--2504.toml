@@ -1,27 +1,28 @@
-# Kib Enterprises Corp.
-# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+# Clean Energy Systems e-Power
+# Imported from HIFLD, then updated from OSHA's Form 300A filing at this address (public); edit freely.
 
-name = "Kib Enterprises Corp."
+name = "Clean Energy Systems e-Power"
 kind = "company"
 city = "Elkhart"
 state = "IN"
 address = "2504 Jeanwood Drive, Elkhart, IN 46514"
 lat = 41.71836
 lon = -85.92705
-website = "https://kibinterprises.com"
-osha_occupant = "Clean Energy Systems e-Power (OSHA Form 300A filer at this address, 2025)"
+osha_id = "959612"
+status_note = "Named from OSHA's 2025 Form 300A filing at this address; the earlier record here, Kib Enterprises Corp. (HIFLD), is a predecessor or a former occupant."
+formerly = "Kib Enterprises Corp."
 
 sector = "Electronics"
-products = ["Other Electronic Component Manufacturing"]
-naics = "334419"
+products = ["Batteries, rechargeable, manufacturing"]
+naics = "335911"
 
-employees = 35
+employees = 45
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
-description = "Electronic Monitor Panels, Wire Harnesses & Assembly. NAICS 334419: other electronic component manufacturing."
+description = "NAICS 335911: batteries, rechargeable, manufacturing."
 
-source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
-updated = "2026-11-11"
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor); the earlier record at this address came from HIFLD"
+updated = "2026-11-13"

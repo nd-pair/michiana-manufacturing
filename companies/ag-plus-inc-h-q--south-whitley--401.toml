@@ -9,6 +9,8 @@ address = "401 North Main Street, South Whitley, IN 46787"
 lat = 41.08763
 lon = -85.62972
 website = "https://agplusinc.com"
+removed_reason = "an office: the cooperative's headquarters, with no production found at this address; found in the HIFLD audit of November 2026 (audits/2026-11-hifld-audit.csv)"
+removed = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["Fertilizer (mixing Only) Manufacturing"]

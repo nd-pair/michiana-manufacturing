@@ -1,27 +1,28 @@
-# R.r. Donnelley & Sons Co.
-# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+# Slate Auto
+# Imported from HIFLD, then updated from OSHA's Form 300A filing at this address (public); edit freely.
 
-name = "R.r. Donnelley & Sons Co."
+name = "Slate Auto"
 kind = "company"
 city = "Warsaw"
 state = "IN"
 address = "2801 West Old Road 30, Warsaw, IN 46580"
 lat = 41.24739
 lon = -85.89827
-website = "https://rrd.com"
-osha_occupant = "Slate (OSHA Form 300A filer at this address, 2025)"
+osha_id = "1441941"
+status_note = "Named from OSHA's 2025 Form 300A filing at this address; the earlier record here, R.r. Donnelley & Sons Co. (HIFLD), is a predecessor or a former occupant."
+formerly = "R.r. Donnelley & Sons Co."
 
-sector = "Wood, paper & furniture"
-products = ["Other Commercial Printing"]
-naics = "323119"
+sector = "Vehicles & RVs"
+products = ["Electric automobiles for highway use manufacturing"]
+naics = "336110"
 
-employees = 1200
+employees = 25
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
-description = "Commercial Printing. NAICS 323119: other commercial printing."
+description = "NAICS 336110: electric automobiles for highway use manufacturing."
 
-source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
-updated = "2026-11-11"
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor); the earlier record at this address came from HIFLD"
+updated = "2026-11-13"

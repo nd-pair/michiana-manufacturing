@@ -1,26 +1,28 @@
-# Icm Products
-# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+# CHT USA Inc.
+# Imported from HIFLD, then updated from OSHA's Form 300A filing at this address (public); edit freely.
 
-name = "Icm Products"
+name = "CHT USA Inc."
 kind = "company"
 city = "Cassopolis"
 state = "MI"
 address = "805 Wolfe Avenue, Cassopolis, MI 49031"
 lat = 41.91316
 lon = -86.00080
-osha_occupant = "CHT USA Inc. - Michigan (OSHA Form 300A filer at this address, 2025)"
+osha_id = "1372532"
+status_note = "Named from OSHA's 2025 Form 300A filing at this address; the earlier record here, Icm Products (HIFLD), is a predecessor or a former occupant."
+formerly = "Icm Products"
 
 sector = "Materials & composites"
-products = ["All Other Miscellaneous Chemical Product and Preparation Manufacturing"]
-naics = "325998"
+products = ["Custom compounding (i.e., blending and mixing) of purchased plastics resins"]
+naics = "325991"
 
-employees = 15
+employees = 90
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
-description = "Chemicals, Including Silicones, Release Agents, Uniformers, Polyers & Rust Inhibitors. NAICS 325998: all other miscellaneous chemical product and preparation manufacturing."
+description = "NAICS 325991: custom compounding (i.e., blending and mixing) of purchased plastics resins."
 
-source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
-updated = "2026-11-11"
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor); the earlier record at this address came from HIFLD"
+updated = "2026-11-13"

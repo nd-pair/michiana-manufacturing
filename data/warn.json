@@ -38,7 +38,7 @@
 "industry": "Motor Vehicle Metal Stamping",
 "type": "CL",
 "type_name": "closing",
-"match": ""
+"match": "benteler-automotive-corp-goshen-910"
 },
 {
 "company": "Dalton Corporation",
@@ -290,7 +290,7 @@
 "industry": "Metal Tank (Heavy Gauge) Manufacturing",
 "type": "CL",
 "type_name": "closing",
-"match": "manchester-tank-elkhart-plt-elkhart-3630"
+"match": ""
 },
 {
 "company": "Tenneco (formerly Federal Mogul)",
@@ -350,7 +350,7 @@
 "industry": "Electroplating, Plating, Polishing, Anodizing, and Coloring",
 "type": "LO",
 "type_name": "layoff",
-"match": "i-n-tek-new-carlisle-30755"
+"match": ""
 },
 {
 "company": "SMC Acquisition Corp",
@@ -494,7 +494,7 @@
 "industry": "Prefabricated Metal Building and Component Manufacturing",
 "type": "CL",
 "type_name": "closing",
-"match": "koontz-wagner-electric-co-inc-south-bend-3801"
+"match": ""
 },
 {
 "company": "Diversified Machine Bristol LLC",

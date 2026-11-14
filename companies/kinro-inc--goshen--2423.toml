@@ -1,27 +1,28 @@
-# Kinro, Inc.
-# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+# Lippert Components (LCI)
+# Imported from HIFLD, then updated from OSHA's Form 300A filing at this address (public); edit freely.
 
-name = "Kinro, Inc."
+name = "Lippert Components (LCI)"
 kind = "company"
 city = "Goshen"
 state = "IN"
 address = "2423 Messick Drive South, Goshen, IN 46526"
 lat = 41.55330
 lon = -85.81281
-website = "https://kimro.com"
-osha_occupant = "LCI (OSHA Form 300A filer at this address, 2025)"
+osha_id = "357778"
+status_note = "Named from OSHA's 2025 Form 300A filing at this address; the earlier record here, Kinro, Inc. (HIFLD), is a predecessor or a former occupant."
+formerly = "Kinro, Inc."
 
-sector = "Metal"
-products = ["Metal Window and Door Manufacturing"]
-naics = "332321"
+sector = "Materials & composites"
+products = ["Vinyl Window Manufacturing"]
+naics = "326199"
 
-employees = 170
+employees = 135
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
-description = "Aluminum & Vinyl Windows. NAICS 332321: metal window and door manufacturing."
+description = "NAICS 326199: vinyl window manufacturing."
 
-source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
-updated = "2026-11-11"
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor); the earlier record at this address came from HIFLD"
+updated = "2026-11-13"

@@ -1,27 +1,28 @@
-# Atwood Mobile Products
-# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+# Dynamic Metals, LLC
+# Imported from HIFLD, then updated from OSHA's Form 300A filing at this address (public); edit freely.
 
-name = "Atwood Mobile Products"
+name = "Dynamic Metals, LLC"
 kind = "company"
 city = "Elkhart"
 state = "IN"
 address = "54347 Highland Boulevard, Elkhart, IN 46514"
 lat = 41.70441
 lon = -85.99568
-website = "https://atwoodmobile.com"
-osha_occupant = "Dynamic Metals Goup (OSHA Form 300A filer at this address, 2025)"
+osha_id = "934024"
+status_note = "Named from OSHA's 2025 Form 300A filing at this address; the earlier record here, Atwood Mobile Products (HIFLD), is a predecessor or a former occupant."
+formerly = "Atwood Mobile Products"
 
-sector = "Vehicles & RVs"
-products = ["Motor Home Manufacturing"]
-naics = "336213"
+sector = "Metal"
+products = ["Cores, sand foundry, manufacturing"]
+naics = "332999"
 
-employees = 140
+employees = 156
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
-description = "Mobile Home Doors & Components. NAICS 336213: motor home manufacturing."
+description = "NAICS 332999: cores, sand foundry, manufacturing."
 
-source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
-updated = "2026-11-11"
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor); the earlier record at this address came from HIFLD"
+updated = "2026-11-13"

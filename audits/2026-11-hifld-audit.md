@@ -141,3 +141,37 @@ other name, and the closure review lists it. This was fixed and redeployed on No
 5. **Repeat the audit after the next OSHA import (spring 2027).** A plant that stops filing becomes
    a closure signal then. Re-sampling 100 records will show whether the corrections moved the
    numbers.
+
+## Actions taken (November 13, 2026)
+
+The policy changed after this audit: listing a plant that does not exist is worse than missing one,
+so imported records that a check finds closed, or cannot find at all, come off the map. Files are
+never deleted, so the importers do not add them back, and every change cites its source.
+
+- **Closed, with a dated source (7 from this sample):** Acument, Diversified Machine, Gunite, Hermel
+  Die Casting, Trelleborg, Sundowner and Skyline's Bristol division. Liberty Homes' Syracuse plant is
+  now AIA Countertops (below).
+- **Presumed closed (32):** the 26 records with no current trace, except Sports Image Apparel, whose
+  website is live, plus Eaton PSCO, Atlas Chem-Milling, Marque, Lebermuth's Bremen site, Magnetech's
+  Sample Street site and Vanair's New Buffalo site. They are marked `presumed_closed` (see
+  CURATION.md): left off the map until a same-name OSHA filing or a dated source shows them
+  operating. Sports Image Apparel stays on the map.
+- **Removed (4):** Ag Plus's headquarters office, Ave Maria Press (no printing found), A Homestead
+  Shoppe (now a lamp wholesaler), and I/N Tek (the same Cleveland-Cliffs works as I/N Kote).
+- **Renamed (3):** Millennium Industries → TI Fluid Systems, Specialty Heat Treating → Bodycote,
+  Liberty Steel → Liberty 3D Technologies.
+- **Addresses corrected (2):** Griffin Tool (2951 Johnson Rd) and OrthoPediatrics (2850 Frontier Dr).
+- **Updated to the current OSHA filer, across the whole dataset (85 files):** where a different name
+  filed OSHA's 2025 summary at an HIFLD address, the file now carries that company's name, NAICS
+  code and reported headcount, with the old name in `formerly`. Examples: Sullair → Hitachi Global
+  Air Power, Praxair → Linde, Smurfit-Stone → WestRock, TL Industries → Haul-About, Liberty Homes →
+  AIA Countertops and LCI.
+- **Closed from Indiana WARN closing notices (8):** Shiloh Industries in Goshen (March 2026),
+  Heartland RV in Elkhart (2025), Dwyer Instruments in Wakarusa (2024), Wabash Valley in Silver Lake
+  (2021), Merchants Metals in New Paris (2020), Del Monte and Bay Valley Foods in Plymouth (2018,
+  2017), and Goshen Coach (2016). `scripts/pull_warn.py` now does this every month for imported
+  plants.
+
+After these changes, 798 HIFLD records have no confirmation newer than HIFLD itself. The audit's
+calibration shows that website checks alone cannot sort them: 15 to 25% of records with no website
+or a dead domain were operating. They need the same per-record check.

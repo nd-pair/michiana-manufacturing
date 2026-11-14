@@ -1,27 +1,28 @@
-# Decorator Industries, Inc.
-# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+# Stair Supplies
+# Imported from HIFLD, then updated from OSHA's Form 300A filing at this address (public); edit freely.
 
-name = "Decorator Industries, Inc."
+name = "Stair Supplies"
 kind = "company"
 city = "Goshen"
 state = "IN"
 address = "1614 Eisenhower Drive North, Goshen, IN 46526"
 lat = 41.55713
 lon = -85.81083
-website = "https://decoratorindustries.com"
-osha_occupant = "Stair Supplies (OSHA Form 300A filer at this address, 2025)"
+osha_id = "801152"
+status_note = "Named from OSHA's 2025 Form 300A filing at this address; the earlier record here, Decorator Industries, Inc. (HIFLD), is a predecessor or a former occupant."
+formerly = "Decorator Industries, Inc."
 
-sector = "Food & consumer goods"
-products = ["Curtain and Drapery Mills"]
-naics = "314121"
+sector = "Materials & composites"
+products = ["Tempered glass made from purchased glass"]
+naics = "327215"
 
-employees = 150
+employees = 18
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
-description = "Draperies, Bedspreads, Balance Boards, Pillows, Shams, Tire Covers, & Tents. NAICS 314121: curtain and drapery mills."
+description = "NAICS 327215: tempered glass made from purchased glass."
 
-source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
-updated = "2026-11-11"
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor); the earlier record at this address came from HIFLD"
+updated = "2026-11-13"

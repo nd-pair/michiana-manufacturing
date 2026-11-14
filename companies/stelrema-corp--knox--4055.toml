@@ -1,31 +1,32 @@
-# Stelrema Corp.
-# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+# Gary Poppins, LLC
+# Imported from HIFLD, then updated from OSHA's Form 300A filing at this address (public); edit freely.
 
-name = "Stelrema Corp."
+name = "Gary Poppins, LLC"
 kind = "company"
 city = "Knox"
 state = "IN"
 address = "4055 East 250 North, Knox, IN 46534"
 lat = 41.33851
 lon = -86.61908
-website = "https://gettig.com"
-osha_occupant = "Gary Poppins, LLC (OSHA Form 300A filer at this address, 2025)"
+osha_id = "1031096"
+status_note = "Named from OSHA's 2025 Form 300A filing at this address; the earlier record here, Stelrema Corp. (HIFLD), is a predecessor or a former occupant."
+formerly = "Stelrema Corp."
 
-sector = "Medical devices & other"
-products = ["Surgical and Medical Instrument Manufacturing"]
-naics = "339112"
+sector = "Food & consumer goods"
+products = ["Popcorn (except candy covered), popped, manufacturing"]
+naics = "311919"
 
-employees = 70
+employees = 27
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
-description = "Medical Instruments. NAICS 339112: surgical and medical instrument manufacturing."
+description = "NAICS 311919: popcorn (except candy covered), popped, manufacturing."
 
 closed = "2012"
 closed_note = "WKVI reported in October 2014 that the former Stelrema plant north of Knox was sold after parent Gettig Technologies filed Chapter 7 bankruptcy in 2012."
 closed_source = "https://wkvi.com/2014/10/former-stelrema-building-sold-county-recoups-back-taxes"
 
-source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
-updated = "2026-11-11"
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor); the earlier record at this address came from HIFLD"
+updated = "2026-11-13"

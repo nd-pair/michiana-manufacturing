@@ -1,27 +1,28 @@
-# Redman Homes, Inc. of Indiana
-# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+# Champion Home Builders, Inc.
+# Imported from HIFLD, then updated from OSHA's Form 300A filing at this address (public); edit freely.
 
-name = "Redman Homes, Inc. of Indiana"
+name = "Champion Home Builders, Inc."
 kind = "company"
 city = "Topeka"
 state = "IN"
 address = "308 Sheridan Drive, Topeka, IN 46571"
 lat = 41.53710
 lon = -85.55419
-website = "https://redmanhomesofindiana.com"
-osha_occupant = "Champion Home Builders, Inc. (OSHA Form 300A filer at this address, 2025)"
+osha_id = "944600"
+status_note = "Named from OSHA's 2025 Form 300A filing at this address; the earlier record here, Redman Homes, Inc. of Indiana (HIFLD), is a predecessor or a former occupant."
+formerly = "Redman Homes, Inc. of Indiana"
 
-sector = "Metal"
-products = ["Hardware Manufacturing"]
-naics = "332510"
+sector = "Wood, paper & furniture"
+products = ["Door frames and sash, wood and covered wood, manufacturing"]
+naics = "321911"
 
-employees = 500
+employees = 390
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
-description = "Modular Homes & Manufactured Housing. NAICS 332510: hardware manufacturing."
+description = "NAICS 321911: door frames and sash, wood and covered wood, manufacturing."
 
-source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
-updated = "2026-11-11"
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor); the earlier record at this address came from HIFLD"
+updated = "2026-11-13"

@@ -1,27 +1,28 @@
-# Starcraft RV, Inc.
-# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+# Wieland Designs
+# Imported from HIFLD, then updated from OSHA's Form 300A filing at this address (public); edit freely.
 
-name = "Starcraft RV, Inc."
+name = "Wieland Designs"
 kind = "company"
 city = "Topeka"
 state = "IN"
 address = "536 Michigan Street, Topeka, IN 46571"
 lat = 41.53429
 lon = -85.54447
-website = "https://starcraftrv.com"
-osha_occupant = "Wieland Designs Topeka (OSHA Form 300A filer at this address, 2025)"
+osha_id = "988156"
+status_note = "Named from OSHA's 2025 Form 300A filing at this address; the earlier record here, Starcraft RV, Inc. (HIFLD), is a predecessor or a former occupant."
+formerly = "Starcraft RV, Inc."
 
 sector = "Vehicles & RVs"
-products = ["Motor Home Manufacturing"]
-naics = "336213"
+products = ["Motor vehicle seats manufacturing"]
+naics = "336360"
 
-employees = 400
+employees = 35
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
-description = "Recreational Vehicles. NAICS 336213: motor home manufacturing."
+description = "NAICS 336360: motor vehicle seats manufacturing."
 
-source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
-updated = "2026-11-11"
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor); the earlier record at this address came from HIFLD"
+updated = "2026-11-13"

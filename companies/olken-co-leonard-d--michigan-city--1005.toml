@@ -8,6 +8,8 @@ state = "IN"
 address = "1005 East Michigan Boulevard, Michigan City, IN 46360"
 lat = 41.71375
 lon = -86.88913
+presumed_closed_reason = "HIFLD audit of November 2026 (audits/2026-11-hifld-audit.csv): No web record of the company in name+city searches; address search not productive."
+presumed_closed = "2026-11-13"
 
 sector = "Metal"
 products = ["Fabricated Structural Metal Manufacturing"]

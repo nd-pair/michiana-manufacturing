@@ -9,6 +9,9 @@ address = "1151 Bloomingdale Drive, Bristol, IN 46507"
 lat = 41.71155
 lon = -85.81306
 website = "https://trelleborg.com"
+closed_source = "https://www.trelleborg.com/seals-and-profiles/news-and-events/2019-press-release-aurora-inauguration"
+closed_note = "Trelleborg closed its Bristol site in December 2018 and moved the work to Aurora, Ohio."
+closed = "2018-12"
 
 sector = "Materials & composites"
 products = ["Rubber Product Manufacturing for Mechanical Use"]

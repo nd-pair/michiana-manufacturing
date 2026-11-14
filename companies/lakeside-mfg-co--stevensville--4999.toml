@@ -1,30 +1,28 @@
-# Falcon Lakeside Manufacturing
-# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+# Artiflex Manufacturing
+# Imported from HIFLD, then updated from OSHA's Form 300A filing at this address (public); edit freely.
 
-name = "Falcon Lakeside Manufacturing"
-formerly = "Lakeside Mfg. Co."
+name = "Artiflex Manufacturing"
+formerly = "Lakeside Mfg. Co.; Falcon Lakeside Manufacturing"
 kind = "company"
 city = "Stevensville"
 state = "MI"
 address = "4999 Advance Way, Stevensville, MI 49127"
 lat = 42.02810
 lon = -86.51102
-website = "https://artiflexmfg.com"
-osha_occupant = "Artiflex Manufacturing Stevensville (OSHA Form 300A filer at this address, 2025)"
-osha_id = "1428588"
-status_note = "Now ArtiFlex Manufacturing's Falcon Lakeside casting and machining plant."
+osha_id = "1440476"
+status_note = "Named from OSHA's 2025 Form 300A filing at this address; the earlier record here, Falcon Lakeside Manufacturing (HIFLD), is a predecessor or a former occupant."
 
-sector = "Mechatronics & automation"
-products = ["Special Die and Tool, Die Set, Jig, and Fixture Manufacturing"]
-naics = "333514"
+sector = "Metal"
+products = ["Machine shops"]
+naics = "332710"
 
-employees = 43
+employees = 30
 employees_scope = "site"
 employees_year = 2025
 employees_quality = "reported"
 employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
-description = "Contract Machining Job Shop, Bar Feed Turning and Secondary Operations, Production Machining of Castings & Billet. NAICS 333514: special die and tool, die set, jig, and fixture manufacturing."
+description = "NAICS 332710: machine shops."
 
-source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
-updated = "2026-11-12"
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor); the earlier record at this address came from HIFLD"
+updated = "2026-11-13"

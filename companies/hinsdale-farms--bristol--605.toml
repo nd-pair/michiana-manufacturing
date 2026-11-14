@@ -1,27 +1,28 @@
-# Hinsdale Farms
-# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+# Monogram Comfort Foods, LLC
+# Imported from HIFLD, then updated from OSHA's Form 300A filing at this address (public); edit freely.
 
-name = "Hinsdale Farms"
+name = "Monogram Comfort Foods, LLC"
 kind = "company"
 city = "Bristol"
 state = "IN"
 address = "605 Kesco Drive, Bristol, IN 46507"
 lat = 41.71629
 lon = -85.81299
-website = "https://hinsdalefarms.com"
-osha_occupant = "Monogram Comfort Foods, LLC (OSHA Form 300A filer at this address, 2025)"
+osha_id = "1495748"
+status_note = "Named from OSHA's 2025 Form 300A filing at this address; the earlier record here, Hinsdale Farms (HIFLD), is a predecessor or a former occupant."
+formerly = "Hinsdale Farms"
 
 sector = "Food & consumer goods"
-products = ["Meat Processed From Carcasses"]
-naics = "311612"
+products = ["FROZEN SPECIALTIES, NEC"]
+naics = "311412"
 
-employees = 250
+employees = 450
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
-description = "Corn Dogs. NAICS 311612: meat processed from carcasses."
+description = "NAICS 311412: frozen specialties, nec."
 
-source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
-updated = "2026-11-11"
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor); the earlier record at this address came from HIFLD"
+updated = "2026-11-13"

@@ -9,6 +9,9 @@ address = "25161 Leer Drive, Elkhart, IN 46514"
 lat = 41.72678
 lon = -85.95090
 website = "https://goshencoach.com"
+closed_source = "https://www.in.gov/dwd/warn-notices/current-warn-notices/"
+closed_note = "Goshen Coach gave notice on 2016-08-31 that it would close this plant on 2016-10-31, with 159 workers (Indiana WARN notice)."
+closed = "2016-10-31"
 
 sector = "Vehicles & RVs"
 products = ["Heavy Duty Truck Manufacturing"]

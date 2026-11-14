@@ -1,14 +1,15 @@
 # Liberty Steel Fabricating, Inc.
 # Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
 
-name = "Liberty Steel Fabricating, Inc."
+name = "Liberty 3D Technologies"
 kind = "company"
 city = "Saint Joseph"
 state = "MI"
 address = "350 Palladium Drive, Saint Joseph, MI 49085"
 lat = 42.05580
 lon = -86.46502
-website = "https://libsteel.com"
+status_note = "Operates as Liberty 3D Technologies, a fabrication and machining shop at this address (company site, 2026). Source: https://libsteel.com/"
+formerly = "Liberty Steel Fabricating, Inc."
 
 sector = "Metal"
 products = ["Iron and Steel Mills"]

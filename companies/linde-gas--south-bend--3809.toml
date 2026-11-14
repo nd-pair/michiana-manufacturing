@@ -1,27 +1,28 @@
-# Linde Gas
-# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+# Messer North America, Inc.
+# Imported from HIFLD, then updated from OSHA's Form 300A filing at this address (public); edit freely.
 
-name = "Linde Gas"
+name = "Messer North America, Inc."
 kind = "company"
 city = "South Bend"
 state = "IN"
 address = "3809 West Calvert Street, South Bend, IN 46613"
 lat = 41.65409
 lon = -86.30205
-website = "https://linde.com"
-osha_occupant = "Messer North America, Inc. (OSHA Form 300A filer at this address, 2025)"
+osha_id = "1270013"
+status_note = "Named from OSHA's 2025 Form 300A filing at this address; the earlier record here, Linde Gas (HIFLD), is a predecessor or a former occupant."
+formerly = "Linde Gas"
 
 sector = "Materials & composites"
-products = ["Industrial Gas Manufacturing"]
+products = ["Industrial gases manufacturing"]
 naics = "325120"
 
-employees = 30
+employees = 20
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
-description = "Carbon Dioxide. NAICS 325120: industrial gas manufacturing."
+description = "NAICS 325120: industrial gases manufacturing."
 
-source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
-updated = "2026-11-11"
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor); the earlier record at this address came from HIFLD"
+updated = "2026-11-13"

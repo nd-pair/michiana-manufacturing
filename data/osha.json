@@ -20,6 +20,11 @@
 "employees": 1221,
 "naics": "336213"
 },
+"1433230": {
+"company": "thor-motor-coach-inc-wakarusa-313",
+"employees": null,
+"naics": "336213"
+},
 "1433231": {
 "company": "thor-motor-coach-elkhart-701",
 "employees": null,
@@ -45,6 +50,16 @@
 "employees": null,
 "naics": "336213"
 },
+"1433236": {
+"company": "thor-motor-coach-inc-wakarusa-313",
+"employees": null,
+"naics": "336213"
+},
+"1433237": {
+"company": "thor-motor-coach-inc-wakarusa-313",
+"employees": null,
+"naics": "336213"
+},
 "1433238": {
 "company": "thor-motor-coach-inc-elkhart-3322",
 "employees": null,
@@ -52,6 +67,11 @@
 },
 "1433239": {
 "company": "thor-motor-coach-inc-wakarusa-503",
+"employees": null,
+"naics": "336213"
+},
+"1433240": {
+"company": "thor-motor-coach-inc-bristol-1209",
 "employees": null,
 "naics": "336213"
 },
@@ -76,6 +96,11 @@
 "naics": "336213"
 },
 "1433246": {
+"company": "thor-motor-coach-elkhart-701",
+"employees": null,
+"naics": "336213"
+},
+"1433247": {
 "company": "thor-motor-coach-elkhart-701",
 "employees": null,
 "naics": "336213"
@@ -176,6 +201,11 @@
 "company": "lci-elkhart-1722",
 "employees": 607,
 "naics": "332321"
+},
+"899004": {
+"company": "lci-goshen-1206",
+"employees": 602,
+"naics": "332312"
 },
 "899006": {
 "company": "lci-goshen-2602",
@@ -537,6 +567,11 @@
 "naics": "321991",
 "occupant": "Clayton"
 },
+"1404799": {
+"company": "brinkley-rv-llc-goshen-2482",
+"employees": 234,
+"naics": "336214"
+},
 "1435847": {
 "company": "fas-pak-inc-la-porte-401",
 "employees": 232,
@@ -634,7 +669,7 @@
 "naics": "332999"
 },
 "1447591": {
-"company": "patrick-industries-inc-elkhart-58038",
+"company": "adorn-door-elkhart-1808",
 "employees": 210,
 "naics": "337110"
 },
@@ -808,6 +843,11 @@
 "naics": "336214",
 "occupant": "Keystone RV Dutchmen"
 },
+"1404804": {
+"company": "brinkley-rv-llc-goshen-2482",
+"employees": 178,
+"naics": "336214"
+},
 "628285": {
 "company": "genesis-products-goshen-1811",
 "employees": 177,
@@ -900,6 +940,11 @@
 "company": "jvis-usa-llc-benton-harbor-territorial-benton-harbor-359",
 "employees": 161,
 "naics": "336360"
+},
+"1517325": {
+"company": "brinkley-rv-llc-goshen-2482",
+"employees": 161,
+"naics": "336214"
 },
 "945689": {
 "company": "keystone-rv-dutchmen-goshen-2142",
@@ -1029,6 +1074,11 @@
 "employees": 142,
 "naics": "323111"
 },
+"1404802": {
+"company": "brinkley-rv-llc-goshen-2482",
+"employees": 142,
+"naics": "336214"
+},
 "1428600": {
 "company": "maple-leaf-farms-inc-milford-9166",
 "employees": 142,
@@ -1036,6 +1086,11 @@
 },
 "943114": {
 "company": "keystone-rv-co-goshen-2642",
+"employees": 141,
+"naics": "336214"
+},
+"1404801": {
+"company": "brinkley-rv-llc-goshen-2482",
 "employees": 141,
 "naics": "336214"
 },
@@ -1197,6 +1252,11 @@
 "company": "patrick-industries-inc-elkhart-58038",
 "employees": 122,
 "naics": "337110"
+},
+"1404803": {
+"company": "brinkley-rv-llc-goshen-2482",
+"employees": 122,
+"naics": "336214"
 },
 "1443642": {
 "company": "colbert-packaging-corp-elkhart-1511",
@@ -1767,6 +1827,11 @@
 "employees": 76,
 "naics": "332323"
 },
+"1404800": {
+"company": "brinkley-rv-llc-goshen-2482",
+"employees": 76,
+"naics": "336214"
+},
 "1440663": {
 "company": "stellite-coatings-goshen-1201",
 "employees": 76,
@@ -2018,6 +2083,11 @@
 "company": "patrick-industries-adorn-engineered-components-bu-mishawaka-1141",
 "employees": 62,
 "naics": "337110"
+},
+"945683": {
+"company": "keystone-rv-dutchmen-goshen-2142",
+"employees": 62,
+"naics": "336214"
 },
 "1258711": {
 "company": "south-haven-novolex-south-haven-1675",
@@ -3082,7 +3152,8 @@
 "575843": {
 "company": "bomarko-inc-plymouth-1955",
 "employees": 23,
-"naics": "322220"
+"naics": "322220",
+"occupant": "Patty Processing, Inc."
 },
 "911909": {
 "company": "plastic-components-inc-elkhart-1210",
@@ -3392,6 +3463,11 @@
 "employees": 14,
 "naics": "326199"
 },
+"945825": {
+"company": "keystone-rv-dutchmen-goshen-2142",
+"employees": 13,
+"naics": "336214"
+},
 "1186305": {
 "company": "transit-mix-inc-plymouth-2341",
 "employees": 13,
@@ -3523,10 +3599,20 @@
 "employees": 4,
 "naics": "333992"
 },
+"946105": {
+"company": "keystone-rv-crossroads-topeka-1100",
+"employees": 4,
+"naics": "336214"
+},
 "1199364": {
 "company": "valley-truck-parts-st-joseph-st-joseph-305",
 "employees": 4,
 "naics": "336350"
+},
+"946097": {
+"company": "keystone-rv-crossroads-topeka-1100",
+"employees": 3,
+"naics": "336214"
 },
 "1445662": {
 "company": "damping",
@@ -3546,7 +3632,8 @@
 "1428896": {
 "company": "stairsupplies-goshen-1755",
 "employees": 1,
-"naics": "332323"
+"naics": "332323",
+"occupant": "Viewrail Holdings"
 },
 "1447789": {
 "company": "vitamins-inc-michigan-city-1700",

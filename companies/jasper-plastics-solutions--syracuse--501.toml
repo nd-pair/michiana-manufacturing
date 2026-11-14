@@ -1,27 +1,28 @@
-# Jasper Plastics Solutions
-# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+# Leading Edge Countertops
+# Imported from HIFLD, then updated from OSHA's Form 300A filing at this address (public); edit freely.
 
-name = "Jasper Plastics Solutions"
+name = "Leading Edge Countertops"
 kind = "company"
 city = "Syracuse"
 state = "IN"
 address = "501 West Railroad Avenue, Syracuse, IN 46567"
 lat = 41.42178
 lon = -85.75329
-website = "https://jasperplasticssolutions.com"
-osha_occupant = "Leading Edge Countertops (OSHA Form 300A filer at this address, 2025)"
+osha_id = "1239723"
+status_note = "Named from OSHA's 2025 Form 300A filing at this address; the earlier record here, Jasper Plastics Solutions (HIFLD), is a predecessor or a former occupant."
+formerly = "Jasper Plastics Solutions"
 
-sector = "Medical devices & other"
-products = ["Fastener, Button, Needle, and Pin Manufacturing"]
-naics = "339993"
+sector = "Materials & composites"
+products = ["Countertops, plastics, manufacturing"]
+naics = "326199"
 
-employees = 100
+employees = 80
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
-description = "Molded Polyurethane, Polyester Parts & Lightweight Panels. NAICS 339993: fastener, button, needle, and pin manufacturing."
+description = "NAICS 326199: countertops, plastics, manufacturing."
 
-source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
-updated = "2026-11-11"
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor); the earlier record at this address came from HIFLD"
+updated = "2026-11-13"

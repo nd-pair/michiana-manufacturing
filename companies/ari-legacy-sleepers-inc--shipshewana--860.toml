@@ -1,27 +1,28 @@
-# Ari Legacy Sleepers, Inc.
-# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+# American Reliance Industries Co.
+# Imported from HIFLD, then updated from OSHA's Form 300A filing at this address (public); edit freely.
 
-name = "Ari Legacy Sleepers, Inc."
+name = "American Reliance Industries Co."
 kind = "company"
 city = "Shipshewana"
 state = "IN"
 address = "860 North Tuscany Drive, Shipshewana, IN 46565"
 lat = 41.68515
 lon = -85.57814
-website = "https://legacysleepers.com"
-osha_occupant = "American Reliance Industries Co. (OSHA Form 300A filer at this address, 2025)"
+osha_id = "492165"
+status_note = "Named from OSHA's 2025 Form 300A filing at this address; the earlier record here, Ari Legacy Sleepers, Inc. (HIFLD), is a predecessor or a former occupant."
+formerly = "Ari Legacy Sleepers, Inc."
 
 sector = "Vehicles & RVs"
-products = ["Motor Vehicle Body Manufacturing"]
+products = ["Truck bodies assembling on purchased chassis"]
 naics = "336211"
 
-employees = 44
+employees = 39
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
-description = "Sleeper Compartments for Trucks. NAICS 336211: motor vehicle body manufacturing."
+description = "NAICS 336211: truck bodies assembling on purchased chassis."
 
-source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
-updated = "2026-11-11"
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor); the earlier record at this address came from HIFLD"
+updated = "2026-11-13"

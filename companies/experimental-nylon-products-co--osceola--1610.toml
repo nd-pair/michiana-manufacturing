@@ -8,6 +8,8 @@ state = "IN"
 address = "1610 3rd Street, Osceola, IN 46561"
 lat = 41.66106
 lon = -86.08870
+presumed_closed_reason = "HIFLD audit of November 2026 (audits/2026-11-hifld-audit.csv): No company mention anywhere; the only item at 1610 3rd St Osceola is a 2017 for-sale property record."
+presumed_closed = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["All Other Plastics Product Manufacturing"]

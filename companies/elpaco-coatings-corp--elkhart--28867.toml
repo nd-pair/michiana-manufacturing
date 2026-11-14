@@ -9,6 +9,8 @@ address = "28867 Old US 33, Elkhart, IN 46516"
 lat = 41.66857
 lon = -86.01903
 website = "https://elpacocoatings.com"
+presumed_closed_reason = "HIFLD audit of November 2026 (audits/2026-11-hifld-audit.csv): Latest dated evidence is a 1999 IDEM inspection at 28867 US 33; the website is a parked domain and no recent occupant was found."
+presumed_closed = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["Paint and Coating Manufacturing"]

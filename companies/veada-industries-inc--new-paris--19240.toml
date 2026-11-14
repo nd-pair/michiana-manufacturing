@@ -1,27 +1,28 @@
-# Veada Industries, Inc.
-# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+# Lippert Components (LCI)
+# Imported from HIFLD, then updated from OSHA's Form 300A filing at this address (public); edit freely.
 
-name = "Veada Industries, Inc."
+name = "Lippert Components (LCI)"
 kind = "company"
 city = "New Paris"
 state = "IN"
 address = "19240 Tarman Road, New Paris, IN 46553"
 lat = 41.50930
 lon = -85.83208
-website = "https://veada.com"
-osha_occupant = "LCI (OSHA Form 300A filer at this address, 2025)"
+osha_id = "899025"
+status_note = "Named from OSHA's 2025 Form 300A filing at this address; the earlier record here, Veada Industries, Inc. (HIFLD), is a predecessor or a former occupant."
+formerly = "Veada Industries, Inc."
 
 sector = "Wood, paper & furniture"
-products = ["Institutional Furniture Manufacturing"]
-naics = "337127"
+products = ["Manufacturing"]
+naics = "337121"
 
-employees = 500
+employees = 147
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
-description = "Boat Seating for Bass Boats, Runaboats, Cruisers & Pontoons & Tents & Cushions for Pop-Up Campers. NAICS 337127: institutional furniture manufacturing."
+description = "NAICS 337121: manufacturing."
 
-source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
-updated = "2026-11-11"
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor); the earlier record at this address came from HIFLD"
+updated = "2026-11-13"

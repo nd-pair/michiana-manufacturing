@@ -9,6 +9,8 @@ address = "700 Centerville Street, Constantine, MI 49042"
 lat = 41.84066
 lon = -85.65286
 website = "https://covalencecoatedproducts.com"
+presumed_closed_reason = "HIFLD audit of November 2026 (audits/2026-11-hifld-audit.csv): No Constantine facility or occupant found at 700 Centerville/Centreville St; the domain is parked."
+presumed_closed = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["All Other Converted Paper Product Manufacturing"]

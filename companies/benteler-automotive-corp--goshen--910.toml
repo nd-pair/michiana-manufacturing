@@ -1,27 +1,31 @@
-# Benteler Automotive Corp.
-# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+# Shiloh Industries
+# Imported from HIFLD, then updated from OSHA's Form 300A filing at this address (public); edit freely.
 
-name = "Benteler Automotive Corp."
+name = "Shiloh Industries"
 kind = "company"
 city = "Goshen"
 state = "IN"
 address = "910 Eisenhower Drive North, Goshen, IN 46526"
 lat = 41.55712
 lon = -85.82055
-website = "https://benteler.com"
-osha_occupant = "Shiloh Industries LLC Goshen (OSHA Form 300A filer at this address, 2025)"
+closed_source = "https://www.in.gov/dwd/warn-notices/current-warn-notices/"
+closed_note = "Shiloh Industries (Grouper Acquisition Company) gave notice in February 2026 that it would close the Goshen plant on March 31, 2026, with 172 workers (Indiana WARN notice)."
+closed = "2026-03-31"
+osha_id = "1305131"
+status_note = "Named from OSHA's 2025 Form 300A filing at this address; the earlier record here, Benteler Automotive Corp. (HIFLD), is a predecessor or a former occupant."
+formerly = "Benteler Automotive Corp."
 
 sector = "Vehicles & RVs"
-products = ["Motor Vehicle Metal Stamping"]
+products = ["Motor vehicle metal parts stamping"]
 naics = "336370"
 
-employees = 200
+employees = 245
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
-description = "OEM Automotive Stampings & Welded Assembly. NAICS 336370: motor vehicle metal stamping."
+description = "NAICS 336370: motor vehicle metal parts stamping."
 
-source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
-updated = "2026-11-11"
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor); the earlier record at this address came from HIFLD"
+updated = "2026-11-13"

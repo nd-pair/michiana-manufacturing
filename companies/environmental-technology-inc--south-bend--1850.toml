@@ -1,27 +1,28 @@
-# Environmental Technology, Inc.
-# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+# ETI Controls
+# Imported from HIFLD, then updated from OSHA's Form 300A filing at this address (public); edit freely.
 
-name = "Environmental Technology, Inc."
+name = "ETI Controls"
 kind = "company"
 city = "South Bend"
 state = "IN"
 address = "1850 North Sheridan Street, South Bend, IN 46628"
 lat = 41.70001
 lon = -86.30284
-website = "https://networketi.com"
-osha_occupant = "Eti Controls Inc. (OSHA Form 300A filer at this address, 2025)"
+osha_id = "614321"
+status_note = "Named from OSHA's 2025 Form 300A filing at this address; the earlier record here, Environmental Technology, Inc. (HIFLD), is a predecessor or a former occupant."
+formerly = "Environmental Technology, Inc."
 
 sector = "Electronics"
-products = ["Instruments & Related Products Mfg. for Measuring, Displaying, Controlling Industrial Process Variables"]
-naics = "334513"
+products = ["Printed circuit assemblies manufacturing"]
+naics = "334418"
 
-employees = 21
+employees = 7
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
-description = "Energy Management Controls for Freeze Protection & Temperature Management Applications, Snow/ice Sensors & Controls. NAICS 334513: instruments & related products mfg for measuring, displaying, controlling industrial process variables."
+description = "NAICS 334418: printed circuit assemblies manufacturing."
 
-source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
-updated = "2026-11-11"
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor); the earlier record at this address came from HIFLD"
+updated = "2026-11-13"

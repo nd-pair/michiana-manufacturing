@@ -9,6 +9,9 @@ address = "506 North Street, Plymouth, IN 46563"
 lat = 41.34948
 lon = -86.31495
 website = "https://delmonte.com"
+closed_source = "https://www.in.gov/dwd/warn-notices/current-warn-notices/"
+closed_note = "Del Monte Foods gave notice on 2017-09-12 that it would close this plant on 2018-02-01, with 107 workers (Indiana WARN notice)."
+closed = "2018-02-01"
 uei = "CCD1NZGZPKG1"
 
 sector = "Food & consumer goods"

@@ -1,27 +1,28 @@
-# Pilkington North America, Inc.
-# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+# Modineer
+# Imported from HIFLD, then updated from OSHA's Form 300A filing at this address (public); edit freely.
 
-name = "Pilkington North America, Inc."
+name = "Modineer"
 kind = "company"
 city = "Niles"
 state = "MI"
 address = "2121 West Chicago Road, Niles, MI 49120"
 lat = 41.80577
 lon = -86.29826
-website = "https://pilkington.com"
-osha_occupant = "Modineer (OSHA Form 300A filer at this address, 2025)"
+osha_id = "667575"
+status_note = "Named from OSHA's 2025 Form 300A filing at this address; the earlier record here, Pilkington North America, Inc. (HIFLD), is a predecessor or a former occupant."
+formerly = "Pilkington North America, Inc."
 
-sector = "Materials & composites"
-products = ["Glass Product Manufacturing Made of Purchased Glass"]
-naics = "327215"
+sector = "Vehicles & RVs"
+products = ["Job stampings, automotive, metal, manufacturing"]
+naics = "336370"
 
-employees = 200
+employees = 276
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
-description = "Automotive Windows, Windshields & Sunroofs. NAICS 327215: glass product manufacturing made of purchased glass."
+description = "NAICS 336370: job stampings, automotive, metal, manufacturing."
 
-source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
-updated = "2026-11-11"
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor); the earlier record at this address came from HIFLD"
+updated = "2026-11-13"

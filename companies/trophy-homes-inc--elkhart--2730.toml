@@ -9,6 +9,8 @@ address = "2730 Almac Court, Elkhart, IN 46514"
 lat = 41.72155
 lon = -85.92918
 website = "https://trophyparkmodel.com"
+presumed_closed_reason = "HIFLD audit of November 2026 (audits/2026-11-hifld-audit.csv): trophyparkmodel.com now shows an expired-registration page and no source mentions Trophy Homes or 2730 Almac Ct."
+presumed_closed = "2026-11-13"
 
 sector = "Vehicles & RVs"
 products = ["Motor Home Manufacturing"]

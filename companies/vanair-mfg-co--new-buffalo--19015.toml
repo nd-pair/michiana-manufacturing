@@ -9,6 +9,8 @@ address = "19015 US Highway 12, New Buffalo, MI 49117"
 lat = 41.77165
 lon = -86.78413
 website = "https://vanair.com"
+presumed_closed_reason = "HIFLD audit of November 2026 (audits/2026-11-hifld-audit.csv): Vanair site (2026) lists only Michigan City, IN plants, not New Buffalo."
+presumed_closed = "2026-11-13"
 
 sector = "Mechatronics & automation"
 products = ["Air and Gas Compressor Manufacturing"]

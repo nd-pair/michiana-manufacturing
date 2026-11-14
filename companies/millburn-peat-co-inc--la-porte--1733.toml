@@ -8,6 +8,8 @@ state = "IN"
 address = "1733 East Division Road, La Porte, IN 46350"
 lat = 41.60529
 lon = -86.66541
+presumed_closed_reason = "HIFLD audit of November 2026 (audits/2026-11-hifld-audit.csv): Chapter 11 filed Oct 2014 (Joliet Rd address) with last docket entry Dec 2015; nothing found on operations or at 1733 E Division Rd afterward."
+presumed_closed = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["Fertilizer (mixing Only) Manufacturing"]

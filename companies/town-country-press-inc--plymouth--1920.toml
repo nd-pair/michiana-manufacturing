@@ -8,6 +8,8 @@ state = "IN"
 address = "1920 Jim Neu Drive, Plymouth, IN 46563"
 lat = 41.35479
 lon = -86.33317
+presumed_closed_reason = "HIFLD audit of November 2026 (audits/2026-11-hifld-audit.csv): No record of the company or any business at 1920 Jim Neu Dr in name or address searches."
+presumed_closed = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Commercial Lithographic Printing"]

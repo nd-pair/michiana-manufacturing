@@ -1,27 +1,28 @@
-# Rohm and Haas Powder Coatings
-# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+# AkzoNobel Coatings
+# Imported from HIFLD, then updated from OSHA's Form 300A filing at this address (public); edit freely.
 
-name = "Rohm and Haas Powder Coatings"
+name = "AkzoNobel Coatings"
 kind = "company"
 city = "Warsaw"
 state = "IN"
 address = "1102 Leiter Drive, Warsaw, IN 46580"
 lat = 41.24098
 lon = -85.87650
-website = "https://rohmandhaas.com"
-osha_occupant = "Warsaw Akzo Nobel (OSHA Form 300A filer at this address, 2025)"
+osha_id = "1029662"
+status_note = "Named from OSHA's 2025 Form 300A filing at this address; the earlier record here, Rohm and Haas Powder Coatings (HIFLD), is a predecessor or a former occupant."
+formerly = "Rohm and Haas Powder Coatings"
 
 sector = "Materials & composites"
-products = ["Paint and Coating Manufacturing"]
+products = ["Manufacturing of Paints and Coatings"]
 naics = "325510"
 
-employees = 101
+employees = 90
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
-description = "Powder Coatings. NAICS 325510: paint and coating manufacturing."
+description = "NAICS 325510: manufacturing of paints and coatings."
 
-source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
-updated = "2026-11-11"
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor); the earlier record at this address came from HIFLD"
+updated = "2026-11-13"

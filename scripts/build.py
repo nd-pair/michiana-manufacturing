@@ -168,7 +168,7 @@ def main():
     places = load_toml(P("data", "places.toml"))
     cities = {c["name"]: (c["lat"], c["lon"]) for c in places["city"]}
 
-    companies, closed, removed = [], [], []
+    companies, closed, removed, presumed = [], [], [], []
     for name in sorted(os.listdir(P("companies"))):
         if not name.endswith(".toml"):
             continue
@@ -178,6 +178,10 @@ def main():
         if c.get("closed"):
             # kept on file so the importers do not add it again, but not shown
             closed.append(name); continue
+        if c.get("presumed_closed"):
+            # an imported record that a check found closed or without any current trace: not shown, since listing a plant
+            # that does not exist is worse than missing one; a same-name OSHA filing or a dated source brings it back
+            presumed.append(name); continue
         if c.get("removed"):
             # taken off the map (duplicate, not a manufacturer, outside the region); kept on file for the same reason
             if not c.get("removed_reason"):
@@ -383,7 +387,7 @@ def main():
             "{{BLSMONTH}}": bls_month(bls), "{{BLSPULLED}}": bls.get("pulled", "not yet pulled"),
             "{{NDRESEARCH}}": ("<p><strong>Notre Dame research</strong> in the same panel lists the federal grants, cooperative agreements and contracts to the University of Notre Dame since FY2016, and its subawards on other institutions' awards, whose title (or description, at least three times) is about robots, autonomy and drones, prosthetics and exoskeletons, haptics, legged or humanoid systems or robotic manufacturing, from USAspending.gov, with investigators for NSF awards from the NSF Award Search. Amounts are obligations so far; industry, foundation and state funding are not included.</p>" if show_ndr else ""),
             "{{HUMCOMP}}": str(len(hspec["component"])),
-            "{{REMOVED}}": str(len(removed)),
+            "{{REMOVED}}": str(len(removed)), "{{PRESUMED}}": str(len(presumed)),
             "{{NEWSADDED}}": str(src_counts["news"]),
             "{{OPENITEMS}}": str(len((sidecar("open_items.json").get("items") or {}))),
             "{{NEWSSOURCES}}": str(len(load_toml(P("data", "news_sources.toml")).get("domains", []))),

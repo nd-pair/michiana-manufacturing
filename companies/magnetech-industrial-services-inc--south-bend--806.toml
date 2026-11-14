@@ -9,6 +9,8 @@ address = "806 West Sample Street, South Bend, IN 46601"
 lat = 41.66478
 lon = -86.26166
 website = "https://magnetech.com"
+presumed_closed_reason = "HIFLD audit of November 2026 (audits/2026-11-hifld-audit.csv): Magnetech started in South Bend in 2000 but HQ moved to Massillon OH; the only dated item for 806 W Sample is a Nov 2020 LoopNet sale/lease listing, with no sign of Magnetech there."
+presumed_closed = "2026-11-13"
 
 sector = "Metal"
 products = ["Fabricated Pipe and Pipe Fitting Manufacturing"]

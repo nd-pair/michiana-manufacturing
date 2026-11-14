@@ -9,6 +9,8 @@ address = "114 North Center Street, Bremen, IN 46506"
 lat = 41.44683
 lon = -86.14617
 website = "https://lebermuth.com"
+presumed_closed_reason = "HIFLD audit of November 2026 (audits/2026-11-hifld-audit.csv): Company is active but its website lists only 4004 Technology Dr, South Bend; no evidence of a Bremen site at 114 N Center St."
+presumed_closed = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["Toilet Preparation Manufacturing"]

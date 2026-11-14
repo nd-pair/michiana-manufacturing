@@ -1,27 +1,28 @@
-# Sullair Corp.
-# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+# Hitachi Global Air Power
+# Imported from HIFLD, then updated from OSHA's Form 300A filing at this address (public); edit freely.
 
-name = "Sullair Corp."
+name = "Hitachi Global Air Power"
 kind = "company"
 city = "Michigan City"
 state = "IN"
 address = "3700 East Michigan Boulevard, Michigan City, IN 46360"
 lat = 41.70343
 lon = -86.84714
-website = "https://sullair.com"
-osha_occupant = "Hitachi Global Air Power (OSHA Form 300A filer at this address, 2025)"
+osha_id = "1404846"
+status_note = "Named from OSHA's 2025 Form 300A filing at this address; the earlier record here, Sullair Corp. (HIFLD), is a predecessor or a former occupant."
+formerly = "Sullair Corp."
 
 sector = "Mechatronics & automation"
-products = ["Air and Gas Compressor Manufacturing"]
+products = ["Compressors, air and gas, general purpose-type, manufacturing"]
 naics = "333912"
 
-employees = 300
+employees = 649
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
-description = "Rotary Screw Air, Gas & Industrial Refrigeration Compressors, Pneumatic Tools, Vacuum Pumps, Dryers & Filters. NAICS 333912: air and gas compressor manufacturing."
+description = "NAICS 333912: compressors, air and gas, general purpose-type, manufacturing."
 
-source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
-updated = "2026-11-11"
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor); the earlier record at this address came from HIFLD"
+updated = "2026-11-13"

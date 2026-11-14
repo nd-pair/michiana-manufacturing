@@ -1,27 +1,28 @@
-# Praxair, Inc.
-# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+# Linde Inc.
+# Imported from HIFLD, then updated from OSHA's Form 300A filing at this address (public); edit freely.
 
-name = "Praxair, Inc."
+name = "Linde Inc."
 kind = "company"
 city = "La Porte"
 state = "IN"
 address = "3076 North State Road 39, La Porte, IN 46350"
 lat = 41.65092
 lon = -86.73889
-website = "https://praxair.com"
-osha_occupant = "Linde Inc. (OSHA Form 300A filer at this address, 2025)"
+osha_id = "160476"
+status_note = "Named from OSHA's 2025 Form 300A filing at this address; the earlier record here, Praxair, Inc. (HIFLD), is a predecessor or a former occupant."
+formerly = "Praxair, Inc."
 
 sector = "Materials & composites"
-products = ["Industrial Gas Manufacturing"]
+products = ["Compressed and liquefied industrial gas manufacturing"]
 naics = "325120"
 
-employees = 40
+employees = 61
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
-description = "Nitrogen & Oxygen. NAICS 325120: industrial gas manufacturing."
+description = "NAICS 325120: compressed and liquefied industrial gas manufacturing."
 
-source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
-updated = "2026-11-11"
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor); the earlier record at this address came from HIFLD"
+updated = "2026-11-13"

@@ -1,14 +1,15 @@
 # Millennium Industries
 # Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
 
-name = "Millennium Industries"
+name = "TI Fluid Systems"
 kind = "company"
 city = "Ligonier"
 state = "IN"
 address = "925 North Main Street, Ligonier, IN 46767"
 lat = 41.47315
 lon = -85.58882
-website = "https://mill-ind.com"
+status_note = "Acquired by TI Automotive in 2016, now TI Fluid Systems, listed at this address. Source: https://www.insideindianabusiness.com/articles/millennium-industries-acquired-by-michigan-company"
+formerly = "Millennium Industries"
 
 sector = "Vehicles & RVs"
 products = ["All Other Motor Vehicle Parts Manufacturing"]

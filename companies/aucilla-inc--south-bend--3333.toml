@@ -1,27 +1,28 @@
-# Aucilla, Inc.
-# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+# Tri-Pac, Inc
+# Imported from HIFLD, then updated from OSHA's Form 300A filing at this address (public); edit freely.
 
-name = "Aucilla, Inc."
+name = "Tri-Pac, Inc"
 kind = "company"
 city = "South Bend"
 state = "IN"
 address = "3333 North Kenmore Street, South Bend, IN 46628"
 lat = 41.72119
 lon = -86.29905
-website = "https://aucilla.com"
-osha_occupant = "Tri-Pac, Inc (OSHA Form 300A filer at this address, 2025)"
+osha_id = "1108198"
+status_note = "Named from OSHA's 2025 Form 300A filing at this address; the earlier record here, Aucilla, Inc. (HIFLD), is a predecessor or a former occupant."
+formerly = "Aucilla, Inc."
 
 sector = "Materials & composites"
-products = ["All Other Plastics Product Manufacturing"]
-naics = "326199"
+products = ["Aerosol packaging services"]
+naics = "325998"
 
-employees = 52
+employees = 150
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
-description = "Plastic Injection Molding. NAICS 326199: all other plastics product manufacturing."
+description = "NAICS 325998: aerosol packaging services."
 
-source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
-updated = "2026-11-11"
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor); the earlier record at this address came from HIFLD"
+updated = "2026-11-13"

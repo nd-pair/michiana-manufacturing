@@ -1,28 +1,28 @@
-# Da-Lite Screen Company, Inc.
-# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+# Legrand AV
+# Imported from HIFLD, then updated from OSHA's Form 300A filing at this address (public); edit freely.
 
-name = "Da-Lite Screen Company, Inc."
+name = "Legrand AV"
 kind = "company"
 city = "Warsaw"
 state = "IN"
 address = "3100 North Detroit Street, Warsaw, IN 46582"
 lat = 41.27875
 lon = -85.85247
-website = "https://da-lite.com"
-osha_occupant = "Legrand AV (OSHA Form 300A filer at this address, 2025)"
-uei = "R8GUTKA84NF8"
+osha_id = "987194"
+status_note = "Named from OSHA's 2025 Form 300A filing at this address; the earlier record here, Da-Lite Screen Company, Inc. (HIFLD), is a predecessor or a former occupant."
+formerly = "Da-Lite Screen Company, Inc."
 
 sector = "Electronics"
-products = ["Audio and Video Equipment Manufacturing"]
+products = ["Home theater audio and video equipment manufacturing"]
 naics = "334310"
 
-employees = 385
+employees = 162
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
-description = "Corporate Headquarters & Front & Rear Projection Screens, Lecterns, Easels, Computer Furniture, Audiovisual Carts. NAICS 334310: audio and video equipment manufacturing."
+description = "NAICS 334310: home theater audio and video equipment manufacturing."
 
-source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
-updated = "2026-11-11"
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor); the earlier record at this address came from HIFLD"
+updated = "2026-11-13"

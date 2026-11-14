@@ -8,6 +8,8 @@ state = "IN"
 address = "1849 Dogwood Road, Bremen, IN 46506"
 lat = 41.45326
 lon = -86.11791
+presumed_closed_reason = "HIFLD audit of November 2026 (audits/2026-11-hifld-audit.csv): No Charleston Corp or 1849 Dogwood Rd listing found; a manufacturing building at neighboring 1851 Dogwood Rd is for sale."
+presumed_closed = "2026-11-13"
 
 sector = "Metal"
 products = ["Metal Stamping"]

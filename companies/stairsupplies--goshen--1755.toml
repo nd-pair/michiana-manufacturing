@@ -8,6 +8,7 @@ state = "IN"
 address = "1755 Ardmore Court, Goshen, IN 46526"
 lat = 41.54962
 lon = -85.80806
+osha_occupant = "Viewrail Holdings (OSHA Form 300A filer at this address, 2025)"
 osha_id = "801162"
 
 sector = "Wood, paper & furniture"

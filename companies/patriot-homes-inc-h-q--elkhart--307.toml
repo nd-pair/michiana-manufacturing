@@ -9,6 +9,8 @@ address = "307 South Main Street, Elkhart, IN 46516"
 lat = 41.68486
 lon = -85.97266
 website = "https://patriothomes.com"
+presumed_closed_reason = "HIFLD audit of November 2026 (audits/2026-11-hifld-audit.csv): Only a 301-319 S Main multi-tenant commercial lease listing found; Patriot Homes history is older trade press, and Patriot Home Sales is a separate Commodore-family firm; nothing ties either to 307 S Main."
+presumed_closed = "2026-11-13"
 
 sector = "Metal"
 products = ["Hardware Manufacturing"]

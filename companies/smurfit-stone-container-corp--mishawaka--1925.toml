@@ -1,27 +1,28 @@
-# Smurfit-Stone Container Corp.
-# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+# WestRock CP, LLC
+# Imported from HIFLD, then updated from OSHA's Form 300A filing at this address (public); edit freely.
 
-name = "Smurfit-Stone Container Corp."
+name = "WestRock CP, LLC"
 kind = "company"
 city = "Mishawaka"
 state = "IN"
 address = "1925 Stone Court, Mishawaka, IN 46545"
 lat = 41.68653
 lon = -86.15020
-website = "https://smurfit-stone.com"
-osha_occupant = "Corrugated Packaging Mishawaka CT (OSHA Form 300A filer at this address, 2025)"
+osha_id = "745831"
+status_note = "Named from OSHA's 2025 Form 300A filing at this address; the earlier record here, Smurfit-Stone Container Corp. (HIFLD), is a predecessor or a former occupant."
+formerly = "Smurfit-Stone Container Corp."
 
 sector = "Wood, paper & furniture"
-products = ["Folding Paperboard Box Manufacturing"]
-naics = "322212"
+products = ["Corrugated and Solid Box Manufacturing"]
+naics = "322211"
 
-employees = 160
+employees = 112
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
-description = "Corrugated Containers. NAICS 322212: folding paperboard box manufacturing."
+description = "NAICS 322211: corrugated and solid box manufacturing."
 
-source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
-updated = "2026-11-11"
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor); the earlier record at this address came from HIFLD"
+updated = "2026-11-13"

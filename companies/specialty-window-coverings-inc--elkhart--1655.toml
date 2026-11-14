@@ -1,26 +1,28 @@
-# Specialty Window Coverings, Inc.
-# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
+# Scientific Development
+# Imported from HIFLD, then updated from OSHA's Form 300A filing at this address (public); edit freely.
 
-name = "Specialty Window Coverings, Inc."
+name = "Scientific Development"
 kind = "company"
 city = "Elkhart"
 state = "IN"
 address = "1655 Gateway Court, Elkhart, IN 46514"
 lat = 41.72904
 lon = -86.00820
-osha_occupant = "Scientific Development (OSHA Form 300A filer at this address, 2025)"
+osha_id = "1247157"
+status_note = "Named from OSHA's 2025 Form 300A filing at this address; the earlier record here, Specialty Window Coverings, Inc. (HIFLD), is a predecessor or a former occupant."
+formerly = "Specialty Window Coverings, Inc."
 
-sector = "Food & consumer goods"
-products = ["Curtain and Drapery Mills"]
-naics = "314121"
+sector = "Materials & composites"
+products = ["Sheeting, rubber, manufacturing"]
+naics = "326299"
 
-employees = 100
+employees = 40
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
-description = "Window Treatments & Coverings. NAICS 314121: curtain and drapery mills."
+description = "NAICS 326299: sheeting, rubber, manufacturing."
 
-source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
-updated = "2026-11-11"
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor); the earlier record at this address came from HIFLD"
+updated = "2026-11-13"

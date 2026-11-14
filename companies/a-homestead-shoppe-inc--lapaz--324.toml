@@ -9,6 +9,8 @@ address = "324 East Vandalia Street, Lapaz, IN 46537"
 lat = 41.45671
 lon = -86.30414
 website = "https://ahomesteadshoppe.com"
+removed_reason = "now AHS Lighting & Home Decor, a lamp wholesaler; no production found at this address; found in the HIFLD audit of November 2026 (audits/2026-11-hifld-audit.csv)"
+removed = "2026-11-13"
 
 sector = "Electronics"
 products = ["Residential Electric Lighting Fixture Manufacturing"]
