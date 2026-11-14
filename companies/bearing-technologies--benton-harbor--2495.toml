@@ -8,6 +8,8 @@ state = "MI"
 address = "2495 Pipestone Road, Benton Harbor, MI 49022"
 lat = 42.07284
 lon = -86.41663
+presumed_closed_reason = "Verification check: no current trace of this company at this address. No company named Bearing Technologies was found at 2495 Pipestone Rd; an old government directory lists Rexnord/MB Manufacturing at that address. Source: https://corpora.tika.apache.org/base/docs/govdocs1/734/734445.pdf"
+presumed_closed = "2026-11-13"
 
 sector = "Metal"
 products = ["Ball and Roller Bearing Manufacturing"]

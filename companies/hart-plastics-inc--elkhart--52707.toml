@@ -9,6 +9,8 @@ address = "52707 Park Six Court, Elkhart, IN 46514"
 lat = 41.72795
 lon = -85.95437
 website = "https://hartplastics.com"
+verified_note = "Live site shows Park Six Court, Elkhart (listed as 2907) with 2024 copyright; house number differs from record. Source: https://hartplastics.com"
+verified = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["All Other Plastics Product Manufacturing"]

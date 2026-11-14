@@ -9,6 +9,8 @@ address = "215 South Post Road, Buchanan, MI 49107"
 lat = 41.82649
 lon = -86.38166
 website = "https://candsmachine.com"
+presumed_closed_reason = "Verification check: the company operates elsewhere, not at this address. C&S Machine operates (2026 site) from 2929 Saratore Dr, Niles, MI after leaving its Buchanan buildings. Source: https://candsmachine.com"
+presumed_closed = "2026-11-13"
 uei = "MPDCLN4MHM75"
 
 sector = "Metal"

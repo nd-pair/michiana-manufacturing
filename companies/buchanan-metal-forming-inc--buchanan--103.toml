@@ -9,6 +9,8 @@ address = "103 West Smith Street, Buchanan, MI 49107"
 lat = 41.82298
 lon = -86.36166
 website = "https://bmfcorp.com"
+verified_note = "Live company site (2007-2026 copyright); directories give 103 W Smith St, though the site excerpt shows no street address and one Yellow Pages entry says closed. Source: https://bmfcorp.com"
+verified = "2026-11-13"
 
 sector = "Metal"
 products = ["Metal Stamping"]

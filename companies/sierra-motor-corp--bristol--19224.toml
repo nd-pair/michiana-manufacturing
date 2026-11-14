@@ -9,6 +9,8 @@ address = "19224 County Road 8, Bristol, IN 46507"
 lat = 41.72299
 lon = -85.83644
 website = "https://sierrainteriors.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. sierrainteriors.com redirects to a GoDaddy domain-for-sale page; no other trace of the company at this address. Source: https://sierrainteriors.com"
+presumed_closed = "2026-11-13"
 
 sector = "Vehicles & RVs"
 products = ["All Other Motor Vehicle Parts Manufacturing"]

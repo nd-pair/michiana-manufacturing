@@ -8,6 +8,8 @@ state = "MI"
 address = "1652 East Empire Avenue, Benton Harbor, MI 49022"
 lat = 42.10117
 lon = -86.41821
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Nothing found for 1652 E Empire Ave; an undated FMCSA-based listing places Blossomland Container at 1470 E Empire Ave. Source: https://loadwrap.com/company/165789-blossomland-container-corporation"
+presumed_closed = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Corrugated and Solid Fiber Box Manufacturing"]

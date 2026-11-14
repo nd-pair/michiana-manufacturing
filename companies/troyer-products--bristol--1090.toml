@@ -8,6 +8,8 @@ state = "IN"
 address = "1090 Bloomingdale Drive, Bristol, IN 46507"
 lat = 41.71213
 lon = -85.81408
+presumed_closed_reason = "Verification check: no current trace of this company at this address. No listing found for the company or for 1090 Bloomingdale Dr. Source: https://www.bbb.org/us/in/bristol/category/producers"
+presumed_closed = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Coated and Laminated Paper Manufacturing"]

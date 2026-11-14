@@ -9,6 +9,8 @@ address = "1650 East Empire Avenue, Benton Harbor, MI 49022"
 lat = 42.10118
 lon = -86.41823
 website = "https://statetool.com"
+verified_note = "Live website lists 1650 East Empire Ave and carries an ISO 9001 certificate uploaded June 2026. Source: https://statetool.com"
+verified = "2026-11-13"
 
 sector = "Electronics"
 products = ["Current-Carrying Wiring Device Manufacturing"]

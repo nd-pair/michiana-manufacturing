@@ -9,6 +9,8 @@ address = "303 South Harris Street, Bourbon, IN 46504"
 lat = 41.29344
 lon = -86.11346
 website = "https://bourbonplastics.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. bourbonplastics.com redirects to a domain-for-sale page and only an undated directory listing exists for 303 S Harris St. Source: https://www.hugedomains.com/domain_profile.cfm?d=bourbonplastics.com"
+presumed_closed = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["All Other Plastics Product Manufacturing"]

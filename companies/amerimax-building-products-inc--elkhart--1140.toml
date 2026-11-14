@@ -9,6 +9,8 @@ address = "1140 All Pro Drive, Elkhart, IN 46514"
 lat = 41.72933
 lon = -85.99413
 website = "https://amerimaxbp.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. No source found for Amerimax at 1140 All Pro Drive; amerimaxbp.com now redirects to an unrelated site. Source: https://web.archive.org/web/20251206031853/https://amerimaxbp.com/"
+presumed_closed = "2026-11-13"
 
 sector = "Metal"
 products = ["Other Aluminum Rolling and Drawing"]

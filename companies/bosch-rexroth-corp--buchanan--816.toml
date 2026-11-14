@@ -9,6 +9,8 @@ address = "816 East 3rd Street, Buchanan, MI 49107"
 lat = 41.83016
 lon = -86.35164
 website = "https://boschrexroth-us.com"
+presumed_closed_reason = "Verification check: the company operates elsewhere, not at this address. A trade item says Bosch Rexroth consolidated its Buchanan unit into its St. Joseph facility (undated); could not confirm what occupies 816 E 3rd St. Source: https://moodyonthemarket.com/?p=236996"
+presumed_closed = "2026-11-13"
 
 sector = "Mechatronics & automation"
 products = ["Conveyor and Conveying Equipment Manufacturing"]

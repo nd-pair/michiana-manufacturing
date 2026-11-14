@@ -9,6 +9,8 @@ address = "1227 West Beardsley Avenue, Elkhart, IN 46514"
 lat = 41.69240
 lon = -85.99268
 website = "https://impressionsprint.net"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Domain is gone with last Wayback capture in 2014 and no Elkhart listing found. Source: http://web.archive.org/web/20141217154334/http://impressionsprint.net/"
+presumed_closed = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Other Commercial Printing"]

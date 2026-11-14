@@ -9,6 +9,8 @@ address = "10625 State Road 10, Argos, IN 46501"
 lat = 41.23774
 lon = -86.26313
 website = "https://vanadco.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. BBB and directory listings give this address but are undated, the live site shows only a phone number and a 2018 copyright, so no dated 2023+ evidence was found. Source: https://www.bbb.org/us/in/argos/category/signs"
+presumed_closed = "2026-11-13"
 
 sector = "Medical devices & other"
 products = ["Sign Manufacturing"]

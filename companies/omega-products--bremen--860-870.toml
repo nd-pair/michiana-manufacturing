@@ -9,6 +9,8 @@ address = "860-870 Legner Street, Bremen, IN 46506"
 lat = 41.45212
 lon = -86.13951
 website = "https://omega-prod.com"
+presumed_closed_reason = "Verification check: renamed or acquired, but the new name is not tied to this address (Omega Process Solutions). Omega Process Solutions, a Bremen contract manufacturer, is listed at 860/870 Legner Drive in a 2024 directory, but a formal rename from Omega Products is not confirmed. Source: https://mep.purdue.edu/made-in-indiana/company/omega-process-solutions/"
+presumed_closed = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["Rubber and Plastics Hoses and Belting Manufacturing"]

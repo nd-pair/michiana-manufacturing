@@ -9,6 +9,8 @@ address = "306 Depot Street, Bristol, IN 46507"
 lat = 41.71793
 lon = -85.81787
 website = "https://merhow.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Merhow Trailers site is live (2026 copyright) and a review places it in Bristol, but no source gives or confirms 306 Depot St. Source: https://merhow.com"
+presumed_closed = "2026-11-13"
 
 sector = "Vehicles & RVs"
 products = ["Truck Trailer Manufacturing"]

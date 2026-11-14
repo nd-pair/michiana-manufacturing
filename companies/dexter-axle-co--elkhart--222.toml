@@ -9,6 +9,8 @@ address = "222 Collins Road, Elkhart, IN 46516"
 lat = 41.68936
 lon = -85.92171
 website = "https://dexteraxle.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Dexter's current location list omits 222 Collins Road; only a Panjiva trade record (2016 shipment) ties it to Dexter. Source: https://dextergroup.com/about/locations"
+presumed_closed = "2026-11-13"
 
 sector = "Vehicles & RVs"
 products = ["Motor Vehicle Transmission and Power Train Parts Manufacturing"]

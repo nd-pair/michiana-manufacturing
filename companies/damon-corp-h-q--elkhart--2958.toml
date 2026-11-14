@@ -9,6 +9,8 @@ address = "2958 Gateway Drive, Elkhart, IN 46514"
 lat = 41.73013
 lon = -86.00915
 website = "https://damonrv.com"
+presumed_closed_reason = "Verification check: renamed or acquired, but the new name is not tied to this address (Thor Motor Coach). Thor acquired Damon in 2003 and merged it into Thor Motor Coach in 2010; Thor's listed plants are on other streets and no current source confirms 2958 Gateway Drive. Source: https://www.rv.com/archive/thor-industries-acquires-damon/"
+presumed_closed = "2026-11-13"
 
 sector = "Vehicles & RVs"
 products = ["Motor Home Manufacturing"]

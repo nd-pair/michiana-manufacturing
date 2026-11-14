@@ -9,6 +9,8 @@ address = "29391 Old US 33, Elkhart, IN 46516"
 lat = 41.66762
 lon = -86.02917
 website = "https://duncansys.com"
+presumed_closed_reason = "Verification check: the company operates elsewhere, not at this address. Duncan Systems was acquired by Lippert and its site (duncansys.com redirects to rvglass.com) lists Mishawaka and Bristol locations, not 29391 Old US 33; last customs record at this address 2018. Source: https://www.rvglass.com/"
+presumed_closed = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["Glass Product Manufacturing Made of Purchased Glass"]

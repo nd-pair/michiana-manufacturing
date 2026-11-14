@@ -9,6 +9,8 @@ address = "2602 Marina Drive, Elkhart, IN 46514"
 lat = 41.72162
 lon = -85.91674
 website = "https://asaelectronics.com"
+verified_note = "ASA Electronics' live website is current (mobile electronics); the page text retrieved did not show the 2602 Marina Dr address. Source: https://asaelectronics.com/"
+verified = "2026-11-13"
 
 sector = "Vehicles & RVs"
 products = ["Motor Home Manufacturing"]

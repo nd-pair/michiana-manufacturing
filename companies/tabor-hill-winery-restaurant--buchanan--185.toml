@@ -9,6 +9,8 @@ address = "185 Mount Tabor Road, Buchanan, MI 49107"
 lat = 41.91420
 lon = -86.45153
 website = "https://taborhill.com"
+verified_note = "Winery released new estate wines in July 2026 at 185 Mount Tabor Rd per its directory listing; taborhill.com is live. Source: https://bevnet.com/pr/2026/07/25/tabor-hill-winery-debuts-two-limitedrelease-estate-wines-showcasing-the-potential-of-michigan-winemaking"
+verified = "2026-11-13"
 
 sector = "Food & consumer goods"
 products = ["Wineries"]

@@ -9,6 +9,8 @@ address = "2201 Industrial Parkway, Elkhart, IN 46516"
 lat = 41.68638
 lon = -85.92958
 website = "https://jjbabbitt.com"
+verified_note = "Live website with 2026 copyright lists JJ Babbitt Company at 2201 Industrial Pkwy, Elkhart (mouthpiece manufacturer). Source: https://www.jjbabbitt.com/"
+verified = "2026-11-13"
 
 sector = "Medical devices & other"
 products = ["Musical Instrument Manufacturing"]

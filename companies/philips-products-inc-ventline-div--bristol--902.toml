@@ -1,14 +1,16 @@
 # Philips Products Inc., Ventline Div.
 # Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
 
-name = "Philips Products Inc., Ventline Div."
+name = "Ventline (Dexter Group)"
 kind = "company"
 city = "Bristol"
 state = "IN"
 address = "902 South Division Street, Bristol, IN 46507"
 lat = 41.71310
 lon = -85.81689
-website = "https://ventline.com"
+verified = "2026-11-13"
+status_note = "Renamed in a verification check (2026-11-13): ventline.com now shows Dexter Group vent products manufactured in Bristol, and directories list 902 S Division St under Dexter. Source: https://ventline.com"
+formerly = "Philips Products Inc., Ventline Div."
 
 sector = "Mechatronics & automation"
 products = ["Industrial and Commercial Fan and Blower Manufacturing"]

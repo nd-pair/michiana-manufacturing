@@ -8,6 +8,8 @@ state = "IN"
 address = "28858 County Road 20 West, Elkhart, IN 46517"
 lat = 41.65775
 lon = -86.01992
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Searches for the company and the County Road 20 address returned nothing relevant."
+presumed_closed = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["Glass Product Manufacturing Made of Purchased Glass"]

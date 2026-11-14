@@ -9,6 +9,8 @@ address = "2994 Paul Drive, Elkhart, IN 46514"
 lat = 41.72944
 lon = -86.01932
 website = "https://chariotrv.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Domain chariotrv.com now redirects to a domain-for-sale page; the only address evidence is an old magazine article and an undated forum claim of a sale to Gold Rush Trailers. Source: https://familyrvingmag.com/?p=493"
+presumed_closed = "2026-11-13"
 
 sector = "Vehicles & RVs"
 products = ["Motor Home Manufacturing"]

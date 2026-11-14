@@ -8,6 +8,8 @@ state = "IN"
 address = "1701 Conant Street, Elkhart, IN 46516"
 lat = 41.68523
 lon = -85.93871
+presumed_closed_reason = "Verification check: no current trace of this company at this address. No listing found for Esco Industries of Indiana or any occupant at 1701 Conant Street."
+presumed_closed = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["Gypsum Product Manufacturing"]

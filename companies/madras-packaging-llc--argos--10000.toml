@@ -9,6 +9,8 @@ address = "10000 17th Road, Argos, IN 46501"
 lat = 41.23117
 lon = -86.25472
 website = "https://madraspkg.com"
+presumed_closed_reason = "Verification check: renamed or acquired, but the new name is not tied to this address (Altium Packaging). Madras Packaging was acquired by Consolidated Container (now Altium Packaging) in 2012, and the Argos blow-molding plant is listed at 300 Dewey St, not 10000 17th Rd; madraspkg.com is live but shows no address. Source: https://www.cbinsights.com/company/madras-packaging"
+presumed_closed = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["All Other Plastics Product Manufacturing"]

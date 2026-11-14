@@ -9,6 +9,8 @@ address = "19300 Grange Street, Cassopolis, MI 49031"
 lat = 41.78883
 lon = -85.94171
 website = "https://amerikart.com"
+presumed_closed_reason = "Verification check: the company operates elsewhere, not at this address. Ameri-Kart (Myers Industries) relocated operations into a new plant at 1667 Commerce Dr, Bristol, IN, planned complete by early 2021; a trucking firm is listed at 19300 Grange St. Source: https://www.areadevelopment.com/newsItems/6-8-2020/ameri-kart-north-industrial-park-elkhart-county-indiana.shtml"
+presumed_closed = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["Other Concrete Product Manufacturing"]

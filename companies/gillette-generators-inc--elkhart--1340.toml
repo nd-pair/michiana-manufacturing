@@ -9,6 +9,8 @@ address = "1340 Wade Drive, Elkhart, IN 46514"
 lat = 41.72674
 lon = -86.00114
 website = "https://gillettegenerators.com"
+presumed_closed_reason = "Verification check: the company operates elsewhere, not at this address. Company website lists 2921 Thorne Drive; Wade Drive appears only in older directory listings. Source: https://gillettegenerators.com"
+presumed_closed = "2026-11-13"
 
 humanoid_not = ["motors"]
 humanoid_note = "Assembles generators, not motors for robots."

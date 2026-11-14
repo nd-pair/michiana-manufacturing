@@ -9,6 +9,8 @@ address = "2745 Northland Drive, Elkhart, IN 46514"
 lat = 41.72287
 lon = -85.93387
 website = "https://dynamaxcorp.com"
+verified_note = "Live site with 2026 copyright lists Dynamax RV, a division of Forest River, at 2745 Northland Drive, Elkhart. Source: https://dynamaxcorp.com"
+verified = "2026-11-13"
 
 sector = "Vehicles & RVs"
 products = ["Motor Home Manufacturing"]

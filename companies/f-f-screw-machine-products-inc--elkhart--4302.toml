@@ -10,6 +10,8 @@ address = "4302 Wyland Drive, Elkhart, IN 46516"
 lat = 41.69233
 lon = -85.90436
 website = "https://ffmpinc.com"
+verified_note = "Live site lists 4302 Wyland Drive, Elkhart, with ISO 9001:2015 and ISO 13485:2016 certification. Source: https://ffmpinc.com"
+verified = "2026-11-13"
 status_note = "Renamed from F & F Screw Machine Products in 2014."
 
 sector = "Metal"

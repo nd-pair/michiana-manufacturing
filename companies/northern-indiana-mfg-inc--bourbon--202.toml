@@ -8,6 +8,8 @@ state = "IN"
 address = "202 South Ecker Avenue, Bourbon, IN 46504"
 lat = 41.29429
 lon = -86.12135
+verified_note = "Northern Indiana Manufacturing is listed at 202 S Ecker Ave and posted a maintenance-worker job in Dec 2024. Source: https://carrierowl.com/carrier/670682"
+verified = "2026-11-13"
 
 sector = "Metal"
 products = ["Machine Shops"]

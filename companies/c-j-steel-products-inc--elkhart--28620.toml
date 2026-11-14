@@ -8,6 +8,8 @@ state = "IN"
 address = "28620 County Road 20, Elkhart, IN 46517"
 lat = 41.65730
 lon = -86.01591
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Undated directory listings show C&J Steel Products, C&J Steel Tube Products and Quality Steel & Aluminum at this address, with no dated evidence of operation. Source: https://naicslist.com/company-profile/cj-steel-fabrication-inc-elkhart-in-46517"
+presumed_closed = "2026-11-13"
 
 sector = "Vehicles & RVs"
 products = ["Truck Trailer Manufacturing"]

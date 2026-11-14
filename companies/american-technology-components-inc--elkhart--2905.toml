@@ -9,6 +9,8 @@ address = "2905 Lavanture Place, Elkhart, IN 46514"
 lat = 41.72710
 lon = -85.99728
 website = "https://atcomp.com"
+verified_note = "Directories and news list ATC headquartered at 2905 Lavanture Place; atcomp.com no longer resolves but the Wayback Machine has an August 2026 capture (content not readable), so evidence is weak. Source: https://naicslist.com/company-profile/american-technology-components-inc-elkhart-in-46514"
+verified = "2026-11-13"
 
 sector = "Electronics"
 products = ["Other Electronic Component Manufacturing"]

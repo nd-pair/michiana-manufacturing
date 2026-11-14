@@ -9,6 +9,8 @@ address = "1500 West Hively Avenue, Elkhart, IN 46517"
 lat = 41.65999
 lon = -85.99051
 website = "https://epw.com"
+presumed_closed_reason = "Verification check: another business is at this address now (VMW Tooling Group LLC). A directory lists VMW Tooling Group, a machine shop, at 1500 W Hively Ave; epw.com is an unrelated UK training firm and no Elkhart Pattern Works listing was found. Source: https://naicslist.com/company-profile/vmw-tooling-group-llc-elkhart-in-46517"
+presumed_closed = "2026-11-13"
 
 sector = "Mechatronics & automation"
 products = ["Industrial Mold Manufacturing"]

@@ -9,6 +9,8 @@ address = "195 Michigan Street, Benton Harbor, MI 49022"
 lat = 42.11432
 lon = -86.45443
 website = "https://batsonprinting.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Domain no longer resolves (last Wayback capture 2018) and the only recent trace is 2020-2021 customs records at this address; no 2023+ evidence found. Source: https://panjiva.com/Batson-Printing-Spc/5514198"
+presumed_closed = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Commercial Lithographic Printing"]

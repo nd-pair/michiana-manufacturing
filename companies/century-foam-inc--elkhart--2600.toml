@@ -9,6 +9,8 @@ address = "2600 South Nappanee Street, Elkhart, IN 46517"
 lat = 41.66069
 lon = -86.00272
 website = "https://centuryfoam.com"
+verified_note = "Live company website shows 2600 S. Nappanee St., Elkhart with phone and business hours. Source: https://centuryfoam.com"
+verified = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["Polystyrene Foam Product Manufacturing"]

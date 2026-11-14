@@ -8,6 +8,8 @@ state = "IN"
 address = "21594 Beck Drive, Elkhart, IN 46516"
 lat = 41.69499
 lon = -85.87841
+presumed_closed_reason = "Verification check: no current trace of this company at this address. No listing found for Customwood or for this address on Beck Drive. Source: https://bbb.org/us/in/elkhart/category/woodworking"
+presumed_closed = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["All Other Miscellaneous Wood Product Manufacturing"]

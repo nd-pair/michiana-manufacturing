@@ -8,7 +8,8 @@ state = "IN"
 address = "1115 West North Street, Bremen, IN 46506"
 lat = 41.44762
 lon = -86.16123
-website = "https://copperfieldllc.com"
+presumed_closed_reason = "Verification check: acquired or renamed, but no source ties the new owner to this address. Southwire bought Coleman Cable's Bremen operations in 2014."
+presumed_closed = "2026-11-13"
 
 sector = "Electronics"
 products = ["Other Communication and Energy Wire Manufacturing"]

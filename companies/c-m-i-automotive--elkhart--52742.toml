@@ -9,6 +9,8 @@ address = "52742 Leer Court, Elkhart, IN 46514"
 lat = 41.72774
 lon = -85.94898
 website = "https://cmi-enterprises.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Creditsafe lists CMI Automotive at this address (undated) but the website did not load and no dated evidence of activity was found. Source: https://www.creditsafe.com/business-index/en-ie/company/cmi-automotive-inc-us10989968"
+presumed_closed = "2026-11-13"
 
 sector = "Food & consumer goods"
 products = ["Broadwoven Fabric Mills"]

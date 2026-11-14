@@ -8,6 +8,8 @@ state = "IN"
 address = "1520 Adams Street, Elkhart, IN 46514"
 lat = 41.70295
 lon = -85.96165
+presumed_closed_reason = "Verification check: no current trace of this company at this address. No listing for this company or address found."
+presumed_closed = "2026-11-13"
 
 sector = "Food & consumer goods"
 products = ["Men's and Boys' Cut and Sew Apparel Contractors"]

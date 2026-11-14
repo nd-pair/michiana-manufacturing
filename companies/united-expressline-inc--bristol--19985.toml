@@ -1,14 +1,16 @@
 # United Expressline, Inc.
 # Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
 
-name = "United Expressline, Inc."
+name = "United Trailers"
 kind = "company"
 city = "Bristol"
 state = "IN"
 address = "19985 County Road 8, Bristol, IN 46507"
 lat = 41.71760
 lon = -85.84906
-website = "https://united-trailers.com"
+verified = "2026-11-13"
+status_note = "Renamed in a verification check (2026-11-13): Same plant trades as United Trailers (NHTSA legal name change 2012); site live with 2026 copyright but shows no street address. Source: https://united-trailers.com"
+formerly = "United Expressline, Inc."
 
 sector = "Vehicles & RVs"
 products = ["Truck Trailer Manufacturing"]

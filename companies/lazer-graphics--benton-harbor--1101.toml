@@ -9,6 +9,8 @@ address = "1101 Pipestone Road, Benton Harbor, MI 49022"
 lat = 42.09879
 lon = -86.43596
 website = "https://lazergraphicsinc.com"
+presumed_closed_reason = "Verification check: the company operates elsewhere, not at this address. Company's own profile says it began on Pipestone Rd and now operates from a 16,000 sq ft facility at 3001 S State St, St. Joseph; the Pipestone listing is older. Source: https://www.moodyonthemarket.com/?p=262160"
+presumed_closed = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Commercial Screen Printing"]

@@ -8,7 +8,8 @@ state = "IN"
 address = "4911 Green Court, Elkhart, IN 46516"
 lat = 41.68325
 lon = -85.89341
-website = "https://agile-resources.com"
+presumed_closed_reason = "Verification check: acquired or renamed, but no source ties the new owner to this address. agile-resources.com redirects to Lippert's site."
+presumed_closed = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["All Other Plastics Product Manufacturing"]

@@ -9,6 +9,8 @@ address = "1225 Milton Street, Benton Harbor, MI 49022"
 lat = 42.09559
 lon = -86.43762
 website = "https://koproducts.com"
+verified_note = "Live company website describes current stamping operations and IATF 16949 certification at 1225 Milton St, though the page carries no date. Source: https://koproducts.com"
+verified = "2026-11-13"
 
 sector = "Metal"
 products = ["Metal Stamping"]

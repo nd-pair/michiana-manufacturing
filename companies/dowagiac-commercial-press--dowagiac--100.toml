@@ -8,6 +8,8 @@ state = "MI"
 address = "100 Lagrange Street, Dowagiac, MI 49047"
 lat = 41.98270
 lon = -86.10529
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Searches for the name and address returned only real-estate sale/lease listings for 100 Lagrange St, no business named Dowagiac Commercial Press. Source: https://www.crexi.com/properties/2420923/michigan-100-lagrange"
+presumed_closed = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Other Commercial Printing"]

@@ -8,6 +8,8 @@ state = "MI"
 address = "9220 1st Street, Baroda, MI 49101"
 lat = 41.95220
 lon = -86.48604
+presumed_closed_reason = "Verification check: the company operates elsewhere, not at this address. Midwest Die is listed with a Stevensville address (7059 Red Arrow Hwy) and was sold to Lateral Industries; no listing was found for it at 9220 1st St. Source: https://www.caldergr.com/?p=31347"
+presumed_closed = "2026-11-13"
 
 sector = "Mechatronics & automation"
 products = ["Industrial Mold Manufacturing"]

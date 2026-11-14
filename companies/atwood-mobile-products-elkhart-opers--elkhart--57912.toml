@@ -8,7 +8,8 @@ state = "IN"
 address = "57912 Charlotte Avenue, Elkhart, IN 46517"
 lat = 41.65352
 lon = -86.00984
-website = "https://atwoodmobile.com"
+presumed_closed_reason = "Verification check: acquired or renamed, but no source ties the new owner to this address. Atwood is now a Dometic brand; atwoodmobile.com is dead."
+presumed_closed = "2026-11-13"
 
 sector = "Vehicles & RVs"
 products = ["Motor Vehicle Seating and Interior Trim Manufacturing"]

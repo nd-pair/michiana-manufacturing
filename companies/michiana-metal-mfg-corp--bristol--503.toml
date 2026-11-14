@@ -8,6 +8,8 @@ state = "IN"
 address = "503 Bloomingdale Drive, Bristol, IN 46507"
 lat = 41.71155
 lon = -85.81573
+presumed_closed_reason = "Verification check: no current trace of this company at this address. No listing found for the company or for 503 Bloomingdale Dr. Source: https://www.dnb.com/business-directory/company-information.fabricated_metal_product_manufacturing.us.indiana.html"
+presumed_closed = "2026-11-13"
 
 sector = "Vehicles & RVs"
 products = ["All Other Motor Vehicle Parts Manufacturing"]

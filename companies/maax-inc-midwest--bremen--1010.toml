@@ -9,6 +9,8 @@ address = "1010 West Dewey Street, Bremen, IN 46506"
 lat = 41.45031
 lon = -86.15674
 website = "https://maax.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Only undated directory and customs listings tie MAAX to 1010 W Dewey St; MAAX's live site names no Bremen plant. Source: https://phoenix.aws.mapquest.com/us/indiana/maax-midwest-388253319"
+presumed_closed = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["Mineral Wool Manufacturing"]

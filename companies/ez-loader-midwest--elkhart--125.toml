@@ -9,6 +9,8 @@ address = "125 West Belvedere Road, Elkhart, IN 46514"
 lat = 41.73039
 lon = -85.97900
 website = "https://ezloader.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. EZ Loader's site lists no Elkhart location and MapQuest listings at 125 W Belvedere Rd conflict on open/closed, with no dated evidence. Source: https://ezloader.com"
+presumed_closed = "2026-11-13"
 
 sector = "Vehicles & RVs"
 products = ["Travel Trailer and Camper Manufacturing"]

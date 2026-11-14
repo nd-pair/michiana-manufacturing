@@ -9,6 +9,8 @@ address = "52765 Bridger Court, Elkhart, IN 46514"
 lat = 41.72726
 lon = -85.91040
 website = "https://actia.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. actia.com is live but showed no Elkhart or Bridger Court address, and the address search was not completed. Source: https://www.actia.com"
+presumed_closed = "2026-11-13"
 
 sector = "Electronics"
 products = ["Other Electronic Component Manufacturing"]

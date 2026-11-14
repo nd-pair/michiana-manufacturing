@@ -9,6 +9,8 @@ address = "21279 Protecta Drive, Elkhart, IN 46516"
 lat = 41.69742
 lon = -85.87536
 website = "https://chemosafety.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Domain is a for-sale placeholder and no other trace of the company was found. Source: https://chemosafety.com"
+presumed_closed = "2026-11-13"
 
 sector = "Electronics"
 products = ["Electromedical and Electrotherapeutic Apparatus Manufacturing"]

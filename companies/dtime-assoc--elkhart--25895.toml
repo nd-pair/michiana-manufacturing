@@ -8,6 +8,8 @@ state = "IN"
 address = "25895 Miner Road, Elkhart, IN 46514"
 lat = 41.71464
 lon = -85.96419
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Searches for Dtime Assoc. and the Miner Road address returned nothing relevant."
+presumed_closed = "2026-11-13"
 
 sector = "Vehicles & RVs"
 products = ["Motor Home Manufacturing"]

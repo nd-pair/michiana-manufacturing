@@ -9,6 +9,8 @@ address = "9886 North Tudor Road, Berrien Springs, MI 49103"
 lat = 41.94036
 lon = -86.34495
 website = "https://premierdiecast.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. A 2016 report says employees were moved to MV Metal Products & Solutions, premierdiecast.com is now a domain-for-sale page, and only undated directory listings remain for 9886 N Tudor Rd. Source: https://moodyonthemarket.com/?p=231460"
+presumed_closed = "2026-11-13"
 
 sector = "Metal"
 products = ["Aluminum Die-Casting Foundries"]

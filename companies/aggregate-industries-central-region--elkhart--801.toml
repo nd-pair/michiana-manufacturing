@@ -9,6 +9,8 @@ address = "801 North Nappanee Street, Elkhart, IN 46514"
 lat = 41.69287
 lon = -86.00387
 website = "https://aggregate.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. No source found for an Aggregate Industries plant at 801 N Nappanee St; aggregate.com now redirects to Holcim and the only nearby listing is a Nappanee address. Source: https://www.fastdol.com/employers/aggregate-industries-bf4dd306-3ddd-ebdf-bf5a-ad56fb15487b"
+presumed_closed = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["Ready-Mix Concrete Manufacturing"]

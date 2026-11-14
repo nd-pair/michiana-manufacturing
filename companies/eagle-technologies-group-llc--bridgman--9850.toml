@@ -1,14 +1,16 @@
 # Eagle Technologies Group, LLC
 # Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
 
-name = "Eagle Technologies Group, LLC"
+name = "Convergix Automation Solutions"
 kind = "company"
 city = "Bridgman"
 state = "MI"
 address = "9850 Red Arrow Highway, Bridgman, MI 49106"
 lat = 41.94045
 lon = -86.56544
-website = "https://eagletechnologies.com"
+verified = "2026-11-13"
+status_note = "Renamed in a verification check (2026-11-13): eagletechnologies.com redirects to Convergix, whose locations page lists a Bridgman site at 9850 Red Arrow Highway; Eagle is not named there. Source: https://convergixautomation.com/locations/"
+formerly = "Eagle Technologies Group, LLC"
 
 sector = "Electronics"
 products = ["Instrument Manufacturing for Measuring and Testing Electricity and Electrical Signals"]

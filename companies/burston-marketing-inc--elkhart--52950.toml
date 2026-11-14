@@ -9,6 +9,8 @@ address = "52950 Frederic Drive, Elkhart, IN 46514"
 lat = 41.72510
 lon = -85.90896
 website = "https://burston.com"
+presumed_closed_reason = "Verification check: the company operates elsewhere, not at this address. Company website is live but lists 2802 Frederic Drive, not 52950 (possibly a re-numbered or different site); no dated evidence found. Source: https://burston.com"
+presumed_closed = "2026-11-13"
 
 sector = "Food & consumer goods"
 products = ["All Other Miscellaneous Textile Product Mills"]

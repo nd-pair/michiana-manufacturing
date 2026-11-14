@@ -9,6 +9,8 @@ address = "2390 Pipestone Road, Benton Harbor, MI 49022"
 status_note = "A systems integrator bought by MAVERICK Technologies (now Rockwell Automation) in 2014; whether a Benton Harbor office remains is unconfirmed."
 lat = 42.07638
 lon = -86.41746
+presumed_closed_reason = "Verification check: another business is at this address now (Krewe Cannabis Co.). CQS Innovation was acquired by Maverick in 2014 and a cannabis dispensary now lists 2390 Pipestone Rd as its location. Source: https://swmichigan.org/member/krewe-cannabis-co"
+presumed_closed = "2026-11-13"
 
 sector = "Electronics"
 products = ["Switchgear and Switchboard Apparatus Manufacturing"]

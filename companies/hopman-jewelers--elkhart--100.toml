@@ -9,6 +9,8 @@ address = "100 North Main Street, Elkhart, IN 46516"
 lat = 41.68775
 lon = -85.97329
 website = "https://hopmanjewelers.com"
+removed_reason = "not a production site (service or retail), found in a verification check: Live site shows 100 N Main St with current holiday sale and Winterfest events; a jeweler with some manufacturing."
+removed = "2026-11-13"
 
 sector = "Medical devices & other"
 products = ["Jewelry (except Costume) Manufacturing"]

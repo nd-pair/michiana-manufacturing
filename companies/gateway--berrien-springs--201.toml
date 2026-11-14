@@ -9,6 +9,8 @@ address = "201 Sylvester Street, Berrien Springs, MI 49103"
 lat = 41.94353
 lon = -86.34559
 website = "https://gatewayvro.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. gatewayvro.com is an unrelated silicon carbide products site and no paper mill or business was found at 201 Sylvester St. Source: https://gatewayvro.com"
+presumed_closed = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Paper (except Newsprint) Mills"]

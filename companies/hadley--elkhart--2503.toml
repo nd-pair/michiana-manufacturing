@@ -8,7 +8,8 @@ state = "IN"
 address = "2503 Marina Drive, Elkhart, IN 46514"
 lat = 41.71875
 lon = -85.91745
-website = "https://hadley-products.com"
+presumed_closed_reason = "Verification check: acquired or renamed, but no source ties the new owner to this address. Hadley sold its Elkhart transit mirror operations to Safe Fleet in 2015; its website is down."
+presumed_closed = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["Glass Product Manufacturing Made of Purchased Glass"]

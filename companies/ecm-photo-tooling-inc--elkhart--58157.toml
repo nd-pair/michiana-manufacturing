@@ -9,6 +9,8 @@ address = "58157 Charlotte Avenue, Elkhart, IN 46517"
 lat = 41.65059
 lon = -86.01057
 website = "https://ecmphototooling.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Domain does not resolve, last Wayback capture was April 2005, and no listing for the company or address was found. Source: https://archive.org/wayback/available?url=ecmphototooling.com"
+presumed_closed = "2026-11-13"
 
 sector = "Metal"
 products = ["Machine Shops"]

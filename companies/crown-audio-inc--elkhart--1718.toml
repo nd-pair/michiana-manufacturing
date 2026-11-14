@@ -9,6 +9,9 @@ address = "1718 West Mishawaka Road, Elkhart, IN 46517"
 lat = 41.65561
 lon = -85.99488
 website = "https://crownaudio.com"
+closed_source = "https://en.wikipedia.org/wiki/Crown_International"
+closed_note = "Harman shut the Crown International headquarters and plant in Elkhart in 2018 and moved manufacturing to Mexico; the Crown brand continues elsewhere."
+closed = "2018"
 
 sector = "Electronics"
 products = ["Audio and Video Equipment Manufacturing"]

@@ -9,6 +9,8 @@ address = "2950 Paul Drive, Elkhart, IN 46514"
 lat = 41.72883
 lon = -86.01933
 website = "https://damonrv.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. damonrv.com redirects to Thor Motor Coach and no source places Damon at 2950 Paul Drive (directories list other Paul Dr and Gateway Dr numbers). Source: https://www.rv.com/archive/thor-industries-acquires-damon/"
+presumed_closed = "2026-11-13"
 
 sector = "Vehicles & RVs"
 products = ["Motor Home Manufacturing"]

@@ -9,6 +9,8 @@ address = "485 Florence Road, Constantine, MI 49042"
 lat = 41.83867
 lon = -85.65955
 website = "https://vaupell.com"
+verified_note = "Vaupell Industrial posted molding machine operator jobs in Constantine in May 2026; FDA record gives 485 Florence Road. Source: https://panjiva.com/Vaupell-Midwest-Molding-Tooling/2152443"
+verified = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["All Other Plastics Product Manufacturing"]

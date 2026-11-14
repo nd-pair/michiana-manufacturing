@@ -8,6 +8,8 @@ state = "IN"
 address = "1301 West Beardsley Avenue, Elkhart, IN 46514"
 lat = 41.69239
 lon = -85.99419
+presumed_closed_reason = "Verification check: reported closed, without a dated source. Wikipedia says the company was sold to Powell in 2009, its brass division went to St. Louis Music in 2015, and the Elkhart plant was then closed. Source: https://en.wikipedia.org/wiki/E._K._Blessing"
+presumed_closed = "2026-11-13"
 
 sector = "Medical devices & other"
 products = ["Musical Instrument Manufacturing"]

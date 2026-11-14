@@ -9,6 +9,8 @@ address = "1 Industrial Drive, Constantine, MI 49042"
 lat = 41.83805
 lon = -85.65599
 website = "https://fibreconverters.com"
+verified_note = "Fibre Converters, Inc. posted a production worker job in Constantine, MI in January 2026. Source: https://www.career.com/job/fibre-converters-inc/production-worker-2nd-shift/j202512141625071231492"
+verified = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Coated and Laminated Paper Manufacturing"]

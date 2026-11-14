@@ -9,6 +9,8 @@ address = "3601 Lexington Park Drive, Elkhart, IN 46514"
 lat = 41.68936
 lon = -86.03139
 website = "https://hingecraft.com"
+verified_note = "Directories list Hingecraft at 3601 Lexington Park Drive; undated and website not fetchable. Source: https://www.mapquest.com/us/indiana/hingecraft-corp-6121001"
+verified = "2026-11-13"
 
 sector = "Metal"
 products = ["Hardware Manufacturing"]

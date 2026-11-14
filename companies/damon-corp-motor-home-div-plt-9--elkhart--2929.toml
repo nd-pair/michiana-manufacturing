@@ -9,6 +9,8 @@ address = "2929 Gateway Drive, Elkhart, IN 46514"
 lat = 41.72998
 lon = -86.01002
 website = "https://damonrv.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Only a bare property record for 2929 Gateway Dr was found; no occupant or Damon plant evidence, and damonrv.com now redirects to Thor Motor Coach. Source: https://www.loopnet.com/property/2929-gateway-dr-elkhart-in-46514/18039-200124401035000006"
+presumed_closed = "2026-11-13"
 
 sector = "Vehicles & RVs"
 products = ["Motor Home Manufacturing"]

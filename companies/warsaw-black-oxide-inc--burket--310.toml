@@ -8,6 +8,8 @@ state = "IN"
 address = "310 South Walnut Street, Burket, IN 46508"
 lat = 41.15442
 lon = -85.96804
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Only undated directory entries (310 Walnut St, Claypool) and an older OSHA record at 545 Walnut, Burket; no evidence of recent operation. Source: https://naicslist.com/company-profile/warsaw-black-oxide-inc-burket-in-46508"
+presumed_closed = "2026-11-13"
 
 sector = "Metal"
 products = ["Electroplating, Plating, Polishing, Anodizing and Coloring"]

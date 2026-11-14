@@ -8,6 +8,8 @@ state = "MI"
 address = "613 Rudy Road, Dowagiac, MI 49047"
 lat = 41.99196
 lon = -86.09888
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Only a CAGE registry listing and BBB category pages show the company at 613 Rudy Rd; no dated evidence or website found. Source: https://cage.report/CAGE/5V7A2"
+presumed_closed = "2026-11-13"
 
 sector = "Mechatronics & automation"
 products = ["Special Die and Tool, Die Set, Jig, and Fixture Manufacturing"]

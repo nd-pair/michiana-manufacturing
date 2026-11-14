@@ -9,6 +9,8 @@ address = "123 Hinkley Street, Benton Harbor, MI 49022"
 lat = 42.11739
 lon = -86.45684
 website = "https://imagemakers.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. imagemakers.com is a domain-for-sale page and no listing for Harbor Graphics at 123 Hinkley St was found. Source: https://siccode.com/business/harbor-graphics-corp"
+presumed_closed = "2026-11-13"
 
 sector = "Medical devices & other"
 products = ["Sign Manufacturing"]

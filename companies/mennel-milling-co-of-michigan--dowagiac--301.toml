@@ -9,6 +9,8 @@ address = "301 South Mill Street, Dowagiac, MI 49047"
 lat = 41.98263
 lon = -86.10201
 website = "https://mennel.com"
+verified_note = "Dowagiac Chamber and supplier listings give the mill at 301 S Mill St and multiple Dowagiac job postings exist, but the postings I saw were undated. Source: https://dowagiacchamber.com/find-a-member/find-a-member-by-tag?tag=29"
+verified = "2026-11-13"
 
 sector = "Food & consumer goods"
 products = ["Flour Milling"]

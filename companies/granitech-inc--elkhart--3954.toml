@@ -9,6 +9,8 @@ address = "3954 Lexington Park Drive, Elkhart, IN 46514"
 lat = 41.69081
 lon = -86.02456
 website = "https://granitech.net"
+presumed_closed_reason = "Verification check: the company operates elsewhere, not at this address. Granitech's site and listings show a showroom at 30561 Old US 20, not Lexington Park Drive. Source: https://granitech.net"
+presumed_closed = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["Cut Stone and Stone Product Manufacturing"]

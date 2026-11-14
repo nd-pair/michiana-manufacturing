@@ -9,6 +9,8 @@ address = "1009 Maple Street, Bristol, IN 46507"
 lat = 41.71147
 lon = -85.82248
 website = "https://earthway.com"
+verified_note = "Live EarthWay site (2026) says its equipment is built in Bristol, Indiana; page itself does not print the 1009 Maple St address. Source: https://earthway.com"
+verified = "2026-11-13"
 
 sector = "Mechatronics & automation"
 products = ["Farm Machinery and Equipment Manufacturing"]

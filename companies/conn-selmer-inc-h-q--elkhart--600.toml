@@ -9,6 +9,8 @@ address = "600 Industrial Parkway, Elkhart, IN 46516"
 lat = 41.68396
 lon = -85.93418
 website = "https://conn-selmer.com"
+removed_reason = "not a production site (office or hq), found in a verification check: July 2026 company release is datelined Elkhart and names it as headquarters; the 600 Industrial Parkway street number itself was not stated on that page."
+removed = "2026-11-13"
 
 sector = "Medical devices & other"
 products = ["Musical Instrument Manufacturing"]

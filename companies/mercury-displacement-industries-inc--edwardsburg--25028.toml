@@ -9,6 +9,8 @@ address = "25028 US Highway 12 East, Edwardsburg, MI 49112"
 lat = 41.79842
 lon = -86.05059
 website = "https://mdius.com"
+verified_note = "MDI Inc. website is live, shows 25028 U.S. 12 East, Edwardsburg, copyright through 2026 and 2025-dated promotions. Source: https://www.mdius.com"
+verified = "2026-11-13"
 
 sector = "Electronics"
 products = ["Other Electronic Component Manufacturing"]

@@ -78,6 +78,7 @@ Field by field:
 | `standalone` | no | `true` keeps an entry out of automatic grouping, e.g. a fund whose page lives on another organization's site |
 | `manufacturer` | no | `false` leaves the company out of every count (on the map still); `true` counts it. Without it, NAICS 31–33 and hand-written companies count, and software firms, SBIR research firms with no production, investors and universities do not |
 | `presumed_closed`, `presumed_closed_reason` | no | Date of a verification check that found an imported record closed without a dated source, or with no current trace; the entry is left off the map until a same-name OSHA filing or a dated source shows it operating (see CURATION.md) |
+| `verified`, `verified_note` | no | Date and finding of a verification check that found the plant operating at this address (`scripts/apply_checks.py`); later checks can skip it |
 | `osha_occupant` | no | Set by `scripts/import_osha.py` when another name filed with OSHA at this file's address: a successor, rename or new tenant to review. Shown on the card |
 | `uei` | no | Unique Entity ID; federal and SBIR awards then match exactly. Filled in automatically once a unique name match is found |
 | `location_precision` | no | `"city"` when lat/lon is a city center rather than the address (used for SBIR firms) |
@@ -96,7 +97,8 @@ closing notices matched to a plant whose closing date has passed (`scripts/pull_
 `data/warn.json`; Michigan publishes no table), and plants that filed with OSHA one year but not the
 next. A dead website is a lead, not proof; confirm each
 closure from a dated source before marking it. Sample audits of the imported records, with every finding and its source, are in
-[`audits/`](audits/) (November 2026: 100 HIFLD records).
+[`audits/`](audits/) (November 2026: 100 HIFLD records, then the rest in batches). `scripts/apply_checks.py`
+applies a batch of per-record web findings under CURATION.md and logs each action to a CSV.
 
 **Positions.** If you give an address but no `lat`/`lon`, run `python3 scripts/geocode.py` and it
 looks the address up on OpenStreetMap and writes the coordinates into the file. Check the result

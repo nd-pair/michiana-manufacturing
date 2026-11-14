@@ -8,6 +8,8 @@ state = "MI"
 address = "304 East Division Street, Dowagiac, MI 49047"
 lat = 41.98348
 lon = -86.10482
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Birdeye, BBB and Chamber listings show Preferred Printing at 304 E Division St with weekday hours, but none are dated. Source: https://reviews.birdeye.com/preferred-printing-148655921610819"
+presumed_closed = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Other Commercial Printing"]

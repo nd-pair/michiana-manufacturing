@@ -8,6 +8,8 @@ state = "MI"
 address = "15512 Walton Road, Buchanan, MI 49107"
 lat = 41.83882
 lon = -86.34343
+presumed_closed_reason = "Verification check: no current trace of this company at this address. No listing found for the company or 15512 Walton Rd. Source: https://www.bbb.org/us/mi/buchanan/category/plastics"
+presumed_closed = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["All Other Plastics Product Manufacturing"]

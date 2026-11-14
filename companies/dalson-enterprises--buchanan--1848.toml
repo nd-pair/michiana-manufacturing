@@ -8,6 +8,8 @@ state = "MI"
 address = "1848 Grange Road, Buchanan, MI 49107"
 lat = 41.90657
 lon = -86.41429
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Only a bare directory name (Dalson Enterprise Inc, Buchanan) with no address, products or dates. Source: https://brokersnapshot.com/CatalogCompanies/mi/buchanan"
+presumed_closed = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Truss Manufacturing"]

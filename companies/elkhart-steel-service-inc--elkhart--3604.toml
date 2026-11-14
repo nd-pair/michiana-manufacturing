@@ -9,6 +9,8 @@ address = "3604 Henke Street, Elkhart, IN 46514"
 lat = 41.71729
 lon = -85.91475
 website = "https://elkhartsteel.com"
+removed_reason = "not a production site (service or retail), found in a verification check: Live site (2024 footer) shows 3604 Henke St as a steel warehouse and processor with next-day delivery."
+removed = "2026-11-13"
 
 sector = "Metal"
 products = ["Iron and Steel Mills"]

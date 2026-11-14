@@ -9,6 +9,8 @@ address = "53706 County Road 9, Elkhart, IN 46514"
 lat = 41.71487
 lon = -85.96588
 website = "https://ascotent.com"
+verified_note = "Ascot Enterprises' live site (2026 copyright) shows blinds and OEM manufacturing but no street address, so the 53706 County Road 9 location is unconfirmed. Source: https://ascotent.com/"
+verified = "2026-11-13"
 
 sector = "Vehicles & RVs"
 products = ["Motor Home Manufacturing"]

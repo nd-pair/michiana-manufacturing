@@ -8,6 +8,8 @@ state = "IN"
 address = "1116 West Mishawaka Road, Elkhart, IN 46517"
 lat = 41.65420
 lon = -85.98166
+presumed_closed_reason = "Verification check: another business is at this address now (Hamilton Iron Works, Inc.). BBB pages most consistently list Hamilton Iron Works at 1116 W Mishawaka Rd; the Chubbs listing there is garbled and undated. Source: https://prod.bbb.org/us/in/elkhart/category/steel-processing"
+presumed_closed = "2026-11-13"
 
 sector = "Metal"
 products = ["Rolled Steel Shape Manufacturing"]

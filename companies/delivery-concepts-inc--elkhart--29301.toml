@@ -9,6 +9,8 @@ address = "29301 County Road 20, Elkhart, IN 46517"
 lat = 41.65930
 lon = -86.02860
 website = "https://deliveryconcepts.com"
+verified_note = "Live 2026 site shows Delivery Concepts building food-delivery truck conversions in Elkhart, but lists HQ at 29385 County Road 20 rather than 29301 (directories list 29301). Source: https://deliveryconcepts.com"
+verified = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["Mineral Wool Manufacturing"]

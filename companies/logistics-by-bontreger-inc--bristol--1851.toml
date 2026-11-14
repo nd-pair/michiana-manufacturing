@@ -8,6 +8,8 @@ state = "IN"
 address = "1851 Bloomingdale Drive, Bristol, IN 46507"
 lat = 41.71155
 lon = -85.81100
+removed_reason = "not a production site (office or hq), found in a verification check: FMCSA-registered trucking carrier/broker at 1851 Bloomingdale Dr with snapshots through 2026; a freight carrier, not a railcar maker."
+removed = "2026-11-13"
 
 sector = "Vehicles & RVs"
 products = ["Railroad Rolling Stock Manufacturing"]

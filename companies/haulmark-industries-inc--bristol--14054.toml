@@ -9,6 +9,8 @@ address = "14054 County Road 4 East, Bristol, IN 46507"
 lat = 41.73959
 lon = -85.73884
 website = "https://haulmark.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Haulmark site is live (2026 copyright) but shows no address, and no dated 2023+ source ties the company to 14054 CR 4. Source: https://haulmark.com"
+presumed_closed = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Manufactured Home (mobile Home) Manufacturing"]

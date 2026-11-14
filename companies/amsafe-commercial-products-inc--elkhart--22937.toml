@@ -1,14 +1,16 @@
 # Amsafe Commercial Products, Inc.
 # Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
 
-name = "Amsafe Commercial Products, Inc."
+name = "Shield Restraint Systems"
 kind = "company"
 city = "Elkhart"
 state = "IN"
 address = "22937 Gallatin Way, Elkhart, IN 46514"
 lat = 41.72699
 lon = -85.90657
-website = "https://amsafe.com"
+verified = "2026-11-13"
+status_note = "Renamed in a verification check (2026-11-13): AmSafe Commercial Products spun off and rebranded as Shield Restraint Systems, which now lists 3802 Gallatin Way, Elkhart on its live site. Source: https://trustshield.com/"
+formerly = "Amsafe Commercial Products, Inc."
 
 sector = "Vehicles & RVs"
 products = ["Motor Vehicle Seating and Interior Trim Manufacturing"]

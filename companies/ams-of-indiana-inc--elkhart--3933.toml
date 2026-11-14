@@ -8,6 +8,8 @@ state = "IN"
 address = "3933 East Jackson Boulevard, Elkhart, IN 46516"
 lat = 41.69328
 lon = -85.91397
+presumed_closed_reason = "Verification check: another business is at this address now (Mishawaka Sheet Metal). An undated City of Elkhart directory lists AMS of Indiana at 3933 E Jackson Blvd while Superpages lists Mishawaka Sheet Metal at the same address; no recent evidence for AMS. Source: https://www.superpages.com/notre-dame-in/sheet-metal-work-manufacturers"
+presumed_closed = "2026-11-13"
 
 sector = "Metal"
 products = ["Sheet Metal Work Manufacturing"]

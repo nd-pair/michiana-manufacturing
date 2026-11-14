@@ -9,6 +9,8 @@ address = "28298 Clay Street, Elkhart, IN 46517"
 lat = 41.66127
 lon = -86.00850
 website = "https://cloversm.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Domain cloversm.com is now a spam game page; only an undated directory listing at the address, with another directory naming Adams & Westlake there. Source: https://naicslist.com/company-profile/clover-sheet-metal-co-elkhart-in-46517"
+presumed_closed = "2026-11-13"
 
 sector = "Metal"
 products = ["Sheet Metal Work Manufacturing"]

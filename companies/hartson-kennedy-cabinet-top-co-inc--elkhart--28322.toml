@@ -9,6 +9,8 @@ address = "28322 County Road 20, Elkhart, IN 46517"
 lat = 41.65665
 lon = -86.00969
 website = "https://hartson-kennedy.com"
+presumed_closed_reason = "Verification check: the company operates elsewhere, not at this address. Company operates but its site lists plants in Marion IN, Gulfport MS and Georgia, none in Elkhart. Source: https://hartson-kennedy.com"
+presumed_closed = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Wood Kitchen Cabinet and Countertop Manufacturing"]

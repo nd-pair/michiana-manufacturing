@@ -9,6 +9,8 @@ address = "113 North Main Street, Bourbon, IN 46504"
 lat = 41.29590
 lon = -86.11664
 website = "https://hmktgroup.com"
+verified_note = "Live Harmony company site lists 115 North Main Street, Bourbon (record says 113), a downtown printing operation with a tax-abated expansion. Source: https://hmktgroup.com"
+verified = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Other Commercial Printing"]

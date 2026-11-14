@@ -9,6 +9,8 @@ address = "56624 Elk Park Drive, Elkhart, IN 46516"
 lat = 41.67142
 lon = -86.03524
 website = "https://assemblymasters.com"
+verified_note = "Live website of this wire harness and coil manufacturer lists 56624 Elk Park Drive, Elkhart, phone (574) 293-9026. Source: https://www.assemblymasters.com/"
+verified = "2026-11-13"
 
 sector = "Electronics"
 products = ["Electronic Coil, Transformer, and Other Inductor Manufacturing"]

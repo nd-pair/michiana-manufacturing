@@ -8,6 +8,8 @@ state = "IN"
 address = "503 East Vistula Street, Bristol, IN 46507"
 lat = 41.72128
 lon = -85.81222
+presumed_closed_reason = "Verification check: no current trace of this company at this address. No source places North American Pipe (Westlake) at 503 E Vistula St, Bristol. Source: https://www.jlconline.com/manufacturer/north-american-pipe-corp/"
+presumed_closed = "2026-11-13"
 
 sector = "Metal"
 products = ["Fabricated Pipe and Pipe Fitting Manufacturing"]

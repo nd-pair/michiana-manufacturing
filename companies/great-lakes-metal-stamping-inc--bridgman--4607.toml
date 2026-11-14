@@ -9,6 +9,8 @@ address = "4607 Rambo Road, Bridgman, MI 49106"
 lat = 41.92876
 lon = -86.56475
 website = "https://glakesmetalstamping.com"
+verified_note = "Live site shows 4607 Rambo Road, Bridgman, and says the company is part of MS Metal Solutions. Source: https://glakesmetalstamping.com"
+verified = "2026-11-13"
 
 sector = "Metal"
 products = ["Metal Stamping"]

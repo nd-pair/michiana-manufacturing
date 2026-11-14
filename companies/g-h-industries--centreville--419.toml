@@ -9,6 +9,8 @@ address = "419 Eleanor Drive, Centreville, MI 49032"
 lat = 41.91934
 lon = -85.51138
 website = "https://ghplugs.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. ghplugs.com refused connections and no source confirms the company at 419 Eleanor Dr. Source: https://ghplugs.com"
+presumed_closed = "2026-11-13"
 
 sector = "Electronics"
 products = ["Electronic Connector Manufacturing"]

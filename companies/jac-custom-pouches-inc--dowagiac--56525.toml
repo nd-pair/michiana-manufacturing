@@ -9,6 +9,8 @@ address = "56525 Woodhouse Drive, Dowagiac, MI 49047"
 lat = 41.97686
 lon = -86.12498
 website = "https://jaccustompouches.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. A 2021 Leader article and BBB list the company at 56525 Woodhouse Dr, but its website shows no street address or dated content, so no 2023+ evidence was found. Source: https://www.leaderpub.com/?p=851074"
+presumed_closed = "2026-11-13"
 
 sector = "Food & consumer goods"
 products = ["Textile Bag Mills"]

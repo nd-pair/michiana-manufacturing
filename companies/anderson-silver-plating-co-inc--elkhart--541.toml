@@ -9,6 +9,8 @@ address = "541 Industrial Parkway, Elkhart, IN 46516"
 lat = 41.68498
 lon = -85.93495
 website = "https://andersonsilverplating.com"
+verified_note = "Live company website lists 541 Industrial Parkway, Elkhart and describes current plating services (footer copyright 2021). Source: https://andersonsilverplating.com/"
+verified = "2026-11-13"
 
 sector = "Metal"
 products = ["Electroplating, Plating, Polishing, Anodizing and Coloring"]

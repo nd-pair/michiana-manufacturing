@@ -8,6 +8,8 @@ state = "MI"
 address = "50253 Phillips Road, Dowagiac, MI 49047"
 lat = 42.06705
 lon = -86.12680
+verified_note = "FMCSA-derived snapshot dated March 2026 lists Midway Engineering as an authorized carrier at 50253 Phillips Rd; BBB lists it under pole barns and lumber, not truss manufacturing. Source: https://carrierowl.com/carrier/373343"
+verified = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Truss Manufacturing"]

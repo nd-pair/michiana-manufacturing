@@ -9,6 +9,8 @@ address = "100 West Windsor Avenue, Elkhart, IN 46514"
 lat = 41.72714
 lon = -85.97813
 website = "https://continentalindustries.com"
+verified_note = "Live company website with a 2026 copyright shows 100 West Windsor Avenue, Elkhart. Source: https://continentalindustries.com"
+verified = "2026-11-13"
 
 sector = "Metal"
 products = ["Metal Stamping"]

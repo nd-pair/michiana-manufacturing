@@ -9,6 +9,8 @@ address = "1131 D I Drive, Elkhart, IN 46514"
 lat = 41.72643
 lon = -85.99370
 website = "https://centurycaps.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Century is a truck-cap brand of Truck Accessories Group (centurycaps.com now redirects to leer.com), but no source ties it to 1131 D I Drive. Source: https://www.worktruckonline.com/news/century-offers-new-showroom-marketing-tools-to-dealer-network"
+presumed_closed = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["Mineral Wool Manufacturing"]

@@ -9,6 +9,8 @@ address = "57766 County Road 3, Elkhart, IN 46517"
 lat = 41.65590
 lon = -86.02204
 website = "https://gustafsonlighting.com"
+presumed_closed_reason = "Verification check: renamed or acquired, but the new name is not tied to this address (Patrick Industries). Gustafson's domain now 301-redirects to patrickind.com and CB Insights lists it as acquired; plant status at this address not confirmed. Source: https://gustafsonlighting.com"
+presumed_closed = "2026-11-13"
 
 sector = "Electronics"
 products = ["Commercial, Industrial, and Institutional Electric Lighting Fixture Manufacturing"]

@@ -9,6 +9,8 @@ address = "1913 South 14th Street, Elkhart, IN 46516"
 lat = 41.66898
 lon = -85.98828
 website = "https://elkhartplating.com"
+verified_note = "Live company website shows 1913 S. 14th Street and phone, though its copyright is 2007 and no independently dated recent evidence was found. Source: https://elkhartplating.com"
+verified = "2026-11-13"
 
 sector = "Metal"
 products = ["Electroplating, Plating, Polishing, Anodizing and Coloring"]

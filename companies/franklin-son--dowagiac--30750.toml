@@ -8,6 +8,8 @@ state = "MI"
 address = "30750 Edwards Street, Dowagiac, MI 49047"
 lat = 41.94907
 lon = -86.16161
+presumed_closed_reason = "Verification check: no current trace of this company at this address. An obituary says the Franklin and Son family business was run by Todd Franklin, who retired about 15 years before his December 2023 death; no listing at this address found. Source: https://leaderpub.com/?p=889731"
+presumed_closed = "2026-11-13"
 
 sector = "Metal"
 products = ["Secondary Smelting, Refining, and Alloying of Nonferrous Metal (except Copper and Aluminum)"]

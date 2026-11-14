@@ -8,7 +8,8 @@ state = "IN"
 address = "2601 Industrial Parkway, Elkhart, IN 46516"
 lat = 41.68640
 lon = -85.92169
-website = "https://championchair.com"
+presumed_closed_reason = "Verification check: acquired or renamed, but no source ties the new owner to this address. The company now brands itself Champion Healthcare Solutions; its site shows no address."
+presumed_closed = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Institutional Furniture Manufacturing"]

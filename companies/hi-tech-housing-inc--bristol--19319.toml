@@ -9,6 +9,8 @@ address = "19319 County Road 8, Bristol, IN 46507"
 lat = 41.72353
 lon = -85.83812
 website = "https://hi-techhousing.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Website down; no source ties Hi-Tech Housing to this address (older reports place its plant on S Maple St) and LoopNet lists the site only as a light industrial property. Source: https://www.loopnet.com/property/19319-county-road-8-bristol-in-46507/18039-200328201003000030"
+presumed_closed = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Manufactured Home (mobile Home) Manufacturing"]

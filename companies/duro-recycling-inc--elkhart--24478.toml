@@ -9,6 +9,8 @@ address = "24478 County Road 45, Elkhart, IN 46516"
 lat = 41.64953
 lon = -85.93593
 website = "https://recyclednew.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Domain recyclednew.com no longer resolves (Wayback capture July 2025 not readable) and no listing was found for the company or address. Source: https://archive.org/wayback/available?url=recyclednew.com"
+presumed_closed = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Wood Container and Pallet Manufacturing"]

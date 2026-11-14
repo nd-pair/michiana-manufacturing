@@ -9,6 +9,8 @@ address = "2124 Sterling Avenue, Elkhart, IN 46516"
 lat = 41.66630
 lon = -85.95158
 website = "https://elkhartbedding.com"
+verified_note = "Live site with 2026 copyright lists 2124 Sterling Ave, Elkhart, with retail and wholesale mattress products. Source: https://elkhartbedding.com"
+verified = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Nonupholstered Wood Household Furniture Manufacturing"]

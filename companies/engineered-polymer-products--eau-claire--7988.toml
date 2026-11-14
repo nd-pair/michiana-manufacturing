@@ -8,6 +8,8 @@ state = "MI"
 address = "7988 West Eureka Road, Eau Claire, MI 49111"
 lat = 41.99915
 lon = -86.26458
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Only a USDOT trucking carrier listing (1 truck) was found at 7988 W Eureka Rd; no plastics manufacturer evidence. Source: https://bubba.ai/trucking-companies/michigan/eau-claire/engineered-polymer-products-603346"
+presumed_closed = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["All Other Plastics Product Manufacturing"]

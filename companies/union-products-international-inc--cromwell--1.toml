@@ -9,6 +9,8 @@ address = "1 Industrial Drive, Cromwell, IN 46732"
 lat = 41.40698
 lon = -85.60769
 website = "https://upi-inc.net"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. upi-inc.net is live (expired certificate, page last updated 2012) with no Cromwell address or dated activity; only a directory lists 1 Industrial Dr. Source: https://upi-inc.net"
+presumed_closed = "2026-11-13"
 
 sector = "Electronics"
 products = ["All Other Miscellaneous Electrical Equipment and Component Manufacturing"]

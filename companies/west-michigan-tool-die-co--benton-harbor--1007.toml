@@ -9,6 +9,8 @@ address = "1007 Nickerson Avenue, Benton Harbor, MI 49022"
 lat = 42.07332
 lon = -86.43357
 website = "https://wmtd.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. A March 2022 expansion announcement is the latest dated evidence, wmtd.com now redirects to a parked lander page, and a BizQuest listing offers a tool and die business for sale (not confirmed to be this firm). Source: https://www.areadevelopment.com/newsitems/4-8-2022/bulk-ag-innovations-benton-harbor-township-michigan.shtml"
+presumed_closed = "2026-11-13"
 
 sector = "Mechatronics & automation"
 products = ["Special Die and Tool, Die Set, Jig, and Fixture Manufacturing"]

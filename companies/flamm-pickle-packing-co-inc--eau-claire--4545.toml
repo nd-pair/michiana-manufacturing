@@ -8,6 +8,8 @@ state = "MI"
 address = "4545 Hipps Hollow Road, Eau Claire, MI 49111"
 lat = 41.97765
 lon = -86.34858
+presumed_closed_reason = "Verification check: no current trace of this company at this address. A 2018 article says the Hipps Hollow Road plant is still in use, but no 2023+ evidence was found. Source: https://www.michianajewish.org/single-post/2018/10/25/flamm-pickles"
+presumed_closed = "2026-11-13"
 
 sector = "Food & consumer goods"
 products = ["Fruit and Vegetable Canning"]

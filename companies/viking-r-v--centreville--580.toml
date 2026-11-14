@@ -9,6 +9,8 @@ address = "580 West Burr Oak Street, Centreville, MI 49032"
 lat = 41.92271
 lon = -85.53974
 website = "https://vikingrv.com"
+verified_note = "Forest River's Viking contact page and a 2024 MARVAC directory list Viking RV at 580 W Burr Oak St, Centreville. Source: https://forestriverinc.com/rvs/contact-us/viking-rok"
+verified = "2026-11-13"
 
 sector = "Vehicles & RVs"
 products = ["Travel Trailer and Camper Manufacturing"]

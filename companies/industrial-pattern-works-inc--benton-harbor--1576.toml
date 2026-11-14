@@ -8,6 +8,8 @@ state = "MI"
 address = "1576 Milton Street, Benton Harbor, MI 49022"
 lat = 42.08955
 lon = -86.43826
+presumed_closed_reason = "Verification check: no current trace of this company at this address. No source ties the company to 1576 Milton St (listed only as a vacant-tenant light manufacturing property); the only same-name firm found is in La Porte, IN. Source: https://realmo.com/manufacturing-properties/for-sale/mi/benton-harbor"
+presumed_closed = "2026-11-13"
 
 sector = "Metal"
 products = ["Industrial Pattern Manufacturing"]

@@ -8,6 +8,8 @@ state = "MI"
 address = "1099 Milton Street, Benton Harbor, MI 49022"
 lat = 42.09825
 lon = -86.43762
+presumed_closed_reason = "Verification check: no current trace of this company at this address. No source mentioning Soper Mfg. or any business at 1099 Milton St was found. Source: https://www.thefabricator.com/thefabricator/news/shopmanagement/new-products-corp-marks-95th-anniversary"
+presumed_closed = "2026-11-13"
 
 sector = "Metal"
 products = ["Nonferrous (except Aluminum) Die-Casting Foundries"]

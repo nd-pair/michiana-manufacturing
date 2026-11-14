@@ -8,6 +8,8 @@ state = "IN"
 address = "58050 Charlotte Avenue, Elkhart, IN 46517"
 lat = 41.65144
 lon = -86.00980
+presumed_closed_reason = "Verification check: the company operates elsewhere, not at this address. Directories place Cutter's Foam Fabricating at 3402 Charlotte Ave, Elkhart, not 58050; listings are undated. Source: https://phoenix.aws.mapquest.com/us/indiana/cutters-foam-fabricating-inc-357488396"
+presumed_closed = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["Urethane and Other Foam Product (except Polystyrene) Manufacturing"]

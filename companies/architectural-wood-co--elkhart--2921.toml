@@ -8,6 +8,8 @@ state = "IN"
 address = "2921 Lavanture Place, Elkhart, IN 46514"
 lat = 41.72748
 lon = -85.99728
+presumed_closed_reason = "Verification check: no current trace of this company at this address. No listing found for Architectural Wood Co at 2921 Lavanture Place or by name in Elkhart. Source: https://www.dnb.com/business-directory/company-information.wood_product_manufacturing.us.indiana.html"
+presumed_closed = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Nonupholstered Wood Household Furniture Manufacturing"]

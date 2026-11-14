@@ -8,6 +8,8 @@ state = "MI"
 address = "4090 East Napier Avenue, Benton Harbor, MI 49022"
 lat = 42.09085
 lon = -86.35939
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Coloma Frozen Foods is active but a 2023 article says it consolidated two sites into one Coloma campus, and nothing was found for 4090 E Napier Ave. Source: https://www.steelking.com/2023/11/06/cold/"
+presumed_closed = "2026-11-13"
 
 sector = "Food & consumer goods"
 products = ["Frozen Fruit, Juice, and Vegetable Manufacturing"]

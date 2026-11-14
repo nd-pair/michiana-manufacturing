@@ -8,6 +8,8 @@ state = "IN"
 address = "22660 County Road 6, Elkhart, IN 46514"
 lat = 41.72416
 lon = -85.90073
+removed_reason = "not a production site (service or retail), found in a verification check: Birdeye lists Americana Tire & Wheel at 22660 Co Rd 6 with current opening hours, but it is a tire dealer rather than a manufacturer and another listing gives 4003 County Road 6 E."
+removed = "2026-11-13"
 
 sector = "Vehicles & RVs"
 products = ["Automobile Manufacturing"]

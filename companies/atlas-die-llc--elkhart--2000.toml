@@ -9,6 +9,8 @@ address = "2000 Middlebury Street, Elkhart, IN 46516"
 lat = 41.68159
 lon = -85.93416
 website = "https://atlasdie.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Atlas Die at 2000 Middlebury St was acquired by Auxo Investment Partners in 2017, but atlasdie.com is now a parked domain and no 2023+ evidence was found. Source: https://www.insideindianabusiness.com/articles/new-owner-for-elkhart-company"
+presumed_closed = "2026-11-13"
 
 sector = "Mechatronics & automation"
 products = ["Special Die and Tool, Die Set, Jig, and Fixture Manufacturing"]

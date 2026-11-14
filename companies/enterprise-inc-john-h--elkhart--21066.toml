@@ -9,6 +9,8 @@ address = "21066 Protecta Drive, Elkhart, IN 46516"
 lat = 41.69682
 lon = -85.87248
 website = "https://atlasspecialtytrailers.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. atlasspecialtytrailers.com refused connections and name/address searches found nothing; a Wayback capture exists (Aug 2026) but its content could not be read. Source: https://archive.org/wayback/available?url=atlasspecialtytrailers.com"
+presumed_closed = "2026-11-13"
 
 sector = "Vehicles & RVs"
 products = ["Truck Trailer Manufacturing"]

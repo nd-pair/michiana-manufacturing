@@ -9,6 +9,8 @@ address = "52744 Park Six Court, Elkhart, IN 46514"
 lat = 41.72771
 lon = -85.95358
 website = "https://hawkenterprises.com"
+verified_note = "Live site lists 2902 Park Six Court, Elkhart, and a January 2027 trade show; house number differs from record. Source: https://hawkenterprises.com"
+verified = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["Polish and Other Sanitation Good Manufacturing"]

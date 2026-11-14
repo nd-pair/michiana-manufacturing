@@ -8,6 +8,8 @@ state = "MI"
 address = "316 Cass Avenue, Dowagiac, MI 49047"
 lat = 41.97386
 lon = -86.10765
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Only undated directory listings (ZoomInfo, Yellow Pages, Blue Book) show the company at 316 Cass Ave; no dated activity found. Source: https://www.zoominfo.com/c/commercial-welding/27726240"
+presumed_closed = "2026-11-13"
 
 sector = "Metal"
 products = ["Metal Tank (heavy Gauge) Manufacturing"]

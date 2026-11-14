@@ -9,6 +9,8 @@ address = "950 Industrial Drive, Constantine, MI 49042"
 lat = 41.83557
 lon = -85.65598
 website = "https://o-i.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Only a 2005 state air permit for Owens-Illinois Closure at this address was found; no recent evidence or closure notice. Source: https://www.deq.state.mi.us/Aps/downloads/permits/finpticon/2004/301-04.pdf"
+presumed_closed = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["All Other Plastics Product Manufacturing"]

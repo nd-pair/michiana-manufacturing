@@ -9,6 +9,8 @@ address = "58263 Charlotte Avenue, Elkhart, IN 46517"
 lat = 41.64862
 lon = -86.01056
 website = "https://castproductscorp.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Domain no longer resolves (last Wayback capture Jan 2021); only undated directory and import-record listings at the address. Source: http://web.archive.org/web/20210118132853/http://www.castproductscorp.com/"
+presumed_closed = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["Adhesive Manufacturing"]

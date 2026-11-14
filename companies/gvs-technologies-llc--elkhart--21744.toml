@@ -8,6 +8,8 @@ state = "IN"
 address = "21744 Beck Drive, Elkhart, IN 46516"
 lat = 41.69357
 lon = -85.88131
+presumed_closed_reason = "Verification check: no current trace of this company at this address. No company found at 21744 Beck Drive; only an unnamed BBB machine-shop address hit."
+presumed_closed = "2026-11-13"
 
 sector = "Metal"
 products = ["Machine Shops"]

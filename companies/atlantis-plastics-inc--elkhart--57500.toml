@@ -9,6 +9,9 @@ address = "57500 County Road 3, Elkhart, IN 46517"
 lat = 41.65955
 lon = -86.02209
 website = "https://atlantisplastics.com"
+closed_source = "https://www.ibj.com/articles/10052-bankrupt-firm-might-close-elkhart-operations"
+closed_note = "Atlantis Plastics filed Chapter 11 in 2008 and warned that its three Elkhart-area plants might close (WARN lists 54500 County Road 3); atlantisplastics.com is a parked domain."
+closed = "2008"
 
 sector = "Mechatronics & automation"
 products = ["Special Die and Tool, Die Set, Jig, and Fixture Manufacturing"]

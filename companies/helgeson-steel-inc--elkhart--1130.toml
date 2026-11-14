@@ -8,6 +8,8 @@ state = "IN"
 address = "1130 Verdant Drive, Elkhart, IN 46516"
 lat = 41.67664
 lon = -85.89416
+verified_note = "BBB lists Helgeson Steel at 1130 Verdant Street, Elkhart, but listings are undated. Source: https://www.bbb.org/us/in/granger/category/steel"
+verified = "2026-11-13"
 
 sector = "Metal"
 products = ["Iron and Steel Mills"]

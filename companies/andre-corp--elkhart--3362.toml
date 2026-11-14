@@ -1,14 +1,16 @@
 # Andre Corp.
 # Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
 
-name = "Andre Corp."
+name = "Armor Andre"
 kind = "company"
 city = "Elkhart"
 state = "IN"
 address = "3362 South Main Street, Elkhart, IN 46517"
 lat = 41.64919
 lon = -85.93800
-website = "https://andrecorp.com"
+verified = "2026-11-13"
+status_note = "Renamed in a verification check (2026-11-13): Armor Andre (The Armor Group) acquired assets of Andre Corp., MapQuest lists Armour Contract at 3362 S Main St, and andrecorp.com is now a parked domain. Source: https://www.thefabricator.com/thefabricator/news/bending/armor-andr-acquires-andr-corp-"
+formerly = "Andre Corp."
 
 sector = "Metal"
 products = ["Metal Stamping"]

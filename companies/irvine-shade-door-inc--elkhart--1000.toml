@@ -8,6 +8,8 @@ state = "IN"
 address = "1000 Verdant Street, Elkhart, IN 46516"
 lat = 41.67938
 lon = -85.89419
+verified_note = "Company is described as an Elkhart RV door and shade maker, but sources are undated and do not confirm the Verdant Street address. Source: https://rvnews.com/company/irvine-shade-door"
+verified = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Wood Window and Door Manufacturing"]

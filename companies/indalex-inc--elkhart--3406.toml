@@ -1,14 +1,16 @@
 # Indalex, Inc.
 # Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
 
-name = "Indalex, Inc."
+name = "Hydro Extrusion USA"
 kind = "company"
 city = "Elkhart"
 state = "IN"
 address = "3406 Reedy Drive, Elkhart, IN 46514"
 lat = 41.72777
 lon = -85.92413
-website = "https://indalex.com"
+verified = "2026-11-13"
+status_note = "Renamed in a verification check (2026-11-13): Hydro lists its Elkhart extrusion plant at 3406 Reedy Drive. Source: https://integration.hydro.com/en/global/about-hydro/hydro-worldwide/americas/united-states/midwest/hydro-elkhart-in/"
+formerly = "Indalex, Inc."
 
 sector = "Metal"
 products = ["Other Aluminum Rolling and Drawing"]

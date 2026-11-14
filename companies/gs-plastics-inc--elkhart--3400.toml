@@ -9,6 +9,8 @@ address = "3400 Reedy Drive, Elkhart, IN 46514"
 lat = 41.72774
 lon = -85.92585
 website = "https://gsplastics.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Searches and website fetch gave no evidence of this company at the address."
+presumed_closed = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["All Other Plastics Product Manufacturing"]

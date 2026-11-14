@@ -9,6 +9,8 @@ address = "708 South Division Street, Bristol, IN 46507"
 lat = 41.71547
 lon = -85.81695
 website = "https://cargoexpress.com"
+presumed_closed_reason = "Verification check: the company operates elsewhere, not at this address. Cargo Express Trailers operates (2026 site) from 11550 Harter Dr, Middlebury; nothing found for 708 S Division St. Source: https://cargoexpress.com"
+presumed_closed = "2026-11-13"
 
 sector = "Vehicles & RVs"
 products = ["Truck Trailer Manufacturing"]

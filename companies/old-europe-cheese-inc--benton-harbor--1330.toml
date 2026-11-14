@@ -9,6 +9,8 @@ address = "1330 East Empire Avenue, Benton Harbor, MI 49022"
 lat = 42.10122
 lon = -86.42542
 website = "https://oldeuropecheese.com"
+verified_note = "oldeuropecheese.com redirects to the Reny Picot brand site, which lists 1330 E Empire Ave with news dated through November 2026. Source: https://renypicot.us/"
+verified = "2026-11-13"
 
 sector = "Food & consumer goods"
 products = ["Cheese Manufacturing"]

@@ -9,6 +9,8 @@ address = "28274 County Road 20, Elkhart, IN 46517"
 lat = 41.65649
 lon = -86.00844
 website = "https://altecengineering.com"
+presumed_closed_reason = "Verification check: the company operates elsewhere, not at this address. Altec Engineering's live website (fiberglass products, in Elkhart since 1988) gives its address as 2401 W. Mishawaka Rd, Elkhart, not 28274 County Road 20; the site shows a 2016 copyright. Source: https://altecengineering.com/"
+presumed_closed = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["Mineral Wool Manufacturing"]

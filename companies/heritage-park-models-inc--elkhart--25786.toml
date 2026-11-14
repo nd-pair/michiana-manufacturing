@@ -9,6 +9,8 @@ address = "25786 Miner Road, Elkhart, IN 46514"
 lat = 41.71408
 lon = -85.96242
 website = "https://heritageparkmodels.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Domain does not resolve, last Wayback capture is 2018, and no current trace found. Source: http://web.archive.org/web/20180403064922/http://www.heritageparkmodels.com:80/"
+presumed_closed = "2026-11-13"
 
 sector = "Vehicles & RVs"
 products = ["Truck Trailer Manufacturing"]

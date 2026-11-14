@@ -9,6 +9,8 @@ address = "2700 Industrial Parkway, Elkhart, IN 46516"
 lat = 41.68698
 lon = -85.91966
 website = "https://adecinc.com"
+presumed_closed_reason = "Verification check: reported closed, without a dated source. MapQuest and Superpages list ADEC Industries at 2700 Industrial Pkwy as closed; the parent nonprofit ADEC remains active in 2026 but no dated evidence places it at this address. Source: https://startpage.mapquest.com/us/indiana/adec-industries-6123186"
+presumed_closed = "2026-11-13"
 uei = "SUKPKLEPLHJ3"
 
 sector = "Materials & composites"

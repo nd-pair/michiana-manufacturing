@@ -9,6 +9,8 @@ address = "3659 Destiny Drive, Bremen, IN 46506"
 lat = 41.45356
 lon = -86.13318
 website = "https://ccfiberglass.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. ccfiberglass.com now redirects to a domain-for-sale page, its last Wayback capture is 2014, and name and address searches found no listing at 3659 Destiny Drive. Source: https://www.hugedomains.com/domain_profile.cfm?d=ccfiberglass.com"
+presumed_closed = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["Mineral Wool Manufacturing"]

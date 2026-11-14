@@ -8,6 +8,8 @@ state = "IN"
 address = "57459 Dewitt Street, Elkhart, IN 46517"
 lat = 41.66109
 lon = -86.00757
+presumed_closed_reason = "Verification check: no current trace of this company at this address. No source lists Elkhart Cases at 57459 Dewitt Street; directory entries show other Elkhart addresses only."
+presumed_closed = "2026-11-13"
 
 sector = "Food & consumer goods"
 products = ["Luggage Manufacturing"]

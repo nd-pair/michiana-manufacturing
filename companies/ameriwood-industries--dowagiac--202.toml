@@ -9,6 +9,9 @@ address = "202 Spaulding Street, Dowagiac, MI 49047"
 lat = 41.98197
 lon = -86.10584
 website = "https://ameriwood.com"
+closed_source = "https://woodworkingnetwork.com/news/woodworking-industry-news/ameriwood-furniture-permanently-lays-80-due-michigan-covid-order"
+closed_note = "Dorel permanently laid off 79 Ameriwood workers in 2020 and said the plant would become a distribution site; the 446,236 sq ft building was later marketed for lease (available 4/1/2026); ameriwood.com redirects to dorelhome.com."
+closed = "2020"
 
 sector = "Wood, paper & furniture"
 products = ["Nonupholstered Wood Household Furniture Manufacturing"]

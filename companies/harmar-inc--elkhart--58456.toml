@@ -8,6 +8,8 @@ state = "IN"
 address = "58456 County Road 3, Elkhart, IN 46517"
 lat = 41.64576
 lon = -86.02183
+presumed_closed_reason = "Verification check: no current trace of this company at this address. No Elkhart facility found; Harmar is listed in Sarasota, FL."
+presumed_closed = "2026-11-13"
 
 sector = "Vehicles & RVs"
 products = ["Travel Trailer and Camper Manufacturing"]

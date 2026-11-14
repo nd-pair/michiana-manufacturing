@@ -9,6 +9,8 @@ address = "1810 West Lusher Avenue, Elkhart, IN 46517"
 lat = 41.66728
 lon = -85.99761
 website = "https://gaska.com"
+verified_note = "Gaska's live website lists 1810 W. Lusher Ave; no dated news found. Source: https://gaska.com/contact"
+verified = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Coated and Laminated Paper Manufacturing"]

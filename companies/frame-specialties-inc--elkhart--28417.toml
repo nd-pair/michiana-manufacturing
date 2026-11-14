@@ -8,6 +8,8 @@ state = "IN"
 address = "28417 Laura Court, Elkhart, IN 46517"
 lat = 41.64920
 lon = -86.01069
+presumed_closed_reason = "Verification check: no current trace of this company at this address. No listing for this company or address found in web searches."
+presumed_closed = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["All Other Miscellaneous Wood Product Manufacturing"]

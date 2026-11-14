@@ -8,6 +8,8 @@ state = "IN"
 address = "833 Legner Street, Bremen, IN 46506"
 lat = 41.45313
 lon = -86.14030
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Name and address searches found no International Wire Group facility in Bremen, only its Camden NY HQ and a sold Avilla IN plant."
+presumed_closed = "2026-11-13"
 
 sector = "Electronics"
 products = ["All Other Miscellaneous Electrical Equipment and Component Manufacturing"]

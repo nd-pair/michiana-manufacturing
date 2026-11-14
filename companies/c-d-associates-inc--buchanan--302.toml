@@ -9,6 +9,8 @@ address = "302 Post Road, Buchanan, MI 49107"
 lat = 41.82162
 lon = -86.38204
 website = "https://aircraftheater.com"
+presumed_closed_reason = "Verification check: renamed or acquired, but the new name is not tied to this address (Hartzell Engine Technologies). Hartzell Engine Technologies bought C&D's assets in 2016 and aircraftheater.com now serves a hartzellprop.com certificate; current occupancy not confirmed. Source: https://generalaviationnews.com/2016/02/22/hartzell-engine-technologies-completes-purchase-of-cd-associates/"
+presumed_closed = "2026-11-13"
 
 sector = "Vehicles & RVs"
 products = ["Other Aircraft Part and Auxiliary Equipment Manufacturing"]

@@ -8,6 +8,9 @@ state = "IN"
 address = "2941 Moose Trail, Elkhart, IN 46514"
 lat = 41.72981
 lon = -86.00462
+closed_source = "https://en.wikipedia.org/wiki/Bonnie_Doon_Ice_Cream"
+closed_note = "The Elkhart ice cream factory closed at the end of 2013; only a Mishawaka drive-in remains."
+closed = "2013"
 
 sector = "Food & consumer goods"
 products = ["Ice Cream and Frozen Dessert Manufacturing"]

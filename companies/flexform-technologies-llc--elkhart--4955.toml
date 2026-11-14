@@ -9,6 +9,8 @@ address = "4955 Beck Drive, Elkhart, IN 46516"
 lat = 41.69353
 lon = -85.89386
 website = "https://flexformtech.com"
+verified_note = "Live site lists 4955 Beck Drive and phone 574-295-3777, but its copyright and news are from 2013, so recent activity is not independently confirmed. Source: https://flexformtech.com"
+verified = "2026-11-13"
 
 sector = "Food & consumer goods"
 products = ["Broadwoven Fabric Mills"]

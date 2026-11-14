@@ -9,6 +9,8 @@ address = "2275 M-139, Benton Harbor, MI 49022"
 lat = 42.07656
 lon = -86.43618
 website = "https://bhawning.com"
+verified_note = "Live website with 2026 copyright and May 2026 content lists 2275 M-139, and ABC57 covered its 100th anniversary in July 2022. Source: https://bhawning.com"
+verified = "2026-11-13"
 
 sector = "Metal"
 products = ["Other Aluminum Rolling and Drawing"]

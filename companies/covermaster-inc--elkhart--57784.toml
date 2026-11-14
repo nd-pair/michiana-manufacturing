@@ -9,6 +9,8 @@ address = "57784 County Road 3, Elkhart, IN 46517"
 lat = 41.65545
 lon = -86.02203
 website = "https://covermasterinc.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Domain does not resolve and searches find Covermaster only in Ontario, not at this Elkhart address. Source: https://www.athleticbusiness.com/directory/sports-surfaces/sports-fields-maintenance/covers/grass-enhancement-covers/company/15139433/covermaster-inc"
+presumed_closed = "2026-11-13"
 
 sector = "Vehicles & RVs"
 products = ["Travel Trailer and Camper Manufacturing"]

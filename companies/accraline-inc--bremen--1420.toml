@@ -9,6 +9,8 @@ address = "1420 West Bike Street, Bremen, IN 46506"
 lat = 41.44799
 lon = -86.16637
 website = "https://accraline.com"
+verified_note = "Live Accraline site shows large-capacity machining at 1420 W Bike St, Bremen. Source: https://accraline.com"
+verified = "2026-11-13"
 uei = "CCECZLZSLRJ5"
 
 sector = "Metal"

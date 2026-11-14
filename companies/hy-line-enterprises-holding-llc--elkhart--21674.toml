@@ -9,6 +9,8 @@ address = "21674 Beck Drive, Elkhart, IN 46516"
 lat = 41.69357
 lon = -85.87949
 website = "https://hylinetrailers.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. hylinetrailers.com redirects to a GoDaddy for-sale page and no company found at the address. Source: https://forsale.godaddy.com/forsale/hylinetrailers.com"
+presumed_closed = "2026-11-13"
 
 sector = "Vehicles & RVs"
 products = ["Travel Trailer and Camper Manufacturing"]

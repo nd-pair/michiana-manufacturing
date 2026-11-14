@@ -9,6 +9,8 @@ address = "2900 Industrial Parkway, Elkhart, IN 46516"
 lat = 41.68699
 lon = -85.91611
 website = "https://dexteraxle.com"
+removed_reason = "not a production site (office or hq), found in a verification check: Dexter's site lists 2900 Industrial Parkway East as corporate headquarters (manufacturing site); a separate Plant 61 closure notice dated Oct 2026 concerns Protecta Drive."
+removed = "2026-11-13"
 
 sector = "Vehicles & RVs"
 products = ["Motor Vehicle Transmission and Power Train Parts Manufacturing"]

@@ -9,6 +9,8 @@ address = "1203 State Road 15 South, Bristol, IN 46507"
 lat = 41.71087
 lon = -85.81762
 website = "https://lasallebristol.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. lasallebristol.com is a live LaSalle Bristol site but no source ties a lighting plant to 1203 State Road 15; directories place the company in Elkhart/Plymouth. Source: https://www.lasallebristol.com"
+presumed_closed = "2026-11-13"
 
 sector = "Electronics"
 products = ["Commercial, Industrial, and Institutional Electric Lighting Fixture Manufacturing"]

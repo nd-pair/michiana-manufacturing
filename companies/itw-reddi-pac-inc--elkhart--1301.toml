@@ -9,6 +9,8 @@ address = "1301 North Nappanee Street, Elkhart, IN 46514"
 lat = 41.70104
 lon = -86.00304
 website = "https://itwreddipac.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Domain no longer resolves; no evidence of an Elkhart site, only a Monroe, LA location. Source: http://web.archive.org/web/20230330185812/http://www.itwreddipac.com/"
+presumed_closed = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Paper (except Newsprint) Mills"]

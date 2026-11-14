@@ -1,14 +1,16 @@
 # American Electronic Components, Inc.
 # Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
 
-name = "American Electronic Components, Inc."
+name = "Solsta"
 kind = "company"
 city = "Elkhart"
 state = "IN"
 address = "1101 Lafayette Street, Elkhart, IN 46516"
 lat = 41.67548
 lon = -85.98376
-website = "https://aecsensors.com"
+verified = "2026-11-13"
+status_note = "Renamed in a verification check (2026-11-13): aecsensors.com now says AEC is now Solsta (same phone 574-295-6330, 2026 copyright) with a registered address of 913 10th St, Elkhart. Source: https://solsta-usa.com/aec-is-now-solsta-contact-us-for-assistance/"
+formerly = "American Electronic Components, Inc."
 
 sector = "Electronics"
 products = ["Relay and Industrial Control Manufacturing"]

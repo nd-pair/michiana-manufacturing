@@ -8,6 +8,8 @@ state = "IN"
 address = "2727 17th Street, Elkhart, IN 46517"
 lat = 41.65893
 lon = -85.99483
+presumed_closed_reason = "Verification check: no current trace of this company at this address. No listing at 2727 17th Street; an undated directory lists a similarly named welding business at 2720 17th St. Source: https://www.checkbca.org/in/elkhart/welding-services-8541"
+presumed_closed = "2026-11-13"
 
 sector = "Metal"
 products = ["Iron and Steel Mills"]
