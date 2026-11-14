@@ -5,12 +5,13 @@ name = "Mor/ryde, Inc."
 kind = "company"
 city = "Elkhart"
 state = "IN"
-address = "1966 Moyer Avenue, Elkhart, IN 46516"
-lat = 41.66854
-lon = -85.95170
+address = "1966 Sterling Avenue, Elkhart, IN 46516"
+lat = 41.67435
+lon = -85.99782
 website = "https://morryde.com"
+status_note = "Address from the company's own website (https://morryde.com), checked November 14, 2026; previously 1966 Moyer Avenue, Elkhart, IN 46516."
 verified_note = "MORryde's site is active in November 2026 with an Elkhart service center, but no source shown names 1966 Moyer Avenue specifically. Source: https://morryde.com"
-verified = "2026-11-13"
+verified = "2026-11-14"
 
 sector = "Vehicles & RVs"
 products = ["All Other Motor Vehicle Parts Manufacturing"]

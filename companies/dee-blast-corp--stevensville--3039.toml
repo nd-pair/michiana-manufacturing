@@ -3,12 +3,14 @@
 
 name = "Dee Blast Corp."
 kind = "company"
-city = "Stevensville"
+city = "Coloma"
 state = "MI"
-address = "3039 Johnson Road, Stevensville, MI 49127"
-lat = 42.00751
-lon = -86.52598
+address = "210 North West Street, Coloma, MI 49038"
+lat = 42.18729
+lon = -86.30837
 website = "https://dee-blast.com"
+verified = "2026-11-14"
+status_note = "Address from the company's own website (https://dee-blast.com), checked November 14, 2026; previously 3039 Johnson Road, Stevensville, MI 49127."
 
 sector = "Mechatronics & automation"
 products = ["Air and Gas Compressor Manufacturing"]

@@ -3,14 +3,15 @@
 
 name = "Frontline Mfg., Inc."
 kind = "company"
-city = "Leesburg"
+city = "Warsaw"
 state = "IN"
-address = "306 School Street, Leesburg, IN 46538"
-lat = 41.32806
-lon = -85.84516
+address = "1445 Polk Drive, Warsaw, IN 46582"
+lat = 41.27475
+lon = -85.87020
 website = "https://diamondtubshowers.com"
+status_note = "Address from the company's own website (https://diamondtubshowers.com), checked November 14, 2026; previously 306 School Street, Leesburg, IN 46538."
 verified_note = "Front Line Mfg. makes Diamond Tub & Showers, whose live site (2024 copyright) and directory profiles cite a Leesburg, IN plant, though the exact 306 School Street address was not independently confirmed. Source: https://diamondtubshowers.com"
-verified = "2026-11-13"
+verified = "2026-11-14"
 
 sector = "Materials & composites"
 products = ["Vitreous China Plumbing Fixture and China and Earthenware Bathroom Accessories Manufacturing"]

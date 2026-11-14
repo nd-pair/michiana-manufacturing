@@ -3,14 +3,15 @@
 
 name = "Industrial Maintenance Welding & Mach."
 kind = "company"
-city = "Kingsbury"
+city = "La Porte"
 state = "IN"
-address = "2nd Road and Hupp Road, Kingsbury, IN 46345"
-lat = 41.51684
-lon = -86.67029
+address = "6264 2nd Road, La Porte, IN 46350"
+lat = 41.51381
+lon = -86.66805
 website = "https://imwnet.com"
+status_note = "Address from the company's own website (https://imwnet.com), checked November 14, 2026; previously 2nd Road and Hupp Road, Kingsbury, IN 46345."
 verified_note = "Live company site (2026 footer) lists a Kingsbury Plant at 2nd & Hupp Road, Kingsbury, IN 46345. Source: https://imwnet.com"
-verified = "2026-11-13"
+verified = "2026-11-14"
 
 sector = "Metal"
 products = ["Machine Shops"]

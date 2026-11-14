@@ -98,7 +98,10 @@ closing notices matched to a plant whose closing date has passed (`scripts/pull_
 notice filed under a new owner's name is matched by hand in `data/warn_matches.toml`,
 `data/warn.json`; Michigan publishes no table), and plants that filed with OSHA one year but not the
 next. A dead website is a lead, not proof; confirm each
-closure from a dated source before marking it. Sample audits of the imported records, with every finding and its source, are in
+closure from a dated source before marking it. `scripts/check_sites.py` (monthly) reads the addresses on each company's own website and compares them
+with the file's: `audits/site-address-check.csv` lists matches, the same street under another number
+(Elkhart County's two numbering systems), other addresses in the region, and sites without one. It
+changes nothing; a person moves a plant when the company's own site shows it elsewhere. Sample audits of the imported records, with every finding and its source, are in
 [`audits/`](audits/) (November 2026: 100 HIFLD records, then the rest in batches). `scripts/apply_checks.py`
 applies a batch of per-record web findings under CURATION.md and logs each action to a CSV.
 

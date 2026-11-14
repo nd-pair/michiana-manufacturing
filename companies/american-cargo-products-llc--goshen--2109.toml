@@ -3,12 +3,14 @@
 
 name = "American Cargo Products, LLC"
 kind = "company"
-city = "Goshen"
+city = "Elkhart"
 state = "IN"
-address = "64141 US 33 South, Goshen, IN 46526"
+address = "2940 Dexter Drive, Elkhart, IN 46514"
+lat = 41.72809
+lon = -85.99967
 website = "https://americancargo.com"
-verified = "2026-11-13"
-status_note = "Moved from 2109 Lincolnway East, Goshen, IN 46526; found in a verification check (2026-11-13): American Cargo is listed at 64141 US 33 South, Goshen, not Lincolnway East, and americancargo.com now redirects to Midway Specialty Vehicles in Elkhart; current status at the new address is not confirmed."
+verified = "2026-11-14"
+status_note = "Address from the company's own website (https://americancargo.com), checked November 14, 2026; previously 64141 US 33 South, Goshen, IN 46526."
 
 sector = "Vehicles & RVs"
 products = ["Motor Vehicle Body Manufacturing"]

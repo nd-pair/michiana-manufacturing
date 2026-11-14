@@ -5,12 +5,13 @@ name = "Express Press, Inc."
 kind = "company"
 city = "South Bend"
 state = "IN"
-address = "325 North Dixie Way, South Bend, IN 46637"
-lat = 41.71849
-lon = -86.25082
+address = "3505 West McGill Street, South Bend, IN 46628"
+lat = 41.72050
+lon = -86.29861
 website = "https://express-press.com"
+status_note = "Address from the company's own website (https://express-press.com), checked November 14, 2026; previously 325 North Dixie Way, South Bend, IN 46637."
 verified_note = "The live express-press.com site (copyright 2026) lists its main South Bend location at 325 Dixieway North (same as 325 N Dixie Way) plus a corporate office at 3505 W McGill St. Source: https://express-press.com"
-verified = "2026-11-13"
+verified = "2026-11-14"
 
 sector = "Wood, paper & furniture"
 products = ["Quick Printing"]

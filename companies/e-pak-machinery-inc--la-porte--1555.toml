@@ -5,10 +5,12 @@ name = "E-Pak Machinery, Inc."
 kind = "company"
 city = "La Porte"
 state = "IN"
-address = "1555 State Road 39 South, La Porte, IN 46350"
-lat = 41.58066
-lon = -86.73898
+address = "1535 South State Road 39, La Porte, IN 46350"
+lat = 41.58065
+lon = -86.73928
 website = "https://epakmachinery.com"
+verified = "2026-11-14"
+status_note = "Address from the company's own website (https://epakmachinery.com), checked November 14, 2026; previously 1555 State Road 39 South, La Porte, IN 46350."
 osha_id = "1228654"
 
 sector = "Mechatronics & automation"

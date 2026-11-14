@@ -80,3 +80,34 @@ the most accurate group, though Nello shows a filing can carry an office address
    plant address.
 4. **Repeat this audit after the spring 2027 OSHA import, with a person as one checker.** That will
    show whether the error rates fall, and how far the AI checkers agree with a human.
+
+## Follow-up: company websites (November 14, 2026)
+
+The audit showed that the web checks often skipped a company's own contact page. So
+`scripts/check_sites.py` now reads the addresses on every company's website (home, contact,
+locations and about pages; schema.org data and written-out addresses) and compares them with the
+file. It runs every month, changes nothing, and writes [`site-address-check.csv`](site-address-check.csv).
+
+Of 584 companies with a website:
+
+| Result | Companies |
+|---|---:|
+| The site gives the file's address | 233 |
+| Same street, other number (Elkhart County's two numbering systems) | 7 |
+| Other addresses in the region only | 21 |
+| Only addresses outside the region (corporate offices) | 16 |
+| No readable address | 186 |
+| Site did not load | 121 |
+
+Seventeen records were corrected from the companies' own sites:
+- Utilimaster to Bristol (Wakarusa is no longer listed)
+- Nello to its tower plant at 1201 S Sheridan St (its OSHA filing gave the downtown office)
+- Frontline to Warsaw, Dee Blast to Coloma, and Express Press, American Cargo, KRA International,
+  Midwest Rake, Precision Process and Shepherd Caster to their current addresses
+- MOR/ryde to 1966 Sterling Ave
+- Exact addresses in place of vague ones for Alexander Chemical, Industrial Maintenance Welding,
+  Midwest Timber, Delivery Concepts and E-Pak
+- Standard Tool & Die confirmed
+
+Most of the 21 remaining mismatches are plants confirmed by OSHA filings at the listed address, or
+multi-plant companies whose site lists other plants. They are left for a person to review.

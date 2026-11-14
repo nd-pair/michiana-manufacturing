@@ -5,12 +5,13 @@ name = "Midwest Timber, Inc."
 kind = "company"
 city = "Edwardsburg"
 state = "MI"
-address = "190 Kraus Road, Edwardsburg, MI 49112"
-lat = 41.78384
-lon = -86.09307
+address = "69875 Kraus Road, Edwardsburg, MI 49112"
+lat = 41.78570
+lon = -86.09336
 website = "https://midwesttimber.com"
+status_note = "Address from the company's own website (https://midwesttimber.com), checked November 14, 2026; previously 190 Kraus Road, Edwardsburg, MI 49112."
 verified_note = "Live company site (copyright 2026, 2024 uploads) describes its Edwardsburg treating facility; BBB lists 190 Kraus Rd though the site gives no street address. Source: https://midwesttimber.com"
-verified = "2026-11-13"
+verified = "2026-11-14"
 
 sector = "Wood, paper & furniture"
 products = ["Wood Preservation"]

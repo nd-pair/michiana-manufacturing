@@ -3,14 +3,15 @@
 
 name = "Alexander Chemical Corp."
 kind = "company"
-city = "Kingsbury"
+city = "La Porte"
 state = "IN"
-address = "1st Road, Kingsbury, IN 46345"
-lat = 41.51154
-lon = -86.67469
+address = "7593 South First Road, La Porte, IN 46350"
 website = "https://alexanderchemical.com"
+lon = -86.67469
+lat = 41.51154
+status_note = "Address from the company's own website (https://alexanderchemical.com), checked November 14, 2026; previously 1st Road, Kingsbury, IN 46345."
 verified_note = "Live company site with 2026 copyright lists 7593 S. First Road (La Porte mailing address, Kingsbury location per directories), a Carus Group company. Source: https://alexanderchemical.com"
-verified = "2026-11-13"
+verified = "2026-11-14"
 
 sector = "Materials & composites"
 products = ["Industrial Gas Manufacturing"]
