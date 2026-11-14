@@ -175,3 +175,25 @@ never deleted, so the importers do not add them back, and every change cites its
 After these changes, 798 HIFLD records have no confirmation newer than HIFLD itself. The audit's
 calibration shows that website checks alone cannot sort them: 15 to 25% of records with no website
 or a dead domain were operating. They need the same per-record check.
+
+## Full verification, in progress
+
+The remaining HIFLD records are checked in batches of 25: name and address searches, the company
+website, Wayback Machine captures and news. `scripts/apply_checks.py` applies each finding under
+CURATION.md and logs it to [`2026-11-hifld-verification.csv`](2026-11-hifld-verification.csv).
+
+| Status on November 13, 2026 | Records |
+|---|---:|
+| Checked | 456 of 798 |
+| Verified operating at the listed address | 146 |
+| Moved within the region (address updated) | 35 |
+| Renamed (new name tied to the address) | 9 |
+| Closed, with a dated source | 15 |
+| Presumed closed (no trace, moved away, or another business at the address) | 236 |
+| Removed (offices, showrooms, distributors, service businesses) | 14 |
+| Not yet searched (web-search limit), still on the map | 44, plus 300 not yet started |
+
+Each finding comes from automated web searches. Many "operating" calls rest on undated directory
+listings, and many "presumed closed" calls on the absence of any listing. The CSV gives every
+finding and source, so a person can reverse a call. A presumed-closed record comes back
+automatically when it files with OSHA.
