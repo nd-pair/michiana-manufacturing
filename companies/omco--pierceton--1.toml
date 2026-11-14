@@ -1,7 +1,7 @@
-# Omco
+# OMCO
 # Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
 
-name = "Omco"
+name = "OMCO"
 kind = "company"
 city = "Pierceton"
 state = "IN"

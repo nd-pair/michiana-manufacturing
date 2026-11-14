@@ -1,7 +1,7 @@
-# Rbc Precision Products (plymouth)
+# RBC Precision Products (Plymouth)
 # Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
 
-name = "Rbc Precision Products (plymouth)"
+name = "RBC Precision Products (Plymouth)"
 kind = "company"
 city = "Plymouth"
 state = "IN"

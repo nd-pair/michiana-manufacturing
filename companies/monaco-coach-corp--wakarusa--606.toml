@@ -1,27 +1,25 @@
-# Monaco Coach Corp.
+# Thor Motor Coach, Plant 850A
 # Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
 
-name = "Monaco Coach Corp."
+name = "Thor Motor Coach, Plant 850A"
 kind = "company"
 city = "Wakarusa"
 state = "IN"
 address = "606 Nelsons Parkway, Wakarusa, IN 46573"
 lat = 41.52760
 lon = -86.01024
-website = "https://monacocoach.com"
+website = "https://thormotorcoach.com"
+former_website = "https://monacocoach.com"
+status_note = "Thor Motor Coach's Plant 850A filed OSHA's 2025 Form 300A at this address; the earlier record here, Monaco Coach Corp. (HIFLD), is a predecessor."
+formerly = "Monaco Coach Corp."
 osha_id = "1433249"
 
 sector = "Vehicles & RVs"
 products = ["Motor Home Manufacturing"]
 naics = "336213"
 
-employees = 2300
-employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Motor Home Assembly & Towable Units. NAICS 336213: motor home manufacturing."
 
-source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor); the earlier record at this address came from HIFLD"
 updated = "2026-11-11"

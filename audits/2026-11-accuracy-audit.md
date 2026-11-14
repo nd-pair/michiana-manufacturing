@@ -140,3 +140,32 @@ Results of the re-run:
   Bros. Bakeries became LaPorte Bakery, Silco Tec became Avient, and Worldwide Foam took the
   closed Silgan plant's address.
 - Thor Motor Coach's diesel service department was removed as not a plant.
+
+## Follow-up: placement, websites, headcounts, names (November 14, 2026)
+
+**Plants that could not be placed.** 21 of 22 plants with a 2025 OSHA filing but no coordinates
+are on the map now. The import retries cleaned addresses (PO boxes, "CR", "SR" and "M-" spelled
+out, a "Britol" typo) and falls back to OpenStreetMap. As a last resort it places the plant at its
+town's center, the median of the plants already mapped there, and marks it city-level. Examples:
+Bennington Marine (574 employees), Lippert in Topeka (586), American Licorice (330), Lakota
+Trailers and Viaggio. Removed in the same step:
+- four Paul's Auto Yard salvage yards, filed under a manufacturing code;
+- Turtle Top's company-wide filing, which duplicated its New Paris plants.
+
+**Website links.** Every website on file was checked again:
+- 70 links that no longer resolve, are parked, or now land on unrelated sites (a toy shop, a slots
+  site, a card printer) were removed. The old address is kept as `former_website`.
+- 33 redirects to a successor or rebrand now point there.
+- Four unconfirmed records whose only website was gone are presumed closed.
+
+The log is in `website-link-fixes-2026-11-14.csv`.
+
+**Headcounts against county jobs.** The map's site headcounts add up to 84% of QCEW manufacturing
+employment (117,000 of 139,000), with no county far above 100%. LaGrange (57%) and Whitley (54%) are
+the thinnest, matching the coverage check. The largest HIFLD estimates led to one stale record: the
+"Monaco Coach" plant at 606 Nelsons Parkway, carried with 2,300 estimated employees, is Thor Motor
+Coach's Plant 850A. L-P Specialty Products' plant is now Inteplast Building Products. The OSHA
+import now ignores generic words ("coach", "products") when it compares names.
+
+**Names.** HIFLD title-cased acronyms ("Ak Industries", "Kz Rv", "Rbc Precision", "Mctd"). 62 are
+restored (AK, KZ RV, RBC, MCTD, LECO, CTB and others), and two raw OSHA names were cleaned up.

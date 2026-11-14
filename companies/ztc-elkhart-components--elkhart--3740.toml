@@ -1,7 +1,7 @@
-# Ztc Elkhart Components
+# ZTC Elkhart Components
 # Imported from OSHA's Form 300A establishment data (public); edit freely.
 
-name = "Ztc Elkhart Components"
+name = "ZTC Elkhart Components"
 kind = "company"
 city = "Elkhart"
 state = "IN"

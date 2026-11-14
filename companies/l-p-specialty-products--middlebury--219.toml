@@ -1,14 +1,15 @@
 # L-P Specialty Products
 # Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
 
-name = "L-P Specialty Products"
+name = "Inteplast Building Products"
 kind = "company"
 city = "Middlebury"
 state = "IN"
 address = "219 US Highway 20, Middlebury, IN 46540"
 lat = 41.66010
 lon = -85.71634
-website = "https://lpcorp.com"
+status_note = "Inteplast Building Products filed OSHA's 2025 Form 300A at this address; the earlier record here, L-P Specialty Products (HIFLD), is a predecessor."
+formerly = "L-P Specialty Products"
 osha_id = "1564385"
 
 sector = "Materials & composites"
