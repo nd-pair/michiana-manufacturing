@@ -36,7 +36,8 @@ Census geocoder; departments a company files separately at one address become on
 Rules worth knowing when reading its output:
 
 - Town names are written one way (`canon_city`: "LaPorte" and "La Porte" are one town), and county
-  grid roads match however they are written ("1350N" = "1350 North").
+  grid roads match however they are written ("1350N" = "1350 North"), as do Saint, Mount and Fort
+  ("Saint Jerome Street" = "St Jerome St"). A new file takes its state from the county it geocodes to.
 - A filing at another house number on a file's street is its own plant once that file stands for
   another one (Keystone's numbered plants on Hackberry Drive). House numbers of different lengths
   stay together, since Elkhart County has two numbering systems.

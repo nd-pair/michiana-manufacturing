@@ -56,7 +56,8 @@ def rows_from(path):
 
 def addr_key(addr, city):
     addr = re.sub(r"(?i)\b(\d+)([nsew])\b", r"\1 \2", addr or "")   # county grid roads: "346 W 1350N" = "346 West 1350 North"
-    t = [{"cr": "county", "co": "county", "sr": "state", "hwy": "highway", "third": "3rd", "first": "1st", "second": "2nd"}.get(w, w)
+    t = [{"cr": "county", "co": "county", "sr": "state", "hwy": "highway", "third": "3rd", "first": "1st", "second": "2nd",
+          "saint": "st", "mount": "mt", "fort": "ft"}.get(w, w)   # 1015 Saint Jerome Street = 1015 St Jerome St
          for w in re.findall(r"[a-z0-9]+", addr.lower())]
     if not t or not t[0].isdigit():
         return None
@@ -441,6 +442,9 @@ def main(args):
                 gcache[address] = list(g)
         if g and g[2] not in COUNTIES:
             outside.append("%s (%s, county %s)" % (name, city, g[2])); continue
+        if g and {"18": "IN", "26": "MI"}.get(g[2][:2], st) != st:   # the state follows the county: Edcoat filed New Carlisle, MI
+            st = {"18": "IN", "26": "MI"}[g[2][:2]]
+            address = "%s, %s, %s %s" % (street, city, st, z)
         if not g and not dry:
             nogeo.append("%s, %s" % (name, address))
         n3 = r["naics_code"][:3]

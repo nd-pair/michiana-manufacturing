@@ -4,8 +4,8 @@
 name = "Edcoat"
 kind = "company"
 city = "New Carlisle"
-state = "MI"
-address = "30350 Edison Rd, New Carlisle, MI 46552"
+state = "IN"
+address = "30350 Edison Rd, New Carlisle, IN 46552"
 lat = 41.69375
 lon = -86.45481
 osha_id = "1321482"

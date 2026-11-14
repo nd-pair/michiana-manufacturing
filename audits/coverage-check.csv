@@ -1,34 +1,34 @@
 level,key,cbp_establishments,map_sites,coverage_pct,cbp_20_plus,map_20_plus,coverage_20_plus_pct
-county,"St. Joseph, IN",313,183,58,139,159,114
-county,"Elkhart, IN",841,418,50,449,350,78
-county,"Marshall, IN",133,55,41,62,51,82
-county,"LaPorte, IN",155,79,51,74,68,92
-county,"Kosciusko, IN",184,86,47,80,72,90
-county,"Starke, IN",19,9,47,12,6,50
+county,"St. Joseph, IN",313,170,54,139,148,106
+county,"Elkhart, IN",841,424,50,449,360,80
+county,"Marshall, IN",133,56,42,62,51,82
+county,"LaPorte, IN",155,76,49,74,66,89
+county,"Kosciusko, IN",184,85,46,80,71,89
+county,"Starke, IN",19,10,53,12,7,58
 county,"Fulton, IN",38,12,32,17,12,71
-county,"LaGrange, IN",188,40,21,56,32,57
+county,"LaGrange, IN",188,41,22,56,34,61
 county,"Noble, IN",116,40,34,57,38,67
-county,"Whitley, IN",73,17,23,32,16,50
-county,"Berrien, MI",275,112,41,105,99,94
-county,"Cass, MI",69,26,38,27,26,96
+county,"Whitley, IN",73,18,25,32,17,53
+county,"Berrien, MI",275,108,39,105,95,90
+county,"Cass, MI",69,24,35,27,24,89
 county,"Van Buren, MI",91,23,25,35,21,60
 naics3,332,538,189,35,,,
-naics3,336,306,181,59,,,
-naics3,333,225,106,47,,,
-naics3,321,205,54,26,,,
+naics3,336,306,184,60,,,
+naics3,333,225,101,45,,,
+naics3,321,205,56,27,,,
 naics3,337,200,51,26,,,
-naics3,326,191,112,59,,,
-naics3,311,139,50,36,,,
-naics3,339,122,49,40,,,
-naics3,325,93,44,47,,,
+naics3,326,191,110,58,,,
+naics3,311,139,48,35,,,
+naics3,339,122,50,41,,,
+naics3,325,93,43,46,,,
 naics3,327,77,43,56,,,
-naics3,323,74,27,36,,,
-naics3,331,62,61,98,,,
+naics3,323,74,24,32,,,
+naics3,331,62,56,90,,,
 naics3,312,50,3,6,,,
 naics3,334,33,30,91,,,
-naics3,335,30,19,63,,,
-naics3,322,25,28,112,,,
-naics3,314,20,12,60,,,
+naics3,335,30,18,60,,,
+naics3,322,25,29,116,,,
+naics3,314,20,11,55,,,
 naics3,313,4,6,150,,,
 naics3,315,3,0,0,,,
 naics3,316,3,1,33,,,

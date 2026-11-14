@@ -9,8 +9,8 @@ address = "1015 Saint Jerome Street, Mishawaka, IN 46544"
 lat = 41.64556
 lon = -86.16586
 website = "https://copperandbrass.com"
-unconfirmed_reason = "The company operates in the region, but no current source confirms a plant at this address (verification check, November 2026): Copper and Brass Sales is now branded Materials Plus with a South Bend location, but no source confirmed the 1015 St Jerome St address."
-unconfirmed = "2026-11-14"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Forefront Foam, a foam products maker, files OSHA's 2025 Form 300A for 1015 St Jerome St (the import missed the match because of 'Saint' vs 'St'), and the November 2026 check found Copper and Brass Sales operating as Materials Plus at a South Bend location, not here."
+presumed_closed = "2026-11-14"
 
 sector = "Metal"
 products = ["Aluminum Sheet, Plate, and Foil Manufacturing"]
