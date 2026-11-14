@@ -21,7 +21,7 @@ Nothing is changed. A mismatch is a lead for a person: a company often lists onl
 multi-plant companies list some plants and not others. Treat "elsewhere" as strong only for a
 single-site company whose site gives a single address.
 """
-import concurrent.futures, csv, html, json, re, sys, urllib.request
+import concurrent.futures, csv, html, json, re, socket, sys, urllib.request
 from common import P, companies
 
 ZIPS = json.load(open(P("data", "region_zips.json")))["zips"]
@@ -89,6 +89,12 @@ def classify(listed, found, zips):
 def check(c):
     url = c["website"] if "//" in c["website"] else "https://" + c["website"]
     base = re.match(r"https?://[^/]+", url)[0]
+    h = re.sub(r"^https?://", "", base)
+    try:
+        socket.getaddrinfo(h, 443)
+    except socket.gaierror:
+        if not h.startswith("www."):
+            base = base.replace("://", "://www.", 1)   # only www. resolves (atcomp.com, glavalbus.com)
     loaded, found = False, set()
     for path in PAGES:
         page = get(base + path)

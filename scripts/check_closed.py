@@ -25,7 +25,7 @@ Confirm a closure from a dated source (news, a WARN notice, a state filing) befo
 add closed = YYYY-MM-DD and closed_note = "..." to the company file. Do not delete the file, or the
 monthly HIFLD import will add the facility again.
 """
-import concurrent.futures, csv, datetime, json, os, socket, ssl, sys, urllib.error, urllib.parse, urllib.request
+import concurrent.futures, csv, datetime, json, os, re, socket, ssl, sys, urllib.error, urllib.parse, urllib.request
 from common import P, companies
 
 PARKED = ("domain is for sale", "buy this domain", "this domain may be for sale", "hugedomains", "sedo.com",
@@ -51,6 +51,7 @@ def check(c):
             socket.getaddrinfo("www." + h, 443)
         except socket.gaierror:
             return "strong", "domain does not resolve", ""
+        url = re.sub(r"^(https?://)", r"\1www.", url, count=1)   # only www. resolves (atcomp.com): fetch that
     # certificates are checked: an expired or mismatched certificate is itself a sign of an abandoned site,
     # and an unverified connection could land anywhere. Plain http is still tried after it.
     ctx = ssl.create_default_context()
