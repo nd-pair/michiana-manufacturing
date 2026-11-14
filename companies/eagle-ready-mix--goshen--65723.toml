@@ -1,14 +1,16 @@
 # Eagle Ready Mix
 # Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
 
-name = "Eagle Ready Mix"
+name = "Ozinga"
 kind = "company"
 city = "Goshen"
 state = "IN"
 address = "65723 US Highway 33, Goshen, IN 46526"
 lat = 41.54117
 lon = -85.78038
-website = "https://eaglereadymix.com"
+verified = "2026-11-13"
+status_note = "Renamed in a verification check (2026-11-13): Ozinga acquired Eagle Ready-Mix in 2017 including the Goshen site at 65723 US 33, and a Birdeye page lists Ozinga at 65723 US-33; eaglereadymix.com domain no longer resolves. Source: https://www.am1050.com/2017/07/17/ozinga-acquires-eagle-ready-mix-adds-new-locations-in-goshen-and-elkhart/"
+formerly = "Eagle Ready Mix"
 
 sector = "Materials & composites"
 products = ["Ready-Mix Concrete Manufacturing"]

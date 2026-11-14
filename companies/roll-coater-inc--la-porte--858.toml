@@ -9,6 +9,8 @@ address = "858 East Hupp Road, La Porte, IN 46350"
 lat = 41.51653
 lon = -86.66919
 website = "https://rollcoater.com"
+presumed_closed_reason = "Verification check: renamed or acquired, but the new name is not tied to this address (AZZ Precoat Metals (Kingsbury)). AZZ lists its Kingsbury coil-coating plant at 858 East Hupp Road, and MapQuest describes the Precoat Metals listing there as Roll Coater, a coil coater; the ownership change itself was not explicitly sourced. Source: https://www.azz.com/locations/azz-precoat-metals-kingsbury"
+presumed_closed = "2026-11-13"
 
 sector = "Metal"
 products = ["Metal Coating, Engraving (except Jewelry and Silverware), and Allied Services To Manufacturers"]

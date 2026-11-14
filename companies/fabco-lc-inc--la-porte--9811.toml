@@ -8,6 +8,8 @@ state = "IN"
 address = "9811 West State Road 2, La Porte, IN 46350"
 lat = 41.56322
 lon = -86.89377
+verified_note = "Only an undated NAICS directory lists Fabco-lc Inc. at 9811 State St, La Porte (about 11 employees); low confidence, no company site or dated evidence found. Source: https://naicslist.com/company-profile/fabco-lc-inc-laporte-in-46350"
+verified = "2026-11-13"
 
 sector = "Metal"
 products = ["All Other Miscellaneous Fabricated Metal Product Manufacturing"]

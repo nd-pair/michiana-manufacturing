@@ -8,6 +8,8 @@ state = "IN"
 address = "6595 East in 10, Knox, IN 46534"
 lat = 41.22954
 lon = -86.57132
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Varipak (GMI Group division) is described as a Knox, IN lid maker in an undated article, but no current listing or the 6595 address was found. Source: https://trademarks.justia.com/736/93/varipak-73693163.html"
+presumed_closed = "2026-11-13"
 
 sector = "Metal"
 products = ["All Other Miscellaneous Fabricated Metal Product Manufacturing"]

@@ -9,6 +9,8 @@ address = "2740 East Kercher Road, Goshen, IN 46526"
 lat = 41.55154
 lon = -85.78940
 website = "https://canterburyrv.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. The Canterbury RV site shows only a 2015 DNA Enterprises copyright and no address; no listing at 2740 East Kercher Road was found. Source: https://canterburyrv.com"
+presumed_closed = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Manufactured Home (mobile Home) Manufacturing"]

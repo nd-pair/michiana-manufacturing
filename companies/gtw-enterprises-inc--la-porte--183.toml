@@ -5,10 +5,12 @@ name = "Gtw Enterprises, Inc."
 kind = "company"
 city = "La Porte"
 state = "IN"
-address = "183 West 800 North, La Porte, IN 46350"
-lat = 41.72326
-lon = -86.70465
+address = "1164 E 150 N, La Porte, IN 46350"
+lat = 41.62824
+lon = -86.67798
 website = "https://gtwenterprises.com"
+verified = "2026-11-13"
+status_note = "Moved from 183 West 800 North, La Porte, IN 46350; found in a verification check (2026-11-13): The 183 W 800 N plant was heavily damaged by fire on Nov 3, 2022, and the company's 2026 website now lists 1164 E 150 N."
 
 sector = "Mechatronics & automation"
 products = ["Paper Industry Machinery Manufacturing"]

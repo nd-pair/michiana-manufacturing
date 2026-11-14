@@ -9,6 +9,8 @@ address = "13790 Jefferson Boulevard, Mishawaka, IN 46545"
 lat = 41.67296
 lon = -86.13403
 website = "https://pullrite.com"
+verified_note = "Live PullRite site (Pulliam Enterprises) and directories give 13790 Jefferson Blvd, though MapQuest marks it Closed and the site shows no address or year. Source: https://pullrite.com"
+verified = "2026-11-13"
 
 sector = "Vehicles & RVs"
 products = ["Truck Trailer Manufacturing"]

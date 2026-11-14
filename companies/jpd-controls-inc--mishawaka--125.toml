@@ -5,10 +5,12 @@ name = "Jpd Controls, Inc."
 kind = "company"
 city = "Mishawaka"
 state = "IN"
-address = "125 East Mishawaka Avenue, Mishawaka, IN 46545"
-lat = 41.66593
-lon = -86.18071
+address = "56713 Magnetic Dr, Mishawaka, IN 46545"
+lat = 41.67182
+lon = -86.12803
 website = "https://jpdcontrols.com"
+verified = "2026-11-13"
+status_note = "Moved from 125 East Mishawaka Avenue, Mishawaka, IN 46545; found in a verification check (2026-11-13): Weak: NAICS and GlobalSpec listings put JPD Controls at 56713 Magnetic Dr while 125 E Mishawaka Ave appears only in a 1985 OSHA record and a vendor linecard; jpdcontrols.com returned HTTP 503."
 
 sector = "Electronics"
 products = ["Printed Circuit Assembly (electronic Assembly) Manufacturing"]

@@ -8,6 +8,8 @@ state = "IN"
 address = "2833 North Goldring Road, La Porte, IN 46350"
 lat = 41.64987
 lon = -86.83537
+verified_note = "Purdue MEP lists Caddo Connections as a wiring-harness and control-panel maker, and an FMCSA carrier record for the La Porte company was updated March 2026; address matches 2833 N Goldring Rd per PPP data. Source: https://mep.purdue.edu/made-in-indiana/company/caddo-connections-inc"
+verified = "2026-11-13"
 
 sector = "Electronics"
 products = ["Other Electronic Component Manufacturing"]

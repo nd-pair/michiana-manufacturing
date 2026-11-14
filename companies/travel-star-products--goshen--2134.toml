@@ -8,6 +8,8 @@ state = "IN"
 address = "2134 Dierdorff Road, Goshen, IN 46526"
 lat = 41.55922
 lon = -85.80415
+verified_note = "BBB lists Travel Star Products (plastic molder, 574-533-0447) at 2134 Dierdorff Rd, Goshen, though an entry for Tri Star Molding at the same address may be a related or renamed entity. Source: https://www.bbb.org/us/in/goshen/category/molds"
+verified = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["All Other Plastics Product Manufacturing"]

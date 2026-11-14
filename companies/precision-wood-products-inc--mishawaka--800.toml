@@ -8,6 +8,8 @@ state = "IN"
 address = "800 Cleveland Street, Mishawaka, IN 46544"
 lat = 41.65446
 lon = -86.19335
+verified_note = "Company Google Sites page lists 800 S Cleveland St, Mishawaka (phone 574-255-7141), a custom woodworking and Corian fabrication shop since 1975; undated. Source: https://sites.google.com/view/precisionwoodproducts/home"
+verified = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Wood Kitchen Cabinet and Countertop Manufacturing"]

@@ -8,6 +8,8 @@ state = "IN"
 address = "345 East Hupp Road, La Porte, IN 46350"
 lat = 41.55538
 lon = -86.60379
+presumed_closed_reason = "Verification check: renamed or acquired, but the new name is not tied to this address (New Plant Life). Superpages lists 'New Plant Life' at 345 E Hupp Rd, La Porte (topsoil and garden supplies); this is the same address, but no source explicitly links the two names. Source: https://www.superpages.com/wanatah-in/garden-centers"
+presumed_closed = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["Fertilizer (mixing Only) Manufacturing"]

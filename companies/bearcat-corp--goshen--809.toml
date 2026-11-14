@@ -5,10 +5,12 @@ name = "Bearcat Corp."
 kind = "company"
 city = "Goshen"
 state = "IN"
-address = "809 Logan Street, Goshen, IN 46528"
-lat = 41.58441
-lon = -85.81970
+address = "2431 E. Kercher Road, Goshen, IN 46526"
+lat = 41.55189
+lon = -85.79229
 website = "https://bearcatcorp.com"
+verified = "2026-11-13"
+status_note = "Moved from 809 Logan Street, Goshen, IN 46528; found in a verification check (2026-11-13): Bearcat's live site (2026 copyright) gives 2431 E. Kercher Road and nothing places it at 809 Logan Street."
 
 sector = "Metal"
 products = ["Primary Aluminum Production"]

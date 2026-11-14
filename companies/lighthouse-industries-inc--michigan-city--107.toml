@@ -9,6 +9,8 @@ address = "107 Eastwood Road, Michigan City, IN 46360"
 lat = 41.72423
 lon = -86.83556
 website = "https://lighthouseindustries.com"
+verified_note = "lighthouseindustries.com is live with a 2025 copyright and lists 107 Eastwood Road, Michigan City; directories show a plastics/injection molding firm there and a toolmaker job posting. Source: https://lighthouseindustries.com"
+verified = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["All Other Plastics Product Manufacturing"]

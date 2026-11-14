@@ -9,6 +9,8 @@ address = "200 Winski Drive, Michigan City, IN 46360"
 lat = 41.70187
 lon = -86.90959
 website = "https://mctdinc.com"
+verified_note = "Directory listings show MCTD, Inc. (custom automation equipment, formerly Michigan City Tool & Die) at 200 Winski Drive, and its website passed the live check, but the listings are undated. Source: https://www.mapquest.com/us/indiana/mctd-inc-6105560"
+verified = "2026-11-13"
 
 sector = "Mechatronics & automation"
 products = ["All Other Industrial Machinery Manufacturing"]

@@ -9,6 +9,9 @@ address = "402 Royal Road, Michigan City, IN 46360"
 lat = 41.71479
 lon = -86.84097
 website = "https://federalmogul.com"
+closed_source = "https://www.european-rubber-journal.com/2012/07/18/federal-mogul-to-close-wiper-blade-plant"
+closed_note = "Trade press reported in July 2012 that Federal-Mogul would close its Michigan City wiper blade plant on Royal Road, moving production to Mexico."
+closed = "2012"
 
 sector = "Vehicles & RVs"
 products = ["All Other Motor Vehicle Parts Manufacturing"]

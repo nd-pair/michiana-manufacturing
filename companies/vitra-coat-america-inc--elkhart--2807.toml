@@ -9,6 +9,8 @@ address = "2807 Marina Drive, Elkhart, IN 46514"
 lat = 41.72535
 lon = -85.91745
 website = "https://vitracoat.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Vitracoat's live site lists only a Houston TX headquarters, a MapQuest entry for the Elkhart address is marked closed, and no current evidence of operation at 2807 Marina Drive was found (a 2006 article covers the Elkhart plant build). Source: https://pcimag.com/articles/94414-vitracoat-begins-construction-of-new-plant-9-5-06"
+presumed_closed = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["Paint and Coating Manufacturing"]

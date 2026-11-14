@@ -9,6 +9,8 @@ address = "56641 Twin Branch Drive, Mishawaka, IN 46545"
 lat = 41.67146
 lon = -86.13141
 website = "https://parker.com"
+verified_note = "Weak: a member directory lists a Parker Hannifin site on Twin Branch Drive, Mishawaka (ZIP 46545-7479); the facility's function and date were not confirmed. Source: https://www.electronics.org/member-directory?page=353"
+verified = "2026-11-13"
 
 sector = "Electronics"
 products = ["Instruments & Related Products Mfg. for Measuring, Displaying, Controlling Industrial Process Variables"]

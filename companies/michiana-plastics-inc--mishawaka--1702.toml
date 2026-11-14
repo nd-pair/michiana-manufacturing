@@ -8,6 +8,8 @@ state = "IN"
 address = "1702 East 7th Street, Mishawaka, IN 46544"
 lat = 41.65660
 lon = -86.15007
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Only an undated government-contractor directory lists Michiana Plastics at 1702 E 7th St (est. 1964); no website, current listing or news found. Source: https://governmentbidders.com/government-bidders/contractor-5418234-MICHIANA-PLASTICS-INC.htm"
+presumed_closed = "2026-11-13"
 
 sector = "Mechatronics & automation"
 products = ["Industrial Mold Manufacturing"]

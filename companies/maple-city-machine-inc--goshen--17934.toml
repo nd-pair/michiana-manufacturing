@@ -8,6 +8,8 @@ state = "IN"
 address = "17934 County Road 38, Goshen, IN 46526"
 lat = 41.55133
 lon = -85.81017
+verified_note = "BBB lists Maple City Machine at 17934 County Road 38, Goshen (phone 574-533-6742) as a machine shop; undated and another directory gives 1762 E Kercher Rd. Source: https://naicslist.com/company-profile/maple-city-machine-inc-goshen-in-46526"
+verified = "2026-11-13"
 
 sector = "Metal"
 products = ["Machine Shops"]

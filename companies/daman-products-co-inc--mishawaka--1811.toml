@@ -9,6 +9,8 @@ address = "1811 North Home Street, Mishawaka, IN 46545"
 lat = 41.67650
 lon = -86.14854
 website = "https://damanifolds.com"
+verified_note = "damanifolds.com redirects to daman.com, which lists 1811 N. Home Street with a 2024 copyright, and LeadIQ shows about 105 employees as of December 2025. Source: https://daman.com/"
+verified = "2026-11-13"
 
 sector = "Mechatronics & automation"
 products = ["Fluid Power Cylinder and Actuator Manufacturing"]

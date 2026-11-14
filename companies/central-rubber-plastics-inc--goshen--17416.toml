@@ -9,6 +9,8 @@ address = "17416 County Road 34, Goshen, IN 46528"
 lat = 41.58048
 lon = -85.80157
 website = "https://centralrubberinc.com"
+verified_note = "BBB and federal contractor listings place Central Rubber & Plastics at 17416 County Road 34 (CAGE record expiring Dec 2024); the site loads but showed little detail. Source: https://cage.report/CAGE/05DT4"
+verified = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["Rubber Product Manufacturing for Mechanical Use"]

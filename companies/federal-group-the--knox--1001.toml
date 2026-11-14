@@ -9,6 +9,8 @@ address = "1001 West Culver Road, Knox, IN 46534"
 lat = 41.28781
 lon = -86.63765
 website = "https://barberandross.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. barberandross.com now redirects to a GoDaddy for-sale page; only a name-only directory shows Barber and Ross entities in Knox, with no address match. Source: https://brokersnapshot.com/CatalogCompanies/in/knox"
+presumed_closed = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Wood Window and Door Manufacturing"]

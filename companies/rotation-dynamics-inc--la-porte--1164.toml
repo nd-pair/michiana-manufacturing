@@ -9,6 +9,8 @@ address = "1164 East 150 North, La Porte, IN 46350"
 lat = 41.62801
 lon = -86.67857
 website = "https://rotadyne.com"
+presumed_closed_reason = "Verification check: another business is at this address now (GTW Enterprises). GTW Enterprises' 2026 site and Cybo list 1164 E 150 N as GTW's address, and no source places Rotation Dynamics (RotaDyne, acquired by Finzer Roller in 2020) there. Source: https://gtwenterprises.com"
+presumed_closed = "2026-11-13"
 
 sector = "Mechatronics & automation"
 products = ["Printing Machinery and Equipment Manufacturing"]

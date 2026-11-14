@@ -5,9 +5,11 @@ name = "Miller Door & Trim Co., Inc."
 kind = "company"
 city = "Goshen"
 state = "IN"
-address = "1702 East Monroe Street, Goshen, IN 46528"
-lat = 41.58043
-lon = -85.81141
+address = "2249 Lincolnway East, Goshen, IN 46526"
+lat = 41.56499
+lon = -85.80132
+verified = "2026-11-13"
+status_note = "Moved from 1702 East Monroe Street, Goshen, IN 46528; found in a verification check (2026-11-13): Goshen Chamber and carrier listings place Miller Door and Trim, Inc. (574-533-8141) at 2249 Lincolnway East; nothing found at 1702 E Monroe St."
 
 sector = "Wood, paper & furniture"
 products = ["Wood Window and Door Manufacturing"]

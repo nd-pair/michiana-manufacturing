@@ -9,6 +9,8 @@ address = "6000 Ohio Street, Michigan City, IN 46360"
 lat = 41.66632
 lon = -86.90409
 website = "https://frech.com"
+removed_reason = "not a production site (office or hq), found in a verification check: NADCA announced the FRECH USA Experience Center opening May 20, 2025 at 6000 Ohio Street; Frech USA is the group's North American sales and service subsidiary (frech.com itself is the German parent site and lists no US address)."
+removed = "2026-11-13"
 
 sector = "Mechatronics & automation"
 products = ["Machine Tool (metal Forming Types) Manufacturing"]

@@ -8,6 +8,8 @@ state = "IN"
 address = "520 Industrial Drive, Lakeville, IN 46536"
 lat = 41.52881
 lon = -86.27565
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Name and address searches returned no record of Ultra/glas at 520 Industrial Drive, Lakeville; only unrelated Ultra-Glas firms in other states."
+presumed_closed = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["Mineral Wool Manufacturing"]

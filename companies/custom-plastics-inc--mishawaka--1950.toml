@@ -9,6 +9,8 @@ address = "1950 East Mckinley Avenue, Mishawaka, IN 46545"
 lat = 41.68058
 lon = -86.14953
 website = "https://spinwelding.com"
+verified_note = "Weak: site is a dated splash page for Custom Plastics, Inc. (roto-molding products) with no address or year, and MapQuest lists Custom Plastics at 1950 E McKinley Ave. Source: https://spinwelding.com/index2.htm"
+verified = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["All Other Plastics Product Manufacturing"]

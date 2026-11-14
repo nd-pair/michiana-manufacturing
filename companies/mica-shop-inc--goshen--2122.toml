@@ -9,6 +9,8 @@ address = "2122 Lincolnway East, Goshen, IN 46526"
 lat = 41.55890
 lon = -85.79295
 website = "https://micashop.com"
+verified_note = "micashop.com is live and shows 2122 Lincolnway East, Goshen, IN 46526 as its location, though the page carries no year. Source: https://micashop.com"
+verified = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Wood Kitchen Cabinet and Countertop Manufacturing"]

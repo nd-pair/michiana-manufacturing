@@ -9,6 +9,8 @@ address = "66101 US Highway 33, Goshen, IN 46526"
 lat = 41.53604
 lon = -85.78025
 website = "https://gindor.com"
+verified_note = "Live gindor.com (copyright 2026) lists 66101 US 33, Goshen, IN 46526 as its address for die-cut gaskets. Source: https://gindor.com"
+verified = "2026-11-13"
 
 sector = "Medical devices & other"
 products = ["Gasket, Packing, and Sealing Device Manufacturing"]

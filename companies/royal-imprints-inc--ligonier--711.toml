@@ -9,6 +9,8 @@ address = "711 Gerber Street, Ligonier, IN 46767"
 lat = 41.46914
 lon = -85.60032
 website = "https://royalimprints.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. No directory or news listing for Royal Imprints at 711 Gerber Street was found, and royalimprints.com returned an empty page."
+presumed_closed = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Other Commercial Printing"]

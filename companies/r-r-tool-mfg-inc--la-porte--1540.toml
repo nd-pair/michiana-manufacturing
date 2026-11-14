@@ -8,6 +8,8 @@ state = "IN"
 address = "1540 Lake Street, La Porte, IN 46350"
 lat = 41.60900
 lon = -86.73489
+verified_note = "Cybo directory lists R & R Tool & Manufacturing, a machine shop, at 1540 Lake St, La Porte; undated, no independent confirmation. Source: https://www.cybo.com/US/laporte/machine-shop"
+verified = "2026-11-13"
 
 sector = "Metal"
 products = ["Machine Shops"]

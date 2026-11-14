@@ -9,6 +9,8 @@ address = "1607 South Main Street, Goshen, IN 46526"
 lat = 41.56782
 lon = -85.82902
 website = "https://ipclp.com"
+verified_note = "Live ipclp.com (Since 1934, copyright 2026) lists 1607 S. Main Street, Goshen, IN 46526 for lightning protection systems. Source: https://ipclp.com"
+verified = "2026-11-13"
 
 sector = "Electronics"
 products = ["All Other Miscellaneous Electrical Equipment and Component Manufacturing"]

@@ -9,6 +9,8 @@ address = "1201 Gerber Street, Ligonier, IN 46767"
 lat = 41.47328
 lon = -85.60216
 website = "https://parker.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. One article lists Ligonier among Parker's Indiana manufacturing locations, but nothing confirmed an operation at 1201 Gerber Street. Source: https://www.insideindianabusiness.com/articles/tell-city-plant-to-be-shuttered"
+presumed_closed = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["All Other Rubber Product Manufacturing"]

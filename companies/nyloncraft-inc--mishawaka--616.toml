@@ -9,6 +9,8 @@ address = "616 West Mckinley Avenue, Mishawaka, IN 46545"
 lat = 41.68063
 lon = -86.19044
 website = "https://nyloncraft.com"
+verified_note = "Nyloncraft, a Dickten Masch Plastics subsidiary since 2012, is listed with headquarters at 616 W McKinley Ave; nyloncraft.com could not be fetched due to a certificate error. Source: https://www.cbinsights.com/company/nyloncraft"
+verified = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["All Other Plastics Product Manufacturing"]

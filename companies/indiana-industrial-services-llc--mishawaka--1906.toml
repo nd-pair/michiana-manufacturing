@@ -8,6 +8,8 @@ state = "IN"
 address = "1906 Clover Road, Mishawaka, IN 46545"
 lat = 41.67711
 lon = -86.15343
+presumed_closed_reason = "Verification check: another business is at this address now (Midwest Finishing Systems, Inc.). Weak: the only company found at 1906 Clover Road is Midwest Finishing Systems (whose job posts give 55770 Evergreen Plaza Dr), while Indiana Industrial Services appears only as a Mishawaka job-posting employer with no street address. Source: https://www.globalspec.com/local/3288/C_US/IN/Mishawaka"
+presumed_closed = "2026-11-13"
 
 sector = "Metal"
 products = ["Machine Shops"]

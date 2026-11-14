@@ -8,6 +8,8 @@ state = "IN"
 address = "61501 Bremen Highway, Mishawaka, IN 46544"
 lat = 41.60045
 lon = -86.17704
+presumed_closed_reason = "Verification check: no current trace of this company at this address. No result confirmed Kelley Mfg. Corp. or 61501 Bremen Highway; only unrelated Kelley-named companies appeared, and further searching was blocked by the search limit."
+presumed_closed = "2026-11-13"
 
 sector = "Mechatronics & automation"
 products = ["Farm Machinery and Equipment Manufacturing"]

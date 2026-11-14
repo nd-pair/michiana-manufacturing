@@ -8,6 +8,8 @@ state = "IN"
 address = "5680 West 100 North, Lagrange, IN 46761"
 lat = 41.65464
 lon = -85.53850
+presumed_closed_reason = "Verification check: renamed or acquired, but the new name is not tied to this address (Indiana Meat and Poultry Processors Inc). USDA FSIS lists Indiana Meat and Poultry Processors Inc at the same 5680 W 100 N address (grant July 2024, active check April 2025), while Superpages still lists Mishler Packing there; the link between the names is inferred from the shared address. Source: https://www.fsis.usda.gov/inspection/fsis-inspected-establishments/indiana-meat-and-poultry-processors-inc"
+presumed_closed = "2026-11-13"
 
 sector = "Food & consumer goods"
 products = ["Meat Processed From Carcasses"]

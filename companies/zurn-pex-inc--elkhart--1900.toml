@@ -9,6 +9,8 @@ address = "1900 West Hively Avenue, Elkhart, IN 46517"
 lat = 41.66004
 lon = -85.99940
 website = "https://zurn.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Only a customs-data listing (latest 2011) ties Zurn PEX to this address; Zurn's PEX production is described in Erie PA and Commerce TX, and no Elkhart facility was found. Source: https://panjiva.com/Zurn-Pex/2632781"
+presumed_closed = "2026-11-13"
 
 sector = "Metal"
 products = ["Other Metal Valve and Pipe Fitting Manufacturing"]

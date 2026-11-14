@@ -8,6 +8,8 @@ state = "IN"
 address = "5621 South US Highway 35, Kingsbury, IN 46345"
 lat = 41.52191
 lon = -86.69728
+removed_reason = "not a production site (warehouse distribution), found in a verification check: A May 2023 job posting and an active carrier registration show Kingsbury Elevator, a grain elevator and trucking operation, at 5621 S Hwy 35."
+removed = "2026-11-13"
 uei = "VCTGBBCLKLF5"
 
 sector = "Food & consumer goods"

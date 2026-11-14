@@ -10,6 +10,8 @@ address = "26920 M-60, Mendon, MI 49072"
 status_note = "ECM Converting merged with Manchester Industries, which operates at this address (OSHA records through 2025)."
 lat = 42.00759
 lon = -85.43151
+verified_note = "Manchester Industries (merged with ECM Converting) is listed at 26920 M-60, Mendon in a federal enforcement profile updated May 2026, matching the record's current name. Source: https://www.packagingimpressions.com/article/manchester-industries-ecm-converting-company-merge-59605"
+verified = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Paperboard Mills"]

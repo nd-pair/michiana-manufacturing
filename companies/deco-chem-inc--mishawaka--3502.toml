@@ -9,6 +9,8 @@ address = "3502 North Home Street, Mishawaka, IN 46545"
 lat = 41.69210
 lon = -86.14923
 website = "https://decochem.com"
+verified_note = "Live site shows 3502 North Home Street, Mishawaka and a 2026 copyright. Source: https://decochem.com"
+verified = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["Printing Ink Manufacturing"]

@@ -9,6 +9,8 @@ address = "58647 State Road 15, Goshen, IN 46528"
 lat = 41.64306
 lon = -85.82283
 website = "https://kropfind.com"
+verified_note = "Live kropfind.com (copyright 2026) lists 58647 S.R. 15, Goshen, IN 46528 and sells park model RVs. Source: https://kropfind.com"
+verified = "2026-11-13"
 
 sector = "Vehicles & RVs"
 products = ["Motor Home Manufacturing"]

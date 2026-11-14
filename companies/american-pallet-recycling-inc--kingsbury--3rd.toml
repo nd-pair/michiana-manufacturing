@@ -8,6 +8,8 @@ state = "IN"
 address = "3rd Road, Kingsbury, IN 46345"
 lat = 41.50578
 lon = -86.64986
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Searches for the company name and Kingsbury returned no listing or news for American Pallet & Recycling at this location."
+presumed_closed = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Wood Container and Pallet Manufacturing"]

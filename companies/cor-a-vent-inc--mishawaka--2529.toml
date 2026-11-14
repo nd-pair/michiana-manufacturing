@@ -9,6 +9,8 @@ address = "2529 Lincolnway West, Mishawaka, IN 46544"
 lat = 41.65746
 lon = -86.21117
 website = "https://cor-a-vent.com"
+verified_note = "Live company site with 2026 copyright (mailing address is a PO box) and an Arcat listing gives 2529 Lincoln Way W, Mishawaka. Source: https://cor-a-vent.com"
+verified = "2026-11-13"
 
 sector = "Mechatronics & automation"
 products = ["Industrial and Commercial Fan and Blower Manufacturing"]

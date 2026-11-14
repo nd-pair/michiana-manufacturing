@@ -9,6 +9,8 @@ address = "17103 State Road 4 East, Goshen, IN 46528"
 lat = 41.59209
 lon = -85.79268
 website = "https://acmeair.com"
+verified_note = "A directory and BBB category pages list Acme Radiator & Air Conditioning at 17103 State Road 4 East, but only from low-reliability aggregators and the website could not be fetched. Source: https://www.twoinstitute.com/ent/acme-radiator-air-conditioning/"
+verified = "2026-11-13"
 
 sector = "Mechatronics & automation"
 products = ["Air-Conditioning & Warm Air Heating Equipment & Commercial and Industrial Refrigeration Equipment Mfg."]

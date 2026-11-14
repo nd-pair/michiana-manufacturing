@@ -9,6 +9,8 @@ address = "1302 Eisenhower Drive North, Goshen, IN 46526"
 lat = 41.55713
 lon = -85.81555
 website = "https://workflowone.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Only a 2007 trade article places a WorkflowOne plant in Goshen; no current listing at this address was found and the company site returned HTTP 403. Source: https://www.piworld.com/article/workflowones-goshen-facility-earns-iso-certifications-44186/"
+presumed_closed = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Manifold Business Form Printing"]

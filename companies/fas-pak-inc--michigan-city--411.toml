@@ -9,6 +9,8 @@ address = "411 Fairfield Avenue, Michigan City, IN 46360"
 lat = 41.71232
 lon = -86.86813
 website = "https://fas-pak.com"
+verified_note = "Birdeye and GlobalSpec list Fas-Pak at 411 Fairfield Ave, and fas-pak.com has a July 2025 Wayback capture, though my live fetch of the site failed. Source: https://reviews.birdeye.com/d/manufacturing/michigan-city-in/"
+verified = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["All Other Miscellaneous Chemical Product and Preparation Manufacturing"]

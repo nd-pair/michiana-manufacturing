@@ -9,6 +9,8 @@ address = "1700 Egbert Avenue, Goshen, IN 46528"
 lat = 41.57849
 lon = -85.81303
 website = "https://aggregate-us.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. No Aggregate Industries site at 1700 Egbert Avenue was found; an older listing there names Fidler Sand & Gravel, and Aggregate's nearest listed site is in Nappanee. Source: https://www.insideindianabusiness.com/articles/manufacturer-expanding-in-goshen"
+presumed_closed = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["Ready-Mix Concrete Manufacturing"]

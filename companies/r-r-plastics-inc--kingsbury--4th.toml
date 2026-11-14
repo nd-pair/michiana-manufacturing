@@ -8,6 +8,8 @@ state = "IN"
 address = "4th Road, Kingsbury, IN 46345"
 lat = 41.50976
 lon = -86.64125
+presumed_closed_reason = "Verification check: no current trace of this company at this address. No listing or news for R & R Plastics in Kingsbury was found; the only similarly named firm is R & R Technologies in Edinburgh, IN."
+presumed_closed = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["All Other Plastics Product Manufacturing"]

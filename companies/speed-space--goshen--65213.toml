@@ -9,6 +9,8 @@ address = "65213 County Road 31, Goshen, IN 46528"
 lat = 41.54880
 lon = -85.77098
 website = "https://speedspace.org"
+presumed_closed_reason = "Verification check: renamed or acquired, but the new name is not tied to this address (Commercial Structures Corp.). speedspace.org redirects to Commercial Structures Corp. (Nappanee), which calls Speed Space a product line it now owns; a GlobalSpec manufacturer listing exists at 65213 CR 31 but the tie of that address to the new name is not confirmed. Source: https://comstruc.com/"
+presumed_closed = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Prefabricated Wood Building Manufacturing"]

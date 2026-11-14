@@ -9,6 +9,8 @@ address = "1201 East Lincolnway, La Porte, IN 46350"
 lat = 41.62289
 lon = -86.69636
 website = "https://aerometals.com"
+verified_note = "Multiple directories (Thomasnet, SweetSpot federal contractor, LeadIQ updated March 2026) list Aero Metals investment-casting foundry at 1201 E Lincolnway, La Porte. Source: https://www.thomasnet.com/company/aero-metals-inc-175655/profile"
+verified = "2026-11-13"
 
 sector = "Metal"
 products = ["Steel Investment Foundries"]

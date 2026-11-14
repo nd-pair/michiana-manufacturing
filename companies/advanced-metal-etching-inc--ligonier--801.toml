@@ -9,6 +9,8 @@ address = "801 Gerber Street, Ligonier, IN 46767"
 lat = 41.46933
 lon = -85.60116
 website = "https://metaletching.com"
+verified_note = "Live company site (2026 copyright) and multiple directories list Advanced Metal Etching at 801 Gerber St, Ligonier, a photochemical etching and laser cutting shop. Source: https://metaletching.com"
+verified = "2026-11-13"
 
 sector = "Metal"
 products = ["Metal Coating, Engraving (except Jewelry and Silverware), and Allied Services To Manufacturers"]

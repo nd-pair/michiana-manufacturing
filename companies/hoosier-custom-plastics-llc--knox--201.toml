@@ -9,6 +9,8 @@ address = "201 Hamilton Drive, Knox, IN 46534"
 lat = 41.29827
 lon = -86.63897
 website = "https://hcplastic.com"
+verified_note = "Starke County named Hoosier Custom Plastics 2022 Industry of the Year; directories list 201 Hamilton Drive, Knox Industrial Park, and hcplastic.com is live. Source: https://wkvi.com/2022/10/scedf-honors-hoosier-custom-plastics-as-2022-industry-of-the-year"
+verified = "2026-11-13"
 
 sector = "Medical devices & other"
 products = ["Sporting and Athletic Goods Manufacturing"]

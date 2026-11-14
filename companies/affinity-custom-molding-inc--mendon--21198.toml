@@ -9,6 +9,8 @@ address = "21198 M-60, Mendon, MI 49072"
 lat = 42.00625
 lon = -85.54364
 website = "https://affinitycustommolding.com"
+verified_note = "Live company site lists its general office at 21198 M-60, Mendon, and directories describe it as a custom injection molder. Source: https://affinitycustommolding.com"
+verified = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["All Other Plastics Product Manufacturing"]

@@ -9,6 +9,8 @@ address = "5 Fisher Street, La Porte, IN 46350"
 lat = 41.60692
 lon = -86.73297
 website = "https://diedrichdrill.com"
+verified_note = "Live company site (copyright 2026) lists its office at 5 Fisher Street, La Porte, with shipping at 1719 State Street. Source: https://diedrichdrill.com"
+verified = "2026-11-13"
 
 sector = "Mechatronics & automation"
 products = ["Mining Machinery and Equipment Manufacturing"]

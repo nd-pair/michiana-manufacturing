@@ -9,6 +9,8 @@ address = "300 Indiana Highway 212, Michigan City, IN 46360"
 lat = 41.73445
 lon = -86.82580
 website = "https://quik-joint.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Only undated directory entries list Guardian Industries at 300 Highway 212 (one warning it may have moved or closed), and quik-joint.com could not be fetched, so no current evidence was found. Source: https://www.regionaldirectory.us/in/816829.htm"
+presumed_closed = "2026-11-13"
 
 sector = "Mechatronics & automation"
 products = ["Mechanical Power Transmission Equipment Manufacturing"]

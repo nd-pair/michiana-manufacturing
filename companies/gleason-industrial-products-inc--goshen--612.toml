@@ -8,6 +8,8 @@ state = "IN"
 address = "612 East Reynolds Street, Goshen, IN 46526"
 lat = 41.57806
 lon = -85.82591
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Address and name searches returned nothing for a Gleason Industrial Products in Goshen."
+presumed_closed = "2026-11-13"
 
 sector = "Metal"
 products = ["Machine Shops"]

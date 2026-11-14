@@ -9,6 +9,8 @@ address = "25416 County Road 6, Elkhart, IN 46514"
 lat = 41.72397
 lon = -85.95546
 website = "https://walterpiano.com"
+verified_note = "Company site and several directories list Walter Piano Mfg. at 25416 Co Rd 6 #200, Elkhart, phone 574-266-0615. Source: https://walterpiano.com"
+verified = "2026-11-13"
 
 sector = "Medical devices & other"
 products = ["Musical Instrument Manufacturing"]

@@ -9,6 +9,9 @@ address = "1497 Gerber Street, Ligonier, IN 46767"
 lat = 41.47498
 lon = -85.60533
 website = "https://freudenberg-nok.com"
+closed_source = "https://www.warntracker.com/layoff/vibracoustic-2021-06-30"
+closed_note = "Vibracoustic closed its Ligonier (Gerber St) plant with a WARN notice effective June 30, 2021 affecting about 84 workers."
+closed = "2021"
 
 sector = "Vehicles & RVs"
 products = ["Gasoline Engine and Engine Parts Manufacturing"]

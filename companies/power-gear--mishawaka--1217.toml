@@ -9,6 +9,8 @@ address = "1217 East 7th Street, Mishawaka, IN 46544"
 lat = 41.65597
 lon = -86.16039
 website = "https://powergearus.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Searches found no Power Gear at 1217 E 7th St (a listing for Janco Engineered Products appears at that address) and powergearus.com refused the connection."
+presumed_closed = "2026-11-13"
 
 humanoid = ["screws"]
 humanoid_not = ["reducers"]

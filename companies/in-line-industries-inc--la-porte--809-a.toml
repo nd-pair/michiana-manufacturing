@@ -8,6 +8,8 @@ state = "IN"
 address = "809-A Pine Lake Avenue, La Porte, IN 46350"
 lat = 41.62677
 lon = -86.73750
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Searches for the company name and 809 Pine Lake Avenue returned no listing for In-Line Industries."
+presumed_closed = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["All Other Plastics Product Manufacturing"]

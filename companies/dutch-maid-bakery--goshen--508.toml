@@ -8,6 +8,8 @@ state = "IN"
 address = "508 West Lincoln Avenue, Goshen, IN 46526"
 lat = 41.58609
 lon = -85.84326
+verified_note = "Visit Elkhart County and the Goshen Chamber list Dutch Maid Bakery at 508 W. Lincoln Ave (phone 574-533-1940), with new owners since 2017. Source: https://www.visitelkhartcounty.com/listing/dutch-maid-bakery/776/"
+verified = "2026-11-13"
 
 sector = "Food & consumer goods"
 products = ["Commercial Bakeries"]

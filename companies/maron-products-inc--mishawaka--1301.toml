@@ -9,6 +9,8 @@ address = "1301 Industrial Drive, Mishawaka, IN 46544"
 lat = 41.65012
 lon = -86.16527
 website = "https://maronproducts.com"
+verified_note = "Several directories and company history place Maron's stamping and machining plant at 1301 Industrial Drive (88,000 sq ft), plus a South Bend fabrication site; no dated evidence found. Source: https://www.regionaldirectory.us/in/841526.htm"
+verified = "2026-11-13"
 
 sector = "Metal"
 products = ["Metal Stamping"]

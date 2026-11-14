@@ -9,6 +9,8 @@ address = "2704 South Main Street, Goshen, IN 46526"
 lat = 41.54926
 lon = -85.82809
 website = "https://millerpoultry.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Pine Manor (Miller Poultry) is listed in Goshen Chamber and at an Orland, IN FMCSA address, but nothing confirms it at 2704 S Main St, where one directory shows R. Yoder Construction. Source: https://business.goshen.org/list/member/miller-poultry-pine-manor-1027"
+presumed_closed = "2026-11-13"
 
 sector = "Food & consumer goods"
 products = ["Other Animal Food Manufacturing"]

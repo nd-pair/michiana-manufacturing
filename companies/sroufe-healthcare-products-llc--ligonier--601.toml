@@ -9,6 +9,8 @@ address = "601 Sroufe Street, Ligonier, IN 46767"
 lat = 41.45293
 lon = -85.59409
 website = "https://pneugel.com"
+verified_note = "Directory listings place Sroufe Healthcare Products at 601 Sroufe Street, Ligonier and its Pneugel website is live, but listings are undated. Source: https://www.medicregister.com/Sroufe_Healthcare_Products_LLC/Supplier/sid5011.htm"
+verified = "2026-11-13"
 
 sector = "Medical devices & other"
 products = ["Surgical Appliance and Supplies Manufacturing"]

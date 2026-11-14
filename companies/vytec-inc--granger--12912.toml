@@ -8,6 +8,8 @@ state = "IN"
 address = "12912 Industrial Park Drive, Granger, IN 46530"
 lat = 41.74720
 lon = -86.11733
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Only an undated NAICS aggregator profile lists Vytec at this address; no website, news or independent listing was found. Source: https://naicslist.com/company-profile/vytec-inc-granger-in-46530"
+presumed_closed = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["Unlaminated Plastics Profile Shape Manufacturing"]

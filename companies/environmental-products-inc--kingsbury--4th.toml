@@ -9,6 +9,8 @@ address = "4th Road, Kingsbury, IN 46345"
 lat = 41.51361
 lon = -86.64278
 website = "https://episeating.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. episeating.com now redirects to a HugeDomains for-sale page; only undated directory entries list the company in Kingsbury. Source: https://siccode.com/business/environmental-products-inc"
+presumed_closed = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Institutional Furniture Manufacturing"]

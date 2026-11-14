@@ -9,6 +9,8 @@ address = "5122 North State Road 39, La Porte, IN 46350"
 lat = 41.68170
 lon = -86.73791
 website = "https://securallproducts.com"
+verified_note = "A February 2022 county press release and Purdue MEP list Securall (A&A Sheet Metal Products) manufacturing at 5122 N State Road 39; the website fetch failed on an expired certificate. Source: https://laporteco.in.gov/securall-press-release-2-15-22"
+verified = "2026-11-13"
 
 sector = "Metal"
 products = ["Sheet Metal Work Manufacturing"]

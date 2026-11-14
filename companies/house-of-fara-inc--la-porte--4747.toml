@@ -9,6 +9,8 @@ address = "4747 West State Road 2, La Porte, IN 46350"
 lat = 41.59176
 lon = -86.79338
 website = "https://houseoffara.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Name and address searches found nothing for House of Fara, and the website fetch timed out."
+presumed_closed = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Other Millwork (including Flooring )"]

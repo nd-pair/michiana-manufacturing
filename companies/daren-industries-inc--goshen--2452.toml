@@ -9,6 +9,8 @@ address = "2452 Lincolnway East, Goshen, IN 46526"
 lat = 41.55283
 lon = -85.78506
 website = "https://darenind.com"
+verified_note = "Several directories list Daren Industries at 2452 Lincolnway East, but none is dated and the website could not be fetched (certificate error). Source: https://www.scrapmonster.com/company/daren-industries-inc/53499"
+verified = "2026-11-13"
 
 sector = "Metal"
 products = ["Metal Stamping"]

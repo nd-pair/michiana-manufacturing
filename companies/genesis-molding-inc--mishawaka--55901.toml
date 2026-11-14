@@ -9,6 +9,8 @@ address = "55901 Currant Road, Mishawaka, IN 46545"
 lat = 41.68253
 lon = -86.12937
 website = "https://genesismolding.com"
+verified_note = "Live site with 2026 copyright lists 55901 Currant Road, Mishawaka, and several directories agree. Source: https://genesismolding.com"
+verified = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["All Other Plastics Product Manufacturing"]

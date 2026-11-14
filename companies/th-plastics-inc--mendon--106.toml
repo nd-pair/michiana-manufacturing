@@ -9,6 +9,8 @@ address = "106 East Main Street, Mendon, MI 49072"
 lat = 42.00643
 lon = -85.44916
 website = "https://thplastics.com"
+verified_note = "TH Plastics has a live site and active Mendon job postings (2026), and directories list its headquarters at 106 E Main St. Source: https://www.thplastics.com"
+verified = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["All Other Plastics Product Manufacturing"]

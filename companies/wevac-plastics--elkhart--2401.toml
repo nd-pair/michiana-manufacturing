@@ -9,6 +9,8 @@ address = "2401 17th Street, Elkhart, IN 46517"
 lat = 41.66423
 lon = -85.99488
 website = "https://wevacplastics.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Searches for the name and address returned nothing on Wevac Plastics and the website could not be fetched, so there is no evidence of operation."
+presumed_closed = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["All Other Plastics Product Manufacturing"]

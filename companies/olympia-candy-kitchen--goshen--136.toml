@@ -9,6 +9,8 @@ address = "136 North Main Street, Goshen, IN 46526"
 lat = 41.58704
 lon = -85.83414
 website = "https://olympiacandykitchen.com"
+removed_reason = "not a production site (service or retail), found in a verification check: Goshen Chamber lists Olympia Candy Kitchen at 136 N Main St as an open breakfast/lunch and candy shop (since 1912), so it is a candy-making retail restaurant."
+removed = "2026-11-13"
 
 sector = "Food & consumer goods"
 products = ["Confectionery Manufacturing From Purchased Chocolate"]

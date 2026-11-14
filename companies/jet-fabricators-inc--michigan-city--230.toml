@@ -9,6 +9,8 @@ address = "230 Indiana Highway 212, Michigan City, IN 46360"
 lat = 41.73541
 lon = -86.82581
 website = "https://jetfab.com"
+verified_note = "Indiana DOL issued a safety order in December 2024 for a June 2024 inspection of Jet Fabricators at 230 Indiana Highway 212, and jetfab.com still shows this address. Source: https://in.gov/dol/files/1754810-Jet-Fabricators-Inc-Over.pdf"
+verified = "2026-11-13"
 
 sector = "Metal"
 products = ["All Other Miscellaneous Fabricated Metal Product Manufacturing"]

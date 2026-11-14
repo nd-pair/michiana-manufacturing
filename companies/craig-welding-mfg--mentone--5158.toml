@@ -9,6 +9,8 @@ address = "5158 North 825 East, Mentone, IN 46539"
 lat = 41.12906
 lon = -86.09150
 website = "https://craigwelding.com"
+verified_note = "Live company site gives Craig Welding & Mfg. Inc. at 5158 N 825 E, Mentone, matching multiple directories. Source: https://craigwelding.com"
+verified = "2026-11-13"
 
 sector = "Metal"
 products = ["Machine Shops"]

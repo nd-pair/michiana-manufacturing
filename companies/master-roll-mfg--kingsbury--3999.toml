@@ -9,6 +9,8 @@ address = "3999 Hupp Road, Kingsbury, IN 46345"
 lat = 41.51911
 lon = -86.63905
 website = "https://masterrollmfgs.com"
+verified_note = "Directory listings place Master Roll Manufacturing (Mayfield-Glenn Group) at 3999 Hupp Rd, La Porte; undated, and masterrollmfgs.com failed with an SSL error. Source: https://www.scrapmonster.com/company/master-induction-heat-treat-llc/79594"
+verified = "2026-11-13"
 
 sector = "Mechatronics & automation"
 products = ["Mechanical Power Transmission Equipment Manufacturing"]

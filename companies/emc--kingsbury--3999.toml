@@ -8,6 +8,8 @@ state = "IN"
 address = "3999 Hupp Road, Kingsbury, IN 46345"
 lat = 41.51911
 lon = -86.63904
+presumed_closed_reason = "Verification check: no current trace of this company at this address. No die-casting business named EMC found at 3999 Hupp Road; the address is a multi-tenant campus where other businesses (e.g. JC's Machining, Master Roll) are listed. Source: https://www.cybo.com/US/laporte/machine-shop"
+presumed_closed = "2026-11-13"
 
 sector = "Metal"
 products = ["Aluminum Die-Casting Foundries"]

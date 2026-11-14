@@ -5,10 +5,10 @@ name = "American Cargo Products, LLC"
 kind = "company"
 city = "Goshen"
 state = "IN"
-address = "2109 Lincolnway East, Goshen, IN 46526"
-lat = 41.55890
-lon = -85.79404
+address = "64141 US 33 South, Goshen, IN 46526"
 website = "https://americancargo.com"
+verified = "2026-11-13"
+status_note = "Moved from 2109 Lincolnway East, Goshen, IN 46526; found in a verification check (2026-11-13): American Cargo is listed at 64141 US 33 South, Goshen, not Lincolnway East, and americancargo.com now redirects to Midway Specialty Vehicles in Elkhart; current status at the new address is not confirmed."
 
 sector = "Vehicles & RVs"
 products = ["Motor Vehicle Body Manufacturing"]

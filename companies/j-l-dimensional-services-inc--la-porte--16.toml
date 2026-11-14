@@ -9,6 +9,8 @@ address = "16 Industrial Parkway, La Porte, IN 46350"
 lat = 41.62405
 lon = -86.67793
 website = "https://j-ldimensional.com"
+verified_note = "Live company site (copyright 2026, uploads mid-2026) lists 16 Industrial Pkwy, La Porte. Source: https://j-ldimensional.com"
+verified = "2026-11-13"
 
 sector = "Metal"
 products = ["Electroplating, Plating, Polishing, Anodizing and Coloring"]

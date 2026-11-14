@@ -5,10 +5,12 @@ name = "Voyager/dakat, Inc."
 kind = "company"
 city = "Elkhart"
 state = "IN"
-address = "53468 Ada Drive, Elkhart, IN 46514"
-lat = 41.71833
-lon = -85.92242
+address = "2500 Ada Drive, Elkhart, IN 46514"
+lat = 41.71710
+lon = -85.92268
 website = "https://voyagerinc.com"
+verified = "2026-11-13"
+status_note = "Moved from 53468 Ada Drive, Elkhart, IN 46514; found in a verification check (2026-11-13): No such address as 53468 Ada Drive turned up; Voyager (metal fabricator, voyagerinc.com now redirects to Wait Industries) operates at 2500 Ada Drive, though the tie to the 'Dakat' record name is not confirmed."
 
 sector = "Wood, paper & furniture"
 products = ["Upholstered Household Furniture Manufacturing"]

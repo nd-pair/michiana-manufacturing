@@ -9,6 +9,8 @@ address = "234 East 2nd Street, Michigan City, IN 46360"
 lat = 41.72167
 lon = -86.90058
 website = "https://lakeshoremechanical.net"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Name and address searches found no listing for Lakeshore Mechanical at 234 East 2nd Street and lakeshoremechanical.net refused the connection."
+presumed_closed = "2026-11-13"
 
 sector = "Metal"
 products = ["All Other Miscellaneous Fabricated Metal Product Manufacturing"]

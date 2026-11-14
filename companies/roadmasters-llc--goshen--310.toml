@@ -9,6 +9,8 @@ address = "310 Steury Avenue, Goshen, IN 46528"
 lat = 41.58998
 lon = -85.82194
 website = "https://roadmasterllc.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. No listing for Roadmasters LLC or any occupant at 310 Steury Ave found; roadmasterllc.com no longer resolves (last archived July 2025). Source: https://archive.org/wayback/available?url=roadmasterllc.com"
+presumed_closed = "2026-11-13"
 
 sector = "Vehicles & RVs"
 products = ["Truck Trailer Manufacturing"]

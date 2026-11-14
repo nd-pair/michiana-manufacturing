@@ -8,6 +8,8 @@ state = "IN"
 address = "4th Road, Kingsbury, IN 46345"
 lat = 41.50857
 lon = -86.64077
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Only an OSHA-derived aggregator profile exists for A-J Plastics on Fourth Road, Kingsbury; no current listing, site or news was found. Source: https://www.fastdol.com/employers/a-j-plastics-inc-3477a429-9230-75e2-f19d-2e00d0fb9305"
+presumed_closed = "2026-11-13"
 
 sector = "Metal"
 products = ["Enameled Iron and Metal Sanitary Ware Manufacturing"]

@@ -9,6 +9,8 @@ address = "720 Boyd Boulevard, La Porte, IN 46350"
 lat = 41.61404
 lon = -86.68800
 website = "https://thanhardtburger.com"
+presumed_closed_reason = "Verification check: another business is at this address now (Maki Precision Machining LLC). A September 2022 City of La Porte announcement says Maki Precision Machining was opening at 720 Boyd Boulevard, and no source places Thanhardt-Burger there (its website fetch timed out). Source: https://cityoflaporte.com/news/maki-precision-machining-llc-opens-in-la-porte"
+presumed_closed = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["All Other Miscellaneous Wood Product Manufacturing"]

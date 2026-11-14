@@ -8,6 +8,8 @@ state = "IN"
 address = "2249 Lincolnway East, Goshen, IN 46526"
 lat = 41.55600
 lon = -85.79023
+presumed_closed_reason = "Verification check: another business is at this address now (Miller Door and Trim, Inc.). No trace of Raeco, while Goshen Chamber and carrier listings place Miller Door and Trim, Inc. at 2249 Lincolnway East. Source: https://business.goshen.org/list/member/miller-door-and-trim-inc-1235"
+presumed_closed = "2026-11-13"
 
 sector = "Vehicles & RVs"
 products = ["Motor Home Manufacturing"]

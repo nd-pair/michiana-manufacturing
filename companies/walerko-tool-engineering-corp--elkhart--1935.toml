@@ -9,6 +9,8 @@ address = "1935 West Lusher Avenue, Elkhart, IN 46517"
 lat = 41.66672
 lon = -85.99997
 website = "https://walerko.com"
+verified_note = "Live company site (2026 copyright) lists 1935 W. Lusher Ave., and directories agree; company was acquired by Mno-DREK but keeps the Walerko name. Source: https://walerko.com"
+verified = "2026-11-13"
 
 sector = "Mechatronics & automation"
 products = ["All Other Industrial Machinery Manufacturing"]

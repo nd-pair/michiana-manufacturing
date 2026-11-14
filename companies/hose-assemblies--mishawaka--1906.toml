@@ -9,6 +9,8 @@ address = "1906 East Mckinley Avenue, Mishawaka, IN 46545"
 lat = 41.68058
 lon = -86.15090
 website = "https://hoseassem.com"
+verified_note = "Live site footer shows 2025 copyright for Hose Assemblies, LLC at 1906 E. McKinley Avenue. Source: https://hoseassem.com"
+verified = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["Rubber and Plastics Hoses and Belting Manufacturing"]

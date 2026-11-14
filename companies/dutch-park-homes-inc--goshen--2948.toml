@@ -9,6 +9,8 @@ address = "2948 Hackberry Drive, Goshen, IN 46526"
 lat = 41.54593
 lon = -85.78956
 website = "https://dutchpark.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. dutchpark.com is a parked domain for sale and no listing for Dutch Park Homes at 2948 Hackberry Drive was found. Source: https://forsale.godaddy.com/forsale/dutchpark.com"
+presumed_closed = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Manufactured Home (mobile Home) Manufacturing"]

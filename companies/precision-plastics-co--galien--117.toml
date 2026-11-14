@@ -8,6 +8,8 @@ state = "MI"
 address = "117 Grant Street, Galien, MI 49113"
 lat = 41.80321
 lon = -86.50013
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Only OSHA inspection history at 117 Grant St, Galien (latest 1995) was found; no current listing. Source: https://safetyrecord.org/company/precision-plastic-galien-galien-mi"
+presumed_closed = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["All Other Plastics Product Manufacturing"]

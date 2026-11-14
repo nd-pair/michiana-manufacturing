@@ -9,6 +9,9 @@ address = "1110 South 9th Street, Goshen, IN 46526"
 lat = 41.57143
 lon = -85.82612
 website = "https://dfamilk.com"
+closed_source = "https://dairynews.today/news/dairy-farmers-of-america-to-cease-manufacturing-operations-at-goshen-plant.html"
+closed_note = "DFA announced in November 2024 that manufacturing at its 1110 S. Ninth St. Goshen plant would idle from January 2025, with only a warehouse segment staying open."
+closed = "2025"
 
 sector = "Food & consumer goods"
 products = ["Fluid Milk Manufacturing"]

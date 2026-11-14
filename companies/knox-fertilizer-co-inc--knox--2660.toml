@@ -8,6 +8,8 @@ state = "IN"
 address = "2660 East 100 South, Knox, IN 46534"
 lat = 41.28840
 lon = -86.64716
+verified_note = "Directories list Knox Fertilizer Company at 2660 E 100 S, Knox (family business since 1950, knoxfert.com); the most recent dated item found is a 2018 press release. Source: https://www.regionaldirectory.us/in/833846.htm"
+verified = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["Fertilizer (mixing Only) Manufacturing"]

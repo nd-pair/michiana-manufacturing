@@ -9,6 +9,9 @@ address = "115 Koomler Drive, La Porte, IN 46350"
 lat = 41.62837
 lon = -86.71333
 website = "https://altivity.com"
+closed_source = "https://www.packaging-gateway.com/news/gpi-to-close-us-carton-facility"
+closed_note = "Graphic Packaging announced in October 2011 it would close its La Porte carton plant, with a WARN layoff effective February 2012; the 115 Koomler Dr link to that plant is by company/town only, and the address itself now appears only as a LoopNet property record."
+closed = "2012"
 
 sector = "Wood, paper & furniture"
 products = ["Folding Paperboard Box Manufacturing"]

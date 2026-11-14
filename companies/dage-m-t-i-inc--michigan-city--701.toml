@@ -9,6 +9,8 @@ address = "701 North Roeske Avenue, Michigan City, IN 46360"
 lat = 41.71583
 lon = -86.86447
 website = "https://dagemti.com"
+verified_note = "Live Dage-MTI site gives 701 North Roeske, Michigan City, IN 46360, phone 219.872.5514. Source: https://dagemti.com"
+verified = "2026-11-13"
 
 sector = "Mechatronics & automation"
 products = ["Photographic and Photocopying Equipment Manufacturing"]

@@ -5,10 +5,12 @@ name = "Vista Mfg., Inc."
 kind = "company"
 city = "Elkhart"
 state = "IN"
-address = "52864 Lillian Avenue, Elkhart, IN 46514"
-lat = 41.72598
-lon = -85.99166
+address = "2505 Columbia Drive, Elkhart, IN 46514"
+lat = 41.72052
+lon = -85.89608
 website = "https://vistamfg.com"
+verified = "2026-11-13"
+status_note = "Moved from 52864 Lillian Avenue, Elkhart, IN 46514; found in a verification check (2026-11-13): Vista Manufacturing's live site (2026 copyright, same phone 574-264-0711) gives 2505 Columbia Drive as its address; the Lillian Avenue address appears only in older directory listings."
 
 sector = "Electronics"
 products = ["Commercial, Industrial, and Institutional Electric Lighting Fixture Manufacturing"]

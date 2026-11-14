@@ -9,6 +9,8 @@ address = "1201 West Culver Road, Knox, IN 46534"
 lat = 41.28838
 lon = -86.63633
 website = "https://kruzinc.com"
+verified_note = "Dealer listings show new 2026-2027 Kruz and Ravens trailers built by Kruz Inc. at its Knox plant at 1201 W Culver Road. Source: https://www.truckpaper.com/listings/for-sale/kruz/trucks-and-trailers"
+verified = "2026-11-13"
 
 sector = "Vehicles & RVs"
 products = ["Truck Trailer Manufacturing"]

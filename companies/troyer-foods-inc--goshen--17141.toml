@@ -9,6 +9,8 @@ address = "17141 State Road 4, Goshen, IN 46528"
 lat = 41.59198
 lon = -85.79429
 website = "https://troyers.com"
+removed_reason = "not a production site (warehouse distribution), found in a verification check: Troyer Foods, a food distributor headquartered at 17141 State Road 4, Goshen, merged with Stanz Foodservice in 2022 and is listed there with troyers.com."
+removed = "2026-11-13"
 
 sector = "Food & consumer goods"
 products = ["Animal (except Poultry) Slaughtering"]

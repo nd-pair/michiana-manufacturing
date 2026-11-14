@@ -9,6 +9,8 @@ address = "450 Saint John Road, Michigan City, IN 46360"
 lat = 41.68371
 lon = -86.89656
 website = "https://blocksom.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Blocksom operates in Michigan City (live site), but OSHA records give 406 Center Street and nothing confirmed 450 Saint John Road. Source: https://blocksom.com"
+presumed_closed = "2026-11-13"
 
 sector = "Mechatronics & automation"
 products = ["Air Purification Equipment Manufacturing"]

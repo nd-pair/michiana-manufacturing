@@ -9,6 +9,8 @@ address = "7996 North State Road 39, La Porte, IN 46350"
 lat = 41.72246
 lon = -86.73474
 website = "https://boc.com"
+presumed_closed_reason = "Verification check: renamed or acquired, but the new name is not tied to this address (Messer LLC). The EPA Toxics Release Inventory lists an active Messer LLC facility at 7996 N State Road 39, La Porte, consistent with Messer taking over divested Linde/BOC US gas plants (the tie is inferred from the matching address). Source: https://api.ai-analytics.org/tri-facility/4635WMSSRL7996N.md"
+presumed_closed = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["Industrial Gas Manufacturing"]

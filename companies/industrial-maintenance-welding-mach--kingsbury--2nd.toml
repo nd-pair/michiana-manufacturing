@@ -9,6 +9,8 @@ address = "2nd Road and Hupp Road, Kingsbury, IN 46345"
 lat = 41.51684
 lon = -86.67029
 website = "https://imwnet.com"
+verified_note = "Live company site (2026 footer) lists a Kingsbury Plant at 2nd & Hupp Road, Kingsbury, IN 46345. Source: https://imwnet.com"
+verified = "2026-11-13"
 
 sector = "Metal"
 products = ["Machine Shops"]

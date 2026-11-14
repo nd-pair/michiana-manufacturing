@@ -8,6 +8,8 @@ state = "IN"
 address = "705 East New York Street, Knox, IN 46534"
 lat = 41.29425
 lon = -86.61404
+presumed_closed_reason = "Verification check: no current trace of this company at this address. No listing, site or news for Obrecht Trailer Mfg at 705 E New York Street in Knox was found."
+presumed_closed = "2026-11-13"
 
 sector = "Vehicles & RVs"
 products = ["Motor Vehicle Body Manufacturing"]

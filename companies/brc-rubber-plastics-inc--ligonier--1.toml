@@ -9,6 +9,8 @@ address = "1 Wall Street, Ligonier, IN 46767"
 lat = 41.46922
 lon = -85.58834
 website = "https://brcrp.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. BRC is documented as having a Ligonier plant (2011 expansion news) but no source confirmed the 1 Wall Street address and brcrp.com returned 403. Source: https://www.areadevelopment.com/newsItems/3-29-2011/jeld-wen-brc-ame-ligonier-indiana03293.shtml"
+presumed_closed = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["Rubber Product Manufacturing for Mechanical Use"]

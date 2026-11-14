@@ -8,6 +8,8 @@ state = "MI"
 address = "52915 Chamberlain Road, Marcellus, MI 49067"
 lat = 42.02838
 lon = -85.74213
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Name and address searches found nothing for St. Joseph Pallet & Packaging at 52915 Chamberlain Road, Marcellus."
+presumed_closed = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Wood Container and Pallet Manufacturing"]

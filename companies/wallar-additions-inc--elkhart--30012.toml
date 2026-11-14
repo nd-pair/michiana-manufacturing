@@ -1,13 +1,16 @@
 # Wallar Additions, Inc.
 # Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
 
-name = "Wallar Additions, Inc."
+name = "American Sunspace Additions"
 kind = "company"
 city = "Elkhart"
 state = "IN"
 address = "30012 County Road 10, Elkhart, IN 46514"
 lat = 41.72631
 lon = -86.04284
+verified = "2026-11-13"
+status_note = "Renamed in a verification check (2026-11-13): BuildZoom lists American Sunspace Additions at 30012 Co Rd 10, owned by J. Jeffrey Wallar, with 2023 and 2024 permits; it is a home-additions contractor rather than a manufacturer. Source: https://www.buildzoom.com/contractor/american-sunspace-additions"
+formerly = "Wallar Additions, Inc."
 
 sector = "Wood, paper & furniture"
 products = ["Showcase, Partition, Shelving, and Locker Manufacturing"]

@@ -8,6 +8,8 @@ state = "IN"
 address = "4660 Pine Creek Road, Elkhart, IN 46516"
 lat = 41.68907
 lon = -85.89864
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Latest dated evidence is a 2016 NHTSA recall filing at this address; a directory warns it may have ceased operations or relocated and no newer listing was found. Source: https://static.nhtsa.gov/odi/rcl/2016/RCLRPT-16V033-1223.PDF"
+presumed_closed = "2026-11-13"
 
 sector = "Vehicles & RVs"
 products = ["Travel Trailer and Camper Manufacturing"]

@@ -9,6 +9,8 @@ address = "800 Boyd Boulevard, La Porte, IN 46350"
 lat = 41.61006
 lon = -86.68752
 website = "https://healthylifebread.com"
+verified_note = "Directory listings place Lewis Bakeries (Healthy Life bread) at 800 Boyd Blvd, La Porte, and job postings say the La Porte bakery is hiring; the listings are undated. Source: https://phoenix.aws.mapquest.com/us/indiana/lewis-bakeries-6102935"
+verified = "2026-11-13"
 
 sector = "Food & consumer goods"
 products = ["Commercial Bakeries"]

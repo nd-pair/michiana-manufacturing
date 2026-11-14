@@ -8,6 +8,8 @@ state = "IN"
 address = "911 Gerber Street, Ligonier, IN 46767"
 lat = 41.47032
 lon = -85.60127
+verified_note = "A BBB directory entry lists Riverside Manufacturing Inc at 911 Gerber St, Ligonier with phone (260) 894-9106, but it is undated and unconfirmed by other sources. Source: https://bbb.org/us/in/ligonier/category/metal-fabrication"
+verified = "2026-11-13"
 
 sector = "Electronics"
 products = ["Other Electronic Component Manufacturing"]

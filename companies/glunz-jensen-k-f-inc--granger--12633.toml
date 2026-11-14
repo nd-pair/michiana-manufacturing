@@ -9,6 +9,8 @@ address = "12633 Industrial Park Drive, Granger, IN 46530"
 lat = 41.74778
 lon = -86.11252
 website = "https://k-f.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Trade press from 2006-2008 describes the Granger plant, but k-f.com now 301-redirects to karl-oskar.no (unrelated) and no current listing at the address was found. Source: https://www.labelsandlabeling.com/news/glunz-jensen-acquires-kf-international"
+presumed_closed = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Prepress Services"]

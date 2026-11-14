@@ -9,6 +9,9 @@ address = "300 North Fail Road, La Porte, IN 46350"
 lat = 41.63398
 lon = -86.68035
 website = "https://silgancontainers.com"
+closed_source = "https://www.insideindianabusiness.com/?p=25450"
+closed_note = "Inside Indiana Business (February 2016) reported Silgan would close its La Porte plant in April 2016, matching a WARN layoff effective April 2, 2016."
+closed = "2016"
 
 sector = "Metal"
 products = ["Metal Can Manufacturing"]

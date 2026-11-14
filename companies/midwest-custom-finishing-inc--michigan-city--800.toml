@@ -8,6 +8,8 @@ state = "IN"
 address = "800 Royal Road, Michigan City, IN 46360"
 lat = 41.72297
 lon = -86.84114
+presumed_closed_reason = "Verification check: another business is at this address now (Midwest Wheelcoaters, LLC). Directory listings show Midwest Wheelcoaters (coatings) at 800 Royal Rd and none for Midwest Custom Finishing; no source was found tying the two names together. Source: https://naicslist.com/company-profile/pyramid-metallizing-llc-michigan-city-in-46360"
+presumed_closed = "2026-11-13"
 
 sector = "Metal"
 products = ["Metal Coating, Engraving (except Jewelry and Silverware), and Allied Services To Manufacturers"]

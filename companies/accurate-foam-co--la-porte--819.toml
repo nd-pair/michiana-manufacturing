@@ -8,6 +8,8 @@ state = "IN"
 address = "819 Fox Street, La Porte, IN 46350"
 lat = 41.59932
 lon = -86.71291
+presumed_closed_reason = "Verification check: no current trace of this company at this address. No record of Accurate Foam Co or any occupant at 819 Fox Street, La Porte was found."
+presumed_closed = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["Urethane and Other Foam Product (except Polystyrene) Manufacturing"]

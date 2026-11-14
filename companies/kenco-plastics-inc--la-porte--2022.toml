@@ -9,6 +9,8 @@ address = "2022 West 450 North, La Porte, IN 46350"
 lat = 41.67158
 lon = -86.74010
 website = "https://kenco.net"
+verified_note = "Kenco's site shows 2022 West 450 North with an ISO 9001 certificate expiring May 2027 and a '50+ years' tagline; no explicit dated news. Source: https://kenco.net"
+verified = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["All Other Plastics Product Manufacturing"]

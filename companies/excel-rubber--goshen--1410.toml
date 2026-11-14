@@ -9,6 +9,8 @@ address = "1410 North Chicago Avenue, Goshen, IN 46528"
 lat = 41.59511
 lon = -85.85385
 website = "https://excelrubber.com"
+presumed_closed_reason = "Verification check: the company operates elsewhere, not at this address. Excel Rubber Industries' live site gives only a Westland, MI office and never mentions Goshen or Chicago Ave; no source found placing it at 1410 N Chicago Ave (a 574 phone appears in ZoomInfo), so the move is inferred and uncertain. Source: https://excelrubber.com"
+presumed_closed = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["All Other Rubber Product Manufacturing"]

@@ -9,6 +9,8 @@ address = "16840 Skyview Road, Goshen, IN 46526"
 lat = 41.54352
 lon = -85.78364
 website = "https://lippertcomponents.com"
+verified_note = "FastDOL lists Lippert Components at 16840 Skyview Road, Goshen (LCI Industries, 195 employees) and Lippert's site lists numbered Goshen plants, but the listing is undated and one other directory gives 16685 Skyview Rd. Source: https://www.fastdol.com/employers/lippert-components-5715504e-5e69-3066-51f9-188cab39145f"
+verified = "2026-11-13"
 parent = "Lippert (LCI Industries)"
 
 sector = "Vehicles & RVs"

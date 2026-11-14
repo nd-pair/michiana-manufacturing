@@ -9,6 +9,9 @@ address = "300 Philadelphia Street, La Porte, IN 46350"
 lat = 41.61848
 lon = -86.70428
 website = "https://castingservice.com"
+closed_source = "https://www.foundrymag.com/melt-pour/article/21928179/ati-closing-indiana-ferrous-foundry"
+closed_note = "ATI Casting Service (formerly Teledyne) iron foundry at 300 Philadelphia St, La Porte was shut down by Allegheny Technologies in mid-2014 with about 120 jobs lost; castingservice.com's last archive capture is 2011."
+closed = "2014"
 
 sector = "Metal"
 products = ["Iron Foundries"]

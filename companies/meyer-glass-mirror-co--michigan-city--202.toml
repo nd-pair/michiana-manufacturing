@@ -9,6 +9,8 @@ address = "202 West Harrison Street, Michigan City, IN 46360"
 lat = 41.69988
 lon = -86.89577
 website = "https://meyerglassandmirror.net"
+removed_reason = "not a production site (service or retail), found in a verification check: Yellow Pages, ZoomInfo and HomeAdvisor list Meyer Glass & Mirror, a glazing contractor, at 202 W Harrison St with a live website, though the listings are undated."
+removed = "2026-11-13"
 uei = "Q3FRV7ALMXJ5"
 
 sector = "Materials & composites"

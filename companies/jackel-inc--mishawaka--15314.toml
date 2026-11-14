@@ -9,6 +9,8 @@ address = "15314 Harrison Road, Mishawaka, IN 46544"
 lat = 41.65096
 lon = -86.16301
 website = "https://jackelinc.com"
+verified_note = "Directories list Jackel (sump basins, check valves) at 15314 Harrison Road with phone 574-256-5635 and about 77 employees; the website fetch returned no content. Source: https://www.regionaldirectory.us/in/828732.htm"
+verified = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["All Other Plastics Product Manufacturing"]

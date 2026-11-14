@@ -8,6 +8,8 @@ state = "IN"
 address = "51383 Bittersweet Road, Granger, IN 46530"
 lat = 41.74796
 lon = -86.11132
+verified_note = "A Superpages directory listing shows K Mold & Engineering at 51383 Bittersweet Rd, Granger with business hours, but the listing is undated and nothing else corroborates it. Source: https://www.superpages.com/stroh-in/molds"
+verified = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["All Other Plastics Product Manufacturing"]

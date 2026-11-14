@@ -9,6 +9,9 @@ address = "100 Anchor Road, Michigan City, IN 46360"
 lat = 41.73802
 lon = -86.83066
 website = "https://fsifilters.com"
+closed_source = "https://www.insideindianabusiness.com/articles/global-manufacturer-to-shut-down-in-michigan-city"
+closed_note = "Filter Specialists was acquired by Pall Corp in 2014 and Inside Indiana Business reported the Michigan City plant would shut down (closure year approximate, about 2015)."
+closed = "2015"
 
 sector = "Materials & composites"
 products = ["Mineral Wool Manufacturing"]

@@ -9,6 +9,8 @@ address = "1515 West Wilden Avenue, Goshen, IN 46528"
 lat = 41.59692
 lon = -85.85569
 website = "https://trianglerubberco.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Only a 1987 OSHA record for Tri-Seals Inc at 1515 W Wilden Ave was found; no current listing ties Triangle Rubber to that address. Source: https://www.osha.gov/pls/imis/establishment.inspection_detail?id=2759454"
+presumed_closed = "2026-11-13"
 
 sector = "Medical devices & other"
 products = ["Gasket, Packing, and Sealing Device Manufacturing"]

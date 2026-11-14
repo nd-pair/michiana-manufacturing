@@ -8,6 +8,8 @@ state = "IN"
 address = "4208 North 900 West, Michigan City, IN 46360"
 lat = 41.66879
 lon = -86.87508
+verified_note = "A Superpages listing gives Filtration Plus Inc at 4208 N 900 W, Michigan City with business hours, but it is undated and no other source confirmed it. Source: https://www.superpages.com/portage-in/filtration-flow"
+verified = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["Mineral Wool Manufacturing"]
