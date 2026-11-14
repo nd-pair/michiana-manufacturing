@@ -9,8 +9,8 @@ address = "3600 Tennis Court, Saint Joseph, MI 49085"
 lat = 42.05195
 lon = -86.50732
 website = "https://wms-inc.com"
-verified_note = "Several directories list Wolverine Metal Stamping (Wolverine Corporation, 269-429-6600) at 3600 Tennis Court, but wms-inc.com failed its certificate check and no dated evidence was found. Source: https://www.fastdol.com/employers/wolverine-metal-stamping-ad7d88ec-3529-8b7f-d4e2-67d67ab74da5"
-verified = "2026-11-13"
+presumed_closed_reason = "No current trace: no OSHA Form 300A filing for 2025, which a stamping plant of its estimated 70 employees must file; wms-inc.com answers only with a shared-hosting certificate for another host (cphost04.il2k.net) and not over plain http; the address rests on undated directory listings. A same-name OSHA filing or a dated source brings it back."
+presumed_closed = "2026-11-14"
 
 sector = "Metal"
 products = ["Metal Stamping"]
