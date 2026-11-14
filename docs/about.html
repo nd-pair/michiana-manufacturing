@@ -19,7 +19,7 @@
 <link rel="apple-touch-icon" href="img/favicon-180.png">
 <link rel="stylesheet" href="https://conductor.nd.edu/stylesheets/themes/ndt/4.0/ndt.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
-<link rel="stylesheet" href="app.css?v=5c072e5941">
+<link rel="stylesheet" href="app.css?v=da55ede3ba">
 </head>
 <body>
 <script>/* dark unless this visitor chose light */try{document.body.setAttribute("data-theme",localStorage.getItem("mm-theme")||"dark")}catch(e){document.body.setAttribute("data-theme","dark")}</script>
@@ -125,7 +125,7 @@
     <div class="page-primary">
       <div class="section">
         <h1>About the data</h1>
-        <p class="lede">The map shows 1,220 manufacturers at 1,337 sites in the South Bend–Elkhart region, plus 46 other organizations (research and software firms with no production, investors and universities) that appear on the map but are left out of every company count. Every figure on it comes from a public source, listed below with how it is matched, how current it is, and what it leaves out. Built 2026-11-14.</p>
+        <p class="lede">The map shows 1,170 manufacturers at 1,282 sites in the South Bend–Elkhart region, plus 46 other organizations (research and software firms with no production, investors and universities) that appear on the map but are left out of every company count. Every figure on it comes from a public source, listed below with how it is matched, how current it is, and what it leaves out. Built 2026-11-14.</p>
       </div>
 
       <section class="section">
@@ -138,19 +138,19 @@
         <table class="table">
           <thead><tr><th>Source</th><th>Entries</th><th>What it provides</th></tr></thead>
           <tbody>
-            <tr><td>HIFLD General Manufacturing Facilities (U.S. Department of Homeland Security, served by the Department of Energy's NETL)</td><td>921</td><td>Every NAICS 31–33 facility in the region's counties: name, street address, NAICS code, product line, website and an employee estimate.</td></tr>
+            <tr><td>HIFLD General Manufacturing Facilities (U.S. Department of Homeland Security, served by the Department of Energy's NETL)</td><td>866</td><td>Every NAICS 31–33 facility in the region's counties: name, street address, NAICS code, product line, website and an employee estimate.</td></tr>
             <tr><td>OSHA establishment injury and illness data, Form 300A (U.S. Department of Labor)</td><td>381</td><td>Manufacturing establishments in the region that filed their annual summary for 2025 (required of manufacturers with 20 or more employees): name, street address, NAICS code and the annual average number of employees. Adds plants HIFLD lacks and replaces HIFLD's modeled headcounts with the reported figure for 224 sites. Imported once a year from OSHA's download page; ZIP codes are assigned to the county holding most of their land (Census 2020 ZIP–county file), and each new address is checked against the county by the Census geocoder.</td></tr>
             <tr><td>SBIR.gov award data</td><td>28</td><td>Firms in the region with an SBIR or STTR award since 2012 that are not in the HIFLD data: name, address, website, the headcount reported on their latest award, and their awards.</td></tr>
             <tr><td>Company websites, filings, press and regional directories</td><td>51</td><td>Companies, investors and university units entered individually, with the source of each figure noted in the file.</td></tr>
             <tr><td>Regional news (the automated monthly review, below)</td><td>2</td><td>New plants and companies reported by trusted regional newsrooms, each citing its article.</td></tr>
           </tbody>
         </table>
-        <p>Plants of one company are grouped: by an explicit parent in the data, by a shared website, or by the same name once plant and division qualifiers are removed. 196 sites belong to 77 multi-site companies. Panel counts of "companies" count each group once; staff sums add every site.</p>
+        <p>Plants of one company are grouped: by an explicit parent in the data, by a shared website, or by the same name once plant and division qualifiers are removed. 187 sites belong to 73 multi-site companies. Panel counts of "companies" count each group once; staff sums add every site.</p>
       </section>
 
       <section class="section">
         <h2>Positions</h2>
-        <p>Columns stand at geocoded street addresses (OpenStreetMap Nominatim). SBIR firms stand at the address on their latest award. 7 entries are placed at their city's center instead, because their address is missing or could not be geocoded (OpenStreetMap Nominatim, then the U.S. Census Bureau's geocoder). Several organizations at one address are spread in a small ring so each stays visible. The globe is true scale; county boundaries are from the U.S. Census Bureau and shorelines from Natural Earth. The model of the Main Building is textured with crops of <a href="https://commons.wikimedia.org/wiki/File:Golden_Dome_frontal.jpg">"Golden Dome frontal"</a> by Eccekevin (2016), licensed <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>; the crops are mirrored, masked and resized, and are shared under the same license.</p>
+        <p>Columns stand at geocoded street addresses (OpenStreetMap Nominatim). SBIR firms stand at the address on their latest award. 8 entries are placed at their city's center instead, because their address is missing or could not be geocoded (OpenStreetMap Nominatim, then the U.S. Census Bureau's geocoder). Several organizations at one address are spread in a small ring so each stays visible. The globe is true scale; county boundaries are from the U.S. Census Bureau and shorelines from Natural Earth. The model of the Main Building is textured with crops of <a href="https://commons.wikimedia.org/wiki/File:Golden_Dome_frontal.jpg">"Golden Dome frontal"</a> by Eccekevin (2016), licensed <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>; the crops are mirrored, masked and resized, and are shared under the same license.</p>
       </section>
 
       <section class="section">
@@ -169,7 +169,7 @@
         <table class="table">
           <thead><tr><th>Layer</th><th>Source and method</th><th>Matched</th><th>Pulled</th></tr></thead>
           <tbody>
-            <tr><td>Federal contracts and grants</td><td>USAspending.gov, procurement contracts and grants since FY2016 whose place of performance is in the region's counties, wherever the recipient is headquartered (loans, insurance and direct payments excluded). Matched by UEI (Unique Entity ID) where a company file has one, otherwise by a unique exact name; the UEI found that way is stored so later runs match exactly. 87 entries carry a UEI.</td><td>78</td><td>2026-11-13</td></tr>
+            <tr><td>Federal contracts and grants</td><td>USAspending.gov, procurement contracts and grants since FY2016 whose place of performance is in the region's counties, wherever the recipient is headquartered (loans, insurance and direct payments excluded). Matched by UEI (Unique Entity ID) where a company file has one, otherwise by a unique exact name; the UEI found that way is stored so later runs match exactly. 85 entries carry a UEI.</td><td>76</td><td>2026-11-13</td></tr>
             <tr><td>SBIR/STTR awards</td><td>SBIR.gov's monthly bulk award file, matched by UEI, website domain, then name and city.</td><td>35</td><td>2026-11-13</td></tr>
             <tr><td>FDA device establishments</td><td>openFDA device registration and listing, by city.</td><td>15</td><td>2026-11-13</td></tr>
             <tr><td>Patents</td><td>USPTO PatentsView, patents granted since 2015 to assignees in the region's cities.</td><td colspan="2">not yet available (needs a PatentsView API key)</td></tr>
@@ -208,8 +208,8 @@
       <section class="section">
         <h2>Known gaps</h2>
         <ul>
-          <li>HIFLD (base year 2022) omits some small shops and lags openings and closures, sometimes by years. OSHA's yearly filings add plants with 20 or more employees, but no free source names smaller shops. Closures are flagged for review, never applied automatically: from Indiana's WARN layoff and closing notices (54 manufacturing notices since 2016, on the timeline), from plants that stop filing with OSHA, and from websites that no longer resolve. Michigan publishes its WARN notices only through a search page, so the three Michigan counties lack that signal. A facility confirmed closed is marked in its file and left off the map (38 so far). Because listing a plant that does not exist is worse than missing one, an imported record that a verification check finds closed without a dated source, or with no current trace at its address, is presumed closed and also left off (149 so far); a later OSHA filing or a dated source brings it back. The audits are in the repository's audits folder.</li>
-          <li>Entries that should not be on the map at all (duplicates, sites outside the region, offices that make nothing) are marked removed with a reason and left off (10 so far).</li>
+          <li>HIFLD (base year 2022) omits some small shops and lags openings and closures, sometimes by years. OSHA's yearly filings add plants with 20 or more employees, but no free source names smaller shops. Closures are flagged for review, never applied automatically: from Indiana's WARN layoff and closing notices (54 manufacturing notices since 2016, on the timeline), from plants that stop filing with OSHA, and from websites that no longer resolve. Michigan publishes its WARN notices only through a search page, so the three Michigan counties lack that signal. A facility confirmed closed is marked in its file and left off the map (41 so far). Because listing a plant that does not exist is worse than missing one, an imported record that a verification check finds closed without a dated source, or with no current trace at its address, is presumed closed and also left off (199 so far); a later OSHA filing or a dated source brings it back. The audits are in the repository's audits folder.</li>
+          <li>Entries that should not be on the map at all (duplicates, sites outside the region, offices that make nothing) are marked removed with a reason and left off (12 so far).</li>
           <li>Missing or doubtful facts are kept on a public list of open items (83 now): a company without a street address, an address the geocoders cannot place, a website whose domain no longer exists or is parked, and a status note marked unconfirmed or disputed. Each monthly review tries once to fix each one; after three attempts the doubtful fact is removed. A dead website link or an unconfirmed note is deleted, an address without a street number is dropped so the company stays at its city's center, and a full address that cannot be placed is kept as it is.</li>
           <li>Sectors for SBIR firms are assigned from the words in their award titles and may be wrong for firms whose awards span fields.</li>
           <li>Name matching can still miss a federal recipient that uses a different legal name and has no UEI on file.</li>
