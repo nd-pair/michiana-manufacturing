@@ -8,16 +8,18 @@ state = "IN"
 address = "2224 Bloomingdale Drive, Bristol, IN 46507"
 lat = 41.71215
 lon = -85.80871
+verified_note = "C & B Custom Modular filed OSHA's 2025 Form 300A at 2224 Bloomingdale Drive, Bristol (46 employees), under NAICS 236210, manufacturing building construction."
+verified = "2026-11-14"
 
 sector = "Wood, paper & furniture"
 products = ["Manufactured Home (mobile Home) Manufacturing"]
 naics = "321991"
 
-employees = 70
+employees = 46
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025 (filed under NAICS 236210, manufacturing building construction)"
 
 description = "Mobile Offices. NAICS 321991: manufactured home (mobile home) manufacturing."
 

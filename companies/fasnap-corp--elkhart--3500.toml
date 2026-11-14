@@ -17,11 +17,11 @@ sector = "Medical devices & other"
 products = ["Fastener, Button, Needle, and Pin Manufacturing"]
 naics = "339993"
 
-employees = 35
+employees = 36
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025 (filed under NAICS 423840, abrasives merchant wholesalers)"
 
 description = "Snap, Specialty Textile & Plastic Molded Fasteners, Webbing & Hook & Loop Tapes, Grommets, Upholstery Covered Buttons. NAICS 339993: fastener, button, needle, and pin manufacturing."
 
