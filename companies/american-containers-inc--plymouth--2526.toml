@@ -8,6 +8,8 @@ state = "IN"
 address = "2526 Western Avenue, Plymouth, IN 46563"
 lat = 41.36386
 lon = -86.31590
+verified_note = "MAX 98.3 (May 18, 2023) reports the Plymouth council approved a tax abatement for about $6M of new machines making corrugated plastic packaging, saying 'The facility at 2526 Western Ave. in Plymouth will be expanded'. EPA FRS also lists an 'American Containers Building Addition' at 2526 Western Ave. (source dated 2023-05-18) Source: https://max983.net/2023/05/plymouth-common-council-approves-american-containers-tax-abatement"
+verified = "2026-11-14"
 
 sector = "Wood, paper & furniture"
 products = ["Corrugated and Solid Fiber Box Manufacturing"]

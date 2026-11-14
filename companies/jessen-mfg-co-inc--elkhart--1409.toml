@@ -8,6 +8,8 @@ state = "IN"
 address = "1409 West Beardsley Avenue, Elkhart, IN 46514"
 lat = 41.69236
 lon = -85.99601
+unconfirmed_reason = "The company operates in the region, but no current source confirms a plant at this address (verification check): The Panjiva import record for 'Jessen Mfg. Co. Inc.', 'W BEARDSLEY AVENUE ELKHART IN 46514', shows a shipment on 2024-07-01, and Jessen Manufacturing Co posted an on-site Swiss CNC setup machinist job in Elkhart on 4/25/2025 (career.com). Neither dated source gives the house number 1409; only undated directories and the EPA FRS registry do. The company site jessenmfg.com currently shows a default hosting page. (source dated 2024-07-01)"
+unconfirmed = "2026-11-14"
 former_website = "https://jessenmfg.com"
 
 sector = "Metal"

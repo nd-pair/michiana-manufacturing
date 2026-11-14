@@ -8,6 +8,8 @@ state = "MI"
 address = "27260 Max Street, Edwardsburg, MI 49112"
 lat = 41.78885
 lon = -86.09005
+verified_note = "The FMCSA SAFER snapshot for USDOT 399848 shows 'BROTHERS BAKING CO INC', status ACTIVE, physical address '27260 MAX ST EDWARDSBURG, MI 49112', with an MCS-150 dated 02/02/2026 and 2025 mileage. The 2022 Bake Redbook lists this address as the headquarters and plant making cakes, donuts and sweet goods; that plant label comes from 2022. (source dated 2026-02-02) Source: https://safer.fmcsa.dot.gov/query.asp?searchtype=ANY&query_type=queryCarrierSnapshot&query_param=USDOT&query_string=399848"
+verified = "2026-11-14"
 
 sector = "Food & consumer goods"
 products = ["Retail Bakeries"]

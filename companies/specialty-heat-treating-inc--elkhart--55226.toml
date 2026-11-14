@@ -8,6 +8,8 @@ state = "IN"
 address = "55226 County Road 1, Elkhart, IN 46514"
 lat = 41.69369
 lon = -86.04193
+unconfirmed_reason = "The company operates in the region, but no current source confirms a plant at this address (verification check): The Thermal Processing magazine directory lists 'Bodycote Elkhart' at '55226 C. R. 1 N.', Elkhart, IN 46514 (phone 574-295-2491), but the listing is undated. Superpages gives a Bodycote at 908 County Road 1 N instead. EPA FRS still names the site 'Specialty Heat Treating Co, 55226 CR 1 N' (no recent activity). bodycote.com refused the fetch (HTTP 403). No dated 2023+ source, job posting, acquisition notice or closure notice was found for an Elkhart Bodycote site."
+unconfirmed = "2026-11-14"
 status_note = "The heat treater at this address appears to be Bodycote (2026 listing; not confirmed by a dated source). Source: https://thermalprocessing.com/storefront/bodycote-elkhart/"
 formerly = "Specialty Heat Treating, Inc."
 

@@ -8,6 +8,8 @@ state = "MI"
 address = "350 Palladium Drive, Saint Joseph, MI 49085"
 lat = 42.05580
 lon = -86.46502
+verified_note = "The live company site footer reads 'Liberty 3D Technologies ... 350 Palladium Drive, St. Joseph, MI 49085' with 'Copyright ©2026'. The site says the company was founded in 1998 as Liberty Steel Fabricating and rebranded in 2018, and it offers fabrication, welding and large machining. This matches the rename already on the map. (source dated 2026) Source: https://libsteel.com/"
+verified = "2026-11-14"
 status_note = "Operates as Liberty 3D Technologies, a fabrication and machining shop at this address (company site, 2026). Source: https://libsteel.com/"
 formerly = "Liberty Steel Fabricating, Inc."
 

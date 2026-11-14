@@ -8,6 +8,8 @@ state = "IN"
 address = "925 North Main Street, Ligonier, IN 46767"
 lat = 41.47315
 lon = -85.58882
+presumed_closed_reason = "Verification check: reported closed, without a dated source. TI Fluid Systems' FY2024 results (11 March 2025) report the closure of its Ligonier manufacturing site, announced in Q4 2024 with completion anticipated in the first half of 2025; no source confirms the completion date. Source: https://tifluidsystems.com/wp-content/uploads/2025/03/TIFS-FY-2024-RNS-FULL-100325.pdf"
+presumed_closed = "2026-11-14"
 status_note = "Acquired by TI Automotive in 2016, now TI Fluid Systems, listed at this address. Source: https://www.insideindianabusiness.com/articles/millennium-industries-acquired-by-michigan-company"
 formerly = "Millennium Industries"
 

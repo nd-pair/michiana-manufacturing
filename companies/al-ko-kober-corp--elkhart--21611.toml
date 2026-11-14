@@ -6,10 +6,12 @@ formerly = "Al-Ko Kober Corp."
 kind = "company"
 city = "Elkhart"
 state = "IN"
-address = "21611 Protecta Drive, Elkhart, IN 46516"
-lat = 41.69742
-lon = -85.88125
+address = "21608 Protecta Drive, Elkhart, IN 46516"
+lat = 41.69705
+lon = -85.88065
 website = "https://www.dextergroup.com"
+verified_note = "Dexter Axle LLC's WARN letter to Indiana DWD dated October 29, 2026 names 'Plant 61 (the Facility) 21608 Protecta Drive Elkhart, IN 46516' and says 'The entire Facility is expected to close permanently' on December 31, 2026, affecting 51 employees (assemblers, welders, QC inspectors, plant manager). So the plant is operating now but closes 2026-12-31. The letter gives house number 21608, not 21611 as in HIFLD; no source found for 21611 Protecta Drive. (source dated 2026-10-29) Source: https://www.in.gov/dwd/files/warnnotices/P61_WARN_Notice_Indiana_DWD_Dexter_v2.pdf"
+verified = "2026-11-14"
 status_note = "Formerly AL-KO Kober; Dexter filed a WARN notice on October 29, 2026 to close Plant 61 (51 jobs) by December 31, 2026."
 
 sector = "Vehicles & RVs"

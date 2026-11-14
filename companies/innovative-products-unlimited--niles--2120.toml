@@ -9,6 +9,8 @@ address = "2120 Industrial Drive, Niles, MI 49120"
 lat = 41.84934
 lon = -86.22800
 website = "https://ipu.com"
+verified_note = "The company's live contact page lists '2120 Industrial drive, Niles, MI 49120', phone 269-684-5050. The site sells healthcare and mobility products (shower and commode chairs, carts). EPA FRS also lists Innovative Products Unlimited at 2120 Industrial Dr, Niles. No source says whether products are made at this site. (source dated 2026) Source: https://ipu.com/contact"
+verified = "2026-11-14"
 
 sector = "Wood, paper & furniture"
 products = ["Institutional Furniture Manufacturing"]

@@ -5,10 +5,12 @@ name = "Kellmark Corp."
 kind = "company"
 city = "Elkhart"
 state = "IN"
-address = "53465 Ada Drive, Elkhart, IN 46514"
-lat = 41.71840
-lon = -85.92320
+address = "2501 Ada Drive, Elkhart, IN 46514"
+lat = 41.71710
+lon = -85.92290
 website = "https://kellmark.net"
+verified = "2026-11-14"
+status_note = "Moved from 53465 Ada Drive, Elkhart, IN 46514; found in a verification check (2026-11-14): Kellmark's live website gives 2501 Ada Drive, Elkhart; 53465 Ada Drive appears only in old records, likely the same site under Elkhart County's other house numbering."
 
 sector = "Wood, paper & furniture"
 products = ["Other Commercial Printing"]

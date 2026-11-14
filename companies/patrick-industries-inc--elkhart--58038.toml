@@ -9,6 +9,8 @@ address = "58038 County Road 3, Elkhart, IN 46517"
 lat = 41.65170
 lon = -86.02196
 website = "https://patrickind.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. I found no current source tying Patrick Industries to 58038 County Road 3. Checked: patrickind.com (no facility addresses listed), web searches on the address with and without the company name, and EPA ECHO/FRS, which has an undated registry row 'PATRICK INDUSTRIES INCORPORAT | 58038 CR 3'. A LoopNet property record (from county tax data, page not fetchable) describes the address as a roughly 90,000 sq ft warehouse building but names no occupant. Source: https://www.loopnet.com/property/58038-county-road-3-elkhart-in-46517/18039-200524101002000001"
+presumed_closed = "2026-11-14"
 
 sector = "Wood, paper & furniture"
 products = ["Wood Kitchen Cabinet and Countertop Manufacturing"]
