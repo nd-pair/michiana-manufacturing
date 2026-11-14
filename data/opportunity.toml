@@ -1,7 +1,8 @@
-# The Physical AI Prosperity Index: where humanoid robots could make Michiana's manufacturers more
+# The Humanoid Deployment Benefit Index: where humanoid robots could make Michiana's manufacturers more
 # competitive (more complex, higher-mix products with the same or more people), not where they would
 # replace workers. Every pillar is scored against the U.S. average (= 100); the index is the
-# geometric mean of the pillars, so a weak pillar, including falling jobs or pay, pulls it down.
+# geometric mean of the pillars, so a weak pillar pulls it down. It does not guarantee workers gain:
+# the jobs-and-pay pillar can fall while the index rises.
 # Weights, traits and lists are editable assumptions.
 
 [display]
@@ -15,7 +16,7 @@ highmix = 1        # high-mix potential: job shops and custom, short-run industr
 labor = 1          # labor pressure: tight, aging, high-turnover workforce
 readiness = 1      # adoption readiness: people who install and maintain automation
 supply = 1         # local supply: share of a humanoid's cost available locally
-prosperity = 1     # shared prosperity: manufacturing jobs, pay and value added per job
+prosperity = 1     # jobs and pay: manufacturing job and pay growth, value added per job
 
 # Task traits from O*NET 31.0. Each element is rated 1 to 5 (work context: how often or how much;
 # work activities: importance); an occupation's trait score is the mean of its elements scaled to

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Monthly comparison of the Physical AI Prosperity Index across the regions in data/regions.toml.
+"""Monthly comparison of the Humanoid Deployment Benefit Index across the regions in data/regions.toml.
 
     python3 scripts/compare_regions.py             # refresh what is due, score, write data/comparison.json
     python3 scripts/compare_regions.py --offline   # score from the cache only
@@ -165,7 +165,7 @@ def score(reg, inp, bench, spec, hum):
     avail = sum(c["cost"] for c in hum["component"] if c.get("build_to_print") and sum((a.get("parts") or {}).get(c["id"], 0) for a in A) >= 2)
     parts["supply"] = [spec["supply"]["scale"] * avail]
 
-    # shared prosperity: five-year job and pay growth, value added per job
+    # jobs and pay: five-year job and pay growth, value added per job
     y0, T = str(int(Y) - 5), inp["totals"]
     have = [f for f in cs if f in T.get(y0, {}) and f in T.get(Y, {})]
     e0, e1 = sum(T[y0][f]["emp"] for f in have), sum(T[Y][f]["emp"] for f in have)
@@ -290,7 +290,7 @@ def main(offline=False):
     month = datetime.date.today().strftime("%Y-%m")
     history = old.get("history") or {}
     history[month] = {n: {"index": v["index"], "pillars": v["pillars"]} for n, v in results.items()}
-    out = {"note": "Comparison of the Physical AI Prosperity Index across data/regions.toml, same method as the map; shown on the Physical AI outlook tab.",
+    out = {"note": "Comparison of the Humanoid Deployment Benefit Index across data/regions.toml, same method as the map; shown on the Physical AI outlook tab.",
            "updated": datetime.date.today().isoformat(), "log": log,
            "inputs": {"qcew_year": Y, "prosperity_span": [str(int(Y) - 5), Y], "value_added_year": vy, "oews_year": str(bls["occupations"].get("year")),
                       "unemployment_us_month": bls["laus"]["us_rate"][-1][0], "unemployment_county_months": sorted({v.get("month") for v in laus.values() if v.get("month")}),

@@ -1,4 +1,4 @@
-# Regions for the monthly comparison of the Physical AI Prosperity Index (scripts/compare_regions.py).
+# Regions for the monthly comparison of the Humanoid Deployment Benefit Index (scripts/compare_regions.py).
 # Shown at the bottom of the Physical AI outlook tab. Each region is a set of counties (5-digit FIPS, for QCEW, LAUS, QWI and BEA)
 # and the BLS metro areas (MSA codes, for OEWS occupations) that cover them. Picked for a similar size
 # and a research university with name recognition; edit freely, results follow on the next run.

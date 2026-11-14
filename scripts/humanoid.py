@@ -44,7 +44,9 @@ def funding(events):
     return {y: {"amount": round(v["amount"]), "n": v["n"]} for y, v in sorted(years.items())}
 
 def coverage(spec, companies):
-    """Per component: distinct local supplier groups, inferred and confirmed; and the cost shares covered."""
+    """Per component: distinct local supplier groups, inferred and confirmed; and the cost shares covered.
+    Only manufacturers count (build.py's `mfg`): research, software and investor entries supply no parts."""
+    companies = [o for o in companies if o.get("mfg", True)]
     comp = {c["id"]: {"all": set(), "confirmed": set()} for c in spec["component"]}
     for o in companies:
         for k in o.get("hum", []):

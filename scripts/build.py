@@ -96,6 +96,21 @@ def group_key(name):
     b = LEGAL.sub("", LEGAL.sub("", base_name(name))).lower()
     return re.sub(r"[^a-z0-9]+", " ", b).strip()
 
+def is_manufacturer(c):
+    """Whether a company file counts as a manufacturer in the site's counts. Investors, universities and
+    anchors never do; `manufacturer = true/false` in the file wins; a NAICS 31-33 code counts; software and
+    services firms and SBIR research firms with no evidence of production do not; other hand-written
+    company entries do (they were added as manufacturers)."""
+    if c.get("kind", "company") != "company":
+        return False
+    if "manufacturer" in c:
+        return bool(c["manufacturer"])
+    if str(c.get("naics", "")).strip()[:2] in ("31", "32", "33"):
+        return True
+    if c.get("sector") == "Software & services" or list(c.get("products", [])) == ["SBIR/STTR research and development"]:
+        return False
+    return True
+
 def assign_groups(companies):
     """Plants of one company share a group: explicit `parent` first, then a shared website domain, then the same base name."""
     from collections import defaultdict
@@ -188,6 +203,7 @@ def main():
             "emp_quality": c.get("employees_quality") or headcount_quality(c),
             "hum_add": list(c.get("humanoid", [])), "hum_not": list(c.get("humanoid_not", [])),
             "hum_ev": c.get("humanoid_evidence", "inferred"), "hum_note": c.get("humanoid_note", ""),
+            "mfg": is_manufacturer(c),
         })
     # spread companies that share one address in a small ring (in degrees)
     import math
@@ -322,10 +338,11 @@ def main():
         with open(P("docs", fname), "w", encoding="utf-8") as fh:
             fh.write(html)
 
-    n_groups = len({o["group"] for o in companies})
+    n_groups = len({o["group"] for o in companies if o["mfg"]})
+    n_mfg_sites = sum(1 for o in companies if o["mfg"])
     title = "Michiana Manufacturing"
     desc = ("The manufacturing and technology companies of the South Bend–Elkhart region on one map: "
-            "%d companies at %d sites, by sector, product and headcount." % (n_groups, len(companies)))
+            "%d manufacturers at %d sites, by sector, product and headcount." % (n_groups, n_mfg_sites))
     three = '<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>\n'
     page("index.html", title, desc, read("site", "page.html"), three + '<script src="data.js?v={{BUILD}}"></script>\n<script src="app.js?v={{BUILD}}"></script>')
     src_counts = {"hifld": sum(1 for o in companies if o["source"].startswith("HIFLD")), "sbir": sum(1 for o in companies if o["source"].startswith("SBIR"))}
@@ -334,7 +351,7 @@ def main():
     src_counts["news"] = sum(1 for o in companies if o["id"] in news_ids)
     src_counts["hand"] = len(companies) - src_counts["hifld"] - src_counts["sbir"] - src_counts["news"]
     qyears = sorted({y for d in qcew.get("counties", {}).values() for y in d.get("years", {})})
-    fill = {"{{SITES}}": "{:,}".format(len(companies)), "{{COMPANIES}}": "{:,}".format(n_groups), "{{HIFLD}}": "{:,}".format(src_counts["hifld"]),
+    fill = {"{{SITES}}": "{:,}".format(n_mfg_sites), "{{OTHERS}}": "{:,}".format(len(companies) - n_mfg_sites), "{{COMPANIES}}": "{:,}".format(n_groups), "{{HIFLD}}": "{:,}".format(src_counts["hifld"]),
             "{{SBIRFIRMS}}": str(src_counts["sbir"]), "{{HAND}}": str(src_counts["hand"]), "{{BUILT}}": data["built"],
             "{{UEI}}": str(sum(1 for o in companies if o["uei"])), "{{FEDN}}": str(sum(1 for o in companies if o.get("federal"))),
             "{{FEDPULLED}}": federal.get("pulled", "not yet pulled"), "{{SBIRN}}": str(sum(1 for o in companies if o.get("sbir"))),
@@ -360,8 +377,8 @@ def main():
     page("brief.html", "Sector brief", "Printable one-page summaries of each manufacturing sector in the South Bend–Elkhart region.",
          read("site", "brief.html"), '<script src="data.js?v={{BUILD}}"></script>\n<script src="brief.js?v={{BUILD}}"></script>')
     open(P("docs", ".nojekyll"), "w").close()
-    print("built docs/ with %d sites of %d companies (%d at street-address precision, %d with a headcount, %d with a UEI, %d with federal awards, %d with SBIR, %d FDA-registered, %d in multi-site groups, %d events)"
-          % (len(companies), n_groups, sum(1 for c in companies if c["prec"] == "address"), sum(1 for c in companies if c["emp"]), sum(1 for c in companies if c["uei"]),
+    print("built docs/ with %d sites (%d manufacturing sites of %d manufacturers; %d at street-address precision, %d with a headcount, %d with a UEI, %d with federal awards, %d with SBIR, %d FDA-registered, %d in multi-site groups, %d events)"
+          % (len(companies), n_mfg_sites, n_groups, sum(1 for c in companies if c["prec"] == "address"), sum(1 for c in companies if c["emp"]), sum(1 for c in companies if c["uei"]),
              sum(1 for c in companies if c.get("federal")), sum(1 for c in companies if c.get("sbir")), sum(1 for c in companies if c.get("fda")),
              sum(1 for c in companies if c["parent"]), len(events)))
 

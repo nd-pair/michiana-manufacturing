@@ -64,6 +64,7 @@ Field by field:
 | `employees_year`, `employees_quality` | no | Year of the headcount and `"reported"` or `"estimate"`; shown with every figure |
 | `parent` | no | Groups the plants of one company under this name (otherwise grouped by shared website or base name) |
 | `standalone` | no | `true` keeps an entry out of automatic grouping, e.g. a fund whose page lives on another organization's site |
+| `manufacturer` | no | `false` leaves the company out of every count (on the map still); `true` counts it. Without it, NAICS 31–33 and hand-written companies count, and software firms, SBIR research firms with no production, investors and universities do not |
 | `uei` | no | Unique Entity ID; federal and SBIR awards then match exactly. Filled in automatically once a unique name match is found |
 | `location_precision` | no | `"city"` when lat/lon is a city center rather than the address (used for SBIR firms) |
 | `humanoid`, `humanoid_not`, `humanoid_evidence`, `humanoid_note` | no | Humanoid parts the company supplies (ids from [`data/humanoid.toml`](data/humanoid.toml)), inferred ones it does not, `"confirmed"` or `"self-reported"` once that is established, and a note on what was confirmed |
@@ -91,12 +92,13 @@ metros, state labels and the campus landmark in `data/places.toml`.
 The page has four tabs, each with its own link (`#tab=occupations`, `#tab=outlook`,
 `#tab=humanoid`): **Companies** (the map, sectors, products, roster, federal footprint, capabilities
 and timeline), **Occupations** (workforce, manufacturing employment and the occupations humanoids
-could help), **Physical AI outlook** (the prosperity index and the region comparison) and
+could help), **Physical AI outlook** (the Humanoid Deployment Benefit Index and the region comparison) and
 **Humanoid supply chain**. Filters carry across tabs, and a company named on another tab opens on the map.
 Without WebGL the map shows a notice and everything else still works. The page carries:
 
-- **Federal footprint.** Procurement contracts and grants since FY2016 for every company, from
-  USAspending.gov, matched by recipient name, plus the region-wide totals by awarding agency.
+- **Federal footprint.** Procurement contracts and grants since FY2016 performed in the region (place of
+  performance, not the recipient's address) for every company, from USAspending.gov, matched by UEI or
+  recipient name, plus the region-wide totals by awarding agency.
   A filter shows only companies with federal awards. `scripts/pull_federal.py` → `data/federal.json`.
 - **Certifications.** FDA medical-device establishment registrations from openFDA
   (`scripts/pull_fda.py` → `data/fda.json`), shown as a badge and a filter. Other certifications
@@ -115,7 +117,7 @@ Without WebGL the map shows a notice and everything else still works. The page c
   Quarterly Census of Employment and Wages (`scripts/pull_qcew.py` → `data/qcew.json`).
 - **Timeline.** Two event streams, pulled by `scripts/pull_events.py` into `data/events_auto.json`:
   every SBIR/STTR award to a company on the map (phase, agency, title, amount) and every federal
-  contract or grant of $250,000 or more (start date, agency, description, amount) from USAspending.
+  contract or grant of $250,000 or more performed in the region (start date, agency, description, amount) from USAspending.
   The panel follows the map filters, has a chip per stream, a year strip to narrow by year, and
   sorts by date or by amount; clicking an event selects the company and flies to it.
 - **Sorting.** Every panel with numeric columns sorts by any of them from its header (companies,
@@ -144,16 +146,16 @@ Without WebGL the map shows a notice and everything else still works. The page c
   `humanoid = [...]` and `humanoid_evidence = "confirmed"` with a `humanoid_note` to its file.
   Milestones (first local actuator line, first assembled humanoid) go in
   [`data/milestones.toml`](data/milestones.toml) and appear on the timeline.
-- **Physical AI Prosperity Index.** The Physical AI outlook tab scores where humanoid robots
+- **Humanoid Deployment Benefit Index.** The Physical AI outlook tab scores where humanoid robots
   could make local manufacturers more competitive, not where they would replace people. Six
   pillars compare the region with the U.S. (= 100): *task fit* (local jobs weighted by how much of
   the work is handling parts, repetitive motion, awkward postures and hazards, from O*NET),
   *high-mix potential* (jobs in custom and short-run industries; smaller establishments),
   *labor pressure* (unemployment, workers aged 55+, turnover), *adoption readiness* (mechanics,
   electricians, technicians and engineers per 1,000 jobs), *local supply* (from the humanoid panel)
-  and *shared prosperity* (manufacturing job and pay growth over five years, value added per job).
-  The index is the weighted geometric mean of the pillars, so it can only rise for good if workers
-  gain too. An occupation table lists local jobs, task fit, the work a humanoid could take on and
+  and *jobs and pay* (manufacturing job and pay growth over five years, value added per job).
+  The index is the weighted geometric mean of the pillars. It does not show that workers gain:
+  the jobs-and-pay pillar can fall while the index rises, so read that pillar on its own. An occupation table lists local jobs, task fit, the work a humanoid could take on and
   pay. Weights, traits, industry and occupation lists are in
   [`data/opportunity.toml`](data/opportunity.toml); `scripts/pull_workforce.py` pulls O*NET,
   the Census Bureau's Quarterly Workforce Indicators (bulk files, no key) and BEA county GDP; the

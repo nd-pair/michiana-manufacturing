@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Inputs for the Physical AI Prosperity Index that are not on the BLS API.
+"""Inputs for the Humanoid Deployment Benefit Index that are not on the BLS API.
 
     python3 scripts/pull_workforce.py            # all three sources
     python3 scripts/pull_workforce.py onet qwi   # only some

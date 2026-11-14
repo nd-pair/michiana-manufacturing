@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
-"""Federal awards (contracts and grants) to recipients in the Michiana counties, from USAspending.gov.
+"""Federal awards (contracts and grants) performed in the Michiana counties, from USAspending.gov.
 
     python3 scripts/pull_federal.py        # writes data/federal.json
 
-For each recipient located in the region: total obligated amount since FY2016 for contracts and for
-grants, matched to our company files by UEI (Unique Entity ID) where a file has one, otherwise by a
+Awards are selected by place of performance, not by the recipient's address: a plant here of a company
+headquartered elsewhere counts, and work a local company performs elsewhere does not. For each recipient
+with awards performed in the region: total obligated amount since FY2016 for contracts and for grants, matched to our company files by UEI (Unique Entity ID) where a file has one, otherwise by a
 unique exact name; the UEI found that way is written into the company file so later runs match exactly. Also the regional totals by awarding agency, for the
 federal-footprint panel. Public API, no key.
 """
@@ -43,7 +44,7 @@ def main():
     cs = companies(); by_uei = uei_index(cs); by_name = exact_name_index(cs); has_uei = {c["_id"] for c in cs if c.get("uei")}
     by_company, agencies, learned = {}, {}, {}
     for label, codes in TYPES.items():
-        filters = {"time_period": TIME, "award_type_codes": codes, "recipient_locations": LOCS}
+        filters = {"time_period": TIME, "award_type_codes": codes, "place_of_performance_locations": LOCS}
         recips = all_pages("recipient", filters)
         print("%s: %d recipients" % (label, len(recips)))
         for r in recips:
@@ -67,7 +68,7 @@ def main():
         for k in ("contracts", "grants"):
             e[k] = round(e[k])
     top = sorted(agencies.items(), key=lambda kv: -(kv[1]["contracts"] + kv[1]["grants"]))[:12]
-    data = {"source": "USAspending.gov: procurement contracts and grants by recipient and awarding agency, FY2016 to date, recipients located in the Michiana counties",
+    data = {"source": "USAspending.gov: procurement contracts and grants by recipient and awarding agency, FY2016 to date, awards performed in the Michiana counties (place of performance)",
             "pulled": datetime.date.today().isoformat(), "companies": by_company,
             "agencies": [{"name": n, **{k: round(v) for k, v in d.items()}} for n, d in top]}
     json.dump(data, open(P("data", "federal.json"), "w"), indent=0)

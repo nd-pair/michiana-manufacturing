@@ -6,8 +6,8 @@
 Sources, each optional:
 - SBIR/STTR awards, from SBIR.gov's public bulk file: one event per award to a company in the map
   (phase, agency, title, amount, year).
-- Federal contracts and grants of $250,000 or more, from USAspending.gov, for recipients in the
-  Michiana counties that match a company in the map (start date, agency, description, amount).
+- Federal contracts and grants of $250,000 or more, from USAspending.gov, performed in the Michiana
+  counties (place of performance) by a recipient that matches a company in the map (start date, agency, description, amount).
 Each award becomes one dated event on the timeline.
 """
 import csv, datetime, io, json, sys, time, urllib.request
@@ -45,7 +45,7 @@ def federal_events(cs, match):
         page = 1
         while True:
             body = {"filters": {"time_period": [{"start_date": "2015-10-01", "end_date": datetime.date.today().isoformat()}], "award_type_codes": codes,
-                                "recipient_locations": locs, "award_amounts": [{"lower_bound": 250000}]},
+                                "place_of_performance_locations": locs, "award_amounts": [{"lower_bound": 250000}]},
                     "fields": ["Award ID", "Recipient Name", "Recipient UEI", "Award Amount", "Start Date", "Awarding Agency", "Awarding Sub Agency", "Description"], "limit": 100, "page": page,
                     "sort": "Award Amount", "order": "desc"}
             req = urllib.request.Request(USA, data=json.dumps(body).encode(), headers={**UA, "Content-Type": "application/json"})

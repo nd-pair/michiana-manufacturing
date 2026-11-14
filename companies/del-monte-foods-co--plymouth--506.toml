@@ -9,6 +9,7 @@ address = "506 North Street, Plymouth, IN 46563"
 lat = 41.34948
 lon = -86.31495
 website = "https://delmonte.com"
+uei = "CCD1NZGZPKG1"
 
 sector = "Food & consumer goods"
 products = ["Fruit and Vegetable Canning"]

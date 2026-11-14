@@ -1,4 +1,4 @@
-"""The Physical AI Prosperity Index, from data/opportunity.toml and the pulled datasets. Used by build.py.
+"""The Humanoid Deployment Benefit Index, from data/opportunity.toml and the pulled datasets. Used by build.py.
 
 Every part compares the region with the U.S. (100 = the U.S. average). A pillar is the mean of its
 parts; the index is the weighted geometric mean of the pillars, so a pillar near zero, or falling
@@ -132,7 +132,7 @@ def compute(bls, qcew, qwi, bea, task, available_share):
                                "score": round(sc * available_share, 1) if available_share is not None else None, "unit": "pct",
                                "note": "scored as %g times the share, so half of the robot = 100" % sc}]})
 
-    # 6. shared prosperity: jobs and pay over five years, value added per job
+    # 6. jobs and pay: jobs and pay over five years, value added per job
     def growth(years):
         ys = sorted(years)
         if len(ys) < 6:
@@ -155,7 +155,7 @@ def compute(bls, qcew, qwi, bea, task, available_share):
         if cs:
             va_l = sum(gdp[f][vyear] for f in cs) / sum(qcew["counties"][f]["years"][vyear]["emp"] for f in cs)
             va_u = gdp["00000"][vyear] / qcew["us"][vyear]["emp"]
-    pillars.append({"id": "prosperity", "name": "Shared prosperity", "what": "manufacturing jobs, pay and value added per job, so the index rises only if workers gain too",
+    pillars.append({"id": "prosperity", "name": "Jobs and pay", "what": "manufacturing job and pay growth and value added per job; the index can still rise while this falls",
                     "parts": [{"name": "Manufacturing job growth %s–%s" % span if span else "Manufacturing job growth", "local": ge and round(ge - 1, 3), "us": ue and round(ue - 1, 3),
                                "score": _ratio(ge, ue), "unit": "growth"},
                               {"name": "Manufacturing pay growth %s–%s" % span if span else "Manufacturing pay growth", "local": gp and round(gp - 1, 3), "us": up and round(up - 1, 3),
