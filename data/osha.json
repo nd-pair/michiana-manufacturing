@@ -853,7 +853,7 @@
 },
 "945745": {
 "company": "pleasant-street-homes-llc-middlebury-51700",
-"employees": null,
+"employees": 179,
 "naics": "336214"
 },
 "1404804": {
@@ -1003,7 +1003,7 @@
 },
 "946003": {
 "company": "keystone-rv-crossroads-topeka-1100",
-"employees": null,
+"employees": 153,
 "naics": "336214"
 },
 "1078516": {
@@ -3662,7 +3662,7 @@
 },
 "1521636": {
 "company": "complexus-medical-plymouth-plymouth-2925",
-"employees": 1,
+"employees": null,
 "naics": "339999"
 },
 "795494": {

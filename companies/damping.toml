@@ -17,7 +17,7 @@ uei = "R7YJXFHG6GN6"
 sector = "Materials & composites"
 products = ["Damping materials"]
 
-employees = 3
+employees = 33
 employees_scope = "site"  # site = this location; company = company-wide
 employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 

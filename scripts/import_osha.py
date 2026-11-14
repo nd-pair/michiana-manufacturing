@@ -219,9 +219,20 @@ def main(args):
     who = lambda r: " ".join(norm(r.get("company_name") or r["establishment_name"]).split()[:2])   # "Thor Motor Coach - C730027" = "Thor Motor Coach, Inc"
     emp_of = lambda r: int(float(r.get("annual_average_employees") or 0))
     seen_addr = {}
+    hours_of = lambda r: int(float(r.get("total_hours_worked") or 0))
+    first_word = lambda r: (norm(r.get("company_name") or r["establishment_name"]).split() or [""])[0]
+    same_report = {}   # one report filed for two addresses: same first name word, same employees, same hours to the hour
+    seen_hours = {}
     for r in keep:
         seen_addr.setdefault((who(r), emp_of(r)), set()).add(addr_key(r["street_address"], r["city"]))
-    company_wide = {k for k, v in seen_addr.items() if k[1] and (len(v) >= 3 or (len(v) >= 2 and k[1] >= 100))}
+        seen_hours.setdefault((who(r), emp_of(r)), set()).add(hours_of(r))
+        if hours_of(r):
+            same_report.setdefault((first_word(r), emp_of(r), hours_of(r)), set()).add(addr_key(r["street_address"], r["city"]))
+    # one count at several addresses is company-wide only if the hours match too: Keystone's Plant 31 and
+    # Crossroads Plant 501 both had 153 employees, with different hours, and are two plants
+    company_wide = {k for k, v in seen_addr.items() if k[1] and (len(v) >= 3 or (len(v) >= 2 and k[1] >= 100)) and len(seen_hours[k]) == 1}
+    # Honeywell's 440 employees and 840,205 hours, filed for both 3520 Westmoor St and 717 N Bendix Dr
+    company_wide |= {(who(r), emp_of(r)) for r in keep if len(same_report.get((first_word(r), emp_of(r), hours_of(r)), ())) >= 2}
     placed = set()
     cs = [c for c in companies()]
     by_osha = {str(c["osha_id"]): c["_id"] for c in cs if c.get("osha_id")}
@@ -386,8 +397,10 @@ def main(args):
                 del_field(path, "presumed_closed"); del_field(path, "presumed_closed_reason"); restored += 1
             if c.get("unconfirmed"):   # a same-name filing at this address confirms the plant
                 del_field(path, "unconfirmed"); del_field(path, "unconfirmed_reason")
+            own_count = by_osha.get(eid) == cid and "at this establishment" in c.get("employees_note", "") and c.get("employees") != emp
             if emp and scope == "site" and c.get("employees_scope", "site") == "site" and (not c.get("employees") or c.get("employees_quality") == "estimate"
-                                                                      or re.search(r"(?i)estimate", c.get("employees_note", ""))):
+                                                                      or re.search(r"(?i)estimate", c.get("employees_note", "")) or own_count):
+                # also when the file's figure is its own establishment's from an earlier, wrong match (Aluminum Trailer Plant 4: 129, filed 193)
                 set_field(path, "employees", emp); set_field(path, "employees_year", int(year) if year.isdigit() else year)
                 set_field(path, "employees_quality", "reported")
                 set_field(path, "employees_note", "OSHA Form 300A, annual average employees at this establishment, %s" % year)

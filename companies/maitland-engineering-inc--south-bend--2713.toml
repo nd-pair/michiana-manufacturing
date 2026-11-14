@@ -14,7 +14,7 @@ sector = "Medical devices & other"
 products = ["Surgical Appliance and Supplies Manufacturing"]
 naics = "339113"
 
-employees = 21
+employees = 50
 employees_scope = "site"
 employees_year = 2025
 employees_quality = "reported"

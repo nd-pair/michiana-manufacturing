@@ -11,7 +11,7 @@ lon = -85.55393
 employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 employees_quality = "reported"
 employees_year = 2025
-employees = 3
+employees = 153
 osha_id = "946003"
 
 sector = "Vehicles & RVs"

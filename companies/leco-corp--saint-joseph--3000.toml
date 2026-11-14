@@ -16,7 +16,7 @@ sector = "Metal"
 products = ["Electroplating, Plating, Polishing, Anodizing and Coloring"]
 naics = "332813"
 
-employees = 25
+employees = 301
 employees_scope = "site"
 employees_year = 2025
 employees_quality = "reported"

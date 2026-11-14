@@ -15,7 +15,7 @@ sector = "Materials & composites"
 products = ["Other Concrete Product Manufacturing"]
 naics = "327390"
 
-employees = 14
+employees = 15
 employees_scope = "site"
 employees_year = 2025
 employees_quality = "reported"
