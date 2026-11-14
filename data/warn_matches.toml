@@ -15,3 +15,10 @@ city = "LaPorte"
 notice_date = "2025-10-06"
 file = "freudenberg-filtration-technologies-laporte-229"
 note = "Freudenberg's La Porte furnace-filter plant at 229 Factory Street (residential filtration), which filed OSHA's 2025 Form 300A as Freudenberg Filtration Technologies - LaPorte"
+
+[[match]]
+company = "Dexter Axle"
+city = "Elkhart"
+notice_date = "2026-10-29"
+file = "al-ko-kober-corp-elkhart-21611"
+note = "Dexter's notice to close Plant 61 (the former AL-KO Kober plant at 21611 Protecta Drive) by December 31, 2026; 51 workers and the plant's NAICS code 336350 match"
