@@ -237,7 +237,10 @@ def main(args):
         if cid:
             c, path = by_id[cid], company_path(cid)
             filer = clean_name(r["establishment_name"], r["company_name"], city)
-            words = lambda s: {w for w in norm(s).split() if len(w) >= 2}
+            def words(s):
+                """Name words, plus the initials of the full name (Aluminum Metals Co. = AMC)."""
+                raw = [w for w in re.findall(r"[a-z]+", (s or "").lower()) if w not in ("inc", "llc", "the", "of", "and")]
+                return {w for w in norm(s).split() if len(w) >= 2} | ({"".join(w[0] for w in raw)} if len(raw) >= 2 else set())
             if cid == by_address and c.get("closed") and not words(c["name"]) & (words(r["establishment_name"]) | words(r["company_name"]) | words(filer)):
                 cid = None   # a new tenant at a closed plant's address: the closure stays on record, the tenant gets its own file
         if cid:

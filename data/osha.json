@@ -2025,11 +2025,6 @@
 "employees": 61,
 "naics": "336390"
 },
-"1228559": {
-"company": "patrick-industries-inc-elkhart-58038",
-"employees": 61,
-"naics": "332322"
-},
 "283909": {
 "company": "viking-paper-corp-plymouth-1001",
 "employees": 60,
@@ -3315,6 +3310,11 @@
 "employees": 14,
 "naics": "326199"
 },
+"945825": {
+"company": "keystone-rv-dutchmen-goshen-2145",
+"employees": 13,
+"naics": "336214"
+},
 "1186305": {
 "company": "transit-mix-inc-plymouth-2341",
 "employees": 13,
@@ -3593,6 +3593,11 @@
 "employees": 66,
 "naics": "332999"
 },
+"1228559": {
+"company": "aluminum-metals-co-elkhart-52760",
+"employees": 61,
+"naics": "332322"
+},
 "649274": {
 "company": "tristar-molding-inc-marcellus-51540",
 "employees": 51,
@@ -3641,11 +3646,6 @@
 "employees": 23,
 "naics": "322220",
 "occupant": "Patty Processing, Inc."
-},
-"945825": {
-"company": "keystone-rv-dutchmen-goshen-2145",
-"employees": 13,
-"naics": "336214"
 }
 }
 }
