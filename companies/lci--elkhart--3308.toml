@@ -11,7 +11,7 @@ lon = -86.01027
 osha_id = "899014"
 
 sector = "Metal"
-products = ["Manufacturing"]
+products = ["Metal Crown, Closure, and Other Metal Stamping (except Automotive)"]
 naics = "332119"
 
 employees = 66
@@ -21,7 +21,7 @@ employees_quality = "reported"
 employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 parent = "083  LCI"
-description = "NAICS 332119: manufacturing."
+description = "NAICS 332119: metal crown, closure, and other metal stamping (except automotive)."
 
 source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
 updated = "2026-11-13"

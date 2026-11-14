@@ -11,7 +11,7 @@ lon = -86.14708
 osha_id = "1505608"
 
 sector = "Wood, paper & furniture"
-products = ["Manufacturing"]
+products = ["Prefabricated Wood Building Manufacturing"]
 naics = "321992"
 
 employees = 107
@@ -20,7 +20,7 @@ employees_year = 2025
 employees_quality = "reported"
 employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
-description = "NAICS 321992: manufacturing."
+description = "NAICS 321992: prefabricated wood building manufacturing."
 
 source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
 updated = "2026-11-13"

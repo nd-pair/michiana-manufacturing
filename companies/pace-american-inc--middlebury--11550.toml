@@ -13,7 +13,7 @@ status_note = "Named from OSHA's 2025 Form 300A filing at this address; the earl
 formerly = "Pace American Inc."
 
 sector = "Vehicles & RVs"
-products = ["Manufacturing"]
+products = ["Truck Trailer Manufacturing"]
 naics = "336212"
 
 employees = 118
@@ -22,7 +22,7 @@ employees_year = 2025
 employees_quality = "reported"
 employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
-description = "NAICS 336212: manufacturing."
+description = "NAICS 336212: truck trailer manufacturing."
 
 source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor); the earlier record at this address came from HIFLD"
 updated = "2026-11-13"

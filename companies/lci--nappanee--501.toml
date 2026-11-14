@@ -11,7 +11,7 @@ lon = -85.98210
 osha_id = "899024"
 
 sector = "Metal"
-products = ["Manufacturing"]
+products = ["Metal Window and Door Manufacturing"]
 naics = "332321"
 
 employees = 142
@@ -21,7 +21,7 @@ employees_quality = "reported"
 employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 parent = "148B  LCI"
-description = "NAICS 332321: manufacturing."
+description = "NAICS 332321: metal window and door manufacturing."
 
 source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
 updated = "2026-11-13"

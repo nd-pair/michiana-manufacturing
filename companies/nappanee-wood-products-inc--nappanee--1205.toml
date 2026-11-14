@@ -13,7 +13,7 @@ status_note = "Named from OSHA's 2025 Form 300A filing at this address; the earl
 formerly = "Nappanee Wood Products, Inc."
 
 sector = "Metal"
-products = ["Manufacturing"]
+products = ["Metal Window and Door Manufacturing"]
 naics = "332321"
 
 employees = 238
@@ -22,7 +22,7 @@ employees_year = 2025
 employees_quality = "reported"
 employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
-description = "NAICS 332321: manufacturing."
+description = "NAICS 332321: metal window and door manufacturing."
 
 source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor); the earlier record at this address came from HIFLD"
 updated = "2026-11-13"

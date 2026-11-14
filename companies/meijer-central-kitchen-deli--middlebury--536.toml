@@ -11,7 +11,7 @@ lon = -85.69284
 osha_id = "986733"
 
 sector = "Food & consumer goods"
-products = ["Retail"]
+products = ["Perishable Prepared Food Manufacturing"]
 naics = "311991"
 
 employees = 166
@@ -21,7 +21,7 @@ employees_quality = "reported"
 employees_note = "OSHA Form 300A, sum of 2 filings for buildings or departments at this address, 2025"
 
 parent = "Meijer"
-description = "NAICS 311991: retail."
+description = "NAICS 311991: perishable prepared food manufacturing."
 
 source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
 updated = "2026-11-13"

@@ -11,7 +11,7 @@ lon = -85.79334
 osha_id = "899004"
 
 sector = "Metal"
-products = ["Manufacturing"]
+products = ["Fabricated Structural Metal Manufacturing"]
 naics = "332312"
 
 employees = 602
@@ -21,7 +21,7 @@ employees_quality = "reported"
 employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 parent = "045 LCI"
-description = "NAICS 332312: manufacturing."
+description = "NAICS 332312: fabricated structural metal manufacturing."
 
 source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
 updated = "2026-11-14"

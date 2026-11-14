@@ -108,6 +108,16 @@ def canon_city(raw):
     c = titlecase(c) if c.isupper() or c.islower() else c
     return CITY_SPELLING.get(c.lower().replace("  ", " "), c)
 
+GENERIC_INDUSTRY = re.compile(r"(?i)\s*(manufacturing|manufacturer|mfg\.?|retail|wholesale|production|other|n/?a|none|\d+)?\s*")
+
+def industry_text(r):
+    """The filer's own industry text, or the official NAICS title when that text says nothing ('Manufacturing',
+    'Retail', the code itself): data/naics_titles.json, made by scripts/make_naics_titles.py."""
+    desc = (r.get("industry_description") or "").strip()
+    if GENERIC_INDUSTRY.fullmatch(desc) and os.path.exists(P("data", "naics_titles.json")):
+        return json.load(open(P("data", "naics_titles.json")))["titles"].get(str(r.get("naics_code", "")).strip(), desc)
+    return desc
+
 _OUTLINES = []
 
 def county_of(lat, lon):
@@ -355,7 +365,7 @@ def main(args):
                 if not (c.get("source") or "").startswith("HIFLD"):
                     set_field(path, "osha_occupant", "%s (OSHA Form 300A filer at this address, %s)" % (filer, year))
                     continue
-                desc = (r.get("industry_description") or "").strip()
+                desc = industry_text(r)
                 old = c["name"]
                 set_field(path, "name", filer)
                 set_field(path, "formerly", "; ".join(x for x in (c.get("formerly"), old) if x))
@@ -429,7 +439,7 @@ def main(args):
             nogeo.append("%s, %s" % (name, address))
         n3 = r["naics_code"][:3]
         sector = SECTOR_BY_NAICS3.get(n3, "Medical devices & other")
-        desc = (r.get("industry_description") or "").strip()
+        desc = industry_text(r)
         lines = ["# %s" % name, "# Imported from OSHA's Form 300A establishment data (public); edit freely.", "",
                  "name = %s" % q(name), 'kind = "company"', "city = %s" % q(city), 'state = "%s"' % st, "address = %s" % q(address)]
         if g:

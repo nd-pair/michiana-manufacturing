@@ -11,7 +11,7 @@ lon = -85.99695
 osha_id = "1538046"
 
 sector = "Vehicles & RVs"
-products = ["Manufacturing"]
+products = ["Travel Trailer and Camper Manufacturing"]
 naics = "336214"
 
 employees = 24
@@ -21,7 +21,7 @@ employees_quality = "reported"
 employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 parent = "Airxcel"
-description = "NAICS 336214: manufacturing."
+description = "NAICS 336214: travel trailer and camper manufacturing."
 
 source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
 updated = "2026-11-13"

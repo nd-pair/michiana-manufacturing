@@ -11,7 +11,7 @@ lon = -86.44166
 osha_id = "1264524"
 
 sector = "Vehicles & RVs"
-products = ["Manufacturing"]
+products = ["Motor Vehicle Steering and Suspension Components (except Spring) Manufacturing"]
 naics = "336330"
 
 employees = 250
@@ -20,7 +20,7 @@ employees_year = 2025
 employees_quality = "reported"
 employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
-description = "NAICS 336330: manufacturing."
+description = "NAICS 336330: motor vehicle steering and suspension components (except spring) manufacturing."
 
 source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
 updated = "2026-11-13"
