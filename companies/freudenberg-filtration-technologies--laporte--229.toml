@@ -8,6 +8,9 @@ state = "IN"
 address = "229 Factory Street, La Porte, IN 46350"
 lat = 41.62159
 lon = -86.70528
+closed_source = "https://www.in.gov/dwd/warn-notices/current-warn-notices/"
+closed_note = "Freudenberg Residential Filtration Technologies, Inc. gave notice on 2025-10-06 that it would close this plant on 2025-12-05, with 173 workers (Indiana WARN notice; Freudenberg's La Porte furnace-filter plant at 229 Factory Street (residential filtration), which filed OSHA's 2025 Form 300A as Freudenberg Filtration Technologies - LaPorte)."
+closed = "2025-12-05"
 osha_id = "1078516"
 
 sector = "Mechatronics & automation"

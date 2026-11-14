@@ -22,6 +22,11 @@ so Berrien, Cass and Van Buren counties are not covered here.
 """
 import datetime, html, json, os, re, sys, tomllib, urllib.request
 from common import P, COUNTIES, companies, norm, company_path, set_field
+from import_osha import canon_city
+
+def town(s):
+    """A town as a key: one spelling ("LaPorte", "Laporte" and "La Porte" are one town), letters only."""
+    return re.sub(r"[^a-z]", "", canon_city(s or "").lower())
 
 URL = "https://www.in.gov/dwd/warn-notices/current-warn-notices/"
 UA = {"User-Agent": "michiana-manufacturing/1.0 (github.com/nd-pair/michiana-manufacturing)"}
@@ -34,12 +39,11 @@ def date(s):
 
 def region_cities(cs):
     """Indiana cities in the region: every Indiana city with a company file, and data/places.toml."""
-    cities = {c["city"].strip().lower() for c in cs if c.get("state") == "IN" and c.get("city")}
+    cities = {town(c["city"]) for c in cs if c.get("state") == "IN" and c.get("city")}
     try:
-        places = tomllib.load(open(P("data", "places.toml"), "rb"))
-        for k, v in places.items():
-            if isinstance(v, dict) and v.get("state", "IN") == "IN":
-                cities.add(k.strip().lower())
+        for p in tomllib.load(open(P("data", "places.toml"), "rb")).get("city", []):
+            if p.get("state", "IN") == "IN":
+                cities.add(town(p["name"]))
     except Exception:
         pass
     return cities
@@ -57,13 +61,13 @@ def main():
     cities = region_cities(cs)
     idx = {}
     for c in cs:
-        n, city = norm(c["name"]), (c.get("city") or "").strip().lower()
+        n, city = norm(c["name"]), town(c.get("city"))
         for k in {(n, city), (" ".join(n.split()[:3]), city), (" ".join(n.split()[:2]), city)}:
             idx.setdefault(k, set()).add(c["_id"])
     manual = tomllib.load(open(P("data", "warn_matches.toml"), "rb")).get("match", []) if os.path.exists(P("data", "warn_matches.toml")) else []
     def match(name, city):
         """The one company file in this city with this name; None when there is none or several (a person picks)."""
-        n, city = norm(name), city.strip().lower()
+        n, city = norm(name), town(city)
         for k in ((n, city), (" ".join(n.split()[:3]), city), (" ".join(n.split()[:2]), city)):
             if k[0] and len(idx.get(k, ())) == 1:
                 return next(iter(idx[k]))
@@ -73,7 +77,7 @@ def main():
     notices = []
     for company, city, workers, notice, effective, naics, industry, kind, *_ in rows:
         nd = date(notice)
-        if not nd or nd < SINCE or city.strip().lower() not in cities:
+        if not nd or nd < SINCE or town(city) not in cities:
             continue
         if not (naics.strip()[:2] in ("31", "32", "33") or "manufactur" in industry.lower()):
             continue

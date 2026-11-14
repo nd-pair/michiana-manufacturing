@@ -79,8 +79,8 @@
 "industry": "Manufacturing",
 "type": "CL",
 "type_name": "closing",
-"match": "",
-"match_basis": ""
+"match": "freudenberg-filtration-technologies-laporte-229",
+"match_basis": "by hand: Freudenberg's La Porte furnace-filter plant at 229 Factory Street (residential filtration), which filed OSHA's 2025 Form 300A as Freudenberg Filtration Technologies - LaPorte"
 },
 {
 "company": "Cruiser RV",
@@ -703,8 +703,8 @@
 "industry": "Food Product Machinery Manufacturing",
 "type": "CL",
 "type_name": "closing",
-"match": "",
-"match_basis": ""
+"match": "silgan-containers-mfg-corp-la-porte-300",
+"match_basis": "name"
 }
 ]
 }

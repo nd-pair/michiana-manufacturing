@@ -8,3 +8,10 @@ city = "Walkerton"
 notice_date = "2026-07-21"
 file = "masonite-international-corp-walkerton-111"
 note = "Owens Corning acquired Masonite in 2024; the notice's industry, wood window and door manufacturing, is Masonite's door plant at 111 Muskin Drive"
+
+[[match]]
+company = "Freudenberg Residential Filtration Technologies, Inc."
+city = "LaPorte"
+notice_date = "2025-10-06"
+file = "freudenberg-filtration-technologies-laporte-229"
+note = "Freudenberg's La Porte furnace-filter plant at 229 Factory Street (residential filtration), which filed OSHA's 2025 Form 300A as Freudenberg Filtration Technologies - LaPorte"
