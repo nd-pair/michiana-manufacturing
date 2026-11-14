@@ -8,6 +8,8 @@ state = "MI"
 address = "903 Independence St, Sturgis, MI 49091"
 lat = 41.79406
 lon = -85.40728
+removed_reason = "outside the region: St. Joseph County, Michigan, which the HIFLD import took for St. Joseph County, Indiana (same county name); found by the consistency check"
+removed = "2026-11-14"
 uei = "DZGEHEGC3BJ8"
 
 sector = "Software & services"

@@ -23,6 +23,9 @@ jobs:
       - name: New facilities from HIFLD (never overwrites existing files)
         continue-on-error: true
         run: python3 scripts/import_hifld.py
+      - name: Consistency checks of the company files (review list, changes nothing)
+        continue-on-error: true
+        run: python3 scripts/check_consistency.py
       - name: Compare company addresses with the companies' own websites (review list, changes nothing)
         continue-on-error: true
         run: python3 scripts/check_sites.py

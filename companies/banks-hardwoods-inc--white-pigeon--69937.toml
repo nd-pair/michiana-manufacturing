@@ -9,6 +9,8 @@ address = "69937 M-103, White Pigeon, MI 49099"
 lat = 41.78112
 lon = -85.76715
 website = "https://bankshardwoods.com"
+removed_reason = "outside the region: St. Joseph County, Michigan, which the HIFLD import took for St. Joseph County, Indiana (same county name); found by the consistency check"
+removed = "2026-11-14"
 verified_note = "Live site shows Banks Hardwoods headquartered in White Pigeon, and a 2018 Michigan EGLE letter and directories give the facility at 69937 M-103. Source: https://bankshardwoods.com"
 verified = "2026-11-13"
 

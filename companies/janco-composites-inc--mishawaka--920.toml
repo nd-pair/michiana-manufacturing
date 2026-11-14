@@ -9,6 +9,8 @@ state = "IN"
 address = "1217 E 7th St, Mishawaka, IN 46544"
 lat = 41.65617
 lon = -86.15992
+removed_reason = "duplicate: the same plant as companies/janco.toml (Janco Engineered Products LLC), found by the consistency check"
+removed = "2026-11-14"
 verified = "2026-11-13"
 status_note = "Moved from 920 South Logan Street, Mishawaka, IN 46544; found in a verification check (2026-11-13): Weak: no listing found at 920 S Logan St; directories put Janco Engineered Products at 1217 E 7th St (phone 574-255-3169), though MapQuest marks that listing Closed."
 

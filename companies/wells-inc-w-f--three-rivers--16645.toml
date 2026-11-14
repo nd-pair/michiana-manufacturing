@@ -9,6 +9,8 @@ address = "16645 Heimbach Road, Three Rivers, MI 49093"
 lat = 41.99813
 lon = -85.63200
 website = "https://wfwells.com"
+removed_reason = "outside the region: St. Joseph County, Michigan, which the HIFLD import took for St. Joseph County, Indiana (same county name); found by the consistency check"
+removed = "2026-11-14"
 verified_note = "Current directory listings place W.F. Wells bandsaw manufacturer at 16645 Heimbach Road, but they are undated and wfwells.com returned HTTP 500. Source: https://industrialmachinerydigest.com/buyers-guide-listings/entry/37224"
 verified = "2026-11-13"
 

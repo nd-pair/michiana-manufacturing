@@ -9,6 +9,8 @@ address = "580 West Burr Oak Street, Centreville, MI 49032"
 lat = 41.92271
 lon = -85.53974
 website = "https://vikingrv.com"
+removed_reason = "outside the region: St. Joseph County, Michigan, which the HIFLD import took for St. Joseph County, Indiana (same county name); found by the consistency check"
+removed = "2026-11-14"
 verified_note = "Forest River's Viking contact page and a 2024 MARVAC directory list Viking RV at 580 W Burr Oak St, Centreville. Source: https://forestriverinc.com/rvs/contact-us/viking-rok"
 verified = "2026-11-13"
 

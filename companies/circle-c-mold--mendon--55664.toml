@@ -8,6 +8,8 @@ state = "MI"
 address = "55664 Parkville Road, Mendon, MI 49072"
 lat = 41.98902
 lon = -85.54801
+removed_reason = "outside the region: St. Joseph County, Michigan, which the HIFLD import took for St. Joseph County, Indiana (same county name); found by the consistency check"
+removed = "2026-11-14"
 
 sector = "Mechatronics & automation"
 products = ["Industrial Mold Manufacturing"]

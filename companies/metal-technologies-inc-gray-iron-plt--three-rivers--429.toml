@@ -9,6 +9,8 @@ address = "429 4th Street, Three Rivers, MI 49093"
 lat = 41.93863
 lon = -85.63015
 website = "https://metal-technologies.com"
+removed_reason = "outside the region: St. Joseph County, Michigan, which the HIFLD import took for St. Joseph County, Indiana (same county name); found by the consistency check"
+removed = "2026-11-14"
 verified_note = "Michigan EGLE 2022 compliance reports and directory listings place the Metal Technologies gray iron foundry at 429 Fourth Street; no closure news found for this plant and the company site (HTTP 520) lists no locations. Source: https://www.deq.state.mi.us/aps/downloads/SRN/B2015/B2015_FCE_20220824.pdf"
 verified = "2026-11-13"
 

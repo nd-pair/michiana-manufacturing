@@ -9,6 +9,8 @@ address = "3520 Westmoor Street, South Bend, IN 46628"
 lat = 41.68432
 lon = -86.29898
 website = "https://honeywell.com"
+removed_reason = "duplicate: the same plant as companies/honeywell.toml (Honeywell (South Bend)), found by the consistency check"
+removed = "2026-11-14"
 osha_id = "1090958"
 
 sector = "Vehicles & RVs"

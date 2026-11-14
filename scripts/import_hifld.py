@@ -124,6 +124,8 @@ def main():
         if (a.get("county") or "").upper() not in COUNTIES:
             skipped_county += 1; continue
         name = re.sub(r"\(h ?q\)", "(HQ)", titlecase(a["name"]), flags=re.I); street, city, state, zip_ = parse_address(a["facility_address"] or "")
+        if (a.get("county") or "").upper() == "ST JOSEPH" and (state or "").upper() not in ("IN", "INDIANA"):
+            skipped_county += 1; continue   # St. Joseph County exists in both states; only Indiana's (South Bend) is in the region
         if not city:
             continue
         dom = domain(a.get("web"))

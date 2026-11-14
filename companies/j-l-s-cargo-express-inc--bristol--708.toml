@@ -9,6 +9,8 @@ address = "11550 Harter Drive, Middlebury, IN"
 lat = 41.74406
 lon = -85.69060
 website = "https://cargoexpress.com"
+removed_reason = "duplicate: Cargo Express is a Novae brand built at 11550 Harter Drive, Middlebury, already on the map as companies/pace-american-inc--middlebury--11550.toml (Novae LLC), found by the consistency check"
+removed = "2026-11-14"
 verified = "2026-11-13"
 status_note = "Moved from 708 South Division Street, Bristol, IN 46507; found in a verification check (2026-11-13): Cargo Express Trailers operates (2026 site) from 11550 Harter Dr, Middlebury; nothing found for 708 S Division St."
 

@@ -9,6 +9,8 @@ address = "1 Industrial Drive, Constantine, MI 49042"
 lat = 41.83805
 lon = -85.65599
 website = "https://fibreconverters.com"
+removed_reason = "outside the region: St. Joseph County, Michigan, which the HIFLD import took for St. Joseph County, Indiana (same county name); found by the consistency check"
+removed = "2026-11-14"
 verified_note = "Fibre Converters, Inc. posted a production worker job in Constantine, MI in January 2026. Source: https://www.career.com/job/fibre-converters-inc/production-worker-2nd-shift/j202512141625071231492"
 verified = "2026-11-13"
 

@@ -9,6 +9,8 @@ address = "485 Florence Road, Constantine, MI 49042"
 lat = 41.83867
 lon = -85.65955
 website = "https://vaupell.com"
+removed_reason = "outside the region: St. Joseph County, Michigan, which the HIFLD import took for St. Joseph County, Indiana (same county name); found by the consistency check"
+removed = "2026-11-14"
 verified_note = "Vaupell Industrial posted molding machine operator jobs in Constantine in May 2026; FDA record gives 485 Florence Road. Source: https://panjiva.com/Vaupell-Midwest-Molding-Tooling/2152443"
 verified = "2026-11-13"
 

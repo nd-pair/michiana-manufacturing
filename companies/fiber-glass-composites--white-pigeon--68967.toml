@@ -8,6 +8,8 @@ state = "MI"
 address = "68967 Union Street, White Pigeon, MI 49099"
 lat = 41.79481
 lon = -85.75466
+removed_reason = "outside the region: St. Joseph County, Michigan, which the HIFLD import took for St. Joseph County, Indiana (same county name); found by the consistency check"
+removed = "2026-11-14"
 
 sector = "Materials & composites"
 products = ["Mineral Wool Manufacturing"]

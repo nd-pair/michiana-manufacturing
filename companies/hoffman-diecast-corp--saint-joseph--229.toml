@@ -9,6 +9,8 @@ address = "229 Kerth Street, Saint Joseph, MI 49085"
 lat = 42.07485
 lon = -86.49730
 website = "https://hoffmanndc.com"
+removed_reason = "duplicate: the same plant as companies/hoffmann-die-cast--st-joseph--229.toml (Hoffmann Die Cast), found by the consistency check"
+removed = "2026-11-14"
 verified_note = "Hoffmann Die Cast LLC's live site (copyright 2022) gives 229 Kerth Street as its single 100,000 sq ft facility, and BBB lists the St. Joseph division at that address. Source: https://hoffmanndc.com"
 verified = "2026-11-13"
 

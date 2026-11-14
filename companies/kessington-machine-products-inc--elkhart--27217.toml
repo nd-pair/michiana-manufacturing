@@ -9,6 +9,8 @@ address = "1020 County Road 6 West, Elkhart, IN"
 lat = 41.72440
 lon = -85.99523
 website = "https://kessington.com"
+removed_reason = "duplicate: the same plant as companies/kessington.toml (Kessington Machined Products), found by the consistency check"
+removed = "2026-11-14"
 verified = "2026-11-13"
 status_note = "Moved from 27217 County Road 6, Elkhart, IN 46514; found in a verification check (2026-11-13): Kessington operates at 1020 County Road 6 W (it closed in 2024 and was reopened by Collective Manufacturing); no source places it at 27217 County Road 6."
 

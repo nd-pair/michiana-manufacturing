@@ -9,6 +9,8 @@ address = "52275 State Road 933 North, South Bend, IN 46637"
 lat = 41.73397
 lon = -86.25105
 website = "https://jmsplasticsinc.com"
+removed_reason = "duplicate: the same plant as companies/jms-engineered-plastics--south-bend--52275.toml (JMS Engineered Plastics), found by the consistency check"
+removed = "2026-11-14"
 unconfirmed_reason = "The company operates in the region, but no current source confirms a plant at this address (verification check, November 2026): Directories list JMS Engineered Plastics at 52275 SR 933 but MapQuest marks it closed, the domain does not resolve, and no dated evidence of operation was found."
 unconfirmed = "2026-11-14"
 
