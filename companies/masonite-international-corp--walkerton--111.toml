@@ -9,6 +9,9 @@ address = "111 Muskin Drive, Walkerton, IN 46574"
 lat = 41.46889
 lon = -86.49141
 website = "https://masonite.com"
+closed_source = "https://www.in.gov/dwd/warn-notices/current-warn-notices/"
+closed_note = "Owens Corning gave notice on 2026-07-21 that it would close this plant on 2026-09-19, with 130 workers (Indiana WARN notice; Owens Corning acquired Masonite in 2024; the notice's industry, wood window and door manufacturing, is Masonite's door plant at 111 Muskin Drive)."
+closed = "2026-09-19"
 osha_id = "1454171"
 
 sector = "Wood, paper & furniture"

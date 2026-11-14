@@ -94,7 +94,8 @@ and a `closed_note` with the source instead. The build leaves the entry off the 
 importers keep skipping it. To find candidates, run `python3 scripts/check_closed.py`: it checks every
 company website (domain gone, parked, redirected to another company) and writes a review list to
 `data/.closure-review.csv`, which is not committed. It adds two public-record signals: Indiana WARN
-closing notices matched to a plant whose closing date has passed (`scripts/pull_warn.py`, monthly,
+closing notices matched to a plant whose closing date has passed (`scripts/pull_warn.py`, monthly; a
+notice filed under a new owner's name is matched by hand in `data/warn_matches.toml`,
 `data/warn.json`; Michigan publishes no table), and plants that filed with OSHA one year but not the
 next. A dead website is a lead, not proof; confirm each
 closure from a dated source before marking it. Sample audits of the imported records, with every finding and its source, are in

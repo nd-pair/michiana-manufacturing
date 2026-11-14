@@ -1,6 +1,6 @@
 {
 "source": "Indiana Department of Workforce Development, WARN notices (https://www.in.gov/dwd/warn-notices/current-warn-notices/)",
-"pulled": "2026-11-13",
+"pulled": "2026-11-14",
 "since": "2016-01-01",
 "covers": "Indiana counties of the region; Michigan notices are not published as a table",
 "notices": [
@@ -14,7 +14,8 @@
 "industry": "Motor Vehicle Transmission and Power Train Parts Manufacturing",
 "type": "CL",
 "type_name": "closing",
-"match": ""
+"match": "",
+"match_basis": ""
 },
 {
 "company": "Owens Corning",
@@ -26,7 +27,8 @@
 "industry": "Wood Window and Door Manufacturing",
 "type": "CL",
 "type_name": "closing",
-"match": ""
+"match": "masonite-international-corp-walkerton-111",
+"match_basis": "by hand: Owens Corning acquired Masonite in 2024; the notice's industry, wood window and door manufacturing, is Masonite's door plant at 111 Muskin Drive"
 },
 {
 "company": "Grouper Acquisition Company, LLC, dba Shiloh Industries, Inc",
@@ -38,7 +40,8 @@
 "industry": "Motor Vehicle Metal Stamping",
 "type": "CL",
 "type_name": "closing",
-"match": "benteler-automotive-corp-goshen-910"
+"match": "benteler-automotive-corp-goshen-910",
+"match_basis": "name"
 },
 {
 "company": "Dalton Corporation",
@@ -50,7 +53,8 @@
 "industry": "Manufacturing",
 "type": "CL",
 "type_name": "closing",
-"match": "dalton-corp-warsaw-3755"
+"match": "dalton-corp-warsaw-3755",
+"match_basis": "name"
 },
 {
 "company": "JMS Engineered Plastics, Inc.",
@@ -62,7 +66,8 @@
 "industry": "All Other Plastics Product Manufacturing",
 "type": "LO",
 "type_name": "layoff",
-"match": "jms-engineered-plastics-south-bend-52275"
+"match": "jms-engineered-plastics-south-bend-52275",
+"match_basis": "name"
 },
 {
 "company": "Freudenberg Residential Filtration Technologies, Inc.",
@@ -74,7 +79,8 @@
 "industry": "Manufacturing",
 "type": "CL",
 "type_name": "closing",
-"match": ""
+"match": "",
+"match_basis": ""
 },
 {
 "company": "Cruiser RV",
@@ -86,7 +92,8 @@
 "industry": "Motor Vehicle Body and Trailer Manufacturing",
 "type": "CL",
 "type_name": "closing",
-"match": ""
+"match": "",
+"match_basis": ""
 },
 {
 "company": "Heartland Recreational Vehicles, LLC",
@@ -98,7 +105,8 @@
 "industry": "Travel Trailer and Camper Manufacturing",
 "type": "CL",
 "type_name": "closing",
-"match": "heartland-recreational-vehicles-llc-elkhart-1001"
+"match": "heartland-recreational-vehicles-llc-elkhart-1001",
+"match_basis": "name"
 },
 {
 "company": "Forest River Inc.",
@@ -110,7 +118,8 @@
 "industry": "Automobile and Light Duty Motor Vehicle Manufacturing",
 "type": "CL",
 "type_name": "closing",
-"match": "forestriver"
+"match": "forestriver",
+"match_basis": "name"
 },
 {
 "company": "Forest River Inc.",
@@ -122,7 +131,8 @@
 "industry": "Automobile and Light Duty Motor Vehicle Manufacturing",
 "type": "CL",
 "type_name": "closing",
-"match": "forestriver"
+"match": "forestriver",
+"match_basis": "name"
 },
 {
 "company": "Dwyer Instruments, LLC.",
@@ -134,7 +144,8 @@
 "industry": "Instruments and Related Products Manufacturing for Measuring,\n        Displaying, and Controlling Industrial Process Variables",
 "type": "CL",
 "type_name": "closing",
-"match": "dwyer-instruments-inc-wakarusa-55"
+"match": "dwyer-instruments-inc-wakarusa-55",
+"match_basis": "name"
 },
 {
 "company": "Exo-s",
@@ -146,7 +157,8 @@
 "industry": "All Other Plastics Product Manufacturing",
 "type": "LO",
 "type_name": "layoff",
-"match": "exo-s-us-llc-howe-6505"
+"match": "exo-s-us-llc-howe-6505",
+"match_basis": "name"
 },
 {
 "company": "Brinco",
@@ -158,7 +170,8 @@
 "industry": "Fabricated Structural Metal Manufacturing",
 "type": "LO",
 "type_name": "layoff",
-"match": ""
+"match": "",
+"match_basis": ""
 },
 {
 "company": "LSC Communications, Print Solutions",
@@ -170,7 +183,8 @@
 "industry": "Commercial Printing (except Screen and Books)",
 "type": "CL",
 "type_name": "closing",
-"match": ""
+"match": "",
+"match_basis": ""
 },
 {
 "company": "Stealth Enterprises, LLC",
@@ -182,7 +196,8 @@
 "industry": "All Other Miscellaneous Manufacturing",
 "type": "LO",
 "type_name": "layoff",
-"match": ""
+"match": "",
+"match_basis": ""
 },
 {
 "company": "Masonite Corporation",
@@ -194,7 +209,8 @@
 "industry": "All Other Miscellaneous Manufacturing",
 "type": "LO",
 "type_name": "layoff",
-"match": "masonite-international-corp-walkerton-111"
+"match": "masonite-international-corp-walkerton-111",
+"match_basis": "name"
 },
 {
 "company": "KGP Telecommunications, LLC",
@@ -206,7 +222,8 @@
 "industry": "All Other Miscellaneous Manufacturing",
 "type": "LO",
 "type_name": "layoff",
-"match": ""
+"match": "",
+"match_basis": ""
 },
 {
 "company": "Keystone RV Company",
@@ -218,7 +235,8 @@
 "industry": "Motor Home Manufacturing",
 "type": "CL",
 "type_name": "closing",
-"match": ""
+"match": "",
+"match_basis": ""
 },
 {
 "company": "Dometic Corporation",
@@ -230,7 +248,8 @@
 "industry": "Air-Conditioning and Warm Air Heating Equipment and Commercial and\n        Industrial Refrigeration Equipment Manufacturing",
 "type": "LO",
 "type_name": "layoff",
-"match": ""
+"match": "",
+"match_basis": ""
 },
 {
 "company": "Hubbell/RACO",
@@ -242,7 +261,8 @@
 "industry": "All Other Miscellaneous Electrical Equipment and Component Manufacturing",
 "type": "CL",
 "type_name": "closing",
-"match": ""
+"match": "",
+"match_basis": ""
 },
 {
 "company": "Dana Light Axle Products, LLC",
@@ -254,7 +274,8 @@
 "industry": "Vehicular Lighting Equipment Manufacturing",
 "type": "CL",
 "type_name": "closing",
-"match": ""
+"match": "",
+"match_basis": ""
 },
 {
 "company": "Vibracoustic",
@@ -266,7 +287,8 @@
 "industry": "Rubber Product Manufacturing for Mechanical Use",
 "type": "CL",
 "type_name": "closing",
-"match": ""
+"match": "",
+"match_basis": ""
 },
 {
 "company": "Wabash Valley",
@@ -278,7 +300,8 @@
 "industry": "Furniture and Related Product Manufacturing",
 "type": "CL",
 "type_name": "closing",
-"match": "wabash-valley-mfg-inc-silver-lake-505"
+"match": "wabash-valley-mfg-inc-silver-lake-505",
+"match_basis": "name"
 },
 {
 "company": "Manchester Tank & Equipment",
@@ -290,7 +313,8 @@
 "industry": "Metal Tank (Heavy Gauge) Manufacturing",
 "type": "CL",
 "type_name": "closing",
-"match": ""
+"match": "",
+"match_basis": ""
 },
 {
 "company": "Tenneco (formerly Federal Mogul)",
@@ -302,7 +326,8 @@
 "industry": "Motor Vehicle Transmission and Power Train Parts Manufacturing",
 "type": "LO",
 "type_name": "layoff",
-"match": ""
+"match": "",
+"match_basis": ""
 },
 {
 "company": "Howmet Aerospace La Porte",
@@ -314,7 +339,8 @@
 "industry": "Nonferrous Metal (except Aluminum) Smelting and Refining",
 "type": "LO",
 "type_name": "layoff",
-"match": ""
+"match": "",
+"match_basis": ""
 },
 {
 "company": "LSC Communications US, LLC",
@@ -326,7 +352,8 @@
 "industry": "Commercial Gravure Printing",
 "type": "CL",
 "type_name": "closing",
-"match": ""
+"match": "",
+"match_basis": ""
 },
 {
 "company": "Universal Bearings, LLC",
@@ -338,7 +365,8 @@
 "industry": "All Other Transportation Equipment Manufacturing",
 "type": "LO",
 "type_name": "layoff",
-"match": "universal-bearings-inc-bremen-431"
+"match": "universal-bearings-inc-bremen-431",
+"match_basis": "name"
 },
 {
 "company": "ArcelorMittal USA LLC dba I/N Tek LP",
@@ -350,7 +378,8 @@
 "industry": "Electroplating, Plating, Polishing, Anodizing, and Coloring",
 "type": "LO",
 "type_name": "layoff",
-"match": ""
+"match": "",
+"match_basis": ""
 },
 {
 "company": "SMC Acquisition Corp",
@@ -362,7 +391,8 @@
 "industry": "Travel Trailer and Camper Manufacturing",
 "type": "LO",
 "type_name": "layoff",
-"match": ""
+"match": "",
+"match_basis": ""
 },
 {
 "company": "Leggett & Platt dba No-Sag Products",
@@ -374,7 +404,8 @@
 "industry": "Spring Manufacturing",
 "type": "LO",
 "type_name": "layoff",
-"match": "no-sag-products-leggett-platt-kendallville-2225"
+"match": "no-sag-products-leggett-platt-kendallville-2225",
+"match_basis": "name"
 },
 {
 "company": "Polaris Boats, LLC",
@@ -386,7 +417,8 @@
 "industry": "Ship Building and Repairing/td>",
 "type": "CL",
 "type_name": "closing",
-"match": ""
+"match": "",
+"match_basis": ""
 },
 {
 "company": "Hendrickson",
@@ -398,7 +430,8 @@
 "industry": "Fabricated Metal Product Manufacturing",
 "type": "CL",
 "type_name": "closing",
-"match": ""
+"match": "",
+"match_basis": ""
 },
 {
 "company": "PSI Molded Plastics",
@@ -410,7 +443,8 @@
 "industry": "Plastics and Rubber Industry Machinery Manufacturing/td>",
 "type": "LO",
 "type_name": "layoff",
-"match": "psi-molded-plastics-inc-south-bend-3615"
+"match": "psi-molded-plastics-inc-south-bend-3615",
+"match_basis": "name"
 },
 {
 "company": "Benteler",
@@ -422,7 +456,8 @@
 "industry": "Motor Vehicle Metal Stamping",
 "type": "LO",
 "type_name": "layoff",
-"match": ""
+"match": "",
+"match_basis": ""
 },
 {
 "company": "Merchants Metals, LLC",
@@ -434,7 +469,8 @@
 "industry": "Other Fabricated Wire Product Manufacturing",
 "type": "CL",
 "type_name": "closing",
-"match": "merchants-metals-inc-midwest-div-new-paris-71347"
+"match": "merchants-metals-inc-midwest-div-new-paris-71347",
+"match_basis": "name"
 },
 {
 "company": "Winona PVD Coatings LLC",
@@ -446,7 +482,8 @@
 "industry": "Metal Coating, Engraving (except Jewelry and Silverware), and Allied\n        Services to Manufacturers",
 "type": "CL",
 "type_name": "closing",
-"match": ""
+"match": "",
+"match_basis": ""
 },
 {
 "company": "HOYA Optical Labs of America, Inc.",
@@ -458,7 +495,8 @@
 "industry": "Opthalmic Goods Manufacturing",
 "type": "CL",
 "type_name": "closing",
-"match": ""
+"match": "",
+"match_basis": ""
 },
 {
 "company": "KGP Telecommunications, LLC",
@@ -470,7 +508,8 @@
 "industry": "All Other Miscellaneous Manufacturing",
 "type": "LO",
 "type_name": "layoff",
-"match": ""
+"match": "",
+"match_basis": ""
 },
 {
 "company": "CTS Corp.",
@@ -482,7 +521,8 @@
 "industry": "Electronic Resistor Manufacturing",
 "type": "CL",
 "type_name": "closing",
-"match": "cts"
+"match": "cts",
+"match_basis": "name"
 },
 {
 "company": "Koontz-Wagner Custom Controls Holdings, LLC",
@@ -494,7 +534,8 @@
 "industry": "Prefabricated Metal Building and Component Manufacturing",
 "type": "CL",
 "type_name": "closing",
-"match": ""
+"match": "",
+"match_basis": ""
 },
 {
 "company": "Diversified Machine Bristol LLC",
@@ -506,7 +547,8 @@
 "industry": "Nonferrous Metal Die-Casting Foundries",
 "type": "CL",
 "type_name": "closing",
-"match": "diversified-machine-inc-bristol-bristol-51650"
+"match": "diversified-machine-inc-bristol-bristol-51650",
+"match_basis": "name"
 },
 {
 "company": "New Flyer",
@@ -518,7 +560,8 @@
 "industry": "Transit bus and motor coach manufacturer and parts distributor.",
 "type": "CL",
 "type_name": "closing",
-"match": ""
+"match": "",
+"match_basis": ""
 },
 {
 "company": "Harman International Industries",
@@ -530,7 +573,8 @@
 "industry": "Audio and Video Equipment Manufacturing",
 "type": "CL",
 "type_name": "closing",
-"match": ""
+"match": "",
+"match_basis": ""
 },
 {
 "company": "Del Monte Foods",
@@ -542,7 +586,8 @@
 "industry": "Fruit and vegetable canning",
 "type": "CL",
 "type_name": "closing",
-"match": "del-monte-foods-co-plymouth-506"
+"match": "del-monte-foods-co-plymouth-506",
+"match_basis": "name"
 },
 {
 "company": "Bay Valley Foods LLC, Tree House Foods Occupations Affected",
@@ -554,7 +599,8 @@
 "industry": "Leading provider of shelf stable foods",
 "type": "CL",
 "type_name": "closing",
-"match": "bay-valley-foods-llc-plymouth-1430"
+"match": "bay-valley-foods-llc-plymouth-1430",
+"match_basis": "name"
 },
 {
 "company": "AM General",
@@ -566,7 +612,8 @@
 "industry": "Motor and Generator Manufacturing",
 "type": "LO",
 "type_name": "layoff",
-"match": ""
+"match": "",
+"match_basis": ""
 },
 {
 "company": "Cooper-Standard Automotive",
@@ -578,7 +625,8 @@
 "industry": "Automotive parts manufacturing",
 "type": "CL",
 "type_name": "closing",
-"match": ""
+"match": "",
+"match_basis": ""
 },
 {
 "company": "Harman International Industries",
@@ -590,7 +638,8 @@
 "industry": "Audio and Video Equipment Manufacturing",
 "type": "LO",
 "type_name": "layoff",
-"match": ""
+"match": "",
+"match_basis": ""
 },
 {
 "company": "TRW Automotive U. S. LLC",
@@ -602,7 +651,8 @@
 "industry": "Motor Vehicle Steering and Suspension Components (except Spring)\n        Manufacturing",
 "type": "LO",
 "type_name": "layoff",
-"match": ""
+"match": "",
+"match_basis": ""
 },
 {
 "company": "Goshen Coach",
@@ -614,7 +664,8 @@
 "industry": "Motor Vehicle Body Manufacturing",
 "type": "CL",
 "type_name": "closing",
-"match": "goshen-coach-elkhart-25161"
+"match": "goshen-coach-elkhart-25161",
+"match_basis": "name"
 },
 {
 "company": "Evergreen Recreational Vehicles",
@@ -626,7 +677,8 @@
 "industry": "Motor Home Manufacturing",
 "type": "CL",
 "type_name": "closing",
-"match": ""
+"match": "",
+"match_basis": ""
 },
 {
 "company": "Diversified Machine Bristol LLC",
@@ -638,7 +690,8 @@
 "industry": "Nonferrous Metal Die-Casting Foundries",
 "type": "LO",
 "type_name": "layoff",
-"match": "diversified-machine-inc-bristol-bristol-51650"
+"match": "diversified-machine-inc-bristol-bristol-51650",
+"match_basis": "name"
 },
 {
 "company": "Silgan Containers",
@@ -650,7 +703,8 @@
 "industry": "Food Product Machinery Manufacturing",
 "type": "CL",
 "type_name": "closing",
-"match": ""
+"match": "",
+"match_basis": ""
 }
 ]
 }

@@ -8,7 +8,9 @@ Employers with 100 or more workers must give 60 days' notice of a plant closing 
 the federal WARN Act; Indiana DWD publishes every notice it receives, back to 2008, in one table
 (company, city, affected workers, notice date, layoff or closing date, NAICS, notice type). This keeps
 the notices since 2016 from cities in the region's Indiana counties, and matches each to a company file
-in the same city by normalized name (or its first three words) when exactly one file fits; notices
+in the same city by normalized name (or its first three words) when exactly one file fits. A notice
+filed under a new owner's name (Owens Corning for the former Masonite plant in Walkerton) is matched
+by hand in data/warn_matches.toml; matching by industry code instead linked the wrong plants. Notices
 from outside manufacturing (NAICS 31-33) are left out. A closing notice (type CL) is a dated source for that plant's closure. When its closing date has
 passed, the plant was imported (HIFLD or OSHA, not a hand-written file), and the plant has not filed
 with OSHA for a later year, the file is marked closed with the notice as its source; listing a plant
@@ -58,6 +60,7 @@ def main():
         n, city = norm(c["name"]), (c.get("city") or "").strip().lower()
         for k in {(n, city), (" ".join(n.split()[:3]), city), (" ".join(n.split()[:2]), city)}:
             idx.setdefault(k, set()).add(c["_id"])
+    manual = tomllib.load(open(P("data", "warn_matches.toml"), "rb")).get("match", []) if os.path.exists(P("data", "warn_matches.toml")) else []
     def match(name, city):
         """The one company file in this city with this name; None when there is none or several (a person picks)."""
         n, city = norm(name), city.strip().lower()
@@ -79,9 +82,13 @@ def main():
             dba = re.search(r"(?i)\b(?:dba|d/b/a)\s+(.+)$", company)
             cid = dba and match(dba[1], city)
         company = re.sub(r"<[^>]*$|/td>$", "", company).strip()
+        basis = "name" if cid else ""
+        for m in manual:   # notices filed under a new owner's name, matched by hand in data/warn_matches.toml
+            if m["company"] == company and m["city"] == city and str(m["notice_date"]) == nd:
+                cid, basis = m["file"], "by hand: " + m.get("note", "")
         notices.append({"company": company, "city": city, "workers": int(workers) if workers.isdigit() else None,
                         "notice_date": nd, "effective": date(effective), "naics": naics, "industry": industry,
-                        "type": kind, "type_name": TYPES.get(kind, kind), "match": cid or ""})
+                        "type": kind, "type_name": TYPES.get(kind, kind), "match": cid or "", "match_basis": basis})
     notices.sort(key=lambda n: n["notice_date"], reverse=True)
     json.dump({"source": "Indiana Department of Workforce Development, WARN notices (%s)" % URL, "pulled": datetime.date.today().isoformat(),
                "since": SINCE, "covers": "Indiana counties of the region; Michigan notices are not published as a table", "notices": notices},
@@ -103,8 +110,9 @@ def main():
             continue
         path = company_path(c["_id"])
         set_field(path, "closed", eff)
-        set_field(path, "closed_note", "%s gave notice on %s that it would close this plant on %s%s (Indiana WARN notice)."
-                  % (n["company"], n["notice_date"], eff, ", with %d workers" % n["workers"] if n.get("workers") else ""))
+        set_field(path, "closed_note", "%s gave notice on %s that it would close this plant on %s%s (Indiana WARN notice%s)."
+                  % (n["company"], n["notice_date"], eff, ", with %d workers" % n["workers"] if n.get("workers") else "",
+                     "; " + n["match_basis"][9:] if n.get("match_basis", "").startswith("by hand: ") else ""))
         set_field(path, "closed_source", URL)
         closed_now.append(c["name"])
     if closed_now:

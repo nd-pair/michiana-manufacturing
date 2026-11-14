@@ -1,0 +1,10 @@
+# WARN notices filed under a name that differs from the company file, matched by hand
+# (scripts/pull_warn.py). One [[match]] per notice: the notice's company, city and notice date as
+# Indiana DWD lists them, the company file's id, and a note on why they are the same plant.
+
+[[match]]
+company = "Owens Corning"
+city = "Walkerton"
+notice_date = "2026-07-21"
+file = "masonite-international-corp-walkerton-111"
+note = "Owens Corning acquired Masonite in 2024; the notice's industry, wood window and door manufacturing, is Masonite's door plant at 111 Muskin Drive"
