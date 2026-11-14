@@ -8,7 +8,7 @@ const TAGS=[...new Set(C.flatMap(c=>c.tags))].sort((a,b)=>a.localeCompare(b));
 /* multi-site companies: c.group is shared by all plants of one company; c.parent is its display name */
 const GROUPS={};for(const c of C)(GROUPS[c.group]=GROUPS[c.group]||{id:c.group,name:c.parent||c.name,sites:[]}).sites.push(c);
 const groupOf=c=>GROUPS[c.group];
-const nGroups=list=>new Set(list.map(c=>c.group)).size;
+const nGroups=list=>new Set(list.filter(c=>c.mfg).map(c=>c.group)).size;   /* counts manufacturers only: R&D, software, investors and universities are on the map but not counted */
 const reduced=matchMedia("(prefers-reduced-motion: reduce)").matches;
 const esc=s=>String(s??"").replace(/[&<>"]/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[m]));
 const fmtK=v=>v>=10000?Math.round(v/1000)+"k":v>=1000?(v/1000).toFixed(1)+"k":String(v);
@@ -320,7 +320,7 @@ function renderFederal(){const rows=C.filter(visible),withFed=rows.filter(c=>c.f
   document.getElementById("federal").innerHTML=`<p class="mm-fedsum"><b>${nGroups(withFed)}</b> of the ${nGroups(rows)} companies shown hold federal contracts or grants since FY2016, <b>${fmtUSD(total)}</b> in all; <b>${nGroups(sbirN)}</b> hold SBIR/STTR awards${patN.length?`; <b>${nGroups(patN)}</b> hold patents granted since 2015`:""}.</p>`
     +HH("fed",[{key:"n",label:"cos",title:"number of companies"},{key:"e",label:"$",title:"federal dollars"}],"by sector (companies shown)")
     +bySec.map(({label:s,e:v,n})=>bar("sec",esc(s),v,smax,0,0,st.sec.has(s),`data-sec="${esc(s)}"`,SCOL[s],fmtUSD(v)).replace(`<span class="n">${v}</span>`,`<span class="n">${n}</span>`)).join("")
-    +`<div class="mm-hh" style="margin-top:8px"><span>region-wide, by awarding agency (all recipients)</span><span></span><span>$</span></div>`
+    +`<div class="mm-hh" style="margin-top:8px"><span>region-wide, by awarding agency (all recipients, work performed here)</span><span></span><span>$</span></div>`
     +ag.map(a=>`<div class="mm-bar ag" style="cursor:default"><span class="lab"><span>${esc(a.name)}</span><span class="trk"><span class="fil" style="width:${Math.round(100*(a.contracts+a.grants)/amax)}%;background:var(--accent-2)"></span></span></span><span class="n"></span><span class="e">${fmtUSD(a.contracts+a.grants)}</span></div>`).join("")}
 function renderCaps(){const base=C.filter(visibleExcept("cap"));
   const rows=DATA.capabilities.map(k=>{const l=base.filter(c=>c.caps.includes(k));const big=l.slice().sort((a,b)=>(b.emp||0)-(a.emp||0))[0];return {label:k,n:nGroups(l),e:empSum(l),big}}).sort(sorter("cap"));
@@ -347,7 +347,7 @@ function renderQcew(){const el=document.getElementById("qcew");document.querySel
   for(const e of ends)svg+=`<text class="lbl" x="${e.x+6}" y="${e.y+3}" fill="${e.s.color}">${esc(e.s.name)} ${st.qs==="idx"?Math.round(e.v):fmtK(Math.round(e.v))}</text>`;
   el.innerHTML=svg+`</svg>`;
   document.getElementById("qcewnote").textContent=`BLS QCEW, private, ${y0}–${y1}${st.qv==="sector"?" · lower bound, withheld cells":""}${st.qs==="idx"?" · "+y0+" = 100":""}`}
-/* ---------- physical AI prosperity index: every part against the U.S. (= 100) ---------- */
+/* ---------- humanoid deployment benefit index: every part against the U.S. (= 100) ---------- */
 const GRADES=[["A",150],["B",125],["C",105],["D",95],["E",80],["F",60],["G",-Infinity]],grade=v=>v==null?null:GRADES.find(([,t])=>v>=t)[0];
 const BAND=["far ahead of the U.S.","well ahead of the U.S.","ahead of the U.S.","about the U.S. level","behind the U.S.","well behind the U.S.","far behind the U.S."],
   gbadge=v=>{const g=grade(v);if(!g)return "";const t=`${Math.round(v)}: ${BAND[GRADES.findIndex(x=>x[0]===g)]} (U.S. = 100)`;return `<span class="mm-gsw g${g}" role="img" aria-label="${t}" title="${t}"></span>`};
@@ -389,8 +389,8 @@ function renderOpportunity(){const el=document.getElementById("opp"),O=DATA.oppo
   const phist=p=>Object.entries(p.history||{}).concat(prog.filter(([,v])=>v.pillars&&v.pillars[p.id]!=null).map(([m,v])=>[m,v.pillars[p.id]]));
   const xhist=(p,i)=>Object.entries(p.parts[i].history||{}).concat(prog.filter(([,v])=>v.parts&&v.parts[p.id]&&v.parts[p.id][i]!=null).map(([m,v])=>[m,v.parts[p.id][i]]));
   const ihist=prog.map(([m,v])=>[m,v.index]);
-  el.innerHTML=`<div class="mm-ohead"><div class="mm-oidx"><div class="k">Physical AI Prosperity Index</div><div class="v">${O.index==null?"–":Math.round(O.index)} ${gbadge(O.index)}</div><div class="s">U.S. = 100 · ${ihist.length>1?histSpark(ihist,170,34)+" "+span(ihist):"tracked monthly from "+esc(monthName(Object.keys(HUM.progress||{})[0]||""))+"; the index needs every pillar, so its history starts there"}</div></div>
-    <p class="mm-fedsum">Where humanoid robots could make the region's manufacturers more competitive: taking on the hard, repetitive and hazardous work so the same or more people can make more complex, higher-mix products. Each pillar compares the region with the U.S.; the index is their geometric mean, so a weak pillar pulls it down, and <b>shared prosperity</b> (manufacturing jobs, pay and value added per job) is one of them: the index can only rise for good if workers gain too.</p></div>
+  el.innerHTML=`<div class="mm-ohead"><div class="mm-oidx"><div class="k">Humanoid Deployment Benefit Index</div><div class="v">${O.index==null?"–":Math.round(O.index)} ${gbadge(O.index)}</div><div class="s">U.S. = 100 · ${ihist.length>1?histSpark(ihist,170,34)+" "+span(ihist):"tracked monthly from "+esc(monthName(Object.keys(HUM.progress||{})[0]||""))+"; the index needs every pillar, so its history starts there"}</div></div>
+    <p class="mm-fedsum">Where humanoid robots could make the region's manufacturers more competitive: taking on the hard, repetitive and hazardous work so the same or more people can make more complex, higher-mix products. Each pillar compares the region with the U.S.; the index is their geometric mean, so a weak pillar pulls it down. It estimates the benefit of deploying humanoids, not whether workers gain: <b>jobs and pay</b> is one pillar, and the index can still rise while it falls.</p></div>
     <div class="mm-opills">${O.pillars.map(p=>`<div class="mm-opill"><div class="hd"><b>${esc(p.name)}</b>${bar(p.score)}</div><div class="w">${esc(p.what)}</div>
       ${(()=>{const hp=phist(p);return hp.filter(([,v])=>v!=null).length>1?`<div class="mm-ohist">${histSpark(hp,220,38)}<span class="mm-olab">${span(hp)}</span></div>`:`<div class="mm-ohist"><span class="mm-mut">history starts with monthly tracking</span></div>`})()}
       ${p.parts.map((x,i)=>`<div class="pt"><span>${esc(x.name)}${x.note?` <small class="mm-mut">${esc(x.note)}</small>`:""}</span>${histSpark(xhist(p,i),84,22)}<span class="nums">${fmt(x.local,x.unit)}${x.us!=null?` <small class="mm-mut">vs U.S. ${fmt(x.us,x.unit)}</small>`:""}${x.score!=null?` <b>${Math.round(x.score)}</b> ${gbadge(x.score)}`:""}</span></div>`).join("")}</div>`).join("")}</div>
@@ -409,7 +409,7 @@ function renderOccHelp(){const el=document.getElementById("occ-help"),O=DATA.opp
 /* ---------- region comparison: the same index for similar regions (scripts/compare_regions.py) ---------- */
 function renderComparison(){const el=document.getElementById("cmp"),X=DATA.comparison;if(!el)return;
   if(!X||!X.regions){document.getElementById("comparison").hidden=true;return}
-  const P=[["task","Task fit"],["highmix","High-mix"],["labor","Labor"],["readiness","Readiness"],["supply","Supply"],["prosperity","Prosperity"]];
+  const P=[["task","Task fit"],["highmix","High-mix"],["labor","Labor"],["readiness","Readiness"],["supply","Supply"],["prosperity","Jobs & pay"]];
   const full=Object.fromEntries(((DATA.opportunity||{}).pillars||[]).map(p=>[p.id,p.name]));
   const rank=Object.fromEntries((X.ranking||[]).map((n,i)=>[n,i+1]));
   const rows=Object.entries(X.regions).map(([n,v])=>({name:n,university:v.university,index:v.index,rank:rank[n]??null,home:v.home,cls:v.home?"mm-home":"",...Object.fromEntries(P.map(([k])=>[k,v.pillars[k]]))}));
@@ -417,16 +417,16 @@ function renderComparison(){const el=document.getElementById("cmp"),X=DATA.compa
   const sc=v=>v==null?"–":`${Math.round(v)}${gbadge(v)}`;
   const months=Object.keys(X.history||{}).sort(),I=X.inputs||{};
   document.getElementById("cmpnote").textContent=`${rows.length} regions · U.S. = 100 · updated ${X.updated||""}`;
-  el.innerHTML=`<p class="mm-fedsum">The Physical AI Prosperity Index for metro areas of similar size, each with a well-known research university, computed the same way and from the same public sources as the region's own index above. Michiana is highlighted.</p>
+  el.innerHTML=`<p class="mm-fedsum">The Humanoid Deployment Benefit Index for metro areas of similar size, each with a well-known research university, computed the same way and from the same public sources as the region's own index above. Michiana is highlighted.</p>
     ${sortTable("cmp",[{key:"rank",label:"#",num:true,cell:r=>r.rank??"–"},
       {key:"name",label:"Region",cell:r=>`<b>${esc(r.name)}</b><br><small class="mm-mut">${esc(r.university||"")}</small>`},
-      {key:"index",label:"Index",title:"Physical AI Prosperity Index",cell:r=>r.index==null?"–":`<span class="mm-ratio"><span class="trk"><span class="fil g${grade(r.index)}" style="width:${Math.min(100,100*r.index/max).toFixed(1)}%"></span><span class="one" style="left:${(100*100/max).toFixed(1)}%"></span></span><span class="v">${Math.round(r.index)}</span>${gbadge(r.index)}</span>`},
+      {key:"index",label:"Index",title:"Humanoid Deployment Benefit Index",cell:r=>r.index==null?"–":`<span class="mm-ratio"><span class="trk"><span class="fil g${grade(r.index)}" style="width:${Math.min(100,100*r.index/max).toFixed(1)}%"></span><span class="one" style="left:${(100*100/max).toFixed(1)}%"></span></span><span class="v">${Math.round(r.index)}</span>${gbadge(r.index)}</span>`},
       ...P.map(([k,l])=>({key:k,label:l,title:full[k]||l,num:true,cell:r=>sc(r[k])}))],rows)}
     <p class="mm-wnote">Each region is a set of counties (jobs, establishments, pay, unemployment, workforce age and turnover, value added) and the BLS metro areas that cover them (occupations). Sources: BLS QCEW ${esc(String(I.qcew_year||""))}, OEWS May ${esc(String(I.oews_year||""))}, LAUS (latest month), Census QWI, BEA ${esc(String(I.value_added_year||""))}. Michigan has published no Census workforce quarters since 2023, so Ann Arbor and Lansing score labor pressure on unemployment alone, and Michiana's Michigan counties are left out of its age and turnover figures. Local supply counts build-to-print parts with two or more establishments in their industries, so it tops out at 38 for every region. Recomputed every month${months.length?" since "+esc(monthName(months[0])):""}; the regions are listed in data/regions.toml.</p>`}
 /* ---------- humanoid coverage: which parts of a humanoid local companies could supply ---------- */
 const TIERS=["no supplier","one supplier","2–4 suppliers","5 or more"],tierOf=n=>n===0?0:n===1?1:n<5?2:3;
 function humStats(){const comp={};for(const k of Object.keys(HCOMP))comp[k]={all:new Map(),conf:new Map()};
-  for(const c of C)for(const k of c.hum){const g=groupOf(c),e=comp[k];if(!e)continue;if(!e.all.has(g.id))e.all.set(g.id,{g,c});if(c.hum_ev==="confirmed"&&!e.conf.has(g.id))e.conf.set(g.id,{g,c})}
+  for(const c of C)if(c.mfg)for(const k of c.hum){const g=groupOf(c),e=comp[k];if(!e)continue;if(!e.all.has(g.id))e.all.set(g.id,{g,c});if(c.hum_ev==="confirmed"&&!e.conf.has(g.id))e.conf.set(g.id,{g,c})}
   for(const [k,e] of Object.entries(comp)){e.n=e.all.size;e.nc=e.conf.size;e.na=HCOMP[k].build_to_print?e.n:e.nc;e.top=[...e.all.values()].sort((a,b)=>(empSum(b.g.sites)||0)-(empSum(a.g.sites)||0)).slice(0,3)}
   return comp}
 /* the figure: one path per body segment, left side drawn and right side mirrored */
@@ -457,13 +457,13 @@ function renderHumanoid(){const el=document.getElementById("hum");if(!el||!HUM.c
   /* a group's shade: the cost-weighted tier of its components */
   const gt={};for(const g of HUM.groups){const cs=HUM.components.filter(c=>c.group===g.id),w=cs.reduce((a,c)=>a+c.cost,0);gt[g.id]=Math.round(cs.reduce((a,c)=>a+c.cost*tierOf(n(c.id)),0)/(w||1))}
   const share=(f,key)=>HUM.components.filter(c=>f(key==="avail"?S[c.id].na:S[c.id].n)).reduce((a,c)=>a+c.cost,0);
-  const gaps=HUM.components.filter(c=>!S[c.id].n),sup=new Set(C.filter(c=>c.hum.length).map(c=>groupOf(c).id)),supc=new Set(C.filter(c=>c.hum.length&&c.hum_ev==="confirmed").map(c=>groupOf(c).id));
+  const gaps=HUM.components.filter(c=>!S[c.id].n),sup=new Set(C.filter(c=>c.mfg&&c.hum.length).map(c=>groupOf(c).id)),supc=new Set(C.filter(c=>c.mfg&&c.hum.length&&c.hum_ev==="confirmed").map(c=>groupOf(c).id));
   const fy=Object.entries(HUM.funding||{}).filter(([y])=>+y>=2016),ftot=fy.reduce((a,[,v])=>a+v.amount,0),fmax=Math.max(1,...fy.map(([,v])=>v.amount));
   const prog=Object.entries(HUM.progress||{}),p0=prog[0];
   const tiles=`<div class="mm-htiles">
     <div class="mm-htile"><div class="k">Related local capability</div><div class="v">${share(x=>x>=2,"all")}%</div><div class="s">of the cost has two or more local companies in a related line of work; ${share(x=>x===1,"all")}% has one${gaps.length?`; gap: ${esc(gaps.map(c=>c.name.split(" (")[0].toLowerCase()).join(", "))}`:""}</div></div>
     <div class="mm-htile"><div class="k">Available now</div><div class="v">${share(x=>x>=2,"avail")}%</div><div class="s">of the cost has two or more local suppliers today: contract shops for build-to-print parts, confirmed makers for the rest</div></div>
-    <div class="mm-htile"><div class="k">Companies</div><div class="v">${sup.size}</div><div class="s">with a related capability; ${supc.size} confirmed for a humanoid part</div></div>
+    <div class="mm-htile"><div class="k">Manufacturers</div><div class="v">${sup.size}</div><div class="s">with a related capability; ${supc.size} confirmed for a humanoid part</div></div>
     <div class="mm-htile"><div class="k">Robotics-related awards since 2016</div><div class="v">${fmtUSD(ftot)}</div><div class="mm-hbars">${fy.map(([y,v])=>`<i title="${y}: ${fmtUSD(v.amount)}, ${v.n} award${v.n===1?"":"s"}" style="height:${Math.max(2,Math.round(28*v.amount/fmax))}px"></i>`).join("")}</div><div class="s">federal awards of $250k+ and SBIR/STTR awards mentioning robots, actuators or sensors${fy.length?`, ${fy[0][0]}–${fy[fy.length-1][0]}`:""}</div></div>
     <div class="mm-htile"><div class="k">Tracking since</div><div class="v">${p0?esc(monthName(p0[0])):"–"}</div><div class="s">${prog.length>1?prog.map(([m,v])=>`${esc(monthName(m))}: ${v.available_two_plus??v.confirmed_two_plus}% available, ${v.two_plus}% related`).slice(-3).join("<br>"):"a snapshot is saved every month; the trend appears from the second month"}</div></div></div>`;
   const glist=HUM.groups.map(g=>{const cs=HUM.components.filter(c=>c.group===g.id),gp=cs.filter(c=>!n(c.id)).length,w=cs.reduce((a,c)=>a+c.cost,0);

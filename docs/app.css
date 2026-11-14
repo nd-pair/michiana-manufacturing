@@ -299,7 +299,7 @@
 .mm-app tr.mm-more .mm-pg:disabled{opacity:.35;cursor:default}
 .mm-app tr.mm-more .mm-lb{margin-left:18px}
 
-/* physical AI prosperity index panel */
+/* humanoid deployment benefit index panel */
 .mm-ohead{display:grid;grid-template-columns:minmax(180px,220px) minmax(0,1fr);gap:18px;align-items:start;margin-bottom:12px}
 @media (max-width:700px){.mm-ohead{grid-template-columns:1fr}}
 .mm-oidx{border:1px solid var(--line);border-radius:3px;padding:10px 12px}
