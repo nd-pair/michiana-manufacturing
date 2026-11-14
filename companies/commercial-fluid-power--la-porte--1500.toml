@@ -9,8 +9,8 @@ address = "1500 Genesis Drive, La Porte, IN 46350"
 lat = 41.62843
 lon = -86.70927
 website = "https://commercialfluidpower.com"
-verified_note = "Company site is live with 2026 content and a chamber listing exists, but neither page shows the 1500 Genesis Drive address, so the location is unconfirmed. Source: https://commercialfluidpower.com"
-verified = "2026-11-13"
+unconfirmed_reason = "The company operates in the region, but the verification check did not confirm a plant at this address (re-read November 14, 2026): Company site is live with 2026 content and a chamber listing exists, but neither page shows the 1500 Genesis Drive address, so the location is unconfirmed. Source: https://commercialfluidpower.com"
+unconfirmed = "2026-11-14"
 
 sector = "Metal"
 products = ["Iron and Steel Pipe and Tube Manufacturing From Purchased Steel"]

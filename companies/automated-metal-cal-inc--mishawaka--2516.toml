@@ -9,8 +9,8 @@ address = "2516 North Home Street, Mishawaka, IN 46545"
 lat = 41.68413
 lon = -86.14786
 website = "https://automatedmetal.com"
-verified_note = "Only an undated MapQuest listing places Automated Metal Cal at 2516 N Home St, while automatedmetal.com is now a HugeDomains for-sale page, so this is weak evidence. Source: https://startpage.mapquest.com/us/indiana/automated-metal-cal-538013780"
-verified = "2026-11-13"
+unconfirmed_reason = "The company operates in the region, but the verification check did not confirm a plant at this address (re-read November 14, 2026): Only an undated MapQuest listing places Automated Metal Cal at 2516 N Home St, while automatedmetal.com is now a HugeDomains for-sale page, so this is weak evidence. Source: https://startpage.mapquest.com/us/indiana/automated-metal-cal-538013780"
+unconfirmed = "2026-11-14"
 
 sector = "Wood, paper & furniture"
 products = ["Coated and Laminated Paper Manufacturing"]

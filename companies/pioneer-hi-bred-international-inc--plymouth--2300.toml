@@ -5,22 +5,23 @@ name = "Pioneer Hi-Bred International, Inc."
 kind = "company"
 city = "Plymouth"
 state = "IN"
-address = "2300 North Pine Road, Plymouth, IN 46563"
-lat = 41.44025
-lon = -86.34807
+address = "2300 Pioneer Drive, Plymouth, IN 46563"
+lat = 41.35817
+lon = -86.34788
 website = "https://pioneer.com"
-verified_note = "IBJ reports Corteva's Pioneer seed plant in Plymouth, operating since 1989; the street address 2300 N Pine Rd was not confirmed by any source. Source: https://www.ibj.com/articles/made-in-indiana-pioneer-seeds-by-corteva-agriscience"
-verified = "2026-11-13"
+status_note = "Address from Pioneer's 2025 OSHA Form 300A filing (2300 Pioneer Dr, 112 employees, filed as a seed conditioning plant); previously 2300 North Pine Road."
+verified_note = "Pioneer Hi-Bred International filed OSHA's 2025 Form 300A for its Plymouth plant at 2300 Pioneer Dr (112 employees)."
+verified = "2026-11-14"
 
 sector = "Food & consumer goods"
 products = ["Wet Corn Milling"]
 naics = "311221"
 
-employees = 300
+employees = 112
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Hybrid Corn Seed Processing. NAICS 311221: wet corn milling."
 

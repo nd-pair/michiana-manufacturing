@@ -9,8 +9,8 @@ address = "352 North Fail Road, La Porte, IN 46350"
 lat = 41.63191
 lon = -86.68026
 website = "https://stewartsuperior.com"
-verified_note = "An undated directory lists Stewart Superior at 352 Fail Rd, La Porte (about 26 employees); the website fetch failed on an expired certificate, so this is low confidence. Source: https://naicslist.com/company-profile/stewart-superior-c-laporte-in-46350"
-verified = "2026-11-13"
+unconfirmed_reason = "The company operates in the region, but the verification check did not confirm a plant at this address (re-read November 14, 2026): An undated directory lists Stewart Superior at 352 Fail Rd, La Porte (about 26 employees); the website fetch failed on an expired certificate, so this is low confidence. Source: https://naicslist.com/company-profile/stewart-superior-c-laporte-in-46350"
+unconfirmed = "2026-11-14"
 
 sector = "Medical devices & other"
 products = ["Marking Device Manufacturing"]

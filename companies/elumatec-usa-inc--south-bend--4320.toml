@@ -9,8 +9,8 @@ address = "4320 Ralph Jones Court, South Bend, IN 46628"
 lat = 41.73401
 lon = -86.30039
 website = "https://elumatecusa.com"
-verified_note = "Weak: directories and a 2019 elumatec.com news post (TechDays event) place the US subsidiary at 4320 Ralph Jones Ct, South Bend, but elumatecusa.com refused connections and nothing from 2023 or later was found. Source: https://www.thefabricator.com/directory/showroom/elumatec-usa-inc"
-verified = "2026-11-13"
+unconfirmed_reason = "The company operates in the region, but the verification check did not confirm a plant at this address (re-read November 14, 2026): Weak: directories and a 2019 elumatec.com news post (TechDays event) place the US subsidiary at 4320 Ralph Jones Ct, South Bend, but elumatecusa.com refused connections and nothing from 2023 or later was found. Source: https://www.thefabricator.com/directory/showroom/elumatec-usa-inc"
+unconfirmed = "2026-11-14"
 
 sector = "Mechatronics & automation"
 products = ["Machine Tool (metal Cutting Types) Manufacturing"]

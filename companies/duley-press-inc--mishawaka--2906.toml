@@ -8,8 +8,8 @@ state = "IN"
 address = "2906 Home Street, Mishawaka, IN 46545"
 lat = 41.68660
 lon = -86.14788
-verified_note = "Weak: undated NAICS and BBB listings put Duley Press at 2906 N Home St with phone (574) 259-5203; no website or dated evidence found. Source: https://naicslist.com/company-profile/duley-press-inc-mishawaka-in-46545"
-verified = "2026-11-13"
+unconfirmed_reason = "The company operates in the region, but the verification check did not confirm a plant at this address (re-read November 14, 2026): Weak: undated NAICS and BBB listings put Duley Press at 2906 N Home St with phone (574) 259-5203; no website or dated evidence found. Source: https://naicslist.com/company-profile/duley-press-inc-mishawaka-in-46545"
+unconfirmed = "2026-11-14"
 
 sector = "Wood, paper & furniture"
 products = ["Other Commercial Printing"]

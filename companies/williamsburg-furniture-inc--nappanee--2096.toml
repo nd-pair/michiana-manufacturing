@@ -8,18 +8,18 @@ state = "IN"
 address = "2096 Cheyenne Street, Nappanee, IN 46550"
 lat = 41.44833
 lon = -86.03075
-verified_note = "A BBB listing gives Williamsburg Furniture, Inc. at 2096 Cheyenne St, Nappanee with phone (574) 773-7711, though another listing gives 3491 E County Line Rd and no dated evidence was found, so low confidence. Source: https://bbb.org/us/in/nappanee/category/furniture-manufacturers"
-verified = "2026-11-13"
+verified_note = "OSHA's 2025 Form 300A data list Williamsburg Furniture (Patrick Industries) at 2096 Cheyenne Street, Nappanee, with 110 employees, filed under an upholstery code (811121)."
+verified = "2026-11-14"
 
 sector = "Wood, paper & furniture"
 products = ["Nonupholstered Wood Household Furniture Manufacturing"]
 naics = "337122"
 
-employees = 100
+employees = 110
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Recreational Vehicle & Hospitality Furniture & Mattresses. NAICS 337122: nonupholstered wood household furniture manufacturing."
 

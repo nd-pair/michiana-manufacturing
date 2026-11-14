@@ -33,6 +33,11 @@ import csv, datetime, json, re, sys
 from common import P, companies, company_path, set_field, del_field, norm
 
 UNSEARCHED = re.compile(r"(?i)\bunverified\b|search budget|budget ran out|not searched|never searched|no lookups|no name or address|no address search|not researched")
+# a finding of "operating" whose own note says the address was not confirmed: flagged unconfirmed, not verified
+WEAK = re.compile(r"(?i)^weak\b|weak evidence|low confidence|location is unconfirmed|address is unconfirmed|is unconfirmed\b|"
+                  r"(address|street address|number|location)[^.;]{0,60}\bwas not (separately )?confirmed|not confirmed by any source|"
+                  r"unconfirmed by other sources|do(es)? not confirm the|exact address (match )?is (uncertain|unconfirmed)|"
+                  r"confidence is moderate|function and date were not confirmed|entity match unconfirmed")
 HEDGED = re.compile(r"(?i)not confirm|unconfirm|inferen|no source|could just be|not verified|may be|possibly|appears to|unclear whether|no address|redirects? to|is down|is dead")
 TIED = re.compile(r"(?i)same (plant|address|site|phone)|at this address|lists? (its|a|the)? ?\w* ?(plant|site|location|facility)? ?(at|in) |\d+ ([NSEW]\.? )?\w+ (St|Rd|Dr|Ave|Blvd|Pkwy|Way|Ct|Ln|Street|Road|Drive|Avenue)\b")
 
@@ -68,7 +73,7 @@ def main(args):
             action = "skipped: hand-written file"
         elif UNSEARCHED.search(note):
             action = "skipped: not searched"; skipped.append(c["_id"])
-        elif st == "address_unconfirmed":
+        elif st == "address_unconfirmed" or (st == "operating" and WEAK.search(note)):
             action = "flagged unconfirmed: the company operates in the region, this address is unconfirmed"
             if not dry:
                 set_field(path, "unconfirmed", date)

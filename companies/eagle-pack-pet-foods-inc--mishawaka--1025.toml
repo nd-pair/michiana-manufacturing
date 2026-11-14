@@ -9,8 +9,8 @@ address = "1025 West 11th Street, Mishawaka, IN 46544"
 lat = 41.65247
 lon = -86.19339
 website = "https://eaglepack.com"
-verified_note = "Weak: Eagle Pack (now owned by Wellness Pet) is listed with its own plant at 1011 W 11th St, while 1025 W 11th St shows Bench & Field Pet Foods, so the exact address is uncertain; the 2022-copyright eaglepack.com gives no address. Source: https://mergr.com/eagle-pack-pet-foods-overview"
-verified = "2026-11-13"
+unconfirmed_reason = "The company operates in the region, but the verification check did not confirm a plant at this address (re-read November 14, 2026): Weak: Eagle Pack (now owned by Wellness Pet) is listed with its own plant at 1011 W 11th St, while 1025 W 11th St shows Bench & Field Pet Foods, so the exact address is uncertain; the 2022-copyright eaglepack.com gives no address. Source: https://mergr.com/eagle-pack-pet-foods-overview"
+unconfirmed = "2026-11-14"
 
 sector = "Food & consumer goods"
 products = ["Dog and Cat Food Manufacturing"]
