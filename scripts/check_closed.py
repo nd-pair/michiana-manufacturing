@@ -51,8 +51,10 @@ def check(c):
             socket.getaddrinfo("www." + h, 443)
         except socket.gaierror:
             return "strong", "domain does not resolve", ""
-    ctx = ssl.create_default_context(); ctx.check_hostname = False; ctx.verify_mode = ssl.CERT_NONE
-    last = None
+    # certificates are checked: an expired or mismatched certificate is itself a sign of an abandoned site,
+    # and an unverified connection could land anywhere. Plain http is still tried after it.
+    ctx = ssl.create_default_context()
+    last, bad_cert = None, False
     for u in (url, url.replace("https://", "http://", 1)):
         try:
             with urllib.request.urlopen(urllib.request.Request(u, headers=UA), timeout=15, context=ctx) as r:
@@ -62,13 +64,19 @@ def check(c):
                 return "strong", "parked or for sale", final
             if base(fh) != base(h):
                 return "medium", "redirects to another domain", final
+            if bad_cert:
+                return "weak", "secure connection failed; the site answers over plain http", final
             return "", "ok", final
         except urllib.error.HTTPError as e:
             last = ("medium" if e.code in (404, 410) else "weak", "HTTP %d" % e.code, u)
             if e.code in (403, 429):            # bot protection; the site is up
                 return "", "ok (HTTP %d)" % e.code, u
         except Exception as e:
-            last = ("weak", type(e).__name__ + ": " + str(e)[:80], u)
+            if isinstance(getattr(e, "reason", e), ssl.SSLError) or isinstance(e, ssl.SSLError):
+                bad_cert = True
+                last = ("weak", "secure connection failed: " + str(getattr(e, "reason", e))[:70], u)
+            else:
+                last = ("weak", type(e).__name__ + ": " + str(e)[:80], u)
     return last
 
 def record_signals(cs):
