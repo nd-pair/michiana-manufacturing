@@ -8,6 +8,7 @@ state = "IN"
 address = "1525 S Olive, South Bend, IN 46619"
 lat = 41.65824
 lon = -86.28311
+formerly = "Interplastic Corp., Molding Products Division"
 osha_id = "1258201"
 
 sector = "Materials & composites"

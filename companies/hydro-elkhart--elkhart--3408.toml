@@ -8,6 +8,8 @@ state = "IN"
 address = "3408 Reedy Dr., Elkhart, IN 46514"
 lat = 41.72753
 lon = -85.92375
+formerly = "Indalex Inc."
+status_note = "Hydro's own site gives 3406 Reedy Drive for this plant; its 2025 OSHA filing gives 3408. The HIFLD record at 3406 (Indalex, then Hydro Extrusion USA) was the same plant."
 osha_id = "1370826"
 
 sector = "Metal"

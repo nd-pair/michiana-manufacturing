@@ -10,6 +10,7 @@ address = "2180 Maiden Lane, Saint Joseph, MI 49085"
 lat = 42.05037
 lon = -86.50742
 website = "https://www.walsworth.com"
+osha_id = "1021354"
 verified_note = "Walsworth's 2022 history post says the Saint Joseph printing and bindery operation is still on Maiden Lane (no street number given), so 2180 Maiden Lane is consistent but not confirmed by number. Source: https://www.walsworth.com/blog/the-history-of-walsworths-print-operation-in-saint-joseph-michigan"
 verified = "2026-11-13"
 status_note = "Walsworth bought IPC Print Services in 2010."
@@ -18,11 +19,11 @@ sector = "Wood, paper & furniture"
 products = ["Other Commercial Printing"]
 naics = "323119"
 
-employees = 200
+employees = 151
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025 (filed as \"Saint Joseph\")"
 
 description = "Catalog & Magazine Printing. NAICS 323119: other commercial printing."
 

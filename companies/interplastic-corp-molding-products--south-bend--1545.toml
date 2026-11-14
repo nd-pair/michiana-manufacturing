@@ -9,6 +9,8 @@ address = "1545 South Olive Street, South Bend, IN 46619"
 lat = 41.65791
 lon = -86.28342
 website = "https://interplastic.com"
+removed_reason = "duplicate: Interplastic's Molding Products Division is now Molding Products LLC, which filed with OSHA for 2025 at 1525 S Olive (companies/molding-products-llc--south-bend--1525.toml), 20 m away; found by the consistency check"
+removed = "2026-11-14"
 verified_note = "Directories and current job postings (undated) show the Interplastic Molding Products Division operating in South Bend; the corporate site does not list the plant. Source: https://startpage.mapquest.com/us/indiana/molding-products-division-26296455"
 verified = "2026-11-13"
 

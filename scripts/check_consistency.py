@@ -6,7 +6,8 @@
 Checks every company on the map (not closed, presumed closed or removed):
 - location: the coordinates fall in one of the region's counties (data/region_counties_detail.json);
 - duplicate: another file has the same street address, the same street address under another postal
-  town within 1 km (Sawyer and Bridgman), or the same name within 300 m;
+  town within 2 km (Sawyer and Bridgman), the same name within 300 m, or a name sharing a word on the
+  same street within 100 m (Hydro Elkhart at 3408 and Hydro Extrusion at 3406 Reedy Drive);
 - headcount: a site headcount above 5,000, or a headcount that looks company-wide;
 - sector: the sector disagrees with the NAICS code's usual sector (scripts/import_hifld.py);
 - precision: placed at a city's center instead of a street address.
@@ -55,8 +56,23 @@ def main():
     for group in by_street.values():   # the same street address filed under two postal towns
         for i, a in enumerate(group):
             for b in group[i + 1:]:
-                if a.get("city") != b.get("city") and "lat" in a and "lat" in b and km((a["lat"], a["lon"]), (b["lat"], b["lon"])) < 1:
-                    add(a, "duplicate", "same street address under another town within 1 km: %s (%s)" % (b.get("address", ""), b["_file"]))
+                if a.get("city") != b.get("city") and "lat" in a and "lat" in b and km((a["lat"], a["lon"]), (b["lat"], b["lon"])) < 2:
+                    add(a, "duplicate", "same street address under another town within 2 km: %s (%s)" % (b.get("address", ""), b["_file"]))
+    from check_sites import key as site_key
+    GENERIC = {"inc", "llc", "co", "corp", "company", "the", "of", "and", "industries", "products", "manufacturing", "mfg",
+               "group", "international", "usa", "plant", "division", "systems", "rv", "homes"}
+    sig = lambda c: {w for w in norm(c["name"]).split() if len(w) > 2 and w not in GENERIC}
+    by_road = {}
+    for c in cs:
+        if "lat" in c and site_key(c.get("address", ""))[1]:
+            by_road.setdefault((site_key(c["address"])[1], c.get("city", "")), []).append(c)
+    for group in by_road.values():   # a related name next door on the same street: often one plant, filed twice
+        for i, a in enumerate(group):
+            for b in group[i + 1:]:
+                town = set(norm(a.get("city", "")).split())   # "Walkerton - ARCo" and "Walkerton Tool & Die" share only the town
+                if (norm(a["name"]) != norm(b["name"]) and (sig(a) & sig(b)) - town and km((a["lat"], a["lon"]), (b["lat"], b["lon"])) < 0.1
+                        and addr_key(a.get("address", ""), a.get("city", "")) != addr_key(b.get("address", ""), b.get("city", ""))):
+                    add(a, "duplicate", "a related name on the same street within 100 m: %s, %s (%s)" % (b["name"], b.get("address", ""), b["_file"]))
     for n, group in by_name.items():
         located = [c for c in group if "lat" in c]
         for i, a in enumerate(located):

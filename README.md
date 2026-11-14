@@ -101,7 +101,8 @@ next. A dead website is a lead, not proof; confirm each
 closure from a dated source before marking it. `scripts/check_coverage.py` compares the map with the Census Bureau's County Business Patterns
 (manufacturing establishments by county, size and industry; `audits/coverage-check.csv`).
 `scripts/check_consistency.py` checks the files against each other: coordinates outside the region's
-counties, two files at one address or with one name within 300 m, site headcounts above 5,000,
+counties, two files at one address (also under two town names), with one name within 300 m, or with
+related names next door on one street, site headcounts above 5,000,
 sectors that disagree with NAICS, and city-level placements (`audits/consistency-check.csv`).
 It places plants in counties with the Census Bureau's detailed county outlines,
 `data/region_counties_detail.json`, made once by `scripts/make_county_detail.py`. The map's own

@@ -9,6 +9,8 @@ address = "110 Menke Road, Trail Creek, IN 46360"
 lat = 41.70272
 lon = -86.84744
 website = "https://fiberbond.net"
+removed_reason = "duplicate: the same plant at 110 Menke Road as companies/fiber-bond-operating-llc--michigan-city--110.toml (its 2025 OSHA filing, postal town Michigan City; the company's site gives Michigan City too), found by the consistency check"
+removed = "2026-11-14"
 verified_note = "The live fiberbond.net site (2026 copyright) gives 110 Menke Road, Michigan City, IN 46360 as the address of the filtration media maker. Source: https://fiberbond.net"
 verified = "2026-11-13"
 
