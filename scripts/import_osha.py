@@ -55,8 +55,9 @@ def rows_from(path):
     return ({k.strip().lower(): (v or "") for k, v in r.items() if k} for r in csv.DictReader(fh))
 
 def addr_key(addr, city):
+    addr = re.sub(r"(?i)\b(\d+)([nsew])\b", r"\1 \2", addr or "")   # county grid roads: "346 W 1350N" = "346 West 1350 North"
     t = [{"cr": "county", "co": "county", "sr": "state", "hwy": "highway", "third": "3rd", "first": "1st", "second": "2nd"}.get(w, w)
-         for w in re.findall(r"[a-z0-9]+", (addr or "").lower())]
+         for w in re.findall(r"[a-z0-9]+", addr.lower())]
     if not t or not t[0].isdigit():
         return None
     rest = [w for w in t[1:] if w not in DIR]

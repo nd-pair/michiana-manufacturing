@@ -9,6 +9,8 @@ address = "346 West 1350 North, Milford, IN 46542"
 lat = 41.42846
 lon = -85.85222
 website = "https://purina-mills.com"
+removed_reason = "duplicate: the same feed mill as companies/milford-purina-feed-mill--milford--346.toml (Land O'Lakes' 2025 OSHA filing at 346 W 1350N, 33 employees); the two spellings of the county-road address hid the match."
+removed = "2026-11-14"
 
 sector = "Food & consumer goods"
 products = ["Other Animal Food Manufacturing"]
