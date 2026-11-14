@@ -33,6 +33,22 @@ to existing files by OSHA ID, street address or name in the same city, replaces 
 with OSHA's reported figure, and writes new files for the rest after checking the county with the
 Census geocoder; departments a company files separately at one address become one plant.
 `data/osha.json` keeps every year's establishments, so a plant that stops filing is flagged for review.
+Rules worth knowing when reading its output:
+
+- Town names are written one way (`canon_city`: "LaPorte" and "La Porte" are one town).
+- A filing at another house number on a file's street is its own plant once that file stands for
+  another one (Keystone's numbered plants on Hackberry Drive). House numbers of different lengths
+  stay together, since Elkhart County has two numbering systems.
+- A file moves to its own filing's street address. A PO box or a repeated town name is stripped
+  first; a filing that lists two addresses is not used.
+- A new tenant at a closed plant's address gets its own file, so the closure stays on record.
+- One headcount filed for several addresses counts as company-wide only when the hours worked match
+  too. A file's own single-establishment figure is corrected from its filing.
+- Filed industry text that says only "Manufacturing", "Retail" or the code is replaced by the official
+  title (`data/naics_titles.json`, made once by `scripts/make_naics_titles.py`).
+- A plant no geocoder can place goes to its town: `data/places.toml`, else the median of the plants
+  mapped there, else the center of a small ZIP code area (`data/zip_centers.json`, made once by
+  `scripts/make_zip_centers.py`). It is marked `location_precision = "city"`.
 
 ## Adding a company
 
@@ -301,9 +317,9 @@ so commit only your source changes (`companies/`, `data/`, `site/`, `scripts/`) 
 
 ```
 companies/      one TOML file per company (edit these)
-data/           sectors, places, capabilities (edit these); county boundaries (Census), shorelines (Natural Earth); pulled datasets (federal, fda, qcew, bls, sbir)
+data/           sectors, places, capabilities (edit these); county boundaries (Census; simplified for the map, detailed for placing plants), ZIP code centers and NAICS titles (Census), shorelines (Natural Earth); pulled datasets (federal, fda, qcew, bls, sbir, osha, warn)
 site/           the pages: Notre Dame Web Theme chrome (partials/), page.html + app.js (map), about.html, brief.html + brief.js, app.css
-scripts/        review_llm.py (monthly news review), build.py, humanoid.py, opportunity.py, geocode.py, import_hifld.py, import_osha.py, import_sbir_firms.py, pull_warn.py, pull_federal.py, pull_sbir.py, pull_fda.py, pull_qcew.py, pull_bls.py, pull_workforce.py, pull_nd_research.py, pull_events.py, pull_patents.py, common.py
+scripts/        review_llm.py (monthly news review), build.py, humanoid.py, opportunity.py, geocode.py, import_hifld.py, import_osha.py, import_sbir_firms.py, pull_warn.py, pull_federal.py, pull_sbir.py, pull_fda.py, pull_qcew.py, pull_bls.py, pull_workforce.py, pull_nd_research.py, pull_events.py, pull_patents.py, check_consistency.py, check_coverage.py, check_sites.py, check_closed.py, apply_checks.py, make_county_detail.py, make_zip_centers.py, make_naics_titles.py, common.py
 docs/           the built site (generated; do not edit by hand)
 ```
 
