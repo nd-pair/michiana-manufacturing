@@ -44,9 +44,13 @@ SUFFIX = {"INC": "Inc.", "INC.": "Inc.", "CORP": "Corp.", "CORP.": "Corp.", "CO"
 
 def titlecase(s):
     out = []
-    for w in s.strip().split():
+    words = s.strip().split()
+    for i, w in enumerate(words):
         u = w.upper().strip(",")
-        if u in SUFFIX:
+        nxt = words[i + 1] if i + 1 < len(words) else ""
+        if u in ("IN", "MI", "US", "SR", "CR", "M") and re.match(r"\d", nxt):
+            out.append(u)   # a route: "IN 13", "US 20", "CR 6" (not the word "in")
+        elif u in SUFFIX:
             out.append(SUFFIX[u] + ("," if w.endswith(",") else ""))
         elif u.strip(".") in KEEP_UPPER or u in KEEP_UPPER or re.fullmatch(r"(?:[A-Z]\.){2,}", u):
             out.append(w.upper())   # also dotted initials: R.R. Donnelley, K.M.C. Corp., Viking R.V.
