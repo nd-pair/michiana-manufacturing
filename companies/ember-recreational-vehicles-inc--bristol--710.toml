@@ -1,0 +1,27 @@
+# Ember Recreational Vehicles, Inc
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Ember Recreational Vehicles, Inc"
+kind = "company"
+city = "Bristol"
+state = "IN"
+address = "710 Commerce Dr, Bristol, IN 46507"
+lat = 41.73321
+lon = -85.79923
+osha_id = "1274423"
+
+sector = "Vehicles & RVs"
+products = ["Travel trailers, recreational, manufacturing"]
+naics = "336214"
+
+employees = 50
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+parent = "Ember RV"
+description = "NAICS 336214: travel trailers, recreational, manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

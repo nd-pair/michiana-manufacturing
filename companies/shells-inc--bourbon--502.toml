@@ -8,16 +8,17 @@ state = "IN"
 address = "502 Old US Highway 30 East, Bourbon, IN 46504"
 lat = 41.29335
 lon = -86.10729
+osha_id = "429988"
 
 sector = "Mechatronics & automation"
 products = ["All Other Industrial Machinery Manufacturing"]
 naics = "333298"
 
-employees = 56
+employees = 33
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Foundry Sand Cores. NAICS 333298: all other industrial machinery manufacturing."
 

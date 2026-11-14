@@ -1,0 +1,26 @@
+# FS Transportation, LLC
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "FS Transportation, LLC"
+kind = "company"
+city = "New Carlisle"
+state = "IN"
+address = "54374 Smilax Road, New Carlisle, IN 46552"
+lat = 41.70292
+lon = -86.44790
+osha_id = "53358"
+
+sector = "Wood, paper & furniture"
+products = ["Paper (except newsprint, uncoated groundwood) manufacturing"]
+naics = "322121"
+
+employees = 42
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 322121: paper (except newsprint, uncoated groundwood) manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

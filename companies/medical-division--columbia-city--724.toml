@@ -1,0 +1,27 @@
+# Medical Division
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Medical Division"
+kind = "company"
+city = "Columbia City"
+state = "IN"
+address = "724 E. Swihart Street, Columbia City, IN 46725"
+lat = 41.14749
+lon = -85.48065
+osha_id = "145339"
+
+sector = "Mechatronics & automation"
+products = ["Cutters, metal milling, manufacturing"]
+naics = "333515"
+
+employees = 19
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+parent = "Kyocera SGS Precision Tools"
+description = "NAICS 333515: cutters, metal milling, manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

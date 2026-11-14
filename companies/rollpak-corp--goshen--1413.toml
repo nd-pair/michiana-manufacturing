@@ -9,16 +9,17 @@ address = "1413 Eisenhower Drive South, Goshen, IN 46526"
 lat = 41.55483
 lon = -85.81437
 website = "https://berryplastics.com"
+osha_id = "1108091"
 
 sector = "Materials & composites"
 products = ["Plastics Bag Manufacturing"]
 naics = "326111"
 
-employees = 40
+employees = 106
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Plastic Bags. NAICS 326111: plastics bag manufacturing."
 

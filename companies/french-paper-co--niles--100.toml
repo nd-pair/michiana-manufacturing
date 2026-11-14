@@ -9,6 +9,7 @@ address = "100 French Street, Niles, MI 49120"
 lat = 41.82053
 lon = -86.25950
 website = "https://frenchpaper.com"
+osha_id = "1506836"
 
 sector = "Wood, paper & furniture"
 products = ["Paper (except Newsprint) Mills"]
@@ -16,9 +17,9 @@ naics = "322121"
 
 employees = 80
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Paper. NAICS 322121: paper (except newsprint) mills."
 

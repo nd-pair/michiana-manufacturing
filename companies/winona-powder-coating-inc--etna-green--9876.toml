@@ -1,0 +1,26 @@
+# Winona Powder Coating, Inc.
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Winona Powder Coating, Inc."
+kind = "company"
+city = "Etna Green"
+state = "IN"
+address = "9876 West Old Road 30, Etna Green, IN 46524"
+lat = 41.27393
+lon = -86.03126
+osha_id = "1260985"
+
+sector = "Metal"
+products = ["Powder coating metals and metal products for the trade"]
+naics = "332812"
+
+employees = 123
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 332812: powder coating metals and metal products for the trade."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

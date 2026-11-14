@@ -1,0 +1,26 @@
+# Multitech Industries, Inc.
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Multitech Industries, Inc."
+kind = "company"
+city = "Michigan City"
+state = "IN"
+address = "250 IN-212, Michigan City, IN 46360"
+lat = 41.73674
+lon = -86.82614
+osha_id = "1275548"
+
+sector = "Metal"
+products = ["Manufacturing"]
+naics = "332722"
+
+employees = 86
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 332722: manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

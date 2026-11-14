@@ -9,17 +9,18 @@ address = "28858 Ventura Drive, Elkhart, IN 46517"
 lat = 41.64611
 lon = -86.02015
 website = "https://leer.com"
+osha_id = "1493074"
 uei = "P5YKH88AME95"
 
 sector = "Vehicles & RVs"
 products = ["Travel Trailer and Camper Manufacturing"]
 naics = "336214"
 
-employees = 65
+employees = 125
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Corporate Headquarters & Fiberglass Caps & Tonneau Covers for Pickup Truck Beds. NAICS 336214: travel trailer and camper manufacturing."
 

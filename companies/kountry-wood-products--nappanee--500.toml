@@ -1,0 +1,26 @@
+# Kountry Wood Products
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Kountry Wood Products"
+kind = "company"
+city = "Nappanee"
+state = "IN"
+address = "500 E Wabash Ave, Nappanee, IN 46550"
+lat = 41.43892
+lon = -85.99649
+osha_id = "106214"
+
+sector = "Wood, paper & furniture"
+products = ["Cabinets, kitchen (except freestanding), stock or custom wood, manufacturing"]
+naics = "337110"
+
+employees = 146
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 337110: cabinets, kitchen (except freestanding), stock or custom wood, manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

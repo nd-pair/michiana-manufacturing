@@ -1,0 +1,26 @@
+# Mol-Son LLC
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Mol-Son LLC"
+kind = "company"
+city = "Mattawan"
+state = "MI"
+address = "53196 N. main St., Mattawan, MI 49071"
+lat = 42.22523
+lon = -85.78549
+osha_id = "1459323"
+
+sector = "Mechatronics & automation"
+products = ["Molds (except steel ingot), industrial, manufacturing"]
+naics = "333511"
+
+employees = 89
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 333511: molds (except steel ingot), industrial, manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

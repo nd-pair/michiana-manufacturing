@@ -1,0 +1,26 @@
+# Southwest Welding LLC
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Southwest Welding LLC"
+kind = "company"
+city = "Wakarusa"
+state = "IN"
+address = "28125 County Road 42, Wakarusa, IN 46573"
+lat = 41.52178
+lon = -86.00476
+osha_id = "1424565"
+
+sector = "Metal"
+products = ["Angle irons, metal, manufacturing"]
+naics = "332999"
+
+employees = 112
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 332999: angle irons, metal, manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

@@ -9,16 +9,17 @@ address = "460 South Post Road, Buchanan, MI 49107"
 lat = 41.81852
 lon = -86.38643
 website = "https://metalstamp.com"
+osha_id = "1501061"
 
 sector = "Metal"
 products = ["Metal Stamping"]
 naics = "332116"
 
-employees = 15
+employees = 29
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Metal Stampings & Fabrication, Including Small Tanks, Sheet Metal Fabrication, Tubing Coils & Stamping. NAICS 332116: metal stamping."
 

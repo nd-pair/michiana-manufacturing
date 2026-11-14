@@ -1,0 +1,26 @@
+# BH Electronics
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "BH Electronics"
+kind = "company"
+city = "Nappanee"
+state = "IN"
+address = "1525 US Highway 6, Nappanee, IN 46550"
+lat = 41.44819
+lon = -86.08765
+osha_id = "1417301"
+
+sector = "Electronics"
+products = ["Transformers, electronic component-types, manufacturing"]
+naics = "334416"
+
+employees = 6
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 334416: transformers, electronic component-types, manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

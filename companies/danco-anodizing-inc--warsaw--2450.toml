@@ -9,16 +9,17 @@ address = "2450 Deelyn Drive, Warsaw, IN 46580"
 lat = 41.26775
 lon = -85.86962
 website = "https://danco.net"
+osha_id = "1243308"
 
 sector = "Metal"
 products = ["Electroplating, Plating, Polishing, Anodizing and Coloring"]
 naics = "332813"
 
-employees = 50
+employees = 163
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Anodizing. NAICS 332813: electroplating, plating, polishing, anodizing and coloring."
 

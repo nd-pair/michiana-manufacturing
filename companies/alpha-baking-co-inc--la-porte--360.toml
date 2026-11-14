@@ -9,16 +9,17 @@ address = "360 North Fail Road, La Porte, IN 46350"
 lat = 41.63084
 lon = -86.68022
 website = "https://alphabaking.com"
+osha_id = "1495531"
 
 sector = "Food & consumer goods"
 products = ["Commercial Bakeries"]
 naics = "311812"
 
-employees = 256
+employees = 383
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Buns & Bread. NAICS 311812: commercial bakeries."
 

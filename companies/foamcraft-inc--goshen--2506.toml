@@ -9,16 +9,17 @@ address = "2506 Industrial Park Drive, Goshen, IN 46526"
 lat = 41.55412
 lon = -85.82002
 website = "https://foamcraftinc.com"
+osha_id = "795494"
 
 sector = "Materials & composites"
 products = ["Polystyrene Foam Product Manufacturing"]
 naics = "326140"
 
-employees = 50
+employees = 2
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Foam Cushioning. NAICS 326140: polystyrene foam product manufacturing."
 

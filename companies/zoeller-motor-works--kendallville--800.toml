@@ -1,0 +1,27 @@
+# Zoeller Motor Works
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Zoeller Motor Works"
+kind = "company"
+city = "Kendallville"
+state = "IN"
+address = "800 W. Mitchell St., Kendallville, IN 46755"
+lat = 41.44276
+lon = -85.27532
+osha_id = "1326061"
+
+sector = "Mechatronics & automation"
+products = ["Pumps, industrial and commercial-type, general purpose, manufacturing"]
+naics = "333914"
+
+employees = 55
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+parent = "FLINT & WALLING, INC."
+description = "NAICS 333914: pumps, industrial and commercial-type, general purpose, manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

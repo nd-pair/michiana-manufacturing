@@ -1,0 +1,26 @@
+# Camco Manufacturing LLC
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Camco Manufacturing LLC"
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "2912 Leer Ct, Elkhart, IN 46514"
+lat = 41.72734
+lon = -85.94931
+osha_id = "1463611"
+
+sector = "Materials & composites"
+products = ["Motor vehicle moldings and extrusions, plastics, manufacturing"]
+naics = "326199"
+
+employees = 40
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 326199: motor vehicle moldings and extrusions, plastics, manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

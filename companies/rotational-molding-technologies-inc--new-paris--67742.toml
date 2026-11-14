@@ -9,16 +9,17 @@ address = "67742 County Road 23, New Paris, IN 46553"
 lat = 41.51078
 lon = -85.82798
 website = "https://romotek.com"
+osha_id = "951250"
 
 sector = "Mechatronics & automation"
 products = ["Farm Machinery and Equipment Manufacturing"]
 naics = "333111"
 
-employees = 54
+employees = 90
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Rotational Molded Plastic Products. NAICS 333111: farm machinery and equipment manufacturing."
 

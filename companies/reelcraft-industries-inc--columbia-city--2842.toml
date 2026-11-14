@@ -1,0 +1,26 @@
+# Reelcraft Industries Inc.
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Reelcraft Industries Inc."
+kind = "company"
+city = "Columbia City"
+state = "IN"
+address = "2842 East Business 30, Columbia City, IN 46725"
+lat = 41.14007
+lon = -85.43706
+osha_id = "1376847"
+
+sector = "Metal"
+products = ["Manufacture Industrial Hosed Reels"]
+naics = "332999"
+
+employees = 212
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 332999: manufacture industrial hosed reels."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

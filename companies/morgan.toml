@@ -9,10 +9,14 @@ address = "2730 Industrial Pkwy, Elkhart, IN 46516"
 lat = 41.68672
 lon = -85.93204
 website = "https://www.morganadvancedmaterials.com"
+employees_quality = "reported"
+employees_year = 2025
+employees = 70
+osha_id = "1417639"
 
 sector = "Materials & composites"
 products = ["Ceramics & thermal"]
 
-employees_note = "Elkhart plant headcount not published; about 8,300 company-wide"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Global advanced-materials manufacturer; the Elkhart plant produces silica-based ceramic thermal insulation blankets."

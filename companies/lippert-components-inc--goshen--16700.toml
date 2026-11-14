@@ -9,6 +9,7 @@ address = "16700 Skyview Road, Goshen, IN 46526"
 lat = 41.54382
 lon = -85.78170
 website = "https://lci.com"
+osha_id = "1512306"
 parent = "Lippert (LCI Industries)"
 uei = "WMGAFCPBW1T5"
 
@@ -16,11 +17,11 @@ sector = "Wood, paper & furniture"
 products = ["Manufactured Home (mobile Home) Manufacturing"]
 naics = "321991"
 
-employees = 100
+employees = 1034
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Steel Mobile Home Chassis. NAICS 321991: manufactured home (mobile home) manufacturing."
 

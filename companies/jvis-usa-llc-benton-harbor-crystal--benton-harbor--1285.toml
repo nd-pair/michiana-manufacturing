@@ -1,0 +1,27 @@
+# JVIS USA LLC Benton Harbor Crystal
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "JVIS USA LLC Benton Harbor Crystal"
+kind = "company"
+city = "Benton Harbor"
+state = "MI"
+address = "1285 North Crystal Avenue, Benton Harbor, MI 49022"
+lat = 42.13697
+lon = -86.41744
+osha_id = "959070"
+
+sector = "Vehicles & RVs"
+products = ["Motor vehicle interior systems (e.g., headliners, panels, seats, trims) manufacturing"]
+naics = "336360"
+
+employees = 94
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+parent = "JVIS USA Manufacturing"
+description = "NAICS 336360: motor vehicle interior systems (e.g., headliners, panels, seats, trims) manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

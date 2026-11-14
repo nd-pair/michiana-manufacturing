@@ -1,0 +1,26 @@
+# Kay Manufacturing Co.
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Kay Manufacturing Co."
+kind = "company"
+city = "Saint Joseph"
+state = "MI"
+address = "3491 S Lakeshore Drive, Saint Joseph, MI 49085"
+lat = 42.07414
+lon = -86.50618
+osha_id = "1015476"
+
+sector = "Metal"
+products = ["Precision turned product manufacturing"]
+naics = "332721"
+
+employees = 80
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 332721: precision turned product manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

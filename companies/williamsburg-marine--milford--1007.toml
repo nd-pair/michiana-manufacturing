@@ -1,0 +1,26 @@
+# Williamsburg Marine
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Williamsburg Marine"
+kind = "company"
+city = "Milford"
+state = "IN"
+address = "1007 North Old SR 15, Milford, IN 46542"
+lat = 41.42002
+lon = -85.84611
+osha_id = "1455622"
+
+sector = "Food & consumer goods"
+products = ["Furniture trimmings made from purchased fabrics"]
+naics = "314999"
+
+employees = 105
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 314999: furniture trimmings made from purchased fabrics."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

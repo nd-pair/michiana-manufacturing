@@ -9,16 +9,17 @@ address = "228 East Bronson Street, South Bend, IN 46601"
 lat = 41.66804
 lon = -86.24802
 website = "https://curtisproducts.com"
+osha_id = "893493"
 
 sector = "Metal"
 products = ["Iron and Steel Pipe and Tube Manufacturing From Purchased Steel"]
 naics = "331210"
 
-employees = 200
+employees = 102
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Tube Bending. NAICS 331210: iron and steel pipe and tube manufacturing from purchased steel."
 

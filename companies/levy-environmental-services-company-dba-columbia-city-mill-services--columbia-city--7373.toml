@@ -1,0 +1,27 @@
+# Levy Environmental Services Company dba Columbia City Mill Services
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Levy Environmental Services Company dba Columbia City Mill Services"
+kind = "company"
+city = "Columbia City"
+state = "IN"
+address = "7373 South 800 East, Columbia City, IN 46725"
+lat = 41.04920
+lon = -85.34925
+osha_id = "139816"
+
+sector = "Metal"
+products = ["Mini-mills, steel"]
+naics = "331110"
+
+employees = 47
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+parent = "Levy Environmental Services Company"
+description = "NAICS 331110: mini-mills, steel."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

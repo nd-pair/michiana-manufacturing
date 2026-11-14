@@ -1,0 +1,26 @@
+# U.S. Granules Corporation
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "U.S. Granules Corporation"
+kind = "company"
+city = "Plymouth"
+state = "IN"
+address = "1433 Western Avenue, Plymouth, IN 46563"
+lat = 41.35440
+lon = -86.31623
+osha_id = "91569"
+
+sector = "Metal"
+products = ["Aluminum flakes made from purchased aluminum"]
+naics = "331314"
+
+employees = 39
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 331314: aluminum flakes made from purchased aluminum."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

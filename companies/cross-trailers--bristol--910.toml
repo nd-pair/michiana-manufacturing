@@ -1,0 +1,26 @@
+# Cross Trailers
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Cross Trailers"
+kind = "company"
+city = "Bristol"
+state = "IN"
+address = "910 Maple Street, Bristol, IN 46507"
+lat = 41.71365
+lon = -85.82205
+osha_id = "1499159"
+
+sector = "Vehicles & RVs"
+products = ["Travel trailers, recreational, manufacturing"]
+naics = "336214"
+
+employees = 156
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 336214: travel trailers, recreational, manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

@@ -1,0 +1,26 @@
+# Vitracoat America, Inc.
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Vitracoat America, Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "28767 Holiday Place, ELkhart, IN 46517, Elkhart, IN 46514"
+lat = 41.65719
+lon = -86.01872
+osha_id = "280221"
+
+sector = "Materials & composites"
+products = ["Industrial product finishes and coatings (i.e., paint) manufacturing"]
+naics = "325510"
+
+employees = 15
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 325510: industrial product finishes and coatings (i.e., paint) manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

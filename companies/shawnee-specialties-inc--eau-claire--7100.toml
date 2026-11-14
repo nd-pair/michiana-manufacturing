@@ -9,16 +9,17 @@ address = "7100 3rd Street, Eau Claire, MI 49111"
 lat = 41.98945
 lon = -86.30401
 website = "https://shawneeinc.com"
+osha_id = "1565326"
 
 sector = "Metal"
 products = ["Nonferrous (except Aluminum) Die-Casting Foundries"]
 naics = "331522"
 
-employees = 47
+employees = 35
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Die Casting. NAICS 331522: nonferrous (except aluminum) die-casting foundries."
 

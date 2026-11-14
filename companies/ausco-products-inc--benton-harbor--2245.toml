@@ -9,16 +9,17 @@ address = "2245 Pipestone Road, Benton Harbor, MI 49022"
 lat = 42.07725
 lon = -86.41668
 website = "https://auscoproducts.com"
+osha_id = "1415064"
 
 sector = "Vehicles & RVs"
 products = ["Motor Vehicle Brake System Manufacturing"]
 naics = "336340"
 
-employees = 90
+employees = 101
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Off-Highway Brakes. NAICS 336340: motor vehicle brake system manufacturing."
 

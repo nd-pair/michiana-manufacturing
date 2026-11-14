@@ -9,16 +9,17 @@ address = "750 East Middlebury Street, Shipshewana, IN 46565"
 lat = 41.67671
 lon = -85.57159
 website = "https://midwayproducts.com"
+osha_id = "929662"
 
 sector = "Vehicles & RVs"
 products = ["Motor Vehicle Metal Stamping"]
 naics = "336370"
 
-employees = 250
+employees = 185
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Automotive Metal Stampings. NAICS 336370: motor vehicle metal stamping."
 

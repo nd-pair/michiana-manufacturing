@@ -1,0 +1,27 @@
+# Ztc Elkhart Components
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Ztc Elkhart Components"
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "3740 MANCHESTER DR, Elkhart, IN 46514"
+lat = 41.69084
+lon = -86.03425
+osha_id = "1491498"
+
+sector = "Wood, paper & furniture"
+products = ["Engineered Wood Member Manufacturing"]
+naics = "321215"
+
+employees = 21
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+parent = "US LBM Holdings LLC"
+description = "NAICS 321215: engineered wood member manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

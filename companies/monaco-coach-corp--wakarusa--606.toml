@@ -9,6 +9,7 @@ address = "606 Nelsons Parkway, Wakarusa, IN 46573"
 lat = 41.52760
 lon = -86.01024
 website = "https://monacocoach.com"
+osha_id = "1433249"
 
 sector = "Vehicles & RVs"
 products = ["Motor Home Manufacturing"]

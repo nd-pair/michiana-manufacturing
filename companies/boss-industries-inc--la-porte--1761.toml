@@ -9,16 +9,17 @@ address = "1761 Genesis Drive, La Porte, IN 46350"
 lat = 41.63478
 lon = -86.70811
 website = "https://bossair.com"
+osha_id = "1425649"
 
 sector = "Mechatronics & automation"
 products = ["Air and Gas Compressor Manufacturing"]
 naics = "333912"
 
-employees = 40
+employees = 79
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Air Compressors. NAICS 333912: air and gas compressor manufacturing."
 

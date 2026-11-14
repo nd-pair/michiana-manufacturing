@@ -10,17 +10,18 @@ address = "1900 West Lusher Avenue, Elkhart, IN 46517"
 lat = 41.66729
 lon = -85.99954
 website = "https://www.futurefoam.com"
+osha_id = "1433980"
 status_note = "Flexible Foam merged into Innocor in 2014; the plant went to Future Foam in 2020."
 
 sector = "Materials & composites"
 products = ["Urethane and Other Foam Product (except Polystyrene) Manufacturing"]
 naics = "326150"
 
-employees = 72
+employees = 53
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Polyurethane Foam. NAICS 326150: urethane and other foam product (except polystyrene) manufacturing."
 

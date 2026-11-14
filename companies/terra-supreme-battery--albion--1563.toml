@@ -1,0 +1,26 @@
+# Terra Supreme Battery
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Terra Supreme Battery"
+kind = "company"
+city = "Albion"
+state = "IN"
+address = "1563 E State Rd 8, Albion, IN 46701"
+lat = 41.39596
+lon = -85.39242
+osha_id = "1427434"
+
+sector = "Electronics"
+products = ["Lead acid storage batteries manufacturing"]
+naics = "335910"
+
+employees = 23
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 335910: lead acid storage batteries manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

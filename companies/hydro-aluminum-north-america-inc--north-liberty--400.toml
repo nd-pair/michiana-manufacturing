@@ -9,16 +9,17 @@ address = "400 South Main Street, North Liberty, IN 46554"
 lat = 41.53083
 lon = -86.42655
 website = "https://hydrona.com"
+osha_id = "1371117"
 
 sector = "Metal"
 products = ["Other Aluminum Rolling and Drawing"]
 naics = "331319"
 
-employees = 220
+employees = 115
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Aluminum Extrusions, Anodizing & Metal Fabrication. NAICS 331319: other aluminum rolling and drawing."
 

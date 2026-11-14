@@ -1,0 +1,27 @@
+# Walkerton - ARCo
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Walkerton - ARCo"
+kind = "company"
+city = "Walkerton"
+state = "IN"
+address = "201 Industrial Drive, Walkerton, IN 46574"
+lat = 41.46673
+lon = -86.49394
+osha_id = "84688"
+
+sector = "Materials & composites"
+products = ["Rolls and roll coverings, rubber (e.g., industrial, papermill, painters', steelmill) manufacturing"]
+naics = "326299"
+
+employees = 43
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+parent = "American Roller Company LLC"
+description = "NAICS 326299: rolls and roll coverings, rubber (e.g., industrial, papermill, painters', steelmill) manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

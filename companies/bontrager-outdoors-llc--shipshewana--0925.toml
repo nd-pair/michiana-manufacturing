@@ -1,0 +1,26 @@
+# Bontrager Outdoors, LLC
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Bontrager Outdoors, LLC"
+kind = "company"
+city = "Shipshewana"
+state = "IN"
+address = "0925 N State Road 5, Shipshewana, IN 46540"
+lat = 41.66456
+lon = -85.58031
+osha_id = "1517808"
+
+sector = "Vehicles & RVs"
+products = ["Travel trailers, recreational, manufacturing"]
+naics = "336214"
+
+employees = 35
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 336214: travel trailers, recreational, manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

@@ -10,17 +10,18 @@ address = "2424 East Kercher Road, Goshen, IN 46526"
 lat = 41.55150
 lon = -85.79345
 website = "https://www.cranecomposites.com"
+osha_id = "1441867"
 status_note = "The former Noble Composites plant is Crane Composites' Goshen plant; Crane agreed to sell the business to KPS Capital Partners in December 2024."
 
 sector = "Materials & composites"
 products = ["Mineral Wool Manufacturing"]
 naics = "327993"
 
-employees = 110
+employees = 99
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Fiberglass Sidewalls. NAICS 327993: mineral wool manufacturing."
 

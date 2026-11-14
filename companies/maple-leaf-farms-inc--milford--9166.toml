@@ -9,16 +9,17 @@ address = "9166 North 200 East, Milford, IN 46542"
 lat = 41.36600
 lon = -85.80596
 website = "https://mapleleaffarms.com"
+osha_id = "1428600"
 
 sector = "Food & consumer goods"
 products = ["Poultry Processing"]
 naics = "311615"
 
-employees = 450
+employees = 142
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Corporate Headquarters & Poultry Processing. NAICS 311615: poultry processing."
 

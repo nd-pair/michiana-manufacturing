@@ -1,0 +1,27 @@
+# Edcoat
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Edcoat"
+kind = "company"
+city = "New Carlisle"
+state = "MI"
+address = "30350 Edison Rd, New Carlisle, MI 46552"
+lat = 41.69375
+lon = -86.45481
+osha_id = "1321482"
+
+sector = "Metal"
+products = ["Coating metals and metal products for the trade"]
+naics = "332812"
+
+employees = 90
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+parent = "Eadcoat"
+description = "NAICS 332812: coating metals and metal products for the trade."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

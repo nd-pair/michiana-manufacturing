@@ -1,0 +1,26 @@
+# Mahoney Foundries INC.
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Mahoney Foundries INC."
+kind = "company"
+city = "Kendallville"
+state = "IN"
+address = "209 W Ohio Street, Kendallville, IN 46755"
+lat = 41.43273
+lon = -85.27100
+osha_id = "1080502"
+
+sector = "Metal"
+products = ["Aluminum castings (except die-castings), unfinished, manufacturing"]
+naics = "331524"
+
+employees = 125
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 331524: aluminum castings (except die-castings), unfinished, manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

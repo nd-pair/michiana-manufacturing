@@ -9,16 +9,17 @@ address = "1210 County Road 6 West, Elkhart, IN 46514"
 lat = 41.72468
 lon = -85.99781
 website = "https://plasticcomponentsinc.com"
+osha_id = "911909"
 
 sector = "Materials & composites"
 products = ["All Other Plastics Product Manufacturing"]
 naics = "326199"
 
-employees = 50
+employees = 23
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Plastic Thermoforming, Tooling & Vinyl Molding. NAICS 326199: all other plastics product manufacturing."
 

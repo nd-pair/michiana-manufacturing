@@ -9,17 +9,18 @@ address = "400 Indiana Highway 212, Michigan City, IN 46360"
 lat = 41.73338
 lon = -86.82579
 website = "https://sanlo.com"
+osha_id = "1115413"
 uei = "DYTVF19PK6G6"
 
 sector = "Electronics"
 products = ["Other Communication and Energy Wire Manufacturing"]
 naics = "335929"
 
-employees = 75
+employees = 96
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Plastic Coated Steel Wire Rope Products, Aircraft-Type Cables & Cable Assemblies. NAICS 335929: other communication and energy wire manufacturing."
 

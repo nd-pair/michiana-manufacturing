@@ -1,0 +1,26 @@
+# Modular Technical Service
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Modular Technical Service"
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "28672 Holiday Place, Elkhart, IN 46517"
+lat = 41.65523
+lon = -86.01892
+osha_id = "223350"
+
+sector = "Food & consumer goods"
+products = ["Musical instrument cases, all materials, manufacturing"]
+naics = "316998"
+
+employees = 19
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 316998: musical instrument cases, all materials, manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

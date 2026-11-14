@@ -1,0 +1,26 @@
+# Green Stream Company
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Green Stream Company"
+kind = "company"
+city = "New Paris"
+state = "IN"
+address = "71347 CR23, New Paris, IN 46553"
+lat = 41.45898
+lon = -85.83974
+osha_id = "887694"
+
+sector = "Wood, paper & furniture"
+products = ["Pallet parts, wood, manufacturing"]
+naics = "321920"
+
+employees = 9
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 321920: pallet parts, wood, manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

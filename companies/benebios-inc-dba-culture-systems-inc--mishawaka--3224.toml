@@ -1,0 +1,26 @@
+# Benebios, Inc. DBA Culture Systems, Inc.
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Benebios, Inc. DBA Culture Systems, Inc."
+kind = "company"
+city = "Mishawaka"
+state = "IN"
+address = "3224 N Home St, Mishawaka, IN 46545"
+lat = 41.68961
+lon = -86.14871
+osha_id = "997936"
+
+sector = "Food & consumer goods"
+products = ["Cocktail mixes, dry, manufacturing"]
+naics = "311999"
+
+employees = 22
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 311999: cocktail mixes, dry, manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

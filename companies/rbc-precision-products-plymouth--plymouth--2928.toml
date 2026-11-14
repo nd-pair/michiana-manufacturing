@@ -9,16 +9,17 @@ address = "2928 Gary Drive, Plymouth, IN 46563"
 lat = 41.36293
 lon = -86.35044
 website = "https://rbcbearings.com"
+osha_id = "239304"
 
 sector = "Metal"
 products = ["Ball and Roller Bearing Manufacturing"]
 naics = "332991"
 
-employees = 120
+employees = 45
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Loose Needle Rollers & Needle Bearings. NAICS 332991: ball and roller bearing manufacturing."
 

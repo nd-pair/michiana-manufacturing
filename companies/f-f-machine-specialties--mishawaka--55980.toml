@@ -10,17 +10,18 @@ address = "55980 Russell Industrial Parkway, Mishawaka, IN 46545"
 lat = 41.68155
 lon = -86.12244
 website = "https://complexusmedical.com"
+osha_id = "153083"
 status_note = "F&F Machine Specialties renamed itself Complexus Medical in 2013."
 
 sector = "Metal"
 products = ["Machine Shops"]
 naics = "332710"
 
-employees = 30
+employees = 92
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Fixtures, Medical Tooling & Precision Machining Job Shop. NAICS 332710: machine shops."
 

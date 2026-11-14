@@ -1,0 +1,26 @@
+# Arplank
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Arplank"
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "920 Instamatic Drive, Elkhart, IN 46516"
+lat = 41.68010
+lon = -85.92388
+osha_id = "1436746"
+
+sector = "Materials & composites"
+products = ["Packaging, foam plastics (except polystyrene), manufacturing"]
+naics = "326150"
+
+employees = 23
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 326150: packaging, foam plastics (except polystyrene), manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

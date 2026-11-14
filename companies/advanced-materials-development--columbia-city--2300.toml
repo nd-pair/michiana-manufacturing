@@ -1,0 +1,27 @@
+# Advanced Materials Development
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Advanced Materials Development"
+kind = "company"
+city = "Columbia City"
+state = "IN"
+address = "2300 E. Cardinal Drive, Columbia City, IN 46725"
+lat = 41.14329
+lon = -85.44725
+osha_id = "577756"
+
+sector = "Metal"
+products = ["Steel wire drawing"]
+naics = "331222"
+
+employees = 72
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+parent = "Fort Wayne Metals Research Products LLC"
+description = "NAICS 331222: steel wire drawing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

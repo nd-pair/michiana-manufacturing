@@ -9,16 +9,17 @@ address = "300 West Chicago Street, Syracuse, IN 46567"
 lat = 41.41915
 lon = -85.74996
 website = "https://rinkerboats.com"
+osha_id = "1411956"
 
 sector = "Vehicles & RVs"
 products = ["Boat Building"]
 naics = "336612"
 
-employees = 480
+employees = 117
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Fiberglass Boats. NAICS 336612: boat building."
 

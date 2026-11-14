@@ -9,16 +9,17 @@ address = "1220 North 14th Street, Niles, MI 49120"
 lat = 41.83952
 lon = -86.24156
 website = "https://toefco.com"
+osha_id = "1189751"
 
 sector = "Metal"
 products = ["Metal Coating, Engraving (except Jewelry and Silverware), and Allied Services To Manufacturers"]
 naics = "332812"
 
-employees = 50
+employees = 73
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Metal Parts Powder Coating. NAICS 332812: metal coating, engraving (except jewelry and silverware), and allied services to manufacturers."
 

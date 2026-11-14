@@ -1,0 +1,26 @@
+# B&J Specialty, INC
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "B&J Specialty, INC"
+kind = "company"
+city = "Wawaka"
+state = "IN"
+address = "7919 North 100 East, Wawaka, IN 46794"
+lat = 41.46650
+lon = -85.44294
+osha_id = "1015966"
+
+sector = "Metal"
+products = ["Machine shops"]
+naics = "332710"
+
+employees = 88
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 332710: machine shops."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

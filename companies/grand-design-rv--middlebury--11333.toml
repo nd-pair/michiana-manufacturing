@@ -1,0 +1,27 @@
+# Grand Design Rv
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Grand Design Rv"
+kind = "company"
+city = "Middlebury"
+state = "IN"
+address = "11333 Co Rd 2, Middlebury, IN 46540"
+lat = 41.75493
+lon = -85.68716
+osha_id = "853742"
+
+sector = "Vehicles & RVs"
+products = ["Travel Trailer and Camper Manufacturing"]
+naics = "336214"
+
+employees = 2021
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+parent = "Winnebago"
+description = "NAICS 336214: travel trailer and camper manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

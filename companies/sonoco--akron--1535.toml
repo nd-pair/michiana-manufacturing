@@ -1,0 +1,26 @@
+# Sonoco
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Sonoco"
+kind = "company"
+city = "Akron"
+state = "IN"
+address = "1535 S State Road 19, Akron, IN 46910"
+lat = 41.03327
+lon = -86.02529
+osha_id = "171066"
+
+sector = "Wood, paper & furniture"
+products = ["Manufacturer of Tubes & Cores"]
+naics = "322299"
+
+employees = 45
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 322299: manufacturer of tubes & cores."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

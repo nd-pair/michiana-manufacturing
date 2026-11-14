@@ -9,16 +9,17 @@ address = "1456 State Road 331 North, Bremen, IN 46506"
 lat = 41.45832
 lon = -86.15586
 website = "https://bremtown.com"
+osha_id = "1558922"
 
 sector = "Wood, paper & furniture"
 products = ["All Other Miscellaneous Wood Product Manufacturing"]
 naics = "321999"
 
-employees = 70
+employees = 32
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Full & Semi-Custom Cabinetry. NAICS 321999: all other miscellaneous wood product manufacturing."
 

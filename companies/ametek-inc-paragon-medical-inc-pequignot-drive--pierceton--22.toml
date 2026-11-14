@@ -1,0 +1,27 @@
+# Ametek, Inc PARAGON MEDICAL, INC. PEQUIGNOT DRIVE
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Ametek, Inc PARAGON MEDICAL, INC. PEQUIGNOT DRIVE"
+kind = "company"
+city = "Pierceton"
+state = "IN"
+address = "22 PEQUIGNOT DRIVE, Pierceton, IN 46562"
+lat = 41.20543
+lon = -85.70392
+osha_id = "1363316"
+
+sector = "Medical devices & other"
+products = ["Surgical and Medical Instrument Manufacturing"]
+naics = "339112"
+
+employees = 121
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+parent = "Ametek, Inc PARAGON MEDICAL, INC. 22 PEQUIGNOT DRIVE"
+description = "NAICS 339112: surgical and medical instrument manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

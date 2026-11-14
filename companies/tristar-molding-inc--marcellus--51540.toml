@@ -9,16 +9,17 @@ address = "51540 M-40, Marcellus, MI 49067"
 lat = 42.04791
 lon = -85.82565
 website = "https://tristarmolding.com"
+osha_id = "649274"
 
 sector = "Mechatronics & automation"
 products = ["Industrial Mold Manufacturing"]
 naics = "333511"
 
-employees = 20
+employees = 51
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Custom Plastic Injection Molding. NAICS 333511: industrial mold manufacturing."
 

@@ -1,0 +1,26 @@
+# Protec Panel & Truss Manufacturing
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Protec Panel & Truss Manufacturing"
+kind = "company"
+city = "Bremen"
+state = "IN"
+address = "323 High Rd, Bremen, IN 46506"
+lat = 41.45500
+lon = -86.14708
+osha_id = "1505608"
+
+sector = "Wood, paper & furniture"
+products = ["Manufacturing"]
+naics = "321992"
+
+employees = 107
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 321992: manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

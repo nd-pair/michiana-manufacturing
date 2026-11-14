@@ -1,0 +1,26 @@
+# Dependable Metal Treating, Inc
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Dependable Metal Treating, Inc"
+kind = "company"
+city = "Kendallville"
+state = "IN"
+address = "902 E. Dowling St, Kendallville, IN 46755"
+lat = 41.44701
+lon = -85.25131
+osha_id = "937185"
+
+sector = "Metal"
+products = ["Heat treating metals and metal products for the trade"]
+naics = "332811"
+
+employees = 21
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 332811: heat treating metals and metal products for the trade."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

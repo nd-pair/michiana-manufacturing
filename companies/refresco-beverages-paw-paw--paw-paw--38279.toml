@@ -1,0 +1,27 @@
+# Refresco Beverages Paw Paw
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Refresco Beverages Paw Paw"
+kind = "company"
+city = "Paw Paw"
+state = "MI"
+address = "38279 W Red Arrow Hwy, Paw Paw, MI 49079"
+lat = 42.21406
+lon = -85.92010
+osha_id = "1029214"
+
+sector = "Food & consumer goods"
+products = ["Fruit juices, fresh, manufacturing"]
+naics = "311421"
+
+employees = 383
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+parent = "Refresco Beverages US Inc."
+description = "NAICS 311421: fruit juices, fresh, manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

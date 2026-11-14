@@ -9,16 +9,17 @@ address = "107 Industrial Parkway East, Middlebury, IN 46540"
 lat = 41.64496
 lon = -85.70191
 website = "https://lw-eng.com"
+osha_id = "223666"
 
 sector = "Metal"
 products = ["All Other Miscellaneous Fabricated Metal Product Manufacturing"]
 naics = "332999"
 
-employees = 146
+employees = 214
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Steel & Aluminum Fabrication. NAICS 332999: all other miscellaneous fabricated metal product manufacturing."
 

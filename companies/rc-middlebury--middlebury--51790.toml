@@ -1,0 +1,27 @@
+# RC Middlebury
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "RC Middlebury"
+kind = "company"
+city = "Middlebury"
+state = "IN"
+address = "51790 CR 39, Middlebury, IN 46540"
+lat = 41.74283
+lon = -85.69856
+osha_id = "1224882"
+
+sector = "Vehicles & RVs"
+products = ["Truck trailer manufacturing"]
+naics = "336212"
+
+employees = 81
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+parent = "RC Trailers"
+description = "NAICS 336212: truck trailer manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

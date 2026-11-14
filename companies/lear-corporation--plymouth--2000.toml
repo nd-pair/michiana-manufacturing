@@ -1,0 +1,26 @@
+# Lear Corporation
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Lear Corporation"
+kind = "company"
+city = "Plymouth"
+state = "IN"
+address = "2000 Walter Glaub Drive, Plymouth, IN 46563"
+lat = 41.35796
+lon = -86.33620
+osha_id = "738002"
+
+sector = "Vehicles & RVs"
+products = ["Automotive Supplier"]
+naics = "336320"
+
+employees = 49
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 336320: automotive supplier."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

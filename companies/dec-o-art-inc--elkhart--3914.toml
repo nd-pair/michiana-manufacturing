@@ -9,16 +9,17 @@ address = "3914 Lexington Park Drive, Elkhart, IN 46514"
 lat = 41.69080
 lon = -86.02554
 website = "https://dec-o-art.com"
+osha_id = "1441100"
 
 sector = "Wood, paper & furniture"
 products = ["Die-Cut Paper and Paperboard Office Supplies Manufacturing"]
 naics = "322231"
 
-employees = 42
+employees = 53
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Tags, Labels & Decals. NAICS 322231: die-cut paper and paperboard office supplies manufacturing."
 

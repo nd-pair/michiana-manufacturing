@@ -1,0 +1,27 @@
+# Foundation Court
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Foundation Court"
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "3722 Foundation Court, South Bend, IN 46628"
+lat = 41.71153
+lon = -86.30241
+osha_id = "1071719"
+
+sector = "Metal"
+products = ["Anodizing metals and metal products for the trade"]
+naics = "332813"
+
+employees = 112
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+parent = "Imagineering Enterprises, LLC"
+description = "NAICS 332813: anodizing metals and metal products for the trade."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

@@ -1,0 +1,26 @@
+# A&M Systems
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "A&M Systems"
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "4121 Eastland Dr, Elkhart, IN 46516"
+lat = 41.67905
+lon = -85.90696
+osha_id = "1433601"
+
+sector = "Electronics"
+products = ["Door opening and closing devices, electrical, manufacturing"]
+naics = "335999"
+
+employees = 18
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 335999: door opening and closing devices, electrical, manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

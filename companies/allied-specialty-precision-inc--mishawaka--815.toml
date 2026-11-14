@@ -9,17 +9,18 @@ address = "815 East Lowell Avenue, Mishawaka, IN 46545"
 lat = 41.67629
 lon = -86.17202
 website = "https://aspi-nc.com"
+osha_id = "364232"
 uei = "R9NYEJ234FY5"
 
 sector = "Metal"
 products = ["Machine Shops"]
 naics = "332710"
 
-employees = 80
+employees = 42
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Precision Components, Shafts, Bushings, Pistons, Sleeves, Fasteners & Gears. NAICS 332710: machine shops."
 

@@ -9,6 +9,7 @@ address = "2000 Industrial Pkwy, Elkhart, IN 46516"
 lat = 41.68566
 lon = -85.93467
 website = "https://www.speedgrip.com"
+osha_id = "356670"
 
 sector = "Metal"
 products = ["Workholding & fixtures"]

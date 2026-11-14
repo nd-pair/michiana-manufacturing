@@ -8,16 +8,17 @@ state = "IN"
 address = "1655 Gateway Court, Elkhart, IN 46514"
 lat = 41.72904
 lon = -86.00820
+osha_id = "1247157"
 
 sector = "Food & consumer goods"
 products = ["Curtain and Drapery Mills"]
 naics = "314121"
 
-employees = 100
+employees = 40
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Window Treatments & Coverings. NAICS 314121: curtain and drapery mills."
 

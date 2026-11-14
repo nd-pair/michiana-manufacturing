@@ -1,0 +1,26 @@
+# Mann Metal Finishing, Inc.
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Mann Metal Finishing, Inc."
+kind = "company"
+city = "Hartford"
+state = "MI"
+address = "200 Prospect St., Hartford, MI 49057"
+lat = 42.21138
+lon = -86.16953
+osha_id = "555088"
+
+sector = "Metal"
+products = ["Polishing metals and metal products for the trade"]
+naics = "332813"
+
+employees = 35
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 332813: polishing metals and metal products for the trade."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

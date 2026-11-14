@@ -1,0 +1,26 @@
+# Everlast Roofing Inc.
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Everlast Roofing Inc."
+kind = "company"
+city = "Howe"
+state = "IN"
+address = "7180 N 050 E, Howe, IN 46746"
+lat = 41.74587
+lon = -85.41836
+osha_id = "1477325"
+
+sector = "Metal"
+products = ["Sheet metal work manufacturing"]
+naics = "332322"
+
+employees = 59
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 332322: sheet metal work manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

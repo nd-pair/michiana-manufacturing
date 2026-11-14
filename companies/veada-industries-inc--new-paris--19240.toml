@@ -9,16 +9,17 @@ address = "19240 Tarman Road, New Paris, IN 46553"
 lat = 41.50930
 lon = -85.83208
 website = "https://veada.com"
+osha_id = "899025"
 
 sector = "Wood, paper & furniture"
 products = ["Institutional Furniture Manufacturing"]
 naics = "337127"
 
-employees = 500
+employees = 147
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Boat Seating for Bass Boats, Runaboats, Cruisers & Pontoons & Tents & Cushions for Pop-Up Campers. NAICS 337127: institutional furniture manufacturing."
 

@@ -9,16 +9,17 @@ address = "3389 West Linco Road, Stevensville, MI 49127"
 lat = 41.98579
 lon = -86.53475
 website = "https://supremecasting.com"
+osha_id = "1315407"
 
 sector = "Metal"
 products = ["Aluminum Foundries (except Die-Casting)"]
 naics = "331524"
 
-employees = 60
+employees = 53
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Automotive Castings. NAICS 331524: aluminum foundries (except die-casting)."
 

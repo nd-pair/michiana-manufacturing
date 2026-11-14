@@ -9,16 +9,17 @@ address = "4500 Middlebury Street, Elkhart, IN 46516"
 lat = 41.68123
 lon = -85.90039
 website = "https://godfreymarine.com"
+osha_id = "1411856"
 
 sector = "Vehicles & RVs"
 products = ["Boat Building"]
 naics = "336612"
 
-employees = 650
+employees = 373
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Divisional Headquarters & Boats. NAICS 336612: boat building."
 

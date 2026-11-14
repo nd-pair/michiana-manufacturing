@@ -1,0 +1,27 @@
+# Worldwide Foam - Conant
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Worldwide Foam - Conant"
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "1806 Conant St, Elkhart, IN 46516"
+lat = 41.68559
+lon = -85.93670
+osha_id = "840170"
+
+sector = "Materials & composites"
+products = ["Foam plastics products (except polystrene) manufacturing"]
+naics = "326150"
+
+employees = 72
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+parent = "Jacobs and Thompson LTD"
+description = "NAICS 326150: foam plastics products (except polystrene) manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

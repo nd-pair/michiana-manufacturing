@@ -1,0 +1,26 @@
+# Standard Motor Products
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Standard Motor Products"
+kind = "company"
+city = "Mishawaka"
+state = "IN"
+address = "1718 N. Home Street, Mishawaka, IN 46545"
+lat = 41.67509
+lon = -86.14809
+osha_id = "953194"
+
+sector = "Vehicles & RVs"
+products = ["Ignition wiring harness for internal combustion engines manufacturing"]
+naics = "336320"
+
+employees = 49
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 336320: ignition wiring harness for internal combustion engines manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

@@ -1,0 +1,20 @@
+# American Cargo Group Trailers LLC
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "American Cargo Group Trailers LLC"
+kind = "company"
+city = "Bristol"
+state = "IN"
+address = "15054 County Road 4, Bristol, IN 46507"
+lat = 41.73968
+lon = -85.75778
+osha_id = "1514299"
+
+sector = "Vehicles & RVs"
+products = ["Travel trailers, recreational, manufacturing"]
+naics = "336214"
+
+description = "NAICS 336214: travel trailers, recreational, manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

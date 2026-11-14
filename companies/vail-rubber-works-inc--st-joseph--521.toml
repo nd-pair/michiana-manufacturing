@@ -1,0 +1,26 @@
+# Vail Rubber Works, Inc.
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Vail Rubber Works, Inc."
+kind = "company"
+city = "St. Joseph"
+state = "MI"
+address = "521 Langley Avenue, St. Joseph, MI 49085"
+lat = 42.10367
+lon = -86.47491
+osha_id = "546378"
+
+sector = "Materials & composites"
+products = ["Manufacturing"]
+naics = "326299"
+
+employees = 90
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 326299: manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

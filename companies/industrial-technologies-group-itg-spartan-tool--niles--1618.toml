@@ -1,0 +1,26 @@
+# Industrial Technologies Group ITG Spartan Tool
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Industrial Technologies Group ITG Spartan Tool"
+kind = "company"
+city = "Niles"
+state = "MI"
+address = "1618 Terminal Road, Niles, MI 49120"
+lat = 41.84765
+lon = -86.22952
+osha_id = "1503169"
+
+sector = "Mechatronics & automation"
+products = ["Sewer and drain cleaning equipment manufacturing"]
+naics = "333310"
+
+employees = 118
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 333310: sewer and drain cleaning equipment manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

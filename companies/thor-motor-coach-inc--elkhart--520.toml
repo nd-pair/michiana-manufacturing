@@ -1,0 +1,20 @@
+# Thor Motor Coach, Inc
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Thor Motor Coach, Inc"
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "520 CR 15, Elkhart, IN 46516"
+lat = 41.68674
+lon = -85.90736
+osha_id = "1433233"
+
+sector = "Vehicles & RVs"
+products = ["Motor homes, self-contained, assembling on purchased chassis"]
+naics = "336213"
+
+description = "NAICS 336213: motor homes, self-contained, assembling on purchased chassis."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

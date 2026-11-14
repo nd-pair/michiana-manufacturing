@@ -1,0 +1,26 @@
+# AmHawk LLC
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "AmHawk LLC"
+kind = "company"
+city = "Hartford"
+state = "MI"
+address = "200 Dunbar St, Hartford, MI 49057"
+lat = 42.20754
+lon = -86.17313
+osha_id = "1467310"
+
+sector = "Metal"
+products = ["Sheet metal work (except stampings) manufacturing"]
+naics = "332322"
+
+employees = 38
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 332322: sheet metal work (except stampings) manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

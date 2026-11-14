@@ -1,0 +1,27 @@
+# Special-Lite Decatur
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Special-Lite Decatur"
+kind = "company"
+city = "Decatur"
+state = "MI"
+address = "860 S. Williams St., Decatur, MI 49045"
+lat = 42.09609
+lon = -85.97227
+osha_id = "175883"
+
+sector = "Metal"
+products = ["Frames, door and window, metal, manufacturing"]
+naics = "332321"
+
+employees = 195
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+parent = "Special-Lite, Inc."
+description = "NAICS 332321: frames, door and window, metal, manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

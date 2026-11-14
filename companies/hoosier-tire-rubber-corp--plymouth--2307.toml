@@ -9,16 +9,17 @@ address = "2307 Pidco Drive, Plymouth, IN 46563"
 lat = 41.35164
 lon = -86.33466
 website = "https://hoosiertire.com"
+osha_id = "113245"
 
 sector = "Materials & composites"
 products = ["All Other Rubber Product Manufacturing"]
 naics = "326299"
 
-employees = 150
+employees = 454
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Racing Tires. NAICS 326299: all other rubber product manufacturing."
 

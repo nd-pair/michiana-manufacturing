@@ -8,16 +8,17 @@ state = "MI"
 address = "2193 Industrial Drive, Niles, MI 49120"
 lat = 41.84990
 lon = -86.22499
+osha_id = "1472133"
 
 sector = "Wood, paper & furniture"
 products = ["Wood Container and Pallet Manufacturing"]
 naics = "321920"
 
-employees = 65
+employees = 41
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Wooden Pallets, Boxes & Crates, Lumber Processing & Heat Treating. NAICS 321920: wood container and pallet manufacturing."
 

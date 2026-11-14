@@ -9,16 +9,17 @@ address = "122 Anchor Road, Michigan City, IN 46360"
 lat = 41.73699
 lon = -86.83065
 website = "https://ktrcorp.com"
+osha_id = "1562213"
 
 sector = "Mechatronics & automation"
 products = ["Mechanical Power Transmission Equipment Manufacturing"]
 naics = "333613"
 
-employees = 45
+employees = 32
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Power Transmission Equipment. NAICS 333613: mechanical power transmission equipment manufacturing."
 

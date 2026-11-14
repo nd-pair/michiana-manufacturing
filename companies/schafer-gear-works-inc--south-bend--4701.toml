@@ -9,6 +9,7 @@ address = "4701 Nimtz Parkway, South Bend, IN 46628"
 lat = 41.72875
 lon = -86.31952
 website = "https://schafergear.com"
+osha_id = "1470695"
 
 humanoid = ["reducers"]
 humanoid_note = "Spur and helical gears from 0.125 to 32 inches at tolerances to 0.0004 inch, hobbed, shaped and broached, in South Bend and Roscoe, Illinois: the gear sets inside a planetary reducer. No robot reducer product found (company site, November 2026)."
@@ -17,11 +18,11 @@ sector = "Mechatronics & automation"
 products = ["Speed Changer, Industrial High-Speed Drive, and Gear Manufacturing"]
 naics = "333612"
 
-employees = 80
+employees = 97
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Corporate Headquarters & Precision Gears for Industrial & Automotive Applications. NAICS 333612: speed changer, industrial high-speed drive, and gear manufacturing."
 

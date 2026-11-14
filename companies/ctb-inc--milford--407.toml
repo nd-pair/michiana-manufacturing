@@ -9,16 +9,17 @@ address = "407 North Main Street, Milford, IN 46542"
 lat = 41.41444
 lon = -85.84688
 website = "https://ctbinc.com"
+osha_id = "56187"
 
 sector = "Mechatronics & automation"
 products = ["Farm Machinery and Equipment Manufacturing"]
 naics = "333111"
 
-employees = 500
+employees = 166
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Corporate Headquarters & Poultry & Livestock Feed & Grain Storage, Handling & Conditioning Products & Systems. NAICS 333111: farm machinery and equipment manufacturing."
 

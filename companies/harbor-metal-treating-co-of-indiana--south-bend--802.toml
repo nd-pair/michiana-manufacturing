@@ -9,16 +9,17 @@ address = "802 South Fellows Street, South Bend, IN 46601"
 lat = 41.66785
 lon = -86.24415
 website = "https://bluewaterthermal.com"
+osha_id = "45304"
 
 sector = "Metal"
 products = ["Metal Heat Treating"]
 naics = "332811"
 
-employees = 35
+employees = 25
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Metal Tool & Die Heat Treating. NAICS 332811: metal heat treating."
 

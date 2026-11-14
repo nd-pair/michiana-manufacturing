@@ -9,16 +9,17 @@ address = "3622 North Home Street, Mishawaka, IN 46545"
 lat = 41.69319
 lon = -86.14925
 website = "https://pacbannerworks.com"
+osha_id = "1252765"
 
 sector = "Wood, paper & furniture"
 products = ["Commercial Screen Printing"]
 naics = "323113"
 
-employees = 30
+employees = 38
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Plastic Screen Printing. NAICS 323113: commercial screen printing."
 

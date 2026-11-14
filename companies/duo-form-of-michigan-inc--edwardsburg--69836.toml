@@ -9,16 +9,17 @@ address = "69836 Kraus Road, Edwardsburg, MI 49112"
 lat = 41.78579
 lon = -86.09382
 website = "https://duoformplastics.com"
+osha_id = "1476821"
 
 sector = "Materials & composites"
 products = ["Plastics Plumbing Fixture Manufacturing"]
 naics = "326191"
 
-employees = 170
+employees = 172
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Plastic Bathtubs, Wall Surroundings & Shower Pans. NAICS 326191: plastics plumbing fixture manufacturing."
 

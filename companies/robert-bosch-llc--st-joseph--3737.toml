@@ -1,0 +1,26 @@
+# Robert Bosch LLC
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Robert Bosch LLC"
+kind = "company"
+city = "St. Joseph"
+state = "MI"
+address = "3737 Red Arrow Hwy, St. Joseph, MI 49085"
+lat = 42.05013
+lon = -86.51411
+osha_id = "798426"
+
+sector = "Vehicles & RVs"
+products = ["Brake cylinders, master and wheel, automotive, truck, and bus, manufacturing"]
+naics = "336340"
+
+employees = 182
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 336340: brake cylinders, master and wheel, automotive, truck, and bus, manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

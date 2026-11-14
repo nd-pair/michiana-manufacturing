@@ -1,0 +1,27 @@
+# Enprotech Industrial Technologies - LaPorte
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Enprotech Industrial Technologies - LaPorte"
+kind = "company"
+city = "LaPorte,"
+state = "IN"
+address = "3234 N. State Road 39, LaPorte,, IN 46350"
+lat = 41.65790
+lon = -86.73873
+osha_id = "1274212"
+
+sector = "Mechatronics & automation"
+products = ["Rolling mill machinery and equipment, metalworking, manufacturing"]
+naics = "333519"
+
+employees = 19
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+parent = "Enprotech Industrial Technologies, LLC"
+description = "NAICS 333519: rolling mill machinery and equipment, metalworking, manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

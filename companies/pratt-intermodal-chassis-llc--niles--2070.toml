@@ -1,0 +1,26 @@
+# Pratt Intermodal Chassis LLC
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Pratt Intermodal Chassis LLC"
+kind = "company"
+city = "Niles"
+state = "MI"
+address = "2070 S 3rd Street, Niles, MI 49120"
+lat = 41.79218
+lon = -86.25474
+osha_id = "945466"
+
+sector = "Vehicles & RVs"
+products = ["Chassis, heavy truck, with or without cabs, manufacturing"]
+naics = "336120"
+
+employees = 115
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 336120: chassis, heavy truck, with or without cabs, manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

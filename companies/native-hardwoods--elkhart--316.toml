@@ -1,0 +1,27 @@
+# Native Hardwoods
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Native Hardwoods"
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "316 Roske Dr, Elkhart, IN 46516"
+lat = 41.69377
+lon = -85.89582
+osha_id = "1315452"
+
+sector = "Wood, paper & furniture"
+products = ["Parquetry, hardwood, manufacturing"]
+naics = "321918"
+
+employees = 67
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+parent = "Chase Manufacturing DBA Native Hardwoods"
+description = "NAICS 321918: parquetry, hardwood, manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

@@ -9,6 +9,7 @@ address = "1353 Wade Dr Ste B, Elkhart, IN 46514"
 lat = 41.72636
 lon = -86.00360
 website = "http://www.bondtechnologies.net"
+osha_id = "1145101"
 uei = "MJGPRTAV5EU8"
 
 sector = "Software & services"

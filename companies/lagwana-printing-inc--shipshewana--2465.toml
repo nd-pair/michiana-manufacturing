@@ -1,0 +1,26 @@
+# LaGwana Printing Inc
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "LaGwana Printing Inc"
+kind = "company"
+city = "Shipshewana"
+state = "IN"
+address = "2465 N 850 W, Shipshewana, IN 46565"
+lat = 41.67524
+lon = -85.59030
+osha_id = "1378999"
+
+sector = "Wood, paper & furniture"
+products = ["Print shops, digital (except printing books)"]
+naics = "323111"
+
+employees = 40
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 323111: print shops, digital (except printing books)."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

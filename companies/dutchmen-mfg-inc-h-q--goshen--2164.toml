@@ -9,16 +9,17 @@ address = "2164 Caragana Court, Goshen, IN 46526"
 lat = 41.55678
 lon = -85.79703
 website = "https://dutchmenmfg.com"
+osha_id = "945996"
 
 sector = "Vehicles & RVs"
 products = ["Motor Home Manufacturing"]
 naics = "336213"
 
-employees = 100
+employees = 45
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Corporate Headquarters; Recreational Vehicles. NAICS 336213: motor home manufacturing."
 

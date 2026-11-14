@@ -8,6 +8,7 @@ state = "IN"
 address = "1147 N Michigan St, Elkhart, IN 46514"
 lat = 41.69717
 lon = -85.98564
+osha_id = "1190948"
 
 sector = "Electronics"
 products = ["Printed circuit boards", "Ruggedized electronics", "Injection molding"]

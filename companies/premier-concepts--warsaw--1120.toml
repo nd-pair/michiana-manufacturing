@@ -1,0 +1,27 @@
+# Premier Concepts
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Premier Concepts"
+kind = "company"
+city = "Warsaw"
+state = "IN"
+address = "1120 Polk Drive, Warsaw, IN 46582"
+lat = 41.27468
+lon = -85.86922
+osha_id = "1309277"
+
+sector = "Wood, paper & furniture"
+products = ["Countertops (i.e., kitchen, bathroom), wood or plastics laminated on wood, manufacturing"]
+naics = "337110"
+
+employees = 43
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+parent = "Patrick Industries"
+description = "NAICS 337110: countertops (i.e., kitchen, bathroom), wood or plastics laminated on wood, manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

@@ -1,0 +1,26 @@
+# Automated Products International LLC
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Automated Products International LLC"
+kind = "company"
+city = "LaGrange"
+state = "IN"
+address = "2840 North State Road 9, Suite 3, LaGrange, IN 46761"
+lat = 41.68318
+lon = -85.42563
+osha_id = "204513"
+
+sector = "Vehicles & RVs"
+products = ["Motor vehicle seats, metal framed, manufacturing"]
+naics = "336360"
+
+employees = 17
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 336360: motor vehicle seats, metal framed, manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

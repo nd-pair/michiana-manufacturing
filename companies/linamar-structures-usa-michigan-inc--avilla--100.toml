@@ -1,0 +1,27 @@
+# Linamar Structures USA (Michigan) Inc.
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Linamar Structures USA (Michigan) Inc."
+kind = "company"
+city = "Avilla"
+state = "IN"
+address = "100 Progress Way West, Avilla, IN 46710"
+lat = 41.36248
+lon = -85.22880
+osha_id = "1384162"
+
+sector = "Metal"
+products = ["Machine shops"]
+naics = "332710"
+
+employees = 64
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+parent = "Linamar Corporation"
+description = "NAICS 332710: machine shops."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

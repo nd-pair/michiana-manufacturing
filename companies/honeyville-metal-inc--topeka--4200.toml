@@ -9,17 +9,18 @@ address = "4200 South 900 West, Topeka, IN 46571"
 lat = 41.57878
 lon = -85.59978
 website = "https://honeyvillemetal.com"
+osha_id = "806556"
 uei = "G2T2AG4VL5J3"
 
 sector = "Metal"
 products = ["All Other Miscellaneous Fabricated Metal Product Manufacturing"]
 naics = "332999"
 
-employees = 56
+employees = 78
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Metal Fabrication, Dust Collection/filtration Systems & Agricultural Material Handling Equipment. NAICS 332999: all other miscellaneous fabricated metal product manufacturing."
 

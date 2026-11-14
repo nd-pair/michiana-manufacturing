@@ -9,16 +9,17 @@ address = "1144 North Detroit Street, Warsaw, IN 46580"
 lat = 41.24948
 lon = -85.85205
 website = "https://uniontoolcorp.com"
+osha_id = "1114992"
 
 sector = "Metal"
 products = ["Machine Shops"]
 naics = "332710"
 
-employees = 44
+employees = 25
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Material Handling Equipment, Roller Coaters, Feeders & Stackers. NAICS 332710: machine shops."
 

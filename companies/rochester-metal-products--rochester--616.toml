@@ -1,0 +1,26 @@
+# Rochester Metal Products
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Rochester Metal Products"
+kind = "company"
+city = "Rochester"
+state = "IN"
+address = "616 Indiana Avenue, Rochester, IN 46975"
+lat = 41.06840
+lon = -86.20951
+osha_id = "1064047"
+
+sector = "Metal"
+products = ["Gray iron foundries"]
+naics = "331511"
+
+employees = 348
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 331511: gray iron foundries."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

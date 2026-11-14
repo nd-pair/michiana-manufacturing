@@ -1,0 +1,27 @@
+# PEI Genesis South Bend
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "PEI Genesis South Bend"
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "4747 W. Cleveland Rd, South Bend, IN 46628"
+lat = 41.73292
+lon = -86.32183
+osha_id = "1272389"
+
+sector = "Electronics"
+products = ["334417 Electronic Connector Manufacturing"]
+naics = "334417"
+
+employees = 176
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+parent = "Pei-Genesis Inc"
+description = "NAICS 334417: 334417 electronic connector manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

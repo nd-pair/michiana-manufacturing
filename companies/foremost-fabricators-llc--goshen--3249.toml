@@ -1,0 +1,27 @@
+# Foremost Fabricators LLC
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Foremost Fabricators LLC"
+kind = "company"
+city = "Goshen"
+state = "IN"
+address = "3249 Maple City Drive, Goshen, IN 46526"
+lat = 41.54835
+lon = -85.78291
+osha_id = "938238"
+
+sector = "Metal"
+products = ["Custom roll forming metal products"]
+naics = "332114"
+
+employees = 155
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+parent = "Patrick Industries"
+description = "NAICS 332114: custom roll forming metal products."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

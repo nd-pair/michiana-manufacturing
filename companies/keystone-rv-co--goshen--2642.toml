@@ -9,16 +9,17 @@ address = "2642 Hackberry Drive, Goshen, IN 46526"
 lat = 41.54646
 lon = -85.79772
 website = "https://keystonerv.com"
+osha_id = "943124"
 
 sector = "Vehicles & RVs"
 products = ["Travel Trailer and Camper Manufacturing"]
 naics = "336214"
 
-employees = 570
+employees = 7
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Divisional Headquarters & Travel Trailers & Wheels. NAICS 336214: travel trailer and camper manufacturing."
 

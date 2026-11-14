@@ -9,16 +9,17 @@ address = "1103 Maple Street, Bristol, IN 46507"
 lat = 41.70993
 lon = -85.82244
 website = "https://modguys.com"
+osha_id = "930179"
 
 sector = "Wood, paper & furniture"
 products = ["Prefabricated Wood Building Manufacturing"]
 naics = "321992"
 
-employees = 70
+employees = 205
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Prefabricated Modular Homes. NAICS 321992: prefabricated wood building manufacturing."
 

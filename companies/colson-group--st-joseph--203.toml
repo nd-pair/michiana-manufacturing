@@ -1,0 +1,26 @@
+# Colson Group
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Colson Group"
+kind = "company"
+city = "St. Joseph"
+state = "MI"
+address = "203 Kerth st., St. Joseph, MI 49085"
+lat = 42.07459
+lon = -86.50135
+osha_id = "1082211"
+
+sector = "Metal"
+products = ["Casters, industrial, metal, manufacturing"]
+naics = "332510"
+
+employees = 73
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 332510: casters, industrial, metal, manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

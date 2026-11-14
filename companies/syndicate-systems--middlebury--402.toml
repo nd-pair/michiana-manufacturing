@@ -8,16 +8,17 @@ state = "IN"
 address = "402 North Main Street, Middlebury, IN 46540"
 lat = 41.68161
 lon = -85.70292
+osha_id = "1263910"
 
 sector = "Wood, paper & furniture"
 products = ["Showcase, Partition, Shelving, and Locker Manufacturing"]
 naics = "337215"
 
-employees = 1000
+employees = 352
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Store Display Fixtures. NAICS 337215: showcase, partition, shelving, and locker manufacturing."
 

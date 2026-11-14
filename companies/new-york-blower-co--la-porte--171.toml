@@ -9,16 +9,17 @@ address = "171 Factory Street, La Porte, IN 46350"
 lat = 41.62051
 lon = -86.70700
 website = "https://nyb.com"
+osha_id = "1050891"
 
 sector = "Mechatronics & automation"
 products = ["Industrial and Commercial Fan and Blower Manufacturing"]
 naics = "333412"
 
-employees = 350
+employees = 192
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Industrial Fans. NAICS 333412: industrial and commercial fan and blower manufacturing."
 

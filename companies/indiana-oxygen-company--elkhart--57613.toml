@@ -1,0 +1,26 @@
+# Indiana Oxygen Company
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Indiana Oxygen Company"
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "57613 Nagy Drive, Elkhart, IN 46517"
+lat = 41.65877
+lon = -86.01615
+osha_id = "1433569"
+
+sector = "Materials & composites"
+products = ["Compressed and liquefied industrial gas manufacturing"]
+naics = "325120"
+
+employees = 8
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 325120: compressed and liquefied industrial gas manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

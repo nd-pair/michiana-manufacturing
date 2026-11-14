@@ -9,16 +9,17 @@ address = "2504 Marina Drive, Elkhart, IN 46514"
 lat = 41.71928
 lon = -85.91669
 website = "https://geocelusa.com"
+osha_id = "209002"
 
 sector = "Materials & composites"
 products = ["Adhesive Manufacturing"]
 naics = "325520"
 
-employees = 65
+employees = 63
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Interior & Exterior Construction & Bathroom Caulking Sealants. NAICS 325520: adhesive manufacturing."
 

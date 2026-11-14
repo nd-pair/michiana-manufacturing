@@ -1,0 +1,27 @@
+# Highland Ridge RV
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Highland Ridge RV"
+kind = "company"
+city = "Shipshewana"
+state = "IN"
+address = "315 North State Road 5, Shipshewana, IN 46565"
+lat = 41.67895
+lon = -85.58278
+osha_id = "291314"
+
+sector = "Vehicles & RVs"
+products = ["Camping trailers and chassis manufacturing"]
+naics = "336214"
+
+employees = 92
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+parent = "Jayco"
+description = "NAICS 336214: camping trailers and chassis manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

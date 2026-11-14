@@ -1,0 +1,27 @@
+# Avilla Fabrication
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Avilla Fabrication"
+kind = "company"
+city = "Avilla"
+state = "IN"
+address = "201 Nicholas Place, Avilla, IN 46710"
+lat = 41.36279
+lon = -85.22447
+osha_id = "59226"
+
+sector = "Metal"
+products = ["Angle irons, metal, manufacturing"]
+naics = "332999"
+
+employees = 58
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+parent = "Wirco, Inc."
+description = "NAICS 332999: angle irons, metal, manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

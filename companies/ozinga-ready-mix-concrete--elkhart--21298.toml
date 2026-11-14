@@ -1,0 +1,26 @@
+# Ozinga Ready Mix Concrete
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Ozinga Ready Mix Concrete"
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "21298 Protecta Drive, Elkhart, IN 46516"
+lat = 41.69706
+lon = -85.87575
+osha_id = "1006093"
+
+sector = "Materials & composites"
+products = ["Ready-mix concrete manufacturing and distributing"]
+naics = "327320"
+
+employees = 7
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 327320: ready-mix concrete manufacturing and distributing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

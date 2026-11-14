@@ -1,0 +1,26 @@
+# Hoffmann Die Cast
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Hoffmann Die Cast"
+kind = "company"
+city = "St. Joseph"
+state = "MI"
+address = "229 Kerth St., St. Joseph, MI 49085"
+lat = 42.07461
+lon = -86.49784
+osha_id = "616023"
+
+sector = "Metal"
+products = ["Manufacturing"]
+naics = "331523"
+
+employees = 97
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 331523: manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

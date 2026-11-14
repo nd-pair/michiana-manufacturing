@@ -1,0 +1,26 @@
+# Sampco of Indiana
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Sampco of Indiana"
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "915 West Ireland Road, South Bend, IN 46614"
+lat = 41.62889
+lon = -86.26120
+osha_id = "482746"
+
+sector = "Wood, paper & furniture"
+products = ["Samples mounting"]
+naics = "323120"
+
+employees = 57
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 323120: samples mounting."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

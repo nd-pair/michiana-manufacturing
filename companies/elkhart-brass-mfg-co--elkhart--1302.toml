@@ -9,17 +9,18 @@ address = "1302 West Beardsley Avenue, Elkhart, IN 46514"
 lat = 41.69296
 lon = -85.99422
 website = "https://elkhartbrass.com"
+osha_id = "879834"
 uei = "JSK5H64YJMF9"
 
 sector = "Metal"
 products = ["Other Metal Valve and Pipe Fitting Manufacturing"]
 naics = "332919"
 
-employees = 171
+employees = 200
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Company Headquarters & Firefighting Equipment & Brass Goods. NAICS 332919: other metal valve and pipe fitting manufacturing."
 

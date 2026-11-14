@@ -1,0 +1,26 @@
+# Dexter Axle Company
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Dexter Axle Company"
+kind = "company"
+city = "Albion"
+state = "IN"
+address = "500 S. 7th Street, Albion, IN 46701"
+lat = 41.39200
+lon = -85.40988
+osha_id = "1178266"
+
+sector = "Vehicles & RVs"
+products = ["Brake and brake parts, automotive, truck, and bus, manufacturing"]
+naics = "336340"
+
+employees = 650
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 336340: brake and brake parts, automotive, truck, and bus, manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

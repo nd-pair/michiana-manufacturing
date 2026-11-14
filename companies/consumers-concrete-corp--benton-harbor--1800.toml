@@ -8,16 +8,17 @@ state = "MI"
 address = "1800 Yore Avenue, Benton Harbor, MI 49022"
 lat = 42.08514
 lon = -86.38837
+osha_id = "460620"
 
 sector = "Materials & composites"
 products = ["Ready-Mix Concrete Manufacturing"]
 naics = "327320"
 
-employees = 17
+employees = 9
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Ready-Mixed Concrete. NAICS 327320: ready-mix concrete manufacturing."
 

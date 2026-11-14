@@ -1,0 +1,27 @@
+# Fluid Connectors Albion
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Fluid Connectors Albion"
+kind = "company"
+city = "Albion"
+state = "IN"
+address = "903 North Orange Street, Albion, IN 46701"
+lat = 41.40350
+lon = -85.42392
+osha_id = "1306189"
+
+sector = "Metal"
+products = ["Nonferrous Forging"]
+naics = "332112"
+
+employees = 143
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+parent = "Parker Hannifin Corporation / FSC Division"
+description = "NAICS 332112: nonferrous forging."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

@@ -9,16 +9,17 @@ address = "308 Sheridan Drive, Topeka, IN 46571"
 lat = 41.53710
 lon = -85.55419
 website = "https://redmanhomesofindiana.com"
+osha_id = "944600"
 
 sector = "Metal"
 products = ["Hardware Manufacturing"]
 naics = "332510"
 
-employees = 500
+employees = 390
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Modular Homes & Manufactured Housing. NAICS 332510: hardware manufacturing."
 

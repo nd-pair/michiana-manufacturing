@@ -9,16 +9,17 @@ address = "13100 Arlington Drive, Sawyer, MI 49125"
 lat = 41.88361
 lon = -86.60496
 website = "https://arlingtonmetals.com"
+osha_id = "1209572"
 
 sector = "Metal"
 products = ["Iron and Steel Mills"]
 naics = "331111"
 
-employees = 75
+employees = 51
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Steel & Coil Slitting & Cut-To-Length. NAICS 331111: iron and steel mills."
 

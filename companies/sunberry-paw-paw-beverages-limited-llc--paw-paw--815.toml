@@ -1,0 +1,26 @@
+# Sunberry Paw Paw Beverages Limited LLC
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Sunberry Paw Paw Beverages Limited LLC"
+kind = "company"
+city = "Paw Paw"
+state = "MI"
+address = "815 S Kalamazoo St, Paw Paw, MI 49079"
+lat = 42.21225
+lon = -85.89131
+osha_id = "1433444"
+
+sector = "Food & consumer goods"
+products = ["Juices, fruit or vegetable concentrates, frozen, manufacturing"]
+naics = "311411"
+
+employees = 70
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 311411: juices, fruit or vegetable concentrates, frozen, manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

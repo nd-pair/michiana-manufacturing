@@ -6,11 +6,17 @@
       </div>
 
       <section class="section">
+        <h2>Disclaimer</h2>
+        <p>The visualizations, the code and most of the text on this site were generated with AI tools. The data comes from public sources, almost all of them government datasets (the Department of Homeland Security, OSHA, BLS, the Census Bureau, BEA, USAspending.gov, SBIR.gov, openFDA and Indiana's Department of Workforce Development); a few entries cite company websites or regional news, each named in its file. Records from different sources are matched and combined automatically, by name, address and identifiers, and the scores are computed from them without review of each figure, so the site can contain mistakes: a wrong match, a closed plant still shown, an outdated headcount or a misassigned sector. Corrections are welcome on <a href="https://github.com/nd-pair/michiana-manufacturing">GitHub</a>.</p>
+      </section>
+
+      <section class="section">
         <h2>Where the companies come from</h2>
         <table class="table">
           <thead><tr><th>Source</th><th>Entries</th><th>What it provides</th></tr></thead>
           <tbody>
             <tr><td>HIFLD General Manufacturing Facilities (U.S. Department of Homeland Security, served by the Department of Energy's NETL)</td><td>{{HIFLD}}</td><td>Every NAICS 31–33 facility in the region's counties: name, street address, NAICS code, product line, website and an employee estimate.</td></tr>
+            <tr><td>OSHA establishment injury and illness data, Form 300A (U.S. Department of Labor)</td><td>{{OSHA}}</td><td>Manufacturing establishments in the region that filed their annual summary for {{OSHAYEAR}} (required of manufacturers with 20 or more employees): name, street address, NAICS code and the annual average number of employees. Adds plants HIFLD lacks and replaces HIFLD's modeled headcounts with the reported figure for {{OSHAMATCHED}} sites. Imported once a year from OSHA's download page; ZIP codes are assigned to the county holding most of their land (Census 2020 ZIP–county file), and each new address is checked against the county by the Census geocoder.</td></tr>
             <tr><td>SBIR.gov award data</td><td>{{SBIRFIRMS}}</td><td>Firms in the region with an SBIR or STTR award since 2012 that are not in the HIFLD data: name, address, website, the headcount reported on their latest award, and their awards.</td></tr>
             <tr><td>Company websites, filings, press and regional directories</td><td>{{HAND}}</td><td>Companies, investors and university units entered individually, with the source of each figure noted in the file.</td></tr>
             <tr><td>Regional news (the automated monthly review, below)</td><td>{{NEWSADDED}}</td><td>New plants and companies reported by trusted regional newsrooms, each citing its article.</td></tr>
@@ -29,7 +35,7 @@
         <p>Column height is headcount on a log scale. Every figure carries a year and a grade, shown in the roster and the detail panel:</p>
         <ul>
           <li><strong>Estimate.</strong> HIFLD's employee figures are modeled estimates; the year shown is the base dataset's (2022), not a survey date. Business-directory ranges are graded the same way.</li>
-          <li><strong>Reported.</strong> Figures a company states itself (website, filing, press release) or reported on an SBIR award, with that year.</li>
+          <li><strong>Reported.</strong> OSHA Form 300A annual average employees, the establishment's own filing for that year; figures a company states itself (website, filing, press release) or reported on an SBIR award, with that year.</li>
           <li><strong>Company-wide.</strong> Marked separately where only a figure for the whole company exists, as for the Elkhart RV manufacturers.</li>
         </ul>
         <p>Staff totals in the panels add the known figures as they are, so they are approximate and mix years.</p>
@@ -79,7 +85,7 @@
       <section class="section">
         <h2>Known gaps</h2>
         <ul>
-          <li>HIFLD omits some small shops and lags openings and closures, sometimes by years. The monthly refresh adds new facilities but cannot tell which have closed; a facility known to have closed is marked closed in its file and left off the map ({{CLOSED}} so far).</li>
+          <li>HIFLD (base year 2022) omits some small shops and lags openings and closures, sometimes by years. OSHA's yearly filings add plants with 20 or more employees, but no free source names smaller shops. Closures are flagged for review, never applied automatically: from Indiana's WARN layoff and closing notices ({{WARNN}} manufacturing notices since 2016, on the timeline), from plants that stop filing with OSHA, and from websites that no longer resolve. Michigan publishes its WARN notices only through a search page, so the three Michigan counties lack that signal. A facility confirmed closed is marked in its file and left off the map ({{CLOSED}} so far).</li>
           <li>Entries that should not be on the map at all (duplicates, sites outside the region, offices that make nothing) are marked removed with a reason and left off ({{REMOVED}} so far).</li>
           <li>Missing or doubtful facts are kept on a public list of open items ({{OPENITEMS}} now): a company without a street address, an address the geocoders cannot place, a website whose domain no longer exists or is parked, and a status note marked unconfirmed or disputed. Each monthly review tries once to fix each one; after three attempts the doubtful fact is removed. A dead website link or an unconfirmed note is deleted, an address without a street number is dropped so the company stays at its city's center, and a full address that cannot be placed is kept as it is.</li>
           <li>Sectors for SBIR firms are assigned from the words in their award titles and may be wrong for firms whose awards span fields.</li>

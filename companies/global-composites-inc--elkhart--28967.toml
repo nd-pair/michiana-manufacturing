@@ -9,16 +9,17 @@ address = "28967 Old US 33, Elkhart, IN 46516"
 lat = 41.66809
 lon = -86.02422
 website = "https://globalcompositesinc.com"
+osha_id = "59467"
 
 sector = "Vehicles & RVs"
 products = ["Motor Home Manufacturing"]
 naics = "336213"
 
-employees = 75
+employees = 4
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Recreational Vehicle Running Boards. NAICS 336213: motor home manufacturing."
 

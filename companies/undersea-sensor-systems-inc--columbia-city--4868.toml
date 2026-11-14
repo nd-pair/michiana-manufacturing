@@ -1,0 +1,26 @@
+# Undersea Sensor Systems Inc
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Undersea Sensor Systems Inc"
+kind = "company"
+city = "Columbia City"
+state = "IN"
+address = "4868 East Park 30 Drive, Columbia City, IN 46725"
+lat = 41.13385
+lon = -85.39908
+osha_id = "1406640"
+
+sector = "Electronics"
+products = ["Sonar systems and equipment manufacturing"]
+naics = "334511"
+
+employees = 618
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 334511: sonar systems and equipment manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

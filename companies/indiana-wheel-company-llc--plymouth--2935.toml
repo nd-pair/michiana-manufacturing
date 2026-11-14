@@ -1,0 +1,26 @@
+# Indiana Wheel Company, LLC
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Indiana Wheel Company, LLC"
+kind = "company"
+city = "Plymouth"
+state = "IN"
+address = "2935 Vanvactor Drive, Plymouth, IN 46563"
+lat = 41.35617
+lon = -86.34906
+osha_id = "1074950"
+
+sector = "Vehicles & RVs"
+products = ["Manufacturer of Trailer Wheels"]
+naics = "336390"
+
+employees = 45
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 336390: manufacturer of trailer wheels."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

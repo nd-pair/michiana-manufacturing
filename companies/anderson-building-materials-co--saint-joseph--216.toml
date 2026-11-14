@@ -9,16 +9,17 @@ address = "216 Upton Drive, Saint Joseph, MI 49085"
 lat = 42.11467
 lon = -86.48044
 website = "https://abmrack.com"
+osha_id = "140113"
 
 sector = "Metal"
 products = ["Fabricated Structural Metal Manufacturing"]
 naics = "332312"
 
-employees = 40
+employees = 31
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Cantilever Racks, Structural Steel Fabrication, Metal Processing & Contract Manufacturing Services. NAICS 332312: fabricated structural metal manufacturing."
 

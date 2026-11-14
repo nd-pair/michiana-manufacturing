@@ -9,16 +9,17 @@ address = "2055 Pidco Drive, Plymouth, IN 46563"
 lat = 41.35165
 lon = -86.33236
 website = "https://akindustries.com"
+osha_id = "1505797"
 
 sector = "Materials & composites"
 products = ["Other Concrete Product Manufacturing"]
 naics = "327390"
 
-employees = 100
+employees = 14
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Fiberglass Ejector Basins & Septic Tanks. NAICS 327390: other concrete product manufacturing."
 

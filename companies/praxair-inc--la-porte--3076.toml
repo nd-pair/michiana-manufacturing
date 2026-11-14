@@ -9,16 +9,17 @@ address = "3076 North State Road 39, La Porte, IN 46350"
 lat = 41.65092
 lon = -86.73889
 website = "https://praxair.com"
+osha_id = "160476"
 
 sector = "Materials & composites"
 products = ["Industrial Gas Manufacturing"]
 naics = "325120"
 
-employees = 40
+employees = 61
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Nitrogen & Oxygen. NAICS 325120: industrial gas manufacturing."
 

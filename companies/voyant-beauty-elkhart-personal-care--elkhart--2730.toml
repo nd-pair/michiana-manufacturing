@@ -1,0 +1,27 @@
+# Voyant Beauty Elkhart - Personal Care
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Voyant Beauty Elkhart - Personal Care"
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "2730 Middlebury Street, Elkhart, IN 46516"
+lat = 41.68147
+lon = -85.91996
+osha_id = "802928"
+
+sector = "Materials & composites"
+products = ["Hair sprays manufacturing"]
+naics = "325620"
+
+employees = 411
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+parent = "Accra-Pac, INC DBA Voyant Beauty"
+description = "NAICS 325620: hair sprays manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

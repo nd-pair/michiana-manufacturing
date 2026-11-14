@@ -9,16 +9,17 @@ address = "2005 Mayflower Road, Niles, MI 49120"
 lat = 41.79606
 lon = -86.32221
 website = "https://aacoa.com"
+osha_id = "969135"
 
 sector = "Materials & composites"
 products = ["Unlaminated Plastics Profile Shape Manufacturing"]
 naics = "326121"
 
-employees = 150
+employees = 203
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Aluminum Extrusions. NAICS 326121: unlaminated plastics profile shape manufacturing."
 

@@ -9,16 +9,17 @@ address = "1201 Eisenhower Drive North, Goshen, IN 46526"
 lat = 41.55771
 lon = -85.81556
 website = "https://stellite.com"
+osha_id = "1440663"
 
 sector = "Metal"
 products = ["Secondary Smelting, Refining, and Alloying of Nonferrous Metal (except Copper and Aluminum)"]
 naics = "331492"
 
-employees = 60
+employees = 76
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Metal Powders, Thermal Spray & Plasma Transfer Arc Equipment. NAICS 331492: secondary smelting, refining, and alloying of nonferrous metal (except copper and aluminum)."
 

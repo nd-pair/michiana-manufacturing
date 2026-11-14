@@ -1,0 +1,27 @@
+# United Petfood Producers USA Inc.
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "United Petfood Producers USA Inc."
+kind = "company"
+city = "Mishawaka"
+state = "IN"
+address = "1011 W. 11th Street, Mishawaka, IN 46544"
+lat = 41.65270
+lon = -86.19301
+osha_id = "1448984"
+
+sector = "Food & consumer goods"
+products = ["Pet food, dog and cat, manufacturing"]
+naics = "311111"
+
+employees = 114
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+parent = "United Pet Food Producers USA Inc."
+description = "NAICS 311111: pet food, dog and cat, manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

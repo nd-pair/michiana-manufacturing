@@ -9,16 +9,17 @@ address = "2930 Foundation Drive, South Bend, IN 46628"
 lat = 41.71600
 lon = -86.30383
 website = "https://eaton.com"
+osha_id = "1359190"
 
 sector = "Metal"
 products = ["Iron and Steel Mills"]
 naics = "331111"
 
-employees = 90
+employees = 102
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Heavy Truck Transmission Gears & Fabricated Steel Products. NAICS 331111: iron and steel mills."
 

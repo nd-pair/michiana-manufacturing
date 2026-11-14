@@ -1,0 +1,26 @@
+# HRR Enterprises, INC
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "HRR Enterprises, INC"
+kind = "company"
+city = "La Porte"
+state = "IN"
+address = "1755 Genesis Drive, La Porte, IN 46350"
+lat = 41.63344
+lon = -86.70894
+osha_id = "660947"
+
+sector = "Food & consumer goods"
+products = ["Animal fats rendering"]
+naics = "311613"
+
+employees = 44
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 311613: animal fats rendering."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

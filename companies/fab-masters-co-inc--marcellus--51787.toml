@@ -9,16 +9,17 @@ address = "51787 M-40 North, Marcellus, MI 49067"
 lat = 42.04425
 lon = -85.82480
 website = "https://fabmasters.net"
+osha_id = "101670"
 
 sector = "Metal"
 products = ["Other Aluminum Rolling and Drawing"]
 naics = "331319"
 
-employees = 70
+employees = 49
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Aluminum Extrusion Machining Job Shop, Including Aluminum Extrusions, Finishing, Aluminum Mig & Tig Welding, Heat Sinks. NAICS 331319: other aluminum rolling and drawing."
 

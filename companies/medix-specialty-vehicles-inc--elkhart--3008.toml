@@ -9,16 +9,17 @@ address = "3008 Mobile Drive, Elkhart, IN 46514"
 lat = 41.72742
 lon = -85.97815
 website = "https://medixambulance.com"
+osha_id = "1494037"
 
 sector = "Vehicles & RVs"
 products = ["Motor Vehicle Body Manufacturing"]
 naics = "336211"
 
-employees = 28
+employees = 360
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Ambulances. NAICS 336211: motor vehicle body manufacturing."
 

@@ -1,0 +1,27 @@
+# Boyd Corporation
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Boyd Corporation"
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "2600 Columbia Drive, Elkhart, IN 46514"
+lat = 41.72051
+lon = -85.89601
+osha_id = "355447"
+
+sector = "Materials & composites"
+products = ["Rubber tubing manufacturing"]
+naics = "326299"
+
+employees = 68
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+parent = "LTI Holdings, Inc."
+description = "NAICS 326299: rubber tubing manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

@@ -1,0 +1,26 @@
+# Coulter, LLC
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Coulter, LLC"
+kind = "company"
+city = "Middlebury"
+state = "IN"
+address = "209 York Drive, Middlebury, IN 46540"
+lat = 41.68287
+lon = -85.70586
+osha_id = "883105"
+
+sector = "Metal"
+products = ["Painting and decoration of parts"]
+naics = "332812"
+
+employees = 22
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 332812: painting and decoration of parts."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

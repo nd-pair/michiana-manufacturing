@@ -1,0 +1,27 @@
+# Oasis Lifestyle, LLC
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Oasis Lifestyle, LLC"
+kind = "company"
+city = "Plymouth"
+state = "IN"
+address = "1400 Pidco Drive, Plymouth, IN 46563"
+lat = 41.35160
+lon = -86.32137
+osha_id = "72007"
+
+sector = "Materials & composites"
+products = ["Bathtubs, plastics, manufacturing"]
+naics = "326191"
+
+employees = 212
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+parent = "Composite Technology Assemblies"
+description = "NAICS 326191: bathtubs, plastics, manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

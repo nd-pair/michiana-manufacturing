@@ -1,0 +1,27 @@
+# Precision Medical Technologies Rome City
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Precision Medical Technologies Rome City"
+kind = "company"
+city = "Rome City"
+state = "IN"
+address = "103 Warrener Drive, Rome City, IN 46784"
+lat = 41.48647
+lon = -85.37761
+osha_id = "989516"
+
+sector = "Medical devices & other"
+products = ["Instruments, mechanical microsurgical, manufacturing"]
+naics = "339112"
+
+employees = 42
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+parent = "Precision Medical Technologies"
+description = "NAICS 339112: instruments, mechanical microsurgical, manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

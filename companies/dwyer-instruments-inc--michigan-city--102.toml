@@ -9,16 +9,17 @@ address = "102 in 212, Michigan City, IN 46360"
 lat = 41.74279
 lon = -86.82577
 website = "https://dwyer-inst.com"
+osha_id = "971755"
 
 sector = "Electronics"
 products = ["Instruments & Related Products Mfg. for Measuring, Displaying, Controlling Industrial Process Variables"]
 naics = "334513"
 
-employees = 150
+employees = 237
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Corporate Headquarters & Flow, Level, Pressure & Temperature Controls & Gages. NAICS 334513: instruments & related products mfg for measuring, displaying, controlling industrial process variables."
 

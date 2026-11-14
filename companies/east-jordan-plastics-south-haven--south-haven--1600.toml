@@ -1,0 +1,27 @@
+# East Jordan Plastics South Haven
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "East Jordan Plastics South Haven"
+kind = "company"
+city = "South Haven"
+state = "MI"
+address = "1600 Stieve Drive, South Haven, MI 49090"
+lat = 42.37942
+lon = -86.27978
+osha_id = "799578"
+
+sector = "Materials & composites"
+products = ["Utility containers (e.g., baskets, bins, boxes, buckets, dishpans, pails), plastics (except foam), manufacturing"]
+naics = "326199"
+
+employees = 150
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+parent = "East Jordan Plastics"
+description = "NAICS 326199: utility containers (e.g., baskets, bins, boxes, buckets, dishpans, pails), plastics (except foam), manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

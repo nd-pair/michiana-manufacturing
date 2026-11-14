@@ -1,12 +1,12 @@
 {
  "2026-11": {
-  "two_plus": 83,
-  "one": 10,
+  "two_plus": 84,
+  "one": 9,
   "available_two_plus": 19,
   "confirmed_two_plus": 0,
   "gaps": 1,
   "components": 20,
-  "suppliers": 391,
+  "suppliers": 464,
   "index": 111.0,
   "pillars": {
    "task": 235.8,

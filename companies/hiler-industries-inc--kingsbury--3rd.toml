@@ -9,16 +9,17 @@ address = "3rd Road, Kingsbury, IN 46345"
 lat = 41.51279
 lon = -86.65357
 website = "https://hilerindustries.com"
+osha_id = "1421646"
 
 sector = "Metal"
 products = ["Iron Foundries"]
 naics = "331511"
 
-employees = 45
+employees = 56
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Shell Molded Ductile Iron Castings. NAICS 331511: iron foundries."
 

@@ -1,0 +1,26 @@
+# Olin Winchester, LLC
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Olin Winchester, LLC"
+kind = "company"
+city = "Knox"
+state = "IN"
+address = "317 Kloeckner Drive, Knox, IN 46534"
+lat = 41.29775
+lon = -86.63994
+osha_id = "1069347"
+
+sector = "Medical devices & other"
+products = ["Sporting goods (except ammunition, clothing, footwear, small arms) manufacturing"]
+naics = "339920"
+
+employees = 35
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 339920: sporting goods (except ammunition, clothing, footwear, small arms) manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

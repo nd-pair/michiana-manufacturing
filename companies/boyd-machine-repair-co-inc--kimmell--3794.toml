@@ -1,0 +1,26 @@
+# Boyd Machine & Repair Co., Inc
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Boyd Machine & Repair Co., Inc"
+kind = "company"
+city = "Kimmell"
+state = "IN"
+address = "3794 W 50 S, Kimmell, IN 46760"
+lat = 41.34879
+lon = -85.50524
+osha_id = "1252801"
+
+sector = "Metal"
+products = ["Machine shops"]
+naics = "332710"
+
+employees = 31
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 332710: machine shops."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

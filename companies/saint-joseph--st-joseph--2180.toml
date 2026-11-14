@@ -1,0 +1,27 @@
+# Saint Joseph
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Saint Joseph"
+kind = "company"
+city = "St Joseph"
+state = "MI"
+address = "2180 Maiden Lane, St Joseph, MI 49085"
+lat = 42.05060
+lon = -86.50671
+osha_id = "1021354"
+
+sector = "Wood, paper & furniture"
+products = ["323117 Books Printing"]
+naics = "323117"
+
+employees = 151
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+parent = "WALSWORTH PUBLISHING CO INC"
+description = "NAICS 323117: 323117 books printing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

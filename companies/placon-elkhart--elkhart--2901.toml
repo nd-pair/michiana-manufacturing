@@ -1,0 +1,26 @@
+# Placon Elkhart
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Placon Elkhart"
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "2901 Oakland Ave, Elkhart, IN 46517"
+lat = 41.65594
+lon = -85.98479
+osha_id = "1537810"
+
+sector = "Materials & composites"
+products = ["Septic tanks, plastics or fiberglass, manufacturing"]
+naics = "326199"
+
+employees = 90
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 326199: septic tanks, plastics or fiberglass, manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

@@ -9,16 +9,17 @@ address = "211 West Washington Street, South Bend, IN 46601"
 lat = 41.67664
 lon = -86.25252
 website = "https://nelloinc.com"
+osha_id = "1441960"
 
 sector = "Metal"
 products = ["All Other Miscellaneous Fabricated Metal Product Manufacturing"]
 naics = "332999"
 
-employees = 70
+employees = 337
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Metal Fabrication & Communication Towers. NAICS 332999: all other miscellaneous fabricated metal product manufacturing."
 

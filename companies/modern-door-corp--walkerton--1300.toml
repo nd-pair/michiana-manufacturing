@@ -9,16 +9,17 @@ address = "1300 Virginia Street, Walkerton, IN 46574"
 lat = 41.46228
 lon = -86.49344
 website = "https://plyco.com"
+osha_id = "1251403"
 
 sector = "Wood, paper & furniture"
 products = ["Wood Window and Door Manufacturing"]
 naics = "321911"
 
-employees = 160
+employees = 117
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Commercial Door & Agricultural Building Doors. NAICS 321911: wood window and door manufacturing."
 

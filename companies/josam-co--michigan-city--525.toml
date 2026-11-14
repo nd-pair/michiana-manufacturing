@@ -9,16 +9,17 @@ address = "525 US Highway 20 West, Michigan City, IN 46360"
 lat = 41.68072
 lon = -86.90441
 website = "https://josam.com"
+osha_id = "1263645"
 
 sector = "Metal"
 products = ["Enameled Iron and Metal Sanitary Ware Manufacturing"]
 naics = "332998"
 
-employees = 60
+employees = 66
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Plumbing Drainage Products. NAICS 332998: enameled iron and metal sanitary ware manufacturing."
 

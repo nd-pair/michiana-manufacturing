@@ -9,16 +9,17 @@ address = "860 North Tuscany Drive, Shipshewana, IN 46565"
 lat = 41.68515
 lon = -85.57814
 website = "https://legacysleepers.com"
+osha_id = "492165"
 
 sector = "Vehicles & RVs"
 products = ["Motor Vehicle Body Manufacturing"]
 naics = "336211"
 
-employees = 44
+employees = 39
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Sleeper Compartments for Trucks. NAICS 336211: motor vehicle body manufacturing."
 

@@ -9,16 +9,17 @@ address = "102 Enterprise Drive, Warsaw, IN 46580"
 lat = 41.25906
 lon = -85.85624
 website = "https://indianacoatedfabrics.com"
+osha_id = "1421934"
 
 sector = "Food & consumer goods"
 products = ["Fabric Coating Mills"]
 naics = "313320"
 
-employees = 43
+employees = 33
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Coated & Laminated Window Shade Fabrics. NAICS 313320: fabric coating mills."
 

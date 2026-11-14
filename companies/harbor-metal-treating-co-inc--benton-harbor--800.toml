@@ -8,16 +8,17 @@ state = "MI"
 address = "800 South Fair Avenue, Benton Harbor, MI 49022"
 lat = 42.10246
 lon = -86.43723
+osha_id = "45308"
 
 sector = "Metal"
 products = ["Metal Heat Treating"]
 naics = "332811"
 
-employees = 50
+employees = 31
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Corporate Headquarters & Heat Treating. NAICS 332811: metal heat treating."
 

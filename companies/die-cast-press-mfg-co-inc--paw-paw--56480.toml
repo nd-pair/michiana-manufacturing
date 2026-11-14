@@ -1,0 +1,26 @@
+# Die Cast Press Mfg. Co. Inc.
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Die Cast Press Mfg. Co. Inc."
+kind = "company"
+city = "paw paw"
+state = "MI"
+address = "56480 kasper drive, paw paw, MI 49079"
+lat = 42.21478
+lon = -85.91259
+osha_id = "1310354"
+
+sector = "Metal"
+products = ["Machine shops"]
+naics = "332710"
+
+employees = 18
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 332710: machine shops."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

@@ -9,16 +9,17 @@ address = "52470 State Road 15, Bristol, IN 46507"
 lat = 41.73276
 lon = -85.80068
 website = "https://ameri-kan.com"
+osha_id = "1437499"
 
 sector = "Materials & composites"
 products = ["All Other Plastics Product Manufacturing"]
 naics = "326199"
 
-employees = 125
+employees = 35
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Corporate Headquarters & Steel Fabrication. NAICS 326199: all other plastics product manufacturing."
 

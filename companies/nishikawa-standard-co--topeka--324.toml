@@ -9,16 +9,17 @@ address = "324 Morrow Street, Topeka, IN 46571"
 lat = 41.53658
 lon = -85.54407
 website = "https://nishikawa-rbr.co.jp"
+osha_id = "209236"
 
 sector = "Materials & composites"
 products = ["All Other Rubber Product Manufacturing"]
 naics = "326299"
 
-employees = 570
+employees = 532
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Headquarters of Joint Venture Between Nishikawa Rubber & Cooper Standard & Automotive Weather Stripping & Sealing. NAICS 326299: all other rubber product manufacturing."
 

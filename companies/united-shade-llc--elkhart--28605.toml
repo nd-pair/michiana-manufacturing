@@ -9,16 +9,17 @@ address = "28605 County Road 6, Elkhart, IN 46514"
 lat = 41.72475
 lon = -86.01438
 website = "https://unitedshade.com"
+osha_id = "1538053"
 
 sector = "Wood, paper & furniture"
 products = ["Blind and Shade Manufacturing"]
 naics = "337920"
 
-employees = 50
+employees = 18
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Window Shades & Windshield Covers. NAICS 337920: blind and shade manufacturing."
 

@@ -23,6 +23,9 @@ jobs:
       - name: New facilities from HIFLD (never overwrites existing files)
         continue-on-error: true
         run: python3 scripts/import_hifld.py
+      - name: Layoff and closing notices (Indiana DWD WARN table; feeds the timeline and the closure review)
+        continue-on-error: true
+        run: python3 scripts/pull_warn.py
       - name: SBIR/STTR awards (SBIR.gov bulk file)
         continue-on-error: true
         run: python3 scripts/pull_sbir.py

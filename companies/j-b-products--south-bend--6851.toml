@@ -9,16 +9,17 @@ address = "6851 Enterprise Drive, South Bend, IN 46628"
 lat = 41.72859
 lon = -86.34591
 website = "https://jb-products.com"
+osha_id = "1183135"
 
 sector = "Metal"
 products = ["Other Metal Valve and Pipe Fitting Manufacturing"]
 naics = "332919"
 
-employees = 45
+employees = 37
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Plastic Plumbing & Drain Products. NAICS 332919: other metal valve and pipe fitting manufacturing."
 

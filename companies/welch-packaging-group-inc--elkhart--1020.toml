@@ -9,16 +9,17 @@ address = "1020 Herman Street, Elkhart, IN 46516"
 lat = 41.67857
 lon = -85.90033
 website = "https://welchpkg.com"
+osha_id = "1477428"
 
 sector = "Wood, paper & furniture"
 products = ["Corrugated and Solid Fiber Box Manufacturing"]
 naics = "322211"
 
-employees = 150
+employees = 37
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Corporate Headquarters & Corrugated Materials, Point-Of-Purchase Displays & Foam Interiors. NAICS 322211: corrugated and solid fiber box manufacturing."
 

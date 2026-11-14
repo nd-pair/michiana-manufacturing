@@ -8,16 +8,17 @@ state = "MI"
 address = "1246 East Empire Avenue, Benton Harbor, MI 49022"
 lat = 42.10127
 lon = -86.42908
+osha_id = "1258005"
 
 sector = "Materials & composites"
 products = ["All Other Plastics Product Manufacturing"]
 naics = "326199"
 
-employees = 15
+employees = 27
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Plastic Molded Products, Including Column Covers. NAICS 326199: all other plastics product manufacturing."
 

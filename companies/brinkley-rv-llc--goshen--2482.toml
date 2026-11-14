@@ -1,0 +1,26 @@
+# Brinkley RV LLC
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Brinkley RV LLC"
+kind = "company"
+city = "Goshen"
+state = "IN"
+address = "2482 Century Drive, Goshen, IN 46526"
+lat = 41.55831
+lon = -85.77563
+osha_id = "1517326"
+
+sector = "Vehicles & RVs"
+products = ["Travel Trailer and Camper Manufacturing"]
+naics = "336214"
+
+employees = 120
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 336214: travel trailer and camper manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

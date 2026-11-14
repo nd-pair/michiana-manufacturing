@@ -1,0 +1,27 @@
+# Dragon Products Akron
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Dragon Products Akron"
+kind = "company"
+city = "Akron"
+state = "IN"
+address = "8857 E State Road 14, Akron, IN 46910"
+lat = 41.03933
+lon = -86.07899
+osha_id = "132304"
+
+sector = "Vehicles & RVs"
+products = ["Tank trailer, liquid and dry bulk, manufacturing"]
+naics = "336212"
+
+employees = 32
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+parent = "Dragon ESP LLC"
+description = "NAICS 336212: tank trailer, liquid and dry bulk, manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

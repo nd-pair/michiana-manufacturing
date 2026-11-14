@@ -9,16 +9,17 @@ address = "501 West Railroad Avenue, Syracuse, IN 46567"
 lat = 41.42178
 lon = -85.75329
 website = "https://jasperplasticssolutions.com"
+osha_id = "1239723"
 
 sector = "Medical devices & other"
 products = ["Fastener, Button, Needle, and Pin Manufacturing"]
 naics = "339993"
 
-employees = 100
+employees = 80
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Molded Polyurethane, Polyester Parts & Lightweight Panels. NAICS 339993: fastener, button, needle, and pin manufacturing."
 

@@ -1,0 +1,27 @@
+# Hofmann Eau Claire
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Hofmann Eau Claire"
+kind = "company"
+city = "Eau Claire"
+state = "MI"
+address = "6405 Love Road, Eau Claire, MI 49111"
+lat = 41.98796
+lon = -86.30271
+osha_id = "49628"
+
+sector = "Metal"
+products = ["Tube (e.g., heavy riveted, lock joint, seamless, welded) made from purchased iron or steel"]
+naics = "331210"
+
+employees = 31
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+parent = "Hofmann Industries, Inc."
+description = "NAICS 331210: tube (e.g., heavy riveted, lock joint, seamless, welded) made from purchased iron or steel."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

@@ -1,0 +1,27 @@
+# Bremen Wire
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Bremen Wire"
+kind = "company"
+city = "Bremen"
+state = "IN"
+address = "515 Copperfield Way, Bremen, IN 46506"
+lat = 41.45853
+lon = -86.15305
+osha_id = "619079"
+
+sector = "Metal"
+products = ["Copper Rolling, Drawing, Extruding, and Alloying"]
+naics = "331420"
+
+employees = 691
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+parent = "Southwire"
+description = "NAICS 331420: copper rolling, drawing, extruding, and alloying."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

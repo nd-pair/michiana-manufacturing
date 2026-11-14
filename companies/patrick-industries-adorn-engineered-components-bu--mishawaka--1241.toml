@@ -1,0 +1,27 @@
+# Patrick Industries / Adorn Engineered Components (BU )
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Patrick Industries / Adorn Engineered Components (BU )"
+kind = "company"
+city = "Mishawaka"
+state = "IN"
+address = "1241 E 12th Street, Mishawaka, IN 46544"
+lat = 41.65121
+lon = -86.16036
+osha_id = "915394"
+
+sector = "Wood, paper & furniture"
+products = ["Countertops, wood, manufacturing"]
+naics = "337110"
+
+employees = 116
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+parent = "Adorn Engineering Components (BU 131)"
+description = "NAICS 337110: countertops, wood, manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

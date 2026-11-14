@@ -1,0 +1,26 @@
+# Ashley Industrial Molding
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Ashley Industrial Molding"
+kind = "company"
+city = "Kendallville"
+state = "IN"
+address = "104 Progress Drive West, Kendallville, IN 46755"
+lat = 41.44475
+lon = -85.22518
+osha_id = "106265"
+
+sector = "Materials & composites"
+products = ["Motor vehicle moldings and extrusions, plastics, manufacturing"]
+naics = "326199"
+
+employees = 56
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 326199: motor vehicle moldings and extrusions, plastics, manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

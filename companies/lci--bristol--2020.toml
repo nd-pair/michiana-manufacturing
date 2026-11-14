@@ -1,0 +1,27 @@
+# LCI
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "LCI"
+kind = "company"
+city = "Bristol"
+state = "IN"
+address = "2020 Blakesley Pkwy, Bristol, IN 46507"
+lat = 41.73871
+lon = -85.78378
+osha_id = "1203634"
+
+sector = "Materials & composites"
+products = ["Manufacturing"]
+naics = "327215"
+
+employees = 227
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+parent = "LCI 119"
+description = "NAICS 327215: manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

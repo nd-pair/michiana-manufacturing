@@ -1,0 +1,26 @@
+# Lippert Components
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Lippert Components"
+kind = "company"
+city = "Middlebury"
+state = "IN"
+address = "51040 Greenfield Pkwy., Middlebury, IN 46540"
+lat = 41.75213
+lon = -85.67181
+osha_id = "1512499"
+
+sector = "Metal"
+products = ["Fabricated structural metal manufacturing"]
+naics = "332312"
+
+employees = 294
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 332312: fabricated structural metal manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

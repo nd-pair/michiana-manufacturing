@@ -1,0 +1,26 @@
+# Wible Lumber Inc.
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Wible Lumber Inc."
+kind = "company"
+city = "Wolcottville"
+state = "IN"
+address = "7155 S State Road 3, Wolcottville, IN 46795"
+lat = 41.53900
+lon = -85.27162
+osha_id = "1067617"
+
+sector = "Wood, paper & furniture"
+products = ["Applicators, wood, manufacturing"]
+naics = "321999"
+
+employees = 44
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 321999: applicators, wood, manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

@@ -1,0 +1,27 @@
+# Vanair Manufacturing Company LLC - North
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Vanair Manufacturing Company LLC - North"
+kind = "company"
+city = "Michigan City"
+state = "IN"
+address = "1625 East 2nd Street, Michigan City, IN 46360"
+lat = 41.72292
+lon = -86.88356
+osha_id = "1274518"
+
+sector = "Mechatronics & automation"
+products = ["Compressors, air and gas, general purpose-type, manufacturing"]
+naics = "333912"
+
+employees = 91
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+parent = "Lincoln Electric Holdings, Inc."
+description = "NAICS 333912: compressors, air and gas, general purpose-type, manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

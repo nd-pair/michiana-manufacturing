@@ -1,0 +1,26 @@
+# Harloff Manufacturing Company LLC
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Harloff Manufacturing Company LLC"
+kind = "company"
+city = "Paw Paw, MI"
+state = "MI"
+address = "828 Duotang Rd, Paw Paw, MI, MI 49079"
+lat = 42.21090
+lon = -85.89659
+osha_id = "1279933"
+
+sector = "Mechatronics & automation"
+products = ["Custom roll forming machines, metalworking, manufacturing"]
+naics = "333517"
+
+employees = 87
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 333517: custom roll forming machines, metalworking, manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

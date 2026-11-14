@@ -1,0 +1,27 @@
+# LaPorte Production Facility
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "LaPorte Production Facility"
+kind = "company"
+city = "La Porte"
+state = "IN"
+address = "1609 Genesis Dr., La Porte, IN 46350"
+lat = 41.62850
+lon = -86.70881
+osha_id = "560955"
+
+sector = "Materials & composites"
+products = ["Plastics film and unlaminated sheet (except packaging) manufacturing"]
+naics = "326113"
+
+employees = 209
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+parent = "Monosol, LLC"
+description = "NAICS 326113: plastics film and unlaminated sheet (except packaging) manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

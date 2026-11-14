@@ -8,16 +8,17 @@ state = "MI"
 address = "203 West Southeastern Street, Galien, MI 49113"
 lat = 41.80139
 lon = -86.50097
+osha_id = "1063325"
 
 sector = "Materials & composites"
 products = ["Paint and Coating Manufacturing"]
 naics = "325510"
 
-employees = 22
+employees = 25
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Corporate Headquarters & Industrial Powder & Liquid Coatings & Shot Blasting. NAICS 325510: paint and coating manufacturing."
 

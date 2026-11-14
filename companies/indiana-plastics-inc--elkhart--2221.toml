@@ -8,16 +8,17 @@ state = "IN"
 address = "2221 Industrial Parkway, Elkhart, IN 46516"
 lat = 41.68638
 lon = -85.92923
+osha_id = "479145"
 
 sector = "Materials & composites"
 products = ["All Other Plastics Product Manufacturing"]
 naics = "326199"
 
-employees = 30
+employees = 61
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Plastic & Thermoplastic Rubber Injection Molding. NAICS 326199: all other plastics product manufacturing."
 

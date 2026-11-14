@@ -9,16 +9,17 @@ address = "1924 Elkhart Road, Goshen, IN 46526"
 lat = 41.59679
 lon = -85.86043
 website = "https://trianglerubberco.com"
+osha_id = "1431737"
 
 sector = "Materials & composites"
 products = ["All Other Rubber Product Manufacturing"]
 naics = "326299"
 
-employees = 90
+employees = 190
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Corporate Headquarters & Mechanical Rubber Molded Goods. NAICS 326299: all other rubber product manufacturing."
 

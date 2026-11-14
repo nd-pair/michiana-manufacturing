@@ -8,16 +8,17 @@ state = "IN"
 address = "1001 Pidco Drive, Plymouth, IN 46563"
 lat = 41.35129
 lon = -86.31908
+osha_id = "283909"
 
 sector = "Wood, paper & furniture"
 products = ["Corrugated and Solid Fiber Box Manufacturing"]
 naics = "322211"
 
-employees = 30
+employees = 60
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Corrugated Cardboard. NAICS 322211: corrugated and solid fiber box manufacturing."
 

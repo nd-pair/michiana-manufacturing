@@ -9,16 +9,17 @@ address = "8 Matchett Drive, Pierceton, IN 46562"
 lat = 41.20268
 lon = -85.69907
 website = "https://paragonmedical.com"
+osha_id = "1363315"
 
 sector = "Medical devices & other"
 products = ["Surgical and Medical Instrument Manufacturing"]
 naics = "339112"
 
-employees = 500
+employees = 275
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Surgical Instrumentation, Implantable Components, Cases & Trays for Hip, Knee, Spine, Trauma & Sports Medicine App.. NAICS 339112: surgical and medical instrument manufacturing."
 

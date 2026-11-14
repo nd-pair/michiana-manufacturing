@@ -8,6 +8,7 @@ state = "IN"
 address = "103 Industrial Park Dr, Walkerton, IN 46574"
 lat = 41.46804
 lon = -86.49449
+osha_id = "1437334"
 uei = "M55DMKCJDVW5"
 
 sector = "Materials & composites"

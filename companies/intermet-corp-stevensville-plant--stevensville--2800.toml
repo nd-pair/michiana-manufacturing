@@ -9,16 +9,17 @@ address = "2800 Yasdick Drive, Stevensville, MI 49127"
 lat = 42.01112
 lon = -86.51972
 website = "https://intermet.com"
+osha_id = "1264528"
 
 sector = "Metal"
 products = ["Aluminum Die-Casting Foundries"]
 naics = "331521"
 
-employees = 160
+employees = 134
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Aluminum Die Casting. NAICS 331521: aluminum die-casting foundries."
 

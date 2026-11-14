@@ -1,0 +1,27 @@
+# Martins Central Bakery
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Martins Central Bakery"
+kind = "company"
+city = "Mishawaka"
+state = "IN"
+address = "1202 E Mckinley Ave, Mishawaka, IN 46545"
+lat = 41.68043
+lon = -86.16615
+osha_id = "1463944"
+
+sector = "Food & consumer goods"
+products = ["Bakeries with baking from flour on the premises, retailing not for immediate consumption"]
+naics = "311811"
+
+employees = 73
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+parent = "SpartanNash"
+description = "NAICS 311811: bakeries with baking from flour on the premises, retailing not for immediate consumption."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

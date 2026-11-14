@@ -1,0 +1,26 @@
+# Tri-Mation Industries, Inc.
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Tri-Mation Industries, Inc."
+kind = "company"
+city = "Mattawan"
+state = "MI"
+address = "24778 Cole Avenue, PO Box 249, Mattawan, MI 49071"
+lat = 42.22281
+lon = -85.79456
+osha_id = "571981"
+
+sector = "Mechatronics & automation"
+products = ["Manufacturing"]
+naics = "333514"
+
+employees = 30
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 333514: manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

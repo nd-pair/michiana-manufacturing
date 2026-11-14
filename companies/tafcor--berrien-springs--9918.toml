@@ -9,16 +9,17 @@ address = "9918 North Tudor Road, Berrien Springs, MI 49103"
 lat = 41.93936
 lon = -86.34497
 website = "https://tafcor.com"
+osha_id = "1417460"
 
 sector = "Wood, paper & furniture"
 products = ["Other Millwork (including Flooring )"]
 naics = "321918"
 
-employees = 25
+employees = 21
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Laminated Wooden Mouldings. NAICS 321918: other millwork (including flooring )."
 

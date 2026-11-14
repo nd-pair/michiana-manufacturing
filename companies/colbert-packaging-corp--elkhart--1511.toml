@@ -9,16 +9,17 @@ address = "1511 West Lusher Avenue, Elkhart, IN 46517"
 lat = 41.66666
 lon = -85.99023
 website = "https://colbertpkg.com"
+osha_id = "1443642"
 
 sector = "Wood, paper & furniture"
 products = ["Setup Paperboard Box Manufacturing"]
 naics = "322213"
 
-employees = 95
+employees = 122
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Rigid Paper Boxes, Folding Cartons & Game Boards. NAICS 322213: setup paperboard box manufacturing."
 

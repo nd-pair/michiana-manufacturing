@@ -1,0 +1,27 @@
+# Cable Bullet
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Cable Bullet"
+kind = "company"
+city = "Warsaw"
+state = "IN"
+address = "300 Eastlake Dr, Warsaw, IN 46580"
+lat = 41.23487
+lon = -85.81895
+osha_id = "806692"
+
+sector = "Metal"
+products = ["Cable, noninsulated wire, made from purchased wire"]
+naics = "332618"
+
+employees = 30
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+parent = "Perspective 361"
+description = "NAICS 332618: cable, noninsulated wire, made from purchased wire."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

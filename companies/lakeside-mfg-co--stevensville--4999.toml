@@ -10,6 +10,7 @@ address = "4999 Advance Way, Stevensville, MI 49127"
 lat = 42.02810
 lon = -86.51102
 website = "https://artiflexmfg.com"
+osha_id = "1440476"
 status_note = "Now ArtiFlex Manufacturing's Falcon Lakeside casting and machining plant."
 
 sector = "Mechatronics & automation"
@@ -18,9 +19,9 @@ naics = "333514"
 
 employees = 30
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Contract Machining Job Shop, Bar Feed Turning and Secondary Operations, Production Machining of Castings & Billet. NAICS 333514: special die and tool, die set, jig, and fixture manufacturing."
 

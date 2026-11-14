@@ -545,7 +545,7 @@ function renderWork(){const el=document.getElementById("work"),note=document.get
     const at=j=>{xh.setAttribute("x1",X(j));xh.setAttribute("x2",X(j));xh.style.opacity=1;pt.setAttribute("cx",X(j));pt.setAttribute("cy",Y(pts[j][1]));rd.textContent=`${monthName(pts[j][0])}: ${Math.round(pts[j][1]*1000).toLocaleString()} jobs`};
     svg.addEventListener("pointermove",e=>{const r=svg.getBoundingClientRect(),x=(e.clientX-r.left)/r.width*W;at(Math.max(0,Math.min(pts.length-1,Math.round((x-pad)/((W-2*pad)/(pts.length-1))))))});
     svg.addEventListener("pointerleave",()=>{xh.style.opacity=0;pt.setAttribute("cx",X(pts.length-1));pt.setAttribute("cy",Y(pts[pts.length-1][1]));rd.textContent=rd.dataset.def})})}
-const EVKINDS=[["all","All"],["federal","Federal awards"],["sbir","SBIR/STTR"],["patent","Patents"],["research","Notre Dame research"],["milestone","Milestones"]];
+const EVKINDS=[["all","All"],["federal","Federal awards"],["sbir","SBIR/STTR"],["patent","Patents"],["research","Notre Dame research"],["milestone","Milestones"],["warn","Layoff & closing notices"]];
 function renderEvents(){const vis=new Set(C.filter(visible).map(c=>c.id));let evs=DATA.events.filter(e=>!e.company||vis.has(e.company));
   const kinds=EVKINDS.filter(([k])=>k==="all"||DATA.events.some(e=>e.kind===k)),counts=Object.fromEntries(kinds.map(([k])=>[k,k==="all"?evs.length:evs.filter(e=>e.kind===k).length]));
   if(st.evKind!=="all")evs=evs.filter(e=>e.kind===st.evKind);
@@ -569,7 +569,7 @@ function renderDetail(){const d=document.getElementById("detail"),c=st.sel&&byId
   ${c.website?`<div class="k">Website</div><a href="${esc(c.website)}" rel="noopener">${site(c.website)}</a>`:""}${c.uei?`<div class="k">UEI</div>${esc(c.uei)}`:""}</div>
   <div>${c.federal?`<div class="k">Federal awards since FY2016</div>contracts ${fmtUSD(c.federal.contracts)} · grants ${fmtUSD(c.federal.grants)} (USAspending)`:""}${c.sbir?`<div class="k">SBIR/STTR</div>${c.sbir.count} awards, ${fmtUSD(c.sbir.amount)} (${esc(c.sbir.agencies.join(", "))})`:""}
   ${c.patents?`<div class="k">Patents since 2015</div>${c.patents.count}${c.patents.latest.length?": "+c.patents.latest.slice(0,3).map(p=>esc(p.title)).join("; "):""}`:""}
-  ${c.fda?`<div class="k">FDA device establishment</div>${esc([...c.fda.types,...c.fda.devices].join(", ")||"registered")}`:""}${c.certs.filter(x=>!/^FDA/.test(x)).length?`<div class="k">Certifications</div>${esc(c.certs.filter(x=>!/^FDA/.test(x)).join(", "))}`:""}</div>
+  ${(c.warn?`<div class="k">WARN notices</div>${c.warn.map(w=>esc(`${w.type[0].toUpperCase()+w.type.slice(1)}, notice ${w.date}${w.effective?", effective "+w.effective:""}${w.workers?", "+w.workers+" workers":""}`)).join("<br>")}`:"")+(c.fda?`<div class="k">FDA device establishment</div>${esc([...c.fda.types,...c.fda.devices].join(", ")||"registered")}`:"")}${c.certs.filter(x=>!/^FDA/.test(x)).length?`<div class="k">Certifications</div>${esc(c.certs.filter(x=>!/^FDA/.test(x)).join(", "))}`:""}</div>
   <div><div class="k">Source</div>${esc(c.source)}${c.updated?" · as of "+esc(c.updated):""}</div>`}
 
 /* ---------- roster: multi-site companies collapse under their name ---------- */
@@ -591,7 +591,8 @@ function renderTable(){const tb=document.querySelector("#table tbody"),rs=st.sor
   const last=Math.min(rows.length,first+st.rlim),nav=pages>1?`<button type="button" class="mm-chip mm-pg" data-rpage="${st.rpage-1}" aria-label="Previous page" ${st.rpage===0?"disabled":""}>‹</button><span class="mm-count">${(first+1).toLocaleString()}–${last.toLocaleString()} of ${rows.length.toLocaleString()} companies · page ${st.rpage+1} of ${pages}</span><button type="button" class="mm-chip mm-pg" data-rpage="${st.rpage+1}" aria-label="Next page" ${st.rpage>=pages-1?"disabled":""}>›</button>`:`<span class="mm-count">${rows.length.toLocaleString()} companies</span>`;
   const more=rows.length>20?`<tr class="mm-more"><td colspan="6">${nav}<span class="mm-lb">Per page</span>${[[20,"20"],[100,"100"],[Infinity,"All"]].map(([n,l])=>`<button type="button" class="mm-chip" data-rlim="${n}" aria-pressed="${st.rlim===n}">${l}</button>`).join("")}</td></tr>`:"";
   tb.innerHTML=(html||`<tr><td colspan="6" class="mm-count">No company matches these filters.</td></tr>`)+more;
-  const txt=`${nGroups(vis)} companies at ${vis.length} sites shown, of ${nGroups(C)} at ${C.length}`;document.getElementById("shown").textContent=txt;document.getElementById("rostercount").textContent=txt}
+  const ms=l=>l.filter(c=>c.mfg).length,ov=vis.length-ms(vis);
+  const txt=`${nGroups(vis)} manufacturers at ${ms(vis)} sites shown, of ${nGroups(C)} at ${ms(C)}${ov?` · plus ${ov} other organization${ov>1?"s":""}`:""}`;document.getElementById("shown").textContent=txt;document.getElementById("rostercount").textContent=txt}
 
 /* ---------- wiring ---------- */
 function select(id){st.sel=(st.sel===id?null:id);_ctr=center();if(st.rings||st.radius)buildRings();render();

@@ -9,16 +9,17 @@ address = "54370 Smilax Road, New Carlisle, IN 46552"
 lat = 41.70060
 lon = -86.44755
 website = "https://fivestarsheets.com"
+osha_id = "53357"
 
 sector = "Materials & composites"
 products = ["All Other Plastics Product Manufacturing"]
 naics = "326199"
 
-employees = 100
+employees = 102
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Corrugated Sheeting. NAICS 326199: all other plastics product manufacturing."
 

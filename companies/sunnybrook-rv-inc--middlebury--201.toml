@@ -9,16 +9,17 @@ address = "201 14th Avenue, Middlebury, IN 46540"
 lat = 41.68685
 lon = -85.69536
 website = "https://sunnybrook.com"
+osha_id = "853667"
 
 sector = "Vehicles & RVs"
 products = ["Motor Home Manufacturing"]
 naics = "336213"
 
-employees = 150
+employees = 242
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Travel Trailers & Fifth Wheels. NAICS 336213: motor home manufacturing."
 

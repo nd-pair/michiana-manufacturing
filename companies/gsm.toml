@@ -9,6 +9,7 @@ address = "25101 Cleveland Rd, South Bend, IN 46628"
 lat = 41.72257
 lon = -86.35334
 website = "https://www.gsmwinc.com"
+osha_id = "1442370"
 
 sector = "Metal"
 products = ["Stamping & fabrication", "Sheet metal"]

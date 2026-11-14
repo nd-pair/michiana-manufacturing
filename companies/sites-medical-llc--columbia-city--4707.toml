@@ -1,0 +1,26 @@
+# Sites Medical, LLC.
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Sites Medical, LLC."
+kind = "company"
+city = "Columbia City"
+state = "IN"
+address = "4707 East Park 30 Drive, Columbia City, IN 46725"
+lat = 41.13759
+lon = -85.40956
+osha_id = "727168"
+
+sector = "Medical devices & other"
+products = ["Orthopedic devices manufacturing"]
+naics = "339113"
+
+employees = 62
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 339113: orthopedic devices manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

@@ -9,16 +9,17 @@ address = "903 South Main Street, Middlebury, IN 46540"
 lat = 41.65230
 lon = -85.70600
 website = "https://jayco.com"
+osha_id = "291311"
 
 sector = "Wood, paper & furniture"
 products = ["Manufactured Home (mobile Home) Manufacturing"]
 naics = "321991"
 
-employees = 1300
+employees = 3085
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Corporate Headquarters & Recreational Vehicles. NAICS 321991: manufactured home (mobile home) manufacturing."
 

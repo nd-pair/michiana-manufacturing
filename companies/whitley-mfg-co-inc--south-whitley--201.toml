@@ -9,16 +9,17 @@ address = "201 West 1st Street, South Whitley, IN 46787"
 lat = 41.08932
 lon = -85.62910
 website = "https://whitleyman.com"
+osha_id = "1436644"
 
 sector = "Wood, paper & furniture"
 products = ["Prefabricated Wood Building Manufacturing"]
 naics = "321992"
 
-employees = 180
+employees = 131
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Corporate Headquarters & Mobile Offices & Modular Buildings. NAICS 321992: prefabricated wood building manufacturing."
 

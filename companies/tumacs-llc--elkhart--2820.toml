@@ -1,0 +1,27 @@
+# Tumacs LLC
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Tumacs LLC"
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "2820 County Road 6, Elkhart, IN 46514"
+lat = 41.72459
+lon = -85.84220
+osha_id = "1464007"
+
+sector = "Food & consumer goods"
+products = ["Covers (e.g., boat, swimming pool, truck) made from purchased fabrics"]
+naics = "314910"
+
+employees = 60
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+parent = "Tumac's Covers"
+description = "NAICS 314910: covers (e.g., boat, swimming pool, truck) made from purchased fabrics."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

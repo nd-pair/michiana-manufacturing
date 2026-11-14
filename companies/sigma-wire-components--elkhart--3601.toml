@@ -1,0 +1,26 @@
+# Sigma Wire & Components
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Sigma Wire & Components"
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "3601 Charlotte Ave, Elkhart, IN 46517"
+lat = 41.64895
+lon = -86.01027
+osha_id = "1369177"
+
+sector = "Electronics"
+products = ["Insulating purchased nonferrous wire"]
+naics = "335929"
+
+employees = 62
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 335929: insulating purchased nonferrous wire."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

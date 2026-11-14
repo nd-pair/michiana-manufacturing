@@ -1,0 +1,26 @@
+# Western Diversified Plastics
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Western Diversified Plastics"
+kind = "company"
+city = "Mattawan"
+state = "MI"
+address = "53150 N. Main St., Mattawan, MI 49071"
+lat = 42.22547
+lon = -85.78549
+osha_id = "61877"
+
+sector = "Materials & composites"
+products = ["Motor vehicle moldings and extrusions, plastics, manufacturing"]
+naics = "326199"
+
+employees = 844
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 326199: motor vehicle moldings and extrusions, plastics, manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

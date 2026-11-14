@@ -1,0 +1,26 @@
+# SPI Blow Molding, LLC
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "SPI Blow Molding, LLC"
+kind = "company"
+city = "Coloma"
+state = "MI"
+address = "3930 Bessemer Rd PO Box359, Coloma, MI 49038"
+lat = 42.17400
+lon = -86.34490
+osha_id = "969022"
+
+sector = "Materials & composites"
+products = ["Badges, plastics, manufacturing"]
+naics = "326199"
+
+employees = 33
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 326199: badges, plastics, manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

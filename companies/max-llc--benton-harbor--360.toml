@@ -1,0 +1,27 @@
+# Max , LLC
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Max , LLC"
+kind = "company"
+city = "Benton Harbor"
+state = "MI"
+address = "360 Urbandale Ave., Benton Harbor, MI 49022"
+lat = 42.12059
+lon = -86.42545
+osha_id = "1255334"
+
+sector = "Mechatronics & automation"
+products = ["Mfg Plastic Injection Molds"]
+naics = "333511"
+
+employees = 28
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+parent = "Max 3, LLC"
+description = "NAICS 333511: mfg plastic injection molds."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

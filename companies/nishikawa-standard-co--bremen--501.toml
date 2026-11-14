@@ -9,16 +9,17 @@ address = "501 High Road, Bremen, IN 46506"
 lat = 41.45578
 lon = -86.15208
 website = "https://cooperstandard.com"
+osha_id = "209274"
 
 sector = "Metal"
 products = ["Metal Window and Door Manufacturing"]
 naics = "332321"
 
-employees = 400
+employees = 340
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Automotive Weather Stripping & Sealing Systems. NAICS 332321: metal window and door manufacturing."
 

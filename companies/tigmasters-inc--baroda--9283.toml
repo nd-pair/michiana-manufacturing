@@ -1,0 +1,26 @@
+# Tigmasters Inc
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Tigmasters Inc"
+kind = "company"
+city = "Baroda"
+state = "MI"
+address = "9283 First St, Baroda, MI 49101"
+lat = 41.95112
+lon = -86.48559
+osha_id = "1459136"
+
+sector = "Metal"
+products = ["Industrial pattern manufacturing"]
+naics = "332999"
+
+employees = 42
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 332999: industrial pattern manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

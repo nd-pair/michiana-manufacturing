@@ -9,16 +9,17 @@ address = "13990 State Road 10, Argos, IN 46501"
 lat = 41.23161
 lon = -86.32818
 website = "https://ncpallets.com"
+osha_id = "965618"
 
 sector = "Wood, paper & furniture"
 products = ["Wood Container and Pallet Manufacturing"]
 naics = "321920"
 
-employees = 45
+employees = 31
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "New, Wooden & Remanufactured Pallets, Boxes & Crates, Colored & Bark Mulch & Sawdust, Including Scrap Wood Removal. NAICS 321920: wood container and pallet manufacturing."
 

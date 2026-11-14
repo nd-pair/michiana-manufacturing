@@ -9,17 +9,18 @@ address = "3000 Lakeview Avenue, Saint Joseph, MI 49085"
 lat = 42.08232
 lon = -86.49075
 website = "https://leco.com"
+osha_id = "941887"
 uei = "FW9WDP2HN4B6"
 
 sector = "Metal"
 products = ["Electroplating, Plating, Polishing, Anodizing and Coloring"]
 naics = "332813"
 
-employees = 800
+employees = 25
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Laboratory Equipment & Instruments for Research & Development. NAICS 332813: electroplating, plating, polishing, anodizing and coloring."
 

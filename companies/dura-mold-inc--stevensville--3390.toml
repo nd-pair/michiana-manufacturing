@@ -1,0 +1,26 @@
+# Dura Mold, inc
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Dura Mold, inc"
+kind = "company"
+city = "Stevensville"
+state = "MI"
+address = "3390 W Linco Rd, Stevensville, MI 49127"
+lat = 41.98543
+lon = -86.53509
+osha_id = "1072828"
+
+sector = "Mechatronics & automation"
+products = ["Cutting dies, metalworking, manufacturing"]
+naics = "333514"
+
+employees = 47
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 333514: cutting dies, metalworking, manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

@@ -9,17 +9,18 @@ address = "30380 County Road 6, Elkhart, IN 46514"
 lat = 41.72423
 lon = -86.04998
 website = "https://agdia.com"
+osha_id = "1433801"
 uei = "E4KUD5XKEJB3"
 
 sector = "Electronics"
 products = ["Instrument Manufacturing for Measuring and Testing Electricity and Electrical Signals"]
 naics = "334515"
 
-employees = 50
+employees = 42
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Agricultural Testing Products. NAICS 334515: instrument manufacturing for measuring and testing electricity and electrical signals."
 

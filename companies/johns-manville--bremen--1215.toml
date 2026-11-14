@@ -9,16 +9,17 @@ address = "1215 West Dewey Street, Bremen, IN 46506"
 lat = 41.45088
 lon = -86.16144
 website = "https://jm.com"
+osha_id = "1512721"
 
 sector = "Materials & composites"
 products = ["Mineral Wool Manufacturing"]
 naics = "327993"
 
-employees = 45
+employees = 59
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Rigid Insulation Panels. NAICS 327993: mineral wool manufacturing."
 

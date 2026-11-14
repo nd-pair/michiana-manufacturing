@@ -1,0 +1,26 @@
+# Bomarko, Inc.
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Bomarko, Inc."
+kind = "company"
+city = "Plymouth"
+state = "IN"
+address = "1955 North Oak Drive, Plymouth, IN 46563"
+lat = 41.35837
+lon = -86.32894
+osha_id = "575824"
+
+sector = "Wood, paper & furniture"
+products = ["Flexible packaging sheet materials made by coating or laminating purchased paper"]
+naics = "322220"
+
+employees = 88
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 322220: flexible packaging sheet materials made by coating or laminating purchased paper."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

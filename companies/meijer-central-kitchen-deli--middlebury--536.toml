@@ -1,0 +1,27 @@
+# Meijer Central Kitchen Deli
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Meijer Central Kitchen Deli"
+kind = "company"
+city = "Middlebury"
+state = "IN"
+address = "536 N Main St, Middlebury, IN 46540"
+lat = 41.69524
+lon = -85.69284
+osha_id = "986733"
+
+sector = "Food & consumer goods"
+products = ["Retail"]
+naics = "311991"
+
+employees = 106
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+parent = "Meijer"
+description = "NAICS 311991: retail."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

@@ -8,16 +8,17 @@ state = "IN"
 address = "4801 Middlebury Street, Elkhart, IN 46516"
 lat = 41.68121
 lon = -85.89823
+osha_id = "1050715"
 
 sector = "Metal"
 products = ["Metal Stamping"]
 naics = "332116"
 
-employees = 100
+employees = 42
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Metal Stampings & Anchoring Systems. NAICS 332116: metal stamping."
 

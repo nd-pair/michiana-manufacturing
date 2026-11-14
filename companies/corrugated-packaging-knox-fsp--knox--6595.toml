@@ -1,0 +1,27 @@
+# Corrugated Packaging Knox FSP
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Corrugated Packaging Knox FSP"
+kind = "company"
+city = "Knox"
+state = "IN"
+address = "6595 E. State Highway 10, Knox, IN 46534"
+lat = 41.22974
+lon = -86.56966
+osha_id = "745873"
+
+sector = "Wood, paper & furniture"
+products = ["Corrugated and Solid Fiber Box Manufacturing"]
+naics = "322211"
+
+employees = 27
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+parent = "WestRock CP, LLC"
+description = "NAICS 322211: corrugated and solid fiber box manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

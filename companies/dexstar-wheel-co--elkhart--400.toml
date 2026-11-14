@@ -9,16 +9,17 @@ address = "400 Collins Road, Elkhart, IN 46516"
 lat = 41.68824
 lon = -85.92170
 website = "https://dexstarwheel.com"
+osha_id = "1010147"
 
 sector = "Vehicles & RVs"
 products = ["All Other Motor Vehicle Parts Manufacturing"]
 naics = "336399"
 
-employees = 110
+employees = 87
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Trailer Rims & Wheels. NAICS 336399: all other motor vehicle parts manufacturing."
 

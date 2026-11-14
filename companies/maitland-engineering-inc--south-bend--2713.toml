@@ -8,16 +8,17 @@ state = "IN"
 address = "2713 Foundation Drive, South Bend, IN 46628"
 lat = 41.71322
 lon = -86.30453
+osha_id = "1276527"
 
 sector = "Medical devices & other"
 products = ["Surgical Appliance and Supplies Manufacturing"]
 naics = "339113"
 
-employees = 47
+employees = 21
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Orthopedic Implants & Instruments. NAICS 339113: surgical appliance and supplies manufacturing."
 

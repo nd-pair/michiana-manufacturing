@@ -9,16 +9,17 @@ address = "11550 Harter Drive, Middlebury, IN 46540"
 lat = 41.74383
 lon = -85.69057
 website = "https://paceamerican.com"
+osha_id = "926304"
 
 sector = "Wood, paper & furniture"
 products = ["Manufactured Home (mobile Home) Manufacturing"]
 naics = "321991"
 
-employees = 300
+employees = 118
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Corporate Headquarters & Cargo Trailers. NAICS 321991: manufactured home (mobile home) manufacturing."
 

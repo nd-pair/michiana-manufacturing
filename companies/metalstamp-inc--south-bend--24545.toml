@@ -9,16 +9,17 @@ address = "24545 State Road 23, South Bend, IN 46614"
 lat = 41.62004
 lon = -86.34155
 website = "https://metalstamp-inc.com"
+osha_id = "1269738"
 
 sector = "Metal"
 products = ["Metal Stamping"]
 naics = "332116"
 
-employees = 70
+employees = 28
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Heavy Metal Stampings & Tool & Die Job Shop. NAICS 332116: metal stamping."
 

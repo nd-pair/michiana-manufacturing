@@ -1,0 +1,26 @@
+# McLaughlin Services LLC
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "McLaughlin Services LLC"
+kind = "company"
+city = "Avilla"
+state = "IN"
+address = "150 Eagle Drive, Avilla, IN 46710"
+lat = 41.36431
+lon = -85.20940
+osha_id = "1426195"
+
+sector = "Mechatronics & automation"
+products = ["Heat treating ovens, industrial process-type, manufacturing"]
+naics = "333994"
+
+employees = 35
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 333994: heat treating ovens, industrial process-type, manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

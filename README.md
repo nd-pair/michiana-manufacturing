@@ -22,6 +22,18 @@ file per facility; it never overwrites a file that exists, and a hand-written fi
 company (same website domain or name) always wins. Imported files are ordinary files: edit them,
 rename them, or delete them.
 
+HIFLD's base year is 2022, so plants with 20 or more employees are also imported from **OSHA's
+establishment-specific injury and illness data** (Form 300A, which manufacturers of that size must
+file every year, with the annual average number of employees). OSHA's site turns away scripts, so
+download the latest "300A Summary Data" file by hand from
+<https://www.osha.gov/Establishment-Specific-Injury-and-Illness-Data> once a year (filings are due
+March 2) and run `python3 scripts/import_osha.py <file.csv or .zip>`. It keeps NAICS 31–33
+establishments whose ZIP code lies mostly in a region county (`data/region_zips.json`), matches them
+to existing files by OSHA ID, street address or name in the same city, replaces estimated headcounts
+with OSHA's reported figure, and writes new files for the rest after checking the county with the
+Census geocoder; departments a company files separately at one address become one plant.
+`data/osha.json` keeps every year's establishments, so a plant that stops filing is flagged for review.
+
 ## Adding a company
 
 A company is one short text file in [`companies/`](companies/). Copy the template below into a
@@ -77,7 +89,10 @@ import would add the facility again, since HIFLD lags closures by years. Add `cl
 and a `closed_note` with the source instead. The build leaves the entry off the map and the
 importers keep skipping it. To find candidates, run `python3 scripts/check_closed.py`: it checks every
 company website (domain gone, parked, redirected to another company) and writes a review list to
-`data/.closure-review.csv`, which is not committed. A dead website is a lead, not proof; confirm each
+`data/.closure-review.csv`, which is not committed. It adds two public-record signals: Indiana WARN
+closing notices matched to a plant whose closing date has passed (`scripts/pull_warn.py`, monthly,
+`data/warn.json`; Michigan publishes no table), and plants that filed with OSHA one year but not the
+next. A dead website is a lead, not proof; confirm each
 closure from a dated source before marking it.
 
 **Positions.** If you give an address but no `lat`/`lon`, run `python3 scripts/geocode.py` and it
@@ -202,7 +217,7 @@ Without WebGL the map shows a notice and everything else still works. The page c
 ## Keeping the data current
 
 [`refresh-data.yml`](.github/workflows/refresh-data.yml) runs on the 2nd of every month (and on
-demand from the Actions tab): it imports new HIFLD facilities, re-pulls USAspending, SBIR.gov, openFDA, the timeline
+demand from the Actions tab): it imports new HIFLD facilities, re-pulls Indiana WARN notices, USAspending, SBIR.gov, openFDA, the timeline
 streams, QCEW and the BLS workforce series, geocodes any file with an address but no coordinates, rebuilds and commits. Each source is
 optional, so an outage at one does not block the others. Hand-written files are never touched.
 
@@ -267,7 +282,7 @@ so commit only your source changes (`companies/`, `data/`, `site/`, `scripts/`) 
 companies/      one TOML file per company (edit these)
 data/           sectors, places, capabilities (edit these); county boundaries (Census), shorelines (Natural Earth); pulled datasets (federal, fda, qcew, bls, sbir)
 site/           the pages: Notre Dame Web Theme chrome (partials/), page.html + app.js (map), about.html, brief.html + brief.js, app.css
-scripts/        review_llm.py (monthly news review), build.py, humanoid.py, opportunity.py, geocode.py, import_hifld.py, import_sbir_firms.py, pull_federal.py, pull_sbir.py, pull_fda.py, pull_qcew.py, pull_bls.py, pull_workforce.py, pull_nd_research.py, pull_events.py, pull_patents.py, common.py
+scripts/        review_llm.py (monthly news review), build.py, humanoid.py, opportunity.py, geocode.py, import_hifld.py, import_osha.py, import_sbir_firms.py, pull_warn.py, pull_federal.py, pull_sbir.py, pull_fda.py, pull_qcew.py, pull_bls.py, pull_workforce.py, pull_nd_research.py, pull_events.py, pull_patents.py, common.py
 docs/           the built site (generated; do not edit by hand)
 ```
 
@@ -277,8 +292,9 @@ The page uses the University's web theme (NDT4) for its frame, as the PAIR site 
 ## Sources and credits
 
 Company descriptions, products and headcounts: the HIFLD General Manufacturing Facilities
-dataset (U.S. DHS, public domain) for most entries, and the companies' own websites, public
+dataset (U.S. DHS, public domain) for most entries, OSHA's Form 300A establishment data (U.S.
+Department of Labor) for plants with 20 or more employees, and the companies' own websites, public
 filings, press and business directories for the rest; headcounts are approximate and dated.
-Federal awards: USAspending.gov. SBIR/STTR: SBIR.gov. Device registrations: openFDA. Employment, pay, occupations and unemployment: BLS (QCEW, OEWS, CES, LAUS). Task traits: O*NET 31.0 (CC BY 4.0). Workforce age and turnover: Census LEHD QWI. Value added: BEA. County boundaries: U.S.
+Layoff and closing notices: Indiana Department of Workforce Development (WARN). Federal awards: USAspending.gov. SBIR/STTR: SBIR.gov. Device registrations: openFDA. Employment, pay, occupations and unemployment: BLS (QCEW, OEWS, CES, LAUS). Task traits: O*NET 31.0 (CC BY 4.0). Workforce age and turnover: Census LEHD QWI. Value added: BEA. County boundaries: U.S.
 Census Bureau cartographic boundary files. Shorelines: Natural Earth. Code: MIT license (see
 LICENSE); company data is factual public information.

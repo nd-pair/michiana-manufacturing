@@ -9,16 +9,17 @@ address = "1 Arnolt Drive, Pierceton, IN 46562"
 lat = 41.20513
 lon = -85.71854
 website = "https://omcoform.com"
+osha_id = "1169285"
 
 sector = "Metal"
 products = ["Custom Roll Forming"]
 naics = "332114"
 
-employees = 70
+employees = 116
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Roll-Formed Steel Structural Components. NAICS 332114: custom roll forming."
 

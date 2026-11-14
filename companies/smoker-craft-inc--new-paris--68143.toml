@@ -9,16 +9,17 @@ address = "68143 Clunette Street, New Paris, IN 46553"
 lat = 41.50494
 lon = -85.82994
 website = "https://smokercraft.com"
+osha_id = "1053853"
 
 sector = "Vehicles & RVs"
 products = ["Boat Building"]
 naics = "336612"
 
-employees = 350
+employees = 484
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Corporate Headquarters & Aluminun Fishing Boats & Pontoons. NAICS 336612: boat building."
 

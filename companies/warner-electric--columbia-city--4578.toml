@@ -1,0 +1,26 @@
+# Warner Electric
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Warner Electric"
+kind = "company"
+city = "Columbia City"
+state = "IN"
+address = "4578 E Park 30 Drive, Columbia City, IN 46725"
+lat = 41.13337
+lon = -85.39800
+osha_id = "1263715"
+
+sector = "Mechatronics & automation"
+products = ["Motors, gear, manufacturing"]
+naics = "333612"
+
+employees = 202
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 333612: motors, gear, manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

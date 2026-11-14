@@ -1,0 +1,27 @@
+# Corrugated Packaging Plymouth FSP
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Corrugated Packaging Plymouth FSP"
+kind = "company"
+city = "Plymouth"
+state = "IN"
+address = "1100 Pidco Drive, Plymouth, IN 46563"
+lat = 41.35160
+lon = -86.32137
+osha_id = "745869"
+
+sector = "Wood, paper & furniture"
+products = ["Corrugated and Solid Fiber Box Manufacturing"]
+naics = "322211"
+
+employees = 171
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+parent = "WestRock CP, LLC"
+description = "NAICS 322211: corrugated and solid fiber box manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

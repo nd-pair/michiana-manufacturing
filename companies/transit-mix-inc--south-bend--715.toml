@@ -10,17 +10,18 @@ address = "715 West Ireland Road, South Bend, IN 46614"
 lat = 41.62917
 lon = -86.25846
 website = "https://ozinga.com"
+osha_id = "194562"
 status_note = "Transit Mix's ready-mix operations now run under Ozinga."
 
 sector = "Materials & composites"
 products = ["Ready-Mix Concrete Manufacturing"]
 naics = "327320"
 
-employees = 25
+employees = 34
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Ready-Mixed Concrete. NAICS 327320: ready-mix concrete manufacturing."
 

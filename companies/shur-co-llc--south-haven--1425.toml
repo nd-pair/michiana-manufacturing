@@ -1,0 +1,26 @@
+# Shur-Co, LLC
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Shur-Co, LLC"
+kind = "company"
+city = "South Haven"
+state = "MI"
+address = "1425 Kalamazoo St, South Haven, MI 49090"
+lat = 42.38358
+lon = -86.27545
+osha_id = "1527900"
+
+sector = "Food & consumer goods"
+products = ["Awnings and canopies, outdoor, made from purchased fabrics"]
+naics = "314910"
+
+employees = 74
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 314910: awnings and canopies, outdoor, made from purchased fabrics."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

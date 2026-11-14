@@ -1,0 +1,27 @@
+# Champion Window of South Bend
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Champion Window of South Bend"
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "3235 Rosetta Place Dr Suite 4, South Bend, IN 46628"
+lat = 41.71346
+lon = -86.29442
+osha_id = "1192390"
+
+sector = "Materials & composites"
+products = ["Profile shapes (e.g., rod, tube), nonrigid plastics, manufacturing"]
+naics = "326121"
+
+employees = 20
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+parent = "Champion Window"
+description = "NAICS 326121: profile shapes (e.g., rod, tube), nonrigid plastics, manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

@@ -1,0 +1,26 @@
+# Alutech Benton Harbor Chassix
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Alutech Benton Harbor Chassix"
+kind = "company"
+city = "Benton Harbor"
+state = "MI"
+address = "1320 Paw Paw Avenue, Benton Harbor, MI 49022"
+lat = 42.13736
+lon = -86.44166
+osha_id = "1264524"
+
+sector = "Vehicles & RVs"
+products = ["Manufacturing"]
+naics = "336330"
+
+employees = 250
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 336330: manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

@@ -9,16 +9,17 @@ address = "1710 North Sheridan Street, South Bend, IN 46628"
 lat = 41.69773
 lon = -86.30276
 website = "https://hoosiertank.com"
+osha_id = "1519562"
 
 sector = "Vehicles & RVs"
 products = ["Railroad Rolling Stock Manufacturing"]
 naics = "336510"
 
-employees = 54
+employees = 73
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Brake System Air Tanks. NAICS 336510: railroad rolling stock manufacturing."
 

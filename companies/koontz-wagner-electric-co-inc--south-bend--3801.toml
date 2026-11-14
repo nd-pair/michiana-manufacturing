@@ -9,16 +9,17 @@ address = "3801 Voorde Drive, South Bend, IN 46628"
 lat = 41.69880
 lon = -86.30180
 website = "https://koontz-wagner.com"
+osha_id = "1566405"
 
 sector = "Electronics"
 products = ["Switchgear and Switchboard Apparatus Manufacturing"]
 naics = "335313"
 
-employees = 350
+employees = 60
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Corporate Headquarters & Control Panels & Integrated Electrics for Packaged Control Room Systems. NAICS 335313: switchgear and switchboard apparatus manufacturing."
 

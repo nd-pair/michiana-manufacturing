@@ -1,0 +1,27 @@
+# Vixen Composites
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Vixen Composites"
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "2965 Lavanture Pl, Elkhart, IN 46514"
+lat = 41.72985
+lon = -85.99695
+osha_id = "1538046"
+
+sector = "Vehicles & RVs"
+products = ["Manufacturing"]
+naics = "336214"
+
+employees = 24
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+parent = "Airxcel"
+description = "NAICS 336214: manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

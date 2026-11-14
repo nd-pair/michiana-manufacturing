@@ -1,0 +1,26 @@
+# Custom Wood Products, INC
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Custom Wood Products, INC"
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "1901 W. Hively Ave, Elkhart, IN 46517"
+lat = 41.65968
+lon = -85.99880
+osha_id = "1440903"
+
+sector = "Wood, paper & furniture"
+products = ["Coffee tables, wood, manufacturing"]
+naics = "337122"
+
+employees = 58
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 337122: coffee tables, wood, manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

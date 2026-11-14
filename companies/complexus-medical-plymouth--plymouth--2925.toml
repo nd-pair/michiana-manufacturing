@@ -1,0 +1,27 @@
+# Complexus Medical Plymouth
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Complexus Medical Plymouth"
+kind = "company"
+city = "Plymouth"
+state = "IN"
+address = "2925 Gary Drive Plymouth, IN 46562, Plymouth, IN 46563"
+lat = 41.36278
+lon = -86.35017
+osha_id = "1101518"
+
+sector = "Medical devices & other"
+products = ["Instruments, mechanical microsurgical, manufacturing"]
+naics = "339112"
+
+employees = 20
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+parent = "Complexus Medical"
+description = "NAICS 339112: instruments, mechanical microsurgical, manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

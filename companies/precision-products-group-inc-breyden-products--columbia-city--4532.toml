@@ -1,0 +1,27 @@
+# Precision Products Group, Inc. (Breyden Products)
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Precision Products Group, Inc. (Breyden Products)"
+kind = "company"
+city = "Columbia City"
+state = "IN"
+address = "4532 E. Park 30 Dr., Columbia City, IN 46725"
+lat = 41.13425
+lon = -85.39997
+osha_id = "1567816"
+
+sector = "Food & consumer goods"
+products = ["Tire cord and fabric, all materials, manufacturing"]
+naics = "314994"
+
+employees = 40
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+parent = "Precision Products Group, Inc"
+description = "NAICS 314994: tire cord and fabric, all materials, manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

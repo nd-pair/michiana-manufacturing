@@ -9,16 +9,17 @@ address = "1555 State Road 39 South, La Porte, IN 46350"
 lat = 41.58066
 lon = -86.73898
 website = "https://epakmachinery.com"
+osha_id = "1228654"
 
 sector = "Mechatronics & automation"
 products = ["Packaging Machinery Manufacturing"]
 naics = "333993"
 
-employees = 35
+employees = 51
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Liquid Filling Machinery, Including Cappers, Labelers, Conveyors, Turntables, Cap Feeders, Bottle Cleaners & Coders. NAICS 333993: packaging machinery manufacturing."
 

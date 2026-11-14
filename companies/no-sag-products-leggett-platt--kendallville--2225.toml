@@ -1,0 +1,26 @@
+# No Sag Products/ Leggett & Platt
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "No Sag Products/ Leggett & Platt"
+kind = "company"
+city = "Kendallville"
+state = "IN"
+address = "2225 Production Road, Kendallville, IN 46755"
+lat = 41.44308
+lon = -85.22865
+osha_id = "977248"
+
+sector = "Metal"
+products = ["Coiled springs (except clock, watch), light gauge, made from purchased wire or strip, manufacturing"]
+naics = "332613"
+
+employees = 82
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 332613: coiled springs (except clock, watch), light gauge, made from purchased wire or strip, manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

@@ -9,16 +9,17 @@ address = "1118 Gerber Street, Ligonier, IN 46767"
 lat = 41.47234
 lon = -85.60179
 website = "https://scindiana.com"
+osha_id = "208286"
 
 sector = "Materials & composites"
 products = ["Other Pressed and Blown Glass and Glassware Manufacturing"]
 naics = "327212"
 
-employees = 100
+employees = 147
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Fiberglass Fabrication. NAICS 327212: other pressed and blown glass and glassware manufacturing."
 

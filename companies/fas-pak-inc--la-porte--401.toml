@@ -1,0 +1,26 @@
+# Fas-Pak, Inc.
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Fas-Pak, Inc."
+kind = "company"
+city = "La Porte"
+state = "IN"
+address = "401 Darlington St, La Porte, IN 46350"
+lat = 41.62499
+lon = -86.69743
+osha_id = "1435847"
+
+sector = "Materials & composites"
+products = ["Manufacturing"]
+naics = "325612"
+
+employees = 232
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 325612: manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

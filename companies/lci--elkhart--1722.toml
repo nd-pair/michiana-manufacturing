@@ -1,0 +1,27 @@
+# LCI
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "LCI"
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "1722 W Mishawaka Road, Elkhart, IN 46517"
+lat = 41.69542
+lon = -86.00105
+osha_id = "899009"
+
+sector = "Metal"
+products = ["Manufacturing"]
+naics = "332321"
+
+employees = 607
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+parent = "058 LCI"
+description = "NAICS 332321: manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

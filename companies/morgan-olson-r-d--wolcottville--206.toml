@@ -1,0 +1,27 @@
+# Morgan Olson R&D
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Morgan Olson R&D"
+kind = "company"
+city = "Wolcottville"
+state = "IN"
+address = "206 E. Vine St., Wolcottville, IN 46795"
+lat = 41.53144
+lon = -85.36311
+osha_id = "959783"
+
+sector = "Vehicles & RVs"
+products = ["Truck bodies assembling on purchased chassis"]
+naics = "336211"
+
+employees = 14
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+parent = "Morgan Olson"
+description = "NAICS 336211: truck bodies assembling on purchased chassis."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

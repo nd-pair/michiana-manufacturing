@@ -1,0 +1,26 @@
+# inTech Trailers
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "inTech Trailers"
+kind = "company"
+city = "Nappanee"
+state = "IN"
+address = "29286 CR 52, Nappanee, IN 46550"
+lat = 41.45720
+lon = -86.02569
+osha_id = "435216"
+
+sector = "Vehicles & RVs"
+products = ["Automobile transporter trailers, multi-car, manufacturing"]
+naics = "336212"
+
+employees = 296
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 336212: automobile transporter trailers, multi-car, manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

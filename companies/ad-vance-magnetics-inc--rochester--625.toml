@@ -1,0 +1,26 @@
+# Ad-Vance Magnetics, Inc.
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Ad-Vance Magnetics, Inc."
+kind = "company"
+city = "Rochester"
+state = "IN"
+address = "625 Monroe Street, Rochester, IN 46975"
+lat = 41.06773
+lon = -86.21279
+osha_id = "603845"
+
+sector = "Metal"
+products = ["Shims, metal, manufacturing"]
+naics = "332999"
+
+employees = 21
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 332999: shims, metal, manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

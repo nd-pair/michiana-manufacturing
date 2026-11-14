@@ -1,0 +1,26 @@
+# Color Master, Inc.
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Color Master, Inc."
+kind = "company"
+city = "Kendallville"
+state = "IN"
+address = "4230 E. US 6, Kendallville, IN 46755"
+lat = 41.45246
+lon = -85.33944
+osha_id = "107759"
+
+sector = "Materials & composites"
+products = ["Custom compounding (i.e., blending and mixing) of purchased plastics resins"]
+naics = "325991"
+
+employees = 30
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 325991: custom compounding (i.e., blending and mixing) of purchased plastics resins."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

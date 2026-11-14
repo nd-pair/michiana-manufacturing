@@ -9,16 +9,17 @@ address = "100 Boone Drive, Michigan City, IN 46360"
 lat = 41.67296
 lon = -86.90594
 website = "https://sagermetal.com"
+osha_id = "1263367"
 
 sector = "Mechatronics & automation"
 products = ["Conveyor and Conveying Equipment Manufacturing"]
 naics = "333922"
 
-employees = 49
+employees = 59
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Conveyors, Metal Fabrication & Laser Cutting. NAICS 333922: conveyor and conveying equipment manufacturing."
 

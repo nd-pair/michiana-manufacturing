@@ -9,16 +9,17 @@ address = "2631 Jim Neu Drive, Plymouth, IN 46563"
 lat = 41.35417
 lon = -86.34074
 website = "https://wittgalvanizing.com"
+osha_id = "1329555"
 
 sector = "Metal"
 products = ["Metal Coating, Engraving (except Jewelry and Silverware), and Allied Services To Manufacturers"]
 naics = "332812"
 
-employees = 90
+employees = 66
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Hot-Dip Galvanizing. NAICS 332812: metal coating, engraving (except jewelry and silverware), and allied services to manufacturers."
 

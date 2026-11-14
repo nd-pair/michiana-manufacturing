@@ -1,0 +1,20 @@
+# Keystone RV Crossroads
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Keystone RV Crossroads"
+kind = "company"
+city = "Topeka"
+state = "IN"
+address = "1100 LAKE STREET, Topeka, IN 46571"
+lat = 41.53929
+lon = -85.55393
+osha_id = "946003"
+
+sector = "Vehicles & RVs"
+products = ["RV Manufacturing"]
+naics = "336214"
+
+description = "NAICS 336214: rv manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

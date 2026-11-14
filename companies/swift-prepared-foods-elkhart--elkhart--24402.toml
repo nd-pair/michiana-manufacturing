@@ -1,0 +1,27 @@
+# Swift Prepared Foods Elkhart
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Swift Prepared Foods Elkhart"
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "24402 Co Rd 45, Elkhart, IN 46516"
+lat = 41.64869
+lon = -85.93395
+osha_id = "1189599"
+
+sector = "Food & consumer goods"
+products = ["Bacon, slab and sliced, made from purchased carcasses"]
+naics = "311612"
+
+employees = 270
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+parent = "Swift Prepared Foods"
+description = "NAICS 311612: bacon, slab and sliced, made from purchased carcasses."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

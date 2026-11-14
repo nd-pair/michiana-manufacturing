@@ -1,0 +1,26 @@
+# Honee Bear Canning
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Honee Bear Canning"
+kind = "company"
+city = "Lawton"
+state = "MI"
+address = "72100 M-40 HWY, Lawton, MI 49065"
+lat = 42.15665
+lon = -85.85189
+osha_id = "750526"
+
+sector = "Food & consumer goods"
+products = ["Canning fruits and vegetables"]
+naics = "311421"
+
+employees = 115
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 311421: canning fruits and vegetables."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

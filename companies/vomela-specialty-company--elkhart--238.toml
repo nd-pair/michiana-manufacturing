@@ -1,0 +1,26 @@
+# Vomela Specialty Company
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Vomela Specialty Company"
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "238 Waterfall Dr, Elkhart, IN 46516"
+lat = 41.68487
+lon = -85.96660
+osha_id = "1279187"
+
+sector = "Wood, paper & furniture"
+products = ["Commercial Printing"]
+naics = "323111"
+
+employees = 18
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 323111: commercial printing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

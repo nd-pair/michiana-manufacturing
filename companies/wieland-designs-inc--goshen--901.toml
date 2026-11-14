@@ -9,16 +9,17 @@ address = "901 East Madison Street, Goshen, IN 46528"
 lat = 41.58249
 lon = -85.82129
 website = "https://wielanddesigns.com"
+osha_id = "483744"
 
 sector = "Wood, paper & furniture"
 products = ["Nonupholstered Wood Household Furniture Manufacturing"]
 naics = "337122"
 
-employees = 225
+employees = 223
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Furniture & Components. NAICS 337122: nonupholstered wood household furniture manufacturing."
 

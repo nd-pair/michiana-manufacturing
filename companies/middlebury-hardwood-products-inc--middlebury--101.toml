@@ -9,16 +9,17 @@ address = "101 Joan Drive, Middlebury, IN 46540"
 lat = 41.64814
 lon = -85.70584
 website = "https://middleburyhardwoodproducts.com"
+osha_id = "1462208"
 
 sector = "Wood, paper & furniture"
 products = ["Wood Kitchen Cabinet and Countertop Manufacturing"]
 naics = "337110"
 
-employees = 142
+employees = 191
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Hardwood Cabinet Doors. NAICS 337110: wood kitchen cabinet and countertop manufacturing."
 

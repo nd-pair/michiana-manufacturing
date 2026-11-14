@@ -9,17 +9,18 @@ address = "58144 Charlotte Avenue, Elkhart, IN 46517"
 lat = 41.65002
 lon = -86.00979
 website = "https://hoosiercrane.com"
+osha_id = "274926"
 uei = "UHT2NL4XHCS5"
 
 sector = "Mechatronics & automation"
 products = ["Overhead Traveling Crane, Hoist, and Monorail System Manufacturing"]
 naics = "333923"
 
-employees = 28
+employees = 81
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Overhead Cranes. NAICS 333923: overhead traveling crane, hoist, and monorail system manufacturing."
 

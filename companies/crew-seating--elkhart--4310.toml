@@ -1,0 +1,26 @@
+# Crew Seating
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Crew Seating"
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "4310 MIddlebury St, Elkhart, IN 46516"
+lat = 41.68164
+lon = -85.90556
+osha_id = "1495724"
+
+sector = "Vehicles & RVs"
+products = ["Motor vehicle trimmings manufacturing"]
+naics = "336360"
+
+employees = 62
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 336360: motor vehicle trimmings manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

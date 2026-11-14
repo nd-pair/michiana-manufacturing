@@ -9,6 +9,7 @@ address = "520 South Byrkit Street, Mishawaka, IN 46544"
 lat = 41.65774
 lon = -86.15728
 website = "https://powergearus.com"
+osha_id = "1371035"
 
 humanoid = ["screws"]
 humanoid_not = ["reducers"]
@@ -18,11 +19,11 @@ sector = "Mechatronics & automation"
 products = ["Pump and Pumping Equipment Manufacturing"]
 naics = "333911"
 
-employees = 130
+employees = 68
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Hydraulic Pumps. NAICS 333911: pump and pumping equipment manufacturing."
 

@@ -1,0 +1,26 @@
+# Mastercraft Inc
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Mastercraft Inc"
+kind = "company"
+city = "LaGrange"
+state = "IN"
+address = "711 S Poplar St, LaGrange, IN 46761"
+lat = 41.63791
+lon = -85.41637
+osha_id = "1147767"
+
+sector = "Wood, paper & furniture"
+products = ["Furniture, office-type, padded, upholstered, or plain wood, manufacturing"]
+naics = "337211"
+
+employees = 118
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 337211: furniture, office-type, padded, upholstered, or plain wood, manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

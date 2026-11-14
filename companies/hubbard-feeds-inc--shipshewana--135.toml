@@ -9,16 +9,17 @@ address = "135 Main Street, Shipshewana, IN 46565"
 lat = 41.67775
 lon = -85.58020
 website = "https://hubbardfeeds.com"
+osha_id = "939189"
 
 sector = "Food & consumer goods"
 products = ["Other Animal Food Manufacturing"]
 naics = "311119"
 
-employees = 30
+employees = 21
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Agricultural Feed. NAICS 311119: other animal food manufacturing."
 

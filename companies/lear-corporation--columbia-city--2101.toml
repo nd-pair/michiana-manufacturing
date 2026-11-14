@@ -1,0 +1,26 @@
+# Lear Corporation
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Lear Corporation"
+kind = "company"
+city = "Columbia City"
+state = "IN"
+address = "2101 South 600 East, Columbia City, IN 46725"
+lat = 41.13269
+lon = -85.37655
+osha_id = "620796"
+
+sector = "Vehicles & RVs"
+products = ["Automotive supplier"]
+naics = "336360"
+
+employees = 520
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 336360: automotive supplier."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

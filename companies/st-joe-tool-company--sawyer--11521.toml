@@ -1,0 +1,26 @@
+# St. Joe Tool Company
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "St. Joe Tool Company"
+kind = "company"
+city = "Sawyer"
+state = "MI"
+address = "11521 Red Arrow Hwy., Sawyer, MI 49125"
+lat = 41.91084
+lon = -86.58521
+osha_id = "1051177"
+
+sector = "Metal"
+products = ["Precision turned product manufacturing"]
+naics = "332721"
+
+employees = 30
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 332721: precision turned product manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

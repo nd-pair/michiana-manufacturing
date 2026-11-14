@@ -1,0 +1,27 @@
+# StairSupplies
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "StairSupplies"
+kind = "company"
+city = "Goshen"
+state = "IN"
+address = "1755 Ardmore Court, Goshen, IN 46526"
+lat = 41.54962
+lon = -85.80806
+osha_id = "801162"
+
+sector = "Wood, paper & furniture"
+products = ["Railings, wood stair, manufacturing"]
+naics = "321918"
+
+employees = 14
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+parent = "Stair Supplies"
+description = "NAICS 321918: railings, wood stair, manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

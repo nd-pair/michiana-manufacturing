@@ -9,16 +9,17 @@ address = "1102 South 10th Street, Goshen, IN 46526"
 lat = 41.57209
 lon = -85.82478
 website = "https://tmrubber.com"
+osha_id = "520863"
 
 sector = "Medical devices & other"
 products = ["Gasket, Packing, and Sealing Device Manufacturing"]
 naics = "339991"
 
-employees = 50
+employees = 20
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Precision Lathe-Cut Rubber Gaskets. NAICS 339991: gasket, packing, and sealing device manufacturing."
 

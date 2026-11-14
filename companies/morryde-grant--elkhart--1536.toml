@@ -1,0 +1,27 @@
+# MORryde - Grant
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "MORryde - Grant"
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "1536 Grant Street, Elkhart, IN 46514"
+lat = 41.70088
+lon = -85.95561
+osha_id = "1082880"
+
+sector = "Vehicles & RVs"
+products = ["Hitches, trailer, automotive, truck, and bus, manufacturing"]
+naics = "336390"
+
+employees = 123
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+parent = "MORryde International, Inc."
+description = "NAICS 336390: hitches, trailer, automotive, truck, and bus, manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

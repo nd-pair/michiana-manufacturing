@@ -1,0 +1,27 @@
+# Adorn Door
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Adorn Door"
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "1808 West Hively, Elkhart, IN 46516"
+lat = 41.65954
+lon = -85.94414
+osha_id = "1448693"
+
+sector = "Wood, paper & furniture"
+products = ["Wood door frames and sash manufacturing"]
+naics = "321911"
+
+employees = 210
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+parent = "Patrick IND."
+description = "NAICS 321911: wood door frames and sash manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

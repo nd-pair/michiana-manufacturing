@@ -9,16 +9,17 @@ address = "58120 County Road 3, Elkhart, IN 46517"
 lat = 41.65036
 lon = -86.02193
 website = "https://mbsionline.com"
+osha_id = "1505341"
 
 sector = "Wood, paper & furniture"
 products = ["Prefabricated Wood Building Manufacturing"]
 naics = "321992"
 
-employees = 178
+employees = 120
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Corporate Headquarters & Modular, Mobile, Commercial & Classroom Structures & Telecommunications Shelters. NAICS 321992: prefabricated wood building manufacturing."
 

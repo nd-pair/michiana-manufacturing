@@ -9,16 +9,17 @@ address = "2608 Almac Court, Elkhart, IN 46514"
 lat = 41.72054
 lon = -85.92925
 website = "https://genesisproductsinc.com"
+osha_id = "294372"
 
 sector = "Wood, paper & furniture"
 products = ["Prefabricated Wood Building Manufacturing"]
 naics = "321992"
 
-employees = 210
+employees = 40
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Corporate Headquarters & Laminated Wooden Wall Panels, Interior Passage Doors & Hardwood Kitchen Cabinets. NAICS 321992: prefabricated wood building manufacturing."
 

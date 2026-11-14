@@ -9,16 +9,17 @@ address = "3402 Lincolnway West, South Bend, IN 46628"
 lat = 41.69206
 lon = -86.29744
 website = "https://kuert.com"
+osha_id = "1073636"
 
 sector = "Materials & composites"
 products = ["Ready-Mix Concrete Manufacturing"]
 naics = "327320"
 
-employees = 65
+employees = 26
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Corporate Headquarters & Ready-Mixed Concrete. NAICS 327320: ready-mix concrete manufacturing."
 

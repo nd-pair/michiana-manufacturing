@@ -1,0 +1,26 @@
+# Krispy Kreme Doughnut Corp.
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Krispy Kreme Doughnut Corp."
+kind = "company"
+city = "Mishawaka"
+state = "IN"
+address = "5615 N Main Street, Mishawaka, IN 46545"
+lat = 41.71129
+lon = -86.17956
+osha_id = "1506211"
+
+sector = "Food & consumer goods"
+products = ["Bakeries with baking from flour on the premises, retailing not for immediate consumption"]
+naics = "311811"
+
+employees = 38
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 311811: bakeries with baking from flour on the premises, retailing not for immediate consumption."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

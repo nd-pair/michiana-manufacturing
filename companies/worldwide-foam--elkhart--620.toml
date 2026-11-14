@@ -1,0 +1,27 @@
+# Worldwide Foam
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Worldwide Foam"
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "620 Riverview Ave., Elkhart, IN 46516"
+lat = 41.68367
+lon = -85.93900
+osha_id = "1454072"
+
+sector = "Materials & composites"
+products = ["Foam plastics products (except polystrene) manufacturing"]
+naics = "326150"
+
+employees = 10
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+parent = "Jacobs and Thompson LTD dba Worldwide Foam"
+description = "NAICS 326150: foam plastics products (except polystrene) manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

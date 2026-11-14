@@ -1,0 +1,26 @@
+# Paddletek Pickleball, LLC
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Paddletek Pickleball, LLC"
+kind = "company"
+city = "Niles"
+state = "MI"
+address = "1990 S. 11th Street, Suite 44, Niles, MI 49120"
+lat = 41.79468
+lon = -86.24916
+osha_id = "1374641"
+
+sector = "Medical devices & other"
+products = ["Athletic goods (except ammunition, clothing, footwear, small arms) manufacturing"]
+naics = "339920"
+
+employees = 39
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 339920: athletic goods (except ammunition, clothing, footwear, small arms) manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

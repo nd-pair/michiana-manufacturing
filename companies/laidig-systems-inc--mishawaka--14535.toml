@@ -9,16 +9,17 @@ address = "14535 Dragoon Trail, Mishawaka, IN 46544"
 lat = 41.63800
 lon = -86.14689
 website = "https://laidig.com"
+osha_id = "119670"
 
 sector = "Mechatronics & automation"
 products = ["Farm Machinery and Equipment Manufacturing"]
 naics = "333111"
 
-employees = 70
+employees = 120
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Storage & Reclaim Systems for Hard-To-Handle Dry Bulk Materials & Silos & Bottom Silo Unloading Equipment. NAICS 333111: farm machinery and equipment manufacturing."
 

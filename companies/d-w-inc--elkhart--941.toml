@@ -9,16 +9,17 @@ address = "941 Oak Street, Elkhart, IN 46514"
 lat = 41.69446
 lon = -85.99419
 website = "https://dwincorp.com"
+osha_id = "502967"
 
 sector = "Materials & composites"
 products = ["Glass Product Manufacturing Made of Purchased Glass"]
 naics = "327215"
 
-employees = 80
+employees = 43
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Mirror & Glass Fabrication. NAICS 327215: glass product manufacturing made of purchased glass."
 

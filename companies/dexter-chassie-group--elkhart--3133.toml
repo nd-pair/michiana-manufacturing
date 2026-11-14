@@ -9,16 +9,17 @@ address = "3133 Tuscany Drive, Elkhart, IN 46514"
 lat = 41.71993
 lon = -85.93291
 website = "https://dexterchassiegroup.com"
+osha_id = "1174754"
 
 sector = "Metal"
 products = ["Primary Aluminum Production"]
 naics = "331312"
 
-employees = 215
+employees = 66
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Aluminum Extrusions, Sheet Metal Fabricating & HVAC Units. NAICS 331312: primary aluminum production."
 

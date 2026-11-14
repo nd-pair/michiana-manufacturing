@@ -9,16 +9,17 @@ address = "3917 State Road 106, Bremen, IN 46506"
 lat = 41.44923
 lon = -86.13734
 website = "https://almegatf.com"
+osha_id = "248193"
 
 sector = "Electronics"
 products = ["Other Electronic Component Manufacturing"]
 naics = "334419"
 
-employees = 50
+employees = 38
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Wiring Harnesses, Wire Leads & Power Supply Cords. NAICS 334419: other electronic component manufacturing."
 

@@ -1,0 +1,27 @@
+# FinishWorks (Shipshewana, IN)
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "FinishWorks (Shipshewana, IN)"
+kind = "company"
+city = "Shipshewana"
+state = "IN"
+address = "7990 W 075 N, Shipshewana, IN 46565"
+lat = 41.64907
+lon = -85.57999
+osha_id = "1200185"
+
+sector = "Materials & composites"
+products = ["Paints (except artist's) manufacturing"]
+naics = "325510"
+
+employees = 42
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+parent = "RPM International Inc."
+description = "NAICS 325510: paints (except artist's) manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

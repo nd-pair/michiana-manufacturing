@@ -1,0 +1,26 @@
+# Eckco Plastics INC
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Eckco Plastics INC"
+kind = "company"
+city = "Mishawaka"
+state = "IN"
+address = "56599 Twin Branch Dr, Mishawaka, IN 46545"
+lat = 41.67181
+lon = -86.13126
+osha_id = "1415429"
+
+sector = "Materials & composites"
+products = ["Motor vehicle moldings and extrusions, plastics, manufacturing"]
+naics = "326199"
+
+employees = 21
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 326199: motor vehicle moldings and extrusions, plastics, manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

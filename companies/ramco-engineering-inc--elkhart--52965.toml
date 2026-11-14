@@ -9,16 +9,17 @@ address = "52965 Frederic Drive, Elkhart, IN 46514"
 lat = 41.72496
 lon = -85.90973
 website = "https://ramco-eng.com"
+osha_id = "193743"
 
 sector = "Materials & composites"
 products = ["Glass Product Manufacturing Made of Purchased Glass"]
 naics = "327215"
 
-employees = 42
+employees = 61
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Exterior Rearview Mirrors for Motor Homes, Over-The-Road & Transit Buses, Fire Trucks & Specialty Vehicles. NAICS 327215: glass product manufacturing made of purchased glass."
 

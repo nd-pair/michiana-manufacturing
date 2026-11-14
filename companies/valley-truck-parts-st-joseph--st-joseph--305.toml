@@ -1,0 +1,27 @@
+# Valley Truck PArts (St. Joseph)
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Valley Truck PArts (St. Joseph)"
+kind = "company"
+city = "St. Joseph"
+state = "MI"
+address = "305 Palladium Dr., St. Joseph, MI 49085"
+lat = 42.05649
+lon = -86.46060
+osha_id = "1199364"
+
+sector = "Vehicles & RVs"
+products = ["Assembly line rebuilding of automotive, truck, and bus transmissions"]
+naics = "336350"
+
+employees = 4
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+parent = "Valley Truck Parts"
+description = "NAICS 336350: assembly line rebuilding of automotive, truck, and bus transmissions."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

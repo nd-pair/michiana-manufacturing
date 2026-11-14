@@ -1,0 +1,26 @@
+# Sika MBCC US LLC
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Sika MBCC US LLC"
+kind = "company"
+city = "Mattawan"
+state = "MI"
+address = "23930 Concord Ave, Mattawan, MI 49071"
+lat = 42.20918
+lon = -85.78337
+osha_id = "941691"
+
+sector = "Materials & composites"
+products = ["Construction adhesives (except asphalt, gypsum base) manufacturing"]
+naics = "325520"
+
+employees = 42
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 325520: construction adhesives (except asphalt, gypsum base) manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

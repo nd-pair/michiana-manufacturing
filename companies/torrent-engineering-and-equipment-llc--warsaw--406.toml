@@ -1,0 +1,26 @@
+# Torrent Engineering and Equipment LLC
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Torrent Engineering and Equipment LLC"
+kind = "company"
+city = "Warsaw"
+state = "IN"
+address = "406 East Bell Drive, Warsaw, IN 46582"
+lat = 41.26626
+lon = -85.83558
+osha_id = "1417678"
+
+sector = "Mechatronics & automation"
+products = ["Water purification equipment manufacturing"]
+naics = "333318"
+
+employees = 12
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 333318: water purification equipment manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

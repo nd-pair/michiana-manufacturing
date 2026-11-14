@@ -1,0 +1,26 @@
+# Keystone RV Company
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Keystone RV Company"
+kind = "company"
+city = "Wakarusa"
+state = "IN"
+address = "608 NELSON'S PARKWAY, Wakarusa, IN 46573"
+lat = 41.52522
+lon = -86.00311
+osha_id = "943166"
+
+sector = "Vehicles & RVs"
+products = ["RV Manufacturing"]
+naics = "336214"
+
+employees = 121
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 336214: rv manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

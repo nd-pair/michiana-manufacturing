@@ -8,16 +8,17 @@ state = "IN"
 address = "815 Logan Street, Goshen, IN 46528"
 lat = 41.58356
 lon = -85.81799
+osha_id = "167555"
 
 sector = "Wood, paper & furniture"
 products = ["Die-Cut Paper and Paperboard Office Supplies Manufacturing"]
 naics = "322231"
 
-employees = 100
+employees = 227
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Flexible & Rigid Material Die Cutting, Gaskets, Dampeners, Seals, Washers, Diaphragms & Fabricated Extrusions. NAICS 322231: die-cut paper and paperboard office supplies manufacturing."
 

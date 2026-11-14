@@ -1,0 +1,27 @@
+# Stafco
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Stafco"
+kind = "company"
+city = "Columbia City"
+state = "IN"
+address = "365 S James Street, Columbia City, IN 46725"
+lat = 41.15815
+lon = -85.51398
+osha_id = "1089248"
+
+sector = "Metal"
+products = ["Water tanks, heavy gauge metal, manufacturing"]
+naics = "332420"
+
+employees = 23
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+parent = "Steel Tank & Fabrication Corporation"
+description = "NAICS 332420: water tanks, heavy gauge metal, manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

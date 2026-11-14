@@ -1,0 +1,27 @@
+# Forefront Foam, LLC
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Forefront Foam, LLC"
+kind = "company"
+city = "Mishawaka"
+state = "IN"
+address = "1015 St Jerome St, Mishawaka, IN 46544"
+lat = 41.64576
+lon = -86.16572
+osha_id = "1432365"
+
+sector = "Materials & composites"
+products = ["Foam polystyrene products manufacturing"]
+naics = "326140"
+
+employees = 23
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+parent = "Foam Holdings, Inc"
+description = "NAICS 326140: foam polystyrene products manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

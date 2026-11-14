@@ -1,0 +1,26 @@
+# Altium Packaging
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Altium Packaging"
+kind = "company"
+city = "Argos"
+state = "IN"
+address = "300 Dewey St, Argos, IN 46501"
+lat = 41.23203
+lon = -86.24962
+osha_id = "803345"
+
+sector = "Materials & composites"
+products = ["Bottles, plastics, manufacturing"]
+naics = "326160"
+
+employees = 82
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 326160: bottles, plastics, manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

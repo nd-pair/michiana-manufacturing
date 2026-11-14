@@ -10,17 +10,18 @@ address = "405 Industrial Drive, Bremen, IN 46506"
 lat = 41.44864
 lon = -86.17092
 website = "https://creativefoammedicalsystems.com"
+osha_id = "666589"
 status_note = "Operating as Creative Foam Medical Systems (IDEM permit notice, February 2026)."
 
 sector = "Materials & composites"
 products = ["Polystyrene Foam Product Manufacturing"]
 naics = "326140"
 
-employees = 33
+employees = 52
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Medical & Laminated Vinyl Coated Foam Products & Die-Cut Foam. NAICS 326140: polystyrene foam product manufacturing."
 

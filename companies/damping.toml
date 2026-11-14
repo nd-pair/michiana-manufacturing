@@ -9,13 +9,16 @@ address = "55656 Currant Rd, Mishawaka, IN 46545"
 lat = 41.68745
 lon = -86.12898
 website = "https://www.damping.com"
+employees_quality = "reported"
+employees_year = 2025
+osha_id = "1445662"
 uei = "R7YJXFHG6GN6"
 
 sector = "Materials & composites"
 products = ["Damping materials"]
 
-employees = 50
+employees = 3
 employees_scope = "site"  # site = this location; company = company-wide
-employees_note = "aggregator estimate"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Noise- and vibration-damping materials for aerospace: tuned mass dampers for rotor control, naval acoustic signature, artillery recoil, structural fatigue damping."

@@ -9,6 +9,7 @@ address = "51700 Lovejoy Drive, Middlebury, IN 46540"
 lat = 41.74246
 lon = -85.68667
 website = "https://holly-park.com"
+osha_id = "945745"
 
 sector = "Wood, paper & furniture"
 products = ["Manufactured Home (mobile Home) Manufacturing"]

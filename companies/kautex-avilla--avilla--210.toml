@@ -1,0 +1,27 @@
+# Kautex Avilla
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Kautex Avilla"
+kind = "company"
+city = "Avilla"
+state = "IN"
+address = "210 Green Dr, Avilla, IN 46710"
+lat = 41.36123
+lon = -85.21940
+osha_id = "199973"
+
+sector = "Vehicles & RVs"
+products = ["Gas tanks assembled, automotive, truck, and bus, manufacturing"]
+naics = "336390"
+
+employees = 312
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+parent = "Kautex Textron"
+description = "NAICS 336390: gas tanks assembled, automotive, truck, and bus, manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

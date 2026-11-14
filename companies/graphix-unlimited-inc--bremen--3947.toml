@@ -9,16 +9,17 @@ address = "3947 State Road 106, Bremen, IN 46506"
 lat = 41.44851
 lon = -86.13732
 website = "https://graphixunlimited.com"
+osha_id = "1169351"
 
 sector = "Vehicles & RVs"
 products = ["All Other Motor Vehicle Parts Manufacturing"]
 naics = "336399"
 
-employees = 130
+employees = 38
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Recreational Vehicle Striping, Die Cutting & Screen Printing. NAICS 336399: all other motor vehicle parts manufacturing."
 

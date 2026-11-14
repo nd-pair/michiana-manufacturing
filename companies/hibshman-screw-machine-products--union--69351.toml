@@ -9,16 +9,17 @@ address = "69351 Union Road, Union, MI 49130"
 lat = 41.78993
 lon = -85.86657
 website = "https://hibshman.com"
+osha_id = "369206"
 
 sector = "Metal"
 products = ["Machine Shops"]
 naics = "332710"
 
-employees = 40
+employees = 26
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Screw Machine Products, Including Gas Springs, Gas Spring Brackets, Stampings & Small Welded Assemblies. NAICS 332710: machine shops."
 

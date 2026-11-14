@@ -1,0 +1,26 @@
+# Honeywell International Inc.
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Honeywell International Inc."
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "717 N Bendix Drive, South Bend, IN 46628"
+lat = 41.68377
+lon = -86.29338
+osha_id = "1090966"
+
+sector = "Vehicles & RVs"
+products = ["Aircraft auxiliary parts (e.g., crop dusting, external fuel tanks, inflight refueling equipment) manufacturing"]
+naics = "336413"
+
+employees = 440
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 336413: aircraft auxiliary parts (e.g., crop dusting, external fuel tanks, inflight refueling equipment) manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

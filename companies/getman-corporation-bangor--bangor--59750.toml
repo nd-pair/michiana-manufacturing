@@ -1,0 +1,27 @@
+# Getman Corporation Bangor
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Getman Corporation Bangor"
+kind = "company"
+city = "Bangor"
+state = "MI"
+address = "59750 34th Avenue, Bangor, MI 49013"
+lat = 42.29463
+lon = -86.12534
+osha_id = "1475033"
+
+sector = "Mechatronics & automation"
+products = ["Underground mining machinery manufacturing"]
+naics = "333131"
+
+employees = 113
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+parent = "Getman Corporation"
+description = "NAICS 333131: underground mining machinery manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

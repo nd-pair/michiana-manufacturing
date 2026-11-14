@@ -9,16 +9,17 @@ address = "910 Eisenhower Drive North, Goshen, IN 46526"
 lat = 41.55712
 lon = -85.82055
 website = "https://benteler.com"
+osha_id = "1305131"
 
 sector = "Vehicles & RVs"
 products = ["Motor Vehicle Metal Stamping"]
 naics = "336370"
 
-employees = 200
+employees = 245
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "OEM Automotive Stampings & Welded Assembly. NAICS 336370: motor vehicle metal stamping."
 

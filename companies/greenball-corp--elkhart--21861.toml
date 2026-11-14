@@ -9,16 +9,17 @@ address = "21861 Protecta Drive, Elkhart, IN 46516"
 lat = 41.69687
 lon = -85.88551
 website = "https://greenball.com"
+osha_id = "930163"
 
 sector = "Materials & composites"
 products = ["Tire Manufacturing (except Retreading)"]
 naics = "326211"
 
-employees = 20
+employees = 330
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Specialty Tires & Tire & Wheel Assembly. NAICS 326211: tire manufacturing (except retreading)."
 

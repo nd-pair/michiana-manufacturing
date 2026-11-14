@@ -1,0 +1,26 @@
+# A & A Sheet Metal Products, Inc
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "A & A Sheet Metal Products, Inc"
+kind = "company"
+city = "Laporte"
+state = "IN"
+address = "5122 N State Rd 39, Laporte, IN 46350"
+lat = 41.68106
+lon = -86.73786
+osha_id = "1110071"
+
+sector = "Metal"
+products = ["Buildings, prefabricated metal, manufacturing"]
+naics = "332311"
+
+employees = 116
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 332311: buildings, prefabricated metal, manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

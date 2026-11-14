@@ -9,16 +9,17 @@ address = "1900 East Jefferson Street, Warsaw, IN 46580"
 lat = 41.23584
 lon = -85.83174
 website = "https://daltonfoundries.com"
+osha_id = "1264564"
 
 sector = "Metal"
 products = ["Iron Foundries"]
 naics = "331511"
 
-employees = 600
+employees = 297
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Gray Iron Castings. NAICS 331511: iron foundries."
 

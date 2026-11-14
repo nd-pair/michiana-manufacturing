@@ -9,16 +9,17 @@ address = "600 Royal Road, Michigan City, IN 46360"
 lat = 41.71815
 lon = -86.84104
 website = "https://diamondman.com"
+osha_id = "115858"
 
 sector = "Metal"
 products = ["Iron and Steel Mills"]
 naics = "331111"
 
-employees = 50
+employees = 31
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Steel Fabrication. NAICS 331111: iron and steel mills."
 

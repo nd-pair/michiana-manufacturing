@@ -1,0 +1,26 @@
+# The Dow Chemical Company
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "The Dow Chemical Company"
+kind = "company"
+city = "Kendallville"
+state = "IN"
+address = "111 S. Progress Dr. East, Kendallville, IN 46755"
+lat = 41.44455
+lon = -85.22140
+osha_id = "1096698"
+
+sector = "Materials & composites"
+products = ["Elastomers, synthetic rubber, manufacturing"]
+naics = "325212"
+
+employees = 75
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 325212: elastomers, synthetic rubber, manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

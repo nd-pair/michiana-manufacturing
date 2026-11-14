@@ -9,16 +9,17 @@ address = "2551 County Road 10 West, Elkhart, IN 46514"
 lat = 41.70534
 lon = -86.01476
 website = "https://aacoa.com"
+osha_id = "969114"
 
 sector = "Metal"
 products = ["Electroplating, Plating, Polishing, Anodizing and Coloring"]
 naics = "332813"
 
-employees = 140
+employees = 118
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Corporate Headquarters & Aluminum Anodizing. NAICS 332813: electroplating, plating, polishing, anodizing and coloring."
 

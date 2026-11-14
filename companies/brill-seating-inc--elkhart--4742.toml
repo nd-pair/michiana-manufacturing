@@ -9,16 +9,17 @@ address = "4742 Green Court, Elkhart, IN 46516"
 lat = 41.68385
 lon = -85.89589
 website = "https://brillseating.com"
+osha_id = "1283107"
 
 sector = "Wood, paper & furniture"
 products = ["Upholstered Household Furniture Manufacturing"]
 naics = "337121"
 
-employees = 55
+employees = 50
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Upholstered Household Furniture. NAICS 337121: upholstered household furniture manufacturing."
 

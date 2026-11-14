@@ -9,16 +9,17 @@ address = "2504 Jeanwood Drive, Elkhart, IN 46514"
 lat = 41.71836
 lon = -85.92705
 website = "https://kibinterprises.com"
+osha_id = "959612"
 
 sector = "Electronics"
 products = ["Other Electronic Component Manufacturing"]
 naics = "334419"
 
-employees = 35
+employees = 45
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Electronic Monitor Panels, Wire Harnesses & Assembly. NAICS 334419: other electronic component manufacturing."
 

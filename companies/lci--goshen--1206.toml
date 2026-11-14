@@ -1,0 +1,27 @@
+# LCI
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "LCI"
+kind = "company"
+city = "Goshen"
+state = "IN"
+address = "1206 Eisenhower Dr South, Goshen, IN 46526"
+lat = 41.55446
+lon = -85.81675
+osha_id = "1203638"
+
+sector = "Metal"
+products = ["Manufacturing"]
+naics = "332321"
+
+employees = 310
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+parent = "228 LCI"
+description = "NAICS 332321: manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

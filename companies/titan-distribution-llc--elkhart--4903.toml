@@ -1,0 +1,26 @@
+# Titan Distribution LLC
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Titan Distribution LLC"
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "4903 Challenger Drive, Elkhart, IN 46514"
+lat = 41.71888
+lon = -85.89480
+osha_id = "1454155"
+
+sector = "Materials & composites"
+products = ["Adhesives (except asphalt, dental, gypsum base) manufacturing"]
+naics = "325520"
+
+employees = 35
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 325520: adhesives (except asphalt, dental, gypsum base) manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

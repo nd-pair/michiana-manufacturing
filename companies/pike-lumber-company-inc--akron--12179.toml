@@ -1,0 +1,26 @@
+# Pike Lumber Company Inc.
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Pike Lumber Company Inc."
+kind = "company"
+city = "Akron"
+state = "IN"
+address = "12179 E State Road 114, Akron, IN 46910"
+lat = 41.03693
+lon = -86.01435
+osha_id = "944068"
+
+sector = "Wood, paper & furniture"
+products = ["Boards, wood, made from logs or bolts"]
+naics = "321113"
+
+employees = 130
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 321113: boards, wood, made from logs or bolts."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

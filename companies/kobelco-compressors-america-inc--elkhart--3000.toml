@@ -9,16 +9,17 @@ address = "3000 Hammond Avenue, Elkhart, IN 46516"
 lat = 41.65672
 lon = -85.94230
 website = "https://kocoa.com"
+osha_id = "939020"
 
 sector = "Mechatronics & automation"
 products = ["Air and Gas Compressor Manufacturing"]
 naics = "333912"
 
-employees = 53
+employees = 49
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Air & Refrigeration Screw Compressors. NAICS 333912: air and gas compressor manufacturing."
 

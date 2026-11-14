@@ -1,0 +1,26 @@
+# Michigan Die Casting, LLC
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Michigan Die Casting, LLC"
+kind = "company"
+city = "Dowagiac, Mi"
+state = "MI"
+address = "51241 M-51 North, Dowagiac, Mi, MI 49047"
+lat = 42.05264
+lon = -86.10769
+osha_id = "1274552"
+
+sector = "Metal"
+products = ["Foundries, die-casting, aluminum"]
+naics = "331523"
+
+employees = 52
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 331523: foundries, die-casting, aluminum."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

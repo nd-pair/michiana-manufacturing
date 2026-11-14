@@ -1,0 +1,26 @@
+# Tenneco Automotive Operating Company
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Tenneco Automotive Operating Company"
+kind = "company"
+city = "Ligonier"
+state = "IN"
+address = "1493 Gerber Street, Ligonier, IN 46767"
+lat = 41.47987
+lon = -85.60326
+osha_id = "801526"
+
+sector = "Vehicles & RVs"
+products = ["Catalytic converters, engine exhaust, automotive, truck, and bus, manufacturing"]
+naics = "336390"
+
+employees = 34
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 336390: catalytic converters, engine exhaust, automotive, truck, and bus, manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

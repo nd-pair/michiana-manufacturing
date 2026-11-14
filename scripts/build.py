@@ -227,6 +227,7 @@ def main():
     federal, fda, qcew, sbir, patents = sidecar("federal.json"), sidecar("fda.json"), sidecar("qcew.json"), sidecar("sbir.json"), sidecar("patents.json")
     bls = sidecar("bls.json")
     qwi, bea, taskfit = sidecar("qwi.json"), sidecar("bea.json"), sidecar("task_fit.json")
+    warn = sidecar("warn.json")
     show_ndr = load_toml(P("data", "opportunity.toml")).get("display", {}).get("nd_research", False)
     ndr = sidecar("nd_research.json") if show_ndr else {}   # pulled every month; shown only when switched on
     for o in companies:
@@ -237,6 +238,13 @@ def main():
         if d:
             o["certs"] = o["certs"] + ["FDA registered device establishment"]
             o["fda"] = {"fei": d.get("fei"), "types": d.get("establishment_types", []), "devices": d.get("device_names", [])}
+    # layoff and closing notices (WARN), matched to a plant; a closing never marks a company closed by itself
+    wn = {}
+    for n in warn.get("notices", []):
+        if n.get("match"):
+            wn.setdefault(n["match"], []).append({"type": n["type_name"], "date": n["notice_date"], "effective": n["effective"], "workers": n["workers"]})
+    for o in companies:
+        o["warn"] = wn.get(o["id"]) or None
     # process capabilities from NAICS prefixes and product keywords
     caps = load_toml(P("data", "capabilities.toml"))["capability"]
     for o in companies:
@@ -269,6 +277,13 @@ def main():
         who = agency_short.get(a["agency"], a["agency"]) + (" via " + a["via"] if a.get("via") else "")
         events.append({"kind": "research", "date": a["start"], "company": "", "amount": a["amount"], "source": a["url"],
                        "title": "Notre Dame research (%s): %s%s" % (who, a["title"][:160], " · " + a["pi"] if a.get("pi") else "")})
+    # WARN notices from manufacturers join the timeline, matched to a plant where one fits
+    fmt_d = lambda d: datetime.date.fromisoformat(d).strftime("%b %-d, %Y") if d else ""
+    for n in warn.get("notices", []):
+        events.append({"kind": "warn", "date": n["notice_date"], "company": n["match"] if n.get("match") in ids_now else "", "amount": None,
+                       "source": "https://www.in.gov/dwd/warn-notices/current-warn-notices/",
+                       "title": "WARN notice of a %s: %s, %s%s%s" % (n["type_name"], n["company"], n["city"],
+                                ", %d workers" % n["workers"] if n.get("workers") else "", ", effective " + fmt_d(n["effective"]) if n.get("effective") else "")})
     # milestones toward the humanoid goal, entered by hand, join the timeline
     for m in load_toml(P("data", "milestones.toml")).get("milestone", []):
         events.append({"kind": "milestone", "date": str(m["date"]), "title": m["title"], "company": m.get("company", ""),
@@ -345,14 +360,18 @@ def main():
             "%d manufacturers at %d sites, by sector, product and headcount." % (n_groups, n_mfg_sites))
     three = '<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>\n'
     page("index.html", title, desc, read("site", "page.html"), three + '<script src="data.js?v={{BUILD}}"></script>\n<script src="app.js?v={{BUILD}}"></script>')
-    src_counts = {"hifld": sum(1 for o in companies if o["source"].startswith("HIFLD")), "sbir": sum(1 for o in companies if o["source"].startswith("SBIR"))}
+    src_counts = {"hifld": sum(1 for o in companies if o["source"].startswith("HIFLD")), "sbir": sum(1 for o in companies if o["source"].startswith("SBIR")),
+                  "osha": sum(1 for o in companies if o["source"].startswith("OSHA"))}
     news_ids = {re.sub(r"[^a-z0-9]+", "-", n[:-5].lower()).strip("-") for n in os.listdir(P("companies")) if n.endswith(".toml")
                 and "Added by the automated news review" in open(P("companies", n), encoding="utf-8").read(400)}
     src_counts["news"] = sum(1 for o in companies if o["id"] in news_ids)
-    src_counts["hand"] = len(companies) - src_counts["hifld"] - src_counts["sbir"] - src_counts["news"]
+    src_counts["hand"] = len(companies) - src_counts["hifld"] - src_counts["sbir"] - src_counts["news"] - src_counts["osha"]
+    osha = sidecar("osha.json")
+    osha_ids = {o["id"] for o in companies if o["source"].startswith("OSHA")}
     qyears = sorted({y for d in qcew.get("counties", {}).values() for y in d.get("years", {})})
     fill = {"{{SITES}}": "{:,}".format(n_mfg_sites), "{{OTHERS}}": "{:,}".format(len(companies) - n_mfg_sites), "{{COMPANIES}}": "{:,}".format(n_groups), "{{HIFLD}}": "{:,}".format(src_counts["hifld"]),
-            "{{SBIRFIRMS}}": str(src_counts["sbir"]), "{{HAND}}": str(src_counts["hand"]), "{{BUILT}}": data["built"],
+            "{{SBIRFIRMS}}": str(src_counts["sbir"]), "{{OSHA}}": "{:,}".format(src_counts["osha"]), "{{OSHAYEAR}}": osha.get("latest_year", "–"),
+            "{{OSHAMATCHED}}": "{:,}".format(sum(1 for o in companies if o["emp_note"].startswith("OSHA") and o["id"] not in osha_ids)), "{{WARNN}}": str(len(warn.get("notices", []))), "{{HAND}}": str(src_counts["hand"]), "{{BUILT}}": data["built"],
             "{{UEI}}": str(sum(1 for o in companies if o["uei"])), "{{FEDN}}": str(sum(1 for o in companies if o.get("federal"))),
             "{{FEDPULLED}}": federal.get("pulled", "not yet pulled"), "{{SBIRN}}": str(sum(1 for o in companies if o.get("sbir"))),
             "{{SBIRPULLED}}": sbir.get("pulled", "not yet pulled"), "{{FDAN}}": str(sum(1 for o in companies if o.get("fda"))),

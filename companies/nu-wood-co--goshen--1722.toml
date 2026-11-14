@@ -9,16 +9,17 @@ address = "1722 Eisenhower Drive North, Goshen, IN 46526"
 lat = 41.55714
 lon = -85.80898
 website = "https://nu-wood.com"
+osha_id = "801156"
 
 sector = "Materials & composites"
 products = ["All Other Plastics Product Manufacturing"]
 naics = "326199"
 
-employees = 30
+employees = 69
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Urethane Millwork & Molded Urethane High Density Foam. NAICS 326199: all other plastics product manufacturing."
 

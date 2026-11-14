@@ -1,0 +1,27 @@
+# Milford Purina Feed Mill
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Milford Purina Feed Mill"
+kind = "company"
+city = "Milford"
+state = "IN"
+address = "346 W 1350N, Milford, IN 46542"
+lat = 41.42815
+lon = -85.85702
+osha_id = "1305677"
+
+sector = "Food & consumer goods"
+products = ["Livestock feeds, supplements, concentrates and premixes, manufacturing"]
+naics = "311119"
+
+employees = 33
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+parent = "Land O'Lakes"
+description = "NAICS 311119: livestock feeds, supplements, concentrates and premixes, manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

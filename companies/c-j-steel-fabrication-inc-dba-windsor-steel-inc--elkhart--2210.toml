@@ -1,0 +1,27 @@
+# C & J Steel Fabrication Inc dba Windsor Steel Inc
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "C & J Steel Fabrication Inc dba Windsor Steel Inc"
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "2210 Middlebury Street, Elkhart, IN 46516"
+lat = 41.68135
+lon = -85.92735
+osha_id = "1437605"
+
+sector = "Metal"
+products = ["Pipe, fabricated metal plate, manufacturing"]
+naics = "332313"
+
+employees = 42
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+parent = "C&J Fibrication Inc dba Windsor Steel Inc"
+description = "NAICS 332313: pipe, fabricated metal plate, manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

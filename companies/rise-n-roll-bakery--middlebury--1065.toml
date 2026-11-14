@@ -1,0 +1,26 @@
+# Rise'n Roll Bakery
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Rise'n Roll Bakery"
+kind = "company"
+city = "Middlebury"
+state = "IN"
+address = "1065 North 1150 West, Middlebury, IN 46540"
+lat = 41.65464
+lon = -85.64802
+osha_id = "1497740"
+
+sector = "Food & consumer goods"
+products = ["Pastries (e.g., Danish, French), fresh, made in commercial bakeries"]
+naics = "311812"
+
+employees = 86
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 311812: pastries (e.g., danish, french), fresh, made in commercial bakeries."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

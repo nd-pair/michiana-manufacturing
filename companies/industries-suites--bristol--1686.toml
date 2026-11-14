@@ -1,0 +1,27 @@
+# Industries- Suites
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Industries- Suites"
+kind = "company"
+city = "Bristol"
+state = "IN"
+address = "1686 Commerce Blvd, Bristol, IN 46507"
+lat = 41.73057
+lon = -85.78848
+osha_id = "1305493"
+
+sector = "Materials & composites"
+products = ["Portable toilets, plastics, manufacturing"]
+naics = "326191"
+
+employees = 295
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+parent = "Satellite Industries"
+description = "NAICS 326191: portable toilets, plastics, manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

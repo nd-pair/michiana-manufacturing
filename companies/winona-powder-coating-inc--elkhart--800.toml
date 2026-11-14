@@ -9,16 +9,17 @@ address = "800 Summa Drive, Elkhart, IN 46516"
 lat = 41.67949
 lon = -85.90374
 website = "https://winonapowder.com"
+osha_id = "1260969"
 
 sector = "Metal"
 products = ["Metal Coating, Engraving (except Jewelry and Silverware), and Allied Services To Manufacturers"]
 naics = "332812"
 
-employees = 50
+employees = 39
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Powder Coating. NAICS 332812: metal coating, engraving (except jewelry and silverware), and allied services to manufacturers."
 

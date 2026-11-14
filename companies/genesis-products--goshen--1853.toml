@@ -1,0 +1,26 @@
+# Genesis Products
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Genesis Products"
+kind = "company"
+city = "Goshen"
+state = "IN"
+address = "1853 Eisenhower Drive South, Goshen, IN 46526"
+lat = 41.55749
+lon = -85.80815
+osha_id = "461700"
+
+sector = "Wood, paper & furniture"
+products = ["Cabinets, kitchen (except freestanding), stock or custom wood, manufacturing"]
+naics = "337110"
+
+employees = 54
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 337110: cabinets, kitchen (except freestanding), stock or custom wood, manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"

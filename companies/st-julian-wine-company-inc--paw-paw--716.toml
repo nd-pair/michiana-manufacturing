@@ -1,0 +1,26 @@
+# St. Julian Wine Company INC
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "St. Julian Wine Company INC"
+kind = "company"
+city = "Paw Paw"
+state = "MI"
+address = "716 S. Kalamazoo St., Paw Paw, MI 49079"
+lat = 42.21282
+lon = -85.89148
+osha_id = "1457736"
+
+sector = "Food & consumer goods"
+products = ["Wineries"]
+naics = "312130"
+
+employees = 210
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 312130: wineries."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-13"
