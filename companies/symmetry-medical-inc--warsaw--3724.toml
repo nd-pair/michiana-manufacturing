@@ -5,10 +5,9 @@ name = "Symmetry Medical, Inc."
 kind = "company"
 city = "Warsaw"
 state = "IN"
-address = "3724 North State Road 15, Warsaw, IN 46582"
-lat = 41.28518
-lon = -85.85327
+address = "486 W. 350 N., Warsaw, IN 46582"
 website = "https://symmetrymedical.com"
+status_note = "Address from the company's OSHA Form 300A filing for 2025; previously 3724 North State Road 15, Warsaw, IN 46582."
 osha_id = "1174361"
 
 sector = "Medical devices & other"

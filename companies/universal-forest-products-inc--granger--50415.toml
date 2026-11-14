@@ -5,10 +5,9 @@ name = "Universal Forest Products, Inc."
 kind = "company"
 city = "Granger"
 state = "IN"
-address = "50415 Herbert Street, Granger, IN 46530"
-lat = 41.75505
-lon = -86.11379
+address = "50227 Bittersweet Trail, Granger, IN 46530"
 website = "https://ufpi.com"
+status_note = "Address from the company's OSHA Form 300A filing for 2025; previously 50415 Herbert Street, Granger, IN 46530."
 osha_id = "90210"
 
 sector = "Wood, paper & furniture"

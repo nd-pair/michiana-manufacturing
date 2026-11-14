@@ -1,0 +1,26 @@
+# Jones Family of Companies
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Jones Family of Companies"
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "7520 Vorden Pkwy, South Bend, IN 46628"
+lat = 41.72698
+lon = -86.35227
+osha_id = "1331372"
+
+sector = "Food & consumer goods"
+products = ["Pads and wadding, nonwoven, manufacturing"]
+naics = "313230"
+
+employees = 11
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 313230: pads and wadding, nonwoven, manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-14"

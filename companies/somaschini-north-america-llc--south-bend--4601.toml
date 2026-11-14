@@ -1,0 +1,26 @@
+# Somaschini North America LLC
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Somaschini North America LLC"
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "4601 Nimtz Parkway, South Bend, IN 46628"
+lat = 41.72854
+lon = -86.31836
+osha_id = "1137973"
+
+sector = "Vehicles & RVs"
+products = ["Timing gears and chains, automotive and truck gasoline engine, manufacturing"]
+naics = "336310"
+
+employees = 16
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 336310: timing gears and chains, automotive and truck gasoline engine, manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-14"

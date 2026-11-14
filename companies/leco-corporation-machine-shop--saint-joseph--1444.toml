@@ -1,0 +1,27 @@
+# LECO Corporation - Machine Shop
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "LECO Corporation - Machine Shop"
+kind = "company"
+city = "Saint Joseph"
+state = "MI"
+address = "1444 Hilltop Road, Saint Joseph, MI 49085"
+lat = 42.07983
+lon = -86.48908
+osha_id = "942620"
+
+sector = "Metal"
+products = ["Machine shops"]
+naics = "332710"
+
+employees = 74
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+parent = "LECO Corporation"
+description = "NAICS 332710: machine shops."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-14"

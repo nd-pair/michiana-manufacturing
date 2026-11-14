@@ -5,10 +5,9 @@ name = "Genesis Products, Inc."
 kind = "company"
 city = "Elkhart"
 state = "IN"
-address = "2608 Almac Court, Elkhart, IN 46514"
-lat = 41.72054
-lon = -85.92925
+address = "3130 Tuscany Drive, Elkhart, IN 46514"
 website = "https://genesisproductsinc.com"
+status_note = "Address from the company's OSHA Form 300A filing for 2025; previously 2608 Almac Court, Elkhart, IN 46514."
 osha_id = "294372"
 
 sector = "Wood, paper & furniture"

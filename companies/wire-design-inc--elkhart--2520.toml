@@ -5,10 +5,9 @@ name = "Wire Design, Inc."
 kind = "company"
 city = "Elkhart"
 state = "IN"
-address = "2520 Industrial Parkway, Elkhart, IN 46516"
-lat = 41.68698
-lon = -85.92292
+address = "3601 Charlotte Ave, Elkhart, IN 46517"
 website = "https://wire-design.com"
+status_note = "Address from the company's OSHA Form 300A filing for 2025; previously 2520 Industrial Parkway, Elkhart, IN 46516."
 osha_id = "1475474"
 
 sector = "Electronics"

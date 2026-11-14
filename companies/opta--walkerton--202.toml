@@ -1,0 +1,26 @@
+# OPTA
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "OPTA"
+kind = "company"
+city = "Walkerton"
+state = "IN"
+address = "202 LaPorte Trail, Walkerton, IN 46574"
+lat = 41.48079
+lon = -86.50898
+osha_id = "1492800"
+
+sector = "Materials & composites"
+products = ["Lime production"]
+naics = "327410"
+
+employees = 23
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 327410: lime production."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-14"

@@ -8,7 +8,7 @@ state = "IN"
 address = "2713 Foundation Drive, South Bend, IN 46628"
 lat = 41.71322
 lon = -86.30453
-osha_id = "1276527"
+osha_id = "1276417"
 
 sector = "Medical devices & other"
 products = ["Surgical Appliance and Supplies Manufacturing"]

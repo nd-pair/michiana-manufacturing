@@ -1,0 +1,27 @@
+# AK Industries Administration
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "AK Industries Administration"
+kind = "company"
+city = "Plymouth"
+state = "IN"
+address = "1919 Jim Neu Dr., Plymouth, IN 46563"
+lat = 41.35444
+lon = -86.33144
+osha_id = "1505797"
+
+sector = "Materials & composites"
+products = ["Septic tanks, plastics or fiberglass, manufacturing"]
+naics = "326199"
+
+employees = 14
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+parent = "AK Industries Inc."
+description = "NAICS 326199: septic tanks, plastics or fiberglass, manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-14"

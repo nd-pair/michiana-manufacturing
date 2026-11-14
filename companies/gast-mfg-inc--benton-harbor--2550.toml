@@ -5,10 +5,9 @@ name = "Gast Mfg., Inc."
 kind = "company"
 city = "Benton Harbor"
 state = "MI"
-address = "2550 Meadowbrook Road, Benton Harbor, MI 49022"
-lat = 42.08000
-lon = -86.40075
+address = "2300 M-139 Hwy., Benton Harbor, MI 49022"
 website = "https://gastmfg.com"
+status_note = "Address from the company's OSHA Form 300A filing for 2025; previously 2550 Meadowbrook Road, Benton Harbor, MI 49022."
 osha_id = "807654"
 
 humanoid_not = ["motors"]

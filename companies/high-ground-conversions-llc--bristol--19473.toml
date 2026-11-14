@@ -1,0 +1,27 @@
+# High Ground Conversions, LLC
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "High Ground Conversions, LLC"
+kind = "company"
+city = "Bristol"
+state = "IN"
+address = "19473 CR 8, Bristol, IN 46507"
+lat = 41.72449
+lon = -85.82505
+osha_id = "1518001"
+
+sector = "Vehicles & RVs"
+products = ["Vans, commercial and passenger light duty, assembling on chassis of own manufacture"]
+naics = "336112"
+
+employees = 9
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+parent = "Bontrager Industries, LLC"
+description = "NAICS 336112: vans, commercial and passenger light duty, assembling on chassis of own manufacture."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-14"

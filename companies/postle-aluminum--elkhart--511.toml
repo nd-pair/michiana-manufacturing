@@ -1,0 +1,27 @@
+# Postle Aluminum
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Postle Aluminum"
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "511 Pine Creek Court, Elkhart, IN 46516"
+lat = 41.68836
+lon = -85.89313
+osha_id = "1174752"
+
+sector = "Vehicles & RVs"
+products = ["Assembly line conversions of purchased vans and mini-vans"]
+naics = "336213"
+
+employees = 48
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+parent = "THOR Industries"
+description = "NAICS 336213: assembly line conversions of purchased vans and mini-vans."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-14"

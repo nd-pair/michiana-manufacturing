@@ -10,6 +10,7 @@ address = "3518 County Road 6 East, Elkhart, IN 46514"
 status_note = "Leer Group's State Wide Windows plant; Leer was adding jobs here in 2025."
 lat = 41.72425
 lon = -85.92463
+osha_id = "1490473"
 verified_note = "Directories list StateWide Windows (Truck Accessories Group) with headquarters and manufacturing at this address (accuracy audit, November 2026). Source: https://www.mapquest.com/us/indiana/statewide-windows-355452727"
 verified = "2026-11-14"
 
@@ -17,11 +18,11 @@ sector = "Metal"
 products = ["Metal Window and Door Manufacturing"]
 naics = "332321"
 
-employees = 200
+employees = 141
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Corporate Headquarters & Aluminum Doors & Windows. NAICS 332321: metal window and door manufacturing."
 

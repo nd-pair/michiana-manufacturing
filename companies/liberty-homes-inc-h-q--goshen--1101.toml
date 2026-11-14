@@ -8,6 +8,7 @@ state = "IN"
 address = "1101 Eisenhower Drive North, Goshen, IN 46526"
 lat = 41.55770
 lon = -85.81682
+osha_occupant = "Viewrail - Sales HQ (OSHA Form 300A filer at this address, 2025)"
 status_note = "Named from OSHA's 2025 Form 300A filing at this address; the earlier record here, Liberty Homes, Inc. (HQ) (HIFLD), is a predecessor or a former occupant."
 formerly = "Liberty Homes, Inc. (HQ)"
 osha_id = "1203635"

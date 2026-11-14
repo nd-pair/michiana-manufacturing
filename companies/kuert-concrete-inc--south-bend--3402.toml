@@ -5,10 +5,9 @@ name = "Kuert Concrete, Inc."
 kind = "company"
 city = "South Bend"
 state = "IN"
-address = "3402 Lincolnway West, South Bend, IN 46628"
-lat = 41.69206
-lon = -86.29744
+address = "3113 Lincoln Way W, South Bend, IN 46628"
 website = "https://kuert.com"
+status_note = "Address from the company's OSHA Form 300A filing for 2025; previously 3402 Lincolnway West, South Bend, IN 46628."
 osha_id = "1073636"
 
 sector = "Materials & composites"

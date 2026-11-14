@@ -5,10 +5,9 @@ name = "Poly-Wood, Inc."
 kind = "company"
 city = "Syracuse"
 state = "IN"
-address = "1001 West Brooklyn Street, Syracuse, IN 46567"
-lat = 41.42442
-lon = -85.76242
+address = "1000 Polywood Way, Syracuse, IN 46567"
 website = "https://polywoodinc.com"
+status_note = "Address from the company's OSHA Form 300A filing for 2025; previously 1001 West Brooklyn Street, Syracuse, IN 46567."
 osha_id = "1253231"
 
 sector = "Wood, paper & furniture"

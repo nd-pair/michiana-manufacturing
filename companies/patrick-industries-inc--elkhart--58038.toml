@@ -5,10 +5,9 @@ name = "Patrick Industries, Inc."
 kind = "company"
 city = "Elkhart"
 state = "IN"
-address = "58038 County Road 3, Elkhart, IN 46517"
-lat = 41.65170
-lon = -86.02196
+address = "640 Collins Rd, Elkhart, IN 46516"
 website = "https://patrickind.com"
+status_note = "Address from the company's OSHA Form 300A filing for 2025; previously 58038 County Road 3, Elkhart, IN 46517."
 osha_id = "1228559"
 
 sector = "Wood, paper & furniture"

@@ -1,0 +1,27 @@
+# Keystone RV Company - Customer Service
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Keystone RV Company - Customer Service"
+kind = "company"
+city = "Goshen"
+state = "IN"
+address = "3313 CORRIE DRIVE, Goshen, IN 46526"
+lat = 41.54250
+lon = -85.79463
+osha_id = "943089"
+
+sector = "Vehicles & RVs"
+products = ["RV Manufacturing"]
+naics = "336214"
+
+employees = 229
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+parent = "Keystone RV Company"
+description = "NAICS 336214: rv manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-14"

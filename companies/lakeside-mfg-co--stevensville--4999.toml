@@ -9,6 +9,7 @@ state = "MI"
 address = "4999 Advance Way, Stevensville, MI 49127"
 lat = 42.02810
 lon = -86.51102
+osha_occupant = "Falcon Lakeside Manufacturing (OSHA Form 300A filer at this address, 2025)"
 osha_id = "1440476"
 status_note = "Named from OSHA's 2025 Form 300A filing at this address; the earlier record here, Falcon Lakeside Manufacturing (HIFLD), is a predecessor or a former occupant."
 

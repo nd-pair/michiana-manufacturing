@@ -1,0 +1,26 @@
+# Fiber Bond Operating LLC
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Fiber Bond Operating LLC"
+kind = "company"
+city = "Michigan City"
+state = "IN"
+address = "110 Menke Road, Michigan City, IN 46360"
+lat = 41.69455
+lon = -86.84200
+osha_id = "1474366"
+
+sector = "Food & consumer goods"
+products = ["Air laid nonwoven fabrics manufacturing"]
+naics = "313230"
+
+employees = 153
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 313230: air laid nonwoven fabrics manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-14"

@@ -9,6 +9,7 @@ address = "104 Fulmer Street, Walkerton, IN 46574"
 lat = 41.47513
 lon = -86.47585
 website = "https://hilerindustries.com"
+osha_id = "1421648"
 verified = "2026-11-14"
 status_note = "Moved from 31350 Fulmer Street, Walkerton, IN 46574: the company's own website lists 104 Fulmer Street, Walkerton, IN 46574 (checked November 14, 2026)."
 
@@ -16,11 +17,11 @@ sector = "Metal"
 products = ["Electroplating, Plating, Polishing, Anodizing and Coloring"]
 naics = "332813"
 
-employees = 40
+employees = 47
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Foundry Cleaning Operation for Gray & Ductile Iron, Aluminum, Bronze & Brass Shell Mold Castings. NAICS 332813: electroplating, plating, polishing, anodizing and coloring."
 

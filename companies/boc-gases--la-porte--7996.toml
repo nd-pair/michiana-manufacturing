@@ -8,6 +8,7 @@ state = "IN"
 address = "7996 North State Road 39, La Porte, IN 46350"
 lat = 41.72246
 lon = -86.73474
+osha_id = "673935"
 verified = "2026-11-13"
 status_note = "The EPA Toxics Release Inventory lists an active Messer LLC facility at 7996 N State Road 39, La Porte, the former BOC Gases plant (verification check, November 2026)."
 formerly = "Boc Gases"

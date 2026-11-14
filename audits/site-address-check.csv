@@ -1,16 +1,11 @@
 file,name,address,website,status,sites_with_this_website,site_addresses,map_status
 companies/1842-fund.toml,1842 Fund and 1842 Studio,"1400 E Angela Blvd, South Bend, IN 46617",https://ideacenter.nd.edu,elsewhere,3,"500 Main Building, Notre Dame 46556",
 companies/accelinx-orthoworx.toml,AcceLINX (OrthoWorx),,https://orthoworxindiana.com,elsewhere,1,"102 S Buffalo St, Warsaw 46580; 4121 Address 102 S Buffalo St, Warsaw 46580",
-companies/aluminum-trailer-co--nappanee--306.toml,Aluminum Trailer Co.,"306 South Nappanee Street, Nappanee, IN 46550",https://aluminumtrailer.com,elsewhere,1,"5225 E Market St, Nappanee 46550",osha
 companies/creative-foam-corp--dowagiac--55210.toml,Creative Foam Corp.,"55210 Rudy Road, Dowagiac, MI 49047",https://creativefoam.com,elsewhere,1,"1139 S Fenway Circle, Fenton 48430; 300 N Alloy Dr., Fenton 48430; 3304 Hancel Circle, Mooresville 46158; 45414 Dowagiac 55210 Rudy Road, Dowagiac 49047; 48430 Fenway 555 N Fenway Dr, Fenton 48430; 5117 S. Dort Hwy, Flint 48507",osha
 companies/curtis-products-inc--south-bend--228.toml,"Curtis Products, Inc.","228 East Bronson Street, South Bend, IN 46601",https://curtisproducts.com,elsewhere,1,"401 N Bendix Dr, South Bend 46628",osha
-companies/gast-mfg-inc--benton-harbor--2550.toml,"Gast Mfg., Inc.","2550 Meadowbrook Road, Benton Harbor, MI 49022",https://gastmfg.com,elsewhere,1,"2300 M-139 Highway, Benton Harbor 49022",osha
-companies/jet-technologies-inc--elkhart--23892.toml,"Jet Technologies, Inc.","23892 Cooper Drive, Elkhart, IN 46514",https://jettechinc.com,elsewhere,1,"2001 North Park Ave., Elkhart 46514",osha
-companies/kuert-concrete-inc--south-bend--3402.toml,"Kuert Concrete, Inc.","3402 Lincolnway West, South Bend, IN 46628",https://kuert.com,elsewhere,2,"2129 W. Wilden Ave., Goshen 46528; 3113 Lincoln Way W., South Bend 46628; 4416 New Carlisle 56180 Larrison Blvd, New Carlisle 46552; 5383 South Bend 3113 Lincoln Way W., South Bend 46628; 5909 Nimtz Parkway, South Bend 46628; 9911 Rochester 1101 W. 13th Street, Rochester 46975; 9977 Plymouth 11180 11th Road, Plymouth 46563",osha
 companies/kuert-concrete-inc--warsaw--155.toml,"Kuert Concrete, Inc.","155 West 600 North, Warsaw, IN 46582",https://kuert.com,elsewhere,2,"2129 W. Wilden Ave., Goshen 46528; 3113 Lincoln Way W., South Bend 46628; 4416 New Carlisle 56180 Larrison Blvd, New Carlisle 46552; 5383 South Bend 3113 Lincoln Way W., South Bend 46628; 5909 Nimtz Parkway, South Bend 46628; 9911 Rochester 1101 W. 13th Street, Rochester 46975; 9977 Plymouth 11180 11th Road, Plymouth 46563",verified
 companies/maple-leaf-farms-inc--milford--9166.toml,"Maple Leaf Farms, Inc.","9166 North 200 East, Milford, IN 46542",https://mapleleaffarms.com,elsewhere,2,"101 E Church St, Leesburg 46538",osha
 companies/marson-international-llc--elkhart--1001.toml,"Marson International, LLC","1001 Sako Court, Elkhart, IN 46516",https://marsonintl.com,elsewhere,1,"3630 Manchester Drive, Elkhart 46514",verified
-companies/midwest-finishing-systems-inc--mishawaka--1906.toml,"Midwest Finishing Systems, Inc.","1906 Clover Road, Mishawaka, IN 46545",https://midwestfinishing.com,elsewhere,1,"55770 Evergreen Plaza Dr, Mishawaka 46545; 55770 Evergreen Plaza Drive, Mishawaka 46545",osha
 companies/newmar-corp--nappanee--355.toml,Newmar Corp.,"355 Delaware Street, Nappanee, IN 46550",https://newmarcorp.com,elsewhere,1,"1952 Cheyenne St., Nappanee 46550",osha
 companies/nibco-inc--goshen--701.toml,"Nibco, Inc.","701 Eisenhower Drive North, Goshen, IN 46526",https://nibco.com,elsewhere,1,"1516 Middlebury Street, Elkhart 46516",osha
 companies/idea.toml,Notre Dame IDEA Center,"1400 E Angela Blvd, South Bend, IN 46617",https://ideacenter.nd.edu,elsewhere,3,"500 Main Building, Notre Dame 46556",
@@ -24,6 +19,7 @@ companies/hart-plastics-inc--elkhart--52707.toml,"Hart Plastics, Inc.","52707 Pa
 companies/hawk-enterprises-of-elkhart--elkhart--52744.toml,Hawk Enterprises of Elkhart,"52744 Park Six Court, Elkhart, IN 46514",https://hawkenterprises.com,same_street,1,"2902 Park Six Court, Elkhart 46514",verified
 companies/hiler-industries-inc--kingsbury--3rd.toml,"Hiler Industries, Inc.","3rd Road, Kingsbury, IN 46345",https://hilerindustries.com,same_street,3,"104 Fulmer Street, Walkerton 46574; 106 Fulmer Street, Walkerton 46574; 118 Koomler Drive, LaPorte 46350; 3232 3rd Road, LaPorte 46345",osha
 companies/hoosier-crane-service--elkhart--58144.toml,Hoosier Crane Service,"58144 Charlotte Avenue, Elkhart, IN 46517",https://hoosiercrane.com,same_street,1,"219 S Kimball St, Kouts 46347; 2207 Clay Street, Elkhart 46517; 3500 Charlotte Avenue, Elkhart 46517; 7007 Trafalgar St, Fort Wayne 46803",osha
+companies/jet-technologies-inc--elkhart--23892.toml,"Jet Technologies, Inc.","53893 N Park Ave, Elkhart, IN 46514",https://jettechinc.com,same_street,1,"2001 North Park Ave., Elkhart 46514",osha
 companies/regal-mold-die--elkhart--25208.toml,Regal Mold & Die,"25208 Leer Drive, Elkhart, IN 46514",https://regalmold.com,same_street,1,"1817 Leer Drive, Elkhart 46514",osha
 companies/turtle-top--new-paris--67895.toml,Turtle Top,"67895 State Road 15, New Paris, IN 46553",https://turtletop.com,same_street,2,"2105 67819 State Road 15, New Paris 46553; 67819 State Road 15, New Paris 46553",verified
 companies/united-shade-llc--elkhart--28605.toml,"United Shade, LLC","28605 County Road 6, Elkhart, IN 46514",https://unitedshade.com,same_street,1,"2780 County Road 6 W, Elkhart 46514",osha
@@ -72,7 +68,7 @@ companies/cor-a-vent-inc--mishawaka--2529.toml,"Cor-A-Vent, Inc.","2529 Lincolnw
 companies/corvette-central--sawyer--13550.toml,Corvette Central,"13550 Three Oaks Road, Sawyer, MI 49125",https://corvettecentral.com,no_address,1,,verified
 companies/craig-welding-mfg--mentone--5158.toml,Craig Welding & Mfg.,"5158 North 825 East, Mentone, IN 46539",https://craigwelding.com,no_address,1,,verified
 companies/crossroads-r-v--topeka--305.toml,Crossroads R. V.,"305 Hawpatch Drive, Topeka, IN 46571",https://crossroadsrv.com,no_address,1,,osha
-companies/ctb-inc--milford--407.toml,"Ctb, Inc.","407 North Main Street, Milford, IN 46542",https://ctbinc.com,no_address,1,,osha
+companies/ctb-inc--milford--407.toml,"Ctb, Inc.","611 N. Higbee, Milford, IN 46542",https://ctbinc.com,no_address,1,,osha
 companies/custom-wood-products--wakarusa--711.toml,Custom Wood Products,"711 East Waterford Street, Wakarusa, IN 46573",https://customwoodinc.com,no_address,1,,verified
 companies/cutting-edge-machine-tool-inc--new-paris--19149.toml,"Cutting Edge Machine & Tool, Inc.","19149 County Road 146, New Paris, IN 46553",https://cemti.com,no_address,1,,verified
 companies/danco-anodizing-inc--warsaw--2450.toml,"Danco Anodizing, Inc.","2450 Deelyn Drive, Warsaw, IN 46580",https://danco.net,no_address,1,,osha
@@ -91,7 +87,7 @@ companies/fitech-inc--michigan-city--2031.toml,"Fitech, Inc.","2031 Tryon Road, 
 companies/flexform-technologies-llc--elkhart--4955.toml,"Flexform Technologies, LLC","4955 Beck Drive, Elkhart, IN 46516",https://flexformtech.com,no_address,1,,verified
 companies/flywheel-fund-south-bend-elkhart.toml,"Flywheel Fund, South Bend–Elkhart chapter",,https://flywheelfund.vc,out_of_region,1,"642 N. Madison St., Bloomington 47404",
 companies/foamcraft-inc--elkhart--900.toml,"Foamcraft, Inc.","900 Industrial Parkway, Elkhart, IN 46516",https://foamcraftinc.com,out_of_region,2,"3626 9230 Harrison Park Ct., Indianapolis 46216",osha
-companies/foamcraft-inc--goshen--2506.toml,"Foamcraft, Inc.","2506 Industrial Park Drive, Goshen, IN 46526",https://foamcraftinc.com,out_of_region,2,"3626 9230 Harrison Park Ct., Indianapolis 46216",osha
+companies/foamcraft-inc--goshen--2506.toml,"Foamcraft, Inc.","703 E Kercher Road, Goshen, IN 46526",https://foamcraftinc.com,out_of_region,2,"3626 9230 Harrison Park Ct., Indianapolis 46216",osha
 companies/braun-seating-inc--rochester--7346.toml,"Freedman Seating, Leiters Ford plant","7346 West County Road 400 North, Rochester, IN 46975",https://www.freedmanseating.com,no_address,1,,verified
 companies/french-paper-co--niles--100.toml,French Paper Co.,"100 French Street, Niles, MI 49120",https://frenchpaper.com,no_address,1,,osha
 companies/flexible-foam-products-inc--elkhart--1900.toml,"Future Foam, Elkhart plant","1900 West Lusher Avenue, Elkhart, IN 46517",https://www.futurefoam.com,no_address,1,,osha
@@ -150,7 +146,7 @@ companies/middlebury-hardwood-products-inc--middlebury--101.toml,"Middlebury Har
 companies/miller-mfg-corp--nappanee--901.toml,Miller Mfg. Corp.,"901 East Lincoln Street, Nappanee, IN 46550",https://millermfgcorp.com,no_address,1,,verified
 companies/mito-corp--elkhart--54905.toml,Mito Corp.,"213 County Road 17, Elkhart, IN",https://www.mitocorp.com,no_address,1,,verified
 companies/modern-door-corp--walkerton--1300.toml,Modern Door Corp.,"1300 Virginia Street, Walkerton, IN 46574",https://plyco.com,out_of_region,1,"500 Industrial Drive, Elkhart Lake 53020",osha
-companies/modineer-co--niles--2190.toml,Modineer Co.,"2190 Industrial Drive, Niles, MI 49120",https://modineer.com,no_address,1,,osha
+companies/modineer-co--niles--2190.toml,Modineer Co.,"1501 South 3rd St., Niles, MI 49120",https://modineer.com,no_address,1,,osha
 companies/monaco-coach-corp--wakarusa--606.toml,Monaco Coach Corp.,"606 Nelsons Parkway, Wakarusa, IN 46573",https://monacocoach.com,no_address,1,,osha
 companies/morgan.toml,Morgan Advanced Materials,"2730 Industrial Pkwy, Elkhart, IN 46516",https://www.morganadvancedmaterials.com,no_address,1,,osha
 companies/mossberg-company-inc--south-bend--301.toml,"Mossberg & Company, Inc.","301 East Sample Street, South Bend, IN 46601",https://mossbergco.com,no_address,1,,unconfirmed
@@ -171,7 +167,7 @@ companies/p-h-machine-co-inc--walkerton--106.toml,"P & H Machine Co., Inc.","106
 companies/pacemaker-buildings--north-webster--7240.toml,Pacemaker Buildings,"7240 North State Road 13, North Webster, IN 46555",https://pacemakerbuildings.com,no_address,1,,verified
 companies/palletone-inc--shipshewana--5345.toml,"Palletone, Inc.","5345 West 200 North, Shipshewana, IN 46565",https://palletone.com,no_address,1,,osha
 companies/par-kan-co--silver-lake--2915.toml,Par-Kan Co.,"2915 West 900 South, Silver Lake, IN 46982",https://par-kan.com,no_address,1,,verified
-companies/patrick-industries-inc--elkhart--58038.toml,"Patrick Industries, Inc.","58038 County Road 3, Elkhart, IN 46517",https://patrickind.com,no_address,1,,osha
+companies/patrick-industries-inc--elkhart--58038.toml,"Patrick Industries, Inc.","640 Collins Rd, Elkhart, IN 46516",https://patrickind.com,no_address,1,,osha
 companies/patrick-metals--mishawaka--5020.toml,Patrick Metals,"5020 Lincoln Way East, Mishawaka, IN 46544",https://patrickmetals.com,no_address,1,,verified
 companies/peterson-spring-corp-cima-div--three-rivers--16805.toml,"Peterson Spring Corp., Cima Div.","16805 Heimbach Road, Three Rivers, MI 49093",https://pspring.com,out_of_region,1,"16805 Heimbach Road, Three Rivers 49093",verified
 companies/pioneer-hi-bred-international-inc--plymouth--2300.toml,"Pioneer Hi-Bred International, Inc.","2300 North Pine Road, Plymouth, IN 46563",https://pioneer.com,no_address,1,,verified
@@ -193,7 +189,7 @@ companies/sroufe-healthcare-products-llc--ligonier--601.toml,"Sroufe Healthcare 
 companies/standard-label-co-inc--elkhart--4200.toml,"Standard Label Co., Inc.","4200 Wyland Drive, Elkhart, IN 46516",https://standard-label.com,no_address,1,,verified
 companies/star-of-the-west-milling-co--ligonier--101.toml,Star of the West Milling Co.,"101 Richmond Street, Ligonier, IN 46767",https://starofthewest.com,no_address,1,,osha
 companies/stranco-inc--michigan-city--1306.toml,"Stranco, Inc.","1306 West US Highway 20, Michigan City, IN 46360",https://strancoinc.com,no_address,1,,verified
-companies/symmetry-medical-inc--warsaw--3724.toml,"Symmetry Medical, Inc.","3724 North State Road 15, Warsaw, IN 46582",https://symmetrymedical.com,no_address,1,,osha
+companies/symmetry-medical-inc--warsaw--3724.toml,"Symmetry Medical, Inc.","486 W. 350 N., Warsaw, IN 46582",https://symmetrymedical.com,no_address,1,,osha
 companies/t-m-rubber-inc--goshen--1102.toml,"T & M Rubber, Inc.","1102 South 10th Street, Goshen, IN 46526",https://tmrubber.com,no_address,1,,osha
 companies/taktline.toml,Taktline,"712 Forest Ave, South Bend, IN 46616",https://taktline.com,no_address,1,,
 companies/teaco-inc--michigan-city--2117.toml,"Teaco, Inc.","2117 Ohio Street, Michigan City, IN 46360",https://teacoinc.com,no_address,1,,verified
@@ -214,7 +210,7 @@ companies/u-s-signcrafters-inc--osceola--216.toml,"U. S. Signcrafters, Inc.","21
 companies/union-tool-corp-the--warsaw--1144.toml,"Union Tool Corp., the","1144 North Detroit Street, Warsaw, IN 46580",https://uniontoolcorp.com,no_address,1,,osha
 companies/united-container-co--saint-joseph--233.toml,United Container Co.,"233 Hawthorne Avenue, Saint Joseph, MI 49085",https://unitedcontainer.com,no_address,1,,verified
 companies/unitek-sealing-solutions-corp--la-porte--315.toml,Unitek Sealing Solutions Corp.,"115 Koomler Drive, La Porte, IN 46350",https://unitekss.com,no_address,1,,verified
-companies/universal-forest-products-inc--granger--50415.toml,"Universal Forest Products, Inc.","50415 Herbert Street, Granger, IN 46530",https://ufpi.com,no_address,1,,osha
+companies/universal-forest-products-inc--granger--50415.toml,"Universal Forest Products, Inc.","50227 Bittersweet Trail, Granger, IN 46530",https://ufpi.com,no_address,1,,osha
 companies/valmont-industries-inc--elkhart--58027.toml,"Valmont Industries, Inc.","58027 Charlotte Avenue, Elkhart, IN 46517",https://valmont.com,no_address,2,,osha
 companies/valmont-industries-inc--plymouth--1545.toml,"Valmont Industries, Inc.","1545 Pidco Drive, Plymouth, IN 46563",https://valmont.com,no_address,2,,osha
 companies/vaupell-midwest-molding-tooling--constantine--485.toml,Vaupell Midwest Molding & Tooling,"485 Florence Road, Constantine, MI 49042",https://vaupell.com,no_address,1,,verified
@@ -224,7 +220,7 @@ companies/warsaw-foundry-co-inc--warsaw--1212.toml,"Warsaw Foundry Co., Inc.","1
 companies/wells-cargo-inc--elkhart--1503.toml,"Wells Cargo, Inc.","1503 Mcnaughton Avenue, Elkhart, IN 46514",https://wellscargo.com,no_address,1,,osha
 companies/wells-inc-w-f--three-rivers--16645.toml,"Wells, Inc., W. F.","16645 Heimbach Road, Three Rivers, MI 49093",https://wfwells.com,out_of_region,1,"16645 Heimbach Rd., Three Rivers 49093",verified
 companies/whitley-mfg-co-inc--south-whitley--201.toml,"Whitley Mfg. Co., Inc.","201 West 1st Street, South Whitley, IN 46787",https://whitleyman.com,no_address,1,,osha
-companies/wire-design-inc--elkhart--2520.toml,"Wire Design, Inc.","2520 Industrial Parkway, Elkhart, IN 46516",https://wire-design.com,no_address,1,,osha
+companies/wire-design-inc--elkhart--2520.toml,"Wire Design, Inc.","3601 Charlotte Ave, Elkhart, IN 46517",https://wire-design.com,no_address,1,,osha
 companies/witt-galvanizing--plymouth--2631.toml,Witt Galvanizing,"2631 Jim Neu Drive, Plymouth, IN 46563",https://wittgalvanizing.com,no_address,1,,osha
 companies/world-missionary-press-inc--new-paris--19168.toml,"World Missionary Press, Inc.","19168 County Road 146, New Paris, IN 46553",https://wmpress.org,no_address,1,,verified
 companies/ziggity-systems-inc--middlebury--101.toml,"Ziggity Systems, Inc.","101 Industrial Parkway East, Middlebury, IN 46540",https://ziggity.com,no_address,1,,verified
@@ -243,6 +239,7 @@ companies/allied-specialty-precision-inc--mishawaka--815.toml,"Allied Specialty 
 companies/almega-tru-flex-inc--bremen--3917.toml,"Almega/tru-Flex, Inc.","3917 State Road 106, Bremen, IN 46506",https://almegatf.com,match,1,"3917 US 106 East, Bremen 46506; 3917 US 106, East Bremen 46506",osha
 companies/alpha-resources-inc--stevensville--3090.toml,"Alpha Resources, Inc.","3090 Johnson Road, Stevensville, MI 49127",https://alpharesources.com,match,1,"3090 Johnson Road, Stevensville 49127",verified
 companies/altec-engineering-inc--elkhart--28274.toml,"Altec Engineering, Inc.","2401 West Mishawaka Road, Elkhart, IN",https://altecengineering.com,match,1,"2401 W. Mishawaka Rd., Elkhart 46517",verified
+companies/aluminum-trailer-co--nappanee--306.toml,Aluminum Trailer Co.,"5225 E. Market Street, Nappanee, IN 46550",https://aluminumtrailer.com,match,1,"5225 E Market St, Nappanee 46550",osha
 companies/american-cargo-products-llc--goshen--2109.toml,"American Cargo Products, LLC","2940 Dexter Drive, Elkhart, IN 46514",https://americancargo.com,match,1,"2940 Dexter Dr, Elkhart 46514",verified
 companies/anderson-building-materials-co--saint-joseph--216.toml,Anderson Building Materials Co.,"216 Upton Drive, Saint Joseph, MI 49085",https://abmrack.com,match,1,"216 Upton Drive, St. Joseph 49085",osha
 companies/anderson-silver-plating-co-inc--elkhart--541.toml,"Anderson Silver Plating Co., Inc.","541 Industrial Parkway, Elkhart, IN 46516",https://andersonsilverplating.com,match,1,"541 Industrial Parkway, Elkhart 46516",verified
@@ -315,9 +312,10 @@ companies/frontline-mfg-inc--leesburg--306.toml,"Frontline Mfg., Inc.","1445 Pol
 companies/fulton-industries-inc--south-bend--4050.toml,"Fulton Industries, Inc.","51565 Bittersweet Rd, Ste B, Granger, IN 46530",https://fultonindustries.com,match,1,"51565 Bittersweet Rd, Granger 46530",verified
 companies/g-a-l-gage-co--stevensville--2953.toml,G.a.l. Gage Co.,"2953 Hinchman Road, Stevensville, MI 49127",https://galgage.com,match,1,"2953 Hinchman Road, Bridgman 49106",verified
 companies/gaska-tape-inc--elkhart--1810.toml,"Gaska Tape, Inc.","1810 West Lusher Avenue, Elkhart, IN 46517",https://gaska.com,match,1,"1810 W. Lusher Ave., Elkhart 46517; 1968 1810 W. Lusher Ave., Elkhart 46517",verified
+companies/gast-mfg-inc--benton-harbor--2550.toml,"Gast Mfg., Inc.","2300 M-139 Hwy., Benton Harbor, MI 49022",https://gastmfg.com,match,1,"2300 M-139 Highway, Benton Harbor 49022",osha
 companies/gemstone-musical-instruments--elkhart--57882.toml,"Gemeinhardt Musical Instruments, LLC","3302 South Nappanee Street, Elkhart, IN",https://gemeinhardt.com,match,1,"2024 Gemeinhardt 3302 S. Nappanee St., Elkhart 46517; 3302 S. Nappanee St., Elkhart 46517",verified
 companies/gsm.toml,General Stamping & Metalworks (GSM),"25101 Cleveland Rd, South Bend, IN 46628",https://www.gsmwinc.com,match,1,"0611 25101 Cleveland Rd, South Bend 46628; 25101 Cleveland Rd, South Bend 46628; 328 Cardinal Ave, Tomah 54660",osha
-companies/genesis-products-inc--elkhart--2608.toml,"Genesis Products, Inc.","2608 Almac Court, Elkhart, IN 46514",https://genesisproductsinc.com,match,1,"1 2608 Almac Ct., Elkhart 46514; 10 1778 Eisenhower Dr. S, Goshen 46526; 1853 Eisenhower Dr. S, Goshen 46526; 2 3130 Tuscany Dr., Elkhart 46514; 3 2515 Industrial Park Dr., Goshen 46526; 5 1846 Eisenhower Drive S, Goshen 46526; 6 2924 East CR 6, Elkhart 46514; 7 2701 S. Coliseum Blvd, Fort Wayne 46803; 8 1853 Eisenhower Dr. S, Goshen 46526; 9 1811 Eisenhower Dr S, Goshen 46526",osha
+companies/genesis-products-inc--elkhart--2608.toml,"Genesis Products, Inc.","3130 Tuscany Drive, Elkhart, IN 46514",https://genesisproductsinc.com,match,1,"1 2608 Almac Ct., Elkhart 46514; 10 1778 Eisenhower Dr. S, Goshen 46526; 1853 Eisenhower Dr. S, Goshen 46526; 2 3130 Tuscany Dr., Elkhart 46514; 3 2515 Industrial Park Dr., Goshen 46526; 5 1846 Eisenhower Drive S, Goshen 46526; 6 2924 East CR 6, Elkhart 46514; 7 2701 S. Coliseum Blvd, Fort Wayne 46803; 8 1853 Eisenhower Dr. S, Goshen 46526; 9 1811 Eisenhower Dr S, Goshen 46526",osha
 companies/gillette-generators-inc--elkhart--1340.toml,"Gillette Generators, Inc.","2921 Thorne Drive, Elkhart, IN",https://gillettegenerators.com,match,1,"2921 Thorne Drive, Elkhart 46514",verified
 companies/gindor-inc--goshen--66101.toml,"Gindor, Inc.","66101 US Highway 33, Goshen, IN 46526",https://gindor.com,match,1,"66101 US 33, Goshen 46526",verified
 companies/goodwill-industries-of-michiana-inc--south-bend--1805.toml,"Goodwill Industries of Michiana, Inc.","1805 Western Avenue, South Bend, IN 46619",https://goodwill-ni.org,match,1,"10021 Earl Dr., St. John 46373; 120 Sanford School Rd., Elkhart 46514; 1547 Pilgrim Ln., Plymouth 46563; 1601 W. 45th Ave., Griffith 46319; 1805 W. Western Ave., South Bend 46619; 1805 W. Western Avenue, South Bend 46619; 1906 E. Ireland Rd., South Bend 46614; 200 Rouch Place, Dr. Rochester 46975; 2109 N. Calumet Ave., Valparaiso 46383; 2230 W. 93rd Ave., Merrillville 46410; 2701 W. Cleveland Rd., South Bend 46628; 3420 Grape Rd., Mishawaka 46545; 3500 E. Market St., Logansport 46947; 3808 E. Mishawaka Rd., Elkhart 46517; 3808 E. Mishawaka Road, Elkhart 46517; 3822 Franklin St., Michigan City 46360; 4610 West Ridge Road, Gary 46408; 4830 W. Ridge Rd., Gary 46408; 5200 Middlebury St., Elkhart 46516; 55585 Ash Rd., Osceola 46561; 5906 Lute Rd., Portage 46368; 724 Franklin Street, Michigan City 46360; 751 Anchorage Point Dr., Warsaw 46580; 7868 E. Ridge Rd., Hobart 46342; 913 Joliet St., Dyer 46311; 918 Silverbrook Ave., Niles 49120",verified
@@ -357,6 +355,7 @@ companies/kemkrest.toml,Kem Krest,"3221 Magnum Dr, Elkhart, IN 46516",https://ww
 companies/kibbechem-inc--elkhart--1139.toml,"Kibbechem, Inc.","22243 Innovation Drive, Elkhart, IN",https://kibbechem.com,match,1,"0996 Plant 3 1330 Wade Drive, Elkhart 46514; 1 22243 Innovation Drive, Elkhart 46514; 2 2800 Glenview Drive, Elkhart 46514; 22243 Innovation Drive, Elkhart 46514; 4 1140 All Pro Drive, Elkhart 46614",verified
 companies/kra-international-llc--south-bend--3300.toml,"Kra International, LLC","1810 Clover Road, Mishawaka, IN 46545",https://krainternational.com,match,1,"1810 Clover Rd, Mishawaka 46545",verified
 companies/kruz-inc--knox--1201.toml,"Kruz, Inc.","1201 West Culver Road, Knox, IN 46534",https://kruzinc.com,match,1,"1201 W Culver Rd, Knox 46534; 6673 1201 W Culver Rd, Knox 46534",verified
+companies/kuert-concrete-inc--south-bend--3402.toml,"Kuert Concrete, Inc.","3113 Lincoln Way W, South Bend, IN 46628",https://kuert.com,match,2,"2129 W. Wilden Ave., Goshen 46528; 3113 Lincoln Way W., South Bend 46628; 4416 New Carlisle 56180 Larrison Blvd, New Carlisle 46552; 5383 South Bend 3113 Lincoln Way W., South Bend 46628; 5909 Nimtz Parkway, South Bend 46628; 9911 Rochester 1101 W. 13th Street, Rochester 46975; 9977 Plymouth 11180 11th Road, Plymouth 46563",osha
 companies/kz-rv--shipshewana--0985.toml,Kz RV,"0985 North 900 West, Shipshewana, IN 46565",https://kz-rv.com,match,1,"985 N 900 W, Shipshewana 46565",osha
 companies/l-w-engineering-inc--middlebury--107.toml,"L & W Engineering, Inc.","107 Industrial Parkway East, Middlebury, IN 46540",https://lw-eng.com,match,1,"107 Industrial Pkwy, Middlebury 46540; 107 Industrial Pkwy., Middlebury 46540; 5351 107 Industrial Pkwy., Middlebury 46540",osha
 companies/linc-local-investor-network.toml,"LINC, Local Investor Network for Capital","635 S Lafayette Blvd, Suite 123, South Bend, IN 46601",https://startupsouthbendelkhart.com/access-to-capital/,match,2,"635 S. Lafayette Blvd., South Bend 46601",
@@ -376,6 +375,7 @@ companies/mctd-inc--michigan-city--200.toml,"Mctd, Inc.","200 Winski Drive, Mich
 companies/medallion-plastics-inc--elkhart--21700.toml,"Medallion Plastics, Inc.","21700 Protecta Drive, Elkhart, IN 46516",https://medallionplastics.com,match,1,"21680 Protecta Drive, Elkhart 46516; 21700 Protecta Drive, Elkhart 46516; 4 836 Summa Drive, Elkhart 46516; 4802 Eastland Drive, Elkhart 46516",osha
 companies/michigan-city-paper-box-co--michigan-city--1206.toml,Michigan City Paper Box Co.,"1206 Pine Street, Michigan City, IN 46360",https://buyabox.com,match,1,"0030 Import Warehouse 520 Hitchcock Street, Michigan City 46360; 100 Boone Drive, Michigan City 46360; 1206 Pine Street, Michigan City 46360",
 companies/mid-west-spring-mfg-co--mentone--105.toml,Mid-West Spring Mfg. Co.,"105 North Etna Street, Mentone, IN 46539",https://mwspring.com,match,1,"105 Etna St, Mentone 46539",osha
+companies/midwest-finishing-systems-inc--mishawaka--1906.toml,"Midwest Finishing Systems, Inc.","55770 Evergreen Plaza Drive, Mishawaka, IN 46545",https://midwestfinishing.com,match,1,"55770 Evergreen Plaza Dr, Mishawaka 46545; 55770 Evergreen Plaza Drive, Mishawaka 46545",osha
 companies/midwest-rake-company-llc--warsaw--1605.toml,Midwest Rake Company LLC,"2666 South Country Club Road, Warsaw, IN 46580",https://midwestrake.com,match,1,"2666 South Country Club Road, Warsaw 46580",verified
 companies/midwest-timber-inc--edwardsburg--190.toml,"Midwest Timber, Inc.","69875 Kraus Road, Edwardsburg, MI 49112",https://midwesttimber.com,match,1,"49112 Visit Us 69875 Kraus Road, Edwardsburg 49112",verified
 companies/molded-foam-products--bristol--1150.toml,Molded Foam Products,"1203 South Division Street, Bristol, IN",https://moldedfoamproducts.com,match,1,"1203 S. Division St., Bristol 46507",verified
@@ -463,7 +463,7 @@ companies/winona-powder-coating-inc--mentone--601.toml,"Winona Powder Coating, I
 companies/woodland-park-inc--middlebury--111.toml,"Woodland Park, Inc.","111 Crystal Heights Boulevard, Middlebury, IN 46540",https://woodland-park.com,match,1,"111 Crystal Heights Blvd., Middlebury 46540",osha
 companies/yoder-kitchen-corp--nappanee--501.toml,Yoder Kitchen Corp.,"501 South Main Street, Nappanee, IN 46550",https://yoderkitchens.com,match,1,"501 S. Main St., Nappanee 46550",verified
 companies/acme-radiator-air-conditioning-inc--goshen--17103.toml,"Acme Radiator & Air Conditioning, Inc.","17103 State Road 4 East, Goshen, IN 46528",https://acmeair.com,unreachable,1,,verified
-companies/agdia-inc--elkhart--30380.toml,"Agdia, Inc.","30380 County Road 6, Elkhart, IN 46514",https://agdia.com,unreachable,1,,osha
+companies/agdia-inc--elkhart--30380.toml,"Agdia, Inc.","52642 County Road 1, Elkhart, IN 46514",https://agdia.com,unreachable,1,,osha
 companies/alpha-baking-co-inc--la-porte--360.toml,"Alpha Baking Co., Inc.","360 North Fail Road, La Porte, IN 46350",https://alphabaking.com,unreachable,1,,osha
 companies/alpha-systems-llc--elkhart--5120.toml,"Alpha Systems, LLC","5120 Beck Drive, Elkhart, IN 46516",https://alphasystemsinc.com,unreachable,1,,osha
 companies/ameri-kan--warsaw--515.toml,Ameri-Kan,"515 Anchorage Road, Warsaw, IN 46580",https://ameri-kan.com,unreachable,2,,unconfirmed
@@ -499,7 +499,7 @@ companies/eaton-corp-forge-plt--south-bend--2930.toml,"Eaton Corp., Forge Plt.",
 companies/edgewater-safety-systems-llc.toml,Edgewater Safety Systems LLC,"481 Renaissance Dr, Saint Joseph, MI 49085",https://www.edgewatersafetysystems.com,unreachable,1,,
 companies/efp-corp--elkhart--223.toml,Efp Corp.,"223 Middleton Run Road, Elkhart, IN 46516",https://efpcorp.com,unreachable,1,,osha
 companies/elumatec-usa-inc--south-bend--4320.toml,"Elumatec USA, Inc.","4320 Ralph Jones Court, South Bend, IN 46628",https://elumatecusa.com,unreachable,1,,verified
-companies/evs-ltd--south-bend--3702.toml,Evs Ltd.,"3702 West Sample Street, South Bend, IN 46619",https://evsltd.com,unreachable,1,,osha
+companies/evs-ltd--south-bend--3702.toml,Evs Ltd.,"24500 Research Drive, South Bend, IN 46628",https://evsltd.com,unreachable,1,,osha
 companies/fas-pak-inc--michigan-city--411.toml,"Fas-Pak, Inc.","411 Fairfield Avenue, Michigan City, IN 46360",https://fas-pak.com,unreachable,1,,verified
 companies/federal-mogul-corp-south-bend--south-bend--3605.toml,"Federal-Mogul Corp., South Bend","3605 West Cleveland Road Extension, South Bend, IN 46628",https://federalmogul.com,unreachable,1,,osha
 companies/fedex-office-print-center--south-bend--2202.toml,Fedex Office & Print Center,"2202 South Bend Avenue, South Bend, IN 46635",https://fedexkinkos.com,unreachable,1,,verified
@@ -556,7 +556,7 @@ companies/parker-hannifin-corp--goshen--1525.toml,Parker Hannifin Corp.,"1525 So
 companies/parker-hannifin-corp--syracuse--501.toml,Parker Hannifin Corp.,"501 South Sycamore Street, Syracuse, IN 46567",https://parker.com,unreachable,3,,osha
 companies/parker-hannifin-corp-power-components--mishawaka--56641.toml,"Parker Hannifin Corp., Power Components","56641 Twin Branch Drive, Mishawaka, IN 46545",https://parker.com,unreachable,3,,verified
 companies/polar-clean-llc.toml,"Polar Clean, LLC","1231 Prairie Ave Suite 100, South Bend, IN 46601",https://www.polarclean.com/,unreachable,1,,
-companies/poly-wood-inc--syracuse--1001.toml,"Poly-Wood, Inc.","1001 West Brooklyn Street, Syracuse, IN 46567",https://polywoodinc.com,unreachable,1,,osha
+companies/poly-wood-inc--syracuse--1001.toml,"Poly-Wood, Inc.","1000 Polywood Way, Syracuse, IN 46567",https://polywoodinc.com,unreachable,1,,osha
 companies/prince-agri-products-inc--bremen--1711.toml,"Prince Agri Products, Inc.","1711 West Dewey Street, Bremen, IN 46506",https://princeagri.com,unreachable,1,,unconfirmed
 companies/pro-air-llc--elkhart--28731.toml,"Pro Air, LLC","28731 County Road 6, Elkhart, IN 46514",https://proairllc.com,unreachable,1,,verified
 companies/prolon-inc--elkhart--1040.toml,"Prolon, Inc.","1040 Sako Court, Elkhart, IN 46516",https://prolon.com,unreachable,1,,verified

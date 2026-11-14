@@ -1,0 +1,26 @@
+# Valmont Industries
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Valmont Industries"
+kind = "company"
+city = "Bristol"
+state = "IN"
+address = "1100 Maple Street, Bristol, IN 46507"
+lat = 41.71878
+lon = -85.82224
+osha_id = "888068"
+
+sector = "Materials & composites"
+products = ["Manufacturing"]
+naics = "327332"
+
+employees = 47
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 327332: manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-14"

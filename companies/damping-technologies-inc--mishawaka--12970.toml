@@ -1,0 +1,26 @@
+# Damping Technologies Inc.
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Damping Technologies Inc."
+kind = "company"
+city = "Mishawaka"
+state = "IN"
+address = "12970 McKinley Hwy - Unit IX, Mishawaka, IN 46545"
+lat = 41.68267
+lon = -86.11713
+osha_id = "1445487"
+
+sector = "Vehicles & RVs"
+products = ["Aircraft assemblies, subassemblies, and parts (except engines) manufacturing"]
+naics = "336413"
+
+employees = 10
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 336413: aircraft assemblies, subassemblies, and parts (except engines) manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-14"

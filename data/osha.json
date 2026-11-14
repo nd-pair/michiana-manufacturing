@@ -1,7 +1,7 @@
 {
 "source": "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)",
 "file": "a2025.csv",
-"imported": "2026-11-13",
+"imported": "2026-11-14",
 "latest_year": "2025",
 "years": {
 "2025": {
@@ -21,27 +21,22 @@
 "naics": "336213"
 },
 "1433230": {
-"company": "thor-motor-coach-inc-wakarusa-313",
+"company": "thor-motor-coach-inc-wakarusa-211",
 "employees": null,
 "naics": "336213"
 },
 "1433231": {
-"company": "thor-motor-coach-elkhart-701",
+"company": "four-winds-international-corp-elkhart-701",
 "employees": null,
 "naics": "336213"
 },
 "1433232": {
-"company": "thor-motor-coach-elkhart-701",
+"company": "four-winds-international-corp-elkhart-701",
 "employees": null,
 "naics": "336213"
 },
 "1433233": {
 "company": "thor-motor-coach-inc-elkhart-520",
-"employees": null,
-"naics": "336213"
-},
-"1433234": {
-"company": "thor-motor-coach-inc-wakarusa-503",
 "employees": null,
 "naics": "336213"
 },
@@ -51,12 +46,7 @@
 "naics": "336213"
 },
 "1433236": {
-"company": "thor-motor-coach-inc-wakarusa-313",
-"employees": null,
-"naics": "336213"
-},
-"1433237": {
-"company": "thor-motor-coach-inc-wakarusa-313",
+"company": "thor-motor-coach-inc-wakarusa-510",
 "employees": null,
 "naics": "336213"
 },
@@ -67,11 +57,6 @@
 },
 "1433239": {
 "company": "thor-motor-coach-inc-wakarusa-503",
-"employees": null,
-"naics": "336213"
-},
-"1433240": {
-"company": "thor-motor-coach-inc-bristol-1209",
 "employees": null,
 "naics": "336213"
 },
@@ -91,17 +76,12 @@
 "naics": "336213"
 },
 "1433245": {
-"company": "thor-motor-coach-elkhart-701",
+"company": "four-winds-international-corp-elkhart-701",
 "employees": null,
 "naics": "336213"
 },
 "1433246": {
-"company": "thor-motor-coach-elkhart-701",
-"employees": null,
-"naics": "336213"
-},
-"1433247": {
-"company": "thor-motor-coach-elkhart-701",
+"company": "four-winds-international-corp-elkhart-701",
 "employees": null,
 "naics": "336213"
 },
@@ -116,7 +96,7 @@
 "naics": "336213"
 },
 "1433250": {
-"company": "thor-motor-coach-elkhart-701",
+"company": "four-winds-international-corp-elkhart-701",
 "employees": null,
 "naics": "336213"
 },
@@ -170,11 +150,15 @@
 "employees": 828,
 "naics": "331529"
 },
+"1435312": {
+"company": "utilimaster-corp-wakarusa-65906",
+"employees": 777,
+"naics": "336211"
+},
 "1317548": {
 "company": "homecrest-cabinetry-goshen-1002",
 "employees": 724,
-"naics": "337110",
-"occupant": "MasterBrand Goshen"
+"naics": "337110"
 },
 "619079": {
 "company": "bremen-wire-bremen-515",
@@ -189,8 +173,7 @@
 "1404846": {
 "company": "sullair-corp-michigan-city-3700",
 "employees": 649,
-"naics": "333912",
-"occupant": "Hitachi Global Air Power"
+"naics": "333912"
 },
 "1406640": {
 "company": "undersea-sensor-systems-inc-columbia-city-4868",
@@ -203,7 +186,7 @@
 "naics": "332321"
 },
 "899004": {
-"company": "lci-goshen-1206",
+"company": "lci-goshen-2703",
 "employees": 602,
 "naics": "332312"
 },
@@ -237,12 +220,6 @@
 "employees": 520,
 "naics": "336360"
 },
-"563972": {
-"company": "nanovis-llc",
-"employees": 508,
-"naics": "339112",
-"occupant": "Micropulse, Inc."
-},
 "1053853": {
 "company": "smoker-craft-inc-new-paris-68143",
 "employees": 484,
@@ -256,8 +233,7 @@
 "1076852": {
 "company": "i-n-kote-new-carlisle-30755",
 "employees": 467,
-"naics": "331110",
-"occupant": "Cleveland-Cliffs"
+"naics": "331110"
 },
 "113245": {
 "company": "hoosier-tire-rubber-corp-plymouth-2307",
@@ -267,8 +243,7 @@
 "1495748": {
 "company": "hinsdale-farms-bristol-605",
 "employees": 450,
-"naics": "311412",
-"occupant": "Monogram Comfort Foods, LLC"
+"naics": "311412"
 },
 "1090958": {
 "company": "honeywell-aircraft-accessories-south-bend-3520",
@@ -288,14 +263,12 @@
 "853944": {
 "company": "mark-line-industries-inc-bristol-51687",
 "employees": 401,
-"naics": "336612",
-"occupant": "Barletta Boat Company, LLc"
+"naics": "336612"
 },
 "944600": {
 "company": "redman-homes-inc-of-indiana-topeka-308",
 "employees": 390,
-"naics": "321911",
-"occupant": "Champion Home Builders, Inc."
+"naics": "321911"
 },
 "1029214": {
 "company": "refresco-beverages-paw-paw-paw-paw-38279",
@@ -320,8 +293,7 @@
 "1263910": {
 "company": "syndicate-systems-middlebury-402",
 "employees": 352,
-"naics": "337215",
-"occupant": "Lozier Corporation"
+"naics": "337215"
 },
 "1064047": {
 "company": "rochester-metal-products-rochester-616",
@@ -331,8 +303,7 @@
 "1122946": {
 "company": "michigan-city-baking-michigan-city-502",
 "employees": 345,
-"naics": "311821",
-"occupant": "Hearthside Foods Solutions"
+"naics": "311821"
 },
 "209274": {
 "company": "nishikawa-standard-co-bremen-501",
@@ -352,8 +323,7 @@
 "930163": {
 "company": "greenball-corp-elkhart-21861",
 "employees": 330,
-"naics": "321912",
-"occupant": "Great Lakes Forest Products"
+"naics": "321912"
 },
 "165710": {
 "company": "hendrickson-truck-commercial-vehicle-systems-kendallville-101",
@@ -413,8 +383,7 @@
 "1426398": {
 "company": "guardian-industries-corp-ligonier-860",
 "employees": 288,
-"naics": "327215",
-"occupant": "Carlex Glass"
+"naics": "327215"
 },
 "1442370": {
 "company": "gsm",
@@ -425,6 +394,11 @@
 "company": "creative-foam-corp-dowagiac-55210",
 "employees": 283,
 "naics": "326150"
+},
+"1032907": {
+"company": "wabash-national-corporation-goshen-2572",
+"employees": 282,
+"naics": "336211"
 },
 "127950": {
 "company": "carpenter-co-elkhart-195",
@@ -439,8 +413,7 @@
 "667575": {
 "company": "pilkington-north-america-inc-niles-2121",
 "employees": 276,
-"naics": "336370",
-"occupant": "Modineer"
+"naics": "336370"
 },
 "1428606": {
 "company": "maple-leaf-farms-inc-milford-9166",
@@ -468,7 +441,7 @@
 "naics": "311612"
 },
 "1465174": {
-"company": "digger-specialties-inc-bremen-3446",
+"company": "digger-specialties-inc-bremen-3639",
 "employees": 270,
 "naics": "332323"
 },
@@ -497,6 +470,11 @@
 "employees": 250,
 "naics": "336390"
 },
+"889305": {
+"company": "lewis-bros-bakeries-inc-la-porte-800",
+"employees": 250,
+"naics": "311812"
+},
 "1264524": {
 "company": "alutech-benton-harbor-chassix-benton-harbor-1320",
 "employees": 250,
@@ -510,14 +488,12 @@
 "1203635": {
 "company": "liberty-homes-inc-h-q-goshen-1101",
 "employees": 247,
-"naics": "332321",
-"occupant": "LCI"
+"naics": "332321"
 },
 "1305131": {
 "company": "benteler-automotive-corp-goshen-910",
 "employees": 245,
-"naics": "336370",
-"occupant": "Shiloh Industries LLC Goshen"
+"naics": "336370"
 },
 "604313": {
 "company": "flexaust-warsaw-1510",
@@ -532,8 +508,7 @@
 "853667": {
 "company": "sunnybrook-rv-inc-middlebury-201",
 "employees": 242,
-"naics": "336214",
-"occupant": "Winnebago of Indiana, LLC"
+"naics": "336214"
 },
 "1478946": {
 "company": "cavco-industries-nappanee-2181",
@@ -543,8 +518,7 @@
 "899023": {
 "company": "nappanee-wood-products-inc-nappanee-1205",
 "employees": 238,
-"naics": "332321",
-"occupant": "LCI"
+"naics": "332321"
 },
 "98986": {
 "company": "siemens-healthcare-diagnostics-inc-mishawaka-430",
@@ -564,11 +538,10 @@
 "1494607": {
 "company": "crest-homes-middlebury-437",
 "employees": 235,
-"naics": "321991",
-"occupant": "Clayton"
+"naics": "321991"
 },
 "1404799": {
-"company": "brinkley-rv-llc-goshen-2482",
+"company": "brinkley-rv-llc-goshen-1655",
 "employees": 234,
 "naics": "336214"
 },
@@ -588,12 +561,12 @@
 "naics": "322211"
 },
 "943077": {
-"company": "keystone-rv-co-goshen-2642",
+"company": "keystone-rv-company-customer-service-goshen-3313",
 "employees": 229,
 "naics": "336214"
 },
 "943021": {
-"company": "keystone-rv-co-goshen-2642",
+"company": "keystone-rv-company-goshen-2478",
 "employees": 228,
 "naics": "336214"
 },
@@ -608,7 +581,7 @@
 "naics": "327215"
 },
 "943184": {
-"company": "keystone-rv-co-goshen-2642",
+"company": "keystone-rv-company-goshen-3425",
 "employees": 225,
 "naics": "336214"
 },
@@ -617,16 +590,10 @@
 "employees": 223,
 "naics": "337127"
 },
-"802931": {
-"company": "voyant-beauty-elkhart-personal-care-elkhart-2730",
-"employees": 223,
-"naics": "325620"
-},
 "1453518": {
 "company": "kik-custom-products-elkhart-1919",
 "employees": 223,
-"naics": "325620",
-"occupant": "Accra-Pac, Inc."
+"naics": "325620"
 },
 "1069985": {
 "company": "keystone-rv-co-goshen-2642",
@@ -706,8 +673,7 @@
 "1512482": {
 "company": "lci-continental-stamping-goshen-2475",
 "employees": 206,
-"naics": "332119",
-"occupant": "Lippert Components"
+"naics": "332119"
 },
 "590206": {
 "company": "morrison-products-rochester-510",
@@ -717,8 +683,7 @@
 "930179": {
 "company": "pinnacle-building-systems-bristol-1103",
 "employees": 205,
-"naics": "326130",
-"occupant": "Great Lakes Lamination"
+"naics": "326130"
 },
 "988764": {
 "company": "cte-solutions-plymouth-2121",
@@ -728,8 +693,7 @@
 "969135": {
 "company": "aacoa-extrusions-inc-niles-2005",
 "employees": 203,
-"naics": "331318",
-"occupant": "Bonnell Aluminum (Niles), LLC"
+"naics": "331318"
 },
 "1263715": {
 "company": "warner-electric-columbia-city-4578",
@@ -742,7 +706,7 @@
 "naics": "332710"
 },
 "943213": {
-"company": "keystone-rv-co-goshen-2642",
+"company": "keystone-rv-company-goshen-2525",
 "employees": 199,
 "naics": "336214"
 },
@@ -804,8 +768,7 @@
 "106210": {
 "company": "terra-group-llc-nappanee-352",
 "employees": 187,
-"naics": "337110",
-"occupant": "Kountry Wood Products"
+"naics": "337110"
 },
 "929662": {
 "company": "lakepark-industries-of-indiana-inc-shipshewana-750",
@@ -832,19 +795,13 @@
 "employees": 180,
 "naics": "325411"
 },
-"943089": {
-"company": "keystone-rv-co-goshen-2642",
+"945745": {
+"company": "pleasant-street-homes-llc-middlebury-51700",
 "employees": 179,
 "naics": "336214"
 },
-"945745": {
-"company": "pleasant-street-homes-llc-middlebury-51700",
-"employees": null,
-"naics": "336214",
-"occupant": "Keystone RV Dutchmen"
-},
 "1404804": {
-"company": "brinkley-rv-llc-goshen-2482",
+"company": "brinkley-rv-llc-goshen-1655",
 "employees": 178,
 "naics": "336214"
 },
@@ -881,13 +838,7 @@
 "357766": {
 "company": "dexter-chassis-group-elkhart-2501",
 "employees": 172,
-"naics": "332312",
-"occupant": "Lippert Components, Inc."
-},
-"1476821": {
-"company": "duo-form-of-michigan-inc-edwardsburg-69836",
-"employees": 172,
-"naics": "326199"
+"naics": "332312"
 },
 "247939": {
 "company": "pwi-corp-nappanee-7930",
@@ -900,9 +851,14 @@
 "naics": "322211"
 },
 "943065": {
-"company": "keystone-rv-co-goshen-2642",
+"company": "keystone-rv-company-goshen-3414",
 "employees": 171,
 "naics": "336214"
+},
+"1452814": {
+"company": "c-s-machine-products-inc-buchanan-215",
+"employees": 170,
+"naics": "332721"
 },
 "1520064": {
 "company": "niles-precision-co-niles-1308",
@@ -927,14 +883,12 @@
 "1356961": {
 "company": "liberty-homes-inc-syracuse-203",
 "employees": 163,
-"naics": "337110",
-"occupant": "AIA Countertops"
+"naics": "337110"
 },
 "987194": {
 "company": "da-lite-screen-company-inc-warsaw-3100",
 "employees": 162,
-"naics": "334310",
-"occupant": "Legrand AV"
+"naics": "334310"
 },
 "959079": {
 "company": "jvis-usa-llc-benton-harbor-territorial-benton-harbor-359",
@@ -942,7 +896,7 @@
 "naics": "336360"
 },
 "1517325": {
-"company": "brinkley-rv-llc-goshen-2482",
+"company": "brinkley-rv-llc-goshen-1475",
 "employees": 161,
 "naics": "336214"
 },
@@ -969,8 +923,7 @@
 "934024": {
 "company": "atwood-mobile-products-elkhart-54347",
 "employees": 156,
-"naics": "332999",
-"occupant": "Dynamic Metals Goup"
+"naics": "332999"
 },
 "1499159": {
 "company": "cross-trailers-bristol-910",
@@ -983,7 +936,7 @@
 "naics": "332114"
 },
 "943199": {
-"company": "keystone-rv-co-goshen-2642",
+"company": "keystone-rv-company-goshen-2400",
 "employees": 153,
 "naics": "336214"
 },
@@ -992,10 +945,25 @@
 "employees": null,
 "naics": "336214"
 },
+"1078516": {
+"company": "freudenberg-filtration-technologies-laporte-229",
+"employees": 153,
+"naics": "333413"
+},
+"1474366": {
+"company": "fiber-bond-operating-llc-michigan-city-110",
+"employees": 153,
+"naics": "313230"
+},
 "943099": {
-"company": "keystone-rv-co-goshen-2642",
+"company": "keystone-rv-company-goshen-3432",
 "employees": 152,
 "naics": "336214"
+},
+"630023": {
+"company": "gdc-inc-elkhart-22428",
+"employees": 151,
+"naics": "326199"
 },
 "1021354": {
 "company": "saint-joseph-st-joseph-2180",
@@ -1020,8 +988,7 @@
 "1108198": {
 "company": "aucilla-inc-south-bend-3333",
 "employees": 150,
-"naics": "325998",
-"occupant": "Tri-Pac, Inc"
+"naics": "325998"
 },
 "1517722": {
 "company": "welchs-lawton-400",
@@ -1033,11 +1000,6 @@
 "employees": 149,
 "naics": "332321"
 },
-"1080468": {
-"company": "vahala-foam-inc-elkhart-612",
-"employees": 148,
-"naics": "326150"
-},
 "208286": {
 "company": "structural-composites-of-indiana-inc-ligonier-1118",
 "employees": 147,
@@ -1046,8 +1008,7 @@
 "899025": {
 "company": "veada-industries-inc-new-paris-19240",
 "employees": 147,
-"naics": "337121",
-"occupant": "LCI"
+"naics": "337121"
 },
 "106214": {
 "company": "kountry-wood-products-nappanee-500",
@@ -1075,7 +1036,7 @@
 "naics": "323111"
 },
 "1404802": {
-"company": "brinkley-rv-llc-goshen-2482",
+"company": "brinkley-rv-llc-goshen-1475",
 "employees": 142,
 "naics": "336214"
 },
@@ -1090,7 +1051,7 @@
 "naics": "336214"
 },
 "1404801": {
-"company": "brinkley-rv-llc-goshen-2482",
+"company": "brinkley-rv-llc-goshen-1475",
 "employees": 141,
 "naics": "336214"
 },
@@ -1100,15 +1061,14 @@
 "naics": "336390"
 },
 "1490473": {
-"company": "truck-accessories-group-inc-elkhart-28858",
+"company": "statewide-aluminum-inc-elkhart-3518",
 "employees": 141,
 "naics": "336214"
 },
 "1117301": {
 "company": "promens-usa-middlebury-51703",
 "employees": 140,
-"naics": "326199",
-"occupant": "Myers Industries/Elkhart Plastics"
+"naics": "326199"
 },
 "1284128": {
 "company": "amerikart-myers-industries-bristol-1667",
@@ -1118,8 +1078,7 @@
 "281239": {
 "company": "manchester-tank-elkhart-plt-elkhart-3630",
 "employees": 139,
-"naics": "332996",
-"occupant": "Marson International LLC"
+"naics": "332996"
 },
 "933790": {
 "company": "frontline-manufacturing-warsaw-1445",
@@ -1129,8 +1088,7 @@
 "357778": {
 "company": "kinro-inc-goshen-2423",
 "employees": 135,
-"naics": "326199",
-"occupant": "LCI"
+"naics": "326199"
 },
 "1015803": {
 "company": "b-j-medical-llc-kendallville-4268",
@@ -1160,8 +1118,7 @@
 "472135": {
 "company": "r-concepts-industries-inc-elkhart-555",
 "employees": 131,
-"naics": "332439",
-"occupant": "RC Industries"
+"naics": "332439"
 },
 "1436644": {
 "company": "whitley-mfg-co-inc-south-whitley-201",
@@ -1187,11 +1144,6 @@
 "company": "exo-s-us-llc-howe-6505",
 "employees": 130,
 "naics": "326199"
-},
-"1116688": {
-"company": "aluminum-trailer-co-nappanee-306",
-"employees": 129,
-"naics": "336214"
 },
 "90210": {
 "company": "universal-forest-products-inc-granger-50415",
@@ -1249,12 +1201,12 @@
 "naics": "332812"
 },
 "892689": {
-"company": "patrick-industries-inc-elkhart-58038",
+"company": "adorn-elkhart-28163",
 "employees": 122,
 "naics": "337110"
 },
 "1404803": {
-"company": "brinkley-rv-llc-goshen-2482",
+"company": "brinkley-rv-llc-goshen-1475",
 "employees": 122,
 "naics": "336214"
 },
@@ -1296,8 +1248,7 @@
 "1505341": {
 "company": "miller-building-systems-inc-elkhart-58120",
 "employees": 120,
-"naics": "321992",
-"occupant": "Thermo Bond Buildings"
+"naics": "321992"
 },
 "1517326": {
 "company": "brinkley-rv-llc-goshen-2482",
@@ -1317,14 +1268,12 @@
 "926304": {
 "company": "pace-american-inc-middlebury-11550",
 "employees": 118,
-"naics": "336212",
-"occupant": "Novae LLC"
+"naics": "336212"
 },
 "969114": {
 "company": "aacoa-inc-elkhart-2551",
 "employees": 118,
-"naics": "332813",
-"occupant": "Bonnell Aluminum (Elkhart), Inc."
+"naics": "332813"
 },
 "1147767": {
 "company": "mastercraft-inc-lagrange-711",
@@ -1349,8 +1298,7 @@
 "1411956": {
 "company": "rinker-boat-co-inc-syracuse-300",
 "employees": 117,
-"naics": "336612",
-"occupant": "Hurricane Boats"
+"naics": "336612"
 },
 "915394": {
 "company": "patrick-industries-adorn-engineered-components-bu-mishawaka-1241",
@@ -1361,11 +1309,6 @@
 "company": "a-a-sheet-metal-products-inc-laporte-5122",
 "employees": 116,
 "naics": "332311"
-},
-"1169285": {
-"company": "omco-pierceton-1",
-"employees": 116,
-"naics": "331221"
 },
 "750526": {
 "company": "honee-bear-canning-lawton-72100",
@@ -1408,7 +1351,7 @@
 "naics": "321918"
 },
 "1174756": {
-"company": "thor",
+"company": "reflex-elkhart-1503",
 "employees": 113,
 "naics": "336213"
 },
@@ -1420,8 +1363,7 @@
 "745831": {
 "company": "smurfit-stone-container-corp-mishawaka-1925",
 "employees": 112,
-"naics": "322211",
-"occupant": "Corrugated Packaging Mishawaka CT"
+"naics": "322211"
 },
 "1071719": {
 "company": "foundation-court-south-bend-3722",
@@ -1471,8 +1413,7 @@
 "1108091": {
 "company": "rollpak-corp-goshen-1413",
 "employees": 106,
-"naics": "326111",
-"occupant": "Rollpack"
+"naics": "326111"
 },
 "232128": {
 "company": "norton-packaging-inc-hamlet-5190",
@@ -1489,11 +1430,6 @@
 "employees": 102,
 "naics": "322121"
 },
-"893493": {
-"company": "curtis-products-inc-south-bend-228",
-"employees": 102,
-"naics": "332996"
-},
 "1359190": {
 "company": "eaton-corp-forge-plt-south-bend-2930",
 "employees": 102,
@@ -1509,11 +1445,6 @@
 "employees": 100,
 "naics": "333243"
 },
-"1260538": {
-"company": "liberty-homes-inc-h-q-goshen-1101",
-"employees": 100,
-"naics": "321999"
-},
 "1465296": {
 "company": "jamil-packaging-corp-h-q-mishawaka-1420",
 "employees": 100,
@@ -1527,8 +1458,7 @@
 "1441867": {
 "company": "noble-composites-inc-goshen-2424",
 "employees": 99,
-"naics": "326199",
-"occupant": "Valto Engineered Materials"
+"naics": "326199"
 },
 "986005": {
 "company": "indiana-galvanizing-middlebury-51702",
@@ -1555,11 +1485,6 @@
 "employees": 97,
 "naics": "333612"
 },
-"1115413": {
-"company": "sanlo-inc-michigan-city-400",
-"employees": 96,
-"naics": "332618"
-},
 "965028": {
 "company": "midwest-finishing-systems-inc-mishawaka-1906",
 "employees": 95,
@@ -1571,7 +1496,7 @@
 "naics": "336360"
 },
 "1505771": {
-"company": "ak-industries-inc-plymouth-2055",
+"company": "ak-industries-plymouth-1301",
 "employees": 94,
 "naics": "326199"
 },
@@ -1613,8 +1538,7 @@
 "1029662": {
 "company": "rohm-and-haas-powder-coatings-warsaw-1102",
 "employees": 90,
-"naics": "325510",
-"occupant": "Warsaw Akzo Nobel"
+"naics": "325510"
 },
 "1321482": {
 "company": "edcoat-new-carlisle-30350",
@@ -1624,8 +1548,7 @@
 "1372532": {
 "company": "icm-products-cassopolis-805",
 "employees": 90,
-"naics": "325991",
-"occupant": "CHT USA Inc. - Michigan"
+"naics": "325991"
 },
 "1537810": {
 "company": "placon-elkhart-elkhart-2901",
@@ -1640,8 +1563,7 @@
 "1373371": {
 "company": "promens-usa-south-bend-3300",
 "employees": 89,
-"naics": "326199",
-"occupant": "Elkhart Plastics"
+"naics": "326199"
 },
 "1459323": {
 "company": "mol-son-llc-mattawan-53196",
@@ -1666,8 +1588,7 @@
 "1363319": {
 "company": "whimet-inc-warsaw-2100",
 "employees": 88,
-"naics": "339112",
-"occupant": "Ametek, Inc PARAGON MEDICAL, INC. N. DETROIT ST"
+"naics": "339112"
 },
 "971725": {
 "company": "dwyer-instruments-inc-kingsbury-3999",
@@ -1687,8 +1608,7 @@
 "1046427": {
 "company": "ecp-safe-way-door-llc-warsaw-3814",
 "employees": 86,
-"naics": "332321",
-"occupant": "SafeWay Garage Doors LLC WA"
+"naics": "332321"
 },
 "1275548": {
 "company": "multitech-industries-inc-michigan-city-250",
@@ -1706,7 +1626,7 @@
 "naics": "311999"
 },
 "943103": {
-"company": "keystone-rv-co-goshen-2642",
+"company": "keystone-rv-company-goshen-2639",
 "employees": 84,
 "naics": "336214"
 },
@@ -1748,18 +1668,12 @@
 "848962": {
 "company": "modar-inc-benton-harbor-1394",
 "employees": 81,
-"naics": "326199",
-"occupant": "Special-Lite Benton Harbor"
+"naics": "326199"
 },
 "1224882": {
 "company": "rc-middlebury-middlebury-51790",
 "employees": 81,
 "naics": "336212"
-},
-"59488": {
-"company": "global-composites-inc-elkhart-28967",
-"employees": 80,
-"naics": "326199"
 },
 "357756": {
 "company": "lci-howe-3625",
@@ -1779,8 +1693,7 @@
 "1239723": {
 "company": "jasper-plastics-solutions-syracuse-501",
 "employees": 80,
-"naics": "326199",
-"occupant": "Leading Edge Countertops"
+"naics": "326199"
 },
 "1432935": {
 "company": "creative-liquid-coatings-kendallville-300",
@@ -1828,7 +1741,7 @@
 "naics": "332323"
 },
 "1404800": {
-"company": "brinkley-rv-llc-goshen-2482",
+"company": "brinkley-rv-llc-goshen-1585",
 "employees": 76,
 "naics": "336214"
 },
@@ -1848,7 +1761,7 @@
 "naics": "325212"
 },
 "942620": {
-"company": "leco-corp-saint-joseph-3000",
+"company": "leco-corporation-machine-shop-saint-joseph-1444",
 "employees": 74,
 "naics": "332710"
 },
@@ -1865,8 +1778,7 @@
 "204475": {
 "company": "b-p-c-mfg-plymouth-1755",
 "employees": 73,
-"naics": "326191",
-"occupant": "LaSalle Bristol PIN"
+"naics": "326191"
 },
 "559556": {
 "company": "novae-llc-columbia-city-643",
@@ -1896,8 +1808,7 @@
 "1434980": {
 "company": "new-energy-corp-south-bend-3201",
 "employees": 73,
-"naics": "325193",
-"occupant": "South Bend Ethanol, LLC"
+"naics": "325193"
 },
 "1463944": {
 "company": "martins-central-bakery-mishawaka-1202",
@@ -1934,10 +1845,10 @@
 "employees": 72,
 "naics": "331222"
 },
-"1044995": {
-"company": "craftech-building-systems-inc-nappanee-2676",
-"employees": 71,
-"naics": "321992"
+"1563864": {
+"company": "hydro-aluminum-cassopolis-cassopolis-1475",
+"employees": 72,
+"naics": "331314"
 },
 "887664": {
 "company": "green-stream-company-elkhart-29414",
@@ -1972,8 +1883,7 @@
 "801156": {
 "company": "nu-wood-co-goshen-1722",
 "employees": 69,
-"naics": "321918",
-"occupant": "Stair Supplies"
+"naics": "321918"
 },
 "355447": {
 "company": "boyd-corporation-elkhart-2600",
@@ -1988,8 +1898,7 @@
 "1371035": {
 "company": "power-gear-mishawaka-520",
 "employees": 68,
-"naics": "333111",
-"occupant": "ABI Attachments"
+"naics": "333111"
 },
 "1176334": {
 "company": "dynamic-packaging-solutions-inc-bristol-406",
@@ -2014,13 +1923,7 @@
 "1174754": {
 "company": "dexter-chassie-group-elkhart-3133",
 "employees": 66,
-"naics": "336213",
-"occupant": "Temple"
-},
-"1263645": {
-"company": "josam-co-michigan-city-525",
-"employees": 66,
-"naics": "332999"
+"naics": "336213"
 },
 "1329555": {
 "company": "witt-galvanizing-plymouth-2631",
@@ -2040,8 +1943,7 @@
 "1462220": {
 "company": "med-cast-inc-warsaw-596",
 "employees": 65,
-"naics": "333511",
-"occupant": "Texmo Blank USA Inc"
+"naics": "333511"
 },
 "1527639": {
 "company": "warsaw-chemical-co-inc-warsaw-390",
@@ -2061,8 +1963,7 @@
 "209002": {
 "company": "geocel-corp-elkhart-2504",
 "employees": 63,
-"naics": "325510",
-"occupant": "USA IN Elkhart"
+"naics": "325510"
 },
 "926298": {
 "company": "novae-llc-bristol-19224",
@@ -2085,7 +1986,7 @@
 "naics": "337110"
 },
 "945683": {
-"company": "keystone-rv-dutchmen-goshen-2142",
+"company": "keystone-rv-dutchmen-goshen-2021",
 "employees": 62,
 "naics": "336214"
 },
@@ -2107,8 +2008,7 @@
 "160476": {
 "company": "praxair-inc-la-porte-3076",
 "employees": 61,
-"naics": "325120",
-"occupant": "Linde Inc."
+"naics": "325120"
 },
 "193743": {
 "company": "ramco-engineering-inc-elkhart-52965",
@@ -2148,8 +2048,7 @@
 "1566405": {
 "company": "koontz-wagner-electric-co-inc-south-bend-3801",
 "employees": 60,
-"naics": "332710",
-"occupant": "Masterbilt Precision Machining"
+"naics": "332710"
 },
 "888069": {
 "company": "valmont-industries-inc-plymouth-1545",
@@ -2159,8 +2058,7 @@
 "1263367": {
 "company": "sager-metal-michigan-city-100",
 "employees": 59,
-"naics": "322219",
-"occupant": "Michigan City Paper Box Company"
+"naics": "322219"
 },
 "1477325": {
 "company": "everlast-roofing-inc-howe-7180",
@@ -2220,8 +2118,7 @@
 "294386": {
 "company": "seating-technology-inc-goshen-1846",
 "employees": 55,
-"naics": "337110",
-"occupant": "Genesis Products"
+"naics": "337110"
 },
 "497247": {
 "company": "quality-steel-aluminum-products-elkhart-28620",
@@ -2293,16 +2190,10 @@
 "employees": 51,
 "naics": "327999"
 },
-"649274": {
-"company": "tristar-molding-inc-marcellus-51540",
-"employees": 51,
-"naics": "326199"
-},
 "997722": {
 "company": "tl-industries-inc-elkhart-25876",
 "employees": 51,
-"naics": "336212",
-"occupant": "Haul-About, LLC"
+"naics": "336212"
 },
 "1209572": {
 "company": "arlington-metals-corp-sawyer-13100",
@@ -2359,11 +2250,6 @@
 "employees": 50,
 "naics": "337121"
 },
-"101670": {
-"company": "fab-masters-co-inc-marcellus-51787",
-"employees": 49,
-"naics": "331318"
-},
 "553316": {
 "company": "quality-molded-products-south-bend-19850",
 "employees": 49,
@@ -2389,11 +2275,6 @@
 "employees": 49,
 "naics": "336390"
 },
-"1174752": {
-"company": "thor",
-"employees": 48,
-"naics": "336213"
-},
 "1418203": {
 "company": "vent-rite-valve-corp-benton-harbor-1875",
 "employees": 48,
@@ -2403,6 +2284,11 @@
 "company": "levy-environmental-services-company-dba-columbia-city-mill-services-columbia-city-7373",
 "employees": 47,
 "naics": "331110"
+},
+"888068": {
+"company": "valmont-industries-bristol-1100",
+"employees": 47,
+"naics": "327332"
 },
 "1072828": {
 "company": "dura-mold-inc-stevensville-3390",
@@ -2414,6 +2300,11 @@
 "employees": 47,
 "naics": "337110"
 },
+"1421648": {
+"company": "precision-process-walkerton-31350",
+"employees": 47,
+"naics": "332710"
+},
 "1455515": {
 "company": "digger-specialties-inc-bremen-3446",
 "employees": 47,
@@ -2423,12 +2314,6 @@
 "company": "clean-seal-inc-south-bend-20900",
 "employees": 46,
 "naics": "339991"
-},
-"356670": {
-"company": "speedgrip",
-"employees": 46,
-"naics": "333515",
-"occupant": "SCG Acquisition Company, LLC"
 },
 "609143": {
 "company": "coloma-frozen-foods-coloma-4145",
@@ -2463,8 +2348,7 @@
 "924798": {
 "company": "tem-pace-inc-niles-1830",
 "employees": 45,
-"naics": "327212",
-"occupant": "Paragon Tempered Glass, LLC"
+"naics": "327212"
 },
 "945996": {
 "company": "dutchmen-mfg-inc-h-q-goshen-2164",
@@ -2474,8 +2358,7 @@
 "959612": {
 "company": "kib-enterprises-corp-elkhart-2504",
 "employees": 45,
-"naics": "335911",
-"occupant": "Clean Energy Systems e-Power"
+"naics": "335911"
 },
 "1074950": {
 "company": "indiana-wheel-company-llc-plymouth-2935",
@@ -2500,8 +2383,7 @@
 "1091353": {
 "company": "crosbie-foundry-co-inc-elkhart-1600",
 "employees": 44,
-"naics": "321213",
-"occupant": "Fusion Wood Products"
+"naics": "321213"
 },
 "1250578": {
 "company": "harbor-packaging-benton-harbor-1090",
@@ -2516,8 +2398,7 @@
 "502967": {
 "company": "d-w-inc-elkhart-941",
 "employees": 43,
-"naics": "327215",
-"occupant": "D&W, Inc."
+"naics": "327215"
 },
 "546423": {
 "company": "m-a-c-engineering-equipment-co-inc-benton-harbor-2775",
@@ -2535,7 +2416,7 @@
 "naics": "336360"
 },
 "1263526": {
-"company": "ak-industries-inc-plymouth-2055",
+"company": "ak-industries-plymouth-1420",
 "employees": 43,
 "naics": "326199"
 },
@@ -2543,11 +2424,6 @@
 "company": "premier-concepts-warsaw-1120",
 "employees": 43,
 "naics": "337110"
-},
-"1428588": {
-"company": "lakeside-mfg-co-stevensville-4999",
-"employees": 43,
-"naics": "332710"
 },
 "1475474": {
 "company": "wire-design-inc-elkhart-2520",
@@ -2604,6 +2480,11 @@
 "employees": 42,
 "naics": "332999"
 },
+"987982": {
+"company": "signode-reddi-pac-elkhart-2200",
+"employees": 41,
+"naics": "322299"
+},
 "1472133": {
 "company": "niles-pallets-inc-kamps-inc-niles-2193",
 "employees": 41,
@@ -2627,8 +2508,7 @@
 "1247157": {
 "company": "specialty-window-coverings-inc-elkhart-1655",
 "employees": 40,
-"naics": "326299",
-"occupant": "Scientific Development"
+"naics": "326299"
 },
 "1378999": {
 "company": "lagwana-printing-inc-shipshewana-2465",
@@ -2653,8 +2533,7 @@
 "492165": {
 "company": "ari-legacy-sleepers-inc-shipshewana-860",
 "employees": 39,
-"naics": "336211",
-"occupant": "American Reliance Industries Co."
+"naics": "336211"
 },
 "1260969": {
 "company": "winona-powder-coating-inc-elkhart-800",
@@ -2674,13 +2553,7 @@
 "1473443": {
 "company": "kinro-goshen-1724",
 "employees": 39,
-"naics": "336390",
-"occupant": "Lippert Components, Inc."
-},
-"248193": {
-"company": "almega-tru-flex-inc-bremen-3917",
-"employees": 38,
-"naics": "335931"
+"naics": "336390"
 },
 "1169351": {
 "company": "graphix-unlimited-inc-bremen-3947",
@@ -2705,8 +2578,7 @@
 "1106895": {
 "company": "nimet-industries-inc-south-bend-2424",
 "employees": 37,
-"naics": "332813",
-"occupant": "Pioneer Metal Finishing"
+"naics": "332813"
 },
 "1183135": {
 "company": "j-b-products-south-bend-6851",
@@ -2726,14 +2598,7 @@
 "801147": {
 "company": "flair-interiors-inc-goshen-1010",
 "employees": 36,
-"naics": "332721",
-"occupant": "StairSupplies"
-},
-"1479269": {
-"company": "aetechron",
-"employees": 36,
-"naics": "334515",
-"occupant": "AE Techron Inc"
+"naics": "332721"
 },
 "67183": {
 "company": "primetals-technologies-benton-harbor-470",
@@ -2758,8 +2623,7 @@
 "988156": {
 "company": "starcraft-rv-inc-topeka-536",
 "employees": 35,
-"naics": "336360",
-"occupant": "Wieland Designs Topeka"
+"naics": "336360"
 },
 "1069347": {
 "company": "olin-winchester-llc-knox-317",
@@ -2781,11 +2645,6 @@
 "employees": 35,
 "naics": "333994"
 },
-"1437499": {
-"company": "stoutco-inc-bristol-52470",
-"employees": 35,
-"naics": "332322"
-},
 "1454155": {
 "company": "titan-distribution-llc-elkhart-4903",
 "employees": 35,
@@ -2806,16 +2665,10 @@
 "employees": 35,
 "naics": "326199"
 },
-"1565326": {
-"company": "shawnee-specialties-inc-eau-claire-7100",
-"employees": 35,
-"naics": "331523"
-},
 "85416": {
 "company": "dane-systems-llc-stevensville-7275",
 "employees": 34,
-"naics": "333999",
-"occupant": "JR Stevensville"
+"naics": "333999"
 },
 "177939": {
 "company": "carris-reels-inc-new-carlisle-31977",
@@ -2833,7 +2686,7 @@
 "naics": "336390"
 },
 "943144": {
-"company": "keystone-rv-co-goshen-2642",
+"company": "keystone-rv-company-goshen-3420",
 "employees": 34,
 "naics": "336214"
 },
@@ -2843,7 +2696,7 @@
 "naics": "333517"
 },
 "59512": {
-"company": "global-composites-inc-elkhart-28967",
+"company": "global-composites-inc-elkhart-57500",
 "employees": 33,
 "naics": "326199"
 },
@@ -2897,6 +2750,11 @@
 "employees": 32,
 "naics": "323117"
 },
+"1441595": {
+"company": "packaging-logic-inc-la-porte-239",
+"employees": 32,
+"naics": "322211"
+},
 "1558922": {
 "company": "bremtown-fine-custom-cabinetry-inc-bremen-1456",
 "employees": 32,
@@ -2945,8 +2803,7 @@
 "1008014": {
 "company": "deutsche-kase-haus-inc-middlebury-11275",
 "employees": 31,
-"naics": "311513",
-"occupant": "Middlebury Cheese Company"
+"naics": "311513"
 },
 "1252801": {
 "company": "boyd-machine-repair-co-inc-kimmell-3794",
@@ -2991,15 +2848,9 @@
 "1440476": {
 "company": "lakeside-mfg-co-stevensville-4999",
 "employees": 30,
-"naics": "332710",
-"occupant": "Artiflex Manufacturing Stevensville"
+"naics": "332710"
 },
 "1454075": {
-"company": "worldwide-foam-laporte-300",
-"employees": 30,
-"naics": "326150"
-},
-"1454641": {
 "company": "worldwide-foam-laporte-300",
 "employees": 30,
 "naics": "326150"
@@ -3037,8 +2888,7 @@
 "1269738": {
 "company": "metalstamp-inc-south-bend-24545",
 "employees": 28,
-"naics": "332710",
-"occupant": "Armor Stamping"
+"naics": "332710"
 },
 "1429161": {
 "company": "excel-electronics-inc-ekhart-2600",
@@ -3063,8 +2913,7 @@
 "1031096": {
 "company": "stelrema-corp-knox-4055",
 "employees": 27,
-"naics": "311919",
-"occupant": "Gary Poppins, LLC"
+"naics": "311919"
 },
 "1258005": {
 "company": "empire-molded-plastics-inc-benton-harbor-1246",
@@ -3072,7 +2921,7 @@
 "naics": "326122"
 },
 "59479": {
-"company": "global-composites-inc-elkhart-28967",
+"company": "global-composites-inc-elkhart-56807",
 "employees": 26,
 "naics": "326199"
 },
@@ -3094,17 +2943,15 @@
 "45304": {
 "company": "harbor-metal-treating-co-of-indiana-south-bend-802",
 "employees": 25,
-"naics": "332811",
-"occupant": "Bluewater Thermal Solutions"
+"naics": "332811"
 },
 "626929": {
 "company": "environmental-technology-inc-south-bend-1850",
 "employees": 25,
-"naics": "335999",
-"occupant": "Eti, Inc."
+"naics": "335999"
 },
 "941887": {
-"company": "leco-corp-saint-joseph-3000",
+"company": "leco-corporation-consumables-saint-joseph-1400",
 "employees": 25,
 "naics": "327215"
 },
@@ -3131,8 +2978,12 @@
 "1441941": {
 "company": "r-r-donnelley-sons-co-warsaw-2801",
 "employees": 25,
-"naics": "336110",
-"occupant": "Slate"
+"naics": "336110"
+},
+"1234874": {
+"company": "r-betker-associates-inc-benton-harbor-1400",
+"employees": 24,
+"naics": "332321"
 },
 "1304856": {
 "company": "smco-inc-elkhart-2505",
@@ -3149,12 +3000,6 @@
 "employees": 23,
 "naics": "323111"
 },
-"575843": {
-"company": "bomarko-inc-plymouth-1955",
-"employees": 23,
-"naics": "322220",
-"occupant": "Patty Processing, Inc."
-},
 "911909": {
 "company": "plastic-components-inc-elkhart-1210",
 "employees": 23,
@@ -3166,15 +3011,14 @@
 "naics": "339116"
 },
 "943161": {
-"company": "keystone-rv-co-goshen-2642",
+"company": "keystone-rv-company-goshen-2210",
 "employees": 23,
 "naics": "336214"
 },
 "1082124": {
 "company": "nickell-enterprises-elkhart-3905",
 "employees": 23,
-"naics": "337110",
-"occupant": "Revel Products"
+"naics": "337110"
 },
 "1089248": {
 "company": "stafco-columbia-city-365",
@@ -3196,10 +3040,20 @@
 "employees": 23,
 "naics": "326150"
 },
+"1447775": {
+"company": "silco-tec-inc-la-porte-707",
+"employees": 23,
+"naics": "325991"
+},
 "1475572": {
 "company": "securit-metal-products-co-dowagiac-55905",
 "employees": 23,
 "naics": "332722"
+},
+"1492800": {
+"company": "opta-walkerton-202",
+"employees": 23,
+"naics": "327410"
 },
 "128517": {
 "company": "carpenter-co-elkhart-195",
@@ -3234,8 +3088,7 @@
 "1472572": {
 "company": "precision-piece-parts-inc-mishawaka-712",
 "employees": 22,
-"naics": "326130",
-"occupant": "Husky Trails, LLC"
+"naics": "326130"
 },
 "56422": {
 "company": "purity-cylinder-gases-inc-elkhart-4637",
@@ -3260,8 +3113,7 @@
 "985014": {
 "company": "scott-brass-inc-new-carlisle-31140",
 "employees": 21,
-"naics": "332710",
-"occupant": "Master Roll Manufacturing"
+"naics": "332710"
 },
 "1203560": {
 "company": "spradling-resources-elkhart-2904",
@@ -3269,7 +3121,7 @@
 "naics": "313320"
 },
 "1263528": {
-"company": "ak-industries-inc-plymouth-2055",
+"company": "ak-industries-plymouth-1440",
 "employees": 21,
 "naics": "326199"
 },
@@ -3286,8 +3138,7 @@
 "1417460": {
 "company": "tafcor-berrien-springs-9918",
 "employees": 21,
-"naics": "321911",
-"occupant": "Northern Contours Michigan PLM"
+"naics": "321911"
 },
 "1491498": {
 "company": "ztc-elkhart-components-elkhart-3740",
@@ -3322,8 +3173,7 @@
 "1270013": {
 "company": "linde-gas-south-bend-3809",
 "employees": 20,
-"naics": "325120",
-"occupant": "Messer North America, Inc."
+"naics": "325120"
 },
 "1440683": {
 "company": "paul-s-south-bend-south-bend-3300",
@@ -3363,14 +3213,12 @@
 "1315387": {
 "company": "elkhart-tool-die-inc-elkhart-2400",
 "employees": 19,
-"naics": "321918",
-"occupant": "Chase Manufacturing"
+"naics": "321918"
 },
 "801152": {
 "company": "decorator-industries-inc-goshen-1614",
 "employees": 18,
-"naics": "327215",
-"occupant": "Stair Supplies"
+"naics": "327215"
 },
 "924453": {
 "company": "ward-inc-elkhart-div-ashley-f-elkhart-56883",
@@ -3427,6 +3275,11 @@
 "employees": 16,
 "naics": "327310"
 },
+"1137973": {
+"company": "somaschini-north-america-llc-south-bend-4601",
+"employees": 16,
+"naics": "336310"
+},
 "280221": {
 "company": "vitracoat-america-inc-elkhart-28767",
 "employees": 15,
@@ -3435,8 +3288,7 @@
 "809584": {
 "company": "eaton-leonard-tooling-inc-elkhart-435",
 "employees": 15,
-"naics": "333517",
-"occupant": "Tube Form Solutions, LLC-Roske"
+"naics": "333517"
 },
 "1119434": {
 "company": "wells-cargo-inc-elkhart-1503",
@@ -3459,14 +3311,9 @@
 "naics": "336211"
 },
 "1505797": {
-"company": "ak-industries-inc-plymouth-2055",
+"company": "ak-industries-administration-plymouth-1919",
 "employees": 14,
 "naics": "326199"
-},
-"945825": {
-"company": "keystone-rv-dutchmen-goshen-2142",
-"employees": 13,
-"naics": "336214"
 },
 "1186305": {
 "company": "transit-mix-inc-plymouth-2341",
@@ -3493,10 +3340,20 @@
 "employees": 12,
 "naics": "332710"
 },
+"1492793": {
+"company": "opta-kingsbury-5th",
+"employees": 12,
+"naics": "327410"
+},
 "228781": {
 "company": "fitech-inc-michigan-city-2031",
 "employees": 11,
 "naics": "333517"
+},
+"1331372": {
+"company": "jones-family-of-companies-south-bend-7520",
+"employees": 11,
+"naics": "313230"
 },
 "795492": {
 "company": "foamcraft-inc-elkhart-900",
@@ -3504,7 +3361,7 @@
 "naics": "326150"
 },
 "1445487": {
-"company": "damping",
+"company": "damping-technologies-inc-mishawaka-12970",
 "employees": 10,
 "naics": "336413"
 },
@@ -3538,6 +3395,11 @@
 "employees": 9,
 "naics": "331523"
 },
+"1518001": {
+"company": "high-ground-conversions-llc-bristol-19473",
+"employees": 9,
+"naics": "336112"
+},
 "1433569": {
 "company": "indiana-oxygen-company-elkhart-57613",
 "employees": 8,
@@ -3551,11 +3413,10 @@
 "614321": {
 "company": "environmental-technology-inc-south-bend-1850",
 "employees": 7,
-"naics": "334418",
-"occupant": "Eti Controls Inc."
+"naics": "334418"
 },
 "943124": {
-"company": "keystone-rv-co-goshen-2642",
+"company": "keystone-rv-company-goshen-2769",
 "employees": 7,
 "naics": "336214"
 },
@@ -3600,7 +3461,7 @@
 "naics": "333992"
 },
 "946105": {
-"company": "keystone-rv-crossroads-topeka-1100",
+"company": "keystone-rv-crossroads-topeka-345",
 "employees": 4,
 "naics": "336214"
 },
@@ -3610,12 +3471,12 @@
 "naics": "336350"
 },
 "946097": {
-"company": "keystone-rv-crossroads-topeka-1100",
+"company": "keystone-rv-crossroads-topeka-365",
 "employees": 3,
 "naics": "336214"
 },
 "1445662": {
-"company": "damping",
+"company": "damping-technologies-inc-mishawaka-1810",
 "employees": 3,
 "naics": "336413"
 },
@@ -3638,8 +3499,7 @@
 "1447789": {
 "company": "vitamins-inc-michigan-city-1700",
 "employees": 1,
-"naics": "311224",
-"occupant": "Viobin Products"
+"naics": "311224"
 },
 "1521593": {
 "company": "voyant-beauty-elkhart-personal-care-elkhart-2730",
@@ -3655,6 +3515,137 @@
 "company": "foamcraft-inc-goshen-2506",
 "employees": null,
 "naics": "326150"
+},
+"673935": {
+"company": "boc-gases-la-porte-7996",
+"employees": null,
+"naics": "325120"
+},
+"1433234": {
+"company": "thor-motor-coach-inc-wakarusa-503",
+"employees": null,
+"naics": "336213"
+},
+"1433237": {
+"company": "thor-motor-coach-inc-wakarusa-510",
+"employees": null,
+"naics": "336213"
+},
+"563972": {
+"company": "nanovis-llc",
+"employees": 508,
+"naics": "339112",
+"occupant": "Micropulse, Inc."
+},
+"802931": {
+"company": "voyant-beauty-elkhart-personal-care-elkhart-2730",
+"employees": 223,
+"naics": "325620"
+},
+"943089": {
+"company": "keystone-rv-company-customer-service-goshen-3313",
+"employees": null,
+"naics": "336214"
+},
+"1476821": {
+"company": "duo-form-of-michigan-inc-edwardsburg-69836",
+"employees": 172,
+"naics": "326199"
+},
+"1080468": {
+"company": "vahala-foam-inc-elkhart-612",
+"employees": 148,
+"naics": "326150"
+},
+"1169285": {
+"company": "omco-pierceton-1",
+"employees": 116,
+"naics": "331221"
+},
+"893493": {
+"company": "curtis-products-inc-south-bend-228",
+"employees": 102,
+"naics": "332996"
+},
+"1260538": {
+"company": "liberty-homes-inc-h-q-goshen-1101",
+"employees": 100,
+"naics": "321999",
+"occupant": "Viewrail - Sales HQ"
+},
+"1113366": {
+"company": "house-of-fara-inc-la-porte-4747",
+"employees": 96,
+"naics": "321911"
+},
+"1115413": {
+"company": "sanlo-inc-michigan-city-400",
+"employees": 96,
+"naics": "332618"
+},
+"1044995": {
+"company": "craftech-building-systems-inc-nappanee-2676",
+"employees": 71,
+"naics": "321992"
+},
+"1263645": {
+"company": "josam-co-michigan-city-525",
+"employees": 66,
+"naics": "332999"
+},
+"649274": {
+"company": "tristar-molding-inc-marcellus-51540",
+"employees": 51,
+"naics": "326199"
+},
+"101670": {
+"company": "fab-masters-co-inc-marcellus-51787",
+"employees": 49,
+"naics": "331318"
+},
+"356670": {
+"company": "speedgrip",
+"employees": 46,
+"naics": "333515",
+"occupant": "SCG Acquisition Company, LLC"
+},
+"1428588": {
+"company": "lakeside-mfg-co-stevensville-4999",
+"employees": 43,
+"naics": "332710",
+"occupant": "Falcon Lakeside Manufacturing"
+},
+"248193": {
+"company": "almega-tru-flex-inc-bremen-3917",
+"employees": 38,
+"naics": "335931"
+},
+"1479269": {
+"company": "aetechron",
+"employees": 36,
+"naics": "334515",
+"occupant": "AE Techron Inc"
+},
+"1437499": {
+"company": "stoutco-inc-bristol-52470",
+"employees": 35,
+"naics": "332322"
+},
+"1565326": {
+"company": "shawnee-specialties-inc-eau-claire-7100",
+"employees": 35,
+"naics": "331523"
+},
+"575843": {
+"company": "bomarko-inc-plymouth-1955",
+"employees": 23,
+"naics": "322220",
+"occupant": "Patty Processing, Inc."
+},
+"945825": {
+"company": "keystone-rv-dutchmen-goshen-2145",
+"employees": 13,
+"naics": "336214"
 }
 }
 }

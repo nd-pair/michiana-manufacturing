@@ -5,10 +5,9 @@ name = "Jet Technologies, Inc."
 kind = "company"
 city = "Elkhart"
 state = "IN"
-address = "23892 Cooper Drive, Elkhart, IN 46514"
-lat = 41.71992
-lon = -85.92498
+address = "53893 N Park Ave, Elkhart, IN 46514"
 website = "https://jettechinc.com"
+status_note = "Address from the company's OSHA Form 300A filing for 2025; previously 23892 Cooper Drive, Elkhart, IN 46514."
 osha_id = "355620"
 
 sector = "Materials & composites"

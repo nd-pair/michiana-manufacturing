@@ -1,0 +1,26 @@
+# GDC Inc
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "GDC Inc"
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "22428 Elkhart East Blvd, Elkhart, IN 46514"
+lat = 41.72287
+lon = -85.89549
+osha_id = "630023"
+
+sector = "Materials & composites"
+products = ["Motor vehicle moldings and extrusions, plastics, manufacturing"]
+naics = "326199"
+
+employees = 151
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 326199: motor vehicle moldings and extrusions, plastics, manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-14"

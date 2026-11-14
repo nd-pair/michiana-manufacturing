@@ -9,6 +9,7 @@ address = "603 Earthway Blvd., Bristol, IN 46507"
 lat = 41.71114
 lon = -85.82942
 website = "https://utilimaster.com"
+osha_id = "1435312"
 verified = "2026-11-14"
 status_note = "Moved from 65906 State Road 19, Wakarusa, IN 46573: the company's own website lists 603 Earthway Blvd., Bristol, IN 46507 (checked November 14, 2026)."
 
@@ -16,11 +17,11 @@ sector = "Vehicles & RVs"
 products = ["Light Truck and Utility Vehicle Manufacturing"]
 naics = "336112"
 
-employees = 1000
+employees = 777
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Parcel Delivery & Walk-In Vans, Aluminum Truck Bodies & Service Vehicles. NAICS 336112: light truck and utility vehicle manufacturing."
 

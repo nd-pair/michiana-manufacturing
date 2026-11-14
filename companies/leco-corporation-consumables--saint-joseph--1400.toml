@@ -1,0 +1,27 @@
+# LECO Corporation - Consumables
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "LECO Corporation - Consumables"
+kind = "company"
+city = "Saint Joseph"
+state = "MI"
+address = "1400 Hilltop Road, Saint Joseph, MI 49085"
+lat = 42.07983
+lon = -86.48805
+osha_id = "941887"
+
+sector = "Materials & composites"
+products = ["Scientific glassware made from purchased glass"]
+naics = "327215"
+
+employees = 25
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+parent = "LECO Corporation"
+description = "NAICS 327215: scientific glassware made from purchased glass."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-14"

@@ -1,0 +1,20 @@
+# Keystone RV Company
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Keystone RV Company"
+kind = "company"
+city = "Goshen"
+state = "IN"
+address = "2400 KERCHER ROAD, Goshen, IN 46526"
+lat = 41.55173
+lon = -85.79320
+osha_id = "943199"
+
+sector = "Vehicles & RVs"
+products = ["RV Manufacturing"]
+naics = "336214"
+
+description = "NAICS 336214: rv manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-14"

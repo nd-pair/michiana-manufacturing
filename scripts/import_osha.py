@@ -23,6 +23,9 @@ What the script does:
   `formerly`, the old website dropped, and a `status_note` saying so. A hand-written file only gets
   `osha_occupant` (the filer's name) for a person to review;
 - a same-name filing brings back a file marked `presumed_closed`;
+- a match by name or OSHA ID to a filing on another street: if another filing of that name is on the
+  file's street, or the file already took one, this filing is another plant and gets its own file;
+  otherwise the plant moved and the file takes the filing's address (not a PO box);
 - on a match, writes `osha_id`, and replaces the headcount with OSHA's annual average employees when
   the file's headcount is an estimate (such as HIFLD's) or missing; reported headcounts stay;
 - otherwise geocodes the address with the Census geocoder, checks that it falls in a region county
@@ -52,11 +55,12 @@ def rows_from(path):
     return ({k.strip().lower(): (v or "") for k, v in r.items() if k} for r in csv.DictReader(fh))
 
 def addr_key(addr, city):
-    t = re.findall(r"[a-z0-9]+", (addr or "").lower())
+    t = [{"cr": "county", "co": "county", "sr": "state", "hwy": "highway", "third": "3rd", "first": "1st", "second": "2nd"}.get(w, w)
+         for w in re.findall(r"[a-z0-9]+", (addr or "").lower())]
     if not t or not t[0].isdigit():
         return None
     rest = [w for w in t[1:] if w not in DIR]
-    return (t[0], rest[0] if rest else "", (city or "").lower().strip())
+    return (t[0], rest[0] if rest else "", re.sub(r"[^a-z]", "", (city or "").lower().replace("saint ", "st ")))   # LaPorte = La Porte
 
 DEPT = re.compile(r"(?i)^(administration|audit|claims|parts|service\w*|diesel service|gas service|hr\b.*|chassis receiving|receiving|shipping|"
                   r"warehouse|customer care\b.*|maintenance|cnc building|wire harness|headquarters|corporate|office|components|wrapping|countertops|"
@@ -91,6 +95,31 @@ def clean_name(est, company, city):
     if name.isupper() and len(name) <= 4:
         return name
     return titlecase(name) if name.isupper() or name.islower() else name
+
+def county_of(lat, lon):
+    """County FIPS of a point, from the county outlines in data/region_counties.json (ray casting)."""
+    for f in json.load(open(P("data", "region_counties.json"))):
+        for ring in f["rings"]:
+            inside = False
+            for (x1, y1), (x2, y2) in zip(ring, ring[1:] + ring[:1]):
+                if (y1 > lat) != (y2 > lat) and lon < (x2 - x1) * (lat - y1) / (y2 - y1) + x1:
+                    inside = not inside
+            if inside:
+                return f["id"]
+    return ""
+
+def geo(address):
+    """(lat, lon, county FIPS): the Census geocoder first, then OpenStreetMap with the county from the
+    region's county outlines (the Census geocoder lacks many newer streets)."""
+    g = census_geo(address)
+    if g:
+        return g
+    try:
+        from geocode import geocode
+        p = geocode(address)
+    except Exception:
+        p = None
+    return (p[0], p[1], county_of(p[0], p[1])) if p else None
 
 def census_geo(address):
     """(lat, lon, county FIPS) from the Census geocoder, or None."""
@@ -139,12 +168,39 @@ def main(args):
         if z:
             by_name.setdefault((norm(c["name"]), z[0]), c["_id"])
     by_id = {c["_id"]: c for c in cs}
+    from check_sites import key as site_key
+    street_of = lambda a: site_key(a or "")[1]
+    usable = lambda a: bool(re.match(r"\s*\d", a or "")) and not re.search(r"(?i)\bp\.?\s*o\.?\s*box\b", a) and "," not in a.strip().rstrip(",")
+    def name_match(r, city, via=False):
+        """The file with this filing's name in this city: by the establishment's own name first, then by
+        the parent company's. With via=True, also says which ("est" or "company")."""
+        for how, names in (("est", (r["establishment_name"], clean_name(r["establishment_name"], r["company_name"], city))), ("company", (r["company_name"],))):
+            for nm in names:
+                for k in ((norm(nm or "-"), city.lower()), (norm(nm or "-"), r["zip_code"][:5])):
+                    if k in by_name:
+                        return (by_name[k], how) if via else by_name[k]
+        return (None, None) if via else None
+    # files that some same-name filing confirms on their own street: other filings of that name are other plants
+    on_street = set()
+    for r in keep:
+        cty = titlecase(r["city"].strip()) if r["city"].isupper() else r["city"].strip()
+        f = name_match(r, cty)
+        if f and street_of(r["street_address"]) and street_of(r["street_address"]) == street_of(by_id[f].get("address", "")):
+            on_street.add(f)
+    claimed = {}           # file -> address key of the plant it now stands for
+    def on_files_street(r):
+        cty = titlecase(r["city"].strip()) if r["city"].isupper() else r["city"].strip()
+        f = by_osha.get(str(r["establishment_id"]).strip()) or name_match(r, cty)
+        return bool(f) and street_of(r["street_address"]) == street_of(by_id[f].get("address", ""))
     existing = set(os.listdir(P("companies")))
-    out, matched, updated, written, outside, nogeo, new_addr, pending, occupants, restored = {}, 0, 0, 0, [], [], {}, [], 0, 0
+    out, matched, updated, written, outside, nogeo, new_addr, pending, occupants, restored, moves = {}, 0, 0, 0, [], [], {}, [], 0, 0, []
     today = datetime.date.today().isoformat()
-    for r in sorted(keep, key=lambda r: -int(r.get("annual_average_employees") or 0)):
+    # filings on their file's own street first, so that file keeps its plant; then by size
+    for r in sorted(keep, key=lambda r: (0 if on_files_street(r) else 1, -int(r.get("annual_average_employees") or 0))):
         eid, city = str(r["establishment_id"]).strip(), titlecase(r["city"].strip()) if r["city"].isupper() else r["city"].strip()
         emp = emp_of(r) or None
+        if emp and emp > 15000:
+            emp = None          # a company-wide count filed for one establishment (e.g. 118,268), not a plant's
         scope = "site"
         if (who(r), emp_of(r)) in company_wide:
             if (who(r), emp_of(r)) in placed:
@@ -152,13 +208,40 @@ def main(args):
             else:
                 placed.add((who(r), emp_of(r))); scope = "company"
         by_address = None if by_osha.get(eid) else by_addr.get(addr_key(r["street_address"], city))
-        cid = by_osha.get(eid) or by_address \
-            or next((by_name[k] for nm in (r["establishment_name"], r["company_name"], clean_name(r["establishment_name"], r["company_name"], city))
-                     for k in ((norm(nm or "-"), city.lower()), (norm(nm or "-"), r["zip_code"][:5])) if k in by_name), None)
+        nm_cid, via = name_match(r, city, via=True)
+        cid = by_address or by_osha.get(eid) or nm_cid
+        via = "est" if cid != nm_cid else via
+        moved_to, here = None, addr_key(r["street_address"], city)
+        if cid and cid != by_address:
+            # matched by OSHA ID or by name: is this filing on the file's street?
+            fs, es = street_of(by_id[cid].get("address", "")), street_of(r["street_address"])
+            same_number = site_key(by_id[cid].get("address", ""))[0] == site_key(r["street_address"])[0] != ""
+            if fs and es and fs != es and not same_number:   # the same house number in the same city is the same place, spelled differently
+                if cid in claimed:
+                    if claimed[cid] != here:
+                        cid = None        # another plant of the same company: its own file below
+                elif cid in on_street:
+                    cid = None            # a filing on the file's own street keeps the file
+                elif not (by_id[cid].get("source") or "").startswith(("HIFLD", "OSHA")):
+                    cid = None            # a hand-written file (often the whole company) never moves: this plant gets its own file
+                elif via == "company" and not ({w for w in norm(by_id[cid]["name"]).split() if len(w) > 2}
+                                               & {w for w in norm(r["establishment_name"]).split() if len(w) > 2}):
+                    cid = None            # matched only by the parent company's name: a differently named plant
+                elif usable(r["street_address"]):
+                    st_ = re.sub(r"\s+", " ", r["street_address"]).strip().rstrip(",")
+                    st_ = re.sub(r"(?i)\s+%s\b.*$" % re.escape(city), "", st_)          # '703 E KERCHER ROAD GOSHEN BUILDING 1'
+                    st_ = titlecase(st_) if st_.isupper() else st_
+                    moved_to = "%s, %s, %s %s" % (st_, city, r["state"], r["zip_code"][:5])
+        if cid and cid not in claimed:
+            claimed[cid] = here if moved_to else addr_key(by_id[cid].get("address", ""), by_id[cid].get("city", ""))
         if cid:
             c, path = by_id[cid], company_path(cid)
             filer = clean_name(r["establishment_name"], r["company_name"], city)
             words = lambda s: {w for w in norm(s).split() if len(w) >= 2}
+            if cid == by_address and c.get("closed") and not words(c["name"]) & (words(r["establishment_name"]) | words(r["company_name"]) | words(filer)):
+                cid = None   # a new tenant at a closed plant's address: the closure stays on record, the tenant gets its own file
+        if cid:
+            c, path = by_id[cid], company_path(cid)
             if cid == by_address and not words(c["name"]) & (words(r["establishment_name"]) | words(r["company_name"]) | words(filer)):
                 # same address, different name: a successor, a rename or a new tenant. Note it for a person; keep the file's facts
                 out[eid] = {"company": cid, "employees": emp, "naics": r["naics_code"], "occupant": filer}; occupants += 1
@@ -192,10 +275,16 @@ def main(args):
                 set_field(path, "updated", today)
                 continue
             out[eid] = {"company": cid, "employees": emp, "naics": r["naics_code"]}; matched += 1
+            if moved_to:
+                moves.append("%s: %s -> %s" % (c["name"], c.get("address", ""), moved_to))
             if dry or not path:
                 continue
-            if not c.get("osha_id"):
-                set_field(path, "osha_id", eid); by_osha[eid] = cid
+            if moved_to:   # the company's own 2025 filing gives the current address
+                set_field(path, "address", moved_to); set_field(path, "city", city)
+                del_field(path, "lat"); del_field(path, "lon")
+                set_field(path, "status_note", "Address from the company's OSHA Form 300A filing for %s; previously %s." % (year, c.get("address", "") or "no street address"))
+            if not c.get("osha_id") or (claimed.get(cid) == here and c.get("osha_id") != eid and not by_osha.get(eid)):
+                set_field(path, "osha_id", eid); by_osha[eid] = cid   # the filing at the file's own plant
             if c.get("presumed_closed"):
                 del_field(path, "presumed_closed"); del_field(path, "presumed_closed_reason"); restored += 1
             if c.get("unconfirmed"):   # a same-name filing at this address confirms the plant
@@ -221,7 +310,7 @@ def main(args):
             continue
         g = gcache.get(address)
         if g is None and not dry:
-            g = census_geo(address); time.sleep(0.2)
+            g = geo(address); time.sleep(1.0)   # OpenStreetMap asks for at most one request a second
             if g:
                 gcache[address] = list(g)
         if g and g[2] not in COUNTIES:
@@ -270,6 +359,9 @@ def main(args):
     print("%d regional manufacturing establishments in %s (filing year %s): %d matched, %d at a file's address under another name (file updated to the filer), %d presumed-closed restored, %d headcounts updated, %d new files %s, %d outside the region, %d not geocoded"
           % (len(keep), os.path.basename(files[0]), year, matched, occupants, restored, updated, written,
              "would be written" if dry else "written", len(outside), len(nogeo)))
+    print("%d files moved to the address of their own filing:" % len(moves))
+    for x in moves:
+        print("  moved:", x)
     for x in nogeo:
         print("  not geocoded, add by hand if wanted:", x)
 

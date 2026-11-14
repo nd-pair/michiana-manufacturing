@@ -7,6 +7,7 @@ city = "Niles"
 state = "MI"
 address = "2929 Saratore Drive, Niles, MI"
 website = "https://candsmachine.com"
+osha_id = "1452814"
 verified = "2026-11-13"
 status_note = "Moved from 215 South Post Road, Buchanan, MI 49107; found in a verification check (2026-11-13): C&S Machine operates (2026 site) from 2929 Saratore Dr, Niles, MI after leaving its Buchanan buildings."
 uei = "MPDCLN4MHM75"
@@ -15,11 +16,11 @@ sector = "Metal"
 products = ["Machine Shops"]
 naics = "332710"
 
-employees = 45
+employees = 170
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Precision Machined Components. NAICS 332710: machine shops."
 

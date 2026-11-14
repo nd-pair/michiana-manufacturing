@@ -5,10 +5,9 @@ name = "Evs Ltd."
 kind = "company"
 city = "South Bend"
 state = "IN"
-address = "3702 West Sample Street, South Bend, IN 46619"
-lat = 41.66439
-lon = -86.29877
+address = "24500 Research Drive, South Bend, IN 46628"
 website = "https://evsltd.com"
+status_note = "Address from the company's OSHA Form 300A filing for 2025; previously 3702 West Sample Street, South Bend, IN 46619."
 osha_id = "1050389"
 
 sector = "Vehicles & RVs"

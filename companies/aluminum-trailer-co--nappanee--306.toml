@@ -5,11 +5,10 @@ name = "Aluminum Trailer Co."
 kind = "company"
 city = "Nappanee"
 state = "IN"
-address = "306 South Nappanee Street, Nappanee, IN 46550"
-lat = 41.44078
-lon = -86.00551
+address = "5225 E. Market Street, Nappanee, IN 46550"
 website = "https://aluminumtrailer.com"
-osha_id = "1116688"
+status_note = "Address from the company's OSHA Form 300A filing for 2025; previously 306 South Nappanee Street, Nappanee, IN 46550."
+osha_id = "1116692"
 uei = "KJ6WLLLGDS88"
 
 sector = "Vehicles & RVs"

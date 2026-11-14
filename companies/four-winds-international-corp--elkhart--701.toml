@@ -10,6 +10,7 @@ address = "701 County Road 15, Elkhart, IN 46516"
 lat = 41.68562
 lon = -85.90782
 website = "https://thormotorcoach.com"
+osha_id = "1433246"
 verified_note = "Thor lists Plants 150/650 at 701 County Road 15 with scheduled tours and a 2026 Elkhart County tour sheet. Source: https://thormotorcoach.com/company/factory-tours"
 verified = "2026-11-13"
 status_note = "Four Winds merged into Thor Motor Coach in 2010; Four Winds motorhomes are built here."

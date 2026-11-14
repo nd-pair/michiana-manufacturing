@@ -5,10 +5,9 @@ name = "Foamcraft, Inc."
 kind = "company"
 city = "Goshen"
 state = "IN"
-address = "2506 Industrial Park Drive, Goshen, IN 46526"
-lat = 41.55412
-lon = -85.82002
+address = "703 E Kercher Road, Goshen, IN 46526"
 website = "https://foamcraftinc.com"
+status_note = "Address from the company's OSHA Form 300A filing for 2025; previously 2506 Industrial Park Drive, Goshen, IN 46526."
 osha_id = "795494"
 
 sector = "Materials & composites"

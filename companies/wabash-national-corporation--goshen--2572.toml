@@ -1,0 +1,26 @@
+# Wabash National Corporation
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Wabash National Corporation"
+kind = "company"
+city = "Goshen"
+state = "IN"
+address = "2572 East Kercher Road, Goshen, IN 46528"
+lat = 41.55177
+lon = -85.78328
+osha_id = "1032907"
+
+sector = "Vehicles & RVs"
+products = ["Motor vehicle body manufacturing"]
+naics = "336211"
+
+employees = 282
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 336211: motor vehicle body manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-14"

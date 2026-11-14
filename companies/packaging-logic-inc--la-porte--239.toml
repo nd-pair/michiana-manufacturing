@@ -9,18 +9,17 @@ address = "239 Factory Street, La Porte, IN 46350"
 lat = 41.62158
 lon = -86.70452
 website = "https://packaginglogic.com"
-presumed_closed_reason = "Verification check: renamed or acquired, but the new name is not tied to this address (Akers Packaging Service Group (Packaging Logic)). Akers Packaging acquired Packaging Logic Inc. of La Porte (a 228,000 sq ft converting plant); BBB lists 239 Factory St but does not name the business, and the acquisition date and current operation at the plant were not confirmed. Source: https://www.thepackagingportal.com/?p=19937"
-presumed_closed = "2026-11-13"
+osha_id = "1441595"
 
 sector = "Materials & composites"
 products = ["All Other Plastics Product Manufacturing"]
 naics = "326199"
 
-employees = 45
+employees = 32
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Corrugated Boxes, Displays, Point-Of-Purchase, Foam & Inner Packing & Honeycomb. NAICS 326199: all other plastics product manufacturing."
 

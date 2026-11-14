@@ -1,0 +1,27 @@
+# Reflex
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Reflex"
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "1503 Pierina Drive, Elkhart, IN 46514"
+lat = 41.71616
+lon = -85.96289
+osha_id = "1174756"
+
+sector = "Vehicles & RVs"
+products = ["Assembly line conversions of purchased vans and mini-vans"]
+naics = "336213"
+
+employees = 113
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+parent = "THOR Industries"
+description = "NAICS 336213: assembly line conversions of purchased vans and mini-vans."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-14"

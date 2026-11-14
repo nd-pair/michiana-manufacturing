@@ -111,3 +111,32 @@ Seventeen records were corrected from the companies' own sites:
 
 Most of the 21 remaining mismatches are plants confirmed by OSHA filings at the listed address, or
 multi-plant companies whose site lists other plants. They are left for a person to review.
+
+## Follow-up: review of the website mismatches (November 14, 2026)
+
+Reviewing the 21 website mismatches showed that the OSHA import itself had attached filings by
+company name alone. Two kinds of error followed:
+- **Stale addresses.** A plant that had moved kept its old HIFLD address even though its 2025 OSHA
+  filing gave the new one. Gast, Jet Technologies, Curtis Products, Symmetry Medical, Cleer
+  Vision, Modineer and Midwest Finishing are examples.
+- **Merged plants.** Separate plants of one company were folded into a single file: Keystone RV's
+  Goshen plants, AK Industries, Global Composites, Brinkley, LECO, Thor's Postle Aluminum and
+  Reflex plants, and Aluminum Trailer's Plants 3 and 4.
+
+`scripts/import_osha.py` now handles both:
+- A filing matched by name or OSHA ID to a file on another street moves that file to the filing's
+  address, unless another filing of that name is on the file's street.
+- Further filings at other streets get their own files.
+- Buildings at one address stay one plant, and a hand-written company-wide file never moves.
+- A new tenant at a closed plant's address gets its own file, so the closure stays on record.
+- Addresses compare "CR" with "County Road" and "LaPorte" with "La Porte".
+- When the Census geocoder lacks a newer street, OpenStreetMap places the plant, and the county
+  outlines check that it is in the region.
+
+Results of the re-run:
+- 15 files moved to their filing's address.
+- 48 plants added as their own files.
+- Four addresses got their current filer's name: House of Fara became Alexandria Moulding, Lewis
+  Bros. Bakeries became LaPorte Bakery, Silco Tec became Avient, and Worldwide Foam took the
+  closed Silgan plant's address.
+- Thor Motor Coach's diesel service department was removed as not a plant.

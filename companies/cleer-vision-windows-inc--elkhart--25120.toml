@@ -5,9 +5,8 @@ name = "Cleer Vision Windows, Inc."
 kind = "company"
 city = "Elkhart"
 state = "IN"
-address = "25120 Leer Drive, Elkhart, IN 46514"
-lat = 41.72736
-lon = -85.95013
+address = "3401 CR 6 East, Elkhart, IN 46514"
+status_note = "Address from the company's OSHA Form 300A filing for 2025; previously 25120 Leer Drive, Elkhart, IN 46514."
 osha_id = "1084356"
 
 sector = "Materials & composites"

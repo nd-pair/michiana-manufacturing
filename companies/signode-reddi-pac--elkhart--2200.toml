@@ -1,0 +1,27 @@
+# Signode Reddi Pac
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Signode Reddi Pac"
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "2200 Garvin Street, Elkhart, IN 46514"
+lat = 41.70161
+lon = -86.00620
+osha_id = "987982"
+
+sector = "Wood, paper & furniture"
+products = ["Pulp products, molded, manufacturing"]
+naics = "322299"
+
+employees = 41
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+parent = "Signode"
+description = "NAICS 322299: pulp products, molded, manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-14"

@@ -1,0 +1,26 @@
+# Keystone RV Company
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Keystone RV Company"
+kind = "company"
+city = "Goshen"
+state = "IN"
+address = "2525 Linden Drive, Goshen, IN 46526"
+lat = 41.54950
+lon = -85.78807
+osha_id = "943213"
+
+sector = "Vehicles & RVs"
+products = ["RV Manufacturing"]
+naics = "336214"
+
+employees = 199
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 336214: rv manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-14"

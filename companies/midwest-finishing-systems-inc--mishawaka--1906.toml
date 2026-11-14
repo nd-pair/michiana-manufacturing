@@ -5,10 +5,9 @@ name = "Midwest Finishing Systems, Inc."
 kind = "company"
 city = "Mishawaka"
 state = "IN"
-address = "1906 Clover Road, Mishawaka, IN 46545"
-lat = 41.67711
-lon = -86.15343
+address = "55770 Evergreen Plaza Drive, Mishawaka, IN 46545"
 website = "https://midwestfinishing.com"
+status_note = "Address from the company's OSHA Form 300A filing for 2025; previously 1906 Clover Road, Mishawaka, IN 46545."
 osha_id = "965028"
 
 sector = "Metal"
