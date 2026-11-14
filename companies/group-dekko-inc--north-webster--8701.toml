@@ -9,6 +9,8 @@ address = "8701 East Backwater Road, North Webster, IN 46555"
 lat = 41.31602
 lon = -85.67640
 website = "https://dekko.com"
+verified_note = "Dekko's own brochure lists North Webster as a location and BBB gives 8659 E Backwater Rd there, a nearby number rather than 8701, so exact address match is unconfirmed. Source: https://prod.bbb.org/us/in/yoder/category/wholesale-lighting-fixtures"
+verified = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["All Other Plastics Product Manufacturing"]

@@ -8,6 +8,8 @@ state = "IN"
 address = "302 Dal Mar Way, Nappanee, IN 46550"
 lat = 41.44393
 lon = -85.97844
+verified_note = "Sullivan Group (owned by Farwall TSG LLC) is listed at 302 Dal Mar Way, Nappanee, with a 25,000 sq ft screen-printing plant and a screen printing operator job posting; the dated article is about 2019. Source: https://www.expansionsolutionsmagazine.com/small-business-ramping-up-production-in-elkhart-county/"
+verified = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Commercial Screen Printing"]

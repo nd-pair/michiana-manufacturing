@@ -9,6 +9,8 @@ address = "7224 North State Road 13, North Webster, IN 46555"
 lat = 41.34066
 lon = -85.70070
 website = "https://indianadimensional.com"
+verified_note = "indianadimensional.com redirects to live idppromo.com (Indiana Dimensional Products, 574-834 North Webster phone, 2026 copyright); the street address 7224 was not itself confirmed. Source: https://idppromo.com/"
+verified = "2026-11-13"
 
 sector = "Medical devices & other"
 products = ["Sign Manufacturing"]

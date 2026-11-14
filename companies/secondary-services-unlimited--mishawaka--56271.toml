@@ -8,6 +8,8 @@ state = "IN"
 address = "56271 Erickson Drive, Mishawaka, IN 46545"
 lat = 41.67896
 lon = -86.09799
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Name and address searches returned no listing for this company or any occupant at 56271 Erickson Drive."
+presumed_closed = "2026-11-13"
 
 sector = "Medical devices & other"
 products = ["All Other Miscellaneous Manufacturing"]

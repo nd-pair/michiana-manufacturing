@@ -9,6 +9,8 @@ address = "1451 Lake Street, Niles, MI 49120"
 lat = 41.84162
 lon = -86.23972
 website = "https://rti-products.com"
+verified_note = "Live rti-products.com (2024 copyright) gives 1451 Lake Street, Niles, MI 49120 as its address. Source: https://rti-products.com"
+verified = "2026-11-13"
 
 sector = "Electronics"
 products = ["Analytical Laboratory Instrument Manufacturing"]

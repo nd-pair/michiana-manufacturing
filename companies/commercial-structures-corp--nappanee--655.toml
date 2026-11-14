@@ -9,6 +9,8 @@ address = "655 North Tomahawk Trail, Nappanee, IN 46550"
 lat = 41.44722
 lon = -86.02996
 website = "https://comstruc.com"
+verified_note = "Live company site lists 655 N Tomahawk Trail, Nappanee with a 2026 copyright. Source: https://comstruc.com"
+verified = "2026-11-13"
 
 sector = "Vehicles & RVs"
 products = ["Travel Trailer and Camper Manufacturing"]

@@ -8,6 +8,8 @@ state = "IN"
 address = "2096 Cheyenne Street, Nappanee, IN 46550"
 lat = 41.44833
 lon = -86.03075
+verified_note = "A BBB listing gives Williamsburg Furniture, Inc. at 2096 Cheyenne St, Nappanee with phone (574) 773-7711, though another listing gives 3491 E County Line Rd and no dated evidence was found, so low confidence. Source: https://bbb.org/us/in/nappanee/category/furniture-manufacturers"
+verified = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Nonupholstered Wood Household Furniture Manufacturing"]

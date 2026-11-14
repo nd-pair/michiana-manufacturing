@@ -9,6 +9,8 @@ address = "1600 West 6th Street, Mishawaka, IN 46544"
 lat = 41.65710
 lon = -86.20020
 website = "https://xcel.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. xcel.com is now a domain-for-sale page; only an undated Modbus.org directory entry lists Xcel Controls at 1600 W 6th St, Mishawaka. Source: https://xcel.com"
+presumed_closed = "2026-11-13"
 
 sector = "Electronics"
 products = ["Other Measuring and Controlling Device Manufacturing"]

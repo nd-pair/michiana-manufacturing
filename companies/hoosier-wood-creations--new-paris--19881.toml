@@ -8,6 +8,8 @@ state = "IN"
 address = "19881 County Road 146, New Paris, IN 46553"
 lat = 41.49333
 lon = -85.84502
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Name and address searches found no listing for Hoosier Wood Creations at 19881 County Road 146, New Paris."
+presumed_closed = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Nonupholstered Wood Household Furniture Manufacturing"]

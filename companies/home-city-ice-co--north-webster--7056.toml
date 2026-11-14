@@ -9,6 +9,8 @@ address = "7056 North in 13, North Webster, IN 46555"
 lat = 41.33858
 lon = -85.70025
 website = "https://homecityice.com"
+verified_note = "Directory lists Home City Ice at 7056 N State Road 13, North Webster, and the company site lists a North Webster location; undated. Source: https://www.superpages.com/aboite-in/ice"
+verified = "2026-11-13"
 
 sector = "Food & consumer goods"
 products = ["Ice Manufacturing"]

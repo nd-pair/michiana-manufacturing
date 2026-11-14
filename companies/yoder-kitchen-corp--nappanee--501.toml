@@ -9,6 +9,8 @@ address = "501 South Main Street, Nappanee, IN 46550"
 lat = 41.43853
 lon = -86.00100
 website = "https://yoderkitchens.com"
+verified_note = "Live company site (2026 catalogs, phone 574-773-3197) and BBB list Yoder Kitchen Corp. at 501 S Main St, Nappanee. Source: https://yoderkitchens.com"
+verified = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Wood Kitchen Cabinet and Countertop Manufacturing"]

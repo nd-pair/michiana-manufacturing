@@ -10,6 +10,8 @@ address = "56733 Magnetic Drive, Mishawaka, IN 46545"
 lat = 41.67164
 lon = -86.12854
 website = "https://www.kendrion.com"
+verified_note = "Directory listing places Kendrion (solenoid/electromagnetic manufacturing) at 56733 Magnetic Dr, Mishawaka and kendrion.com is live; no dated source found. Source: https://www.globalspec.com/local/89/C_US/IN/Mishawaka"
+verified = "2026-11-13"
 status_note = "Kendrion bought Tri-Tech in 2008."
 
 humanoid = ["motors", "screws"]

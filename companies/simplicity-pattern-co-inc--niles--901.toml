@@ -9,6 +9,8 @@ address = "901 Wayne Street, Niles, MI 49121"
 lat = 41.83594
 lon = -86.24830
 website = "https://simplicity.com"
+presumed_closed_reason = "Verification check: another business is at this address now (Simplicity Building (industrial and cannabis cultivation tenants)). Simplicity Pattern closed its Niles plant in 2007; a 2024 listing describes 901 Wayne St as an industrial complex with cannabis cultivators since 2021, and simplicity.com is now a separate sewing brand site. Source: https://www.rofo.com/commercial-real-estate/building/MI/Niles/901-Wayne-St-178605.html"
+presumed_closed = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Other Commercial Printing"]

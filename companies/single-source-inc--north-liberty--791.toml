@@ -8,6 +8,8 @@ state = "IN"
 address = "791 Industrial Parkway, North Liberty, IN 46554"
 lat = 41.52477
 lon = -86.43703
+verified_note = "Directory lists Single Source, Inc. machine shop at 791 Industrial Pkwy, North Liberty, phone 574-656-3400; undated aggregator listing only. Source: https://naicslist.com/company-profile/single-source-inc-north-liberty-in-46554"
+verified = "2026-11-13"
 
 sector = "Metal"
 products = ["Machine Shops"]

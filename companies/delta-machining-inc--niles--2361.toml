@@ -9,6 +9,8 @@ address = "2361 Reum Road, Niles, MI 49120"
 lat = 41.81237
 lon = -86.21837
 website = "https://deltamach.com"
+verified_note = "Directories and Superpages list Delta Machining at 2361 Reum Rd, Niles (website deltamach.com); a 2018 article marked its 40th anniversary there. Source: https://www.regionaldirectory.us/mi/1602658.htm"
+verified = "2026-11-13"
 
 sector = "Metal"
 products = ["Machine Shops"]

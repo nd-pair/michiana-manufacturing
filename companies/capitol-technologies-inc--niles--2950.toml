@@ -9,6 +9,8 @@ address = "2950 Redfield Road, Niles, MI 49120"
 lat = 41.76759
 lon = -86.15203
 website = "https://capitoltech.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. capitoltech.com redirects to a GoDaddy for-sale page and searches found no Capitol Technologies at 2950 Redfield Rd, Niles. Source: https://forsale.godaddy.com/forsale/capitoltech.com"
+presumed_closed = "2026-11-13"
 
 sector = "Mechatronics & automation"
 products = ["Other Metalworking Machinery Manufacturing"]

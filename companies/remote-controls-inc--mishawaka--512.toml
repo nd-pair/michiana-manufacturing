@@ -9,6 +9,8 @@ address = "512 South Merrifield Avenue, Mishawaka, IN 46544"
 lat = 41.65668
 lon = -86.16692
 website = "https://rci-products.com"
+verified_note = "Live company site lists 512 S Merrifield Ave, Mishawaka (metal finishing/valves), and a federal contracting database shows an award dated June 2026. Source: https://rci-products.com"
+verified = "2026-11-13"
 uei = "LFKFECBDUGM5"
 
 sector = "Metal"

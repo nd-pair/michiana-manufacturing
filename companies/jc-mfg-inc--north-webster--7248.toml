@@ -9,6 +9,8 @@ address = "7248 State Road 13 North, North Webster, IN 46555"
 lat = 41.34172
 lon = -85.70074
 website = "https://jcpontoon.com"
+verified_note = "Coast Guard registry shows J C Mfg (JC Tritoon Marine) in business with factory at 7248 State Road 13, and a 2025 trade-magazine ad lists the company. Source: https://www.uscgboating.org/content/manufacturers-identification-detail.php?id=1211"
+verified = "2026-11-13"
 
 sector = "Vehicles & RVs"
 products = ["Boat Building"]

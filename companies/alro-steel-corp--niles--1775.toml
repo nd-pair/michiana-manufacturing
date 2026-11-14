@@ -9,6 +9,8 @@ address = "1775 Foundation Drive, Niles, MI 49120"
 lat = 41.80156
 lon = -86.31994
 website = "https://alro.com"
+removed_reason = "not a production site (warehouse distribution), found in a verification check: Alro's own location page lists a 221,000 sq ft metals service center at 1775 Foundation Dr, Niles, with job postings; it processes and distributes steel rather than making it."
+removed = "2026-11-13"
 
 sector = "Metal"
 products = ["Iron and Steel Mills"]

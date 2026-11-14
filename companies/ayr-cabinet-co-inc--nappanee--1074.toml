@@ -8,6 +8,8 @@ state = "IN"
 address = "1074 US Highway 6, Nappanee, IN 46550"
 lat = 41.44300
 lon = -86.01345
+verified_note = "Live Ayr Cabinet site (2026 copyright) gives 1074 US Highway 6, Nappanee and says cabinets are built in its Nappanee facility. Source: https://www.ayrcabinet.com"
+verified = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Wood Kitchen Cabinet and Countertop Manufacturing"]

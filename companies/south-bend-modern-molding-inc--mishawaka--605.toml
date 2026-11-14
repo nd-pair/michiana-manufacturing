@@ -9,6 +9,8 @@ address = "605 Laurel Street, Mishawaka, IN 46544"
 lat = 41.65576
 lon = -86.17186
 website = "https://sbmm.com"
+verified_note = "Live company site gives 605 Laurel St, Mishawaka as its address (molded rubber products); site and directory listings carry no dates. Source: https://sbmm.com"
+verified = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["All Other Rubber Product Manufacturing"]

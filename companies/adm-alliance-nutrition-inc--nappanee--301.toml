@@ -9,6 +9,8 @@ address = "301 South Jackson Street, Nappanee, IN 46550"
 lat = 41.44017
 lon = -85.99463
 website = "https://admworld.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. admworld.com redirects to e-adm.com; a directory shows an unnamed feed store at 301 S Jackson St but nothing ties ADM Alliance Nutrition to it currently. Source: https://madbarn.com/service/feed-stores/location/nappanee-indiana/"
+presumed_closed = "2026-11-13"
 
 sector = "Food & consumer goods"
 products = ["Other Animal Food Manufacturing"]

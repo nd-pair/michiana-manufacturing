@@ -8,6 +8,8 @@ state = "IN"
 address = "71596 County Road 100, Nappanee, IN 46550"
 lat = 41.45580
 lon = -86.04929
+verified_note = "BBB, Birdeye and cabinet directories list R & R Custom Woodworking, Inc. at 71596 County Road 100, Nappanee with phone and reviews, but no dated evidence found. Source: https://trustburn.com/about/r-rwood-com"
+verified = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Wood Kitchen Cabinet and Countertop Manufacturing"]

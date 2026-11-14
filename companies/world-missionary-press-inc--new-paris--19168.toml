@@ -9,6 +9,8 @@ address = "19168 County Road 146, New Paris, IN 46553"
 lat = 41.49290
 lon = -85.83264
 website = "https://wmpress.org"
+verified_note = "wmpress.org is live (2026 copyright) and directories list World Missionary Press at 19168 CR 146, New Paris. Source: https://wmpress.org"
+verified = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Prepress Services"]

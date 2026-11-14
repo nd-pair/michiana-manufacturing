@@ -9,6 +9,8 @@ address = "13066 California Road, New Troy, MI 49119"
 lat = 41.88296
 lon = -86.55250
 website = "https://trudiecast.com"
+verified_note = "trudiecast.com is live (2026 footer) and directories list Tru Die Cast Corporation at 13066 California Rd, New Troy, MI; no specific dated operating evidence. Source: https://trudiecast.com"
+verified = "2026-11-13"
 
 sector = "Metal"
 products = ["Aluminum Die-Casting Foundries"]

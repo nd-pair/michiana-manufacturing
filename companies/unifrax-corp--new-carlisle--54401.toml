@@ -1,14 +1,16 @@
 # Unifrax Corp.
 # Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
 
-name = "Unifrax Corp."
+name = "Alkegen (Unifrax I LLC)"
 kind = "company"
 city = "New Carlisle"
 state = "IN"
 address = "54401 Smilax Road, New Carlisle, IN 46552"
 lat = 41.69963
 lon = -86.44831
-website = "https://unifrax.com"
+verified = "2026-11-13"
+status_note = "Renamed in a verification check (2026-11-13): Environmental facility record lists the plant at 54401 Smilax Rd as Alkegen with parent Unifrax I LLC, and 2021 releases describe a SiFAB line being built at the Unifrax New Carlisle plant. Source: https://plainenviro.com/facilities/indiana/alkegen-n54401"
+formerly = "Unifrax Corp."
 
 sector = "Materials & composites"
 products = ["Mineral Wool Manufacturing"]

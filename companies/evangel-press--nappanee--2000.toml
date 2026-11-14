@@ -9,6 +9,8 @@ address = "2000 Evangel Way, Nappanee, IN 46550"
 lat = 41.44500
 lon = -85.97776
 website = "https://evangelpress.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. evangelpress.com now redirects to a GoDaddy domain-for-sale page and no current listing for 2000 Evangel Way was found. Source: https://forsale.godaddy.com/forsale/evangelpress.com"
+presumed_closed = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Book Printing"]

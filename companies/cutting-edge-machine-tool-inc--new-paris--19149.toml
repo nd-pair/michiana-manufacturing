@@ -9,6 +9,8 @@ address = "19149 County Road 146, New Paris, IN 46553"
 lat = 41.49349
 lon = -85.83158
 website = "https://cemti.com"
+verified_note = "cemti.com is live with a 2026 copyright, lists 19149 Co Rd 146, New Paris, and shows posted hours and job openings. Source: https://cemti.com"
+verified = "2026-11-13"
 
 sector = "Metal"
 products = ["Machine Shops"]

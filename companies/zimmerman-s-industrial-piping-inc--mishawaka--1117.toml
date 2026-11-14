@@ -8,6 +8,8 @@ state = "IN"
 address = "1117 Clay Street, Mishawaka, IN 46545"
 lat = 41.67089
 lon = -86.19294
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Latest dated evidence found is a 2016 City of South Bend record at 1117 Clay St; undated directory listings only, nothing from 2023 or later. Source: https://docs.southbendin.gov/WebLink/0/doc/107009/Page1.aspx"
+presumed_closed = "2026-11-13"
 
 sector = "Mechatronics & automation"
 products = ["All Other Miscellaneous General Purpose Machinery Manufacturing"]

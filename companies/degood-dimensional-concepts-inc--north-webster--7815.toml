@@ -9,6 +9,8 @@ address = "7815 North State Road 13, North Webster, IN 46555"
 lat = 41.34806
 lon = -85.70159
 website = "https://degooddc.com"
+verified_note = "Directories list the company at 7815 N State Rd 13 with phone and website, but the site fetch showed no company content and one directory warns it may have closed; weak evidence. Source: https://www.regionaldirectory.us/in/797773.htm"
+verified = "2026-11-13"
 
 sector = "Medical devices & other"
 products = ["Surgical Appliance and Supplies Manufacturing"]

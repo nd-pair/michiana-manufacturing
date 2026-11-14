@@ -9,6 +9,8 @@ address = "In 13 South, North Webster, IN 46555"
 lat = 41.30210
 lon = -85.69119
 website = "https://chematics.com"
+verified_note = "chematics.com is live and directories list Chematics (alcohol and glucose test maker) in North Webster, but only a PO Box and a vague 'In 13 South' address were found. Source: https://chematics.com"
+verified = "2026-11-13"
 
 sector = "Medical devices & other"
 products = ["Surgical and Medical Instrument Manufacturing"]

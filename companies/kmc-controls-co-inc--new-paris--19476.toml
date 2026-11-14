@@ -9,6 +9,8 @@ address = "19476 Industrial Drive, New Paris, IN 46553"
 lat = 41.50893
 lon = -85.83707
 website = "https://kmccontrols.com"
+verified_note = "KMC Controls is listed at 19476 Industrial Drive, New Paris, in a 100,000 sq ft manufacturing facility, with active company site kmccontrols.com; no specific dated evidence captured. Source: https://en.wikipedia.org/wiki/KMC_Controls"
+verified = "2026-11-13"
 
 sector = "Electronics"
 products = ["Automatic Environmental Control Manufacturing for Residential, Commercial, and Appliance Use"]

@@ -9,6 +9,8 @@ address = "67819 State Road 15, New Paris, IN 46553"
 lat = 41.51070
 lon = -85.83364
 website = "https://turtletop.com"
+verified_note = "turtletop.com footer (2025) lists 67819 State Road 15, New Paris, IN 46553. Source: https://turtletop.com"
+verified = "2026-11-13"
 
 sector = "Vehicles & RVs"
 products = ["Motor Vehicle Body Manufacturing"]

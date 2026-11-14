@@ -9,6 +9,8 @@ address = "601 Mulberry Street, North Judson, IN 46366"
 lat = 41.22047
 lon = -86.77359
 website = "https://americanoak.net"
+verified_note = "Carrier registry lists the company at 601 Mulberry St and a 2025 import shipment was consigned to that address. Source: https://carrieratlas.com/trucking-companies/in/north-judson/american-oak-preserving-co-inc/"
+verified = "2026-11-13"
 
 sector = "Medical devices & other"
 products = ["All Other Miscellaneous Manufacturing"]

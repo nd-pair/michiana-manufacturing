@@ -9,6 +9,8 @@ address = "71913 County Road 23, New Paris, IN 46553"
 lat = 41.45117
 lon = -85.84205
 website = "https://travellitecampers.com"
+presumed_closed_reason = "Verification check: the company operates elsewhere, not at this address. Sources say Travel Lite campers are now built at its Syracuse, Indiana plant (one says it moved from New Paris in 2019, though sources conflict), and travellitecampers.com now redirects to a GoDaddy for-sale page. Source: https://www.truckcamperadventure.com/tca-exclusive-travel-lite-revamps-truck-camper-lineup-with-new-brands/"
+presumed_closed = "2026-11-13"
 
 sector = "Vehicles & RVs"
 products = ["Travel Trailer and Camper Manufacturing"]

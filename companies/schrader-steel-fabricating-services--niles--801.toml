@@ -8,6 +8,8 @@ state = "MI"
 address = "801 North 8th Street, Niles, MI 49120"
 lat = 41.83597
 lon = -86.24958
+verified_note = "BBB, Yellow Pages and Superpages list Schrader Steel Fabricating Services / Schrader Fabricating & Welding at 801 N 8th St, Niles, phone 269-684-4494; undated. Source: https://www.yellowpages.com/berrien-ctr-mi/welders"
+verified = "2026-11-13"
 
 sector = "Metal"
 products = ["Iron and Steel Mills"]

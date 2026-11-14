@@ -9,6 +9,8 @@ address = "70891 County Road 23, New Paris, IN 46553"
 lat = 41.46542
 lon = -85.83857
 website = "https://dockbox.com"
+verified_note = "dockbox.com is live with a 2026 copyright and lists Better Way Products at 70891 C.R. 23, New Paris. Source: https://dockbox.com"
+verified = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["Mineral Wool Manufacturing"]

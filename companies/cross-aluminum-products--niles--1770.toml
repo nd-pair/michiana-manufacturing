@@ -9,6 +9,8 @@ address = "1770 Mayflower Road, Niles, MI 49120"
 lat = 41.80416
 lon = -86.32209
 website = "https://crossaluminum.com"
+verified_note = "Directories (AECinfo, ARCAT) list Cross Aluminum Products, a door and storefront manufacturer, at 1770 Mayflower Rd, Niles; no dated evidence found. Source: https://aecinfo.com/cross-aluminum-products/company.html"
+verified = "2026-11-13"
 
 sector = "Metal"
 products = ["Metal Window and Door Manufacturing"]

@@ -5,9 +5,11 @@ name = "Delta Industrial Valves"
 kind = "company"
 city = "Niles"
 state = "MI"
-address = "801 Carberry Road, Niles, MI 49120"
-lat = 41.81233
-lon = -86.21461
+address = "2101 Industrial Drive, Niles, MI 49120"
+lat = 41.84970
+lon = -86.22605
+verified = "2026-11-13"
+status_note = "Moved from 801 Carberry Road, Niles, MI 49120; found in a verification check (2026-11-13): Delta Industrial Valves (owned by Weir Group since 2015) is listed at 2101 Industrial Dr, Niles, and no source places it at 801 Carberry Rd."
 
 sector = "Metal"
 products = ["Industrial Valve Manufacturing"]

@@ -9,6 +9,8 @@ address = "503 South Main Street, Nappanee, IN 46550"
 lat = 41.43852
 lon = -86.00100
 website = "https://ascotent.com"
+removed_reason = "not a production site (office or hq), found in a verification check: Nappanee Chamber member directory lists Ascot Enterprises at 503 S Main St, and the company site is live with a 2026 copyright."
+removed = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Blind and Shade Manufacturing"]

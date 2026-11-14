@@ -9,6 +9,8 @@ address = "306 South Nappanee Street, Nappanee, IN 46550"
 lat = 41.44078
 lon = -86.00551
 website = "https://motivtrailers.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Website shows only a Chinese-language 'under construction' placeholder and searches by name and address found no Motiv Trailers business in Nappanee. Source: https://motivtrailers.com"
+presumed_closed = "2026-11-13"
 
 sector = "Vehicles & RVs"
 products = ["Truck Trailer Manufacturing"]

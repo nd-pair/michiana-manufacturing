@@ -9,6 +9,8 @@ address = "119 Lane Street, North Judson, IN 46366"
 lat = 41.21580
 lon = -86.77315
 website = "https://bakerygifts.com"
+verified_note = "Family-run Fingerhut Bakery is listed at 119 Lane St, North Judson, in state and Visit Indiana sources and its website is live. Source: https://visitindiana.in.gov/blog/post/satisfy-your-sweet-tooth-at-this-small-town-bakery/"
+verified = "2026-11-13"
 
 sector = "Food & consumer goods"
 products = ["Commercial Bakeries"]

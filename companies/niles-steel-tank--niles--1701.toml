@@ -9,6 +9,8 @@ address = "1701 Terminal Road, Niles, MI 49120"
 lat = 41.84991
 lon = -86.22882
 website = "https://nilesst.com"
+verified_note = "Niles Steel Tank (Bradford White subsidiary) is listed at 1701-A Terminal Road in current directories and a 2022 state air inspection report. Source: https://www.deq.state.mi.us/aps/downloads/SRN/A0497/A0497_SAR_20220302.pdf"
+verified = "2026-11-13"
 
 sector = "Metal"
 products = ["Fabricated Structural Metal Manufacturing"]

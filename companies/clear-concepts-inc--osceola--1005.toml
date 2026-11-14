@@ -8,6 +8,8 @@ state = "IN"
 address = "1005 3rd Street, Osceola, IN 46561"
 lat = 41.66073
 lon = -86.08109
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Name and address searches returned no listing for Clear Concepts or any occupant at 1005 3rd Street, Osceola."
+presumed_closed = "2026-11-13"
 
 sector = "Vehicles & RVs"
 products = ["Motor Home Manufacturing"]

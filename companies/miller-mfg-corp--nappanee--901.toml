@@ -9,6 +9,8 @@ address = "901 East Lincoln Street, Nappanee, IN 46550"
 lat = 41.44138
 lon = -85.99233
 website = "https://millermfgcorp.com"
+verified_note = "Company site is live and gives 901 E. Lincoln, Nappanee as its address (copyright 2020, last uploads Aug 2020); directories list it as a metal fabrication shop. Source: https://millermfgcorp.com"
+verified = "2026-11-13"
 
 sector = "Metal"
 products = ["Iron and Steel Pipe and Tube Manufacturing From Purchased Steel"]

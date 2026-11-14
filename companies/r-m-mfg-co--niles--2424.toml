@@ -8,6 +8,8 @@ state = "MI"
 address = "2424 North 5th Street, Niles, MI 49120"
 lat = 41.85657
 lon = -86.24445
+verified_note = "BBB lists R & M Manufacturing Company, Inc. (die maker) at 2424 N 5th St, Niles, phone 269-683-9550; undated listing. Source: https://prod.bbb.org/us/mi/niles/category/die-maker"
+verified = "2026-11-13"
 
 sector = "Mechatronics & automation"
 products = ["All Other Industrial Machinery Manufacturing"]

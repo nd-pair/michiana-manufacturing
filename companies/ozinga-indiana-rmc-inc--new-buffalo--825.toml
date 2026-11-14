@@ -9,6 +9,8 @@ address = "825 South Whittaker Street, New Buffalo, MI 49117"
 lat = 41.78515
 lon = -86.73732
 website = "https://ozinga.com"
+verified_note = "Michigan EGLE inspection report (Dec 2021) and directories place the Ozinga ready-mix plant at 825 S Whittaker St, New Buffalo; no newer dated evidence found. Source: https://www.deq.state.mi.us/Aps/downloads/SRN/N5633/N5633_SAR_20211215.pdf"
+verified = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["Ready-Mix Concrete Manufacturing"]

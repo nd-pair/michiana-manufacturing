@@ -8,6 +8,8 @@ state = "MI"
 address = "2710 South 3rd Street, Niles, MI 49120"
 lat = 41.77411
 lon = -86.25530
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Only an OSHA-based database (inspections since 1998) lists Empire Machine Co at 2710 S 3rd St, Niles; no current listing, site or dated activity found. Source: https://safetyrecord.org/company/empire-machine-co-niles-mi"
+presumed_closed = "2026-11-13"
 
 sector = "Mechatronics & automation"
 products = ["Special Die and Tool, Die Set, Jig, and Fixture Manufacturing"]

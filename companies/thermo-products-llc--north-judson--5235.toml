@@ -9,6 +9,8 @@ address = "5235 West State Road 10, North Judson, IN 46366"
 lat = 41.21492
 lon = -86.80011
 website = "https://thermopride.com"
+verified_note = "Thermo Pride's live site and directories list 5235 W State Rd 10; it was acquired by Beckett in May 2025, with the North Judson plant still listed. Source: https://thermopride.com"
+verified = "2026-11-13"
 
 sector = "Mechatronics & automation"
 products = ["Air-Conditioning & Warm Air Heating Equipment & Commercial and Industrial Refrigeration Equipment Mfg."]

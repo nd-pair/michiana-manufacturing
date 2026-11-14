@@ -5,7 +5,8 @@
 
 Each results file is a JSON array of per-record findings, one object per company file:
   {"id", "status", "facility", "last_evidence_year", "current_name", "closed_year", "evidence", "note"}
-with status one of operating, closed, moved, acquired_renamed, other_occupant, no_trace. The checks
+with status one of operating, closed, moved, acquired_renamed, other_occupant, address_unconfirmed,
+no_trace. The checks
 behind them are web lookups (name, street address, website, Wayback Machine, news, listings).
 
 Rules, for imported records only (HIFLD or OSHA; hand-written files are never changed here):
@@ -22,6 +23,8 @@ Rules, for imported records only (HIFLD or OSHA; hand-written files are never ch
   phone; the new owner lists a site there) without hedging, and no file in the same city already
   carries it: `name` becomes the current name, the old one goes to `formerly`, the old
   website and UEI are dropped; otherwise presumed_closed;
+- address_unconfirmed (the company operates in the region, but nothing confirms or contradicts this
+  address): left unchanged, since the company exists;
 - a finding whose note says the record was not actually searched (UNVERIFIED, search budget) is
   skipped and listed, to be checked again.
 Optionally writes every finding with the action taken to a CSV for the audit trail.
@@ -65,6 +68,8 @@ def main(args):
             action = "skipped: hand-written file"
         elif UNSEARCHED.search(note):
             action = "skipped: not searched"; skipped.append(c["_id"])
+        elif st == "address_unconfirmed":
+            action = "unchanged: the company operates in the region, this address is unconfirmed"
         elif st == "operating" and fac in ("office_or_hq", "service_or_retail", "warehouse_distribution") and not re.search(r"(?i)manufactur|plant|production|makes|fabricat", note):
             action = "removed"
             if not dry:

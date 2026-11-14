@@ -9,6 +9,8 @@ address = "1700 Cheyenne Street, Nappanee, IN 46550"
 lat = 41.44836
 lon = -86.02433
 website = "https://ascotent.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Ascot's site is live (2026) but names no addresses, and no source places an Ascot facility at 1700 Cheyenne St. Source: https://ascotent.com"
+presumed_closed = "2026-11-13"
 
 sector = "Food & consumer goods"
 products = ["Curtain and Drapery Mills"]

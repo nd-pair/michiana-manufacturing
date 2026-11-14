@@ -8,6 +8,8 @@ state = "MI"
 address = "1400 South 3rd Street, Niles, MI 49120"
 lat = 41.81219
 lon = -86.25470
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Name and address searches returned no listing for Michigan Composites or any occupant at 1400 South 3rd Street."
+presumed_closed = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["Unlaminated Plastics Profile Shape Manufacturing"]

@@ -9,6 +9,8 @@ address = "502 South Oakland Avenue, Nappanee, IN 46550"
 lat = 41.43803
 lon = -85.98254
 website = "https://fairmonthomes.com"
+presumed_closed_reason = "Verification check: renamed or acquired, but the new name is not tied to this address (Cavco Homes (Nappanee)). fairmonthomes.com permanently redirects to Cavco's Nappanee page, which gives the plant address as 502 S Oakland Ave and mentions Fairmont Homes. Source: https://www.cavcohomes.com/nappanee"
+presumed_closed = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Manufactured Home (mobile Home) Manufacturing"]

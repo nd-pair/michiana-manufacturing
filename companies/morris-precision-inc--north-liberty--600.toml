@@ -8,6 +8,8 @@ state = "IN"
 address = "600 South State Street, North Liberty, IN 46554"
 lat = 41.52867
 lon = -86.43298
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Only a federal CAGE registry record last updated 2015 lists the company at 600 S State St; no current listing or other occupant found. Source: https://cage.report/CAGE/0W1C0"
+presumed_closed = "2026-11-13"
 
 sector = "Metal"
 products = ["Machine Shops"]

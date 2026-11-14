@@ -8,6 +8,8 @@ state = "MI"
 address = "2126 South 11th Street, Niles, MI 49120"
 lat = 41.79183
 lon = -86.25064
+verified_note = "BBB and directory list CNC Products, LLC at 2126 S 11th St, Niles (phone 269-684-5500); a 2019 announcement says it was acquired by Parker Holding, entity match unconfirmed. Source: https://www.regionaldirectory.us/mi/1591303.htm"
+verified = "2026-11-13"
 
 sector = "Metal"
 products = ["Sheet Metal Work Manufacturing"]

@@ -9,6 +9,8 @@ address = "13077 Mckinley Highway, Mishawaka, IN 46545"
 lat = 41.68205
 lon = -86.12072
 website = "https://unitedconveyorsupply.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Website refuses connections and no Mishawaka listing was found; the only United Conveyor Supply Co. record found is a Pleasant Prairie, Wisconsin importer. Source: https://es.panjiva.com/United-Conveyor-Supply-Co/107709973"
+presumed_closed = "2026-11-13"
 
 sector = "Mechatronics & automation"
 products = ["Conveyor and Conveying Equipment Manufacturing"]

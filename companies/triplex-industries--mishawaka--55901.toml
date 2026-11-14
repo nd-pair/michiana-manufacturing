@@ -8,6 +8,8 @@ state = "IN"
 address = "55901 Currant Road, Mishawaka, IN 46545"
 lat = 41.68253
 lon = -86.12937
+presumed_closed_reason = "Verification check: no current trace of this company at this address. A MapQuest listing at 55901 Currant Rd is marked closed (unconfirmed, undated); Genesis Molding of Mishawaka describes Triplex as an affiliated tooling business but no current address or dated activity was found. Source: https://startpage.mapquest.com/us/indiana/tri-plex-industries-353290264"
+presumed_closed = "2026-11-13"
 
 sector = "Mechatronics & automation"
 products = ["Industrial Mold Manufacturing"]

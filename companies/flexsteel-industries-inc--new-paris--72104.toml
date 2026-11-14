@@ -9,6 +9,9 @@ address = "72104 County Road 23, New Paris, IN 46553"
 lat = 41.44834
 lon = -85.84190
 website = "https://flexsteel.com"
+closed_source = "https://www.manufacturing.net/operations/news/13064375/flexsteel-to-close-plants-in-indiana-pennsylvania"
+closed_note = "Flexsteel closed its New Paris plant in 2008 (WARN notice for 157 workers effective Nov 9, 2008), moving production to Dubuque, Iowa."
+closed = "2008"
 
 sector = "Vehicles & RVs"
 products = ["Motor Vehicle Seating and Interior Trim Manufacturing"]

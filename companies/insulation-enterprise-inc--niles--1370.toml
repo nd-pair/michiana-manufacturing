@@ -8,6 +8,8 @@ state = "MI"
 address = "1370 Maple Street, Niles, MI 49120"
 lat = 41.82487
 lon = -86.24227
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Name and address searches returned no listing for this company or any occupant at 1370 Maple Street."
+presumed_closed = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["Mineral Wool Manufacturing"]

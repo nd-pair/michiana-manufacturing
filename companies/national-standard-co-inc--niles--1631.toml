@@ -8,6 +8,9 @@ state = "MI"
 address = "1631 Lake Street, Niles, MI 49120"
 lat = 41.84157
 lon = -86.23548
+closed_source = "https://leaderpub.com/?p=892615"
+closed_note = "Local news reported National Standard (wire maker, 1631 Lake St) announced closure of its Niles plant in March 2024 after 117 years."
+closed = "2024"
 
 sector = "Medical devices & other"
 products = ["Lead Pencil and Art Good Manufacturing"]

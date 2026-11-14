@@ -9,6 +9,8 @@ address = "2950 Redfield Road, Niles, MI 49120"
 lat = 41.76759
 lon = -86.15203
 website = "https://hessindustries.com"
+presumed_closed_reason = "Verification check: renamed or acquired, but the new name is not tied to this address (Fontijne Formitt, Inc. (Formitt Metal Lab)). Hess ceased operations in 2012 and a Dutch company bought its IP and renamed the Niles plant Fontijne Formitt; hessindustries.com now redirects to a HugeDomains sale page. Source: https://www.leaderpub.com/?p=711662"
+presumed_closed = "2026-11-13"
 
 sector = "Mechatronics & automation"
 products = ["Machine Tool (metal Forming Types) Manufacturing"]

@@ -8,6 +8,8 @@ state = "IN"
 address = "1030 North Merrifield Avenue, Mishawaka, IN 46545"
 lat = 41.67038
 lon = -86.16690
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Only an undated SuperPages entry for 'Welded Products Division Van Co' at 1030 N Merrifield Ave was found, with no current evidence of operation. Source: https://www.superpages.com/argos-in/welders"
+presumed_closed = "2026-11-13"
 
 sector = "Metal"
 products = ["All Other Miscellaneous Fabricated Metal Product Manufacturing"]
