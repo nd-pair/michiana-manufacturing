@@ -13,7 +13,7 @@ presumed_closed = "2026-11-13"
 
 sector = "Metal"
 products = ["Metal Stamping"]
-naics = "332116"
+naics = "332119"
 
 employees = 15
 employees_scope = "site"
@@ -21,7 +21,7 @@ employees_year = 2022
 employees_quality = "estimate"
 employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
-description = "Metal Stampings. NAICS 332116: metal stamping."
+description = "Metal Stampings. NAICS 332119: metal crown, closure, and other metal stamping (except automotive)."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"

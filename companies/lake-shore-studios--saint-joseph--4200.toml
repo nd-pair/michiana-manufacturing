@@ -14,7 +14,7 @@ presumed_closed = "2026-11-13"
 
 sector = "Electronics"
 products = ["Other Lighting Equipment Manufacturing"]
-naics = "335129"
+naics = "335139"
 
 employees = 150
 employees_scope = "site"
@@ -22,7 +22,7 @@ employees_year = 2022
 employees_quality = "estimate"
 employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
-description = "Lighting Equipment & Shades. NAICS 335129: other lighting equipment manufacturing."
+description = "Lighting Equipment & Shades. NAICS 335139: electric lamp bulb and other lighting equipment manufacturing."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"

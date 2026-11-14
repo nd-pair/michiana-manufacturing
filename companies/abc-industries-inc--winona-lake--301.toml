@@ -14,7 +14,7 @@ verified = "2026-11-13"
 
 sector = "Mechatronics & automation"
 products = ["Industrial and Commercial Fan and Blower Manufacturing"]
-naics = "333412"
+naics = "333413"
 
 employees = 75
 employees_scope = "site"
@@ -22,7 +22,7 @@ employees_year = 2022
 employees_quality = "estimate"
 employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
-description = "Corporate Headquarters & Underground Mine, Industrial & Tunnel Ventilation Ducting, Vinyl Reinforced Laminated Fabrics. NAICS 333412: industrial and commercial fan and blower manufacturing."
+description = "Corporate Headquarters & Underground Mine, Industrial & Tunnel Ventilation Ducting, Vinyl Reinforced Laminated Fabrics. NAICS 333413: industrial and commercial fan and blower and air purification equipment manufacturing."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"

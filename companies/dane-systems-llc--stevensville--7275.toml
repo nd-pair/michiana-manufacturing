@@ -14,7 +14,7 @@ formerly = "Dane Systems, LLC"
 
 sector = "Mechatronics & automation"
 products = ["Baling machinery (e.g., paper, scrap metal) manufacturing"]
-naics = "333999"
+naics = "333998"
 
 employees = 34
 employees_scope = "site"
@@ -22,7 +22,7 @@ employees_year = 2025
 employees_quality = "reported"
 employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
-description = "NAICS 333999: baling machinery (e.g., paper, scrap metal) manufacturing."
+description = "NAICS 333998: all other miscellaneous general purpose machinery manufacturing."
 
 source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor); the earlier record at this address came from HIFLD"
 updated = "2026-11-13"

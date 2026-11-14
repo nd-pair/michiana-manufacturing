@@ -18,7 +18,7 @@ humanoid_note = "Lippert's Power Gear designs RV leveling and slide-out linear a
 
 sector = "Mechatronics & automation"
 products = ["Pump and Pumping Equipment Manufacturing"]
-naics = "333911"
+naics = "333914"
 
 employees = 130
 employees_scope = "site"
@@ -26,7 +26,7 @@ employees_year = 2022
 employees_quality = "estimate"
 employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
-description = "Hydraulic Pumps. NAICS 333911: pump and pumping equipment manufacturing."
+description = "Hydraulic Pumps. NAICS 333914: measuring, dispensing, and other pumping equipment manufacturing."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"

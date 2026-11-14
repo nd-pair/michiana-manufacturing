@@ -13,7 +13,7 @@ osha_id = "1474612"
 
 sector = "Mechatronics & automation"
 products = ["Air Purification Equipment Manufacturing"]
-naics = "333411"
+naics = "333413"
 
 employees = 52
 employees_scope = "site"
@@ -21,7 +21,7 @@ employees_year = 2025
 employees_quality = "reported"
 employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
-description = "Natural Fiber Air Filters for HVAC Systems. NAICS 333411: air purification equipment manufacturing."
+description = "Natural Fiber Air Filters for HVAC Systems. NAICS 333413: industrial and commercial fan and blower and air purification equipment manufacturing."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"

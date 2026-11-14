@@ -12,7 +12,7 @@ website = "https://scottbrass.com"
 
 sector = "Metal"
 products = ["Copper Rolling, Drawing, and Extruding"]
-naics = "331421"
+naics = "331420"
 
 employees = 70
 employees_scope = "site"
@@ -20,7 +20,7 @@ employees_year = 2022
 employees_quality = "estimate"
 employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
-description = "Brass Stripping. NAICS 331421: copper rolling, drawing, and extruding."
+description = "Brass Stripping. NAICS 331420: copper rolling, drawing, extruding, and alloying."
 
 closed = "2011-06"
 closed_note = "Biditup auctioned the former bankruptcy assets of Scott Brass, Inc., including the rolling mill and real estate at 700 S. Union St., Mishawaka, on June 22, 2011, after a 2008 WARN layoff of 107 workers."

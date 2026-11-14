@@ -12,7 +12,7 @@ website = "https://daltonfoundries.com"
 
 sector = "Metal"
 products = ["Other Nonferrous Foundries (except Die-Casting)"]
-naics = "331528"
+naics = "331529"
 
 employees = 1000
 employees_scope = "site"
@@ -20,7 +20,7 @@ employees_year = 2022
 employees_quality = "estimate"
 employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
-description = "Corporate Headquarters & Gray Iron Castings. NAICS 331528: other nonferrous foundries (except die-casting)."
+description = "Corporate Headquarters & Gray Iron Castings. NAICS 331529: other nonferrous metal foundries (except die-casting)."
 
 closed = "2026-04"
 closed_note = "Parent First Brands Group filed an Indiana WARN notice on Dec. 29, 2025 to permanently close the Dalton Warsaw foundry (about 260 jobs), and News Now Warsaw reported on April 13, 2026 that production had ended; the WARN notice gives the plant address as 1900 E Jefferson St rather than 3755 Lake City Highway."

@@ -14,7 +14,7 @@ verified = "2026-11-13"
 
 sector = "Medical devices & other"
 products = ["Costume Jewelry and Novelty Manufacturing"]
-naics = "339914"
+naics = "339910"
 
 employees = 16
 employees_scope = "site"
@@ -22,7 +22,7 @@ employees_year = 2022
 employees_quality = "estimate"
 employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
-description = "Jewelry, Belts, Scarves, Perfumes, Bath & Body Products. NAICS 339914: costume jewelry and novelty manufacturing."
+description = "Jewelry, Belts, Scarves, Perfumes, Bath & Body Products. NAICS 339910: jewelry and silverware manufacturing."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"

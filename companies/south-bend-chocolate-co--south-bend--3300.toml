@@ -14,7 +14,7 @@ status_note = "Moved from 3300 West Sample Street, South Bend, IN 46619; found i
 
 sector = "Food & consumer goods"
 products = ["Confectionery Manufacturing From Purchased Chocolate"]
-naics = "311330"
+naics = "311352"
 
 employees = 40
 employees_scope = "site"
@@ -22,7 +22,7 @@ employees_year = 2022
 employees_quality = "estimate"
 employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
-description = "Chocolate Candies. NAICS 311330: confectionery manufacturing from purchased chocolate."
+description = "Chocolate Candies. NAICS 311352: confectionery manufacturing from purchased chocolate."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"

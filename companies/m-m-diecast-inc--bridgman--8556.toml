@@ -16,7 +16,7 @@ unconfirmed = "2026-11-14"
 
 sector = "Metal"
 products = ["Nonferrous (except Aluminum) Die-Casting Foundries"]
-naics = "331522"
+naics = "331523"
 
 employees = 30
 employees_scope = "site"
@@ -24,7 +24,7 @@ employees_year = 2022
 employees_quality = "estimate"
 employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
-description = "Aluminum Die Castings. NAICS 331522: nonferrous (except aluminum) die-casting foundries."
+description = "Aluminum Die Castings. NAICS 331523: nonferrous metal die-casting foundries."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"

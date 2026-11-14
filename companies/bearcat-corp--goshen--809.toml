@@ -14,7 +14,7 @@ status_note = "Moved from 809 Logan Street, Goshen, IN 46528; found in a verific
 
 sector = "Metal"
 products = ["Primary Aluminum Production"]
-naics = "331312"
+naics = "331313"
 
 employees = 30
 employees_scope = "site"
@@ -22,7 +22,7 @@ employees_year = 2022
 employees_quality = "estimate"
 employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
-description = "Aluminum Snowmobile Covers, Marine Ladders, Pontoon Mini & Hard Tops & Flatbed & Enclosed Trailers. NAICS 331312: primary aluminum production."
+description = "Aluminum Snowmobile Covers, Marine Ladders, Pontoon Mini & Hard Tops & Flatbed & Enclosed Trailers. NAICS 331313: alumina refining and primary aluminum production."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"

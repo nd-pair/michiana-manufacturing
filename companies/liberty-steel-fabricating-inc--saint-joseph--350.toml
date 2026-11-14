@@ -13,7 +13,7 @@ formerly = "Liberty Steel Fabricating, Inc."
 
 sector = "Metal"
 products = ["Iron and Steel Mills"]
-naics = "331111"
+naics = "331110"
 
 employees = 20
 employees_scope = "site"
@@ -21,7 +21,7 @@ employees_year = 2022
 employees_quality = "estimate"
 employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
-description = "Steel Fabrication for Medical & Food Processing Equipment & Laser Cutting & Precision Forming. NAICS 331111: iron and steel mills."
+description = "Steel Fabrication for Medical & Food Processing Equipment & Laser Cutting & Precision Forming. NAICS 331110: iron and steel mills and ferroalloy manufacturing."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"

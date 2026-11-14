@@ -13,7 +13,7 @@ osha_id = "1169351"
 
 sector = "Vehicles & RVs"
 products = ["All Other Motor Vehicle Parts Manufacturing"]
-naics = "336399"
+naics = "336390"
 
 employees = 38
 employees_scope = "site"
@@ -21,7 +21,7 @@ employees_year = 2025
 employees_quality = "reported"
 employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
-description = "Recreational Vehicle Striping, Die Cutting & Screen Printing. NAICS 336399: all other motor vehicle parts manufacturing."
+description = "Recreational Vehicle Striping, Die Cutting & Screen Printing. NAICS 336390: other motor vehicle parts manufacturing."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"

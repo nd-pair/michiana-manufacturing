@@ -15,7 +15,7 @@ status_note = "Moved from 65906 State Road 19, Wakarusa, IN 46573: the company's
 
 sector = "Vehicles & RVs"
 products = ["Light Truck and Utility Vehicle Manufacturing"]
-naics = "336112"
+naics = "336110"
 
 employees = 777
 employees_scope = "site"
@@ -23,7 +23,7 @@ employees_year = 2025
 employees_quality = "reported"
 employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
-description = "Parcel Delivery & Walk-In Vans, Aluminum Truck Bodies & Service Vehicles. NAICS 336112: light truck and utility vehicle manufacturing."
+description = "Parcel Delivery & Walk-In Vans, Aluminum Truck Bodies & Service Vehicles. NAICS 336110: automobile and light duty motor vehicle manufacturing."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"

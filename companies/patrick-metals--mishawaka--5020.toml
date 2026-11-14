@@ -14,7 +14,7 @@ verified = "2026-11-13"
 
 sector = "Metal"
 products = ["Other Aluminum Rolling and Drawing"]
-naics = "331319"
+naics = "331318"
 
 employees = 135
 employees_scope = "site"
@@ -22,7 +22,7 @@ employees_year = 2022
 employees_quality = "estimate"
 employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
-description = "Aluminum Extrusions & Paints. NAICS 331319: other aluminum rolling and drawing."
+description = "Aluminum Extrusions & Paints. NAICS 331318: other aluminum rolling, drawing, and extruding."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"

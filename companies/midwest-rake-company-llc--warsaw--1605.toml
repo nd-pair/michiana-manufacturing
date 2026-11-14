@@ -15,7 +15,7 @@ status_note = "Moved from 1605 West Center Street, Warsaw, IN 46580: the company
 
 sector = "Metal"
 products = ["Hand and Edge Tool Manufacturing"]
-naics = "332212"
+naics = "332216"
 
 employees = 35
 employees_scope = "site"
@@ -23,7 +23,7 @@ employees_year = 2022
 employees_quality = "estimate"
 employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
-description = "Long Handled Tools for Lawn & Garden, Landscaping, Irrigation, Sports Turf, Concrete Repair, Asphalt. NAICS 332212: hand and edge tool manufacturing."
+description = "Long Handled Tools for Lawn & Garden, Landscaping, Irrigation, Sports Turf, Concrete Repair, Asphalt. NAICS 332216: saw blade and handtool manufacturing."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"

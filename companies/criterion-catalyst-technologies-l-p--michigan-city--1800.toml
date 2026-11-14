@@ -14,7 +14,7 @@ osha_id = "741660"
 
 sector = "Materials & composites"
 products = ["All Other Basic Inorganic Chemical Manufacturing"]
-naics = "325188"
+naics = "325180"
 
 employees = 50
 employees_scope = "site"
@@ -22,7 +22,7 @@ employees_year = 2025
 employees_quality = "reported"
 employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
-description = "Precipitated Alumina Powders. NAICS 325188: all other basic inorganic chemical manufacturing."
+description = "Precipitated Alumina Powders. NAICS 325180: other basic inorganic chemical manufacturing."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-12"

@@ -16,7 +16,7 @@ unconfirmed = "2026-11-14"
 
 sector = "Wood, paper & furniture"
 products = ["Other Commercial Printing"]
-naics = "323119"
+naics = "323111"
 
 employees = 162
 employees_scope = "site"
@@ -24,7 +24,7 @@ employees_year = 2022
 employees_quality = "estimate"
 employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
-description = "Commercial Lithographic, Flexographic & Digital Printing, Including Contract Packaging & Fulfillment Services. NAICS 323119: other commercial printing."
+description = "Commercial Lithographic, Flexographic & Digital Printing, Including Contract Packaging & Fulfillment Services. NAICS 323111: commercial printing (except screen and books)."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"

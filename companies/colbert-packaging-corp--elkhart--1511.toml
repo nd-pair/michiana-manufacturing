@@ -13,7 +13,7 @@ osha_id = "1443642"
 
 sector = "Wood, paper & furniture"
 products = ["Setup Paperboard Box Manufacturing"]
-naics = "322213"
+naics = "322219"
 
 employees = 122
 employees_scope = "site"
@@ -21,7 +21,7 @@ employees_year = 2025
 employees_quality = "reported"
 employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
-description = "Rigid Paper Boxes, Folding Cartons & Game Boards. NAICS 322213: setup paperboard box manufacturing."
+description = "Rigid Paper Boxes, Folding Cartons & Game Boards. NAICS 322219: other paperboard container manufacturing."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"

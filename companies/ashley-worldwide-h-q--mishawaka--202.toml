@@ -14,7 +14,7 @@ presumed_closed = "2026-11-13"
 
 sector = "Food & consumer goods"
 products = ["Men's and Boys' Cut and Sew Work Clothing Manufacturing"]
-naics = "315225"
+naics = "315250"
 
 employees = 60
 employees_scope = "site"
@@ -22,7 +22,7 @@ employees_year = 2022
 employees_quality = "estimate"
 employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
-description = "Company Headquarters; Uniform Jackets, Parkas & Rainwear for Law Enforcement, Public Safety & Ems Personnel. NAICS 315225: men's and boys' cut and sew work clothing manufacturing."
+description = "Company Headquarters; Uniform Jackets, Parkas & Rainwear for Law Enforcement, Public Safety & Ems Personnel. NAICS 315250: cut and sew apparel manufacturing (except contractors)."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"

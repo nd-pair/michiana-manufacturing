@@ -14,7 +14,7 @@ presumed_closed = "2026-11-13"
 
 sector = "Electronics"
 products = ["Commercial, Industrial, and Institutional Electric Lighting Fixture Manufacturing"]
-naics = "335122"
+naics = "335132"
 
 employees = 23
 employees_scope = "site"
@@ -22,7 +22,7 @@ employees_year = 2022
 employees_quality = "estimate"
 employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
-description = "Residential & Commercial Lighting Fixtures. NAICS 335122: commercial, industrial, and institutional electric lighting fixture manufacturing."
+description = "Residential & Commercial Lighting Fixtures. NAICS 335132: commercial, industrial, and institutional electric lighting fixture manufacturing."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"

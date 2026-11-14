@@ -14,7 +14,7 @@ verified = "2026-11-14"
 
 sector = "Wood, paper & furniture"
 products = ["Setup Paperboard Box Manufacturing"]
-naics = "322213"
+naics = "322219"
 
 employees = 75
 employees_scope = "site"
@@ -22,7 +22,7 @@ employees_year = 2022
 employees_quality = "estimate"
 employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
-description = "Rigid Set-Up Paperboard Jewelry & Mailing Boxes. NAICS 322213: setup paperboard box manufacturing."
+description = "Rigid Set-Up Paperboard Jewelry & Mailing Boxes. NAICS 322219: other paperboard container manufacturing."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"

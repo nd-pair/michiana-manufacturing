@@ -14,7 +14,7 @@ osha_id = "1501061"
 
 sector = "Metal"
 products = ["Metal Stamping"]
-naics = "332116"
+naics = "332119"
 
 employees = 29
 employees_scope = "site"
@@ -22,7 +22,7 @@ employees_year = 2025
 employees_quality = "reported"
 employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
-description = "Metal Stampings & Fabrication, Including Small Tanks, Sheet Metal Fabrication, Tubing Coils & Stamping. NAICS 332116: metal stamping."
+description = "Metal Stampings & Fabrication, Including Small Tanks, Sheet Metal Fabrication, Tubing Coils & Stamping. NAICS 332119: metal crown, closure, and other metal stamping (except automotive)."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"

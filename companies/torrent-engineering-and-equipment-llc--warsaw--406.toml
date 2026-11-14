@@ -12,7 +12,7 @@ osha_id = "1417678"
 
 sector = "Mechatronics & automation"
 products = ["Water purification equipment manufacturing"]
-naics = "333318"
+naics = "333310"
 
 employees = 12
 employees_scope = "site"
@@ -20,7 +20,7 @@ employees_year = 2025
 employees_quality = "reported"
 employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
-description = "NAICS 333318: water purification equipment manufacturing."
+description = "NAICS 333310: commercial and service industry machinery manufacturing."
 
 source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
 updated = "2026-11-13"

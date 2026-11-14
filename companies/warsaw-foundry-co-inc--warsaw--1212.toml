@@ -14,7 +14,7 @@ verified = "2026-11-13"
 
 sector = "Metal"
 products = ["Other Nonferrous Foundries (except Die-Casting)"]
-naics = "331528"
+naics = "331529"
 
 employees = 45
 employees_scope = "site"
@@ -22,7 +22,7 @@ employees_year = 2022
 employees_quality = "estimate"
 employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
-description = "Gray Iron Castings. NAICS 331528: other nonferrous foundries (except die-casting)."
+description = "Gray Iron Castings. NAICS 331529: other nonferrous metal foundries (except die-casting)."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"

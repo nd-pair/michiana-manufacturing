@@ -12,7 +12,7 @@ osha_id = "1250578"
 
 sector = "Wood, paper & furniture"
 products = ["Tradebinding and Related Work"]
-naics = "323121"
+naics = "323120"
 
 employees = 44
 employees_scope = "site"
@@ -20,7 +20,7 @@ employees_year = 2025
 employees_quality = "reported"
 employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
-description = "Bag Film Printing, Laminating & Converting. NAICS 323121: tradebinding and related work."
+description = "Bag Film Printing, Laminating & Converting. NAICS 323120: support activities for printing."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"

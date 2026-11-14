@@ -12,7 +12,7 @@ osha_id = "1032857"
 
 sector = "Wood, paper & furniture"
 products = ["Trusses, wood roof or floor, manufacturing"]
-naics = "321214"
+naics = "321215"
 
 employees = 29
 employees_scope = "site"
@@ -20,7 +20,7 @@ employees_year = 2025
 employees_quality = "reported"
 employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
-description = "NAICS 321214: trusses, wood roof or floor, manufacturing."
+description = "NAICS 321215: engineered wood member manufacturing."
 
 source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
 updated = "2026-11-13"

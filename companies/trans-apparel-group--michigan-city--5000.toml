@@ -12,7 +12,7 @@ website = "https://hartmarx.com"
 
 sector = "Food & consumer goods"
 products = ["Men's and Boys' Cut and Sew Other Outerwear Manufacturing"]
-naics = "315228"
+naics = "315250"
 
 employees = 100
 employees_scope = "site"
@@ -20,7 +20,7 @@ employees_year = 2022
 employees_quality = "estimate"
 employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
-description = "Men's Clothing. NAICS 315228: men's and boys' cut and sew other outerwear manufacturing."
+description = "Men's Clothing. NAICS 315250: cut and sew apparel manufacturing (except contractors)."
 
 closed = 2009-11-04
 closed_note = "Trans-Apparel Group, operating as Jaymar-Ruby, Inc. (a Hartmarx business), shut down its Michigan City operations on November 4, 2009. HIFLD still lists the facility."

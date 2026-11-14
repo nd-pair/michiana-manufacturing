@@ -14,7 +14,7 @@ formerly = "Crosbie Foundry Co., Inc."
 
 sector = "Wood, paper & furniture"
 products = ["Laminated structural wood members (except trusses) manufacturing"]
-naics = "321213"
+naics = "321215"
 
 employees = 44
 employees_scope = "site"
@@ -22,7 +22,7 @@ employees_year = 2025
 employees_quality = "reported"
 employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
-description = "NAICS 321213: laminated structural wood members (except trusses) manufacturing."
+description = "NAICS 321215: engineered wood member manufacturing."
 
 source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor); the earlier record at this address came from HIFLD"
 updated = "2026-11-13"

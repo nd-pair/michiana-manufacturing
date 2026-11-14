@@ -14,7 +14,7 @@ osha_id = "556759"
 
 sector = "Vehicles & RVs"
 products = ["Gasoline Engine and Engine Parts Manufacturing"]
-naics = "336312"
+naics = "336310"
 
 employees = 250
 employees_scope = "site"
@@ -22,7 +22,7 @@ employees_year = 2025
 employees_quality = "reported"
 employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
-description = "Automotive Exhaust Systems. NAICS 336312: gasoline engine and engine parts manufacturing."
+description = "Automotive Exhaust Systems. NAICS 336310: motor vehicle gasoline engine and engine parts manufacturing."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"

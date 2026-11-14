@@ -16,7 +16,7 @@ verified = "2026-11-13"
 
 sector = "Mechatronics & automation"
 products = ["Sawmill and Woodworking Machinery Manufacturing"]
-naics = "333210"
+naics = "333243"
 
 employees = 30
 employees_scope = "site"
@@ -24,7 +24,7 @@ employees_year = 2022
 employees_quality = "estimate"
 employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
-description = "Band Saws. NAICS 333210: sawmill and woodworking machinery manufacturing."
+description = "Band Saws. NAICS 333243: sawmill, woodworking, and paper machinery manufacturing."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"

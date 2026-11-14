@@ -15,7 +15,7 @@ uei = "KMTNJVHPS1N9"
 
 sector = "Metal"
 products = ["Spring (heavy Gauge) Manufacturing"]
-naics = "332611"
+naics = "332613"
 
 employees = 50
 employees_scope = "site"
@@ -23,7 +23,7 @@ employees_year = 2022
 employees_quality = "estimate"
 employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
-description = "Precision Springs. NAICS 332611: spring (heavy gauge) manufacturing."
+description = "Precision Springs. NAICS 332613: spring manufacturing."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"

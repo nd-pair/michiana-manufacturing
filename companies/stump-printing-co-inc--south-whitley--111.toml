@@ -12,7 +12,7 @@ website = "https://stumpsprom.com"
 
 sector = "Wood, paper & furniture"
 products = ["Other Commercial Printing"]
-naics = "323119"
+naics = "323111"
 
 employees = 400
 employees_scope = "site"
@@ -20,7 +20,7 @@ employees_year = 2022
 employees_quality = "estimate"
 employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
-description = "Party, Promo & Banquet Supplies. NAICS 323119: other commercial printing."
+description = "Party, Promo & Banquet Supplies. NAICS 323111: commercial printing (except screen and books)."
 
 closed = 2021-12-15
 closed_note = "Stump Printing (Stumps, renamed Shindigz in 2006) suspended operations on 2021-12-15 and a January 2022 WPTA/Inside Indiana Business report says South Whitley plant workers were told the owner was shutting down, with no reopening reported since (Wikipedia lists it defunct 2021)."

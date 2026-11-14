@@ -13,7 +13,7 @@ osha_id = "1209572"
 
 sector = "Metal"
 products = ["Iron and Steel Mills"]
-naics = "331111"
+naics = "331110"
 
 employees = 51
 employees_scope = "site"
@@ -21,7 +21,7 @@ employees_year = 2025
 employees_quality = "reported"
 employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
-description = "Steel & Coil Slitting & Cut-To-Length. NAICS 331111: iron and steel mills."
+description = "Steel & Coil Slitting & Cut-To-Length. NAICS 331110: iron and steel mills and ferroalloy manufacturing."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"

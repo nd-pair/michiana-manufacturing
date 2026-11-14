@@ -14,7 +14,7 @@ presumed_closed = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Commercial Lithographic Printing"]
-naics = "323110"
+naics = "323111"
 
 employees = 20
 employees_scope = "site"
@@ -22,7 +22,7 @@ employees_year = 2022
 employees_quality = "estimate"
 employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
-description = "Web & Sheet Fed Offset Printing. NAICS 323110: commercial lithographic printing."
+description = "Web & Sheet Fed Offset Printing. NAICS 323111: commercial printing (except screen and books)."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"

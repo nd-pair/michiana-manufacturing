@@ -13,7 +13,7 @@ osha_id = "1263645"
 
 sector = "Metal"
 products = ["Enameled Iron and Metal Sanitary Ware Manufacturing"]
-naics = "332998"
+naics = "332999"
 
 employees = 66
 employees_scope = "site"
@@ -21,7 +21,7 @@ employees_year = 2025
 employees_quality = "reported"
 employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
-description = "Plumbing Drainage Products. NAICS 332998: enameled iron and metal sanitary ware manufacturing."
+description = "Plumbing Drainage Products. NAICS 332999: all other miscellaneous fabricated metal product manufacturing."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"

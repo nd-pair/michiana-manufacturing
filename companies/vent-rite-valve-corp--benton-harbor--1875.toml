@@ -12,7 +12,7 @@ osha_id = "1418203"
 
 sector = "Mechatronics & automation"
 products = ["Pump and Pumping Equipment Manufacturing"]
-naics = "333911"
+naics = "333914"
 
 employees = 48
 employees_scope = "site"
@@ -20,7 +20,7 @@ employees_year = 2025
 employees_quality = "reported"
 employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
-description = "Condensate & Boiler Feed Pumps & Control Panels. NAICS 333911: pump and pumping equipment manufacturing."
+description = "Condensate & Boiler Feed Pumps & Control Panels. NAICS 333914: measuring, dispensing, and other pumping equipment manufacturing."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"

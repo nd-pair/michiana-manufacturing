@@ -13,7 +13,7 @@ presumed_closed = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Truss Manufacturing"]
-naics = "321214"
+naics = "321215"
 
 employees = 25
 employees_scope = "site"
@@ -21,7 +21,7 @@ employees_year = 2022
 employees_quality = "estimate"
 employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
-description = "Roof Trusses. NAICS 321214: truss manufacturing."
+description = "Roof Trusses. NAICS 321215: engineered wood member manufacturing."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"

@@ -18,6 +18,7 @@ What the script does:
 Re-running is safe: existing files are never overwritten.
 """
 import datetime, json, os, re, sys, tomllib, urllib.parse, urllib.request
+from common import naics_2022
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 P = lambda *a: os.path.join(ROOT, *a)
@@ -159,7 +160,7 @@ def main():
             lines.append("website = %s" % q("https://" + dom))
         lines += ["", "sector = %s" % q(sector), "products = [%s]" % ", ".join(q(t) for t in tags)]
         if naics6:
-            lines.append("naics = %s" % q(naics6))
+            lines.append("naics = %s" % q(naics_2022(naics6)))   # HIFLD carries 2002-2017 codes
         lines.append("")
         if a.get("emp"):
             lines += ["employees = %d" % int(a["emp"]), 'employees_scope = "site"', "employees_year = %d" % HIFLD_YEAR, 'employees_quality = "estimate"',

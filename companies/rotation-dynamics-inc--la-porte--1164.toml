@@ -14,7 +14,7 @@ presumed_closed = "2026-11-13"
 
 sector = "Mechatronics & automation"
 products = ["Printing Machinery and Equipment Manufacturing"]
-naics = "333293"
+naics = "333248"
 
 employees = 30
 employees_scope = "site"
@@ -22,7 +22,7 @@ employees_year = 2022
 employees_quality = "estimate"
 employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
-description = "Rubber Printing Rollers. NAICS 333293: printing machinery and equipment manufacturing."
+description = "Rubber Printing Rollers. NAICS 333248: all other industrial machinery manufacturing."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"

@@ -14,7 +14,7 @@ removed = "2026-11-13"
 
 sector = "Mechatronics & automation"
 products = ["Machine Tool (metal Forming Types) Manufacturing"]
-naics = "333513"
+naics = "333517"
 
 employees = 17
 employees_scope = "site"
@@ -22,7 +22,7 @@ employees_year = 2022
 employees_quality = "estimate"
 employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
-description = "Die Casting Machines. NAICS 333513: machine tool (metal forming types) manufacturing."
+description = "Die Casting Machines. NAICS 333517: machine tool manufacturing."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"

@@ -14,7 +14,7 @@ presumed_closed = "2026-11-13"
 
 sector = "Vehicles & RVs"
 products = ["Vehicular Lighting Equipment Manufacturing"]
-naics = "336321"
+naics = "336320"
 
 employees = 25
 employees_scope = "site"
@@ -22,7 +22,7 @@ employees_year = 2022
 employees_quality = "estimate"
 employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
-description = "Marine, RV & Automobile Lighting. NAICS 336321: vehicular lighting equipment manufacturing."
+description = "Marine, RV & Automobile Lighting. NAICS 336320: motor vehicle electrical and electronic equipment manufacturing."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"

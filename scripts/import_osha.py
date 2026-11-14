@@ -37,7 +37,7 @@ What the script does:
 Re-running is safe: existing files are never overwritten, only the fields above are set.
 """
 import csv, datetime, io, json, os, re, sys, time, tomllib, urllib.parse, urllib.request, zipfile
-from common import P, COUNTIES, companies, norm, company_path, set_field, del_field, set_list
+from common import P, COUNTIES, companies, norm, company_path, set_field, del_field, set_list, naics_2022
 from import_hifld import SECTOR_BY_NAICS3, titlecase, slug, q
 
 SOURCE = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
@@ -223,6 +223,8 @@ def main(args):
         sys.exit(__doc__)
     zips = json.load(open(P("data", "region_zips.json")))["zips"]
     regional = [r for r in rows_from(files[0]) if r.get("state") in ("IN", "MI") and (r.get("zip_code") or "")[:5] in zips]
+    for r in regional:   # filers use several NAICS editions; keep one (2022)
+        r["naics_code"] = naics_2022(r.get("naics_code"))
     keep = [r for r in regional if (r.get("naics_code") or "")[:2] in ("31", "32", "33")]
     # filings under other codes (a modular builder as construction, a fastener maker as a wholesaler): used below only
     # to refresh the headcount of a file at the same address with a shared name word, never to add or rename files

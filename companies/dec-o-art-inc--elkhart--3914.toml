@@ -13,7 +13,7 @@ osha_id = "1441100"
 
 sector = "Wood, paper & furniture"
 products = ["Die-Cut Paper and Paperboard Office Supplies Manufacturing"]
-naics = "322231"
+naics = "322230"
 
 employees = 53
 employees_scope = "site"
@@ -21,7 +21,7 @@ employees_year = 2025
 employees_quality = "reported"
 employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
-description = "Tags, Labels & Decals. NAICS 322231: die-cut paper and paperboard office supplies manufacturing."
+description = "Tags, Labels & Decals. NAICS 322230: stationery product manufacturing."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"

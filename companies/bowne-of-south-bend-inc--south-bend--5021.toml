@@ -12,7 +12,7 @@ website = "https://bowne.com"
 
 sector = "Wood, paper & furniture"
 products = ["Other Commercial Printing"]
-naics = "323119"
+naics = "323111"
 
 employees = 90
 employees_scope = "site"
@@ -20,7 +20,7 @@ employees_year = 2022
 employees_quality = "estimate"
 employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
-description = "Financial Printing. NAICS 323119: other commercial printing."
+description = "Financial Printing. NAICS 323111: commercial printing (except screen and books)."
 
 closed = "2011-07"
 closed_note = "Indianapolis Business Journal reported on June 2, 2011 that R.R. Donnelley, which had bought Bowne, would close the South Bend printing plant that summer with about 100 jobs lost (trade press gave a start date of about July 24, 2011, and a WARN notice was filed)."

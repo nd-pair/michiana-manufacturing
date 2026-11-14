@@ -14,7 +14,7 @@ unconfirmed = "2026-11-14"
 
 sector = "Mechatronics & automation"
 products = ["Machine Tool (metal Cutting Types) Manufacturing"]
-naics = "333512"
+naics = "333517"
 
 employees = 19
 employees_scope = "site"
@@ -22,7 +22,7 @@ employees_year = 2022
 employees_quality = "estimate"
 employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
-description = "Metal Cutting Machine Tools. NAICS 333512: machine tool (metal cutting types) manufacturing."
+description = "Metal Cutting Machine Tools. NAICS 333517: machine tool manufacturing."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"

@@ -14,7 +14,7 @@ presumed_closed = "2026-11-13"
 
 sector = "Food & consumer goods"
 products = ["Curtain and Drapery Mills"]
-naics = "314121"
+naics = "314120"
 
 employees = 55
 employees_scope = "site"
@@ -22,7 +22,7 @@ employees_year = 2022
 employees_quality = "estimate"
 employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
-description = "Draperies & Bedspreads. NAICS 314121: curtain and drapery mills."
+description = "Draperies & Bedspreads. NAICS 314120: curtain and linen mills."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"

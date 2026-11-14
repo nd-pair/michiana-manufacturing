@@ -13,7 +13,7 @@ osha_id = "1506836"
 
 sector = "Wood, paper & furniture"
 products = ["Paper (except Newsprint) Mills"]
-naics = "322121"
+naics = "322120"
 
 employees = 80
 employees_scope = "site"
@@ -21,7 +21,7 @@ employees_year = 2025
 employees_quality = "reported"
 employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
-description = "Paper. NAICS 322121: paper (except newsprint) mills."
+description = "Paper. NAICS 322120: paper mills."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"

@@ -17,7 +17,7 @@ humanoid_note = "Orthodontic products; HIFLD files it under optical instruments 
 
 sector = "Mechatronics & automation"
 products = ["Optical Instrument and Lens Manufacturing"]
-naics = "333314"
+naics = "333310"
 
 employees = 350
 employees_scope = "site"
@@ -25,7 +25,7 @@ employees_year = 2022
 employees_quality = "estimate"
 employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
-description = "Corporate Headquarters & Orthodontic Appliances. NAICS 333314: optical instrument and lens manufacturing."
+description = "Corporate Headquarters & Orthodontic Appliances. NAICS 333310: commercial and service industry machinery manufacturing."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"

@@ -13,7 +13,7 @@ osha_id = "56213"
 
 sector = "Wood, paper & furniture"
 products = ["Commercial Lithographic Printing"]
-naics = "323110"
+naics = "323111"
 
 employees = 23
 employees_scope = "site"
@@ -21,7 +21,7 @@ employees_year = 2025
 employees_quality = "reported"
 employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
-description = "Offset & Color Printing. NAICS 323110: commercial lithographic printing."
+description = "Offset & Color Printing. NAICS 323111: commercial printing (except screen and books)."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"

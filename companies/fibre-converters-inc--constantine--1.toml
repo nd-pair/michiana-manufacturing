@@ -16,7 +16,7 @@ verified = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Coated and Laminated Paper Manufacturing"]
-naics = "322222"
+naics = "322220"
 
 employees = 100
 employees_scope = "site"
@@ -24,7 +24,7 @@ employees_year = 2022
 employees_quality = "estimate"
 employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
-description = "Solid Fiber Paperboard Laminating. NAICS 322222: coated and laminated paper manufacturing."
+description = "Solid Fiber Paperboard Laminating. NAICS 322220: paper bag and coated and treated paper manufacturing."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"

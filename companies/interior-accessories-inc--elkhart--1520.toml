@@ -13,7 +13,7 @@ presumed_closed = "2026-11-13"
 
 sector = "Food & consumer goods"
 products = ["Men's and Boys' Cut and Sew Apparel Contractors"]
-naics = "315211"
+naics = "315210"
 
 employees = 60
 employees_scope = "site"
@@ -21,7 +21,7 @@ employees_year = 2022
 employees_quality = "estimate"
 employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
-description = "Contract Sewing, Window Coverings, Mini Blinds & Shades. NAICS 315211: men's and boys' cut and sew apparel contractors."
+description = "Contract Sewing, Window Coverings, Mini Blinds & Shades. NAICS 315210: cut and sew apparel contractors."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"

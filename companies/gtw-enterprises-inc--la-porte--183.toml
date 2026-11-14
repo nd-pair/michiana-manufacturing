@@ -14,7 +14,7 @@ status_note = "Moved from 183 West 800 North, La Porte, IN 46350; found in a ver
 
 sector = "Mechatronics & automation"
 products = ["Paper Industry Machinery Manufacturing"]
-naics = "333291"
+naics = "333243"
 
 employees = 19
 employees_scope = "site"
@@ -22,7 +22,7 @@ employees_year = 2022
 employees_quality = "estimate"
 employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
-description = "Paper Converting & Honeycombing Machinery. NAICS 333291: paper industry machinery manufacturing."
+description = "Paper Converting & Honeycombing Machinery. NAICS 333243: sawmill, woodworking, and paper machinery manufacturing."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"

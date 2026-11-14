@@ -14,7 +14,7 @@ verified = "2026-11-13"
 
 sector = "Mechatronics & automation"
 products = ["Industrial and Commercial Fan and Blower Manufacturing"]
-naics = "333412"
+naics = "333413"
 
 employees = 30
 employees_scope = "site"
@@ -22,7 +22,7 @@ employees_year = 2022
 employees_quality = "estimate"
 employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
-description = "Extruded Polypropylene Plastic Continuous Ridge, Soffit & Siding Ventilation Products. NAICS 333412: industrial and commercial fan and blower manufacturing."
+description = "Extruded Polypropylene Plastic Continuous Ridge, Soffit & Siding Ventilation Products. NAICS 333413: industrial and commercial fan and blower and air purification equipment manufacturing."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"

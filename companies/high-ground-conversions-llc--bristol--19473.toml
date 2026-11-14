@@ -12,7 +12,7 @@ osha_id = "1518001"
 
 sector = "Vehicles & RVs"
 products = ["Vans, commercial and passenger light duty, assembling on chassis of own manufacture"]
-naics = "336112"
+naics = "336110"
 
 employees = 9
 employees_scope = "site"
@@ -21,7 +21,7 @@ employees_quality = "reported"
 employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 parent = "Bontrager Industries, LLC"
-description = "NAICS 336112: vans, commercial and passenger light duty, assembling on chassis of own manufacture."
+description = "NAICS 336110: automobile and light duty motor vehicle manufacturing."
 
 source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
 updated = "2026-11-14"

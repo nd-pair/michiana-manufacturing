@@ -9,6 +9,17 @@ COUNTIES = {"18141": "St. Joseph, IN", "18039": "Elkhart, IN", "18099": "Marshal
             "26021": "Berrien, MI", "26027": "Cass, MI", "26159": "Van Buren, MI"}
 SUFFIXES = r"\b(inc|incorporated|llc|l l c|corp|corporation|co|company|ltd|lp|llp|the|of|usa|us|group|holdings|intl|international|mfg|manufacturing|industries|enterprises|div|division|plant|plt)\b"
 
+_CONCORDANCE = {}
+
+def naics_2022(code):
+    """A manufacturing NAICS code from an older edition (2002-2017) as its NAICS 2022 code, from
+    data/naics_concordance.json (scripts/make_naics_concordance.py); other codes come back unchanged."""
+    code = str(code or "").strip()
+    if not _CONCORDANCE and os.path.exists(P("data", "naics_concordance.json")):
+        import json
+        _CONCORDANCE.update(json.load(open(P("data", "naics_concordance.json")))["codes"])
+    return _CONCORDANCE.get(code, code)
+
 def norm(s):
     s = re.sub(r"[^a-z0-9 ]", " ", (s or "").lower())
     s = re.sub(SUFFIXES, " ", s)

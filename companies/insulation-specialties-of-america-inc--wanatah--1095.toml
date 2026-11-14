@@ -14,7 +14,7 @@ verified = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["Vitreous China, Fine Earthenware, and Other Pottery Product Manufacturing"]
-naics = "327112"
+naics = "327110"
 
 employees = 40
 employees_scope = "site"
@@ -22,7 +22,7 @@ employees_year = 2022
 employees_quality = "estimate"
 employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
-description = "Vacuum Formed Ceramic Fiber Parts. NAICS 327112: vitreous china, fine earthenware, and other pottery product manufacturing."
+description = "Vacuum Formed Ceramic Fiber Parts. NAICS 327110: pottery, ceramics, and plumbing fixture manufacturing."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"

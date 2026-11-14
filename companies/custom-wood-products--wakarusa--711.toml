@@ -14,7 +14,7 @@ verified = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Metal Household Furniture Manufacturing"]
-naics = "337124"
+naics = "337126"
 
 employees = 75
 employees_scope = "site"
@@ -22,7 +22,7 @@ employees_year = 2022
 employees_quality = "estimate"
 employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
-description = "Hardwood Dining, End & Coffee Tables & Chairs & Upholstered Chairs. NAICS 337124: metal household furniture manufacturing."
+description = "Hardwood Dining, End & Coffee Tables & Chairs & Upholstered Chairs. NAICS 337126: household furniture (except wood and upholstered) manufacturing."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"

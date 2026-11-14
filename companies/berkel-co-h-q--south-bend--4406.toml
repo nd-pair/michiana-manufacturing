@@ -16,7 +16,7 @@ unconfirmed = "2026-11-14"
 
 sector = "Mechatronics & automation"
 products = ["Other Commercial and Service Industry Machinery Manufacturing"]
-naics = "333319"
+naics = "333310"
 
 employees = 30
 employees_scope = "site"
@@ -24,7 +24,7 @@ employees_year = 2022
 employees_quality = "estimate"
 employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
-description = "Company Headquarters; Slicing Machines, Mixers, Tenderizers & Choppers. NAICS 333319: other commercial and service industry machinery manufacturing."
+description = "Company Headquarters; Slicing Machines, Mixers, Tenderizers & Choppers. NAICS 333310: commercial and service industry machinery manufacturing."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"

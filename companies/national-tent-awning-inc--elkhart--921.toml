@@ -13,7 +13,7 @@ presumed_closed = "2026-11-13"
 
 sector = "Food & consumer goods"
 products = ["Canvas and Related Product Mills"]
-naics = "314912"
+naics = "314910"
 
 employees = 25
 employees_scope = "site"
@@ -21,7 +21,7 @@ employees_year = 2022
 employees_quality = "estimate"
 employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
-description = "Canvas Trailers & Pop-Up Campers Tents. NAICS 314912: canvas and related product mills."
+description = "Canvas Trailers & Pop-Up Campers Tents. NAICS 314910: textile bag and canvas mills."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"

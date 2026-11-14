@@ -13,7 +13,7 @@ verified = "2026-11-13"
 
 sector = "Metal"
 products = ["Iron and Steel Mills"]
-naics = "331111"
+naics = "331110"
 
 employees = 15
 employees_scope = "site"
@@ -21,7 +21,7 @@ employees_year = 2022
 employees_quality = "estimate"
 employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
-description = "Structural Steel Fabrication. NAICS 331111: iron and steel mills."
+description = "Structural Steel Fabrication. NAICS 331110: iron and steel mills and ferroalloy manufacturing."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"

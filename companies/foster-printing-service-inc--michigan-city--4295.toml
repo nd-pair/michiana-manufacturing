@@ -12,7 +12,7 @@ website = "https://fosterprintingservice.com"
 
 sector = "Wood, paper & furniture"
 products = ["Other Commercial Printing"]
-naics = "323119"
+naics = "323111"
 
 employees = 105
 employees_scope = "site"
@@ -20,7 +20,7 @@ employees_year = 2022
 employees_quality = "estimate"
 employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
-description = "Printing. NAICS 323119: other commercial printing."
+description = "Printing. NAICS 323111: commercial printing (except screen and books)."
 
 closed = 2017-05-31
 closed_note = "Printing Impressions reported on May 19, 2017 that Mossberg & Co. bought Foster's assets and the Michigan City plant would close May 31, 2017."

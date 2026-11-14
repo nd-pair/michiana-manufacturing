@@ -13,7 +13,7 @@ formerly = "Millennium Industries"
 
 sector = "Vehicles & RVs"
 products = ["All Other Motor Vehicle Parts Manufacturing"]
-naics = "336399"
+naics = "336390"
 
 employees = 275
 employees_scope = "site"
@@ -21,7 +21,7 @@ employees_year = 2022
 employees_quality = "estimate"
 employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
-description = "Automotive Fuel Rails, Including Low & High Pressure Systems. NAICS 336399: all other motor vehicle parts manufacturing."
+description = "Automotive Fuel Rails, Including Low & High Pressure Systems. NAICS 336390: other motor vehicle parts manufacturing."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"

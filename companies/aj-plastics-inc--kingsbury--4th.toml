@@ -13,7 +13,7 @@ presumed_closed = "2026-11-13"
 
 sector = "Metal"
 products = ["Enameled Iron and Metal Sanitary Ware Manufacturing"]
-naics = "332998"
+naics = "332999"
 
 employees = 35
 employees_scope = "site"
@@ -21,7 +21,7 @@ employees_year = 2022
 employees_quality = "estimate"
 employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
-description = "Plumbing Parts & Plastic Molding. NAICS 332998: enameled iron and metal sanitary ware manufacturing."
+description = "Plumbing Parts & Plastic Molding. NAICS 332999: all other miscellaneous fabricated metal product manufacturing."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"

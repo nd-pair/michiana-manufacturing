@@ -17,7 +17,7 @@ status_note = "Walsworth bought IPC Print Services in 2010."
 
 sector = "Wood, paper & furniture"
 products = ["Other Commercial Printing"]
-naics = "323119"
+naics = "323111"
 
 employees = 151
 employees_scope = "site"
@@ -25,7 +25,7 @@ employees_year = 2025
 employees_quality = "reported"
 employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025 (filed as \"Saint Joseph\")"
 
-description = "Catalog & Magazine Printing. NAICS 323119: other commercial printing."
+description = "Catalog & Magazine Printing. NAICS 323111: commercial printing (except screen and books)."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-12"

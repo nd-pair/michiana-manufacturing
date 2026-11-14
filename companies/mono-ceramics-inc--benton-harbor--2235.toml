@@ -12,7 +12,7 @@ osha_id = "1498124"
 
 sector = "Materials & composites"
 products = ["Clay Refractory Manufacturing"]
-naics = "327124"
+naics = "327120"
 
 employees = 35
 employees_scope = "site"
@@ -20,7 +20,7 @@ employees_year = 2025
 employees_quality = "reported"
 employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
-description = "Refractory Products. NAICS 327124: clay refractory manufacturing."
+description = "Refractory Products. NAICS 327120: clay building material and refractories manufacturing."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"

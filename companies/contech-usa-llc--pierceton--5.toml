@@ -14,7 +14,7 @@ presumed_closed = "2026-11-13"
 
 sector = "Vehicles & RVs"
 products = ["Gasoline Engine and Engine Parts Manufacturing"]
-naics = "336312"
+naics = "336310"
 
 employees = 200
 employees_scope = "site"
@@ -22,7 +22,7 @@ employees_year = 2022
 employees_quality = "estimate"
 employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
-description = "Die-Cast Automotive Engines & Suspensions. NAICS 336312: gasoline engine and engine parts manufacturing."
+description = "Die-Cast Automotive Engines & Suspensions. NAICS 336310: motor vehicle gasoline engine and engine parts manufacturing."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"

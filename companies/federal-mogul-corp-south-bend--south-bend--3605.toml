@@ -14,7 +14,7 @@ osha_id = "808794"
 
 sector = "Vehicles & RVs"
 products = ["Carburetor, Piston, Piston Ring, and Valve Manufacturing"]
-naics = "336311"
+naics = "336310"
 
 employees = 125
 employees_scope = "site"
@@ -22,7 +22,7 @@ employees_year = 2025
 employees_quality = "reported"
 employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
-description = "Automotive Pistons. NAICS 336311: carburetor, piston, piston ring, and valve manufacturing."
+description = "Automotive Pistons. NAICS 336310: motor vehicle gasoline engine and engine parts manufacturing."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"

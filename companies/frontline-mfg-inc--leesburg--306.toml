@@ -17,7 +17,7 @@ verified = "2026-11-14"
 
 sector = "Materials & composites"
 products = ["Vitreous China Plumbing Fixture and China and Earthenware Bathroom Accessories Manufacturing"]
-naics = "327111"
+naics = "327110"
 
 employees = 120
 employees_scope = "site"
@@ -25,7 +25,7 @@ employees_year = 2022
 employees_quality = "estimate"
 employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
-description = "Corporate Headquarters & Bathtubs & Shower Stalls. NAICS 327111: vitreous china plumbing fixture and china and earthenware bathroom accessories manufacturing."
+description = "Corporate Headquarters & Bathtubs & Shower Stalls. NAICS 327110: pottery, ceramics, and plumbing fixture manufacturing."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"

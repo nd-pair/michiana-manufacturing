@@ -14,7 +14,7 @@ closed = "2024"
 
 sector = "Medical devices & other"
 products = ["Lead Pencil and Art Good Manufacturing"]
-naics = "339942"
+naics = "339940"
 
 employees = 200
 employees_scope = "site"
@@ -22,7 +22,7 @@ employees_year = 2022
 employees_quality = "estimate"
 employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
-description = "Corporate Headquarters & Wire. NAICS 339942: lead pencil and art good manufacturing."
+description = "Corporate Headquarters & Wire. NAICS 339940: office supplies (except paper) manufacturing."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"

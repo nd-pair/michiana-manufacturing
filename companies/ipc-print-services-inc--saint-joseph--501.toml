@@ -14,7 +14,7 @@ presumed_closed = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Prepress Services"]
-naics = "323122"
+naics = "323120"
 
 employees = 400
 employees_scope = "site"
@@ -22,7 +22,7 @@ employees_year = 2022
 employees_quality = "estimate"
 employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
-description = "Corporate Headquarters & Electronic Prepress, Publication & Catalog Printing, Assembly, Packaging & Fulfillment. NAICS 323122: prepress services."
+description = "Corporate Headquarters & Electronic Prepress, Publication & Catalog Printing, Assembly, Packaging & Fulfillment. NAICS 323120: support activities for printing."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"

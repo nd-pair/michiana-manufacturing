@@ -13,7 +13,7 @@ osha_id = "1565326"
 
 sector = "Metal"
 products = ["Nonferrous (except Aluminum) Die-Casting Foundries"]
-naics = "331522"
+naics = "331523"
 
 employees = 35
 employees_scope = "site"
@@ -21,7 +21,7 @@ employees_year = 2025
 employees_quality = "reported"
 employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
-description = "Die Casting. NAICS 331522: nonferrous (except aluminum) die-casting foundries."
+description = "Die Casting. NAICS 331523: nonferrous metal die-casting foundries."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"

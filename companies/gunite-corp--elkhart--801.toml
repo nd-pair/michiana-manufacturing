@@ -15,7 +15,7 @@ closed = "2013"
 
 sector = "Vehicles & RVs"
 products = ["All Other Motor Vehicle Parts Manufacturing"]
-naics = "336399"
+naics = "336390"
 
 employees = 450
 employees_scope = "site"
@@ -23,7 +23,7 @@ employees_year = 2022
 employees_quality = "estimate"
 employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
-description = "Commercial Truck Wheel Parts. NAICS 336399: all other motor vehicle parts manufacturing."
+description = "Commercial Truck Wheel Parts. NAICS 336390: other motor vehicle parts manufacturing."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"

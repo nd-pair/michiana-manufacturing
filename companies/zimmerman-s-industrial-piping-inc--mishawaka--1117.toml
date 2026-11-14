@@ -13,7 +13,7 @@ presumed_closed = "2026-11-13"
 
 sector = "Mechatronics & automation"
 products = ["All Other Miscellaneous General Purpose Machinery Manufacturing"]
-naics = "333999"
+naics = "333998"
 
 employees = 18
 employees_scope = "site"
@@ -21,7 +21,7 @@ employees_year = 2022
 employees_quality = "estimate"
 employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
-description = "Industrial, Food Grade & Process Piping Systems. NAICS 333999: all other miscellaneous general purpose machinery manufacturing."
+description = "Industrial, Food Grade & Process Piping Systems. NAICS 333998: all other miscellaneous general purpose machinery manufacturing."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"

@@ -14,7 +14,7 @@ status_note = "Moved from 1139 All Pro Drive, Elkhart, IN 46514; found in a veri
 
 sector = "Materials & composites"
 products = ["Inorganic Dye and Pigment Manufacturing"]
-naics = "325131"
+naics = "325130"
 
 employees = 40
 employees_scope = "site"
@@ -22,7 +22,7 @@ employees_year = 2022
 employees_quality = "estimate"
 employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
-description = "Plastic Pigments, Dispersions & Foaming Agents. NAICS 325131: inorganic dye and pigment manufacturing."
+description = "Plastic Pigments, Dispersions & Foaming Agents. NAICS 325130: synthetic dye and pigment manufacturing."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
