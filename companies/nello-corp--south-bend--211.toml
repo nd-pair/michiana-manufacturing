@@ -9,6 +9,7 @@ address = "211 West Washington Street, South Bend, IN 46601"
 lat = 41.67664
 lon = -86.25252
 website = "https://nelloinc.com"
+status_note = "The OSHA filing gives 211 W Washington St, Nello's downtown office; its tower plant is on South Bend's west side (accuracy audit, November 2026). The map shows the office address until the plant's address is confirmed."
 osha_id = "1441960"
 
 sector = "Metal"

@@ -9,6 +9,8 @@ address = "Market Street, Warsaw, IN 46580"
 lat = 41.23727
 lon = -85.85572
 website = "https://timesuniononline.com"
+removed_reason = "not a production site: the family company that owns the Warsaw Times-Union newspaper, a publisher, not a plant (accuracy audit, November 2026; source: https://inkfreenews.com/?p=194554)"
+removed = "2026-11-14"
 
 sector = "Wood, paper & furniture"
 products = ["Other Commercial Printing"]

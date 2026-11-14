@@ -8,7 +8,9 @@ state = "MI"
 address = "2101 Industrial Drive, Niles, MI 49120"
 lat = 41.84970
 lon = -86.22605
-verified = "2026-11-13"
+closed_source = "https://www.michigan.gov/documents/wda/WARN-DELTA_INDUSTRIAL_VA_001_549591_7.pdf"
+closed_note = "Weir closed the Delta Industrial Valves plant in Niles on June 30, 2017 and moved production to St. Louis (Michigan WARN notice)."
+closed = "2017-06-30"
 status_note = "Moved from 801 Carberry Road, Niles, MI 49120; found in a verification check (2026-11-13): Delta Industrial Valves (owned by Weir Group since 2015) is listed at 2101 Industrial Dr, Niles, and no source places it at 801 Carberry Rd."
 
 sector = "Metal"

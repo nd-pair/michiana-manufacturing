@@ -9,6 +9,8 @@ address = "3607 South Main Street, South Bend, IN 46614"
 lat = 41.63759
 lon = -86.25211
 website = "https://praxair.com"
+removed_reason = "not a production site: now Linde Gas & Equipment, a gas distribution branch, not a plant (accuracy audit, November 2026; source: https://www.thefabricator.com/thefabricator/news/consumables/praxair-distribution-changes-name-to-linde-gas-equipment)"
+removed = "2026-11-14"
 
 sector = "Materials & composites"
 products = ["Industrial Gas Manufacturing"]

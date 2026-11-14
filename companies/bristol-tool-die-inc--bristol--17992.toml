@@ -5,9 +5,11 @@ name = "Bristol Tool & Die, Inc."
 kind = "company"
 city = "Bristol"
 state = "IN"
-address = "17992 Commerce Drive, Bristol, IN 46507"
-lat = 41.72907
-lon = -85.80337
+address = "689 Commerce Drive, Bristol, IN 46507"
+lat = 41.72975
+lon = -85.80011
+verified = "2026-11-14"
+status_note = "Address corrected to 689 Commerce Drive in the November 2026 accuracy audit (job post May 2026); nothing is listed at 17992 Commerce Drive."
 
 sector = "Mechatronics & automation"
 products = ["Special Die and Tool, Die Set, Jig, and Fixture Manufacturing"]

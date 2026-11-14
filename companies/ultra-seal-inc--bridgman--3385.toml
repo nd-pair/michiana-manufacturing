@@ -8,6 +8,8 @@ state = "MI"
 address = "3385 Livingston Road, Bridgman, MI 49106"
 lat = 41.96855
 lon = -86.53541
+removed_reason = "not a production site: the business at this address is a one-truck carrier, not a manufacturer (accuracy audit, November 2026; source: https://bubba.ai/trucking-companies/michigan/bridgman/ultra-seal-inc-552372)"
+removed = "2026-11-14"
 
 sector = "Materials & composites"
 products = ["Adhesive Manufacturing"]
