@@ -9,7 +9,8 @@ address = "1400 E Angela Blvd, Ste 220, South Bend, IN 46617"
 lat = 41.69313
 lon = -86.22930
 website = "http://www.3degreescompany.com"
-uei = "Q43UC7ZWQA55"
+removed_reason = "duplicate: 3Degrees is already on the map as companies/traceam.toml (TraceAM / 3Degrees, 1400 E Angela Blvd); the SBIR import did not match the names. Its UEI and website moved to that file."
+removed = "2026-11-14"
 
 sector = "Materials & composites"
 products = ["SBIR/STTR research and development"]
