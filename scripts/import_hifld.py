@@ -119,8 +119,12 @@ def main():
         if n.endswith(".toml"):
             c = tomllib.load(open(P("companies", n), "rb"))
             existing_names.add(norm_name(c["name"]))
-            if c.get("website"):
-                existing_domains.add(domain(c["website"]))
+            for old in (c.get("formerly") or "").split(";"):   # a renamed file still stands for its HIFLD record
+                if old.strip():
+                    existing_names.add(norm_name(re.sub(r"\(h ?q\)", "(HQ)", old.strip(), flags=re.I)))
+            for k in ("website", "former_website"):            # a retired link still identifies the company
+                if c.get(k):
+                    existing_domains.add(domain(c[k]))
     feats = fetch()
     written, skipped_dup, skipped_county, skipped_exists = 0, [], 0, 0
     for f in feats:
@@ -166,7 +170,7 @@ def main():
             with open(P("companies", fname), "w", encoding="utf-8") as fh:
                 fh.write("\n".join(lines))
         existing_files.add(fname); written += 1
-    print("fetched %d; outside Michiana counties %d; duplicates of hand-written entries %d; already imported %d; %s %d"
+    print("fetched %d; outside Michiana counties %d; already on file by name, former name or website %d; already imported %d; %s %d"
           % (len(feats), skipped_county, len(skipped_dup), skipped_exists, "would write" if dry else "written", written))
     if skipped_dup:
         print("skipped as duplicates:", "; ".join(sorted(set(skipped_dup))))
