@@ -8,6 +8,8 @@ state = "IN"
 address = "3235 Rosetta Place Dr Suite 4, South Bend, IN 46628"
 lat = 41.71346
 lon = -86.29442
+removed_reason = "not a plant: Champion Window's South Bend showroom (the company's own page, championwindow.com/South-Bend, lists 3235 Rosetta Pl Dr Suite 4 as its showroom). Champion files its sales and installation branches nationwide under the window maker's NAICS code 326121 in OSHA's data."
+removed = "2026-11-14"
 osha_id = "1192390"
 
 sector = "Materials & composites"

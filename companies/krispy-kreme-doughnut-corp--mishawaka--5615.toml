@@ -8,6 +8,8 @@ state = "IN"
 address = "5615 N Main Street, Mishawaka, IN 46545"
 lat = 41.71129
 lon = -86.17956
+removed_reason = "not a plant: Krispy Kreme shop #362, a retail doughnut shop listed on Krispy Kreme's store locator (site.krispykreme.com). All 155 of Krispy Kreme's 2025 OSHA filings, one per shop, use NAICS 311811, retail bakeries."
+removed = "2026-11-14"
 osha_id = "1506211"
 
 sector = "Food & consumer goods"
