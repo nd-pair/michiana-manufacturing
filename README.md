@@ -94,7 +94,8 @@ company website (domain gone, parked, redirected to another company) and writes 
 closing notices matched to a plant whose closing date has passed (`scripts/pull_warn.py`, monthly,
 `data/warn.json`; Michigan publishes no table), and plants that filed with OSHA one year but not the
 next. A dead website is a lead, not proof; confirm each
-closure from a dated source before marking it.
+closure from a dated source before marking it. Sample audits of the imported records, with every finding and its source, are in
+[`audits/`](audits/) (November 2026: 100 HIFLD records).
 
 **Positions.** If you give an address but no `lat`/`lon`, run `python3 scripts/geocode.py` and it
 looks the address up on OpenStreetMap and writes the coordinates into the file. Check the result
