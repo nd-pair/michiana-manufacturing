@@ -1,0 +1,26 @@
+# Ozinga Ready Mix Concrete, Inc.
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Ozinga Ready Mix Concrete, Inc."
+kind = "company"
+city = "Goshen"
+state = "IN"
+address = "65723 Lincoln Highway 33 E, Goshen, IN 46526"
+lat = 41.54183
+lon = -85.78011
+osha_id = "312779"
+
+sector = "Materials & composites"
+products = ["Central-mixed concrete manufacturing"]
+naics = "327320"
+
+employees = 22
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 327320: central-mixed concrete manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-14"

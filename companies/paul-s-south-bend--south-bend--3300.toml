@@ -8,6 +8,8 @@ state = "IN"
 address = "3300 S Main St, South Bend, IN 46614"
 lat = 41.64059
 lon = -86.25138
+removed_reason = "not a manufacturer: a self-service auto salvage yard; its OSHA filing uses a metal-container manufacturing code (NAICS 332439), found by the November 2026 review"
+removed = "2026-11-14"
 osha_id = "1440683"
 
 sector = "Metal"

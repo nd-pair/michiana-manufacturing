@@ -1,0 +1,28 @@
+# Paul's Auto Yard
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Paul's Auto Yard"
+kind = "company"
+city = "Knox"
+state = "IN"
+address = "10775 East SR 8, Knox, IN 46534"
+lat = 41.28772
+lon = -86.49025
+removed_reason = "not a manufacturer: a self-service auto salvage yard; its OSHA filing uses a metal-container manufacturing code (NAICS 332439), found by the November 2026 review"
+removed = "2026-11-14"
+osha_id = "1440715"
+
+sector = "Metal"
+products = ["Containers, light gauge metal (except cans), manufacturing"]
+naics = "332439"
+
+employees = 5
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 332439: containers, light gauge metal (except cans), manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-14"

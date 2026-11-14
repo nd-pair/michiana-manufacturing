@@ -1,0 +1,29 @@
+# Independent Protection Company dba Turtle Top
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Independent Protection Company dba Turtle Top"
+kind = "company"
+city = "New Paris"
+state = "IN"
+address = "1607 S. Main/ 118 W. Lafayette/ 67819 S.R. 15 (et al), New Paris, IN 46553"
+location_precision = "city"
+lat = 41.49349
+lon = -85.83707
+removed_reason = "duplicate: Turtle Top's company-wide OSHA filing for its New Paris plants, already on the map as companies/turtle-top--new-paris--67819.toml and --67895.toml"
+removed = "2026-11-14"
+osha_id = "88472"
+
+sector = "Vehicles & RVs"
+products = ["Bus bodies manufacturing"]
+naics = "336211"
+
+employees = 254
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 336211: bus bodies manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-14"

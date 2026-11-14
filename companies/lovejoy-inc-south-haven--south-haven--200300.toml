@@ -1,0 +1,27 @@
+# Lovejoy Inc South Haven
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Lovejoy Inc South Haven"
+kind = "company"
+city = "South Haven"
+state = "MI"
+address = "200300 Lovejoy Avenue, South Haven, MI 49090"
+location_precision = "city"
+lat = 42.38362
+lon = -86.27545
+osha_id = "160704"
+
+sector = "Mechatronics & automation"
+products = ["Manufacturing"]
+naics = "333613"
+
+employees = 88
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 333613: manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-14"

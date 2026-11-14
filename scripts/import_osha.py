@@ -108,18 +108,57 @@ def county_of(lat, lon):
                 return f["id"]
     return ""
 
+def cleaned(address):
+    """Variants of a filed address that geocoders read better: PO boxes and 'et al' lists dropped,
+    road abbreviations spelled out, a common typo fixed."""
+    a = re.sub(r"(?i),?\s*p\.?\s*o\.?\s*box\s*\d*", "", address)
+    a = re.sub(r"(?i)\s*/.*?(?=,)", "", a)                       # '1607 S. Main/ 118 W. Lafayette/ ... (et al)'
+    a = re.sub(r"(?i)\bBritol\b", "Bristol", a)
+    b = re.sub(r"(?i)\bCR\s*(\d+)\s*[NSEW]?\b", r"County Road \1", a)
+    b = re.sub(r"(?i)\bSR\s*(\d+)\b", r"State Road \1", b)
+    b = re.sub(r"(?i)\bM\s?-?(\d+)\b", r"M-\1", b)
+    b = re.sub(r"(?i)\bLincoln Highway (\d+)\b", r"US \1", b)
+    return [v for v in dict.fromkeys([a, b]) if v != address]
+
+def city_center(address):
+    """(lat, lon) of the address's city from data/places.toml, for a plant no geocoder can place."""
+    m = re.search(r",\s*([^,]+),\s*(IN|MI)\b", address)
+    if not m:
+        return None
+    try:
+        import tomllib
+        cities = {c["name"].lower().replace(" ", ""): (c["lat"], c["lon"]) for c in tomllib.load(open(P("data", "places.toml"), "rb"))["city"]}
+    except Exception:
+        return None
+    if m[1].lower().replace(" ", "") in cities:
+        return cities[m[1].lower().replace(" ", "")]
+    # a town not in data/places.toml: the median position of the plants already mapped in it
+    town = re.sub(r"(?i)^Britol$", "Bristol", m[1].strip()).lower().replace(" ", "")
+    pts = sorted((c["lat"], c["lon"]) for c in companies() if "lat" in c and (c.get("city") or "").lower().replace(" ", "") == town
+                 and c.get("location_precision", "address") == "address")
+    if len(pts) < 3:
+        return None
+    return (sorted(p[0] for p in pts)[len(pts) // 2], sorted(p[1] for p in pts)[len(pts) // 2])
+
 def geo(address):
     """(lat, lon, county FIPS): the Census geocoder first, then OpenStreetMap with the county from the
-    region's county outlines (the Census geocoder lacks many newer streets)."""
-    g = census_geo(address)
-    if g:
-        return g
+    region's county outlines (the Census geocoder lacks many newer streets), each also on a cleaned
+    form of the address."""
     try:
         from geocode import geocode
-        p = geocode(address)
     except Exception:
-        p = None
-    return (p[0], p[1], county_of(p[0], p[1])) if p else None
+        geocode = lambda a: None
+    for a in [address] + cleaned(address):
+        g = census_geo(a)
+        if g:
+            return g
+        try:
+            p = geocode(a)
+        except Exception:
+            p = None
+        if p:
+            return (p[0], p[1], county_of(p[0], p[1]))
+    return None
 
 def census_geo(address):
     """(lat, lon, county FIPS) from the Census geocoder, or None."""
@@ -343,6 +382,14 @@ def main(args):
             lines += ["parent = %s" % q(r["company_name"].strip())]
         lines += ["description = %s" % q("NAICS %s: %s." % (r["naics_code"], desc.lower() or "manufacturing")), "",
                   "source = %s" % q(SOURCE), 'updated = "%s"' % today, ""]
+        if g is None and not dry and city_center(address):
+            # no geocoder knows the street, but the filing is a real plant in a region city: place it at the city's center
+            cc = city_center(address)
+            lines = [l for l in lines if not l.startswith(("lat = ", "lon = "))]
+            lines.insert(lines.index('kind = "company"') + 4, 'location_precision = "city"')
+            lines.insert(lines.index('kind = "company"') + 5, "lat = %.5f" % cc[0]); lines.insert(lines.index('kind = "company"') + 6, "lon = %.5f" % cc[1])
+            g = (cc[0], cc[1], "")
+            nogeo.remove(next(x for x in nogeo if x.endswith(address))) if any(x.endswith(address) for x in nogeo) else None
         if g is None and not dry:
             continue   # not geocoded: listed below for a person to add by hand
         cid_new = re.sub(r"[^a-z0-9]+", "-", fname[:-5].lower()).strip("-")

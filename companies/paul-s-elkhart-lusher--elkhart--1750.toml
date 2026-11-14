@@ -8,6 +8,8 @@ state = "IN"
 address = "1750 W Lusher, Elkhart, IN 46517"
 lat = 41.66704
 lon = -85.99583
+removed_reason = "not a manufacturer: a self-service auto salvage yard; its OSHA filing uses a metal-container manufacturing code (NAICS 332439), found by the November 2026 review"
+removed = "2026-11-14"
 osha_id = "1440686"
 
 sector = "Metal"

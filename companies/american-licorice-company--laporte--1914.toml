@@ -1,0 +1,27 @@
+# American Licorice Company
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "American Licorice Company"
+kind = "company"
+city = "La Porte"
+state = "IN"
+address = "1914 Happiness Way, LaPorte, IN 46350"
+lon = -86.7225
+lat = 41.6106
+location_precision = "city"
+osha_id = "591536"
+
+sector = "Food & consumer goods"
+products = ["Confectionery, nonchocolate, manufacturing"]
+naics = "311340"
+
+employees = 330
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 311340: confectionery, nonchocolate, manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-14"

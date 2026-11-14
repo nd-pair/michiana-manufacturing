@@ -1,0 +1,27 @@
+# MJB Wood Group
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "MJB Wood Group"
+kind = "company"
+city = "Bristol"
+state = "IN"
+address = "103 Stonemont Court, Bristol, IN 46507"
+location_precision = "city"
+lat = 41.71981
+lon = -85.81277
+osha_id = "1441317"
+
+sector = "Wood, paper & furniture"
+products = ["Boards, wood, resawing purchased lumber"]
+naics = "321912"
+
+employees = 68
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 321912: boards, wood, resawing purchased lumber."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-14"

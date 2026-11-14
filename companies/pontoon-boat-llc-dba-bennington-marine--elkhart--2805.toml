@@ -1,0 +1,27 @@
+# Pontoon Boat LLC dba Bennington Marine
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Pontoon Boat LLC dba Bennington Marine"
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "2805 Decio Dr, Elkhart, IN 46514"
+lon = -85.9767
+lat = 41.682
+location_precision = "city"
+osha_id = "1345331"
+
+sector = "Vehicles & RVs"
+products = ["Motorboat, inboard or outboard, building"]
+naics = "336612"
+
+employees = 574
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 336612: motorboat, inboard or outboard, building."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-14"

@@ -1,0 +1,27 @@
+# Viaggio
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Viaggio"
+kind = "company"
+city = "Bristol"
+state = "IN"
+address = "1151 Lakota Lane, Bristol, IN 46507"
+location_precision = "city"
+lat = 41.71981
+lon = -85.81277
+osha_id = "1309027"
+
+sector = "Vehicles & RVs"
+products = ["Pleasure boats manufacturing"]
+naics = "336612"
+
+employees = 81
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 336612: pleasure boats manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-14"

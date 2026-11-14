@@ -1,0 +1,24 @@
+# Green Stream Company
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Green Stream Company"
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "2123 Middlebury Street, Elkhart, IN 46516"
+osha_id = "887686"
+
+sector = "Wood, paper & furniture"
+products = ["Pallet parts, wood, manufacturing"]
+naics = "321920"
+
+employees = 10
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 321920: pallet parts, wood, manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-14"

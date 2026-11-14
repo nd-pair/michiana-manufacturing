@@ -1,0 +1,27 @@
+# Herbruck Poultry Ranch Inc
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Herbruck Poultry Ranch Inc"
+kind = "company"
+city = "Topeka"
+state = "IN"
+address = "330 S Rainbow Rd, Topeka, IN 46571"
+location_precision = "city"
+lat = 41.53998
+lon = -85.54731
+osha_id = "951011"
+
+sector = "Food & consumer goods"
+products = ["other animal food manufacturing"]
+naics = "311119"
+
+employees = 6
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 311119: other animal food manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-14"

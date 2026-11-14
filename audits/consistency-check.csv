@@ -70,7 +70,23 @@ duplicate,companies/winona-powder-coating-inc--etna-green--9876.toml,"Winona Pow
 duplicate,companies/winona-powder-coating-inc--mentone--601.toml,"Winona Powder Coating, Inc.","9876 W Old Road 30, Etna Green, IN 46524","same address as Winona Powder Coating, Inc. (winona-powder-coating-inc--etna-green--9876.toml)"
 duplicate,companies/wire-design-inc--elkhart--2520.toml,"Wire Design, Inc.","3601 Charlotte Ave, Elkhart, IN 46517",same address as Sigma Wire & Components (sigma-wire-components--elkhart--3601.toml)
 location,companies/c-a-tool-engineering-inc--churubusco--4100.toml,"C&A Tool Engineering, Inc.","4100 U.S. Hwy 33, Churubusco, IN 46723","coordinates 41.2243, -85.3171 are in county 18003, outside the region"
+precision,companies/aluminum-trailer-company--nappanee--751.toml,Aluminum Trailer Company,"751 North Tomohawk Trail, Nappanee, IN 46550",placed at the center of Nappanee
+precision,companies/american-licorice-company--laporte--1914.toml,American Licorice Company,"1914 Happiness Way, LaPorte, IN 46350",placed at the center of La Porte
 precision,companies/autocam-medical--warsaw.toml,Autocam Medical,"Warsaw Technology Park, US 30, Warsaw, IN",placed at the center of Warsaw
+precision,companies/patrick-industries-inc-d-b-s-gravure-ink-laporte-in--la-porte--301.toml,Gravure Ink (Patrick Industries),"301 Enterprise Drive, La Porte, IN 46350",placed at the center of La Porte
+precision,companies/herbruck-poultry-ranch-inc--topeka--330.toml,Herbruck Poultry Ranch Inc,"330 S Rainbow Rd, Topeka, IN 46571",placed at the center of Topeka
+precision,companies/lakota-trailers--britol--807.toml,Lakota Trailers,"807 Lakota Lane, Bristol, IN 46507",placed at the center of Bristol
+precision,companies/lippert--topeka--320.toml,Lippert,"320 S Fought Ave., Topeka, IN 46571",placed at the center of Topeka
 precision,companies/lono-llc.toml,Lono LLC,,placed at the center of South Bend
+precision,companies/lovejoy-inc-south-haven--south-haven--200300.toml,Lovejoy Inc South Haven,"200300 Lovejoy Avenue, South Haven, MI 49090",placed at the center of South Haven
+precision,companies/mjb-wood-group--bristol--103.toml,MJB Wood Group,"103 Stonemont Court, Bristol, IN 46507",placed at the center of Bristol
+precision,companies/maverick-hardwoods--nappanee--1574.toml,Maverick Hardwoods,"1574 US Highway 6 W, Nappanee, IN 46550",placed at the center of Nappanee
+precision,companies/midwest-timer-service-inc--benton-harbor--4815.toml,"Midwest Timer Service, inc.","4815 N M63, Benton Harbor, MI 49022",placed at the center of Benton Harbor
+precision,companies/pontoon-boat-llc-dba-bennington-marine--elkhart--2805.toml,Pontoon Boat LLC dba Bennington Marine,"2805 Decio Dr, Elkhart, IN 46514",placed at the center of Elkhart
+precision,companies/quality-plastics-and-engineering-acquisition-corporation--elkhart--2507.toml,Quality Plastics and Engineering Acquisition Corporation,"2507 Decio Drive, Elkhart, IN 46514",placed at the center of Elkhart
 precision,companies/tessellated-inc.toml,Tessellated Inc.,"2501 Indiana Ct, Service Door 16B, South Bend, IN 46619",placed at the center of South Bend
+precision,companies/thor-motor-coach-inc--bristol--1220.toml,"Thor Motor Coach, Inc","1220 SOUTH MAPLE, Bristol, IN 46507",placed at the center of Bristol
+precision,companies/thor-motor-coach-inc--elkhart--604.toml,"Thor Motor Coach, Inc","604 MIDDLE RUN ROAD, Elkhart, IN 46516",placed at the center of Elkhart
+precision,companies/united-pet-food-manufacturing-llc--elkhart--30809.toml,"United Pet Food Manufacturing, LLC","30809 Corwin Street, Elkhart, IN 46514",placed at the center of Elkhart
+precision,companies/viaggio--bristol--1151.toml,Viaggio,"1151 Lakota Lane, Bristol, IN 46507",placed at the center of Bristol
 precision,companies/white-briar-corporation.toml,White Briar Corporation,"1900 Briar Rd, Niles, MI 49120",placed at the center of Niles
