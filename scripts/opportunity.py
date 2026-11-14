@@ -1,8 +1,9 @@
 """The Humanoid Deployment Benefit Index, from data/opportunity.toml and the pulled datasets. Used by build.py.
 
-Every part compares the region with the U.S. (100 = the U.S. average). A pillar is the mean of its
-parts; the index is the weighted geometric mean of the pillars, so a pillar near zero, or falling
-manufacturing jobs, pay or value added, pulls the whole index down.
+Every part except local supply compares the region with the U.S. (100 = the U.S. average); local supply
+has no U.S. benchmark and is scored against a fixed target (data/opportunity.toml, [supply] scale). A
+pillar is the mean of its parts; the index is the weighted geometric mean of the pillars, so a pillar
+near zero pulls it down, but gains in one pillar can offset losses in another, including in jobs and pay.
 """
 import math, tomllib
 from common import P

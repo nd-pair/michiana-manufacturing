@@ -347,10 +347,10 @@ function renderQcew(){const el=document.getElementById("qcew");document.querySel
   for(const e of ends)svg+=`<text class="lbl" x="${e.x+6}" y="${e.y+3}" fill="${e.s.color}">${esc(e.s.name)} ${st.qs==="idx"?Math.round(e.v):fmtK(Math.round(e.v))}</text>`;
   el.innerHTML=svg+`</svg>`;
   document.getElementById("qcewnote").textContent=`BLS QCEW, private, ${y0}–${y1}${st.qv==="sector"?" · lower bound, withheld cells":""}${st.qs==="idx"?" · "+y0+" = 100":""}`}
-/* ---------- humanoid deployment benefit index: every part against the U.S. (= 100) ---------- */
+/* ---------- humanoid deployment benefit index: five pillars against the U.S. (= 100); local supply against a fixed target ---------- */
 const GRADES=[["A",150],["B",125],["C",105],["D",95],["E",80],["F",60],["G",-Infinity]],grade=v=>v==null?null:GRADES.find(([,t])=>v>=t)[0];
 const BAND=["far ahead of the U.S.","well ahead of the U.S.","ahead of the U.S.","about the U.S. level","behind the U.S.","well behind the U.S.","far behind the U.S."],
-  gbadge=v=>{const g=grade(v);if(!g)return "";const t=`${Math.round(v)}: ${BAND[GRADES.findIndex(x=>x[0]===g)]} (U.S. = 100)`;return `<span class="mm-gsw g${g}" role="img" aria-label="${t}" title="${t}"></span>`};
+  gbadge=v=>{const g=grade(v);if(!g)return "";const t=`${Math.round(v)}: ${BAND[GRADES.findIndex(x=>x[0]===g)]} (100 = the U.S. level; for local supply, half the robot available locally)`;return `<span class="mm-gsw g${g}" role="img" aria-label="${t}" title="${t}"></span>`};
 /* Notre Dame's physical-AI research awards (federal prime awards and subawards) */
 function ndResearch(){const R=DATA.ndResearch;if(!R||!R.awards||!R.awards.length)return "";
   const A=R.awards,tot=A.reduce((a,x)=>a+x.amount,0),today=new Date().toISOString().slice(0,10),active=A.filter(x=>x.end&&x.end>=today),
@@ -377,7 +377,7 @@ function histSpark(pts,w,h){pts=pts.filter(([,v])=>v!=null).map(([k,v])=>[k,+v,k
     X=t=>p+(t-x0)/((x1-x0)||1)*(w-2*p),Y=v=>h-p-(v-lo)/((hi-lo)||1)*(h-2*p),last=pts[pts.length-1];
   return `<svg class="mm-hsp" viewBox="0 0 ${w} ${h}" width="${w}" height="${h}" role="img" aria-label="History: ${esc(pts.map(([k,v])=>k+" "+Math.round(v)).join(", "))}">
     <line class="ref" x1="${p}" x2="${w-p}" y1="${Y(100).toFixed(1)}" y2="${Y(100).toFixed(1)}"/><polyline points="${pts.map(x=>X(x[2]).toFixed(1)+","+Y(x[1]).toFixed(1)).join(" ")}"/>
-    ${pts.map(([k,v,t])=>`<circle class="hit" cx="${X(t).toFixed(1)}" cy="${Y(v).toFixed(1)}" r="5"><title>${esc(k)}: ${Math.round(v)} (U.S. = 100)</title></circle>`).join("")}
+    ${pts.map(([k,v,t])=>`<circle class="hit" cx="${X(t).toFixed(1)}" cy="${Y(v).toFixed(1)}" r="5"><title>${esc(k)}: ${Math.round(v)} (100 = the benchmark)</title></circle>`).join("")}
     <circle class="end g${grade(last[1])}" cx="${X(last[2]).toFixed(1)}" cy="${Y(last[1]).toFixed(1)}" r="2.6"/></svg>`};
 const lab=k=>k.length===4?k:monthName(k);
 const span=pts=>{const q=pts.filter(([,v])=>v!=null).slice().sort((a,b)=>a[0].localeCompare(b[0]));if(q.length<2)return "";const f=q[0],l=q[q.length-1];
@@ -389,12 +389,12 @@ function renderOpportunity(){const el=document.getElementById("opp"),O=DATA.oppo
   const phist=p=>Object.entries(p.history||{}).concat(prog.filter(([,v])=>v.pillars&&v.pillars[p.id]!=null).map(([m,v])=>[m,v.pillars[p.id]]));
   const xhist=(p,i)=>Object.entries(p.parts[i].history||{}).concat(prog.filter(([,v])=>v.parts&&v.parts[p.id]&&v.parts[p.id][i]!=null).map(([m,v])=>[m,v.parts[p.id][i]]));
   const ihist=prog.map(([m,v])=>[m,v.index]);
-  el.innerHTML=`<div class="mm-ohead"><div class="mm-oidx"><div class="k">Humanoid Deployment Benefit Index</div><div class="v">${O.index==null?"–":Math.round(O.index)} ${gbadge(O.index)}</div><div class="s">U.S. = 100 · ${ihist.length>1?histSpark(ihist,170,34)+" "+span(ihist):"tracked monthly from "+esc(monthName(Object.keys(HUM.progress||{})[0]||""))+"; the index needs every pillar, so its history starts there"}</div></div>
-    <p class="mm-fedsum">Where humanoid robots could make the region's manufacturers more competitive: taking on the hard, repetitive and hazardous work so the same or more people can make more complex, higher-mix products. Each pillar compares the region with the U.S.; the index is their geometric mean, so a weak pillar pulls it down. It estimates the benefit of deploying humanoids, not whether workers gain: <b>jobs and pay</b> is one pillar, and the index can still rise while it falls.</p></div>
+  el.innerHTML=`<div class="mm-ohead"><div class="mm-oidx"><div class="k">Humanoid Deployment Benefit Index</div><div class="v">${O.index==null?"–":Math.round(O.index)} ${gbadge(O.index)}</div><div class="s">100 = U.S. level on five pillars · ${ihist.length>1?histSpark(ihist,170,34)+" "+span(ihist):"tracked monthly from "+esc(monthName(Object.keys(HUM.progress||{})[0]||""))+"; the index needs every pillar, so its history starts there"}</div></div>
+    <p class="mm-fedsum">Where deploying humanoid robots could benefit the region's manufacturers most: how much local work is the hard, repetitive and hazardous kind a humanoid could take on, and how ready the region is to build and adopt them. Five pillars compare the region with the U.S. (= 100); <b>local supply</b> has no U.S. benchmark and is scored against a fixed target instead (half of a humanoid's cost available locally = 100). The index is their weighted geometric mean: a weak pillar pulls it down, but gains in one pillar can offset losses in another. It does not show that workers gain or keep their jobs: <b>jobs and pay</b> is one pillar, and the index can rise while it falls.</p></div>
     <div class="mm-opills">${O.pillars.map(p=>`<div class="mm-opill"><div class="hd"><b>${esc(p.name)}</b>${bar(p.score)}</div><div class="w">${esc(p.what)}</div>
       ${(()=>{const hp=phist(p);return hp.filter(([,v])=>v!=null).length>1?`<div class="mm-ohist">${histSpark(hp,220,38)}<span class="mm-olab">${span(hp)}</span></div>`:`<div class="mm-ohist"><span class="mm-mut">history starts with monthly tracking</span></div>`})()}
       ${p.parts.map((x,i)=>`<div class="pt"><span>${esc(x.name)}${x.note?` <small class="mm-mut">${esc(x.note)}</small>`:""}</span>${histSpark(xhist(p,i),84,22)}<span class="nums">${fmt(x.local,x.unit)}${x.us!=null?` <small class="mm-mut">vs U.S. ${fmt(x.us,x.unit)}</small>`:""}${x.score!=null?` <b>${Math.round(x.score)}</b> ${gbadge(x.score)}`:""}</span></div>`).join("")}</div>`).join("")}</div>
-    <div class="mm-gleg">${GRADES.map(([g,t],i)=>`<span title="${BAND[i]}"><span class="mm-gsw g${g}"></span>${i===0?"150 or more":i===GRADES.length-1?"under 60":t+"–"+(GRADES[i-1][1]-1)}</span>`).join("")}<span class="mm-mut">score against the U.S. average of 100 · yellow is about the U.S. level; orange and red: areas that need work</span></div>
+    <div class="mm-gleg">${GRADES.map(([g,t],i)=>`<span title="${BAND[i]}"><span class="mm-gsw g${g}"></span>${i===0?"150 or more":i===GRADES.length-1?"under 60":t+"–"+(GRADES[i-1][1]-1)}</span>`).join("")}<span class="mm-mut">100 = the U.S. level (local supply: half of the robot available locally) · yellow is about that level; orange and red: areas that need work</span></div>
     ${ndResearch()}
     <p class="mm-wnote">Task fit is scored per occupation on the Occupations tab. Jobs and pay: BLS OEWS May ${esc(String(O.oews_year||""))}, four metro areas. Industry, establishment and growth figures: BLS QCEW ${esc(String(O.qcew_year||""))}; age and turnover: Census Quarterly Workforce Indicators${O.qwi_quarters&&O.qwi_quarters.length?" ("+esc(O.qwi_quarters[O.qwi_quarters.length-1])+" to "+esc(O.qwi_quarters[0])+")":""}; value added: BEA ${esc(String(O.bea_year||""))}. Weights and lists are editable in data/opportunity.toml.</p>`}
 function renderOccHelp(){const el=document.getElementById("occ-help"),O=DATA.opportunity;if(!el||!O||!O.occupations)return;
@@ -416,7 +416,7 @@ function renderComparison(){const el=document.getElementById("cmp"),X=DATA.compa
   const max=Math.max(150,...rows.map(r=>r.index||0));
   const sc=v=>v==null?"–":`${Math.round(v)}${gbadge(v)}`;
   const months=Object.keys(X.history||{}).sort(),I=X.inputs||{};
-  document.getElementById("cmpnote").textContent=`${rows.length} regions · U.S. = 100 · updated ${X.updated||""}`;
+  document.getElementById("cmpnote").textContent=`${rows.length} regions · 100 = the U.S. level (local supply: a fixed target) · updated ${X.updated||""}`;
   el.innerHTML=`<p class="mm-fedsum">The Humanoid Deployment Benefit Index for metro areas of similar size, each with a well-known research university, computed the same way and from the same public sources as the region's own index above. Michiana is highlighted.</p>
     ${sortTable("cmp",[{key:"rank",label:"#",num:true,cell:r=>r.rank??"–"},
       {key:"name",label:"Region",cell:r=>`<b>${esc(r.name)}</b><br><small class="mm-mut">${esc(r.university||"")}</small>`},

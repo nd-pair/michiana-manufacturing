@@ -162,15 +162,17 @@ Without WebGL the map shows a notice and everything else still works. The page c
   Milestones (first local actuator line, first assembled humanoid) go in
   [`data/milestones.toml`](data/milestones.toml) and appear on the timeline.
 - **Humanoid Deployment Benefit Index.** The Physical AI outlook tab scores where humanoid robots
-  could make local manufacturers more competitive, not where they would replace people. Six
-  pillars compare the region with the U.S. (= 100): *task fit* (local jobs weighted by how much of
+  could benefit local manufacturers most. Five of its six pillars compare the region with the
+  U.S. (= 100); *local supply* has no U.S. benchmark and is scored against a fixed target (half of a
+  humanoid's cost available locally = 100). The pillars: *task fit* (local jobs weighted by how much of
   the work is handling parts, repetitive motion, awkward postures and hazards, from O*NET),
   *high-mix potential* (jobs in custom and short-run industries; smaller establishments),
   *labor pressure* (unemployment, workers aged 55+, turnover), *adoption readiness* (mechanics,
   electricians, technicians and engineers per 1,000 jobs), *local supply* (from the humanoid panel)
   and *jobs and pay* (manufacturing job and pay growth over five years, value added per job).
-  The index is the weighted geometric mean of the pillars. It does not show that workers gain:
-  the jobs-and-pay pillar can fall while the index rises, so read that pillar on its own. An occupation table lists local jobs, task fit, the work a humanoid could take on and
+  The index is the weighted geometric mean of the pillars, so gains in one can offset losses in
+  another. It does not show that workers gain or keep their jobs: the jobs-and-pay pillar can fall
+  while the index rises, so read that pillar on its own. An occupation table lists local jobs, task fit, the work a humanoid could take on and
   pay. Weights, traits, industry and occupation lists are in
   [`data/opportunity.toml`](data/opportunity.toml); `scripts/pull_workforce.py` pulls O*NET,
   the Census Bureau's Quarterly Workforce Indicators (bulk files, no key) and BEA county GDP; the
