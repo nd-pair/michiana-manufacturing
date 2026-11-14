@@ -10,7 +10,6 @@ lat = 41.69880
 lon = -86.30180
 removed_reason = "duplicate: the same plant as companies/masterbilt.toml (Masterbilt Inc.), found by the consistency check"
 removed = "2026-11-14"
-osha_id = "1566405"
 status_note = "Named from OSHA's 2025 Form 300A filing at this address; the earlier record here, Koontz-Wagner Electric Co., Inc. (HIFLD), is a predecessor or a former occupant."
 formerly = "Koontz-Wagner Electric Co., Inc."
 

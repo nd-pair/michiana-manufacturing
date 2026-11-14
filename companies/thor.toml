@@ -9,7 +9,6 @@ address = "52700 Independence Ct, Elkhart, IN 46514"
 lat = 41.72739
 lon = -85.88275
 website = "https://www.thorindustries.com"
-osha_id = "1174752"
 
 sector = "Vehicles & RVs"
 products = ["RV & specialty vehicle components", "High-mix assembly"]

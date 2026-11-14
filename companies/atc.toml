@@ -8,13 +8,15 @@ state = "IN"
 address = "1147 N Michigan St, Elkhart, IN 46514"
 lat = 41.69717
 lon = -85.98564
+employees_quality = "reported"
+employees_year = 2025
 osha_id = "1190948"
 
 sector = "Electronics"
 products = ["Printed circuit boards", "Ruggedized electronics", "Injection molding"]
 
-employees = 100
-employees_scope = "site"  # site = this location; company = company-wide
-employees_note = "about 100 associates per a 2024 job posting"
+employees = 160
+employees_scope = "site"
+employees_note = "OSHA Form 300A, annual average employees, 2025; previously about 100 per a 2024 job posting"
 
 description = "Printed-circuit-board and ruggedized electronics manufacturer: PCBs for automotive and marine electronics and injection-molded enclosures."

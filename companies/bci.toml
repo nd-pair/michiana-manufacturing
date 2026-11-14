@@ -9,14 +9,16 @@ address = "500 N Baltimore St, Bremen, IN 46506"
 lat = 41.45046
 lon = -86.15365
 website = "https://www.bcisolutions.com"
+employees_quality = "reported"
+employees_year = 2025
 osha_id = "1418319"
 uei = "KAJUT9DFFJK2"
 
 sector = "Metal"
 products = ["Foundry & casting", "Precision machining"]
 
-employees = 203
-employees_scope = "site"  # site = this location; company = company-wide
-employees_note = "Bremen; about 200 since 2012"
+employees = 130
+employees_scope = "site"
+employees_note = "OSHA Form 300A, annual average employees, 2025; previously about 200 since 2012"
 
 description = "Family-owned foundry and precision machining operation founded in 1939, fifth generation."

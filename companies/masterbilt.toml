@@ -8,12 +8,15 @@ state = "IN"
 address = "3801 Voorde Dr, South Bend, IN 46628"
 lat = 41.69860
 lon = -86.30191
+osha_id = "1566405"
+employees_quality = "reported"
+employees_year = 2025
 
 sector = "Mechatronics & automation"
 products = ["Automation & assembly systems", "Precision machining"]
 
-employees = 54
-employees_scope = "site"  # site = this location; company = company-wide
-employees_note = "aggregator estimate; also operations in Arizona and California"
+employees = 60
+employees_scope = "site"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "Precision machining (aerospace, defense, medical) and Masterbilt Automation Solutions, which designs and builds large custom automated assembly systems. Founded 1961."

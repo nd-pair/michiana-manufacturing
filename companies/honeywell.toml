@@ -9,13 +9,16 @@ address = "3520 Westmoor St, South Bend, IN 46628"
 lat = 41.68411
 lon = -86.29723
 website = "https://www.honeywellaerospace.com"
+osha_id = "1090958"
+employees_quality = "reported"
+employees_year = 2025
 former_website = "https://aerospace.honeywell.com"
 
 sector = "Electronics"
 products = ["Avionics & inertial sensors", "Sensors"]
 
-employees = 775
-employees_scope = "site"  # site = this location; company = company-wide
-employees_note = "South Bend plant, 2016 figure"
+employees = 440
+employees_scope = "site"
+employees_note = "OSHA Form 300A, annual average employees, 2025 (filed identically for 3520 Westmoor St and 717 N Bendix Dr, so taken as the South Bend total); previously 775 in 2016"
 
 description = "Avionics, aircraft parts and precision sensors at the former Bendix / AlliedSignal site; accelerometers for guidance, navigation and control."

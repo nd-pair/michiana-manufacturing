@@ -287,7 +287,7 @@
 "naics": "311412"
 },
 "1090958": {
-"company": "honeywell-aircraft-accessories-south-bend-3520",
+"company": "honeywell",
 "employees": 440,
 "naics": "336413"
 },
@@ -1032,7 +1032,7 @@
 "naics": "326199"
 },
 "1021354": {
-"company": "saint-joseph-st-joseph-2180",
+"company": "ipc-print-services-inc-saint-joseph-2180",
 "employees": 151,
 "naics": "323117"
 },
@@ -2133,7 +2133,7 @@
 "naics": "314910"
 },
 "1566405": {
-"company": "koontz-wagner-electric-co-inc-south-bend-3801",
+"company": "masterbilt",
 "employees": 60,
 "naics": "332710"
 },
@@ -2356,6 +2356,11 @@
 "company": "jms-engineered-plastics-south-bend-52275",
 "employees": 49,
 "naics": "336390"
+},
+"1174752": {
+"company": "postle-aluminum-elkhart-511",
+"employees": 48,
+"naics": "336213"
 },
 "1418203": {
 "company": "vent-rite-valve-corp-benton-harbor-1875",

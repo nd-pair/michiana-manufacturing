@@ -10,7 +10,8 @@ Checks every company on the map (not closed, presumed closed or removed):
   same street within 100 m (Hydro Elkhart at 3408 and Hydro Extrusion at 3406 Reedy Drive);
 - headcount: a site headcount above 5,000, or a headcount that looks company-wide;
 - sector: the sector disagrees with the NAICS code's usual sector (scripts/import_hifld.py);
-- precision: placed at a city's center instead of a street address.
+- precision: placed at a city's center instead of a street address;
+- osha_id: one OSHA establishment on two files (all files, also removed ones).
 Each row is one finding for a person to look at; the summary line counts them by kind.
 """
 import csv, json, math, re, sys
@@ -79,6 +80,15 @@ def main():
             for b in located[i + 1:]:
                 if km((a["lat"], a["lon"]), (b["lat"], b["lon"])) < 0.3 and addr_key(a.get("address", ""), a.get("city", "")) != addr_key(b.get("address", ""), b.get("city", "")):
                     add(a, "duplicate", "same name within 300 m: %s (%s)" % (b.get("address", ""), b["_file"]))
+    # one OSHA establishment on two files: a removed duplicate or a company-wide file still holding a plant's filing
+    by_osha = {}
+    for c in companies():
+        if c.get("osha_id"):
+            by_osha.setdefault(str(c["osha_id"]), []).append(c)
+    for i, group in by_osha.items():
+        if len(group) > 1:
+            for c in group:
+                add(c, "osha_id", "OSHA establishment %s is also on %s" % (i, "; ".join(o["_file"] for o in group if o is not c)))
     rows.sort(key=lambda r: (r["kind"], r["name"]))
     with open(out, "w", newline="") as fh:
         w = csv.DictWriter(fh, fieldnames=["kind", "file", "name", "address", "detail"]); w.writeheader(); w.writerows(rows)

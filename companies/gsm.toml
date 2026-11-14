@@ -9,13 +9,15 @@ address = "25101 Cleveland Rd, South Bend, IN 46628"
 lat = 41.72257
 lon = -86.35334
 website = "https://www.gsmwinc.com"
+employees_quality = "reported"
+employees_year = 2025
 osha_id = "1442370"
 
 sector = "Metal"
 products = ["Stamping & fabrication", "Sheet metal"]
 
-employees = 220
-employees_scope = "site"  # site = this location; company = company-wide
-employees_note = "2016 figure; aggregators say 201 to 500"
+employees = 287
+employees_scope = "site"
+employees_note = "OSHA Form 300A, annual average employees, 2025; previously 220 in 2016"
 
 description = "High-volume stamping and structural fabrication for more than a century; stamping, deep drawing and tube fabrication for armor panels, vehicle frames and enclosures."
