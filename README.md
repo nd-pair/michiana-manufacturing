@@ -35,13 +35,17 @@ Census geocoder; departments a company files separately at one address become on
 `data/osha.json` keeps every year's establishments, so a plant that stops filing is flagged for review.
 Rules worth knowing when reading its output:
 
-- Town names are written one way (`canon_city`: "LaPorte" and "La Porte" are one town).
+- Town names are written one way (`canon_city`: "LaPorte" and "La Porte" are one town), and county
+  grid roads match however they are written ("1350N" = "1350 North").
 - A filing at another house number on a file's street is its own plant once that file stands for
   another one (Keystone's numbered plants on Hackberry Drive). House numbers of different lengths
   stay together, since Elkhart County has two numbering systems.
 - A file moves to its own filing's street address. A PO box or a repeated town name is stripped
   first; a filing that lists two addresses is not used.
 - A new tenant at a closed plant's address gets its own file, so the closure stays on record.
+- A plant that files under another industry code (a modular builder as construction, some makers as
+  wholesalers) keeps a current headcount: a second pass refreshes the count of a file at the same
+  address with a shared name word. It never adds or renames files, and farm filings are left out.
 - One headcount filed for several addresses counts as company-wide only when the hours worked match
   too. A file's own single-establishment figure is corrected from its filing.
 - Filed industry text that says only "Manufacturing", "Retail" or the code is replaced by the official
