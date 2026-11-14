@@ -1,0 +1,27 @@
+# Tri-State Hardwood Company, Inc.
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Tri-State Hardwood Company, Inc."
+kind = "company"
+city = "South Milford"
+state = "IN"
+address = "7050 South State Road 3, South Milford, IN 46786"
+location_precision = "city"
+lat = 41.53148
+lon = -85.27240
+osha_id = "643958"
+
+sector = "Wood, paper & furniture"
+products = ["Sawmills"]
+naics = "321113"
+
+employees = 40
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 321113: sawmills."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-14"

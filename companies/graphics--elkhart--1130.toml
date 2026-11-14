@@ -8,18 +8,18 @@ state = "IN"
 address = "1130 Herman St., Elkhart, IN 46516"
 lat = 41.67670
 lon = -85.90063
-status_note = "Welch Packaging's building at 1130 Herman St, filed in OSHA's 2025 data as Graphics (51 employees) and JaMar (37); the headcount is the larger filing."
+status_note = "Welch Packaging's building at 1130 Herman St, filed in OSHA's 2025 data as Graphics (51 employees) and JaMar (37); the headcount is their sum."
 osha_id = "1229724"
 
 sector = "Wood, paper & furniture"
 products = ["Boxes, corrugated and solid fiber, made from purchased paper or paperboard"]
 naics = "322211"
 
-employees = 51
+employees = 88
 employees_scope = "site"
 employees_year = 2025
 employees_quality = "reported"
-employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+employees_note = "OSHA Form 300A, sum of 2 filings for buildings or departments at this address, 2025"
 
 parent = "Welch Packaging"
 description = "NAICS 322211: boxes, corrugated and solid fiber, made from purchased paper or paperboard."

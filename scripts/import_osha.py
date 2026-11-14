@@ -141,7 +141,8 @@ def cleaned(address):
     return [v for v in dict.fromkeys([a, b]) if v != address]
 
 def city_center(address):
-    """(lat, lon) of the address's city from data/places.toml, for a plant no geocoder can place."""
+    """(lat, lon) of the address's city, for a plant no geocoder can place: data/places.toml, else the
+    median of the plants mapped in that town, else the center of a small ZIP code area."""
     m = re.search(r",\s*([^,]+),\s*(IN|MI)\b", address)
     if not m:
         return None
@@ -156,9 +157,16 @@ def city_center(address):
     town = re.sub(r"(?i)^Britol$", "Bristol", m[1].strip()).lower().replace(" ", "")
     pts = sorted((c["lat"], c["lon"]) for c in companies() if "lat" in c and (c.get("city") or "").lower().replace(" ", "") == town
                  and c.get("location_precision", "address") == "address")
-    if len(pts) < 3:
-        return None
-    return (sorted(p[0] for p in pts)[len(pts) // 2], sorted(p[1] for p in pts)[len(pts) // 2])
+    if len(pts) >= 3:
+        return (sorted(p[0] for p in pts)[len(pts) // 2], sorted(p[1] for p in pts)[len(pts) // 2])
+    # a town with no mapped plants (South Milford): the center of its ZIP code area, if that area is small
+    # enough to stand for the town (data/zip_centers.json, scripts/make_zip_centers.py)
+    z = re.search(r"\b(\d{5})(?:-\d{4})?\s*$", address)
+    if z and os.path.exists(P("data", "zip_centers.json")):
+        zc = json.load(open(P("data", "zip_centers.json")))["zips"].get(z[1])
+        if zc and zc[2] <= 100:
+            return (zc[0], zc[1])
+    return None
 
 def geo(address):
     """(lat, lon, county FIPS): the Census geocoder first, then OpenStreetMap with the county from the
