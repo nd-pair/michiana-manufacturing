@@ -1,16 +1,17 @@
-# Jones Enterprise, Inc.
+# NRP Jones
 # Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
 
-name = "Jones Enterprise, Inc."
+name = "NRP Jones"
 kind = "company"
 city = "La Porte"
 state = "IN"
-address = "210 Philadelphia Street, La Porte, IN 46350"
-lat = 41.61776
-lon = -86.70374
+address = "302 Philadelphia Street, La Porte, IN 46350"
+lat = 41.61743
+lon = -86.70323
 website = "https://nrpjones.com"
-presumed_closed_reason = "Verification check: renamed or acquired, but the new name is not tied to this address (NRP Jones LLC). NRP Jones LLC is listed at 210 Philadelphia St (its 2026 site gives 302 Philadelphia St), a valve and hose fitting maker matching the NAICS code; no source explicitly ties the Jones Enterprise name to NRP Jones. Source: https://nrpjones.com"
-presumed_closed = "2026-11-13"
+status_note = "Jones Enterprise is now NRP Jones; the company's own website lists 302 Philadelphia Street, La Porte (checked November 14, 2026; previously 210 Philadelphia Street)."
+verified = "2026-11-14"
+formerly = "Jones Enterprise, Inc."
 
 sector = "Metal"
 products = ["Fluid Power Valve and Hose Fitting Manufacturing"]
