@@ -8,7 +8,10 @@ state = "IN"
 address = "55152 County Road 1, Elkhart, IN 46514"
 lat = 41.69392
 lon = -86.04193
-website = "https://glavalbus.com"
+website = "https://forestriverbus.com/glaval"
+unconfirmed_reason = "The company operates in the region, but no current source confirms a plant at this address: glavalbus.com now redirects to Forest River Bus, whose 2026 site gives only 2367 Century Drive, Goshen, IN 46528, and Glaval files no separate OSHA summary (Forest River files company-wide)."
+unconfirmed = "2026-11-14"
+former_website = "https://glavalbus.com"
 
 sector = "Vehicles & RVs"
 products = ["Motor Home Manufacturing"]
