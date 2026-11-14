@@ -2599,6 +2599,11 @@
 "employees": 40,
 "naics": "335312"
 },
+"643958": {
+"company": "tri-state-hardwood-company-inc-south-milford-7050",
+"employees": 40,
+"naics": "321113"
+},
 "909017": {
 "company": "universal-stamping-inc-benton-harbor-1570",
 "employees": 40,
@@ -2702,8 +2707,7 @@
 "1479269": {
 "company": "aetechron",
 "employees": 36,
-"naics": "334515",
-"occupant": "AE Techron Inc"
+"naics": "334515"
 },
 "67183": {
 "company": "primetals-technologies-benton-harbor-470",
@@ -3760,11 +3764,6 @@
 "company": "fab-masters-co-inc-marcellus-51787",
 "employees": 49,
 "naics": "331318"
-},
-"643958": {
-"company": "tri-state-hardwood-company-inc-south-milford-7050",
-"employees": 40,
-"naics": "321113"
 },
 "248193": {
 "company": "almega-tru-flex-inc-bremen-3917",

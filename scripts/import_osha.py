@@ -315,11 +315,13 @@ def main(args):
             c, path = by_id[cid], company_path(cid)
             filer = clean_name(r["establishment_name"], r["company_name"], city)
             def words(s):
-                """Name words, plus the initials of the full name (Aluminum Metals Co. = AMC)."""
+                """Name words, plus the initials of the full name (Aluminum Metals Co. = AMC) and the name run together."""
                 raw = [w for w in re.findall(r"[a-z]+", (s or "").lower()) if w not in ("inc", "llc", "the", "of", "and")]
                 generic = {"coach", "industries", "products", "manufacturing", "company", "corp", "corporation", "systems", "group", "plant",
                            "division", "rv", "homes", "international", "technologies", "solutions", "services", "works", "specialty", "building"}
-                return ({w for w in norm(s).split() if len(w) >= 2} - generic) | ({"".join(w[0] for w in raw)} if len(raw) >= 2 else set())
+                # plus the whole name run together, so "AE Techron" is "AETechron"
+                return (({w for w in norm(s).split() if len(w) >= 2} - generic) | ({"".join(w[0] for w in raw)} if len(raw) >= 2 else set())
+                        | ({"".join(raw)} if len(raw) >= 2 else set()))
             if cid == by_address and c.get("closed") and not words(c["name"]) & (words(r["establishment_name"]) | words(r["company_name"]) | words(filer)):
                 cid = None   # a new tenant at a closed plant's address: the closure stays on record, the tenant gets its own file
         if cid:

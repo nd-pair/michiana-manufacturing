@@ -9,13 +9,15 @@ address = "2507 Warren St, Elkhart, IN 46516"
 lat = 41.66153
 lon = -85.94329
 website = "https://aetechron.com"
-osha_occupant = "AE Techron Inc (OSHA Form 300A filer at this address, 2025)"
+employees_quality = "reported"
+employees_year = 2025
+osha_id = "1479269"
 
 sector = "Electronics"
 products = ["Power electronics & amplifiers", "Test equipment"]
 
-employees = 30
+employees = 36
 employees_scope = "site"  # site = this location; company = company-wide
-employees_note = "aggregator estimate"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 description = "High-power amplifiers and precision power supplies for test, research, defense acoustic and EMP testing."
