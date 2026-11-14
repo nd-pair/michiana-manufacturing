@@ -203,7 +203,7 @@ def main():
             "emp_quality": c.get("employees_quality") or headcount_quality(c),
             "hum_add": list(c.get("humanoid", [])), "hum_not": list(c.get("humanoid_not", [])),
             "hum_ev": c.get("humanoid_evidence", "inferred"), "hum_note": c.get("humanoid_note", ""),
-            "mfg": is_manufacturer(c),
+            "mfg": is_manufacturer(c), "occupant": c.get("osha_occupant", ""),
         })
     # spread companies that share one address in a small ring (in degrees)
     import math

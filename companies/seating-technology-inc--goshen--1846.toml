@@ -8,17 +8,17 @@ state = "IN"
 address = "1846 Eisenhower Drive South, Goshen, IN 46526"
 lat = 41.55424
 lon = -85.80688
-osha_id = "294386"
+osha_occupant = "Genesis Products (OSHA Form 300A filer at this address, 2025)"
 
 sector = "Wood, paper & furniture"
 products = ["Nonupholstered Wood Household Furniture Manufacturing"]
 naics = "337122"
 
-employees = 55
+employees = 70
 employees_scope = "site"
-employees_year = 2025
-employees_quality = "reported"
-employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Recreational Vehicle Furniture. NAICS 337122: nonupholstered wood household furniture manufacturing."
 

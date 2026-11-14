@@ -9,17 +9,17 @@ address = "51703 Packard Drive, Middlebury, IN 46540"
 lat = 41.74407
 lon = -85.69186
 website = "https://promens.com"
-osha_id = "1117301"
+osha_occupant = "Myers Industries/Elkhart Plastics (OSHA Form 300A filer at this address, 2025)"
 
 sector = "Materials & composites"
 products = ["All Other Plastics Product Manufacturing"]
 naics = "326199"
 
-employees = 140
+employees = 249
 employees_scope = "site"
-employees_year = 2025
-employees_quality = "reported"
-employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Custom Rotationally Molded Products. NAICS 326199: all other plastics product manufacturing."
 

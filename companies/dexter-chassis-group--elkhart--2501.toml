@@ -9,17 +9,17 @@ address = "2501 Jeanwood Drive, Elkhart, IN 46514"
 lat = 41.71916
 lon = -85.92782
 website = "https://dexterchassisgroup.com"
-osha_id = "357766"
+osha_occupant = "Lippert Components, Inc. (OSHA Form 300A filer at this address, 2025)"
 
 sector = "Metal"
 products = ["Iron and Steel Mills"]
 naics = "331111"
 
-employees = 172
+employees = 200
 employees_scope = "site"
-employees_year = 2025
-employees_quality = "reported"
-employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Steel Frame Fabrication & Electro & Powder Coatings for Paint Products. NAICS 331111: iron and steel mills."
 

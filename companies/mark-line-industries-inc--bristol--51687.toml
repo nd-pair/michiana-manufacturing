@@ -9,17 +9,17 @@ address = "51687 County Road 133, Bristol, IN 46507"
 lat = 41.74466
 lon = -85.73794
 website = "https://marklinein.com"
-osha_id = "853944"
+osha_occupant = "Barletta Boat Company, LLc (OSHA Form 300A filer at this address, 2025)"
 
 sector = "Metal"
 products = ["Prefabricated Metal Building and Component Manufacturing"]
 naics = "332311"
 
-employees = 401
+employees = 100
 employees_scope = "site"
-employees_year = 2025
-employees_quality = "reported"
-employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Corporate Headquarters & Commercial Mobile & Modular Buildings. NAICS 332311: prefabricated metal building and component manufacturing."
 

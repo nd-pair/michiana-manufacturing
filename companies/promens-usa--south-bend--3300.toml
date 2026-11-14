@@ -9,17 +9,17 @@ address = "3300 North Kenmore Street, South Bend, IN 46628"
 lat = 41.72080
 lon = -86.29817
 website = "https://promens.com"
-osha_id = "1373371"
+osha_occupant = "Elkhart Plastics (OSHA Form 300A filer at this address, 2025)"
 
 sector = "Materials & composites"
 products = ["All Other Plastics Product Manufacturing"]
 naics = "326199"
 
-employees = 89
+employees = 34
 employees_scope = "site"
-employees_year = 2025
-employees_quality = "reported"
-employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Company Headquarters & Plastic Rotational Molding. NAICS 326199: all other plastics product manufacturing."
 

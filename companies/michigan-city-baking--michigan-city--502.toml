@@ -8,17 +8,17 @@ state = "IN"
 address = "502 West US Highway 20, Michigan City, IN 46360"
 lat = 41.68013
 lon = -86.90405
-osha_id = "1122946"
+osha_occupant = "Hearthside Foods Solutions (OSHA Form 300A filer at this address, 2025)"
 
 sector = "Food & consumer goods"
 products = ["Commercial Bakeries"]
 naics = "311812"
 
-employees = 345
+employees = 300
 employees_scope = "site"
-employees_year = 2025
-employees_quality = "reported"
-employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Crackers & Cookies. NAICS 311812: commercial bakeries."
 

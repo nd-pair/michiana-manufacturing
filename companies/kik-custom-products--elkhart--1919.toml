@@ -9,17 +9,17 @@ address = "1919 Superior Street, Elkhart, IN 46516"
 lat = 41.68904
 lon = -85.94603
 website = "https://kikcorp.com"
-osha_id = "1453518"
+osha_occupant = "Accra-Pac, Inc. (OSHA Form 300A filer at this address, 2025)"
 
 sector = "Materials & composites"
 products = ["Pharmaceutical Preparation Manufacturing"]
 naics = "325412"
 
-employees = 223
+employees = 950
 employees_scope = "site"
-employees_year = 2025
-employees_quality = "reported"
-employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Aerosols, Pharmaceuticals, Liquid & Cream Packaging. NAICS 325412: pharmaceutical preparation manufacturing."
 

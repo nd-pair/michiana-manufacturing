@@ -8,17 +8,17 @@ state = "IN"
 address = "435 Roske Drive, Elkhart, IN 46516"
 lat = 41.69225
 lon = -85.89670
-osha_id = "809584"
+osha_occupant = "Tube Form Solutions, LLC-Roske (OSHA Form 300A filer at this address, 2025)"
 
 sector = "Metal"
 products = ["Machine Shops"]
 naics = "332710"
 
-employees = 15
+employees = 19
 employees_scope = "site"
-employees_year = 2025
-employees_quality = "reported"
-employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "CNC Machining & Tool & Die Job Shop. NAICS 332710: machine shops."
 

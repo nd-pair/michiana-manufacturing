@@ -9,18 +9,18 @@ address = "3100 North Detroit Street, Warsaw, IN 46582"
 lat = 41.27875
 lon = -85.85247
 website = "https://da-lite.com"
-osha_id = "987194"
+osha_occupant = "Legrand AV (OSHA Form 300A filer at this address, 2025)"
 uei = "R8GUTKA84NF8"
 
 sector = "Electronics"
 products = ["Audio and Video Equipment Manufacturing"]
 naics = "334310"
 
-employees = 162
+employees = 385
 employees_scope = "site"
-employees_year = 2025
-employees_quality = "reported"
-employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Corporate Headquarters & Front & Rear Projection Screens, Lecterns, Easels, Computer Furniture, Audiovisual Carts. NAICS 334310: audio and video equipment manufacturing."
 

@@ -9,17 +9,17 @@ address = "1600 Mishawaka Street, Elkhart, IN 46514"
 lat = 41.69565
 lon = -85.99874
 website = "https://crosbiefoundry.com"
-osha_id = "1091353"
+osha_occupant = "Fusion Wood Products (OSHA Form 300A filer at this address, 2025)"
 
 sector = "Metal"
 products = ["Other Nonferrous Foundries (except Die-Casting)"]
 naics = "331528"
 
-employees = 44
+employees = 30
 employees_scope = "site"
-employees_year = 2025
-employees_quality = "reported"
-employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Nonferrous Sand Castings. NAICS 331528: other nonferrous foundries (except die-casting)."
 

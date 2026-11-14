@@ -77,6 +77,7 @@ Field by field:
 | `parent` | no | Groups the plants of one company under this name (otherwise grouped by shared website or base name) |
 | `standalone` | no | `true` keeps an entry out of automatic grouping, e.g. a fund whose page lives on another organization's site |
 | `manufacturer` | no | `false` leaves the company out of every count (on the map still); `true` counts it. Without it, NAICS 31–33 and hand-written companies count, and software firms, SBIR research firms with no production, investors and universities do not |
+| `osha_occupant` | no | Set by `scripts/import_osha.py` when another name filed with OSHA at this file's address: a successor, rename or new tenant to review. Shown on the card |
 | `uei` | no | Unique Entity ID; federal and SBIR awards then match exactly. Filled in automatically once a unique name match is found |
 | `location_precision` | no | `"city"` when lat/lon is a city center rather than the address (used for SBIR firms) |
 | `humanoid`, `humanoid_not`, `humanoid_evidence`, `humanoid_note` | no | Humanoid parts the company supplies (ids from [`data/humanoid.toml`](data/humanoid.toml)), inferred ones it does not, `"confirmed"` or `"self-reported"` once that is established, and a note on what was confirmed |

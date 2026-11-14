@@ -15,6 +15,8 @@ to another company's domain or to a domain-sale page. Each row gets a strength:
 Two more signals join the website checks, for every company file whether or not it has a website:
 - strong: a WARN notice of a closing matched to the plant (data/warn.json, scripts/pull_warn.py) whose
   closing date has passed (weak when the plant still filed with OSHA for a later year);
+- medium: another company filed OSHA's Form 300A at the plant's address (`osha_occupant`, set by
+  scripts/import_osha.py): the plant may have been sold, renamed or replaced by a new tenant;
 - medium: the plant filed OSHA's Form 300A in an earlier year but not in the latest one imported
   (data/osha.json, scripts/import_osha.py); plants under 20 employees need not file, so a drop below
   that size also shows up here.
@@ -87,6 +89,9 @@ def record_signals(cs):
                 later = filed.get(c["_id"], "") > eff[:4]   # still filing with OSHA after the closing date: likely a partial closing
                 out.append(row(c, "weak" if later else "strong", "WARN closing notice %s, effective %s, %s workers%s" % (n["notice_date"], eff, n.get("workers") or "?",
                                "; but filed with OSHA for %s" % filed[c["_id"]] if later else "")))
+    for c in cs:
+        if c.get("osha_occupant"):
+            out.append(row(c, "medium", "another name filed with OSHA at this address: %s; a successor, rename or new tenant" % c["osha_occupant"]))
     if os.path.exists(P("data", "osha.json")):
         years = json.load(open(P("data", "osha.json"))).get("years", {})
         ys = sorted(years)

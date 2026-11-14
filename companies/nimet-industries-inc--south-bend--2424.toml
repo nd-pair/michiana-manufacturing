@@ -9,17 +9,17 @@ address = "2424 Foundation Drive, South Bend, IN 46628"
 lat = 41.71016
 lon = -86.30371
 website = "https://nimet.com"
-osha_id = "1106895"
+osha_occupant = "Pioneer Metal Finishing (OSHA Form 300A filer at this address, 2025)"
 
 sector = "Metal"
 products = ["Electroplating, Plating, Polishing, Anodizing and Coloring"]
 naics = "332813"
 
-employees = 37
+employees = 70
 employees_scope = "site"
-employees_year = 2025
-employees_quality = "reported"
-employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Aluminum Anodizing & Electroless Nickel, Nickel & Hard Coat Plating. NAICS 332813: electroplating, plating, polishing, anodizing and coloring."
 

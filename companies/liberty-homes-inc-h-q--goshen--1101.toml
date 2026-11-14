@@ -10,6 +10,7 @@ lat = 41.55770
 lon = -85.81682
 website = "https://libertyhomesinc.com"
 osha_id = "1260538"
+osha_occupant = "LCI (OSHA Form 300A filer at this address, 2025)"
 
 sector = "Wood, paper & furniture"
 products = ["Manufactured Home (mobile Home) Manufacturing"]

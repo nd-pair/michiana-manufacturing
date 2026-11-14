@@ -9,17 +9,17 @@ address = "860 West US Highway 6, Ligonier, IN 46767"
 lat = 41.45228
 lon = -85.60274
 website = "https://guardian.com"
-osha_id = "1426398"
+osha_occupant = "Carlex Glass (OSHA Form 300A filer at this address, 2025)"
 
 sector = "Materials & composites"
 products = ["Glass Product Manufacturing Made of Purchased Glass"]
 naics = "327215"
 
-employees = 288
+employees = 300
 employees_scope = "site"
-employees_year = 2025
-employees_quality = "reported"
-employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Automotive Glass. NAICS 327215: glass product manufacturing made of purchased glass."
 

@@ -9,17 +9,17 @@ address = "2121 West Chicago Road, Niles, MI 49120"
 lat = 41.80577
 lon = -86.29826
 website = "https://pilkington.com"
-osha_id = "667575"
+osha_occupant = "Modineer (OSHA Form 300A filer at this address, 2025)"
 
 sector = "Materials & composites"
 products = ["Glass Product Manufacturing Made of Purchased Glass"]
 naics = "327215"
 
-employees = 276
+employees = 200
 employees_scope = "site"
-employees_year = 2025
-employees_quality = "reported"
-employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Automotive Windows, Windshields & Sunroofs. NAICS 327215: glass product manufacturing made of purchased glass."
 

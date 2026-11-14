@@ -9,17 +9,17 @@ address = "712 South Logan Street, Mishawaka, IN 46544"
 lat = 41.65501
 lon = -86.19604
 website = "https://ppp-inc.com"
-osha_id = "1472572"
+osha_occupant = "Husky Trails, LLC (OSHA Form 300A filer at this address, 2025)"
 
 sector = "Metal"
 products = ["Machine Shops"]
 naics = "332710"
 
-employees = 22
+employees = 41
 employees_scope = "site"
-employees_year = 2025
-employees_quality = "reported"
-employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Precision Machine Parts. NAICS 332710: machine shops."
 

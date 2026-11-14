@@ -9,17 +9,17 @@ address = "2423 Messick Drive South, Goshen, IN 46526"
 lat = 41.55330
 lon = -85.81281
 website = "https://kimro.com"
-osha_id = "357778"
+osha_occupant = "LCI (OSHA Form 300A filer at this address, 2025)"
 
 sector = "Metal"
 products = ["Metal Window and Door Manufacturing"]
 naics = "332321"
 
-employees = 135
+employees = 170
 employees_scope = "site"
-employees_year = 2025
-employees_quality = "reported"
-employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Aluminum & Vinyl Windows. NAICS 332321: metal window and door manufacturing."
 

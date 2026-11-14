@@ -9,17 +9,17 @@ address = "1925 Stone Court, Mishawaka, IN 46545"
 lat = 41.68653
 lon = -86.15020
 website = "https://smurfit-stone.com"
-osha_id = "745831"
+osha_occupant = "Corrugated Packaging Mishawaka CT (OSHA Form 300A filer at this address, 2025)"
 
 sector = "Wood, paper & furniture"
 products = ["Folding Paperboard Box Manufacturing"]
 naics = "322212"
 
-employees = 112
+employees = 160
 employees_scope = "site"
-employees_year = 2025
-employees_quality = "reported"
-employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Corrugated Containers. NAICS 322212: folding paperboard box manufacturing."
 

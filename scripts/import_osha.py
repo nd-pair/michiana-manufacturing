@@ -17,6 +17,9 @@ What the script does:
   one of the region's counties (data/region_zips.json, from the Census ZIP-county relationship file);
 - matches each to a company file by its OSHA establishment ID (`osha_id`, written on the first
   match), then by street number, street name and city, then by normalized name and city;
+- when the match is by address only and the names share no word, the filer is a successor, a renamed
+  company or a new tenant: the file gets `osha_occupant` (the filer's name) for a person to review and
+  keeps its own facts;
 - on a match, writes `osha_id`, and replaces the headcount with OSHA's annual average employees when
   the file's headcount is an estimate (such as HIFLD's) or missing; reported headcounts stay;
 - otherwise geocodes the address with the Census geocoder, checks that it falls in a region county
@@ -131,7 +134,7 @@ def main(args):
             by_name.setdefault((norm(c["name"]), z[0]), c["_id"])
     by_id = {c["_id"]: c for c in cs}
     existing = set(os.listdir(P("companies")))
-    out, matched, updated, written, outside, nogeo, new_addr, pending = {}, 0, 0, 0, [], [], {}, []
+    out, matched, updated, written, outside, nogeo, new_addr, pending, occupants = {}, 0, 0, 0, [], [], {}, [], 0
     today = datetime.date.today().isoformat()
     for r in sorted(keep, key=lambda r: -int(r.get("annual_average_employees") or 0)):
         eid, city = str(r["establishment_id"]).strip(), titlecase(r["city"].strip()) if r["city"].isupper() else r["city"].strip()
@@ -142,11 +145,20 @@ def main(args):
                 emp = None                       # already on another site of this company
             else:
                 placed.add((who(r), emp_of(r))); scope = "company"
-        cid = by_osha.get(eid) or by_addr.get(addr_key(r["street_address"], city)) \
+        by_address = None if by_osha.get(eid) else by_addr.get(addr_key(r["street_address"], city))
+        cid = by_osha.get(eid) or by_address \
             or next((by_name[k] for nm in (r["establishment_name"], r["company_name"], clean_name(r["establishment_name"], r["company_name"], city))
                      for k in ((norm(nm or "-"), city.lower()), (norm(nm or "-"), r["zip_code"][:5])) if k in by_name), None)
         if cid:
             c, path = by_id[cid], company_path(cid)
+            filer = clean_name(r["establishment_name"], r["company_name"], city)
+            words = lambda s: {w for w in norm(s).split() if len(w) >= 2}
+            if cid == by_address and not words(c["name"]) & (words(r["establishment_name"]) | words(r["company_name"]) | words(filer)):
+                # same address, different name: a successor, a rename or a new tenant. Note it for a person; keep the file's facts
+                out[eid] = {"company": cid, "employees": emp, "naics": r["naics_code"], "occupant": filer}; occupants += 1
+                if not dry and path:
+                    set_field(path, "osha_occupant", "%s (OSHA Form 300A filer at this address, %s)" % (filer, year))
+                continue
             out[eid] = {"company": cid, "employees": emp, "naics": r["naics_code"]}; matched += 1
             if dry or not path:
                 continue
@@ -219,8 +231,8 @@ def main(args):
         years[year] = out
         json.dump({"source": SOURCE, "file": os.path.basename(files[0]), "imported": today, "latest_year": year,
                    "years": dict(sorted(years.items()))}, open(P("data", "osha.json"), "w"), indent=0)
-    print("%d regional manufacturing establishments in %s (filing year %s): %d matched, %d headcounts updated, %d new files %s, %d outside the region, %d not geocoded"
-          % (len(keep), os.path.basename(files[0]), year, matched, updated, written,
+    print("%d regional manufacturing establishments in %s (filing year %s): %d matched, %d at a file's address under another name (noted as osha_occupant), %d headcounts updated, %d new files %s, %d outside the region, %d not geocoded"
+          % (len(keep), os.path.basename(files[0]), year, matched, occupants, updated, written,
              "would be written" if dry else "written", len(outside), len(nogeo)))
     for x in nogeo:
         print("  not geocoded, add by hand if wanted:", x)

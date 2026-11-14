@@ -8,17 +8,17 @@ state = "IN"
 address = "1205 East Lincoln Street, Nappanee, IN 46550"
 lat = 41.44140
 lon = -85.98808
-osha_id = "899023"
+osha_occupant = "LCI (OSHA Form 300A filer at this address, 2025)"
 
 sector = "Wood, paper & furniture"
 products = ["All Other Miscellaneous Wood Product Manufacturing"]
 naics = "321999"
 
-employees = 238
+employees = 180
 employees_scope = "site"
-employees_year = 2025
-employees_quality = "reported"
-employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Industrial & Commercial Hardwood Components for Cabinets in RVS. NAICS 321999: all other miscellaneous wood product manufacturing."
 

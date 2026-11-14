@@ -8,17 +8,17 @@ state = "IN"
 address = "1010 Eisenhower Drive South, Goshen, IN 46526"
 lat = 41.55424
 lon = -85.82165
-osha_id = "801147"
+osha_occupant = "StairSupplies (OSHA Form 300A filer at this address, 2025)"
 
 sector = "Vehicles & RVs"
 products = ["Motor Home Manufacturing"]
 naics = "336213"
 
-employees = 36
+employees = 250
 employees_scope = "site"
-employees_year = 2025
-employees_quality = "reported"
-employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Recreational Vehicle & Motorized Furniture. NAICS 336213: motor home manufacturing."
 

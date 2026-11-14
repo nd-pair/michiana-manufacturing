@@ -9,17 +9,17 @@ address = "1394 East Empire Avenue, Benton Harbor, MI 49022"
 lat = 42.10121
 lon = -86.42396
 website = "https://modarinc.com"
-osha_id = "848962"
+osha_occupant = "Special-Lite Benton Harbor (OSHA Form 300A filer at this address, 2025)"
 
 sector = "Wood, paper & furniture"
 products = ["Reconstituted Wood Product Manufacturing"]
 naics = "321219"
 
-employees = 81
+employees = 100
 employees_scope = "site"
-employees_year = 2025
-employees_quality = "reported"
-employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
 description = "Particleboard. NAICS 321219: reconstituted wood product manufacturing."
 
