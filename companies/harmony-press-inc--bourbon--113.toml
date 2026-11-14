@@ -5,11 +5,12 @@ name = "Harmony Press, Inc."
 kind = "company"
 city = "Bourbon"
 state = "IN"
-address = "113 North Main Street, Bourbon, IN 46504"
-lat = 41.29590
-lon = -86.11664
+address = "115 North Main Street, Bourbon, IN 46504"
+lat = 41.29577
+lon = -86.11637
 website = "https://hmktgroup.com"
-verified_note = "Live Harmony company site lists 115 North Main Street, Bourbon (record says 113), a downtown printing operation with a tax-abated expansion. Source: https://hmktgroup.com"
+status_note = "Address from the company's own website (hmktgroup.com), which lists 115 North Main Street, Bourbon; previously 113 North Main Street."
+verified_note = "The company's own website (hmktgroup.com) lists 115 North Main Street, Bourbon, a downtown printing operation with a tax-abated expansion."
 verified = "2026-11-13"
 
 sector = "Wood, paper & furniture"

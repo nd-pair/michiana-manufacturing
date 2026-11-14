@@ -35,7 +35,7 @@ from common import P, companies, company_path, set_field, del_field, norm
 UNSEARCHED = re.compile(r"(?i)\bunverified\b|search budget|budget ran out|not searched|never searched|no lookups|no name or address|no address search|not researched")
 # a finding of "operating" whose own note says the address was not confirmed: flagged unconfirmed, not verified
 WEAK = re.compile(r"(?i)^weak\b|weak evidence|low confidence|location is unconfirmed|address is unconfirmed|is unconfirmed\b|"
-                  r"(address|street address|number|location)[^.;]{0,60}\bwas not (separately )?confirmed|not confirmed by any source|"
+                  r"(address|street address|number|location)[^.;]{0,60}\b(?:was|were|is) not (?:separately |itself |independently |directly )?confirmed|not confirmed by any source|"
                   r"unconfirmed by other sources|do(es)? not confirm the|exact address (match )?is (uncertain|unconfirmed)|"
                   r"confidence is moderate|function and date were not confirmed|entity match unconfirmed")
 HEDGED = re.compile(r"(?i)not confirm|unconfirm|inferen|no source|could just be|not verified|may be|possibly|appears to|unclear whether|no address|redirects? to|is down|is dead")
