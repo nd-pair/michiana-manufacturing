@@ -61,8 +61,11 @@ counting manufacturing establishments (NAICS 31–33) in the region's 13 countie
   LaGrange, Elkhart and Kosciusko counties, and among the least covered.
 - **Whitley, Starke, LaGrange and Van Buren counties** are the thinnest for plants with 20 or more
   employees (53–60%). Those plants should file with OSHA, so the spring 2027 OSHA import is the
-  next chance to fill them. Some may have filed under a ZIP code that lies mostly in a neighboring
-  county outside the region, which the import skips.
+  next chance to fill them. Filings under a ZIP code that lies mostly in a neighboring county
+  are not the gap: the import skips them, but none of the 83 such 2025 manufacturing filings is
+  clearly inside a region county (checked November 14 with the Census geocoder and Indiana's
+  address points; the one near miss, Southern Michigan Rubber on M-60 near Jones, sits on the
+  Cass/St. Joseph line and Michigan's own records name both counties).
 - **St. Joseph County is now level with Census (140 plants with 20+ employees against 139; it
   read 115% before the November 14 fixes).** Two of the excess were stale HIFLD records next to the
   plant's current OSHA filer: Copper & Brass Sales at 1015 St Jerome St (the import read 'Saint
@@ -77,8 +80,8 @@ counting manufacturing establishments (NAICS 31–33) in the region's 13 countie
 
 ## What would raise coverage
 
-1. Import OSHA filings by county rather than by ZIP code. That needs the county from the Census
-   geocoder for every regional ZIP, including ZIPs that lie mostly outside the region.
+1. ~~Import OSHA filings by county rather than by ZIP code.~~ Checked November 14: for the 2025
+   filings it adds no plant (see above), so the ZIP filter stays.
 2. Ask the county economic development offices and the Purdue and Michigan MEPs to review each
    county's list. They know the small shops that no public dataset names.
 3. Add a 'suggest a company' link next to the 'report a correction' idea in the data-quality list.
