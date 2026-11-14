@@ -9,6 +9,8 @@ address = "2722 Tucker Drive, South Bend, IN 46619"
 lat = 41.66019
 lon = -86.28713
 website = "https://steelwarehouse.com"
+verified_note = "Steel Warehouse's live South Bend page lists 2722 Tucker Drive with steel processing (pickling, slitting, leveling, cold reducing). Source: https://steelwarehouse.com/south-bend-in/"
+verified = "2026-11-13"
 
 sector = "Metal"
 products = ["Iron and Steel Mills"]

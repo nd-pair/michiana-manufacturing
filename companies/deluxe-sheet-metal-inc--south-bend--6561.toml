@@ -8,6 +8,8 @@ state = "IN"
 address = "6561 Lonewolf Drive, South Bend, IN 46628"
 lat = 41.72856
 lon = -86.34340
+verified_note = "BBB lists Deluxe Sheet Metal at 6561 Lonewolf Dr, South Bend (574-233-5183); it was acquired by Alpine 4 Technologies but keeps the South Bend operation, with no dated recent confirmation found. Source: https://prod.bbb.org/us/in/fort-wayne/category/sheet-metal-contractor"
+verified = "2026-11-13"
 
 sector = "Metal"
 products = ["Sheet Metal Work Manufacturing"]

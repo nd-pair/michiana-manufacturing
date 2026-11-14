@@ -1,14 +1,16 @@
 # Heraeus Kulzer, Inc., Dental Mfg.
 # Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
 
-name = "Heraeus Kulzer, Inc., Dental Mfg."
+name = "Kulzer, LLC"
 kind = "company"
 city = "South Bend"
 state = "IN"
 address = "4315 South Lafayette Boulevard, South Bend, IN 46614"
 lat = 41.63156
 lon = -86.25401
-website = "https://heraeus-kulzer-us.com"
+verified = "2026-11-13"
+status_note = "Renamed in a verification check (2026-11-13): Kulzer, LLC is registered with FDA and lists 4315 S. Lafayette Blvd, South Bend as its address, including in Q4 2025 promotional materials, the same site once used by Heraeus Kulzer. Source: https://medindexer.com/directory/kulzer-llc"
+formerly = "Heraeus Kulzer, Inc., Dental Mfg."
 
 sector = "Medical devices & other"
 products = ["Dental Equipment and Supplies Manufacturing"]

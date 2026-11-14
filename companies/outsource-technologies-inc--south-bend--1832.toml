@@ -8,6 +8,8 @@ state = "IN"
 address = "1832 North Kenmore Street, South Bend, IN 46628"
 lat = 41.69928
 lon = -86.29799
+presumed_closed_reason = "Verification check: no current trace of this company at this address. No company or address listing found for Outsource Technologies at 1832 N Kenmore St; the nearby 1900 block is warehouse and retail property but nothing matched the 1832 number."
+presumed_closed = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["All Other Plastics Product Manufacturing"]

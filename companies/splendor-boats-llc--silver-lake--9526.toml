@@ -9,6 +9,8 @@ address = "9526 South State Road 15, Silver Lake, IN 46982"
 lat = 41.09339
 lon = -85.89133
 website = "https://splendorboats.com"
+verified_note = "splendorboats.com (copyright 2026) gives 9526 South SR 15, Silver Lake as its address and the Coast Guard manufacturer registry lists it, making deck boats. Source: https://splendorboats.com"
+verified = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["Mineral Wool Manufacturing"]

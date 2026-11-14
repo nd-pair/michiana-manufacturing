@@ -9,6 +9,8 @@ address = "731 South Michigan Street, South Bend, IN 46601"
 lat = 41.66755
 lon = -86.25056
 website = "https://apolloprinting.com"
+verified_note = "The live apolloprinting.com site lists 731 S Michigan St, South Bend, with a 2021 copyright; no more recent dated evidence was found. Source: https://apolloprinting.com"
+verified = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Other Commercial Printing"]

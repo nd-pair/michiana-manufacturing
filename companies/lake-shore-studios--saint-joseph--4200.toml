@@ -9,6 +9,8 @@ address = "4200 Niles Road, Saint Joseph, MI 49085"
 lat = 42.04284
 lon = -86.43745
 website = "https://lakeshorestudios.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. lakeshorestudios.com redirects to a domain-for-sale page and searches on the name and 4200 Niles Road found no listing. Source: https://www.hugedomains.com/domain_profile.cfm?d=lakeshorestudios.com"
+presumed_closed = "2026-11-13"
 
 sector = "Electronics"
 products = ["Other Lighting Equipment Manufacturing"]

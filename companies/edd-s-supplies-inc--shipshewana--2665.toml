@@ -8,6 +8,8 @@ state = "IN"
 address = "2665 North 850 West, Shipshewana, IN 46565"
 lat = 41.67793
 lon = -85.59003
+verified_note = "Only an undated NAICS directory lists Edd's Supplies Inc. at 2665 N County Rd 850 W (22 employees, classed as soil preparation/planting rather than fertilizer mixing); no other source was found. Source: https://naicslist.com/company-profile/edds-supplies-inc-shipshewana-in-46565"
+verified = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["Fertilizer (mixing Only) Manufacturing"]

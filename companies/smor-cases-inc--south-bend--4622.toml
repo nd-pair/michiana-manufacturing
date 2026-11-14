@@ -9,6 +9,8 @@ address = "4622 South Burnett Drive, South Bend, IN 46614"
 lat = 41.62608
 lon = -86.26128
 website = "https://smorcases.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Searches for Smor Cases and 4622 S Burnett Dr found nothing, and smorcases.com timed out in the automatic check."
+presumed_closed = "2026-11-13"
 
 sector = "Food & consumer goods"
 products = ["Luggage Manufacturing"]

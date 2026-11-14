@@ -9,6 +9,8 @@ address = "1311 South Olive Street, South Bend, IN 46619"
 lat = 41.66012
 lon = -86.28345
 website = "https://nesrentals.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. No listing for NES Industrial Services at 1311 S Olive St; nesrentals.com is unreachable (certificate belongs to an unrelated domain) and only NES Fircroft staffing job posts for South Bend appeared."
+presumed_closed = "2026-11-13"
 
 sector = "Mechatronics & automation"
 products = ["Fluid Power Cylinder and Actuator Manufacturing"]

@@ -9,6 +9,8 @@ address = "2202 South Bend Avenue, South Bend, IN 46635"
 lat = 41.69988
 lon = -86.21598
 website = "https://fedexkinkos.com"
+verified_note = "FedEx's own locator lists the FedEx Office Print & Ship Center at 2202 S Bend Ave, Suite C, South Bend (retail copy and ship store, not a print plant). Source: https://local.fedex.com/en-us/in/south-bend/office-0195"
+verified = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Quick Printing"]

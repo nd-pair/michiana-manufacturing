@@ -9,6 +9,9 @@ address = "402 North Sheridan Street, South Bend, IN 46619"
 lat = 41.68084
 lon = -86.30388
 website = "https://mohawkdoors.com"
+closed_source = "https://www.woodworkingnetwork.com/news/woodworking-industry-news/mohawk-flush-doors-closing-south-bend-plant"
+closed_note = "Masonite announced in October 2009 that the Mohawk Flush Doors South Bend plant would close permanently (73 jobs); the street address itself was not confirmed and mohawkdoors.com redirects to Masonite."
+closed = "2009"
 
 sector = "Wood, paper & furniture"
 products = ["Wood Window and Door Manufacturing"]

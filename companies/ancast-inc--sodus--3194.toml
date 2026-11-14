@@ -9,6 +9,8 @@ address = "3194 Townline Road, Sodus, MI 49126"
 lat = 42.07211
 lon = -86.38093
 website = "https://ancast.com"
+verified_note = "Yellow Pages and OSHA-based FastDOL list Ancast Inc., a steel foundry, at 3194 Townline Rd, Sodus, and ancast.com is live, though no dated evidence was found. Source: https://www.yellowpages.com/sodus-mi/foundries"
+verified = "2026-11-13"
 
 sector = "Metal"
 products = ["Steel Foundries (except Investment)"]

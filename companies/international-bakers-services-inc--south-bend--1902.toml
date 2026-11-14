@@ -9,6 +9,8 @@ address = "1902 North Sheridan Street, South Bend, IN 46628"
 lat = 41.70108
 lon = -86.30285
 website = "https://internationalbakers.com"
+verified_note = "A June 2023 news report places International Bakers Services in the 1900 block of N. Sheridan St and BBB lists 1902 N. Sheridan. Source: https://www.953mnc.com/2023/06/19/fire-crews-called-to-battle-fire-at-international-bakers-services-in-south-bend/"
+verified = "2026-11-13"
 
 sector = "Food & consumer goods"
 products = ["Flavoring Syrup and Concentrate Manufacturing"]

@@ -9,6 +9,8 @@ address = "1545 South Olive Street, South Bend, IN 46619"
 lat = 41.65791
 lon = -86.28342
 website = "https://interplastic.com"
+verified_note = "Directories and current job postings (undated) show the Interplastic Molding Products Division operating in South Bend; the corporate site does not list the plant. Source: https://startpage.mapquest.com/us/indiana/molding-products-division-26296455"
+verified = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["Synthetic Rubber Manufacturing"]

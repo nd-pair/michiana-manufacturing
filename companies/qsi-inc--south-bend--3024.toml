@@ -9,6 +9,8 @@ address = "3024 Mishawaka Avenue, South Bend, IN 46615"
 lat = 41.66543
 lon = -86.20482
 website = "https://qsibillers.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Only a Kentucky registration for Q S I, Inc. at 3024 Mishawaka Ave shows it inactive with last annual report in 1993; qsibillers.com does not resolve and no other trace was found. Source: https://sosbes.sos.ky.gov/BusSearchNProfile/Profile.aspx/?ctr=128362"
+presumed_closed = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Other Commercial Printing"]

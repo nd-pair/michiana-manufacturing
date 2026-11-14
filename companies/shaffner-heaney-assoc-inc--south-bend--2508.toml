@@ -9,6 +9,8 @@ address = "2508 South Main Street, South Bend, IN 46614"
 lat = 41.64882
 lon = -86.25095
 website = "https://shaffnerheaney.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Only an undated GlobalSpec directory entry lists the firm at 2508 S Main St; its website redirects elsewhere and could not be fetched. Source: https://www.globalspec.com/local/5071/C_US/IN/SOUTH_BEND"
+presumed_closed = "2026-11-13"
 
 sector = "Metal"
 products = ["Primary Aluminum Production"]

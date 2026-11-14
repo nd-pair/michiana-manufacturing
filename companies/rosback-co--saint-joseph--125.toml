@@ -9,6 +9,8 @@ address = "125 Hawthorne Avenue, Saint Joseph, MI 49085"
 lat = 42.07286
 lon = -86.50158
 website = "https://rosbackcompany.com"
+presumed_closed_reason = "Verification check: renamed or acquired, but the new name is not tied to this address (Rosback Parts Store LLC). rosbackcompany.com (copyright 2026) now presents Rosback Parts Store LLC continuing Rosback Company's legacy with the same 269-983-2582 phone that directories tie to 125 Hawthorne Avenue; the site shows no address. Source: https://rosbackcompany.com"
+presumed_closed = "2026-11-13"
 
 sector = "Mechatronics & automation"
 products = ["Printing Machinery and Equipment Manufacturing"]

@@ -9,6 +9,8 @@ address = "912 South Lafayette Boulevard, South Bend, IN 46601"
 lat = 41.66476
 lon = -86.25294
 website = "https://airgas.com"
+presumed_closed_reason = "Verification check: the company operates elsewhere, not at this address. Airgas's own locator lists its South Bend branch at 3725 Cleveland Rd, and no listing was found for 912 S Lafayette Blvd; no source confirms a manufacturing plant at the record address. Source: https://locations.airgas.com/in/southbend/airgas-store-n076.html"
+presumed_closed = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["Industrial Gas Manufacturing"]

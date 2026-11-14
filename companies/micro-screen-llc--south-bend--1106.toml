@@ -9,6 +9,8 @@ address = "1106 High Street, South Bend, IN 46601"
 lat = 41.66255
 lon = -86.23906
 website = "https://microscreen.org"
+verified_note = "The live Microscreen LLC site (c) 2026 lists 1106 High Street, South Bend IN 46601 as an address. Source: http://microscreen.com/"
+verified = "2026-11-13"
 
 sector = "Mechatronics & automation"
 products = ["Printing Machinery and Equipment Manufacturing"]

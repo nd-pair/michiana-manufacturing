@@ -9,6 +9,8 @@ address = "515 West Ireland Road, South Bend, IN 46614"
 lat = 41.62920
 lon = -86.25622
 website = "https://ljtube.com"
+verified_note = "Live site (c) 2026 lists LJT Headquarters at 515 West Ireland Road, South Bend, and a 2014 city tax-abatement filing uses the same address. Source: https://ljtube.com"
+verified = "2026-11-13"
 
 sector = "Metal"
 products = ["Iron and Steel Pipe and Tube Manufacturing From Purchased Steel"]

@@ -9,6 +9,8 @@ address = "13550 Three Oaks Road, Sawyer, MI 49125"
 lat = 41.87310
 lon = -86.60991
 website = "https://corvettecentral.com"
+verified_note = "A September 2025 post announced Corvette Central's 50th-anniversary show at its Sawyer location, and directories give 13550 Three Oaks Road, where some parts are made in-house. Source: https://www.corvetteblogger.com/2025/09/11/corvette-central-is-hosting-its-50th-anniversary-corvette-show-on-september-27th"
+verified = "2026-11-13"
 
 sector = "Vehicles & RVs"
 products = ["All Other Motor Vehicle Parts Manufacturing"]

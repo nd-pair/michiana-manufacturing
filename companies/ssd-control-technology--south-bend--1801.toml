@@ -9,6 +9,8 @@ address = "1801 South Main Street, South Bend, IN 46613"
 lat = 41.65555
 lon = -86.25207
 website = "https://ssdcontrol.com"
+verified_note = "Company site passed the live check and Arcat, MapQuest and Superpages listings place SSD Control Technology (CNC routers and saws for vinyl fabrication) at 1801 S Main St. Source: https://ssdcontrol.com"
+verified = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["All Other Plastics Product Manufacturing"]

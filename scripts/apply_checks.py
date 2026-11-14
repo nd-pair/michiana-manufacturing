@@ -80,7 +80,8 @@ def main(args):
             if not dry:
                 set_field(path, "verified", date)
                 set_field(path, "verified_note", note + (" Source: " + ev[0] if ev else ""))
-        elif st == "moved" and in_region(x.get("current_address") or ""):
+        elif st == "moved" and in_region(x.get("current_address") or "") and fac not in ("office_or_hq", "service_or_retail", "warehouse_distribution") \
+                and not re.search(r"(?i)\b(store|branch|showroom|retail)\b", note):
             action = "moved to " + x["current_address"]
             if not dry:
                 set_field(path, "address", x["current_address"].strip()); del_field(path, "lat"); del_field(path, "lon")
@@ -95,6 +96,7 @@ def main(args):
             if not dry:
                 set_field(path, "closed", str(x["closed_year"])); set_field(path, "closed_note", note); set_field(path, "closed_source", ev[0])
         elif st == "acquired_renamed" and x.get("current_name") and not HEDGED.search(note) and TIED.search(note) \
+                and fac not in ("office_or_hq", "service_or_retail", "warehouse_distribution") \
                 and (norm(x["current_name"]), (c.get("city") or "").lower()) not in names_in_city:
             action = "renamed to " + x["current_name"]
             if not dry:

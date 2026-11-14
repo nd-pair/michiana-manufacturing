@@ -9,6 +9,8 @@ address = "1702 Robinson Street, South Bend, IN 46613"
 lat = 41.65679
 lon = -86.22179
 website = "https://bamarplastics.com"
+verified_note = "The live bamarplastics.com site (copyright 2025) lists 1702 S Robinson St, South Bend, matching directory listings. Source: https://bamarplastics.com"
+verified = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["All Other Plastics Product Manufacturing"]

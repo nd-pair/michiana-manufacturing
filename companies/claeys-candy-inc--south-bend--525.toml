@@ -5,10 +5,12 @@ name = "Claeys Candy, Inc."
 kind = "company"
 city = "South Bend"
 state = "IN"
-address = "525 South Taylor Street, South Bend, IN 46601"
-lat = 41.67040
-lon = -86.25748
+address = "5229 Nimtz Parkway, South Bend, IN 46628"
+lat = 41.72849
+lon = -86.32508
 website = "https://claeyscandy.com"
+verified = "2026-11-13"
+status_note = "Moved from 525 South Taylor Street, South Bend, IN 46601; found in a verification check (2026-11-13): Claeys moved from 525 S Taylor St to a new 50,000 sq ft plant at 5229 Nimtz Parkway (2021-2022), and the Taylor St building is now city-owned and for sale."
 
 sector = "Food & consumer goods"
 products = ["Confectionery Manufacturing From Purchased Chocolate"]

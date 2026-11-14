@@ -9,6 +9,8 @@ address = "2971 Lakeshore Drive, Saint Joseph, MI 49085"
 lat = 42.08285
 lon = -86.50121
 website = "https://rieter.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Only a 2008 Dept. of Labor petition shows a Rieter plant in Saint Joseph shifting production to Canada; no source confirms 2971 Lakeshore Drive or any current occupant. Source: https://www.dol.gov/agencies/eta/tradeact/petitioners/petitions/taw?num=63978"
+presumed_closed = "2026-11-13"
 
 sector = "Vehicles & RVs"
 products = ["All Other Motor Vehicle Parts Manufacturing"]

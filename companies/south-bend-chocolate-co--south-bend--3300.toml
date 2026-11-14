@@ -5,10 +5,12 @@ name = "South Bend Chocolate Co."
 kind = "company"
 city = "South Bend"
 state = "IN"
-address = "3300 West Sample Street, South Bend, IN 46619"
-lat = 41.66442
-lon = -86.29505
+address = "7102 Lincolnway W, South Bend, IN"
+lat = 41.70768
+lon = -86.34659
 website = "https://sbchocolate.com"
+verified = "2026-11-13"
+status_note = "Moved from 3300 West Sample Street, South Bend, IN 46619; found in a verification check (2026-11-13): Wikipedia reports the company moved its Sample Street operation to a new factory and headquarters at 7102 Lincolnway W in June-July 2024."
 
 sector = "Food & consumer goods"
 products = ["Confectionery Manufacturing From Purchased Chocolate"]

@@ -1,14 +1,16 @@
 # Midwest Orthotic & Technology Center
 # Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
 
-name = "Midwest Orthotic & Technology Center"
+name = "Surestep, LLC (Dienen, Inc.)"
 kind = "company"
 city = "South Bend"
 state = "IN"
 address = "17530 Dugdale Drive, South Bend, IN 46635"
 lat = 41.71335
 lon = -86.20695
-website = "https://surestep.net"
+verified = "2026-11-13"
+status_note = "Renamed in a verification check (2026-11-13): Surestep, the pediatric orthotics maker owned by the same parent as Midwest Orthotic & Technology Center, lists HQ at 17530 Dugdale Dr and had an April 2026 technician posting there, while the Midwest clinic rebranded as Transcend. Source: https://linkedin.com/company/surestep"
+formerly = "Midwest Orthotic & Technology Center"
 
 sector = "Medical devices & other"
 products = ["Surgical Appliance and Supplies Manufacturing"]

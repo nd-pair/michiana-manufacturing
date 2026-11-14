@@ -9,6 +9,8 @@ address = "3650 North Olive Road, South Bend, IN 46628"
 lat = 41.71509
 lon = -86.34667
 website = "https://maxiblast.com"
+verified_note = "Live site (c) 2025 lists 3650 North Olive Road, South Bend, and the federal contractor profile shows awards through March 2025. Source: https://maxiblast.com"
+verified = "2026-11-13"
 uei = "XWJTNRM9VVX5"
 
 sector = "Mechatronics & automation"

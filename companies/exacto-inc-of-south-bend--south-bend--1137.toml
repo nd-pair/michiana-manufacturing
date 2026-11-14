@@ -8,6 +8,8 @@ state = "IN"
 address = "1137 South Lafayette Boulevard, South Bend, IN 46601"
 lat = 41.66271
 lon = -86.25365
+presumed_closed_reason = "Verification check: reported closed, without a dated source. MapQuest marks Exacto, Inc. of South Bend at 1137 S Lafayette Blvd as closed, and the 26,162 sq ft industrial building at that address is offered for sale or lease; the closure year is unknown. Source: https://startpage.mapquest.com/us/indiana/exacto-inc-of-south-bend-6137950"
+presumed_closed = "2026-11-13"
 
 sector = "Metal"
 products = ["Machine Shops"]

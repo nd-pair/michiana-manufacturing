@@ -8,6 +8,8 @@ state = "IN"
 address = "1319 North Iowa Street, South Bend, IN 46628"
 lat = 41.69240
 lon = -86.29618
+presumed_closed_reason = "Verification check: no current trace of this company at this address. No source places Duramold at 1319 N Iowa St; a similarly named Duramold Castings appears at 1901 N Bendix Dr, South Bend, but it could not be tied to this record. Source: https://prospeo.io/c/duramold-castings-inc"
+presumed_closed = "2026-11-13"
 
 sector = "Vehicles & RVs"
 products = ["All Other Motor Vehicle Parts Manufacturing"]

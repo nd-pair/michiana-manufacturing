@@ -8,6 +8,8 @@ state = "IN"
 address = "435 South Van Buren Street, Shipshewana, IN 46565"
 lat = 41.67195
 lon = -85.58014
+verified_note = "USDA FSIS lists Yoder Meats, Inc. as an inspected establishment and Visit Shipshewana lists Yoder's Meat & Cheese Co. at 435 S Van Buren St (260-768-4715), a processor with an attached store. Source: https://www.fsis.usda.gov/inspection/fsis-inspected-establishments/yoder-meats-inc."
+verified = "2026-11-13"
 
 sector = "Food & consumer goods"
 products = ["Meat Processed From Carcasses"]

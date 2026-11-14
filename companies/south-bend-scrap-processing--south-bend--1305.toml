@@ -8,6 +8,8 @@ state = "IN"
 address = "1305 Prairie Avenue, South Bend, IN 46613"
 lat = 41.66063
 lon = -86.26377
+presumed_closed_reason = "Verification check: another business is at this address now (OmniSource Corporation). South Bend city scrap-metal license records (including a 2024 council resolution) and a Steel Dynamics job post list OmniSource at 1305 Prairie Ave, with no sign of South Bend Scrap & Processing. Source: https://careers-omnisource.icims.com/jobs/7443/1st-shift-non-ferrous-buyer/job"
+presumed_closed = "2026-11-13"
 
 sector = "Metal"
 products = ["Secondary Smelting, Refining, and Alloying of Nonferrous Metal (except Copper and Aluminum)"]

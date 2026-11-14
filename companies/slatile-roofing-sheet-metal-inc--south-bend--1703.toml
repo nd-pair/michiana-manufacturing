@@ -8,6 +8,8 @@ state = "IN"
 address = "1703 South Ironwood Drive, South Bend, IN 46613"
 lat = 41.65666
 lon = -86.21653
+removed_reason = "not a production site (office or hq), found in a verification check: South Bend city bid documents from 2024 and a 2025 Monroe Street Arts Building roof contract name Slatile Roofing & Sheet Metal at 1703 S Ironwood Dr."
+removed = "2026-11-13"
 
 sector = "Metal"
 products = ["Sheet Metal Work Manufacturing"]

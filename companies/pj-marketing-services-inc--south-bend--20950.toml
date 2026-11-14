@@ -9,6 +9,8 @@ address = "20950 Ireland Road, South Bend, IN 46614"
 lat = 41.62844
 lon = -86.27131
 website = "https://pjpromo.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Searches for PJ Marketing Services, pjpromo and 20950 Ireland Rd returned nothing relevant, and the domain does not resolve."
+presumed_closed = "2026-11-13"
 
 sector = "Food & consumer goods"
 products = ["All Other Miscellaneous Textile Product Mills"]

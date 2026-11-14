@@ -9,6 +9,8 @@ address = "2820 Viridian Drive, South Bend, IN 46628"
 lat = 41.71459
 lon = -86.29920
 website = "https://macktool.com"
+verified_note = "Company site (footer 2019) and several directories and contractor listings give 2820 Viridian Drive as the current address. Source: https://macktool.com"
+verified = "2026-11-13"
 
 sector = "Mechatronics & automation"
 products = ["Special Die and Tool, Die Set, Jig, and Fixture Manufacturing"]

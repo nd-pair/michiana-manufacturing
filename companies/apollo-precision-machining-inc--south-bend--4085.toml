@@ -9,6 +9,8 @@ address = "4085 Ralph Jones Drive, South Bend, IN 46628"
 lat = 41.73213
 lon = -86.30109
 website = "https://apollopm.com"
+verified_note = "The live apollopm.com site lists Apollo Precision Machining at 4085 Ralph Jones Dr, South Bend, phone (574) 271-1197, with quality and certification pages. Source: https://apollopm.com"
+verified = "2026-11-13"
 
 sector = "Metal"
 products = ["Machine Shops"]

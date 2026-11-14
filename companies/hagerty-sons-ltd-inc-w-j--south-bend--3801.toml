@@ -9,6 +9,8 @@ address = "3801 West Linden Avenue, South Bend, IN 46619"
 lat = 41.67970
 lon = -86.30252
 website = "https://hagertyusa.com"
+verified_note = "Live site (c) 2025 lists 3801 Linden Avenue, South Bend IN 46619 (same address without 'West'); whether products are made there is not stated. Source: https://hagertyusa.com"
+verified = "2026-11-13"
 
 sector = "Medical devices & other"
 products = ["Sporting and Athletic Goods Manufacturing"]

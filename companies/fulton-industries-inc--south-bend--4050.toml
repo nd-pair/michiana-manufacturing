@@ -3,12 +3,14 @@
 
 name = "Fulton Industries, Inc."
 kind = "company"
-city = "South Bend"
+city = "Granger"
 state = "IN"
-address = "4050 Ralph Jones Drive, South Bend, IN 46628"
-lat = 41.73179
-lon = -86.30031
+address = "51565 Bittersweet Rd, Ste B, Granger, IN 46530"
+lat = 41.74492
+lon = -86.11098
 website = "https://fultonindustries.com"
+verified = "2026-11-13"
+status_note = "Moved from 4050 Ralph Jones Drive, South Bend, IN 46628; found in a verification check (2026-11-13): Fulton Industries' site (c) 2025 lists its Indiana address as Granger, and no source places it at 4050 Ralph Jones Drive."
 
 sector = "Metal"
 products = ["Steel Foundries (except Investment)"]

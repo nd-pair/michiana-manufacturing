@@ -9,6 +9,8 @@ address = "501 Colonial Drive, Saint Joseph, MI 49085"
 lat = 42.08289
 lon = -86.48997
 website = "https://ipcprintservices.com"
+presumed_closed_reason = "Verification check: renamed or acquired, but the new name is not tied to this address (Walsworth - Saint Joseph). Walsworth acquired IPC Print Services in 2010; Colonial Drive was IPC's 1960s-era site and the current plant is on Maiden Lane, so the tie to 501 Colonial Drive is weak and no current occupant there was found. Source: https://secondwavemedia.com/?p=33072"
+presumed_closed = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Prepress Services"]

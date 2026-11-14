@@ -9,6 +9,8 @@ address = "3580 Blackthorn Court, South Bend, IN 46628"
 lat = 41.72430
 lon = -86.33630
 website = "https://abro.com"
+removed_reason = "not a production site (office or hq), found in a verification check: The live abro.com site (copyright 2026) lists World Headquarters at 3580 Blackthorn Ct, South Bend."
+removed = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Coated and Laminated Paper Manufacturing"]

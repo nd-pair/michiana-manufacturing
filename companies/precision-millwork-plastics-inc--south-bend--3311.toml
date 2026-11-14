@@ -9,6 +9,8 @@ address = "3311 William Richardson Drive, South Bend, IN 46628"
 lat = 41.73201
 lon = -86.29621
 website = "https://precisionmillwork.net"
+verified_note = "Company site is live (copyright 2025, custom casework) and directories place Precision Millwork & Plastics at 3311 William Richardson Dr/Ct, South Bend 46628, though the site itself shows no address. Source: https://precisionmillwork.net"
+verified = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Showcase, Partition, Shelving, and Locker Manufacturing"]

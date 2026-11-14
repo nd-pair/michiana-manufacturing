@@ -9,6 +9,8 @@ address = "1607 South Main Street, South Bend, IN 46613"
 lat = 41.65754
 lon = -86.25196
 website = "https://paladincaseworks.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Only an undated NAICS directory profile lists the company at 1607 Main St; paladincaseworks.com could not be read (certificate belongs to an unrelated mail-filter host), so no evidence of current operation. Source: https://naicslist.com/company-profile/paladin-caseworks-inc-south-bend-in-46613"
+presumed_closed = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["All Other Miscellaneous Wood Product Manufacturing"]

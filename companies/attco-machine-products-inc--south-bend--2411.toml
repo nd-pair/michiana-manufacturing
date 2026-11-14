@@ -9,6 +9,8 @@ address = "2411 Foundation Drive, South Bend, IN 46628"
 lat = 41.70951
 lon = -86.30448
 website = "https://attco.com"
+verified_note = "The attco.com site is live (aerospace components manufacturer) and MapQuest and contractor directories list Attco at 2411 Foundation Dr, South Bend. Source: https://www.mapquest.com/us/indiana/attco-machine-products-6142910"
+verified = "2026-11-13"
 
 sector = "Vehicles & RVs"
 products = ["Other Aircraft Part and Auxiliary Equipment Manufacturing"]

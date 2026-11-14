@@ -9,6 +9,8 @@ address = "24445 State Road 23, South Bend, IN 46614"
 lat = 41.62039
 lon = -86.33942
 website = "https://strescore.com"
+verified_note = "Live StresCore site (copyright 2026) lists 24445 State Road 23, South Bend, and describes a precast hollowcore plank producer. Source: https://strescore.com"
+verified = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["Other Concrete Product Manufacturing"]

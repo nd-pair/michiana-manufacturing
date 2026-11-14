@@ -1,14 +1,16 @@
 # Manufacturers Rubber Supply
 # Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
 
-name = "Manufacturers Rubber Supply"
+name = "Materials Resources"
 kind = "company"
 city = "Saint Joseph"
 state = "MI"
 address = "815 Lester Avenue, Saint Joseph, MI 49085"
 lat = 42.08473
 lon = -86.48475
-website = "https://emrsinc.com"
+verified = "2026-11-13"
+status_note = "Renamed in a verification check (2026-11-13): An ISA member directory lists Materials Resources as 'formerly Manufacturers Rubber Supply' and GlobalSpec shows an unnamed business at 815 Lester Avenue; emrsinc.com refused connections. Source: https://member.isapartners.org/member-directory/materials-resources--dba-formerly-manufacturers-rubber-supply"
+formerly = "Manufacturers Rubber Supply"
 
 sector = "Medical devices & other"
 products = ["Gasket, Packing, and Sealing Device Manufacturing"]

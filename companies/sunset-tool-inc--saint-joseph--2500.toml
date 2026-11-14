@@ -9,6 +9,8 @@ address = "2500 South Cleveland Avenue, Saint Joseph, MI 49085"
 lat = 42.07313
 lon = -86.49564
 website = "https://sunsettool.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. sunsettool.com redirects to a GoDaddy domain-for-sale page and no listing for Sunset Tool at 2500 South Cleveland Avenue was found. Source: https://forsale.godaddy.com/forsale/sunsettool.com"
+presumed_closed = "2026-11-13"
 
 sector = "Mechatronics & automation"
 products = ["Special Die and Tool, Die Set, Jig, and Fixture Manufacturing"]

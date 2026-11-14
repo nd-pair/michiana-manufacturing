@@ -9,6 +9,9 @@ address = "206 East Tutt Street, South Bend, IN 46601"
 lat = 41.66592
 lon = -86.24866
 website = "https://castandmachine.com"
+closed_source = "https://www.historymuseumsb.org/sibley-machine-tool-company/"
+closed_note = "The History Museum of South Bend says Sibley closed its South Bend operation in 2012, though undated directories still list 206 E Tutt St and castandmachine.com content could not be read."
+closed = "2012"
 
 sector = "Metal"
 products = ["Iron Foundries"]

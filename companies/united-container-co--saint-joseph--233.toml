@@ -9,6 +9,8 @@ address = "233 Hawthorne Avenue, Saint Joseph, MI 49085"
 lat = 42.07285
 lon = -86.49723
 website = "https://unitedcontainer.com"
+verified_note = "unitedcontainer.com (copyright 2026) lists a St. Joseph, Michigan location first and BBB gives United Container Company at 233 Hawthorne Ave, with a job posting under Southshore Companies/United Container Co. Source: https://unitedcontainer.com"
+verified = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["Plastics Bag Manufacturing"]

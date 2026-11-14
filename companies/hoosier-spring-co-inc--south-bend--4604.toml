@@ -9,6 +9,8 @@ address = "4604 South Burnette Drive, South Bend, IN 46614"
 lat = 41.62764
 lon = -86.26038
 website = "https://hoosierspring.com"
+verified_note = "Thomasnet, federal contractor and Purdue MEP profiles list Hoosier Spring at 4604 S. Burnett Dr with ISO 9001:2015 and AS9100D certifications; the site fetch failed on a certificate error. Source: https://www.thomasnet.com/company/hoosier-spring-co-inc-176028/profile"
+verified = "2026-11-13"
 uei = "KMTNJVHPS1N9"
 
 sector = "Metal"

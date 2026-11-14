@@ -1,14 +1,16 @@
 # Royal Adhesives & Sealants, LLC
 # Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
 
-name = "Royal Adhesives & Sealants, LLC"
+name = "H.B. Fuller (formerly Royal Adhesives & Sealants)"
 kind = "company"
 city = "South Bend"
 state = "IN"
 address = "2001 West Washington Street, South Bend, IN 46628"
 lat = 41.67717
 lon = -86.27842
-website = "https://royaladhesives.com"
+verified = "2026-11-13"
+status_note = "Renamed in a verification check (2026-11-13): IDEM record ties Royal Adhesives and Sealants LLC's plant to 2001 W Washington, and a Building Clean facility listing for the same address names H.B. Fuller as manufacturer, consistent with its acquisition of Royal; the royaladhesives.com page content could not be read. Source: https://buildingclean.org/manufacturers/facility/10078"
+formerly = "Royal Adhesives & Sealants, LLC"
 
 sector = "Materials & composites"
 products = ["Adhesive Manufacturing"]

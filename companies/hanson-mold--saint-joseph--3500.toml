@@ -9,6 +9,8 @@ address = "3500 Hollywood Road, Saint Joseph, MI 49085"
 lat = 42.05441
 lon = -86.45622
 website = "https://hansonmold.com"
+presumed_closed_reason = "Verification check: renamed or acquired, but the new name is not tied to this address (Hanson International). Hanson Mold at 3500 Hollywood Road changed its name to Hanson International and was still advertising apprentice mold-maker jobs in 2026, though hansonmold.com now shows an unrelated site and a MapQuest page marks the listing closed. Source: https://moodyonthemarket.com/?p=254703"
+presumed_closed = "2026-11-13"
 
 sector = "Mechatronics & automation"
 products = ["Industrial Mold Manufacturing"]

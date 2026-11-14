@@ -8,6 +8,8 @@ state = "IN"
 address = "3601 West Mcgill Street, South Bend, IN 46628"
 lat = 41.72063
 lon = -86.29960
+verified_note = "Directory listings (Superpages, Yellow Pages) place AAA Tool and Die at 3601 W McGill St; it was acquired by General Sheet Metal Works in 2014 and kept as a subsidiary (2015 president appointment), but no recent dated confirmation was found. Source: https://Superpages.com/south-bend-in/tool-die-makers"
+verified = "2026-11-13"
 
 sector = "Mechatronics & automation"
 products = ["Special Die and Tool, Die Set, Jig, and Fixture Manufacturing"]

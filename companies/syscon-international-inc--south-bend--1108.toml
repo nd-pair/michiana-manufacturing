@@ -9,6 +9,8 @@ address = "1108 High Street, South Bend, IN 46601"
 lat = 41.66245
 lon = -86.23906
 website = "https://plantstar.org"
+verified_note = "Syscon's live site (copyright 2026) says PlantStar hardware is manufactured at its South Bend headquarters, and directories list that headquarters as 1108 High St. Source: https://www.syscon-intl.com/"
+verified = "2026-11-13"
 
 sector = "Electronics"
 products = ["Instruments & Related Products Mfg. for Measuring, Displaying, Controlling Industrial Process Variables"]

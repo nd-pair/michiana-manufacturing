@@ -9,6 +9,8 @@ address = "4111 Technology Drive, South Bend, IN 46628"
 lat = 41.73317
 lon = -86.34296
 website = "https://cmmbuilt.com"
+verified_note = "The live cmmbuilt.com site (2025 copyright, Custom Machine Motioneering Inc.) lists 4111 Technology Dr, South Bend. Source: https://www.cmmbuilt.com"
+verified = "2026-11-13"
 
 sector = "Mechatronics & automation"
 products = ["Power-Driven Hand Tool Manufacturing"]

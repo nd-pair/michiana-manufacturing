@@ -9,6 +9,8 @@ address = "1805 Western Avenue, South Bend, IN 46619"
 lat = 41.67244
 lon = -86.27669
 website = "https://goodwill-ni.org"
+verified_note = "Goodwill's live site footer lists 1805 W. Western Ave, South Bend IN 46619 and directories list it as the Michiana headquarters; manufacturing activity there not confirmed. Source: https://goodwill-ni.org"
+verified = "2026-11-13"
 uei = "L6AENFMBT2Y9"
 
 sector = "Food & consumer goods"

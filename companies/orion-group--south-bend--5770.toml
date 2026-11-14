@@ -8,6 +8,8 @@ state = "IN"
 address = "5770 Nimtz Parkway, South Bend, IN 46628"
 lat = 41.72430
 lon = -86.32992
+presumed_closed_reason = "Verification check: no current trace of this company at this address. 5770 Nimtz Pkwy is advertised as office space for lease in Blackthorn Corporate Park, with no Orion Group tie found and no occupant named. Source: https://www.showcase.com/5770-nimtz-pky-south-bend-in-46628/28411267/"
+presumed_closed = "2026-11-13"
 
 sector = "Electronics"
 products = ["Electronic Computer Manufacturing"]

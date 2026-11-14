@@ -9,6 +9,8 @@ address = "4520 South Burnett Drive, South Bend, IN 46614"
 lat = 41.62835
 lon = -86.26040
 website = "https://mastermetal.net"
+verified_note = "ZoomInfo, GlobalSpec and Purdue MEP list Master Metal Engineering at 4520 S. Burnett Dr (MapQuest shows closed, likely hours); site fetch failed on SSL. Source: https://www.zoominfo.com/c/master-metal-engineering/345704417"
+verified = "2026-11-13"
 
 sector = "Metal"
 products = ["Machine Shops"]

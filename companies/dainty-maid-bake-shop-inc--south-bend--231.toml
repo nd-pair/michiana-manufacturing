@@ -8,6 +8,8 @@ state = "IN"
 address = "231 South Michigan Street, South Bend, IN 46601"
 lat = 41.67451
 lon = -86.25070
+removed_reason = "not a production site: the 1928 Dainty Maid bakery building at 231 S Michigan St is now a food hall (Cops & Doughnuts, 2016); found in a verification check"
+removed = "2026-11-13"
 
 sector = "Food & consumer goods"
 products = ["Commercial Bakeries"]

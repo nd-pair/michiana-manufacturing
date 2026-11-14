@@ -9,6 +9,8 @@ address = "3450 Hollywood Road, Saint Joseph, MI 49085"
 lat = 42.05524
 lon = -86.45621
 website = "https://heraldpalladium.com"
+removed_reason = "not a production site (office or hq), found in a verification check: Directory listings and Wikipedia give The Herald-Palladium (owned by Paxton Media Group) at 3450 Hollywood Road, but no dated evidence of 2023 or later was found."
+removed = "2026-11-13"
 
 sector = "Wood, paper & furniture"
 products = ["Other Commercial Printing"]

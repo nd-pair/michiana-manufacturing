@@ -9,6 +9,8 @@ address = "116 North Hill Street, South Bend, IN 46617"
 lat = 41.67688
 lon = -86.24249
 website = "https://northernelectricco.com"
+verified_note = "Live company site lists Northern Electric Company, Inc. at 116 North Hill Street, South Bend (motor, encoder and gear reducer repair, machine shop, 75th anniversary). Source: https://northernelectricco.com"
+verified = "2026-11-13"
 
 humanoid = ["motors", "reducers", "drivers"]
 humanoid_note = "Rebuilds servo and robot motors, gear reducers and AC/DC drives in a dedicated servo and robotic motor department; a service shop that knows robot actuators, not a motor maker (company site, November 2026)."

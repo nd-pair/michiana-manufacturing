@@ -8,6 +8,8 @@ state = "IN"
 address = "1701 South Main Street, South Bend, IN 46613"
 lat = 41.65672
 lon = -86.25193
+presumed_closed_reason = "Verification check: no current trace of this company at this address. Searches for the company name and for 1701 S Main St returned nothing for Autosem or for any occupant of that address."
+presumed_closed = "2026-11-13"
 
 sector = "Electronics"
 products = ["Semiconductor and Related Device Manufacturing"]

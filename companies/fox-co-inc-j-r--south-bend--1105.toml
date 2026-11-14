@@ -9,6 +9,8 @@ address = "1105 East Ireland Road, South Bend, IN 46614"
 lat = 41.62968
 lon = -86.23429
 website = "https://jrfox.com"
+removed_reason = "not a production site (service or retail), found in a verification check: The live jrfox.com site lists J.R. Fox Jewelers at 1105 E Ireland Rd, South Bend (574-291-5700), a branch of J R Fox MFG Jewelers (main address 5717 Grape Rd, Mishawaka) that functions as a retail and repair store."
+removed = "2026-11-13"
 
 sector = "Medical devices & other"
 products = ["Jewelry (except Costume) Manufacturing"]

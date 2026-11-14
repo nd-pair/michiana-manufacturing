@@ -9,6 +9,8 @@ address = "2915 West 900 South, Silver Lake, IN 46982"
 lat = 41.10086
 lon = -85.89072
 website = "https://par-kan.com"
+verified_note = "par-kan.com (copyright 2025) shows Par-Kan Company, LLC at 2915 W 900 S, Silver Lake, making ground support equipment, despite a 2016 asset acquisition by GB Manufacturing. Source: https://par-kan.com"
+verified = "2026-11-13"
 uei = "N45JMVKHH1X6"
 
 sector = "Materials & composites"

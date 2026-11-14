@@ -9,6 +9,8 @@ address = "59640 Market Street, South Bend, IN 46614"
 lat = 41.62676
 lon = -86.31468
 website = "https://abtrex.com"
+verified_note = "BBB and other current directory listings place Abtrex (rubber lining and steel fabrication, 55,000 sq ft plant) at 59640 Market St, South Bend; its website returned 403 to the fetch so it was not viewed. Source: https://prod.bbb.org/us/in/south-bend/category/protective-coatings"
+verified = "2026-11-13"
 
 sector = "Materials & composites"
 products = ["All Other Plastics Product Manufacturing"]

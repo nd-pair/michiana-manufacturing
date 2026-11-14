@@ -9,6 +9,8 @@ address = "3545 South Lakeshore Drive, Saint Joseph, MI 49085"
 lat = 42.05313
 lon = -86.51381
 website = "https://monarchdeck.com"
+presumed_closed_reason = "Verification check: no current trace of this company at this address. The monarchdeck.com domain is a for-sale placeholder and only an undated AECinfo directory entry for Monarch Composite Products ties the address to the company. Source: https://aecinfo.com/1/company/08/70/59/company_1.html"
+presumed_closed = "2026-11-13"
 
 sector = "Metal"
 products = ["All Other Miscellaneous Fabricated Metal Product Manufacturing"]
