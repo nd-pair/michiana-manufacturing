@@ -5,7 +5,8 @@
 
 Checks every company on the map (not closed, presumed closed or removed):
 - location: the coordinates fall in one of the region's counties (data/region_counties.json);
-- duplicate: another file has the same street address, or the same name within 300 m;
+- duplicate: another file has the same street address, the same street address under another postal
+  town within 1 km (Sawyer and Bridgman), or the same name within 300 m;
 - headcount: a site headcount above 5,000, or a headcount that looks company-wide;
 - sector: the sector disagrees with the NAICS code's usual sector (scripts/import_hifld.py);
 - precision: placed at a city's center instead of a street address.
@@ -27,11 +28,12 @@ def main():
     cs = [c for c in companies() if not any(c.get(k) for k in ("closed", "presumed_closed", "removed"))]
     rows = []
     add = lambda c, kind, detail: rows.append({"kind": kind, "file": "companies/" + c["_file"], "name": c["name"], "address": c.get("address", ""), "detail": detail})
-    by_addr, by_name = {}, {}
+    by_addr, by_street, by_name = {}, {}, {}
     for c in cs:
         k = addr_key(c.get("address", ""), c.get("city", ""))
         if k:
             by_addr.setdefault(k, []).append(c)
+            by_street.setdefault(addr_key(c["address"].split(",")[0], "-"), []).append(c)
         by_name.setdefault(norm(c["name"]), []).append(c)
         if "lat" in c:
             cty = county_of(c["lat"], c["lon"])
@@ -50,6 +52,11 @@ def main():
         if len(group) > 1:
             for c in group:
                 add(c, "duplicate", "same address as " + "; ".join("%s (%s)" % (o["name"], o["_file"]) for o in group if o is not c))
+    for group in by_street.values():   # the same street address filed under two postal towns
+        for i, a in enumerate(group):
+            for b in group[i + 1:]:
+                if a.get("city") != b.get("city") and "lat" in a and "lat" in b and km((a["lat"], a["lon"]), (b["lat"], b["lon"])) < 1:
+                    add(a, "duplicate", "same street address under another town within 1 km: %s (%s)" % (b.get("address", ""), b["_file"]))
     for n, group in by_name.items():
         located = [c for c in group if "lat" in c]
         for i, a in enumerate(located):

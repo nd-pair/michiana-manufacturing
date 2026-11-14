@@ -8,6 +8,8 @@ state = "MI"
 address = "11521 Red Arrow Highway, Bridgman, MI 49106"
 lat = 41.91007
 lon = -86.58554
+removed_reason = "duplicate: the same plant as companies/st-joe-tool-company--sawyer--11521.toml (11521 Red Arrow Highway, postal town Sawyer in its 2025 OSHA filing, Bridgman in HIFLD), found by the consistency check"
+removed = "2026-11-14"
 verified_note = "Live company site with 2026 copyright lists St. Joe Tool Company at 11521 Red Arrow Highway (postal city Sawyer, same address). Source: https://www.stjoetool.com"
 verified = "2026-11-13"
 
