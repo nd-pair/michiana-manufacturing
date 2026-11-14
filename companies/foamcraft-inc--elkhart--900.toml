@@ -5,21 +5,22 @@ name = "Foamcraft, Inc."
 kind = "company"
 city = "Elkhart"
 state = "IN"
-address = "900 Industrial Parkway, Elkhart, IN 46516"
-lat = 41.67998
-lon = -85.93415
+address = "800 Industrial Parkway, Elkhart, IN 46516"
+lat = 41.67775
+lon = -85.93439
 website = "https://foamcraftinc.com"
+status_note = "Address from Foamcraft's OSHA Form 300A filings for 2025 (Buildings 1 and 3 at 800 Industrial Parkway); previously 900 Industrial Parkway."
 osha_id = "795492"
 
 sector = "Materials & composites"
 products = ["Polystyrene Foam Product Manufacturing"]
 naics = "326140"
 
-employees = 10
+employees = 54
 employees_scope = "site"
 employees_year = 2025
 employees_quality = "reported"
-employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+employees_note = "OSHA Form 300A, sum of 2 filings for buildings or departments at this address, 2025"
 
 description = "Foam Cushioning. NAICS 326140: polystyrene foam product manufacturing."
 

@@ -1,0 +1,27 @@
+# Chore-Time
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Chore-Time"
+kind = "company"
+city = "Milford"
+state = "IN"
+address = "410 N. Higbee, Milford, IN 46542"
+lat = 41.41396
+lon = -85.85026
+osha_id = "56178"
+
+sector = "Mechatronics & automation"
+products = ["Chicken feeders manufacturing"]
+naics = "333111"
+
+employees = 295
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+parent = "CTB, Inc."
+description = "NAICS 333111: chicken feeders manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-14"

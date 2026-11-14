@@ -1,0 +1,28 @@
+# Brinkley RV LLC
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Brinkley RV LLC"
+kind = "company"
+city = "Goshen"
+state = "IN"
+address = "1470 Brinkley Way W, Goshen, IN 46528"
+location_precision = "city"
+lat = 41.56948
+lon = -85.77886
+status_note = "Brinkley Way is a private street the geocoders do not know: placed at the center of Brinkley's mapped plants on it (1475, 1585 and 1655 Brinkley Way), not at this building."
+osha_id = "1517325"
+
+sector = "Vehicles & RVs"
+products = ["Travel Trailer and Camper Manufacturing"]
+naics = "336214"
+
+employees = 161
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 336214: travel trailer and camper manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-14"

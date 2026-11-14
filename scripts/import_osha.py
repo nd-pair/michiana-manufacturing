@@ -236,8 +236,9 @@ def main(args):
     existing = set(os.listdir(P("companies")))
     out, matched, updated, written, outside, nogeo, new_addr, pending, occupants, restored, moves, summed = {}, 0, 0, 0, [], [], {}, [], 0, 0, [], []
     today = datetime.date.today().isoformat()
-    # filings on their file's own street first, so that file keeps its plant; then by size
-    for r in sorted(keep, key=lambda r: (0 if on_files_street(r) else 1, -int(r.get("annual_average_employees") or 0))):
+    # filings at a file's exact address first, then filings on their file's own street, so that file keeps its plant; then by size
+    at_a_file = lambda r: addr_key(r["street_address"], titlecase(r["city"].strip()) if r["city"].isupper() else r["city"].strip()) in by_addr
+    for r in sorted(keep, key=lambda r: (0 if at_a_file(r) else 1 if on_files_street(r) else 2, -int(r.get("annual_average_employees") or 0))):
         eid, city = str(r["establishment_id"]).strip(), titlecase(r["city"].strip()) if r["city"].isupper() else r["city"].strip()
         emp = emp_of(r) or None
         if emp and emp > 15000:
@@ -273,6 +274,13 @@ def main(args):
                     st_ = re.sub(r"(?i)\s+%s\b.*$" % re.escape(city), "", st_)          # '703 E KERCHER ROAD GOSHEN BUILDING 1'
                     st_ = titlecase(st_) if st_.isupper() else st_
                     moved_to = "%s, %s, %s %s" % (st_, city, r["state"], r["zip_code"][:5])
+            elif fs and fs == es and not same_number and cid in claimed and claimed[cid] != here:
+                # another house number on the same street, and the file already stands for its own plant: Keystone's
+                # Plants 4, 18 and 23 on Hackberry Drive. Numbers of different lengths may be Elkhart County's two
+                # numbering systems for one plant (53212 vs 2600 Ada Dr), so those stay together.
+                n_file, n_here = site_key(by_id[cid].get("address", ""))[0], site_key(r["street_address"])[0]
+                if n_file and n_here and len(n_file) == len(n_here):
+                    cid = None
         if cid and cid not in claimed:
             claimed[cid] = here if moved_to else addr_key(by_id[cid].get("address", ""), by_id[cid].get("city", ""))
         if cid:
@@ -443,6 +451,8 @@ def main(args):
     print("%d plants now add up the filings at their address:" % len(summed))
     for x in summed:
         print("  summed:", x)
+    for fname, lines, ak in pending:
+        print("  new:", fname, next((l for l in lines if l.startswith("employees = ")), ""))
     print("%d files moved to the address of their own filing:" % len(moves))
     for x in moves:
         print("  moved:", x)

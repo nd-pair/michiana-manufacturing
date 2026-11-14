@@ -1,0 +1,26 @@
+# Maitland Engineering Inc.
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Maitland Engineering Inc."
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "2720 Foundation Drive, South Bend, IN 46628"
+lat = 41.71447
+lon = -86.30412
+osha_id = "1276527"
+
+sector = "Metal"
+products = ["Precision turned product manufacturing"]
+naics = "332721"
+
+employees = 21
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 332721: precision turned product manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-14"

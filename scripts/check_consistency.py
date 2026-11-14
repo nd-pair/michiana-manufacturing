@@ -41,7 +41,7 @@ def main():
             if cty not in COUNTIES:   # ZIP codes cross county lines (Walkerton), so only a point outside the region is flagged
                 add(c, "location", "coordinates %.4f, %.4f are %s" % (c["lat"], c["lon"], "in county %s, outside the region" % cty if cty else "outside the mapped counties"))
         if c.get("location_precision") == "city":
-            add(c, "precision", "placed at the center of %s" % c.get("city", ""))
+            add(c, "precision", "placed approximately, not at its street address (%s)" % (c.get("status_note") or "the center of %s" % c.get("city", "")))
         e = c.get("employees")
         if e and e > 5000 and c.get("employees_scope", "site") == "site":
             add(c, "headcount", "%d employees at one site" % e)
