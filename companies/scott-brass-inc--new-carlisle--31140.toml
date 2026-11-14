@@ -1,32 +1,31 @@
-# Master Roll Manufacturing
-# Imported from HIFLD, then updated from OSHA's Form 300A filing at this address (public); edit freely.
+# Scott Brass, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
 
-name = "Master Roll Manufacturing"
+name = "Scott Brass, Inc."
 kind = "company"
 city = "New Carlisle"
 state = "IN"
 address = "31140 Edison Road, New Carlisle, IN 46552"
 lat = 41.69360
 lon = -86.47064
-osha_id = "985014"
-status_note = "Named from OSHA's 2025 Form 300A filing at this address; the earlier record here, Scott Brass, Inc. (HIFLD), is a predecessor or a former occupant."
-formerly = "Scott Brass, Inc."
+website = "https://scottbrass.com"
+osha_occupant = "Master Roll Manufacturing (OSHA Form 300A filer at this address, 2025)"
 
 sector = "Metal"
-products = ["Machine shops"]
-naics = "332710"
+products = ["All Other Miscellaneous Fabricated Metal Product Manufacturing"]
+naics = "332999"
 
-employees = 21
+employees = 30
 employees_scope = "site"
-employees_year = 2025
-employees_quality = "reported"
-employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
-description = "NAICS 332710: machine shops."
+description = "Metal Fabrication. NAICS 332999: all other miscellaneous fabricated metal product manufacturing."
 
 closed = "2011-06"
 closed_note = "Scott Brass, Inc. went bankrupt; its assets, including the Mishawaka rolling mill, were auctioned on June 22, 2011, after a 2008 WARN layoff of 107 workers at its Mishawaka and New Carlisle sites."
 closed_source = "https://www.biditup.com/db-files/1305660549-216545.pdf"
 
-source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor); the earlier record at this address came from HIFLD"
-updated = "2026-11-13"
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"

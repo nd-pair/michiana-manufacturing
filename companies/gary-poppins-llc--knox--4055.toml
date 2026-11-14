@@ -1,0 +1,26 @@
+# Gary Poppins, LLC
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Gary Poppins, LLC"
+kind = "company"
+city = "Knox"
+state = "IN"
+address = "4055 E 250 N, Knox, IN 46534"
+lat = 41.33875
+lon = -86.61973
+osha_id = "1031096"
+
+sector = "Food & consumer goods"
+products = ["Popcorn (except candy covered), popped, manufacturing"]
+naics = "311919"
+
+employees = 27
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+description = "NAICS 311919: popcorn (except candy covered), popped, manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-14"

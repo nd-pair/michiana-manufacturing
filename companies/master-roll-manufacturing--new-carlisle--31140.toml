@@ -1,0 +1,27 @@
+# Master Roll Manufacturing
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Master Roll Manufacturing"
+kind = "company"
+city = "New Carlisle"
+state = "IN"
+address = "31140 Edison Road, New Carlisle, IN 46552"
+lat = 41.69382
+lon = -86.46967
+osha_id = "985014"
+
+sector = "Metal"
+products = ["Machine shops"]
+naics = "332710"
+
+employees = 21
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+parent = "M Brashem"
+description = "NAICS 332710: machine shops."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-14"

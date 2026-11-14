@@ -302,7 +302,7 @@
 "naics": "325620"
 },
 "853944": {
-"company": "mark-line-industries-inc-bristol-51687",
+"company": "barletta-boat-company-llc-bristol-51687",
 "employees": 401,
 "naics": "336612"
 },
@@ -575,11 +575,6 @@
 "company": "siemens-healthcare-diagnostics-inc-mishawaka-430",
 "employees": 237,
 "naics": "325413"
-},
-"971755": {
-"company": "dwyer-instruments-inc-michigan-city-102",
-"employees": 237,
-"naics": "334513"
 },
 "1182366": {
 "company": "siemens-healthcare-diagnostics-inc-mishawaka-430",
@@ -1066,6 +1061,11 @@
 "employees": 149,
 "naics": "332321"
 },
+"1080468": {
+"company": "vahala-foam-inc-elkhart-612",
+"employees": 148,
+"naics": "326150"
+},
 "208286": {
 "company": "structural-composites-of-indiana-inc-ligonier-1118",
 "employees": 147,
@@ -1496,6 +1496,11 @@
 "employees": 102,
 "naics": "322121"
 },
+"893493": {
+"company": "curtis-products-inc-south-bend-228",
+"employees": 102,
+"naics": "332996"
+},
 "1359190": {
 "company": "eaton-corp-forge-plt-south-bend-2930",
 "employees": 102,
@@ -1733,7 +1738,7 @@
 "naics": "332321"
 },
 "848962": {
-"company": "modar-inc-benton-harbor-1394",
+"company": "special-lite-benton-harbor-1394",
 "employees": 81,
 "naics": "326199"
 },
@@ -2759,6 +2764,11 @@
 "employees": 35,
 "naics": "333994"
 },
+"1437499": {
+"company": "stoutco-inc-bristol-52470",
+"employees": 35,
+"naics": "332322"
+},
 "1454155": {
 "company": "titan-distribution-llc-elkhart-4903",
 "employees": 35,
@@ -3030,7 +3040,7 @@
 "naics": "322211"
 },
 "1031096": {
-"company": "stelrema-corp-knox-4055",
+"company": "gary-poppins-llc-knox-4055",
 "employees": 27,
 "naics": "311919"
 },
@@ -3241,7 +3251,7 @@
 "naics": "311119"
 },
 "985014": {
-"company": "scott-brass-inc-new-carlisle-31140",
+"company": "master-roll-manufacturing-new-carlisle-31140",
 "employees": 21,
 "naics": "332710"
 },
@@ -3730,20 +3740,15 @@
 "employees": 10,
 "naics": "321920"
 },
-"1080468": {
-"company": "vahala-foam-inc-elkhart-612",
-"employees": 148,
-"naics": "326150"
+"971755": {
+"company": "dwyer-instruments-inc-michigan-city-102",
+"employees": 237,
+"naics": "334513"
 },
 "1169285": {
 "company": "omco-pierceton-1",
 "employees": 116,
 "naics": "331221"
-},
-"893493": {
-"company": "curtis-products-inc-south-bend-228",
-"employees": 102,
-"naics": "332996"
 },
 "1115413": {
 "company": "sanlo-inc-michigan-city-400",
@@ -3774,11 +3779,6 @@
 "company": "almega-tru-flex-inc-bremen-3917",
 "employees": 38,
 "naics": "335931"
-},
-"1437499": {
-"company": "stoutco-inc-bristol-52470",
-"employees": 35,
-"naics": "332322"
 },
 "1565326": {
 "company": "shawnee-specialties-inc-eau-claire-7100",

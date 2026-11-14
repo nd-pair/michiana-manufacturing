@@ -1,0 +1,27 @@
+# Barletta Boat Company, LLc
+# Imported from OSHA's Form 300A establishment data (public); edit freely.
+
+name = "Barletta Boat Company, LLc"
+kind = "company"
+city = "Bristol"
+state = "IN"
+address = "51687 County Road 133, Bristol, IN 46507"
+lat = 41.74487
+lon = -85.73764
+osha_id = "853944"
+
+sector = "Vehicles & RVs"
+products = ["Boats (i.e., suitable or intended for personal use) manufacturing"]
+naics = "336612"
+
+employees = 401
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+
+parent = "Winnebago Industries"
+description = "NAICS 336612: boats (i.e., suitable or intended for personal use) manufacturing."
+
+source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
+updated = "2026-11-14"

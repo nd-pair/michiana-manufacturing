@@ -1,32 +1,31 @@
-# Special-Lite
-# Imported from HIFLD, then updated from OSHA's Form 300A filing at this address (public); edit freely.
+# Modar, Inc.
+# Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
 
-name = "Special-Lite"
+name = "Modar, Inc."
 kind = "company"
 city = "Benton Harbor"
 state = "MI"
 address = "1394 East Empire Avenue, Benton Harbor, MI 49022"
 lat = 42.10121
 lon = -86.42396
-osha_id = "848962"
-status_note = "Named from OSHA's 2025 Form 300A filing at this address; the earlier record here, Modar, Inc. (HIFLD), is a predecessor or a former occupant."
-formerly = "Modar, Inc."
+website = "https://modarinc.com"
+osha_occupant = "Special-Lite Benton Harbor (OSHA Form 300A filer at this address, 2025)"
 
-sector = "Materials & composites"
-products = ["Awnings, rigid plastics or fiberglass, manufacturing"]
-naics = "326199"
+sector = "Wood, paper & furniture"
+products = ["Reconstituted Wood Product Manufacturing"]
+naics = "321219"
 
-employees = 81
+employees = 100
 employees_scope = "site"
-employees_year = 2025
-employees_quality = "reported"
-employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
+employees_year = 2022
+employees_quality = "estimate"
+employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
-description = "NAICS 326199: awnings, rigid plastics or fiberglass, manufacturing."
+description = "Particleboard. NAICS 321219: reconstituted wood product manufacturing."
 
 closed = "2015"
 closed_note = "Moody on the Market reported the 1394 Empire Ave building had been vacant since Modar departed in 2015 and was bought by door maker Special-Lite, which now manufactures there (article seen only as a search snippet; page returned 403)."
 closed_source = "https://moodyonthemarket.com/?p=233341"
 
-source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor); the earlier record at this address came from HIFLD"
-updated = "2026-11-13"
+source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
+updated = "2026-11-11"
