@@ -305,13 +305,7 @@
 .mm-app tr.mm-more .mm-pg:disabled{opacity:.35;cursor:default}
 .mm-app tr.mm-more .mm-lb{margin-left:18px}
 
-/* humanoid deployment benefit index panel */
-.mm-ohead{display:grid;grid-template-columns:minmax(180px,220px) minmax(0,1fr);gap:18px;align-items:start;margin-bottom:12px}
-@media (max-width:700px){.mm-ohead{grid-template-columns:1fr}}
-.mm-oidx{border:1px solid var(--line);border-radius:3px;padding:10px 12px}
-.mm-oidx .k{font:500 10px var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--fg-3)}
-.mm-oidx .v{font:600 40px var(--display);color:var(--fg);line-height:1.1;font-variant-numeric:tabular-nums}
-.mm-oidx .s{font-size:12px;color:var(--fg-2)}
+/* humanoid deployment benefit panel */
 .mm-opills{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
 @media (max-width:900px){.mm-opills{grid-template-columns:1fr}}
 .mm-opill{border:1px solid var(--line);border-radius:3px;padding:9px 12px}
@@ -328,7 +322,6 @@
   clip-path:polygon(0 0,calc(100% - 5px) 0,100% 50%,calc(100% - 5px) 100%,0 100%)}
 .mm-gsw.gA{background:var(--gA)}.mm-gsw.gB{background:var(--gB)}.mm-gsw.gC{background:var(--gC)}.mm-gsw.gD{background:var(--gD)}
 .mm-gsw.gE{background:var(--gE)}.mm-gsw.gF{background:var(--gF)}.mm-gsw.gG{background:var(--gG)}
-.mm-oidx .v .mm-gsw{width:30px;height:22px;vertical-align:4px;margin-left:8px;clip-path:polygon(0 0,calc(100% - 8px) 0,100% 50%,calc(100% - 8px) 100%,0 100%)}
 .mm-gleg{display:flex;flex-wrap:wrap;gap:6px 14px;align-items:center;font:500 11px var(--mono);color:var(--fg-2);margin-top:10px}
 .mm-gleg .mm-gsw{margin:0 5px 0 0}
 
@@ -369,10 +362,6 @@ main.site-content:has(.mm-band){padding-top:0}
 .mm-tabpanel[hidden]{display:none}
 
 /* region comparison */
-.mm-cmp tr.mm-home td{background:var(--surface-2)}
-.mm-cmp tr.mm-home td:first-child{box-shadow:inset 3px 0 0 var(--accent)}
-.mm-cmp td .mm-ratio{min-width:150px}
-.mm-cmp td.num{white-space:nowrap}
 .mm-nogl{position:absolute;inset:0;display:grid;place-items:center;padding:24px;text-align:center;color:var(--fg-2);font-size:14px}
 .mm-nogl p{max-width:420px;margin:0}
 /* the theme's page grid sizes to its widest content; let the map page shrink to the screen instead */

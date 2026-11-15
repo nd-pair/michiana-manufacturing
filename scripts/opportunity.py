@@ -1,11 +1,11 @@
-"""The Humanoid Deployment Benefit Index, from data/opportunity.toml and the pulled datasets. Used by build.py.
+"""The six pillars of humanoid deployment benefit, from data/opportunity.toml and the pulled datasets. Used by build.py.
 
 Every part except local supply compares the region with the U.S. (100 = the U.S. average); local supply
 has no U.S. benchmark and is scored against a fixed target (data/opportunity.toml, [supply] scale). A
-pillar is the mean of its parts; the index is the weighted geometric mean of the pillars, so a pillar
-near zero pulls it down, but gains in one pillar can offset losses in another, including in jobs and pay.
+pillar is the mean of its parts. The pillars are not combined into one score: a composite let gains in
+one pillar hide losses in another, including in jobs and pay.
 """
-import math, tomllib
+import tomllib
 from common import P
 
 def _ratio(local, us, invert=False):
@@ -156,7 +156,7 @@ def compute(bls, qcew, qwi, bea, task, available_share):
         if cs:
             va_l = sum(gdp[f][vyear] for f in cs) / sum(qcew["counties"][f]["years"][vyear]["emp"] for f in cs)
             va_u = gdp["00000"][vyear] / qcew["us"][vyear]["emp"]
-    pillars.append({"id": "prosperity", "name": "Jobs and pay", "what": "manufacturing job and pay growth and value added per job; the index can still rise while this falls",
+    pillars.append({"id": "prosperity", "name": "Jobs and pay", "what": "manufacturing job and pay growth and value added per job",
                     "parts": [{"name": "Manufacturing job growth %s–%s" % span if span else "Manufacturing job growth", "local": ge and round(ge - 1, 3), "us": ue and round(ue - 1, 3),
                                "score": _ratio(ge, ue), "unit": "growth"},
                               {"name": "Manufacturing pay growth %s–%s" % span if span else "Manufacturing pay growth", "local": gp and round(gp - 1, 3), "us": up and round(up - 1, 3),
@@ -167,10 +167,6 @@ def compute(bls, qcew, qwi, bea, task, available_share):
     for p in pillars:
         s = [x["score"] for x in p["parts"] if x["score"] is not None]
         p["score"] = round(sum(s) / len(s), 1) if s else None
-        p["weight"] = spec["weights"].get(p["id"], 1)
-    have = [p for p in pillars if p["score"]]
-    w = sum(p["weight"] for p in have)
-    index = round(math.exp(sum(p["weight"] * math.log(p["score"]) for p in have) / w), 1) if have and w else None
 
     # occupation table: jobs, task fit and its strongest traits, pay
     tnames = {t["id"]: t["name"] for t in (task or {}).get("traits", [])}
@@ -192,6 +188,6 @@ def compute(bls, qcew, qwi, bea, task, available_share):
         p["history"] = h["score"] if h else {}
         for i, x in enumerate(p["parts"]):
             x["history"] = h["parts"][i] if h and i < len(h["parts"]) else {}
-    return {"index": index, "pillars": pillars, "occupations": sorted(table, key=lambda r: -(r["jobs"] * (r["fit"] or 0))),
+    return {"pillars": pillars, "occupations": sorted(table, key=lambda r: -(r["jobs"] * (r["fit"] or 0))),
             "oews_year": (bls.get("occupations") or {}).get("year"), "qcew_year": (qcew.get("specialization") or {}).get("year"), "bea_year": vyear,
             "qwi_quarters": (q.get("region") or {}).get("age_quarters", []), "sources": {k: (v or {}).get("source", "") for k, v in (("task", task), ("qwi", qwi), ("bea", bea))}}

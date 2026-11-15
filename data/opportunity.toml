@@ -1,22 +1,12 @@
-# The Humanoid Deployment Benefit Index: where deploying humanoid robots could benefit Michiana's
-# manufacturers most. Five pillars are scored against the U.S. average (= 100); local supply has no
-# U.S. benchmark and is scored against a fixed target ([supply] scale). The index is the weighted
-# geometric mean of the pillars: a weak pillar pulls it down, but gains in one can offset losses in
-# another. It does not show that workers gain: the jobs-and-pay pillar can fall while the index rises.
-# Weights, traits and lists are editable assumptions.
+# Humanoid deployment benefit: where deploying humanoid robots could benefit Michiana's manufacturers
+# most, in six pillars. Five are scored against the U.S. average (= 100); local supply has no U.S.
+# benchmark and is scored against a fixed target ([supply] scale). The pillars are shown side by side
+# and not combined into one score. Traits and lists are editable assumptions.
 
 [display]
 # Notre Dame's physical-AI research awards are pulled every month (scripts/pull_nd_research.py) but
 # shown on the map only when this is true.
 nd_research = false
-
-[weights]          # relative weights in the geometric mean
-task = 1           # task fit: hard, repetitive or hazardous work in local jobs, from O*NET
-highmix = 1        # high-mix potential: job shops and custom, short-run industries
-labor = 1          # labor pressure: tight, aging, high-turnover workforce
-readiness = 1      # adoption readiness: people who install and maintain automation
-supply = 1         # local supply: share of a humanoid's cost available locally
-prosperity = 1     # jobs and pay: manufacturing job and pay growth, value added per job
 
 # Task traits from O*NET 31.0. Each element is rated 1 to 5 (work context: how often or how much;
 # work activities: importance); an occupation's trait score is the mean of its elements scaled to

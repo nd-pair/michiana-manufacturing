@@ -20,7 +20,7 @@ function fmtEmp(c){if(!c.emp)return "unknown";const bits=[c.emp_year,c.emp_quali
 
 /* ---------- state, addressable through the URL hash ---------- */
 const st={sec:new Set(),tag:new Set(),cap:new Set(),fed:false,fda:false,rings:false,radius:0,sel:null,hot:null,q:"",open:new Set(),
-  sort:{sec:{key:"n",dir:-1},tag:{key:"n",dir:-1},cap:{key:"n",dir:-1},fed:{key:"e",dir:-1},roster:{key:"emp",dir:-1},ev:{key:"date",dir:-1},spec:{key:"lq",dir:-1},occ:{key:"emp",dir:-1},ue:{key:"rate",dir:-1},hum:{key:"cost",dir:-1},opp:{key:"impact",dir:-1},cmp:{key:"index",dir:-1},ndr:{key:"start",dir:-1}},ndrAll:false,wv:"spec",hum:null,hb:"related",rlim:20,rpage:0,
+  sort:{sec:{key:"n",dir:-1},tag:{key:"n",dir:-1},cap:{key:"n",dir:-1},fed:{key:"e",dir:-1},roster:{key:"emp",dir:-1},ev:{key:"date",dir:-1},spec:{key:"lq",dir:-1},occ:{key:"emp",dir:-1},ue:{key:"rate",dir:-1},hum:{key:"cost",dir:-1},opp:{key:"impact",dir:-1},ndr:{key:"start",dir:-1}},ndrAll:false,wv:"spec",hum:null,hb:"related",rlim:20,rpage:0,
   evKind:"all",evYear:null,evMore:0,qv:"county",qs:"abs",tab:"companies"};
 const TABS=["companies","occupations","outlook","humanoid"];
 function readHash(){st.sec.clear();st.tag.clear();st.cap.clear();st.fed=st.fda=st.rings=false;st.radius=0;st.sel=null;st.hum=null;st.tab="companies";
@@ -348,7 +348,7 @@ function renderQcew(){const el=document.getElementById("qcew");document.querySel
   for(const e of ends)svg+=`<text class="lbl" x="${e.x+6}" y="${e.y+3}" fill="${e.s.color}">${esc(e.s.name)} ${st.qs==="idx"?Math.round(e.v):fmtK(Math.round(e.v))}</text>`;
   el.innerHTML=svg+`</svg>`;
   document.getElementById("qcewnote").textContent=`BLS QCEW, private, ${y0}–${y1}${st.qv==="sector"?" · lower bound, withheld cells":""}${st.qs==="idx"?" · "+y0+" = 100":""}`}
-/* ---------- humanoid deployment benefit index: five pillars against the U.S. (= 100); local supply against a fixed target ---------- */
+/* ---------- humanoid deployment benefit: six pillars, five against the U.S. (= 100), local supply against a fixed target; not combined ---------- */
 const GRADES=[["A",150],["B",125],["C",105],["D",95],["E",80],["F",60],["G",-Infinity]],grade=v=>v==null?null:GRADES.find(([,t])=>v>=t)[0];
 const BAND=["far ahead of the U.S.","well ahead of the U.S.","ahead of the U.S.","about the U.S. level","behind the U.S.","well behind the U.S.","far behind the U.S."],
   gbadge=v=>{const g=grade(v);if(!g)return "";const t=`${Math.round(v)}: ${BAND[GRADES.findIndex(x=>x[0]===g)]} (100 = the U.S. level; for local supply, half the robot available locally)`;return `<span class="mm-gsw g${g}" role="img" aria-label="${t}" title="${t}"></span>`};
@@ -386,18 +386,16 @@ const span=pts=>{const q=pts.filter(([,v])=>v!=null).slice().sort((a,b)=>a[0].lo
 function renderOpportunity(){const el=document.getElementById("opp"),O=DATA.opportunity;if(!el||!O||!O.pillars)return;
   const fmt=(v,u)=>v==null?"–":u==="share"?(100*v).toFixed(1)+"%":u==="pct"?Math.round(v)+"%":u==="%"?v.toFixed(1)+"%":u==="growth"?(v>=0?"+":"−")+(100*Math.abs(v)).toFixed(1)+"%":u==="usd"?"$"+Math.round(v).toLocaleString():String(v);
   const max=Math.max(200,...O.pillars.map(p=>p.score||0)),bar=v=>v==null?`<span class="mm-count">not yet available</span>`:`<span class="mm-ratio"><span class="trk"><span class="fil g${grade(v)}" style="width:${Math.min(100,100*v/max).toFixed(1)}%"></span><span class="one" style="left:${(100*100/max).toFixed(1)}%"></span></span><span class="v">${Math.round(v)}</span>${gbadge(v)}</span>`;
-  const prog=Object.entries(HUM.progress||{}).filter(([,v])=>v.index!=null);
+  const prog=Object.entries(HUM.progress||{}).filter(([,v])=>v.pillars);
   const phist=p=>Object.entries(p.history||{}).concat(prog.filter(([,v])=>v.pillars&&v.pillars[p.id]!=null).map(([m,v])=>[m,v.pillars[p.id]]));
   const xhist=(p,i)=>Object.entries(p.parts[i].history||{}).concat(prog.filter(([,v])=>v.parts&&v.parts[p.id]&&v.parts[p.id][i]!=null).map(([m,v])=>[m,v.parts[p.id][i]]));
-  const ihist=prog.map(([m,v])=>[m,v.index]);
-  el.innerHTML=`<div class="mm-ohead"><div class="mm-oidx"><div class="k">Humanoid Deployment Benefit Index</div><div class="v">${O.index==null?"–":Math.round(O.index)} ${gbadge(O.index)}</div><div class="s">100 = U.S. level on five pillars · ${ihist.length>1?histSpark(ihist,170,34)+" "+span(ihist):"tracked monthly from "+esc(monthName(Object.keys(HUM.progress||{})[0]||""))+"; the index needs every pillar, so its history starts there"}</div></div>
-    <p class="mm-fedsum">Where deploying humanoid robots could benefit the region's manufacturers most: how much local work is the hard, repetitive and hazardous kind a humanoid could take on, and how ready the region is to build and adopt them. Five pillars compare the region with the U.S. (= 100); <b>local supply</b> has no U.S. benchmark and is scored against a fixed target instead (half of a humanoid's cost available locally = 100). The index is their weighted geometric mean: a weak pillar pulls it down, but gains in one pillar can offset losses in another. It does not show that workers gain or keep their jobs: <b>jobs and pay</b> is one pillar, and the index can rise while it falls.</p></div>
+  el.innerHTML=`<p class="mm-fedsum">Where deploying humanoid robots could benefit the region's manufacturers most: how much local work is the hard, repetitive and hazardous kind a humanoid could take on, and how ready the region is to build and adopt them. Five pillars compare the region with the U.S. (= 100); <b>local supply</b> has no U.S. benchmark and is scored against a fixed target instead (half of a humanoid's cost available locally = 100). The pillars are shown side by side and not combined into one score, so a gain in one never hides a loss in another. None of them shows that workers gain or keep their jobs; <b>jobs and pay</b> tracks manufacturing jobs and pay directly.</p>
     <div class="mm-opills">${O.pillars.map(p=>`<div class="mm-opill"><div class="hd"><b>${esc(p.name)}</b>${bar(p.score)}</div><div class="w">${esc(p.what)}</div>
       ${(()=>{const hp=phist(p);return hp.filter(([,v])=>v!=null).length>1?`<div class="mm-ohist">${histSpark(hp,220,38)}<span class="mm-olab">${span(hp)}</span></div>`:`<div class="mm-ohist"><span class="mm-mut">history starts with monthly tracking</span></div>`})()}
       ${p.parts.map((x,i)=>`<div class="pt"><span>${esc(x.name)}${x.note?` <small class="mm-mut">${esc(x.note)}</small>`:""}</span>${histSpark(xhist(p,i),84,22)}<span class="nums">${fmt(x.local,x.unit)}${x.us!=null?` <small class="mm-mut">vs U.S. ${fmt(x.us,x.unit)}</small>`:""}${x.score!=null?` <b>${Math.round(x.score)}</b> ${gbadge(x.score)}`:""}</span></div>`).join("")}</div>`).join("")}</div>
     <div class="mm-gleg">${GRADES.map(([g,t],i)=>`<span title="${BAND[i]}"><span class="mm-gsw g${g}"></span>${i===0?"150 or more":i===GRADES.length-1?"under 60":t+"–"+(GRADES[i-1][1]-1)}</span>`).join("")}<span class="mm-mut">100 = the U.S. level (local supply: half of the robot available locally) · yellow is about that level; orange and red: areas that need work</span></div>
     ${ndResearch()}
-    <p class="mm-wnote">Task fit is scored per occupation on the Occupations tab. Jobs and pay: BLS OEWS May ${esc(String(O.oews_year||""))}, four metro areas. Industry, establishment and growth figures: BLS QCEW ${esc(String(O.qcew_year||""))}; age and turnover: Census Quarterly Workforce Indicators${O.qwi_quarters&&O.qwi_quarters.length?" ("+esc(O.qwi_quarters[O.qwi_quarters.length-1])+" to "+esc(O.qwi_quarters[0])+")":""}; value added: BEA ${esc(String(O.bea_year||""))}. Weights and lists are editable in data/opportunity.toml.</p>`}
+    <p class="mm-wnote">Task fit is scored per occupation on the Occupations tab. Jobs and pay: BLS OEWS May ${esc(String(O.oews_year||""))}, four metro areas. Industry, establishment and growth figures: BLS QCEW ${esc(String(O.qcew_year||""))}; age and turnover: Census Quarterly Workforce Indicators${O.qwi_quarters&&O.qwi_quarters.length?" ("+esc(O.qwi_quarters[O.qwi_quarters.length-1])+" to "+esc(O.qwi_quarters[0])+")":""}; value added: BEA ${esc(String(O.bea_year||""))}. Traits and lists are editable in data/opportunity.toml.</p>`}
 function renderOccHelp(){const el=document.getElementById("occ-help"),O=DATA.opportunity;if(!el||!O||!O.occupations)return;
   const rows=(O.occupations||[]).map(r=>({...r,impact:r.fit!=null?r.jobs*r.fit/100:null,role:r.readiness?"deploys automation":"production",traitsText:r.traits.join(", ")}));
   el.innerHTML=`${sortTable("opp",[{key:"name",label:"Occupation",cell:r=>`<b>${esc(r.name)}</b>${r.readiness?' <small class="mm-mut">deploys automation</small>':""}`},
@@ -407,23 +405,6 @@ function renderOccHelp(){const el=document.getElementById("occ-help"),O=DATA.opp
       {key:"traitsText",label:"Work a humanoid could take on",cell:r=>esc(r.traitsText||"–")},
       {key:"median",label:"Median pay",num:true,cell:r=>usd(r.median)},{key:"us_median",label:"U.S. median",num:true,cell:r=>usd(r.us_median)}],rows)}
     <p class="mm-wnote">Task fit scores how much of an occupation's work is handling and moving parts, repetitive motion, awkward postures and hazards (O*NET 31.0, 0 to 100); it marks the tasks a humanoid could relieve people of, not jobs to cut. Jobs and pay: BLS OEWS May ${esc(String(O.oews_year||""))}, four metro areas. "Deploys automation" marks the occupations counted in adoption readiness.</p>`}
-/* ---------- region comparison: the same index for similar regions (scripts/compare_regions.py) ---------- */
-function renderComparison(){const el=document.getElementById("cmp"),X=DATA.comparison;if(!el)return;
-  if(!X||!X.regions){document.getElementById("comparison").hidden=true;return}
-  const P=[["task","Task fit"],["highmix","High-mix"],["labor","Labor"],["readiness","Readiness"],["supply","Supply"],["prosperity","Jobs & pay"]];
-  const full=Object.fromEntries(((DATA.opportunity||{}).pillars||[]).map(p=>[p.id,p.name]));
-  const rank=Object.fromEntries((X.ranking||[]).map((n,i)=>[n,i+1]));
-  const rows=Object.entries(X.regions).map(([n,v])=>({name:n,university:v.university,index:v.index,rank:rank[n]??null,home:v.home,cls:v.home?"mm-home":"",...Object.fromEntries(P.map(([k])=>[k,v.pillars[k]]))}));
-  const max=Math.max(150,...rows.map(r=>r.index||0));
-  const sc=v=>v==null?"–":`${Math.round(v)}${gbadge(v)}`;
-  const months=Object.keys(X.history||{}).sort(),I=X.inputs||{};
-  document.getElementById("cmpnote").textContent=`${rows.length} regions · 100 = the U.S. level (local supply: a fixed target) · updated ${X.updated||""}`;
-  el.innerHTML=`<p class="mm-fedsum">The Humanoid Deployment Benefit Index for metro areas of similar size, each with a well-known research university, computed the same way and from the same public sources as the region's own index above. Michiana is highlighted.</p>
-    ${sortTable("cmp",[{key:"rank",label:"#",num:true,cell:r=>r.rank??"–"},
-      {key:"name",label:"Region",cell:r=>`<b>${esc(r.name)}</b><br><small class="mm-mut">${esc(r.university||"")}</small>`},
-      {key:"index",label:"Index",title:"Humanoid Deployment Benefit Index",cell:r=>r.index==null?"–":`<span class="mm-ratio"><span class="trk"><span class="fil g${grade(r.index)}" style="width:${Math.min(100,100*r.index/max).toFixed(1)}%"></span><span class="one" style="left:${(100*100/max).toFixed(1)}%"></span></span><span class="v">${Math.round(r.index)}</span>${gbadge(r.index)}</span>`},
-      ...P.map(([k,l])=>({key:k,label:l,title:full[k]||l,num:true,cell:r=>sc(r[k])}))],rows)}
-    <p class="mm-wnote">Each region is a set of counties (jobs, establishments, pay, unemployment, workforce age and turnover, value added) and the BLS metro areas that cover them (occupations). Sources: BLS QCEW ${esc(String(I.qcew_year||""))}, OEWS May ${esc(String(I.oews_year||""))}, LAUS (latest month), Census QWI, BEA ${esc(String(I.value_added_year||""))}. Michigan has published no Census workforce quarters since 2023, so Ann Arbor and Lansing score labor pressure on unemployment alone, and Michiana's Michigan counties are left out of its age and turnover figures. Local supply counts build-to-print parts with two or more establishments in their industries, so it tops out at 38 for every region. Recomputed every month${months.length?" since "+esc(monthName(months[0])):""}; the regions are listed in data/regions.toml.</p>`}
 /* ---------- humanoid coverage: which parts of a humanoid local companies could supply ---------- */
 const TIERS=["no supplier","one supplier","2–4 suppliers","5 or more"],tierOf=n=>n===0?0:n===1?1:n<5?2:3;
 function humStats(){const comp={};for(const k of Object.keys(HCOMP))comp[k]={all:new Map(),conf:new Map()};
@@ -645,7 +626,7 @@ const chip=(id,on)=>document.getElementById(id).setAttribute("aria-pressed",Stri
 function render(){chip("lay-rings",st.rings);chip("f-fed",st.fed);chip("f-fda",st.fda);document.getElementById("radius").value=String(st.radius);
   _ctr=center();document.getElementById("radius-of").textContent="of "+(st.sel?_ctr.name:"the campus");if(st.rings||st.radius)buildRings();
   document.getElementById("brieflink").href="brief.html"+(st.sec.size?"#sec="+[...st.sec].map(encodeURIComponent).join("|"):"");
-  renderSectors();renderTags();renderFederal();renderCaps();renderEvents();renderWork();renderOccHelp();renderOpportunity();renderHumanoid();renderComparison();paintBars();renderDetail();renderTable();layout();updateHash()}
+  renderSectors();renderTags();renderFederal();renderCaps();renderEvents();renderWork();renderOccHelp();renderOpportunity();renderHumanoid();paintBars();renderDetail();renderTable();layout();updateHash()}
 window.addEventListener("hashchange",()=>{if(location.hash!==hashState()){readHash();applyTab();render()}});
 document.getElementById("legend").innerHTML=DATA.sectors.map(s=>`<span><i class="mm-sw" style="background:${SCOL[s]};color:${SCOL[s]}"></i>${esc(s)}</span>`).join("")+(C.some(c=>c.unconf)?`<span class="mm-mut" title="the company operates in the region, but no current source confirms a plant at this address">dim column: address unconfirmed</span>`:"")
   +`<span>column height = employees, log scale <i class="mm-hl"><i style="height:6px"></i><i style="height:10px"></i><i style="height:14px"></i><i style="height:18px"></i></i>10 · 100 · 1,000 · 10,000</span><span>~ estimate · ’22 year of the figure · * company-wide</span>`;

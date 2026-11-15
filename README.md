@@ -155,7 +155,7 @@ metros, state labels and the campus landmark in `data/places.toml`.
 The page has four tabs, each with its own link (`#tab=occupations`, `#tab=outlook`,
 `#tab=humanoid`): **Companies** (the map, sectors, products, roster, federal footprint, capabilities
 and timeline), **Occupations** (workforce, manufacturing employment and the occupations humanoids
-could help), **Physical AI outlook** (the Humanoid Deployment Benefit Index and the region comparison) and
+could help), **Physical AI outlook** (the six humanoid deployment benefit pillars) and
 **Humanoid supply chain**. Filters carry across tabs, and a company named on another tab opens on the map.
 Without WebGL the map shows a notice and everything else still works. The page carries:
 
@@ -209,8 +209,8 @@ Without WebGL the map shows a notice and everything else still works. The page c
   `humanoid = [...]` and `humanoid_evidence = "confirmed"` with a `humanoid_note` to its file.
   Milestones (first local actuator line, first assembled humanoid) go in
   [`data/milestones.toml`](data/milestones.toml) and appear on the timeline.
-- **Humanoid Deployment Benefit Index.** The Physical AI outlook tab scores where humanoid robots
-  could benefit local manufacturers most. Five of its six pillars compare the region with the
+- **Humanoid deployment benefit.** The Physical AI outlook tab scores, in six pillars, where humanoid
+  robots could benefit local manufacturers most. Five of the pillars compare the region with the
   U.S. (= 100); *local supply* has no U.S. benchmark and is scored against a fixed target (half of a
   humanoid's cost available locally = 100). The pillars: *task fit* (local jobs weighted by how much of
   the work is handling parts, repetitive motion, awkward postures and hazards, from O*NET),
@@ -218,26 +218,19 @@ Without WebGL the map shows a notice and everything else still works. The page c
   *labor pressure* (unemployment, workers aged 55+, turnover), *adoption readiness* (mechanics,
   electricians, technicians and engineers per 1,000 jobs), *local supply* (from the humanoid panel)
   and *jobs and pay* (manufacturing job and pay growth over five years, value added per job).
-  The index is the weighted geometric mean of the pillars, so gains in one can offset losses in
-  another. It does not show that workers gain or keep their jobs: the jobs-and-pay pillar can fall
-  while the index rises, so read that pillar on its own. An occupation table lists local jobs, task fit, the work a humanoid could take on and
-  pay. Weights, traits, industry and occupation lists are in
+  The pillars are not combined into one score, so a gain in one never hides a loss in another
+  (a composite index and a comparison with ten similar regions were dropped on 2026-11-15). None of
+  them shows that workers gain or keep their jobs; read the jobs-and-pay pillar for that. An occupation table lists local jobs, task fit, the work a humanoid could take on and
+  pay. Traits, industry and occupation lists are in
   [`data/opportunity.toml`](data/opportunity.toml); `scripts/pull_workforce.py` pulls O*NET,
   the Census Bureau's Quarterly Workforce Indicators (bulk files, no key) and BEA county GDP; the
-  index is saved monthly with the humanoid figures in `data/progress.json`.
-- **Region comparison.** `scripts/compare_regions.py` scores the same index,
-  with the same method and U.S. benchmarks, for the regions in [`data/regions.toml`](data/regions.toml)
-  (ten metros of similar size with a well-known university, plus Michiana) and keeps the ranking, the
-  pillars and a monthly history in `data/comparison.json`, shown as a table at the bottom of the
-  Physical AI outlook tab. It runs in the monthly refresh after the
-  other pulls; inputs that change yearly or quarterly (occupations, Census QWI) are fetched again only
-  when a new release is out. The BLS API key (`BLS_API_KEY` secret) keeps it within the BLS limits.
+  pillars are saved monthly with the humanoid figures in `data/progress.json`.
 - **Notre Dame research.** `scripts/pull_nd_research.py` reads every federal grant, cooperative
   agreement and contract to the University of Notre Dame since FY2016, and its subawards on other
   institutions' awards, from USAspending.gov (all agencies), and keeps those about physical AI:
   robots, autonomy and drones, prosthetics and exoskeletons, haptics, legged or humanoid systems,
   robotic manufacturing (in the title, or three times in the description). NSF awards get their
-  investigators from the NSF Award Search API. The index panel shows totals, active awards,
+  investigators from the NSF Award Search API. The outlook panel shows totals, active awards,
   agencies, years and a table; the awards also appear on the timeline as "Notre Dame research".
   Industry, foundation and state funding are not in this data.
 - **Roster size.** The roster shows the first 20 companies in the current sort, with buttons for
