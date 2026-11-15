@@ -1,0 +1,27 @@
+# QSI Automation, Inc.
+# Added by hand from the company's website.
+
+name = "QSI Automation, Inc."
+kind = "company"
+city = "Churubusco"
+state = "IN"
+address = "4585 South State Road 9, Churubusco, IN 46723"
+lat = 41.28537
+lon = -85.43711
+website = "https://qsiautomation.com"
+verified = "2026-11-14"
+verified_note = "The company's contact page gives 4585 S State Rd 9, Churubusco; its blog has posts through October 2026. Source: https://qsiautomation.com/contact-us/"
+
+sector = "Mechatronics & automation"
+products = ["Automation & assembly systems", "Vibratory feeder bowls", "Machine vision inspection", "Injection molds", "Injection molding machinery"]
+
+employees = 50
+employees_scope = "company"
+employees_year = 2018
+employees_quality = "reported"
+employees_note = "company website history: over 50 employees in two facilities"
+
+description = "Designs, builds and services custom automation, from hand tooling and fixtures to fully automated turnkey cells with robots, plus vibratory feeder bowls, insert-molding automation, vision inspection, injection molds and rebuilt vertical injection-molding machines. Founded in 1988."
+
+source = "Company website"
+updated = "2026-11-14"

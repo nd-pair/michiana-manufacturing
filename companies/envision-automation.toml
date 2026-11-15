@@ -1,0 +1,21 @@
+# Envision Automation LLC
+# Added by hand from the company's website and the Elkhart County chamber's automation and robotics directory.
+
+name = "Envision Automation LLC"
+kind = "company"
+city = "Niles"
+state = "MI"
+address = "1325 Airport Road, Niles, MI 49120"
+lat = 41.85138
+lon = -86.22427
+website = "https://www.envisionplc.com"
+verified = "2026-11-14"
+verified_note = "The company's website (copyright 2026) gives 1325 Airport Rd, Niles. The Elkhart County chamber directory lists an earlier address, 27575 May St, Edwardsburg. Source: https://www.envisionplc.com"
+
+sector = "Mechatronics & automation"
+products = ["Automation & assembly systems", "Robot integration", "Controls & PLC programming"]
+
+description = "Designs, builds, installs and supports custom automated machines, and programs and integrates traditional and collaborative robots (6-axis, SCARA, gantry) for picking, machine tending, welding and sorting. Also does controls work for packaging lines, batch processing and municipal water systems."
+
+source = "Company website; Elkhart County chamber directory (industrial automation and robotics)"
+updated = "2026-11-14"

@@ -1,0 +1,28 @@
+# PowerSafe Automation
+# Added by hand from the company's website and Site Selection magazine (September 2026).
+
+name = "PowerSafe Automation"
+kind = "company"
+city = "Kendallville"
+state = "IN"
+address = "6886 North 400 East, Kendallville, IN 46755"
+lat = 41.45137
+lon = -85.34678
+website = "https://powersafeautomation.com"
+verified = "2026-11-14"
+verified_note = "The company's website (copyright 2026) gives 6886 N 400 E, Kendallville; Site Selection magazine (September 2026) reports its 2026 move there from Wolcottville into a 36,100-square-foot building. Source: https://powersafeautomation.com/about-us"
+status_note = "Moved from Wolcottville to Kendallville in 2026."
+
+sector = "Mechatronics & automation"
+products = ["Machine guarding", "Machine safety controls", "Collaborative robot systems", "Aluminum framing"]
+
+employees = 25
+employees_scope = "company"
+employees_year = 2026
+employees_quality = "reported"
+employees_note = "Site Selection magazine, September 2026"
+
+description = "Builds and installs turnkey machine guarding and integrated machine-safety controls, and does safety assessments and validation for factories. Sells JAKA collaborative robots and its own pre-assembled CobotReady stand, mobile and workstation robot packages."
+
+source = "Company website; Site Selection magazine (2026)"
+updated = "2026-11-14"

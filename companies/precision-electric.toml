@@ -1,0 +1,22 @@
+# Precision Electric, Inc.
+# Added by hand from the company's website. Repair, distribution and integration rather than production.
+
+name = "Precision Electric, Inc."
+kind = "company"
+city = "Mishawaka"
+state = "IN"
+address = "1508 West 6th Street, Mishawaka, IN 46544"
+lat = 41.65674
+lon = -86.19886
+website = "https://www.precision-elec.com"
+manufacturer = false
+verified = "2026-11-14"
+verified_note = "The company's website (updated May 2025) gives its facility at 1508 W 6th St, Mishawaka. Source: https://www.precision-elec.com"
+
+sector = "Mechatronics & automation"
+products = ["Drive & servo repair", "Motors & drives", "Systems integration", "Control panels"]
+
+description = "Repairs and sells variable-frequency drives, AC/DC and servo drives and motors, and does automation systems, retrofits, systems integration and panel fabrication for manufacturers. Family-owned since 1983."
+
+source = "Company website"
+updated = "2026-11-14"

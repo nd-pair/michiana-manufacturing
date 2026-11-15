@@ -1,0 +1,22 @@
+# Edgewater Automation, LLC (Buchanan)
+# Added by hand: the second Michigan site on the company's own contact page.
+
+name = "Edgewater Automation, LLC"
+kind = "company"
+city = "Buchanan"
+state = "MI"
+address = "816 East 3rd Street, Buchanan, MI 49107"
+lat = 41.82970
+lon = -86.35237
+website = "https://edgewaterautomation.com"
+verified = "2026-11-14"
+verified_note = "Edgewater's contact page lists the Buchanan site (Suite D) and its Edgewater Manufacturing Division (Suite 2) at 816 E 3rd St, separately from the St. Joseph headquarters; a Manufacturing Today profile (May 2024) describes assembly space for large automation projects and a fabrication and machining division there. Source: https://www.edgewaterautomation.com/contact"
+status_note = "In the former Bosch Rexroth plant at this address."
+
+sector = "Mechatronics & automation"
+products = ["Automation & assembly systems", "Robot integration", "Precision machining"]
+
+description = "Second site of St. Joseph-based Edgewater Automation, a builder of custom automation, robotic, machine-vision and test systems: assembly space for large automation projects, plus the company's fabrication and machining division."
+
+source = "Company website (contact page); Manufacturing Today (2024)"
+updated = "2026-11-14"
