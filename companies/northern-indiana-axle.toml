@@ -1,0 +1,29 @@
+# Northern Indiana Axle Co.
+# Added by hand from the company's website, the Nappanee Chamber of Commerce directory, Towne Post (2020) and MIDACO (2022).
+
+name = "Northern Indiana Axle Co."
+kind = "company"
+city = "Nappanee"
+state = "IN"
+address = "1780 West Market Street, Nappanee, IN 46550"
+lat = 41.44284
+lon = -86.02267
+website = "https://www.niamachining.com"
+verified = "2026-11-14"
+verified_note = "The company's website (copyright 2026) gives 1780 W Market St, Nappanee, and describes CNC machining in its 60,000-square-foot facility there; Towne Post (March 2020) and a MIDACO case study (March 2022) give the same address. U.S. import records list a second Nappanee address, 7749 W 1000 N, as consignee. Source: https://www.niamachining.com"
+status_note = "Occupies the former Borkholder furniture plant at this address."
+
+sector = "Metal"
+products = ["Precision machining", "Buggy and carriage axles and parts", "Ball hitches", "Cable parts", "Firearm components"]
+naics = "332710"
+
+employees = 16
+employees_scope = "site"
+employees_year = 2020
+employees_quality = "reported"
+employees_note = "Towne Post profile, March 2020"
+
+description = "CNC machine shop (5-axis and 3-axis machining, large-scale milling, turning) founded in 1989 by Ken Mullet. Makes horse-drawn carriage and buggy axles and parts, ball hitches, stainless steel fencing and cable parts, hinge caps for aluminum trailers and gun components, and does general contract machining; moved into its current 60,000-square-foot plant in 2014."
+
+source = "Company website; Nappanee Chamber of Commerce member directory; Towne Post (2020); MIDACO case study (2022)"
+updated = "2026-11-14"
