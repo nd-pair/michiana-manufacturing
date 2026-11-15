@@ -1,0 +1,24 @@
+# Böllhoff Inc.
+# Added by hand from the company's locations page and the Purdue MEP Made in Indiana directory.
+
+name = "Böllhoff Inc."
+kind = "company"
+city = "Kendallville"
+state = "IN"
+address = "2705 Marion Drive, Kendallville, IN 46755"
+lat = 41.44104
+lon = -85.21384
+website = "https://www.boellhoff.com/us-en/"
+verified = "2026-11-14"
+verified_note = "Böllhoff's worldwide locations page lists Kendallville, 2705 Marion Drive, as a sales and production site; the Purdue MEP Made in Indiana directory lists manufacturing, product development and automated and manual installation equipment there. Source: https://www.boellhoff.com/us-en/locations-worldwide/"
+formerly = "Böllhoff Rivnut, Inc."
+status_note = "U.S. headquarters of a German family-owned fastener group; Böllhoff bought the plant, a Rivnut production facility, in 2000."
+
+sector = "Metal"
+products = ["Fasteners", "Blind rivet nuts and studs", "Fastener installation systems"]
+naics = "332722"
+
+description = "Makes and distributes fastening technology for automotive, aerospace and general industry, including RIVNUT blind rivet nuts and studs, and supplies and supports automated and manual installation equipment for its fasteners, such as self-pierce riveting and thread-insert systems."
+
+source = "Böllhoff locations page; Purdue MEP Made in Indiana directory; Böllhoff company history"
+updated = "2026-11-14"
