@@ -1,18 +1,18 @@
 level,key,cbp_establishments,map_sites,coverage_pct,cbp_20_plus,map_20_plus,coverage_20_plus_pct
 county,"St. Joseph, IN",313,156,50,139,137,99
-county,"Elkhart, IN",841,411,49,449,348,78
+county,"Elkhart, IN",841,412,49,449,348,78
 county,"Marshall, IN",133,56,42,62,50,81
 county,"LaPorte, IN",155,72,46,74,62,84
 county,"Kosciusko, IN",184,80,43,80,66,82
 county,"Starke, IN",19,10,53,12,7,58
 county,"Fulton, IN",38,11,29,17,11,65
 county,"LaGrange, IN",188,38,20,56,31,55
-county,"Noble, IN",116,38,33,57,36,63
+county,"Noble, IN",116,41,35,57,36,63
 county,"Whitley, IN",73,18,25,32,17,53
-county,"Berrien, MI",275,107,39,105,95,90
-county,"Cass, MI",69,24,35,27,24,89
+county,"Berrien, MI",275,108,39,105,95,90
+county,"Cass, MI",69,25,36,27,24,89
 county,"Van Buren, MI",91,23,25,35,21,60
-naics3,332,538,183,34,,,
+naics3,332,538,185,34,,,
 naics3,336,306,177,58,,,
 naics3,333,225,95,42,,,
 naics3,321,205,54,26,,,
@@ -33,3 +33,113 @@ naics3,313,4,6,150,,,
 naics3,315,3,0,0,,,
 naics3,316,3,1,33,,,
 naics3,324,3,1,33,,,
+zip,"46516 (Elkhart, IN)",181,86,48,94,66,70
+zip,"46514 (Elkhart, IN)",189,94,50,108,81,75
+zip,"46540 (Elkhart, IN)",84,30,36,45,29,64
+zip,"46725 (Whitley, IN)",57,14,25,26,13,50
+zip,"46761 (LaGrange, IN)",39,3,8,11,2,18
+zip,"46550 (Elkhart, IN)",101,28,28,28,22,79
+zip,"46565 (LaGrange, IN)",72,10,14,15,9,60
+zip,"46975 (Fulton, IN)",28,6,21,12,6,50
+zip,"46767 (Noble, IN)",27,10,37,14,8,57
+zip,"46710 (Noble, IN)",20,4,20,10,4,40
+zip,"49090 (Van Buren, MI)",23,7,30,12,6,50
+zip,"46573 (Elkhart, IN)",24,11,46,11,5,45
+zip,"46360 (LaPorte, IN)",53,32,60,33,28,85
+zip,"46507 (Elkhart, IN)",55,34,62,33,28,85
+zip,"46528 (Elkhart, IN)",73,21,29,24,21,88
+zip,"46506 (Marshall, IN)",61,17,28,20,17,85
+zip,"46517 (Elkhart, IN)",64,36,56,34,31,91
+zip,"46580 (Kosciusko, IN)",52,26,50,23,20,87
+zip,"46619 (St. Joseph, IN)",28,7,25,10,7,70
+zip,"46755 (Noble, IN)",36,18,50,19,16,84
+zip,"49022 (Berrien, MI)",70,29,41,28,26,93
+zip,"46543 (Elkhart, IN)",19,1,5,3,1,33
+zip,"46567 (Kosciusko, IN)",24,10,42,12,10,83
+zip,"49127 (Berrien, MI)",25,11,44,12,10,83
+zip,"46795 (LaGrange, IN)",11,2,18,3,1,33
+zip,"49101 (Berrien, MI)",11,2,18,4,2,50
+zip,"49013 (Van Buren, MI)",10,1,10,3,1,33
+zip,"46515 (Elkhart, IN)",10,2,20,4,2,50
+zip,"46534 (Starke, IN)",12,6,50,6,4,67
+zip,"49120 (Berrien, MI)",54,23,43,21,20,95
+zip,"46544 (St. Joseph, IN)",42,23,55,21,20,95
+zip,"46601 (St. Joseph, IN)",17,5,29,6,5,83
+zip,"46345 (LaPorte, IN)",11,3,27,3,2,67
+zip,"46746 (LaGrange, IN)",8,4,50,4,3,75
+zip,"46571 (LaGrange, IN)",43,14,33,11,11,100
+zip,"46763 (Noble, IN)",10,0,0,0,0,
+zip,"49038 (Berrien, MI)",14,4,29,4,4,100
+zip,"46504 (Marshall, IN)",11,3,27,3,3,100
+zip,"46581 (Kosciusko, IN)",5,0,0,0,0,
+zip,"46538 (Kosciusko, IN)",5,0,0,0,0,
+zip,"49064 (Van Buren, MI)",5,0,0,0,0,
+zip,"46501 (Marshall, IN)",10,5,50,4,4,100
+zip,"46570 (Marshall, IN)",4,0,0,0,0,
+zip,"49055 (Van Buren, MI)",4,0,0,0,0,
+zip,"46371 (LaPorte, IN)",4,1,25,0,0,
+zip,"49098 (Berrien, MI)",3,0,0,0,0,
+zip,"49056 (Van Buren, MI)",3,0,0,0,0,
+zip,"46511 (Marshall, IN)",3,0,0,0,0,
+zip,"49129 (Berrien, MI)",3,0,0,0,0,
+zip,"46764 (Whitley, IN)",3,0,0,0,0,
+zip,"46561 (St. Joseph, IN)",5,3,60,0,0,
+zip,"49117 (Berrien, MI)",3,1,33,0,0,
+zip,"49112 (Cass, MI)",21,6,29,5,6,120
+zip,"49079 (Van Buren, MI)",15,5,33,3,4,133
+zip,"49103 (Berrien, MI)",11,1,9,0,1,
+zip,"46723 (Whitley, IN)",9,2,22,0,1,
+zip,"46390 (LaPorte, IN)",8,1,12,0,1,
+zip,"46794 (Noble, IN)",7,1,14,0,1,
+zip,"46615 (St. Joseph, IN)",6,1,17,0,1,
+zip,"46510 (Kosciusko, IN)",5,1,20,0,1,
+zip,"46982 (Kosciusko, IN)",6,2,33,0,1,
+zip,"46617 (St. Joseph, IN)",6,2,33,0,1,
+zip,"46391 (LaPorte, IN)",5,1,20,0,1,
+zip,"49130 (Cass, MI)",5,1,20,0,1,
+zip,"46554 (St. Joseph, IN)",5,2,40,0,1,
+zip,"46555 (Kosciusko, IN)",8,5,62,3,4,133
+zip,"49113 (Berrien, MI)",4,1,25,0,1,
+zip,"46939 (Fulton, IN)",4,1,25,0,1,
+zip,"46532 (Starke, IN)",3,1,33,0,1,
+zip,"49045 (Van Buren, MI)",3,1,33,0,1,
+zip,"46732 (Noble, IN)",3,1,33,0,1,
+zip,"46784 (Noble, IN)",3,1,33,0,1,
+zip,"46524 (Kosciusko, IN)",3,1,33,0,1,
+zip,"46760 (Noble, IN)",0,1,,0,1,
+zip,"46590 (Kosciusko, IN)",0,1,,0,1,
+zip,"46786 (LaGrange, IN)",0,1,,0,1,
+zip,"49126 (Berrien, MI)",0,1,,0,1,
+zip,"46635 (St. Joseph, IN)",0,1,,0,1,
+zip,"49065 (Van Buren, MI)",8,2,25,0,2,
+zip,"49057 (Van Buren, MI)",6,2,33,0,2,
+zip,"49111 (Berrien, MI)",6,3,50,0,2,
+zip,"46637 (St. Joseph, IN)",4,2,50,0,2,
+zip,"46366 (Starke, IN)",3,3,100,0,2,
+zip,"49119 (Berrien, MI)",0,2,,0,2,
+zip,"46350 (LaPorte, IN)",65,34,52,27,30,111
+zip,"46628 (St. Joseph, IN)",60,45,75,36,39,108
+zip,"49125 (Berrien, MI)",9,4,44,0,3,
+zip,"46787 (Whitley, IN)",6,3,50,0,3,
+zip,"49067 (Cass, MI)",6,3,50,0,3,
+zip,"46910 (Fulton, IN)",3,3,100,0,3,
+zip,"46539 (Kosciusko, IN)",3,3,100,0,3,
+zip,"46545 (St. Joseph, IN)",54,26,48,19,23,121
+zip,"46530 (St. Joseph, IN)",21,4,19,0,4,
+zip,"49106 (Berrien, MI)",15,5,33,0,4,
+zip,"46613 (St. Joseph, IN)",14,5,36,0,4,
+zip,"49071 (Van Buren, MI)",12,4,33,0,4,
+zip,"46553 (Elkhart, IN)",16,9,56,4,8,200
+zip,"49107 (Berrien, MI)",12,5,42,0,4,
+zip,"46701 (Noble, IN)",10,4,40,0,4,
+zip,"46574 (LaPorte, IN)",11,7,64,3,7,233
+zip,"46562 (Kosciusko, IN)",9,5,56,0,4,
+zip,"49047 (Cass, MI)",17,8,47,3,8,267
+zip,"46542 (Kosciusko, IN)",16,8,50,3,8,267
+zip,"46552 (St. Joseph, IN)",15,9,60,3,8,267
+zip,"49031 (Cass, MI)",11,5,45,0,5,
+zip,"46582 (Kosciusko, IN)",20,19,95,10,15,150
+zip,"46614 (St. Joseph, IN)",24,12,50,6,12,200
+zip,"46563 (Marshall, IN)",41,30,73,21,27,129
+zip,"49085 (Berrien, MI)",34,19,56,10,17,170
+zip,"46526 (Elkhart, IN)",69,61,88,36,54,150

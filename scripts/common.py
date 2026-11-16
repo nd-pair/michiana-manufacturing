@@ -111,3 +111,26 @@ def exact_name_index(cs):
             dup.add(n)
         seen[n] = c["_id"]
     return {n: i for n, i in seen.items() if n not in dup}
+
+def census_api(path, params, timeout=120):
+    """Rows (list of dicts) from api.census.gov. The key is optional (without it the API allows a few
+    hundred calls a day): CENSUS_API_KEY in the environment (the GitHub secret), else the file
+    ~/.config/census/api_key. The key never goes into the repo or into error messages."""
+    import json, urllib.parse, urllib.request
+    key = os.environ.get("CENSUS_API_KEY", "").strip()
+    if not key:
+        try:
+            key = open(os.path.expanduser("~/.config/census/api_key")).read().strip()
+        except OSError:
+            key = ""
+    q = dict(params, **({"key": key} if key else {}))
+    url = "https://api.census.gov/data/%s?%s" % (path, urllib.parse.urlencode(q, safe=":,*"))
+    req = urllib.request.Request(url, headers={"User-Agent": "michiana-manufacturing/1.0 (github.com/nd-pair/michiana-manufacturing)"})
+    try:
+        body = urllib.request.urlopen(req, timeout=timeout).read().decode()
+    except Exception as e:
+        raise RuntimeError("api.census.gov/data/%s: %s" % (path, str(e).replace(key, "<key>") if key else e)) from None
+    if not body.strip():
+        return []   # the API answers an empty body when nothing matches
+    rows = json.loads(body)
+    return [dict(zip(rows[0], r)) for r in rows[1:]]

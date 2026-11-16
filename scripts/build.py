@@ -233,6 +233,7 @@ def main():
     bls = sidecar("bls.json")
     qwi, bea, taskfit = sidecar("qwi.json"), sidecar("bea.json"), sidecar("task_fit.json")
     warn = sidecar("warn.json")
+    census = sidecar("census.json")
     show_ndr = load_toml(P("data", "opportunity.toml")).get("display", {}).get("nd_research", False)
     ndr = sidecar("nd_research.json") if show_ndr else {}   # pulled every month; shown only when switched on
     for o in companies:
@@ -329,7 +330,7 @@ def main():
         "humanoid": {"groups": hspec["group"], "components": [{k: v for k, v in c.items() if not k.startswith("_") and k not in ("patterns", "exclude", "exclude_naics", "naics")} for c in hspec["component"]],
                      "funding": humanoid.funding(events), "progress": progress},
         "opportunity": opp, "ndResearch": {k: ndr.get(k) for k in ("awards", "pulled", "source", "scanned")} if ndr.get("awards") else {},
-        "qcewSpec": qcew.get("specialization", {}), "bls": {k: bls.get(k) for k in ("occupations", "ces", "laus", "pulled") if bls.get(k)},
+        "qcewSpec": qcew.get("specialization", {}), "census": {k: census.get(k) for k in ("economic_census", "acs", "bds", "nonemployer", "pulled") if census.get(k)}, "bls": {k: bls.get(k) for k in ("occupations", "ces", "laus", "pulled") if bls.get(k)},
         "sbirPulled": sbir.get("pulled", ""), "fdaPulled": fda.get("pulled", ""), "patentsPulled": patents.get("pulled", ""),
     }
     # a content hash in the asset URLs, so browsers and the Pages CDN never serve a stale script with a new page

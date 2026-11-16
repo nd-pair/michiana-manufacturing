@@ -1,0 +1,2976 @@
+{
+ "acs": {
+  "counties": {
+   "18039": {
+    "employed": 98457,
+    "median": 50869,
+    "median_all": 43482,
+    "median_moe": 1161,
+    "production": 21629,
+    "workers": 34581
+   },
+   "18049": {
+    "employed": 8821,
+    "median": 47585,
+    "median_all": 43146,
+    "median_moe": 5941,
+    "production": 1520,
+    "workers": 2250
+   },
+   "18085": {
+    "employed": 40275,
+    "median": 58595,
+    "median_all": 47251,
+    "median_moe": 2750,
+    "production": 8982,
+    "workers": 15759
+   },
+   "18087": {
+    "employed": 18306,
+    "median": 62234,
+    "median_all": 49159,
+    "median_moe": 2862,
+    "production": 5577,
+    "workers": 7833
+   },
+   "18091": {
+    "employed": 48560,
+    "median": 57677,
+    "median_all": 46982,
+    "median_moe": 4791,
+    "production": 6474,
+    "workers": 10795
+   },
+   "18099": {
+    "employed": 22280,
+    "median": 52923,
+    "median_all": 44409,
+    "median_moe": 1987,
+    "production": 3965,
+    "workers": 6453
+   },
+   "18113": {
+    "employed": 22747,
+    "median": 53763,
+    "median_all": 47303,
+    "median_moe": 2079,
+    "production": 5656,
+    "workers": 8862
+   },
+   "18141": {
+    "employed": 130237,
+    "median": 53933,
+    "median_all": 44264,
+    "median_moe": 2066,
+    "production": 11568,
+    "workers": 21694
+   },
+   "18149": {
+    "employed": 9952,
+    "median": 50224,
+    "median_all": 38024,
+    "median_moe": 5769,
+    "production": 1458,
+    "workers": 2308
+   },
+   "18183": {
+    "employed": 17516,
+    "median": 60818,
+    "median_all": 50145,
+    "median_moe": 2909,
+    "production": 2461,
+    "workers": 4800
+   },
+   "26021": {
+    "employed": 70152,
+    "median": 59984,
+    "median_all": 42744,
+    "median_moe": 4082,
+    "production": 5978,
+    "workers": 13370
+   },
+   "26027": {
+    "employed": 23685,
+    "median": 52123,
+    "median_all": 46718,
+    "median_moe": 1965,
+    "production": 3141,
+    "workers": 5574
+   },
+   "26159": {
+    "employed": 33869,
+    "median": 55781,
+    "median_all": 46109,
+    "median_moe": 3074,
+    "production": 4653,
+    "workers": 7970
+   }
+  },
+  "us": {
+   "employed": 161297155,
+   "median": 60155,
+   "median_all": 49666,
+   "median_moe": 155,
+   "production": 7246861,
+   "workers": 15940000
+  },
+  "years": "2020\u20132024"
+ },
+ "bds": {
+  "counties": {
+   "18039": {
+    "2005": [
+     863,
+     43,
+     45
+    ],
+    "2006": [
+     840,
+     52,
+     74
+    ],
+    "2007": [
+     831,
+     45,
+     56
+    ],
+    "2008": [
+     831,
+     51,
+     50
+    ],
+    "2009": [
+     775,
+     46,
+     99
+    ],
+    "2010": [
+     758,
+     44,
+     62
+    ],
+    "2011": [
+     759,
+     45,
+     43
+    ],
+    "2012": [
+     758,
+     46,
+     50
+    ],
+    "2013": [
+     773,
+     58,
+     41
+    ],
+    "2014": [
+     756,
+     34,
+     48
+    ],
+    "2015": [
+     756,
+     44,
+     44
+    ],
+    "2016": [
+     775,
+     44,
+     26
+    ],
+    "2017": [
+     775,
+     52,
+     56
+    ],
+    "2018": [
+     776,
+     58,
+     56
+    ],
+    "2019": [
+     776,
+     46,
+     45
+    ],
+    "2020": [
+     778,
+     33,
+     31
+    ],
+    "2021": [
+     792,
+     53,
+     37
+    ],
+    "2022": [
+     800,
+     54,
+     55
+    ],
+    "2023": [
+     810,
+     44,
+     34
+    ]
+   },
+   "18049": {
+    "2005": [
+     50,
+     0,
+     3
+    ],
+    "2006": [
+     47,
+     0,
+     5
+    ],
+    "2007": [
+     47,
+     4,
+     3
+    ],
+    "2008": [
+     46,
+     0,
+     0
+    ],
+    "2009": [
+     43,
+     0,
+     4
+    ],
+    "2010": [
+     41,
+     0,
+     3
+    ],
+    "2011": [
+     41,
+     0,
+     0
+    ],
+    "2012": [
+     40,
+     0,
+     3
+    ],
+    "2013": [
+     40,
+     0,
+     0
+    ],
+    "2014": [
+     37,
+     0,
+     4
+    ],
+    "2015": [
+     36,
+     0,
+     0
+    ],
+    "2016": [
+     35,
+     0,
+     0
+    ],
+    "2017": [
+     35,
+     0,
+     3
+    ],
+    "2018": [
+     38,
+     5,
+     0
+    ],
+    "2019": [
+     38,
+     0,
+     0
+    ],
+    "2020": [
+     37,
+     0,
+     0
+    ],
+    "2021": [
+     34,
+     0,
+     0
+    ],
+    "2022": [
+     32,
+     0,
+     4
+    ],
+    "2023": [
+     33,
+     3,
+     0
+    ]
+   },
+   "18085": {
+    "2005": [
+     190,
+     14,
+     12
+    ],
+    "2006": [
+     192,
+     16,
+     13
+    ],
+    "2007": [
+     185,
+     10,
+     19
+    ],
+    "2008": [
+     181,
+     14,
+     17
+    ],
+    "2009": [
+     172,
+     7,
+     17
+    ],
+    "2010": [
+     165,
+     9,
+     15
+    ],
+    "2011": [
+     168,
+     15,
+     10
+    ],
+    "2012": [
+     168,
+     8,
+     11
+    ],
+    "2013": [
+     162,
+     5,
+     11
+    ],
+    "2014": [
+     157,
+     9,
+     13
+    ],
+    "2015": [
+     161,
+     9,
+     5
+    ],
+    "2016": [
+     166,
+     14,
+     10
+    ],
+    "2017": [
+     171,
+     12,
+     9
+    ],
+    "2018": [
+     173,
+     6,
+     0
+    ],
+    "2019": [
+     176,
+     11,
+     7
+    ],
+    "2020": [
+     177,
+     9,
+     9
+    ],
+    "2021": [
+     177,
+     8,
+     8
+    ],
+    "2022": [
+     174,
+     6,
+     8
+    ],
+    "2023": [
+     178,
+     11,
+     7
+    ]
+   },
+   "18087": {
+    "2005": [
+     115,
+     13,
+     9
+    ],
+    "2006": [
+     125,
+     14,
+     6
+    ],
+    "2007": [
+     141,
+     13,
+     4
+    ],
+    "2008": [
+     129,
+     7,
+     11
+    ],
+    "2009": [
+     121,
+     9,
+     17
+    ],
+    "2010": [
+     122,
+     8,
+     7
+    ],
+    "2011": [
+     123,
+     8,
+     7
+    ],
+    "2012": [
+     131,
+     11,
+     4
+    ],
+    "2013": [
+     136,
+     7,
+     5
+    ],
+    "2014": [
+     139,
+     12,
+     8
+    ],
+    "2015": [
+     142,
+     9,
+     5
+    ],
+    "2016": [
+     154,
+     17,
+     4
+    ],
+    "2017": [
+     160,
+     17,
+     10
+    ],
+    "2018": [
+     162,
+     10,
+     8
+    ],
+    "2019": [
+     168,
+     16,
+     10
+    ],
+    "2020": [
+     167,
+     11,
+     10
+    ],
+    "2021": [
+     168,
+     4,
+     0
+    ],
+    "2022": [
+     178,
+     17,
+     8
+    ],
+    "2023": [
+     187,
+     16,
+     8
+    ]
+   },
+   "18091": {
+    "2005": [
+     181,
+     12,
+     10
+    ],
+    "2006": [
+     185,
+     11,
+     5
+    ],
+    "2007": [
+     179,
+     11,
+     16
+    ],
+    "2008": [
+     177,
+     8,
+     10
+    ],
+    "2009": [
+     173,
+     9,
+     13
+    ],
+    "2010": [
+     170,
+     7,
+     9
+    ],
+    "2011": [
+     167,
+     6,
+     11
+    ],
+    "2012": [
+     165,
+     6,
+     8
+    ],
+    "2013": [
+     161,
+     4,
+     4
+    ],
+    "2014": [
+     161,
+     7,
+     9
+    ],
+    "2015": [
+     163,
+     5,
+     4
+    ],
+    "2016": [
+     161,
+     8,
+     11
+    ],
+    "2017": [
+     159,
+     9,
+     12
+    ],
+    "2018": [
+     149,
+     3,
+     12
+    ],
+    "2019": [
+     146,
+     3,
+     6
+    ],
+    "2020": [
+     148,
+     8,
+     6
+    ],
+    "2021": [
+     147,
+     8,
+     9
+    ],
+    "2022": [
+     150,
+     7,
+     5
+    ],
+    "2023": [
+     150,
+     8,
+     7
+    ]
+   },
+   "18099": {
+    "2005": [
+     119,
+     6,
+     7
+    ],
+    "2006": [
+     118,
+     5,
+     6
+    ],
+    "2007": [
+     120,
+     12,
+     11
+    ],
+    "2008": [
+     124,
+     13,
+     8
+    ],
+    "2009": [
+     125,
+     6,
+     6
+    ],
+    "2010": [
+     118,
+     3,
+     10
+    ],
+    "2011": [
+     120,
+     7,
+     5
+    ],
+    "2012": [
+     120,
+     6,
+     7
+    ],
+    "2013": [
+     121,
+     6,
+     5
+    ],
+    "2014": [
+     128,
+     11,
+     5
+    ],
+    "2015": [
+     129,
+     5,
+     4
+    ],
+    "2016": [
+     130,
+     6,
+     5
+    ],
+    "2017": [
+     134,
+     11,
+     7
+    ],
+    "2018": [
+     134,
+     5,
+     5
+    ],
+    "2019": [
+     133,
+     9,
+     11
+    ],
+    "2020": [
+     131,
+     8,
+     10
+    ],
+    "2021": [
+     132,
+     7,
+     6
+    ],
+    "2022": [
+     128,
+     6,
+     9
+    ],
+    "2023": [
+     126,
+     6,
+     9
+    ]
+   },
+   "18113": {
+    "2005": [
+     142,
+     8,
+     12
+    ],
+    "2006": [
+     144,
+     9,
+     7
+    ],
+    "2007": [
+     142,
+     4,
+     10
+    ],
+    "2008": [
+     134,
+     3,
+     8
+    ],
+    "2009": [
+     132,
+     6,
+     9
+    ],
+    "2010": [
+     125,
+     7,
+     13
+    ],
+    "2011": [
+     122,
+     0,
+     5
+    ],
+    "2012": [
+     121,
+     6,
+     8
+    ],
+    "2013": [
+     120,
+     5,
+     6
+    ],
+    "2014": [
+     122,
+     6,
+     4
+    ],
+    "2015": [
+     122,
+     4,
+     6
+    ],
+    "2016": [
+     119,
+     4,
+     6
+    ],
+    "2017": [
+     111,
+     0,
+     8
+    ],
+    "2018": [
+     120,
+     9,
+     0
+    ],
+    "2019": [
+     123,
+     7,
+     4
+    ],
+    "2020": [
+     120,
+     4,
+     7
+    ],
+    "2021": [
+     121,
+     7,
+     5
+    ],
+    "2022": [
+     118,
+     8,
+     12
+    ],
+    "2023": [
+     111,
+     4,
+     11
+    ]
+   },
+   "18141": {
+    "2005": [
+     408,
+     18,
+     27
+    ],
+    "2006": [
+     403,
+     22,
+     27
+    ],
+    "2007": [
+     404,
+     15,
+     29
+    ],
+    "2008": [
+     377,
+     14,
+     33
+    ],
+    "2009": [
+     362,
+     18,
+     35
+    ],
+    "2010": [
+     355,
+     16,
+     25
+    ],
+    "2011": [
+     349,
+     17,
+     22
+    ],
+    "2012": [
+     340,
+     9,
+     17
+    ],
+    "2013": [
+     338,
+     15,
+     18
+    ],
+    "2014": [
+     328,
+     12,
+     21
+    ],
+    "2015": [
+     323,
+     7,
+     13
+    ],
+    "2016": [
+     324,
+     16,
+     15
+    ],
+    "2017": [
+     318,
+     16,
+     23
+    ],
+    "2018": [
+     309,
+     6,
+     16
+    ],
+    "2019": [
+     311,
+     14,
+     12
+    ],
+    "2020": [
+     307,
+     15,
+     17
+    ],
+    "2021": [
+     305,
+     13,
+     12
+    ],
+    "2022": [
+     298,
+     10,
+     20
+    ],
+    "2023": [
+     298,
+     14,
+     11
+    ]
+   },
+   "18149": {
+    "2005": [
+     23,
+     0,
+     0
+    ],
+    "2006": [
+     27,
+     5,
+     0
+    ],
+    "2007": [
+     28,
+     0,
+     0
+    ],
+    "2008": [
+     25,
+     0,
+     0
+    ],
+    "2009": [
+     25,
+     0,
+     0
+    ],
+    "2010": [
+     25,
+     0,
+     0
+    ],
+    "2011": [
+     25,
+     0,
+     0
+    ],
+    "2012": [
+     23,
+     0,
+     0
+    ],
+    "2013": [
+     23,
+     0,
+     3
+    ],
+    "2014": [
+     22,
+     0,
+     0
+    ],
+    "2015": [
+     25,
+     3,
+     0
+    ],
+    "2016": [
+     23,
+     0,
+     0
+    ],
+    "2017": [
+     22,
+     0,
+     0
+    ],
+    "2018": [
+     23,
+     0,
+     0
+    ],
+    "2019": [
+     20,
+     0,
+     3
+    ],
+    "2020": [
+     22,
+     0,
+     0
+    ],
+    "2021": [
+     20,
+     0,
+     3
+    ],
+    "2022": [
+     20,
+     0,
+     0
+    ],
+    "2023": [
+     18,
+     0,
+     3
+    ]
+   },
+   "18183": {
+    "2005": [
+     64,
+     3,
+     4
+    ],
+    "2006": [
+     68,
+     7,
+     3
+    ],
+    "2007": [
+     69,
+     6,
+     6
+    ],
+    "2008": [
+     72,
+     9,
+     4
+    ],
+    "2009": [
+     70,
+     5,
+     6
+    ],
+    "2010": [
+     74,
+     6,
+     3
+    ],
+    "2011": [
+     70,
+     0,
+     5
+    ],
+    "2012": [
+     68,
+     4,
+     5
+    ],
+    "2013": [
+     65,
+     4,
+     7
+    ],
+    "2014": [
+     65,
+     3,
+     3
+    ],
+    "2015": [
+     67,
+     4,
+     3
+    ],
+    "2016": [
+     63,
+     3,
+     7
+    ],
+    "2017": [
+     61,
+     3,
+     5
+    ],
+    "2018": [
+     63,
+     3,
+     0
+    ],
+    "2019": [
+     66,
+     6,
+     3
+    ],
+    "2020": [
+     65,
+     0,
+     3
+    ],
+    "2021": [
+     66,
+     6,
+     5
+    ],
+    "2022": [
+     69,
+     5,
+     0
+    ],
+    "2023": [
+     72,
+     6,
+     3
+    ]
+   },
+   "26021": {
+    "2005": [
+     325,
+     18,
+     24
+    ],
+    "2006": [
+     318,
+     13,
+     21
+    ],
+    "2007": [
+     314,
+     13,
+     19
+    ],
+    "2008": [
+     309,
+     13,
+     17
+    ],
+    "2009": [
+     295,
+     6,
+     21
+    ],
+    "2010": [
+     280,
+     8,
+     25
+    ],
+    "2011": [
+     277,
+     17,
+     23
+    ],
+    "2012": [
+     275,
+     11,
+     20
+    ],
+    "2013": [
+     272,
+     10,
+     12
+    ],
+    "2014": [
+     272,
+     11,
+     11
+    ],
+    "2015": [
+     275,
+     17,
+     16
+    ],
+    "2016": [
+     270,
+     7,
+     12
+    ],
+    "2017": [
+     271,
+     12,
+     14
+    ],
+    "2018": [
+     264,
+     7,
+     14
+    ],
+    "2019": [
+     262,
+     10,
+     12
+    ],
+    "2020": [
+     257,
+     7,
+     13
+    ],
+    "2021": [
+     260,
+     12,
+     11
+    ],
+    "2022": [
+     261,
+     9,
+     9
+    ],
+    "2023": [
+     259,
+     10,
+     11
+    ]
+   },
+   "26027": {
+    "2005": [
+     92,
+     8,
+     7
+    ],
+    "2006": [
+     86,
+     5,
+     11
+    ],
+    "2007": [
+     89,
+     11,
+     8
+    ],
+    "2008": [
+     82,
+     3,
+     9
+    ],
+    "2009": [
+     72,
+     0,
+     11
+    ],
+    "2010": [
+     72,
+     6,
+     7
+    ],
+    "2011": [
+     68,
+     3,
+     7
+    ],
+    "2012": [
+     71,
+     4,
+     0
+    ],
+    "2013": [
+     71,
+     4,
+     3
+    ],
+    "2014": [
+     71,
+     0,
+     0
+    ],
+    "2015": [
+     74,
+     3,
+     0
+    ],
+    "2016": [
+     69,
+     0,
+     6
+    ],
+    "2017": [
+     68,
+     0,
+     3
+    ],
+    "2018": [
+     65,
+     0,
+     4
+    ],
+    "2019": [
+     66,
+     0,
+     0
+    ],
+    "2020": [
+     67,
+     0,
+     3
+    ],
+    "2021": [
+     71,
+     5,
+     0
+    ],
+    "2022": [
+     71,
+     3,
+     5
+    ],
+    "2023": [
+     69,
+     4,
+     6
+    ]
+   },
+   "26159": {
+    "2005": [
+     98,
+     3,
+     6
+    ],
+    "2006": [
+     93,
+     0,
+     7
+    ],
+    "2007": [
+     92,
+     3,
+     5
+    ],
+    "2008": [
+     88,
+     3,
+     5
+    ],
+    "2009": [
+     90,
+     5,
+     3
+    ],
+    "2010": [
+     82,
+     0,
+     9
+    ],
+    "2011": [
+     79,
+     3,
+     6
+    ],
+    "2012": [
+     81,
+     4,
+     0
+    ],
+    "2013": [
+     78,
+     4,
+     6
+    ],
+    "2014": [
+     78,
+     4,
+     4
+    ],
+    "2015": [
+     74,
+     0,
+     4
+    ],
+    "2016": [
+     80,
+     7,
+     0
+    ],
+    "2017": [
+     81,
+     5,
+     4
+    ],
+    "2018": [
+     81,
+     3,
+     4
+    ],
+    "2019": [
+     86,
+     7,
+     0
+    ],
+    "2020": [
+     85,
+     3,
+     5
+    ],
+    "2021": [
+     87,
+     7,
+     5
+    ],
+    "2022": [
+     88,
+     3,
+     0
+    ],
+    "2023": [
+     84,
+     0,
+     6
+    ]
+   }
+  },
+  "fields": [
+   "establishments",
+   "opened",
+   "closed"
+  ],
+  "us": {
+   "2005": [
+    314011,
+    21758,
+    25869
+   ],
+   "2006": [
+    313761,
+    23730,
+    24851
+   ],
+   "2007": [
+    314498,
+    21970,
+    25072
+   ],
+   "2008": [
+    303858,
+    19221,
+    25022
+   ],
+   "2009": [
+    292829,
+    16662,
+    28357
+   ],
+   "2010": [
+    282751,
+    16460,
+    26672
+   ],
+   "2011": [
+    279224,
+    18099,
+    21990
+   ],
+   "2012": [
+    280015,
+    18301,
+    19706
+   ],
+   "2013": [
+    276817,
+    16924,
+    19453
+   ],
+   "2014": [
+    275622,
+    17543,
+    18348
+   ],
+   "2015": [
+    275838,
+    18169,
+    18205
+   ],
+   "2016": [
+    275746,
+    18038,
+    18297
+   ],
+   "2017": [
+    273840,
+    17574,
+    19626
+   ],
+   "2018": [
+    273392,
+    18209,
+    18540
+   ],
+   "2019": [
+    271707,
+    17092,
+    18772
+   ],
+   "2020": [
+    267975,
+    16617,
+    20413
+   ],
+   "2021": [
+    264971,
+    18189,
+    20622
+   ],
+   "2022": [
+    268597,
+    21145,
+    18898
+   ],
+   "2023": [
+    268269,
+    18443,
+    18782
+   ]
+  }
+ },
+ "economic_census": {
+  "counties": {
+   "18039": {
+    "emp": 82129,
+    "estab": 830,
+    "industries": [
+     {
+      "emp": 49581,
+      "estab": 206,
+      "naics": "336",
+      "name": "Transportation Equipment Manufacturing",
+      "pay": 3473262,
+      "ship": 26830443,
+      "withheld": false
+     },
+     {
+      "emp": 4455,
+      "estab": 90,
+      "naics": "321",
+      "name": "Wood Product Manufacturing",
+      "pay": 257240,
+      "ship": 1978320,
+      "withheld": false
+     },
+     {
+      "emp": 5759,
+      "estab": 76,
+      "naics": "326",
+      "name": "Plastics and Rubber Products Manufacturing",
+      "pay": 297052,
+      "ship": 1746415,
+      "withheld": false
+     },
+     {
+      "emp": 5748,
+      "estab": 78,
+      "naics": "337",
+      "name": "Furniture and Related Product Manufacturing",
+      "pay": 284322,
+      "ship": 1699515,
+      "withheld": false
+     },
+     {
+      "emp": 5872,
+      "estab": 146,
+      "naics": "332",
+      "name": "Fabricated Metal Product Manufacturing",
+      "pay": 316660,
+      "ship": 1654519,
+      "withheld": false
+     },
+     {
+      "emp": 1015,
+      "estab": 11,
+      "naics": "331",
+      "name": "Primary Metal Manufacturing",
+      "pay": 66613,
+      "ship": 986520,
+      "withheld": false
+     },
+     {
+      "emp": 2229,
+      "estab": 26,
+      "naics": "325",
+      "name": "Chemical Manufacturing",
+      "pay": 105046,
+      "ship": 879908,
+      "withheld": false
+     },
+     {
+      "emp": 1428,
+      "estab": 27,
+      "naics": "311",
+      "name": "Food Manufacturing",
+      "pay": 81681,
+      "ship": 741605,
+      "withheld": false
+     },
+     {
+      "emp": 1110,
+      "estab": 49,
+      "naics": "333",
+      "name": "Machinery Manufacturing",
+      "pay": 64435,
+      "ship": 361906,
+      "withheld": false
+     },
+     {
+      "emp": 560,
+      "estab": 8,
+      "naics": "322",
+      "name": "Paper Manufacturing",
+      "pay": 30330,
+      "ship": 358681,
+      "withheld": false
+     },
+     {
+      "emp": 828,
+      "estab": 9,
+      "naics": "334",
+      "name": "Computer and Electronic Product Manufacturing",
+      "pay": 45021,
+      "ship": 313184,
+      "withheld": false
+     },
+     {
+      "emp": 1164,
+      "estab": 27,
+      "naics": "327",
+      "name": "Nonmetallic Mineral Product Manufacturing",
+      "pay": 63468,
+      "ship": 312110,
+      "withheld": false
+     },
+     {
+      "emp": 861,
+      "estab": 26,
+      "naics": "339",
+      "name": "Miscellaneous Manufacturing",
+      "pay": 49956,
+      "ship": 232212,
+      "withheld": false
+     },
+     {
+      "emp": 471,
+      "estab": 15,
+      "naics": "335",
+      "name": "Electrical Equipment, Appliance, and Component Manufacturing",
+      "pay": 27594,
+      "ship": 135345,
+      "withheld": false
+     },
+     {
+      "emp": 489,
+      "estab": 10,
+      "naics": "314",
+      "name": "Textile Product Mills",
+      "pay": 22835,
+      "ship": 123240,
+      "withheld": false
+     },
+     {
+      "emp": 301,
+      "estab": 17,
+      "naics": "323",
+      "name": "Printing and Related Support Activities",
+      "pay": 17775,
+      "ship": 69665,
+      "withheld": false
+     }
+    ],
+    "pay": 5214905,
+    "ship": 38485652
+   },
+   "18049": {
+    "emp": 1598,
+    "estab": 36,
+    "industries": [
+     {
+      "emp": 459,
+      "estab": 10,
+      "naics": "332",
+      "name": "Fabricated Metal Product Manufacturing",
+      "pay": 21613,
+      "ship": 119228,
+      "withheld": false
+     },
+     {
+      "emp": 241,
+      "estab": 7,
+      "naics": "333",
+      "name": "Machinery Manufacturing",
+      "pay": 12766,
+      "ship": 71545,
+      "withheld": false
+     },
+     {
+      "emp": 32,
+      "estab": 4,
+      "naics": "327",
+      "name": "Nonmetallic Mineral Product Manufacturing",
+      "pay": 1935,
+      "ship": 9047,
+      "withheld": false
+     },
+     {
+      "emp": 49,
+      "estab": 3,
+      "naics": "323",
+      "name": "Printing and Related Support Activities",
+      "pay": 0,
+      "ship": 7154,
+      "withheld": false
+     }
+    ],
+    "pay": 85145,
+    "ship": 451756
+   },
+   "18085": {
+    "emp": 10749,
+    "estab": 183,
+    "industries": [
+     {
+      "emp": 3319,
+      "estab": 18,
+      "naics": "339",
+      "name": "Miscellaneous Manufacturing",
+      "pay": 234873,
+      "ship": 3859826,
+      "withheld": false
+     },
+     {
+      "emp": 578,
+      "estab": 9,
+      "naics": "311",
+      "name": "Food Manufacturing",
+      "pay": 30647,
+      "ship": 1787778,
+      "withheld": false
+     },
+     {
+      "emp": 1408,
+      "estab": 46,
+      "naics": "332",
+      "name": "Fabricated Metal Product Manufacturing",
+      "pay": 79146,
+      "ship": 574376,
+      "withheld": false
+     },
+     {
+      "emp": 581,
+      "estab": 12,
+      "naics": "333",
+      "name": "Machinery Manufacturing",
+      "pay": 37357,
+      "ship": 350995,
+      "withheld": false
+     },
+     {
+      "emp": 1198,
+      "estab": 19,
+      "naics": "337",
+      "name": "Furniture and Related Product Manufacturing",
+      "pay": 63256,
+      "ship": 318052,
+      "withheld": false
+     },
+     {
+      "emp": 450,
+      "estab": 4,
+      "naics": "331",
+      "name": "Primary Metal Manufacturing",
+      "pay": 33092,
+      "ship": 157253,
+      "withheld": false
+     },
+     {
+      "emp": 842,
+      "estab": 9,
+      "naics": "326",
+      "name": "Plastics and Rubber Products Manufacturing",
+      "pay": 42526,
+      "ship": 147771,
+      "withheld": false
+     },
+     {
+      "emp": 754,
+      "estab": 16,
+      "naics": "336",
+      "name": "Transportation Equipment Manufacturing",
+      "pay": 32643,
+      "ship": 127862,
+      "withheld": false
+     },
+     {
+      "emp": null,
+      "estab": 5,
+      "naics": "323",
+      "name": "Printing and Related Support Activities",
+      "pay": null,
+      "ship": 111873,
+      "withheld": true
+     },
+     {
+      "emp": 239,
+      "estab": 8,
+      "naics": "325",
+      "name": "Chemical Manufacturing",
+      "pay": 12801,
+      "ship": 80265,
+      "withheld": false
+     },
+     {
+      "emp": 207,
+      "estab": 17,
+      "naics": "321",
+      "name": "Wood Product Manufacturing",
+      "pay": 10971,
+      "ship": 56572,
+      "withheld": false
+     },
+     {
+      "emp": 90,
+      "estab": 4,
+      "naics": "327",
+      "name": "Nonmetallic Mineral Product Manufacturing",
+      "pay": 4801,
+      "ship": 25004,
+      "withheld": false
+     },
+     {
+      "emp": 101,
+      "estab": 5,
+      "naics": "314",
+      "name": "Textile Product Mills",
+      "pay": 3947,
+      "ship": 12341,
+      "withheld": false
+     },
+     {
+      "emp": 63,
+      "estab": 5,
+      "naics": "312",
+      "name": "Beverage and Tobacco Product Manufacturing",
+      "pay": 2122,
+      "ship": 6972,
+      "withheld": false
+     },
+     {
+      "emp": 46,
+      "estab": 3,
+      "naics": "334",
+      "name": "Computer and Electronic Product Manufacturing",
+      "pay": 2124,
+      "ship": null,
+      "withheld": true
+     }
+    ],
+    "pay": 630041,
+    "ship": 7650146
+   },
+   "18087": {
+    "emp": 7448,
+    "estab": 199,
+    "industries": [
+     {
+      "emp": 3875,
+      "estab": 30,
+      "naics": "336",
+      "name": "Transportation Equipment Manufacturing",
+      "pay": 271012,
+      "ship": 1913666,
+      "withheld": false
+     },
+     {
+      "emp": 1197,
+      "estab": 46,
+      "naics": "321",
+      "name": "Wood Product Manufacturing",
+      "pay": 70045,
+      "ship": 492635,
+      "withheld": false
+     },
+     {
+      "emp": 783,
+      "estab": 50,
+      "naics": "337",
+      "name": "Furniture and Related Product Manufacturing",
+      "pay": 37609,
+      "ship": 194017,
+      "withheld": false
+     },
+     {
+      "emp": 371,
+      "estab": 14,
+      "naics": "332",
+      "name": "Fabricated Metal Product Manufacturing",
+      "pay": 28494,
+      "ship": 185436,
+      "withheld": false
+     },
+     {
+      "emp": 159,
+      "estab": 15,
+      "naics": "311",
+      "name": "Food Manufacturing",
+      "pay": 5819,
+      "ship": 61302,
+      "withheld": false
+     },
+     {
+      "emp": 131,
+      "estab": 7,
+      "naics": "326",
+      "name": "Plastics and Rubber Products Manufacturing",
+      "pay": 8550,
+      "ship": 36043,
+      "withheld": false
+     },
+     {
+      "emp": 53,
+      "estab": 4,
+      "naics": "323",
+      "name": "Printing and Related Support Activities",
+      "pay": 2437,
+      "ship": 7693,
+      "withheld": false
+     },
+     {
+      "emp": 26,
+      "estab": 4,
+      "naics": "316",
+      "name": "Leather and Allied Product Manufacturing",
+      "pay": 909,
+      "ship": 4294,
+      "withheld": false
+     },
+     {
+      "emp": null,
+      "estab": 0,
+      "naics": "314",
+      "name": "Textile Product Mills",
+      "pay": null,
+      "ship": null,
+      "withheld": true
+     },
+     {
+      "emp": 141,
+      "estab": 7,
+      "naics": "333",
+      "name": "Machinery Manufacturing",
+      "pay": 9342,
+      "ship": null,
+      "withheld": true
+     },
+     {
+      "emp": 62,
+      "estab": 3,
+      "naics": "335",
+      "name": "Electrical Equipment, Appliance, and Component Manufacturing",
+      "pay": 0,
+      "ship": null,
+      "withheld": true
+     },
+     {
+      "emp": null,
+      "estab": 7,
+      "naics": "339",
+      "name": "Miscellaneous Manufacturing",
+      "pay": null,
+      "ship": null,
+      "withheld": true
+     }
+    ],
+    "pay": 471585,
+    "ship": 3082206
+   },
+   "18091": {
+    "emp": 7539,
+    "estab": 158,
+    "industries": [
+     {
+      "emp": 1440,
+      "estab": 26,
+      "naics": "333",
+      "name": "Machinery Manufacturing",
+      "pay": 113707,
+      "ship": 714704,
+      "withheld": false
+     },
+     {
+      "emp": 1733,
+      "estab": 10,
+      "naics": "311",
+      "name": "Food Manufacturing",
+      "pay": 84733,
+      "ship": 489245,
+      "withheld": false
+     },
+     {
+      "emp": 1139,
+      "estab": 8,
+      "naics": "331",
+      "name": "Primary Metal Manufacturing",
+      "pay": 76902,
+      "ship": 374425,
+      "withheld": false
+     },
+     {
+      "emp": 895,
+      "estab": 36,
+      "naics": "332",
+      "name": "Fabricated Metal Product Manufacturing",
+      "pay": 44462,
+      "ship": 319568,
+      "withheld": false
+     },
+     {
+      "emp": 665,
+      "estab": 13,
+      "naics": "326",
+      "name": "Plastics and Rubber Products Manufacturing",
+      "pay": 45500,
+      "ship": 287519,
+      "withheld": false
+     },
+     {
+      "emp": 112,
+      "estab": 10,
+      "naics": "327",
+      "name": "Nonmetallic Mineral Product Manufacturing",
+      "pay": 6060,
+      "ship": 26289,
+      "withheld": false
+     },
+     {
+      "emp": 128,
+      "estab": 3,
+      "naics": "322",
+      "name": "Paper Manufacturing",
+      "pay": 0,
+      "ship": null,
+      "withheld": true
+     },
+     {
+      "emp": 32,
+      "estab": 3,
+      "naics": "312",
+      "name": "Beverage and Tobacco Product Manufacturing",
+      "pay": 1756,
+      "ship": null,
+      "withheld": true
+     },
+     {
+      "emp": 138,
+      "estab": 4,
+      "naics": "321",
+      "name": "Wood Product Manufacturing",
+      "pay": 4589,
+      "ship": null,
+      "withheld": true
+     },
+     {
+      "emp": 135,
+      "estab": 8,
+      "naics": "323",
+      "name": "Printing and Related Support Activities",
+      "pay": 5073,
+      "ship": null,
+      "withheld": true
+     },
+     {
+      "emp": null,
+      "estab": 3,
+      "naics": "324",
+      "name": "Petroleum and Coal Products Manufacturing",
+      "pay": null,
+      "ship": null,
+      "withheld": true
+     },
+     {
+      "emp": null,
+      "estab": 13,
+      "naics": "325",
+      "name": "Chemical Manufacturing",
+      "pay": null,
+      "ship": null,
+      "withheld": true
+     },
+     {
+      "emp": null,
+      "estab": 6,
+      "naics": "334",
+      "name": "Computer and Electronic Product Manufacturing",
+      "pay": null,
+      "ship": null,
+      "withheld": true
+     },
+     {
+      "emp": 192,
+      "estab": 6,
+      "naics": "339",
+      "name": "Miscellaneous Manufacturing",
+      "pay": 10562,
+      "ship": null,
+      "withheld": true
+     }
+    ],
+    "pay": 452156,
+    "ship": 2934446
+   },
+   "18099": {
+    "emp": 6458,
+    "estab": 137,
+    "industries": [
+     {
+      "emp": 778,
+      "estab": 5,
+      "naics": "331",
+      "name": "Primary Metal Manufacturing",
+      "pay": 45479,
+      "ship": 722895,
+      "withheld": false
+     },
+     {
+      "emp": 1865,
+      "estab": 16,
+      "naics": "326",
+      "name": "Plastics and Rubber Products Manufacturing",
+      "pay": 95660,
+      "ship": 529168,
+      "withheld": false
+     },
+     {
+      "emp": 1059,
+      "estab": 30,
+      "naics": "332",
+      "name": "Fabricated Metal Product Manufacturing",
+      "pay": 65151,
+      "ship": 296941,
+      "withheld": false
+     },
+     {
+      "emp": 484,
+      "estab": 4,
+      "naics": "322",
+      "name": "Paper Manufacturing",
+      "pay": 29372,
+      "ship": 150420,
+      "withheld": false
+     },
+     {
+      "emp": 616,
+      "estab": 9,
+      "naics": "339",
+      "name": "Miscellaneous Manufacturing",
+      "pay": 32583,
+      "ship": 103254,
+      "withheld": false
+     },
+     {
+      "emp": 242,
+      "estab": 20,
+      "naics": "321",
+      "name": "Wood Product Manufacturing",
+      "pay": 15315,
+      "ship": 91063,
+      "withheld": false
+     },
+     {
+      "emp": 289,
+      "estab": 7,
+      "naics": "325",
+      "name": "Chemical Manufacturing",
+      "pay": 17787,
+      "ship": 77900,
+      "withheld": false
+     },
+     {
+      "emp": 227,
+      "estab": 8,
+      "naics": "336",
+      "name": "Transportation Equipment Manufacturing",
+      "pay": 11582,
+      "ship": 56722,
+      "withheld": false
+     },
+     {
+      "emp": 204,
+      "estab": 8,
+      "naics": "337",
+      "name": "Furniture and Related Product Manufacturing",
+      "pay": 13810,
+      "ship": 46871,
+      "withheld": false
+     },
+     {
+      "emp": 142,
+      "estab": 10,
+      "naics": "333",
+      "name": "Machinery Manufacturing",
+      "pay": 7450,
+      "ship": 44843,
+      "withheld": false
+     },
+     {
+      "emp": 31,
+      "estab": 5,
+      "naics": "327",
+      "name": "Nonmetallic Mineral Product Manufacturing",
+      "pay": 1732,
+      "ship": 10856,
+      "withheld": false
+     },
+     {
+      "emp": 270,
+      "estab": 8,
+      "naics": "311",
+      "name": "Food Manufacturing",
+      "pay": 0,
+      "ship": null,
+      "withheld": true
+     },
+     {
+      "emp": null,
+      "estab": 3,
+      "naics": "323",
+      "name": "Printing and Related Support Activities",
+      "pay": null,
+      "ship": null,
+      "withheld": true
+     }
+    ],
+    "pay": 377582,
+    "ship": 2317621
+   },
+   "18113": {
+    "emp": 7943,
+    "estab": 130,
+    "industries": [
+     {
+      "emp": 2665,
+      "estab": 12,
+      "naics": "336",
+      "name": "Transportation Equipment Manufacturing",
+      "pay": 147216,
+      "ship": 1773221,
+      "withheld": false
+     },
+     {
+      "emp": 1421,
+      "estab": 43,
+      "naics": "332",
+      "name": "Fabricated Metal Product Manufacturing",
+      "pay": 71295,
+      "ship": 446179,
+      "withheld": false
+     },
+     {
+      "emp": 323,
+      "estab": 4,
+      "naics": "311",
+      "name": "Food Manufacturing",
+      "pay": 21481,
+      "ship": 309973,
+      "withheld": false
+     },
+     {
+      "emp": 766,
+      "estab": 9,
+      "naics": "325",
+      "name": "Chemical Manufacturing",
+      "pay": 43162,
+      "ship": 247165,
+      "withheld": false
+     },
+     {
+      "emp": 705,
+      "estab": 7,
+      "naics": "326",
+      "name": "Plastics and Rubber Products Manufacturing",
+      "pay": 32721,
+      "ship": 157534,
+      "withheld": false
+     },
+     {
+      "emp": 504,
+      "estab": 11,
+      "naics": "333",
+      "name": "Machinery Manufacturing",
+      "pay": 26822,
+      "ship": 142832,
+      "withheld": false
+     },
+     {
+      "emp": 81,
+      "estab": 15,
+      "naics": "337",
+      "name": "Furniture and Related Product Manufacturing",
+      "pay": 3729,
+      "ship": 15877,
+      "withheld": false
+     },
+     {
+      "emp": 54,
+      "estab": 6,
+      "naics": "321",
+      "name": "Wood Product Manufacturing",
+      "pay": 2319,
+      "ship": 6712,
+      "withheld": false
+     },
+     {
+      "emp": null,
+      "estab": 5,
+      "naics": "323",
+      "name": "Printing and Related Support Activities",
+      "pay": null,
+      "ship": null,
+      "withheld": true
+     },
+     {
+      "emp": null,
+      "estab": 4,
+      "naics": "327",
+      "name": "Nonmetallic Mineral Product Manufacturing",
+      "pay": null,
+      "ship": null,
+      "withheld": true
+     },
+     {
+      "emp": null,
+      "estab": 3,
+      "naics": "331",
+      "name": "Primary Metal Manufacturing",
+      "pay": null,
+      "ship": null,
+      "withheld": true
+     },
+     {
+      "emp": null,
+      "estab": 3,
+      "naics": "339",
+      "name": "Miscellaneous Manufacturing",
+      "pay": null,
+      "ship": null,
+      "withheld": true
+     }
+    ],
+    "pay": 420826,
+    "ship": 3506329
+   },
+   "18141": {
+    "emp": 13763,
+    "estab": 313,
+    "industries": [
+     {
+      "emp": 3408,
+      "estab": 83,
+      "naics": "332",
+      "name": "Fabricated Metal Product Manufacturing",
+      "pay": 232448,
+      "ship": 1874935,
+      "withheld": false
+     },
+     {
+      "emp": 864,
+      "estab": 19,
+      "naics": "325",
+      "name": "Chemical Manufacturing",
+      "pay": 68777,
+      "ship": 409992,
+      "withheld": false
+     },
+     {
+      "emp": 1640,
+      "estab": 33,
+      "naics": "326",
+      "name": "Plastics and Rubber Products Manufacturing",
+      "pay": 79151,
+      "ship": 363268,
+      "withheld": false
+     },
+     {
+      "emp": 617,
+      "estab": 7,
+      "naics": "321",
+      "name": "Wood Product Manufacturing",
+      "pay": 32136,
+      "ship": 361096,
+      "withheld": false
+     },
+     {
+      "emp": 513,
+      "estab": 7,
+      "naics": "322",
+      "name": "Paper Manufacturing",
+      "pay": 33050,
+      "ship": 297122,
+      "withheld": false
+     },
+     {
+      "emp": 597,
+      "estab": 24,
+      "naics": "339",
+      "name": "Miscellaneous Manufacturing",
+      "pay": 38886,
+      "ship": 182324,
+      "withheld": false
+     },
+     {
+      "emp": 38,
+      "estab": 4,
+      "naics": "312",
+      "name": "Beverage and Tobacco Product Manufacturing",
+      "pay": 1536,
+      "ship": 3674,
+      "withheld": false
+     },
+     {
+      "emp": null,
+      "estab": 0,
+      "naics": "311",
+      "name": "Food Manufacturing",
+      "pay": null,
+      "ship": null,
+      "withheld": true
+     },
+     {
+      "emp": null,
+      "estab": 0,
+      "naics": "323",
+      "name": "Printing and Related Support Activities",
+      "pay": null,
+      "ship": null,
+      "withheld": true
+     },
+     {
+      "emp": null,
+      "estab": 0,
+      "naics": "327",
+      "name": "Nonmetallic Mineral Product Manufacturing",
+      "pay": null,
+      "ship": null,
+      "withheld": true
+     },
+     {
+      "emp": null,
+      "estab": 0,
+      "naics": "335",
+      "name": "Electrical Equipment, Appliance, and Component Manufacturing",
+      "pay": null,
+      "ship": null,
+      "withheld": true
+     },
+     {
+      "emp": 1261,
+      "estab": 8,
+      "naics": "331",
+      "name": "Primary Metal Manufacturing",
+      "pay": 66679,
+      "ship": null,
+      "withheld": true
+     },
+     {
+      "emp": 710,
+      "estab": 29,
+      "naics": "333",
+      "name": "Machinery Manufacturing",
+      "pay": 46556,
+      "ship": null,
+      "withheld": true
+     },
+     {
+      "emp": null,
+      "estab": 0,
+      "naics": "334",
+      "name": "Computer and Electronic Product Manufacturing",
+      "pay": null,
+      "ship": null,
+      "withheld": true
+     },
+     {
+      "emp": null,
+      "estab": 0,
+      "naics": "336",
+      "name": "Transportation Equipment Manufacturing",
+      "pay": null,
+      "ship": null,
+      "withheld": true
+     },
+     {
+      "emp": null,
+      "estab": 0,
+      "naics": "337",
+      "name": "Furniture and Related Product Manufacturing",
+      "pay": null,
+      "ship": null,
+      "withheld": true
+     }
+    ],
+    "pay": 853539,
+    "ship": 6449271
+   },
+   "18149": {
+    "emp": 790,
+    "estab": 16,
+    "industries": [
+     {
+      "emp": null,
+      "estab": 3,
+      "naics": "336",
+      "name": "Transportation Equipment Manufacturing",
+      "pay": null,
+      "ship": null,
+      "withheld": true
+     }
+    ],
+    "pay": 36874,
+    "ship": 316460
+   },
+   "18183": {
+    "emp": 5926,
+    "estab": 71,
+    "industries": [
+     {
+      "emp": null,
+      "estab": 0,
+      "naics": "331",
+      "name": "Primary Metal Manufacturing",
+      "pay": null,
+      "ship": 2714971,
+      "withheld": true
+     },
+     {
+      "emp": 1195,
+      "estab": 18,
+      "naics": "332",
+      "name": "Fabricated Metal Product Manufacturing",
+      "pay": 62844,
+      "ship": 197664,
+      "withheld": false
+     },
+     {
+      "emp": 499,
+      "estab": 6,
+      "naics": "333",
+      "name": "Machinery Manufacturing",
+      "pay": 22971,
+      "ship": 165742,
+      "withheld": false
+     },
+     {
+      "emp": 237,
+      "estab": 5,
+      "naics": "321",
+      "name": "Wood Product Manufacturing",
+      "pay": 11148,
+      "ship": 59567,
+      "withheld": false
+     },
+     {
+      "emp": 50,
+      "estab": 7,
+      "naics": "311",
+      "name": "Food Manufacturing",
+      "pay": 3129,
+      "ship": null,
+      "withheld": true
+     },
+     {
+      "emp": null,
+      "estab": 0,
+      "naics": "323",
+      "name": "Printing and Related Support Activities",
+      "pay": null,
+      "ship": null,
+      "withheld": true
+     },
+     {
+      "emp": null,
+      "estab": 3,
+      "naics": "326",
+      "name": "Plastics and Rubber Products Manufacturing",
+      "pay": null,
+      "ship": null,
+      "withheld": true
+     },
+     {
+      "emp": null,
+      "estab": 0,
+      "naics": "327",
+      "name": "Nonmetallic Mineral Product Manufacturing",
+      "pay": null,
+      "ship": null,
+      "withheld": true
+     },
+     {
+      "emp": null,
+      "estab": 0,
+      "naics": "336",
+      "name": "Transportation Equipment Manufacturing",
+      "pay": null,
+      "ship": null,
+      "withheld": true
+     },
+     {
+      "emp": null,
+      "estab": 0,
+      "naics": "337",
+      "name": "Furniture and Related Product Manufacturing",
+      "pay": null,
+      "ship": null,
+      "withheld": true
+     },
+     {
+      "emp": null,
+      "estab": 0,
+      "naics": "339",
+      "name": "Miscellaneous Manufacturing",
+      "pay": null,
+      "ship": null,
+      "withheld": true
+     }
+    ],
+    "pay": 400808,
+    "ship": 4084010
+   },
+   "26021": {
+    "emp": 9781,
+    "estab": 271,
+    "industries": [
+     {
+      "emp": 1668,
+      "estab": 42,
+      "naics": "333",
+      "name": "Machinery Manufacturing",
+      "pay": 124271,
+      "ship": 480347,
+      "withheld": false
+     },
+     {
+      "emp": 1796,
+      "estab": 68,
+      "naics": "332",
+      "name": "Fabricated Metal Product Manufacturing",
+      "pay": 105244,
+      "ship": 470316,
+      "withheld": false
+     },
+     {
+      "emp": 1429,
+      "estab": 10,
+      "naics": "336",
+      "name": "Transportation Equipment Manufacturing",
+      "pay": 83077,
+      "ship": 451703,
+      "withheld": false
+     },
+     {
+      "emp": 1077,
+      "estab": 16,
+      "naics": "331",
+      "name": "Primary Metal Manufacturing",
+      "pay": 62830,
+      "ship": 435502,
+      "withheld": false
+     },
+     {
+      "emp": 859,
+      "estab": 17,
+      "naics": "326",
+      "name": "Plastics and Rubber Products Manufacturing",
+      "pay": 46271,
+      "ship": 206971,
+      "withheld": false
+     },
+     {
+      "emp": 379,
+      "estab": 11,
+      "naics": "327",
+      "name": "Nonmetallic Mineral Product Manufacturing",
+      "pay": 22722,
+      "ship": 137589,
+      "withheld": false
+     },
+     {
+      "emp": 151,
+      "estab": 6,
+      "naics": "322",
+      "name": "Paper Manufacturing",
+      "pay": 10809,
+      "ship": 106959,
+      "withheld": false
+     },
+     {
+      "emp": 399,
+      "estab": 13,
+      "naics": "323",
+      "name": "Printing and Related Support Activities",
+      "pay": 20930,
+      "ship": 89906,
+      "withheld": false
+     },
+     {
+      "emp": 264,
+      "estab": 13,
+      "naics": "311",
+      "name": "Food Manufacturing",
+      "pay": 11218,
+      "ship": 71172,
+      "withheld": false
+     },
+     {
+      "emp": 501,
+      "estab": 25,
+      "naics": "312",
+      "name": "Beverage and Tobacco Product Manufacturing",
+      "pay": 20648,
+      "ship": 53700,
+      "withheld": false
+     },
+     {
+      "emp": 164,
+      "estab": 5,
+      "naics": "325",
+      "name": "Chemical Manufacturing",
+      "pay": 9956,
+      "ship": 42363,
+      "withheld": false
+     },
+     {
+      "emp": 127,
+      "estab": 11,
+      "naics": "337",
+      "name": "Furniture and Related Product Manufacturing",
+      "pay": 6973,
+      "ship": 36525,
+      "withheld": false
+     },
+     {
+      "emp": 90,
+      "estab": 14,
+      "naics": "339",
+      "name": "Miscellaneous Manufacturing",
+      "pay": 3641,
+      "ship": 14574,
+      "withheld": false
+     },
+     {
+      "emp": 64,
+      "estab": 6,
+      "naics": "321",
+      "name": "Wood Product Manufacturing",
+      "pay": 0,
+      "ship": 13736,
+      "withheld": false
+     },
+     {
+      "emp": null,
+      "estab": 4,
+      "naics": "334",
+      "name": "Computer and Electronic Product Manufacturing",
+      "pay": null,
+      "ship": null,
+      "withheld": true
+     },
+     {
+      "emp": 28,
+      "estab": 3,
+      "naics": "335",
+      "name": "Electrical Equipment, Appliance, and Component Manufacturing",
+      "pay": 0,
+      "ship": null,
+      "withheld": true
+     }
+    ],
+    "pay": 591675,
+    "ship": 2805283
+   },
+   "26027": {
+    "emp": 2750,
+    "estab": 76,
+    "industries": [
+     {
+      "emp": 663,
+      "estab": 10,
+      "naics": "321",
+      "name": "Wood Product Manufacturing",
+      "pay": 33067,
+      "ship": 503405,
+      "withheld": false
+     },
+     {
+      "emp": 825,
+      "estab": 10,
+      "naics": "326",
+      "name": "Plastics and Rubber Products Manufacturing",
+      "pay": 36879,
+      "ship": 182482,
+      "withheld": false
+     },
+     {
+      "emp": 464,
+      "estab": 24,
+      "naics": "332",
+      "name": "Fabricated Metal Product Manufacturing",
+      "pay": 26237,
+      "ship": 116761,
+      "withheld": false
+     },
+     {
+      "emp": 127,
+      "estab": 6,
+      "naics": "325",
+      "name": "Chemical Manufacturing",
+      "pay": 9804,
+      "ship": 92396,
+      "withheld": false
+     },
+     {
+      "emp": 20,
+      "estab": 4,
+      "naics": "339",
+      "name": "Miscellaneous Manufacturing",
+      "pay": 700,
+      "ship": 1106,
+      "withheld": false
+     },
+     {
+      "emp": 341,
+      "estab": 4,
+      "naics": "331",
+      "name": "Primary Metal Manufacturing",
+      "pay": 16400,
+      "ship": null,
+      "withheld": true
+     },
+     {
+      "emp": 10,
+      "estab": 3,
+      "naics": "333",
+      "name": "Machinery Manufacturing",
+      "pay": 662,
+      "ship": null,
+      "withheld": true
+     }
+    ],
+    "pay": 139806,
+    "ship": 1180518
+   },
+   "26159": {
+    "emp": 3720,
+    "estab": 93,
+    "industries": [
+     {
+      "emp": 738,
+      "estab": 10,
+      "naics": "312",
+      "name": "Beverage and Tobacco Product Manufacturing",
+      "pay": 42298,
+      "ship": 342591,
+      "withheld": false
+     },
+     {
+      "emp": 514,
+      "estab": 8,
+      "naics": "325",
+      "name": "Chemical Manufacturing",
+      "pay": 31578,
+      "ship": 267664,
+      "withheld": false
+     },
+     {
+      "emp": 629,
+      "estab": 6,
+      "naics": "326",
+      "name": "Plastics and Rubber Products Manufacturing",
+      "pay": 28091,
+      "ship": 208992,
+      "withheld": false
+     },
+     {
+      "emp": 480,
+      "estab": 13,
+      "naics": "311",
+      "name": "Food Manufacturing",
+      "pay": 22332,
+      "ship": 171568,
+      "withheld": false
+     },
+     {
+      "emp": 589,
+      "estab": 11,
+      "naics": "333",
+      "name": "Machinery Manufacturing",
+      "pay": 38722,
+      "ship": 120893,
+      "withheld": false
+     },
+     {
+      "emp": 436,
+      "estab": 23,
+      "naics": "332",
+      "name": "Fabricated Metal Product Manufacturing",
+      "pay": 24448,
+      "ship": 82425,
+      "withheld": false
+     },
+     {
+      "emp": null,
+      "estab": 3,
+      "naics": "336",
+      "name": "Transportation Equipment Manufacturing",
+      "pay": null,
+      "ship": 25881,
+      "withheld": true
+     },
+     {
+      "emp": 23,
+      "estab": 3,
+      "naics": "327",
+      "name": "Nonmetallic Mineral Product Manufacturing",
+      "pay": 1551,
+      "ship": 4467,
+      "withheld": false
+     },
+     {
+      "emp": 71,
+      "estab": 6,
+      "naics": "339",
+      "name": "Miscellaneous Manufacturing",
+      "pay": 4381,
+      "ship": null,
+      "withheld": true
+     }
+    ],
+    "pay": 206823,
+    "ship": 1280229
+   }
+  },
+  "units": "pay and shipments in $1,000",
+  "us": {
+   "emp": 12171365,
+   "estab": 286626,
+   "pay": 812731156,
+   "ship": 7048663670
+  },
+  "year": 2022
+ },
+ "nonemployer": {
+  "counties": {
+   "18039": {
+    "estab": 535,
+    "rcpt": 31924
+   },
+   "18049": {
+    "estab": 31,
+    "rcpt": 2792
+   },
+   "18085": {
+    "estab": 194,
+    "rcpt": 8230
+   },
+   "18087": {
+    "estab": 517,
+    "rcpt": 41612
+   },
+   "18091": {
+    "estab": 106,
+    "rcpt": 6397
+   },
+   "18099": {
+    "estab": 105,
+    "rcpt": 7930
+   },
+   "18113": {
+    "estab": 93,
+    "rcpt": 7510
+   },
+   "18141": {
+    "estab": 270,
+    "rcpt": 12291
+   },
+   "18149": {
+    "estab": 23,
+    "rcpt": 1043
+   },
+   "18183": {
+    "estab": 74,
+    "rcpt": 4192
+   },
+   "26021": {
+    "estab": 186,
+    "rcpt": 11323
+   },
+   "26027": {
+    "estab": 66,
+    "rcpt": 3903
+   },
+   "26159": {
+    "estab": 112,
+    "rcpt": 8515
+   }
+  },
+  "units": "receipts in $1,000",
+  "year": 2024
+ },
+ "pulled": "2026-11-15",
+ "source": "U.S. Census Bureau via api.census.gov: Economic Census 2022, American Community Survey 5-year, Business Dynamics Statistics, Nonemployer Statistics"
+}

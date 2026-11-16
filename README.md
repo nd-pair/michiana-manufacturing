@@ -128,7 +128,8 @@ notice filed under a new owner's name is matched by hand in `data/warn_matches.t
 `data/warn.json`; Michigan publishes no table), and plants that filed with OSHA one year but not the
 next. A dead website is a lead, not proof; confirm each
 closure from a dated source before marking it. `scripts/check_coverage.py` compares the map with the Census Bureau's County Business Patterns
-(manufacturing establishments by county, size and industry; `audits/coverage-check.csv`).
+(manufacturing establishments by county, size and industry, and by ZIP code and size, sorted by the
+number of plants with 20 or more employees the map is missing; `audits/coverage-check.csv`).
 `scripts/check_consistency.py` checks the files against each other: coordinates outside the region's
 counties, two files at one address (also under two town names), with one name within 300 m, or with
 related names next door on one street, site headcounts above 5,000,
@@ -235,8 +236,8 @@ Without WebGL the map shows a notice and everything else still works. The page c
   Industry, foundation and state funding are not in this data.
 - **Roster size.** The roster shows the first 20 companies in the current sort, with buttons for
   100 or all.
-- **Workforce.** A panel with three views, all from the Bureau of Labor Statistics and sortable by
-  any column. *Specialization* lists every 3-digit manufacturing industry for the latest QCEW year
+- **Workforce.** A panel with four views, sortable by any column; the first three are from the
+  Bureau of Labor Statistics. *Specialization* lists every 3-digit manufacturing industry for the latest QCEW year
   with jobs, establishments, average pay against the U.S., the region's location quotient (its
   share of private jobs over the U.S. share) and the most concentrated county (`pull_qcew.py`).
   *Occupations* gives jobs, jobs per 1,000 and median pay for production, engineering and
@@ -244,7 +245,13 @@ Without WebGL the map shows a notice and everything else still works. The page c
   monthly manufacturing jobs per metro area (CES) and county unemployment rates (LAUS). The last
   two come from the BLS public API via `scripts/pull_bls.py` → `data/bls.json`; it works without a
   key (25 requests a day; one run uses about ten), and a free key stored as the repository secret
-  `BLS_API_KEY` raises the limit.
+  `BLS_API_KEY` raises the limit. *Counties* shows, per county, manufacturing plants, jobs, value
+  of shipments and the largest published industry (Economic Census 2022), residents who work in
+  manufacturing and their median earnings (ACS 5-year), plants opened and closed in the latest year
+  (Business Dynamics Statistics) and businesses without employees (Nonemployer Statistics), from
+  `scripts/pull_census.py` → `data/census.json`. The Census API works without a key at low volume;
+  the scripts use the repository secret `CENSUS_API_KEY` in GitHub Actions, or locally the file
+  `~/.config/census/api_key`. The key never goes into the repo.
 - **Patents.** `scripts/pull_patents.py` reads USPTO PatentsView. It needs a free API key
   (https://patentsview.org/apis/keyrequest) stored as the repository secret `PATENTSVIEW_API_KEY`;
   without it the step is skipped and the site shows no patent figures.
@@ -323,9 +330,9 @@ so commit only your source changes (`companies/`, `data/`, `site/`, `scripts/`) 
 
 ```
 companies/      one TOML file per company (edit these)
-data/           sectors, places, capabilities (edit these); county boundaries (Census; simplified for the map, detailed for placing plants), ZIP code centers and NAICS titles (Census), shorelines (Natural Earth); pulled datasets (federal, fda, qcew, bls, sbir, osha, warn)
+data/           sectors, places, capabilities (edit these); county boundaries (Census; simplified for the map, detailed for placing plants), ZIP code centers and NAICS titles (Census), shorelines (Natural Earth); pulled datasets (federal, fda, qcew, bls, census, sbir, osha, warn)
 site/           the pages: Notre Dame Web Theme chrome (partials/), page.html + app.js (map), about.html, brief.html + brief.js, app.css
-scripts/        review_llm.py (monthly news review), build.py, humanoid.py, opportunity.py, geocode.py, import_hifld.py, import_osha.py, import_sbir_firms.py, pull_warn.py, pull_federal.py, pull_sbir.py, pull_fda.py, pull_qcew.py, pull_bls.py, pull_workforce.py, pull_nd_research.py, pull_events.py, pull_patents.py, check_consistency.py, check_coverage.py, check_sites.py, check_closed.py, apply_checks.py, make_county_detail.py, make_zip_centers.py, make_naics_titles.py, make_naics_concordance.py, common.py
+scripts/        review_llm.py (monthly news review), build.py, humanoid.py, opportunity.py, geocode.py, import_hifld.py, import_osha.py, import_sbir_firms.py, pull_warn.py, pull_federal.py, pull_sbir.py, pull_fda.py, pull_qcew.py, pull_bls.py, pull_census.py, pull_workforce.py, pull_nd_research.py, pull_events.py, pull_patents.py, check_consistency.py, check_coverage.py, check_sites.py, check_closed.py, apply_checks.py, make_county_detail.py, make_zip_centers.py, make_naics_titles.py, make_naics_concordance.py, common.py
 docs/           the built site (generated; do not edit by hand)
 ```
 
@@ -338,6 +345,6 @@ Company descriptions, products and headcounts: the HIFLD General Manufacturing F
 dataset (U.S. DHS, public domain) for most entries, OSHA's Form 300A establishment data (U.S.
 Department of Labor) for plants with 20 or more employees, and the companies' own websites, public
 filings, press and business directories for the rest; headcounts are approximate and dated.
-Layoff and closing notices: Indiana Department of Workforce Development (WARN). Federal awards: USAspending.gov. SBIR/STTR: SBIR.gov. Device registrations: openFDA. Employment, pay, occupations and unemployment: BLS (QCEW, OEWS, CES, LAUS). Task traits: O*NET 31.0 (CC BY 4.0). Workforce age and turnover: Census LEHD QWI. Value added: BEA. County boundaries: U.S.
+Layoff and closing notices: Indiana Department of Workforce Development (WARN). Federal awards: USAspending.gov. SBIR/STTR: SBIR.gov. Device registrations: openFDA. Employment, pay, occupations and unemployment: BLS (QCEW, OEWS, CES, LAUS). Task traits: O*NET 31.0 (CC BY 4.0). Workforce age and turnover: Census LEHD QWI. Plants, shipments, residents' earnings, openings and closures, nonemployers: Census Bureau Economic Census, ACS, BDS and Nonemployer Statistics. Value added: BEA. County boundaries: U.S.
 Census Bureau cartographic boundary files. Shorelines: Natural Earth. Code: MIT license (see
 LICENSE); company data is factual public information.
