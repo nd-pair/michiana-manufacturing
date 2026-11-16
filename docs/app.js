@@ -20,7 +20,7 @@ function fmtEmp(c){if(!c.emp)return "unknown";const bits=[c.emp_year,c.emp_quali
 
 /* ---------- state, addressable through the URL hash ---------- */
 const st={sec:new Set(),tag:new Set(),cap:new Set(),fed:false,fda:false,rings:false,radius:0,sel:null,hot:null,q:"",open:new Set(),
-  sort:{sec:{key:"n",dir:-1},tag:{key:"n",dir:-1},cap:{key:"n",dir:-1},fed:{key:"e",dir:-1},roster:{key:"emp",dir:-1},ev:{key:"date",dir:-1},spec:{key:"lq",dir:-1},occ:{key:"emp",dir:-1},ue:{key:"rate",dir:-1},hum:{key:"cost",dir:-1},opp:{key:"impact",dir:-1},ndr:{key:"start",dir:-1}},ndrAll:false,wv:"spec",hum:null,hb:"related",rlim:20,rpage:0,
+  sort:{sec:{key:"n",dir:-1},tag:{key:"n",dir:-1},cap:{key:"n",dir:-1},fed:{key:"e",dir:-1},roster:{key:"emp",dir:-1},ev:{key:"date",dir:-1},spec:{key:"lq",dir:-1},occ:{key:"emp",dir:-1},cty:{key:"ship",dir:-1},ue:{key:"rate",dir:-1},hum:{key:"cost",dir:-1},opp:{key:"impact",dir:-1},ndr:{key:"start",dir:-1}},ndrAll:false,wv:"spec",hum:null,hb:"related",rlim:20,rpage:0,
   evKind:"all",evYear:null,evMore:0,qv:"county",qs:"abs",tab:"companies"};
 const TABS=["companies","occupations","outlook","humanoid"];
 function readHash(){st.sec.clear();st.tag.clear();st.cap.clear();st.fed=st.fda=st.rings=false;st.radius=0;st.sel=null;st.hum=null;st.tab="companies";
@@ -488,6 +488,33 @@ function renderWork(){const el=document.getElementById("work"),note=document.get
         {key:"us_pay",label:"U.S. pay",title:"average annual pay in the U.S.",num:true,cell:r=>usd(r.us_pay)},
         {key:"top_lq",label:"Most concentrated in",title:"county with the highest BLS location quotient",cell:r=>r.top_county?`${esc(r.top_county)} <small class="mm-mut">${r.top_lq}×</small>`:"–"}],S.industries)
       +`<p class="mm-wnote">Specialization is the industry's share of the region's private jobs divided by its share nationally; 1× (the tick) matches the U.S. Region-wide figures add the counties; BLS withholds cells that would reveal one employer, so marked job counts are lower bounds.</p>`;return}
+  if(st.wv==="cty"){const C=DATA.census||{},E=C.economic_census,A=C.acs,D=C.bds,N=C.nonemployer;if(!E){el.innerHTML=`<p class="mm-count">No Census data yet.</p>`;return}
+    const names=Object.fromEntries(Object.entries(DATA.qcew||{}).map(([f,q])=>[f,q.name])),fips=Object.keys(E.counties),dy=D?Object.keys(D.us).sort().pop():null;
+    const bil=v=>v==null?"–":v>=1e6?"$"+(v/1e6).toFixed(1)+" B":"$"+Math.round(v/1e3).toLocaleString()+" M";   /* v in $1,000 */
+    const rows=fips.map(f=>{const e=E.counties[f],a=(A&&A.counties[f])||{},d=D&&D.counties[f]&&D.counties[f][dy],n=N&&N.counties[f],top=e.industries.find(i=>i.ship!=null),wh=e.industries.filter(i=>i.withheld).length;
+      return {name:(names[f]||f).replace(", IN","").replace(", MI"," (MI)"),estab:e.estab,emp:e.emp,ship:e.ship,per:e.emp?1000*e.ship/e.emp:null,
+        top:top?top.name.replace(/ Manufacturing$/,"").replace(/ Product$/,""):null,topShare:top&&e.ship?top.ship/e.ship:null,wh,
+        workers:a.workers,median:a.median,moe:a.median_moe,opened:d?d[1]:null,closed:d?d[2]:null,net:d?d[1]-d[2]:null,ne:n?n.estab:null}});
+    const sum=k=>rows.reduce((t,r)=>t+(r[k]||0),0),R={estab:sum("estab"),emp:sum("emp"),ship:sum("ship"),ne:sum("ne"),opened:sum("opened"),closed:sum("closed")},U=E.us;
+    /* average share of manufacturing establishments that closed each year, last ten years, region against the U.S. */
+    const yrs=D?Object.keys(D.us).sort().slice(-10):[],rate=ser=>{let c=0,b=0;yrs.forEach(y=>{const p=ser[String(+y-1)],v=ser[y];if(p&&v){c+=v[2];b+=p[0]}});return b?100*c/b:null};
+    const regSer={};if(D)fips.forEach(f=>Object.entries(D.counties[f]||{}).forEach(([y,v])=>{const t=regSer[y]||(regSer[y]=[0,0,0]);v.forEach((x,i)=>t[i]+=x||0)}));
+    const rR=rate(regSer),rU=D?rate(D.us):null;
+    note.textContent=`Census Bureau: Economic Census ${E.year}${A?", ACS "+A.years:""}${D?", BDS "+dy:""}${N?", Nonemployer "+N.year:""}`;
+    el.innerHTML=`<p class="mm-fedsum">In ${E.year} the region's <b>${R.estab.toLocaleString()}</b> manufacturing plants employed <b>${R.emp.toLocaleString()}</b> people and shipped <b>${bil(R.ship)}</b> of goods: ${(100*R.ship/U.ship).toFixed(2)}% of U.S. manufacturing shipments with ${(100*R.emp/U.emp).toFixed(2)}% of its manufacturing jobs, or ${usd(1000*R.ship/R.emp)} a job against ${usd(1000*U.ship/U.emp)} nationally.`
+      +(D?` In ${dy}, ${R.opened} manufacturing establishments opened and ${R.closed} closed; over ${yrs[0]}–${dy} about <b>${rR.toFixed(1)}%</b> of the region's closed each year (U.S. ${rU.toFixed(1)}%).`:"")
+      +(N?` Another <b>${R.ne.toLocaleString()}</b> manufacturing businesses had no paid employees in ${N.year}.`:"")+`</p>`
+      +sortTable("cty",[{key:"name",label:"County",cell:r=>`<b>${esc(r.name)}</b>`},
+        {key:"estab",label:"Plants",title:"manufacturing establishments with paid employees, Economic Census",num:true,cell:r=>r.estab.toLocaleString()},
+        {key:"emp",label:"Jobs",num:true,cell:r=>r.emp==null?"–":r.emp.toLocaleString()},
+        {key:"ship",label:"Shipments",title:"value of shipments",num:true,cell:r=>bil(r.ship)},
+        {key:"per",label:"Per job",title:"value of shipments per job",num:true,cell:r=>usd(r.per)},
+        {key:"top",label:"Largest published industry",title:"3-digit industry with the largest published shipments",cell:r=>r.top?`${esc(r.top)} <small class="mm-mut">${Math.round(100*r.topShare)}%</small>`+(r.wh?` <span class="q" title="Census withholds ${r.wh} of this county's industries to protect individual companies; one of them may be larger">*</span>`:""):"–"},
+        {key:"workers",label:"Residents in mfg",title:"employed residents who work in manufacturing, ACS",num:true,cell:r=>r.workers==null?"–":r.workers.toLocaleString()},
+        {key:"median",label:"Median earnings",title:"median earnings of residents who work in manufacturing, ACS",num:true,cell:r=>r.median==null?"–":`<span title="± ${usd(r.moe)} (90% margin of error)">${usd(r.median)}</span>`},
+        {key:"net",label:`Opened / closed ${dy||""}`,title:"manufacturing establishments that opened and closed, BDS (sorted by the difference)",num:true,cell:r=>r.opened==null?"–":`${r.opened} / ${r.closed}`},
+        {key:"ne",label:"No employees",title:"manufacturing businesses without paid employees, Nonemployer Statistics",num:true,cell:r=>r.ne==null?"–":r.ne.toLocaleString()}],rows)
+      +`<p class="mm-wnote">Plants, jobs and shipments: Economic Census ${E.year}, counted where the plants are; it runs every five years. Residents and earnings: American Community Survey ${A?A.years:""}, counted where workers live, full- and part-time; the U.S. median is ${A?usd(A.us.median):"–"}. Hover an earnings figure for its margin of error. Opened and closed: Business Dynamics Statistics. No employees: Nonemployer Statistics ${N?N.year:""}, mostly one-person businesses. * Census withholds industry figures that would reveal one company, so the largest industry shown is the largest published one.</p>`;return}
   if(st.wv==="occ"){const O=B.occupations;if(!O){el.innerHTML=`<p class="mm-count">No occupation data yet.</p>`;return}
     const all=O.list.find(o=>o.code==="000000"),regAll=Object.values(all.metros).reduce((a,m)=>a+(m.emp||0),0),usAll=all.us.emp;
     const rows=O.list.filter(o=>o.code!=="000000"&&Object.keys(o.metros).length).map(o=>{const ms=Object.entries(o.metros),emp=ms.reduce((a,[,m])=>a+(m.emp||0),0),wm=ms.filter(([,m])=>m.emp&&m.median);
