@@ -173,7 +173,7 @@ Without WebGL the map shows a notice and everything else still works. The page c
   matches them by website domain and then by name, and writes `data/sbir.json`; awards appear in
   the detail panel and the CSV export. Local SBIR firms that are not yet in the map are listed in
   that file for review. The script also accepts a CSV exported by hand from sbir.gov/awards.
-- **Waste streams & critical materials.** A panel on the Companies tab with six views: metal in
+- **Materials & recovery.** Its own tab, with six views: metal in
   production waste by metal (EPA Toxics Release Inventory: how much is recycled, how much is not, and
   the largest unrecycled source), the largest unrecycled sources, metal-bearing hazardous waste (EPA
   RCRA Biennial Report), the critical materials companies likely work with (inferred from products
@@ -185,7 +185,8 @@ Without WebGL the map shows a notice and everything else still works. The page c
   also writes `audits/epa-unmatched.csv`, the EPA plants with no file on the map (including plants
   presumed closed that still report), noting any earlier check from `audits/epa-plant-check-*.csv`. Company
   cards show their reported metal waste, hazardous waste streams and likely critical materials; the
-  "Metal waste reported to EPA" chip filters the map.
+  "Metal waste reported to EPA" chip on the Companies tab filters the map. Company names in the tab open
+  their card on the map, and the "Likely materials" rows filter the map and roster.
 - **Recyclers.** The sector *Recycling & recovery* holds scrap yards, auto recyclers, secondary
   metal processors and plastics, paper, tire and e-waste recyclers. They are resource providers:
   shown on the map in their own color, with the materials they recover (`recovers`), but not counted

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Metal-bearing waste streams in the region, from two public EPA datasets (no key). Writes
-data/waste.json, shown in the Waste streams panel and on company cards.
+data/waste.json, shown in the Materials & recovery tab and on company cards.
 
     python3 scripts/pull_waste.py
     python3 scripts/pull_waste.py --rematch   # only match the saved plants to company files again

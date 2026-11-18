@@ -1,7 +1,7 @@
 # EPA plants (Toxics Release Inventory or RCRA Biennial Report) matched to a company file by hand, when
 # the street address or name EPA has differs from the file (scripts/pull_waste.py). One [[match]] per
 # EPA record: its ID (the TRI facility ID or the RCRA handler ID), the company file's id, and a note on
-# why they are the same plant. A match to a closed file is shown in the Waste streams panel as closed.
+# why they are the same plant. A match to a closed file is shown in the Materials & recovery tab as closed.
 
 [[match]]
 epa_id = "46526BNTLR910SE"

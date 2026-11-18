@@ -9,6 +9,7 @@
             <button type="button" role="tab" id="t-occupations" data-tab="occupations" aria-controls="tab-occupations" aria-selected="false" tabindex="-1">Occupations</button>
             <button type="button" role="tab" id="t-outlook" data-tab="outlook" aria-controls="tab-outlook" aria-selected="false" tabindex="-1">Physical AI outlook</button>
             <button type="button" role="tab" id="t-humanoid" data-tab="humanoid" aria-controls="tab-humanoid" aria-selected="false" tabindex="-1">Humanoid supply chain</button>
+            <button type="button" role="tab" id="t-materials" data-tab="materials" aria-controls="tab-materials" aria-selected="false" tabindex="-1">Materials &amp; recovery</button>
           </div>
           <div class="mm-tabpanel" id="tab-companies" role="tabpanel" aria-labelledby="t-companies">
           <div class="mm-layerbar" role="group" aria-label="Search, layers and filters">
@@ -57,9 +58,6 @@
             <div class="mm-panel"><div class="mm-ph"><h2>Federal footprint</h2><span class="mm-count" id="fedcount"></span></div><div class="mm-hist" id="federal"></div></div>
             <div class="mm-panel"><div class="mm-ph"><h2>Capabilities</h2><span class="mm-count">click to filter · gap = one or none</span></div><div class="mm-hist" id="caps"></div></div>
           </div>
-            <div class="mm-panel mm-work" id="wastep"><div class="mm-ph"><h2>Waste streams &amp; critical materials</h2><span class="mm-count" id="wastenote"></span></div>
-              <div class="mm-segbar"><div class="mm-seg" role="group" aria-label="Waste view"><button type="button" data-wsv="metal" aria-pressed="true">By metal</button><button type="button" data-wsv="src" aria-pressed="false">Largest sources</button><button type="button" data-wsv="haz" aria-pressed="false">Hazardous waste</button><button type="button" data-wsv="mat" aria-pressed="false">Likely materials</button><button type="button" data-wsv="rec" aria-pressed="false">Recyclers</button><button type="button" data-wsv="ash" aria-pressed="false">Coal ash</button></div></div>
-              <div class="mm-workbody" id="waste"></div></div>
             <div class="mm-panel"><div class="mm-ph"><h2>Timeline</h2><span class="mm-count" id="evcount"></span></div><div class="mm-evbar" id="evkinds"></div><div class="mm-years" id="evyears"></div><div class="mm-events" id="events"></div></div>
           </div>
           <div class="mm-tabpanel" id="tab-occupations" role="tabpanel" aria-labelledby="t-occupations" hidden>
@@ -81,6 +79,11 @@
           <div class="mm-panel mm-hum" id="humanoid"><div class="mm-ph"><h2>Humanoid supply chain</h2><span class="mm-count">which parts of a humanoid robot local companies could make</span></div>
             <div class="mm-segbar"><div class="mm-seg" role="group" aria-label="Count suppliers"><button type="button" data-hb="related" aria-pressed="true">Related capability</button><button type="button" data-hb="available" aria-pressed="false">Available now</button></div></div>
             <div class="mm-workbody" id="hum"></div><div class="mm-tip" id="htip"></div></div>
+          </div>
+          <div class="mm-tabpanel" id="tab-materials" role="tabpanel" aria-labelledby="t-materials" hidden>
+            <div class="mm-panel mm-work" id="wastep"><div class="mm-ph"><h2>Waste streams &amp; critical materials</h2><span class="mm-count" id="wastenote"></span></div>
+              <div class="mm-segbar"><div class="mm-seg" role="group" aria-label="Waste view"><button type="button" data-wsv="metal" aria-pressed="true">By metal</button><button type="button" data-wsv="src" aria-pressed="false">Largest sources</button><button type="button" data-wsv="haz" aria-pressed="false">Hazardous waste</button><button type="button" data-wsv="mat" aria-pressed="false">Likely materials</button><button type="button" data-wsv="rec" aria-pressed="false">Recyclers</button><button type="button" data-wsv="ash" aria-pressed="false">Coal ash</button></div></div>
+              <div class="mm-workbody" id="waste"></div></div>
           </div>
           <p class="mm-foot" id="foot"></p>
         </div>
