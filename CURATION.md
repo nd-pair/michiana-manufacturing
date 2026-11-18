@@ -50,6 +50,11 @@ reading of every rule: when in doubt, it records nothing.
 - An entry that should never have been on the map (a duplicate, a site outside the region, an
   office or warehouse that makes nothing, a business that does not exist) is marked `removed` with a
   `removed_reason`, not deleted. A company that existed and shut down is marked closed instead.
+- Recyclers are not removed as non-manufacturers: scrap yards, auto recyclers that dismantle and
+  scrap vehicles, secondary metal processors and plastics, paper, tire and e-waste recyclers go in
+  the sector `Recycling & recovery` with a `recovers` list. They are shown as resource providers and
+  left out of the manufacturer counts. Trash haulers, transfer stations and landfills are not
+  recyclers. A recycler needs a dated 2024-2026 source at its address, like any other new entry.
 - Companies are not removed for lack of news. Imported records that a verification check cannot
   confirm are presumed closed instead (see Closures).
 

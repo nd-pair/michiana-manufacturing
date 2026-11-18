@@ -1,0 +1,23 @@
+# PADNOS Buchanan Recycling Center
+# Added by hand as a recycler (resource provider) from public sources; see verified_note.
+
+name = "PADNOS Buchanan Recycling Center"
+kind = "company"
+city = "Buchanan"
+state = "MI"
+address = "15565 Walton Rd, Buchanan, MI 49107"
+lat = 41.83749
+lon = -86.34583
+website = "https://padnos.com/?p=953"
+verified = "2026-11-18"
+verified_note = "PADNOS's own location page lists this site with 2026 holiday closures; EPA inspected it in June 2026 (earlier names Falo Auto Parts and Padnos-Red Bud Recycling). Source: https://padnos.com/?p=953"
+
+sector = "Recycling & recovery"
+products = ["Scrap metal recycling", "Auto recycling & salvage"]
+recovers = ["ferrous scrap", "nonferrous scrap", "end-of-life vehicles", "catalytic converters", "electronics", "appliances", "lead-acid batteries"]
+naics = "423930"
+
+description = "Scrap and auto recycling yard of PADNOS."
+
+source = "Public sources: company websites, state agency lists (IDEM, Michigan EGLE), city records, EPA ECHO and local news"
+updated = "2026-11-18"

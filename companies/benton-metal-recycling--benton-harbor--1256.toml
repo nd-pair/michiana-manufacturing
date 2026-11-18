@@ -1,0 +1,23 @@
+# Benton Metal Recycling
+# Added by hand as a recycler (resource provider) from public sources; see verified_note.
+
+name = "Benton Metal Recycling"
+kind = "company"
+city = "Benton Harbor"
+state = "MI"
+address = "1256 Milton St, Benton Harbor, MI 49022"
+lat = 42.09514
+lon = -86.43805
+website = "https://bentonmetalrecycling.com"
+verified = "2026-11-18"
+verified_note = "Michigan EGLE's June 2023 air inspection report names the facility Benton Metal Recycling (formerly National Zinc Processors), and the company's website was updated in October 2025. Source: https://www.egle.state.mi.us/aps/downloads/SRN/B1501/B1501_SAR_20230627.pdf"
+
+sector = "Recycling & recovery"
+products = ["Scrap metal recycling"]
+recovers = ["ferrous scrap", "copper", "aluminum", "brass", "stainless steel", "nickel alloys", "titanium", "zinc", "lead", "batteries", "electric motors", "insulated wire"]
+naics = "423930"
+
+description = "Scrap yard buying ferrous and nonferrous metals, including nickel alloys and titanium; formerly National Zinc Processors."
+
+source = "Public sources: company websites, state agency lists (IDEM, Michigan EGLE), city records, EPA ECHO and local news"
+updated = "2026-11-18"

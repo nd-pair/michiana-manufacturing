@@ -96,12 +96,15 @@ def group_key(name):
     b = LEGAL.sub("", LEGAL.sub("", base_name(name))).lower()
     return re.sub(r"[^a-z0-9]+", " ", b).strip()
 
+RECYCLING = "Recycling & recovery"   # resource providers: on the map, not counted as manufacturers
+
 def is_manufacturer(c):
     """Whether a company file counts as a manufacturer in the site's counts. Investors, universities and
-    anchors never do, nor does anything in the "Capital & anchors" sector; `manufacturer = true/false` in the file wins; a NAICS 31-33 code counts; software and
+    anchors never do, nor does anything in the "Capital & anchors" or "Recycling & recovery" sectors (recyclers are counted
+    separately, as resource providers); `manufacturer = true/false` in the file wins; a NAICS 31-33 code counts; software and
     services firms and SBIR research firms with no evidence of production do not; other hand-written
     company entries do (they were added as manufacturers)."""
-    if c.get("kind", "company") != "company" or c.get("sector") == "Capital & anchors":
+    if c.get("kind", "company") != "company" or c.get("sector") in ("Capital & anchors", RECYCLING):
         return False
     if "manufacturer" in c:
         return bool(c["manufacturer"])
@@ -207,7 +210,7 @@ def main():
             "emp_quality": c.get("employees_quality") or headcount_quality(c),
             "hum_add": list(c.get("humanoid", [])), "hum_not": list(c.get("humanoid_not", [])),
             "hum_ev": c.get("humanoid_evidence", "inferred"), "hum_note": c.get("humanoid_note", ""),
-            "mfg": is_manufacturer(c), "occupant": c.get("osha_occupant", ""),
+            "mfg": is_manufacturer(c), "occupant": c.get("osha_occupant", ""), "recovers": list(c.get("recovers", [])),
             "unconf": (c.get("unconfirmed_reason") or "address unconfirmed") if c.get("unconfirmed") else "",
         })
     # spread companies that share one address in a small ring (in degrees)
@@ -255,12 +258,47 @@ def main():
     caps = load_toml(P("data", "capabilities.toml"))["capability"]
     for o in companies:
         text = " ".join(o["tags"] + [o["blurb"]]).lower()
-        o["caps"] = [k["name"] for k in caps if any(o["naics"].startswith(pfx) for pfx in k["naics"]) or any(kw in text for kw in k["keywords"])]
+        o["caps"] = [] if o["sector"] == RECYCLING else \
+            [k["name"] for k in caps if any(o["naics"].startswith(pfx) for pfx in k["naics"]) or any(kw in text for kw in k["keywords"])]
+    # metal-bearing waste streams (EPA TRI and RCRA via scripts/pull_waste.py) and the critical materials a
+    # company likely works with (inferred from products and NAICS, data/critical_materials.toml)
+    waste, crit = sidecar("waste.json"), load_toml(P("data", "critical_materials.toml"))
+    from import_hifld import titlecase
+    wtri, wrcra = {}, {}
+    for f in (waste.get("tri") or {}).get("facilities", []):
+        if f.get("company"):
+            m = wtri.setdefault(f["company"], {})
+            for k, v in f["metals"].items():
+                m[k] = [a + b for a, b in zip(m.get(k, [0, 0, 0, 0]), v)]
+    for h in (waste.get("rcra") or {}).get("handlers", []):
+        if h.get("company"):
+            wrcra.setdefault(h["company"], []).extend(h["streams"])
+    for o in companies:
+        t, r = wtri.get(o["id"]), sorted(wrcra.get(o["id"], []), key=lambda s: -s["tons"])[:5]
+        o["waste"] = {"tri": t or {}, "rcra": [{k: s[k] for k in ("description", "codes", "tons", "managed")} for s in r]} if t or r else None
+        text = " ".join(o["tags"] + [o["blurb"]]).lower()
+        o["mat"] = [] if o["kind"] != "company" or o["sector"] == RECYCLING else \
+            [m["group"] for m in crit["material"] if any(o["naics"].startswith(p) for p in m["naics"]) or any(k in text for k in m["keywords"])]
+    ids_shown = {o["id"] for o in companies}
+    co = lambda cid: cid if cid in ids_shown else None
+    waste_page = {
+        "triYear": (waste.get("tri") or {}).get("year"), "rcraCycle": (waste.get("rcra") or {}).get("cycle"), "pulled": waste.get("pulled", ""),
+        "usgs": crit["lists"]["usgs"], "doe": crit["lists"]["doe_energy"], "alias": crit["lists"].get("tri_alias", {}),
+        "usgsSource": crit["lists"]["usgs_source"], "doeSource": crit["lists"]["doe_source"],
+        "materials": [{k: m[k] for k in ("group", "materials", "note")} for m in crit["material"]],
+        "tri": [{"name": titlecase(f["name"]), "city": f["city"], "company": co(f.get("company")), "metals": f["metals"]}
+                for f in (waste.get("tri") or {}).get("facilities", [])],
+        "rcra": [{"name": titlecase(h["name"]), "city": h["city"], "company": co(h.get("company")), "tons": h["tons"],
+                  "streams": [{k: s[k] for k in ("description", "codes", "tons", "managed")} for s in h["streams"][:4]]}
+                 for h in (waste.get("rcra") or {}).get("handlers", [])],
+        "codes": (waste.get("rcra") or {}).get("codes", {}),
+        "sites": load_toml(P("data", "waste_sites.toml")).get("site", []) if os.path.exists(P("data", "waste_sites.toml")) else [],
+    }
     # humanoid supply chain: which components each company could supply (inferred, or set in its file)
     hspec = humanoid.load(); hids = {c["id"] for c in hspec["component"]}
     for o in companies:
         text = " ".join([o["name"]] + o["tags"] + [o["blurb"]])
-        inferred = [] if o["kind"] != "company" else humanoid.infer(hspec, text, o["naics"])
+        inferred = [] if o["kind"] != "company" or o["sector"] == RECYCLING else humanoid.infer(hspec, text, o["naics"])
         bad = [k for k in o["hum_add"] + o["hum_not"] if k not in hids]
         if bad:
             sys.exit("%s: unknown humanoid component(s) %s; see data/humanoid.toml" % (o["id"], ", ".join(bad)))
@@ -330,7 +368,7 @@ def main():
         "humanoid": {"groups": hspec["group"], "components": [{k: v for k, v in c.items() if not k.startswith("_") and k not in ("patterns", "exclude", "exclude_naics", "naics")} for c in hspec["component"]],
                      "funding": humanoid.funding(events), "progress": progress},
         "opportunity": opp, "ndResearch": {k: ndr.get(k) for k in ("awards", "pulled", "source", "scanned")} if ndr.get("awards") else {},
-        "qcewSpec": qcew.get("specialization", {}), "census": {k: census.get(k) for k in ("economic_census", "acs", "bds", "nonemployer", "pulled") if census.get(k)}, "bls": {k: bls.get(k) for k in ("occupations", "ces", "laus", "pulled") if bls.get(k)},
+        "qcewSpec": qcew.get("specialization", {}), "waste": waste_page, "census": {k: census.get(k) for k in ("economic_census", "acs", "bds", "nonemployer", "pulled") if census.get(k)}, "bls": {k: bls.get(k) for k in ("occupations", "ces", "laus", "pulled") if bls.get(k)},
         "sbirPulled": sbir.get("pulled", ""), "fdaPulled": fda.get("pulled", ""), "patentsPulled": patents.get("pulled", ""),
     }
     # a content hash in the asset URLs, so browsers and the Pages CDN never serve a stale script with a new page
@@ -387,7 +425,11 @@ def main():
     fresh = {"{{HIFLDALL}}": "{:,}".format(len(hifld_all)), "{{HIFLDOFF}}": "{:,}".format(len(hifld_off)), "{{HIFLDOFFPCT}}": pct(len(hifld_off), len(hifld_all)),
              "{{FRESHPCT}}": pct(n_osha + n_web, len(shown)), "{{OSHAPCT}}": pct(n_osha, len(shown)), "{{WEBPCT}}": pct(n_web, len(shown)),
              "{{UNCONFPCT}}": pct(n_unc, len(shown)), "{{OTHERPCT}}": pct(len(shown) - n_osha - n_web - n_unc, len(shown)), "{{SHOWN}}": "{:,}".format(len(shown))}
-    fill = {"{{SITES}}": "{:,}".format(n_mfg_sites), "{{OTHERS}}": "{:,}".format(len(companies) - n_mfg_sites), "{{COMPANIES}}": "{:,}".format(n_groups), "{{HIFLD}}": "{:,}".format(src_counts["hifld"]),
+    fill = {"{{SITES}}": "{:,}".format(n_mfg_sites), "{{OTHERS}}": "{:,}".format(len(companies) - n_mfg_sites - sum(1 for o in companies if o["sector"] == RECYCLING)),
+            "{{RECYCLERS}}": "{:,}".format(sum(1 for o in companies if o["sector"] == RECYCLING)),
+            "{{TRIYEAR}}": str((waste.get("tri") or {}).get("year", "–")), "{{RCRACYCLE}}": str((waste.get("rcra") or {}).get("cycle", "–")),
+            "{{WASTEPULLED}}": waste.get("pulled", "not yet pulled"),
+            "{{TRIN}}": str(len((waste.get("tri") or {}).get("facilities", []))), "{{RCRAN}}": str(len((waste.get("rcra") or {}).get("handlers", []))), "{{COMPANIES}}": "{:,}".format(n_groups), "{{HIFLD}}": "{:,}".format(src_counts["hifld"]),
             "{{SBIRFIRMS}}": str(src_counts["sbir"]), "{{OSHA}}": "{:,}".format(src_counts["osha"]), "{{OSHAYEAR}}": osha.get("latest_year", "–"),
             "{{OSHAMATCHED}}": "{:,}".format(sum(1 for o in companies if o["emp_note"].startswith("OSHA") and o["id"] not in osha_ids)), "{{WARNN}}": str(len(warn.get("notices", []))), "{{HAND}}": str(src_counts["hand"]), "{{BUILT}}": data["built"],
             "{{UEI}}": str(sum(1 for o in companies if o["uei"])), "{{FEDN}}": str(sum(1 for o in companies if o.get("federal"))),

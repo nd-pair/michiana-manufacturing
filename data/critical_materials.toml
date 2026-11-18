@@ -1,0 +1,109 @@
+# Critical materials: which materials the site flags as critical, and which products suggest that a
+# company works with them (and so may have production scrap of them). Edit freely.
+#
+# usgs: the U.S. Geological Survey's Final 2025 List of Critical Minerals, 60 minerals
+#   (Federal Register 90 FR 50494, November 7, 2025, https://www.govinfo.gov/content/pkg/FR-2025-11-07/html/2025-19813.htm).
+# doe: the Department of Energy's critical materials for energy (2023 list, 88 FR 51792, August 4, 2023,
+#   plus metallurgical coal in May 2025 and helium in October 2026, 91 FR 67558); the DOE list also
+#   includes every USGS critical mineral.
+
+[lists]
+usgs_source = "USGS Final 2025 List of Critical Minerals (90 FR 50494, Nov. 7, 2025)"
+doe_source = "DOE Critical Materials List (88 FR 51792, Aug. 4, 2023; amended 2025 and 2026)"
+usgs = ["aluminum", "antimony", "arsenic", "barite", "beryllium", "bismuth", "boron", "cerium", "cesium", "chromium",
+        "cobalt", "copper", "dysprosium", "erbium", "europium", "fluorspar", "gadolinium", "gallium", "germanium", "graphite",
+        "hafnium", "holmium", "indium", "iridium", "lanthanum", "lead", "lithium", "lutetium", "magnesium", "manganese",
+        "metallurgical coal", "neodymium", "nickel", "niobium", "palladium", "phosphate", "platinum", "potash", "praseodymium", "rhenium",
+        "rhodium", "rubidium", "ruthenium", "samarium", "scandium", "silicon", "silver", "tantalum", "tellurium", "terbium",
+        "thulium", "tin", "titanium", "tungsten", "uranium", "vanadium", "ytterbium", "yttrium", "zinc", "zirconium"]
+doe_energy = ["aluminum", "cobalt", "copper", "dysprosium", "electrical steel", "fluorine", "gallium", "iridium", "lithium", "magnesium",
+              "graphite", "neodymium", "nickel", "platinum", "praseodymium", "terbium", "silicon", "silicon carbide",
+              "metallurgical coal", "helium"]
+# EPA Toxics Release Inventory names that stand for a listed mineral
+tri_alias = { barium = "barite" }
+
+# Materials a company likely works with, inferred from its product tags and description (case-insensitive
+# keywords) or NAICS prefixes. Shown on the company card as "likely", never as a measured stream.
+[[material]]
+group = "Titanium and cobalt-chrome alloys"
+materials = ["titanium", "cobalt", "chromium"]
+keywords = ["titanium", "cobalt chrome", "cobalt-chrome", "cocr", "orthopedic implant", "orthopaedic implant", "joint replacement", "spinal implant", "trauma implant"]
+naics = ["339113"]
+note = "orthopedic implants are machined from titanium and cobalt-chrome alloys; the chips and grindings are high-value scrap"
+
+[[material]]
+group = "Cemented carbide"
+materials = ["tungsten", "cobalt"]
+keywords = ["carbide", "tungsten"]
+naics = ["333515"]
+note = "carbide inserts, end mills and dies are tungsten carbide bonded with cobalt; worn tools are recycled"
+
+[[material]]
+group = "Stainless and nickel alloys"
+materials = ["nickel", "chromium", "manganese"]
+keywords = ["stainless", "inconel", "nickel alloy", "superalloy", "hastelloy"]
+naics = []
+note = "stainless steel and nickel superalloys carry chromium, nickel and often molybdenum and cobalt"
+
+[[material]]
+group = "Plating and surface finishing"
+materials = ["nickel", "chromium", "zinc", "copper", "silver", "tin"]
+keywords = ["plating", "electroplat", "chrome plat", "nickel plat", "zinc plat", "electroless"]
+naics = ["332813"]
+note = "plating baths and their wastewater sludge (EPA codes F006, F019) carry the plated metals"
+
+[[material]]
+group = "Galvanizing"
+materials = ["zinc"]
+keywords = ["galvaniz"]
+naics = ["332812"]
+note = "hot-dip galvanizing leaves zinc dross, ash and skimmings"
+
+[[material]]
+group = "Copper and brass"
+materials = ["copper", "zinc", "lead", "tin"]
+keywords = ["copper", "brass", "bronze", "magnet wire", "busbar"]
+naics = ["3314"]
+note = "copper and copper-alloy turnings and wire scrap"
+
+[[material]]
+group = "Aluminum"
+materials = ["aluminum", "magnesium", "silicon"]
+keywords = ["aluminum", "aluminium"]
+naics = ["3313", "331523", "331524"]
+note = "aluminum turnings, dross and extrusion scrap"
+
+[[material]]
+group = "Steel and foundry"
+materials = ["manganese", "chromium", "vanadium", "zinc"]
+keywords = ["foundry", "iron casting", "steel mill", "electric arc furnace"]
+naics = ["3311", "3315"]
+note = "furnace dust, slag and sand carry manganese, zinc and alloying metals"
+
+[[material]]
+group = "Magnets"
+materials = ["neodymium", "praseodymium", "dysprosium", "terbium", "samarium", "cobalt"]
+keywords = ["permanent magnet", "neodymium", "rare earth", "rare-earth", "samarium cobalt"]
+naics = []
+note = "permanent magnets; check whether they are rare-earth or ferrite"
+
+[[material]]
+group = "Batteries"
+materials = ["lithium", "cobalt", "nickel", "manganese", "graphite", "lead"]
+keywords = ["lithium", "battery pack", "battery cell", "battery module", "lead-acid", "lead acid"]
+naics = ["335910"]
+note = "battery cells, packs and lead-acid batteries"
+
+[[material]]
+group = "Electronics"
+materials = ["copper", "tin", "silver", "palladium", "gallium", "tantalum"]
+keywords = ["circuit board", "pcb", "printed circuit", "electronic assembl", "semiconductor", "solder"]
+naics = ["3344"]
+note = "boards and assemblies carry copper, tin-silver solder, palladium and tantalum capacitors"
+
+[[material]]
+group = "Catalysts"
+materials = ["platinum", "palladium", "rhodium"]
+keywords = ["catalytic converter", "catalyst", "emission control", "exhaust aftertreatment"]
+naics = []
+note = "catalytic converters and catalysts carry platinum-group metals"

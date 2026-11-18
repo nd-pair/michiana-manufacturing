@@ -1,0 +1,23 @@
+# Kendallville Iron & Metal
+# Added by hand as a recycler (resource provider) from public sources; see verified_note.
+
+name = "Kendallville Iron & Metal"
+kind = "company"
+city = "Kendallville"
+state = "IN"
+address = "243 E Lisbon Rd, Kendallville, IN 46755"
+lat = 41.41130
+lon = -85.25779
+website = "https://www.kendallvilleiron.com"
+verified = "2026-11-18"
+verified_note = "The company's website (copyright 2026) gives 243 E. Lisbon Rd, Kendallville, and IDEM's October 2026 facility list includes its transfer station at the same address. Source: https://www.kendallvilleiron.com/"
+
+sector = "Recycling & recovery"
+products = ["Scrap metal recycling"]
+recovers = ["steel", "cast iron", "copper", "aluminum", "stainless steel", "junk vehicles", "appliances", "farm equipment"]
+naics = "423930"
+
+description = "Family-run scrap metal yard since 1964, with roll-off service."
+
+source = "Public sources: company websites, state agency lists (IDEM, Michigan EGLE), city records, EPA ECHO and local news"
+updated = "2026-11-18"

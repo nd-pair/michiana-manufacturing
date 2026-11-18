@@ -48,7 +48,7 @@ def main():
         if e and e > 5000 and c.get("employees_scope", "site") == "site":
             add(c, "headcount", "%d employees at one site" % e)
         n3 = str(c.get("naics", ""))[:3]
-        if n3 in SECTOR_BY_NAICS3 and c.get("sector") and c["sector"] != SECTOR_BY_NAICS3[n3] and c.get("kind", "company") == "company":
+        if n3 in SECTOR_BY_NAICS3 and c.get("sector") and c["sector"] not in (SECTOR_BY_NAICS3[n3], "Recycling & recovery") and c.get("kind", "company") == "company":
             add(c, "sector", "sector %s, but NAICS %s is usually %s" % (c["sector"], c.get("naics"), SECTOR_BY_NAICS3[n3]))
     for k, group in by_addr.items():
         if len(group) > 1:

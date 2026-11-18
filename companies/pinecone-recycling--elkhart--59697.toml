@@ -1,0 +1,22 @@
+# PineCone Recycling
+# Added by hand as a recycler (resource provider) from public sources; see verified_note.
+
+name = "PineCone Recycling"
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "59697 County Road 7, Elkhart, IN 46517"
+lat = 41.70337
+lon = -85.98560
+verified = "2026-11-18"
+verified_note = "IDEM's list of authorized solid waste facilities (October 1, 2026) lists Pine Cone Recycling LLC as a solid waste processing facility (20-014) here. Source: https://www.in.gov/dA/db17795f65/permits_issued_sw_facilities.pdf"
+
+sector = "Recycling & recovery"
+products = ["Wood waste recycling"]
+recovers = ["wood waste"]
+naics = "562920"
+
+description = "Wood waste processing site of Waste Connections."
+
+source = "Public sources: company websites, state agency lists (IDEM, Michigan EGLE), city records, EPA ECHO and local news"
+updated = "2026-11-18"

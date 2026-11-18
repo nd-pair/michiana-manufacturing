@@ -40,7 +40,7 @@ SECTOR_BY_NAICS3 = {
 }
 SMALL = {"and", "of", "the", "for", "in", "at", "by", "de", "&"}
 KEEP_UPPER = {"LLC", "LP", "LLP", "USA", "US", "RV", "CNC", "EDM", "PVC", "HVAC", "OEM", "II", "III", "IV", "AM", "PM", "HQ", "ATC", "CTS",
-              "MTI", "BCI", "GSM", "A&E", "R&D", "DMLS", "UV", "LED", "AC", "DC", "A/C", "NA", "T&M", "JM", "RVS", "CNC", "PCB", "ABS", "EPS", "LLC."}
+              "MTI", "BCI", "GSM", "A&E", "R&D", "DMLS", "UV", "LED", "AC", "DC", "A/C", "NA", "T&M", "JM", "RVS", "CNC", "PCB", "ABS", "EPS", "LLC.", "NIPSCO"}
 SUFFIX = {"INC": "Inc.", "INC.": "Inc.", "CORP": "Corp.", "CORP.": "Corp.", "CO": "Co.", "CO.": "Co.", "LTD": "Ltd.", "LTD.": "Ltd.", "MFG": "Mfg.", "MFG.": "Mfg.", "DIV": "Div.", "DIV.": "Div."}
 
 def titlecase(s):

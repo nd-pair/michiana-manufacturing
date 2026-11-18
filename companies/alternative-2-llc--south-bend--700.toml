@@ -1,0 +1,22 @@
+# Alternative 2 LLC
+# Added by hand as a recycler (resource provider) from public sources; see verified_note.
+
+name = "Alternative 2 LLC"
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "700 W Chippewa Ave, South Bend, IN 46614"
+lat = 41.63595
+lon = -86.26441
+verified = "2026-11-18"
+verified_note = "South Bend's Community Investment Committee minutes of May 11, 2026 record a conditional scrap and recycling license for Alternative 2 LLC at this address, still listed with conditions in the council's September 2026 license resolution. Source: https://docs.southbendin.gov/WebLink/0/edoc/410870/05-11-2026%20Community%20Investment%20Committee%20Minutes%20(signed).pdf"
+
+sector = "Recycling & recovery"
+products = ["Scrap metal recycling", "Auto recycling & salvage"]
+recovers = ["ferrous scrap", "nonferrous scrap", "end-of-life vehicles", "aluminum wheels"]
+naics = "423930"
+
+description = "Scrap metal and junk vehicle yard; directories list it as AT Metal Recycling."
+
+source = "Public sources: company websites, state agency lists (IDEM, Michigan EGLE), city records, EPA ECHO and local news"
+updated = "2026-11-18"

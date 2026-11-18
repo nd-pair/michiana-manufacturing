@@ -1,0 +1,23 @@
+# Lewis Salvage
+# Added by hand as a recycler (resource provider) from public sources; see verified_note.
+
+name = "Lewis Salvage"
+kind = "company"
+city = "Warsaw"
+state = "IN"
+address = "1961 White Industrial Dr, Warsaw, IN 46580"
+lat = 41.23691
+lon = -85.88888
+website = "https://www.lewis-salvage.com"
+verified = "2026-11-18"
+verified_note = "The company's website (copyright 2025) gives 1961 White Industrial Drive, Warsaw, and a November 2025 trade profile describes its orthopedic titanium and cobalt recycling. Source: https://www.recyclingproductnews.com/article/43882/four-generations-of-scrap-expertise-drives-lewis-salvages-innovative-approach-to-orthopedic-recycling"
+
+sector = "Recycling & recovery"
+products = ["Scrap metal recycling", "Orthopedic implant scrap recycling", "Electronics recycling"]
+recovers = ["ferrous scrap", "nonferrous scrap", "titanium", "cobalt-chrome", "stainless steel", "electronics", "medical-device plastics", "cardboard"]
+naics = "423930"
+
+description = "Scrap metal recycler and Warsaw's main buyer of orthopedic implant scrap (titanium, cobalt-chrome and stainless steel); also recycles electronics and medical-device plastics."
+
+source = "Public sources: company websites, state agency lists (IDEM, Michigan EGLE), city records, EPA ECHO and local news"
+updated = "2026-11-18"

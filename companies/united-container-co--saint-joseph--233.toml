@@ -12,8 +12,8 @@ website = "https://unitedcontainer.com"
 verified_note = "unitedcontainer.com (copyright 2026) lists a St. Joseph, Michigan location first and BBB gives United Container Company at 233 Hawthorne Ave, with a job posting under Southshore Companies/United Container Co. Source: https://unitedcontainer.com"
 verified = "2026-11-13"
 
-sector = "Materials & composites"
-products = ["Plastics Bag Manufacturing"]
+sector = "Recycling & recovery"
+products = ["Used and surplus corrugated boxes", "Cardboard recycling"]
 naics = "326111"
 
 employees = 32
@@ -22,7 +22,8 @@ employees_year = 2025
 employees_quality = "reported"
 employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025 (filed under NAICS 424130, cardboard products merchant wholesalers)"
 
-description = "Plastic Bags & Corrugated Boxes. NAICS 326111: plastics bag manufacturing."
+description = "Buys used corrugated boxes from businesses for reuse, and sells new, used and surplus corrugated and baled cardboard."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
-updated = "2026-11-11"
+updated = "2026-11-18"
+recovers = ["used corrugated boxes", "baled cardboard"]

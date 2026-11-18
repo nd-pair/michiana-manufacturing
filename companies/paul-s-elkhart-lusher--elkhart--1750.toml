@@ -8,13 +8,11 @@ state = "IN"
 address = "1750 W Lusher, Elkhart, IN 46517"
 lat = 41.66704
 lon = -85.99583
-removed_reason = "not a manufacturer: a self-service auto salvage yard; its OSHA filing uses a metal-container manufacturing code (NAICS 332439), found by the November 2026 review"
-removed = "2026-11-14"
 osha_id = "1440686"
 
-sector = "Metal"
-products = ["Containers, light gauge metal (except cans), manufacturing"]
-naics = "332439"
+sector = "Recycling & recovery"
+products = ["Auto recycling & salvage", "Scrap metal recycling"]
+naics = "423140"
 
 employees = 6
 employees_scope = "site"
@@ -23,7 +21,8 @@ employees_quality = "reported"
 employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 parent = "Paul's Auto Yard"
-description = "NAICS 332439: containers, light gauge metal (except cans), manufacturing."
+description = "Self-service auto salvage and scrap metal yard of Paul's Auto Yard."
 
 source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
-updated = "2026-11-13"
+updated = "2026-11-18"
+recovers = ["end-of-life vehicles", "ferrous scrap", "nonferrous scrap"]

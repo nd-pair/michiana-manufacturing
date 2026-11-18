@@ -10,8 +10,8 @@ lat = 41.44179
 lon = -85.22934
 osha_id = "930536"
 
-sector = "Metal"
-products = ["Refining aluminum, secondary"]
+sector = "Recycling & recovery"
+products = ["Aluminum recycling (secondary smelting)"]
 naics = "331314"
 
 employees = 31
@@ -20,7 +20,8 @@ employees_year = 2025
 employees_quality = "reported"
 employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
-description = "NAICS 331314: refining aluminum, secondary."
+description = "Secondary aluminum smelter: dries and melts all grades of aluminum scrap and casts sows."
 
 source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
-updated = "2026-11-13"
+updated = "2026-11-18"
+recovers = ["aluminum scrap", "furnace skim"]

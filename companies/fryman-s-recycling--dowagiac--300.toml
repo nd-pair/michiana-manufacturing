@@ -10,8 +10,8 @@ lat = 41.98692
 lon = -86.10226
 osha_id = "917438"
 
-sector = "Materials & composites"
-products = ["Plastics resins compounding from recycled materials"]
+sector = "Recycling & recovery"
+products = ["PVC recycling (grinding and pulverizing)"]
 naics = "325991"
 
 employees = 35
@@ -21,7 +21,8 @@ employees_quality = "reported"
 employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
 parent = "AZEK"
-description = "NAICS 325991: plastics resins compounding from recycled materials."
+description = "Collects, grinds and pulverizes PVC and vinyl scrap; part of Return Polymers."
 
 source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
-updated = "2026-11-13"
+updated = "2026-11-18"
+recovers = ["PVC", "vinyl siding", "vinyl window profiles"]

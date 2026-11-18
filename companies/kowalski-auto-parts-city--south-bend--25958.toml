@@ -1,0 +1,22 @@
+# Kowalski Auto Parts City
+# Added by hand as a recycler (resource provider) from public sources; see verified_note.
+
+name = "Kowalski Auto Parts City"
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "25958 State Road 2, South Bend, IN 46619"
+lat = 41.67178
+lon = -86.37075
+verified = "2026-11-18"
+verified_note = "IDEM lists Kowalski Auto Parts City as an Indiana Clean Yard for 2024-2028 (press release April 19, 2024). Source: https://www.in.gov/idem/partnerships/indiana-clean-yards"
+
+sector = "Recycling & recovery"
+products = ["Auto recycling & salvage"]
+recovers = ["end-of-life vehicles", "used auto parts"]
+naics = "423140"
+
+description = "Auto recycler in business since 1946."
+
+source = "Public sources: company websites, state agency lists (IDEM, Michigan EGLE), city records, EPA ECHO and local news"
+updated = "2026-11-18"

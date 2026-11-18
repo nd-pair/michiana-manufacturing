@@ -1,0 +1,23 @@
+# CT Polymers
+# Added by hand as a recycler (resource provider) from public sources; see verified_note.
+
+name = "CT Polymers"
+kind = "company"
+city = "Bourbon"
+state = "IN"
+address = "12340 Elm Rd, Bourbon, IN 46504"
+lat = 41.29811
+lon = -86.13510
+website = "https://www.ctpolymers.com"
+verified = "2026-11-18"
+verified_note = "The company's website (copyright 2026) lists its Indiana plant at 12340 Elm Rd, Bourbon, and it advertised an operator job there in April 2026; it bought the former OmniSource building in 2021. Source: https://www.ctpolymers.com/"
+
+sector = "Recycling & recovery"
+products = ["Plastics recycling (regrind and repelletized resin)"]
+recovers = ["rigid plastics", "plastic film", "regrind and repelletized resin"]
+naics = "423930"
+
+description = "Plastics recycler: pulverizing, repelletizing and toll compounding of post-industrial plastics."
+
+source = "Public sources: company websites, state agency lists (IDEM, Michigan EGLE), city records, EPA ECHO and local news"
+updated = "2026-11-18"

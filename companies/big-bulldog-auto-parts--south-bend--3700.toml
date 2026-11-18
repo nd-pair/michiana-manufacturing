@@ -1,0 +1,23 @@
+# Big Bulldog Auto Parts
+# Added by hand as a recycler (resource provider) from public sources; see verified_note.
+
+name = "Big Bulldog Auto Parts"
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "3700 S Gertrude St, South Bend, IN 46614"
+lat = 41.64279
+lon = -86.27293
+website = "https://bulldogautorecycling.com"
+verified = "2026-11-18"
+verified_note = "South Bend's Community Investment Committee minutes of May 11, 2026 record a scrap and junk dealer license for this yard. Source: https://docs.southbendin.gov/WebLink/0/edoc/410870/05-11-2026%20Community%20Investment%20Committee%20Minutes%20(signed).pdf"
+
+sector = "Recycling & recovery"
+products = ["Auto recycling & salvage"]
+recovers = ["end-of-life vehicles", "used auto parts"]
+naics = "423140"
+
+description = "Auto salvage yard, mainly GM trucks and diesel engines."
+
+source = "Public sources: company websites, state agency lists (IDEM, Michigan EGLE), city records, EPA ECHO and local news"
+updated = "2026-11-18"

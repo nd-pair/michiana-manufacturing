@@ -1,0 +1,23 @@
+# Tri-Power Recycling
+# Added by hand as a recycler (resource provider) from public sources; see verified_note.
+
+name = "Tri-Power Recycling"
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "1240 Anderson St, Elkhart, IN 46514"
+lat = 41.69829
+lon = -86.00010
+website = "https://tri-powerrecycling.com"
+verified = "2026-11-18"
+verified_note = "A May 2026 article by an Elkhart RV parts supplier describes its recycling partnership with Tri-Power Recycling at 1240 Anderson St. Source: https://elkhartrvparts.com/blogs/news/giving-packaging-a-second-life-elkhart-rv-parts-partners-with-tri-power-recycling"
+
+sector = "Recycling & recovery"
+products = ["Cardboard, plastics and EPS foam recycling"]
+recovers = ["cardboard", "paper", "EPS foam", "plastic film", "rigid plastics", "wood"]
+naics = "423930"
+
+description = "Recycles cardboard, plastics, EPS foam and wood, much of it packaging from the RV industry, on an 8-acre site in Elkhart since 2010."
+
+source = "Public sources: company websites, state agency lists (IDEM, Michigan EGLE), city records, EPA ECHO and local news"
+updated = "2026-11-18"

@@ -1,0 +1,23 @@
+# OmniSource New Carlisle
+# Added by hand as a recycler (resource provider) from public sources; see verified_note.
+
+name = "OmniSource New Carlisle"
+kind = "company"
+city = "New Carlisle"
+state = "IN"
+address = "54450 Smilax Rd, New Carlisle, IN 46552"
+lat = 41.70182
+lon = -86.44788
+website = "https://www.omnisource.com"
+verified = "2026-11-18"
+verified_note = "ABC57 reported a fire in a scrap pile at OmniSource, 54450 Smilax Rd, on July 7, 2026, and OmniSource posts production jobs at New Carlisle. Source: https://www.abc57.com/news/fire-reported-at-omnisource-in-new-carlisle"
+
+sector = "Recycling & recovery"
+products = ["Scrap metal recycling"]
+recovers = ["ferrous scrap", "shredded auto scrap"]
+naics = "423930"
+
+description = "Ferrous scrap processing yard of OmniSource (Steel Dynamics); the site was earlier an auto-shredder yard."
+
+source = "Public sources: company websites, state agency lists (IDEM, Michigan EGLE), city records, EPA ECHO and local news"
+updated = "2026-11-18"

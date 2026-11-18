@@ -1,0 +1,23 @@
+# PADNOS Dowagiac Recycling Center
+# Added by hand as a recycler (resource provider) from public sources; see verified_note.
+
+name = "PADNOS Dowagiac Recycling Center"
+kind = "company"
+city = "Dowagiac"
+state = "MI"
+address = "30750 Edwards St, Dowagiac, MI 49047"
+lat = 41.98516
+lon = -86.09950
+website = "https://padnos.com/?p=946"
+verified = "2026-11-18"
+verified_note = "PADNOS's own location page lists this site with 2026 holiday closures, and PADNOS advertised a yard job here in April 2026. Source: https://padnos.com/?p=946"
+
+sector = "Recycling & recovery"
+products = ["Scrap metal recycling"]
+recovers = ["ferrous scrap", "nonferrous scrap", "junk cars", "electronics"]
+naics = "423930"
+
+description = "Scrap yard of PADNOS, at the former Franklin & Son site."
+
+source = "Public sources: company websites, state agency lists (IDEM, Michigan EGLE), city records, EPA ECHO and local news"
+updated = "2026-11-18"

@@ -1,0 +1,23 @@
+# OmniSource South Bend
+# Added by hand as a recycler (resource provider) from public sources; see verified_note.
+
+name = "OmniSource South Bend"
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "1305 Prairie Ave, South Bend, IN 46613"
+lat = 41.66056
+lon = -86.26326
+website = "https://www.omnisource.com"
+verified = "2026-11-18"
+verified_note = "OmniSource advertised a plant manager (2025) and a nonferrous buyer for the yard at 1305 Prairie Ave, and the city's scrap metal license records list OmniSource here. Source: https://careers-omnisource.icims.com/jobs/7443/1st-shift-non-ferrous-buyer/job"
+
+sector = "Recycling & recovery"
+products = ["Scrap metal recycling"]
+recovers = ["ferrous scrap", "nonferrous scrap", "copper", "aluminum", "brass", "insulated wire", "stainless steel"]
+naics = "423930"
+
+description = "Scrap metal yard of OmniSource (Steel Dynamics), at the former South Bend Scrap & Processing site."
+
+source = "Public sources: company websites, state agency lists (IDEM, Michigan EGLE), city records, EPA ECHO and local news"
+updated = "2026-11-18"

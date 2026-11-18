@@ -1,0 +1,22 @@
+# Entech Inc.
+# Added by hand as a recycler (resource provider) from public sources; see verified_note.
+
+name = "Entech Inc."
+kind = "company"
+city = "Middlebury"
+state = "IN"
+address = "10440 County Road 2, Middlebury, IN 46540"
+lat = 41.75503
+lon = -85.66934
+verified = "2026-11-18"
+verified_note = "IDEM's list of authorized solid waste facilities (October 1, 2026) registers Entech at 10440 CR 2 as a waste tire processor, storage site and transporter. Source: https://www.in.gov/dA/db17795f65/permits_issued_sw_facilities.pdf"
+
+sector = "Recycling & recovery"
+products = ["Tire recycling", "Crumb rubber"]
+recovers = ["scrap tires", "crumb rubber", "micronized rubber powder"]
+naics = "423930"
+
+description = "Scrap-tire processor making crumb rubber, micronized rubber powder and rubber products. In the 2024 Toxics Release Inventory it reported zinc (from tire rubber) in waste it disposed of."
+
+source = "Public sources: company websites, state agency lists (IDEM, Michigan EGLE), city records, EPA ECHO and local news"
+updated = "2026-11-18"

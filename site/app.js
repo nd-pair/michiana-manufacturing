@@ -8,6 +8,7 @@ const TAGS=[...new Set(C.flatMap(c=>c.tags))].sort((a,b)=>a.localeCompare(b));
 /* multi-site companies: c.group is shared by all plants of one company; c.parent is its display name */
 const GROUPS={};for(const c of C)(GROUPS[c.group]=GROUPS[c.group]||{id:c.group,name:c.parent||c.name,sites:[]}).sites.push(c);
 const groupOf=c=>GROUPS[c.group];
+const RECYC="Recycling & recovery";   /* recyclers: resource providers, on the map but not counted as manufacturers */
 const nGroups=list=>new Set(list.filter(c=>c.mfg).map(c=>c.group)).size;   /* counts manufacturers only: R&D, software, investors and universities are on the map but not counted */
 const nOrgs=list=>new Set(list.map(c=>c.group)).size;   /* every organization shown: for the sector, product and capability lists, where software firms, investors and anchors have their own rows */
 const reduced=matchMedia("(prefers-reduced-motion: reduce)").matches;
@@ -19,18 +20,18 @@ const shortYear=y=>y?"’"+String(y).slice(2):"";
 function fmtEmp(c){if(!c.emp)return "unknown";const bits=[c.emp_year,c.emp_quality,c.emp_scope==="company"?"company-wide":""].filter(Boolean);return (c.emp_quality==="estimate"?"about ":"")+c.emp.toLocaleString()+(bits.length?" ("+bits.join(", ")+")":"")}
 
 /* ---------- state, addressable through the URL hash ---------- */
-const st={sec:new Set(),tag:new Set(),cap:new Set(),fed:false,fda:false,rings:false,radius:0,sel:null,hot:null,q:"",open:new Set(),
-  sort:{sec:{key:"n",dir:-1},tag:{key:"n",dir:-1},cap:{key:"n",dir:-1},fed:{key:"e",dir:-1},roster:{key:"emp",dir:-1},ev:{key:"date",dir:-1},spec:{key:"lq",dir:-1},occ:{key:"emp",dir:-1},cty:{key:"ship",dir:-1},ue:{key:"rate",dir:-1},hum:{key:"cost",dir:-1},opp:{key:"impact",dir:-1},ndr:{key:"start",dir:-1}},ndrAll:false,wv:"spec",hum:null,hb:"related",rlim:20,rpage:0,
+const st={sec:new Set(),tag:new Set(),cap:new Set(),mat:new Set(),fed:false,fda:false,wst:false,wsv:"metal",rings:false,radius:0,sel:null,hot:null,q:"",open:new Set(),
+  sort:{sec:{key:"n",dir:-1},tag:{key:"n",dir:-1},cap:{key:"n",dir:-1},fed:{key:"e",dir:-1},roster:{key:"emp",dir:-1},ev:{key:"date",dir:-1},spec:{key:"lq",dir:-1},occ:{key:"emp",dir:-1},cty:{key:"ship",dir:-1},wm:{key:"notrec",dir:-1},wsrc:{key:"notrec",dir:-1},whz:{key:"tons",dir:-1},wrec:{key:"name",dir:1},ue:{key:"rate",dir:-1},hum:{key:"cost",dir:-1},opp:{key:"impact",dir:-1},mat:{key:"n",dir:-1},ndr:{key:"start",dir:-1}},ndrAll:false,wv:"spec",hum:null,hb:"related",rlim:20,rpage:0,
   evKind:"all",evYear:null,evMore:0,qv:"county",qs:"abs",tab:"companies"};
 const TABS=["companies","occupations","outlook","humanoid"];
-function readHash(){st.sec.clear();st.tag.clear();st.cap.clear();st.fed=st.fda=st.rings=false;st.radius=0;st.sel=null;st.hum=null;st.tab="companies";
+function readHash(){st.sec.clear();st.tag.clear();st.cap.clear();st.mat.clear();st.fed=st.fda=st.wst=st.rings=false;st.radius=0;st.sel=null;st.hum=null;st.tab="companies";
   try{const raw=location.hash.slice(1),h=decodeURIComponent(raw);if(h&&byId[h]){st.sel=h;return}
     for(const kv of raw.split("&")){const i=kv.indexOf("=");if(i<0)continue;const k=kv.slice(0,i),v=decodeURIComponent(kv.slice(i+1));if(!v)continue;const vals=kv.slice(i+1).split("|").map(decodeURIComponent);
-      if(k==="sec")vals.forEach(x=>st.sec.add(x));else if(k==="tag")vals.forEach(x=>st.tag.add(x));else if(k==="cap")vals.forEach(x=>st.cap.add(x));
+      if(k==="sec")vals.forEach(x=>st.sec.add(x));else if(k==="tag")vals.forEach(x=>st.tag.add(x));else if(k==="cap")vals.forEach(x=>st.cap.add(x));else if(k==="mat")vals.forEach(x=>st.mat.add(x));else if(k==="waste")st.wst=v==="1";
       else if(k==="fed")st.fed=v==="1";else if(k==="fda")st.fda=v==="1";else if(k==="rings")st.rings=v==="1";
       else if(k==="r")st.radius=+v||0;else if(k==="hum"&&/^[gk]:[a-z]+$/.test(v))st.hum=v;else if(k==="sel"&&byId[v])st.sel=v;else if(k==="tab"){const t=v==="readiness"?"outlook":v;if(TABS.includes(t))st.tab=t}}}catch(e){}}
 const enc=set=>[...set].map(encodeURIComponent).join("|");
-function hashState(withTab=true){const p=[];if(withTab&&st.tab!=="companies")p.push("tab="+st.tab);if(st.sec.size)p.push("sec="+enc(st.sec));if(st.tag.size)p.push("tag="+enc(st.tag));if(st.cap.size)p.push("cap="+enc(st.cap));
+function hashState(withTab=true){const p=[];if(withTab&&st.tab!=="companies")p.push("tab="+st.tab);if(st.sec.size)p.push("sec="+enc(st.sec));if(st.tag.size)p.push("tag="+enc(st.tag));if(st.cap.size)p.push("cap="+enc(st.cap));if(st.mat.size)p.push("mat="+enc(st.mat));if(st.wst)p.push("waste=1");
   if(st.fed)p.push("fed=1");if(st.fda)p.push("fda=1");if(st.rings)p.push("rings=1");if(st.radius)p.push("r="+st.radius);if(st.hum)p.push("hum="+st.hum);if(st.sel)p.push("sel="+st.sel);
   return p.length?"#"+p.join("&"):""}
 function updateHash(){try{history.replaceState(null,"",hashState()||location.pathname)}catch(e){}}
@@ -41,11 +42,11 @@ const RAD=Math.PI/180;
 function km(aLat,aLon,bLat,bLon){const dLa=(bLat-aLat)*RAD,dLo=(bLon-aLon)*RAD;const s=Math.sin(dLa/2)**2+Math.cos(aLat*RAD)*Math.cos(bLat*RAD)*Math.sin(dLo/2)**2;return 12742*Math.asin(Math.sqrt(s))}
 const center=()=>{const c=st.sel&&byId[st.sel];return c?{lat:c.lat,lon:c.lon,name:c.name}:{lat:DATA.landmark.lat,lon:DATA.landmark.lon,name:"the campus"}};
 const matchSec=c=>!st.sec.size||st.sec.has(c.sector), matchTag=c=>!st.tag.size||c.tags.some(t=>st.tag.has(t)), matchCap=c=>!st.cap.size||c.caps.some(k=>st.cap.has(k));
-const matchFed=c=>!st.fed||!!c.federal, matchFda=c=>!st.fda||!!c.fda;
+const matchFed=c=>!st.fed||!!c.federal, matchFda=c=>!st.fda||!!c.fda, matchWaste=c=>!st.wst||!!c.waste, matchMat=c=>!st.mat.size||c.mat.some(k=>st.mat.has(k));
 let _ctr=center();const matchRad=c=>!st.radius||km(_ctr.lat,_ctr.lon,c.lat,c.lon)<=st.radius;
 const HUM=DATA.humanoid||{groups:[],components:[],funding:{},progress:{}},HCOMP=Object.fromEntries(HUM.components.map(c=>[c.id,c])),HGROUP=Object.fromEntries(HUM.groups.map(g=>[g.id,g]));
 const matchHum=c=>{if(!st.hum)return true;const [t,k]=st.hum.split(":");return t==="g"?c.hum.some(x=>HCOMP[x]&&HCOMP[x].group===k):c.hum.includes(k)};
-const visibleExcept=skip=>c=>matchHum(c)&&(skip==="sec"||matchSec(c))&&(skip==="tag"||matchTag(c))&&(skip==="cap"||matchCap(c))&&matchFed(c)&&matchFda(c)&&matchRad(c);
+const visibleExcept=skip=>c=>matchHum(c)&&(skip==="sec"||matchSec(c))&&(skip==="tag"||matchTag(c))&&(skip==="cap"||matchCap(c))&&(skip==="mat"||matchMat(c))&&matchFed(c)&&matchFda(c)&&matchWaste(c)&&matchRad(c);
 const visible=visibleExcept("");
 const hotMatch=c=>st.hot&&(st.hot.sec?c.sector===st.hot.sec:st.hot.cap?c.caps.includes(st.hot.cap):c.tags.includes(st.hot.tag));
 
@@ -327,6 +328,50 @@ function renderCaps(){const base=C.filter(visibleExcept("cap"));
   const rows=DATA.capabilities.map(k=>{const l=base.filter(c=>c.caps.includes(k));const big=l.slice().sort((a,b)=>(b.emp||0)-(a.emp||0))[0];return {label:k,n:nOrgs(l),e:empSum(l),big}}).sort(sorter("cap"));
   const max=Math.max(1,...rows.map(x=>x.n)),emax=Math.max(1,...rows.map(x=>x.e));
   document.getElementById("caps").innerHTML=HH("cap",SORTCOLS,"process capability · largest site")+rows.map(({label:k,n,e,big})=>bar(n<=1?"gap":"",esc(k)+(n<=1?' <span class="g">gap</span>':"")+(big?` <span class="mm-count">· ${esc(groupOf(big).name)}</span>`:""),n,max,e,emax,st.cap.has(k),`data-cap="${esc(k)}"`)).join("")}
+/* ---------- waste streams and critical materials: EPA TRI and RCRA (region-wide), inferred materials, recyclers, coal ash ---------- */
+const WS=DATA.waste||{tri:[],rcra:[],materials:[],usgs:[],doe:[],alias:{},codes:{},sites:[]};
+const critOf=m=>{const k=(WS.alias[m.toLowerCase()]||m.toLowerCase());return WS.usgs.includes(k)?(WS.doe.includes(k)?"USGS, DOE":"USGS"):WS.doe.includes(k)?"DOE":""};
+const critTag=m=>{const k=critOf(m);return k?` <small class="mm-crit" title="on the ${k} critical list">critical</small>`:""};
+const lb=v=>v>=1e6?(v/1e6).toFixed(1)+" M lb":Math.round(v).toLocaleString()+" lb";
+const pct=(a,b)=>b?Math.round(100*a/b)+"%":"–";
+const coName=x=>x.company&&byId[x.company]?`<a href="#${x.company}">${esc(byId[x.company].name)}</a>`:esc(x.name);
+function wasteCard(c){let h="";const w=c.waste;
+  if(w&&Object.keys(w.tri).length){h+=`<div class="k">Metal waste reported to EPA (TRI ${WS.triYear})</div>`+Object.entries(w.tri).sort((a,b)=>b[1][3]-a[1][3]).map(([m,v])=>`${esc(m)}${critTag(m)}: ${lb(v[3])}, ${pct(v[0],v[3])} recycled`).join("<br>")}
+  if(w&&w.rcra.length){h+=`<div class="k">Metal-bearing hazardous waste (RCRA ${WS.rcraCycle})</div>`+w.rcra.map(s=>`${esc(s.description.toLowerCase())}${s.codes.length?` <small class="mm-mut">${esc(s.codes.join(", "))}</small>`:""}: ${s.tons.toLocaleString()} t${s.managed.length?" · "+esc(s.managed.join(", ")):""}`).join("<br>")}
+  if(c.mat&&c.mat.length){const ms=[...new Set(WS.materials.filter(m=>c.mat.includes(m.group)).flatMap(m=>m.materials))];
+    h+=`<div class="k">Critical materials it likely works with (inferred)</div>${esc(ms.join(", "))}<div class="mm-note">From its products and industry code (${esc(c.mat.join("; ").toLowerCase())}), not from a measured waste stream.</div>`}
+  return h}
+function renderWaste(){const el=document.getElementById("waste"),note=document.getElementById("wastenote");if(!el)return;
+  document.querySelectorAll("[data-wsv]").forEach(b=>b.setAttribute("aria-pressed",String(b.dataset.wsv===st.wsv)));
+  const T=WS.tri,tot=T.reduce((a,f)=>a+Object.values(f.metals).reduce((s,v)=>s+v[3],0),0),rec=T.reduce((a,f)=>a+Object.values(f.metals).reduce((s,v)=>s+v[0],0),0);
+  note.textContent=`EPA TRI ${WS.triYear||"–"}, RCRA ${WS.rcraCycle||"–"}, region-wide`;
+  if(st.wsv==="metal"){const by={};T.forEach(f=>Object.entries(f.metals).forEach(([m,v])=>{const r=by[m]||(by[m]={metal:m,plants:0,total:0,rec:0,notrec:0,top:null,topv:0});r.plants++;r.total+=v[3];r.rec+=v[0];const nr=v[3]-v[0];r.notrec+=nr;if(nr>r.topv){r.topv=nr;r.top=f}}));
+    const rows=Object.values(by).map(r=>({...r,share:r.total?r.rec/r.total:null,crit:critOf(r.metal)}));
+    el.innerHTML=`<p class="mm-fedsum">In ${WS.triYear}, <b>${T.length}</b> plants in the region reported <b>${lb(tot)}</b> of metal in their production waste to EPA's Toxics Release Inventory; <b>${pct(rec,tot)}</b> was recycled. The other <b>${lb(tot-rec)}</b> was treated, burned for energy, disposed of or released: that is the share a new recovery process could go after.</p>`
+      +sortTable("wm",[{key:"metal",label:"Metal",cell:r=>`<b>${esc(r.metal)}</b>${critTag(r.metal)}`},{key:"plants",label:"Plants",num:true},
+        {key:"total",label:"In waste",num:true,cell:r=>lb(r.total)},{key:"share",label:"Recycled",num:true,cell:r=>pct(r.rec,r.total)},
+        {key:"notrec",label:"Not recycled",num:true,cell:r=>lb(r.notrec)},{key:"topv",label:"Largest unrecycled source",cell:r=>r.top&&r.topv?`${coName(r.top)} <small class="mm-mut">${esc(r.top.city)} · ${lb(r.topv)}</small>`:"–"}],rows)
+      +`<p class="mm-wnote">"Critical" marks metals on the ${esc(WS.usgsSource||"USGS")} or the ${esc(WS.doeSource||"DOE")} list. TRI covers plants with 10 or more employees in listed industries that handle a listed chemical above a threshold, and it does not list rare earths, lithium, gallium, germanium, tungsten, tantalum or titanium metal: see <i>Likely materials</i> for those.</p>`;return}
+  if(st.wsv==="src"){const rows=T.map(f=>{const v=Object.entries(f.metals),t=v.reduce((a,[,x])=>a+x[3],0),nr=v.reduce((a,[,x])=>a+x[3]-x[0],0);
+      return {...f,total:t,notrec:nr,share:t?nr/t:0,top:v.filter(([,x])=>x[3]-x[0]>0).sort((a,b)=>(b[1][3]-b[1][0])-(a[1][3]-a[1][0])).slice(0,3)}}).filter(r=>r.notrec>0);
+    el.innerHTML=`<p class="mm-fedsum">Plants whose reported metal waste is not recycled, largest first. Plants not on the map (not manufacturers, or not yet added) are listed without a link.</p>`
+      +sortTable("wsrc",[{key:"name",label:"Plant",cell:r=>`<b>${coName(r)}</b>`},{key:"city",label:"City"},{key:"notrec",label:"Not recycled",num:true,cell:r=>lb(r.notrec)},
+        {key:"share",label:"Of its metal waste",num:true,cell:r=>Math.round(100*r.share)+"%"},{key:"total",label:"All metal waste",num:true,cell:r=>lb(r.total)},
+        {key:"topm",label:"Main metals not recycled",cell:r=>r.top.map(([m,x])=>`${esc(m)}${critTag(m)} <small class="mm-mut">${lb(x[3]-x[0])}</small>`).join(", ")}],rows);return}
+  if(st.wsv==="haz"){const R=WS.rcra,t=R.reduce((a,h)=>a+h.tons,0);
+    el.innerHTML=`<p class="mm-fedsum">In ${WS.rcraCycle}, <b>${R.length}</b> sites in the region reported <b>${Math.round(t).toLocaleString()} tons</b> of hazardous waste that carries metals to EPA's Biennial Report: plating sludge, furnace dust, spent pickle liquor and other streams with chromium, lead, nickel, zinc or silver.</p>`
+      +sortTable("whz",[{key:"name",label:"Site",cell:r=>`<b>${coName(r)}</b>`},{key:"city",label:"City"},{key:"tons",label:"Tons",num:true,cell:r=>r.tons.toLocaleString()},
+        {key:"main",label:"Largest streams",cell:r=>r.streams.slice(0,2).map(s=>`${esc(s.description.toLowerCase().slice(0,60))}${s.codes.length?` <small class="mm-mut" title="${esc(s.codes.map(k=>k+": "+(WS.codes[k]||"")).join("; "))}">${esc(s.codes.join(", "))}</small>`:""} <small class="mm-mut">${s.tons.toLocaleString()} t${s.managed.length?", "+esc(s.managed.join(", ")):""}</small>`).join("<br>")}],R)
+      +`<p class="mm-wnote">Large-quantity generators report every other year. Streams are kept when their EPA waste code marks a metal (D004–D011, F006–F009, F019, K061, K062, K069) or their description names one; hover a code for its meaning. Tons are as generated, including water.</p>`;return}
+  if(st.wsv==="mat"){const base=C.filter(visibleExcept("mat")),rows=WS.materials.map(m=>{const l=base.filter(c=>c.mat.includes(m.group));return {label:m.group,m,n:nOrgs(l),e:empSum(l)}});
+    const max=Math.max(1,...rows.map(r=>r.n)),emax=Math.max(1,...rows.map(r=>r.e));
+    el.innerHTML=`<p class="mm-fedsum">Companies on the map whose products or industry suggest they work with critical materials, and so may have production scrap of them. Inferred from product keywords and NAICS codes (data/critical_materials.toml), not measured. Click a row to filter the map.</p>`
+      +`<div class="mm-hist">${HH("mat",SORTCOLS,"material group · critical materials")}${rows.sort(sorter("mat")).map(r=>bar("",`${esc(r.label)} <span class="mm-count">· ${esc(r.m.materials.join(", "))}</span>`,r.n,max,r.e,emax,st.mat.has(r.label),`data-mat="${esc(r.label)}" title="${esc(r.m.note)}"`)).join("")}</div>`;return}
+  if(st.wsv==="rec"){const rows=C.filter(c=>c.sector===RECYC).map(c=>({...c,rec:c.recovers.join(", ")}));
+    el.innerHTML=`<p class="mm-fedsum"><b>${rows.length}</b> recyclers on the map: scrap yards, auto recyclers, secondary metal processors and e-waste and battery recyclers. They are resource providers, shown on the map in their own color but not counted as manufacturers.</p>`
+      +sortTable("wrec",[{key:"name",label:"Recycler",cell:r=>`<b><a href="#${r.id}">${esc(r.name)}</a></b>`},{key:"city",label:"City"},{key:"rec",label:"Recovers"},{key:"emp",label:"Employees",num:true,cell:r=>r.emp?r.emp.toLocaleString():"–"}],rows);return}
+  el.innerHTML=WS.sites.map(s=>`<div class="mm-site"><h3 class="mm-wh">${esc(s.name)}</h3><p class="mm-count">${esc(s.city)} · ${esc(s.kind)} · may hold: ${esc(s.materials.join(", "))}</p><ul>${s.facts.map(f=>`<li>${esc(f)}</li>`).join("")}</ul>
+    <p class="mm-wnote">Sources (checked ${esc(s.checked)}): ${s.sources.map((u,i)=>`<a href="${esc(u)}" rel="noopener">${i+1}</a>`).join(" · ")}</p></div>`).join("")||`<p class="mm-count">No sites listed.</p>`}
 function renderQcew(){const el=document.getElementById("qcew");document.querySelectorAll("[data-qv]").forEach(b=>b.setAttribute("aria-pressed",String(b.dataset.qv===st.qv)));
   document.querySelectorAll("[data-qs]").forEach(b=>b.setAttribute("aria-pressed",String(b.dataset.qs===st.qs)));
   const core=["18141","18039","18099","18091","18085"],ccols=["#3b8ff0","#a78bfa","#1fd28c","#ffc233","#ff6a2a"],dimc=getComputedStyle(document.getElementById("mm-app")).getPropertyValue("--fg-3").trim()||"#627386";
@@ -573,7 +618,7 @@ function renderDetail(){const d=document.getElementById("detail"),c=st.sel&&byId
   const g=groupOf(c),sib=g.sites.filter(s=>s!==c).sort((a,b)=>(b.emp||0)-(a.emp||0));const site=u=>u?esc(u.replace(/^https?:\/\/(www\.)?/,"").replace(/\/$/,"")):"";
   d.innerHTML=`<h3><span class="mm-dot" style="background:${SCOL[c.sector]};color:${SCOL[c.sector]}"></span>${esc(c.name)}</h3>${c.formerly?`<p class="mm-note">formerly ${esc(c.formerly)}</p>`:""}${c.status?`<p class="mm-note">${esc(c.status)}</p>`:""}${c.unconf?`<p class="mm-unconf"><b>Unconfirmed.</b> ${esc(c.unconf)}</p>`:""}
   ${g.sites.length>1?`<div class="mm-grp"><div class="k">Part of ${esc(g.name)}: ${g.sites.length} sites, ${fmtK(empSum(g.sites))} staff known</div>${sib.slice(0,12).map(s=>`<button type="button" class="mm-sib" data-sel="${s.id}">${esc(s.city)}${s.emp?" · "+fmtK(s.emp):""}<span>${esc(s.name.replace(g.name,"").replace(/^[,\s]+/,"")||s.addr||"site")}</span></button>`).join("")}${sib.length>12?`<span class="mm-count">and ${sib.length-12} more</span>`:""}</div>`:""}
-  <div><div class="k">What they do</div>${esc(c.blurb)||"–"}<div class="k">Products &amp; services</div>${esc(c.tags.join(", "))}${c.naics?`<div class="k">NAICS</div>${esc(c.naics)}`:""}${c.caps.length?`<div class="k">Capabilities</div>${esc(c.caps.join(", "))}`:""}${c.hum.length?`<div class="k">Humanoid parts (${c.hum_ev==="confirmed"?"confirmed":c.hum_ev==="self-reported"?"self-reported":"inferred"})</div>${esc(c.hum.map(k=>HCOMP[k]?HCOMP[k].name.split(" (")[0]:k).join(", "))}${c.hum_note?`<div class="mm-note">${esc(c.hum_note)}</div>`:""}`:""}</div>
+  <div><div class="k">What they do</div>${esc(c.blurb)||"–"}<div class="k">Products &amp; services</div>${esc(c.tags.join(", "))}${c.naics?`<div class="k">NAICS</div>${esc(c.naics)}`:""}${c.caps.length?`<div class="k">Capabilities</div>${esc(c.caps.join(", "))}`:""}${c.recovers.length?`<div class="k">Recovers</div>${esc(c.recovers.join(", "))}`:""}${wasteCard(c)}${c.hum.length?`<div class="k">Humanoid parts (${c.hum_ev==="confirmed"?"confirmed":c.hum_ev==="self-reported"?"self-reported":"inferred"})</div>${esc(c.hum.map(k=>HCOMP[k]?HCOMP[k].name.split(" (")[0]:k).join(", "))}${c.hum_note?`<div class="mm-note">${esc(c.hum_note)}</div>`:""}`:""}</div>
   <div><div class="k">Employees</div>${esc(fmtEmp(c))}${c.emp_note?`<div class="mm-note">${esc(c.emp_note)}</div>`:""}<div class="k">Location</div>${esc(c.addr||c.city+", "+c.state)}${c.prec==="city"?" (placed at the city center)":""}
   ${c.website?`<div class="k">Website</div><a href="${esc(c.website)}" rel="noopener">${site(c.website)}</a>`:""}${c.uei?`<div class="k">UEI</div>${esc(c.uei)}`:""}</div>
   <div>${c.federal?`<div class="k">Federal awards since FY2016</div>contracts ${fmtUSD(c.federal.contracts)} · grants ${fmtUSD(c.federal.grants)} (USAspending)`:""}${c.sbir?`<div class="k">SBIR/STTR</div>${c.sbir.count} awards, ${fmtUSD(c.sbir.amount)} (${esc(c.sbir.agencies.join(", "))})`:""}
@@ -600,18 +645,18 @@ function renderTable(){const tb=document.querySelector("#table tbody"),rs=st.sor
   const last=Math.min(rows.length,first+st.rlim),nav=pages>1?`<button type="button" class="mm-chip mm-pg" data-rpage="${st.rpage-1}" aria-label="Previous page" ${st.rpage===0?"disabled":""}>‹</button><span class="mm-count">${(first+1).toLocaleString()}–${last.toLocaleString()} of ${rows.length.toLocaleString()} companies · page ${st.rpage+1} of ${pages}</span><button type="button" class="mm-chip mm-pg" data-rpage="${st.rpage+1}" aria-label="Next page" ${st.rpage>=pages-1?"disabled":""}>›</button>`:`<span class="mm-count">${rows.length.toLocaleString()} companies</span>`;
   const more=rows.length>20?`<tr class="mm-more"><td colspan="6">${nav}<span class="mm-lb">Per page</span>${[[20,"20"],[100,"100"],[Infinity,"All"]].map(([n,l])=>`<button type="button" class="mm-chip" data-rlim="${n}" aria-pressed="${st.rlim===n}">${l}</button>`).join("")}</td></tr>`:"";
   tb.innerHTML=(html||`<tr><td colspan="6" class="mm-count">No company matches these filters.</td></tr>`)+more;
-  const ms=l=>l.filter(c=>c.mfg).length,ov=vis.length-ms(vis);
-  const txt=`${nGroups(vis)} manufacturers at ${ms(vis)} sites shown, of ${nGroups(C)} at ${ms(C)}${ov?` · plus ${ov} other organization${ov>1?"s":""}`:""}`;document.getElementById("shown").textContent=txt;document.getElementById("rostercount").textContent=txt}
+  const ms=l=>l.filter(c=>c.mfg).length,rp=vis.filter(c=>c.sector===RECYC).length,ov=vis.length-ms(vis)-rp;
+  const txt=`${nGroups(vis)} manufacturers at ${ms(vis)} sites shown, of ${nGroups(C)} at ${ms(C)}${rp?` · plus ${rp} resource provider${rp>1?"s":""} (recyclers)`:""}${ov?` · plus ${ov} other organization${ov>1?"s":""}`:""}`;document.getElementById("shown").textContent=txt;document.getElementById("rostercount").textContent=txt}
 
 /* ---------- wiring ---------- */
 function select(id){st.sel=(st.sel===id?null:id);_ctr=center();if(st.rings||st.radius)buildRings();render();
   if(st.sel){const row=document.getElementById("row-"+st.sel);if(row)row.scrollIntoView({block:"nearest",behavior:reduced?"auto":"smooth"})}}
-function clearAll(){Object.assign(st,{evKind:"all",evYear:null,evMore:0,fed:false,fda:false,radius:0,sel:null,q:"",hum:null});st.cap.clear();st.sec.clear();st.tag.clear();
+function clearAll(){Object.assign(st,{evKind:"all",evYear:null,evMore:0,fed:false,fda:false,wst:false,radius:0,sel:null,q:"",hum:null});st.cap.clear();st.mat.clear();st.sec.clear();st.tag.clear();
   document.getElementById("tagsearch").value="";_ctr=center();render()}
 document.getElementById("clear").addEventListener("click",clearAll);document.getElementById("resetall").addEventListener("click",clearAll);
 document.getElementById("tagsearch").addEventListener("input",e=>{st.q=e.target.value.trim().toLowerCase();renderTags()});
 document.getElementById("radius").addEventListener("change",e=>{st.radius=+e.target.value;_ctr=center();buildRings();render()});
-for(const [id,k] of [["lay-rings","rings"],["f-fed","fed"],["f-fda","fda"]])document.getElementById(id).addEventListener("click",()=>{st[k]=!st[k];if(k==="rings")buildRings();render()});
+for(const [id,k] of [["lay-rings","rings"],["f-fed","fed"],["f-fda","fda"],["f-waste","wst"]])document.getElementById(id).addEventListener("click",()=>{st[k]=!st[k];if(k==="rings")buildRings();render()});
 /* tabs: Companies, Occupations, Physical AI outlook, Humanoid supply chain; the open tab is part of the URL */
 function applyTab(){for(const t of TABS){const on=st.tab===t,b=document.getElementById("t-"+t);b.setAttribute("aria-selected",String(on));b.tabIndex=on?0:-1;document.getElementById("tab-"+t).hidden=!on}
   if(st.tab==="companies")resize()}
@@ -629,6 +674,8 @@ document.addEventListener("click",e=>{
   const wv=e.target.closest("[data-wv]");if(wv){st.wv=wv.dataset.wv;renderWork();return}
   const q=e.target.closest("[data-qv],[data-qs]");if(q){if(q.dataset.qv)st.qv=q.dataset.qv;if(q.dataset.qs)st.qs=q.dataset.qs;renderQcew();return}
   const sib=e.target.closest("[data-sel]");if(sib){const c=byId[sib.dataset.sel],away=st.tab!=="companies";setTab("companies");if(st.sel!==c.id)select(c.id);flyTo(c.lat,c.lon,Math.min(view.dist,0.05));if(away)document.getElementById("scene").scrollIntoView({block:"center"});return}
+  const wsb=e.target.closest("[data-wsv]");if(wsb){st.wsv=wsb.dataset.wsv;renderWaste();return}
+  const mb=e.target.closest("[data-mat]");if(mb){const k=mb.dataset.mat;st.mat.has(k)?st.mat.delete(k):st.mat.add(k);render();return}
   const cb=e.target.closest("[data-cap]");if(cb){const k=cb.dataset.cap;st.cap.has(k)?st.cap.delete(k):st.cap.add(k);render();return}
   const h=e.target.closest("[data-sort]");if(h){const s=st.sort[h.dataset.kind];if(s.key===h.dataset.sort)s.dir=-s.dir;else{s.key=h.dataset.sort;s.dir=-1}render();return}
   const rs=e.target.closest("[data-rsort]");if(rs){const s=st.sort.roster;if(s.key===rs.dataset.rsort)s.dir=-s.dir;else{s.key=rs.dataset.rsort;s.dir=rs.dataset.rsort==="emp"||rs.dataset.rsort==="fed"?-1:1}st.rpage=0;renderTable();return}
@@ -650,10 +697,10 @@ document.getElementById("csv").addEventListener("click",()=>{const rows=C.filter
     c.federal?c.federal.contracts:"",c.federal?c.federal.grants:"",c.sbir?c.sbir.count:"",c.sbir?c.sbir.amount:"",c.patents?c.patents.count:"",c.fda?"yes":"",c.certs.join("; "),c.hum.join("; "),c.hum.length?c.hum_ev:"",c.formerly,c.status,c.website,c.source,c.updated].map(q).join(",")}));
   const blob=new Blob(["﻿"+lines.join("\n")],{type:"text/csv;charset=utf-8"}),a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download="michiana-manufacturing-"+(hashState(false)?"filtered":"all")+".csv";document.body.appendChild(a);a.click();a.remove();toast(`${rows.length} rows downloaded`)});
 const chip=(id,on)=>document.getElementById(id).setAttribute("aria-pressed",String(on));
-function render(){chip("lay-rings",st.rings);chip("f-fed",st.fed);chip("f-fda",st.fda);document.getElementById("radius").value=String(st.radius);
+function render(){chip("lay-rings",st.rings);chip("f-fed",st.fed);chip("f-fda",st.fda);chip("f-waste",st.wst);document.getElementById("radius").value=String(st.radius);
   _ctr=center();document.getElementById("radius-of").textContent="of "+(st.sel?_ctr.name:"the campus");if(st.rings||st.radius)buildRings();
   document.getElementById("brieflink").href="brief.html"+(st.sec.size?"#sec="+[...st.sec].map(encodeURIComponent).join("|"):"");
-  renderSectors();renderTags();renderFederal();renderCaps();renderEvents();renderWork();renderOccHelp();renderOpportunity();renderHumanoid();paintBars();renderDetail();renderTable();layout();updateHash()}
+  renderSectors();renderTags();renderFederal();renderCaps();renderWaste();renderEvents();renderWork();renderOccHelp();renderOpportunity();renderHumanoid();paintBars();renderDetail();renderTable();layout();updateHash()}
 window.addEventListener("hashchange",()=>{if(location.hash!==hashState()){readHash();applyTab();render()}});
 document.getElementById("legend").innerHTML=DATA.sectors.map(s=>`<span><i class="mm-sw" style="background:${SCOL[s]};color:${SCOL[s]}"></i>${esc(s)}</span>`).join("")+(C.some(c=>c.unconf)?`<span class="mm-mut" title="the company operates in the region, but no current source confirms a plant at this address">dim column: address unconfirmed</span>`:"")
   +`<span>column height = employees, log scale <i class="mm-hl"><i style="height:6px"></i><i style="height:10px"></i><i style="height:14px"></i><i style="height:18px"></i></i>10 · 100 · 1,000 · 10,000</span><span>~ estimate · ’22 year of the figure · * company-wide</span>`;

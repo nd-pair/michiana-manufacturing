@@ -1,0 +1,22 @@
+# McPike Auto Salvage & Metal Recycling
+# Added by hand as a recycler (resource provider) from public sources; see verified_note.
+
+name = "McPike Auto Salvage & Metal Recycling"
+kind = "company"
+city = "Bloomingdale"
+state = "MI"
+address = "25172 County Road 665, Bloomingdale, MI 49026"
+lat = 42.32864
+lon = -85.95657
+verified = "2026-11-18"
+verified_note = "EPA lists a stormwater permit for McPike Investments LLC (used motor vehicle parts) at this address in effect until April 2028, and the Better Business Bureau lists McPike Auto Salvage & Metal Recycling here. Source: https://echo.epa.gov/detailed-facility-report?fid=110072105071"
+
+sector = "Recycling & recovery"
+products = ["Auto recycling & salvage", "Scrap metal recycling"]
+recovers = ["end-of-life vehicles", "used auto parts", "scrap metal"]
+naics = "423140"
+
+description = "Auto salvage and scrap metal yard."
+
+source = "Public sources: company websites, state agency lists (IDEM, Michigan EGLE), city records, EPA ECHO and local news"
+updated = "2026-11-18"

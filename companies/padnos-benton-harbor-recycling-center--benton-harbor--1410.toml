@@ -1,0 +1,23 @@
+# PADNOS Benton Harbor Recycling Center
+# Added by hand as a recycler (resource provider) from public sources; see verified_note.
+
+name = "PADNOS Benton Harbor Recycling Center"
+kind = "company"
+city = "Benton Harbor"
+state = "MI"
+address = "1410 Paw Paw Ave, Benton Harbor, MI 49022"
+lat = 42.13750
+lon = -86.44160
+website = "https://padnos.com/?p=960"
+verified = "2026-11-18"
+verified_note = "PADNOS's own location page lists this site with hours and 2026 holiday closures. Source: https://padnos.com/?p=960"
+
+sector = "Recycling & recovery"
+products = ["Scrap metal recycling"]
+recovers = ["ferrous scrap", "nonferrous scrap", "junk cars"]
+naics = "423930"
+
+description = "Scrap yard of PADNOS."
+
+source = "Public sources: company websites, state agency lists (IDEM, Michigan EGLE), city records, EPA ECHO and local news"
+updated = "2026-11-18"

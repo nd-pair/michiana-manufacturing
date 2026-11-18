@@ -10,8 +10,8 @@ lat = 41.91394
 lon = -85.99219
 osha_id = "1563864"
 
-sector = "Metal"
-products = ["Refining aluminum, secondary"]
+sector = "Recycling & recovery"
+products = ["Aluminum recycling (remelt into extrusion billet)"]
 naics = "331314"
 
 employees = 72
@@ -20,7 +20,8 @@ employees_year = 2025
 employees_quality = "reported"
 employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
-description = "NAICS 331314: refining aluminum, secondary."
+description = "Hydro's recycling plant, opened in November 2023: remelts post- and pre-consumer aluminum scrap into extrusion billet, about 120,000 tonnes a year."
 
 source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
-updated = "2026-11-14"
+updated = "2026-11-18"
+recovers = ["post-consumer aluminum scrap", "pre-consumer aluminum scrap"]

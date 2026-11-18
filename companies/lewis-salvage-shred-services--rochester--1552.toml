@@ -1,0 +1,29 @@
+# Lewis Salvage Shred Services
+# Added by hand as a recycler (resource provider) from public sources; see verified_note.
+
+name = "Lewis Salvage Shred Services"
+kind = "company"
+city = "Rochester"
+state = "IN"
+address = "1552 E Lucas St, Rochester, IN 46975"
+lat = 41.07318
+lon = -86.20582
+website = "https://www.lewis-salvage.com"
+verified = "2026-11-18"
+verified_note = "Lewis Salvage bought the Rochester Iron & Metal yard and its 60-ton-an-hour shredder in August 2025, keeping about 90 staff; its website lists 1552 East Lucas Street. Source: https://www.giant.fm/fulton-county/news/local-news/lewis-salvage-expands-business-by-acquiring-rochester-iron-and-metal/"
+
+sector = "Recycling & recovery"
+products = ["Scrap metal recycling", "Auto shredding"]
+recovers = ["end-of-life vehicles", "appliances", "farm equipment", "ferrous scrap", "nonferrous scrap"]
+naics = "423930"
+
+employees = 90
+employees_scope = "site"
+employees_year = 2025
+employees_quality = "estimate"
+employees_note = "about 90 staff kept when Lewis Salvage bought the yard, Giant FM, August 2025"
+
+description = "Auto shredder and scrap yard, formerly Rochester Iron & Metal."
+
+source = "Public sources: company websites, state agency lists (IDEM, Michigan EGLE), city records, EPA ECHO and local news"
+updated = "2026-11-18"

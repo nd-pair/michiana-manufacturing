@@ -50,3 +50,8 @@ description = "Food and beverage, textiles, apparel, leather"
 name = "Medical devices & other"
 color = "#4dd0e1"
 description = "Medical devices and instruments, and other manufacturing"
+
+[[sector]]
+name = "Recycling & recovery"
+color = "#8fa3b8"
+description = "Scrap metal, auto, e-waste, battery and other recyclers: resource providers, shown on the map but not counted as manufacturers"

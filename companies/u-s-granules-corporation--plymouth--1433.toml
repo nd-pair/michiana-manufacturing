@@ -10,8 +10,8 @@ lat = 41.35440
 lon = -86.31623
 osha_id = "91569"
 
-sector = "Metal"
-products = ["Aluminum flakes made from purchased aluminum"]
+sector = "Recycling & recovery"
+products = ["Aluminum granules from recycled foil packaging scrap"]
 naics = "331314"
 
 employees = 39
@@ -20,7 +20,8 @@ employees_year = 2025
 employees_quality = "reported"
 employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
-description = "NAICS 331314: aluminum flakes made from purchased aluminum."
+description = "Recycles laminated aluminum foil scrap from packaging into aluminum granules."
 
 source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
-updated = "2026-11-13"
+updated = "2026-11-18"
+recovers = ["laminated aluminum foil scrap"]

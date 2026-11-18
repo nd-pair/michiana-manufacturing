@@ -1,0 +1,23 @@
+# Schupan & Sons Industrial Recycling
+# Added by hand as a recycler (resource provider) from public sources; see verified_note.
+
+name = "Schupan & Sons Industrial Recycling"
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "29383 Old US Hwy 33, Elkhart, IN 46516"
+lat = 41.66843
+lon = -86.01794
+website = "https://www.schupan.com"
+verified = "2026-11-18"
+verified_note = "The Elkhart County chamber's current directory lists Schupan & Sons under scrap metals and recycling on Old US 33 (29391; EPA gives 29383), and Schupan advertised Elkhart recycling jobs in 2025-2026. Source: https://www.elkhart.org/type/scrap-metals-recycling"
+
+sector = "Recycling & recovery"
+products = ["Scrap metal recycling"]
+recovers = ["ferrous scrap", "nonferrous scrap", "aluminum"]
+naics = "423930"
+
+description = "Industrial scrap recycling yard of Schupan & Sons: ferrous and nonferrous scrap from manufacturers."
+
+source = "Public sources: company websites, state agency lists (IDEM, Michigan EGLE), city records, EPA ECHO and local news"
+updated = "2026-11-18"

@@ -1,0 +1,22 @@
+# Mike's Auto Salvage & Towing
+# Added by hand as a recycler (resource provider) from public sources; see verified_note.
+
+name = "Mike's Auto Salvage & Towing"
+kind = "company"
+city = "Mishawaka"
+state = "IN"
+address = "1732 E McKinley Hwy, Mishawaka, IN 46545"
+lat = 41.68035
+lon = -86.15416
+verified = "2026-11-18"
+verified_note = "IDEM lists Mike's Auto Salvage & Towing as an Indiana Clean Yard through 2027. Source: https://www.in.gov/idem/partnerships/indiana-clean-yards"
+
+sector = "Recycling & recovery"
+products = ["Auto recycling & salvage"]
+recovers = ["end-of-life vehicles", "used auto parts"]
+naics = "423140"
+
+description = "Auto salvage yard."
+
+source = "Public sources: company websites, state agency lists (IDEM, Michigan EGLE), city records, EPA ECHO and local news"
+updated = "2026-11-18"

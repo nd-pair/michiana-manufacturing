@@ -73,6 +73,9 @@ jobs:
         env:
           CENSUS_API_KEY: ${{ secrets.CENSUS_API_KEY }}
         run: python3 scripts/pull_census.py
+      - name: Metal waste streams (EPA Toxics Release Inventory and RCRA Biennial Report)
+        continue-on-error: true
+        run: python3 scripts/pull_waste.py
       - name: Task fit, workforce age and turnover, value added (O*NET, Census QWI, BEA)
         continue-on-error: true
         run: python3 scripts/pull_workforce.py

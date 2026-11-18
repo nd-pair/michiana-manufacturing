@@ -1,0 +1,22 @@
+# Veldman's Auto Parts
+# Added by hand as a recycler (resource provider) from public sources; see verified_note.
+
+name = "Veldman's Auto Parts"
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "25926 State Road 2, South Bend, IN 46619"
+lat = 41.67178
+lon = -86.37005
+verified = "2026-11-18"
+verified_note = "IDEM lists Veldman's Auto Parts as an Indiana Clean Yard (gold level) through 2027. Source: https://www.in.gov/idem/partnerships/indiana-clean-yards"
+
+sector = "Recycling & recovery"
+products = ["Auto recycling & salvage"]
+recovers = ["end-of-life vehicles", "used auto parts", "vehicle scrap"]
+naics = "423140"
+
+description = "Auto recycler dismantling vehicles for parts and scrap on about 22 acres."
+
+source = "Public sources: company websites, state agency lists (IDEM, Michigan EGLE), city records, EPA ECHO and local news"
+updated = "2026-11-18"

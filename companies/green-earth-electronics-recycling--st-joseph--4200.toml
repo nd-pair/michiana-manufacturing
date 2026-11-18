@@ -1,0 +1,23 @@
+# Green Earth Electronics Recycling
+# Added by hand as a recycler (resource provider) from public sources; see verified_note.
+
+name = "Green Earth Electronics Recycling"
+kind = "company"
+city = "St. Joseph"
+state = "MI"
+address = "4200 Niles Rd, St. Joseph, MI 49085"
+lat = 42.06595
+lon = -86.46815
+website = "https://greenearth1.com"
+verified = "2026-11-18"
+verified_note = "Registered with Michigan EGLE as an e-waste recycler at 4200 Niles Rd; its website posts articles dated November 2026. Source: https://greenearth1.com"
+
+sector = "Recycling & recovery"
+products = ["Electronics recycling", "IT asset disposition"]
+recovers = ["computers and IT equipment", "TVs and monitors", "consumer electronics", "data-bearing media"]
+naics = "423930"
+
+description = "Electronics recycler and IT asset disposition service; the only registered e-waste recycler in Berrien, Cass and Van Buren counties."
+
+source = "Public sources: company websites, state agency lists (IDEM, Michigan EGLE), city records, EPA ECHO and local news"
+updated = "2026-11-18"

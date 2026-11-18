@@ -1,0 +1,7521 @@
+{
+ "pulled": "2026-11-18",
+ "rcra": {
+  "codes": {
+   "D004": "arsenic",
+   "D005": "barium",
+   "D006": "cadmium",
+   "D007": "chromium",
+   "D008": "lead",
+   "D009": "mercury",
+   "D010": "selenium",
+   "D011": "silver",
+   "F006": "electroplating wastewater sludge",
+   "F007": "spent plating bath (cyanide)",
+   "F008": "plating bath residue (cyanide)",
+   "F009": "spent stripping and cleaning bath (cyanide)",
+   "F019": "aluminum conversion coating sludge",
+   "K061": "electric arc furnace dust",
+   "K062": "spent pickle liquor",
+   "K069": "lead smelting emission sludge"
+  },
+  "cycle": 2023,
+  "handlers": [
+   {
+    "city": "Columbia City",
+    "company": "steel-dynamics-inc-structural-and-rail-columbia-city-2601",
+    "county": "18183",
+    "id": "INR000019364",
+    "naics": "331110",
+    "name": "STEEL DYNAMICS STRUCTURAL & RAIL DIVISION",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [
+       "K061"
+      ],
+      "description": "ELECTRIC ARC FURNACE (EAF) DUST FROM EAF BAGHOUSE, K061 (NA3077)",
+      "managed": [
+       "metals recovery"
+      ],
+      "tons": 30016.52
+     },
+     {
+      "codes": [
+       "D008"
+      ],
+      "description": "METAL CUTTING DUST (LEVY DUST NA3077)",
+      "managed": [
+       "sludge trtmnt / stab / encap"
+      ],
+      "tons": 48.06
+     },
+     {
+      "codes": [
+       "D007"
+      ],
+      "description": "SPENT HYDROCHLORIC ACID FROM ETCHING STEEL RAIL, ACIDIC & CHROMIUM (UN1789)",
+      "managed": [
+       "wastewater treatment"
+      ],
+      "tons": 39.27
+     },
+     {
+      "codes": [
+       "K061"
+      ],
+      "description": "DEBRIS CONTAMINATED WITH ELECTRIC ARC FURNACE (EAF) DUST FROM ROUTINE CLEANING, K061 (NA3077)",
+      "managed": [
+       "other treatment"
+      ],
+      "tons": 5.56
+     },
+     {
+      "codes": [
+       "K061"
+      ],
+      "description": "WATER CONTAMINATED WITH ELECTRIC ARC FURNACE (EAF) DUST FROM BAGHOUSE, CADMIUM & K061 (NA3082)",
+      "managed": [
+       "deepwell / underground injection"
+      ],
+      "tons": 4.68
+     }
+    ],
+    "street": "2601 S CR 700 E",
+    "tons": 30114.09,
+    "zip": "46725"
+   },
+   {
+    "city": "New Carlisle",
+    "company": "i-n-kote-new-carlisle-30755",
+    "county": "18141",
+    "id": "IND984894287",
+    "naics": "332813",
+    "name": "CLEVELAND-CLIFFS KOTE, INC (FKN: I N KOTE)",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [
+       "F006"
+      ],
+      "description": "METAL HYDROXIDE - WASTEWATER TREATMENT SLUDGE FROM ELECTROGALVANIZING OPERATIONS (ZINC/NICKEL)(WS1)",
+      "managed": [
+       "sludge trtmnt / stab / encap"
+      ],
+      "tons": 327.51
+     },
+     {
+      "codes": [],
+      "description": "CORROSIVE MAGNETIC SEPARATOR SLUDGE FROM CAUSTIC CLEANING OF CARBON STEEL (WS36)",
+      "managed": [
+       "sludge trtmnt / stab / encap"
+      ],
+      "tons": 131.64
+     },
+     {
+      "codes": [
+       "D009"
+      ],
+      "description": "MERCURY LABPACK - SPECIAL HANDLING FROM UNUSED/OUT OF DATE MATERIAL (WS147)",
+      "managed": [],
+      "tons": 0.0
+     },
+     {
+      "codes": [
+       "D007"
+      ],
+      "description": "LABPACK - GENERIC INCINERABLE TO ORANGE (HTT) FROM CONSOLIDATION AND CLEANUP (WS169B)",
+      "managed": [
+       "incineration"
+      ],
+      "tons": 0.0
+     }
+    ],
+    "street": "30755 EDISON RD BLDG 2",
+    "tons": 459.15,
+    "zip": "46552"
+   },
+   {
+    "city": "La Porte",
+    "company": "alcoa-howmet-la-porte-1110",
+    "county": "18091",
+    "id": "IND044209229",
+    "naics": "331529",
+    "name": "HOWMET CASTINGS AND SERVICES, INC.",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [
+       "D007"
+      ],
+      "description": "SPENT KOH USED TO REMOVE RESIDUAL CERAMIC FROM CASTING",
+      "managed": [
+       "sludge trtmnt / stab / encap"
+      ],
+      "tons": 247.67
+     },
+     {
+      "codes": [
+       "D007"
+      ],
+      "description": "ETCH RINSE WATER FROM POST ETCH RINSE TANK WATER",
+      "managed": [
+       "wastewater treatment"
+      ],
+      "tons": 50.27
+     },
+     {
+      "codes": [
+       "D011"
+      ],
+      "description": "SPENT XRAY CHEMS FROM SPENT CHEMS )FIXER,DEVELOPER ,CLEANER)FROM X-RAY",
+      "managed": [],
+      "tons": 23.03
+     },
+     {
+      "codes": [
+       "D007"
+      ],
+      "description": "FERRIC CHLORIDE ETCH FROM SPENT ETCH USED IN SUPER ALLOY CASTING",
+      "managed": [
+       "wastewater treatment"
+      ],
+      "tons": 13.42
+     },
+     {
+      "codes": [
+       "D007"
+      ],
+      "description": "MURIATIC ACID ETCH FROM SPENT ETCH USED IN SUPER ALLOY CASTING",
+      "managed": [
+       "wastewater treatment"
+      ],
+      "tons": 11.45
+     },
+     {
+      "codes": [
+       "D007"
+      ],
+      "description": "SUPER O ACID ETCH FROM SPENT ETCH USED IN SUPER ALLOY CASTING",
+      "managed": [
+       "wastewater treatment"
+      ],
+      "tons": 5.95
+     },
+     {
+      "codes": [
+       "D007"
+      ],
+      "description": "TURCO CAUSTIC FROM SPENT CAUSTIC SURFACE CLEANER",
+      "managed": [
+       "wastewater treatment"
+      ],
+      "tons": 0.7
+     },
+     {
+      "codes": [
+       "F006"
+      ],
+      "description": "USED WWT FILTERS",
+      "managed": [],
+      "tons": 0.25
+     },
+     {
+      "codes": [
+       "F006"
+      ],
+      "description": "IONIC EXCHANGE CANISTERS",
+      "managed": [
+       "wastewater treatment"
+      ],
+      "tons": 0.18
+     }
+    ],
+    "street": "1110 E LINCOLNWAY",
+    "tons": 352.92,
+    "zip": "46350"
+   },
+   {
+    "city": "New Carlisle",
+    "company": "i-n-kote-new-carlisle-30755",
+    "county": "18141",
+    "id": "IND984867960",
+    "naics": "331221",
+    "name": "CLEVELAND-CLIFFS TEK INC (FKA: IN TEK)",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [],
+      "description": "CORROSIVE MAGNETIC SEPARATOR SLUDGE FROM CAUSTIC CLEANING OF CARBON STEEL.(WS31)",
+      "managed": [
+       "sludge trtmnt / stab / encap"
+      ],
+      "tons": 201.94
+     },
+     {
+      "codes": [
+       "D007"
+      ],
+      "description": "METAL GRINDING SWARF, GENERATED DURING METAL ROLL PREPARATION, CHARACTERISTICALLY HAZARDOUS FOR CHROMIUM (WS5)",
+      "managed": [
+       "sludge trtmnt / stab / encap"
+      ],
+      "tons": 89.54
+     },
+     {
+      "codes": [
+       "D008"
+      ],
+      "description": "POST TREATMENT NICKEL / LEAD ANODE WASTE FROM CLEAN OUT PROCESS EQUIPMENT. (WS73)",
+      "managed": [
+       "wastewater treatment"
+      ],
+      "tons": 3.5
+     },
+     {
+      "codes": [
+       "D007"
+      ],
+      "description": "GRINDING SWARF FILTER CLOTHS FROM ROLL GRINDING/SHAVINGOPERATIONS AND FILTERING.(WS47)",
+      "managed": [
+       "sludge trtmnt / stab / encap"
+      ],
+      "tons": 1.5
+     },
+     {
+      "codes": [
+       "K062"
+      ],
+      "description": "PT ACID FILTERS SOCKS (K062 DEBRIS) (WS75)",
+      "managed": [
+       "other treatment"
+      ],
+      "tons": 0.84
+     },
+     {
+      "codes": [
+       "K062"
+      ],
+      "description": "WPL TANK BOTTOMS (WS16)",
+      "managed": [
+       "wastewater treatment"
+      ],
+      "tons": 0.4
+     }
+    ],
+    "street": "30755 EDISON RD BLDG 1",
+    "tons": 297.72,
+    "zip": "46552"
+   },
+   {
+    "city": "Elkhart",
+    "company": "indalex-inc-elkhart-3406",
+    "county": "18039",
+    "id": "IND086775160",
+    "naics": "331318",
+    "name": "HYDRO EXTRUSION USA, LLC",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [
+       "D007"
+      ],
+      "description": "UN3266, WASTE CORROSIVE LIQUID, BASIC, INORGANIC, NOS 8, PG II (SODIUM HYDROXIDE, SODIUM ALUMINATE)",
+      "managed": [
+       "sludge trtmnt / stab / encap",
+       "wastewater treatment"
+      ],
+      "tons": 214.84
+     }
+    ],
+    "street": "3406 REEDY DR",
+    "tons": 214.84,
+    "zip": "46514"
+   },
+   {
+    "city": "Benton Harbor",
+    "company": null,
+    "county": "26021",
+    "id": "MI0001012236",
+    "naics": "332813",
+    "name": "TECH NICKEL INC",
+    "state": "MI",
+    "streams": [
+     {
+      "codes": [
+       "D007"
+      ],
+      "description": "UN3262, WASTE CORROSIVE SOLID, BASIC, INORGANIC, 8, PGIII, (SODIUM HYDROXIDE, CR)",
+      "managed": [],
+      "tons": 68.18
+     },
+     {
+      "codes": [
+       "F006"
+      ],
+      "description": "RQ, NA3077M HAZARDOUS WASTE, SOLID, NOS, (NICKEL), 9, FGIII FILTER CAKE",
+      "managed": [
+       "sludge trtmnt / stab / encap"
+      ],
+      "tons": 41.4
+     }
+    ],
+    "street": "1200 S CRYSTAL AVE",
+    "tons": 109.58,
+    "zip": "49022"
+   },
+   {
+    "city": "South Bend",
+    "company": "imagineering-finishing-technologies-inc-south-bend-1302",
+    "county": "18141",
+    "id": "IND069753101",
+    "naics": "332813",
+    "name": "IMAGINEERING ENTERPRISES, INC.",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [
+       "D008"
+      ],
+      "description": "115 SPENT EN PASSIVATION",
+      "managed": [
+       "wastewater treatment"
+      ],
+      "tons": 86.9
+     },
+     {
+      "codes": [
+       "F019"
+      ],
+      "description": "110 FILTER CAKE SLUDGE",
+      "managed": [
+       "sludge trtmnt / stab / encap"
+      ],
+      "tons": 15.64
+     }
+    ],
+    "street": "1302 W SAMPLE ST",
+    "tons": 102.54,
+    "zip": "46619"
+   },
+   {
+    "city": "Columbia City",
+    "company": null,
+    "county": "18183",
+    "id": "IN0000261917",
+    "naics": "332813",
+    "name": "KC JONES PLATING",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [
+       "F006"
+      ],
+      "description": "ENVIRONMENTALLY HARMFUL METAL HYDROXIDE SLUDGE FROM PLATING WASTEWATER TREATMENT: RQ,NA3077, HAZARDOUS WASTE, SOLID, NOS",
+      "managed": [
+       "sludge trtmnt / stab / encap"
+      ],
+      "tons": 73.2
+     }
+    ],
+    "street": "302 FACTORY AVE",
+    "tons": 73.2,
+    "zip": "46725"
+   },
+   {
+    "city": "South Bend",
+    "company": "honeywell",
+    "county": "18141",
+    "id": "IND088736103",
+    "naics": "336413",
+    "name": "HONEYWELL AIRCRAFT LANDING SYSTEMS",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [
+       "D007"
+      ],
+      "description": "ANODIZE SODIUM DICHROMATE",
+      "managed": [
+       "landfill",
+       "wastewater treatment"
+      ],
+      "tons": 13.87
+     },
+     {
+      "codes": [
+       "D010"
+      ],
+      "description": "DENSELINE TETRAETHLYENE GLYCOL",
+      "managed": [],
+      "tons": 10.52
+     },
+     {
+      "codes": [
+       "D007"
+      ],
+      "description": "NITRIC ACID ANODIZE LINE",
+      "managed": [
+       "wastewater treatment"
+      ],
+      "tons": 9.17
+     },
+     {
+      "codes": [
+       "D007"
+      ],
+      "description": "SULFURIC ACID  SOLUTION DENSELINE",
+      "managed": [
+       "landfill"
+      ],
+      "tons": 8.53
+     },
+     {
+      "codes": [
+       "D010"
+      ],
+      "description": "NEUTRALIZED DENSELINE SOLUTION HIGH SE",
+      "managed": [
+       "incineration"
+      ],
+      "tons": 6.35
+     },
+     {
+      "codes": [
+       "D007"
+      ],
+      "description": "CHROME ANODIZING LINE",
+      "managed": [
+       "landfill"
+      ],
+      "tons": 5.92
+     },
+     {
+      "codes": [
+       "D007"
+      ],
+      "description": "LAB PACK ACID AND ACID COMPATIBLES FOR INCINERATION",
+      "managed": [],
+      "tons": 0.02
+     },
+     {
+      "codes": [
+       "D011"
+      ],
+      "description": "LABPACK OXIDIZERS FOR INCINERATION",
+      "managed": [],
+      "tons": 0.01
+     },
+     {
+      "codes": [
+       "D007"
+      ],
+      "description": "CHROMIC ACID FLAKES",
+      "managed": [],
+      "tons": 0.01
+     }
+    ],
+    "street": "3520 WESTMOOR ST",
+    "tons": 54.4,
+    "zip": "46628"
+   },
+   {
+    "city": "North Liberty",
+    "company": "hydro-aluminum-north-america-inc-north-liberty-400",
+    "county": "18141",
+    "id": "IND005106810",
+    "naics": "331318",
+    "name": "HYDRO EXTRUSION USA, LLC",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [
+       "D007"
+      ],
+      "description": "WASTE CORROSIVE LIQUID - SODIUM HYDROXIDE",
+      "managed": [
+       "sludge trtmnt / stab / encap"
+      ],
+      "tons": 49.76
+     }
+    ],
+    "street": "400 SOUTH MAIN ST",
+    "tons": 49.76,
+    "zip": "46554"
+   },
+   {
+    "city": "South Bend",
+    "company": "foundation-court-south-bend-3722",
+    "county": "18141",
+    "id": "IND074329764",
+    "naics": "332813",
+    "name": "IMAGINEERING ENTERPRISES, INC",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [
+       "F019"
+      ],
+      "description": "110 FILTER CAKE",
+      "managed": [
+       "sludge trtmnt / stab / encap"
+      ],
+      "tons": 48.69
+     }
+    ],
+    "street": "3722 FOUNDATION CT",
+    "tons": 48.69,
+    "zip": "46628"
+   },
+   {
+    "city": "Mishawaka",
+    "company": "amgeneral",
+    "county": "18141",
+    "id": "IND980897524",
+    "naics": "33611",
+    "name": "AM GENERAL LLC",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [
+       "F019"
+      ],
+      "description": "FILTERCAKE SLUDGE",
+      "managed": [
+       "sludge trtmnt / stab / encap"
+      ],
+      "tons": 47.88
+     }
+    ],
+    "street": "13200 MCKINLEY HWY",
+    "tons": 47.88,
+    "zip": "46545"
+   },
+   {
+    "city": "Elkhart",
+    "company": "conn-selmer-inc-vincent-bach-div-elkhart-500",
+    "county": "18039",
+    "id": "IND000821561",
+    "naics": "339992",
+    "name": "CONN SELMER VINCENT BACH DIVISION",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [
+       "F006"
+      ],
+      "description": "HAZARDOUS WASTE SOLID (WASTEWATER SLUDGE AND WHITE ROOM BUFFING DUST)",
+      "managed": [
+       "sludge trtmnt / stab / encap"
+      ],
+      "tons": 46.2
+     },
+     {
+      "codes": [
+       "D008"
+      ],
+      "description": "ATOTECH FLUOROBORIC ACID DESOLDER",
+      "managed": [
+       "sludge trtmnt / stab / encap"
+      ],
+      "tons": 1.15
+     }
+    ],
+    "street": "500 INDUSTRIAL PKWY",
+    "tons": 47.35,
+    "zip": "46516"
+   },
+   {
+    "city": "Bridgman",
+    "company": null,
+    "county": "26021",
+    "id": "MID980824809",
+    "naics": "486210",
+    "name": "ANR PIPELINE COMPANY",
+    "state": "MI",
+    "streams": [
+     {
+      "codes": [
+       "D007"
+      ],
+      "description": "WASTE DESCRIPTION WILL BE REVISED ON THE MANIFESTS TO:\rNA3077, HAZARDOUS WASTE, SOLID, N.O.S., (CHROMIUM, PCBS), 9, PGIII, ERG #171\rCHROMIUM DEMO DEBRIS",
+      "managed": [
+       "sludge trtmnt / stab / encap"
+      ],
+      "tons": 44.1
+     },
+     {
+      "codes": [
+       "D007"
+      ],
+      "description": "NA3077, HAZARDOUS WASTE, SOLID, N.O.S., (CHROMIUM), 9, PGIII, ERG#171\rPAINT CHIPS",
+      "managed": [
+       "sludge trtmnt / stab / encap"
+      ],
+      "tons": 0.12
+     },
+     {
+      "codes": [
+       "D008"
+      ],
+      "description": "NA3077, HAZARDOUS WASTE, SOLID, N.O.S., (LEAD), 9, PGIII, ERG #171\rLEAD PAINT CHIPS",
+      "managed": [
+       "sludge trtmnt / stab / encap"
+      ],
+      "tons": 0.01
+     }
+    ],
+    "street": "3372 BROWNTOWN ROAD",
+    "tons": 44.23,
+    "zip": "49106"
+   },
+   {
+    "city": "Elkhart",
+    "company": null,
+    "county": "18039",
+    "id": "INR000147207",
+    "naics": "331420",
+    "name": "LAKE COPPER CONDUCTORS HOFFMAN BUILDING",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [
+       "D007"
+      ],
+      "description": "UN3265, WASTE CORROSIVE LIQUID, ACIDIC, ORGANIC, N.O.S. (SULFONIC ACID), 8, 11, RQ (D002)",
+      "managed": [
+       "sludge trtmnt / stab / encap"
+      ],
+      "tons": 36.16
+     }
+    ],
+    "street": "4906 HOFFMAN ST STE A",
+    "tons": 36.16,
+    "zip": "46516"
+   },
+   {
+    "city": "Elkhart",
+    "company": "mcdowell-enterprises-inc-elkhart-2010",
+    "county": "18039",
+    "id": "IND051212439",
+    "naics": "332813",
+    "name": "MCDOWELL ENTERPRISES INC",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [
+       "F006"
+      ],
+      "description": "RQ, NA3077, HAZARDOUS WASTE SOLID, NOS, 9, PG III",
+      "managed": [
+       "landfill"
+      ],
+      "tons": 33.67
+     }
+    ],
+    "street": "2010 SUPERIOR ST",
+    "tons": 33.67,
+    "zip": "46516"
+   },
+   {
+    "city": "Warsaw",
+    "company": "whimet-inc-warsaw-2100",
+    "county": "18085",
+    "id": "INR000109744",
+    "naics": "332813",
+    "name": "PARAGON MEDICAL - WARSAW FINISHING SERVICES",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [
+       "F006"
+      ],
+      "description": "HAZARDOUS WASTE SOLID, NOS, NA 3077, F006",
+      "managed": [
+       "sludge trtmnt / stab / encap"
+      ],
+      "tons": 31.5
+     }
+    ],
+    "street": "2100 N DETROIT ST",
+    "tons": 31.5,
+    "zip": "46580"
+   },
+   {
+    "city": "Warsaw",
+    "company": "r-r-donnelley-sons-co-warsaw-2801",
+    "county": "18085",
+    "id": "IND005480710",
+    "naics": "323111",
+    "name": "LSC COMMUNICATIONS WARSAW",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [
+       "F006"
+      ],
+      "description": "PLATING WASTE",
+      "managed": [
+       "metals recovery"
+      ],
+      "tons": 15.45
+     },
+     {
+      "codes": [],
+      "description": "COPPER PLATING LIQUID",
+      "managed": [
+       "landfill"
+      ],
+      "tons": 10.12
+     },
+     {
+      "codes": [
+       "D007"
+      ],
+      "description": "SPENT CHROMIC ACID",
+      "managed": [],
+      "tons": 4.2
+     },
+     {
+      "codes": [
+       "D007"
+      ],
+      "description": "DECHROMER",
+      "managed": [
+       "landfill"
+      ],
+      "tons": 0.9
+     }
+    ],
+    "street": "2801 W OLD US HWY 30",
+    "tons": 30.67,
+    "zip": "46580"
+   },
+   {
+    "city": "Elkhart",
+    "company": "conn-selmer-inc-elkhart-1000",
+    "county": "18039",
+    "id": "IND005215637",
+    "naics": "339992",
+    "name": "CONN SELMER WOODWIND DIVISION",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [
+       "F006"
+      ],
+      "description": "CLARIFIER SLUDGE",
+      "managed": [
+       "sludge trtmnt / stab / encap"
+      ],
+      "tons": 23.52
+     },
+     {
+      "codes": [],
+      "description": "SULFURIC NICKEL STRIP SOLUTION",
+      "managed": [
+       "sludge trtmnt / stab / encap"
+      ],
+      "tons": 1.38
+     }
+    ],
+    "street": "1000 INDUSTRIAL PKWY",
+    "tons": 24.9,
+    "zip": "46516"
+   },
+   {
+    "city": "Niles",
+    "company": "national-standard-co-inc-niles-1631",
+    "county": "26021",
+    "id": "MIT270010549",
+    "naics": "331222",
+    "name": "NATIONAL STANDARD COMPANY LLC",
+    "state": "MI",
+    "streams": [
+     {
+      "codes": [
+       "K062"
+      ],
+      "description": "SULFURIC ACID FROM TANK",
+      "managed": [
+       "wastewater treatment"
+      ],
+      "tons": 21.49
+     }
+    ],
+    "street": "1631 LAKE ST",
+    "tons": 21.49,
+    "zip": "49120"
+   },
+   {
+    "city": "Benton Harbor",
+    "company": null,
+    "county": "26021",
+    "id": "MIR000102574",
+    "naics": "562910",
+    "name": "MI DEPT/ENVIRONMENTAL QUALITY",
+    "state": "MI",
+    "streams": [
+     {
+      "codes": [
+       "F006"
+      ],
+      "description": "NA 3082, HAZARDOUS WASTE LIQUID, NOS 9, PGIII, ERG #171.",
+      "managed": [
+       "landfill"
+      ],
+      "tons": 20.0
+     }
+    ],
+    "street": "655 VALLEY DRIVE",
+    "tons": 20.0,
+    "zip": "49022"
+   },
+   {
+    "city": "Avilla",
+    "company": null,
+    "county": "18113",
+    "id": "INR000013177",
+    "naics": "332813",
+    "name": "TERNET METAL FINISHING INC",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [
+       "F006"
+      ],
+      "description": "HS - 3583 WASTEWATER TREATMENT SLUDGE",
+      "managed": [
+       "sludge trtmnt / stab / encap"
+      ],
+      "tons": 18.16
+     }
+    ],
+    "street": "150 GREEN DR",
+    "tons": 18.16,
+    "zip": "46710"
+   },
+   {
+    "city": "Ligonier",
+    "company": "tenneco-inc-ligonier-1490",
+    "county": "18113",
+    "id": "IND984896993",
+    "naics": "336390",
+    "name": "TENNECO AUTOMOTIVE OPERATING COMPANY INCORPORATED",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [
+       "D007"
+      ],
+      "description": "NA3082 HAZARDOUS WASTE, LIQUID, N.O.S., (CHROMIUM), 9, PGIII, ERG#171",
+      "managed": [
+       "sludge trtmnt / stab / encap"
+      ],
+      "tons": 17.52
+     },
+     {
+      "codes": [
+       "D007"
+      ],
+      "description": "NA3077, HAZARDOUS WASTE, NOS, (CHROMIUM) 9 PG III ERG 171",
+      "managed": [
+       "sludge trtmnt / stab / encap"
+      ],
+      "tons": 0.25
+     },
+     {
+      "codes": [
+       "D007"
+      ],
+      "description": "UN1789, WASTE HYDROCHLORIC ACID, 8 PG II ERG 157",
+      "managed": [
+       "wastewater treatment"
+      ],
+      "tons": 0.07
+     }
+    ],
+    "street": "1490 GERBER STREET",
+    "tons": 17.84,
+    "zip": "46767"
+   },
+   {
+    "city": "Benton Harbor",
+    "company": null,
+    "county": "26021",
+    "id": "MID981091218",
+    "naics": "332811",
+    "name": "CHAMPLAIN SPECIALTY METALS INC",
+    "state": "MI",
+    "streams": [
+     {
+      "codes": [
+       "D008"
+      ],
+      "description": "LEAD-LADEN CHARCOAL FROM MOLTEN LEAD BATH",
+      "managed": [
+       "metals recovery"
+      ],
+      "tons": 16.18
+     }
+    ],
+    "street": "2235 DEWEY AVE",
+    "tons": 16.18,
+    "zip": "49022"
+   },
+   {
+    "city": "Saint Joseph",
+    "company": "leco-corp-saint-joseph-3000",
+    "county": "26021",
+    "id": "MIT270010325",
+    "naics": "334516",
+    "name": "LECO CORPORATION",
+    "state": "MI",
+    "streams": [
+     {
+      "codes": [
+       "F006"
+      ],
+      "description": "PROCESS FILTER CAKE FROM PLATING OPERATION",
+      "managed": [
+       "sludge trtmnt / stab / encap"
+      ],
+      "tons": 12.01
+     },
+     {
+      "codes": [],
+      "description": "SPENT NITRIC/NICKEL SOLUTION FROM PLATING OPERATION",
+      "managed": [],
+      "tons": 0.35
+     },
+     {
+      "codes": [
+       "F007"
+      ],
+      "description": "SPENT GOLD FLASH SOLUTION",
+      "managed": [
+       "wastewater treatment"
+      ],
+      "tons": 0.08
+     },
+     {
+      "codes": [],
+      "description": "SOLDER PASTE DEBRIS",
+      "managed": [
+       "sludge trtmnt / stab / encap"
+      ],
+      "tons": 0.05
+     },
+     {
+      "codes": [],
+      "description": "LITHIUM HYDRIDE LAB PACK",
+      "managed": [
+       "incineration"
+      ],
+      "tons": 0.0
+     }
+    ],
+    "street": "3000 LAKEVIEW AVE",
+    "tons": 12.49,
+    "zip": "49085"
+   },
+   {
+    "city": "Warsaw",
+    "company": "danco-anodizing-inc-warsaw-2450",
+    "county": "18085",
+    "id": "INR000101139",
+    "naics": "332813",
+    "name": "DANCO MEDICAL",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [
+       "D007"
+      ],
+      "description": "CHROME PLATE STRIP",
+      "managed": [
+       "wastewater treatment"
+      ],
+      "tons": 5.03
+     },
+     {
+      "codes": [
+       "D007"
+      ],
+      "description": "CHROME CONTAMINATED DEBRIS",
+      "managed": [
+       "other treatment"
+      ],
+      "tons": 3.54
+     }
+    ],
+    "street": "2450 DEELYN DR",
+    "tons": 8.57,
+    "zip": "46580"
+   },
+   {
+    "city": "Warsaw",
+    "company": null,
+    "county": "18085",
+    "id": "IND070987714",
+    "naics": "339112",
+    "name": "TECOMET - WARSAW BUILDING 1",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [
+       "D007"
+      ],
+      "description": "WASTE CORROSIVE LIQUID, ACIDIC, INORGANIC, (NITRIC ACID, SODIUM DICHROMATE0",
+      "managed": [],
+      "tons": 4.67
+     },
+     {
+      "codes": [
+       "D007"
+      ],
+      "description": "WASTE CORROSIVE LIQUIDS, ACIDIC, INORGANIC PHOSPHORIC",
+      "managed": [],
+      "tons": 2.72
+     },
+     {
+      "codes": [],
+      "description": "WASTE METAL POWDERS, FLAMMABLE, NOS, TITANIUM, ALUMINUM, 4.1",
+      "managed": [],
+      "tons": 0.88
+     }
+    ],
+    "street": "486 W CR 350 N",
+    "tons": 8.27,
+    "zip": "46580"
+   },
+   {
+    "city": "Mishawaka",
+    "company": null,
+    "county": "18141",
+    "id": "IND984872846",
+    "naics": "324191",
+    "name": "INSERV INCORPORATED",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [
+       "F006"
+      ],
+      "description": "SOLIDIFIED F006 WASTE",
+      "managed": [
+       "landfill",
+       "sludge trtmnt / stab / encap"
+      ],
+      "tons": 8.18
+     }
+    ],
+    "street": "1122 DIVISION ST",
+    "tons": 8.18,
+    "zip": "46545"
+   },
+   {
+    "city": "Michigan City",
+    "company": "criterion-catalyst-technologies-l-p-michigan-city-1800",
+    "county": "18091",
+    "id": "IND005159546",
+    "naics": "325180",
+    "name": "SHELL CATALYST & TECHNOLOGIES LP",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [
+       "D008"
+      ],
+      "description": "RQ, NA3077, WASTE, HAZARDOUS WASTE, SOLID, N.O.S., 9, PGIII, ERG#171",
+      "managed": [
+       "sludge trtmnt / stab / encap"
+      ],
+      "tons": 6.84
+     },
+     {
+      "codes": [
+       "D009"
+      ],
+      "description": "UN2809, WASTE MERCURY, 8, (6.1), III, RQ (D009)",
+      "managed": [
+       "metals recovery"
+      ],
+      "tons": 0.01
+     }
+    ],
+    "street": "1800 E US HWY 12",
+    "tons": 6.85,
+    "zip": "46360"
+   },
+   {
+    "city": "Goshen",
+    "company": "homecrest-cabinetry-goshen-1002",
+    "county": "18039",
+    "id": "IND990872806",
+    "naics": "337110",
+    "name": "MASTERBRAND CABINETS LLC",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [
+       "D007"
+      ],
+      "description": "NA3077, HAZARDOUS WASTE SOLID, N.O.S. (CHROMIUM), 9, PGIII - WASTE SPRAY BOOTH FILTERS",
+      "managed": [],
+      "tons": 6.75
+     }
+    ],
+    "street": "1002 EISENHOWER DR N",
+    "tons": 6.75,
+    "zip": "46526"
+   },
+   {
+    "city": "Elkhart",
+    "company": null,
+    "county": "18039",
+    "id": "INR000135061",
+    "naics": "331420",
+    "name": "LAKE COPPER CONDUCTORS LLC",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [
+       "D007"
+      ],
+      "description": "UN3265, WASTE CORROSIVE LIQUID, ACIDIC, ORGANIC, N.O.S. (SULFONIC ACID), 8, II, RQ (D002)",
+      "managed": [
+       "sludge trtmnt / stab / encap"
+      ],
+      "tons": 6.75
+     }
+    ],
+    "street": "4430 EASTLAND DR",
+    "tons": 6.75,
+    "zip": "46516"
+   },
+   {
+    "city": "Elkhart",
+    "company": "voyant-beauty-elkhart-personal-care-elkhart-2730",
+    "county": "18039",
+    "id": "IND042080614",
+    "naics": "325620",
+    "name": "ACCRA-PAC, INC DBA VOYANT BEAUTY",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [
+       "D007"
+      ],
+      "description": "RQ, UN1814, WASTE, POTASSIUM HYDROXIDE, SOLUTION, 8, PGII, 1001, ERG#154",
+      "managed": [
+       "sludge trtmnt / stab / encap"
+      ],
+      "tons": 6.32
+     }
+    ],
+    "street": "2730 MIDDLEBURY ST",
+    "tons": 6.32,
+    "zip": "46515"
+   },
+   {
+    "city": "Pierceton",
+    "company": "paragon-medical-inc-pierceton-8",
+    "county": "18085",
+    "id": "INR000149831",
+    "naics": "339113",
+    "name": "PARAGON MEDICAL - INSTRUMENTS & IMPLANTS",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [
+       "D007"
+      ],
+      "description": "WASTE EDM FILTERS (CHROMIUM)",
+      "managed": [],
+      "tons": 6.32
+     }
+    ],
+    "street": "8 MATCHETT DRIVE",
+    "tons": 6.32,
+    "zip": "46562"
+   },
+   {
+    "city": "Ligonier",
+    "company": "guardian-industries-corp-ligonier-860",
+    "county": "18113",
+    "id": "IND984891366",
+    "naics": "327215",
+    "name": "CARLEX GLASS AMERICA LLC",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [
+       "D011"
+      ],
+      "description": "RQ NA3007, HAZARDOUS WASTE, SOLID, N.O.S. (SILVER) 9, PGIII",
+      "managed": [
+       "metals recovery"
+      ],
+      "tons": 3.36
+     },
+     {
+      "codes": [
+       "D007"
+      ],
+      "description": "UN1993 WASTE FLAMMABLE LIQUIDS N.O.S. (PAINT,CHROME) 3 III RQ",
+      "managed": [
+       "solvents recovery"
+      ],
+      "tons": 1.76
+     },
+     {
+      "codes": [
+       "D005"
+      ],
+      "description": "NA3082  HAZARDOUS WASTE, LIQUID, N.O.S. (OXOALUMINUM BENZOATE / STEARATESTYRENE-ETHYLENE / PROPYLENEBLOCK COPOLYMER) 9III",
+      "managed": [],
+      "tons": 0.4
+     }
+    ],
+    "street": "860 W US HWY 6",
+    "tons": 5.52,
+    "zip": "46767"
+   },
+   {
+    "city": "Elkhart",
+    "company": "crosbie-foundry-co-inc-elkhart-1600",
+    "county": "18039",
+    "id": "IND005101217",
+    "naics": "331410",
+    "name": "CROSBIE FOUNDRY CO",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [
+       "D008"
+      ],
+      "description": "RQ, SPENT FOUNDRY SAND CONTAINING LEAD",
+      "managed": [
+       "sludge trtmnt / stab / encap"
+      ],
+      "tons": 5.5
+     }
+    ],
+    "street": "1600 MISHAWAKA ST",
+    "tons": 5.5,
+    "zip": "46514"
+   },
+   {
+    "city": "La Porte",
+    "company": "roll-coater-inc-la-porte-858",
+    "county": "18091",
+    "id": "IND990873606",
+    "naics": "332812",
+    "name": "PRECOAT METALS",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [
+       "D007"
+      ],
+      "description": "CHROMIUM TANK BOTTOM SLUDGE",
+      "managed": [],
+      "tons": 4.49
+     },
+     {
+      "codes": [
+       "D007"
+      ],
+      "description": "WASTE WIPES WITH CHROMIC ACID",
+      "managed": [],
+      "tons": 0.05
+     }
+    ],
+    "street": "858 EAST HUPP ROAD",
+    "tons": 4.54,
+    "zip": "46350"
+   },
+   {
+    "city": "South Bend",
+    "company": "nimet-industries-inc-south-bend-2424",
+    "county": "18141",
+    "id": "IND005462890",
+    "naics": "332813",
+    "name": "PIONEER METAL FINISHING, LLC",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [],
+      "description": "NICKEL NITRATE SOLUTION (NITRIC ACID)",
+      "managed": [],
+      "tons": 4.53
+     }
+    ],
+    "street": "2424 N FOUNDATION DR",
+    "tons": 4.53,
+    "zip": "46628"
+   },
+   {
+    "city": "Warsaw",
+    "company": null,
+    "county": "18085",
+    "id": "INR000115808",
+    "naics": "332813",
+    "name": "WARSAW ELECTROPOLISHING",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [
+       "F006"
+      ],
+      "description": "WASTE WATER TREATMENT SLUDGE",
+      "managed": [
+       "wastewater treatment"
+      ],
+      "tons": 3.53
+     }
+    ],
+    "street": "125 W CR 250 N",
+    "tons": 3.53,
+    "zip": "46582"
+   },
+   {
+    "city": "Elkhart",
+    "company": "atlas-die-llc-chem-milling-div-elkhart-1627",
+    "county": "18039",
+    "id": "IND092043595",
+    "naics": "332812",
+    "name": "ATLAS CHEM MILLING",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [
+       "F006"
+      ],
+      "description": "RQ, NA3077, WASTE HAZARDOUS WASTE, SOLID, N.O.S. (FILTER PRESS SLUDGE), 9, PG, III",
+      "managed": [],
+      "tons": 3.06
+     }
+    ],
+    "street": "1627 W LUSHER AVE",
+    "tons": 3.06,
+    "zip": "46517"
+   },
+   {
+    "city": "South Bend",
+    "company": null,
+    "county": "18141",
+    "id": "INR000147116",
+    "naics": "493110",
+    "name": "AMAZON.COM SERVICES LLC - DIN3",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [
+       "D005"
+      ],
+      "description": "AMMONIA BASIC, CORROSIVE, PRODUCTS- RCRA HAZARDOUS",
+      "managed": [],
+      "tons": 2.38
+     }
+    ],
+    "street": "5545 CHET WAGGONER COURT",
+    "tons": 2.38,
+    "zip": "46628"
+   },
+   {
+    "city": "South Bend",
+    "company": null,
+    "county": "18141",
+    "id": "INT190014381",
+    "naics": "622110",
+    "name": "MEMORIAL HOSPITAL OF SOUTH BEND INCORPORATED",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [],
+      "description": "ALKALINE DRY CELL BATTERIES/LEAD ACID BATTERIES",
+      "managed": [],
+      "tons": 2.14
+     },
+     {
+      "codes": [
+       "D005"
+      ],
+      "description": "WASTE FLAMMABLE AND CORROSIVE LIQUIDS, HYDROGEN PEROXIDE, NITROCELLULOSE.",
+      "managed": [
+       "incineration"
+      ],
+      "tons": 0.12
+     }
+    ],
+    "street": "615 N MICHIGAN ST",
+    "tons": 2.26,
+    "zip": "46601"
+   },
+   {
+    "city": "South Whitley",
+    "company": "fox-products-corp-south-whitley-6110",
+    "county": "18183",
+    "id": "INR000144030",
+    "naics": "339992",
+    "name": "FOX PRODUCTS INCORPORATED",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [
+       "F006"
+      ],
+      "description": "RQ, NA3077, HAZARDOUS WASTE, SOLID, N.O.S.,9,PG III, (FILTER CAKE, F006), (F006), ERG#171",
+      "managed": [
+       "sludge trtmnt / stab / encap"
+      ],
+      "tons": 1.26
+     },
+     {
+      "codes": [],
+      "description": "RQ,UN3077,WASTE ENVIRONMENTALLY HAZARDOUS SUBSTANCES, SOLID, N.O.S.,9,PGIII, (LEAD,SILVER), (D011 D007), ERG#171",
+      "managed": [
+       "incineration"
+      ],
+      "tons": 0.6
+     },
+     {
+      "codes": [
+       "F007"
+      ],
+      "description": "UN3413, POTASSIUM CYANIDE SOLUTION,6.1, PGII",
+      "managed": [
+       "metals recovery"
+      ],
+      "tons": 0.2
+     },
+     {
+      "codes": [
+       "F007"
+      ],
+      "description": "UN3290,TOXIC SOLID,CORROSIVE, INORGANIC, N.O.S., (POTASSIUM CYANIDE, POTASSIUM SILVER CYANIDE),6.1,8,PG II",
+      "managed": [
+       "metals recovery"
+      ],
+      "tons": 0.03
+     }
+    ],
+    "street": "601 N HATHAWAY DR",
+    "tons": 2.09,
+    "zip": "46787"
+   },
+   {
+    "city": "New Carlisle",
+    "company": "edcoat-new-carlisle-30350",
+    "county": "18141",
+    "id": "INR000018291",
+    "naics": "332812",
+    "name": "EDCOAT LLC",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [
+       "D007"
+      ],
+      "description": "WASTE OXIDIZING SOLID N.O.S. CHROMIC ACID USED IN THE PAINTING PROCESS",
+      "managed": [],
+      "tons": 0.92
+     },
+     {
+      "codes": [
+       "D007"
+      ],
+      "description": "WASTE OXIDIZING LIQUID N.O.S. CHROMIC ACID USED IN THE PAINTING PROCESS",
+      "managed": [
+       "sludge trtmnt / stab / encap"
+      ],
+      "tons": 0.69
+     }
+    ],
+    "street": "30350 EDISON RD",
+    "tons": 1.61,
+    "zip": "46552"
+   },
+   {
+    "city": "Churubusco",
+    "company": "c-a-tool-engineering-inc-churubusco-4100",
+    "county": "18183",
+    "id": "INR000158105",
+    "naics": "332721",
+    "name": "C & A TOOL ENGINEERING,INC.",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [],
+      "description": "TITANIUM POWDER",
+      "managed": [
+       "incineration"
+      ],
+      "tons": 1.59
+     }
+    ],
+    "street": "4100 N U.S. 33",
+    "tons": 1.59,
+    "zip": "46723"
+   },
+   {
+    "city": "South Haven",
+    "company": "w-r-grace-south-haven-south-haven-1421",
+    "county": "26159",
+    "id": "MID080361454",
+    "naics": "325411",
+    "name": "W. R. GRACE & CO - CONN",
+    "state": "MI",
+    "streams": [
+     {
+      "codes": [],
+      "description": "WASTE FLAMMABLE CORROSIVE LIQUIDS (SILVER CONTAINING)",
+      "managed": [
+       "metals recovery"
+      ],
+      "tons": 1.0
+     },
+     {
+      "codes": [],
+      "description": "WASTE CATALYST",
+      "managed": [],
+      "tons": 0.23
+     },
+     {
+      "codes": [],
+      "description": "WASTE TYZOR TNBT - TITANIUM TETRABUTANOLATE",
+      "managed": [
+       "incineration"
+      ],
+      "tons": 0.23
+     },
+     {
+      "codes": [
+       "D011"
+      ],
+      "description": "WASTE INORGANIC OXIDIZERS",
+      "managed": [],
+      "tons": 0.01
+     }
+    ],
+    "street": "1421 KALAMAZOO ST",
+    "tons": 1.47,
+    "zip": "49090"
+   },
+   {
+    "city": "Mishawaka",
+    "company": "remote-controls-inc-mishawaka-512",
+    "county": "18141",
+    "id": "IND005226949",
+    "naics": "332813",
+    "name": "REMOTE CONTROLS INCORPORATED",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [],
+      "description": "UN3264, WASTE CORROSIVE LIQUID, ACIDIC, INORGANIC, N.O.S., (SULFURIC ACID, CHROMIC ACID) 8, II, RQ(DOO6), 75-12045 CHROMATIC SULFURIC CLEANER",
+      "managed": [
+       "wastewater treatment"
+      ],
+      "tons": 0.78
+     },
+     {
+      "codes": [
+       "D007"
+      ],
+      "description": "NA3082, HAZARDOUS WASTE, LIQUID, N.O.S., 9, PG III, RQ (D007) SPECIALTY DEEP BLACK HL3",
+      "managed": [
+       "sludge trtmnt / stab / encap"
+      ],
+      "tons": 0.6
+     }
+    ],
+    "street": "512 S MERRIFIELD AVE",
+    "tons": 1.38,
+    "zip": "46544"
+   },
+   {
+    "city": "Mishawaka",
+    "company": "siemens-healthcare-diagnostics-inc-mishawaka-430",
+    "county": "18141",
+    "id": "IND000685537",
+    "naics": "325413",
+    "name": "SIEMENS HEALTHCARE DIAGNOSTICS INCORPORATED",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [
+       "D004"
+      ],
+      "description": "NITRITE PAPER",
+      "managed": [
+       "sludge trtmnt / stab / encap"
+      ],
+      "tons": 1.3
+     },
+     {
+      "codes": [
+       "D009"
+      ],
+      "description": "ALKALI METAL AMALGAM (SODIUM, MERCURY)",
+      "managed": [
+       "metals recovery"
+      ],
+      "tons": 0.04
+     }
+    ],
+    "street": "430 S BEIGER ST",
+    "tons": 1.34,
+    "zip": "46544"
+   },
+   {
+    "city": "South Bend",
+    "company": null,
+    "county": "18141",
+    "id": "INR000154385",
+    "naics": "22121",
+    "name": "JACKSON ROAD METER- REGULATOR STATION",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [
+       "D008"
+      ],
+      "description": "PAINTING WASTE - SANDBLAST MEDIA AND/OR STRIPPER PASTE",
+      "managed": [],
+      "tons": 1.0
+     }
+    ],
+    "street": "JACKSON RD BETWEEN SCOTT ST AND S MAIN ST",
+    "tons": 1.0,
+    "zip": "46614"
+   },
+   {
+    "city": "South Bend",
+    "company": null,
+    "county": "18141",
+    "id": "IND984874552",
+    "naics": "484122",
+    "name": "XPO LOGISTICS FREIGHT, INC. - XSB",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [
+       "D007"
+      ],
+      "description": "UN3077 WASTE HAZ SUBSTANCES",
+      "managed": [
+       "landfill"
+      ],
+      "tons": 0.86
+     }
+    ],
+    "street": "1530 S OLIVE ST",
+    "tons": 0.86,
+    "zip": "46619"
+   },
+   {
+    "city": "Kendallville",
+    "company": "b-j-medical-llc-kendallville-4268",
+    "county": "18113",
+    "id": "INR000145086",
+    "naics": "339113",
+    "name": "B & J MEDICAL INCORPORATED LLC",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [],
+      "description": "HAZARDOUS WASTE, SOLID, N.C.S., 9, PG III, (CONTAINS BARIUM, CHROMIUM, LEAD, AND SILVER)",
+      "managed": [],
+      "tons": 0.71
+     }
+    ],
+    "street": "4268 E US HWY 6",
+    "tons": 0.71,
+    "zip": "46755"
+   },
+   {
+    "city": "South Bend",
+    "company": null,
+    "county": "18141",
+    "id": "INR000141275",
+    "naics": "423450",
+    "name": "PATTERSON LOGISTICS SERVICES INCORPORATED",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [
+       "D011"
+      ],
+      "description": "WASTE CORROSIVE LIQUID",
+      "managed": [
+       "incineration"
+      ],
+      "tons": 0.52
+     },
+     {
+      "codes": [
+       "D009"
+      ],
+      "description": "WASTE MERCURY",
+      "managed": [],
+      "tons": 0.11
+     }
+    ],
+    "street": "7055 CLEVELAND RD",
+    "tons": 0.63,
+    "zip": "46628"
+   },
+   {
+    "city": "Warsaw",
+    "company": "biomet-inc-warsaw-56",
+    "county": "18085",
+    "id": "IND086782224",
+    "naics": "339999",
+    "name": "ZIMMER BIOMET",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [],
+      "description": "TITANIUM ALLOY DUST",
+      "managed": [
+       "incineration"
+      ],
+      "tons": 0.6
+     },
+     {
+      "codes": [],
+      "description": "ROUND FILTERS CONT. W/DUST AND TITANIUM",
+      "managed": [
+       "incineration"
+      ],
+      "tons": 0.02
+     }
+    ],
+    "street": "56 E BELL DR",
+    "tons": 0.62,
+    "zip": "46582"
+   },
+   {
+    "city": "Warsaw",
+    "company": "medtronic-sofamor-danek-inc-warsaw-2500",
+    "county": "18085",
+    "id": "INR000023077",
+    "naics": "339112",
+    "name": "WARSAW ORTHOPEDIC INCORPORATED",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [
+       "D007"
+      ],
+      "description": "UN3264, WASTE UN3264, WASTE CORROSIVE LIQUID, ACIDIC , INORGANIC, N.O.S., ), 8, PG I (PHOSPHORIC ACID, SULFURIC ACID), 8, PG II",
+      "managed": [
+       "incineration"
+      ],
+      "tons": 0.6
+     }
+    ],
+    "street": "2500 SILVEUS CROSSING",
+    "tons": 0.6,
+    "zip": "46582"
+   },
+   {
+    "city": "South Bend",
+    "company": "heraeus-kulzer-inc-dental-mfg-south-bend-4315",
+    "county": "18141",
+    "id": "IND094559630",
+    "naics": "339114",
+    "name": "KULZER LLC",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [
+       "D007"
+      ],
+      "description": "UN3082, WASTE ENVIRONMENTALLY HAZARDOUS SUBSTANCE, LIQUID, N.O.S., (CHROMIUM), 9,III, RQ(D007), ERG# 171",
+      "managed": [],
+      "tons": 0.52
+     },
+     {
+      "codes": [],
+      "description": "UN2809, WASTE MERCURY, 8, (6.1), III, ERG# 172",
+      "managed": [],
+      "tons": 0.02
+     }
+    ],
+    "street": "4315 S LAFAYETTE BLVD",
+    "tons": 0.54,
+    "zip": "46614"
+   },
+   {
+    "city": "Elkhart",
+    "company": null,
+    "county": "18039",
+    "id": "IND053658654",
+    "naics": "332996",
+    "name": "ELKHART PRODUCTS CORPORATION",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [
+       "F006"
+      ],
+      "description": "NA3077, WASTE HAZARDOUS WASTE SOLID, N.O.S., (FILTERS, FLOOR DRY), 9, PG III, RQ",
+      "managed": [],
+      "tons": 0.5
+     },
+     {
+      "codes": [
+       "D011"
+      ],
+      "description": "UN3082 WASTE ENVIRONMENTALLY HAZARDOUS SUBSTANCE, LIQUID, N.O.S. (SILVER), 9, PG III",
+      "managed": [
+       "fuel blending"
+      ],
+      "tons": 0.02
+     }
+    ],
+    "street": "1255 OAK ST",
+    "tons": 0.52,
+    "zip": "46514"
+   },
+   {
+    "city": "Mill Creek",
+    "company": null,
+    "county": "18091",
+    "id": "INR000153213",
+    "naics": "221121",
+    "name": "NIPSCO - TOWER WORKSITE #2023-6",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [
+       "D008"
+      ],
+      "description": "LEAD PAINT CONTAMINATED DEBRIS.",
+      "managed": [
+       "sludge trtmnt / stab / encap"
+      ],
+      "tons": 0.49
+     }
+    ],
+    "street": "6321 EAST STATE HIGHWAY 4",
+    "tons": 0.49,
+    "zip": "46365"
+   },
+   {
+    "city": "Walkerton",
+    "company": null,
+    "county": "18141",
+    "id": "INR000111955",
+    "naics": "423710",
+    "name": "EAST COAST FASTENERS",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [
+       "D005"
+      ],
+      "description": "WASTE FLAMMABLE SOLIDS, ORGANIC N.O.S. 4.1 UN1325 PGIII",
+      "managed": [
+       "energy recovery",
+       "solvents recovery"
+      ],
+      "tons": 0.48
+     }
+    ],
+    "street": "300 INDUSTRIAL PARK DR",
+    "tons": 0.48,
+    "zip": "46574"
+   },
+   {
+    "city": "Mill Creek",
+    "company": null,
+    "county": "18091",
+    "id": "INR000153130",
+    "naics": "221121",
+    "name": "NIPSCO - TOWER WORKSITE #2023-7",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [
+       "D008"
+      ],
+      "description": "LEAD PAINT CONTAMINATED DEBRIS.",
+      "managed": [
+       "sludge trtmnt / stab / encap"
+      ],
+      "tons": 0.44
+     }
+    ],
+    "street": "6358 E 100 S",
+    "tons": 0.44,
+    "zip": "46365"
+   },
+   {
+    "city": "Walkerton",
+    "company": null,
+    "county": "18141",
+    "id": "INR000153155",
+    "naics": "221121",
+    "name": "NIPSCO - TOWER WORKSITE #2023-3",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [
+       "D008"
+      ],
+      "description": "LEAD PAINT CONTAMINATED DEBRIS.",
+      "managed": [
+       "sludge trtmnt / stab / encap"
+      ],
+      "tons": 0.41
+     }
+    ],
+    "street": "6330 E 350 S",
+    "tons": 0.41,
+    "zip": "46574"
+   },
+   {
+    "city": "South Bend",
+    "company": null,
+    "county": "18141",
+    "id": "IND064702889",
+    "naics": "621511",
+    "name": "SOUTH BEND MEDICAL FOUNDATION",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [
+       "D009"
+      ],
+      "description": "NA3077, HAZARDOUS WASTE, SOLID, N.O.S., (CRUSHED FLUORESCENT LAMPS WITH MERCURY), 9, PG III",
+      "managed": [
+       "landfill"
+      ],
+      "tons": 0.4
+     }
+    ],
+    "street": "530 N LAFAYETTE BLVD",
+    "tons": 0.4,
+    "zip": "46601"
+   },
+   {
+    "city": "Walkerton",
+    "company": null,
+    "county": "18141",
+    "id": "INR000153163",
+    "naics": "221121",
+    "name": "NIPSCO - TOWER WORKSITE #2023-2",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [
+       "D008"
+      ],
+      "description": "LEAD PAINT CONTAMINATED DEBRIS.",
+      "managed": [
+       "sludge trtmnt / stab / encap"
+      ],
+      "tons": 0.36
+     }
+    ],
+    "street": "6351 E STATE ROAD 104",
+    "tons": 0.36,
+    "zip": "46574"
+   },
+   {
+    "city": "Hamlet",
+    "company": null,
+    "county": "18149",
+    "id": "INR000154393",
+    "naics": "22121",
+    "name": "HAMLET - REGULATOR STATION - 7190",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [
+       "D008"
+      ],
+      "description": "PAINTING WASTE - SANDBLAST MEDIA AND/OR STRIPPER PASTE",
+      "managed": [],
+      "tons": 0.33
+     }
+    ],
+    "street": "N 600 E - 850 FT N OF E OLD US HWY 30",
+    "tons": 0.33,
+    "zip": "46532"
+   },
+   {
+    "city": "Mill Creek",
+    "company": null,
+    "county": "18091",
+    "id": "INR000153122",
+    "naics": "221121",
+    "name": "NIPSCO - TOWER WORKSITE #2023-9",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [
+       "D008"
+      ],
+      "description": "LEAD PAINT CONTAMINATED DEBRIS.",
+      "managed": [
+       "sludge trtmnt / stab / encap"
+      ],
+      "tons": 0.32
+     }
+    ],
+    "street": "6276 EAST DIVISION ROAD",
+    "tons": 0.32,
+    "zip": "46365"
+   },
+   {
+    "city": "North Liberty",
+    "company": null,
+    "county": "18141",
+    "id": "INR000154500",
+    "naics": "22121",
+    "name": "NORTH LIBERTY - REGULATOR STATION 7164",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [
+       "D008"
+      ],
+      "description": "PAINTING WASTE - SANDBLAST MEDIA AND/OR STRIPPER PASTE",
+      "managed": [],
+      "tons": 0.3
+     }
+    ],
+    "street": "NW OF DEAD END OF W MAPLE DRIVE",
+    "tons": 0.3,
+    "zip": "46554"
+   },
+   {
+    "city": "Walkerton",
+    "company": null,
+    "county": "18141",
+    "id": "INR000153114",
+    "naics": "221121",
+    "name": "NIPSCO - TOWER WORKSITE #2023-1",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [
+       "D008"
+      ],
+      "description": "LEAD PAINT CONTAMINATED DEBRIS.",
+      "managed": [
+       "sludge trtmnt / stab / encap"
+      ],
+      "tons": 0.28
+     }
+    ],
+    "street": "6252 E STATE ROAD 104",
+    "tons": 0.28,
+    "zip": "46574"
+   },
+   {
+    "city": "Elkhart",
+    "company": null,
+    "county": "18039",
+    "id": "INR000154526",
+    "naics": "22121",
+    "name": "LAFAYETTE AND 10TH - REGULATOR STATION - 7667",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [
+       "D007"
+      ],
+      "description": "PAINTING WASTE - SANDBLAST MEDIA AND/OR STRIPPER PASTE",
+      "managed": [],
+      "tons": 0.28
+     }
+    ],
+    "street": "LAFAYETTE ST  - 75 FT NW ON 10TH ST",
+    "tons": 0.28,
+    "zip": "46516"
+   },
+   {
+    "city": "Rolling Prairie",
+    "company": null,
+    "county": "18091",
+    "id": "INR000153247",
+    "naics": "221121",
+    "name": "NIPSCO - TOWER WORKSITE #2023-13",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [
+       "D008"
+      ],
+      "description": "LEAD PAINT CONTAMINATED DEBRIS.",
+      "managed": [
+       "sludge trtmnt / stab / encap"
+      ],
+      "tons": 0.27
+     }
+    ],
+    "street": "6352 EAST 200 NORTH",
+    "tons": 0.27,
+    "zip": "46371"
+   },
+   {
+    "city": "South Bend",
+    "company": "bertrand",
+    "county": "18141",
+    "id": "IND094573938",
+    "naics": "336413",
+    "name": "BERTRAND PRODUCTS INCORPORATED",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [
+       "D007"
+      ],
+      "description": "WASTE PAINT RELATED MATERIALS",
+      "managed": [],
+      "tons": 0.26
+     }
+    ],
+    "street": "2323 FOUNDATION DR",
+    "tons": 0.26,
+    "zip": "46628"
+   },
+   {
+    "city": "Columbia City",
+    "company": null,
+    "county": "18183",
+    "id": "INR000107391",
+    "naics": "322299",
+    "name": "CHROMASOURCE INCORPORATED",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [
+       "D009"
+      ],
+      "description": "CRUSHED FLUORESCENT LAMPS",
+      "managed": [],
+      "tons": 0.26
+     }
+    ],
+    "street": "2433 S CR 600 E",
+    "tons": 0.26,
+    "zip": "46725"
+   },
+   {
+    "city": "Kendallville",
+    "company": "graphic-packaging-international-llc-kendallville-301",
+    "county": "18113",
+    "id": "IND174936062",
+    "naics": "322212",
+    "name": "GRAPHIC PACKAGING INTERNATIONAL - KENDALLVILLE",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [
+       "D009"
+      ],
+      "description": "BROKEN FLUORESCENT BULBS",
+      "managed": [
+       "landfill"
+      ],
+      "tons": 0.24
+     }
+    ],
+    "street": "301 S PROGRESS DR E",
+    "tons": 0.24,
+    "zip": "46755"
+   },
+   {
+    "city": "Goshen",
+    "company": null,
+    "county": "18039",
+    "id": "INR000154369",
+    "naics": "22121",
+    "name": "VIRGINIA AND RIVERSIDE REGULATOR STATION",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [
+       "D008"
+      ],
+      "description": "PAINTING WASTE - SANDBLAST MEDIA AND/OR STRIPPER PASTE",
+      "managed": [],
+      "tons": 0.2
+     }
+    ],
+    "street": "VIRGINIA ST BETWEEN PARK AVE & N RIVERSIDE BLVD",
+    "tons": 0.2,
+    "zip": "46528"
+   },
+   {
+    "city": "Elkhart",
+    "company": null,
+    "county": "18039",
+    "id": "INR000154401",
+    "naics": "22121",
+    "name": "DUNLAP - SUNNYSIDE - REGULATOR STATION 7098",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [
+       "D008"
+      ],
+      "description": "PAINT WASTE - SANDBLAST MEDIA AND/OR STRIPPER PASTE",
+      "managed": [],
+      "tons": 0.2
+     }
+    ],
+    "street": "SOUTH MAIN ST - 350 FT NORTH OF CONCORD MALL DR.",
+    "tons": 0.2,
+    "zip": "46517"
+   },
+   {
+    "city": "South Bend",
+    "company": null,
+    "county": "18141",
+    "id": "IND985103456",
+    "naics": "541380",
+    "name": "EUROFINS EATON ANALYTICAL LLC",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [
+       "D009"
+      ],
+      "description": "MERCURIC CHLORIDE IN WATER",
+      "managed": [],
+      "tons": 0.14
+     },
+     {
+      "codes": [
+       "D008"
+      ],
+      "description": "FILTERS, LEAD",
+      "managed": [
+       "sludge trtmnt / stab / encap"
+      ],
+      "tons": 0.04
+     }
+    ],
+    "street": "110 S HILL ST",
+    "tons": 0.18,
+    "zip": "46617"
+   },
+   {
+    "city": "Mill Creek",
+    "company": null,
+    "county": "18091",
+    "id": "INR000153239",
+    "naics": "221121",
+    "name": "NIPSCO - TOWER WORKSITE #2023-12",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [
+       "D008"
+      ],
+      "description": "LEAD PAINT CONTAMINATED DEBRIS.",
+      "managed": [
+       "sludge trtmnt / stab / encap"
+      ],
+      "tons": 0.17
+     }
+    ],
+    "street": "6222 EAST 150 NORTH",
+    "tons": 0.17,
+    "zip": "46365"
+   },
+   {
+    "city": "Elkhart",
+    "company": null,
+    "county": "18039",
+    "id": "INR000116939",
+    "naics": "622110",
+    "name": "ELKHART GENERAL HOSPITAL",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [
+       "D011"
+      ],
+      "description": "UN3099 WASTE OXIDIZING LIQUID, TOXIC, N.O.S. (SILVER NITRATE, CARBAMIDE PEROXIDE) II 5.1 6.1 D011=1LB",
+      "managed": [],
+      "tons": 0.16
+     }
+    ],
+    "street": "600 EAST BLVD",
+    "tons": 0.16,
+    "zip": "46514"
+   },
+   {
+    "city": "Middlebury",
+    "company": null,
+    "county": "18039",
+    "id": "INR000154476",
+    "naics": "22121",
+    "name": "MIDDLEBURY - REGULATOR STATION 7200",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [
+       "D008"
+      ],
+      "description": "PAINTING WASTE - SANDBLAST MEDIA AND/OR STRIPPER PASTE",
+      "managed": [],
+      "tons": 0.16
+     }
+    ],
+    "street": "WAYNE ST - NW OF INTERSECTION OF ROGERS DR",
+    "tons": 0.16,
+    "zip": "46540"
+   },
+   {
+    "city": "Goshen",
+    "company": null,
+    "county": "18039",
+    "id": "INR000154567",
+    "naics": "22121",
+    "name": "GOSHEN OPS - REGULATOR STATION - 7853",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [
+       "D008"
+      ],
+      "description": "PAINTING WASTE - SANDBLAST MEDIA AND/OR STRIPPER PASTE",
+      "managed": [],
+      "tons": 0.15
+     }
+    ],
+    "street": "E KERCHER ROAD NEAR INTERSECTION W WINONA RAIL TRL",
+    "tons": 0.15,
+    "zip": "46526"
+   },
+   {
+    "city": "Michigan City",
+    "company": "dekker-vacuum-technologies-inc-michigan-city-935",
+    "county": "18091",
+    "id": "INR000018549",
+    "naics": "33391",
+    "name": "DEKKER VACUUM TECHNOLOGIES INC",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [],
+      "description": "NA3077 HASZARDOUS WASTE SOLID N.O.S CHROMIUM, LEAD",
+      "managed": [
+       "incineration",
+       "solvents recovery"
+      ],
+      "tons": 0.12
+     }
+    ],
+    "street": "935 S WOODLAND AVE",
+    "tons": 0.12,
+    "zip": "46360"
+   },
+   {
+    "city": "Wanatah",
+    "company": null,
+    "county": "18091",
+    "id": "INR000154534",
+    "naics": "22121",
+    "name": "WANATAH 200 - REGULATOR STATION - 7683",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [
+       "D008"
+      ],
+      "description": "PAINTING WASTE - SANDBLAST MEDIA AND/OR STRIPPER PASTE",
+      "managed": [],
+      "tons": 0.12
+     }
+    ],
+    "street": "LEGION ROAD - 135 FT S OF S ILLINOIS ST",
+    "tons": 0.12,
+    "zip": "46390"
+   },
+   {
+    "city": "La Porte",
+    "company": null,
+    "county": "18091",
+    "id": "INR000154559",
+    "naics": "22121",
+    "name": "JOHNSON ROAD - REGULATOR STATION - 7688",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [
+       "D007"
+      ],
+      "description": "PAINTING WASTE - SANDBLAST MEDIA AND/OR STRIPPER PASTE",
+      "managed": [],
+      "tons": 0.12
+     }
+    ],
+    "street": "W JOHNSON RD ACROSS FROM JONGKIND PK RD",
+    "tons": 0.12,
+    "zip": "46350"
+   },
+   {
+    "city": "Walkerton",
+    "company": null,
+    "county": "18141",
+    "id": "INR000153148",
+    "naics": "221121",
+    "name": "NIPSCO - TOWER WORKSITE #2023-4",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [
+       "D008"
+      ],
+      "description": "LEAD PAINT CONTAMINATED DEBRIS.",
+      "managed": [
+       "sludge trtmnt / stab / encap"
+      ],
+      "tons": 0.11
+     }
+    ],
+    "street": "6331 E 350 S",
+    "tons": 0.11,
+    "zip": "46574"
+   },
+   {
+    "city": "Mill Creek",
+    "company": null,
+    "county": "18091",
+    "id": "INR000153221",
+    "naics": "221121",
+    "name": "NIPSCO - TOWER WORKSITE #2023-11",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [
+       "D008"
+      ],
+      "description": "LEAD PAINT CONTAMINATED DEBRIS.",
+      "managed": [
+       "sludge trtmnt / stab / encap"
+      ],
+      "tons": 0.11
+     }
+    ],
+    "street": "6221 EAST 50 NORTH",
+    "tons": 0.11,
+    "zip": "46365"
+   },
+   {
+    "city": "Notre Dame",
+    "company": null,
+    "county": "18141",
+    "id": "IND005935820",
+    "naics": "611310",
+    "name": "SAINT MARY'S COLLEGE",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [],
+      "description": "UN3287 WASTE TOXIC LIQUID, INORGANIC, N.O.S., 6.1, PGII (LEAD SALTS, CHROMATE SALTS)",
+      "managed": [
+       "wastewater treatment"
+      ],
+      "tons": 0.04
+     },
+     {
+      "codes": [
+       "D008"
+      ],
+      "description": "UN1992 WASTE FLAMMABLE LIQUID, TOXIC, N.O.S., 3(6.1), PGII (ACETONITRILE, LEAD SALTS)",
+      "managed": [
+       "incineration"
+      ],
+      "tons": 0.02
+     },
+     {
+      "codes": [],
+      "description": "UN3287 WASTE TOXIC LIQUID, INORGANIC, N.O.S., 6.1, PGII (LEAD, BARIUM SOLUTION)",
+      "managed": [
+       "wastewater treatment"
+      ],
+      "tons": 0.02
+     },
+     {
+      "codes": [],
+      "description": "UN3288 WASTE TOXIC SOLID, INORGANIC, N.O.S., 6.1, PGII (DEBRIS CONTAMINATED WITH LEAD SALTS)",
+      "managed": [
+       "sludge trtmnt / stab / encap"
+      ],
+      "tons": 0.01
+     },
+     {
+      "codes": [
+       "D008"
+      ],
+      "description": "UN3287 WASTE TOXIC LIQUID, INORGANIC, N.O.S., 6.1, PGII (LEAD ACETATE, SELENIUM)",
+      "managed": [
+       "wastewater treatment"
+      ],
+      "tons": 0.0
+     },
+     {
+      "codes": [],
+      "description": "UN3288 WASTE TOXIC SOLID, INORGANIC, N.O.S., 6.1, PGII (LEAD ACETATE, SELENIUM)",
+      "managed": [
+       "sludge trtmnt / stab / encap"
+      ],
+      "tons": 0.0
+     },
+     {
+      "codes": [
+       "D009"
+      ],
+      "description": "UN2024 WASTE MERCURY COMPOUNDS, LIQUID, N.O.S., 6.1, PGII (MERCURIC CHLORIDE SOLUTION)",
+      "managed": [],
+      "tons": 0.0
+     },
+     {
+      "codes": [
+       "D007"
+      ],
+      "description": "UN3087 WASTE OXIDIZING SOLID, TOXIC, N.O.S., 5.1(6.1), PGII (PYRIDINIUM CHLOROCHROMATE)",
+      "managed": [
+       "incineration"
+      ],
+      "tons": 0.0
+     },
+     {
+      "codes": [
+       "D009"
+      ],
+      "description": "UN2809, WASTE MERCURY FROM BROKEN THERMOMETER",
+      "managed": [],
+      "tons": 0.0
+     }
+    ],
+    "street": "151 LE MANS DR",
+    "tons": 0.09,
+    "zip": "46556"
+   },
+   {
+    "city": "Elkhart",
+    "company": "carpenter-co-elkhart-195",
+    "county": "18039",
+    "id": "IND980680235",
+    "naics": "325998",
+    "name": "CARPENTER COMPANY ELKHART DIVISION",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [
+       "D005"
+      ],
+      "description": "NA3082 HAZARDOUS WASTE, LIQUID, N.O.S. (BARIUM) 9 III (D005)",
+      "managed": [
+       "solvents recovery"
+      ],
+      "tons": 0.09
+     }
+    ],
+    "street": "195 CR 15",
+    "tons": 0.09,
+    "zip": "46516"
+   },
+   {
+    "city": "Rolling Prairie",
+    "company": null,
+    "county": "18091",
+    "id": "INR000153254",
+    "naics": "221121",
+    "name": "NIPSCO - TOWER WORKSITE #2023-14",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [
+       "D008"
+      ],
+      "description": "LEAD PAINT CONTAMINATED DEBRIS.",
+      "managed": [
+       "sludge trtmnt / stab / encap"
+      ],
+      "tons": 0.08
+     }
+    ],
+    "street": "6351 EAST 200 NORTH",
+    "tons": 0.08,
+    "zip": "46371"
+   },
+   {
+    "city": "Plymouth",
+    "company": "ferro-corp-liquid-coatings-plymouth-1301",
+    "county": "18099",
+    "id": "IND052867595",
+    "naics": "325991",
+    "name": "LYONDELLBASELL ADVANCED POLYMERS INC.",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [
+       "D006"
+      ],
+      "description": "UN3082 WASTE ENVIRONMENTALLY HAZARDOUS SUBSTANCE, LIQUID, N.O.S. ( CADMIUM SULPHIDE ) 9 III",
+      "managed": [
+       "fuel blending"
+      ],
+      "tons": 0.07
+     }
+    ],
+    "street": "1301 N FLORA ST",
+    "tons": 0.07,
+    "zip": "46563"
+   },
+   {
+    "city": "Mishawaka",
+    "company": "baycote-metal-finishing-inc-mishawaka-1302",
+    "county": "18141",
+    "id": "IND980680094",
+    "naics": "332813",
+    "name": "BAYCOTE METAL FINISHING INCORPORATED",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [],
+      "description": "RQ, NA 3082 HAZARDOUS WASTE LIQUID, N.O.S., 9, PG 111 (TRICHLOROETHYLENE/CHROMIUM)",
+      "managed": [],
+      "tons": 0.06
+     }
+    ],
+    "street": "1302 INDUSTRIAL DR",
+    "tons": 0.06,
+    "zip": "46544"
+   },
+   {
+    "city": "Columbia City",
+    "company": null,
+    "county": "18183",
+    "id": "IND985103100",
+    "naics": "455211",
+    "name": "WALMART SUPERCENTER #1425",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [
+       "D007"
+      ],
+      "description": "CORROSIVE LIQUIDS",
+      "managed": [
+       "sludge trtmnt / stab / encap"
+      ],
+      "tons": 0.06
+     }
+    ],
+    "street": "402 W PLAZA DR",
+    "tons": 0.06,
+    "zip": "46725"
+   },
+   {
+    "city": "Goshen",
+    "company": null,
+    "county": "18039",
+    "id": "IN0000970061",
+    "naics": "445110",
+    "name": "MEIJER STORE/GAS #127",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [],
+      "description": "RQ, UN2811, WASTE TOXIC SOLIDS, ORGANIC, N.O.S., (CHROMIUM, SELENIUM), 6.1, PGII, (RQ: D011), ERG#154",
+      "managed": [],
+      "tons": 0.04
+     },
+     {
+      "codes": [],
+      "description": "RQ, UN3077, HAZARDOUS WASTE SOLID, N.O.S. (MERCURY), 9, PGIII, D008, D009, ERG#171",
+      "managed": [
+       "sludge trtmnt / stab / encap"
+      ],
+      "tons": 0.01
+     }
+    ],
+    "street": "4522 ELKHART RD",
+    "tons": 0.05,
+    "zip": "46526"
+   },
+   {
+    "city": "Warsaw",
+    "company": "depuy-orthopaedics-inc-warsaw-700",
+    "county": "18085",
+    "id": "INT190014555",
+    "naics": "339113",
+    "name": "DEPUY ORTHOPAEDICS INCORPORATED",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [],
+      "description": "UN3098, WASTE OXIDIZING LIQUID, CORROSIVE, N.O.S. (SODIUM HYDORXIDE, ZINC NITRATE), 5.1, (8), PG II",
+      "managed": [],
+      "tons": 0.02
+     },
+     {
+      "codes": [],
+      "description": "UN3139, WASTE OXIDIZING LIQUID,   N.O.S (SILVER NITRATE, ZINC NITRATE), 5.1, PG II",
+      "managed": [],
+      "tons": 0.02
+     },
+     {
+      "codes": [
+       "D009"
+      ],
+      "description": "NA3077, HAZARDOUS WASTE, SOLID, N.O.S. (BULBS WITH MERCURY), 9, PG III",
+      "managed": [],
+      "tons": 0.0
+     },
+     {
+      "codes": [
+       "D008"
+      ],
+      "description": "UN3288, WASTE TOXIC SOLID, INORGANIC, N.O.S. (LEAD DEBRIS), 6.1, PG II",
+      "managed": [],
+      "tons": 0.0
+     }
+    ],
+    "street": "700 ORTHOPAEDIC DR",
+    "tons": 0.04,
+    "zip": "46582"
+   },
+   {
+    "city": "South Bend",
+    "company": "pei-genesis-south-bend-south-bend-4747",
+    "county": "18141",
+    "id": "INR000120238",
+    "naics": "334417",
+    "name": "PEI GENESIS",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [
+       "D005"
+      ],
+      "description": "WASTE FLAMMABLE LIQUIDS",
+      "managed": [],
+      "tons": 0.03
+     }
+    ],
+    "street": "4747 W CLEVELAND RD",
+    "tons": 0.03,
+    "zip": "46628"
+   },
+   {
+    "city": "Columbia City",
+    "company": null,
+    "county": "18183",
+    "id": "INR000143198",
+    "naics": "622110",
+    "name": "PARKVIEW WHITLEY HOSPITAL",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [
+       "D010"
+      ],
+      "description": "UN3265,WASTE CORROSIVE LIQUID, ACIDIC, ORGANIC",
+      "managed": [
+       "incineration"
+      ],
+      "tons": 0.03
+     }
+    ],
+    "street": "1260 E SR 205",
+    "tons": 0.03,
+    "zip": "46725"
+   },
+   {
+    "city": "Mattawan",
+    "company": null,
+    "county": "26159",
+    "id": "MID048989891",
+    "naics": "541715",
+    "name": "CHARLES RIVER LABORATORIES INC",
+    "state": "MI",
+    "streams": [
+     {
+      "codes": [],
+      "description": "TOXIC, SOLID, SOLIDS CONTAINING TOXIC LIQUIDS, CHLOROFORM ABSORBENTS FROM LAB ANALYTICAL WASTES; SILVER NITRATE SOLUTION",
+      "managed": [],
+      "tons": 0.02
+     },
+     {
+      "codes": [],
+      "description": "IGNITABLE, SOLID, WASTE CARBON, ACTIVATED FROM OIL CHANGES, FILTER, OR BATTERY REPLACEMENT",
+      "managed": [],
+      "tons": 0.01
+     }
+    ],
+    "street": "54943 N MAIN ST",
+    "tons": 0.03,
+    "zip": "49071"
+   },
+   {
+    "city": "Mishawaka",
+    "company": null,
+    "county": "18141",
+    "id": "INR000010322",
+    "naics": "445110",
+    "name": "MEIJER STORE #121",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [],
+      "description": "RQ, UN2811, WASTE TOXIC SOLIDS, ORGANIC, N.O.S., (CHROMIUM, SELENIUM), 6.1, PGII, (RQ: D011), ERG#154",
+      "managed": [],
+      "tons": 0.01
+     },
+     {
+      "codes": [],
+      "description": "RQ, UN3077, HAZARDOUS WASTE SOLID, N.O.S. (MERCURY), 9, PGIII, D008, D009, ERG#171",
+      "managed": [
+       "sludge trtmnt / stab / encap"
+      ],
+      "tons": 0.01
+     }
+    ],
+    "street": "5020 GRAPE RD",
+    "tons": 0.02,
+    "zip": "46545"
+   },
+   {
+    "city": "Mishawaka",
+    "company": null,
+    "county": "18141",
+    "id": "INR000111989",
+    "naics": "444110",
+    "name": "HOME DEPOT STORE #2033",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [
+       "D009"
+      ],
+      "description": "TOXIC SOLIDS",
+      "managed": [],
+      "tons": 0.02
+     }
+    ],
+    "street": "317 INDIAN RIDGE BLVD",
+    "tons": 0.02,
+    "zip": "46545"
+   },
+   {
+    "city": "Mishawaka",
+    "company": null,
+    "county": "18141",
+    "id": "INR000112227",
+    "naics": "444110",
+    "name": "LOWE'S OF MISHAWAKA, IN #200",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [
+       "D008"
+      ],
+      "description": "FLAMMABLE LIQUIDS",
+      "managed": [],
+      "tons": 0.02
+     }
+    ],
+    "street": "4660 GRAPE ROAD",
+    "tons": 0.02,
+    "zip": "46545"
+   },
+   {
+    "city": "Goshen",
+    "company": "noble-composites-inc-goshen-2424",
+    "county": "18039",
+    "id": "INR000104919",
+    "naics": "326130",
+    "name": "CRANE COMPOSITES",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [
+       "D008"
+      ],
+      "description": "WASTE CORROSIVE SOLIDS, TOXIC, N.O.S.,(SULFURIC ACID, LEAD),8(6.1),PGII,RQ, (D008),ERG#154",
+      "managed": [],
+      "tons": 0.02
+     }
+    ],
+    "street": "2424 E KERCHER RD",
+    "tons": 0.02,
+    "zip": "46526"
+   },
+   {
+    "city": "Warsaw",
+    "company": null,
+    "county": "18085",
+    "id": "INR000135350",
+    "naics": "445110",
+    "name": "MEIJER STORE/GAS #267",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [],
+      "description": "RQ, UN2811, WASTE TOXIC SOLIDS, ORGANIC, N.O.S., (CHROMIUM, SELENIUM), 6.1, PGII, (RQ: D011), ERG#154",
+      "managed": [],
+      "tons": 0.01
+     },
+     {
+      "codes": [],
+      "description": "RQ, UN3077, HAZARDOUS WASTE SOLID, N.O.S. (MERCURY), 9, PGIII, D008, D009, ERG#171",
+      "managed": [
+       "sludge trtmnt / stab / encap"
+      ],
+      "tons": 0.01
+     }
+    ],
+    "street": "1200 LAKE CITY HWY",
+    "tons": 0.02,
+    "zip": "46580"
+   },
+   {
+    "city": "Notre Dame",
+    "company": null,
+    "county": "18141",
+    "id": "IND048994727",
+    "naics": "611310",
+    "name": "UNIVERSITY OF NOTRE DAME DU LAC",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [],
+      "description": "MERCURY",
+      "managed": [
+       "wastewater treatment"
+      ],
+      "tons": 0.01
+     }
+    ],
+    "street": "636 GRACE HALL",
+    "tons": 0.01,
+    "zip": "46556"
+   },
+   {
+    "city": "South Bend",
+    "company": null,
+    "county": "18141",
+    "id": "INR000018895",
+    "naics": "455211",
+    "name": "WALMART SUPERCENTER #2680",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [
+       "D009"
+      ],
+      "description": "TOXIC SOLIDS",
+      "managed": [],
+      "tons": 0.01
+     }
+    ],
+    "street": "3701 PORTAGE RD",
+    "tons": 0.01,
+    "zip": "46628"
+   },
+   {
+    "city": "Elkhart",
+    "company": null,
+    "county": "18039",
+    "id": "INR000152835",
+    "naics": "484122",
+    "name": "DAYTON FREIGHT LINES - SBN",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [
+       "D009"
+      ],
+      "description": "MERCURY",
+      "managed": [],
+      "tons": 0.01
+     }
+    ],
+    "street": "2500 AEROPLEX",
+    "tons": 0.01,
+    "zip": "46514"
+   },
+   {
+    "city": "Bremen",
+    "company": "bremen-wire-bremen-515",
+    "county": "18099",
+    "id": "INR000137307",
+    "naics": "331420",
+    "name": "SOUTHWIRE COMPANY LLC",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [
+       "D009"
+      ],
+      "description": "UN2809 MERCURY 9 (6.1) PGIII, RQ",
+      "managed": [],
+      "tons": 0.01
+     }
+    ],
+    "street": "515 COPPERFIELD WAY",
+    "tons": 0.01,
+    "zip": "46506"
+   },
+   {
+    "city": "Michigan City",
+    "company": "sullair-corp-michigan-city-3700",
+    "county": "18091",
+    "id": "IND005545835",
+    "naics": "333912",
+    "name": "HITACHI GLOBAL AIR POWER US, LLC",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [
+       "D008"
+      ],
+      "description": "UN2796, WASTE BATTERY FLUID, ACID, 8, PG II",
+      "managed": [
+       "incineration"
+      ],
+      "tons": 0.01
+     }
+    ],
+    "street": "3700 E MICHIGAN BLVD",
+    "tons": 0.01,
+    "zip": "46360"
+   },
+   {
+    "city": "Michigan City",
+    "company": null,
+    "county": "18091",
+    "id": "INR000009993",
+    "naics": "445110",
+    "name": "MEIJER STORE/GAS #149",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [],
+      "description": "RQ, UN3077, HAZARDOUS WASTE SOLID, N.O.S. (MERCURY), 9, PGIII, D008, D009, ERG#171",
+      "managed": [
+       "sludge trtmnt / stab / encap"
+      ],
+      "tons": 0.01
+     }
+    ],
+    "street": "5150 FRANKLIN ST",
+    "tons": 0.01,
+    "zip": "46360"
+   },
+   {
+    "city": "Mishawaka",
+    "company": null,
+    "county": "18141",
+    "id": "IN0000970087",
+    "naics": "445110",
+    "name": "MEIJER STORE/GAS #128",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [],
+      "description": "RQ, UN2926, WASTE FLAMMABLE SOLIDS, TOXIC, ORGANIC, N.O.S. (SILVER, ISOPROPYL ALCOHOL), 4.1(6.1), PGII, RQ (D001), ERG#134",
+      "managed": [],
+      "tons": 0.0
+     },
+     {
+      "codes": [],
+      "description": "RQ, UN3077, HAZARDOUS WASTE SOLID, N.O.S. (MERCURY), 9, PGIII, D008, D009, ERG#171",
+      "managed": [
+       "sludge trtmnt / stab / encap"
+      ],
+      "tons": 0.0
+     }
+    ],
+    "street": "3610 S BREMEN HWY",
+    "tons": 0.0,
+    "zip": "46544"
+   },
+   {
+    "city": "South Bend",
+    "company": null,
+    "county": "18141",
+    "id": "IND985049881",
+    "naics": "445110",
+    "name": "MEIJER STORE/GAS # 120",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [],
+      "description": "RQ, UN3077, HAZARDOUS WASTE SOLID, N.O.S. (MERCURY), 9, PGIII, D008, D009, ERG#171",
+      "managed": [
+       "sludge trtmnt / stab / encap"
+      ],
+      "tons": 0.0
+     }
+    ],
+    "street": "3600 N PORTAGE RD",
+    "tons": 0.0,
+    "zip": "46628"
+   },
+   {
+    "city": "Elkhart",
+    "company": null,
+    "county": "18039",
+    "id": "INR000153171",
+    "naics": "445110",
+    "name": "MEIJER STORE/GAS #328",
+    "state": "IN",
+    "streams": [
+     {
+      "codes": [],
+      "description": "RQ, UN2926, WASTE FLAMMABLE SOLIDS, TOXIC, ORGANIC, N.O.S. (SILVER, ISOPROPYL ALCOHOL), 4.1(6.1), PGII, RQ (D001), ERG#134",
+      "managed": [],
+      "tons": 0.0
+     },
+     {
+      "codes": [],
+      "description": "RQ, UN3077, HAZARDOUS WASTE SOLID, N.O.S. (MERCURY), 9, PGIII, D008, D009, ERG#171",
+      "managed": [
+       "sludge trtmnt / stab / encap"
+      ],
+      "tons": 0.0
+     }
+    ],
+    "street": "2500 CASSOPOLIS STREET",
+    "tons": 0.0,
+    "zip": "46514"
+   }
+  ],
+  "units": "tons generated in the year"
+ },
+ "source": "U.S. EPA Toxics Release Inventory basic data files; RCRA Biennial Report (Envirofacts)",
+ "tri": {
+  "facilities": [
+   {
+    "city": "Columbia City",
+    "company": null,
+    "county": "18183",
+    "frs": "110058636221",
+    "lat": 41.245456,
+    "lon": -85.565092,
+    "metals": {
+     "Chromium": [
+      7104,
+      0,
+      8571,
+      15675
+     ],
+     "Copper": [
+      15363853,
+      0,
+      7620,
+      15371473
+     ]
+    },
+    "naics": "331420",
+    "name": "ESSEX FURUKAWA MAGNET WIRE USA LLC - PLANT #202",
+    "parent": "ESSEX SOLUTIONS USA LLC",
+    "state": "IN",
+    "street": "2601 S 600 E",
+    "trifd": "46860SSXGRUS30A",
+    "zip": "46725"
+   },
+   {
+    "city": "Columbia City",
+    "company": "steel-dynamics-inc-structural-and-rail-columbia-city-2601",
+    "county": "18183",
+    "frs": "110009569216",
+    "lat": 41.124967,
+    "lon": -85.357051,
+    "metals": {
+     "Chromium": [
+      173815,
+      0,
+      411,
+      174226
+     ],
+     "Copper": [
+      289839,
+      0,
+      1540,
+      291379
+     ],
+     "Lead": [
+      474112,
+      0,
+      3088,
+      477200
+     ],
+     "Manganese": [
+      1610672,
+      0,
+      5284,
+      1615956
+     ],
+     "Mercury": [
+      0,
+      0,
+      142,
+      142
+     ],
+     "Nickel": [
+      8504,
+      0,
+      1539,
+      10043
+     ],
+     "Zinc": [
+      11193868,
+      0,
+      21552,
+      11215420
+     ]
+    },
+    "naics": "331110",
+    "name": "STEEL DYNAMICS INC STRUCTURAL & RAIL DIV",
+    "parent": "STEEL DYNAMICS INC",
+    "state": "IN",
+    "street": "2601 COUNTY RD 700 E",
+    "trifd": "46725STLDY2601C",
+    "zip": "46725"
+   },
+   {
+    "city": "Albion",
+    "company": "fluid-connectors-albion-albion-903",
+    "county": "18113",
+    "frs": "110003090823",
+    "lat": 41.405071,
+    "lon": -85.423897,
+    "metals": {
+     "Copper": [
+      2869503,
+      0,
+      16,
+      2869519
+     ],
+     "Lead": [
+      95650,
+      0,
+      9,
+      95660
+     ]
+    },
+    "naics": "332912",
+    "name": "PARKER HANNIFIN FLUID SYSTEM CONNECTORS DIV",
+    "parent": "PARKER HANNIFIN CORP",
+    "state": "IN",
+    "street": "903 N ORANGE ST",
+    "trifd": "46701PRKRHSTATE",
+    "zip": "46701"
+   },
+   {
+    "city": "Warsaw",
+    "company": "zimmer-holdings-inc-warsaw-1800",
+    "county": "18085",
+    "frs": "110000399818",
+    "lat": 41.239705,
+    "lon": -85.881615,
+    "metals": {
+     "Chromium": [
+      827783,
+      0,
+      21,
+      827804
+     ],
+     "Cobalt": [
+      1821707,
+      0,
+      38,
+      1821745
+     ],
+     "Nickel": [
+      25670,
+      0,
+      46,
+      25716
+     ]
+    },
+    "naics": "339113",
+    "name": "ZIMMER BIOMET INC",
+    "parent": "ZIMMER BIOMET HOLDINGS INC",
+    "state": "IN",
+    "street": "1800 W CENTER ST",
+    "trifd": "46580ZMMRNCENTE",
+    "zip": "46580"
+   },
+   {
+    "city": "Knox",
+    "company": null,
+    "county": "18149",
+    "frs": "110003119456",
+    "lat": 41.295781,
+    "lon": -86.639767,
+    "metals": {
+     "Chromium": [
+      660736,
+      0,
+      255,
+      660991
+     ],
+     "Copper": [
+      137140,
+      0,
+      63,
+      137203
+     ],
+     "Manganese": [
+      813657,
+      0,
+      275,
+      813932
+     ],
+     "Nickel": [
+      448772,
+      0,
+      180,
+      448952
+     ]
+    },
+    "naics": "332119",
+    "name": "MPI ENGINEERED TECHNOLOGIES LLC",
+    "parent": "TURNSPIRE CAPITAL PARTNERS",
+    "state": "IN",
+    "street": "1200 KLOECKNER DRIVE",
+    "trifd": "46534MPNDN12KLE",
+    "zip": "46534"
+   },
+   {
+    "city": "Elkhart",
+    "company": "tenneco-inc-elkhart-4825",
+    "county": "18039",
+    "frs": "110008057805",
+    "lat": 41.686766,
+    "lon": -85.896639,
+    "metals": {
+     "Chromium": [
+      1803771,
+      0,
+      0,
+      1803771
+     ]
+    },
+    "naics": "336390",
+    "name": "TENNECO AUTOMOTIVE OPERATING CO INC.",
+    "parent": "TENNECO INC",
+    "state": "IN",
+    "street": "4825 HOFFMAN ST",
+    "trifd": "46516TNNCT4825H",
+    "zip": "46516"
+   },
+   {
+    "city": "Middlebury",
+    "company": "indiana-galvanizing-middlebury-51702",
+    "county": "18039",
+    "frs": "110055536754",
+    "lat": 41.743928,
+    "lon": -85.687013,
+    "metals": {
+     "Zinc": [
+      865077,
+      0,
+      2185,
+      867262
+     ]
+    },
+    "naics": "332812",
+    "name": "INDIANA GALVANIZING LLC",
+    "parent": "NA",
+    "state": "IN",
+    "street": "51702 LOVEJOY DRIVE",
+    "trifd": "4654WNDNGL5172L",
+    "zip": "46540"
+   },
+   {
+    "city": "Avilla",
+    "company": null,
+    "county": "18113",
+    "frs": "110003119027",
+    "lat": 41.361053,
+    "lon": -85.228923,
+    "metals": {
+     "Copper": [
+      749096,
+      0,
+      0,
+      749096
+     ],
+     "Nickel": [
+      43611,
+      0,
+      0,
+      43611
+     ]
+    },
+    "naics": "332813",
+    "name": "ACCEL INTERNATIONAL HOLDINGS LLC",
+    "parent": "ASTRO HOLDINGS I LLC",
+    "state": "IN",
+    "street": "302 PROGRESS WAY",
+    "trifd": "46710HSRWRPROGR",
+    "zip": "46710"
+   },
+   {
+    "city": "Goshen",
+    "company": null,
+    "county": "18039",
+    "frs": "110000399088",
+    "lat": 41.554536,
+    "lon": -85.822799,
+    "metals": {
+     "Chromium": [
+      144781,
+      0,
+      0,
+      144781
+     ],
+     "Copper": [
+      53341,
+      0,
+      0,
+      53341
+     ],
+     "Manganese": [
+      351110,
+      0,
+      0,
+      351110
+     ],
+     "Nickel": [
+      112170,
+      0,
+      0,
+      112170
+     ]
+    },
+    "naics": "336390",
+    "name": "GROUPER WILD LLC DBA SHILOH HOT STAMPING",
+    "parent": "GROUPER WILD LLC",
+    "state": "IN",
+    "street": "910 S EISENHOWER DR",
+    "trifd": "46526BNTLR910SE",
+    "zip": "46526"
+   },
+   {
+    "city": "Elkhart",
+    "company": null,
+    "county": "18039",
+    "frs": "110000398793",
+    "lat": 41.700274,
+    "lon": -85.993937,
+    "metals": {
+     "Copper": [
+      530233,
+      0,
+      551,
+      530784
+     ]
+    },
+    "naics": "332996",
+    "name": "ELKHART PRODUCTS CORP",
+    "parent": "MUELLER INDUSTRIES INC",
+    "state": "IN",
+    "street": "1255 OAK ST",
+    "trifd": "46515LKHRT1255O",
+    "zip": "46514"
+   },
+   {
+    "city": "Pierceton",
+    "company": "contech-usa-llc-pierceton-5",
+    "county": "18085",
+    "frs": "110002354318",
+    "lat": 41.207006,
+    "lon": -85.719445,
+    "metals": {
+     "Copper": [
+      462949,
+      0,
+      1826,
+      464776
+     ],
+     "Lead": [
+      7578,
+      0,
+      30,
+      7608
+     ],
+     "Nickel": [
+      26943,
+      0,
+      106,
+      27050
+     ]
+    },
+    "naics": "331523",
+    "name": "ALUDYNE PIERCETON",
+    "parent": "ALUDYNE INC",
+    "state": "IN",
+    "street": "5 ARNOLT DR",
+    "trifd": "46562SPXCR5ARNO",
+    "zip": "46562"
+   },
+   {
+    "city": "Ligonier",
+    "company": "tenneco-inc-ligonier-1490",
+    "county": "18113",
+    "frs": "110002115835",
+    "lat": 41.474345,
+    "lon": -85.604506,
+    "metals": {
+     "Chromium": [
+      465564,
+      0,
+      82,
+      465646
+     ],
+     "Manganese": [
+      9432,
+      0,
+      0,
+      9432
+     ],
+     "Nickel": [
+      4716,
+      0,
+      0,
+      4716
+     ]
+    },
+    "naics": "336390",
+    "name": "TENNECO",
+    "parent": "TENNECO INC",
+    "state": "IN",
+    "street": "1490 GERBER ST",
+    "trifd": "46767WLKRM1490G",
+    "zip": "46767"
+   },
+   {
+    "city": "Shipshewana",
+    "company": "lakepark-industries-of-indiana-inc-shipshewana-750",
+    "county": "18087",
+    "frs": "110011989278",
+    "lat": 41.676508,
+    "lon": -85.572158,
+    "metals": {
+     "Chromium": [
+      70000,
+      0,
+      0,
+      70000
+     ],
+     "Copper": [
+      45000,
+      0,
+      0,
+      45000
+     ],
+     "Lead": [
+      2500,
+      0,
+      0,
+      2500
+     ],
+     "Manganese": [
+      242000,
+      0,
+      0,
+      242000
+     ],
+     "Nickel": [
+      62000,
+      0,
+      0,
+      62000
+     ]
+    },
+    "naics": "336370",
+    "name": "LAKEPARK INDUSTRIES OF INDIANA INC",
+    "parent": "MIDWAY PRODUCTS GROUP",
+    "state": "IN",
+    "street": "750 E MIDDLEBURY RD",
+    "trifd": "46565LKPRK75MID",
+    "zip": "46565"
+   },
+   {
+    "city": "Churubusco",
+    "company": "c-a-tool-engineering-inc-churubusco-4100",
+    "county": "18183",
+    "frs": "110025333173",
+    "lat": 41.223084,
+    "lon": -85.316773,
+    "metals": {
+     "Chromium": [
+      117420,
+      0,
+      0,
+      117420
+     ],
+     "Cobalt": [
+      34630,
+      0,
+      0,
+      34630
+     ],
+     "Copper": [
+      69315,
+      0,
+      0,
+      69315
+     ],
+     "Lead": [
+      748,
+      0,
+      0,
+      748
+     ],
+     "Manganese": [
+      64669,
+      0,
+      0,
+      64669
+     ],
+     "Nickel": [
+      94539,
+      0,
+      0,
+      94539
+     ]
+    },
+    "naics": "333248",
+    "name": "C & A TOOL ENGINEERING INC",
+    "parent": "NMB USA INC",
+    "state": "IN",
+    "street": "4100 N US 33",
+    "trifd": "46723CTLNG41NUS",
+    "zip": "46723"
+   },
+   {
+    "city": "Middlebury",
+    "company": "syndicate-systems-middlebury-402",
+    "county": "18039",
+    "frs": "110000399293",
+    "lat": 41.681519,
+    "lon": -85.703366,
+    "metals": {
+     "Chromium": [
+      106043,
+      0,
+      908,
+      106951
+     ],
+     "Lead": [
+      6810,
+      0,
+      6,
+      6816
+     ],
+     "Manganese": [
+      130365,
+      0,
+      371,
+      130736
+     ],
+     "Nickel": [
+      112854,
+      0,
+      1040,
+      113894
+     ]
+    },
+    "naics": "337215",
+    "name": "LOZIER CORP",
+    "parent": "LOZIER CORP",
+    "state": "IN",
+    "street": "402 N MAIN ST",
+    "trifd": "46540SYNDC402NO",
+    "zip": "46540"
+   },
+   {
+    "city": "Elkhart",
+    "company": "bull-moose-tube-co-elkhart-29851",
+    "county": "18039",
+    "frs": "110000742162",
+    "lat": 41.660101,
+    "lon": -86.03791,
+    "metals": {
+     "Manganese": [
+      345000,
+      0,
+      11,
+      345011
+     ]
+    },
+    "naics": "331210",
+    "name": "BULL MOOSE TUBE CO",
+    "parent": "BULL MOOSE TUBE CO",
+    "state": "IN",
+    "street": "29851 CR 20 W",
+    "trifd": "46517BCKND29851",
+    "zip": "46517"
+   },
+   {
+    "city": "Elkhart",
+    "company": "special-metals-corp-elkhart-52800",
+    "county": "18039",
+    "frs": "110000398659",
+    "lat": 41.7261,
+    "lon": -85.961276,
+    "metals": {
+     "Chromium": [
+      85347,
+      0,
+      4,
+      85351
+     ],
+     "Cobalt": [
+      35575,
+      0,
+      0,
+      35575
+     ],
+     "Copper": [
+      8377,
+      0,
+      13,
+      8390
+     ],
+     "Manganese": [
+      1030,
+      0,
+      3,
+      1033
+     ],
+     "Nickel": [
+      209541,
+      0,
+      17,
+      209558
+     ]
+    },
+    "naics": "331491",
+    "name": "HUNTINGTON ALLOYS CORP",
+    "parent": "BERKSHIRE HATHAWAY INC",
+    "state": "IN",
+    "street": "52800 HIGGINS RD",
+    "trifd": "46514NCLLY52800",
+    "zip": "46514"
+   },
+   {
+    "city": "Goshen",
+    "company": "lippert-components-inc-goshen-16700",
+    "county": "18039",
+    "frs": "110008057761",
+    "lat": 41.543585,
+    "lon": -85.780628,
+    "metals": {
+     "Chromium": [
+      152093,
+      0,
+      1537,
+      153630
+     ],
+     "Manganese": [
+      101395,
+      0,
+      1255,
+      102650
+     ],
+     "Nickel": [
+      21800,
+      0,
+      221,
+      22021
+     ]
+    },
+    "naics": "332312",
+    "name": "LIPPERT COMPONENTS INC PLANTS 19 26 30",
+    "parent": "LCI INDUSTRIES",
+    "state": "IN",
+    "street": "3152 SKYVIEW RD",
+    "trifd": "46526LPPRT16840",
+    "zip": "46526"
+   },
+   {
+    "city": "Plymouth",
+    "company": "witt-galvanizing-plymouth-2631",
+    "county": "18099",
+    "frs": "110064148284",
+    "lat": 41.354418,
+    "lon": -86.337918,
+    "metals": {
+     "Lead": [
+      49,
+      0,
+      6,
+      55
+     ],
+     "Zinc": [
+      261098,
+      0,
+      3183,
+      264281
+     ]
+    },
+    "naics": "332812",
+    "name": "AZZ GALVANIZING SERVICES-PLYMOUTH",
+    "parent": "AZZ INC",
+    "state": "IN",
+    "street": "2631 JIM NEU RD",
+    "trifd": "46563WTTND14531",
+    "zip": "46563"
+   },
+   {
+    "city": "Elkhart",
+    "company": "morryde-grant-elkhart-1536",
+    "county": "18039",
+    "frs": "110029312143",
+    "lat": 41.700888,
+    "lon": -85.955615,
+    "metals": {
+     "Chromium": [
+      161212,
+      0,
+      0,
+      161212
+     ],
+     "Cobalt": [
+      1879,
+      0,
+      0,
+      1879
+     ],
+     "Copper": [
+      2880,
+      0,
+      0,
+      2880
+     ],
+     "Lead": [
+      91450,
+      0,
+      0,
+      91450
+     ],
+     "Manganese": [
+      1690,
+      0,
+      0,
+      1690
+     ],
+     "Nickel": [
+      1770,
+      0,
+      0,
+      1770
+     ],
+     "Vanadium": [
+      1580,
+      0,
+      0,
+      1580
+     ]
+    },
+    "naics": "332999",
+    "name": "MOR/RYDE INTERNATIONAL INC",
+    "parent": "MOR/RYDE INTERNATIONAL INC",
+    "state": "IN",
+    "street": "1536 GRANT ST",
+    "trifd": "46514MRRYD1536G",
+    "zip": "46514"
+   },
+   {
+    "city": "Goshen",
+    "company": "nu-wood-co-goshen-1722",
+    "county": "18039",
+    "frs": "110017649035",
+    "lat": 41.557366,
+    "lon": -85.809338,
+    "metals": {
+     "Chromium": [
+      85155,
+      0,
+      1,
+      85156
+     ],
+     "Manganese": [
+      40808,
+      0,
+      534,
+      41342
+     ],
+     "Nickel": [
+      123870,
+      0,
+      0,
+      123870
+     ]
+    },
+    "naics": "326150",
+    "name": "IRON BALUSTER DBA VIEWRAIL",
+    "parent": "NA",
+    "state": "IN",
+    "street": "1722 EISENHOWER DR N",
+    "trifd": "46526NWDCL1722N",
+    "zip": "46526"
+   },
+   {
+    "city": "South Bend",
+    "company": "steel-warehouse-co-llc-south-bend-2722",
+    "county": "18141",
+    "frs": "110000767117",
+    "lat": 41.660405,
+    "lon": -86.288993,
+    "metals": {
+     "Chromium": [
+      16240,
+      0,
+      8,
+      16249
+     ],
+     "Manganese": [
+      213830,
+      0,
+      55,
+      213885
+     ],
+     "Nickel": [
+      8120,
+      0,
+      9,
+      8129
+     ]
+    },
+    "naics": "331221",
+    "name": "STEEL WAREHOUSE CO LLC",
+    "parent": "STEEL WAREHOUSE CO LLC",
+    "state": "IN",
+    "street": "2722 W TUCKER DR",
+    "trifd": "46624STLWR2722W",
+    "zip": "46619"
+   },
+   {
+    "city": "Warsaw",
+    "company": null,
+    "county": "18085",
+    "frs": "110000399792",
+    "lat": 41.23606,
+    "lon": -85.831938,
+    "metals": {
+     "Chromium": [
+      0,
+      0,
+      5780,
+      5780
+     ],
+     "Copper": [
+      0,
+      0,
+      10120,
+      10120
+     ],
+     "Lead": [
+      0,
+      0,
+      15619,
+      15619
+     ],
+     "Manganese": [
+      0,
+      0,
+      88909,
+      88909
+     ],
+     "Mercury": [
+      0,
+      0,
+      4,
+      4
+     ],
+     "Nickel": [
+      0,
+      0,
+      2770,
+      2770
+     ],
+     "Zinc": [
+      0,
+      0,
+      81013,
+      81013
+     ]
+    },
+    "naics": "331511",
+    "name": "DALTON CORP WARSAW MANUFACTURING FACILITY",
+    "parent": "DALTON CORP",
+    "state": "IN",
+    "street": "1900 E JEFFERSON ST",
+    "trifd": "46580THDLTCORNE",
+    "zip": "46580"
+   },
+   {
+    "city": "Milford",
+    "company": "ctb-inc-milford-407",
+    "county": "18085",
+    "frs": "110020518420",
+    "lat": 41.417024,
+    "lon": -85.850426,
+    "metals": {
+     "Chromium": [
+      54946,
+      0,
+      3,
+      54949
+     ],
+     "Copper": [
+      10920,
+      0,
+      1,
+      10921
+     ],
+     "Lead": [
+      436,
+      0,
+      0,
+      436
+     ],
+     "Manganese": [
+      67159,
+      0,
+      9,
+      67168
+     ],
+     "Nickel": [
+      29780,
+      0,
+      2,
+      29782
+     ]
+    },
+    "naics": "333111",
+    "name": "BROCK GRAIN SYSTEMS",
+    "parent": "BERKSHIRE HATHAWAY INC",
+    "state": "IN",
+    "street": "611 N HIGBEE ST",
+    "trifd": "46542CTBNC611NR",
+    "zip": "46542"
+   },
+   {
+    "city": "La Porte",
+    "company": "alcoa-howmet-la-porte-1110",
+    "county": "18091",
+    "frs": "110000398052",
+    "lat": 41.621755,
+    "lon": -86.697437,
+    "metals": {
+     "Chromium": [
+      29627,
+      0,
+      202,
+      29829
+     ],
+     "Cobalt": [
+      12332,
+      0,
+      126,
+      12458
+     ],
+     "Nickel": [
+      113441,
+      0,
+      1006,
+      114447
+     ]
+    },
+    "naics": "331529",
+    "name": "HOWMET CASTINGS & SERVICES INC.",
+    "parent": "HOWMET AEROSPACE INC",
+    "state": "IN",
+    "street": "1110 E LINCOLNWAY",
+    "trifd": "46350HWMTC1110E",
+    "zip": "46350"
+   },
+   {
+    "city": "Bremen",
+    "company": "bci",
+    "county": "18099",
+    "frs": "110000398490",
+    "lat": 41.450378,
+    "lon": -86.153673,
+    "metals": {
+     "Copper": [
+      30870,
+      0,
+      2399,
+      33269
+     ],
+     "Lead": [
+      657,
+      0,
+      1485,
+      2142
+     ],
+     "Manganese": [
+      102470,
+      0,
+      5264,
+      107734
+     ]
+    },
+    "naics": "331511",
+    "name": "BCI SOLUTIONS INC.",
+    "parent": "BCI SOLUTIONS INC",
+    "state": "IN",
+    "street": "500 N BALTIMORE ST",
+    "trifd": "46506BRMNC500NB",
+    "zip": "46506"
+   },
+   {
+    "city": "New Carlisle",
+    "company": "i-n-kote-new-carlisle-30755",
+    "county": "18141",
+    "frs": "110000399462",
+    "lat": 41.693874,
+    "lon": -86.461357,
+    "metals": {
+     "Lead": [
+      0,
+      0,
+      219,
+      219
+     ],
+     "Manganese": [
+      0,
+      0,
+      4835,
+      4835
+     ],
+     "Nickel": [
+      0,
+      0,
+      10183,
+      10183
+     ],
+     "Zinc": [
+      0,
+      0,
+      125289,
+      125289
+     ]
+    },
+    "naics": "331221",
+    "name": "I/N KOTE",
+    "parent": "ARCELORMITTAL NORTH AMERICA HOLDINGS LLC",
+    "state": "IN",
+    "street": "30755 EDISON RD",
+    "trifd": "46552NTKXX30755",
+    "zip": "46552"
+   },
+   {
+    "city": "Elkhart",
+    "company": "jessen-mfg-co-inc-elkhart-1409",
+    "county": "18039",
+    "frs": "110003071461",
+    "lat": 41.692587,
+    "lon": -85.99573,
+    "metals": {
+     "Copper": [
+      135111,
+      0,
+      0,
+      135111
+     ],
+     "Lead": [
+      411,
+      0,
+      0,
+      411
+     ]
+    },
+    "naics": "332721",
+    "name": "JESSEN MANUFACTURING CO INC",
+    "parent": "NA",
+    "state": "IN",
+    "street": "1409 W BEARDSLEY AVE",
+    "trifd": "46514JSSNM149WB",
+    "zip": "46514"
+   },
+   {
+    "city": "Goshen",
+    "company": "lci-continental-stamping-goshen-2475",
+    "county": "18039",
+    "frs": "110001306391",
+    "lat": 41.551894,
+    "lon": -85.787494,
+    "metals": {
+     "Chromium": [
+      73277,
+      0,
+      740,
+      74017
+     ],
+     "Manganese": [
+      48851,
+      0,
+      495,
+      49346
+     ],
+     "Nickel": [
+      10503,
+      0,
+      106,
+      10609
+     ]
+    },
+    "naics": "332119",
+    "name": "LIPPERT COMPONENTS INC CONTINENTAL STAMPING",
+    "parent": "LCI INDUSTRIES",
+    "state": "IN",
+    "street": "2475 E KERCHER RD",
+    "trifd": "46526LPPRT16849",
+    "zip": "46526"
+   },
+   {
+    "city": "Ligonier",
+    "company": "tenneco-automotive-operating-company-ligonier-1493",
+    "county": "18113",
+    "frs": "110003098219",
+    "lat": 41.474295,
+    "lon": -85.604644,
+    "metals": {
+     "Chromium": [
+      116390,
+      0,
+      15,
+      116405
+     ],
+     "Manganese": [
+      2358,
+      0,
+      0,
+      2358
+     ],
+     "Nickel": [
+      1179,
+      0,
+      0,
+      1179
+     ]
+    },
+    "naics": "336390",
+    "name": "TENNECO",
+    "parent": "TENNECO INC",
+    "state": "IN",
+    "street": "1493 GERBER ST",
+    "trifd": "4676WTNNCX1493G",
+    "zip": "46767"
+   },
+   {
+    "city": "Milford",
+    "company": "chore-time-milford-410",
+    "county": "18085",
+    "frs": "110070813763",
+    "lat": 41.413893,
+    "lon": -85.850253,
+    "metals": {
+     "Chromium": [
+      32815,
+      0,
+      1,
+      32816
+     ],
+     "Cobalt": [
+      4910,
+      0,
+      0,
+      4910
+     ],
+     "Copper": [
+      8489,
+      0,
+      0,
+      8489
+     ],
+     "Lead": [
+      686,
+      0,
+      0,
+      686
+     ],
+     "Manganese": [
+      28719,
+      0,
+      1,
+      28719
+     ],
+     "Nickel": [
+      39873,
+      0,
+      1,
+      39874
+     ]
+    },
+    "naics": "333111",
+    "name": "CHORE-TIME GROUP",
+    "parent": "BERKSHIRE HATHAWAY INC",
+    "state": "IN",
+    "street": "410 N HIGBEE ST",
+    "trifd": "4654WCHRTM41NHI",
+    "zip": "46542"
+   },
+   {
+    "city": "Churubusco",
+    "company": "c-a-tool-engineering-inc-churubusco-4100",
+    "county": "18183",
+    "frs": "110070813451",
+    "lat": 41.22535,
+    "lon": -85.317548,
+    "metals": {
+     "Chromium": [
+      36353,
+      0,
+      0,
+      36353
+     ],
+     "Cobalt": [
+      14839,
+      0,
+      0,
+      14839
+     ],
+     "Copper": [
+      18807,
+      0,
+      0,
+      18807
+     ],
+     "Lead": [
+      249,
+      0,
+      0,
+      249
+     ],
+     "Manganese": [
+      17301,
+      0,
+      0,
+      17301
+     ],
+     "Nickel": [
+      27040,
+      0,
+      0,
+      27040
+     ]
+    },
+    "naics": "333248",
+    "name": "C & A TOOL ENGINEERING INC.",
+    "parent": "NMB USA INC",
+    "state": "IN",
+    "street": "570 S MAIN ST",
+    "trifd": "4672WCTLNG57SMA",
+    "zip": "46723"
+   },
+   {
+    "city": "Albion",
+    "company": "linamar-structures-usa-michigan-inc-albion-1612",
+    "county": "18113",
+    "frs": "110022523189",
+    "lat": 41.393177,
+    "lon": -85.399513,
+    "metals": {
+     "Cobalt": [
+      6075,
+      0,
+      28,
+      6103
+     ],
+     "Copper": [
+      43209,
+      0,
+      220,
+      43429
+     ],
+     "Lead": [
+      1105,
+      0,
+      5,
+      1110
+     ],
+     "Manganese": [
+      18559,
+      0,
+      97,
+      18656
+     ],
+     "Nickel": [
+      42030,
+      0,
+      219,
+      42249
+     ]
+    },
+    "naics": "332710",
+    "name": "LINAMAR INDIANA PLANT 1",
+    "parent": "LINAMAR HOLDING NEVADA INC",
+    "state": "IN",
+    "street": "1612 PROGRESS DR",
+    "trifd": "46701CTTNL1612P",
+    "zip": "46701"
+   },
+   {
+    "city": "South Bend",
+    "company": null,
+    "county": "18141",
+    "frs": "110043693848",
+    "lat": 41.693879,
+    "lon": -86.263851,
+    "metals": {
+     "Chromium": [
+      7676,
+      0,
+      14,
+      7691
+     ],
+     "Manganese": [
+      101073,
+      0,
+      190,
+      101262
+     ]
+    },
+    "naics": "332322",
+    "name": "STEEL WAREHOUSE - PROFILING DEPARTMENT (RIVERSIDE)",
+    "parent": "STEEL WAREHOUSE CO LLC",
+    "state": "IN",
+    "street": "1400 RIVERSIDE DRIVE",
+    "trifd": "4661WSTLWR14RIV",
+    "zip": "46616"
+   },
+   {
+    "city": "Middlebury",
+    "company": "lippert-components-middlebury-51040",
+    "county": "18039",
+    "frs": "110012705260",
+    "lat": 41.753574,
+    "lon": -85.671721,
+    "metals": {
+     "Chromium": [
+      55885,
+      0,
+      566,
+      56451
+     ],
+     "Manganese": [
+      37257,
+      0,
+      456,
+      37713
+     ],
+     "Nickel": [
+      8010,
+      0,
+      82,
+      8092
+     ]
+    },
+    "naics": "332312",
+    "name": "LIPPERT COMPONENTS INC PLANT 28",
+    "parent": "LCI INDUSTRIES",
+    "state": "IN",
+    "street": "51040 GREENFIELD PKWY",
+    "trifd": "46540LPPRT51040",
+    "zip": "46540"
+   },
+   {
+    "city": "La Porte",
+    "company": "aero-metals-inc-la-porte-1201",
+    "county": "18091",
+    "frs": "110001368886",
+    "lat": 41.622681,
+    "lon": -86.696127,
+    "metals": {
+     "Chromium": [
+      53967,
+      0,
+      103,
+      54070
+     ],
+     "Copper": [
+      28880,
+      0,
+      182,
+      29062
+     ],
+     "Nickel": [
+      18431,
+      0,
+      35,
+      18466
+     ]
+    },
+    "naics": "331512",
+    "name": "AERO METALS INC",
+    "parent": "AERO METALS INC",
+    "state": "IN",
+    "street": "1201 E LINCOLN WAY",
+    "trifd": "46350RMTLSPOBOX",
+    "zip": "46350"
+   },
+   {
+    "city": "Avilla",
+    "company": "linamar-structures-usa-michigan-inc-avilla-100",
+    "county": "18113",
+    "frs": "110003101848",
+    "lat": 41.364281,
+    "lon": -85.227532,
+    "metals": {
+     "Cobalt": [
+      4539,
+      0,
+      47,
+      4586
+     ],
+     "Copper": [
+      37882,
+      0,
+      310,
+      38192
+     ],
+     "Lead": [
+      825,
+      0,
+      9,
+      834
+     ],
+     "Manganese": [
+      16772,
+      0,
+      109,
+      16881
+     ],
+     "Nickel": [
+      37994,
+      0,
+      285,
+      38279
+     ]
+    },
+    "naics": "332710",
+    "name": "LINAMAR AVILLA",
+    "parent": "LINAMAR HOLDING NEVADA INC",
+    "state": "IN",
+    "street": "100 PROGRESS WAY",
+    "trifd": "46710FDRLM100PR",
+    "zip": "46710"
+   },
+   {
+    "city": "Goshen",
+    "company": "lci-goshen-2703",
+    "county": "18039",
+    "frs": "110027375392",
+    "lat": 41.566357,
+    "lon": -85.793569,
+    "metals": {
+     "Chromium": [
+      59739,
+      0,
+      608,
+      60348
+     ],
+     "Lead": [
+      1991,
+      0,
+      20,
+      2011
+     ],
+     "Manganese": [
+      26089,
+      0,
+      344,
+      26433
+     ],
+     "Nickel": [
+      4978,
+      0,
+      52,
+      5030
+     ]
+    },
+    "naics": "332312",
+    "name": "LIPPERT COMPONENTS INC PLANT 45",
+    "parent": "LCI INDUSTRIES",
+    "state": "IN",
+    "street": "2703 COLLEGE AVE",
+    "trifd": "46526STRCR2703C",
+    "zip": "46528"
+   },
+   {
+    "city": "Kendallville",
+    "company": "hendrickson-truck-commercial-vehicle-systems-kendallville-101",
+    "county": "18113",
+    "frs": "110000400637",
+    "lat": 41.442437,
+    "lon": -85.225215,
+    "metals": {
+     "Copper": [
+      67936,
+      0,
+      0,
+      67936
+     ],
+     "Zinc": [
+      10603,
+      0,
+      0,
+      10603
+     ]
+    },
+    "naics": "336330",
+    "name": "HENDRICKSON TRUCK SUSPENSION S YSTEMS PLANT 3",
+    "parent": "THE BOLER CO",
+    "state": "IN",
+    "street": "220 S PROGRESS DR W",
+    "trifd": "46755HNDRC2450P",
+    "zip": "46755"
+   },
+   {
+    "city": "Michigan City",
+    "company": null,
+    "county": "18091",
+    "frs": "110000592154",
+    "lat": 41.719805,
+    "lon": -86.906579,
+    "metals": {
+     "Chromium": [
+      0,
+      0,
+      13324,
+      13324
+     ],
+     "Copper": [
+      0,
+      0,
+      8201,
+      8201
+     ],
+     "Lead": [
+      0,
+      0,
+      5181,
+      5181
+     ],
+     "Manganese": [
+      0,
+      0,
+      28411,
+      28411
+     ],
+     "Mercury": [
+      0,
+      0,
+      49,
+      49
+     ],
+     "Vanadium": [
+      0,
+      0,
+      11446,
+      11446
+     ],
+     "Zinc": [
+      0,
+      0,
+      11605,
+      11605
+     ]
+    },
+    "naics": "221112",
+    "name": "NIPSCO MICHIGAN CITY GENERATING STATION",
+    "parent": "NISOURCE INC",
+    "state": "IN",
+    "street": "101 WABASH ST",
+    "trifd": "46360NRTHRWABAS",
+    "zip": "46360"
+   },
+   {
+    "city": "Goshen",
+    "company": "wabash-national-corporation-goshen-2572",
+    "county": "18039",
+    "frs": "110000747880",
+    "lat": 41.551803,
+    "lon": -85.780778,
+    "metals": {
+     "Chromium": [
+      30993,
+      0,
+      4,
+      30997
+     ],
+     "Manganese": [
+      13253,
+      0,
+      2,
+      13255
+     ],
+     "Nickel": [
+      33551,
+      0,
+      1,
+      33552
+     ]
+    },
+    "naics": "336211",
+    "name": "WABASH NATIONAL L.P.",
+    "parent": "WABASH NATIONAL CORP",
+    "state": "IN",
+    "street": "2572 E KERCHER RD",
+    "trifd": "46526SPRMC16500",
+    "zip": "46528"
+   },
+   {
+    "city": "Topeka",
+    "company": "nishikawa-standard-co-topeka-324",
+    "county": "18087",
+    "frs": "110056971157",
+    "lat": 41.53681,
+    "lon": -85.543791,
+    "metals": {
+     "Zinc": [
+      69943,
+      0,
+      4795,
+      74738
+     ]
+    },
+    "naics": "326299",
+    "name": "NISHIKAWA COOPER LLC",
+    "parent": "NISHIKAWA COOPER LLC",
+    "state": "IN",
+    "street": "324 MORROW ST",
+    "trifd": "46571NSHKW324MO",
+    "zip": "46571"
+   },
+   {
+    "city": "Goshen",
+    "company": "stellite-coatings-goshen-1201",
+    "county": "18039",
+    "frs": "110000399159",
+    "lat": 41.557468,
+    "lon": -85.818365,
+    "metals": {
+     "Chromium": [
+      23000,
+      0,
+      459,
+      23459
+     ],
+     "Cobalt": [
+      33000,
+      0,
+      817,
+      33817
+     ],
+     "Nickel": [
+      17000,
+      0,
+      306,
+      17306
+     ]
+    },
+    "naics": "331492",
+    "name": "KENNAMETAL STELLITE",
+    "parent": "KENNAMETAL INC",
+    "state": "IN",
+    "street": "1201 N EISENHOWER",
+    "trifd": "46526STLLT1201E",
+    "zip": "46526"
+   },
+   {
+    "city": "Warsaw",
+    "company": "biomet-inc-warsaw-56",
+    "county": "18085",
+    "frs": "110031000921",
+    "lat": 41.266072,
+    "lon": -85.840764,
+    "metals": {
+     "Chromium": [
+      24740,
+      0,
+      22,
+      24762
+     ],
+     "Cobalt": [
+      47933,
+      0,
+      43,
+      47976
+     ]
+    },
+    "naics": "339113",
+    "name": "ZIMMER BIOMET INC.",
+    "parent": "ZIMMER BIOMET HOLDINGS INC",
+    "state": "IN",
+    "street": "56 E BELL DR",
+    "trifd": "46581BMTMN56EBE",
+    "zip": "46582"
+   },
+   {
+    "city": "Bristol",
+    "company": "utilimaster-corp-wakarusa-65906",
+    "county": "18039",
+    "frs": "110045407868",
+    "lat": 41.711088,
+    "lon": -85.828141,
+    "metals": {
+     "Copper": [
+      71312,
+      0,
+      0,
+      71312
+     ]
+    },
+    "naics": "336211",
+    "name": "THE SHYFT GROUP USA INC",
+    "parent": "THE SHYFT GROUP USA INC",
+    "state": "IN",
+    "street": "603 EARTHWAY BLVD.",
+    "trifd": "4650WTLMST63EAR",
+    "zip": "46507"
+   },
+   {
+    "city": "Middlebury",
+    "company": "rc-middlebury-middlebury-51790",
+    "county": "18039",
+    "frs": "110017764267",
+    "lat": 41.742068,
+    "lon": -85.69855,
+    "metals": {
+     "Chromium": [
+      22729,
+      0,
+      84,
+      22813
+     ],
+     "Copper": [
+      8213,
+      0,
+      31,
+      8244
+     ],
+     "Lead": [
+      908,
+      0,
+      4,
+      912
+     ],
+     "Manganese": [
+      12199,
+      0,
+      58,
+      12257
+     ],
+     "Nickel": [
+      26716,
+      0,
+      99,
+      26815
+     ]
+    },
+    "naics": "336212",
+    "name": "RC TRAILERS",
+    "parent": "BCD PARENT INC",
+    "state": "IN",
+    "street": "51790 COUNTY ROAD 39",
+    "trifd": "4654WRCTRL5179C",
+    "zip": "46540"
+   },
+   {
+    "city": "Elkhart",
+    "company": "conn-selmer-inc-vincent-bach-div-elkhart-500",
+    "county": "18039",
+    "frs": "110000398837",
+    "lat": 41.685476,
+    "lon": -85.934472,
+    "metals": {
+     "Copper": [
+      65172,
+      0,
+      1706,
+      66878
+     ],
+     "Lead": [
+      0,
+      0,
+      1,
+      1
+     ]
+    },
+    "naics": "339992",
+    "name": "CONN-SELMER INC ELKHART NORTH",
+    "parent": "CONN-SELMER INC",
+    "state": "IN",
+    "street": "500 INDUSTRIAL PKWY",
+    "trifd": "46515THSLM500IN",
+    "zip": "46516"
+   },
+   {
+    "city": "Albion",
+    "company": "linamar-structures-usa-michigan-inc-albion-1612",
+    "county": "18113",
+    "frs": "110071287426",
+    "lat": 41.394513,
+    "lon": -85.40141,
+    "metals": {
+     "Copper": [
+      20798,
+      0,
+      123,
+      20921
+     ],
+     "Manganese": [
+      16107,
+      0,
+      99,
+      16206
+     ],
+     "Nickel": [
+      27842,
+      0,
+      164,
+      28006
+     ]
+    },
+    "naics": "332710",
+    "name": "LINAMAR INDIANA PLANT 2",
+    "parent": "LINAMAR HOLDING NEVADA INC",
+    "state": "IN",
+    "street": "1510 PROGRESS DR",
+    "trifd": "4670WBSCHP151PR",
+    "zip": "46701"
+   },
+   {
+    "city": "South Bend",
+    "company": "eaton-corp-forge-plt-south-bend-2930",
+    "county": "18141",
+    "frs": "110000399961",
+    "lat": 41.715972,
+    "lon": -86.304151,
+    "metals": {
+     "Chromium": [
+      2900,
+      0,
+      1,
+      2901
+     ],
+     "Manganese": [
+      48000,
+      0,
+      435,
+      48435
+     ],
+     "Nickel": [
+      13000,
+      0,
+      6,
+      13006
+     ]
+    },
+    "naics": "332111",
+    "name": "EATON HD TRANSMISSION FORGE PLANT",
+    "parent": "EATON CORP",
+    "state": "IN",
+    "street": "2930 FOUNDATION DR",
+    "trifd": "46628TNCRP2930F",
+    "zip": "46628"
+   },
+   {
+    "city": "South Bend",
+    "company": "haldex-garphyttan-corp-south-bend-4404",
+    "county": "18141",
+    "frs": "110003128703",
+    "lat": 41.725342,
+    "lon": -86.309648,
+    "metals": {
+     "Lead": [
+      50107,
+      0,
+      12,
+      50119
+     ],
+     "Nickel": [
+      13395,
+      0,
+      3,
+      13398
+     ]
+    },
+    "naics": "331222",
+    "name": "SUZUKI GARPHYTTAN CORP",
+    "parent": "SUZUKI GARPHYTTAN AB",
+    "state": "IN",
+    "street": "4404 NIMTZ PKWY",
+    "trifd": "46628HLDXG444NI",
+    "zip": "46628"
+   },
+   {
+    "city": "Michigan City",
+    "company": "sullair-corp-michigan-city-3700",
+    "county": "18091",
+    "frs": "110000592163",
+    "lat": 41.703044,
+    "lon": -86.847004,
+    "metals": {
+     "Copper": [
+      17410,
+      0,
+      3790,
+      21200
+     ],
+     "Manganese": [
+      35000,
+      0,
+      7160,
+      42160
+     ]
+    },
+    "naics": "333912",
+    "name": "HITACHI GLOBAL AIR POWER US LLC",
+    "parent": "ASTEMO AMERICAS INC",
+    "state": "IN",
+    "street": "3700 E MICHIGAN BLVD",
+    "trifd": "46360SLLRC3700E",
+    "zip": "46360"
+   },
+   {
+    "city": "Michigan City",
+    "company": "diamond-mfg-co-michigan-city-600",
+    "county": "18091",
+    "frs": "110009389544",
+    "lat": 41.717151,
+    "lon": -86.840711,
+    "metals": {
+     "Chromium": [
+      45119,
+      0,
+      5,
+      45124
+     ],
+     "Manganese": [
+      363,
+      0,
+      5,
+      368
+     ],
+     "Nickel": [
+      2402,
+      0,
+      5,
+      2407
+     ]
+    },
+    "naics": "332119",
+    "name": "DIAMOND MIDWEST",
+    "parent": "RELIANCE STEEL & ALUMINUM CO",
+    "state": "IN",
+    "street": "600 ROYAL RD",
+    "trifd": "46360DMNDM600RO",
+    "zip": "46360"
+   },
+   {
+    "city": "Pierceton",
+    "company": "paragon-medical-inc-pierceton-8",
+    "county": "18085",
+    "frs": "110022811144",
+    "lat": 41.203144,
+    "lon": -85.699488,
+    "metals": {
+     "Chromium": [
+      18422,
+      0,
+      13,
+      18435
+     ],
+     "Copper": [
+      3878,
+      0,
+      2,
+      3880
+     ],
+     "Lead": [
+      262,
+      0,
+      2,
+      264
+     ],
+     "Manganese": [
+      5824,
+      0,
+      1,
+      5825
+     ],
+     "Nickel": [
+      17609,
+      0,
+      5,
+      17614
+     ]
+    },
+    "naics": "339113",
+    "name": "PARAGON MEDICAL INC",
+    "parent": "AMETEK INC",
+    "state": "IN",
+    "street": "8 MATCHETT DR",
+    "trifd": "46562PRGNM8MATC",
+    "zip": "46562"
+   },
+   {
+    "city": "Churubusco",
+    "company": "brc-rubber-plastics-inc-ligonier-1",
+    "county": "18183",
+    "frs": "110057203636",
+    "lat": 41.224867,
+    "lon": -85.317273,
+    "metals": {
+     "Zinc": [
+      5538,
+      0,
+      32679,
+      38217
+     ]
+    },
+    "naics": "326299",
+    "name": "BRC RUBBER & PLASTICS INC.",
+    "parent": "BRC RUBBER & PLASTICS INC",
+    "state": "IN",
+    "street": "589 S MAIN ST",
+    "trifd": "4672WBRCRB589SM",
+    "zip": "46723"
+   },
+   {
+    "city": "Elkhart",
+    "company": "johnson-products-inc-l-e-elkhart-2100",
+    "county": "18039",
+    "frs": "110002115210",
+    "lat": 41.666162,
+    "lon": -85.951881,
+    "metals": {
+     "Chromium": [
+      13106,
+      0,
+      0,
+      13106
+     ],
+     "Copper": [
+      7408,
+      0,
+      0,
+      7408
+     ],
+     "Manganese": [
+      8222,
+      0,
+      0,
+      8222
+     ],
+     "Nickel": [
+      8141,
+      0,
+      0,
+      8141
+     ]
+    },
+    "naics": "332510",
+    "name": "L. E. JOHNSON PRODUCTS INC.",
+    "parent": "NA",
+    "state": "IN",
+    "street": "2100 STERLING AVE",
+    "trifd": "46515LJHNS2100S",
+    "zip": "46516"
+   },
+   {
+    "city": "Columbia City",
+    "company": null,
+    "county": "18183",
+    "frs": "110058484448",
+    "lat": 41.078385,
+    "lon": -85.377418,
+    "metals": {
+     "Chromium": [
+      34573,
+      0,
+      31,
+      34604
+     ]
+    },
+    "naics": "339112",
+    "name": "MICROPULSE INC",
+    "parent": "NA",
+    "state": "IN",
+    "street": "5865 E IN-14",
+    "trifd": "4672WMCRPL5865E",
+    "zip": "46725"
+   },
+   {
+    "city": "Niles",
+    "company": "niles-steel-tank-niles-1701",
+    "county": "26021",
+    "frs": "110043693884",
+    "lat": 41.851884,
+    "lon": -86.229044,
+    "metals": {
+     "Chromium": [
+      15344,
+      0,
+      26,
+      15370
+     ],
+     "Manganese": [
+      6835,
+      0,
+      50,
+      6885
+     ],
+     "Nickel": [
+      11898,
+      0,
+      34,
+      11932
+     ]
+    },
+    "naics": "332420",
+    "name": "NILES STEEL TANK",
+    "parent": "BRADFORD WHITE CORP",
+    "state": "MI",
+    "street": "1701-A TERMINAL ROAD",
+    "trifd": "4912WNLSST171AT",
+    "zip": "49120"
+   },
+   {
+    "city": "Elkhart",
+    "company": "elkhart-brass-mfg-co-elkhart-1302",
+    "county": "18039",
+    "frs": "110000398640",
+    "lat": 41.692703,
+    "lon": -85.995604,
+    "metals": {
+     "Copper": [
+      28972,
+      0,
+      1869,
+      30841
+     ],
+     "Lead": [
+      1115,
+      0,
+      178,
+      1293
+     ]
+    },
+    "naics": "331314",
+    "name": "ELKHART BRASS MANUFACTURING CO  INC",
+    "parent": "SAFE FLEET",
+    "state": "IN",
+    "street": "1302 W BEARDSLEY AVE",
+    "trifd": "46514LKHRT1302W",
+    "zip": "46514"
+   },
+   {
+    "city": "Mishawaka",
+    "company": "standard-motor-products-mishawaka-1718",
+    "county": "18141",
+    "frs": "110001129939",
+    "lat": 41.675457,
+    "lon": -86.148084,
+    "metals": {
+     "Copper": [
+      30000,
+      0,
+      0,
+      30000
+     ]
+    },
+    "naics": "326291",
+    "name": "STANDARD MOTOR PRODUCTS INC",
+    "parent": "STANDARD MOTOR PRODUCTS INC",
+    "state": "IN",
+    "street": "1718 N HOME ST",
+    "trifd": "46545RSTNC1718N",
+    "zip": "46545"
+   },
+   {
+    "city": "South Bend",
+    "company": "somaschini-north-america-llc-south-bend-4601",
+    "county": "18141",
+    "frs": "110070550229",
+    "lat": 41.726754,
+    "lon": -86.312634,
+    "metals": {
+     "Chromium": [
+      13735,
+      0,
+      7,
+      13742
+     ],
+     "Lead": [
+      119,
+      0,
+      0,
+      119
+     ],
+     "Manganese": [
+      14929,
+      0,
+      7,
+      14936
+     ]
+    },
+    "naics": "336350",
+    "name": "SOMASCHINI N.A.",
+    "parent": "NA",
+    "state": "IN",
+    "street": "4601 NIMTZ PKWY",
+    "trifd": "4662WSMSCH461NI",
+    "zip": "46628"
+   },
+   {
+    "city": "Warsaw",
+    "company": "buhrt-engineering-inc-warsaw-27",
+    "county": "18085",
+    "frs": "110018889434",
+    "lat": 41.270291,
+    "lon": -85.842539,
+    "metals": {
+     "Chromium": [
+      20582,
+      0,
+      0,
+      20582
+     ],
+     "Manganese": [
+      2064,
+      0,
+      0,
+      2064
+     ],
+     "Nickel": [
+      4759,
+      0,
+      0,
+      4759
+     ]
+    },
+    "naics": "332322",
+    "name": "BUHRT ENGINEERING INC.",
+    "parent": "NA",
+    "state": "IN",
+    "street": "27 EAST 250 NORTH",
+    "trifd": "4658WBHRTN27EAS",
+    "zip": "46582"
+   },
+   {
+    "city": "Benton Harbor",
+    "company": "gast-mfg-inc-benton-harbor-2550",
+    "county": "26021",
+    "frs": "110000593206",
+    "lat": 42.076317,
+    "lon": -86.436612,
+    "metals": {
+     "Chromium": [
+      9062,
+      0,
+      0,
+      9062
+     ],
+     "Copper": [
+      4615,
+      0,
+      1,
+      4616
+     ],
+     "Manganese": [
+      3724,
+      0,
+      2,
+      3726
+     ],
+     "Nickel": [
+      9208,
+      0,
+      0,
+      9208
+     ]
+    },
+    "naics": "333912",
+    "name": "GAST MANUFACTURING INC",
+    "parent": "IDEX CORP",
+    "state": "MI",
+    "street": "2300 HWY M-139",
+    "trifd": "49022GSTMN2300H",
+    "zip": "49022"
+   },
+   {
+    "city": "Bremen",
+    "company": "bremen-wire-bremen-515",
+    "county": "18099",
+    "frs": "110058770263",
+    "lat": 41.458544,
+    "lon": -86.152534,
+    "metals": {
+     "Antimony": [
+      0,
+      0,
+      6323,
+      6323
+     ],
+     "Copper": [
+      14387,
+      0,
+      3892,
+      18279
+     ],
+     "Zinc": [
+      0,
+      0,
+      1693,
+      1693
+     ]
+    },
+    "naics": "331420",
+    "name": "COLEMAN CABLE LLC EAST FACILITY",
+    "parent": "SOUTHWIRE CO",
+    "state": "IN",
+    "street": "515 COPPERFIELD WAY",
+    "trifd": "46506CPPRF515CP",
+    "zip": "46506"
+   },
+   {
+    "city": "Howe",
+    "company": "lci-howe-3625",
+    "county": "18087",
+    "frs": "110001353099",
+    "lat": 41.693948,
+    "lon": -85.425654,
+    "metals": {
+     "Chromium": [
+      4871,
+      0,
+      222,
+      5093
+     ],
+     "Manganese": [
+      14563,
+      0,
+      39,
+      14602
+     ],
+     "Nickel": [
+      3131,
+      0,
+      33,
+      3164
+     ]
+    },
+    "naics": "332312",
+    "name": "LIPPERT COMPONENTS INC PLANT 46",
+    "parent": "LCI INDUSTRIES",
+    "state": "IN",
+    "street": "3625 N STATE RD 9",
+    "trifd": "46746VNTRW3625N",
+    "zip": "46746"
+   },
+   {
+    "city": "La Porte",
+    "company": "hiler-industries-inc-la-porte-118",
+    "county": "18091",
+    "frs": "110000398043",
+    "lat": 41.628074,
+    "lon": -86.709383,
+    "metals": {
+     "Chromium": [
+      13204,
+      0,
+      108,
+      13313
+     ],
+     "Copper": [
+      1686,
+      0,
+      15,
+      1701
+     ],
+     "Nickel": [
+      6864,
+      0,
+      18,
+      6882
+     ]
+    },
+    "naics": "331511",
+    "name": "ACCURATE CASTINGS INC",
+    "parent": "ACCURATE CASTINGS INC",
+    "state": "IN",
+    "street": "118 KOOMLER DR",
+    "trifd": "46350CCRTC118KO",
+    "zip": "46350"
+   },
+   {
+    "city": "Warsaw",
+    "company": null,
+    "county": "18085",
+    "frs": "110070789103",
+    "lat": 41.274817,
+    "lon": -85.871805,
+    "metals": {
+     "Chromium": [
+      13399,
+      0,
+      0,
+      13399
+     ],
+     "Cobalt": [
+      1459,
+      0,
+      0,
+      1459
+     ],
+     "Copper": [
+      808,
+      0,
+      0,
+      808
+     ],
+     "Manganese": [
+      1216,
+      0,
+      0,
+      1216
+     ],
+     "Nickel": [
+      3958,
+      0,
+      0,
+      3958
+     ]
+    },
+    "naics": "331491",
+    "name": "BANNER MEDICAL",
+    "parent": "BANNER INDUSTRIES LLC",
+    "state": "IN",
+    "street": "1199 POLK DR",
+    "trifd": "4658WBNNRM1199P",
+    "zip": "46582"
+   },
+   {
+    "city": "Rochester",
+    "company": "rochester-metal-products-rochester-616",
+    "county": "18049",
+    "frs": "110000401672",
+    "lat": 41.068321,
+    "lon": -86.209519,
+    "metals": {
+     "Copper": [
+      0,
+      0,
+      10868,
+      10868
+     ],
+     "Lead": [
+      0,
+      0,
+      51,
+      51
+     ],
+     "Manganese": [
+      0,
+      0,
+      9493,
+      9493
+     ]
+    },
+    "naics": "331511",
+    "name": "ROCHESTER METAL PRODUCTS CORP",
+    "parent": "NA",
+    "state": "IN",
+    "street": "616 INDIANA AVE",
+    "trifd": "46975RCHST616IN",
+    "zip": "46975"
+   },
+   {
+    "city": "South Bend",
+    "company": "imagineering-finishing-technologies-inc-south-bend-1302",
+    "county": "18141",
+    "frs": "110000399872",
+    "lat": 41.664891,
+    "lon": -86.268788,
+    "metals": {
+     "Nickel": [
+      0,
+      0,
+      19464,
+      19464
+     ]
+    },
+    "naics": "332813",
+    "name": "IMAGINEERING ENTERPRISES LLC",
+    "parent": "IMAGINEERING ENTERPRISES INC",
+    "state": "IN",
+    "street": "1302 W SAMPLE ST",
+    "trifd": "46619MGNRN1302W",
+    "zip": "46619"
+   },
+   {
+    "city": "Warsaw",
+    "company": "med-cast-inc-warsaw-596",
+    "county": "18085",
+    "frs": "110000399765",
+    "lat": 41.263326,
+    "lon": -85.831091,
+    "metals": {
+     "Chromium": [
+      13381,
+      0,
+      0,
+      13381
+     ],
+     "Cobalt": [
+      780,
+      0,
+      0,
+      780
+     ],
+     "Nickel": [
+      5176,
+      0,
+      0,
+      5176
+     ]
+    },
+    "naics": "331512",
+    "name": "TEXMO BLANK",
+    "parent": "NA",
+    "state": "IN",
+    "street": "596 E 200 N",
+    "trifd": "46580MDCST596EA",
+    "zip": "46582"
+   },
+   {
+    "city": "Bremen",
+    "company": "rbc-precision-products-bremen-bremen-225",
+    "county": "18099",
+    "frs": "110000398542",
+    "lat": 41.44747,
+    "lon": -86.170615,
+    "metals": {
+     "Chromium": [
+      12425,
+      0,
+      0,
+      12425
+     ],
+     "Lead": [
+      464,
+      0,
+      0,
+      464
+     ],
+     "Manganese": [
+      1684,
+      0,
+      0,
+      1684
+     ],
+     "Nickel": [
+      4761,
+      0,
+      0,
+      4761
+     ]
+    },
+    "naics": "332991",
+    "name": "RBC PRECISION PRODUCTS",
+    "parent": "RBC BEARINGS INC",
+    "state": "IN",
+    "street": "225 INDUSTRIAL DR",
+    "trifd": "46506MLLRB225IN",
+    "zip": "46506"
+   },
+   {
+    "city": "Bremen",
+    "company": "southwire",
+    "county": "18099",
+    "frs": "110064148596",
+    "lat": 41.45007,
+    "lon": -86.150647,
+    "metals": {
+     "Copper": [
+      14387,
+      0,
+      4403,
+      18790
+     ]
+    },
+    "naics": "331420",
+    "name": "COLEMAN CABLE LLC",
+    "parent": "SOUTHWIRE CO",
+    "state": "IN",
+    "street": "1115 W N ST",
+    "trifd": "46506CPPRF1115W",
+    "zip": "46506"
+   },
+   {
+    "city": "Kendallville",
+    "company": "aluminum-recovery-technologies-inc-kendallville-2170",
+    "county": "18113",
+    "frs": "110013327480",
+    "lat": 41.441761,
+    "lon": -85.229416,
+    "metals": {
+     "Copper": [
+      0,
+      0,
+      18330,
+      18330
+     ]
+    },
+    "naics": "331314",
+    "name": "ALUMINUM RECOVERY TECHNOLOGY INC",
+    "parent": "NA",
+    "state": "IN",
+    "street": "2170 PRODUCTION RD",
+    "trifd": "46755LMNMR2170P",
+    "zip": "46755"
+   },
+   {
+    "city": "Niles",
+    "company": "pilkington-north-america-inc-niles-2121",
+    "county": "26021",
+    "frs": "110071711744",
+    "lat": 41.80648,
+    "lon": -86.297235,
+    "metals": {
+     "Copper": [
+      10618,
+      0,
+      656,
+      11274
+     ],
+     "Lead": [
+      4953,
+      0,
+      306,
+      5259
+     ],
+     "Zinc": [
+      1315,
+      0,
+      217,
+      1532
+     ]
+    },
+    "naics": "336370",
+    "name": "MODINEER PLANT 10",
+    "parent": "NA",
+    "state": "MI",
+    "street": "2121 W CHICAGO RD",
+    "trifd": "4912WMDNRP2121W",
+    "zip": "49120"
+   },
+   {
+    "city": "Michigan City",
+    "company": "triplex-plating-inc-michigan-city-1555",
+    "county": "18091",
+    "frs": "110000592172",
+    "lat": 41.722485,
+    "lon": -86.885645,
+    "metals": {
+     "Chromium": [
+      0,
+      0,
+      797,
+      797
+     ],
+     "Zinc": [
+      0,
+      0,
+      16041,
+      16041
+     ]
+    },
+    "naics": "332813",
+    "name": "TRIPLEX PLATING CO INC",
+    "parent": "NA",
+    "state": "IN",
+    "street": "1555 US 12 EAST",
+    "trifd": "46360TRPLX1500E",
+    "zip": "46360"
+   },
+   {
+    "city": "La Porte",
+    "company": "american-renolit-corp-la-porte-1207",
+    "county": "18091",
+    "frs": "110000863343",
+    "lat": 41.623021,
+    "lon": -86.695468,
+    "metals": {
+     "Zinc": [
+      14365,
+      0,
+      0,
+      14365
+     ]
+    },
+    "naics": "326113",
+    "name": "AMERICAN RENOLIT CORP",
+    "parent": "NA",
+    "state": "IN",
+    "street": "1207 E LINCOLNWAY",
+    "trifd": "46350SLVYN1207E",
+    "zip": "46350"
+   },
+   {
+    "city": "Columbia City",
+    "company": null,
+    "county": "18183",
+    "frs": "110000400245",
+    "lat": 41.150495,
+    "lon": -85.493203,
+    "metals": {
+     "Zinc": [
+      0,
+      0,
+      14112,
+      14112
+     ]
+    },
+    "naics": "332813",
+    "name": "C & R PLATING CORP",
+    "parent": "K C JONES PLATING CO",
+    "state": "IN",
+    "street": "302 FACTORY AVE",
+    "trifd": "46725CRBRR302FA",
+    "zip": "46725"
+   },
+   {
+    "city": "La Porte",
+    "company": "roll-coater-inc-la-porte-858",
+    "county": "18091",
+    "frs": "110000592136",
+    "lat": 41.51808,
+    "lon": -86.669602,
+    "metals": {
+     "Chromium": [
+      0,
+      0,
+      5324,
+      5324
+     ],
+     "Nickel": [
+      0,
+      0,
+      8387,
+      8387
+     ]
+    },
+    "naics": "332812",
+    "name": "PRECOAT METALS",
+    "parent": "AZZ INC",
+    "state": "IN",
+    "street": "858 E HUPP RD",
+    "trifd": "46345RLLCT2NDAN",
+    "zip": "46350"
+   },
+   {
+    "city": "Columbia City",
+    "company": "reelcraft-industries-inc-columbia-city-2842",
+    "county": "18183",
+    "frs": "110000400290",
+    "lat": 41.140063,
+    "lon": -85.436574,
+    "metals": {
+     "Chromium": [
+      4121,
+      0,
+      193,
+      4314
+     ],
+     "Copper": [
+      2659,
+      0,
+      151,
+      2810
+     ],
+     "Lead": [
+      211,
+      0,
+      0,
+      211
+     ],
+     "Manganese": [
+      5397,
+      0,
+      312,
+      5709
+     ]
+    },
+    "naics": "332999",
+    "name": "REELCRAFT INDUSTRIES INC",
+    "parent": "NA",
+    "state": "IN",
+    "street": "2842 E BUS INESS HWY 30",
+    "trifd": "46725RLCRFUSBUS",
+    "zip": "46725"
+   },
+   {
+    "city": "Plymouth",
+    "company": "hoosier-tire-rubber-corp-plymouth-2307",
+    "county": "18099",
+    "frs": "110000399211",
+    "lat": 41.35186,
+    "lon": -86.336788,
+    "metals": {
+     "Zinc": [
+      0,
+      0,
+      12490,
+      12490
+     ]
+    },
+    "naics": "326211",
+    "name": "HOOSIER RACING TIRE CORP",
+    "parent": "CONTINENTAL TIRE HOLDING US LLC",
+    "state": "IN",
+    "street": "2233 PIDCO DR",
+    "trifd": "46536RJMFGPOBOX",
+    "zip": "46563"
+   },
+   {
+    "city": "Stevensville",
+    "company": "supreme-casting-inc-stevensville-3389",
+    "county": "26021",
+    "frs": "110001848118",
+    "lat": 41.985552,
+    "lon": -86.534126,
+    "metals": {
+     "Copper": [
+      6217,
+      0,
+      0,
+      6217
+     ],
+     "Manganese": [
+      777,
+      0,
+      0,
+      777
+     ],
+     "Nickel": [
+      777,
+      0,
+      0,
+      777
+     ],
+     "Zinc": [
+      4663,
+      0,
+      0,
+      4663
+     ]
+    },
+    "naics": "331313",
+    "name": "SUPREME CASTING INC.",
+    "parent": "SUPREME CASTING INC",
+    "state": "MI",
+    "street": "3389 LINCO RD",
+    "trifd": "49127SPRMC3389L",
+    "zip": "49127"
+   },
+   {
+    "city": "Nappanee",
+    "company": "fairmont-homes-inc-nappanee-502",
+    "county": "18039",
+    "frs": "110071732231",
+    "lat": 41.439858,
+    "lon": -85.982222,
+    "metals": {
+     "Chromium": [
+      2094,
+      0,
+      88,
+      2182
+     ],
+     "Lead": [
+      2,
+      0,
+      0,
+      2
+     ],
+     "Manganese": [
+      3744,
+      0,
+      157,
+      3901
+     ],
+     "Nickel": [
+      4716,
+      0,
+      197,
+      4913
+     ]
+    },
+    "naics": "333132",
+    "name": "US ROD",
+    "parent": "NA",
+    "state": "IN",
+    "street": "502 S OAKLAND AVE",
+    "trifd": "4655WLFKNR52SAK",
+    "zip": "46550"
+   },
+   {
+    "city": "Warsaw",
+    "company": "symmetry-medical-inc-warsaw-3724",
+    "county": "18085",
+    "frs": "110000493742",
+    "lat": 41.284702,
+    "lon": -85.85325,
+    "metals": {
+     "Chromium": [
+      5683,
+      0,
+      0,
+      5683
+     ],
+     "Copper": [
+      2413,
+      0,
+      0,
+      2413
+     ],
+     "Nickel": [
+      2320,
+      0,
+      0,
+      2320
+     ]
+    },
+    "naics": "339112",
+    "name": "TECOMET WARSAW BUILDING #1",
+    "parent": "TECOMET INC",
+    "state": "IN",
+    "street": "486 W 350 N",
+    "trifd": "46580THYNC486W3",
+    "zip": "46582"
+   },
+   {
+    "city": "Goshen",
+    "company": "independent-protection-co-inc-goshen-1607",
+    "county": "18039",
+    "frs": "110003123931",
+    "lat": 41.567756,
+    "lon": -85.82872,
+    "metals": {
+     "Copper": [
+      7251,
+      0,
+      1227,
+      8479
+     ],
+     "Lead": [
+      304,
+      0,
+      8,
+      312
+     ]
+    },
+    "naics": "335931",
+    "name": "INDEPENDENT PROTECTION CO  INC",
+    "parent": "NA",
+    "state": "IN",
+    "street": "1607 S MAIN ST",
+    "trifd": "46526NDPND167SM",
+    "zip": "46526"
+   },
+   {
+    "city": "Elkhart",
+    "company": "atwood-mobile-products-elkhart-opers-elkhart-57912",
+    "county": "18039",
+    "frs": "110070069227",
+    "lat": 41.652666,
+    "lon": -86.010182,
+    "metals": {
+     "Chromium": [
+      4895,
+      0,
+      51,
+      4946
+     ],
+     "Lead": [
+      163,
+      0,
+      3,
+      166
+     ],
+     "Manganese": [
+      2138,
+      0,
+      72,
+      2210
+     ]
+    },
+    "naics": "332999",
+    "name": "LIPPERT COMPONENTS INC. 83",
+    "parent": "LCI INDUSTRIES",
+    "state": "IN",
+    "street": "57912 CHARLOTTE AVE",
+    "trifd": "4651WLPPRT57912",
+    "zip": "46517"
+   },
+   {
+    "city": "South Bend",
+    "company": "honeywell",
+    "county": "18141",
+    "frs": "110000497105",
+    "lat": 41.68454,
+    "lon": -86.298015,
+    "metals": {
+     "Copper": [
+      6360,
+      0,
+      735,
+      7095
+     ]
+    },
+    "naics": "336413",
+    "name": "HONEYWELL AEROSPACE SOUTH BEND",
+    "parent": "HONEYWELL INTERNATIONAL INC",
+    "state": "IN",
+    "street": "3520 WESTMOOR ST",
+    "trifd": "46624LLDSG3520W",
+    "zip": "46628"
+   },
+   {
+    "city": "Ligonier",
+    "company": "brc-rubber-plastics-inc-ligonier-1",
+    "county": "18113",
+    "frs": "110000742206",
+    "lat": 41.474338,
+    "lon": -85.604681,
+    "metals": {
+     "Zinc": [
+      0,
+      0,
+      6505,
+      6505
+     ]
+    },
+    "naics": "326299",
+    "name": "BRC RUBBER & PLASTICS INC.",
+    "parent": "BRC RUBBER & PLASTICS INC",
+    "state": "IN",
+    "street": "1497 GERBER ST",
+    "trifd": "46767FRDNB1497G",
+    "zip": "46767"
+   },
+   {
+    "city": "South Bend",
+    "company": "royal-adhesives-sealants-llc-south-bend-2001",
+    "county": "18141",
+    "frs": "110000399925",
+    "lat": 41.676919,
+    "lon": -86.278596,
+    "metals": {
+     "Zinc": [
+      5837,
+      0,
+      28,
+      5865
+     ]
+    },
+    "naics": "325520",
+    "name": "ROYAL ADHESIVES & SEALANTS",
+    "parent": "HB FULLER CO",
+    "state": "IN",
+    "street": "2001 W WASHINGTON ST",
+    "trifd": "46628BRNCR2001W",
+    "zip": "46628"
+   },
+   {
+    "city": "Claypool",
+    "company": null,
+    "county": "18085",
+    "frs": "110020487560",
+    "lat": 41.131266,
+    "lon": -85.883136,
+    "metals": {
+     "Chromium": [
+      2346,
+      0,
+      0,
+      2346
+     ],
+     "Copper": [
+      2188,
+      0,
+      0,
+      2188
+     ],
+     "Nickel": [
+      940,
+      0,
+      0,
+      940
+     ]
+    },
+    "naics": "339112",
+    "name": "TECOMET WARSAW-BUILDING #2",
+    "parent": "TECOMET INC",
+    "state": "IN",
+    "street": "111 N CLAY ST",
+    "trifd": "46510SYMMT111NC",
+    "zip": "46510"
+   },
+   {
+    "city": "Elkhart",
+    "company": "crosbie-foundry-co-inc-elkhart-1600",
+    "county": "18039",
+    "frs": "110000398613",
+    "lat": 41.695417,
+    "lon": -86.000213,
+    "metals": {
+     "Copper": [
+      5388,
+      0,
+      0,
+      5388
+     ]
+    },
+    "naics": "331529",
+    "name": "CROSBIE FOUNDRY CO. INC.",
+    "parent": "NA",
+    "state": "IN",
+    "street": "1600 MISHAWAKA ST",
+    "trifd": "46514CRSBF1600M",
+    "zip": "46514"
+   },
+   {
+    "city": "Mishawaka",
+    "company": null,
+    "county": "18141",
+    "frs": "110063282264",
+    "lat": 41.671592,
+    "lon": -86.127969,
+    "metals": {
+     "Manganese": [
+      4690,
+      0,
+      0,
+      4690
+     ]
+    },
+    "naics": "331221",
+    "name": "STEEL TECHNOLOGIES LLC",
+    "parent": "NUMIT LLC",
+    "state": "IN",
+    "street": "56598 MAGNETIC DR",
+    "trifd": "4654WSTRPC56598",
+    "zip": "46545"
+   },
+   {
+    "city": "Columbia City",
+    "company": "novae-llc-columbia-city-643",
+    "county": "18183",
+    "frs": "110000400236",
+    "lat": 41.154755,
+    "lon": -85.499973,
+    "metals": {
+     "Lead": [
+      26,
+      0,
+      0,
+      26
+     ],
+     "Manganese": [
+      2534,
+      0,
+      0,
+      2534
+     ],
+     "Nickel": [
+      1657,
+      0,
+      0,
+      1657
+     ]
+    },
+    "naics": "336214",
+    "name": "NOVAE LLC-COLUMBIA CITY",
+    "parent": "NOVAE LLC",
+    "state": "IN",
+    "street": "643 W ELLSWORTH ST",
+    "trifd": "46725CLMBCPOBOX",
+    "zip": "46725"
+   },
+   {
+    "city": "Elkhart",
+    "company": "conn-selmer-inc-elkhart-1000",
+    "county": "18039",
+    "frs": "110002455389",
+    "lat": 41.678839,
+    "lon": -85.934432,
+    "metals": {
+     "Copper": [
+      3430,
+      0,
+      417,
+      3847
+     ]
+    },
+    "naics": "339992",
+    "name": "CONN-SELMER INC WOODWIND FACILITY",
+    "parent": "CONN-SELMER INC",
+    "state": "IN",
+    "street": "1000 INDUSTRIAL PKWY",
+    "trifd": "46516CNNSL1INDU",
+    "zip": "46516"
+   },
+   {
+    "city": "Elkhart",
+    "company": "manchester-tank-elkhart-plt-elkhart-3630",
+    "county": "18039",
+    "frs": "110002115149",
+    "lat": 41.690842,
+    "lon": -86.031684,
+    "metals": {
+     "Chromium": [
+      0,
+      0,
+      1068,
+      1068
+     ],
+     "Manganese": [
+      0,
+      0,
+      250,
+      250
+     ],
+     "Nickel": [
+      0,
+      0,
+      1082,
+      1082
+     ],
+     "Zinc": [
+      0,
+      0,
+      1256,
+      1256
+     ]
+    },
+    "naics": "331210",
+    "name": "MARSON",
+    "parent": "NA",
+    "state": "IN",
+    "street": "3630 MANCHESTER DR",
+    "trifd": "46514MNCHS29389",
+    "zip": "46514"
+   },
+   {
+    "city": "South Bend",
+    "company": "hoosier-tank-and-manufacturing-inc-south-bend-1710",
+    "county": "18141",
+    "frs": "110071711752",
+    "lat": 41.69764,
+    "lon": -86.30307,
+    "metals": {
+     "Zinc": [
+      3145,
+      0,
+      250,
+      3395
+     ]
+    },
+    "naics": "332313",
+    "name": "MODINEER - HOOSIER TANK",
+    "parent": "NA",
+    "state": "IN",
+    "street": "1710 N SHERIDAN ST",
+    "trifd": "4662WMDNRH171NS",
+    "zip": "46628"
+   },
+   {
+    "city": "Kingsbury",
+    "company": null,
+    "county": "18091",
+    "frs": "110054237223",
+    "lat": 41.500213,
+    "lon": -86.64066,
+    "metals": {
+     "Copper": [
+      3350,
+      0,
+      9,
+      3358
+     ]
+    },
+    "naics": "331511",
+    "name": "ACCURATE CASTINGS INC KINGSBURY CASTINGS DIV",
+    "parent": "ACCURATE CASTINGS INC",
+    "state": "IN",
+    "street": "3232 3RD RD ANNEX KINGSBURY INDUSTRIAL PARK",
+    "trifd": "46345KNGSB3RDRD",
+    "zip": "46345"
+   },
+   {
+    "city": "Columbia City",
+    "company": "undersea-sensor-systems-inc-columbia-city-4868",
+    "county": "18183",
+    "frs": "110044929673",
+    "lat": 41.133959,
+    "lon": -85.399329,
+    "metals": {
+     "Lead": [
+      3068,
+      0,
+      0,
+      3068
+     ]
+    },
+    "naics": "334511",
+    "name": "UNDERSEA SENSOR SYSTEMS INC",
+    "parent": "ADVENT INTERNATIONAL CORP",
+    "state": "IN",
+    "street": "4868 E PARK 30 DR",
+    "trifd": "46725NDRSS4578E",
+    "zip": "46725"
+   },
+   {
+    "city": "South Bend",
+    "company": "molding-products-llc-south-bend-1525",
+    "county": "18141",
+    "frs": "110000399881",
+    "lat": 41.657649,
+    "lon": -86.283106,
+    "metals": {
+     "Zinc": [
+      0,
+      0,
+      2695,
+      2695
+     ]
+    },
+    "naics": "325991",
+    "name": "MOLDING PRODUCTS LLC",
+    "parent": "IP CORP",
+    "state": "IN",
+    "street": "1545 S OLIVE ST",
+    "trifd": "46619MLDNG1545S",
+    "zip": "46619"
+   },
+   {
+    "city": "Niles",
+    "company": "modineer-co-niles-2190",
+    "county": "26021",
+    "frs": "110000822824",
+    "lat": 41.807757,
+    "lon": -86.254356,
+    "metals": {
+     "Manganese": [
+      1686,
+      0,
+      250,
+      1936
+     ]
+    },
+    "naics": "333415",
+    "name": "MODINEER PLANT 6",
+    "parent": "NA",
+    "state": "MI",
+    "street": "1501 S 3RD ST",
+    "trifd": "49120SHLLR1501S",
+    "zip": "49120"
+   },
+   {
+    "city": "Elkhart",
+    "company": "mcdowell-enterprises-inc-elkhart-2010",
+    "county": "18039",
+    "frs": "110000863156",
+    "lat": 41.689401,
+    "lon": -85.945135,
+    "metals": {
+     "Copper": [
+      1620,
+      0,
+      120,
+      1740
+     ]
+    },
+    "naics": "332813",
+    "name": "MCDOWELL ENTERPRISES",
+    "parent": "MCDOWELL ENTERPRISES",
+    "state": "IN",
+    "street": "2010 SUPERIOR ST",
+    "trifd": "4651WMCDWL21SUP",
+    "zip": "46516"
+   },
+   {
+    "city": "Niles",
+    "company": "ncp-coatings-inc-niles-225",
+    "county": "26021",
+    "frs": "110000409638",
+    "lat": 41.812553,
+    "lon": -86.256003,
+    "metals": {
+     "Chromium": [
+      0,
+      0,
+      1046,
+      1046
+     ],
+     "Cobalt": [
+      0,
+      0,
+      604,
+      604
+     ]
+    },
+    "naics": "325510",
+    "name": "NCP COATINGS LLC",
+    "parent": "NCP INTERMEDIATE HOLDINGS INC",
+    "state": "MI",
+    "street": "225 FORT ST",
+    "trifd": "49120NLSCH225FO",
+    "zip": "49120"
+   },
+   {
+    "city": "Michigan City",
+    "company": null,
+    "county": "18091",
+    "frs": "110028097814",
+    "lat": 41.724242,
+    "lon": -86.890143,
+    "metals": {
+     "Manganese": [
+      0,
+      0,
+      1641,
+      1641
+     ]
+    },
+    "naics": "331511",
+    "name": "WM TECHNOLOGIES LLC",
+    "parent": "SPX CORP",
+    "state": "IN",
+    "street": "500 BLAINE ST",
+    "trifd": "46360WLMCLBLAIN",
+    "zip": "46360"
+   },
+   {
+    "city": "Benton Harbor",
+    "company": null,
+    "county": "26021",
+    "frs": "110000409022",
+    "lat": 42.079491,
+    "lon": -86.397576,
+    "metals": {
+     "Lead": [
+      0,
+      0,
+      1479,
+      1479
+     ]
+    },
+    "naics": "331221",
+    "name": "CHAMPLAIN SPECIALTY METALS INC.",
+    "parent": "CHAMPLAIN CABLE CORP",
+    "state": "MI",
+    "street": "2235 DEWEY AVENUE",
+    "trifd": "49022SNDVK2235D",
+    "zip": "49022"
+   },
+   {
+    "city": "Benton Harbor",
+    "company": "alutech-benton-harbor-chassix-benton-harbor-1320",
+    "county": "26021",
+    "frs": "110031411657",
+    "lat": 42.138297,
+    "lon": -86.441012,
+    "metals": {
+     "Copper": [
+      949,
+      0,
+      5,
+      954
+     ],
+     "Lead": [
+      237,
+      0,
+      3,
+      241
+     ]
+    },
+    "naics": "331523",
+    "name": "ALUDYNE LLC",
+    "parent": "ALUDYNE INC",
+    "state": "MI",
+    "street": "1320 PAW PAW AVE",
+    "trifd": "4902WLTCHL132PA",
+    "zip": "49022"
+   },
+   {
+    "city": "Stevensville",
+    "company": "intermet-corp-stevensville-plant-stevensville-2800",
+    "county": "26021",
+    "frs": "110000409665",
+    "lat": 42.01066,
+    "lon": -86.52097,
+    "metals": {
+     "Copper": [
+      0,
+      0,
+      4,
+      4
+     ],
+     "Lead": [
+      668,
+      0,
+      4,
+      671
+     ]
+    },
+    "naics": "336330",
+    "name": "ALUDYNE LLC",
+    "parent": "ALUDYNE INC",
+    "state": "MI",
+    "street": "2800 YASDICK DR",
+    "trifd": "49127CSTMT2800Y",
+    "zip": "49127"
+   },
+   {
+    "city": "Elkhart",
+    "company": "dexter-chassis-group-elkhart-2501",
+    "county": "18039",
+    "frs": "110007396521",
+    "lat": 41.724428,
+    "lon": -85.927554,
+    "metals": {
+     "Chromium": [
+      554,
+      0,
+      6,
+      560
+     ]
+    },
+    "naics": "332312",
+    "name": "LIPPERT COMPONENTS INC PLANT 72",
+    "parent": "LCI INDUSTRIES",
+    "state": "IN",
+    "street": "2501 JEANWOOD DR",
+    "trifd": "46514VNTRT251JE",
+    "zip": "46514"
+   },
+   {
+    "city": "South Bend",
+    "company": "hubbell-electrical-products-inc-south-bend-3902",
+    "county": "18141",
+    "frs": "110001352018",
+    "lat": 41.664601,
+    "lon": -86.30179,
+    "metals": {
+     "Lead": [
+      457,
+      0,
+      0,
+      457
+     ]
+    },
+    "naics": "332119",
+    "name": "RACO INC",
+    "parent": "HUBBELL INC",
+    "state": "IN",
+    "street": "3902 W SAMPLE ST",
+    "trifd": "46619RCNCR3902W",
+    "zip": "46619"
+   },
+   {
+    "city": "Columbia City",
+    "company": null,
+    "county": "18183",
+    "frs": "110020518563",
+    "lat": 41.128369,
+    "lon": -85.337714,
+    "metals": {
+     "Chromium": [
+      0,
+      0,
+      25,
+      25
+     ],
+     "Lead": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "Manganese": [
+      0,
+      0,
+      345,
+      345
+     ]
+    },
+    "naics": "327992",
+    "name": "COLUMBIA CITY MILL SERVICES",
+    "parent": "EDW C LEVY CO",
+    "state": "IN",
+    "street": "2374 S COUNTY RD 800E",
+    "trifd": "46725DWCLV2374S",
+    "zip": "46725"
+   },
+   {
+    "city": "Plymouth",
+    "company": null,
+    "county": "18099",
+    "frs": "110002115416",
+    "lat": 41.358551,
+    "lon": -86.328799,
+    "metals": {
+     "Zinc": [
+      0,
+      0,
+      251,
+      251
+     ]
+    },
+    "naics": "311421",
+    "name": "ZENTIS NORTH AMERICAN OPERATING LLC",
+    "parent": "NA",
+    "state": "IN",
+    "street": "2050 N OAK RD",
+    "trifd": "46563CTRSH2050N",
+    "zip": "46563"
+   },
+   {
+    "city": "Winona Lake",
+    "company": "abc-industries-inc-winona-lake-301",
+    "county": "18085",
+    "frs": "110001306186",
+    "lat": 41.230136,
+    "lon": -85.819557,
+    "metals": {
+     "Antimony": [
+      246,
+      0,
+      2,
+      248
+     ]
+    },
+    "naics": "326130",
+    "name": "ABC INDUSTRIES INC",
+    "parent": "ABC INDUSTRIES INC",
+    "state": "IN",
+    "street": "301 KINGS HWY",
+    "trifd": "46580PBDYB301KI",
+    "zip": "46590"
+   },
+   {
+    "city": "Michigan City",
+    "company": "gaf-michigan-city-505",
+    "county": "18091",
+    "frs": "110008057823",
+    "lat": 41.711599,
+    "lon": -86.864725,
+    "metals": {
+     "Copper": [
+      0,
+      0,
+      185,
+      185
+     ],
+     "Lead": [
+      0,
+      0,
+      39,
+      39
+     ]
+    },
+    "naics": "324122",
+    "name": "BUILDING MATERIALS MANUFACTURING LLC",
+    "parent": "G HOLDINGS INC",
+    "state": "IN",
+    "street": "505 N ROESKE AVE",
+    "trifd": "46360BLDNG505NR",
+    "zip": "46360"
+   },
+   {
+    "city": "Goshen",
+    "company": "parker-hannifin-corp-goshen-1525",
+    "county": "18039",
+    "frs": "110000399113",
+    "lat": 41.568423,
+    "lon": -85.824498,
+    "metals": {
+     "Zinc": [
+      0,
+      0,
+      191,
+      191
+     ]
+    },
+    "naics": "326291",
+    "name": "PARKER HANNIFIN CORP",
+    "parent": "PARKER HANNIFIN CORP",
+    "state": "IN",
+    "street": "1525 S TENTH ST",
+    "trifd": "46526GSHNR1525S",
+    "zip": "46526"
+   },
+   {
+    "city": "Dowagiac",
+    "company": "autocam-pax-inc-dowagiac-201",
+    "county": "26027",
+    "frs": "110071732401",
+    "lat": 41.991878,
+    "lon": -86.096413,
+    "metals": {
+     "Lead": [
+      166,
+      0,
+      1,
+      167
+     ]
+    },
+    "naics": "336390",
+    "name": "AUTOCAM",
+    "parent": "NN INC",
+    "state": "MI",
+    "street": "201 PERCY ST",
+    "trifd": "4904WTCMXX21PEB",
+    "zip": "49047"
+   },
+   {
+    "city": "Saint Joseph",
+    "company": "robert-bosch-llc-st-joseph-3737",
+    "county": "26021",
+    "frs": "110000409406",
+    "lat": 42.049056,
+    "lon": -86.514114,
+    "metals": {
+     "Lead": [
+      113,
+      0,
+      3,
+      116
+     ]
+    },
+    "naics": "336340",
+    "name": "ROBERT BOSCH LLC",
+    "parent": "ROBERT BOSCH LLC",
+    "state": "MI",
+    "street": "3737 RED ARROW HWY",
+    "trifd": "49085LLDSG3737R",
+    "zip": "49085"
+   },
+   {
+    "city": "Elkhart",
+    "company": "indalex-inc-elkhart-3406",
+    "county": "18039",
+    "frs": "110002115229",
+    "lat": 41.727488,
+    "lon": -85.927038,
+    "metals": {
+     "Lead": [
+      111,
+      0,
+      1,
+      112
+     ]
+    },
+    "naics": "331318",
+    "name": "HYDRO EXTRUSION USA LLC",
+    "parent": "HYDRO EXTRUSION USA LLC",
+    "state": "IN",
+    "street": "3406 REEDY DR",
+    "trifd": "46515SCLMN23841",
+    "zip": "46514"
+   },
+   {
+    "city": "Albion",
+    "company": "dexter-axle-company-albion-500",
+    "county": "18113",
+    "frs": "110000399998",
+    "lat": 41.391968,
+    "lon": -85.409896,
+    "metals": {
+     "Manganese": [
+      50,
+      0,
+      50,
+      99
+     ],
+     "Nickel": [
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "naics": "336340",
+    "name": "DEXTER AXLE",
+    "parent": "BROOKFIELD ASSET MANAGEMENT (US) INC",
+    "state": "IN",
+    "street": "500 S 7TH ST",
+    "trifd": "46701PHLPSCR75E",
+    "zip": "46701"
+   },
+   {
+    "city": "La Porte",
+    "company": "new-york-blower-co-la-porte-171",
+    "county": "18091",
+    "frs": "110000398123",
+    "lat": 41.620243,
+    "lon": -86.706651,
+    "metals": {
+     "Chromium": [
+      0,
+      0,
+      38,
+      38
+     ],
+     "Copper": [
+      0,
+      0,
+      15,
+      15
+     ],
+     "Manganese": [
+      0,
+      0,
+      15,
+      15
+     ],
+     "Nickel": [
+      0,
+      0,
+      30,
+      30
+     ]
+    },
+    "naics": "333413",
+    "name": "NEW YORK BLOWER CO",
+    "parent": "NA",
+    "state": "IN",
+    "street": "171 FACTORY ST",
+    "trifd": "46350NWYRK171FA",
+    "zip": "46350"
+   },
+   {
+    "city": "Columbia City",
+    "company": "advanced-materials-development-columbia-city-2300",
+    "county": "18183",
+    "frs": "110000400263",
+    "lat": 41.143305,
+    "lon": -85.446552,
+    "metals": {
+     "Chromium": [
+      0,
+      0,
+      5,
+      5
+     ],
+     "Nickel": [
+      0,
+      0,
+      57,
+      57
+     ]
+    },
+    "naics": "331222",
+    "name": "ADVANCED MATERIALS DEVELOPMENT LLC",
+    "parent": "FORT WAYNE METALS RESEARCH PRODUCTS LLC",
+    "state": "IN",
+    "street": "2300 EAST CARDINAL DRIVE",
+    "trifd": "46725FRTWYRTE7C",
+    "zip": "46725"
+   },
+   {
+    "city": "Warsaw",
+    "company": "whimet-inc-warsaw-2100",
+    "county": "18085",
+    "frs": "110015706654",
+    "lat": 41.258157,
+    "lon": -85.852272,
+    "metals": {
+     "Chromium": [
+      48,
+      0,
+      1,
+      49
+     ],
+     "Nickel": [
+      0,
+      0,
+      1,
+      1
+     ]
+    },
+    "naics": "332813",
+    "name": "PARAGON MEDICAL - WARSAW FINISHING SERVICES",
+    "parent": "AMETEK INC",
+    "state": "IN",
+    "street": "2100 N DETROIT ST",
+    "trifd": "4658WPRGNM21NDE",
+    "zip": "46580"
+   },
+   {
+    "city": "Saint Joseph",
+    "company": "vail-rubber-works-inc-st-joseph-521",
+    "county": "26021",
+    "frs": "110000409415",
+    "lat": 42.102418,
+    "lon": -86.47525,
+    "metals": {
+     "Lead": [
+      50,
+      0,
+      0,
+      50
+     ]
+    },
+    "naics": "326299",
+    "name": "VAIL RUBBER WORKS INC",
+    "parent": "VAIL RUBBER WORKS INC",
+    "state": "MI",
+    "street": "521 LANGLEY AVE",
+    "trifd": "49085VLRBB521LA",
+    "zip": "49085"
+   },
+   {
+    "city": "North Liberty",
+    "company": "hydro-aluminum-north-america-inc-north-liberty-400",
+    "county": "18141",
+    "frs": "110000399499",
+    "lat": 41.530599,
+    "lon": -86.426864,
+    "metals": {
+     "Lead": [
+      42,
+      0,
+      0,
+      42
+     ]
+    },
+    "naics": "331318",
+    "name": "HYDRO EXTRUSION USA LLC",
+    "parent": "HYDRO EXTRUSION USA LLC",
+    "state": "IN",
+    "street": "400 S MAIN ST",
+    "trifd": "46554WLLSL400SO",
+    "zip": "46554"
+   },
+   {
+    "city": "Syracuse",
+    "company": null,
+    "county": "18085",
+    "frs": "110046299607",
+    "lat": 41.424574,
+    "lon": -85.761625,
+    "metals": {
+     "Chromium": [
+      0,
+      0,
+      1,
+      1
+     ],
+     "Copper": [
+      0,
+      0,
+      7,
+      7
+     ],
+     "Manganese": [
+      0,
+      0,
+      1,
+      1
+     ],
+     "Nickel": [
+      0,
+      0,
+      3,
+      3
+     ]
+    },
+    "naics": "325211",
+    "name": "POLYWOOD INC",
+    "parent": "NA",
+    "state": "IN",
+    "street": "1001 WEST BROOKLYN STREET",
+    "trifd": "4656WPLYWD11WES",
+    "zip": "46567"
+   },
+   {
+    "city": "Albion",
+    "company": "terra-supreme-battery-albion-1563",
+    "county": "18113",
+    "frs": "",
+    "lat": 41.39595,
+    "lon": -85.394018,
+    "metals": {
+     "Lead": [
+      0,
+      0,
+      8,
+      8
+     ]
+    },
+    "naics": "335910",
+    "name": "TERRA SUPREME BATTERY LLC",
+    "parent": "NA",
+    "state": "IN",
+    "street": "1563 E STATE ROAD 8",
+    "trifd": "4670WTRRSP1563E",
+    "zip": "46701"
+   },
+   {
+    "city": "Benton Harbor",
+    "company": null,
+    "county": "26021",
+    "frs": "110000409059",
+    "lat": 42.096481,
+    "lon": -86.417379,
+    "metals": {
+     "Nickel": [
+      0,
+      0,
+      6,
+      6
+     ]
+    },
+    "naics": "332813",
+    "name": "TECH NICKEL INC",
+    "parent": "NA",
+    "state": "MI",
+    "street": "1200 S CRYSTAL AVE",
+    "trifd": "49023TCHNC1200C",
+    "zip": "49022"
+   },
+   {
+    "city": "Kendallville",
+    "company": "mahoney-foundries-inc-kendallville-209",
+    "county": "18113",
+    "frs": "110038434520",
+    "lat": 41.432686,
+    "lon": -85.270367,
+    "metals": {
+     "Lead": [
+      3,
+      0,
+      2,
+      5
+     ]
+    },
+    "naics": "331524",
+    "name": "MAHONEY FOUNDRIES INC",
+    "parent": "NA",
+    "state": "IN",
+    "street": "209 WEST OHIO STREET",
+    "trifd": "4675WMHNYF29WES",
+    "zip": "46755"
+   },
+   {
+    "city": "Bristol",
+    "company": "thor-motor-coach-inc-bristol-1209",
+    "county": "18039",
+    "frs": "110000592243",
+    "lat": 41.710242,
+    "lon": -85.81731,
+    "metals": {
+     "Lead": [
+      0,
+      0,
+      1,
+      1
+     ]
+    },
+    "naics": "336213",
+    "name": "THOR MOTOR COACH INC",
+    "parent": "THOR INDUSTRIES INC",
+    "state": "IN",
+    "street": "1209 S DIVISION ST",
+    "trifd": "46507SKYLNSTATE",
+    "zip": "46507"
+   },
+   {
+    "city": "Edwardsburg",
+    "company": "mercury-displacement-industries-inc-edwardsburg-25028",
+    "county": "26027",
+    "frs": "110006040792",
+    "lat": 41.797856,
+    "lon": -86.049945,
+    "metals": {
+     "Mercury": [
+      0,
+      0,
+      1,
+      1
+     ]
+    },
+    "naics": "335314",
+    "name": "MERCURY DISPLACEMENT INDUSTRIES INC.",
+    "parent": "NA",
+    "state": "MI",
+    "street": "25028 U.S. 12 E",
+    "trifd": "49112MRCRY2528U",
+    "zip": "49112"
+   },
+   {
+    "city": "Bremen",
+    "company": "bci",
+    "county": "18099",
+    "frs": "110070205228",
+    "lat": 41.450839,
+    "lon": -86.156066,
+    "metals": {
+     "Lead": [
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "naics": "327320",
+    "name": "OZINGA READY-MIX CONCRETE - BREMEN",
+    "parent": "OZINGA BROS INC",
+    "state": "IN",
+    "street": "524 N BOWEN AVE",
+    "trifd": "4650WZNGRD524NB",
+    "zip": "46506"
+   },
+   {
+    "city": "Goshen",
+    "company": "ozinga-ready-mix-concrete-inc-goshen-65723",
+    "county": "18039",
+    "frs": "110070508182",
+    "lat": 41.541855,
+    "lon": -85.780101,
+    "metals": {
+     "Lead": [
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "naics": "327320",
+    "name": "OZINGA READY-MIX GOSHEN",
+    "parent": "OZINGA BROS INC",
+    "state": "IN",
+    "street": "65723 LINCOLN HIGHWAY E",
+    "trifd": "4652WZNGRD6572B",
+    "zip": "46526"
+   },
+   {
+    "city": "Elkhart",
+    "company": "aacoa-inc-elkhart-2551",
+    "county": "18039",
+    "frs": "110056955086",
+    "lat": 41.705846,
+    "lon": -86.015545,
+    "metals": {
+     "Lead": [
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "naics": "332813",
+    "name": "BONNELL ALUMINUM (ELKHART) INC.",
+    "parent": "TREDEGAR CORP",
+    "state": "IN",
+    "street": "2551 C R.10 W",
+    "trifd": "46514RCHTC2551C",
+    "zip": "46514"
+   },
+   {
+    "city": "New Carlisle",
+    "company": null,
+    "county": "18141",
+    "frs": "",
+    "lat": 41.693917,
+    "lon": -86.475623,
+    "metals": {
+     "Lead": [
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "naics": "327320",
+    "name": "OZINGA READY-MIX NEW CARLISLE",
+    "parent": "OZINGA BROS INC",
+    "state": "IN",
+    "street": "31480 EDISON RD",
+    "trifd": "4655WZNGRD3148E",
+    "zip": "46552"
+   },
+   {
+    "city": "Wakarusa",
+    "company": "thor-motor-coach-inc-wakarusa-313",
+    "county": "18039",
+    "frs": "110041966147",
+    "lat": 41.529461,
+    "lon": -86.012716,
+    "metals": {
+     "Lead": [
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "naics": "336213",
+    "name": "THOR WAKARUSA LLC",
+    "parent": "THOR INDUSTRIES INC",
+    "state": "IN",
+    "street": "400 INDIANA AVE",
+    "trifd": "46573HLDYR400IN",
+    "zip": "46573"
+   },
+   {
+    "city": "Elkhart",
+    "company": "ozinga-ready-mix-concrete-elkhart-21298",
+    "county": "18039",
+    "frs": "110070205549",
+    "lat": 41.697043,
+    "lon": -85.876262,
+    "metals": {
+     "Lead": [
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "naics": "327320",
+    "name": "OZINGA READY-MIX CONCRETE - ELKHART E",
+    "parent": "OZINGA BROS INC",
+    "state": "IN",
+    "street": "21298 PROTECTA DR",
+    "trifd": "4651WZNGRD21298",
+    "zip": "46516"
+   },
+   {
+    "city": "Elkhart",
+    "company": "aggregate-industries-central-region-elkhart-801",
+    "county": "18039",
+    "frs": "110011951469",
+    "lat": 41.692045,
+    "lon": -86.003552,
+    "metals": {
+     "Lead": [
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "naics": "327320",
+    "name": "OZINGA READY-MIX CONCRETE - ELKHART",
+    "parent": "OZINGA BROS INC",
+    "state": "IN",
+    "street": "801 N NAPPANEE ST",
+    "trifd": "46514MYRMT81NNA",
+    "zip": "46514"
+   },
+   {
+    "city": "Middlebury",
+    "company": null,
+    "county": "18039",
+    "frs": "110060261247",
+    "lat": 41.664672,
+    "lon": -85.722562,
+    "metals": {
+     "Lead": [
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "naics": "327320",
+    "name": "OZINGA READY-MIX CONCRETE - MIDDLEBURY",
+    "parent": "OZINGA BROS INC",
+    "state": "IN",
+    "street": "231 US HWY 20",
+    "trifd": "4654WMYRMT231US",
+    "zip": "46540"
+   },
+   {
+    "city": "South Bend",
+    "company": "transit-mix-inc-south-bend-715",
+    "county": "18141",
+    "frs": "110012007087",
+    "lat": 41.628899,
+    "lon": -86.259335,
+    "metals": {
+     "Lead": [
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "naics": "327320",
+    "name": "OZINGA READY MIX CONCRETE INC. - SOUTH BEND",
+    "parent": "OZINGA BROS INC",
+    "state": "IN",
+    "street": "715 WEST IRELAND ROAD",
+    "trifd": "4661WZNGRD715WE",
+    "zip": "46614"
+   },
+   {
+    "city": "Niles",
+    "company": "aacoa-extrusions-inc-niles-2005",
+    "county": "26021",
+    "frs": "110003712750",
+    "lat": 41.794286,
+    "lon": -86.322569,
+    "metals": {
+     "Lead": [
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "naics": "331318",
+    "name": "BONNELL ALUMINUM (NILES) LLC",
+    "parent": "TREDEGAR CORP",
+    "state": "MI",
+    "street": "2005 MAYFLOWER RD",
+    "trifd": "4912WCXTRS25MAY",
+    "zip": "49120"
+   }
+  ],
+  "units": "pounds a year; per metal: recycled, treated or burned for energy, disposed of or released, total",
+  "year": 2024
+ }
+}

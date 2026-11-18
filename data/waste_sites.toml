@@ -1,0 +1,24 @@
+# Large legacy or by-product waste sites in the region that could hold recoverable critical materials,
+# written by hand from dated public sources. Shown in the Waste streams panel. Edit freely; keep a
+# source and date for every figure.
+
+[[site]]
+name = "NIPSCO Michigan City Generating Station: coal ash"
+city = "Michigan City, IN"
+kind = "coal combustion residuals"
+materials = ["scandium", "gallium", "germanium", "yttrium", "neodymium", "vanadium"]
+facts = [
+  "The coal-fired plant (Unit 12, 469 MW, in service since 1974) is scheduled to retire in 2028; an Indiana Utility Regulatory Commission staff report of July 2026 expects the date to be re-evaluated in NIPSCO's 2027 resource plan.",
+  "Its five ash ponds (about 11.4 acres, about 171,000 cubic yards of ash) were closed by removal in 2022-2023; closure was certified on October 16, 2023, and the ash went to NIPSCO's lined landfill at the R.M. Schahfer station in Jasper County, outside the region.",
+  "About 50,000 tons of coal ash a year are still trucked from Michigan City to Schahfer. Ash mixed into the fill under the site (about 5-18% of the fill, according to NIPSCO) was not removed.",
+  "In the 2024 Toxics Release Inventory the plant reported about 78,000 pounds of manganese, chromium, zinc, vanadium, copper and lead in waste it disposed of, none of it recycled.",
+  "An Indiana state report of December 2025 (Indiana Geological and Water Survey, IDEM and IDNR) finds Indiana coal ash a potential source of rare earths (scandium most of the value), gallium and germanium, recoverable at over 90% in the laboratory but not yet economically; it does not name this plant as a target.",
+]
+sources = [
+  "https://www.nipsco.com/our-company/about-us/our-environment/ccr-rule-compliance/michigan-city/closure",
+  "https://www.nipsco.com/docs/librariesprovider11/rates-and-tariffs/ccr/michigan-city-generating-station/closure-and-post-closure-care/michigan-city-generating-station-ccr-surface.pdf",
+  "https://nipsco.com/our-company/about-us/our-environment/mcgs-coal-ash-pond-cleanup",
+  "https://www.in.gov/iurc/files/IURC-Staff-Report_IC-8-1-8.5-13s_Michigan-City-12.pdf",
+  "https://secure.in.gov/oed/files/Rare-Earth-Elements-and-Minerals-Report-FINAL.pdf",
+]
+checked = "2026-11-18"

@@ -1,0 +1,22 @@
+# Recycling Works
+# Added by hand as a recycler (resource provider) from public sources; see verified_note.
+
+name = "Recycling Works"
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "605 Mason St, Elkhart, IN 46516"
+lat = 41.67934
+lon = -85.97825
+verified = "2026-11-18"
+verified_note = "Waste Connections bought Waste-Away Group with the Recycling Works single-stream sorting plant in February 2024 and advertised sorter jobs here in March 2026. Source: https://www.wastedive.com/news/waste-connections-acquires-waste-away-group-indiana/708472/"
+
+sector = "Recycling & recovery"
+products = ["Material recovery facility (single-stream sorting)"]
+recovers = ["cardboard", "paper", "plastics", "metal cans", "glass", "electronics"]
+naics = "562920"
+
+description = "Single-stream material recovery facility of Waste Connections, sorting cardboard, paper, plastics, cans and glass from a 100-mile radius."
+
+source = "Public sources: company websites, state agency lists (IDEM, Michigan EGLE), city records, EPA ECHO and local news"
+updated = "2026-11-18"
