@@ -30,6 +30,10 @@ reading of every rule: when in doubt, it records nothing.
   with `presumed_closed_reason` (one sentence: what was checked and found). The build leaves it off
   the map. A same-name OSHA filing or a dated source that it operates brings it back: delete both
   fields. The automated news review does not set `presumed_closed`; it is for verification checks.
+- An EPA report (Toxics Release Inventory or RCRA Biennial Report) at the address of a presumed-closed or
+  closed plant, often under another name, is a lead, not proof. `scripts/pull_waste.py` lists these each
+  month in `audits/epa-unmatched.csv`. With a dated 2024-2026 source, a rename restores the file (new
+  `name`, old one in `formerly`), and a different business at the address gets its own file.
 - When a check finds that the company operates in the region but cannot confirm a plant at the listed
   address, mark it `unconfirmed` (the date of the check) with `unconfirmed_reason`. It stays on the map
   as a dim column with a note on its card. A dated source or OSHA filing for the address removes the

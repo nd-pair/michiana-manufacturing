@@ -408,7 +408,8 @@ def main():
     news_ids = {re.sub(r"[^a-z0-9]+", "-", n[:-5].lower()).strip("-") for n in os.listdir(P("companies")) if n.endswith(".toml")
                 and "Added by the automated news review" in open(P("companies", n), encoding="utf-8").read(400)}
     src_counts["news"] = sum(1 for o in companies if o["id"] in news_ids)
-    src_counts["hand"] = len(companies) - src_counts["hifld"] - src_counts["sbir"] - src_counts["news"] - src_counts["osha"]
+    src_counts["epa"] = sum(1 for o in companies if o["source"].startswith("EPA"))   # EPA-reporting plants added after a dated check
+    src_counts["hand"] = len(companies) - src_counts["hifld"] - src_counts["sbir"] - src_counts["news"] - src_counts["osha"] - src_counts["epa"]
     osha = sidecar("osha.json")
     osha_ids = {o["id"] for o in companies if o["source"].startswith("OSHA")}
     qyears = sorted({y for d in qcew.get("counties", {}).values() for y in d.get("years", {})})
@@ -431,7 +432,7 @@ def main():
             "{{WASTEPULLED}}": waste.get("pulled", "not yet pulled"),
             "{{TRIN}}": str(len((waste.get("tri") or {}).get("facilities", []))), "{{RCRAN}}": str(len((waste.get("rcra") or {}).get("handlers", []))), "{{COMPANIES}}": "{:,}".format(n_groups), "{{HIFLD}}": "{:,}".format(src_counts["hifld"]),
             "{{SBIRFIRMS}}": str(src_counts["sbir"]), "{{OSHA}}": "{:,}".format(src_counts["osha"]), "{{OSHAYEAR}}": osha.get("latest_year", "–"),
-            "{{OSHAMATCHED}}": "{:,}".format(sum(1 for o in companies if o["emp_note"].startswith("OSHA") and o["id"] not in osha_ids)), "{{WARNN}}": str(len(warn.get("notices", []))), "{{HAND}}": str(src_counts["hand"]), "{{BUILT}}": data["built"],
+            "{{OSHAMATCHED}}": "{:,}".format(sum(1 for o in companies if o["emp_note"].startswith("OSHA") and o["id"] not in osha_ids)), "{{WARNN}}": str(len(warn.get("notices", []))), "{{HAND}}": str(src_counts["hand"]), "{{EPA}}": str(src_counts["epa"]), "{{HANDEPA}}": str(src_counts["hand"] + src_counts["epa"]), "{{BUILT}}": data["built"],
             "{{UEI}}": str(sum(1 for o in companies if o["uei"])), "{{FEDN}}": str(sum(1 for o in companies if o.get("federal"))),
             "{{FEDPULLED}}": federal.get("pulled", "not yet pulled"), "{{SBIRN}}": str(sum(1 for o in companies if o.get("sbir"))),
             "{{SBIRPULLED}}": sbir.get("pulled", "not yet pulled"), "{{FDAN}}": str(sum(1 for o in companies if o.get("fda"))),

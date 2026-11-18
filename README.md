@@ -181,7 +181,9 @@ Without WebGL the map shows a notice and everything else still works. The page c
   the recyclers, and coal ash at NIPSCO's Michigan City station (`data/waste_sites.toml`, by hand).
   `scripts/pull_waste.py` → `data/waste.json` (EPA, no key; `--rematch` only re-matches plants to
   company files). EPA records filed under another name or address are matched by hand in
-  `data/waste_matches.toml`; a plant that reported and has closed since is listed as closed. Company
+  `data/waste_matches.toml`; a plant that reported and has closed since is listed as closed. Each run
+  also writes `audits/epa-unmatched.csv`, the EPA plants with no file on the map (including plants
+  presumed closed that still report), noting any earlier check from `audits/epa-plant-check-*.csv`. Company
   cards show their reported metal waste, hazardous waste streams and likely critical materials; the
   "Metal waste reported to EPA" chip filters the map.
 - **Recyclers.** The sector *Recycling & recovery* holds scrap yards, auto recyclers, secondary
