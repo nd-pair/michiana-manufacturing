@@ -1,0 +1,23 @@
+# Weil-McLain (WM Technologies)
+# Added by hand from EPA's Toxics Release Inventory / RCRA Biennial Report and a dated public source; see verified_note.
+
+name = "Weil-McLain (WM Technologies)"
+kind = "company"
+city = "Michigan City"
+state = "IN"
+address = "500 Blaine Street, Michigan City, IN 46360"
+lat = 41.72438
+lon = -86.89066
+website = "https://www.weil-mclain.com"
+verified = "2026-11-18"
+verified_note = "SPX Technologies posted a foundry maintenance job at the Michigan City plant in April 2026; EPA's Toxics Release Inventory for 2024 lists WM Technologies at 500 Blaine Street. Source: https://www.career.com/job/spx-technologies/maintenance-technician-1/j202604200202047287335"
+
+sector = "Metal"
+products = ["Cast iron boiler sections", "Hot-water heating boilers"]
+naics = "331511"
+
+parent = "SPX Technologies"
+description = "Iron foundry and plant making Weil-McLain hot-water heating boilers."
+
+source = "EPA Toxics Release Inventory 2024 or RCRA Biennial Report 2023, checked against company websites, state notices, job postings and news"
+updated = "2026-11-18"

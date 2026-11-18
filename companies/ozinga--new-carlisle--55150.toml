@@ -1,0 +1,22 @@
+# Ozinga, New Carlisle plant
+# Added by hand from EPA's Toxics Release Inventory / RCRA Biennial Report and a dated public source; see verified_note.
+
+name = "Ozinga, New Carlisle plant"
+kind = "company"
+city = "New Carlisle"
+state = "IN"
+address = "55150 Walnut Road, New Carlisle, IN 46552"
+lat = 41.69165
+lon = -86.47697
+website = "https://ozinga.com"
+verified = "2026-11-18"
+verified_note = "Ozinga's Indiana East locations page (2026) lists its New Carlisle plant at 55150 Walnut Road; EPA's Toxics Release Inventory for 2024 lists an Ozinga plant at 31480 Edison Road, New Carlisle, which may be the same site. Source: https://ozinga.com/locations/indiana-east-region/"
+
+sector = "Materials & composites"
+products = ["Ready-Mix Concrete Manufacturing"]
+naics = "327320"
+
+description = "Ready-mix concrete plant."
+
+source = "EPA Toxics Release Inventory 2024 or RCRA Biennial Report 2023, checked against company websites, state notices, job postings and news"
+updated = "2026-11-18"

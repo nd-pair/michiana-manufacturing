@@ -1,20 +1,23 @@
-# Contech USA, LLC
+# Linamar Light Metals Pierceton (formerly Aludyne, Contech)
 # Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
 
-name = "Contech USA, LLC"
+name = "Linamar Light Metals Pierceton"
+formerly = "Aludyne; Contech USA, LLC"
 kind = "company"
 city = "Pierceton"
 state = "IN"
 address = "5 Arnolt Drive, Pierceton, IN 46562"
 lat = 41.20470
 lon = -85.71448
-website = "https://spx.com"
-presumed_closed_reason = "Verification check: no current trace of this company at this address. No Contech presence found at 5 Arnolt Dr; spx.com does not mention Pierceton, and the only Arnolt Dr occupants found were OMCO (1 Arnolt) and Gills Manufacturing (2 Arnolt). Source: https://start.cortera.com/company/research/l2k4syn3k/omco/"
-presumed_closed = "2026-11-13"
+website = "https://www.linamar.com"
+verified = "2026-11-18"
+verified_note = "EPA's Toxics Release Inventory for 2024 lists Aludyne Pierceton at 5 Arnolt Drive, and an IDEM notice of January 2026 on the plant's wastewater permit records its transfer from Aludyne to Linacast Inc. (Linamar). Source: https://www.in.gov/idem/files/notice_20260211_npdes_inp000239.pdf"
+status_note = "Contech became Aludyne; Linamar bought Aludyne's North American plants in October 2025 and took over this one on November 14, 2025."
+parent = "Linamar Corporation"
 
-sector = "Vehicles & RVs"
-products = ["Gasoline Engine and Engine Parts Manufacturing"]
-naics = "336310"
+sector = "Metal"
+products = ["Aluminum die castings", "Steering knuckles and chassis parts"]
+naics = "331523"
 
 employees = 200
 employees_scope = "site"
@@ -22,7 +25,7 @@ employees_year = 2022
 employees_quality = "estimate"
 employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
-description = "Die-Cast Automotive Engines & Suspensions. NAICS 336310: motor vehicle gasoline engine and engine parts manufacturing."
+description = "Aluminum die-cast chassis and suspension parts, such as steering knuckles, for automakers."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
-updated = "2026-11-11"
+updated = "2026-11-18"

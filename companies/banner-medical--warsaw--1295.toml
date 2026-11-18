@@ -1,0 +1,24 @@
+# Banner Medical
+# Added by hand from EPA's Toxics Release Inventory / RCRA Biennial Report and a dated public source; see verified_note.
+
+name = "Banner Medical"
+kind = "company"
+city = "Warsaw"
+state = "IN"
+address = "1295 Polk Drive, Warsaw, IN 46582"
+lat = 41.27475
+lon = -85.87020
+website = "https://www.amcastle.com/banner-medical-innovations"
+verified = "2026-11-18"
+verified_note = "A. M. Castle's page for Banner Medical gives 1295 Polk Drive, Warsaw, and A. M. Castle posted a Warsaw job for Banner in June 2026; EPA's Toxics Release Inventory for 2024 lists Banner Medical at 1199 Polk Drive. Source: https://www.amcastle.com/banner-medical-innovations"
+status_note = "A division of A. M. Castle & Co."
+
+sector = "Metal"
+products = ["Medical-grade titanium bar processing", "Cobalt-chrome bar processing", "Stainless steel bar processing", "Precision grinding and cutting"]
+naics = "331491"
+
+parent = "A. M. Castle & Co."
+description = "Processes medical-grade titanium, cobalt-chrome and stainless steel bar for implant makers: straightening, turning, grinding, polishing, saw and water-jet cutting and ultrasonic testing."
+
+source = "EPA Toxics Release Inventory 2024 or RCRA Biennial Report 2023, checked against company websites, state notices, job postings and news"
+updated = "2026-11-18"

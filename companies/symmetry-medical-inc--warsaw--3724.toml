@@ -1,7 +1,8 @@
-# Symmetry Medical, Inc.
+# Tecomet, Warsaw Building 1 (formerly Symmetry Medical)
 # Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
 
-name = "Symmetry Medical, Inc."
+name = "Tecomet, Warsaw Building 1"
+formerly = "Symmetry Medical, Inc."
 kind = "company"
 city = "Warsaw"
 state = "IN"
@@ -10,7 +11,8 @@ lat = 41.23810
 lon = -85.85305
 website = "https://www.tecomet.com"
 former_website = "https://symmetrymedical.com"
-status_note = "Address from the company's OSHA Form 300A filing for 2025; previously 3724 North State Road 15, Warsaw, IN 46582."
+status_note = "Tecomet acquired Symmetry Medical's implant and instrument business in 2014; EPA's 2023 RCRA Biennial Report lists this site as Tecomet - Warsaw Building 1. Address from the OSHA Form 300A filing for 2025; previously 3724 North State Road 15, Warsaw, IN 46582."
+parent = "Tecomet"
 osha_id = "1174361"
 
 sector = "Medical devices & other"
@@ -23,7 +25,7 @@ employees_year = 2025
 employees_quality = "reported"
 employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
-description = "Corporate Headquarters & Medical Instruments for the Dental, Cardiovascular & Opthalmology Fields. NAICS 339112: surgical and medical instrument manufacturing."
+description = "Orthopedic implants and surgical instruments (contract manufacturing). NAICS 339112: surgical and medical instrument manufacturing."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
-updated = "2026-11-11"
+updated = "2026-11-18"

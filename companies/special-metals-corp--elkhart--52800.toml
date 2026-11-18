@@ -1,19 +1,22 @@
-# Special Metals Corp.
+# Huntington Alloys, Elkhart (Special Metals)
 # Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
 
-name = "Special Metals Corp."
+name = "Huntington Alloys, Elkhart (Special Metals)"
+formerly = "Special Metals Corp."
 kind = "company"
 city = "Elkhart"
 state = "IN"
-address = "52800 Higgins Boulevard, Elkhart, IN 46514"
-lat = 41.72513
-lon = -85.96174
+address = "2900 Higgins Boulevard, Elkhart, IN 46514"
+lat = 41.72607
+lon = -85.96124
 website = "https://specialmetals.com"
-presumed_closed_reason = "Verification check: no current trace of this company at this address. Special Metals operates an Elkhart Division but its own site gives 2900 Higgins Blvd; 52800 Higgins appears only in undated directory/EPA records (A-1 Wire Tech, Huntington Alloys), so the address itself is unconfirmed. Source: https://specialmetals.com/services/conversion.html"
-presumed_closed = "2026-11-13"
+verified = "2026-11-18"
+verified_note = "Huntington Alloys' AS9100 certificate (effective January 2024, to January 2027) lists its Elkhart site at 2900 Higgins Boulevard, and EPA's Toxics Release Inventory for 2024 lists Huntington Alloys at 52800 Higgins Rd, Elkhart, likely the same plant under its county address. Source: https://specialmetals.com/documents/quality/huntington-alloys/as-iso.pdf"
+status_note = "Huntington Alloys is a Special Metals company (Precision Castparts); the earlier file gave 52800 Higgins Boulevard."
+parent = "Special Metals"
 
 sector = "Metal"
-products = ["Electroplating, Plating, Polishing, Anodizing and Coloring"]
+products = ["Nickel alloy strip", "Cold rolling, annealing and slitting"]
 naics = "332813"
 
 employees = 30
@@ -22,7 +25,7 @@ employees_year = 2022
 employees_quality = "estimate"
 employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
-description = "Metal Finishing, Light Gauge Nickel Alloys Cold Roll, Annealing & Slitting. NAICS 332813: electroplating, plating, polishing, anodizing and coloring."
+description = "Finishes light-gauge nickel alloy strip: cold rolling, annealing and slitting."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
-updated = "2026-11-11"
+updated = "2026-11-18"

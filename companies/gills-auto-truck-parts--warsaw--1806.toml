@@ -1,0 +1,22 @@
+# Gill's Auto & Truck Parts
+# Added by hand as a recycler (resource provider) from public sources; see verified_note.
+
+name = "Gill's Auto & Truck Parts"
+kind = "company"
+city = "Warsaw"
+state = "IN"
+address = "1806 W Winona Avenue, Warsaw, IN 46580"
+lat = 41.23371
+lon = -85.88208
+verified = "2026-11-18"
+verified_note = "A March 2024 InkFreeNews article says the business continues to operate as a you-pick used parts yard in Warsaw. Source: https://www.inkfreenews.com/2024/03/31/cary-lewis-purchases-white-machine-inc-in-warsaw/"
+
+sector = "Recycling & recovery"
+products = ["Self-service used auto parts yard", "Vehicle recycling"]
+recovers = ["vehicles", "ferrous scrap"]
+naics = "423140"
+
+description = "Self-service used auto parts yard that dismantles vehicles."
+
+source = "Public sources: company websites, state agency lists (IDEM, Michigan EGLE), city records, EPA ECHO and local news"
+updated = "2026-11-18"

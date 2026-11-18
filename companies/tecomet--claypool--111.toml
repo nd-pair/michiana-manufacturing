@@ -1,0 +1,23 @@
+# Tecomet, Warsaw Building 2
+# Added by hand from EPA's Toxics Release Inventory / RCRA Biennial Report and a dated public source; see verified_note.
+
+name = "Tecomet, Warsaw Building 2"
+kind = "company"
+city = "Claypool"
+state = "IN"
+address = "111 North Clay Street, Claypool, IN 46510"
+lat = 41.13135
+lon = -85.88315
+website = "https://www.tecomet.com"
+verified = "2026-11-18"
+verified_note = "EPA's Toxics Release Inventory for 2024 lists Tecomet Warsaw-Building #2 at this address, and Tecomet posted jobs in Claypool in 2025 and June 2026. Source: https://www.tecomet.com"
+
+sector = "Medical devices & other"
+products = ["Orthopedic implants (contract manufacturing)", "Surgical instruments"]
+naics = "339112"
+
+parent = "Tecomet"
+description = "Contract machining of orthopedic implants and instruments."
+
+source = "EPA Toxics Release Inventory 2024 or RCRA Biennial Report 2023, checked against company websites, state notices, job postings and news"
+updated = "2026-11-18"

@@ -1,0 +1,24 @@
+# Adam's Auto Salvage
+# Added by hand as a recycler (resource provider) from public sources; see verified_note.
+
+name = "Adam's Auto Salvage"
+formerly = "Myers Auto Salvage"
+kind = "company"
+city = "Ligonier"
+state = "IN"
+address = "2265 W US Highway 6, Ligonier, IN 46767"
+lat = 41.45164
+lon = -85.65018
+website = "https://adamsautosalvagein.com"
+verified = "2026-11-18"
+verified_note = "The company's website (2026) gives 2265 W US Hwy 6, Ligonier, and says it has operated there since 2006; 'Myers' appears only in older directories. Source: https://adamsautosalvagein.com"
+
+sector = "Recycling & recovery"
+products = ["Vehicle salvage", "Used auto parts"]
+recovers = ["vehicles", "ferrous scrap"]
+naics = "423140"
+
+description = "Auto salvage yard selling used parts and scrapping vehicles."
+
+source = "Public sources: company websites, state agency lists (IDEM, Michigan EGLE), city records, EPA ECHO and local news"
+updated = "2026-11-18"

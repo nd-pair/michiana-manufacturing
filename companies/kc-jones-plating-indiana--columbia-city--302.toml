@@ -1,0 +1,24 @@
+# KC Jones Plating Co., Indiana Division
+# Added by hand from EPA's Toxics Release Inventory / RCRA Biennial Report and a dated public source; see verified_note.
+
+name = "KC Jones Plating Co., Indiana Division"
+formerly = "C & R Plating Corp."
+kind = "company"
+city = "Columbia City"
+state = "IN"
+address = "302 Factory Avenue, Columbia City, IN 46725"
+lat = 41.15052
+lon = -85.49172
+website = "https://www.kcjplating.com"
+verified = "2026-11-18"
+verified_note = "The company's website lists its Indiana Division at 302 Factory Avenue, with Columbia City job postings in 2026; EPA's Toxics Release Inventory for 2024 (as C & R Plating) and RCRA Biennial Report for 2023 list the plant here. Source: https://www.kcjplating.com"
+
+sector = "Metal"
+products = ["Zinc plating", "Zinc-nickel plating", "Electroless nickel plating"]
+naics = "332813"
+
+parent = "KC Jones Plating Co."
+description = "Zinc, zinc-nickel and electroless nickel plating, mainly for automotive parts."
+
+source = "EPA Toxics Release Inventory 2024 or RCRA Biennial Report 2023, checked against company websites, state notices, job postings and news"
+updated = "2026-11-18"

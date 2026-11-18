@@ -1,0 +1,25 @@
+# Essex Solutions, Columbia City
+# Added by hand from EPA's Toxics Release Inventory / RCRA Biennial Report and a dated public source; see verified_note.
+
+name = "Essex Solutions, Columbia City"
+formerly = "Essex Furukawa Magnet Wire USA, Plant 202"
+kind = "company"
+city = "Columbia City"
+state = "IN"
+address = "2601 South 600 East, Columbia City, IN 46725"
+lat = 41.12402
+lon = -85.37634
+website = "https://essexsolutions.com"
+verified = "2026-11-18"
+verified_note = "EPA's Toxics Release Inventory for 2024 lists Essex Furukawa Magnet Wire USA, Plant 202, at this address; a January 2025 Essex Solutions release names its copper rod manufacturing facility in Columbia City. Source: https://www.einpresswire.com/article_print/779000550"
+status_note = "Essex Furukawa became Essex Solutions after Superior Essex bought out Furukawa's share."
+
+sector = "Metal"
+products = ["Copper rod", "Copper foundry feedstock for magnet wire"]
+naics = "331420"
+
+parent = "Essex Solutions"
+description = "Copper rod and foundry plant supplying Essex Solutions' magnet wire plants."
+
+source = "EPA Toxics Release Inventory 2024 or RCRA Biennial Report 2023, checked against company websites, state notices, job postings and news"
+updated = "2026-11-18"

@@ -1,0 +1,22 @@
+# Spectrum Recycling Services
+# Added by hand as a recycler (resource provider) from public sources; see verified_note.
+
+name = "Spectrum Recycling Services"
+kind = "company"
+city = "La Porte"
+state = "IN"
+address = "101 Park Street, La Porte, IN 46350"
+lat = 41.61682
+lon = -86.71676
+verified = "2026-11-18"
+verified_note = "Spectrum Recycling Services posted a laborer job (sorting materials) in La Porte in February 2025; its old website is now a parked domain, so recheck in 2027. Source: https://www.career.com/job/spectrum-recycling-services-inc/laborer/j202405231834180263362"
+
+sector = "Recycling & recovery"
+products = ["Scrap metal recycling"]
+recovers = ["ferrous scrap", "nonferrous scrap"]
+naics = "423930"
+
+description = "Scrap metal recycler."
+
+source = "Public sources: company websites, state agency lists (IDEM, Michigan EGLE), city records, EPA ECHO and local news"
+updated = "2026-11-18"

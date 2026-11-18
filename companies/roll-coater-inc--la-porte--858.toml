@@ -1,16 +1,20 @@
-# Roll Coater, Inc.
+# AZZ Precoat Metals, Kingsbury (formerly Roll Coater)
 # Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
 
-name = "Roll Coater, Inc."
+name = "AZZ Precoat Metals, Kingsbury"
+formerly = "Roll Coater, Inc."
 kind = "company"
 city = "La Porte"
 state = "IN"
 address = "858 East Hupp Road, La Porte, IN 46350"
 lat = 41.51653
 lon = -86.66919
-website = "https://rollcoater.com"
-presumed_closed_reason = "Verification check: renamed or acquired, but the new name is not tied to this address (AZZ Precoat Metals (Kingsbury)). AZZ lists its Kingsbury coil-coating plant at 858 East Hupp Road, and MapQuest describes the Precoat Metals listing there as Roll Coater, a coil coater; the ownership change itself was not explicitly sourced. Source: https://www.azz.com/locations/azz-precoat-metals-kingsbury"
-presumed_closed = "2026-11-13"
+website = "https://www.azz.com/locations/azz-precoat-metals-kingsbury"
+former_website = "https://rollcoater.com"
+verified = "2026-11-18"
+verified_note = "AZZ's location page (2026) lists its Kingsbury coil-coating plant at 858 East Hupp Road, Precoat posted a production job there in January 2026, and EPA's Toxics Release Inventory for 2024 and RCRA Biennial Report for 2023 list Precoat Metals at this address. Source: https://www.career.com/job/precoat-metals/production-operator/j202601061140267431266"
+status_note = "Roll Coater's plant now runs as AZZ Precoat Metals."
+parent = "AZZ Precoat Metals"
 
 sector = "Metal"
 products = ["Metal Coating, Engraving (except Jewelry and Silverware), and Allied Services To Manufacturers"]
@@ -22,7 +26,7 @@ employees_year = 2022
 employees_quality = "estimate"
 employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
-description = "Steel Coil Coating. NAICS 332812: metal coating, engraving (except jewelry and silverware), and allied services to manufacturers."
+description = "Coil coating of steel, aluminum and stainless strip. NAICS 332812: metal coating, engraving (except jewelry and silverware), and allied services to manufacturers."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
-updated = "2026-11-11"
+updated = "2026-11-18"

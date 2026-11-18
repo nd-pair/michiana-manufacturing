@@ -171,7 +171,7 @@ def main():
     places = load_toml(P("data", "places.toml"))
     cities = {c["name"]: (c["lat"], c["lon"]) for c in places["city"]}
 
-    companies, closed, removed, presumed = [], [], [], []
+    companies, closed, removed, presumed, closed_on = [], [], [], [], {}
     for name in sorted(os.listdir(P("companies"))):
         if not name.endswith(".toml"):
             continue
@@ -180,7 +180,7 @@ def main():
         check(c, path, sectors)
         if c.get("closed"):
             # kept on file so the importers do not add it again, but not shown
-            closed.append(name); continue
+            closed.append(name); closed_on[re.sub(r"[^a-z0-9]+", "-", name[:-5].lower()).strip("-")] = str(c["closed"])[:4]; continue
         if c.get("presumed_closed"):
             # an imported record that a check found closed or without any current trace: not shown, since listing a plant
             # that does not exist is worse than missing one; a same-name OSHA filing or a dated source brings it back
@@ -286,9 +286,9 @@ def main():
         "usgs": crit["lists"]["usgs"], "doe": crit["lists"]["doe_energy"], "alias": crit["lists"].get("tri_alias", {}),
         "usgsSource": crit["lists"]["usgs_source"], "doeSource": crit["lists"]["doe_source"],
         "materials": [{k: m[k] for k in ("group", "materials", "note")} for m in crit["material"]],
-        "tri": [{"name": titlecase(f["name"]), "city": f["city"], "company": co(f.get("company")), "metals": f["metals"]}
+        "tri": [{"name": titlecase(f["name"]), "city": f["city"], "company": co(f.get("company")), "closed": closed_on.get(f.get("company")), "metals": f["metals"]}
                 for f in (waste.get("tri") or {}).get("facilities", [])],
-        "rcra": [{"name": titlecase(h["name"]), "city": h["city"], "company": co(h.get("company")), "tons": h["tons"],
+        "rcra": [{"name": titlecase(h["name"]), "city": h["city"], "company": co(h.get("company")), "closed": closed_on.get(h.get("company")), "tons": h["tons"],
                   "streams": [{k: s[k] for k in ("description", "codes", "tons", "managed")} for s in h["streams"][:4]]}
                  for h in (waste.get("rcra") or {}).get("handlers", [])],
         "codes": (waste.get("rcra") or {}).get("codes", {}),

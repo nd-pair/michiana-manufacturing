@@ -1,0 +1,22 @@
+# Zentis North America
+# Added by hand from EPA's Toxics Release Inventory / RCRA Biennial Report and a dated public source; see verified_note.
+
+name = "Zentis North America"
+kind = "company"
+city = "Plymouth"
+state = "IN"
+address = "2050 North Oak Road, Plymouth, IN 46563"
+lat = 41.35873
+lon = -86.32647
+website = "https://www.zentis.com"
+verified = "2026-11-18"
+verified_note = "A March 2025 release announced a new popping boba line at the Plymouth plant; EPA's Toxics Release Inventory for 2024 lists Zentis at 2050 N Oak Rd (the company writes Oak Drive). Source: https://www.newswire.com/news/largest-u-s-popping-boba-production-line-unveiled-by-zentis-north-22530525"
+
+sector = "Food & consumer goods"
+products = ["Fruit preparations", "Fillings", "Popping boba"]
+naics = "311421"
+
+description = "Fruit preparations and fillings for food makers; opened a popping boba line in 2025."
+
+source = "EPA Toxics Release Inventory 2024 or RCRA Biennial Report 2023, checked against company websites, state notices, job postings and news"
+updated = "2026-11-18"

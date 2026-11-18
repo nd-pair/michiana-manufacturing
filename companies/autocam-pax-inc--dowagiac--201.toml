@@ -9,9 +9,10 @@ address = "201 Percy Street, Dowagiac, MI 49047"
 lat = 41.99207
 lon = -86.09665
 website = "https://www.nninc.com"
-presumed_closed_reason = "No current trace at this address: parent NN, Inc.'s website lists its Michigan plants in Kentwood and Marshall but not Dowagiac, Autocam filed OSHA's 2025 Form 300A for Kentwood and Marshall only, and a plant of its estimated 44 employees would have to file. A same-name OSHA filing or a dated source brings it back."
-presumed_closed = "2026-11-14"
 former_website = "https://autocam.com"
+closed = "2025"
+closed_note = "NN, Inc. announced in October 2024 that it would close the Dowagiac plant and move the work elsewhere; its 2025 quarterly report says production there ended in the first quarter of 2025."
+closed_source = "https://www.sec.gov/Archives/edgar/data/918541/000091854124000136/pressrelease2024-q3.htm"
 
 sector = "Vehicles & RVs"
 products = ["All Other Motor Vehicle Parts Manufacturing"]
@@ -26,4 +27,4 @@ employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 
 description = "Precision Automotive Parts. NAICS 336390: other motor vehicle parts manufacturing."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
-updated = "2026-11-11"
+updated = "2026-11-18"

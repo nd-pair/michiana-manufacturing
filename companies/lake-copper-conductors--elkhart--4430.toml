@@ -1,0 +1,23 @@
+# Lake Copper Conductors
+# Added by hand from EPA's Toxics Release Inventory / RCRA Biennial Report and a dated public source; see verified_note.
+
+name = "Lake Copper Conductors"
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "4430 Eastland Drive, Elkhart, IN 46516"
+lat = 41.67971
+lon = -85.90193
+website = "https://www.lakecable.com"
+verified = "2026-11-18"
+verified_note = "Lake Cable's locations page (2026) lists Lake Copper Conductors at 4430 Eastland Drive and 4906 Hoffman Street, Elkhart, with Elkhart job postings in 2025-2026; EPA's 2023 RCRA Biennial Report lists both buildings. Source: https://www.lakecable.com"
+
+sector = "Metal"
+products = ["Bare copper conductors", "Copper wire drawing"]
+naics = "331420"
+
+parent = "Lake Cable"
+description = "Draws bare copper wire and conductors; a second building is at 4906 Hoffman Street."
+
+source = "EPA Toxics Release Inventory 2024 or RCRA Biennial Report 2023, checked against company websites, state notices, job postings and news"
+updated = "2026-11-18"

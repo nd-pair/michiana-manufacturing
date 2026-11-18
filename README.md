@@ -180,8 +180,10 @@ Without WebGL the map shows a notice and everything else still works. The page c
   and NAICS, `data/critical_materials.toml`, with the USGS 2025 and DOE lists; click to filter),
   the recyclers, and coal ash at NIPSCO's Michigan City station (`data/waste_sites.toml`, by hand).
   `scripts/pull_waste.py` → `data/waste.json` (EPA, no key; `--rematch` only re-matches plants to
-  company files). Company cards show their reported metal waste, hazardous waste streams and likely
-  critical materials; the "Metal waste reported to EPA" chip filters the map.
+  company files). EPA records filed under another name or address are matched by hand in
+  `data/waste_matches.toml`; a plant that reported and has closed since is listed as closed. Company
+  cards show their reported metal waste, hazardous waste streams and likely critical materials; the
+  "Metal waste reported to EPA" chip filters the map.
 - **Recyclers.** The sector *Recycling & recovery* holds scrap yards, auto recyclers, secondary
   metal processors and plastics, paper, tire and e-waste recyclers. They are resource providers:
   shown on the map in their own color, with the materials they recover (`recovers`), but not counted
@@ -343,7 +345,7 @@ so commit only your source changes (`companies/`, `data/`, `site/`, `scripts/`) 
 
 ```
 companies/      one TOML file per company (edit these)
-data/           sectors, places, capabilities (edit these); county boundaries (Census; simplified for the map, detailed for placing plants), ZIP code centers and NAICS titles (Census), shorelines (Natural Earth); pulled datasets (federal, fda, qcew, bls, census, waste, sbir, osha, warn); critical_materials.toml and waste_sites.toml (edit these)
+data/           sectors, places, capabilities (edit these); county boundaries (Census; simplified for the map, detailed for placing plants), ZIP code centers and NAICS titles (Census), shorelines (Natural Earth); pulled datasets (federal, fda, qcew, bls, census, waste, sbir, osha, warn); critical_materials.toml, waste_sites.toml and waste_matches.toml (edit these)
 site/           the pages: Notre Dame Web Theme chrome (partials/), page.html + app.js (map), about.html, brief.html + brief.js, app.css
 scripts/        review_llm.py (monthly news review), build.py, humanoid.py, opportunity.py, geocode.py, import_hifld.py, import_osha.py, import_sbir_firms.py, pull_warn.py, pull_federal.py, pull_sbir.py, pull_fda.py, pull_qcew.py, pull_bls.py, pull_census.py, pull_waste.py, pull_workforce.py, pull_nd_research.py, pull_events.py, pull_patents.py, check_consistency.py, check_coverage.py, check_sites.py, check_closed.py, apply_checks.py, make_county_detail.py, make_zip_centers.py, make_naics_titles.py, make_naics_concordance.py, common.py
 docs/           the built site (generated; do not edit by hand)

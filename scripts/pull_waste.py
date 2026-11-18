@@ -15,11 +15,13 @@ data/waste.json, shown in the Waste streams panel and on company cards.
   of large-quantity generators in the region that carry metals (EPA waste codes for plating
   sludge, steel-mill dust, pickle liquor and toxic metals, or a description naming a metal,
   batteries or catalysts), in tons, with how they were managed.
-Each plant is matched to a company file by street address and city, then by name and city. Each
+Each plant is matched to a company file on the map by hand (data/waste_matches.toml), then by street
+address and city, then by name and city. Each
 dataset is independent; one that fails keeps its part of the previous file.
 """
 import csv, datetime, io, json, math, re, sys, urllib.request
 from collections import defaultdict
+import tomllib
 from common import P, COUNTIES, companies, matcher, norm
 from import_osha import addr_key, county_of
 
@@ -46,14 +48,23 @@ def get(url, timeout=300):
     return urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=timeout).read()
 
 def company_index():
+    """find(name, street, city, lat, lon, epa_id) -> company id: a hand match (data/waste_matches.toml; an empty
+    file means no match), then the street address, then the name and city, then a nearby file with a shared
+    distinctive word. Only files on the map are matched automatically: a closed or presumed-closed file at the
+    same address may be a former occupant, so plants that reported before they closed are matched by hand."""
     cs = companies()
+    try:
+        hand = {m["epa_id"]: m["file"] for m in tomllib.load(open(P("data", "waste_matches.toml"), "rb")).get("match", [])}
+    except FileNotFoundError:
+        hand = {}
+    open_cs = [c for c in cs if not any(c.get(x) for x in ("closed", "removed", "presumed_closed"))]
     by_addr = {}
-    for c in cs:
+    for c in open_cs:
         k = addr_key((c.get("address") or "").split(",")[0], c.get("city"))
-        if k and not any(c.get(x) for x in ("closed", "removed")):
+        if k:
             by_addr.setdefault(k, c["_id"])
-    match = matcher(cs)
-    pts = [(c["lat"], c["lon"], c["_id"], set(norm(c["name"]).split())) for c in cs if "lat" in c and not any(c.get(x) for x in ("closed", "removed"))]
+    match = matcher(open_cs)
+    pts = [(c["lat"], c["lon"], c["_id"], set(norm(c["name"]).split())) for c in open_cs if "lat" in c]
     def near(name, lat, lon):
         """The closest company file within 300 m whose name shares a distinctive word with this one."""
         words, best = set(norm(name).split()) - GENERIC, None
@@ -63,8 +74,11 @@ def company_index():
                 if best is None or d < best[0]:
                     best = (d, cid)
         return best and best[1]
-    return lambda name, street, city, lat=None, lon=None: (by_addr.get(addr_key(street, city)) or match(name, city.title())
-                                                         or (near(name, lat, lon) if lat is not None else None))
+    def find(name, street, city, lat=None, lon=None, epa_id=None):
+        if epa_id in hand:
+            return hand[epa_id] or None
+        return (by_addr.get(addr_key(street, city)) or match(name, city.title()) or (near(name, lat, lon) if lat is not None else None))
+    return find
 
 def metal_name(chem):
     """'Chromium compounds(except chromite ore ...)' -> 'Chromium'; 'Aluminum (fume or dust)' -> 'Aluminum'."""
@@ -109,7 +123,7 @@ def tri(find):
     for p in plants.values():
         p["metals"] = {k: [round(x) for x in v] for k, v in sorted(p["metals"].items()) if v[3] > 0}
         if p["metals"]:
-            p["company"] = find(p["name"], p["street"], p["city"], p["lat"], p["lon"])
+            p["company"] = find(p["name"], p["street"], p["city"], p["lat"], p["lon"], p["trifd"])
             out.append(p)
     out.sort(key=lambda p: -sum(v[3] for v in p["metals"].values()))
     return {"year": year, "units": "pounds a year; per metal: recycled, treated or burned for energy, disposed of or released, total",
@@ -149,7 +163,7 @@ def rcra(find):
     for h in handlers.values():
         h["streams"] = sorted(({**s, "tons": round(s["tons"], 2), "managed": sorted(s["managed"])} for s in h["streams"].values()), key=lambda s: -s["tons"])
         h["tons"] = round(sum(s["tons"] for s in h["streams"]), 2)
-        h["company"] = find(h["name"], h["street"], h["city"])
+        h["company"] = find(h["name"], h["street"], h["city"], epa_id=hid)
         out.append(h)
     out.sort(key=lambda h: -h["tons"])
     return {"cycle": cycle, "units": "tons generated in the year", "codes": METAL_CODES, "handlers": out}
@@ -163,9 +177,9 @@ def main():
     find = company_index()
     if "--rematch" in sys.argv:
         for f in (out.get("tri") or {}).get("facilities", []):
-            f["company"] = find(f["name"], f["street"], f["city"], f["lat"], f["lon"])
+            f["company"] = find(f["name"], f["street"], f["city"], f["lat"], f["lon"], f["trifd"])
         for h in (out.get("rcra") or {}).get("handlers", []):
-            h["company"] = find(h["name"], h["street"], h["city"])
+            h["company"] = find(h["name"], h["street"], h["city"], epa_id=h["id"])
         json.dump(out, open(path, "w"), indent=1, sort_keys=True)
         print("rematched: TRI %d, RCRA %d plants with a company file" % (sum(1 for f in out["tri"]["facilities"] if f["company"]),
                                                                        sum(1 for h in out["rcra"]["handlers"] if h["company"])))

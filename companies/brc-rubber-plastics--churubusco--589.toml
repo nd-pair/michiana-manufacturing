@@ -1,0 +1,23 @@
+# BRC Rubber & Plastics, Churubusco
+# Added by hand from EPA's Toxics Release Inventory and a dated public source; see verified_note.
+
+name = "BRC Rubber & Plastics, Churubusco"
+kind = "company"
+city = "Churubusco"
+state = "IN"
+address = "589 South Main Street, Churubusco, IN 46723"
+lat = 41.24353
+lon = -85.33344
+website = "https://www.brcrp.com"
+verified = "2026-11-18"
+verified_note = "EPA's Toxics Release Inventory for 2024 lists BRC Rubber & Plastics at 589 S Main St, Churubusco, and BRC's website lists its Churubusco plant with a current quality certificate. Source: https://www.brcrp.com"
+
+sector = "Materials & composites"
+products = ["Molded rubber parts", "Molded plastic parts", "Automotive seals and gaskets", "Noise and vibration parts"]
+naics = "326299"
+
+parent = "BRC Rubber & Plastics"
+description = "Molded rubber and plastic automotive parts: noise and vibration parts, steering-column seals, engine-air parts and gaskets."
+
+source = "EPA Toxics Release Inventory 2024 or RCRA Biennial Report 2023, checked against company websites, state notices, job postings and news"
+updated = "2026-11-18"

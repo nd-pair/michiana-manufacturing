@@ -1,0 +1,23 @@
+# Scrappy Iron & Metal Recycling
+# Added by hand as a recycler (resource provider) from public sources; see verified_note.
+
+name = "Scrappy Iron & Metal Recycling"
+kind = "company"
+city = "Rolling Prairie"
+state = "IN"
+address = "4503 E 700 N, Rolling Prairie, IN 46371"
+lat = 41.70951
+lon = -86.61292
+website = "https://scrappyironandmetal.com"
+verified = "2026-11-18"
+verified_note = "The company's website posts a scrap price sheet dated October 15, 2026. Source: https://scrappyironandmetal.com"
+
+sector = "Recycling & recovery"
+products = ["Scrap metal recycling"]
+recovers = ["ferrous scrap", "nonferrous scrap"]
+naics = "423930"
+
+description = "Buys ferrous and nonferrous scrap metal."
+
+source = "Public sources: company websites, state agency lists (IDEM, Michigan EGLE), city records, EPA ECHO and local news"
+updated = "2026-11-18"

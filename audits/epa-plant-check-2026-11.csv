@@ -1,0 +1,42 @@
+epa_id,epa_name,address,decision,file,evidence
+46860SSXGRUS30A,Essex Furukawa Magnet Wire USA Plant #202,"2601 S 600 E, Columbia City, IN",added,essex-solutions--columbia-city--2601,"TRI 2024; Essex Solutions release Jan 2025 names the Columbia City copper rod plant (town only)"
+46534MPNDN12KLE,MPI Engineered Technologies,"1200 Kloeckner Dr, Knox, IN",added,mpi-engineered-technologies--knox--1200,IDEM wastewater notice Jan 2026
+46710HSRWRPROGR,Accel International Holdings,"302 Progress Way, Avilla, IN",not added,,only an undated directory listing
+46526BNTLR910SE,Grouper Wild LLC dba Shiloh Hot Stamping,"910 S Eisenhower Dr, Goshen, IN",matched to closed file,benteler-automotive-corp--goshen--910,reported for 2024; closed March 31 2026 (WARN)
+46515LKHRT1255O,Elkhart Products Corp (Mueller),"1255 Oak St, Elkhart, IN",not added,,"Mueller's 10-K of Feb 2025 lists an Elkhart plant, its 10-K of Feb 2026 does not; possibly closed or consolidated"
+46580THDLTCORNE,Dalton Corp Warsaw,"1900 E Jefferson St, Warsaw, IN",matched to closed file,dalton-corp-warsaw-manufacturing--warsaw--1900,reported for 2024; closed February 27 2026 (WARN)
+4661WSTLWR14RIV,Steel Warehouse Profiling Department (Riverside),"1400 Riverside Dr, South Bend, IN",not added,,"only a 2016 tax-credit record; Steel Warehouse's site lists only Tucker Drive"
+46360NRTHRWABAS,NIPSCO Michigan City Generating Station,"101 Wabash St, Michigan City, IN",not added (utility),,shown under coal ash in the Waste streams panel (data/waste_sites.toml)
+4672WMCRPL5865E,Micropulse Inc,"5865 E SR 14, Columbia City, IN",added,micropulse--columbia-city--5865,IDEM air permit notice Aug 2026
+4658WBNNRM1199P,Banner Medical,"1199 Polk Dr, Warsaw, IN",added at 1295 Polk Dr,banner-medical--warsaw--1295,A. M. Castle page and June 2026 job posting
+46725CRBRR302FA,C & R Plating Corp,"302 Factory Ave, Columbia City, IN",added,kc-jones-plating-indiana--columbia-city--302,company website; 2026 job postings; same plant as RCRA IN0000261917
+46510SYMMT111NC,Tecomet Warsaw Building #2,"111 N Clay St, Claypool, IN",added,tecomet--claypool--111,TRI 2024 address; Claypool job postings 2025 and June 2026
+4654WSTRPC56598,Steel Technologies LLC,"56598 Magnetic Dr, Mishawaka, IN",added,steel-technologies--mishawaka--56598,company location page; July 2026 job posting
+46345KNGSB3RDRD,Accurate Castings Kingsbury Castings Div,"3232 3rd Rd, Kingsbury, IN",matched; street number added,hiler-industries-inc--kingsbury--3rd,Hiler Industries' Kingsbury foundry (OSHA 2025); April 2025 job posting
+46360WLMCLBLAIN,WM Technologies LLC (Weil-McLain),"500 Blaine St, Michigan City, IN",added,weil-mclain-wm-technologies--michigan-city--500,SPX foundry job posting April 2026
+49022SNDVK2235D,Champlain Specialty Metals,"2235 Dewey Ave, Benton Harbor, MI",not added,,no 2024-2026 source; the building has been listed for sale
+46725DWCLV2374S,Columbia City Mill Services,"2374 S CR 800E, Columbia City, IN",matched,levy-environmental-services-company-dba-columbia-city-mill-services--columbia-city--7373,same company; OSHA gives 7373 S 800 E
+46563CTRSH2050N,Zentis North American Operating,"2050 N Oak Rd, Plymouth, IN",added,zentis-north-america--plymouth--2050,March 2025 release on a new line at the plant
+4656WPLYWD11WES,Polywood Inc,"1001 W Brooklyn St, Syracuse, IN",matched,poly-wood-inc--syracuse--1001,the file's earlier address
+49023TCHNC1200C,Tech Nickel Inc,"1200 S Crystal Ave, Benton Harbor, MI",added as TS Tech Nickel,ts-tech-nickel--benton-harbor--1200,EPA Region 5 letter April 2025; August 2025 ISO certificate
+4655WZNGRD3148E,Ozinga Ready-Mix New Carlisle,"31480 Edison Rd, New Carlisle, IN",added at 55150 Walnut Rd,ozinga--new-carlisle--55150,Ozinga's locations page (2026); the two addresses geocode about 300 m apart
+4654WMYRMT231US,Ozinga Ready-Mix Middlebury,"231 US Hwy 20, Middlebury, IN",added,ozinga--middlebury--231,Ozinga's locations page (2026)
+INR000147207 / INR000135061,Lake Copper Conductors,"4430 Eastland Dr and 4906 Hoffman St, Elkhart, IN",added (one file),lake-copper-conductors--elkhart--4430,Lake Cable locations page (2026); Elkhart job postings 2025-2026
+INR000013177,Ternet Metal Finishing,"150 Green Dr, Avilla, IN",not added,,only EPA records (inspection August 2026); no company source
+INR000115808,Warsaw Electropolishing,"125 W CR 250 N, Warsaw, IN",not added,,no source after 2021; possibly closed
+INR000107391,ChromaSource,"2433 S CR 600 E, Columbia City, IN",added,chromasource--columbia-city--2433,EPA inspection April 2025; current website
+IND984872846,Inserv Inc,"1122 Division St, Mishawaka, IN",not added,,industrial and environmental services firm; not a manufacturer
+IND070987714,Tecomet Warsaw Building 1,"486 W CR 350 N, Warsaw, IN",matched; file renamed,symmetry-medical-inc--warsaw--3724,Tecomet acquired Symmetry Medical's implant business in 2014
+46562SPXCR5ARNO,Aludyne Pierceton,"5 Arnolt Dr, Pierceton, IN",presumed closed file restored and renamed,contech-usa-llc--pierceton--5,"IDEM notice Jan 2026: transferred to Linacast (Linamar), November 2025"
+46514NCLLY52800,Huntington Alloys Corp,"52800 Higgins Rd, Elkhart, IN",presumed closed file restored and renamed,special-metals-corp--elkhart--52800,AS9100 certificate 2024-2027 at 2900 Higgins Blvd
+46345RLLCT2NDAN / IND990873606,Precoat Metals,"858 E Hupp Rd, La Porte, IN",presumed closed file restored and renamed,roll-coater-inc--la-porte--858,AZZ location page (2026); January 2026 job posting
+4655WLFKNR52SAK,US Rod,"502 S Oakland Ave, Nappanee, IN",added (new occupant),us-rod--nappanee--502,February 2026 job posting; the Fairmont Homes file stays presumed closed
+4651WLPPRT57912,Lippert Components Plant 83,"57912 Charlotte Ave, Elkhart, IN",added (new occupant),lippert-plant-83--elkhart--57912,Lippert locations page (2026); the Atwood file stays presumed closed
+4904WTCMXX21PEB,Autocam,"201 Percy St, Dowagiac, MI",presumed closed file marked closed (2025),autocam-pax-inc--dowagiac--201,NN Inc. Q3 2024 release and 2025 10-Q
+4672WBRCRB589SM,BRC Rubber & Plastics,"589 S Main St, Churubusco, IN",added,brc-rubber-plastics--churubusco--589,TRI 2024; BRC website lists the plant
+46767FRDNB1497G,BRC Rubber & Plastics,"1497 Gerber St, Ligonier, IN",not added,,"only TRI 2024 puts BRC here (a Vibracoustic plant closed 2021); BRC's 1 Wall St file stays presumed closed"
+46514CRSBF1600M / IND005101217,Crosbie Foundry Co.,"1600 Mishawaka St, Elkhart, IN",left unlinked,,"OSHA 2025 filer at the address is Fusion Wood Products; Crosbie's status not confirmed"
+4651WMCDWL21SUP / IND051212439,McDowell Enterprises,"2010 Superior St, Elkhart, IN",stays presumed closed,mcdowell-enterprises-inc--elkhart--2010,only an EPA inspection (January 2025)
+IND092043595,Atlas Chem Milling,"1627 W Lusher Ave, Elkhart, IN",stays presumed closed,atlas-die-llc-chem-milling-div--elkhart--1627,only an EPA inspection (February 2024)
+IND052867595,LyondellBasell Advanced Polymers,"1301 N Flora St, Plymouth, IN",stays presumed closed,ferro-corp-liquid-coatings--plymouth--1301,building advertised for sale or lease (December 2024)
+IND980680094,Baycote Metal Finishing,"1302 Industrial Dr, Mishawaka, IN",stays presumed closed,baycote-metal-finishing-inc--mishawaka--1302,nothing after 2019 besides the RCRA 2023 entry

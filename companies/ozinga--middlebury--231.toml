@@ -1,0 +1,22 @@
+# Ozinga, Middlebury yard
+# Added by hand from EPA's Toxics Release Inventory / RCRA Biennial Report and a dated public source; see verified_note.
+
+name = "Ozinga, Middlebury yard"
+kind = "company"
+city = "Middlebury"
+state = "IN"
+address = "231 US Highway 20, Middlebury, IN 46540"
+lat = 41.66354
+lon = -85.72090
+website = "https://ozinga.com"
+verified = "2026-11-18"
+verified_note = "Ozinga's Indiana East locations page (2026) lists the Middlebury yard; EPA's Toxics Release Inventory for 2024 lists the plant at 231 US Hwy 20. Source: https://ozinga.com/locations/indiana-east-region/"
+
+sector = "Materials & composites"
+products = ["Ready-Mix Concrete Manufacturing"]
+naics = "327320"
+
+description = "Ready-mix concrete plant."
+
+source = "EPA Toxics Release Inventory 2024 or RCRA Biennial Report 2023, checked against company websites, state notices, job postings and news"
+updated = "2026-11-18"

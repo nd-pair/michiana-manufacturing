@@ -334,7 +334,7 @@ const critOf=m=>{const k=(WS.alias[m.toLowerCase()]||m.toLowerCase());return WS.
 const critTag=m=>{const k=critOf(m);return k?` <small class="mm-crit" title="on the ${k} critical list">critical</small>`:""};
 const lb=v=>v>=1e6?(v/1e6).toFixed(1)+" M lb":Math.round(v).toLocaleString()+" lb";
 const pct=(a,b)=>b?Math.round(100*a/b)+"%":"–";
-const coName=x=>x.company&&byId[x.company]?`<a href="#${x.company}">${esc(byId[x.company].name)}</a>`:esc(x.name);
+const coName=x=>(x.company&&byId[x.company]?`<a href="#${x.company}">${esc(byId[x.company].name)}</a>`:esc(x.name))+(x.closed?` <small class="mm-mut">closed ${esc(x.closed)}</small>`:"");
 function wasteCard(c){let h="";const w=c.waste;
   if(w&&Object.keys(w.tri).length){h+=`<div class="k">Metal waste reported to EPA (TRI ${WS.triYear})</div>`+Object.entries(w.tri).sort((a,b)=>b[1][3]-a[1][3]).map(([m,v])=>`${esc(m)}${critTag(m)}: ${lb(v[3])}, ${pct(v[0],v[3])} recycled`).join("<br>")}
   if(w&&w.rcra.length){h+=`<div class="k">Metal-bearing hazardous waste (RCRA ${WS.rcraCycle})</div>`+w.rcra.map(s=>`${esc(s.description.toLowerCase())}${s.codes.length?` <small class="mm-mut">${esc(s.codes.join(", "))}</small>`:""}: ${s.tons.toLocaleString()} t${s.managed.length?" · "+esc(s.managed.join(", ")):""}`).join("<br>")}
@@ -354,7 +354,7 @@ function renderWaste(){const el=document.getElementById("waste"),note=document.g
       +`<p class="mm-wnote">"Critical" marks metals on the ${esc(WS.usgsSource||"USGS")} or the ${esc(WS.doeSource||"DOE")} list. TRI covers plants with 10 or more employees in listed industries that handle a listed chemical above a threshold, and it does not list rare earths, lithium, gallium, germanium, tungsten, tantalum or titanium metal: see <i>Likely materials</i> for those.</p>`;return}
   if(st.wsv==="src"){const rows=T.map(f=>{const v=Object.entries(f.metals),t=v.reduce((a,[,x])=>a+x[3],0),nr=v.reduce((a,[,x])=>a+x[3]-x[0],0);
       return {...f,total:t,notrec:nr,share:t?nr/t:0,top:v.filter(([,x])=>x[3]-x[0]>0).sort((a,b)=>(b[1][3]-b[1][0])-(a[1][3]-a[1][0])).slice(0,3)}}).filter(r=>r.notrec>0);
-    el.innerHTML=`<p class="mm-fedsum">Plants whose reported metal waste is not recycled, largest first. Plants not on the map (not manufacturers, or not yet added) are listed without a link.</p>`
+    el.innerHTML=`<p class="mm-fedsum">Plants whose reported metal waste is not recycled, largest first. Plants not on the map (closed since they reported, not manufacturers, or not yet added) are listed without a link.</p>`
       +sortTable("wsrc",[{key:"name",label:"Plant",cell:r=>`<b>${coName(r)}</b>`},{key:"city",label:"City"},{key:"notrec",label:"Not recycled",num:true,cell:r=>lb(r.notrec)},
         {key:"share",label:"Of its metal waste",num:true,cell:r=>Math.round(100*r.share)+"%"},{key:"total",label:"All metal waste",num:true,cell:r=>lb(r.total)},
         {key:"topm",label:"Main metals not recycled",cell:r=>r.top.map(([m,x])=>`${esc(m)}${critTag(m)} <small class="mm-mut">${lb(x[3]-x[0])}</small>`).join(", ")}],rows);return}

@@ -1,0 +1,21 @@
+# Micropulse, Inc.
+# Added by hand from EPA's Toxics Release Inventory / RCRA Biennial Report and a dated public source; see verified_note.
+
+name = "Micropulse, Inc."
+kind = "company"
+city = "Columbia City"
+state = "IN"
+address = "5865 East State Road 14, Columbia City, IN 46725"
+lat = 41.07842
+lon = -85.38124
+verified = "2026-11-18"
+verified_note = "An IDEM air permit notice of August 2026 covers Micropulse at this address; EPA's Toxics Release Inventory for 2024 lists the plant here. Source: https://www.in.gov/idem/files/notice_20260815_air_50228pn-js.pdf"
+
+sector = "Medical devices & other"
+products = ["Orthopedic implants (contract manufacturing)", "Surgical instruments", "Instrument cases and trays", "Sterile packaging"]
+naics = "339112"
+
+description = "Contract manufacturer of orthopedic implants, instruments, cases and trays, with sterile packaging."
+
+source = "EPA Toxics Release Inventory 2024 or RCRA Biennial Report 2023, checked against company websites, state notices, job postings and news"
+updated = "2026-11-18"

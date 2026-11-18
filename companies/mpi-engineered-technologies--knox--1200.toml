@@ -1,0 +1,21 @@
+# MPI Engineered Technologies
+# Added by hand from EPA's Toxics Release Inventory / RCRA Biennial Report and a dated public source; see verified_note.
+
+name = "MPI Engineered Technologies"
+kind = "company"
+city = "Knox"
+state = "IN"
+address = "1200 Kloeckner Drive, Knox, IN 46534"
+lat = 41.29895
+lon = -86.63986
+verified = "2026-11-18"
+verified_note = "An IDEM public notice of January 2026 on the plant's wastewater permit describes current operations at 1200 Kloeckner Drive; EPA's Toxics Release Inventory for 2024 lists the plant here. Source: https://www.in.gov/idem/files/notice_20260126_npdes_inp000290.pdf"
+
+sector = "Metal"
+products = ["Fineblanked metal parts", "Precision stampings"]
+naics = "332119"
+
+description = "Fineblanked precision metal parts for automotive and industrial customers."
+
+source = "EPA Toxics Release Inventory 2024 or RCRA Biennial Report 2023, checked against company websites, state notices, job postings and news"
+updated = "2026-11-18"

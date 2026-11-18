@@ -1,0 +1,23 @@
+# Lippert, Plant 83
+# Added by hand from EPA's Toxics Release Inventory and a dated public source; see verified_note.
+
+name = "Lippert, Plant 83"
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "57912 Charlotte Avenue, Elkhart, IN 46517"
+lat = 41.65267
+lon = -86.01018
+website = "https://corporate.lippert.com"
+verified = "2026-11-18"
+verified_note = "Lippert's locations page (2026) lists Plant 083A at 57912 Charlotte Avenue, and EPA's Toxics Release Inventory for 2024 lists Lippert Components Plant 83 at this address. Source: https://corporate.lippert.com/about/locations/us/in/elkhart/lippert-083a"
+
+sector = "Vehicles & RVs"
+products = ["RV steps", "Seat frames", "Welded metal assemblies"]
+naics = "332999"
+
+parent = "Lippert (LCI Industries)"
+description = "Metal RV components: steps, seat frames and welded assemblies."
+
+source = "EPA Toxics Release Inventory 2024 or RCRA Biennial Report 2023, checked against company websites, state notices, job postings and news"
+updated = "2026-11-18"

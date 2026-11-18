@@ -5,11 +5,12 @@ name = "Hiler Industries, Inc."
 kind = "company"
 city = "Kingsbury"
 state = "IN"
-address = "3rd Road, Kingsbury, IN 46345"
-lat = 41.51279
-lon = -86.65357
+address = "3232 3rd Road, Kingsbury, IN 46345"
+lat = 41.50021
+lon = -86.64066
 website = "https://hilerindustries.com"
 osha_id = "1421646"
+status_note = "The Kingsbury Casting Division of Accurate Castings, a Hiler Industries company; the street number is from EPA's Toxics Release Inventory for 2024, and Accurate Castings posted a Kingsbury foundry job in April 2025."
 
 sector = "Metal"
 products = ["Iron Foundries"]
@@ -24,4 +25,4 @@ employees_note = "OSHA Form 300A, annual average employees at this establishment
 description = "Shell Molded Ductile Iron Castings. NAICS 331511: iron foundries."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
-updated = "2026-11-11"
+updated = "2026-11-18"

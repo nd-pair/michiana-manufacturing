@@ -1,0 +1,22 @@
+# Re-Gen, Inc.
+# Added by hand as a recycler (resource provider) from public sources; see verified_note.
+
+name = "Re-Gen, Inc."
+kind = "company"
+city = "Middlebury"
+state = "IN"
+address = "221 W US Highway 20, Suite C, Middlebury, IN 46540"
+lat = 41.66289
+lon = -85.71993
+verified = "2026-11-18"
+verified_note = "Re-Gen posted a third-shift machine operator job at its Middlebury plastics recycling plant in April 2026. Source: https://www.career.com/job/re-gen-inc/machine-operator-3rd-shift/j202301310545226666623"
+
+sector = "Recycling & recovery"
+products = ["Plastics recycling", "Plastic regrind"]
+recovers = ["plastics"]
+naics = "423930"
+
+description = "Plastics recycler that reprocesses scrap plastic."
+
+source = "Public sources: company websites, state agency lists (IDEM, Michigan EGLE), city records, EPA ECHO and local news"
+updated = "2026-11-18"

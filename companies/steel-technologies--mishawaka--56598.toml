@@ -1,0 +1,24 @@
+# Steel Technologies
+# Added by hand from EPA's Toxics Release Inventory / RCRA Biennial Report and a dated public source; see verified_note.
+
+name = "Steel Technologies"
+formerly = "Stripco"
+kind = "company"
+city = "Mishawaka"
+state = "IN"
+address = "56598 Magnetic Drive, Mishawaka, IN 46545"
+lat = 41.67148
+lon = -86.12806
+website = "https://www.steeltechnologies.com"
+verified = "2026-11-18"
+verified_note = "Steel Technologies' Mishawaka location page gives 56598 Magnetic Drive, and the company posted a Mishawaka job in July 2026; EPA's Toxics Release Inventory for 2024 lists the plant here. Source: https://www.steeltechnologies.com/locations/mishawaka-in"
+status_note = "Steel Technologies bought Stripco in 2014."
+
+sector = "Metal"
+products = ["Strip steel annealing", "Cold reducing", "Edge conditioning", "Oscillate-wound strip"]
+naics = "331221"
+
+description = "Processes strip steel: annealing, cold reducing, edge conditioning and oscillate winding."
+
+source = "EPA Toxics Release Inventory 2024 or RCRA Biennial Report 2023, checked against company websites, state notices, job postings and news"
+updated = "2026-11-18"

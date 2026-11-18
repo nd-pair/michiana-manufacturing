@@ -1,0 +1,24 @@
+# US Rod
+# Added by hand from EPA's Toxics Release Inventory and a dated public source; see verified_note.
+
+name = "US Rod"
+kind = "company"
+city = "Nappanee"
+state = "IN"
+address = "502 South Oakland Avenue, Nappanee, IN 46550"
+lat = 41.43916
+lon = -85.98207
+website = "https://www.usrodco.com"
+verified = "2026-11-18"
+verified_note = "Q2 Artificial Lift Services posted a forge operator job at US Rod Manufacturing, Nappanee, in February 2026; Lufkin's 2024 rod brochure and EPA's Toxics Release Inventory for 2024 list the plant at 502 S Oakland Ave. Source: https://career.com/job/q2-artificial-lift-services/forge-operator/j202504100947143847852"
+status_note = "Lufkin bought US Rod in 2021; Q2 Artificial Lift Services bought Lufkin's North American downhole business in March 2025. The building was earlier a Fairmont Homes plant."
+
+sector = "Metal"
+products = ["Steel sucker rods", "Pony rods", "Couplings", "Sinker bars"]
+naics = "333132"
+
+parent = "Q2 Artificial Lift Services"
+description = "Forged steel sucker rods, pony rods, couplings and sinker bars for oil-well pumping."
+
+source = "EPA Toxics Release Inventory 2024 or RCRA Biennial Report 2023, checked against company websites, state notices, job postings and news"
+updated = "2026-11-18"

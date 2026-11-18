@@ -1,0 +1,79 @@
+# EPA plants (Toxics Release Inventory or RCRA Biennial Report) matched to a company file by hand, when
+# the street address or name EPA has differs from the file (scripts/pull_waste.py). One [[match]] per
+# EPA record: its ID (the TRI facility ID or the RCRA handler ID), the company file's id, and a note on
+# why they are the same plant. A match to a closed file is shown in the Waste streams panel as closed.
+
+[[match]]
+epa_id = "46526BNTLR910SE"
+file = "benteler-automotive-corp-goshen-910"
+note = "Shiloh Hot Stamping (Grouper Wild LLC), the former Benteler plant at 910 Eisenhower Drive, Goshen; it reported for 2024 and closed on March 31, 2026"
+
+[[match]]
+epa_id = "46580THDLTCORNE"
+file = "dalton-corp-warsaw-manufacturing-warsaw-1900"
+note = "Dalton's Warsaw foundry at 1900 East Jefferson Street; it reported for 2024 and closed on February 27, 2026"
+
+[[match]]
+epa_id = "4656WPLYWD11WES"
+file = "poly-wood-inc-syracuse-1001"
+note = "Polywood's Syracuse plant; 1001 West Brooklyn Street is its earlier address, 1000 Polywood Way its current one (OSHA 2025)"
+
+[[match]]
+epa_id = "46725DWCLV2374S"
+file = "levy-environmental-services-company-dba-columbia-city-mill-services-columbia-city-7373"
+note = "Columbia City Mill Services (Edw. C. Levy Co.); TRI gives 2374 S County Road 800 E and OSHA 7373 South 800 East for the same operation"
+
+[[match]]
+epa_id = "IND070987714"
+file = "symmetry-medical-inc-warsaw-3724"
+note = "Tecomet Warsaw Building 1 at 486 W County Road 350 N, the address of the former Symmetry Medical file (OSHA 2025)"
+
+[[match]]
+epa_id = "IND086775160"
+file = "hydro-elkhart-elkhart-3408"
+note = "Hydro's Elkhart extrusion plant; Hydro and EPA give 3406 Reedy Drive, OSHA 3408"
+
+[[match]]
+epa_id = "4904WTCMXX21PEB"
+file = "autocam-pax-inc-dowagiac-201"
+note = "NN's Autocam plant at 201 Percy Street, Dowagiac; it reported for 2024 and production ended in the first quarter of 2025"
+
+[[match]]
+epa_id = "46514NCLLY52800"
+file = "special-metals-corp-elkhart-52800"
+note = "Huntington Alloys (Special Metals), Elkhart; EPA gives 52800 Higgins Rd, the company 2900 Higgins Boulevard"
+
+[[match]]
+epa_id = "4672WMCRPL5865E"
+file = "micropulse-columbia-city-5865"
+note = "Micropulse at 5865 E State Road 14; the Nanovis file shares the address"
+
+[[match]]
+epa_id = "4658WBNNRM1199P"
+file = "banner-medical-warsaw-1295"
+note = "Banner Medical, Warsaw; EPA gives 1199 Polk Drive, A. M. Castle 1295 Polk Drive"
+
+[[match]]
+epa_id = "4655WZNGRD3148E"
+file = "ozinga-new-carlisle-55150"
+note = "Ozinga's New Carlisle plant; EPA gives 31480 Edison Road, Ozinga 55150 Walnut Road"
+
+[[match]]
+epa_id = "INR000147207"
+file = "lake-copper-conductors-elkhart-4430"
+note = "Lake Copper Conductors' second Elkhart building, 4906 Hoffman Street"
+
+[[match]]
+epa_id = "46345KNGSB3RDRD"
+file = "hiler-industries-inc-kingsbury-3rd"
+note = "Accurate Castings' Kingsbury Casting Division, a Hiler Industries company, at 3232 3rd Road"
+
+[[match]]
+epa_id = "46514CRSBF1600M"
+file = ""
+note = "Crosbie Foundry reported for 2024 at 1600 Mishawaka Street, but OSHA's 2025 filing there is Fusion Wood Products; not linked until it is clear which business runs the site"
+
+[[match]]
+epa_id = "IND005101217"
+file = ""
+note = "Crosbie Foundry (RCRA 2023), as above"

@@ -1,0 +1,25 @@
+# TS Tech Nickel
+# Added by hand from EPA's Toxics Release Inventory / RCRA Biennial Report and a dated public source; see verified_note.
+
+name = "TS Tech Nickel"
+formerly = "Tech Nickel, Inc."
+kind = "company"
+city = "Benton Harbor"
+state = "MI"
+address = "1200 South Crystal Avenue, Benton Harbor, MI 49022"
+lat = 42.09648
+lon = -86.41737
+website = "https://www.technickel.com"
+verified = "2026-11-18"
+verified_note = "EPA Region 5 sent a settlement letter to Tech Nickel at this address in April 2025, and the company's site (2026) links an August 2025 ISO certificate; EPA's 2023 RCRA Biennial Report lists the plant here. Source: https://www.technickel.com"
+status_note = "Now a subsidiary of HEF Groupe, trading as TS Tech Nickel; the date of the sale was not found."
+
+sector = "Metal"
+products = ["Electroless nickel plating", "Hard chrome plating", "Salt-bath nitriding"]
+naics = "332813"
+
+parent = "HEF Groupe"
+description = "Electroless nickel and hard chrome plating and salt-bath nitriding."
+
+source = "EPA Toxics Release Inventory 2024 or RCRA Biennial Report 2023, checked against company websites, state notices, job postings and news"
+updated = "2026-11-18"

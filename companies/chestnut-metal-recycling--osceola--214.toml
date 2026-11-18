@@ -1,0 +1,23 @@
+# Chestnut Metal Recycling
+# Added by hand as a recycler (resource provider) from public sources; see verified_note.
+
+name = "Chestnut Metal Recycling"
+kind = "company"
+city = "Osceola"
+state = "IN"
+address = "214 N Chestnut Street, Osceola, IN 46561"
+lat = 41.66498
+lon = -86.07181
+website = "https://chestnutmetalrecycling.com"
+verified = "2026-11-18"
+verified_note = "The company's website (2026) gives a yard at 214 N Chestnut Street, Osceola, with drop-off hours. Source: https://chestnutmetalrecycling.com"
+
+sector = "Recycling & recovery"
+products = ["Scrap metal recycling", "Vehicle recycling"]
+recovers = ["ferrous scrap", "nonferrous scrap", "vehicles"]
+naics = "423930"
+
+description = "Scrap metal yard with drop-off and pickup; also takes vehicles."
+
+source = "Public sources: company websites, state agency lists (IDEM, Michigan EGLE), city records, EPA ECHO and local news"
+updated = "2026-11-18"

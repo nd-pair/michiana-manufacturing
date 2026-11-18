@@ -1,0 +1,22 @@
+# ChromaSource
+# Added by hand from EPA's Toxics Release Inventory / RCRA Biennial Report and a dated public source; see verified_note.
+
+name = "ChromaSource"
+kind = "company"
+city = "Columbia City"
+state = "IN"
+address = "2433 South County Road 600 East, Columbia City, IN 46725"
+lat = 41.12733
+lon = -85.37642
+website = "https://www.chromasource.com"
+verified = "2026-11-18"
+verified_note = "EPA inspected ChromaSource at this address in April 2025 (ECHO), and its website is current (2026); EPA's 2023 RCRA Biennial Report lists the plant here. Source: https://www.chromasource.com"
+
+sector = "Wood, paper & furniture"
+products = ["Paint color cards", "Fan decks", "Color strips"]
+naics = "322299"
+
+description = "Prints paint color cards, fan decks and color strips for paint makers."
+
+source = "EPA Toxics Release Inventory 2024 or RCRA Biennial Report 2023, checked against company websites, state notices, job postings and news"
+updated = "2026-11-18"
