@@ -366,3 +366,6 @@ main.site-content:has(.mm-band){padding-top:0}
 .mm-nogl p{max-width:420px;margin:0}
 /* the theme's page grid sizes to its widest content; let the map page shrink to the screen instead */
 main.site-content:has(.mm-band),.page-secondary.full-width:has(> .mm-band),.mm-band{min-width:0;max-width:100%}
+.mm-crit{display:inline-block;margin-left:4px;padding:0 5px;border:1px solid var(--line,currentColor);border-radius:8px;font-size:10px;letter-spacing:.04em;color:var(--fg-2)}
+.mm-site ul{margin:6px 0 6px 18px;padding:0}
+.mm-site li{margin:3px 0}
