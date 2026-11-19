@@ -26,3 +26,9 @@ description = "Parts Packaging. NAICS 326199: all other plastics product manufac
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "yes"
+job_shop = true
+end_markets = ["medical", "automotive", "retail & commercial"]
+variety_source = ["https://fapcoinc.com", "https://fapcoinc.com/capabilities-types/tier-one-automotive-parts-fulfillment/index.html"]
+variety_checked = "2026-11-18"

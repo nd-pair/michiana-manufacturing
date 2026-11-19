@@ -25,3 +25,8 @@ description = "Broadcast, Microwave & Cellular Communication Towers. NAICS 33231
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+end_markets = ["energy & utilities", "agriculture", "electronics & telecom", "construction & building products"]
+variety_scope = "company"
+variety_source = ["https://valmont.com", "https://valmont.com/our-brands"]
+variety_checked = "2026-11-18"

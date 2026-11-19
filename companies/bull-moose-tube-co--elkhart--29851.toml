@@ -25,3 +25,10 @@ description = "Electric Welded Steel Tubing. NAICS 331210: iron and steel pipe a
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "mixed"
+job_shop = false
+product_lines = 4
+end_markets = ["construction & building products", "energy & utilities", "furniture & housing", "heavy truck & trailer"]
+variety_source = ["https://www.bullmoosetube.com/company/about-us/", "https://www.bullmoosetube.com/products/mechanical-steel-tube/", "https://www.bullmoosetube.com/products/pipe-pile/"]
+variety_checked = "2026-11-18"

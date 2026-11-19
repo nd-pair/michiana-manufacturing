@@ -29,3 +29,8 @@ description = "Finishes light-gauge nickel alloy strip: cold rolling, annealing 
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-18"
+
+end_markets = ["aerospace & defense", "automotive", "chemicals & plastics", "electronics & telecom", "marine", "energy & utilities"]
+variety_scope = "company"
+variety_source = ["https://www.specialmetals.com/", "https://www.specialmetals.com/markets/"]
+variety_checked = "2026-11-18"

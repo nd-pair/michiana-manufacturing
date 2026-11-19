@@ -26,3 +26,9 @@ description = "Jigs, Fixtures, Gages, Dies, Special Machines & Contract Machinin
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "yes"
+job_shop = true
+end_markets = ["aerospace & defense", "agriculture", "construction & building products", "automotive", "industrial machinery & equipment"]
+variety_source = ["https://superiortd.com/about-us.html", "https://superiortd.com/superior-engineering.html"]
+variety_checked = "2026-11-18"

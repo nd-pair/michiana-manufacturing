@@ -26,3 +26,9 @@ description = "Foam Cushioning. NAICS 326140: polystyrene foam product manufactu
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "mixed"
+job_shop = true
+end_markets = ["furniture & housing", "RV", "marine", "medical", "packaging", "consumer products", "retail & commercial", "electronics & telecom"]
+variety_source = ["https://www.foamcraftinc.com/markets", "https://www.foamcraftinc.com/our-brands"]
+variety_checked = "2026-11-18"

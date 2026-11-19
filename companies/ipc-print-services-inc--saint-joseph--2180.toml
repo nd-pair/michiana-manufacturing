@@ -29,3 +29,8 @@ description = "Catalog & Magazine Printing. NAICS 323111: commercial printing (e
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-12"
+
+made_to_order = "yes"
+end_markets = ["printing & publishing"]
+variety_source = ["https://www.walsworth.com", "https://www.walsworth.com/hobby-building-manufacturing"]
+variety_checked = "2026-11-18"

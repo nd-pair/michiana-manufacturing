@@ -26,3 +26,9 @@ description = "Conveyors, Tumblers, Steel Fabrication & Industrial Machinery. NA
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "mixed"
+job_shop = true
+end_markets = ["food & beverage"]
+variety_source = ["http://www.itequipment.com/", "http://www.itequipment.com/custom-fabricating.html"]
+variety_checked = "2026-11-18"

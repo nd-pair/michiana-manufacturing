@@ -26,3 +26,10 @@ description = "Trailer & Truck Parts. NAICS 336212: truck trailer manufacturing.
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "mixed"
+job_shop = true
+product_lines = 10
+end_markets = ["heavy truck & trailer", "RV", "marine"]
+variety_source = ["https://www.kampco.com/"]
+variety_checked = "2026-11-18"

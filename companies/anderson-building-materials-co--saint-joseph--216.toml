@@ -25,3 +25,10 @@ description = "Cantilever Racks, Structural Steel Fabrication, Metal Processing 
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "mixed"
+job_shop = true
+product_lines = 3
+end_markets = ["construction & building products", "industrial machinery & equipment"]
+variety_source = ["http://www.abmrack.com/", "http://www.abmrack.com/contract-manufacturing/"]
+variety_checked = "2026-11-18"

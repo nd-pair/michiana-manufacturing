@@ -27,3 +27,9 @@ description = "Housing Transport Equipment. NAICS 321991: manufactured home (mob
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "mixed"
+job_shop = false
+end_markets = ["heavy truck & trailer"]
+variety_source = ["https://www.bgtruck.com/", "https://www.bgtruck.com/catalog/"]
+variety_checked = "2026-11-18"

@@ -25,3 +25,9 @@ description = "Rigid Paper Boxes, Folding Cartons & Game Boards. NAICS 322219: o
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "yes"
+product_lines = 4
+end_markets = ["medical", "consumer products", "food & beverage", "automotive"]
+variety_source = ["https://colbertpkg.com", "https://colbertpkg.com/consumer-goods-solution/"]
+variety_checked = "2026-11-18"

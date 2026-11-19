@@ -26,3 +26,9 @@ description = "Automotive & Industrial Automation Equipment. NAICS 333248: all o
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "yes"
+job_shop = true
+end_markets = ["automotive", "consumer products", "electronics & telecom", "medical"]
+variety_source = ["https://edgewaterautomation.com/markets/", "https://edgewaterautomation.com/about-us/", "https://edgewaterautomation.com/contractmfg/"]
+variety_checked = "2026-11-18"

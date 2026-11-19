@@ -27,3 +27,8 @@ description = "Non-Abrasive & Abrasive Finishing Equipment, Supplies & Plastic B
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+job_shop = false
+end_markets = ["electronics & telecom", "medical", "aerospace & defense", "automotive", "chemicals & plastics"]
+variety_source = ["https://maxiblast.com"]
+variety_checked = "2026-11-18"

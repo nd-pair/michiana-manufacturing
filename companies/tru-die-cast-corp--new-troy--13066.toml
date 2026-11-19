@@ -26,3 +26,7 @@ description = "Zinc & Aluminum Die Castings. NAICS 331523: nonferrous metal die-
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+end_markets = ["electronics & telecom", "furniture & housing", "aerospace & defense"]
+variety_source = ["https://trudiecast.com/aboutus/"]
+variety_checked = "2026-11-18"

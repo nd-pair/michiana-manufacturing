@@ -26,3 +26,7 @@ description = "Wastewater Vacuum Collection Systems. NAICS 333310: commercial an
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+end_markets = ["energy & utilities", "rail & transit"]
+variety_source = ["https://www.airvac.com/en/", "https://www.airvac.com/en/markets/railway-solutions"]
+variety_checked = "2026-11-18"

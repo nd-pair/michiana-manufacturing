@@ -25,3 +25,9 @@ description = "Modular Homes. NAICS 321991: manufactured home (mobile home) manu
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "no"
+job_shop = false
+end_markets = ["furniture & housing"]
+variety_source = ["https://heckamanhomes.com"]
+variety_checked = "2026-11-18"

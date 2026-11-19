@@ -26,3 +26,9 @@ description = "Telecommunication & Industrial De-Icing Equipment, Sensors & Auto
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "mixed"
+product_lines = 3
+end_markets = ["electronics & telecom", "automotive"]
+variety_source = ["https://rti-products.com"]
+variety_checked = "2026-11-18"

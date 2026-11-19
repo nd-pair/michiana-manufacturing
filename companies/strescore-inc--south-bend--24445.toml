@@ -26,3 +26,10 @@ description = "Precast Concrete Products. NAICS 327390: other concrete product m
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "mixed"
+job_shop = false
+product_lines = 1
+end_markets = ["construction & building products"]
+variety_source = ["https://strescore.com", "https://strescore.com/products-services/engineering-estimating/"]
+variety_checked = "2026-11-18"

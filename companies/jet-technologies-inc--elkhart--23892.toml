@@ -26,3 +26,9 @@ description = "Plastic Fabrication. NAICS 326199: all other plastics product man
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "yes"
+job_shop = true
+end_markets = ["marine", "rail & transit", "RV", "furniture & housing"]
+variety_source = ["https://jettechinc.com", "https://jettechinc.com/drape-forming-services/"]
+variety_checked = "2026-11-18"

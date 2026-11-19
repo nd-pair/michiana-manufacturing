@@ -29,3 +29,9 @@ description = "Rotary & Static Phase Converters. NAICS 335312: motor and generat
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "mixed"
+job_shop = false
+end_markets = ["marine", "medical", "energy & utilities", "construction & building products", "electronics & telecom", "aerospace & defense", "rail & transit"]
+variety_source = ["https://kayind.com", "https://kayind.com/phase-converter-services/"]
+variety_checked = "2026-11-18"

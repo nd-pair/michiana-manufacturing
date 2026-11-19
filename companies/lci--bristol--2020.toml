@@ -25,3 +25,8 @@ description = "NAICS 327215: glass product manufacturing made of purchased glass
 
 source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
 updated = "2026-11-13"
+
+end_markets = ["RV", "marine", "heavy truck & trailer", "automotive"]
+variety_scope = "company"
+variety_source = ["https://corporate.lippert.com/about/locations/us/in/bristol/lippert-119a"]
+variety_checked = "2026-11-18"

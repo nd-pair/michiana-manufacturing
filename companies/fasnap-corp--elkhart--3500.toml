@@ -27,3 +27,8 @@ description = "Snap, Specialty Textile & Plastic Molded Fasteners, Webbing & Hoo
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "mixed"
+end_markets = ["marine", "aerospace & defense"]
+variety_source = ["https://fasnap.com", "https://fasnap.com/manufacturing-assembly-services"]
+variety_checked = "2026-11-18"

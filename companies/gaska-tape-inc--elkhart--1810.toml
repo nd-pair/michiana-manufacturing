@@ -26,3 +26,8 @@ description = "Industrial Foam & Polyvinyl Tapes. NAICS 322220: paper bag and co
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "mixed"
+end_markets = ["automotive", "construction & building products", "industrial machinery & equipment", "medical"]
+variety_source = ["https://www.gaska.com/", "https://www.gaska.com/markets/"]
+variety_checked = "2026-11-18"

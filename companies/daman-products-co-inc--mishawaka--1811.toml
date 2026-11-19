@@ -27,3 +27,8 @@ description = "Hydraulic Valve Manifolds, Adapters & Cover Plates. NAICS 333995:
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "mixed"
+end_markets = ["construction & building products", "industrial machinery & equipment", "agriculture", "energy & utilities", "aerospace & defense", "marine", "rail & transit", "food & beverage", "primary metals", "chemicals & plastics", "heavy truck & trailer"]
+variety_source = ["https://www.daman.com/our-markets", "https://www.daman.com/custom-products"]
+variety_checked = "2026-11-18"

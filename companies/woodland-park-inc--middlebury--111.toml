@@ -25,3 +25,9 @@ description = "Recreational Park Trailers & Cabins. NAICS 336212: truck trailer 
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "mixed"
+job_shop = false
+end_markets = ["RV"]
+variety_source = ["https://woodland-park.com"]
+variety_checked = "2026-11-18"

@@ -20,3 +20,8 @@ description = "Fruit preparations and fillings for food makers; opened a popping
 
 source = "EPA Toxics Release Inventory 2024 or RCRA Biennial Report 2023, checked against company websites, state notices, job postings and news"
 updated = "2026-11-18"
+
+end_markets = ["food & beverage"]
+variety_scope = "company"
+variety_source = ["https://www.zentis.com"]
+variety_checked = "2026-11-18"

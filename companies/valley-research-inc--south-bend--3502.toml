@@ -27,3 +27,8 @@ description = "Food Enzymes. NAICS 325199: all other basic organic chemical manu
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-12"
+
+end_markets = ["food & beverage", "consumer products", "medical", "agriculture"]
+variety_scope = "company"
+variety_source = ["https://www.dsm-firmenich.com/en/home.html"]
+variety_checked = "2026-11-18"

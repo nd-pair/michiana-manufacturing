@@ -26,3 +26,9 @@ description = "Equipment Warning & Thermal Transfer Labels, Adhesive Letters & N
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "mixed"
+job_shop = false
+product_lines = 10
+variety_source = ["https://strancoinc.com", "https://strancoinc.com/custom-solutions/"]
+variety_checked = "2026-11-18"

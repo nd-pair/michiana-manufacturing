@@ -26,3 +26,9 @@ description = "Remote Control Panels & Devices, Including Radio Frequency & Infr
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "mixed"
+job_shop = true
+end_markets = ["RV", "heavy truck & trailer"]
+variety_source = ["https://www.touchtronics.com/"]
+variety_checked = "2026-11-18"

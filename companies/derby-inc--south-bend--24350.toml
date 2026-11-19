@@ -28,3 +28,9 @@ description = "Medical Carrying Cases. NAICS 326199: all other plastics product 
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "mixed"
+product_lines = 4
+end_markets = ["medical"]
+variety_source = ["https://www.derbyindustries.com", "https://www.derbyindustries.com/ecommerce/products.cfm?item=Behavioral-Health-Mattresses-c98&CFID=db680ab4-8623-4a2c-aafb-e90188f0018d&CFTOKEN=0"]
+variety_checked = "2026-11-18"

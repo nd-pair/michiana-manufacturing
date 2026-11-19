@@ -25,3 +25,10 @@ description = "Corporate Headquarters & Poultry Processing. NAICS 311615: poultr
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "no"
+job_shop = false
+product_lines = 7
+end_markets = ["food & beverage"]
+variety_source = ["https://www.mapleleaffarms.com/"]
+variety_checked = "2026-11-18"

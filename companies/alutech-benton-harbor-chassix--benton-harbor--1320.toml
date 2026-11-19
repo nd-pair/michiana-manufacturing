@@ -24,3 +24,9 @@ description = "NAICS 336330: motor vehicle steering and suspension components (e
 
 source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
 updated = "2026-11-13"
+
+made_to_order = "yes"
+end_markets = ["automotive", "heavy truck & trailer"]
+variety_scope = "company"
+variety_source = ["https://www.aludyne.com/products/", "https://www.aludyne.com/products/chassis"]
+variety_checked = "2026-11-18"

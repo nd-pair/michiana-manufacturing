@@ -25,3 +25,9 @@ description = "NAICS 326191: bathtubs, plastics, manufacturing."
 
 source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
 updated = "2026-11-13"
+
+made_to_order = "no"
+job_shop = false
+product_lines = 4
+variety_source = ["https://oasisbath.com/"]
+variety_checked = "2026-11-18"

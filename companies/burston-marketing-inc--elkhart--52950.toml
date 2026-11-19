@@ -26,3 +26,8 @@ description = "Textile Embroidery. NAICS 314999: all other miscellaneous textile
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "mixed"
+product_lines = 3
+variety_source = ["https://burston.com"]
+variety_checked = "2026-11-18"

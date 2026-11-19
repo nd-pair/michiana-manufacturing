@@ -26,3 +26,9 @@ description = "Mobile Audio & Video Equipment, Including Stereos, Speakers, Lcd 
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+job_shop = false
+product_lines = 6
+end_markets = ["RV", "marine", "agriculture", "construction & building products", "heavy truck & trailer"]
+variety_source = ["https://asaelectronics.com"]
+variety_checked = "2026-11-18"

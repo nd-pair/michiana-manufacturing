@@ -26,3 +26,9 @@ description = "Industrial Prototypes & General Machining Job Shop. NAICS 333514:
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "yes"
+job_shop = true
+end_markets = ["automotive", "energy & utilities", "rail & transit", "aerospace & defense"]
+variety_source = ["https://www.vickerseng.com/", "https://www.vickerseng.com/about/"]
+variety_checked = "2026-11-18"

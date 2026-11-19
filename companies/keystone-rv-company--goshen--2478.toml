@@ -24,3 +24,10 @@ description = "NAICS 336214: rv manufacturing."
 
 source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
 updated = "2026-11-14"
+
+made_to_order = "no"
+job_shop = false
+product_lines = 18
+end_markets = ["RV"]
+variety_source = ["https://www.keystonerv.com/", "https://www.keystonerv.com/product-lines"]
+variety_checked = "2026-11-18"

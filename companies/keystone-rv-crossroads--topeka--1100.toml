@@ -22,3 +22,10 @@ description = "NAICS 336214: rv manufacturing."
 
 source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
 updated = "2026-11-13"
+
+made_to_order = "no"
+job_shop = false
+product_lines = 3
+end_markets = ["RV"]
+variety_source = ["https://www.thorindustries.com/thor-companies/crossroads"]
+variety_checked = "2026-11-18"

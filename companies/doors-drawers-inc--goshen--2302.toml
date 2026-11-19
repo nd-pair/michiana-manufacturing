@@ -26,3 +26,8 @@ description = "Kitchen Cabinets & Wooden Products. NAICS 337110: wood kitchen ca
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "yes"
+end_markets = ["furniture & housing"]
+variety_source = ["https://doorsanddrawersinc.com/about-doors-drawers/", "https://doorsanddrawersinc.com/cabinet-refacing-services/"]
+variety_checked = "2026-11-18"

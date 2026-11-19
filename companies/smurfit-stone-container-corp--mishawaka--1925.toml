@@ -26,3 +26,8 @@ description = "NAICS 322211: corrugated and solid box manufacturing."
 
 source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor); the earlier record at this address came from HIFLD"
 updated = "2026-11-13"
+
+end_markets = ["food & beverage", "consumer products", "medical", "automotive", "construction & building products", "chemicals & plastics", "industrial machinery & equipment", "furniture & housing", "electronics & telecom", "retail & commercial"]
+variety_scope = "company"
+variety_source = ["https://www.smurfitwestrock.com/locations"]
+variety_checked = "2026-11-18"

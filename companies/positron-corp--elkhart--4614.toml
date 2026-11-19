@@ -26,3 +26,7 @@ description = "Automotive Switch & Instrument Panels. NAICS 336390: other motor 
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "yes"
+variety_source = ["https://www.positroncorp.com/"]
+variety_checked = "2026-11-18"

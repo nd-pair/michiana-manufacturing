@@ -27,3 +27,8 @@ description = "Van Conversions & Luxury Van Conversions. NAICS 336213: motor hom
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "mixed"
+job_shop = false
+variety_source = ["https://www.explorervan.com/", "https://www.explorervan.com/build/Design%20Your%20Van/"]
+variety_checked = "2026-11-18"

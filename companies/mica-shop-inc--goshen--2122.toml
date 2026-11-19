@@ -26,3 +26,8 @@ description = "Plastic Laminated Casework & Countertops. NAICS 337110: wood kitc
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "mixed"
+end_markets = ["RV", "furniture & housing", "construction & building products", "heavy truck & trailer", "retail & commercial"]
+variety_source = ["https://micashop.com"]
+variety_checked = "2026-11-18"

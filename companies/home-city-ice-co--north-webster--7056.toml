@@ -26,3 +26,9 @@ description = "Ice. NAICS 312113: ice manufacturing."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "no"
+job_shop = false
+end_markets = ["retail & commercial", "construction & building products"]
+variety_source = ["https://www.homecityice.com/", "https://www.homecityice.com/new-customers/"]
+variety_checked = "2026-11-18"

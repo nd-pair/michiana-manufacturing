@@ -26,3 +26,9 @@ description = "Mattresses & Box Springs. NAICS 337122: nonupholstered wood house
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+job_shop = false
+product_lines = 6
+end_markets = ["RV", "heavy truck & trailer", "retail & commercial"]
+variety_source = ["https://elkhartbedding.com", "https://elkhartbedding.com/custom-sleep-products"]
+variety_checked = "2026-11-18"

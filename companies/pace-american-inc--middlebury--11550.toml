@@ -26,3 +26,10 @@ description = "NAICS 336212: truck trailer manufacturing."
 
 source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor); the earlier record at this address came from HIFLD"
 updated = "2026-11-13"
+
+made_to_order = "no"
+job_shop = false
+product_lines = 5
+end_markets = ["heavy truck & trailer"]
+variety_source = ["https://paceamerican.com", "https://paceamerican.com/product-category/cargo-trailers/"]
+variety_checked = "2026-11-18"

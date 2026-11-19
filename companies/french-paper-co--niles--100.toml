@@ -25,3 +25,10 @@ description = "Paper. NAICS 322120: paper mills."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "mixed"
+job_shop = true
+product_lines = 6
+end_markets = ["printing & publishing", "packaging"]
+variety_source = ["https://www.frenchpaper.com/", "https://www.frenchpaper.com/pages/custom-manufacturing", "https://www.frenchpaper.com/pages/about-french-paper"]
+variety_checked = "2026-11-18"

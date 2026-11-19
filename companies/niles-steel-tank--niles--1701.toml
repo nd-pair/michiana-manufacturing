@@ -26,3 +26,10 @@ description = "Steel Tank & Pressure Vessel Fabrication. NAICS 332312: fabricate
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "mixed"
+job_shop = false
+product_lines = 8
+end_markets = ["automotive", "food & beverage", "medical", "energy & utilities", "aerospace & defense", "chemicals & plastics", "industrial machinery & equipment"]
+variety_source = ["https://www.nilesst.com/", "https://www.nilesst.com/nst-capabilities/"]
+variety_checked = "2026-11-18"

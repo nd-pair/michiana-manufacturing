@@ -26,3 +26,8 @@ description = "Fiberglass Tubs & Showers. NAICS 327993: mineral wool manufacturi
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+job_shop = false
+product_lines = 8
+variety_source = ["https://maax.com", "https://maax.com/bath-shower-solutions"]
+variety_checked = "2026-11-18"

@@ -26,3 +26,9 @@ description = "Molded Rubber Products & Rubber Assemblies. NAICS 326299: all oth
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "yes"
+job_shop = true
+end_markets = ["industrial machinery & equipment", "agriculture", "retail & commercial", "consumer products", "construction & building products"]
+variety_source = ["https://sbmm.com"]
+variety_checked = "2026-11-18"

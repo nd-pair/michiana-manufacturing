@@ -25,3 +25,9 @@ description = "Corporate Headquarters & Corrugated Materials, Point-Of-Purchase 
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "mixed"
+job_shop = false
+end_markets = ["packaging"]
+variety_source = ["https://www.welchpkg.com/", "https://www.welchpkg.com/industrial-packaging"]
+variety_checked = "2026-11-18"

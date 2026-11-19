@@ -24,3 +24,10 @@ description = "NAICS 336214: travel trailers, recreational, manufacturing."
 
 source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
 updated = "2026-11-13"
+
+made_to_order = "no"
+job_shop = false
+product_lines = 6
+end_markets = ["RV"]
+variety_source = ["https://heartlandrvs.com"]
+variety_checked = "2026-11-18"

@@ -25,3 +25,9 @@ description = "Full & Semi-Custom Cabinetry. NAICS 321999: all other miscellaneo
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "yes"
+job_shop = false
+end_markets = ["furniture & housing"]
+variety_source = ["https://www.bremtown.com/"]
+variety_checked = "2026-11-18"

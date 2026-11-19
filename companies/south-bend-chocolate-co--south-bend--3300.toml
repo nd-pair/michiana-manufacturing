@@ -26,3 +26,8 @@ description = "Chocolate Candies. NAICS 311352: confectionery manufacturing from
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "no"
+end_markets = ["food & beverage"]
+variety_source = ["https://www.sbchocolate.com/"]
+variety_checked = "2026-11-18"

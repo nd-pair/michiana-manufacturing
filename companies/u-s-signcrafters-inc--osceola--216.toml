@@ -26,3 +26,8 @@ description = "Interior & Exterior Signs. NAICS 339950: sign manufacturing."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "yes"
+end_markets = ["retail & commercial"]
+variety_source = ["https://ussigncrafters.com", "https://ussigncrafters.com/about-signcrafters/"]
+variety_checked = "2026-11-18"

@@ -25,3 +25,8 @@ description = "PVC & Pp Cast Film. NAICS 326112: plastics packaging film and she
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+end_markets = ["automotive", "medical", "construction & building products", "furniture & housing", "marine"]
+variety_scope = "company"
+variety_source = ["https://www.renolit.com/en/", "https://www.renolit.com/en/company/market-units"]
+variety_checked = "2026-11-18"

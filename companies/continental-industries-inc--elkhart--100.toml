@@ -26,3 +26,10 @@ description = "Floor Register, Return Air Grills & Vents. NAICS 332119: metal cr
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "no"
+job_shop = false
+product_lines = 3
+end_markets = ["furniture & housing", "RV"]
+variety_source = ["https://www.continentalindustries.com/GRD/solutions", "https://www.continentalindustries.com/"]
+variety_checked = "2026-11-18"

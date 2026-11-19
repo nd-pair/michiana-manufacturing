@@ -26,3 +26,10 @@ description = "Switches, Including Wire Harnesses & Light Socket Assemblies for 
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "mixed"
+job_shop = true
+product_lines = 10
+end_markets = ["electronics & telecom", "energy & utilities", "industrial machinery & equipment", "consumer products"]
+variety_source = ["https://www.statetool.com/", "https://www.statetool.com/products/"]
+variety_checked = "2026-11-18"

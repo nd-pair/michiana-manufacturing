@@ -25,3 +25,9 @@ description = "Gray & Ductile Iron Castings & General Machining Job Shop. NAICS 
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "yes"
+job_shop = true
+end_markets = ["agriculture", "heavy truck & trailer", "construction & building products", "food & beverage", "industrial machinery & equipment", "rail & transit"]
+variety_source = ["https://plymouthfoundry.com/industries/", "https://plymouthfoundry.com/metal-foundry-services/added-value-custom-foundry-services/"]
+variety_checked = "2026-11-18"

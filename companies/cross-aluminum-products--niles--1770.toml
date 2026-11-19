@@ -26,3 +26,10 @@ description = "Aluminum Doors & Frames. NAICS 332321: metal window and door manu
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "mixed"
+job_shop = false
+product_lines = 4
+end_markets = ["construction & building products"]
+variety_source = ["https://www.crossaluminum.com/", "https://www.crossaluminum.com/products/"]
+variety_checked = "2026-11-18"

@@ -25,3 +25,9 @@ description = "Powder, Fluoropolymer & Electrocoatings. NAICS 332812: metal coat
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "yes"
+job_shop = true
+end_markets = ["automotive", "agriculture", "electronics & telecom", "aerospace & defense", "furniture & housing", "medical"]
+variety_source = ["https://freedomfinishing.com", "https://freedomfinishing.com/about/"]
+variety_checked = "2026-11-18"

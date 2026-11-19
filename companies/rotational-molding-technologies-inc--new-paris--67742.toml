@@ -26,3 +26,10 @@ description = "Rotational Molded Plastic Products. NAICS 333111: farm machinery 
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "mixed"
+job_shop = true
+product_lines = 6
+end_markets = ["marine", "agriculture", "construction & building products", "retail & commercial"]
+variety_source = ["https://www.romotechplastics.com", "https://www.romotechplastics.com/capabilities", "https://www.romotechplastics.com/industries/marine"]
+variety_checked = "2026-11-18"

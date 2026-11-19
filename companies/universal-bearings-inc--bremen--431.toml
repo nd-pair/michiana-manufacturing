@@ -25,3 +25,9 @@ description = "Loose Needle Roller Bearings. NAICS 332710: machine shops."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "mixed"
+product_lines = 3
+end_markets = ["automotive"]
+variety_source = ["https://www.univbrg.com/", "https://www.univbrg.com/industries/"]
+variety_checked = "2026-11-18"

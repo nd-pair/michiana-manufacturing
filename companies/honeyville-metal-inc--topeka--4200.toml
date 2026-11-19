@@ -26,3 +26,9 @@ description = "Metal Fabrication, Dust Collection/filtration Systems & Agricultu
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "mixed"
+job_shop = false
+end_markets = ["agriculture"]
+variety_source = ["https://www.honeyvillemetal.com/dust-collection-in-ag-applications", "https://www.honeyvillemetal.com/about-us"]
+variety_checked = "2026-11-18"

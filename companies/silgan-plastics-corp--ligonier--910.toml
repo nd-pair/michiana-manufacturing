@@ -25,3 +25,9 @@ description = "Plastic Bottles. NAICS 326160: plastics bottle manufacturing."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "mixed"
+end_markets = ["medical", "food & beverage", "consumer products", "agriculture", "automotive"]
+variety_scope = "company"
+variety_source = ["https://www.silganplastics.com/", "https://www.silganplastics.com/markets/industrial/", "https://www.silganplastics.com/product-solutions/bettix-measure-pour-hdpe-dosing-dispensing-bottles/"]
+variety_checked = "2026-11-18"

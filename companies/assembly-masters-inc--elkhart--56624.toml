@@ -26,3 +26,9 @@ description = "Wire Harnesses, Cable Assemblies, Bobbin Wound Coils, Air Coils, 
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "yes"
+job_shop = true
+end_markets = ["agriculture", "marine", "electronics & telecom", "industrial machinery & equipment", "rail & transit", "aerospace & defense", "medical", "construction & building products", "energy & utilities"]
+variety_source = ["https://www.assemblymasters.com/", "https://www.assemblymasters.com/about-us.cfm", "https://www.assemblymasters.com/contract-manufacturing.cfm"]
+variety_checked = "2026-11-18"

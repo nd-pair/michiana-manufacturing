@@ -24,3 +24,7 @@ description = "NAICS 321113: boards, wood, made from logs or bolts."
 
 source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
 updated = "2026-11-13"
+
+job_shop = false
+variety_source = ["https://pikelumber.com/about-us-2025/"]
+variety_checked = "2026-11-18"

@@ -26,3 +26,8 @@ description = "Thermoformed Plastic, Toe Protection Products & Aluminum & Steel 
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+job_shop = false
+product_lines = 6
+variety_source = ["https://osbornmfg.com"]
+variety_checked = "2026-11-18"

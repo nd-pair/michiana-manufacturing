@@ -25,3 +25,8 @@ description = "Custom Plastic Injection Molding. NAICS 333511: industrial mold m
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "yes"
+job_shop = true
+variety_source = ["https://tristarmolding.com"]
+variety_checked = "2026-11-18"

@@ -25,3 +25,9 @@ description = "Plastic Thermoforming, Tooling & Vinyl Molding. NAICS 326199: all
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "yes"
+job_shop = true
+end_markets = ["automotive", "heavy truck & trailer", "rail & transit", "agriculture", "medical", "marine", "RV", "retail & commercial"]
+variety_source = ["https://www.plasticcomponentsinc.com/industries", "https://www.plasticcomponentsinc.com/industries/transportation", "https://www.plasticcomponentsinc.com/"]
+variety_checked = "2026-11-18"

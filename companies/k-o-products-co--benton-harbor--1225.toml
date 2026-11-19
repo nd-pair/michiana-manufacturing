@@ -26,3 +26,9 @@ description = "Metal & Automotive Stampings & Electrical & Mechanical Assembly. 
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-12"
+
+made_to_order = "mixed"
+job_shop = true
+end_markets = ["automotive", "electronics & telecom", "construction & building products", "industrial machinery & equipment", "medical", "heavy truck & trailer"]
+variety_source = ["https://koproducts.com/industries.html", "https://koproducts.com/products.html"]
+variety_checked = "2026-11-18"

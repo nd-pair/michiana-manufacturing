@@ -26,3 +26,9 @@ description = "Kitchen, Dining Room & Office Furniture, Entertainment Centers & 
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-12"
+
+made_to_order = "yes"
+job_shop = false
+end_markets = ["furniture & housing"]
+variety_source = ["https://yoderkitchens.com", "https://yoderkitchens.com/services/"]
+variety_checked = "2026-11-18"

@@ -27,3 +27,9 @@ description = "Metal Fabrication & Communication Towers. NAICS 332999: all other
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "yes"
+product_lines = 4
+end_markets = ["energy & utilities", "electronics & telecom", "aerospace & defense"]
+variety_source = ["https://www.nelloinc.com/", "https://www.nelloinc.com/manufacturing"]
+variety_checked = "2026-11-18"

@@ -26,3 +26,9 @@ description = "Sandblasting. NAICS 332813: electroplating, plating, polishing, a
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "yes"
+job_shop = true
+end_markets = ["construction & building products", "heavy truck & trailer"]
+variety_source = ["https://www.stevereiffinc.com/", "https://www.stevereiffinc.com/industrial-equipment-truck-painting/"]
+variety_checked = "2026-11-18"

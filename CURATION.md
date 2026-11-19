@@ -106,3 +106,36 @@ reading of every rule: when in doubt, it records nothing.
 - Factual, plain sentences; no promotion, no speculation, no superlatives from press releases.
 - The timeline has no "announcement" or "WARN" categories; news changes the data, it is not
   listed as news.
+
+## Variety and end markets
+
+These fields describe how a manufacturer presents its own production today: how much of it is
+custom, short-run or many-variant, and which markets it sells into. They come only from the
+company's own website, never from directories, news or inference from the NAICS code, and they
+describe the firm now, not in any earlier year. Leave a field out when the site does not say; when
+in doubt, record nothing. `scripts/variety_summary.py` summarizes them by county in
+`data/variety.json`. The map does not show them.
+
+- `made_to_order`: `"yes"` when the site says the company builds to the customer's order, print or
+  specification (custom, engineered-to-order, build-to-print, or only contract work); `"no"` when it
+  offers a catalog of standard products or models (options listed on a model still count as
+  standard) and says nothing of custom work; `"mixed"` when it offers both.
+- `job_shop`: `true` when the site advertises contract manufacturing, job-shop, build-to-print,
+  short-run or prototype work for other firms; `false` only when the site describes the business
+  fully and offers nothing but its own products.
+- `product_lines`: an approximate whole number of distinct product lines or families the site offers
+  (families, not models or SKUs; for a brand house, its brands). Left out for a pure job shop or when
+  the site's range is unclear.
+- `end_markets`: the markets the site names as served, or shows customers in, using only the names in
+  `data/end_markets.toml` (add a name there first, with a one-line definition). Not inferred from
+  the products.
+- `variety_scope = "company"` when the website is that of a larger parent and describes the whole
+  company rather than this plant; without it the fields describe the business at this site.
+- `variety_source`: the page or pages the fields were read from (a list of URLs);
+  `variety_checked`: the date of the reading (`YYYY-MM-DD`).
+- A company without a `website` gets these fields only when its own website is found with
+  confidence (same name and an address in the region); the site then goes in `variety_source`.
+- A website that no longer belongs to the company (parked, for sale, another business) gives no
+  fields; it is a lead for the closure checks, not a closure.
+- Fetch politely: one page at a time per site, robots.txt respected, a generic user agent, no
+  personal details; a site that refuses automated access is skipped, not worked around.

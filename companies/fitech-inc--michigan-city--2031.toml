@@ -25,3 +25,9 @@ description = "Screw Machine Products & Machining Job Shop. NAICS 332710: machin
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "yes"
+job_shop = true
+end_markets = ["electronics & telecom", "agriculture", "industrial machinery & equipment", "automotive", "aerospace & defense"]
+variety_source = ["https://www.ashleyward.com/", "https://www.ashleyward.com/industries", "https://www.ashleyward.com/services"]
+variety_checked = "2026-11-18"

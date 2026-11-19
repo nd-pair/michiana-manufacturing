@@ -23,3 +23,8 @@ description = "Copper rod and foundry plant supplying Essex Solutions' magnet wi
 
 source = "EPA Toxics Release Inventory 2024 or RCRA Biennial Report 2023, checked against company websites, state notices, job postings and news"
 updated = "2026-11-18"
+
+end_markets = ["energy & utilities", "automotive", "industrial machinery & equipment", "electronics & telecom"]
+variety_scope = "company"
+variety_source = ["https://www.essexsolutions.com/", "https://www.essexsolutions.com/industries", "https://www.essexsolutions.com/industry/energy"]
+variety_checked = "2026-11-18"

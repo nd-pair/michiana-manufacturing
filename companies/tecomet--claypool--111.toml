@@ -21,3 +21,9 @@ description = "Contract machining of orthopedic implants and instruments."
 
 source = "EPA Toxics Release Inventory 2024 or RCRA Biennial Report 2023, checked against company websites, state notices, job postings and news"
 updated = "2026-11-18"
+
+made_to_order = "mixed"
+job_shop = true
+end_markets = ["medical", "aerospace & defense"]
+variety_source = ["https://www.tecomet.com", "https://www.tecomet.com/medical-markets/specialty/shoulder"]
+variety_checked = "2026-11-18"

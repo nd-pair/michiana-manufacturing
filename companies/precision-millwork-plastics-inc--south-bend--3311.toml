@@ -26,3 +26,8 @@ description = "Store Fixtures & Cabinets. NAICS 337215: showcase, partition, she
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "yes"
+end_markets = ["retail & commercial"]
+variety_source = ["https://precisionmillwork.net/about", "https://precisionmillwork.net"]
+variety_checked = "2026-11-18"

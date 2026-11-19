@@ -26,3 +26,10 @@ description = "Recreational Vehicles & Park Models. NAICS 336213: motor home man
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "mixed"
+job_shop = false
+product_lines = 5
+end_markets = ["RV"]
+variety_source = ["https://kropfind.com"]
+variety_checked = "2026-11-18"

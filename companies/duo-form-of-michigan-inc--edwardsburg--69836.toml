@@ -25,3 +25,9 @@ description = "Plastic Bathtubs, Wall Surroundings & Shower Pans. NAICS 326191: 
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "mixed"
+job_shop = true
+end_markets = ["RV", "automotive", "heavy truck & trailer", "agriculture", "rail & transit", "aerospace & defense", "marine"]
+variety_source = ["https://www.duoformplastics.com/about-us/industries", "https://www.duoformplastics.com/capabilities", "https://www.duoformplastics.com/rv-aftermarket"]
+variety_checked = "2026-11-18"

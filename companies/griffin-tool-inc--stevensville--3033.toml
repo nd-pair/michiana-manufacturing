@@ -27,3 +27,9 @@ description = "Tool & Die & CNC Machining Job Shop. NAICS 333514: special die an
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "yes"
+job_shop = true
+end_markets = ["primary metals", "automotive", "agriculture", "RV", "furniture & housing"]
+variety_source = ["https://www.griffintool.com/", "https://www.griffintool.com/about"]
+variety_checked = "2026-11-18"

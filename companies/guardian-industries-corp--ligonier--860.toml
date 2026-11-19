@@ -26,3 +26,9 @@ description = "NAICS 327215: safety glass (including motor vehicle) made from pu
 
 source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor); the earlier record at this address came from HIFLD"
 updated = "2026-11-13"
+
+job_shop = false
+product_lines = 5
+end_markets = ["automotive"]
+variety_source = ["https://www.carlex.com/original-equipment-glass/products/", "https://www.carlex.com/facilities/ligonier-glass-fabrication/"]
+variety_checked = "2026-11-18"

@@ -26,3 +26,9 @@ description = "Prototypes & Precision Machined Parts. NAICS 333514: special die 
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "yes"
+job_shop = true
+end_markets = ["medical", "aerospace & defense"]
+variety_source = ["https://www.macktool.com/", "https://www.macktool.com/about-us", "https://www.macktool.com/services"]
+variety_checked = "2026-11-18"

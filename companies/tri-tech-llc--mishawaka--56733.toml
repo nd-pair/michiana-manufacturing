@@ -31,3 +31,11 @@ description = "Custom Solenoids, Electromagnetic Actuators, Encapsulated Coils &
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-12"
+
+made_to_order = "mixed"
+job_shop = false
+product_lines = 8
+end_markets = ["medical", "agriculture", "aerospace & defense", "food & beverage", "packaging", "rail & transit", "printing & publishing", "energy & utilities", "marine", "industrial machinery & equipment"]
+variety_scope = "company"
+variety_source = ["https://www.kendrion.com/en/", "https://www.kendrion.com/en/products-services/industrial-brakes"]
+variety_checked = "2026-11-18"

@@ -25,3 +25,7 @@ description = "Recreational Vehicles. NAICS 336213: motor home manufacturing."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+end_markets = ["RV"]
+variety_source = ["https://crossroadsrv.com/en"]
+variety_checked = "2026-11-18"

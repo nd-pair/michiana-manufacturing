@@ -26,3 +26,9 @@ description = "Investment Castings. NAICS 331512: steel investment foundries."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "yes"
+job_shop = true
+end_markets = ["aerospace & defense", "agriculture", "automotive", "medical", "marine"]
+variety_source = ["https://www.aerometals.com/casting-industries", "https://www.aerometals.com/"]
+variety_checked = "2026-11-18"

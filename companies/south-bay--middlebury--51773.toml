@@ -27,3 +27,10 @@ description = "Pontoon Boats. NAICS 336612: boat building."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-12"
+
+made_to_order = "no"
+job_shop = false
+product_lines = 5
+end_markets = ["marine"]
+variety_source = ["https://southbaypontoon.com"]
+variety_checked = "2026-11-18"

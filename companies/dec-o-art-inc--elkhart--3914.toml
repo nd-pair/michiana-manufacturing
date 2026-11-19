@@ -25,3 +25,9 @@ description = "Tags, Labels & Decals. NAICS 322230: stationery product manufactu
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "mixed"
+product_lines = 6
+end_markets = ["RV", "marine", "heavy truck & trailer", "furniture & housing"]
+variety_source = ["https://www.dec-o-art.com/", "https://www.dec-o-art.com/product-category/rv/"]
+variety_checked = "2026-11-18"

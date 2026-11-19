@@ -27,3 +27,8 @@ description = "Metal Roll Forming. NAICS 332114: custom roll forming."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "yes"
+job_shop = true
+variety_source = ["https://thinkferret.com"]
+variety_checked = "2026-11-18"

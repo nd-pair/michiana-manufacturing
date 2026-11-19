@@ -25,3 +25,10 @@ description = "Agricultural Feed. NAICS 311119: other animal food manufacturing.
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "no"
+job_shop = false
+product_lines = 21
+end_markets = ["agriculture", "consumer products"]
+variety_source = ["https://www.hubbardfeeds.com/", "https://www.hubbardfeeds.com/species/pet"]
+variety_checked = "2026-11-18"

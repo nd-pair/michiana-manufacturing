@@ -22,3 +22,9 @@ description = "Makes and distributes fastening technology for automotive, aerosp
 
 source = "Böllhoff locations page; Purdue MEP Made in Indiana directory; Böllhoff company history"
 updated = "2026-11-14"
+
+made_to_order = "mixed"
+job_shop = false
+end_markets = ["automotive", "aerospace & defense", "industrial machinery & equipment", "rail & transit", "electronics & telecom", "heavy truck & trailer", "medical", "energy & utilities", "construction & building products", "agriculture"]
+variety_source = ["https://www.boellhoff.com/us-en/", "https://www.boellhoff.com/us-en/industry-solutions/"]
+variety_checked = "2026-11-18"

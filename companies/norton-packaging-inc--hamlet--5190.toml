@@ -25,3 +25,9 @@ description = "Plastic Pails. NAICS 326199: all other plastics product manufactu
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "mixed"
+job_shop = false
+end_markets = ["food & beverage", "chemicals & plastics"]
+variety_source = ["https://www.nortonpackaging.com/industries/", "https://www.nortonpackaging.com/about/"]
+variety_checked = "2026-11-18"

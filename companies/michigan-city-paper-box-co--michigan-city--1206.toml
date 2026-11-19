@@ -26,3 +26,8 @@ description = "Rigid Set-Up Paperboard Jewelry & Mailing Boxes. NAICS 322219: ot
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "mixed"
+end_markets = ["packaging"]
+variety_source = ["https://buyabox.com", "https://buyabox.com/pages/products"]
+variety_checked = "2026-11-18"

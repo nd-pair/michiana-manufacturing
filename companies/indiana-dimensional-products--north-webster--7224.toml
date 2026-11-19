@@ -27,3 +27,8 @@ description = "Advertising & Display Dimensional Signs. NAICS 339950: sign manuf
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "yes"
+end_markets = ["retail & commercial", "construction & building products", "furniture & housing"]
+variety_source = ["https://idppromo.com", "https://idppromo.com/sample-presentation-products/"]
+variety_checked = "2026-11-18"

@@ -26,3 +26,9 @@ description = "Metal Fabrication. NAICS 332999: all other miscellaneous fabricat
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "no"
+job_shop = false
+end_markets = ["RV"]
+variety_source = ["https://ultra-fab.com", "https://ultra-fab.com/about-us/"]
+variety_checked = "2026-11-18"

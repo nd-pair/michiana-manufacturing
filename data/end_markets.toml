@@ -1,0 +1,84 @@
+# End markets: the fixed vocabulary for a company's `end_markets` list (see CURATION.md, "Variety and
+# end markets"). Every entry in a company file must be one of these names, spelled exactly. A market
+# goes on a company only when the company's own website names it as served or shows customers in it.
+# Add a market here first, with a one-line definition, before using it in a file.
+
+[[market]]
+name = "RV"
+definition = "Recreational vehicles: motorhomes, travel trailers, fifth wheels, camper vans, park models"
+
+[[market]]
+name = "marine"
+definition = "Boats, pontoons, yachts and their engines, trailers and fittings"
+
+[[market]]
+name = "automotive"
+definition = "Passenger cars and light trucks, their OEMs and tier suppliers, and the automotive aftermarket"
+
+[[market]]
+name = "heavy truck & trailer"
+definition = "Medium and heavy trucks, buses, cargo and utility trailers, specialty and emergency vehicles"
+
+[[market]]
+name = "aerospace & defense"
+definition = "Aircraft, space, military vehicles and equipment, government defense programs"
+
+[[market]]
+name = "medical"
+definition = "Medical devices, orthopedics, dental, pharmaceutical, laboratory and healthcare equipment"
+
+[[market]]
+name = "agriculture"
+definition = "Farm equipment, livestock, crop production, lawn and garden equipment"
+
+[[market]]
+name = "construction & building products"
+definition = "Commercial and residential construction, building materials, infrastructure, construction equipment"
+
+[[market]]
+name = "furniture & housing"
+definition = "Furniture, cabinets, fixtures, manufactured and modular housing, home furnishings"
+
+[[market]]
+name = "industrial machinery & equipment"
+definition = "Machine builders, factory equipment, material handling, hydraulics, tooling and general industrial OEMs"
+
+[[market]]
+name = "energy & utilities"
+definition = "Oil and gas, power generation, electric utilities, renewables, water and wastewater"
+
+[[market]]
+name = "electronics & telecom"
+definition = "Electronic equipment and components, computers, telecommunications, appliances"
+
+[[market]]
+name = "consumer products"
+definition = "Goods sold to households: sporting goods, toys, musical instruments, housewares, personal care"
+
+[[market]]
+name = "food & beverage"
+definition = "Food and beverage processors and products"
+
+[[market]]
+name = "packaging"
+definition = "Packaging makers and users: containers, labels, corrugated, packaging lines"
+
+[[market]]
+name = "rail & transit"
+definition = "Railroads, rail cars, mass transit"
+
+[[market]]
+name = "retail & commercial"
+definition = "Stores, displays, signage, restaurants, offices and hospitality fit-out"
+
+[[market]]
+name = "chemicals & plastics"
+definition = "Chemical, plastics and rubber processors as customers"
+
+[[market]]
+name = "primary metals"
+definition = "Steel mills, foundries, metal service centers and metal processors as customers"
+
+[[market]]
+name = "printing & publishing"
+definition = "Commercial printing, publishing and graphic arts"

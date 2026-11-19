@@ -25,3 +25,9 @@ description = "Powder Coating. NAICS 332812: metal coating, engraving (except je
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "yes"
+job_shop = true
+end_markets = ["agriculture", "automotive", "construction & building products", "aerospace & defense", "marine", "electronics & telecom", "heavy truck & trailer", "industrial machinery & equipment"]
+variety_source = ["https://www.winonapowder.com/industries-served", "https://www.winonapowder.com/"]
+variety_checked = "2026-11-18"

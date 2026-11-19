@@ -25,3 +25,10 @@ description = "Corporate Headquarters & Steel & Aluminum Framed Enclosed Cargo T
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "no"
+job_shop = false
+product_lines = 5
+end_markets = ["heavy truck & trailer"]
+variety_source = ["https://wellscargo.com", "https://wellscargo.com/company"]
+variety_checked = "2026-11-18"

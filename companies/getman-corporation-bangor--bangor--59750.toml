@@ -25,3 +25,9 @@ description = "NAICS 333131: underground mining machinery manufacturing."
 
 source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
 updated = "2026-11-13"
+
+made_to_order = "mixed"
+job_shop = false
+product_lines = 5
+variety_source = ["https://getman.com/"]
+variety_checked = "2026-11-18"

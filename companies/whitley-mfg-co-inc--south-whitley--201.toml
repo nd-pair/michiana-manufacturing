@@ -26,3 +26,9 @@ description = "Corporate Headquarters & Mobile Offices & Modular Buildings. NAIC
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "mixed"
+end_markets = ["construction & building products", "medical", "energy & utilities", "furniture & housing"]
+variety_scope = "company"
+variety_source = ["https://sunbeltmodular.com", "https://sunbeltmodular.com/about/sunbelt-companies/"]
+variety_checked = "2026-11-18"

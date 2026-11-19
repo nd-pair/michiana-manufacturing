@@ -116,6 +116,7 @@ Field by field:
 | `formerly`, `status_note` | no | A former name (still found by search) and a one-line note on ownership or status, both shown in the detail panel |
 | `removed`, `removed_reason` | no | Takes an entry off the map that should not be on it (duplicate, outside the region, not a manufacturer), keeping the file; set with `scripts/remove_company.py` |
 | `closed`, `closed_note`, `closed_source` | no | Date the site closed (`closed = 2009-11-04`, or `"2015"` when only the year is known), how we know, and a link. The entry is then left off the map |
+| `made_to_order`, `job_shop`, `product_lines`, `end_markets`, `variety_scope`, `variety_source`, `variety_checked` | no | How the company describes its own production: built to order or from a catalog, contract and job-shop work, number of product families, and end markets from [`data/end_markets.toml`](data/end_markets.toml), with the pages read and the date. Rules in CURATION.md, "Variety and end markets"; summarized by `scripts/variety_summary.py` into `data/variety.json`. Not shown on the map |
 
 **Closed companies.** Do not delete the file of a company that has shut down: the monthly HIFLD
 import would add the facility again, since HIFLD lags closures by years. Add `closed` with the date

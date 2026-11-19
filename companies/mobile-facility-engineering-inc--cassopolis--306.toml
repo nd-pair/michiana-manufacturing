@@ -25,3 +25,7 @@ description = "Modular Buildings, Including Press Boxes & Mobile Office Trailers
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+end_markets = ["medical"]
+variety_source = ["http://mfeinc.com"]
+variety_checked = "2026-11-18"

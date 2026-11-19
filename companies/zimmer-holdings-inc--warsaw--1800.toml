@@ -26,3 +26,9 @@ description = "Corporate Headquarters & Reconstructive & Spinal Implants & Traum
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+job_shop = false
+end_markets = ["medical"]
+variety_scope = "company"
+variety_source = ["https://www.zimmerbiomet.com/en"]
+variety_checked = "2026-11-18"

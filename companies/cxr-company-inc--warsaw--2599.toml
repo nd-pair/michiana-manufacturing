@@ -26,3 +26,7 @@ description = "Portable Industrial X-Ray Inspection Systems. NAICS 334517: irrad
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+end_markets = ["food & beverage", "automotive", "medical", "electronics & telecom", "consumer products"]
+variety_source = ["https://cxrcompany.com/industry-applications-for-x-ray-detection-services/", "https://cxrcompany.com"]
+variety_checked = "2026-11-18"

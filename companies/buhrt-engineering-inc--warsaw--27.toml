@@ -26,3 +26,9 @@ description = "Industrial Steel Fabrication. NAICS 331110: iron and steel mills 
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "yes"
+job_shop = true
+end_markets = ["agriculture", "primary metals", "energy & utilities", "printing & publishing"]
+variety_source = ["https://buhrt.com", "https://buhrt.com/services/production-welding/"]
+variety_checked = "2026-11-18"

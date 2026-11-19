@@ -26,3 +26,11 @@ description = "Ready-Mixed Concrete. NAICS 327320: ready-mix concrete manufactur
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "mixed"
+job_shop = false
+product_lines = 3
+end_markets = ["construction & building products"]
+variety_scope = "company"
+variety_source = ["https://ozinga.com", "https://ozinga.com/custom-solutions/"]
+variety_checked = "2026-11-18"

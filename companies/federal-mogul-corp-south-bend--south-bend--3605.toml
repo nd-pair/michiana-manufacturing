@@ -26,3 +26,8 @@ description = "Automotive Pistons. NAICS 336310: motor vehicle gasoline engine a
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+end_markets = ["automotive", "heavy truck & trailer", "marine", "rail & transit", "energy & utilities", "construction & building products", "agriculture"]
+variety_scope = "company"
+variety_source = ["https://www.tenneco.com", "https://www.tenneco.com/solutions/tenneco-industrial"]
+variety_checked = "2026-11-18"

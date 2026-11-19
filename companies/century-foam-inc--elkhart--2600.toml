@@ -26,3 +26,9 @@ description = "Foam Seating, Packaging, Novelties, Sound Absorption & Filtration
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "yes"
+job_shop = true
+end_markets = ["RV", "furniture & housing", "medical", "marine", "consumer products", "packaging", "aerospace & defense"]
+variety_source = ["https://centuryfoam.com/markets", "https://centuryfoam.com"]
+variety_checked = "2026-11-18"

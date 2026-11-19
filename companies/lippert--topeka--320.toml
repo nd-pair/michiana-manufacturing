@@ -24,3 +24,8 @@ description = "NAICS 337121: upholstered furniture, household-type, on frames of
 
 source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
 updated = "2026-11-14"
+
+end_markets = ["RV", "marine", "automotive", "construction & building products"]
+variety_scope = "company"
+variety_source = ["https://corporate.lippert.com/about/locations/us/in/topeka/"]
+variety_checked = "2026-11-18"

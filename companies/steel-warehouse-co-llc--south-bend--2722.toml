@@ -26,3 +26,8 @@ description = "Corporate Headquarters & Steel Fabrication, Tubing, Steel Picklin
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+end_markets = ["agriculture", "automotive", "construction & building products", "heavy truck & trailer", "industrial machinery & equipment"]
+variety_scope = "company"
+variety_source = ["https://www.steelwarehouse.com/industries/", "https://www.steelwarehouse.com/"]
+variety_checked = "2026-11-18"

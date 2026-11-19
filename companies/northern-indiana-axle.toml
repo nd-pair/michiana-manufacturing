@@ -27,3 +27,9 @@ description = "CNC machine shop (5-axis and 3-axis machining, large-scale millin
 
 source = "Company website; Nappanee Chamber of Commerce member directory; Towne Post (2020); MIDACO case study (2022)"
 updated = "2026-11-14"
+
+made_to_order = "yes"
+job_shop = true
+end_markets = ["agriculture", "RV", "heavy truck & trailer"]
+variety_source = ["https://www.niamachining.com/cnc-milling-services", "https://www.niamachining.com/cnc-turning-services"]
+variety_checked = "2026-11-18"

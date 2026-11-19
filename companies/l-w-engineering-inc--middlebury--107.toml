@@ -25,3 +25,9 @@ description = "Steel & Aluminum Fabrication. NAICS 332999: all other miscellaneo
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "yes"
+job_shop = true
+end_markets = ["RV", "furniture & housing", "marine", "medical", "consumer products", "heavy truck & trailer"]
+variety_source = ["https://lw-eng.com/products/", "https://lw-eng.com/about/"]
+variety_checked = "2026-11-18"

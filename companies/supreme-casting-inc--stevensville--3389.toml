@@ -25,3 +25,9 @@ description = "Automotive Castings. NAICS 331524: aluminum foundries (except die
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "yes"
+job_shop = true
+end_markets = ["heavy truck & trailer", "automotive", "medical", "furniture & housing", "electronics & telecom"]
+variety_source = ["https://supremecasting.com", "https://supremecasting.com/about-us/"]
+variety_checked = "2026-11-18"

@@ -26,3 +26,9 @@ description = "Fiberglass & Steel Tanks. NAICS 326199: all other plastics produc
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "yes"
+job_shop = true
+end_markets = ["chemicals & plastics", "primary metals", "rail & transit", "energy & utilities"]
+variety_source = ["https://abtrex.com", "https://abtrex.com/steel-industry/", "https://abtrex.com/railcar-industry/"]
+variety_checked = "2026-11-18"

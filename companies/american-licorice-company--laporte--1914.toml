@@ -25,3 +25,10 @@ description = "NAICS 311340: confectionery, nonchocolate, manufacturing."
 
 source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
 updated = "2026-11-14"
+
+made_to_order = "no"
+job_shop = false
+product_lines = 3
+end_markets = ["food & beverage"]
+variety_source = ["https://wholesale.americanlicorice.com/pages/our-story"]
+variety_checked = "2026-11-18"

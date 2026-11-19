@@ -26,3 +26,9 @@ description = "Paper Converting & Honeycombing Machinery. NAICS 333243: sawmill,
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "mixed"
+product_lines = 7
+end_markets = ["packaging"]
+variety_source = ["https://gtwenterprises.com", "https://gtwenterprises.com/about/"]
+variety_checked = "2026-11-18"

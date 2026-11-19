@@ -25,3 +25,9 @@ description = "Storage & Reclaim Systems for Hard-To-Handle Dry Bulk Materials &
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "yes"
+job_shop = false
+end_markets = ["agriculture", "food & beverage", "energy & utilities", "construction & building products", "chemicals & plastics"]
+variety_source = ["https://www.laidig.com/", "https://www.laidig.com/our_capability"]
+variety_checked = "2026-11-18"

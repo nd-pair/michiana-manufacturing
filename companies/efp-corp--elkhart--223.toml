@@ -26,3 +26,8 @@ description = "Corporate Headquarters & Polystyrene Packaging Insulation Pattern
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "mixed"
+end_markets = ["medical", "food & beverage", "electronics & telecom"]
+variety_source = ["https://www.efppackaging.com/about/", "https://www.efppackaging.com/temperature-solutions/"]
+variety_checked = "2026-11-18"

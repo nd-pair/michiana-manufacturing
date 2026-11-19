@@ -22,3 +22,8 @@ description = "Processes strip steel: annealing, cold reducing, edge conditionin
 
 source = "EPA Toxics Release Inventory 2024 or RCRA Biennial Report 2023, checked against company websites, state notices, job postings and news"
 updated = "2026-11-18"
+
+end_markets = ["automotive", "electronics & telecom", "agriculture", "construction & building products", "consumer products"]
+variety_scope = "company"
+variety_source = ["https://www.steeltechnologies.com/who-we-serve/", "https://www.steeltechnologies.com"]
+variety_checked = "2026-11-18"

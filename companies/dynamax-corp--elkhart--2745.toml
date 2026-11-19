@@ -26,3 +26,9 @@ description = "Motor Homes. NAICS 336213: motor home manufacturing."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "no"
+job_shop = false
+end_markets = ["RV"]
+variety_source = ["https://dynamaxcorp.com", "https://dynamaxcorp.com/our-company"]
+variety_checked = "2026-11-18"

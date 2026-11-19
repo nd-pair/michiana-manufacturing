@@ -27,3 +27,8 @@ description = "Wood Preserving. NAICS 321114: wood preservation."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "mixed"
+end_markets = ["construction & building products"]
+variety_source = ["https://midwesttimber.com", "https://midwesttimber.com/products-services/"]
+variety_checked = "2026-11-18"

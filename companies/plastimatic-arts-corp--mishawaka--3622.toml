@@ -25,3 +25,8 @@ description = "Plastic Screen Printing. NAICS 323113: commercial screen printing
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+job_shop = true
+end_markets = ["food & beverage", "agriculture"]
+variety_source = ["https://pacbannerworks.com"]
+variety_checked = "2026-11-18"

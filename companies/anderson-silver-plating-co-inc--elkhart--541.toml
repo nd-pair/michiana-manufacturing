@@ -26,3 +26,9 @@ description = "Metal, Electro, Gold, Silver, Nickel, Copper & Tin Plating. NAICS
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "yes"
+job_shop = true
+end_markets = ["consumer products", "aerospace & defense"]
+variety_source = ["https://andersonsilverplating.com", "https://andersonsilverplating.com/additional-services/"]
+variety_checked = "2026-11-18"

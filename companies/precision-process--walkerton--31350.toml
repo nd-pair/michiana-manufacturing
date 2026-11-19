@@ -27,3 +27,9 @@ description = "Foundry Cleaning Operation for Gray & Ductile Iron, Aluminum, Bro
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "yes"
+job_shop = true
+end_markets = ["rail & transit", "construction & building products", "heavy truck & trailer", "agriculture"]
+variety_source = ["https://www.hilerindustries.com/", "https://www.hilerindustries.com/capabilities/"]
+variety_checked = "2026-11-18"

@@ -26,3 +26,9 @@ description = "Plastic Injection Molding & Molds. NAICS 326199: all other plasti
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "yes"
+job_shop = true
+end_markets = ["automotive", "medical", "RV", "construction & building products", "aerospace & defense", "electronics & telecom"]
+variety_source = ["https://www.bamarplastics.com/", "https://www.bamarplastics.com/about"]
+variety_checked = "2026-11-18"

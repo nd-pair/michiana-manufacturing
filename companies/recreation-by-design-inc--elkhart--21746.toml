@@ -28,3 +28,10 @@ description = "Fifth Wheels, Park Models & Travel Trailers. NAICS 336214: travel
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "mixed"
+job_shop = false
+product_lines = 4
+end_markets = ["RV"]
+variety_source = ["https://recreationbydesign.us", "https://recreationbydesign.us/custom-units/"]
+variety_checked = "2026-11-18"

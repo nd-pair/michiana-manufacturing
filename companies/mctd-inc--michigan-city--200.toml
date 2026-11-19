@@ -26,3 +26,9 @@ description = "Custom Machinery, Including Controls, Tooling, Fixtures & Design.
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "yes"
+job_shop = true
+end_markets = ["industrial machinery & equipment", "aerospace & defense", "automotive", "medical"]
+variety_source = ["https://mctdinc.com", "https://mctdinc.com/solutions-builders/"]
+variety_checked = "2026-11-18"

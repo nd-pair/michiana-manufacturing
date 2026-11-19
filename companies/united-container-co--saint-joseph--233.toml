@@ -27,3 +27,9 @@ description = "Buys used corrugated boxes from businesses for reuse, and sells n
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-18"
 recovers = ["used corrugated boxes", "baled cardboard"]
+
+made_to_order = "mixed"
+product_lines = 6
+end_markets = ["packaging"]
+variety_source = ["https://unitedcontainer.com", "https://unitedcontainer.com/custom-shipping-boxes.html", "https://unitedcontainer.com/company/about-us"]
+variety_checked = "2026-11-18"

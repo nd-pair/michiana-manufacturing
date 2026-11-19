@@ -26,3 +26,9 @@ description = "Aircraft Components. NAICS 336413: other aircraft part and auxili
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "yes"
+job_shop = true
+end_markets = ["aerospace & defense"]
+variety_source = ["https://nilesprecision.com/about-us", "https://nilesprecision.com"]
+variety_checked = "2026-11-18"

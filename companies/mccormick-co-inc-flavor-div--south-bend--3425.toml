@@ -25,3 +25,10 @@ description = "Salad Dressings, Sauces, Ketchup & Jellies. NAICS 311941: mayonna
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "no"
+job_shop = false
+end_markets = ["food & beverage"]
+variety_scope = "company"
+variety_source = ["https://www.mccormick.com/"]
+variety_checked = "2026-11-18"

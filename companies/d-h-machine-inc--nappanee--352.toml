@@ -24,3 +24,9 @@ description = "NAICS 332999: skids, metal, manufacturing."
 
 source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
 updated = "2026-11-13"
+
+made_to_order = "yes"
+job_shop = true
+end_markets = ["agriculture", "RV", "marine", "heavy truck & trailer", "automotive", "industrial machinery & equipment", "construction & building products"]
+variety_source = ["https://www.dhmachinecorp.com/", "https://www.dhmachinecorp.com/industries"]
+variety_checked = "2026-11-18"

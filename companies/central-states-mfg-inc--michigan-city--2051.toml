@@ -27,3 +27,10 @@ description = "Steel Roofing & Siding. NAICS 331110: iron and steel mills and fe
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "mixed"
+job_shop = false
+product_lines = 4
+end_markets = ["construction & building products", "agriculture"]
+variety_source = ["https://centralstatesco.com", "https://centralstatesco.com/our-customers/contractors"]
+variety_checked = "2026-11-18"

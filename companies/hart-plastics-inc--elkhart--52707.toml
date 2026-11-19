@@ -26,3 +26,8 @@ description = "Vacuum Formed Plastic Products, Including Thermoforming for the R
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "yes"
+job_shop = true
+variety_source = ["https://hartplastics.com", "https://hartplastics.com/capabilities.html"]
+variety_checked = "2026-11-18"

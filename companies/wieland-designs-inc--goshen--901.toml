@@ -25,3 +25,9 @@ description = "Furniture & Components. NAICS 337122: nonupholstered wood househo
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "yes"
+job_shop = true
+end_markets = ["furniture & housing", "medical", "marine", "automotive", "retail & commercial"]
+variety_source = ["https://www.wielanddesigns.com/", "https://www.wielanddesigns.com/services/", "https://www.wielanddesigns.com/brands/"]
+variety_checked = "2026-11-18"

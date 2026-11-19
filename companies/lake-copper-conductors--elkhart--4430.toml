@@ -21,3 +21,10 @@ description = "Draws bare copper wire and conductors; a second building is at 49
 
 source = "EPA Toxics Release Inventory 2024 or RCRA Biennial Report 2023, checked against company websites, state notices, job postings and news"
 updated = "2026-11-18"
+
+made_to_order = "mixed"
+job_shop = false
+product_lines = 6
+end_markets = ["energy & utilities", "construction & building products", "primary metals", "rail & transit", "electronics & telecom", "automotive", "marine", "industrial machinery & equipment", "food & beverage"]
+variety_source = ["https://www.lakecable.com/sectors-we-serve", "https://www.lakecable.com", "https://www.lakecable.com/about-us"]
+variety_checked = "2026-11-18"

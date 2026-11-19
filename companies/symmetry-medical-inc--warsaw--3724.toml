@@ -29,3 +29,9 @@ description = "Orthopedic implants and surgical instruments (contract manufactur
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-18"
+
+made_to_order = "mixed"
+job_shop = true
+end_markets = ["medical", "aerospace & defense"]
+variety_source = ["https://www.tecomet.com", "https://www.tecomet.com/medical-markets/specialty/shoulder"]
+variety_checked = "2026-11-18"

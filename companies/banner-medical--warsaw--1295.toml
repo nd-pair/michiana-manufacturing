@@ -22,3 +22,7 @@ description = "Processes medical-grade titanium, cobalt-chrome and stainless ste
 
 source = "EPA Toxics Release Inventory 2024 or RCRA Biennial Report 2023, checked against company websites, state notices, job postings and news"
 updated = "2026-11-18"
+
+end_markets = ["medical"]
+variety_source = ["https://www.amcastle.com/banner-medical-innovations/"]
+variety_checked = "2026-11-18"

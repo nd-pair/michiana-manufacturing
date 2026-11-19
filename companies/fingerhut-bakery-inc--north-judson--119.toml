@@ -26,3 +26,8 @@ description = "Bakery Products. NAICS 311812: commercial bakeries."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-12"
+
+job_shop = false
+end_markets = ["food & beverage"]
+variety_source = ["https://bakerygifts.com"]
+variety_checked = "2026-11-18"

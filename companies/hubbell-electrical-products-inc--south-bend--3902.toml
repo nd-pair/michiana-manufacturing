@@ -25,3 +25,8 @@ description = "Electrical & Switch Boxes & Outlets. NAICS 327993: mineral wool m
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+end_markets = ["energy & utilities", "electronics & telecom", "medical"]
+variety_scope = "company"
+variety_source = ["https://www.hubbell.com/hubbell/en", "https://www.hubbell.com/hubbell/en/markets-power-utility", "https://www.hubbell.com/hubbell/en/markets-healthcare"]
+variety_checked = "2026-11-18"

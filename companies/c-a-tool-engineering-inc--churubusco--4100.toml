@@ -24,3 +24,9 @@ description = "NAICS 332710: machine shops."
 
 source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
 updated = "2026-11-13"
+
+made_to_order = "yes"
+job_shop = true
+end_markets = ["aerospace & defense", "medical", "automotive", "energy & utilities", "heavy truck & trailer", "construction & building products", "marine"]
+variety_source = ["https://www.catool.com/industrial", "https://www.catool.com/home", "https://www.catool.com/about"]
+variety_checked = "2026-11-18"

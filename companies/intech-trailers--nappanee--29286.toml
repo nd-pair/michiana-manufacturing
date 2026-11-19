@@ -24,3 +24,10 @@ description = "NAICS 336212: automobile transporter trailers, multi-car, manufac
 
 source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
 updated = "2026-11-13"
+
+made_to_order = "mixed"
+job_shop = false
+product_lines = 4
+end_markets = ["RV", "heavy truck & trailer", "electronics & telecom", "medical", "energy & utilities"]
+variety_source = ["https://intech.com", "https://intech.com/industrial-trailers/"]
+variety_checked = "2026-11-18"

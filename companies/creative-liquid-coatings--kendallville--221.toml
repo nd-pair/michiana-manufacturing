@@ -24,3 +24,8 @@ description = "NAICS 333248: injection molding machinery for plastics manufactur
 
 source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
 updated = "2026-11-13"
+
+made_to_order = "yes"
+job_shop = true
+variety_source = ["https://www.creativeliquidcoatings.com/"]
+variety_checked = "2026-11-18"

@@ -27,3 +27,10 @@ description = "Class A & Class C Recreational Vehicles, Travel Trailers, 5th Whe
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "no"
+job_shop = false
+product_lines = 22
+end_markets = ["RV"]
+variety_source = ["https://www.gulfstreamcoach.com", "https://www.gulfstreamcoach.com/search-products"]
+variety_checked = "2026-11-18"

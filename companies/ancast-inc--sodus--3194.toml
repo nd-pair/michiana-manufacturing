@@ -26,3 +26,9 @@ description = "Corrosion, Heat & Wear-Resistant Castings, Including Alloy Castin
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "yes"
+job_shop = true
+end_markets = ["industrial machinery & equipment", "chemicals & plastics", "food & beverage"]
+variety_source = ["https://ancast.com/about.html", "https://ancast.com/capabilities.html"]
+variety_checked = "2026-11-18"

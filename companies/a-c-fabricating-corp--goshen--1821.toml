@@ -26,3 +26,9 @@ description = "Nonferrous Tube Bending & Fabrication. NAICS 331210: iron and ste
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "yes"
+job_shop = true
+end_markets = ["automotive", "agriculture"]
+variety_source = ["https://acfabricating.com", "https://acfabricating.com/custom-tube-fabrication.html"]
+variety_checked = "2026-11-18"

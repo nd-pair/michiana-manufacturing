@@ -26,3 +26,9 @@ description = "Metal Stampings, Including Laser, Fabrication & Welding. NAICS 33
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "yes"
+job_shop = true
+end_markets = ["RV", "agriculture", "furniture & housing"]
+variety_source = ["http://maronproducts.com/about.html", "http://maronproducts.com/services.html"]
+variety_checked = "2026-11-18"

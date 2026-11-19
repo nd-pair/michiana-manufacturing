@@ -26,3 +26,9 @@ description = "Custom Contract Manufacturing, Including CNC Milling, Lathes, Swi
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "yes"
+job_shop = true
+end_markets = ["medical", "aerospace & defense"]
+variety_source = ["http://mastermetal.net"]
+variety_checked = "2026-11-18"

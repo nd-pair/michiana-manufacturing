@@ -25,3 +25,7 @@ description = "Offset & Color Printing. NAICS 323111: commercial printing (excep
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "yes"
+variety_source = ["https://www.rinkprinting.com/print-products/"]
+variety_checked = "2026-11-18"

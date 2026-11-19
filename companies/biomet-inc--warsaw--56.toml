@@ -26,3 +26,8 @@ description = "Corporate Headquarters & Orthopedic Implants & Instruments. NAICS
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+end_markets = ["medical"]
+variety_scope = "company"
+variety_source = ["https://www.zimmerbiomet.com/en"]
+variety_checked = "2026-11-18"

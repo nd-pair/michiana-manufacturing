@@ -26,3 +26,10 @@ description = "Sliding & Folding Door Hardware, Pocket Door Frames, Locks & Clos
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "no"
+job_shop = false
+product_lines = 8
+end_markets = ["construction & building products"]
+variety_source = ["https://johnsonhardware.com", "https://johnsonhardware.com/about-us"]
+variety_checked = "2026-11-18"
