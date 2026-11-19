@@ -237,6 +237,7 @@ Without WebGL the map shows a notice and everything else still works. The page c
   *labor pressure* (unemployment, workers aged 55+, turnover), *adoption readiness* (mechanics,
   electricians, technicians and engineers per 1,000 jobs), *local supply* (from the humanoid panel)
   and *jobs and pay* (manufacturing job and pay growth over five years, value added per job).
+  A pillar's score is the mean of its parts.
   The pillars are not combined into one score, so a gain in one never hides a loss in another
   (a composite index and a comparison with ten similar regions were dropped on 2026-11-15). None of
   them shows that workers gain or keep their jobs; read the jobs-and-pay pillar for that. An occupation table lists local jobs, task fit, the work a humanoid could take on and
