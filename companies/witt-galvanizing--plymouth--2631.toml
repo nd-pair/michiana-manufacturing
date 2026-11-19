@@ -26,3 +26,10 @@ description = "Hot-Dip Galvanizing. NAICS 332812: metal coating, engraving (exce
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "yes"
+job_shop = true
+end_markets = ["construction & building products", "energy & utilities", "industrial machinery & equipment", "electronics & telecom", "packaging", "consumer products"]
+variety_scope = "company"
+variety_source = ["https://www.azz.com", "https://www.azz.com/metal-coatings-markets/", "https://www.azz.com/precoat-business-consumer-products-market/"]
+variety_checked = "2026-11-18"

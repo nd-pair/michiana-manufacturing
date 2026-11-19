@@ -26,3 +26,10 @@ description = "Flour Milling & Processing. NAICS 311211: flour milling."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "mixed"
+job_shop = false
+product_lines = 4
+end_markets = ["food & beverage"]
+variety_source = ["https://mennel.com", "https://mennel.com/products"]
+variety_checked = "2026-11-18"

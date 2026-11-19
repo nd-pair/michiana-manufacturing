@@ -28,3 +28,10 @@ description = "Corporate Headquarters & Trailer Axles & Frames. NAICS 336350: mo
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-12"
+
+made_to_order = "mixed"
+job_shop = false
+product_lines = 14
+end_markets = ["RV", "heavy truck & trailer", "agriculture", "marine", "furniture & housing", "construction & building products"]
+variety_source = ["https://www.dextergroup.com", "https://www.dextergroup.com/markets-served/heavy-duty-trailer"]
+variety_checked = "2026-11-18"

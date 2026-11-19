@@ -26,3 +26,9 @@ description = "Trailer Towing Systems, Laser Cutting, Metal Forming & Welding Jo
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "no"
+job_shop = false
+product_lines = 6
+variety_source = ["https://pullrite.com/products", "https://pullrite.com"]
+variety_checked = "2026-11-18"

@@ -23,3 +23,9 @@ description = "Motor Home Assembly & Towable Units. NAICS 336213: motor home man
 
 source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor); the earlier record at this address came from HIFLD"
 updated = "2026-11-11"
+
+made_to_order = "no"
+job_shop = false
+end_markets = ["RV"]
+variety_source = ["https://www.thormotorcoach.com/", "https://www.thormotorcoach.com/company"]
+variety_checked = "2026-11-18"

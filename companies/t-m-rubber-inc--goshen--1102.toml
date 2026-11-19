@@ -25,3 +25,9 @@ description = "Precision Lathe-Cut Rubber Gaskets. NAICS 339991: gasket, packing
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "yes"
+job_shop = true
+end_markets = ["consumer products", "electronics & telecom", "industrial machinery & equipment", "automotive"]
+variety_source = ["https://www.tmrubber.com/", "https://www.tmrubber.com/services"]
+variety_checked = "2026-11-18"

@@ -25,3 +25,9 @@ description = "Orthopedic Implants, Plates & Instruments for Spinal Surgery. NAI
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "yes"
+job_shop = true
+end_markets = ["medical"]
+variety_source = ["https://www.premedtec.com/", "https://www.premedtec.com/about/"]
+variety_checked = "2026-11-18"

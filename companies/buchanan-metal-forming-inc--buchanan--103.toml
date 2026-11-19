@@ -26,3 +26,9 @@ description = "Corporate Headquarters & Cold Forming Components for the Agricult
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "yes"
+job_shop = true
+end_markets = ["automotive", "heavy truck & trailer", "agriculture", "rail & transit", "energy & utilities", "aerospace & defense", "marine", "medical", "industrial machinery & equipment"]
+variety_source = ["https://bmfcorp.com/about/cold-forming", "https://bmfcorp.com/about/bmf"]
+variety_checked = "2026-11-18"

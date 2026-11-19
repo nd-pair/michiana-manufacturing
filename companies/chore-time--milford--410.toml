@@ -25,3 +25,8 @@ description = "NAICS 333111: chicken feeders manufacturing."
 
 source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
 updated = "2026-11-14"
+
+end_markets = ["agriculture", "food & beverage", "automotive", "aerospace & defense", "medical", "electronics & telecom"]
+variety_scope = "company"
+variety_source = ["https://www.ctbinc.com/markets/", "https://www.ctbinc.com/brands/"]
+variety_checked = "2026-11-18"

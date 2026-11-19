@@ -25,3 +25,9 @@ description = "Steel & Coil Slitting & Cut-To-Length. NAICS 331110: iron and ste
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "mixed"
+job_shop = true
+end_markets = ["automotive", "electronics & telecom"]
+variety_source = ["https://arlingtonmetals.com", "https://arlingtonmetals.com/metal-sales-products/"]
+variety_checked = "2026-11-18"

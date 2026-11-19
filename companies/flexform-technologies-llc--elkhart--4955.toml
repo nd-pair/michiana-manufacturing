@@ -26,3 +26,7 @@ description = "Natural Fiber & Polymer-Blend Nonwoven Mats for Three-Dimensional
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+end_markets = ["automotive", "aerospace & defense", "RV", "heavy truck & trailer", "furniture & housing", "packaging", "retail & commercial"]
+variety_source = ["https://flexformtech.com", "https://flexformtech.com/About/"]
+variety_checked = "2026-11-18"

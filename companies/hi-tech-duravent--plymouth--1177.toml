@@ -26,3 +26,9 @@ description = "Flexible Duct Hose. NAICS 332999: all other miscellaneous fabrica
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "mixed"
+job_shop = false
+end_markets = ["aerospace & defense", "agriculture", "marine", "medical", "automotive", "food & beverage", "primary metals", "chemicals & plastics", "RV"]
+variety_source = ["https://www.hitechduravent.com/hose-products", "https://www.hitechduravent.com/about-us", "https://www.hitechduravent.com/custom-projects-0"]
+variety_checked = "2026-11-18"

@@ -27,3 +27,9 @@ description = "Corporate Headquarters & Hydraulic Hose Assemblies & Fittings. NA
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "mixed"
+product_lines = 7
+end_markets = ["energy & utilities", "agriculture", "construction & building products", "marine", "food & beverage", "aerospace & defense"]
+variety_source = ["https://www.nrpjones.com/", "https://www.nrpjones.com/capabilities/manufacturing/"]
+variety_checked = "2026-11-18"

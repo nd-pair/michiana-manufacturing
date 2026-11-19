@@ -25,3 +25,9 @@ description = "Plastics Parts. NAICS 326199: all other plastics product manufact
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "yes"
+job_shop = true
+end_markets = ["electronics & telecom", "packaging", "medical", "industrial machinery & equipment", "consumer products"]
+variety_source = ["https://moldedparts.com/resources/plastic-molded-products/", "https://moldedparts.com"]
+variety_checked = "2026-11-18"

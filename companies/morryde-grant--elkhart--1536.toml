@@ -25,3 +25,8 @@ description = "NAICS 336390: hitches, trailer, automotive, truck, and bus, manuf
 
 source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
 updated = "2026-11-13"
+
+made_to_order = "mixed"
+end_markets = ["RV", "heavy truck & trailer", "automotive"]
+variety_source = ["https://morryde.com/our-story/", "https://morryde.com/transit-bus-products/", "https://morryde.com/rv-products/towables/"]
+variety_checked = "2026-11-18"

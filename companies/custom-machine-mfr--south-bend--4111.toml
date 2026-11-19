@@ -26,3 +26,10 @@ description = "Vinyl Routing Machines. NAICS 333991: power-driven hand tool manu
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "mixed"
+job_shop = false
+product_lines = 4
+end_markets = ["construction & building products"]
+variety_source = ["https://www.cmmbuilt.com/", "https://www.cmmbuilt.com/cmm-high-production-routing"]
+variety_checked = "2026-11-18"

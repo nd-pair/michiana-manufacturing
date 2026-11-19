@@ -27,3 +27,9 @@ description = "Plastic Injection Molds. NAICS 333511: industrial mold manufactur
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "yes"
+job_shop = true
+end_markets = ["RV", "automotive", "agriculture", "electronics & telecom"]
+variety_source = ["https://www.benderproducts.com", "https://www.benderproducts.com/our-services/"]
+variety_checked = "2026-11-18"

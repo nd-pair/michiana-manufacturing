@@ -25,3 +25,9 @@ description = "Steel Fabrication. NAICS 331110: iron and steel mills and ferroal
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "mixed"
+job_shop = true
+end_markets = ["agriculture", "energy & utilities", "automotive", "electronics & telecom", "industrial machinery & equipment", "furniture & housing", "construction & building products", "aerospace & defense", "medical", "retail & commercial"]
+variety_source = ["https://www.diamondman.com/applications/", "https://www.diamondman.com/engineering/", "https://www.diamondman.com/about/"]
+variety_checked = "2026-11-18"

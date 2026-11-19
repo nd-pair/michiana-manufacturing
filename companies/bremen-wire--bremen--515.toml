@@ -25,3 +25,8 @@ description = "NAICS 331420: copper rolling, drawing, extruding, and alloying."
 
 source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
 updated = "2026-11-13"
+
+end_markets = ["energy & utilities", "rail & transit", "construction & building products", "automotive", "medical", "electronics & telecom", "industrial machinery & equipment"]
+variety_scope = "company"
+variety_source = ["https://www.southwire.com", "https://www.southwire.com/industries"]
+variety_checked = "2026-11-18"

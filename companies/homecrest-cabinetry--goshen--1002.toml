@@ -26,3 +26,9 @@ description = "NAICS 337110: kitchen cabinets (except freestanding), stock or cu
 
 source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor); the earlier record at this address came from HIFLD"
 updated = "2026-11-13"
+
+made_to_order = "mixed"
+job_shop = false
+end_markets = ["furniture & housing"]
+variety_source = ["https://www.homecrestcabinetry.com/", "https://www.homecrestcabinetry.com/get-started/design-your-room/custom-choice-cabinetry"]
+variety_checked = "2026-11-18"

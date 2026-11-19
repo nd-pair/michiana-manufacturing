@@ -25,3 +25,7 @@ description = "Bathtubs, Showers & Sinks. NAICS 327110: pottery, ceramics, and p
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+job_shop = false
+variety_source = ["https://www.lyonsindustries.com/about"]
+variety_checked = "2026-11-18"

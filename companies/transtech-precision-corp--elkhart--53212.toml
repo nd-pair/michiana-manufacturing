@@ -26,3 +26,9 @@ description = "Decorative Hardware, Screws, Nuts, Bolts & Axle Fasteners. NAICS 
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "mixed"
+product_lines = 2
+end_markets = ["RV", "automotive", "marine", "heavy truck & trailer"]
+variety_source = ["https://transtechprecision.com", "https://transtechprecision.com/products/"]
+variety_checked = "2026-11-18"

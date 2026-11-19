@@ -21,3 +21,10 @@ description = "Iron foundry and plant making Weil-McLain hot-water heating boile
 
 source = "EPA Toxics Release Inventory 2024 or RCRA Biennial Report 2023, checked against company websites, state notices, job postings and news"
 updated = "2026-11-18"
+
+made_to_order = "no"
+job_shop = false
+product_lines = 6
+end_markets = ["construction & building products"]
+variety_source = ["https://www.weil-mclain.com"]
+variety_checked = "2026-11-18"

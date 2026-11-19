@@ -27,3 +27,9 @@ description = "Medium To Heavy Steel Weldments, Fabricating & Machining. NAICS 3
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "yes"
+job_shop = true
+end_markets = ["construction & building products", "agriculture", "industrial machinery & equipment", "energy & utilities", "aerospace & defense"]
+variety_source = ["https://www.imfmidwest.com", "https://www.imfmidwest.com/markets", "https://www.imfmidwest.com/capabilities"]
+variety_checked = "2026-11-18"

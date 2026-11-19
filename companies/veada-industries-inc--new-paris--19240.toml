@@ -26,3 +26,8 @@ description = "NAICS 337121: upholstered household furniture manufacturing."
 
 source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor); the earlier record at this address came from HIFLD"
 updated = "2026-11-13"
+
+end_markets = ["RV", "marine", "automotive", "construction & building products"]
+variety_scope = "company"
+variety_source = ["https://corporate.lippert.com/about/locations/us/in/"]
+variety_checked = "2026-11-18"

@@ -29,3 +29,9 @@ description = "Portable & Stand-By Electric Generators. NAICS 335312: motor and 
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "mixed"
+job_shop = false
+end_markets = ["energy & utilities", "electronics & telecom", "aerospace & defense"]
+variety_source = ["https://www.gillettegenerators.com/", "https://www.gillettegenerators.com/company/"]
+variety_checked = "2026-11-18"

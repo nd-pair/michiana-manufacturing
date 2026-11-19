@@ -26,3 +26,8 @@ description = "Lumber Processing & Pressure Treating. NAICS 321113: sawmills."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+end_markets = ["construction & building products", "packaging"]
+variety_scope = "company"
+variety_source = ["https://ufpi.com"]
+variety_checked = "2026-11-18"

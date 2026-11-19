@@ -25,3 +25,10 @@ description = "Commercial Door & Agricultural Building Doors. NAICS 321911: wood
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "no"
+job_shop = false
+product_lines = 11
+end_markets = ["construction & building products", "agriculture"]
+variety_source = ["https://www.plyco.com/"]
+variety_checked = "2026-11-18"

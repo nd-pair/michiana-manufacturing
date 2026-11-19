@@ -26,3 +26,7 @@ description = "Aircraft & Missile Machine Component Parts. NAICS 336413: other a
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+end_markets = ["aerospace & defense"]
+variety_source = ["https://attco.com"]
+variety_checked = "2026-11-18"

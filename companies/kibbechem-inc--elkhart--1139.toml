@@ -26,3 +26,9 @@ description = "Plastic Pigments, Dispersions & Foaming Agents. NAICS 325130: syn
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+job_shop = false
+product_lines = 3
+end_markets = ["chemicals & plastics"]
+variety_source = ["http://www.kibbechem.com/"]
+variety_checked = "2026-11-18"

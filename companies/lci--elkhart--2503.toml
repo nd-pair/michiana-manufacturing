@@ -25,3 +25,8 @@ description = "NAICS 337121: upholstered household furniture manufacturing."
 
 source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
 updated = "2026-11-13"
+
+end_markets = ["marine"]
+variety_scope = "company"
+variety_source = ["https://corporate.lippert.com/about/locations/us/in/elkhart/lippert-091a"]
+variety_checked = "2026-11-18"

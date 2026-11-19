@@ -25,3 +25,10 @@ description = "Wooden Galley Rails, Moldings & Kitchen Cabinet Accessories. NAIC
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "no"
+job_shop = false
+product_lines = 4
+end_markets = ["furniture & housing"]
+variety_source = ["https://omeganationalproducts.com"]
+variety_checked = "2026-11-18"

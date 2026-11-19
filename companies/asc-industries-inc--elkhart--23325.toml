@@ -26,3 +26,9 @@ description = "Stainless Steel Tube Bending & Fabrication. NAICS 331210: iron an
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "mixed"
+job_shop = true
+end_markets = ["automotive", "heavy truck & trailer", "marine", "rail & transit", "RV"]
+variety_source = ["https://www.ascind.com/"]
+variety_checked = "2026-11-18"

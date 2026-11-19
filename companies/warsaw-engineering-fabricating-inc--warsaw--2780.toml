@@ -26,3 +26,8 @@ description = "Metal Fabrication. NAICS 332999: all other miscellaneous fabricat
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "yes"
+job_shop = true
+variety_source = ["https://www.warsaweng.com/custom-metal-fabrication", "https://www.warsaweng.com/"]
+variety_checked = "2026-11-18"

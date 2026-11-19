@@ -25,3 +25,10 @@ description = "Roll-Formed Steel Structural Components. NAICS 332114: custom rol
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "mixed"
+job_shop = true
+product_lines = 7
+end_markets = ["agriculture", "electronics & telecom", "construction & building products", "industrial machinery & equipment", "retail & commercial", "primary metals", "aerospace & defense", "furniture & housing", "RV", "heavy truck & trailer", "energy & utilities"]
+variety_source = ["https://omcoform.com/roll-forming-plus/industries/", "https://omcoform.com"]
+variety_checked = "2026-11-18"

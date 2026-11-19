@@ -25,3 +25,9 @@ description = "Extruded Epdm, Neoprene, Silicone & Nitrile Seals & Gaskets for t
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "mixed"
+product_lines = 4
+end_markets = ["RV", "marine", "automotive"]
+variety_source = ["https://www.cleanseal.com/about", "https://www.cleanseal.com/"]
+variety_checked = "2026-11-18"

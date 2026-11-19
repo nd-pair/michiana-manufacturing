@@ -24,3 +24,10 @@ description = "NAICS 336214: travel trailers, recreational, manufacturing."
 
 source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
 updated = "2026-11-13"
+
+made_to_order = "mixed"
+job_shop = false
+product_lines = 3
+end_markets = ["heavy truck & trailer"]
+variety_source = ["https://crosstrailers.com/", "https://crosstrailers.com/custom-options/"]
+variety_checked = "2026-11-18"

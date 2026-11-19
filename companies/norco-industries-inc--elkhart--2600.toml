@@ -26,3 +26,10 @@ description = "Seating Structures, Pedestals & Jacks & Trailer Slide Out Frames.
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "mixed"
+job_shop = true
+product_lines = 5
+end_markets = ["RV", "heavy truck & trailer", "medical", "automotive", "energy & utilities"]
+variety_source = ["https://norcoind.com", "https://norcoind.com/our-brands/"]
+variety_checked = "2026-11-18"

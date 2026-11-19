@@ -26,3 +26,8 @@ description = "Vacuum Formed Ceramic Fiber Parts. NAICS 327110: pottery, ceramic
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "mixed"
+end_markets = ["primary metals"]
+variety_source = ["https://insulationspecialties.com/company.html", "https://insulationspecialties.com/products.html"]
+variety_checked = "2026-11-18"

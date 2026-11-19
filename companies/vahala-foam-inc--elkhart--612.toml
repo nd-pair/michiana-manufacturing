@@ -28,3 +28,9 @@ description = "RV Equipment. NAICS 336213: motor home manufacturing."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "yes"
+job_shop = true
+end_markets = ["automotive", "marine", "RV", "furniture & housing", "packaging"]
+variety_source = ["https://www.vahalafoam.com/services-and-capabilities"]
+variety_checked = "2026-11-18"

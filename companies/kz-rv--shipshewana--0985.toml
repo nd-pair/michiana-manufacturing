@@ -25,3 +25,10 @@ description = "Recreational Vehicles. NAICS 336213: motor home manufacturing."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "no"
+job_shop = false
+product_lines = 6
+end_markets = ["RV"]
+variety_source = ["https://www.kz-rv.com/", "https://www.kz-rv.com/products/connect-travel-trailers/"]
+variety_checked = "2026-11-18"

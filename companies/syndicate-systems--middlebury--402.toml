@@ -26,3 +26,10 @@ description = "NAICS 337215: store display fixtures manufacturing."
 
 source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor); the earlier record at this address came from HIFLD"
 updated = "2026-11-13"
+
+job_shop = false
+product_lines = 9
+end_markets = ["retail & commercial"]
+variety_scope = "company"
+variety_source = ["https://www.lozier.com/", "https://www.lozier.com/products/"]
+variety_checked = "2026-11-18"

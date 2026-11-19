@@ -25,3 +25,8 @@ description = "Headquarters of Joint Venture Between Nishikawa Rubber & Cooper S
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+end_markets = ["automotive"]
+variety_scope = "company"
+variety_source = ["http://www.nishikawa-rbr.co.jp/product/car/", "https://www.nishikawa-rbr.co.jp/company/about.html"]
+variety_checked = "2026-11-18"

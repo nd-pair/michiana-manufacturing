@@ -25,3 +25,10 @@ description = "Natural Fiber Air Filters for HVAC Systems. NAICS 333413: industr
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "no"
+job_shop = false
+product_lines = 8
+end_markets = ["construction & building products", "furniture & housing", "aerospace & defense"]
+variety_source = ["https://blocksom.com", "https://blocksom.com/about/"]
+variety_checked = "2026-11-18"

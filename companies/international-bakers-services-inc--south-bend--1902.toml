@@ -26,3 +26,9 @@ description = "Dry & Liquid Flavors. NAICS 311930: flavoring syrup and concentra
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "mixed"
+product_lines = 2
+end_markets = ["food & beverage"]
+variety_source = ["http://internationalbakers.com"]
+variety_checked = "2026-11-18"

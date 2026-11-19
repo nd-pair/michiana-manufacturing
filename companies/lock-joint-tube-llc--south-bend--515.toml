@@ -26,3 +26,9 @@ description = "Company Headquarters & Electric Welded Steel Tubing. NAICS 331210
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "mixed"
+job_shop = false
+end_markets = ["automotive", "construction & building products", "consumer products", "furniture & housing", "energy & utilities", "electronics & telecom"]
+variety_source = ["https://www.ljtube.com/", "https://www.ljtube.com/markets/"]
+variety_checked = "2026-11-18"

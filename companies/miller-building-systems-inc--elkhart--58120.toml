@@ -26,3 +26,9 @@ description = "NAICS 321992: buildings, prefabricated, wood, manufacturing."
 
 source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor); the earlier record at this address came from HIFLD"
 updated = "2026-11-13"
+
+job_shop = false
+product_lines = 2
+end_markets = ["electronics & telecom", "energy & utilities"]
+variety_source = ["https://thermobond.com/", "https://thermobond.com/solutions/"]
+variety_checked = "2026-11-18"

@@ -26,3 +26,8 @@ description = "Pressure Sensitive Labels. NAICS 322220: paper bag and coated and
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "yes"
+end_markets = ["RV", "food & beverage", "medical", "chemicals & plastics"]
+variety_source = ["https://standard-label.com"]
+variety_checked = "2026-11-18"

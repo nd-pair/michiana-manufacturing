@@ -25,3 +25,9 @@ description = "Automotive & Industrial Battery Fabrication Equipment. NAICS 3327
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "mixed"
+job_shop = false
+product_lines = 8
+variety_source = ["https://mac-eng.com", "https://mac-eng.com/battery-manufacturing-machines/"]
+variety_checked = "2026-11-18"

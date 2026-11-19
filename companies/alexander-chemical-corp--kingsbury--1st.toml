@@ -27,3 +27,7 @@ description = "Industrial Gases & Water Treatment Chemicals. NAICS 325120: indus
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+end_markets = ["energy & utilities", "chemicals & plastics", "primary metals", "medical", "food & beverage", "industrial machinery & equipment", "agriculture"]
+variety_source = ["https://www.alexanderchemical.com/"]
+variety_checked = "2026-11-18"

@@ -26,3 +26,10 @@ description = "Closed-Circuit Television Cameras. NAICS 333310: commercial and s
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "no"
+job_shop = false
+product_lines = 2
+end_markets = ["medical"]
+variety_source = ["https://dagemti.com"]
+variety_checked = "2026-11-18"

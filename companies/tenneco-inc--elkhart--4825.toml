@@ -25,3 +25,9 @@ description = "Automotive Mufflers & Exhausts. NAICS 336390: other motor vehicle
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+product_lines = 6
+end_markets = ["automotive", "heavy truck & trailer", "rail & transit", "marine", "energy & utilities", "construction & building products", "agriculture"]
+variety_scope = "company"
+variety_source = ["https://tenneco.com", "https://tenneco.com/solutions/tenneco-industrial"]
+variety_checked = "2026-11-18"

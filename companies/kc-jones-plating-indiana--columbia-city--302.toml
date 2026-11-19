@@ -22,3 +22,7 @@ description = "Zinc, zinc-nickel and electroless nickel plating, mainly for auto
 
 source = "EPA Toxics Release Inventory 2024 or RCRA Biennial Report 2023, checked against company websites, state notices, job postings and news"
 updated = "2026-11-18"
+
+end_markets = ["aerospace & defense", "automotive"]
+variety_source = ["https://kcjplating.com/", "https://kcjplating.com/about/"]
+variety_checked = "2026-11-18"

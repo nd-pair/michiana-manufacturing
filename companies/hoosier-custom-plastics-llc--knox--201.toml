@@ -26,3 +26,9 @@ description = "Plastic Golf Tees & Plastic Injection Molding. NAICS 339920: spor
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "mixed"
+job_shop = true
+end_markets = ["automotive", "medical", "consumer products", "agriculture", "aerospace & defense", "marine", "RV", "construction & building products", "electronics & telecom"]
+variety_source = ["https://www.hcplastic.com/markets-served", "https://www.hcplastic.com/services/plastic-insert-molding", "https://www.hcplastic.com/services/value-added-light-assembly-service"]
+variety_checked = "2026-11-18"

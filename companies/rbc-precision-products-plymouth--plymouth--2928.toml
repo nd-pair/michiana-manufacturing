@@ -25,3 +25,10 @@ description = "Loose Needle Rollers & Needle Bearings. NAICS 332991: ball and ro
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "no"
+job_shop = false
+end_markets = ["aerospace & defense", "heavy truck & trailer", "RV", "automotive", "agriculture", "rail & transit", "packaging", "construction & building products", "medical", "energy & utilities"]
+variety_scope = "company"
+variety_source = ["https://rbcbearings.com", "https://rbcbearings.com/Product-Applications"]
+variety_checked = "2026-11-18"

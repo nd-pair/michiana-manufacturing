@@ -27,3 +27,8 @@ description = "Laboratory Supplies. NAICS 332710: machine shops."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "no"
+job_shop = false
+variety_source = ["https://alpharesources.com"]
+variety_checked = "2026-11-18"

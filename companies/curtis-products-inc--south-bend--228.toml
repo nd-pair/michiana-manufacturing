@@ -26,3 +26,8 @@ description = "Tube Bending. NAICS 331210: iron and steel pipe and tube manufact
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "yes"
+job_shop = true
+variety_source = ["https://www.curtisproducts.com/", "https://www.curtisproducts.com/rapid-prototyping"]
+variety_checked = "2026-11-18"

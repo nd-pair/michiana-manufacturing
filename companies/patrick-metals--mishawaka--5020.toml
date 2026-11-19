@@ -26,3 +26,9 @@ description = "Aluminum Extrusions & Paints. NAICS 331318: other aluminum rollin
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "mixed"
+job_shop = true
+end_markets = ["construction & building products", "medical", "consumer products"]
+variety_source = ["https://www.patrickmetals.com/", "https://www.patrickmetals.com/aluminum-extrusion-products/"]
+variety_checked = "2026-11-18"

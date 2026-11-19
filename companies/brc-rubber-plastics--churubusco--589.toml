@@ -21,3 +21,9 @@ description = "Molded rubber and plastic automotive parts: noise and vibration p
 
 source = "EPA Toxics Release Inventory 2024 or RCRA Biennial Report 2023, checked against company websites, state notices, job postings and news"
 updated = "2026-11-18"
+
+made_to_order = "yes"
+job_shop = true
+end_markets = ["automotive"]
+variety_source = ["https://www.brcrp.com"]
+variety_checked = "2026-11-18"

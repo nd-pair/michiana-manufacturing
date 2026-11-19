@@ -27,3 +27,10 @@ description = "Long Handled Tools for Lawn & Garden, Landscaping, Irrigation, Sp
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "no"
+job_shop = false
+product_lines = 10
+end_markets = ["agriculture", "construction & building products", "consumer products"]
+variety_source = ["https://seymourmidwest.com", "https://seymourmidwest.com/markets/"]
+variety_checked = "2026-11-18"

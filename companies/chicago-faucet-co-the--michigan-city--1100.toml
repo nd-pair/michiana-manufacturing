@@ -25,3 +25,10 @@ description = "Bath Waste & Overflow Kitchen Sink Accessories, Toilet Flush Syst
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "no"
+job_shop = false
+product_lines = 12
+end_markets = ["retail & commercial", "medical", "food & beverage"]
+variety_source = ["https://www.chicagofaucets.com/", "https://www.chicagofaucets.com/market/healthcare"]
+variety_checked = "2026-11-18"

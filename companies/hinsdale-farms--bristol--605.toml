@@ -26,3 +26,10 @@ description = "NAICS 311412: frozen specialties, nec."
 
 source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor); the earlier record at this address came from HIFLD"
 updated = "2026-11-13"
+
+made_to_order = "mixed"
+job_shop = true
+end_markets = ["food & beverage", "retail & commercial"]
+variety_scope = "company"
+variety_source = ["https://monogramfoods.com/our-capabilities/", "https://monogramfoods.com"]
+variety_checked = "2026-11-18"

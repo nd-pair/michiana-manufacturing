@@ -28,3 +28,10 @@ description = "Orthopedic Implantable Devices for Pediatric & Small Stature Pati
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "no"
+job_shop = false
+product_lines = 7
+end_markets = ["medical"]
+variety_source = ["https://www.orthopediatrics.com/"]
+variety_checked = "2026-11-18"

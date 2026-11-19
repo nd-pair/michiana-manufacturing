@@ -26,3 +26,8 @@ description = "Corporate Headquarters & Laminated Wooden Wall Panels, Interior P
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "mixed"
+end_markets = ["RV", "furniture & housing", "heavy truck & trailer", "marine", "retail & commercial"]
+variety_source = ["https://genesisproductsinc.com", "https://genesisproductsinc.com/industries/rv-interiors/", "https://genesisproductsinc.com/industries/manufactured-housing/"]
+variety_checked = "2026-11-18"

@@ -25,3 +25,8 @@ description = "NAICS 332312: fabricated structural metal manufacturing."
 
 source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
 updated = "2026-11-13"
+
+end_markets = ["RV", "marine", "automotive"]
+variety_scope = "company"
+variety_source = ["https://corporate.lippert.com/about/locations/us/in/goshen/lippert-085a"]
+variety_checked = "2026-11-18"

@@ -25,3 +25,8 @@ description = "Foam Fabrication. NAICS 326140: polystyrene foam product manufact
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+end_markets = ["consumer products", "furniture & housing", "automotive", "medical", "construction & building products"]
+variety_scope = "company"
+variety_source = ["https://carpenter.com", "https://carpenter.com/markets/"]
+variety_checked = "2026-11-18"

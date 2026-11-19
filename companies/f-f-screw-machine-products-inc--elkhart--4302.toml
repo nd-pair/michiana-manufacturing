@@ -28,3 +28,9 @@ description = "Automatic Screw Machine Products for the Musical Instruments & Me
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-12"
+
+made_to_order = "yes"
+job_shop = true
+end_markets = ["RV", "medical", "industrial machinery & equipment", "aerospace & defense"]
+variety_source = ["https://ffmpinc.com", "https://ffmpinc.com/about/"]
+variety_checked = "2026-11-18"

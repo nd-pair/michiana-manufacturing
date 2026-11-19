@@ -26,3 +26,9 @@ description = "Corporate Headquarters & Powder & Metal Finishing Equipment, Incl
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "yes"
+job_shop = false
+product_lines = 6
+variety_source = ["https://www.midwestfinishing.com/", "https://www.midwestfinishing.com/unique-finishing-solutions"]
+variety_checked = "2026-11-18"

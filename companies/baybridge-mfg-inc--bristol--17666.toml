@@ -26,3 +26,10 @@ description = "Truck Bodies. NAICS 336211: motor vehicle body manufacturing."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "mixed"
+job_shop = false
+product_lines = 3
+end_markets = ["heavy truck & trailer"]
+variety_source = ["https://baybridgemfg.com"]
+variety_checked = "2026-11-18"

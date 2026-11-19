@@ -25,3 +25,10 @@ description = "Fiberglass Ejector Basins & Septic Tanks. NAICS 327390: other con
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "mixed"
+job_shop = true
+product_lines = 3
+end_markets = ["energy & utilities"]
+variety_source = ["https://www.akindustries.com/"]
+variety_checked = "2026-11-18"

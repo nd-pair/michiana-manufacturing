@@ -27,3 +27,9 @@ description = "Polyurethane Foam. NAICS 326150: urethane and other foam product 
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-12"
+
+made_to_order = "mixed"
+product_lines = 6
+end_markets = ["automotive", "marine", "furniture & housing", "medical"]
+variety_source = ["https://www.futurefoam.com", "https://www.futurefoam.com/product/foam-buns-blocks/"]
+variety_checked = "2026-11-18"

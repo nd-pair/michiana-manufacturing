@@ -25,3 +25,9 @@ description = "Upholstered Household Furniture. NAICS 337121: upholstered househ
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "no"
+job_shop = false
+end_markets = ["furniture & housing"]
+variety_source = ["https://brillseating.com"]
+variety_checked = "2026-11-18"

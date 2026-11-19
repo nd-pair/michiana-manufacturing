@@ -26,3 +26,10 @@ description = "Medical PVC Furniture. NAICS 337127: institutional furniture manu
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "no"
+job_shop = false
+product_lines = 14
+end_markets = ["medical"]
+variety_source = ["https://ipu.com/products", "https://ipu.com/startpage"]
+variety_checked = "2026-11-18"

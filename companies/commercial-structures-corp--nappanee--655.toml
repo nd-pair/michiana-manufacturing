@@ -26,3 +26,9 @@ description = "Corporate Headquarters & Office Trailers & Modular Buildings. NAI
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "mixed"
+job_shop = false
+end_markets = ["food & beverage", "medical", "construction & building products", "retail & commercial"]
+variety_source = ["https://comstruc.com", "https://comstruc.com/food-manufacturing-industry/", "https://comstruc.com/commercial-industry/"]
+variety_checked = "2026-11-18"

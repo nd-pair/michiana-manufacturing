@@ -26,3 +26,9 @@ description = "Metal Parts & Components Etching. NAICS 332812: metal coating, en
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "yes"
+job_shop = true
+end_markets = ["automotive", "medical", "electronics & telecom", "aerospace & defense", "industrial machinery & equipment"]
+variety_source = ["https://metaletching.com", "https://metaletching.com/industry-product-applications/medical/"]
+variety_checked = "2026-11-18"

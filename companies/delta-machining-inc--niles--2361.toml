@@ -26,3 +26,8 @@ description = "CNC Machining Job Shop. NAICS 332710: machine shops."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "yes"
+job_shop = true
+variety_source = ["https://www.deltamach.com/", "https://www.deltamach.com/about"]
+variety_checked = "2026-11-18"

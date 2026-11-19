@@ -20,3 +20,8 @@ description = "Prints paint color cards, fan decks and color strips for paint ma
 
 source = "EPA Toxics Release Inventory 2024 or RCRA Biennial Report 2023, checked against company websites, state notices, job postings and news"
 updated = "2026-11-18"
+
+product_lines = 5
+end_markets = ["chemicals & plastics"]
+variety_source = ["https://www.chromasource.com", "https://www.chromasource.com/Products/Color-Systems"]
+variety_checked = "2026-11-18"

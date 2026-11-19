@@ -26,3 +26,10 @@ description = "Laboratory Equipment & Instruments for Research & Development. NA
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "no"
+job_shop = false
+product_lines = 4
+end_markets = ["energy & utilities", "agriculture", "food & beverage", "construction & building products", "primary metals"]
+variety_source = ["https://www.leco.com/", "https://www.leco.com/about/"]
+variety_checked = "2026-11-18"

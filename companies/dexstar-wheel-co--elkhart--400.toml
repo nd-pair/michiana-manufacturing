@@ -25,3 +25,10 @@ description = "Trailer Rims & Wheels. NAICS 336390: other motor vehicle parts ma
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "no"
+job_shop = false
+product_lines = 6
+end_markets = ["marine", "RV", "heavy truck & trailer", "furniture & housing"]
+variety_source = ["https://www.dexstarwheel.com/", "https://www.dexstarwheel.com/our-products/", "https://www.dexstarwheel.com/about/"]
+variety_checked = "2026-11-18"

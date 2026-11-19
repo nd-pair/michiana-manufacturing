@@ -24,3 +24,10 @@ description = "NAICS 312130: wineries."
 
 source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
 updated = "2026-11-13"
+
+made_to_order = "mixed"
+job_shop = true
+product_lines = 5
+end_markets = ["food & beverage"]
+variety_source = ["https://www.stjulian.com", "https://www.stjulian.com/business-retail-partners/custom-crush-fermentation/"]
+variety_checked = "2026-11-18"

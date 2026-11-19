@@ -26,3 +26,9 @@ description = "Fabric & Metal Awnings, Tents, Banners, Flags, Signs, Tension & F
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "yes"
+job_shop = false
+end_markets = ["retail & commercial"]
+variety_source = ["https://www.bhawning.com/", "https://www.bhawning.com/about-us/frequently-asked-questions"]
+variety_checked = "2026-11-18"

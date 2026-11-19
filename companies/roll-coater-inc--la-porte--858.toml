@@ -30,3 +30,9 @@ description = "Coil coating of steel, aluminum and stainless strip. NAICS 332812
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-18"
+
+job_shop = true
+end_markets = ["construction & building products", "electronics & telecom", "consumer products", "packaging"]
+variety_scope = "company"
+variety_source = ["https://www.azz.com/locations/azz-precoat-metals-kingsbury/", "https://www.azz.com/precoat-business-consumer-products-market/"]
+variety_checked = "2026-11-18"

@@ -26,3 +26,9 @@ description = "Pole Barns. NAICS 321918: other millwork (including flooring )."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "yes"
+job_shop = false
+end_markets = ["agriculture"]
+variety_source = ["https://www.pacemakerbuildings.com/what-we-create/", "https://www.pacemakerbuildings.com/"]
+variety_checked = "2026-11-18"

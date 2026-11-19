@@ -26,3 +26,10 @@ description = "Aluminum Pontoon Boats. NAICS 336612: boat building."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "no"
+job_shop = false
+product_lines = 6
+end_markets = ["marine"]
+variety_source = ["https://jcpontoon.com"]
+variety_checked = "2026-11-18"

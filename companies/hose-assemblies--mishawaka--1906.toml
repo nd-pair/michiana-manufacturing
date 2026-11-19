@@ -26,3 +26,9 @@ description = "Air & Water Hose Assembly. NAICS 326220: rubber and plastics hose
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "mixed"
+job_shop = false
+end_markets = ["electronics & telecom", "RV", "marine", "automotive", "agriculture"]
+variety_source = ["https://hoseassem.com"]
+variety_checked = "2026-11-18"

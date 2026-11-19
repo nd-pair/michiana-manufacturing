@@ -24,3 +24,9 @@ description = "NAICS 333243: paper and paperboard converting machinery manufactu
 
 source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
 updated = "2026-11-13"
+
+made_to_order = "mixed"
+end_markets = ["RV", "furniture & housing", "heavy truck & trailer", "marine", "retail & commercial"]
+variety_scope = "company"
+variety_source = ["https://genesisproductsinc.com/", "https://genesisproductsinc.com/industries/rv-interiors/", "https://genesisproductsinc.com/industries/manufactured-housing/"]
+variety_checked = "2026-11-18"

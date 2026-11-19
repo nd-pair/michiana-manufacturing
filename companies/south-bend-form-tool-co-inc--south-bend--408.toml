@@ -26,3 +26,9 @@ description = "Tools, Jigs, Fixtures, Gages, Precision Grinding & CNC Machining 
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "yes"
+job_shop = true
+end_markets = ["medical", "electronics & telecom"]
+variety_source = ["https://sbform.com", "https://sbform.com/services/laser-marking"]
+variety_checked = "2026-11-18"

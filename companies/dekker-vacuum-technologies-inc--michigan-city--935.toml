@@ -26,3 +26,10 @@ description = "Vacuum Pumps. NAICS 333912: air and gas compressor manufacturing.
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "mixed"
+job_shop = false
+product_lines = 10
+end_markets = ["furniture & housing", "medical", "chemicals & plastics", "energy & utilities", "food & beverage"]
+variety_source = ["https://www.dekkervacuum.com/en", "https://www.dekkervacuum.com/en/markets/woodworking-industry"]
+variety_checked = "2026-11-18"

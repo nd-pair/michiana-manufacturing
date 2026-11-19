@@ -26,3 +26,8 @@ description = "Plastic Injection Molds & Molded Parts. NAICS 333511: industrial 
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "yes"
+job_shop = true
+variety_source = ["https://hoosiermp.com", "https://hoosiermp.com/capabilities/support"]
+variety_checked = "2026-11-18"

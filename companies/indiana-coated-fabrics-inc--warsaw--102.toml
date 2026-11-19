@@ -25,3 +25,9 @@ description = "Coated & Laminated Window Shade Fabrics. NAICS 313320: fabric coa
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "mixed"
+job_shop = true
+product_lines = 3
+variety_source = ["https://www.indianacoatedfabrics.com/", "https://www.indianacoatedfabrics.com/what-we-make", "https://www.indianacoatedfabrics.com/about-4"]
+variety_checked = "2026-11-18"

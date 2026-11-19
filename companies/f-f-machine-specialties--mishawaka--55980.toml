@@ -27,3 +27,9 @@ description = "Fixtures, Medical Tooling & Precision Machining Job Shop. NAICS 3
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-12"
+
+made_to_order = "yes"
+job_shop = true
+end_markets = ["medical"]
+variety_source = ["https://complexusmedical.com", "https://complexusmedical.com/capabilities/", "https://complexusmedical.com/products/"]
+variety_checked = "2026-11-18"

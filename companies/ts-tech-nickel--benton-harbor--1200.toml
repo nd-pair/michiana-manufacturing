@@ -23,3 +23,9 @@ description = "Electroless nickel and hard chrome plating and salt-bath nitridin
 
 source = "EPA Toxics Release Inventory 2024 or RCRA Biennial Report 2023, checked against company websites, state notices, job postings and news"
 updated = "2026-11-18"
+
+made_to_order = "yes"
+job_shop = true
+end_markets = ["automotive", "aerospace & defense", "energy & utilities", "industrial machinery & equipment"]
+variety_source = ["https://technickel.com/", "https://technickel.com/industries-we-serve/"]
+variety_checked = "2026-11-18"

@@ -25,3 +25,10 @@ description = "Polyethylene Foam Sheets & Planks. NAICS 326199: all other plasti
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "mixed"
+job_shop = false
+end_markets = ["agriculture", "automotive", "construction & building products", "furniture & housing", "electronics & telecom", "consumer products", "food & beverage", "medical"]
+variety_scope = "company"
+variety_source = ["https://www.pregis.com/", "https://www.pregis.com/services/customized-packaging/"]
+variety_checked = "2026-11-18"

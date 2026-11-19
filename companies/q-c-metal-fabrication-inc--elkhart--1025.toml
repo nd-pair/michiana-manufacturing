@@ -26,3 +26,9 @@ description = "Metal Fabrication. NAICS 332999: all other miscellaneous fabricat
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "mixed"
+job_shop = true
+end_markets = ["medical", "marine", "agriculture", "furniture & housing", "RV", "automotive", "construction & building products", "rail & transit", "aerospace & defense", "electronics & telecom"]
+variety_source = ["https://qcmetalfab.com", "https://qcmetalfab.com/about/"]
+variety_checked = "2026-11-18"

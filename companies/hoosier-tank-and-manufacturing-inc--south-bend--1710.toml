@@ -25,3 +25,8 @@ description = "Brake System Air Tanks. NAICS 336510: railroad rolling stock manu
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "mixed"
+end_markets = ["heavy truck & trailer"]
+variety_source = ["https://www.hoosiertank.com/"]
+variety_checked = "2026-11-18"

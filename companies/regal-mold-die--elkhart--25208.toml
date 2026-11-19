@@ -25,3 +25,9 @@ description = "Plastic Injection Molds. NAICS 333514: special die and tool, die 
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "yes"
+job_shop = true
+end_markets = ["automotive", "electronics & telecom", "medical", "RV", "packaging"]
+variety_source = ["https://www.regalmold.com/", "https://www.regalmold.com/services/"]
+variety_checked = "2026-11-18"

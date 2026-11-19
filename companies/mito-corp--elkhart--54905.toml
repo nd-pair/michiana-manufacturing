@@ -26,3 +26,9 @@ description = "Electronic Products & Components. NAICS 335999: all other miscell
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-12"
+
+made_to_order = "no"
+job_shop = false
+end_markets = ["RV", "automotive", "marine", "heavy truck & trailer"]
+variety_source = ["https://www.mitocorp.com/about-us"]
+variety_checked = "2026-11-18"

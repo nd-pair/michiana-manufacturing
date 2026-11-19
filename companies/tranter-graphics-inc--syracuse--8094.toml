@@ -26,3 +26,8 @@ description = "Paper & Plastic Products. NAICS 322299: all other converted paper
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "mixed"
+product_lines = 8
+variety_source = ["https://www.trantergraphics.com/"]
+variety_checked = "2026-11-18"

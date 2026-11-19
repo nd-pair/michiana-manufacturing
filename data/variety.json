@@ -1,0 +1,1908 @@
+{
+ "generated": "2026-11-18",
+ "note": "Firm-level variety and end-market fields from each company's own website (CURATION.md, 'Variety and end markets'); describes firms as they are today. Weights are site headcounts; company-wide headcounts are left out.",
+ "coverage": {
+  "active_manufacturers": 1032,
+  "with_website": 457,
+  "checked": 378,
+  "any_field": 378,
+  "made_to_order": {
+   "all": 323,
+   "with_website": 289
+  },
+  "job_shop": {
+   "all": 290,
+   "with_website": 255
+  },
+  "product_lines": {
+   "all": 157,
+   "with_website": 127
+  },
+  "end_markets": {
+   "all": 336,
+   "with_website": 289
+  },
+  "site_jobs": {
+   "all": 111585,
+   "in_firms_with_any_field": 49066
+  }
+ },
+ "region": {
+  "firms": 1032,
+  "jobs": 111585,
+  "made_to_order": {
+   "firms_recorded": 323,
+   "jobs_recorded": 37190,
+   "firms": {
+    "yes": 115,
+    "mixed": 123,
+    "no": 85
+   },
+   "job_share_yes": 0.197,
+   "job_share_yes_or_mixed": 0.556
+  },
+  "job_shop": {
+   "firms_recorded": 290,
+   "jobs_recorded": 37478,
+   "firms_true": 125,
+   "job_share": 0.246
+  },
+  "product_lines": {
+   "firms_recorded": 157,
+   "mean": 6.27,
+   "median": 5,
+   "job_weighted_mean": 7.11
+  },
+  "end_markets": {
+   "firms_recorded": 336,
+   "jobs_recorded": 46264,
+   "hhi": 0.119,
+   "effective_markets": 8.42,
+   "mean_markets_per_firm": 3.24,
+   "job_shares": {
+    "RV": 0.266,
+    "medical": 0.126,
+    "automotive": 0.094,
+    "heavy truck & trailer": 0.073,
+    "construction & building products": 0.063,
+    "furniture & housing": 0.056,
+    "food & beverage": 0.053,
+    "marine": 0.051,
+    "agriculture": 0.035,
+    "energy & utilities": 0.029,
+    "aerospace & defense": 0.025,
+    "consumer products": 0.023,
+    "retail & commercial": 0.022,
+    "electronics & telecom": 0.022,
+    "industrial machinery & equipment": 0.02,
+    "packaging": 0.015,
+    "rail & transit": 0.009,
+    "chemicals & plastics": 0.008,
+    "printing & publishing": 0.004,
+    "primary metals": 0.003
+   },
+   "firm_counts": {
+    "automotive": 105,
+    "RV": 96,
+    "construction & building products": 95,
+    "medical": 85,
+    "agriculture": 76,
+    "heavy truck & trailer": 73,
+    "aerospace & defense": 68,
+    "marine": 66,
+    "electronics & telecom": 60,
+    "energy & utilities": 58,
+    "furniture & housing": 51,
+    "industrial machinery & equipment": 50,
+    "food & beverage": 50,
+    "consumer products": 37,
+    "rail & transit": 31,
+    "retail & commercial": 28,
+    "chemicals & plastics": 22,
+    "packaging": 20,
+    "primary metals": 13,
+    "printing & publishing": 5
+   }
+  }
+ },
+ "counties": {
+  "18039": {
+   "name": "Elkhart, IN",
+   "firms": 408,
+   "jobs": 51312,
+   "made_to_order": {
+    "firms_recorded": 127,
+    "jobs_recorded": 20715,
+    "firms": {
+     "yes": 34,
+     "mixed": 50,
+     "no": 43
+    },
+    "job_share_yes": 0.1,
+    "job_share_yes_or_mixed": 0.421
+   },
+   "job_shop": {
+    "firms_recorded": 112,
+    "jobs_recorded": 20218,
+    "firms_true": 38,
+    "job_share": 0.14
+   },
+   "product_lines": {
+    "firms_recorded": 74,
+    "mean": 6.58,
+    "median": 5,
+    "job_weighted_mean": 7.61
+   },
+   "end_markets": {
+    "firms_recorded": 134,
+    "jobs_recorded": 23359,
+    "hhi": 0.256,
+    "effective_markets": 3.91,
+    "mean_markets_per_firm": 2.95,
+    "job_shares": {
+     "RV": 0.473,
+     "heavy truck & trailer": 0.104,
+     "furniture & housing": 0.088,
+     "marine": 0.073,
+     "automotive": 0.052,
+     "construction & building products": 0.041,
+     "retail & commercial": 0.031,
+     "consumer products": 0.03,
+     "food & beverage": 0.024,
+     "medical": 0.018,
+     "packaging": 0.016,
+     "agriculture": 0.013,
+     "electronics & telecom": 0.012,
+     "energy & utilities": 0.01,
+     "industrial machinery & equipment": 0.006,
+     "aerospace & defense": 0.005,
+     "rail & transit": 0.002,
+     "chemicals & plastics": 0.001,
+     "primary metals": 0.0
+    },
+    "firm_counts": {
+     "RV": 71,
+     "heavy truck & trailer": 43,
+     "marine": 41,
+     "automotive": 34,
+     "furniture & housing": 28,
+     "construction & building products": 27,
+     "agriculture": 19,
+     "medical": 19,
+     "electronics & telecom": 18,
+     "consumer products": 16,
+     "aerospace & defense": 14,
+     "retail & commercial": 14,
+     "industrial machinery & equipment": 13,
+     "energy & utilities": 12,
+     "food & beverage": 8,
+     "rail & transit": 7,
+     "packaging": 7,
+     "chemicals & plastics": 3,
+     "primary metals": 1
+    }
+   }
+  },
+  "18049": {
+   "name": "Fulton, IN",
+   "firms": 10,
+   "jobs": 1119,
+   "made_to_order": {
+    "firms_recorded": 0,
+    "jobs_recorded": 0,
+    "firms": {},
+    "job_share_yes": null,
+    "job_share_yes_or_mixed": null
+   },
+   "job_shop": {
+    "firms_recorded": 0,
+    "jobs_recorded": 0,
+    "firms_true": 0,
+    "job_share": null
+   },
+   "product_lines": {
+    "firms_recorded": 0,
+    "mean": null,
+    "median": null,
+    "job_weighted_mean": null
+   },
+   "end_markets": {
+    "firms_recorded": 1,
+    "jobs_recorded": 60,
+    "hhi": 0.5,
+    "effective_markets": 2.0,
+    "mean_markets_per_firm": 2.0,
+    "job_shares": {
+     "energy & utilities": 0.5,
+     "rail & transit": 0.5
+    },
+    "firm_counts": {
+     "energy & utilities": 1,
+     "rail & transit": 1
+    }
+   }
+  },
+  "18085": {
+   "name": "Kosciusko, IN",
+   "firms": 84,
+   "jobs": 12635,
+   "made_to_order": {
+    "firms_recorded": 27,
+    "jobs_recorded": 1838,
+    "firms": {
+     "mixed": 9,
+     "no": 8,
+     "yes": 10
+    },
+    "job_share_yes": 0.251,
+    "job_share_yes_or_mixed": 0.702
+   },
+   "job_shop": {
+    "firms_recorded": 27,
+    "jobs_recorded": 4009,
+    "firms_true": 11,
+    "job_share": 0.178
+   },
+   "product_lines": {
+    "firms_recorded": 14,
+    "mean": 6.36,
+    "median": 7,
+    "job_weighted_mean": 7.59
+   },
+   "end_markets": {
+    "firms_recorded": 28,
+    "jobs_recorded": 5706,
+    "hhi": 0.528,
+    "effective_markets": 1.89,
+    "mean_markets_per_firm": 3.5,
+    "job_shares": {
+     "medical": 0.72,
+     "food & beverage": 0.063,
+     "aerospace & defense": 0.039,
+     "agriculture": 0.027,
+     "heavy truck & trailer": 0.027,
+     "furniture & housing": 0.021,
+     "automotive": 0.019,
+     "electronics & telecom": 0.018,
+     "marine": 0.015,
+     "construction & building products": 0.014,
+     "energy & utilities": 0.011,
+     "retail & commercial": 0.008,
+     "RV": 0.004,
+     "primary metals": 0.004,
+     "consumer products": 0.003,
+     "industrial machinery & equipment": 0.003,
+     "printing & publishing": 0.001,
+     "packaging": 0.001,
+     "rail & transit": 0.001
+    },
+    "firm_counts": {
+     "medical": 14,
+     "agriculture": 9,
+     "aerospace & defense": 8,
+     "construction & building products": 8,
+     "automotive": 7,
+     "electronics & telecom": 7,
+     "furniture & housing": 6,
+     "marine": 5,
+     "energy & utilities": 5,
+     "heavy truck & trailer": 5,
+     "food & beverage": 5,
+     "RV": 4,
+     "primary metals": 3,
+     "consumer products": 3,
+     "retail & commercial": 3,
+     "industrial machinery & equipment": 3,
+     "printing & publishing": 1,
+     "rail & transit": 1,
+     "packaging": 1
+    }
+   }
+  },
+  "18087": {
+   "name": "LaGrange, IN",
+   "firms": 34,
+   "jobs": 3585,
+   "made_to_order": {
+    "firms_recorded": 7,
+    "jobs_recorded": 1155,
+    "firms": {
+     "mixed": 2,
+     "no": 4,
+     "yes": 1
+    },
+    "job_share_yes": 0.16,
+    "job_share_yes_or_mixed": 0.291
+   },
+   "job_shop": {
+    "firms_recorded": 7,
+    "jobs_recorded": 1155,
+    "firms_true": 1,
+    "job_share": 0.16
+   },
+   "product_lines": {
+    "firms_recorded": 5,
+    "mean": 7.4,
+    "median": 4,
+    "job_weighted_mean": 5.46
+   },
+   "end_markets": {
+    "firms_recorded": 8,
+    "jobs_recorded": 2043,
+    "hhi": 0.323,
+    "effective_markets": 3.09,
+    "mean_markets_per_firm": 1.88,
+    "job_shares": {
+     "RV": 0.44,
+     "automotive": 0.341,
+     "marine": 0.072,
+     "construction & building products": 0.072,
+     "agriculture": 0.052,
+     "food & beverage": 0.009,
+     "chemicals & plastics": 0.009,
+     "consumer products": 0.005
+    },
+    "firm_counts": {
+     "RV": 4,
+     "agriculture": 3,
+     "automotive": 3,
+     "consumer products": 1,
+     "marine": 1,
+     "construction & building products": 1,
+     "food & beverage": 1,
+     "chemicals & plastics": 1
+    }
+   }
+  },
+  "18091": {
+   "name": "LaPorte, IN",
+   "firms": 80,
+   "jobs": 8079,
+   "made_to_order": {
+    "firms_recorded": 28,
+    "jobs_recorded": 2568,
+    "firms": {
+     "yes": 10,
+     "no": 9,
+     "mixed": 9
+    },
+    "job_share_yes": 0.285,
+    "job_share_yes_or_mixed": 0.483
+   },
+   "job_shop": {
+    "firms_recorded": 25,
+    "jobs_recorded": 2571,
+    "firms_true": 13,
+    "job_share": 0.412
+   },
+   "product_lines": {
+    "firms_recorded": 14,
+    "mean": 7.29,
+    "median": 7,
+    "job_weighted_mean": 6.97
+   },
+   "end_markets": {
+    "firms_recorded": 27,
+    "jobs_recorded": 2881,
+    "hhi": 0.089,
+    "effective_markets": 11.22,
+    "mean_markets_per_firm": 3.74,
+    "job_shares": {
+     "food & beverage": 0.169,
+     "construction & building products": 0.122,
+     "medical": 0.121,
+     "automotive": 0.091,
+     "agriculture": 0.077,
+     "aerospace & defense": 0.057,
+     "marine": 0.052,
+     "packaging": 0.05,
+     "energy & utilities": 0.048,
+     "chemicals & plastics": 0.043,
+     "industrial machinery & equipment": 0.038,
+     "furniture & housing": 0.032,
+     "consumer products": 0.022,
+     "electronics & telecom": 0.019,
+     "rail & transit": 0.018,
+     "primary metals": 0.016,
+     "heavy truck & trailer": 0.015,
+     "retail & commercial": 0.009
+    },
+    "firm_counts": {
+     "construction & building products": 13,
+     "medical": 12,
+     "aerospace & defense": 10,
+     "agriculture": 10,
+     "automotive": 9,
+     "food & beverage": 6,
+     "energy & utilities": 5,
+     "industrial machinery & equipment": 5,
+     "marine": 4,
+     "furniture & housing": 4,
+     "rail & transit": 4,
+     "heavy truck & trailer": 4,
+     "chemicals & plastics": 3,
+     "electronics & telecom": 3,
+     "packaging": 3,
+     "primary metals": 2,
+     "retail & commercial": 2,
+     "consumer products": 2
+    }
+   }
+  },
+  "18099": {
+   "name": "Marshall, IN",
+   "firms": 52,
+   "jobs": 4989,
+   "made_to_order": {
+    "firms_recorded": 21,
+    "jobs_recorded": 2036,
+    "firms": {
+     "mixed": 11,
+     "yes": 6,
+     "no": 4
+    },
+    "job_share_yes": 0.149,
+    "job_share_yes_or_mixed": 0.64
+   },
+   "job_shop": {
+    "firms_recorded": 18,
+    "jobs_recorded": 1825,
+    "firms_true": 5,
+    "job_share": 0.108
+   },
+   "product_lines": {
+    "firms_recorded": 7,
+    "mean": 5.43,
+    "median": 6,
+    "job_weighted_mean": 6.08
+   },
+   "end_markets": {
+    "firms_recorded": 23,
+    "jobs_recorded": 2574,
+    "hhi": 0.175,
+    "effective_markets": 5.71,
+    "mean_markets_per_firm": 3.83,
+    "job_shares": {
+     "automotive": 0.34,
+     "construction & building products": 0.198,
+     "energy & utilities": 0.064,
+     "electronics & telecom": 0.063,
+     "medical": 0.054,
+     "food & beverage": 0.053,
+     "industrial machinery & equipment": 0.045,
+     "rail & transit": 0.044,
+     "retail & commercial": 0.029,
+     "agriculture": 0.026,
+     "furniture & housing": 0.023,
+     "heavy truck & trailer": 0.016,
+     "consumer products": 0.014,
+     "aerospace & defense": 0.011,
+     "RV": 0.008,
+     "packaging": 0.007,
+     "marine": 0.003,
+     "primary metals": 0.002,
+     "chemicals & plastics": 0.002
+    },
+    "firm_counts": {
+     "construction & building products": 12,
+     "energy & utilities": 8,
+     "automotive": 8,
+     "agriculture": 7,
+     "electronics & telecom": 6,
+     "medical": 6,
+     "food & beverage": 6,
+     "heavy truck & trailer": 5,
+     "rail & transit": 5,
+     "aerospace & defense": 5,
+     "RV": 4,
+     "industrial machinery & equipment": 3,
+     "packaging": 3,
+     "furniture & housing": 2,
+     "marine": 2,
+     "retail & commercial": 2,
+     "consumer products": 2,
+     "primary metals": 1,
+     "chemicals & plastics": 1
+    }
+   }
+  },
+  "18113": {
+   "name": "Noble, IN",
+   "firms": 39,
+   "jobs": 4751,
+   "made_to_order": {
+    "firms_recorded": 7,
+    "jobs_recorded": 1064,
+    "firms": {
+     "yes": 2,
+     "no": 2,
+     "mixed": 3
+    },
+    "job_share_yes": 0.133,
+    "job_share_yes_or_mixed": 0.95
+   },
+   "job_shop": {
+    "firms_recorded": 7,
+    "jobs_recorded": 1133,
+    "firms_true": 2,
+    "job_share": 0.125
+   },
+   "product_lines": {
+    "firms_recorded": 5,
+    "mean": 6.6,
+    "median": 6,
+    "job_weighted_mean": 9.84
+   },
+   "end_markets": {
+    "firms_recorded": 8,
+    "jobs_recorded": 1477,
+    "hhi": 0.125,
+    "effective_markets": 7.98,
+    "mean_markets_per_firm": 4.5,
+    "job_shares": {
+     "automotive": 0.251,
+     "agriculture": 0.127,
+     "heavy truck & trailer": 0.098,
+     "construction & building products": 0.098,
+     "marine": 0.098,
+     "RV": 0.073,
+     "furniture & housing": 0.073,
+     "food & beverage": 0.055,
+     "consumer products": 0.04,
+     "medical": 0.032,
+     "rail & transit": 0.024,
+     "energy & utilities": 0.024,
+     "electronics & telecom": 0.002,
+     "aerospace & defense": 0.002,
+     "industrial machinery & equipment": 0.002
+    },
+    "firm_counts": {
+     "automotive": 5,
+     "agriculture": 4,
+     "medical": 3,
+     "heavy truck & trailer": 3,
+     "construction & building products": 3,
+     "electronics & telecom": 2,
+     "aerospace & defense": 2,
+     "industrial machinery & equipment": 2,
+     "consumer products": 2,
+     "rail & transit": 2,
+     "energy & utilities": 2,
+     "marine": 2,
+     "food & beverage": 2,
+     "RV": 1,
+     "furniture & housing": 1
+    }
+   }
+  },
+  "18141": {
+   "name": "St. Joseph, IN",
+   "firms": 132,
+   "jobs": 8767,
+   "made_to_order": {
+    "firms_recorded": 49,
+    "jobs_recorded": 2903,
+    "firms": {
+     "no": 8,
+     "yes": 26,
+     "mixed": 15
+    },
+    "job_share_yes": 0.569,
+    "job_share_yes_or_mixed": 0.877
+   },
+   "job_shop": {
+    "firms_recorded": 41,
+    "jobs_recorded": 2157,
+    "firms_true": 21,
+    "job_share": 0.529
+   },
+   "product_lines": {
+    "firms_recorded": 17,
+    "mean": 4.88,
+    "median": 4,
+    "job_weighted_mean": 4.81
+   },
+   "end_markets": {
+    "firms_recorded": 51,
+    "jobs_recorded": 3618,
+    "hhi": 0.076,
+    "effective_markets": 13.11,
+    "mean_markets_per_firm": 3.45,
+    "job_shares": {
+     "construction & building products": 0.132,
+     "medical": 0.118,
+     "food & beverage": 0.09,
+     "energy & utilities": 0.086,
+     "electronics & telecom": 0.076,
+     "aerospace & defense": 0.072,
+     "agriculture": 0.071,
+     "automotive": 0.059,
+     "heavy truck & trailer": 0.053,
+     "consumer products": 0.047,
+     "industrial machinery & equipment": 0.043,
+     "RV": 0.028,
+     "furniture & housing": 0.027,
+     "retail & commercial": 0.024,
+     "packaging": 0.022,
+     "marine": 0.019,
+     "chemicals & plastics": 0.016,
+     "rail & transit": 0.011,
+     "primary metals": 0.006,
+     "printing & publishing": 0.002
+    },
+    "firm_counts": {
+     "construction & building products": 19,
+     "agriculture": 16,
+     "medical": 15,
+     "automotive": 13,
+     "aerospace & defense": 12,
+     "electronics & telecom": 12,
+     "food & beverage": 12,
+     "energy & utilities": 11,
+     "industrial machinery & equipment": 8,
+     "consumer products": 8,
+     "chemicals & plastics": 7,
+     "RV": 7,
+     "marine": 6,
+     "rail & transit": 5,
+     "heavy truck & trailer": 5,
+     "furniture & housing": 5,
+     "retail & commercial": 5,
+     "primary metals": 4,
+     "packaging": 4,
+     "printing & publishing": 2
+    }
+   }
+  },
+  "18149": {
+   "name": "Starke, IN",
+   "firms": 11,
+   "jobs": 538,
+   "made_to_order": {
+    "firms_recorded": 3,
+    "jobs_recorded": 244,
+    "firms": {
+     "mixed": 2,
+     "no": 1
+    },
+    "job_share_yes": 0.0,
+    "job_share_yes_or_mixed": 0.492
+   },
+   "job_shop": {
+    "firms_recorded": 4,
+    "jobs_recorded": 259,
+    "firms_true": 1,
+    "job_share": 0.058
+   },
+   "product_lines": {
+    "firms_recorded": 1,
+    "mean": 3.0,
+    "median": 3,
+    "job_weighted_mean": 3.0
+   },
+   "end_markets": {
+    "firms_recorded": 3,
+    "jobs_recorded": 135,
+    "hhi": 0.403,
+    "effective_markets": 2.48,
+    "mean_markets_per_firm": 4.0,
+    "job_shares": {
+     "food & beverage": 0.5,
+     "chemicals & plastics": 0.389,
+     "automotive": 0.012,
+     "medical": 0.012,
+     "consumer products": 0.012,
+     "agriculture": 0.012,
+     "aerospace & defense": 0.012,
+     "marine": 0.012,
+     "RV": 0.012,
+     "construction & building products": 0.012,
+     "electronics & telecom": 0.012
+    },
+    "firm_counts": {
+     "food & beverage": 2,
+     "automotive": 1,
+     "medical": 1,
+     "consumer products": 1,
+     "agriculture": 1,
+     "aerospace & defense": 1,
+     "marine": 1,
+     "RV": 1,
+     "construction & building products": 1,
+     "electronics & telecom": 1,
+     "chemicals & plastics": 1
+    }
+   }
+  },
+  "18183": {
+   "name": "Whitley, IN",
+   "firms": 23,
+   "jobs": 3800,
+   "made_to_order": {
+    "firms_recorded": 3,
+    "jobs_recorded": 158,
+    "firms": {
+     "yes": 2,
+     "mixed": 1
+    },
+    "job_share_yes": 0.171,
+    "job_share_yes_or_mixed": 1.0
+   },
+   "job_shop": {
+    "firms_recorded": 2,
+    "jobs_recorded": 27,
+    "firms_true": 2,
+    "job_share": 1.0
+   },
+   "product_lines": {
+    "firms_recorded": 1,
+    "mean": 5.0,
+    "median": 5,
+    "job_weighted_mean": null
+   },
+   "end_markets": {
+    "firms_recorded": 6,
+    "jobs_recorded": 158,
+    "hhi": 0.222,
+    "effective_markets": 4.51,
+    "mean_markets_per_firm": 2.33,
+    "job_shares": {
+     "construction & building products": 0.293,
+     "energy & utilities": 0.207,
+     "medical": 0.207,
+     "furniture & housing": 0.207,
+     "heavy truck & trailer": 0.085,
+     "automotive": 0.0,
+     "chemicals & plastics": 0.0,
+     "industrial machinery & equipment": 0.0,
+     "electronics & telecom": 0.0,
+     "aerospace & defense": 0.0
+    },
+    "firm_counts": {
+     "automotive": 3,
+     "energy & utilities": 2,
+     "construction & building products": 2,
+     "chemicals & plastics": 1,
+     "industrial machinery & equipment": 1,
+     "electronics & telecom": 1,
+     "aerospace & defense": 1,
+     "heavy truck & trailer": 1,
+     "medical": 1,
+     "furniture & housing": 1
+    }
+   }
+  },
+  "26021": {
+   "name": "Berrien, MI",
+   "firms": 110,
+   "jobs": 7065,
+   "made_to_order": {
+    "firms_recorded": 37,
+    "jobs_recorded": 2688,
+    "firms": {
+     "no": 4,
+     "yes": 20,
+     "mixed": 13
+    },
+    "job_share_yes": 0.567,
+    "job_share_yes_or_mixed": 0.836
+   },
+   "job_shop": {
+    "firms_recorded": 33,
+    "jobs_recorded": 2235,
+    "firms_true": 22,
+    "job_share": 0.616
+   },
+   "product_lines": {
+    "firms_recorded": 13,
+    "mean": 6.23,
+    "median": 6,
+    "job_weighted_mean": 5.48
+   },
+   "end_markets": {
+    "firms_recorded": 34,
+    "jobs_recorded": 2570,
+    "hhi": 0.082,
+    "effective_markets": 12.18,
+    "mean_markets_per_firm": 3.56,
+    "job_shares": {
+     "automotive": 0.144,
+     "aerospace & defense": 0.123,
+     "medical": 0.106,
+     "energy & utilities": 0.098,
+     "printing & publishing": 0.074,
+     "industrial machinery & equipment": 0.062,
+     "food & beverage": 0.06,
+     "heavy truck & trailer": 0.056,
+     "construction & building products": 0.05,
+     "electronics & telecom": 0.049,
+     "agriculture": 0.034,
+     "packaging": 0.028,
+     "retail & commercial": 0.025,
+     "primary metals": 0.025,
+     "rail & transit": 0.018,
+     "furniture & housing": 0.018,
+     "chemicals & plastics": 0.013,
+     "consumer products": 0.011,
+     "marine": 0.003,
+     "RV": 0.002
+    },
+    "firm_counts": {
+     "automotive": 18,
+     "medical": 13,
+     "industrial machinery & equipment": 12,
+     "aerospace & defense": 12,
+     "electronics & telecom": 10,
+     "energy & utilities": 10,
+     "construction & building products": 7,
+     "food & beverage": 5,
+     "agriculture": 5,
+     "heavy truck & trailer": 4,
+     "chemicals & plastics": 4,
+     "rail & transit": 4,
+     "furniture & housing": 4,
+     "retail & commercial": 2,
+     "marine": 2,
+     "consumer products": 2,
+     "printing & publishing": 2,
+     "packaging": 2,
+     "primary metals": 2,
+     "RV": 1
+    }
+   }
+  },
+  "26027": {
+   "name": "Cass, MI",
+   "firms": 23,
+   "jobs": 1750,
+   "made_to_order": {
+    "firms_recorded": 8,
+    "jobs_recorded": 509,
+    "firms": {
+     "mixed": 4,
+     "yes": 3,
+     "no": 1
+    },
+    "job_share_yes": 0.318,
+    "job_share_yes_or_mixed": 0.843
+   },
+   "job_shop": {
+    "firms_recorded": 8,
+    "jobs_recorded": 577,
+    "firms_true": 5,
+    "job_share": 0.624
+   },
+   "product_lines": {
+    "firms_recorded": 2,
+    "mean": 5.0,
+    "median": 6,
+    "job_weighted_mean": 5.57
+   },
+   "end_markets": {
+    "firms_recorded": 7,
+    "jobs_recorded": 444,
+    "hhi": 0.111,
+    "effective_markets": 9.04,
+    "mean_markets_per_firm": 2.57,
+    "job_shares": {
+     "energy & utilities": 0.215,
+     "construction & building products": 0.141,
+     "aerospace & defense": 0.11,
+     "medical": 0.079,
+     "automotive": 0.075,
+     "RV": 0.055,
+     "heavy truck & trailer": 0.055,
+     "agriculture": 0.055,
+     "rail & transit": 0.055,
+     "marine": 0.055,
+     "industrial machinery & equipment": 0.054,
+     "food & beverage": 0.05
+    },
+    "firm_counts": {
+     "aerospace & defense": 3,
+     "automotive": 2,
+     "industrial machinery & equipment": 2,
+     "energy & utilities": 2,
+     "construction & building products": 2,
+     "RV": 1,
+     "heavy truck & trailer": 1,
+     "agriculture": 1,
+     "rail & transit": 1,
+     "marine": 1,
+     "food & beverage": 1,
+     "medical": 1
+    }
+   }
+  },
+  "26159": {
+   "name": "Van Buren, MI",
+   "firms": 22,
+   "jobs": 3010,
+   "made_to_order": {
+    "firms_recorded": 3,
+    "jobs_recorded": 1167,
+    "firms": {
+     "mixed": 3
+    },
+    "job_share_yes": 0.0,
+    "job_share_yes_or_mixed": 1.0
+   },
+   "job_shop": {
+    "firms_recorded": 3,
+    "jobs_recorded": 1167,
+    "firms_true": 2,
+    "job_share": 0.903
+   },
+   "product_lines": {
+    "firms_recorded": 3,
+    "mean": 4.33,
+    "median": 5,
+    "job_weighted_mean": 3.55
+   },
+   "end_markets": {
+    "firms_recorded": 2,
+    "jobs_recorded": 1054,
+    "hhi": 0.2,
+    "effective_markets": 5.0,
+    "mean_markets_per_firm": 2.5,
+    "job_shares": {
+     "automotive": 0.2,
+     "heavy truck & trailer": 0.2,
+     "agriculture": 0.2,
+     "industrial machinery & equipment": 0.2,
+     "food & beverage": 0.199
+    },
+    "firm_counts": {
+     "food & beverage": 1,
+     "automotive": 1,
+     "heavy truck & trailer": 1,
+     "agriculture": 1,
+     "industrial machinery & equipment": 1
+    }
+   }
+  },
+  "unknown": {
+   "name": "unknown",
+   "firms": 4,
+   "jobs": 185,
+   "made_to_order": {
+    "firms_recorded": 3,
+    "jobs_recorded": 145,
+    "firms": {
+     "yes": 1,
+     "mixed": 1,
+     "no": 1
+    },
+    "job_share_yes": 0.586,
+    "job_share_yes_or_mixed": 0.724
+   },
+   "job_shop": {
+    "firms_recorded": 3,
+    "jobs_recorded": 145,
+    "firms_true": 2,
+    "job_share": 0.724
+   },
+   "product_lines": {
+    "firms_recorded": 1,
+    "mean": 3.0,
+    "median": 3,
+    "job_weighted_mean": 3.0
+   },
+   "end_markets": {
+    "firms_recorded": 4,
+    "jobs_recorded": 185,
+    "hhi": 0.327,
+    "effective_markets": 3.06,
+    "mean_markets_per_firm": 2.0,
+    "job_shares": {
+     "RV": 0.481,
+     "chemicals & plastics": 0.216,
+     "food & beverage": 0.216,
+     "automotive": 0.022,
+     "heavy truck & trailer": 0.022,
+     "marine": 0.022,
+     "rail & transit": 0.022
+    },
+    "firm_counts": {
+     "RV": 2,
+     "automotive": 1,
+     "heavy truck & trailer": 1,
+     "marine": 1,
+     "rail & transit": 1,
+     "chemicals & plastics": 1,
+     "food & beverage": 1
+    }
+   }
+  }
+ },
+ "counties_site_scope_only": {
+  "18039": {
+   "name": "Elkhart, IN",
+   "firms": 394,
+   "jobs": 48286,
+   "made_to_order": {
+    "firms_recorded": 124,
+    "jobs_recorded": 20165,
+    "firms": {
+     "yes": 34,
+     "mixed": 47,
+     "no": 43
+    },
+    "job_share_yes": 0.103,
+    "job_share_yes_or_mixed": 0.405
+   },
+   "job_shop": {
+    "firms_recorded": 109,
+    "jobs_recorded": 19416,
+    "firms_true": 37,
+    "job_share": 0.122
+   },
+   "product_lines": {
+    "firms_recorded": 71,
+    "mean": 6.61,
+    "median": 5,
+    "job_weighted_mean": 7.58
+   },
+   "end_markets": {
+    "firms_recorded": 120,
+    "jobs_recorded": 20333,
+    "hhi": 0.306,
+    "effective_markets": 3.27,
+    "mean_markets_per_firm": 2.87,
+    "job_shares": {
+     "RV": 0.525,
+     "heavy truck & trailer": 0.115,
+     "furniture & housing": 0.097,
+     "marine": 0.051,
+     "automotive": 0.039,
+     "consumer products": 0.031,
+     "construction & building products": 0.03,
+     "packaging": 0.019,
+     "medical": 0.018,
+     "food & beverage": 0.017,
+     "agriculture": 0.013,
+     "electronics & telecom": 0.013,
+     "energy & utilities": 0.01,
+     "industrial machinery & equipment": 0.007,
+     "retail & commercial": 0.006,
+     "aerospace & defense": 0.006,
+     "rail & transit": 0.002,
+     "chemicals & plastics": 0.001,
+     "primary metals": 0.0
+    },
+    "firm_counts": {
+     "RV": 65,
+     "heavy truck & trailer": 40,
+     "marine": 32,
+     "automotive": 26,
+     "furniture & housing": 26,
+     "construction & building products": 20,
+     "medical": 18,
+     "agriculture": 17,
+     "electronics & telecom": 16,
+     "consumer products": 15,
+     "aerospace & defense": 13,
+     "industrial machinery & equipment": 13,
+     "retail & commercial": 11,
+     "energy & utilities": 9,
+     "packaging": 7,
+     "food & beverage": 7,
+     "rail & transit": 6,
+     "chemicals & plastics": 2,
+     "primary metals": 1
+    }
+   }
+  },
+  "18049": {
+   "name": "Fulton, IN",
+   "firms": 10,
+   "jobs": 1119,
+   "made_to_order": {
+    "firms_recorded": 0,
+    "jobs_recorded": 0,
+    "firms": {},
+    "job_share_yes": null,
+    "job_share_yes_or_mixed": null
+   },
+   "job_shop": {
+    "firms_recorded": 0,
+    "jobs_recorded": 0,
+    "firms_true": 0,
+    "job_share": null
+   },
+   "product_lines": {
+    "firms_recorded": 0,
+    "mean": null,
+    "median": null,
+    "job_weighted_mean": null
+   },
+   "end_markets": {
+    "firms_recorded": 1,
+    "jobs_recorded": 60,
+    "hhi": 0.5,
+    "effective_markets": 2.0,
+    "mean_markets_per_firm": 2.0,
+    "job_shares": {
+     "energy & utilities": 0.5,
+     "rail & transit": 0.5
+    },
+    "firm_counts": {
+     "energy & utilities": 1,
+     "rail & transit": 1
+    }
+   }
+  },
+  "18085": {
+   "name": "Kosciusko, IN",
+   "firms": 80,
+   "jobs": 8374,
+   "made_to_order": {
+    "firms_recorded": 27,
+    "jobs_recorded": 1838,
+    "firms": {
+     "mixed": 9,
+     "no": 8,
+     "yes": 10
+    },
+    "job_share_yes": 0.251,
+    "job_share_yes_or_mixed": 0.702
+   },
+   "job_shop": {
+    "firms_recorded": 26,
+    "jobs_recorded": 1709,
+    "firms_true": 11,
+    "job_share": 0.417
+   },
+   "product_lines": {
+    "firms_recorded": 13,
+    "mean": 5.77,
+    "median": 6,
+    "job_weighted_mean": 6.3
+   },
+   "end_markets": {
+    "firms_recorded": 24,
+    "jobs_recorded": 1445,
+    "hhi": 0.11,
+    "effective_markets": 9.11,
+    "mean_markets_per_firm": 3.5,
+    "job_shares": {
+     "food & beverage": 0.196,
+     "medical": 0.162,
+     "aerospace & defense": 0.118,
+     "heavy truck & trailer": 0.105,
+     "furniture & housing": 0.083,
+     "marine": 0.06,
+     "construction & building products": 0.056,
+     "agriculture": 0.055,
+     "retail & commercial": 0.031,
+     "energy & utilities": 0.025,
+     "automotive": 0.022,
+     "electronics & telecom": 0.018,
+     "RV": 0.016,
+     "primary metals": 0.014,
+     "consumer products": 0.014,
+     "industrial machinery & equipment": 0.013,
+     "printing & publishing": 0.005,
+     "packaging": 0.003,
+     "rail & transit": 0.003
+    },
+    "firm_counts": {
+     "medical": 10,
+     "construction & building products": 8,
+     "agriculture": 7,
+     "aerospace & defense": 7,
+     "furniture & housing": 6,
+     "automotive": 5,
+     "marine": 5,
+     "heavy truck & trailer": 5,
+     "electronics & telecom": 5,
+     "energy & utilities": 4,
+     "RV": 4,
+     "primary metals": 3,
+     "food & beverage": 3,
+     "consumer products": 3,
+     "retail & commercial": 3,
+     "industrial machinery & equipment": 3,
+     "printing & publishing": 1,
+     "rail & transit": 1,
+     "packaging": 1
+    }
+   }
+  },
+  "18087": {
+   "name": "LaGrange, IN",
+   "firms": 31,
+   "jobs": 2282,
+   "made_to_order": {
+    "firms_recorded": 6,
+    "jobs_recorded": 970,
+    "firms": {
+     "mixed": 2,
+     "no": 4
+    },
+    "job_share_yes": 0.0,
+    "job_share_yes_or_mixed": 0.156
+   },
+   "job_shop": {
+    "firms_recorded": 6,
+    "jobs_recorded": 970,
+    "firms_true": 0,
+    "job_share": 0.0
+   },
+   "product_lines": {
+    "firms_recorded": 5,
+    "mean": 7.4,
+    "median": 4,
+    "job_weighted_mean": 5.46
+   },
+   "end_markets": {
+    "firms_recorded": 6,
+    "jobs_recorded": 925,
+    "hhi": 0.677,
+    "effective_markets": 1.48,
+    "mean_markets_per_firm": 1.67,
+    "job_shares": {
+     "RV": 0.814,
+     "agriculture": 0.115,
+     "automotive": 0.02,
+     "food & beverage": 0.02,
+     "chemicals & plastics": 0.02,
+     "consumer products": 0.011
+    },
+    "firm_counts": {
+     "RV": 3,
+     "agriculture": 3,
+     "consumer products": 1,
+     "automotive": 1,
+     "food & beverage": 1,
+     "chemicals & plastics": 1
+    }
+   }
+  },
+  "18091": {
+   "name": "LaPorte, IN",
+   "firms": 78,
+   "jobs": 7648,
+   "made_to_order": {
+    "firms_recorded": 28,
+    "jobs_recorded": 2568,
+    "firms": {
+     "yes": 10,
+     "no": 9,
+     "mixed": 9
+    },
+    "job_share_yes": 0.285,
+    "job_share_yes_or_mixed": 0.483
+   },
+   "job_shop": {
+    "firms_recorded": 24,
+    "jobs_recorded": 2371,
+    "firms_true": 12,
+    "job_share": 0.362
+   },
+   "product_lines": {
+    "firms_recorded": 14,
+    "mean": 7.29,
+    "median": 7,
+    "job_weighted_mean": 6.97
+   },
+   "end_markets": {
+    "firms_recorded": 25,
+    "jobs_recorded": 2450,
+    "hhi": 0.099,
+    "effective_markets": 10.13,
+    "mean_markets_per_firm": 3.68,
+    "job_shares": {
+     "food & beverage": 0.199,
+     "medical": 0.123,
+     "construction & building products": 0.104,
+     "agriculture": 0.09,
+     "automotive": 0.088,
+     "aerospace & defense": 0.068,
+     "energy & utilities": 0.057,
+     "chemicals & plastics": 0.051,
+     "industrial machinery & equipment": 0.045,
+     "marine": 0.043,
+     "packaging": 0.038,
+     "rail & transit": 0.022,
+     "primary metals": 0.019,
+     "furniture & housing": 0.019,
+     "heavy truck & trailer": 0.017,
+     "retail & commercial": 0.01,
+     "consumer products": 0.006,
+     "electronics & telecom": 0.002
+    },
+    "firm_counts": {
+     "medical": 11,
+     "construction & building products": 11,
+     "aerospace & defense": 10,
+     "agriculture": 10,
+     "automotive": 8,
+     "food & beverage": 6,
+     "energy & utilities": 5,
+     "industrial machinery & equipment": 5,
+     "rail & transit": 4,
+     "heavy truck & trailer": 4,
+     "marine": 3,
+     "chemicals & plastics": 3,
+     "furniture & housing": 3,
+     "primary metals": 2,
+     "retail & commercial": 2,
+     "electronics & telecom": 2,
+     "packaging": 2,
+     "consumer products": 1
+    }
+   }
+  },
+  "18099": {
+   "name": "Marshall, IN",
+   "firms": 43,
+   "jobs": 3826,
+   "made_to_order": {
+    "firms_recorded": 15,
+    "jobs_recorded": 1623,
+    "firms": {
+     "mixed": 8,
+     "yes": 5,
+     "no": 2
+    },
+    "job_share_yes": 0.146,
+    "job_share_yes_or_mixed": 0.59
+   },
+   "job_shop": {
+    "firms_recorded": 13,
+    "jobs_recorded": 1471,
+    "firms_true": 4,
+    "job_share": 0.089
+   },
+   "product_lines": {
+    "firms_recorded": 7,
+    "mean": 5.43,
+    "median": 6,
+    "job_weighted_mean": 6.08
+   },
+   "end_markets": {
+    "firms_recorded": 14,
+    "jobs_recorded": 1411,
+    "hhi": 0.33,
+    "effective_markets": 3.03,
+    "mean_markets_per_firm": 2.64,
+    "job_shares": {
+     "automotive": 0.516,
+     "construction & building products": 0.231,
+     "food & beverage": 0.079,
+     "retail & commercial": 0.052,
+     "heavy truck & trailer": 0.025,
+     "furniture & housing": 0.023,
+     "agriculture": 0.014,
+     "energy & utilities": 0.013,
+     "RV": 0.009,
+     "electronics & telecom": 0.009,
+     "rail & transit": 0.006,
+     "aerospace & defense": 0.005,
+     "marine": 0.005,
+     "medical": 0.005,
+     "industrial machinery & equipment": 0.004,
+     "primary metals": 0.003,
+     "chemicals & plastics": 0.003
+    },
+    "firm_counts": {
+     "construction & building products": 4,
+     "food & beverage": 4,
+     "agriculture": 3,
+     "heavy truck & trailer": 3,
+     "automotive": 3,
+     "energy & utilities": 2,
+     "RV": 2,
+     "electronics & telecom": 2,
+     "aerospace & defense": 2,
+     "marine": 2,
+     "medical": 2,
+     "retail & commercial": 2,
+     "rail & transit": 2,
+     "furniture & housing": 1,
+     "primary metals": 1,
+     "chemicals & plastics": 1,
+     "industrial machinery & equipment": 1
+    }
+   }
+  },
+  "18113": {
+   "name": "Noble, IN",
+   "firms": 37,
+   "jobs": 4282,
+   "made_to_order": {
+    "firms_recorded": 6,
+    "jobs_recorded": 845,
+    "firms": {
+     "yes": 2,
+     "no": 2,
+     "mixed": 2
+    },
+    "job_share_yes": 0.168,
+    "job_share_yes_or_mixed": 0.937
+   },
+   "job_shop": {
+    "firms_recorded": 7,
+    "jobs_recorded": 1133,
+    "firms_true": 2,
+    "job_share": 0.125
+   },
+   "product_lines": {
+    "firms_recorded": 4,
+    "mean": 6.75,
+    "median": 6,
+    "job_weighted_mean": 10.81
+   },
+   "end_markets": {
+    "firms_recorded": 6,
+    "jobs_recorded": 1008,
+    "hhi": 0.155,
+    "effective_markets": 6.47,
+    "mean_markets_per_firm": 4.0,
+    "job_shares": {
+     "automotive": 0.289,
+     "heavy truck & trailer": 0.107,
+     "construction & building products": 0.107,
+     "agriculture": 0.107,
+     "RV": 0.107,
+     "marine": 0.107,
+     "furniture & housing": 0.107,
+     "food & beverage": 0.037,
+     "consumer products": 0.016,
+     "medical": 0.003,
+     "electronics & telecom": 0.003,
+     "aerospace & defense": 0.003,
+     "industrial machinery & equipment": 0.003,
+     "rail & transit": 0.0,
+     "energy & utilities": 0.0
+    },
+    "firm_counts": {
+     "automotive": 3,
+     "medical": 2,
+     "electronics & telecom": 2,
+     "aerospace & defense": 2,
+     "industrial machinery & equipment": 2,
+     "heavy truck & trailer": 2,
+     "construction & building products": 2,
+     "agriculture": 2,
+     "consumer products": 1,
+     "rail & transit": 1,
+     "energy & utilities": 1,
+     "RV": 1,
+     "marine": 1,
+     "furniture & housing": 1,
+     "food & beverage": 1
+    }
+   }
+  },
+  "18141": {
+   "name": "St. Joseph, IN",
+   "firms": 121,
+   "jobs": 7517,
+   "made_to_order": {
+    "firms_recorded": 45,
+    "jobs_recorded": 2695,
+    "firms": {
+     "no": 7,
+     "yes": 26,
+     "mixed": 12
+    },
+    "job_share_yes": 0.613,
+    "job_share_yes_or_mixed": 0.913
+   },
+   "job_shop": {
+    "firms_recorded": 37,
+    "jobs_recorded": 1949,
+    "firms_true": 21,
+    "job_share": 0.585
+   },
+   "product_lines": {
+    "firms_recorded": 15,
+    "mean": 4.8,
+    "median": 4,
+    "job_weighted_mean": 4.63
+   },
+   "end_markets": {
+    "firms_recorded": 40,
+    "jobs_recorded": 2368,
+    "hhi": 0.081,
+    "effective_markets": 12.29,
+    "mean_markets_per_firm": 3.17,
+    "job_shares": {
+     "medical": 0.144,
+     "aerospace & defense": 0.108,
+     "construction & building products": 0.108,
+     "energy & utilities": 0.095,
+     "electronics & telecom": 0.084,
+     "food & beverage": 0.075,
+     "consumer products": 0.064,
+     "agriculture": 0.058,
+     "RV": 0.042,
+     "automotive": 0.039,
+     "furniture & housing": 0.036,
+     "heavy truck & trailer": 0.035,
+     "retail & commercial": 0.032,
+     "chemicals & plastics": 0.02,
+     "marine": 0.02,
+     "industrial machinery & equipment": 0.019,
+     "primary metals": 0.009,
+     "rail & transit": 0.007,
+     "packaging": 0.005,
+     "printing & publishing": 0.001
+    },
+    "firm_counts": {
+     "construction & building products": 12,
+     "agriculture": 11,
+     "aerospace & defense": 11,
+     "medical": 11,
+     "automotive": 9,
+     "electronics & telecom": 9,
+     "energy & utilities": 8,
+     "food & beverage": 8,
+     "RV": 7,
+     "chemicals & plastics": 6,
+     "industrial machinery & equipment": 5,
+     "consumer products": 5,
+     "primary metals": 4,
+     "marine": 4,
+     "furniture & housing": 4,
+     "retail & commercial": 4,
+     "rail & transit": 3,
+     "heavy truck & trailer": 3,
+     "packaging": 2,
+     "printing & publishing": 1
+    }
+   }
+  },
+  "18149": {
+   "name": "Starke, IN",
+   "firms": 11,
+   "jobs": 538,
+   "made_to_order": {
+    "firms_recorded": 3,
+    "jobs_recorded": 244,
+    "firms": {
+     "mixed": 2,
+     "no": 1
+    },
+    "job_share_yes": 0.0,
+    "job_share_yes_or_mixed": 0.492
+   },
+   "job_shop": {
+    "firms_recorded": 4,
+    "jobs_recorded": 259,
+    "firms_true": 1,
+    "job_share": 0.058
+   },
+   "product_lines": {
+    "firms_recorded": 1,
+    "mean": 3.0,
+    "median": 3,
+    "job_weighted_mean": 3.0
+   },
+   "end_markets": {
+    "firms_recorded": 3,
+    "jobs_recorded": 135,
+    "hhi": 0.403,
+    "effective_markets": 2.48,
+    "mean_markets_per_firm": 4.0,
+    "job_shares": {
+     "food & beverage": 0.5,
+     "chemicals & plastics": 0.389,
+     "automotive": 0.012,
+     "medical": 0.012,
+     "consumer products": 0.012,
+     "agriculture": 0.012,
+     "aerospace & defense": 0.012,
+     "marine": 0.012,
+     "RV": 0.012,
+     "construction & building products": 0.012,
+     "electronics & telecom": 0.012
+    },
+    "firm_counts": {
+     "food & beverage": 2,
+     "automotive": 1,
+     "medical": 1,
+     "consumer products": 1,
+     "agriculture": 1,
+     "aerospace & defense": 1,
+     "marine": 1,
+     "RV": 1,
+     "construction & building products": 1,
+     "electronics & telecom": 1,
+     "chemicals & plastics": 1
+    }
+   }
+  },
+  "18183": {
+   "name": "Whitley, IN",
+   "firms": 21,
+   "jobs": 3669,
+   "made_to_order": {
+    "firms_recorded": 2,
+    "jobs_recorded": 27,
+    "firms": {
+     "yes": 2
+    },
+    "job_share_yes": 1.0,
+    "job_share_yes_or_mixed": 1.0
+   },
+   "job_shop": {
+    "firms_recorded": 2,
+    "jobs_recorded": 27,
+    "firms_true": 2,
+    "job_share": 1.0
+   },
+   "product_lines": {
+    "firms_recorded": 1,
+    "mean": 5.0,
+    "median": 5,
+    "job_weighted_mean": null
+   },
+   "end_markets": {
+    "firms_recorded": 4,
+    "jobs_recorded": 27,
+    "hhi": 0.5,
+    "effective_markets": 2.0,
+    "mean_markets_per_firm": 1.5,
+    "job_shares": {
+     "construction & building products": 0.5,
+     "heavy truck & trailer": 0.5,
+     "automotive": 0.0,
+     "chemicals & plastics": 0.0,
+     "aerospace & defense": 0.0
+    },
+    "firm_counts": {
+     "automotive": 2,
+     "chemicals & plastics": 1,
+     "aerospace & defense": 1,
+     "construction & building products": 1,
+     "heavy truck & trailer": 1
+    }
+   }
+  },
+  "26021": {
+   "name": "Berrien, MI",
+   "firms": 108,
+   "jobs": 6800,
+   "made_to_order": {
+    "firms_recorded": 35,
+    "jobs_recorded": 2423,
+    "firms": {
+     "no": 4,
+     "yes": 19,
+     "mixed": 12
+    },
+    "job_share_yes": 0.526,
+    "job_share_yes_or_mixed": 0.818
+   },
+   "job_shop": {
+    "firms_recorded": 32,
+    "jobs_recorded": 2220,
+    "firms_true": 22,
+    "job_share": 0.62
+   },
+   "product_lines": {
+    "firms_recorded": 12,
+    "mean": 6.5,
+    "median": 6,
+    "job_weighted_mean": 5.52
+   },
+   "end_markets": {
+    "firms_recorded": 32,
+    "jobs_recorded": 2305,
+    "hhi": 0.083,
+    "effective_markets": 12.04,
+    "mean_markets_per_firm": 3.69,
+    "job_shares": {
+     "aerospace & defense": 0.137,
+     "medical": 0.119,
+     "energy & utilities": 0.109,
+     "automotive": 0.107,
+     "printing & publishing": 0.083,
+     "industrial machinery & equipment": 0.07,
+     "food & beverage": 0.067,
+     "electronics & telecom": 0.055,
+     "construction & building products": 0.049,
+     "agriculture": 0.038,
+     "packaging": 0.031,
+     "retail & commercial": 0.028,
+     "primary metals": 0.028,
+     "rail & transit": 0.02,
+     "furniture & housing": 0.02,
+     "chemicals & plastics": 0.014,
+     "consumer products": 0.013,
+     "heavy truck & trailer": 0.008,
+     "marine": 0.003,
+     "RV": 0.002
+    },
+    "firm_counts": {
+     "automotive": 17,
+     "medical": 13,
+     "industrial machinery & equipment": 12,
+     "aerospace & defense": 12,
+     "electronics & telecom": 10,
+     "energy & utilities": 10,
+     "construction & building products": 6,
+     "food & beverage": 5,
+     "agriculture": 5,
+     "chemicals & plastics": 4,
+     "rail & transit": 4,
+     "furniture & housing": 4,
+     "heavy truck & trailer": 3,
+     "retail & commercial": 2,
+     "marine": 2,
+     "consumer products": 2,
+     "printing & publishing": 2,
+     "packaging": 2,
+     "primary metals": 2,
+     "RV": 1
+    }
+   }
+  },
+  "26027": {
+   "name": "Cass, MI",
+   "firms": 23,
+   "jobs": 1750,
+   "made_to_order": {
+    "firms_recorded": 8,
+    "jobs_recorded": 509,
+    "firms": {
+     "mixed": 4,
+     "yes": 3,
+     "no": 1
+    },
+    "job_share_yes": 0.318,
+    "job_share_yes_or_mixed": 0.843
+   },
+   "job_shop": {
+    "firms_recorded": 8,
+    "jobs_recorded": 577,
+    "firms_true": 5,
+    "job_share": 0.624
+   },
+   "product_lines": {
+    "firms_recorded": 2,
+    "mean": 5.0,
+    "median": 6,
+    "job_weighted_mean": 5.57
+   },
+   "end_markets": {
+    "firms_recorded": 7,
+    "jobs_recorded": 444,
+    "hhi": 0.111,
+    "effective_markets": 9.04,
+    "mean_markets_per_firm": 2.57,
+    "job_shares": {
+     "energy & utilities": 0.215,
+     "construction & building products": 0.141,
+     "aerospace & defense": 0.11,
+     "medical": 0.079,
+     "automotive": 0.075,
+     "RV": 0.055,
+     "heavy truck & trailer": 0.055,
+     "agriculture": 0.055,
+     "rail & transit": 0.055,
+     "marine": 0.055,
+     "industrial machinery & equipment": 0.054,
+     "food & beverage": 0.05
+    },
+    "firm_counts": {
+     "aerospace & defense": 3,
+     "automotive": 2,
+     "industrial machinery & equipment": 2,
+     "energy & utilities": 2,
+     "construction & building products": 2,
+     "RV": 1,
+     "heavy truck & trailer": 1,
+     "agriculture": 1,
+     "rail & transit": 1,
+     "marine": 1,
+     "food & beverage": 1,
+     "medical": 1
+    }
+   }
+  },
+  "26159": {
+   "name": "Van Buren, MI",
+   "firms": 22,
+   "jobs": 3010,
+   "made_to_order": {
+    "firms_recorded": 3,
+    "jobs_recorded": 1167,
+    "firms": {
+     "mixed": 3
+    },
+    "job_share_yes": 0.0,
+    "job_share_yes_or_mixed": 1.0
+   },
+   "job_shop": {
+    "firms_recorded": 3,
+    "jobs_recorded": 1167,
+    "firms_true": 2,
+    "job_share": 0.903
+   },
+   "product_lines": {
+    "firms_recorded": 3,
+    "mean": 4.33,
+    "median": 5,
+    "job_weighted_mean": 3.55
+   },
+   "end_markets": {
+    "firms_recorded": 2,
+    "jobs_recorded": 1054,
+    "hhi": 0.2,
+    "effective_markets": 5.0,
+    "mean_markets_per_firm": 2.5,
+    "job_shares": {
+     "automotive": 0.2,
+     "heavy truck & trailer": 0.2,
+     "agriculture": 0.2,
+     "industrial machinery & equipment": 0.2,
+     "food & beverage": 0.199
+    },
+    "firm_counts": {
+     "food & beverage": 1,
+     "automotive": 1,
+     "heavy truck & trailer": 1,
+     "agriculture": 1,
+     "industrial machinery & equipment": 1
+    }
+   }
+  },
+  "unknown": {
+   "name": "unknown",
+   "firms": 4,
+   "jobs": 185,
+   "made_to_order": {
+    "firms_recorded": 3,
+    "jobs_recorded": 145,
+    "firms": {
+     "yes": 1,
+     "mixed": 1,
+     "no": 1
+    },
+    "job_share_yes": 0.586,
+    "job_share_yes_or_mixed": 0.724
+   },
+   "job_shop": {
+    "firms_recorded": 3,
+    "jobs_recorded": 145,
+    "firms_true": 2,
+    "job_share": 0.724
+   },
+   "product_lines": {
+    "firms_recorded": 1,
+    "mean": 3.0,
+    "median": 3,
+    "job_weighted_mean": 3.0
+   },
+   "end_markets": {
+    "firms_recorded": 4,
+    "jobs_recorded": 185,
+    "hhi": 0.327,
+    "effective_markets": 3.06,
+    "mean_markets_per_firm": 2.0,
+    "job_shares": {
+     "RV": 0.481,
+     "chemicals & plastics": 0.216,
+     "food & beverage": 0.216,
+     "automotive": 0.022,
+     "heavy truck & trailer": 0.022,
+     "marine": 0.022,
+     "rail & transit": 0.022
+    },
+    "firm_counts": {
+     "RV": 2,
+     "automotive": 1,
+     "heavy truck & trailer": 1,
+     "marine": 1,
+     "rail & transit": 1,
+     "chemicals & plastics": 1,
+     "food & beverage": 1
+    }
+   }
+  }
+ }
+}

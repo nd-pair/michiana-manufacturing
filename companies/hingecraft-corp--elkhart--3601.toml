@@ -26,3 +26,9 @@ description = "Industrial & Commercial Hinges. NAICS 332510: hardware manufactur
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "mixed"
+product_lines = 4
+end_markets = ["marine", "RV", "heavy truck & trailer", "industrial machinery & equipment", "retail & commercial"]
+variety_source = ["http://hingecraft.com", "http://hingecraft.com/About_Us.html"]
+variety_checked = "2026-11-18"

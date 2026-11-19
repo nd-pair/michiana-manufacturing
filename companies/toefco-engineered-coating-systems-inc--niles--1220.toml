@@ -26,3 +26,9 @@ description = "Metal Parts Powder Coating. NAICS 332812: metal coating, engravin
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "yes"
+job_shop = true
+end_markets = ["aerospace & defense", "agriculture", "automotive", "medical", "electronics & telecom", "energy & utilities", "industrial machinery & equipment", "chemicals & plastics", "food & beverage"]
+variety_source = ["https://iftworldwide.com/about-us/industries-we-serve/", "https://iftworldwide.com"]
+variety_checked = "2026-11-18"

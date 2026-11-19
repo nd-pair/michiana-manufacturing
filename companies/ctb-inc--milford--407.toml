@@ -26,3 +26,9 @@ description = "Corporate Headquarters & Poultry & Livestock Feed & Grain Storage
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+product_lines = 14
+end_markets = ["agriculture", "food & beverage", "automotive", "medical", "electronics & telecom", "energy & utilities"]
+variety_scope = "company"
+variety_source = ["https://www.ctbinc.com/", "https://www.ctbinc.com/markets/"]
+variety_checked = "2026-11-18"

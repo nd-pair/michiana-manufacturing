@@ -26,3 +26,9 @@ description = "Corporate Headquarters & Plastic Injection Molding, Test Gauges, 
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "yes"
+job_shop = true
+end_markets = ["automotive", "medical", "aerospace & defense", "heavy truck & trailer"]
+variety_source = ["https://www.lighthouseindustries.com/about", "https://www.lighthouseindustries.com/"]
+variety_checked = "2026-11-18"

@@ -27,3 +27,9 @@ description = "Aluminum & Zinc Castings. NAICS 331513: steel foundries (except i
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "yes"
+job_shop = true
+end_markets = ["automotive", "medical", "construction & building products", "aerospace & defense"]
+variety_source = ["https://lakeshorediecast.com/about/", "https://lakeshorediecast.com/capabilities/"]
+variety_checked = "2026-11-18"

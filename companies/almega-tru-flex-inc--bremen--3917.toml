@@ -25,3 +25,9 @@ description = "Wiring Harnesses, Wire Leads & Power Supply Cords. NAICS 334419: 
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "yes"
+job_shop = true
+end_markets = ["RV", "agriculture", "heavy truck & trailer", "electronics & telecom"]
+variety_source = ["https://almegatf.com"]
+variety_checked = "2026-11-18"

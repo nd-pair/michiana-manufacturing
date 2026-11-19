@@ -25,3 +25,9 @@ description = "Screw Machine Products, Including Gas Springs, Gas Spring Bracket
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "mixed"
+job_shop = true
+end_markets = ["aerospace & defense", "automotive", "industrial machinery & equipment"]
+variety_source = ["https://hibshman.com", "https://hibshman.com/about/"]
+variety_checked = "2026-11-18"

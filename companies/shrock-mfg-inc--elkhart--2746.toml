@@ -26,3 +26,8 @@ description = "Steel Lounge & Chair Frames. NAICS 337121: upholstered household 
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "mixed"
+end_markets = ["RV", "marine", "automotive", "heavy truck & trailer"]
+variety_source = ["https://shrockmfg.com", "https://shrockmfg.com/products.php"]
+variety_checked = "2026-11-18"

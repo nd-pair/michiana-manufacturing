@@ -25,3 +25,9 @@ description = "Die Casting. NAICS 331523: nonferrous metal die-casting foundries
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "yes"
+job_shop = true
+end_markets = ["industrial machinery & equipment", "automotive", "electronics & telecom", "aerospace & defense", "medical"]
+variety_source = ["https://shawneeinc.com", "https://shawneeinc.com/industries"]
+variety_checked = "2026-11-18"

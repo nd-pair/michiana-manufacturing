@@ -25,3 +25,10 @@ description = "Material Handling Equipment, Roller Coaters, Feeders & Stackers. 
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-11"
+
+made_to_order = "yes"
+job_shop = false
+product_lines = 7
+end_markets = ["RV", "construction & building products", "electronics & telecom", "packaging", "furniture & housing"]
+variety_source = ["https://uniontoolcorp.com/union_tool_industries.html", "https://uniontoolcorp.com/union_tool_about.html", "https://uniontoolcorp.com"]
+variety_checked = "2026-11-18"

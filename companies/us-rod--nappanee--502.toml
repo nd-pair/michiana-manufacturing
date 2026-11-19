@@ -22,3 +22,8 @@ description = "Forged steel sucker rods, pony rods, couplings and sinker bars fo
 
 source = "EPA Toxics Release Inventory 2024 or RCRA Biennial Report 2023, checked against company websites, state notices, job postings and news"
 updated = "2026-11-18"
+
+product_lines = 6
+end_markets = ["energy & utilities"]
+variety_source = ["https://usrodco.com/", "https://usrodco.com/products/"]
+variety_checked = "2026-11-18"

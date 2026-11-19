@@ -26,3 +26,9 @@ description = "Shell Molded Ductile Iron Castings. NAICS 331511: iron foundries.
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
 updated = "2026-11-18"
+
+made_to_order = "yes"
+job_shop = true
+end_markets = ["rail & transit", "construction & building products", "heavy truck & trailer", "agriculture"]
+variety_source = ["https://www.hilerindustries.com/", "https://www.hilerindustries.com/capabilities/pattern-shop-and-tooling-maintenance/"]
+variety_checked = "2026-11-18"
