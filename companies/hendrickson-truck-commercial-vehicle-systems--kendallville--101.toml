@@ -24,3 +24,9 @@ description = "NAICS 336330: automotive, truck and bus suspension assemblies and
 
 source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
 updated = "2026-11-13"
+
+job_shop = false
+end_markets = ["heavy truck & trailer"]
+variety_scope = "company"
+variety_source = ["https://www.hendrickson-intl.com/ride-solutions", "https://www.hendrickson-intl.com/company/global-operations"]
+variety_checked = "2026-11-18"

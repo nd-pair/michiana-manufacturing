@@ -24,3 +24,10 @@ description = "NAICS 334511: sonar systems and equipment manufacturing."
 
 source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
 updated = "2026-11-13"
+
+job_shop = false
+product_lines = 5
+end_markets = ["aerospace & defense"]
+variety_scope = "company"
+variety_source = ["https://umaritime.com", "https://umaritime.com/about-us/"]
+variety_checked = "2026-11-18"

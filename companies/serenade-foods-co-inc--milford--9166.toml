@@ -27,3 +27,9 @@ description = "NAICS 311615: poultry processing."
 
 source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor); the earlier record at this address came from HIFLD"
 updated = "2026-11-14"
+
+job_shop = false
+end_markets = ["food & beverage"]
+variety_scope = "company"
+variety_source = ["https://www.mapleleaffarms.com/pages/about-us"]
+variety_checked = "2026-11-18"

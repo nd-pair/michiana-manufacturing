@@ -24,3 +24,10 @@ description = "NAICS 332311: buildings, prefabricated metal, manufacturing."
 
 source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
 updated = "2026-11-13"
+
+made_to_order = "mixed"
+job_shop = false
+product_lines = 6
+end_markets = ["aerospace & defense", "energy & utilities", "food & beverage", "automotive", "medical", "retail & commercial"]
+variety_source = ["https://www.securallproducts.com/", "https://www.securallproducts.com/distributors/customers", "https://www.securallproducts.com/cabinets/custom-cabinets"]
+variety_checked = "2026-11-18"

@@ -24,3 +24,9 @@ description = "NAICS 332812: powder coating metals and metal products for the tr
 
 source = "OSHA Injury Tracking Application, Form 300A establishment data (U.S. Department of Labor)"
 updated = "2026-11-13"
+
+made_to_order = "yes"
+job_shop = true
+end_markets = ["agriculture", "automotive", "construction & building products", "aerospace & defense", "electronics & telecom", "marine", "heavy truck & trailer", "industrial machinery & equipment"]
+variety_source = ["https://www.winonapowder.com/", "https://www.winonapowder.com/industries-served"]
+variety_checked = "2026-11-18"
