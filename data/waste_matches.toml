@@ -77,3 +77,8 @@ note = "Crosbie Foundry reported for 2024 at 1600 Mishawaka Street, but OSHA's 2
 epa_id = "IND005101217"
 file = ""
 note = "Crosbie Foundry (RCRA 2023), as above"
+
+[[match]]
+epa_id = "46526DRYFR1110S"
+file = "dairy-farmers-of-america-inc-goshen-1110"
+note = "TRI 2024 water and sewer releases at 1110-24 S 9th St; the plant's file is closed 2025, so the address match skips it"

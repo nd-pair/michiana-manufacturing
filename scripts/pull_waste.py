@@ -11,13 +11,16 @@ file on the map (a review list for adding plants or restoring renamed ones).
 - Toxics Release Inventory (TRI), basic data files for Indiana and Michigan, the latest year
   published: for every plant in the region's counties that reports a metal, the pounds of
   production-related waste and how they were managed (recycled on or off site, treated, burned for
-  energy, or disposed of and released). TRI covers plants with 10 or more employees in listed
+  energy, or disposed of and released); and for every plant and chemical, the pounds discharged to
+  surface water and sent to sewer treatment plants (POTWs). TRI covers plants with 10 or more employees in listed
   industries that handle a listed chemical above a threshold; it does not list rare earths,
   lithium, gallium, germanium, tungsten, tantalum or titanium metal.
 - RCRA Biennial Report (Envirofacts table br_reporting), the latest cycle: hazardous waste streams
   of large-quantity generators in the region that carry metals (EPA waste codes for plating
   sludge, steel-mill dust, pickle liquor and toxic metals, or a description naming a metal,
-  batteries or catalysts), in tons, with how they were managed.
+  batteries or catalysts), in tons, with how they were managed; and the streams EPA flags as
+  wastewater (its own definition, from the waste's form and management codes), with where they were
+  shipped (receiving facilities looked up by EPA ID in the same table).
 Each plant is matched to a company file on the map by hand (data/waste_matches.toml), then by street
 address and city, then by name and city. Each
 dataset is independent; one that fails keeps its part of the previous file.
@@ -88,6 +91,10 @@ def metal_name(chem):
     """'Chromium compounds(except chromite ore ...)' -> 'Chromium'; 'Aluminum (fume or dust)' -> 'Aluminum'."""
     return re.split(r"[\s(,]", chem.strip())[0].title()
 
+def chem_name(chem):
+    """'Nitrate compounds (water dissociable; reportable only when in aqueous solution)' -> 'Nitrate compounds'."""
+    return re.sub(r"\s+", " ", chem.split(" (")[0]).strip().capitalize()
+
 def tri(find):
     year = datetime.date.today().year - 1
     for year in range(year, year - 4, -1):
@@ -103,7 +110,11 @@ def tri(find):
     col = lambda r, n: next(v for k, v in r.items() if k.split(". ", 1)[-1] == n)   # headers are numbered: "37. CHEMICAL"
     for st, text in files.items():
         for r in csv.DictReader(io.StringIO(text)):
-            if col(r, "METAL") != "YES" or not col(r, "UNIT OF MEASURE").startswith("P"):
+            if not col(r, "UNIT OF MEASURE").startswith("P"):
+                continue
+            surface, sewer = num(col(r, "5.3 - WATER")), num(col(r, "POTW - TOTAL TRANSFERS"))
+            is_metal = col(r, "METAL") == "YES"
+            if not is_metal and not (surface or sewer):
                 continue
             try:
                 lat, lon = float(col(r, "LATITUDE")), float(col(r, "LONGITUDE"))
@@ -115,7 +126,12 @@ def tri(find):
             fid = col(r, "TRIFD")
             p = plants.setdefault(fid, {"trifd": fid, "frs": col(r, "FRS ID"), "name": col(r, "FACILITY NAME"), "street": col(r, "STREET ADDRESS"),
                                         "city": col(r, "CITY").title(), "state": st, "zip": col(r, "ZIP")[:5], "county": fips, "lat": lat, "lon": lon,
-                                        "naics": col(r, "PRIMARY NAICS"), "parent": col(r, "STANDARD PARENT CO NAME") or col(r, "PARENT CO NAME"), "metals": {}})
+                                        "naics": col(r, "PRIMARY NAICS"), "parent": col(r, "STANDARD PARENT CO NAME") or col(r, "PARENT CO NAME"), "metals": {}, "water": {}})
+            if surface or sewer:   # pounds discharged to surface water, and sent to sewer treatment plants
+                w = p["water"].setdefault(chem_name(col(r, "CHEMICAL")), [0, 0])
+                w[0] += surface; w[1] += sewer
+            if not is_metal:
+                continue
             recycled = num(col(r, "8.4 - RECYCLING ON SITE")) + num(col(r, "8.5 - RECYCLING OFF SIT"))
             energy = num(col(r, "8.2 - ENERGY RECOVER ON")) + num(col(r, "8.3 - ENERGY RECOVER OF"))
             treated = num(col(r, "8.6 - TREATMENT ON SITE")) + num(col(r, "8.7 - TREATMENT OFF SITE"))
@@ -126,11 +142,13 @@ def tri(find):
     out = []
     for p in plants.values():
         p["metals"] = {k: [round(x) for x in v] for k, v in sorted(p["metals"].items()) if v[3] > 0}
-        if p["metals"]:
+        p["water"] = {k: [round(x, 1) for x in v] for k, v in sorted(p["water"].items()) if v[0] + v[1] > 0}
+        if p["metals"] or p["water"]:
             p["company"] = find(p["name"], p["street"], p["city"], p["lat"], p["lon"], p["trifd"])
             out.append(p)
-    out.sort(key=lambda p: -sum(v[3] for v in p["metals"].values()))
-    return {"year": year, "units": "pounds a year; per metal: recycled, treated or burned for energy, disposed of or released, total",
+    out.sort(key=lambda p: (-sum(v[3] for v in p["metals"].values()), -sum(v[0] + v[1] for v in p["water"].values())))
+    return {"year": year, "units": "pounds a year; per metal: recycled, treated or burned for energy, disposed of or released, total; "
+                                   "per chemical in water: to surface water, to sewer treatment plants",
             "facilities": out}
 
 def rcra(find):
@@ -144,20 +162,32 @@ def rcra(find):
             break
     else:
         raise RuntimeError("no Biennial Report cycle found")
-    handlers = {}
+    handlers, aqueous = {}, {}
+    def handler(d, r):
+        street = " ".join(x for x in (r.get("location_street_no"), r.get("location_street1")) if x)
+        return d.setdefault(r["handler_id"], {"id": r["handler_id"], "name": r["handler_name"], "street": street, "city": (r.get("location_city") or "").title(),
+                                      "state": r.get("location_state"), "zip": (r.get("location_zip") or "")[:5], "naics": r.get("primary_naics"),
+                                      "county": {"IN": "18", "MI": "26"}.get(r.get("location_state"), "") + (r.get("county_code") or "")[2:], "streams": {}})
     for r in rows:
         if r.get("br_form") != "GM" or num(r.get("generation_tons")) <= 0:
             continue
-        codes = [c for c in re.split(r"[\s,]+", (r.get("federal_waste_codes") or "") + " " + (r.get("waste_code_group") or "")) if c]
+        # codes can arrive run together ("D002D007") or mixed with state codes ("TCMT"): keep the federal ones
+        codes = re.findall(r"[DFKPU]\d{3}", (r.get("federal_waste_codes") or "") + " " + (r.get("waste_code_group") or ""))
         metal = sorted({c for c in codes if c in METAL_CODES})
         desc = (r.get("description") or "").strip()
+        if r.get("wastewater") == "Y":   # EPA's flag, from the waste's form code and how it was managed
+            h = handler(aqueous, r)
+            s = h["streams"].setdefault((desc.lower(), tuple(sorted(set(codes)))), {"description": desc, "codes": sorted(set(codes)), "tons": 0.0, "managed": set(), "receivers": set()})
+            s["tons"] += num(r.get("generation_tons"))
+            if r.get("management_category"):
+                s["managed"].add(r["management_category"].lower())
+            if r.get("receiver_id"):
+                s["receivers"].add(r["receiver_id"])
+            elif r.get("management_location") == "ONSITE":
+                s["receivers"].add("onsite")
         if not metal and not METAL_WORDS.search(desc):
             continue
-        hid = r["handler_id"]
-        street = " ".join(x for x in (r.get("location_street_no"), r.get("location_street1")) if x)
-        h = handlers.setdefault(hid, {"id": hid, "name": r["handler_name"], "street": street, "city": (r.get("location_city") or "").title(),
-                                      "state": r.get("location_state"), "zip": (r.get("location_zip") or "")[:5], "naics": r.get("primary_naics"),
-                                      "county": {"IN": "18", "MI": "26"}.get(r.get("location_state"), "") + (r.get("county_code") or "")[2:], "streams": {}})
+        h = handler(handlers, r)
         key = (desc.lower(), tuple(metal))
         s = h["streams"].setdefault(key, {"description": desc, "codes": metal, "tons": 0.0, "managed": set()})
         s["tons"] += num(r.get("generation_tons"))
@@ -167,10 +197,32 @@ def rcra(find):
     for h in handlers.values():
         h["streams"] = sorted(({**s, "tons": round(s["tons"], 2), "managed": sorted(s["managed"])} for s in h["streams"].values()), key=lambda s: -s["tons"])
         h["tons"] = round(sum(s["tons"] for s in h["streams"]), 2)
-        h["company"] = find(h["name"], h["street"], h["city"], epa_id=hid)
+        h["company"] = find(h["name"], h["street"], h["city"], epa_id=h["id"])
         out.append(h)
     out.sort(key=lambda h: -h["tons"])
-    return {"cycle": cycle, "units": "tons generated in the year", "codes": METAL_CODES, "handlers": out}
+    aq = []
+    for h in aqueous.values():
+        h["streams"] = sorted(({**s, "tons": round(s["tons"], 2), "managed": sorted(s["managed"]), "receivers": sorted(s["receivers"])}
+                               for s in h["streams"].values()), key=lambda s: -s["tons"])
+        h["tons"] = round(sum(s["tons"] for s in h["streams"]), 2)
+        h["company"] = find(h["name"], h["street"], h["city"], epa_id=h["id"])
+        aq.append(h)
+    aq.sort(key=lambda h: -h["tons"])
+    return {"cycle": cycle, "units": "tons generated in the year", "codes": METAL_CODES, "handlers": out,
+            "aqueous": aq, "receivers": receivers({x for h in aq for s in h["streams"] for x in s["receivers"]} - {"onsite"}, cycle)}
+
+def receivers(ids, cycle):
+    """Name and place of each facility that received a stream, from its own Biennial Report rows (a receiver files
+    the WR form, so it is in br_reporting); an ID that is not found keeps only the ID."""
+    out = {}
+    for i in sorted(ids):
+        try:
+            r = json.loads(get("https://data.epa.gov/efservice/br_reporting/handler_id/%s/rows/0:1/JSON" % i, timeout=60))
+        except Exception:
+            r = []
+        if r:
+            out[i] = {"name": titlecase(r[0].get("handler_name") or i), "city": (r[0].get("location_city") or "").title(), "state": r[0].get("location_state") or ""}
+    return out
 
 def review_list(out):
     """audits/epa-unmatched.csv: EPA plants in manufacturing or recycling (NAICS 31-33, 4239, 5629) with no company file on
@@ -192,14 +244,22 @@ def review_list(out):
         for r in csv.DictReader(open(P("audits", n))):
             for i in r["epa_id"].split(" / "):
                 checked[i.strip()] = "%s (%s): %s" % (r["decision"], n[16:-4], r["evidence"])
-    rows = []
-    for kind, items, idk in (("TRI", (out.get("tri") or {}).get("facilities", []), "trifd"), ("RCRA", (out.get("rcra") or {}).get("handlers", []), "id")):
+    rows, seen = [], set()
+    rc = out.get("rcra") or {}
+    for kind, items, idk in (("TRI", (out.get("tri") or {}).get("facilities", []), "trifd"), ("RCRA", rc.get("handlers", []) + rc.get("aqueous", []), "id")):
         for x in items:
             n = str(x.get("naics") or "")
+            if x[idk] in seen:
+                continue
+            seen.add(x[idk])
             if x.get("company") or not (n[:2] in ("31", "32", "33") or n[:4] in ("4239", "5629")):
                 continue
             note = hand.get(x[idk]) and "left unlinked by hand: " + hand[x[idk]] or gone.get(addr_key(x["street"], x["city"])) and "same address as a " + gone[addr_key(x["street"], x["city"])] or "no company file"
-            size = "%d lb metal waste" % sum(v[3] for v in x["metals"].values()) if kind == "TRI" else "%s t hazardous waste" % x["tons"]
+            if kind == "TRI":
+                size = "%d lb metal waste" % sum(v[3] for v in x["metals"].values()) if x["metals"] else \
+                    "%d lb to water or sewer" % sum(v[0] + v[1] for v in x.get("water", {}).values())
+            else:
+                size = "%s t %s" % (x["tons"], "wastewater" if x["streams"] and "receivers" in x["streams"][0] else "hazardous waste")
             rows.append([kind, x[idk], titlecase(x["name"]), "%s, %s, %s" % (x["street"].title(), x["city"], x.get("state", "")), n, size, note, checked.get(x[idk], "")])
     with open(P("audits", "epa-unmatched.csv"), "w", newline="") as fh:
         w = csv.writer(fh)
@@ -217,7 +277,7 @@ def main():
     if "--rematch" in sys.argv:
         for f in (out.get("tri") or {}).get("facilities", []):
             f["company"] = find(f["name"], f["street"], f["city"], f["lat"], f["lon"], f["trifd"])
-        for h in (out.get("rcra") or {}).get("handlers", []):
+        for h in (out.get("rcra") or {}).get("handlers", []) + (out.get("rcra") or {}).get("aqueous", []):
             h["company"] = find(h["name"], h["street"], h["city"], epa_id=h["id"])
         json.dump(out, open(path, "w"), indent=1, sort_keys=True)
         review_list(out)

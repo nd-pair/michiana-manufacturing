@@ -174,10 +174,11 @@ Without WebGL the map shows a notice and everything else still works. The page c
   matches them by website domain and then by name, and writes `data/sbir.json`; awards appear in
   the detail panel and the CSV export. Local SBIR firms that are not yet in the map are listed in
   that file for review. The script also accepts a CSV exported by hand from sbir.gov/awards.
-- **Materials & recovery.** Its own tab, with six views: metal in
+- **Materials & recovery.** Its own tab, with seven views: metal in
   production waste by metal (EPA Toxics Release Inventory: how much is recycled, how much is not, and
   the largest unrecycled source), the largest unrecycled sources, metal-bearing hazardous waste (EPA
-  RCRA Biennial Report), the critical materials companies likely work with (inferred from products
+  RCRA Biennial Report), aqueous streams (TRI pounds of every listed chemical sent to sewer plants and
+  surface water; the Biennial Report streams EPA flags as wastewater, with where each was shipped), the critical materials companies likely work with (inferred from products
   and NAICS, `data/critical_materials.toml`, with the USGS 2025 and DOE lists; click to filter),
   the recyclers, and coal ash at NIPSCO's Michigan City station (`data/waste_sites.toml`, by hand).
   `scripts/pull_waste.py` → `data/waste.json` (EPA, no key; `--rematch` only re-matches plants to
@@ -185,7 +186,8 @@ Without WebGL the map shows a notice and everything else still works. The page c
   `data/waste_matches.toml`; a plant that reported and has closed since is listed as closed. Each run
   also writes `audits/epa-unmatched.csv`, the EPA plants with no file on the map (including plants
   presumed closed that still report), noting any earlier check from `audits/epa-plant-check-*.csv`. Company
-  cards show their reported metal waste, hazardous waste streams and likely critical materials; the
+  cards show their reported metal waste, hazardous waste streams, releases to water and sewer, hazardous
+  wastewater and likely critical materials; the
   "Metal waste reported to EPA" chip on the Companies tab filters the map. Company names in the tab open
   their card on the map, and the "Likely materials" rows filter the map and roster.
 - **Recyclers.** The sector *Recycling & recovery* holds scrap yards, auto recyclers, secondary

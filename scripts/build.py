@@ -165,6 +165,18 @@ def bls_month(bls):
     y, m = max(ms).split("-")
     return datetime.date(int(y), int(m), 1).strftime("%B %Y")
 
+def _aq_receivers(handlers):
+    """Tons of EPA-flagged wastewater sent to each receiving facility (or managed on site), and how many sites sent it;
+    a stream sent to several receivers is split evenly among them, since the report does not say how much went where."""
+    agg = {}
+    for h in handlers:
+        for s in h["streams"]:
+            for i in s["receivers"]:
+                a = agg.setdefault(i, [0.0, set()])
+                a[0] += s["tons"] / len(s["receivers"])
+                a[1].add(h["id"])
+    return agg
+
 def main():
     sectors_t = load_toml(P("data", "sectors.toml"))["sector"]
     sectors = [s["name"] for s in sectors_t]
@@ -273,6 +285,23 @@ def main():
     for h in (waste.get("rcra") or {}).get("handlers", []):
         if h.get("company"):
             wrcra.setdefault(h["company"], []).extend(h["streams"])
+    # aqueous streams: TRI pounds to surface water and to sewer plants, and the Biennial Report streams EPA flags as wastewater
+    rcv = (waste.get("rcra") or {}).get("receivers", {})
+    rname = lambda i: "on site" if i == "onsite" else ("%s, %s" % (rcv[i]["name"], rcv[i]["state"]) if i in rcv else i)
+    aq_streams = lambda ss, n: [{"description": s["description"], "codes": s["codes"], "tons": s["tons"], "managed": s["managed"],
+                                 "to": [rname(i) for i in s["receivers"]]} for s in ss[:n]]
+    wwat, waq = {}, {}
+    for f in (waste.get("tri") or {}).get("facilities", []):
+        if f.get("company") and f.get("water"):
+            m = wwat.setdefault(f["company"], {})
+            for k, v in f["water"].items():
+                m[k] = [a + b for a, b in zip(m.get(k, [0, 0]), v)]
+    for h in (waste.get("rcra") or {}).get("aqueous", []):
+        if h.get("company"):
+            waq.setdefault(h["company"], []).extend(h["streams"])
+    for o in companies:
+        t, r = wwat.get(o["id"]), sorted(waq.get(o["id"], []), key=lambda s: -s["tons"])
+        o["aqueous"] = {"tri": dict(sorted((t or {}).items(), key=lambda kv: -sum(kv[1]))[:5]), "rcra": aq_streams(r, 4)} if t or r else None
     for o in companies:
         t, r = wtri.get(o["id"]), sorted(wrcra.get(o["id"], []), key=lambda s: -s["tons"])[:5]
         o["waste"] = {"tri": t or {}, "rcra": [{k: s[k] for k in ("description", "codes", "tons", "managed")} for s in r]} if t or r else None
@@ -292,6 +321,15 @@ def main():
                   "streams": [{k: s[k] for k in ("description", "codes", "tons", "managed")} for s in h["streams"][:4]]}
                  for h in (waste.get("rcra") or {}).get("handlers", [])],
         "codes": (waste.get("rcra") or {}).get("codes", {}),
+        "water": [{"name": titlecase(f["name"]), "city": f["city"], "company": co(f.get("company")), "closed": closed_on.get(f.get("company")),
+                   "surface": round(sum(v[0] for v in f["water"].values())), "sewer": round(sum(v[1] for v in f["water"].values())),
+                   "chems": sorted(([k] + v for k, v in f["water"].items()), key=lambda x: -(x[1] + x[2]))[:3]}
+                  for f in (waste.get("tri") or {}).get("facilities", []) if f.get("water")],
+        "aqueous": [{"name": titlecase(h["name"]), "city": h["city"], "company": co(h.get("company")), "closed": closed_on.get(h.get("company")),
+                     "tons": h["tons"], "streams": aq_streams(h["streams"], 3)} for h in (waste.get("rcra") or {}).get("aqueous", [])],
+        "receivers": sorted(({"name": "Managed on site" if i == "onsite" else rcv.get(i, {}).get("name", i), "id": "" if i == "onsite" else i,
+                              "place": ", ".join(x for x in (rcv.get(i, {}).get("city", ""), rcv.get(i, {}).get("state", "")) if x), "tons": round(t, 1), "plants": len(n)} for i, (t, n) in
+                             _aq_receivers((waste.get("rcra") or {}).get("aqueous", [])).items()), key=lambda x: -x["tons"]),
         "sites": load_toml(P("data", "waste_sites.toml")).get("site", []) if os.path.exists(P("data", "waste_sites.toml")) else [],
     }
     # humanoid supply chain: which components each company could supply (inferred, or set in its file)
@@ -430,7 +468,9 @@ def main():
             "{{RECYCLERS}}": "{:,}".format(sum(1 for o in companies if o["sector"] == RECYCLING)),
             "{{TRIYEAR}}": str((waste.get("tri") or {}).get("year", "–")), "{{RCRACYCLE}}": str((waste.get("rcra") or {}).get("cycle", "–")),
             "{{WASTEPULLED}}": waste.get("pulled", "not yet pulled"),
-            "{{TRIN}}": str(len((waste.get("tri") or {}).get("facilities", []))), "{{RCRAN}}": str(len((waste.get("rcra") or {}).get("handlers", []))), "{{COMPANIES}}": "{:,}".format(n_groups), "{{HIFLD}}": "{:,}".format(src_counts["hifld"]),
+            "{{TRIN}}": str(sum(1 for f in (waste.get("tri") or {}).get("facilities", []) if f["metals"])),
+            "{{TRIWATERN}}": str(sum(1 for f in (waste.get("tri") or {}).get("facilities", []) if f.get("water"))),
+            "{{AQN}}": str(len((waste.get("rcra") or {}).get("aqueous", []))), "{{RCRAN}}": str(len((waste.get("rcra") or {}).get("handlers", []))), "{{COMPANIES}}": "{:,}".format(n_groups), "{{HIFLD}}": "{:,}".format(src_counts["hifld"]),
             "{{SBIRFIRMS}}": str(src_counts["sbir"]), "{{OSHA}}": "{:,}".format(src_counts["osha"]), "{{OSHAYEAR}}": osha.get("latest_year", "–"),
             "{{OSHAMATCHED}}": "{:,}".format(sum(1 for o in companies if o["emp_note"].startswith("OSHA") and o["id"] not in osha_ids)), "{{WARNN}}": str(len(warn.get("notices", []))), "{{HAND}}": str(src_counts["hand"]), "{{EPA}}": str(src_counts["epa"]), "{{HANDEPA}}": str(src_counts["hand"] + src_counts["epa"]), "{{BUILT}}": data["built"],
             "{{UEI}}": str(sum(1 for o in companies if o["uei"])), "{{FEDN}}": str(sum(1 for o in companies if o.get("federal"))),
