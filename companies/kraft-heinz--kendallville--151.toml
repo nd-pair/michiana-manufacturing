@@ -1,0 +1,30 @@
+# Kraft Heinz, Kendallville
+# Added by hand from Indiana DNR water-withdrawal data and EPA ECHO, with a dated public source; see verified_note.
+
+name = "Kraft Heinz, Kendallville"
+formerly = "Kraft Foods Global"
+kind = "company"
+city = "Kendallville"
+state = "IN"
+address = "151 West Ohio Street, Kendallville, IN 46755"
+lat = 41.43191
+lon = -85.26693
+website = "https://www.kraftheinzcompany.com"
+verified = "2026-11-20"
+verified_note = "Food Dive reported on September 2, 2026 that Kraft Heinz is investing $30 million in its Kendallville marshmallow and caramel plant, which employs 325 and is the sole plant for Jet-Puffed and Kraft Caramels; EPA's ECHO lists the plant at 151 W Ohio St with an inspection in January 2026, and it reported Indiana DNR water withdrawals for 2025. Source: https://www.fooddive.com/news/kraft-heinz-30-million-indiana-jet-puffed-facility/829432/"
+
+sector = "Food & consumer goods"
+products = ["Marshmallows and marshmallow creme", "Caramels"]
+naics = "311340"
+
+employees = 325
+employees_scope = "site"
+employees_year = 2026
+employees_quality = "reported"
+employees_note = "Food Dive, September 2, 2026"
+
+parent = "The Kraft Heinz Company"
+description = "Kraft Heinz plant making Jet-Puffed marshmallows and marshmallow creme and Kraft Caramels."
+
+source = "Indiana DNR Significant Water Withdrawal Facility data and EPA ECHO, checked against a dated news report"
+updated = "2026-11-20"

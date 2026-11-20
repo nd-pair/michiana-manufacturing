@@ -1,0 +1,25 @@
+# Bechtel Plant Machinery, Mishawaka test site
+# Added by hand from Indiana DNR water-withdrawal data and EPA ECHO; see verified_note.
+
+name = "Bechtel Plant Machinery, Mishawaka test site"
+kind = "company"
+manufacturer = false
+city = "Mishawaka"
+state = "IN"
+address = "13850 Jefferson Boulevard, Mishawaka, IN 46545"
+lat = 41.67332
+lon = -86.14174
+website = "https://www.bechtel.com/projects/bechtel-plant-machinery-inc/"
+verified = "2026-11-20"
+verified_note = "EPA's ECHO lists Bechtel Plant Machinery at 13850 Jefferson Blvd (testing laboratories, NAICS 541380) with an inspection in September 2026 and a wastewater permit for its Mishawaka test loop; the site reported Indiana DNR withdrawals from the St. Joseph River for 2023-2025. Source: https://echo.epa.gov/detailed-facility-report?fid=110001237698"
+status_note = "A test site of Bechtel Plant Machinery, a prime contractor for the Naval Nuclear Propulsion Program; it tests components rather than producing them, so it is not counted as a manufacturer."
+
+sector = "Mechatronics & automation"
+products = ["Testing of naval nuclear propulsion components"]
+naics = "541380"
+
+parent = "Bechtel"
+description = "Bechtel Plant Machinery test site with a high-energy test loop for naval nuclear propulsion components."
+
+source = "Indiana DNR Significant Water Withdrawal Facility data and EPA ECHO"
+updated = "2026-11-20"

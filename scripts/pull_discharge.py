@@ -72,7 +72,10 @@ def permits():
 
 def loads(pid, year):
     """Average wastewater flow (million gallons a day) and pounds of each pollutant reported in the year."""
-    rows = get("dmr_rest_services.get_custom_data_annual?output=JSON&p_year=%d&p_permit_id=%s" % (year, pid)).get("Results") or []
+    try:
+        rows = get("dmr_rest_services.get_custom_data_annual?output=JSON&p_year=%d&p_permit_id=%s" % (year, pid)).get("Results") or []
+    except Exception:   # ECHO answers some permits with a server error; count them as having no report rather than stop
+        rows = []
     num = lambda v: float(str(v).replace(",", "")) if v not in (None, "", "--") else 0.0
     flow = max((num(r.get("AvgWastewaterFlow")) for r in rows), default=0.0)
     lb = {}
