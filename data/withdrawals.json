@@ -1,0 +1,1192 @@
+{
+ "facilities": [
+  {
+   "company": null,
+   "county": "18141",
+   "gpm": 12500,
+   "id": "71-03153",
+   "intakes": 0,
+   "lat": 41.694834,
+   "lon": -86.469197,
+   "name": "Town of New Carlisle",
+   "water": [],
+   "wells": 5,
+   "years": {
+    "2023": 736430000,
+    "2024": 737954000,
+    "2025": 411073000
+   }
+  },
+  {
+   "company": "steel-dynamics-inc-structural-and-rail-columbia-city-2601",
+   "county": "18183",
+   "gpm": 3360,
+   "id": "92-04431",
+   "intakes": 0,
+   "lat": 41.123406,
+   "lon": -85.346857,
+   "name": "Steel Dynamics Incorporated",
+   "water": [],
+   "wells": 4,
+   "years": {
+    "2023": 460390000,
+    "2024": 403530000,
+    "2025": 476840000
+   }
+  },
+  {
+   "company": null,
+   "county": "18085",
+   "gpm": 12200,
+   "id": "43-01690",
+   "intakes": 2,
+   "lat": 41.318889,
+   "lon": -85.850371,
+   "name": "Phend and Brown Incorporated",
+   "water": [
+    "Gravel Lake"
+   ],
+   "wells": 0,
+   "years": {
+    "2023": 441800000
+   }
+  },
+  {
+   "company": "explorer-van-co-warsaw-2749",
+   "county": "18085",
+   "gpm": 2500,
+   "id": "43-01180",
+   "intakes": 0,
+   "lat": 41.26913,
+   "lon": -85.89721,
+   "name": "Explorer Van Company",
+   "water": [],
+   "wells": 6,
+   "years": {
+    "2023": 426000,
+    "2025": 427000000
+   }
+  },
+  {
+   "company": null,
+   "county": "18141",
+   "gpm": 14327,
+   "id": "71-04567",
+   "intakes": 1,
+   "lat": 41.667018,
+   "lon": -86.131881,
+   "name": "Bechtel Plant Machinery Incorporated",
+   "water": [
+    "St. Joseph River"
+   ],
+   "wells": 0,
+   "years": {
+    "2023": 384000000,
+    "2024": 261600000,
+    "2025": 242200000
+   }
+  },
+  {
+   "company": "r-r-donnelley-sons-co-warsaw-2801",
+   "county": "18085",
+   "gpm": 4500,
+   "id": "43-00519",
+   "intakes": 0,
+   "lat": 41.244354,
+   "lon": -85.896732,
+   "name": "Slate Auto",
+   "water": [],
+   "wells": 3,
+   "years": {
+    "2023": 270200000,
+    "2024": 64369000,
+    "2025": 53290000
+   }
+  },
+  {
+   "company": null,
+   "county": "18141",
+   "gpm": 5850,
+   "id": "71-01187",
+   "intakes": 1,
+   "lat": 41.611948,
+   "lon": -86.351358,
+   "name": "Rieth Riley Construction Company Inc",
+   "water": [
+    "Un Pit"
+   ],
+   "wells": 1,
+   "years": {
+    "2023": 230140000,
+    "2024": 177920000,
+    "2025": 174500000
+   }
+  },
+  {
+   "company": "maple-leaf-farms-inc-milford-9166",
+   "county": "18085",
+   "gpm": 1975,
+   "id": "43-01641",
+   "intakes": 0,
+   "lat": 41.366607,
+   "lon": -85.804095,
+   "name": "Maple Leaf Farms Incorporated",
+   "water": [],
+   "wells": 5,
+   "years": {
+    "2023": 208259000,
+    "2024": 215638000,
+    "2025": 205228000
+   }
+  },
+  {
+   "company": "louis-dreyfus-agricultural-industries-llc-claypool-7344",
+   "county": "18085",
+   "gpm": 600,
+   "id": "43-04686",
+   "intakes": 0,
+   "lat": 41.124738,
+   "lon": -85.890938,
+   "name": "Louis Dreyfus Company Agricultural Industries LLC",
+   "water": [],
+   "wells": 2,
+   "years": {
+    "2023": 187720000,
+    "2024": 171920000,
+    "2025": 168480000
+   }
+  },
+  {
+   "company": null,
+   "county": "18087",
+   "gpm": 2000,
+   "id": "44-03589",
+   "intakes": 2,
+   "lat": 41.586204,
+   "lon": -85.291076,
+   "name": "Clifford Aggregate Inc.",
+   "water": [
+    "Un Pd"
+   ],
+   "wells": 0,
+   "years": {
+    "2023": 120800000,
+    "2024": 47082000,
+    "2025": 37500000
+   }
+  },
+  {
+   "company": null,
+   "county": "18039",
+   "gpm": 1500,
+   "id": "20-02426",
+   "intakes": 0,
+   "lat": 41.676875,
+   "lon": -85.737991,
+   "name": "Elkhart County Gravel Incorporated",
+   "water": [],
+   "wells": 1,
+   "years": {
+    "2023": 116000000,
+    "2024": 115800000,
+    "2025": 114200000
+   }
+  },
+  {
+   "company": "dairy-farmers-of-america-inc-goshen-1110",
+   "county": "18039",
+   "gpm": 1453,
+   "id": "20-00715",
+   "intakes": 0,
+   "lat": 41.572843,
+   "lon": -85.822783,
+   "name": "Dairy Farmers of America",
+   "water": [],
+   "wells": 3,
+   "years": {
+    "2023": 64520000,
+    "2024": 87260000
+   }
+  },
+  {
+   "company": null,
+   "county": "18113",
+   "gpm": 548,
+   "id": "57-00392",
+   "intakes": 0,
+   "lat": 41.432292,
+   "lon": -85.268195,
+   "name": "Kraft Heinz Company",
+   "water": [],
+   "wells": 1,
+   "years": {
+    "2023": 33242000,
+    "2024": 63354000,
+    "2025": 85878000
+   }
+  },
+  {
+   "company": null,
+   "county": "18087",
+   "gpm": 1030,
+   "id": "44-04523",
+   "intakes": 0,
+   "lat": 41.725052,
+   "lon": -85.657697,
+   "name": "Elkhart County Gravel Incorporated",
+   "water": [],
+   "wells": 2,
+   "years": {
+    "2023": 82700000,
+    "2024": 79900000,
+    "2025": 76200000
+   }
+  },
+  {
+   "company": null,
+   "county": "18113",
+   "gpm": 1700,
+   "id": "57-04344",
+   "intakes": 1,
+   "lat": 41.282001,
+   "lon": -85.519355,
+   "name": "Keystone Concrete",
+   "water": [
+    "Private Pond"
+   ],
+   "wells": 1,
+   "years": {
+    "2023": 78400000,
+    "2024": 52000000,
+    "2025": 52000000
+   }
+  },
+  {
+   "company": "parker-hannifin-corp-goshen-1525",
+   "county": "18039",
+   "gpm": 550,
+   "id": "20-02787",
+   "intakes": 0,
+   "lat": 41.568817,
+   "lon": -85.825435,
+   "name": "Parker Hannifin Corporation",
+   "water": [],
+   "wells": 1,
+   "years": {
+    "2023": 70560000,
+    "2024": 54239000,
+    "2025": 56241000
+   }
+  },
+  {
+   "company": null,
+   "county": "18091",
+   "gpm": 190,
+   "id": "46-01644",
+   "intakes": 0,
+   "lat": 41.69243,
+   "lon": -86.804793,
+   "name": "Citys Pure Ice Incorporated",
+   "water": [],
+   "wells": 3,
+   "years": {
+    "2023": 20786000,
+    "2024": 19540000,
+    "2025": 47962000
+   }
+  },
+  {
+   "company": "biomet-inc-warsaw-56",
+   "county": "18085",
+   "gpm": 1760,
+   "id": "43-02816",
+   "intakes": 0,
+   "lat": 41.266336,
+   "lon": -85.842042,
+   "name": "Zimmer Biomet Inc.",
+   "water": [],
+   "wells": 5,
+   "years": {
+    "2023": 42916000,
+    "2024": 46500000,
+    "2025": 33563000
+   }
+  },
+  {
+   "company": "hoosier-tire-rubber-corp-plymouth-2307",
+   "county": "18099",
+   "gpm": 750,
+   "id": "50-03481",
+   "intakes": 0,
+   "lat": 41.351295,
+   "lon": -86.331843,
+   "name": "Hoosier Racing Tire Corporation",
+   "water": [],
+   "wells": 3,
+   "years": {
+    "2023": 43579000,
+    "2024": 41053000,
+    "2025": 38851000
+   }
+  },
+  {
+   "company": null,
+   "county": "18039",
+   "gpm": 1580,
+   "id": "20-01964",
+   "intakes": 0,
+   "lat": 41.677014,
+   "lon": -86.004097,
+   "name": "City of Elkhart",
+   "water": [],
+   "wells": 4,
+   "years": {
+    "2023": 40020000,
+    "2024": 40020000
+   }
+  },
+  {
+   "company": "crystal-lake-llc-warsaw-6500",
+   "county": "18085",
+   "gpm": 800,
+   "id": "43-03489",
+   "intakes": 0,
+   "lat": 41.232852,
+   "lon": -85.967624,
+   "name": "Crystal Lake LLC",
+   "water": [],
+   "wells": 4,
+   "years": {
+    "2023": 34587900,
+    "2024": 28769000,
+    "2025": 27977000
+   }
+  },
+  {
+   "company": "parker-hannifin-corp-syracuse-501",
+   "county": "18085",
+   "gpm": 850,
+   "id": "43-00665",
+   "intakes": 0,
+   "lat": 41.418499,
+   "lon": -85.749893,
+   "name": "Parker Hannifin Corporation",
+   "water": [],
+   "wells": 2,
+   "years": {
+    "2023": 32618000,
+    "2024": 28561000,
+    "2025": 24726000
+   }
+  },
+  {
+   "company": null,
+   "county": "18113",
+   "gpm": 2400,
+   "id": "57-04055",
+   "intakes": 1,
+   "lat": 41.473012,
+   "lon": -85.614113,
+   "name": "Clifford Aggregate Inc.",
+   "water": [
+    "Settling Pond"
+   ],
+   "wells": 0,
+   "years": {
+    "2023": 25300000,
+    "2024": 30035000,
+    "2025": 28700000
+   }
+  },
+  {
+   "company": null,
+   "county": "18099",
+   "gpm": 1060,
+   "id": "50-02134",
+   "intakes": 0,
+   "lat": 41.388789,
+   "lon": -86.31262,
+   "name": "Indiana Tool and Manufacturing",
+   "water": [],
+   "wells": 2,
+   "years": {
+    "2023": 19428000,
+    "2025": 0
+   }
+  },
+  {
+   "company": null,
+   "county": "18039",
+   "gpm": 200,
+   "id": "20-01058",
+   "intakes": 0,
+   "lat": 41.68187,
+   "lon": -85.942746,
+   "name": "Nibco Incorporated",
+   "water": [],
+   "wells": 1,
+   "years": {
+    "2023": 14160000,
+    "2024": 17610360,
+    "2025": 15940000
+   }
+  },
+  {
+   "company": "deutsche-kase-haus-inc-middlebury-11275",
+   "county": "18087",
+   "gpm": 600,
+   "id": "44-02750",
+   "intakes": 0,
+   "lat": 41.676261,
+   "lon": -85.644596,
+   "name": "Middlebury Cheese Company",
+   "water": [],
+   "wells": 2,
+   "years": {
+    "2023": 14400000,
+    "2024": 11060000
+   }
+  },
+  {
+   "company": null,
+   "county": "18039",
+   "gpm": 850,
+   "id": "20-02738",
+   "intakes": 0,
+   "lat": 41.721121,
+   "lon": -85.811842,
+   "name": "Kibbechem Inc",
+   "water": [],
+   "wells": 2,
+   "years": {
+    "2023": 14000000,
+    "2024": 13700000,
+    "2025": 13610000
+   }
+  },
+  {
+   "company": "elkhart-plating-corp-elkhart-1913",
+   "county": "18039",
+   "gpm": 190,
+   "id": "20-04526",
+   "intakes": 0,
+   "lat": 41.668773,
+   "lon": -85.988608,
+   "name": "Elkhart Plating Corporation",
+   "water": [],
+   "wells": 2,
+   "years": {
+    "2023": 10300000
+   }
+  },
+  {
+   "company": "syndicate-systems-middlebury-402",
+   "county": "18039",
+   "gpm": 2537,
+   "id": "20-00177",
+   "intakes": 0,
+   "lat": 41.681405,
+   "lon": -85.700056,
+   "name": "Lozier Corporation",
+   "water": [],
+   "wells": 5,
+   "years": {
+    "2023": 7357000,
+    "2024": 7789000,
+    "2025": 7968000
+   }
+  },
+  {
+   "company": "hubbell-electrical-products-inc-south-bend-39",
+   "county": "18141",
+   "gpm": 500,
+   "id": "71-02740",
+   "intakes": 0,
+   "lat": 41.663667,
+   "lon": -86.300629,
+   "name": "Raco Incorporated",
+   "water": [],
+   "wells": 1,
+   "years": {
+    "2023": 100000,
+    "2024": 5542000,
+    "2025": 7758000
+   }
+  },
+  {
+   "company": "silgan-plastics-corp-ligonier-910",
+   "county": "18113",
+   "gpm": 1030,
+   "id": "57-00449",
+   "intakes": 0,
+   "lat": 41.469247,
+   "lon": -85.600721,
+   "name": "Silgan Plastics Corporation",
+   "water": [],
+   "wells": 2,
+   "years": {
+    "2023": 4162000,
+    "2024": 5968000,
+    "2025": 7207000
+   }
+  },
+  {
+   "company": "warsaw-black-oxide-inc-burket-310",
+   "county": "18085",
+   "gpm": 85,
+   "id": "43-02742",
+   "intakes": 0,
+   "lat": 41.154487,
+   "lon": -85.967963,
+   "name": "Warsaw Black Oxide Incorporated",
+   "water": [],
+   "wells": 1,
+   "years": {
+    "2023": 6577000,
+    "2024": 6092000,
+    "2025": 5786641
+   }
+  },
+  {
+   "company": null,
+   "county": "18141",
+   "gpm": 2178,
+   "id": "71-03904",
+   "intakes": 0,
+   "lat": 41.670505,
+   "lon": -86.486756,
+   "name": "Navistar Inc",
+   "water": [],
+   "wells": 6,
+   "years": {
+    "2023": 561400,
+    "2024": 561400,
+    "2025": 5671000
+   }
+  },
+  {
+   "company": "continental-industries-inc-elkhart-100",
+   "county": "18039",
+   "gpm": 92,
+   "id": "20-00294",
+   "intakes": 0,
+   "lat": 41.727458,
+   "lon": -85.97897,
+   "name": "Continental Industries Incorporated",
+   "water": [],
+   "wells": 2,
+   "years": {
+    "2023": 5309610,
+    "2024": 5453308,
+    "2025": 5016910
+   }
+  },
+  {
+   "company": "universal-forest-products-inc-granger-50415",
+   "county": "18141",
+   "gpm": 125,
+   "id": "71-03539",
+   "intakes": 0,
+   "lat": 41.75582,
+   "lon": -86.113242,
+   "name": "UFP Granger, LLC",
+   "water": [],
+   "wells": 3,
+   "years": {
+    "2023": 4942000,
+    "2024": 4518000,
+    "2025": 5258000
+   }
+  },
+  {
+   "company": null,
+   "county": "18039",
+   "gpm": 886,
+   "id": "20-00458",
+   "intakes": 1,
+   "lat": 41.702854,
+   "lon": -85.997689,
+   "name": "Elkhart Products Corporation",
+   "water": [
+    "Un Pd"
+   ],
+   "wells": 2,
+   "years": {
+    "2023": 5075100,
+    "2024": 4324000
+   }
+  },
+  {
+   "company": "home-city-ice-co-north-webster-7056",
+   "county": "18085",
+   "gpm": 280,
+   "id": "43-03490",
+   "intakes": 0,
+   "lat": 41.339093,
+   "lon": -85.696736,
+   "name": "Home City Ice Company",
+   "water": [],
+   "wells": 3,
+   "years": {
+    "2023": 3588000,
+    "2024": 19000,
+    "2025": 20000
+   }
+  },
+  {
+   "company": "micropulse-columbia-city-5865",
+   "county": "18183",
+   "gpm": 335,
+   "id": "92-05876",
+   "intakes": 0,
+   "lat": 41.079149,
+   "lon": -85.37893,
+   "name": "Micropulse Inc.",
+   "water": [],
+   "wells": 3,
+   "years": {
+    "2023": 2567000,
+    "2024": 3051558,
+    "2025": 3215000
+   }
+  },
+  {
+   "company": "t-m-rubber-inc-goshen-1102",
+   "county": "18039",
+   "gpm": 263,
+   "id": "20-00398",
+   "intakes": 0,
+   "lat": 41.572183,
+   "lon": -85.824294,
+   "name": "T and M Rubber Incorporated",
+   "water": [],
+   "wells": 2,
+   "years": {
+    "2023": 2305000,
+    "2024": 2989000,
+    "2025": 2617000
+   }
+  },
+  {
+   "company": "nibco-inc-goshen-701",
+   "county": "18039",
+   "gpm": 154,
+   "id": "20-00119",
+   "intakes": 0,
+   "lat": 41.556426,
+   "lon": -85.82488,
+   "name": "Nibco Incorporated",
+   "water": [],
+   "wells": 1,
+   "years": {
+    "2024": 2647000,
+    "2025": 2409675
+   }
+  },
+  {
+   "company": null,
+   "county": "18141",
+   "gpm": 350,
+   "id": "71-04233",
+   "intakes": 0,
+   "lat": 41.623353,
+   "lon": -86.337439,
+   "name": "Bit Mat Products",
+   "water": [],
+   "wells": 2,
+   "years": {
+    "2023": 1912000,
+    "2024": 2300000,
+    "2025": 2518000
+   }
+  },
+  {
+   "company": "chromasource-columbia-city-2433",
+   "county": "18183",
+   "gpm": 300,
+   "id": "92-04423",
+   "intakes": 0,
+   "lat": 41.127342,
+   "lon": -85.37274,
+   "name": "Chroma Source Incorporated",
+   "water": [],
+   "wells": 1,
+   "years": {
+    "2023": 2169000,
+    "2024": 2461000,
+    "2025": 2342000
+   }
+  },
+  {
+   "company": null,
+   "county": "18049",
+   "gpm": 230,
+   "id": "25-03417",
+   "intakes": 1,
+   "lat": 41.007457,
+   "lon": -85.945887,
+   "name": "Phend and Brown Incorporated",
+   "water": [
+    "Un Pd"
+   ],
+   "wells": 0,
+   "years": {
+    "2023": 0,
+    "2025": 2400000
+   }
+  },
+  {
+   "company": "bull-moose-tube-co-elkhart-29851",
+   "county": "18039",
+   "gpm": 230,
+   "id": "20-00961",
+   "intakes": 0,
+   "lat": 41.661093,
+   "lon": -86.038274,
+   "name": "Bull Moose Tube Company",
+   "water": [],
+   "wells": 2,
+   "years": {
+    "2023": 1204000,
+    "2024": 933800,
+    "2025": 1687600
+   }
+  },
+  {
+   "company": "da-lite-screen-company-inc-warsaw-3100",
+   "county": "18085",
+   "gpm": 1299,
+   "id": "43-00430",
+   "intakes": 0,
+   "lat": 41.280178,
+   "lon": -85.852544,
+   "name": "Legrand AV Division",
+   "water": [],
+   "wells": 3,
+   "years": {
+    "2023": 1444240,
+    "2024": 1517648,
+    "2025": 681000
+   }
+  },
+  {
+   "company": null,
+   "county": "18039",
+   "gpm": 2725,
+   "id": "20-00305",
+   "intakes": 1,
+   "lat": 41.692151,
+   "lon": -86.009872,
+   "name": "Aggregate Industries",
+   "water": [
+    "Yoder Pond"
+   ],
+   "wells": 1,
+   "years": {
+    "2023": 1258520
+   }
+  },
+  {
+   "company": "milford-purina-feed-mill-milford-346",
+   "county": "18085",
+   "gpm": 80,
+   "id": "43-01059",
+   "intakes": 0,
+   "lat": 41.429229,
+   "lon": -85.850219,
+   "name": "Land O' Lakes Purina Feed, LLC",
+   "water": [],
+   "wells": 1,
+   "years": {
+    "2023": 830000,
+    "2024": 1008000,
+    "2025": 1133000
+   }
+  },
+  {
+   "company": null,
+   "county": "18039",
+   "gpm": 290,
+   "id": "20-03602",
+   "intakes": 0,
+   "lat": 41.666271,
+   "lon": -85.82078,
+   "name": "IMI Indiana, LLC",
+   "water": [],
+   "wells": 1,
+   "years": {
+    "2023": 240000,
+    "2024": 240000,
+    "2025": 240000
+   }
+  },
+  {
+   "company": null,
+   "county": "18049",
+   "gpm": 90,
+   "id": "25-04352",
+   "intakes": 0,
+   "lat": 41.061085,
+   "lon": -86.234527,
+   "name": "IMI Indiana, LLC",
+   "water": [],
+   "wells": 1,
+   "years": {
+    "2023": 240000,
+    "2024": 240000,
+    "2025": 240000
+   }
+  },
+  {
+   "company": null,
+   "county": "18085",
+   "gpm": 280,
+   "id": "43-01627",
+   "intakes": 0,
+   "lat": 41.320645,
+   "lon": -85.845859,
+   "name": "IMI Indiana, LLC",
+   "water": [],
+   "wells": 1,
+   "years": {
+    "2023": 240000,
+    "2024": 240000,
+    "2025": 240000
+   }
+  },
+  {
+   "company": null,
+   "county": "18099",
+   "gpm": 230,
+   "id": "50-05805",
+   "intakes": 0,
+   "lat": 41.319953,
+   "lon": -86.273259,
+   "name": "IMI Indiana, LLC",
+   "water": [],
+   "wells": 1,
+   "years": {
+    "2023": 100000,
+    "2024": 240000,
+    "2025": 240000
+   }
+  },
+  {
+   "company": null,
+   "county": "18113",
+   "gpm": 413,
+   "id": "57-01628",
+   "intakes": 0,
+   "lat": 41.453452,
+   "lon": -85.310133,
+   "name": "IMI Indiana, LLC",
+   "water": [],
+   "wells": 2,
+   "years": {
+    "2023": 240000,
+    "2024": 240000,
+    "2025": 240000
+   }
+  },
+  {
+   "company": "american-millwork-llc-elkhart-4840",
+   "county": "18039",
+   "gpm": 280,
+   "id": "20-00709",
+   "intakes": 0,
+   "lat": 41.696479,
+   "lon": -85.892033,
+   "name": "American Millwork Corporation",
+   "water": [],
+   "wells": 5,
+   "years": {
+    "2023": 229000,
+    "2024": 230000,
+    "2025": 219000
+   }
+  },
+  {
+   "company": "palletone-inc-shipshewana-5345",
+   "county": "18087",
+   "gpm": 400,
+   "id": "44-03514",
+   "intakes": 0,
+   "lat": 41.670088,
+   "lon": -85.527303,
+   "name": "Pallet One of Indiana Incorporated",
+   "water": [],
+   "wells": 1,
+   "years": {
+    "2023": 180000,
+    "2024": 178000,
+    "2025": 160000
+   }
+  },
+  {
+   "company": null,
+   "county": "18039",
+   "gpm": 290,
+   "id": "20-02734",
+   "intakes": 0,
+   "lat": 41.664241,
+   "lon": -86.011201,
+   "name": "Rieth Riley Construction Company Inc",
+   "water": [],
+   "wells": 3,
+   "years": {
+    "2023": 162034,
+    "2024": 134640,
+    "2025": 128840
+   }
+  },
+  {
+   "company": null,
+   "county": "18149",
+   "gpm": 200,
+   "id": "75-02675",
+   "intakes": 0,
+   "lat": 41.204508,
+   "lon": -86.658898,
+   "name": "Panhandle Eastern Pipeline Company",
+   "water": [],
+   "wells": 2,
+   "years": {
+    "2023": 54812,
+    "2024": 55837,
+    "2025": 72135
+   }
+  },
+  {
+   "company": "color-master-inc-kendallville-4230",
+   "county": "18113",
+   "gpm": 120,
+   "id": "57-01831",
+   "intakes": 0,
+   "lat": 41.450553,
+   "lon": -85.346123,
+   "name": "Color Master Inc",
+   "water": [],
+   "wells": 1,
+   "years": {
+    "2023": 24000,
+    "2024": 24000,
+    "2025": 24000
+   }
+  },
+  {
+   "company": null,
+   "county": "18099",
+   "gpm": 165,
+   "id": "50-03720",
+   "intakes": 0,
+   "lat": 41.241854,
+   "lon": -86.415008,
+   "name": "Acura Pharmaceutical Technologies Incorporated",
+   "water": [],
+   "wells": 2,
+   "years": {
+    "2023": 6000,
+    "2024": 9000,
+    "2025": 7000
+   }
+  },
+  {
+   "company": null,
+   "county": "18039",
+   "gpm": 1448,
+   "id": "20-00353",
+   "intakes": 0,
+   "lat": 41.741838,
+   "lon": -85.975435,
+   "name": "Catfish1 LLC",
+   "water": [],
+   "wells": 5,
+   "years": {
+    "2023": 1612
+   }
+  },
+  {
+   "company": "cts",
+   "county": "18039",
+   "gpm": 646,
+   "id": "20-01411",
+   "intakes": 0,
+   "lat": 41.693578,
+   "lon": -85.992726,
+   "name": "CTS Corporation/ Automotive Division",
+   "water": [],
+   "wells": 2,
+   "years": {
+    "2023": 0,
+    "2024": 0,
+    "2025": 0
+   }
+  },
+  {
+   "company": null,
+   "county": "18039",
+   "gpm": 280,
+   "id": "20-01505",
+   "intakes": 0,
+   "lat": 41.685542,
+   "lon": -85.94533,
+   "name": "Nibco Incorporated",
+   "water": [],
+   "wells": 3,
+   "years": {}
+  },
+  {
+   "company": null,
+   "county": "18039",
+   "gpm": 1063,
+   "id": "20-02749",
+   "intakes": 0,
+   "lat": 41.649644,
+   "lon": -85.935108,
+   "name": "Plumrose USA Incorporated",
+   "water": [],
+   "wells": 2,
+   "years": {}
+  },
+  {
+   "company": null,
+   "county": "18039",
+   "gpm": 1050,
+   "id": "20-04064",
+   "intakes": 0,
+   "lat": 41.745988,
+   "lon": -85.736637,
+   "name": "The Bristol Indiana Corporation",
+   "water": [],
+   "wells": 3,
+   "years": {
+    "2024": 0
+   }
+  },
+  {
+   "company": "flexform-technologies-llc-elkhart-4955",
+   "county": "18039",
+   "gpm": 210,
+   "id": "20-04603",
+   "intakes": 0,
+   "lat": 41.692699,
+   "lon": -85.892338,
+   "name": "Flexform Technologies",
+   "water": [],
+   "wells": 3,
+   "years": {}
+  },
+  {
+   "company": null,
+   "county": "18049",
+   "gpm": 600,
+   "id": "25-00341",
+   "intakes": 0,
+   "lat": 41.119361,
+   "lon": -86.227,
+   "name": "Camcar LLC",
+   "water": [],
+   "wells": 2,
+   "years": {
+    "2025": 0
+   }
+  },
+  {
+   "company": "rochester-metal-products-rochester-616",
+   "county": "18049",
+   "gpm": 120,
+   "id": "25-01028",
+   "intakes": 0,
+   "lat": 41.069487,
+   "lon": -86.211517,
+   "name": "Rochester Metal Products",
+   "water": [],
+   "wells": 2,
+   "years": {
+    "2023": 0,
+    "2024": 0,
+    "2025": 0
+   }
+  },
+  {
+   "company": null,
+   "county": "18085",
+   "gpm": 975,
+   "id": "43-01878",
+   "intakes": 0,
+   "lat": 41.193751,
+   "lon": -85.976886,
+   "name": "Sponseller Brothers LLC",
+   "water": [],
+   "wells": 2,
+   "years": {
+    "2023": 0,
+    "2024": 0,
+    "2025": 0
+   }
+  },
+  {
+   "company": null,
+   "county": "18085",
+   "gpm": 150,
+   "id": "43-02376",
+   "intakes": 0,
+   "lat": 41.24705,
+   "lon": -85.872817,
+   "name": "Flint CPS Inks North America, LLC",
+   "water": [],
+   "wells": 1,
+   "years": {}
+  },
+  {
+   "company": null,
+   "county": "18099",
+   "gpm": 1600,
+   "id": "50-00170",
+   "intakes": 0,
+   "lat": 41.350757,
+   "lon": -86.316906,
+   "name": "AMAT Holdings LLC",
+   "water": [],
+   "wells": 2,
+   "years": {
+    "2023": 0
+   }
+  },
+  {
+   "company": null,
+   "county": "18113",
+   "gpm": 2000,
+   "id": "57-03590",
+   "intakes": 2,
+   "lat": 41.468281,
+   "lon": -85.310945,
+   "name": "Clifford Aggregate Inc.",
+   "water": [
+    "Un Pd"
+   ],
+   "wells": 0,
+   "years": {
+    "2023": 0,
+    "2024": 0,
+    "2025": 0
+   }
+  },
+  {
+   "company": "unifrax-corp-new-carlisle-54401",
+   "county": "18141",
+   "gpm": 3070,
+   "id": "71-02060",
+   "intakes": 0,
+   "lat": 41.703891,
+   "lon": -86.451093,
+   "name": "Unifrax Corporation",
+   "water": [],
+   "wells": 4,
+   "years": {}
+  }
+ ],
+ "pulled": "2026-11-19",
+ "source": "Indiana DNR Division of Water, Significant Water Withdrawal Facility data (IN-SWWF.zip)",
+ "units": "gallons a year; capacity in gallons a minute"
+}

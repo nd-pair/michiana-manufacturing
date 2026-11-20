@@ -308,6 +308,25 @@ def main():
     for p in dis.get("permits", []):
         if p.get("company"):
             wper.setdefault(p["company"], []).append(slim(p))
+    # industrial water withdrawals, Indiana counties (Indiana DNR via scripts/pull_withdrawals.py)
+    wdr = sidecar("withdrawals.json")
+    wwd = {}
+    for f in wdr.get("facilities", []):
+        if f.get("company") and f["years"]:
+            wwd.setdefault(f["company"], []).append({"name": f["name"], "years": f["years"]})
+    for o in companies:
+        o["withdrawals"] = wwd.get(o["id"])
+    # aqueous waste shipped on manifests (EPA e-Manifest via scripts/pull_manifests.py)
+    emf = sidecar("manifests.json")
+    br_ids = {h["id"] for h in (waste.get("rcra") or {}).get("aqueous", [])}
+    wem = {}
+    for g in emf.get("generators", []):
+        if g.get("company"):
+            e = wem.setdefault(g["company"], {"water": 0, "acid": 0, "streams": [], "to": []})
+            e["water"] = round(e["water"] + g["water"], 2); e["acid"] = round(e["acid"] + g["acid"], 2)
+            e["streams"] += g["streams"][:2]; e["to"] += [n for n, _ in g["to"][:2] if n not in e["to"]]
+    for o in companies:
+        o["shipped"] = wem.get(o["id"])
     for o in companies:
         o["permits"] = sorted(wper.get(o["id"], []), key=lambda x: list(PK).index(x["kind"])) or None
     for o in companies:
@@ -341,6 +360,15 @@ def main():
         "receivers": sorted(({"name": "Managed on site" if i == "onsite" else rcv.get(i, {}).get("name", i), "id": "" if i == "onsite" else i,
                               "place": ", ".join(x for x in (rcv.get(i, {}).get("city", ""), rcv.get(i, {}).get("state", "")) if x), "tons": round(t, 1), "plants": len(n)} for i, (t, n) in
                              _aq_receivers((waste.get("rcra") or {}).get("aqueous", [])).items()), key=lambda x: -x["tons"]),
+        "withdrawals": [{"name": f["name"], "county": {"18039": "Elkhart", "18049": "Fulton", "18085": "Kosciusko", "18087": "LaGrange", "18091": "LaPorte", "18099": "Marshall", "18113": "Noble", "18141": "St. Joseph", "18149": "Starke", "18183": "Whitley"}.get(f["county"], ""), "company": co(f.get("company")),
+                         "closed": closed_on.get(f.get("company")), "years": f["years"], "gpm": f["gpm"], "wells": f["wells"], "intakes": f["intakes"],
+                         "water": f["water"]} for f in wdr.get("facilities", []) if f["years"]],
+        "withdrawalsPulled": wdr.get("pulled", ""),
+        "emYear": emf.get("year"), "emAll": [len(emf.get("generators", [])), round(sum(g["water"] for g in emf.get("generators", []))),
+                                             round(sum(g["acid"] for g in emf.get("generators", []))), round(sum(g["nonhaz"] for g in emf.get("generators", [])))],
+        "manifests": [{"name": titlecase(g["name"]), "city": g["city"], "company": co(g.get("company")), "closed": closed_on.get(g.get("company")),
+                       "water": g["water"], "acid": g["acid"], "nonhaz": g["nonhaz"], "n": g["manifests"], "streams": g["streams"][:2], "to": g["to"][:2],
+                       "br": g["id"] in br_ids} for g in emf.get("generators", []) if g["water"] + g["acid"] >= 1 or g.get("company")],
         "dmrYear": dis.get("dmr_year"), "permitsPulled": dis.get("pulled", ""),
         "permits": [{**slim(p), "name": titlecase(p["name"]), "city": p["city"], "company": co(p.get("company")), "closed": closed_on.get(p.get("company"))}
                     for p in dis.get("permits", [])],
@@ -485,6 +513,8 @@ def main():
             "{{TRIN}}": str(sum(1 for f in (waste.get("tri") or {}).get("facilities", []) if f["metals"])),
             "{{TRIWATERN}}": str(sum(1 for f in (waste.get("tri") or {}).get("facilities", []) if f.get("water"))),
             "{{AQN}}": str(len((waste.get("rcra") or {}).get("aqueous", []))),
+            "{{EMN}}": str(len(emf.get("generators", []))), "{{EMYEAR}}": str(emf.get("year", "–")), "{{EMPULLED}}": emf.get("pulled", "not yet pulled"),
+            "{{WDN}}": str(sum(1 for f in wdr.get("facilities", []) if f["years"])), "{{WDPULLED}}": wdr.get("pulled", "not yet pulled"),
             "{{DMRYEAR}}": str(dis.get("dmr_year", "–")), "{{PERMITSPULLED}}": dis.get("pulled", "not yet pulled"),
             "{{PERMITS}}": "%d discharge, %d sewer-use, %d stormwater" % tuple(sum(1 for p in dis.get("permits", []) if p["kind"] == k) for k in ("discharge", "sewer", "stormwater")), "{{RCRAN}}": str(len((waste.get("rcra") or {}).get("handlers", []))), "{{COMPANIES}}": "{:,}".format(n_groups), "{{HIFLD}}": "{:,}".format(src_counts["hifld"]),
             "{{SBIRFIRMS}}": str(src_counts["sbir"]), "{{OSHA}}": "{:,}".format(src_counts["osha"]), "{{OSHAYEAR}}": osha.get("latest_year", "–"),

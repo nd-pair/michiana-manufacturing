@@ -32,6 +32,8 @@ jobs:
         run: |
           python3 scripts/pull_waste.py --rematch
           python3 scripts/pull_discharge.py --rematch
+          python3 scripts/pull_manifests.py --rematch
+          pip install --quiet xlrd && python3 scripts/pull_withdrawals.py --rematch
       - name: Build docs/
         run: python3 scripts/build.py
       - name: Commit

@@ -128,3 +128,65 @@ note = "Modar Inc-2200 Empire LLC, Benton Harbor; not shown to be the same compa
 epa_id = "IN0003387"
 file = ""
 note = "the discharge permit is held by Phoenix Warsaw Industrial Investors, the owner of the 2801 W Old Road 30 site, not by Slate Auto, a tenant there"
+
+# Indiana DNR significant water withdrawal facilities (scripts/pull_withdrawals.py; id INDNR-<county number>-<registration>)
+[[match]]
+epa_id = "INDNR-71-03153"
+file = ""
+note = "registered to the Town of New Carlisle (coded industrial); not shown to belong to Cleveland-Cliffs, the nearest file"
+
+[[match]]
+epa_id = "INDNR-92-04431"
+file = "steel-dynamics-inc-structural-and-rail-columbia-city-2601"
+note = "Steel Dynamics' wells in Whitley County, 2.4 km from the mill's address point"
+
+[[match]]
+epa_id = "INDNR-92-04423"
+file = "chromasource-columbia-city-2433"
+note = "Chroma Source Incorporated, 305 m from ChromaSource's file"
+
+[[match]]
+epa_id = "INDNR-71-02740"
+file = "hubbell-electrical-products-inc-south-bend-39"
+note = "Raco is Hubbell's South Bend plant, 165 m away"
+
+[[match]]
+epa_id = "INDNR-71-03539"
+file = "universal-forest-products-inc-granger-50415"
+note = "UFP Granger, 559 m from Universal Forest Products' Granger file"
+
+[[match]]
+epa_id = "INDNR-44-03514"
+file = "palletone-inc-shipshewana-5345"
+note = "Pallet One of Indiana, 84 m from PalletOne's Shipshewana file"
+
+[[match]]
+epa_id = "INDNR-20-00715"
+file = "dairy-farmers-of-america-inc-goshen-1110"
+note = "Dairy Farmers of America's Goshen wells; the plant closed in 2025"
+
+[[match]]
+epa_id = "INDNR-43-02742"
+file = "warsaw-black-oxide-inc-burket-310"
+note = "Warsaw Black Oxide's well, 9 m from its file (presumed closed, but it reported withdrawals and discharges for 2025)"
+
+# EPA IDs whose address is written differently from the company file (RCRA and e-Manifest)
+[[match]]
+epa_id = "INR000019364"
+file = "steel-dynamics-inc-structural-and-rail-columbia-city-2601"
+note = "Steel Dynamics Structural & Rail, 2601 S 700 E in EPA's records, 2601 County Road 700 East in the file"
+
+[[match]]
+epa_id = "INR000157990"
+file = "dairy-farmers-of-america-inc-goshen-1110"
+note = "Dairy Farmers of America, Goshen; the plant's file is closed 2025, so the address match skips it"
+
+[[match]]
+epa_id = "IND005157037"
+file = "zimmer-holdings-inc-warsaw-1800"
+note = "Zimmer Building 19 at 1535 W Center St, on Zimmer Biomet's Warsaw campus (file at 1800 W Center St)"
+
+[[match]]
+epa_id = "IND005157144"
+file = "warsaw-black-oxide-inc-burket-310"
+note = "Warsaw Black Oxide, 310 S Walnut St, Burket (presumed closed, but it shipped waste and reported discharges for 2025)"

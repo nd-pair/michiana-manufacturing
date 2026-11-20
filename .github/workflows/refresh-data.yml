@@ -79,6 +79,14 @@ jobs:
       - name: Water permits and discharge reports (EPA ECHO, Clean Water Act)
         continue-on-error: true
         run: python3 scripts/pull_discharge.py
+      - name: Liquid waste shipped on manifests (EPA e-Manifest bulk files, about 2 GB, streamed and deleted)
+        continue-on-error: true
+        run: python3 scripts/pull_manifests.py
+      - name: Industrial water withdrawals, Indiana counties (Indiana DNR Significant Water Withdrawal Facilities)
+        continue-on-error: true
+        run: |
+          pip install --quiet xlrd
+          python3 scripts/pull_withdrawals.py
       - name: Task fit, workforce age and turnover, value added (O*NET, Census QWI, BEA)
         continue-on-error: true
         run: python3 scripts/pull_workforce.py
@@ -101,6 +109,8 @@ jobs:
         run: |
           python3 scripts/pull_waste.py --rematch
           python3 scripts/pull_discharge.py --rematch
+          python3 scripts/pull_manifests.py --rematch
+          pip install --quiet xlrd && python3 scripts/pull_withdrawals.py --rematch
       - name: Build docs/
         run: python3 scripts/build.py
       - name: Commit the refresh
