@@ -178,7 +178,12 @@ Without WebGL the map shows a notice and everything else still works. The page c
   production waste by metal (EPA Toxics Release Inventory: how much is recycled, how much is not, and
   the largest unrecycled source), the largest unrecycled sources, metal-bearing hazardous waste (EPA
   RCRA Biennial Report), aqueous streams (TRI pounds of every listed chemical sent to sewer plants and
-  surface water; the Biennial Report streams EPA flags as wastewater, with where each was shipped), the critical materials companies likely work with (inferred from products
+  surface water; the Biennial Report streams EPA flags as wastewater, with where each was shipped; and
+  the Clean Water Act permits in effect, from EPA ECHO via `scripts/pull_discharge.py` → `data/discharge.json`:
+  wastewater discharge permits with flow and pollutant loads from the latest year's discharge reports,
+  sewer-use permits where the issuer reports them to EPA (Michigan City, La Porte, Plymouth, Bremen,
+  Goshen and IDEM; not South Bend, Elkhart, Mishawaka or Warsaw), and industrial stormwater permits;
+  matched to company files like the EPA plants, with hand matches in `data/waste_matches.toml`), the critical materials companies likely work with (inferred from products
   and NAICS, `data/critical_materials.toml`, with the USGS 2025 and DOE lists; click to filter),
   the recyclers, and coal ash at NIPSCO's Michigan City station (`data/waste_sites.toml`, by hand).
   `scripts/pull_waste.py` → `data/waste.json` (EPA, no key; `--rematch` only re-matches plants to
@@ -187,7 +192,7 @@ Without WebGL the map shows a notice and everything else still works. The page c
   also writes `audits/epa-unmatched.csv`, the EPA plants with no file on the map (including plants
   presumed closed that still report), noting any earlier check from `audits/epa-plant-check-*.csv`. Company
   cards show their reported metal waste, hazardous waste streams, releases to water and sewer, hazardous
-  wastewater and likely critical materials; the
+  wastewater, water permits and likely critical materials; the
   "Metal waste reported to EPA" chip on the Companies tab filters the map. Company names in the tab open
   their card on the map, and the "Likely materials" rows filter the map and roster.
 - **Recyclers.** The sector *Recycling & recovery* holds scrap yards, auto recyclers, secondary
@@ -352,9 +357,9 @@ so commit only your source changes (`companies/`, `data/`, `site/`, `scripts/`) 
 
 ```
 companies/      one TOML file per company (edit these)
-data/           sectors, places, capabilities (edit these); county boundaries (Census; simplified for the map, detailed for placing plants), ZIP code centers and NAICS titles (Census), shorelines (Natural Earth); pulled datasets (federal, fda, qcew, bls, census, waste, sbir, osha, warn); critical_materials.toml, waste_sites.toml and waste_matches.toml (edit these)
+data/           sectors, places, capabilities (edit these); county boundaries (Census; simplified for the map, detailed for placing plants), ZIP code centers and NAICS titles (Census), shorelines (Natural Earth); pulled datasets (federal, fda, qcew, bls, census, waste, discharge, sbir, osha, warn); critical_materials.toml, waste_sites.toml and waste_matches.toml (edit these)
 site/           the pages: Notre Dame Web Theme chrome (partials/), page.html + app.js (map), about.html, brief.html + brief.js, app.css
-scripts/        review_llm.py (monthly news review), build.py, humanoid.py, opportunity.py, geocode.py, import_hifld.py, import_osha.py, import_sbir_firms.py, pull_warn.py, pull_federal.py, pull_sbir.py, pull_fda.py, pull_qcew.py, pull_bls.py, pull_census.py, pull_waste.py, pull_workforce.py, pull_nd_research.py, pull_events.py, pull_patents.py, check_consistency.py, check_coverage.py, check_sites.py, check_closed.py, apply_checks.py, make_county_detail.py, make_zip_centers.py, make_naics_titles.py, make_naics_concordance.py, common.py
+scripts/        review_llm.py (monthly news review), build.py, humanoid.py, opportunity.py, geocode.py, import_hifld.py, import_osha.py, import_sbir_firms.py, pull_warn.py, pull_federal.py, pull_sbir.py, pull_fda.py, pull_qcew.py, pull_bls.py, pull_census.py, pull_waste.py, pull_discharge.py, pull_workforce.py, pull_nd_research.py, pull_events.py, pull_patents.py, check_consistency.py, check_coverage.py, check_sites.py, check_closed.py, apply_checks.py, make_county_detail.py, make_zip_centers.py, make_naics_titles.py, make_naics_concordance.py, common.py
 docs/           the built site (generated; do not edit by hand)
 ```
 
@@ -367,6 +372,6 @@ Company descriptions, products and headcounts: the HIFLD General Manufacturing F
 dataset (U.S. DHS, public domain) for most entries, OSHA's Form 300A establishment data (U.S.
 Department of Labor) for plants with 20 or more employees, and the companies' own websites, public
 filings, press and business directories for the rest; headcounts are approximate and dated.
-Layoff and closing notices: Indiana Department of Workforce Development (WARN). Federal awards: USAspending.gov. SBIR/STTR: SBIR.gov. Device registrations: openFDA. Employment, pay, occupations and unemployment: BLS (QCEW, OEWS, CES, LAUS). Task traits: O*NET 31.0 (CC BY 4.0). Workforce age and turnover: Census LEHD QWI. Plants, shipments, residents' earnings, openings and closures, nonemployers: Census Bureau Economic Census, ACS, BDS and Nonemployer Statistics. Metal waste: EPA Toxics Release Inventory and RCRA Biennial Report. Critical materials: USGS and DOE lists. Value added: BEA. County boundaries: U.S.
+Layoff and closing notices: Indiana Department of Workforce Development (WARN). Federal awards: USAspending.gov. SBIR/STTR: SBIR.gov. Device registrations: openFDA. Employment, pay, occupations and unemployment: BLS (QCEW, OEWS, CES, LAUS). Task traits: O*NET 31.0 (CC BY 4.0). Workforce age and turnover: Census LEHD QWI. Plants, shipments, residents' earnings, openings and closures, nonemployers: Census Bureau Economic Census, ACS, BDS and Nonemployer Statistics. Metal waste and aqueous streams: EPA Toxics Release Inventory and RCRA Biennial Report. Water permits and discharge reports: EPA ECHO. Critical materials: USGS and DOE lists. Value added: BEA. County boundaries: U.S.
 Census Bureau cartographic boundary files. Shorelines: Natural Earth. Code: MIT license (see
 LICENSE); company data is factual public information.

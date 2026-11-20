@@ -82,3 +82,49 @@ note = "Crosbie Foundry (RCRA 2023), as above"
 epa_id = "46526DRYFR1110S"
 file = "dairy-farmers-of-america-inc-goshen-1110"
 note = "TRI 2024 water and sewer releases at 1110-24 S 9th St; the plant's file is closed 2025, so the address match skips it"
+
+# Clean Water Act permits (scripts/pull_discharge.py) whose address match lands on another company at the same address
+[[match]]
+epa_id = "INRM03216"
+file = "essex-solutions-columbia-city-2601"
+note = "ECHO address 2601 S CR 600 E is Essex's plant; the name-and-distance match picked Steel Dynamics next door"
+
+[[match]]
+epa_id = "IN0064907"
+file = ""
+note = "Zimmer Biomet corporate office building at 345 E Main St, Warsaw; the address match picked Plug and Play Warsaw in the same building"
+
+[[match]]
+epa_id = "INRM03221"
+file = ""
+note = "Koontz-Wagner Services, Suite A at 3801 Voorde Dr; a different company from Masterbilt at the same address"
+
+[[match]]
+epa_id = "INP000717"
+file = ""
+note = "Rock Run Industries (metal finishing) at 536 W Michigan St, Topeka; not shown to be the same company as Wieland Designs at that address"
+
+[[match]]
+epa_id = "INRM02488"
+file = ""
+note = "Quality Hardwood Sales at 493 Shawnee, Nappanee; not shown to be the same company as UFP Nappanee at that address"
+
+[[match]]
+epa_id = "INRM03306"
+file = ""
+note = "Wright Industries at 2572 E Kercher Rd, Goshen; not shown to be the same company as Wabash National at that address"
+
+[[match]]
+epa_id = "MIS310770"
+file = ""
+note = "NSG-Niles at 2121 W Chicago Rd, Niles; not shown to be the same company as Modineer at that address"
+
+[[match]]
+epa_id = "MIS310735"
+file = ""
+note = "Modar Inc-2200 Empire LLC, Benton Harbor; not shown to be the same company as Summit Industrial Coatings at that address"
+
+[[match]]
+epa_id = "IN0003387"
+file = ""
+note = "the discharge permit is held by Phoenix Warsaw Industrial Investors, the owner of the 2801 W Old Road 30 site, not by Slate Auto, a tenant there"

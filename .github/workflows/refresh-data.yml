@@ -76,6 +76,9 @@ jobs:
       - name: Metal waste streams (EPA Toxics Release Inventory and RCRA Biennial Report; review list of EPA plants not on the map)
         continue-on-error: true
         run: python3 scripts/pull_waste.py
+      - name: Water permits and discharge reports (EPA ECHO, Clean Water Act)
+        continue-on-error: true
+        run: python3 scripts/pull_discharge.py
       - name: Task fit, workforce age and turnover, value added (O*NET, Census QWI, BEA)
         continue-on-error: true
         run: python3 scripts/pull_workforce.py
@@ -95,7 +98,9 @@ jobs:
           python3 scripts/review_llm.py
       - name: Match EPA plants again to this month's company files (new, renamed or closed by the steps above)
         continue-on-error: true
-        run: python3 scripts/pull_waste.py --rematch
+        run: |
+          python3 scripts/pull_waste.py --rematch
+          python3 scripts/pull_discharge.py --rematch
       - name: Build docs/
         run: python3 scripts/build.py
       - name: Commit the refresh
