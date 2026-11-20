@@ -1,0 +1,23 @@
+# International Abrasive Technologies (IAT)
+# Added by hand from Notre Dame's iNDustry Labs relationship list (Nov 2026) and a public source; see verified_note.
+
+name = "International Abrasive Technologies (IAT)"
+kind = "company"
+city = "Plymouth"
+state = "IN"
+address = "1800 Jim Neu Drive #7A, Plymouth, IN 46563"
+lat = 41.35452
+lon = -86.34259
+website = "https://internationalabrasives.com"
+verified = "2026-11-20"
+verified_note = "The company's homepage with this address was last changed on July 30, 2024 and its catalog is dated July 2024; it is on Notre Dame iNDustry Labs' November 2026 relationship list. Source: https://internationalabrasives.com/"
+
+sector = "Materials & composites"
+products = ["Surface-conditioning belts and discs", "Quick-change and flap discs", "Convolute and unitized wheels"]
+naics = "327910"
+
+parent = "Plymouth Products"
+description = "Converter of abrasives (belts, discs and wheels for surface conditioning), a subsidiary of Plymouth Products."
+
+source = "Notre Dame iNDustry Labs relationship list, checked against public sources"
+updated = "2026-11-20"

@@ -1,0 +1,21 @@
+# Apex Doors+
+# Added by hand from Notre Dame's iNDustry Labs relationship list (Nov 2026) and a public source; see unconfirmed_reason.
+
+name = "Apex Doors+"
+kind = "company"
+city = "Middlebury"
+state = "IN"
+address = "420 North Main Street, Middlebury, IN 46540"
+lat = 41.68510
+lon = -85.70060
+website = "https://apexdoorsplus.com"
+unconfirmed = "2026-11-20"
+unconfirmed_reason = "Its contact page with this address was last changed on April 2, 2025, the only date found; no news, OSHA or EPA record confirms the site."
+
+sector = "Wood, paper & furniture"
+products = ["RV cabinet and baggage doors", "Countertops", "Thermofoil and lamination"]
+naics = "337110"
+description = "CNC, thermofoil and lamination shop making cabinet and baggage doors and countertops for RV makers."
+
+source = "Notre Dame iNDustry Labs relationship list, checked against public sources"
+updated = "2026-11-20"

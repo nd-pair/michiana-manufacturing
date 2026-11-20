@@ -1,0 +1,21 @@
+# Rochester Homes, Inc.
+# Added by hand from Notre Dame's iNDustry Labs relationship list (Nov 2026) and a public source; see verified_note.
+
+name = "Rochester Homes, Inc."
+kind = "company"
+city = "Rochester"
+state = "IN"
+address = "1345 North Lucas Street, Rochester, IN 46975"
+lat = 41.07433
+lon = -86.20567
+website = "https://www.rochesterhomesinc.com"
+verified = "2026-11-20"
+verified_note = "The company's site (copyright 2026) gives this address for its modular home plant. Source: https://www.rochesterhomesinc.com"
+
+sector = "Wood, paper & furniture"
+products = ["Custom modular homes", "Multifamily modular buildings"]
+naics = "321992"
+description = "Builder of factory-built custom modular homes."
+
+source = "Notre Dame iNDustry Labs relationship list, checked against public sources"
+updated = "2026-11-20"

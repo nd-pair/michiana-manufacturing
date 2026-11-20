@@ -1,0 +1,21 @@
+# DSS Valve Products, Inc.
+# Added by hand from Notre Dame's iNDustry Labs relationship list (Nov 2026) and a public source; see verified_note.
+
+name = "DSS Valve Products, Inc."
+kind = "company"
+city = "Niles"
+state = "MI"
+address = "1800 Mayflower Road, Niles, MI 49120"
+lat = 41.81662
+lon = -86.32227
+website = "https://www.dssvalves.com"
+verified = "2026-11-20"
+verified_note = "The company's site (copyright 2026, with a post dated March 2, 2026) gives this address. Source: https://www.dssvalves.com"
+
+sector = "Metal"
+products = ["Severe-service knife gate valves", "Double block-and-bleed valves", "Check and through-conduit gate valves"]
+naics = "332911"
+description = "Engineer and maker of severe-service industrial valves."
+
+source = "Notre Dame iNDustry Labs relationship list, checked against public sources"
+updated = "2026-11-20"

@@ -1,0 +1,21 @@
+# Aunalytics
+# Added by hand from Notre Dame's iNDustry Labs relationship list (Nov 2026) and a public source; see verified_note.
+
+name = "Aunalytics"
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "460 Stull Street, South Bend, IN 46601"
+lat = 41.66162
+lon = -86.25569
+website = "https://www.aunalytics.com"
+verified = "2026-11-20"
+verified_note = "Its contact page (copyright 2024) gives this headquarters address; WVPE reported on June 13, 2024 a city loan for its data center at Ignition Park. Source: https://www.wvpe.org/wvpe-news/2024-06-13/as-tech-giants-enter-scene-south-bend-signs-deal-with-local-company-aunalytics"
+
+sector = "Software & services"
+products = ["Data analytics platform", "Cloud and colocation", "Managed IT and security"]
+naics = "518210"
+description = "Data analytics, cloud and managed IT company headquartered in South Bend."
+
+source = "Notre Dame iNDustry Labs relationship list, checked against public sources"
+updated = "2026-11-20"

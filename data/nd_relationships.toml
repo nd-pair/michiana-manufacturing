@@ -1,0 +1,967 @@
+# Organizations where Notre Dame (iNDustry Labs) has a relationship at the senior leadership level.
+# From iNDustry Labs' list, shared to flag these companies on the map; updated with
+# scripts/import_nd_relationships.py. Company names and websites only.
+# files: company ids on the map; group = true flags every site of the company group;
+# off_map: why an organization is listed without a column on the map.
+
+source = "iNDustry Labs, University of Notre Dame"
+updated = "2026-11-20"
+
+[[org]]
+name = "1st Source Bank"
+website = "1stsource.com"
+files = ["1st-source-capital"]
+
+[[org]]
+name = "Abonmarche"
+website = "abonmarche.com"
+files = ["abonmarche-benton-harbor-95"]
+
+[[org]]
+name = "Action Machine"
+website = "actionmachine.com"
+files = ["action-machine-south-bend-1847"]
+
+[[org]]
+name = "AETechron"
+website = "aetechron.com"
+files = ["aetechron"]
+
+[[org]]
+name = "Alliance Architects"
+website = "alliarch.com"
+files = []
+off_map = "architecture firm"
+
+[[org]]
+name = "Alliant Insurance Services, Inc."
+website = "alliant.com"
+files = []
+off_map = "insurance broker"
+
+[[org]]
+name = "Allied Specialty Precision Inc."
+website = "aspi-nc.com"
+files = ["allied-specialty-precision-inc-mishawaka-815"]
+
+[[org]]
+name = "Aluminum Insights"
+website = "aluminuminsights.com"
+files = ["aluminum-insights-llc-syracuse-104e"]
+
+[[org]]
+name = "AM General LLC"
+website = "amgeneral.com"
+files = ["amgeneral"]
+
+[[org]]
+name = "AMERI-CAN Engineering"
+website = "ameri-can.com"
+files = ["american"]
+
+[[org]]
+name = "American Electronic Components"
+website = "solsta-usa.com"
+files = ["american-electronic-components-inc-elkhart-1101"]
+
+[[org]]
+name = "American Technology Components Inc (ATC)"
+website = "atcomp.com"
+files = ["american-technology-components-inc-elkhart-2905"]
+
+[[org]]
+name = "Apex Doors Plus"
+website = "apexdoorsplus.com"
+files = ["apex-doors-plus-middlebury-420"]
+
+[[org]]
+name = "ASA Electronics"
+website = "asaelectronics.com"
+files = ["asa-electronics-elkhart-2602"]
+
+[[org]]
+name = "ATC trailers"
+website = "atctrailers.com"
+files = ["aluminum-trailer-co-nappanee-306", "aluminum-trailer-company-nappanee-751"]
+
+[[org]]
+name = "Aunalytics"
+website = "aunalytics.com"
+files = ["aunalytics-south-bend-460"]
+
+[[org]]
+name = "B&B Molders LLC"
+website = "bandbmolders.com"
+files = ["bbmolders"]
+
+[[org]]
+name = "B-D Industries"
+website = "bdindustries.com"
+files = ["b-d-industries-elkhart-1715"]
+
+[[org]]
+name = "Barletta Boat Company LLC"
+website = "barlettapontoonboats.com"
+files = ["barletta-boat-company-llc-bristol-51687"]
+
+[[org]]
+name = "BCI Solutions, Inc"
+website = "bcisolutions.com"
+files = ["bci"]
+
+[[org]]
+name = "Beacon Health System"
+website = "beaconhealthsystem.org"
+files = []
+off_map = "health system"
+
+[[org]]
+name = "Bertrand Products, Inc."
+website = "bertrandproducts.com"
+files = ["bertrand"]
+
+[[org]]
+name = "Better World Books"
+website = "betterworldbooks.com"
+files = []
+off_map = "online bookseller"
+
+[[org]]
+name = "Boosted Lighting Solutions"
+website = "boostedlightingsolutions.com"
+files = []
+off_map = "no site in the region found"
+
+[[org]]
+name = "Bradley Company"
+website = "bradleyco.com"
+files = []
+off_map = "real estate"
+
+[[org]]
+name = "Brinkley RV"
+website = "brinkleyrv.com"
+files = ["brinkley-rv-llc-goshen-1470", "brinkley-rv-llc-goshen-1475", "brinkley-rv-llc-goshen-1580", "brinkley-rv-llc-goshen-1585", "brinkley-rv-llc-goshen-1655", "brinkley-rv-llc-goshen-2482"]
+group = true
+
+[[org]]
+name = "Bristol Tool and Die Inc"
+website = "bristoltoolanddie.com"
+files = ["bristol-tool-die-inc-bristol-17992"]
+
+[[org]]
+name = "C&S Machine"
+website = "csmachine.com"
+files = ["c-s-machine-products-inc-buchanan-215"]
+
+[[org]]
+name = "Carpenter Co."
+website = "carpenter.com"
+files = ["carpenter-co-elkhart-195"]
+
+[[org]]
+name = "CFB, Inc."
+website = "customformulating.com"
+files = ["custom-formulating-and-blending-bristol-1123"]
+
+[[org]]
+name = "Chamberlin Legal, LLC"
+website = "chamberlinlegal.com"
+files = []
+off_map = "law firm"
+
+[[org]]
+name = "Chase Manufacturing LLC"
+website = "chasemfg.com"
+files = ["chase-manufacturing-elkhart-5329", "chase-mfg-llc-nappanee-506", "elkhart-tool-die-inc-elkhart-2400"]
+group = true
+
+[[org]]
+name = "Christianson Industries"
+website = "christiansonind.com"
+files = ["christianson-industries-inc-edwardsburg-27328"]
+
+[[org]]
+name = "City of South Bend"
+website = "southbendin.gov"
+files = []
+off_map = "local government"
+
+[[org]]
+name = "Claeys Candy"
+website = "claeys.com"
+files = ["claeys-candy-inc-south-bend-525"]
+
+[[org]]
+name = "Complexus Medical"
+website = "complexusmedical.com"
+files = ["f-f-machine-specialties-mishawaka-55980"]
+
+[[org]]
+name = "Conn-Selmer Inc."
+website = "connselmer.com"
+files = ["conn-selmer-inc-elkhart-1000", "conn-selmer-inc-vincent-bach-div-elkhart-500"]
+group = true
+
+[[org]]
+name = "Connect 574"
+website = "connect574.com"
+files = []
+off_map = "regional network"
+
+[[org]]
+name = "Convergix Automation"
+website = "convergixautomation.com"
+files = ["eagle-technologies-group-llc-bridgman-9850"]
+
+[[org]]
+name = "CP Industries"
+website = "cpind.com"
+files = ["cp"]
+
+[[org]]
+name = "Cressy & Everett Real Estate"
+website = "cressyeverett.com"
+files = []
+off_map = "real estate"
+
+[[org]]
+name = "Crossroads Solar Enterprises, LLC"
+website = "crossroads-solar.com"
+files = ["crossroads-solar-south-bend-1901"]
+
+[[org]]
+name = "CTS Corporation"
+website = "ctscorp.com"
+files = ["cts"]
+
+[[org]]
+name = "Cultivate Food Rescue"
+website = "cultivatefoodrescue.org"
+files = []
+off_map = "nonprofit"
+
+[[org]]
+name = "Curtis Products"
+website = "curtisproducts.com"
+files = ["curtis-products-inc-south-bend-228"]
+
+[[org]]
+name = "Daman Products Co Inc"
+website = "daman.com"
+files = ["daman-products-co-inc-mishawaka-1811"]
+
+[[org]]
+name = "Damping Technologies Inc (DTI)"
+website = "dampingtech.com"
+files = ["damping"]
+group = true
+
+[[org]]
+name = "Danch Harner and Associates Inc"
+website = "danchharner.com"
+files = ["danch-harner-and-associates-south-bend-1643"]
+
+[[org]]
+name = "Delta Machining Incorporated"
+website = "deltamach.com"
+files = ["delta-machining-inc-niles-2361"]
+
+[[org]]
+name = "Dexter Axle"
+website = "dexteraxle.com"
+files = ["dexter-axle-company-albion-500"]
+group = true
+
+[[org]]
+name = "DNAVibe"
+website = "dnavibe.com"
+files = []
+off_map = "based in Colorado; no site in the region found"
+
+[[org]]
+name = "DSS Valves"
+website = "dssvalves.com"
+files = ["dss-valve-products-niles-1800"]
+
+[[org]]
+name = "Economic Development Corporation of Elkhart County"
+website = "elkhartcountybiz.com"
+files = []
+off_map = "economic development organization"
+
+[[org]]
+name = "Edgewater Automation"
+website = "edgewaterautomation.com"
+files = ["edgewater-automation-buchanan", "edgewater-automation-llc-saint-joseph-481"]
+group = true
+
+[[org]]
+name = "Elkhart Brass"
+website = "elkhartbrass.com"
+files = ["elkhart-brass-mfg-co-elkhart-1302"]
+
+[[org]]
+name = "enFocus"
+website = "enfocus.org"
+files = []
+off_map = "nonprofit"
+
+[[org]]
+name = "ENVEL FACADE INC."
+website = "envelfacade.com"
+files = ["shaffner-heaney-assoc-inc-south-bend-2508"]
+
+[[org]]
+name = "Everwise Credit Union"
+website = "everwisecu.com"
+files = []
+off_map = "credit union"
+
+[[org]]
+name = "EVS Ltd."
+website = "evsltd.com"
+files = ["evs-ltd-south-bend-3702"]
+
+[[org]]
+name = "Excel Electronics"
+website = "excelelectronicsinc.com"
+files = ["excel-electronics-inc-ekhart-2600"]
+
+[[org]]
+name = "FabX"
+website = "fabxindustries.com"
+files = ["ultra-fab-products-inc-elkhart-57985"]
+
+[[org]]
+name = "Final Phase Electric"
+website = "finalphaseelectric.net"
+files = []
+off_map = "electrical contractor"
+
+[[org]]
+name = "FinishWorks"
+website = "finishworks.com"
+files = ["finishworks-shipshewana-in-shipshewana-7990"]
+
+[[org]]
+name = "Flexible Concepts"
+website = "flexibleconcepts.com"
+files = ["flexible"]
+
+[[org]]
+name = "Forest River"
+website = "forestriverinc.com"
+files = ["forestriver"]
+group = true
+
+[[org]]
+name = "Frontline Manufacturing"
+website = "frontline-manufacturing.com"
+files = ["frontline-manufacturing-warsaw-1445"]
+
+[[org]]
+name = "General Stamping & Metalworks (GSM)"
+website = "generalstamping.com"
+files = ["gsm"]
+
+[[org]]
+name = "Genesis Products"
+website = "genesisproductsinc.com"
+files = ["genesis-products-inc-elkhart-2608"]
+
+[[org]]
+name = "Gibson Insurance"
+website = "gibsonins.com"
+files = []
+off_map = "insurance"
+
+[[org]]
+name = "Gillette Generators"
+website = "gillettegenerators.com"
+files = ["gillette-generators-inc-elkhart-1340"]
+
+[[org]]
+name = "GoEngineer"
+website = "goengineer.com"
+files = []
+off_map = "software reseller outside the region"
+
+[[org]]
+name = "Golden Legacy Partners"
+website = "goldenlegacypartners.com"
+files = []
+off_map = "real estate"
+
+[[org]]
+name = "Goshen Health"
+website = "goshenhealth.com"
+files = []
+off_map = "health system"
+
+[[org]]
+name = "Goshen Stamping Company"
+website = "goshenstamping.com"
+files = ["goshen-stamping-co-inc-goshen-1025"]
+
+[[org]]
+name = "Great Lakes Forest Products"
+website = "glfp.net"
+files = ["greenball-corp-elkhart-21861"]
+
+[[org]]
+name = "Guide Engineering"
+website = "guideeng.com"
+files = []
+off_map = "engineering firm outside the region"
+
+[[org]]
+name = "GW Berkheimer Co Inc"
+website = "gwberkheimer.com"
+files = []
+off_map = "distributor outside the region"
+
+[[org]]
+name = "H. B. Fuller Company"
+website = "hbfuller.com"
+files = ["royal-adhesives-sealants-llc-south-bend-2001"]
+
+[[org]]
+name = "Heartland Footwear Inc."
+website = "heartlandfootwear.com"
+files = ["heartland-footwear-south-bend-701"]
+
+[[org]]
+name = "Hibshman Screw Machine Products Incorporated"
+website = "hibshman.com"
+files = ["hibshman-screw-machine-products-union-69351"]
+
+[[org]]
+name = "Honeywell International"
+website = "honeywell.com"
+files = ["honeywell-international-inc-south-bend-717"]
+
+[[org]]
+name = "Hoosier Crane Service Company"
+website = "hoosiercrane.com"
+files = ["hoosier-crane-service-elkhart-58144"]
+
+[[org]]
+name = "HydroDigital"
+website = "hydrodigital.com"
+files = []
+off_map = "software firm without a public street address"
+
+[[org]]
+name = "IAT (International Abrasive Technologies)"
+website = "internationalabrasives.com"
+files = ["international-abrasive-technologies-plymouth-1800"]
+
+[[org]]
+name = "Indiana Carton Company Inc."
+website = "indianacarton.com"
+files = ["indiana-carton-co-inc-bremen-1721"]
+
+[[org]]
+name = "INOVA Federal Credit Union"
+website = "inovafederal.org"
+files = []
+off_map = "credit union"
+
+[[org]]
+name = "Insulation Components"
+website = "insulationcomponents.com"
+files = ["insulation-components-mishawaka-13301"]
+
+[[org]]
+name = "Inventure Electronics"
+website = "inventuredesign.com"
+files = ["inventure-electronics-goshen-609"]
+
+[[org]]
+name = "ITAMCO"
+website = "itamco.com"
+files = ["itamco"]
+
+[[org]]
+name = "Janco Engineered Products LLC"
+website = "jancoengineeredproducts.com"
+files = ["janco"]
+
+[[org]]
+name = "Jayco"
+website = "jayco.com"
+files = ["jayco-inc-middlebury-903"]
+group = true
+
+[[org]]
+name = "JPiller Design And Consulting LLC"
+website = "jpillerdc.com"
+files = []
+off_map = "consultancy"
+
+[[org]]
+name = "Kem Krest Corporation"
+website = "kemkrest.com"
+files = ["kemkrest"]
+
+[[org]]
+name = "Kessington Machined Products"
+website = "kessington.com"
+files = ["kessington"]
+
+[[org]]
+name = "KMC Controls"
+website = "kmccontrols.com"
+files = ["kmc-controls-co-inc-new-paris-19476"]
+
+[[org]]
+name = "Kruggel Lawton CPA"
+website = "klcpas.com"
+files = []
+off_map = "accounting firm"
+
+[[org]]
+name = "L&W Engineering"
+website = "lwengineering.com"
+files = ["l-w-engineering-inc-middlebury-107"]
+
+[[org]]
+name = "Lacy Diversified Industries"
+website = "lacydiversified.com"
+files = []
+off_map = "holding company outside the region"
+
+[[org]]
+name = "Laidig Systems, Inc."
+website = "laidig.com"
+files = ["laidig-systems-inc-mishawaka-14535"]
+
+[[org]]
+name = "Lake City Bank"
+website = "lakecitybank.com"
+files = []
+off_map = "bank"
+
+[[org]]
+name = "LAND/ The Shield Foundation"
+website = "theshieldfoundation.com"
+files = []
+off_map = "nonprofit"
+
+[[org]]
+name = "Lawson & Fisher"
+website = "lawson-fisher.com"
+files = ["lawson-fisher-associates-south-bend-525"]
+
+[[org]]
+name = "LEA Professional LLC"
+website = "leaprofessional.com"
+files = ["lea-professional-south-bend-635"]
+
+[[org]]
+name = "Lebermuth, Inc."
+website = "lebermuth.com"
+files = ["lebermuth-co-inc-the-bremen-114"]
+
+[[org]]
+name = "LECO Corporation"
+website = "leco.com"
+files = ["leco-corp-saint-joseph-3000"]
+
+[[org]]
+name = "Liftco"
+website = "liftcoproducts.com"
+files = ["liftco"]
+
+[[org]]
+name = "Lippert Aftermarket"
+files = ["lippert"]
+group = true
+names = "^(Lippert|LCI\\b|Kinro)"
+
+[[org]]
+name = "Lippert Axle"
+website = "lippert.com"
+files = ["lippert"]
+group = true
+names = "^(Lippert|LCI\\b|Kinro)"
+
+[[org]]
+name = "Lippert Chasis/CPG"
+files = ["lippert"]
+group = true
+names = "^(Lippert|LCI\\b|Kinro)"
+
+[[org]]
+name = "Lippert Corporate"
+website = "lippert.com"
+files = ["lippert"]
+group = true
+names = "^(Lippert|LCI\\b|Kinro)"
+
+[[org]]
+name = "Lippert Glass"
+website = "lippert.com"
+files = ["lippert"]
+group = true
+names = "^(Lippert|LCI\\b|Kinro)"
+
+[[org]]
+name = "Lippert Hydraulic Slides & Leveling (Plant #85)"
+website = "lippert.com"
+files = ["lippert"]
+group = true
+names = "^(Lippert|LCI\\b|Kinro)"
+
+[[org]]
+name = "Lippert Interiors"
+website = "lippert.com"
+files = ["lippert"]
+group = true
+names = "^(Lippert|LCI\\b|Kinro)"
+
+[[org]]
+name = "Lippert Transportation"
+website = "lippert.com"
+files = ["lippert"]
+group = true
+names = "^(Lippert|LCI\\b|Kinro)"
+
+[[org]]
+name = "Lippert Windows"
+website = "lippert.com"
+files = ["lippert"]
+group = true
+names = "^(Lippert|LCI\\b|Kinro)"
+
+[[org]]
+name = "Lock Joint Tube Inc."
+website = "lockjointtube.com"
+files = ["lock-joint-tube-llc-south-bend-515"]
+
+[[org]]
+name = "Logistick"
+website = "logistick.com"
+files = ["logistick-south-bend-19880"]
+
+[[org]]
+name = "Lum"
+website = "lumdoc.com"
+files = []
+off_map = "health care"
+
+[[org]]
+name = "Manufacturing Technology Inc."
+website = "mtiwelding.com"
+files = ["mti"]
+
+[[org]]
+name = "Masterbilt"
+website = "masterbiltprecisionmachining.com"
+files = ["masterbilt"]
+
+[[org]]
+name = "MET Manufacturing Group"
+website = "met-mfg.com"
+files = ["met"]
+
+[[org]]
+name = "Metalcraft Precision Machining"
+website = "metalcraftprecision.org"
+files = ["metalcraft-precision-machining-inc-elkhart-56854"]
+
+[[org]]
+name = "Millennium Machinery"
+website = "millenniummachineryinc.com"
+files = ["millennium"]
+
+[[org]]
+name = "Millmark Enterprises Inc."
+website = "millmarkenterprises.com"
+files = ["millmark-enterprises-elkhart-1935"]
+
+[[org]]
+name = "Momentum Entrepreneurship Hub"
+website = "momentumsb.com"
+files = []
+off_map = "entrepreneurship hub"
+
+[[org]]
+name = "Morgan Advanced Materials"
+website = "morganadvancedmaterials.com"
+files = ["morgan"]
+
+[[org]]
+name = "Murray Mentor"
+website = "murraymentor.ai"
+files = []
+off_map = "software firm outside the region"
+
+[[org]]
+name = "Newmar"
+website = "newmarcorp.com"
+files = ["newmar-corp-nappanee-355"]
+
+[[org]]
+name = "Norres North America Inc."
+website = "norres.com"
+files = ["norres-north-america-south-bend-701"]
+
+[[org]]
+name = "Off The Glass"
+website = "offtheglass.com"
+files = []
+off_map = "media company"
+
+[[org]]
+name = "Patrick Industries Inc."
+website = "patrickind.com"
+files = ["patrick-metals-mishawaka-5020"]
+group = true
+names = "Patrick (Industries|Metals)\\b|\\bAdorn\\b"
+
+[[org]]
+name = "Plymouth Products"
+website = "plymouthproducts.com"
+files = ["plymouth-products-plymouth-1800"]
+
+[[org]]
+name = "Polaris"
+website = "polaris.com"
+files = ["pontoon-boat-llc-dba-bennington-marine-elkhart-2805"]
+
+[[org]]
+name = "Poly Electronics"
+website = "polyelectronics.us"
+files = ["polytron-corp-elkhart-4400"]
+
+[[org]]
+name = "Polygon Composites"
+website = "polygoncomposites.com"
+files = ["polygon"]
+
+[[org]]
+name = "Postle Aluminum Company LLC"
+website = "postle.com"
+files = ["postle-aluminum-elkhart-511"]
+
+[[org]]
+name = "R. Yoder Construction"
+website = "ryoderconstruction.com"
+files = []
+off_map = "construction"
+
+[[org]]
+name = "Rapha Roast Coffee"
+website = "rapharoast.com"
+files = ["rapha-roast-shipshewana-250"]
+
+[[org]]
+name = "RC Industries"
+website = "rctoolbox.com"
+files = ["r-concepts-industries-inc-elkhart-555"]
+
+[[org]]
+name = "Rochester Homes, Inc."
+website = "rochesterhomesinc.com"
+files = ["rochester-homes-rochester-1345"]
+
+[[org]]
+name = "RSM"
+website = "rsmus.com"
+files = []
+off_map = "accounting firm"
+
+[[org]]
+name = "SBERP"
+website = "southbendelkhart.org"
+files = []
+off_map = "economic development partnership"
+
+[[org]]
+name = "Schafer Industries"
+website = "schaferindustries.com"
+files = ["schafer"]
+
+[[org]]
+name = "ShowHauler Trucks Inc."
+website = "showhauler.com"
+files = ["showhauler-trucks-inc-middlebury-114"]
+
+[[org]]
+name = "Simba Chain Inc."
+website = "simbachain.com"
+files = ["simba"]
+
+[[org]]
+name = "SlateUp"
+website = "slateup.co"
+files = []
+off_map = "staffing"
+
+[[org]]
+name = "Smoker Craft Inc"
+website = "smokercraft.com"
+files = ["smoker-craft-inc-new-paris-68143"]
+
+[[org]]
+name = "South Bend Clinic"
+website = "southbendclinic.com"
+files = []
+off_map = "health care"
+
+[[org]]
+name = "South Bend International Airport"
+website = "flysbn.com"
+files = []
+off_map = "airport"
+
+[[org]]
+name = "Southwire"
+website = "southwire.com"
+files = ["southwire"]
+
+[[org]]
+name = "Speedgrip Chuck Co."
+website = "speedgrip.com"
+files = ["speedgrip"]
+
+[[org]]
+name = "SPI Group"
+website = "moldedparts.com"
+files = ["quality-molded-products-south-bend-19850"]
+
+[[org]]
+name = "Steel Warehouse Company Inc."
+website = "steelwarehouse.com"
+files = ["steel-warehouse-co-llc-south-bend-2722"]
+
+[[org]]
+name = "Storey Family Farms"
+website = "storeyfamilyfarm.com"
+files = []
+off_map = "farm"
+
+[[org]]
+name = "Synergy Cells"
+files = ["samsung-sdi-new-carlisle"]
+
+[[org]]
+name = "Tecomet"
+website = "tecomet.com"
+files = ["symmetry-medical-inc-warsaw-3724", "tecomet-claypool-111"]
+group = true
+
+[[org]]
+name = "TekModo"
+website = "tekmodo.com"
+files = []
+off_map = "plant in Three Rivers, MI, outside the region; its Elkhart site is not confirmed since 2023"
+
+[[org]]
+name = "Tessellated Inc."
+website = "tessellatedinc.com"
+files = ["tessellated-inc"]
+
+[[org]]
+name = "Third Coast Federal"
+website = "thirdcoastfederal.com"
+files = ["third-coast-federal-inc"]
+
+[[org]]
+name = "Thor Industries Inc."
+website = "thorindustries.com"
+files = ["thor"]
+group = true
+
+[[org]]
+name = "Thunderbird Molding"
+website = "thunderbird-molding.com"
+files = ["indiana-plastics-inc-elkhart-2221"]
+
+[[org]]
+name = "Tire Rack"
+website = "tirerack.com"
+files = []
+off_map = "retailer and distributor"
+
+[[org]]
+name = "TraceAM"
+website = "traceam.com"
+files = ["traceam"]
+
+[[org]]
+name = "Trek 10"
+website = "trek10.com"
+files = ["trekfed"]
+
+[[org]]
+name = "TrekFed"
+website = "trekfed.com"
+files = ["trekfed"]
+
+[[org]]
+name = "Tru Die Cast Corporation"
+website = "trudiecast.com"
+files = ["tru-die-cast-corp-new-troy-13066"]
+
+[[org]]
+name = "United Tool & Engineering Inc"
+website = "unitedtleng.com"
+files = ["unitedtool"]
+
+[[org]]
+name = "Valley Manufacturing"
+website = "valleymanufacturinginc.com"
+files = ["valley-manufacturing-elkhart-2820"]
+
+[[org]]
+name = "Valley Screen Process Co."
+website = "valleyscreen.com"
+files = ["valley-screen-process-co-inc-mishawaka-58740"]
+
+[[org]]
+name = "Value Tool & Engineering"
+website = "valuetooleng.com"
+files = ["value-tool-and-engineering-south-bend-2629"]
+
+[[org]]
+name = "Viewrail"
+website = "viewrail.com"
+files = ["viewrail-goshen-1815"]
+
+[[org]]
+name = "Vista AV Integration"
+website = "oivista.com"
+files = ["vista-technologies-granger-1415"]
+
+[[org]]
+name = "Vista Manufacturing Inc"
+website = "vistamfg.com"
+files = ["vista-mfg-inc-elkhart-52864"]
+
+[[org]]
+name = "VMW Tooling Group"
+website = "vmwtooling.com"
+files = ["vmw-tooling-group-elkhart-1500"]
+
+[[org]]
+name = "Welch Packaging"
+website = "welchpkg.com"
+files = ["welch-packaging-group-inc-elkhart-1020"]
+
+[[org]]
+name = "Whirlpool Corporation"
+website = "whirlpoolcorp.com"
+files = ["whirlpool-corporation-headquarters-benton-harbor-2000"]
+
+[[org]]
+name = "Winndeavor"
+website = "winndeavor.com"
+files = ["winndeavor-la-porte-1712"]
+
+[[org]]
+name = "Zentis North America"
+website = "zentis.com"
+files = ["zentis-north-america-plymouth-2050"]

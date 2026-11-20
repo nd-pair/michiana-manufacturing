@@ -1,0 +1,21 @@
+# Rapha Roast Coffee
+# Added by hand from Notre Dame's iNDustry Labs relationship list (Nov 2026) and a public source; see unconfirmed_reason.
+
+name = "Rapha Roast Coffee"
+kind = "company"
+city = "Shipshewana"
+state = "IN"
+address = "250 East Berkshire Drive, Unit 6, Shipshewana, IN 46565"
+lat = 41.65943
+lon = -85.57878
+website = "https://rapharoast.com"
+unconfirmed = "2026-11-20"
+unconfirmed_reason = "The company's site (copyright 2026) gives this Shipshewana address, but it was not confirmed that the roasting happens there (earlier profiles place it in South Bend)."
+
+sector = "Food & consumer goods"
+products = ["Air-roasted coffee", "Wholesale coffee for cafes"]
+naics = "311920"
+description = "Small fluid-bed coffee roaster selling online and wholesale."
+
+source = "Notre Dame iNDustry Labs relationship list, checked against public sources"
+updated = "2026-11-20"

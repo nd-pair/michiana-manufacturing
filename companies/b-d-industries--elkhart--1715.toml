@@ -1,0 +1,21 @@
+# B-D Industries
+# Added by hand from Notre Dame's iNDustry Labs relationship list (Nov 2026) and a public source; see verified_note.
+
+name = "B-D Industries"
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "1715 Fieldhouse Avenue, Elkhart, IN 46517"
+lat = 41.66596
+lon = -85.99500
+website = "https://www.bdindustries.com"
+verified = "2026-11-20"
+verified_note = "A careers post dated August 20, 2026 seeks shop-floor staff; the homepage (changed February 2026) gives this address. Source: https://www.bdindustries.com/careers/"
+
+sector = "Metal"
+products = ["Anodizing and hardcoat", "Dry-film lubricant and PTFE coatings", "Conversion coating and passivation", "Non-destructive testing"]
+naics = "332813"
+description = "Nadcap-certified metal finisher for aerospace: anodizing, coatings, passivation and non-destructive testing."
+
+source = "Notre Dame iNDustry Labs relationship list, checked against public sources"
+updated = "2026-11-20"

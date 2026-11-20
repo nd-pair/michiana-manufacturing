@@ -1,0 +1,27 @@
+# Crossroads Solar
+# Added by hand from Notre Dame's iNDustry Labs relationship list (Nov 2026) and a public source; see verified_note.
+
+name = "Crossroads Solar"
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "1901 North Bendix Drive, South Bend, IN 46628"
+lat = 41.70106
+lon = -86.29373
+website = "https://crossroads-solar.com"
+verified = "2026-11-20"
+verified_note = "Notre Dame News reported on February 15, 2024 that Crossroads Solar assembles solar panels on Bendix Drive in South Bend with about 18 employees, among them formerly incarcerated workers; the street number is from the company's site. Source: https://news.nd.edu/news/from-prison-to-employment-solar-partnership-advances-notre-dames-mission-values/"
+
+sector = "Electronics"
+products = ["Solar panels (PV modules)"]
+naics = "334413"
+
+employees = 18
+employees_scope = "site"
+employees_year = 2024
+employees_quality = "reported"
+employees_note = "Notre Dame News, February 15, 2024"
+description = "Solar panel assembly plant in South Bend that hires formerly incarcerated workers."
+
+source = "Notre Dame iNDustry Labs relationship list, checked against public sources"
+updated = "2026-11-20"

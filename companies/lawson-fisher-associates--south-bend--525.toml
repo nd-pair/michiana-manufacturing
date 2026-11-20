@@ -1,0 +1,22 @@
+# Lawson-Fisher Associates
+# Added by hand from Notre Dame's iNDustry Labs relationship list (Nov 2026) and a public source; see unconfirmed_reason.
+
+name = "Lawson-Fisher Associates"
+kind = "company"
+manufacturer = false
+city = "South Bend"
+state = "IN"
+address = "525 West Washington Street, South Bend, IN 46601"
+lat = 41.67640
+lon = -86.25740
+website = "https://lawson-fisher.com"
+unconfirmed = "2026-11-20"
+unconfirmed_reason = "The firm's post of November 18, 2025 says it is headquartered in South Bend; the street address is from its undated contact page, so it is not confirmed. Source: https://lawson-fisher.com/indyofficeexpansion/"
+
+sector = "Software & services"
+products = ["Transportation and bridge engineering", "Water resources and stormwater", "Construction inspection and survey"]
+naics = "541330"
+description = "Civil engineering consultancy headquartered in South Bend since 1971."
+
+source = "Notre Dame iNDustry Labs relationship list, checked against public sources"
+updated = "2026-11-20"

@@ -259,6 +259,24 @@ def main():
         if d:
             o["certs"] = o["certs"] + ["FDA registered device establishment"]
             o["fda"] = {"fei": d.get("fei"), "types": d.get("establishment_types", []), "devices": d.get("device_names", [])}
+    # organizations with a Notre Dame (iNDustry Labs) senior-leadership relationship (data/nd_relationships.toml)
+    ndrel = load_toml(P("data", "nd_relationships.toml")) if os.path.exists(P("data", "nd_relationships.toml")) else {}
+    by_id = {o["id"]: o for o in companies}
+    nd_ids = set()
+    for org in ndrel.get("org", []):
+        for f in org.get("files", []):
+            if f in by_id:
+                nd_ids |= {o["id"] for o in companies if o["group"] == by_id[f]["group"]} if org.get("group") else {f}
+            else:
+                print("nd_relationships.toml: %s links %s, which is not on the map" % (org["name"], f))
+        if org.get("names"):   # a company whose plants carry several names or groups (Lippert, LCI, Kinro)
+            nd_ids |= {o["id"] for o in companies if re.search(org["names"], o["name"], re.I)}
+    for o in companies:
+        o["nd"] = o["id"] in nd_ids
+    nd_page = {"updated": ndrel.get("updated", ""), "source": ndrel.get("source", ""),
+               "linked": sum(1 for org in ndrel.get("org", []) if any(f in by_id for f in org.get("files", []))),
+               "off": [{"name": org["name"], "why": org["off_map"]} for org in ndrel.get("org", []) if org.get("off_map")],
+               "open": [org["name"] for org in ndrel.get("org", []) if not org.get("off_map") and not any(f in by_id for f in org.get("files", []))]}
     # layoff and closing notices (WARN), matched to a plant; a closing never marks a company closed by itself
     wn = {}
     for n in warn.get("notices", []):
@@ -447,7 +465,7 @@ def main():
         "qcewSectors": qcew.get("sectors", {}), "qcewPulled": qcew.get("pulled", ""),
         "humanoid": {"groups": hspec["group"], "components": [{k: v for k, v in c.items() if not k.startswith("_") and k not in ("patterns", "exclude", "exclude_naics", "naics")} for c in hspec["component"]],
                      "funding": humanoid.funding(events), "progress": progress},
-        "opportunity": opp, "ndResearch": {k: ndr.get(k) for k in ("awards", "pulled", "source", "scanned")} if ndr.get("awards") else {},
+        "nd": nd_page, "opportunity": opp, "ndResearch": {k: ndr.get(k) for k in ("awards", "pulled", "source", "scanned")} if ndr.get("awards") else {},
         "qcewSpec": qcew.get("specialization", {}), "waste": waste_page, "census": {k: census.get(k) for k in ("economic_census", "acs", "bds", "nonemployer", "pulled") if census.get(k)}, "bls": {k: bls.get(k) for k in ("occupations", "ces", "laus", "pulled") if bls.get(k)},
         "sbirPulled": sbir.get("pulled", ""), "fdaPulled": fda.get("pulled", ""), "patentsPulled": patents.get("pulled", ""),
     }
@@ -514,6 +532,7 @@ def main():
             "{{TRIWATERN}}": str(sum(1 for f in (waste.get("tri") or {}).get("facilities", []) if f.get("water"))),
             "{{AQN}}": str(len((waste.get("rcra") or {}).get("aqueous", []))),
             "{{EMN}}": str(len(emf.get("generators", []))), "{{EMYEAR}}": str(emf.get("year", "–")), "{{EMPULLED}}": emf.get("pulled", "not yet pulled"),
+            "{{NDN}}": "%d organizations, %d sites" % (len(ndrel.get("org", [])), len(nd_ids)), "{{NDUPDATED}}": ndrel.get("updated", "–"),
             "{{WDN}}": str(sum(1 for f in wdr.get("facilities", []) if f["years"])), "{{WDPULLED}}": wdr.get("pulled", "not yet pulled"),
             "{{DMRYEAR}}": str(dis.get("dmr_year", "–")), "{{PERMITSPULLED}}": dis.get("pulled", "not yet pulled"),
             "{{PERMITS}}": "%d discharge, %d sewer-use, %d stormwater" % tuple(sum(1 for p in dis.get("permits", []) if p["kind"] == k) for k in ("discharge", "sewer", "stormwater")), "{{RCRAN}}": str(len((waste.get("rcra") or {}).get("handlers", []))), "{{COMPANIES}}": "{:,}".format(n_groups), "{{HIFLD}}": "{:,}".format(src_counts["hifld"]),

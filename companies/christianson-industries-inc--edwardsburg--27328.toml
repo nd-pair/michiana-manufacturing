@@ -5,16 +5,17 @@ name = "Christianson Industries, Inc."
 kind = "company"
 city = "Edwardsburg"
 state = "MI"
+unconfirmed_reason = "On Notre Dame iNDustry Labs' November 2026 relationship list, and its current site christiansonind.com gives 27328 May St (the presumed closure rested on the old christiansons.com domain); no dated public source of operation was found."
+unconfirmed = "2026-11-20"
+website = "https://christiansonind.com"
 address = "27328 May Street, Edwardsburg, MI 49112"
 lat = 41.78231
 lon = -86.09514
 former_website = "https://christiansons.com"
-presumed_closed_reason = "Verification check: no current trace of this company at this address. christiansons.com now redirects to mybible.com (unrelated) and a MapQuest listing is marked closed; no dated evidence of operation found. Source: https://startpage.mapquest.com/us/michigan/aircraft-industries-6569301"
-presumed_closed = "2026-11-13"
 
 sector = "Metal"
-products = ["Primary Aluminum Production"]
-naics = "331313"
+products = ["Aluminum and steel fabrication", "Aerospace components", "Architectural metalwork"]
+naics = "332999"
 
 employees = 17
 employees_scope = "site"
@@ -25,4 +26,4 @@ employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 
 description = "Aluminum Fabrication. NAICS 331313: alumina refining and primary aluminum production."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
-updated = "2026-11-11"
+updated = "2026-11-20"

@@ -1,0 +1,24 @@
+# Whirlpool Corporation (headquarters)
+# Added by hand from Notre Dame's iNDustry Labs relationship list (Nov 2026) and a public source; see verified_note.
+
+name = "Whirlpool Corporation (headquarters)"
+kind = "company"
+manufacturer = false
+city = "Benton Harbor"
+state = "MI"
+address = "2000 North M-63, Benton Harbor, MI 49022"
+lat = 42.1167
+lon = -86.4542
+location_precision = "city"
+website = "https://www.whirlpoolcorp.com"
+verified = "2026-11-20"
+verified_note = "Whirlpool's locations page (copyright 2026) gives its world headquarters at 2000 N. M-63, Benton Harbor. Source: https://www.whirlpoolcorp.com/global-locations"
+status_note = "World headquarters; Whirlpool's technology centers in Benton Harbor and St. Joseph design and test appliances, but no appliances are produced in the region, so it is not counted as a manufacturer."
+
+sector = "Electronics"
+products = ["Home appliance design and engineering", "Appliance testing"]
+naics = "551114"
+description = "Whirlpool's world headquarters; nearby technology centers design and test laundry, refrigeration, dishwasher and small appliances."
+
+source = "Notre Dame iNDustry Labs relationship list, checked against public sources"
+updated = "2026-11-20"

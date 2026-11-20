@@ -3,18 +3,19 @@
 
 name = "Lebermuth Co., Inc., the"
 kind = "company"
-city = "Bremen"
+city = "South Bend"
 state = "IN"
-address = "114 North Center Street, Bremen, IN 46506"
-lat = 41.44683
-lon = -86.14617
+status_note = "Moved from Bremen to South Bend; the Bremen address was an older listing."
+verified_note = "EPA e-Manifest shows The Lebermuth Company shipping waste from 4004 Technology Drive, South Bend in 2025; its site (copyright 2024) gives this address. Source: https://lebermuth.com"
+verified = "2026-11-20"
+address = "4004 Technology Drive, South Bend, IN 46628"
+lat = 41.73220
+lon = -86.34241
 website = "https://lebermuth.com"
-presumed_closed_reason = "HIFLD audit of November 2026 (audits/2026-11-hifld-audit.csv): Company is active but its website lists only 4004 Technology Dr, South Bend; no evidence of a Bremen site at 114 N Center St."
-presumed_closed = "2026-11-13"
 
 sector = "Materials & composites"
-products = ["Toilet Preparation Manufacturing"]
-naics = "325620"
+products = ["Essential oils", "Fragrance compounds", "Flavors", "Decorative botanicals"]
+naics = "325998"
 
 employees = 50
 employees_scope = "site"
@@ -25,4 +26,4 @@ employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 
 description = "Essential Oils. NAICS 325620: toilet preparation manufacturing."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
-updated = "2026-11-11"
+updated = "2026-11-20"

@@ -1,0 +1,23 @@
+# NORRES North America
+# Added by hand from Notre Dame's iNDustry Labs relationship list (Nov 2026) and a public source; see unconfirmed_reason.
+
+name = "NORRES North America"
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "701 West Chippewa Avenue, South Bend, IN 46614"
+lat = 41.63615
+lon = -86.26533
+website = "https://www.norres.com/us/"
+unconfirmed = "2026-11-20"
+unconfirmed_reason = "A job posting of February 15, 2026 places NORRES's hose production and warehouse in South Bend; the street address is from its undated branches page, so the site address is not confirmed. Source: https://www.career.com/job/norres-baggerman-group-north-america/manufacturing-operations-support/j202602151511089454776"
+
+sector = "Materials & composites"
+products = ["Industrial flexible hose", "Hose systems and assemblies", "Ducting hose"]
+naics = "326220"
+
+parent = "NORRES Baggerman Group"
+description = "North American production and warehouse of the German industrial hose maker NORRES."
+
+source = "Notre Dame iNDustry Labs relationship list, checked against public sources"
+updated = "2026-11-20"

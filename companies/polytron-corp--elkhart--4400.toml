@@ -1,28 +1,30 @@
-# Polytron Corp.
+# Poly Electronics (formerly Polytron)
 # Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
 
-name = "Polytron Corp."
+name = "Poly Electronics"
 kind = "company"
 city = "Elkhart"
 state = "IN"
+status_note = "Polytron was bought around 2016 and renamed Poly Electronics."
+verified_note = "Inside Indiana Business reported on June 25, 2025 that Poly Electronics is investing $1.1 million in a second surface-mount line in Elkhart, with about 45 employees; its site gives 4400 Wyland Drive. Source: https://www.insideindianabusiness.com/articles/poly-electronics-investing-1-1m-in-new-production-line-adding-jobs-in-elkhart"
+verified = "2026-11-20"
+formerly = "Polytron Corp."
 address = "4400 Wyland Drive, Elkhart, IN 46516"
 lat = 41.69224
 lon = -85.90305
-website = "https://polytron-corp.com"
-presumed_closed_reason = "Verification check: no current trace of this company at this address. Undated directory listings place Polytron at 4400 Wyland Dr and the domain responds, but the site blocked automated reading so no dated evidence was obtained. Source: https://www.superpages.com/elkhart-in/bpp/polytron-corp-5645575"
-presumed_closed = "2026-11-13"
+website = "https://polyelectronics.us"
 
 sector = "Electronics"
-products = ["Other Electronic Component Manufacturing"]
-naics = "334419"
+products = ["PCB design and assembly", "Box build, potting and conformal coating", "Vehicle timers and control modules"]
+naics = "334418"
 
-employees = 57
+employees = 45
 employees_scope = "site"
-employees_year = 2022
-employees_quality = "estimate"
-employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
+employees_year = 2025
+employees_quality = "reported"
+employees_note = "Inside Indiana Business, June 25, 2025"
 
-description = "Timers & Controllers for OEM Applications. NAICS 334419: other electronic component manufacturing."
+description = "Contract electronics manufacturer: PCB design and assembly, box build, potting and coating."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
-updated = "2026-11-11"
+updated = "2026-11-20"

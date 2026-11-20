@@ -1,0 +1,21 @@
+# Valley Manufacturing
+# Added by hand from Notre Dame's iNDustry Labs relationship list (Nov 2026) and a public source; see unconfirmed_reason.
+
+name = "Valley Manufacturing"
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "2820 Lillian Avenue, Elkhart, IN 46514"
+lat = 41.72487
+lon = -85.99195
+website = "https://valleymanufacturinginc.com"
+unconfirmed = "2026-11-20"
+unconfirmed_reason = "On Notre Dame iNDustry Labs' November 2026 relationship list, but no dated public source was found for the plant; the address is from the company's site (no dates; its sitemap was updated in October 2025)."
+
+sector = "Metal"
+products = ["Aluminum, steel and stainless fabrication", "Laser cutting and CNC punching", "Welding and assembly"]
+naics = "332312"
+description = "Metal fabricator with fiber laser, CNC punching, press brakes and welding."
+
+source = "Notre Dame iNDustry Labs relationship list, checked against public sources"
+updated = "2026-11-20"

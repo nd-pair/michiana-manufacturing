@@ -1,0 +1,21 @@
+# Action Machine, Inc.
+# Added by hand from Notre Dame's iNDustry Labs relationship list (Nov 2026) and a public source; see verified_note.
+
+name = "Action Machine, Inc."
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "1847 Prairie Avenue, South Bend, IN 46613"
+lat = 41.65383
+lon = -86.27220
+website = "https://www.actionmachineinc.com"
+verified = "2026-11-20"
+verified_note = "A CNC machinist job posting dated May 16, 2026 gives this address. Source: https://www.career.com/job/action-machine-inc/cnc-machinist-1st-shift-full-time/j202605151510463360170"
+
+sector = "Vehicles & RVs"
+products = ["Custom driveshafts (steel, aluminum, carbon fiber)", "Driveshaft repair and balancing", "CNC machining and welding"]
+naics = "336350"
+description = "Driveshaft maker and CNC job shop in South Bend since 1975."
+
+source = "Notre Dame iNDustry Labs relationship list, checked against public sources"
+updated = "2026-11-20"

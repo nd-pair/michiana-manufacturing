@@ -83,6 +83,21 @@ reading of every rule: when in doubt, it records nothing.
 - Not retail, restaurants, warehouses or distribution-only sites, and not companies outside the
   counties above.
 - Sectors must be one of those in `data/sectors.toml`.
+- Engineering, design and integration firms that work with the region's manufacturers (engineering
+  consultancies, audio-visual and automation integrators, product designers whose production is
+  contracted out) may be added with `manufacturer = false`; they are shown but not counted as
+  manufacturers. They need a dated source like any other entry.
+
+## Notre Dame relationships
+
+- `data/nd_relationships.toml` lists the organizations where Notre Dame (iNDustry Labs) has a
+  relationship at the senior leadership level, from iNDustry Labs' periodic list, which was shared
+  to flag them on the map. It holds company names and websites only; the list itself stays outside
+  the repo. `scripts/import_nd_relationships.py` updates it from a new list.
+- Banks, law and accounting firms, insurers, hospitals, real estate, government and other
+  organizations outside the map's scope are kept with an `off_map` reason and listed in the view,
+  not placed on the map. An organization on the list that is not yet on the map is added only with a
+  public source for its address; where none is dated, it is added `unconfirmed`.
 
 ## Physical AI and the humanoid supply chain
 

@@ -1,0 +1,22 @@
+# Danch, Harner & Associates
+# Added by hand from Notre Dame's iNDustry Labs relationship list (Nov 2026) and a public source; see unconfirmed_reason.
+
+name = "Danch, Harner & Associates"
+kind = "company"
+manufacturer = false
+city = "South Bend"
+state = "IN"
+address = "1643 Commerce Drive, South Bend, IN 46628"
+lat = 41.69833
+lon = -86.30757
+website = "https://danchharner.com"
+unconfirmed = "2026-11-20"
+unconfirmed_reason = "A job posting of March 2025 places the firm in South Bend (and Berrien Springs, MI); the street address is from city documents of 2019-2022, so it is not confirmed. Source: https://career.com/job/danch-harner-associates/survey-field-technician/776ae52d-ea53-40a1-a925-f37eb9458282"
+
+sector = "Software & services"
+products = ["Land surveying", "Civil engineering and site development", "Landscape architecture"]
+naics = "541370"
+description = "Land surveying and civil engineering firm in South Bend."
+
+source = "Notre Dame iNDustry Labs relationship list, checked against public sources"
+updated = "2026-11-20"

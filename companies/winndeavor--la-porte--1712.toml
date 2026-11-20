@@ -1,0 +1,22 @@
+# Winndeavor
+# Added by hand from Notre Dame's iNDustry Labs relationship list (Nov 2026) and a public source; see verified_note.
+
+name = "Winndeavor"
+formerly = "Winn Machine"
+kind = "company"
+city = "La Porte"
+state = "IN"
+address = "1712 Genesis Drive, La Porte, IN 46350"
+lat = 41.63401
+lon = -86.70914
+website = "https://winndeavor.com"
+verified = "2026-11-20"
+verified_note = "The company's site (copyright 2026) gives this address for its AS9100D and ISO 9001 certified CNC machining plant. Source: https://winndeavor.com"
+
+sector = "Metal"
+products = ["CNC and Swiss turning", "5-axis milling", "Precision components for aerospace, defense and medical"]
+naics = "332710"
+description = "Precision CNC machining shop for aerospace, defense and medical parts, formerly Winn Machine."
+
+source = "Notre Dame iNDustry Labs relationship list, checked against public sources"
+updated = "2026-11-20"

@@ -1,0 +1,21 @@
+# Millmark Enterprises Inc.
+# Added by hand from Notre Dame's iNDustry Labs relationship list (Nov 2026) and a public source; see unconfirmed_reason.
+
+name = "Millmark Enterprises Inc."
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "1935 Markle Avenue, Elkhart, IN 46517"
+lat = 41.66507
+lon = -85.99989
+website = "http://www.millmarkenterprises.com"
+unconfirmed = "2026-11-20"
+unconfirmed_reason = "On Notre Dame iNDustry Labs' November 2026 relationship list, but no dated public source was found for the plant; the address is from the company's undated site (some directories give 1923 Markle Ave)."
+
+sector = "Metal"
+products = ["Steel, stainless and aluminum fabrication", "Welding", "Powder coating"]
+naics = "332999"
+description = "Metal fabricator (steel, stainless, aluminum), welding and powder coating for vehicle, marine and container makers."
+
+source = "Notre Dame iNDustry Labs relationship list, checked against public sources"
+updated = "2026-11-20"

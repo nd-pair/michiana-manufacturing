@@ -1,0 +1,21 @@
+# Value Tool & Engineering
+# Added by hand from Notre Dame's iNDustry Labs relationship list (Nov 2026) and a public source; see verified_note.
+
+name = "Value Tool & Engineering"
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "2629 Foundation Drive, South Bend, IN 46628"
+lat = 41.71268
+lon = -86.30507
+website = "https://valuetooleng.com"
+verified = "2026-11-20"
+verified_note = "The company's site (copyright 2024-2026) gives its plant at 2629 Foundation Drive, South Bend, and a second South Bend address at 1137 S Lafayette Blvd. Source: https://valuetooleng.com"
+
+sector = "Mechatronics & automation"
+products = ["Tools, dies, gages and fixtures", "Aircraft ground support test equipment", "Precision production machining"]
+naics = "333514"
+description = "Tool and die, gage and fixture maker and production machine shop; also builds aircraft ground support test equipment."
+
+source = "Notre Dame iNDustry Labs relationship list, checked against public sources"
+updated = "2026-11-20"

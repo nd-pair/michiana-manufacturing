@@ -1,0 +1,21 @@
+# VMW Tooling Group
+# Added by hand from Notre Dame's iNDustry Labs relationship list (Nov 2026) and a public source; see unconfirmed_reason.
+
+name = "VMW Tooling Group"
+kind = "company"
+city = "Elkhart"
+state = "IN"
+address = "1500 West Hively Avenue, Suite A, Elkhart, IN 46517"
+lat = 41.65977
+lon = -85.99022
+website = "https://vmwtooling.com"
+unconfirmed = "2026-11-20"
+unconfirmed_reason = "On Notre Dame iNDustry Labs' November 2026 relationship list, but no dated public source was found for the site; the address is from the company's site (copyright 2021), which says it services Elkhart Pattern Works molds (that file at the same address is presumed closed)."
+
+sector = "Mechatronics & automation"
+products = ["RIM and foam-in-place tooling", "Large injection, thermoform and spray-skin molds", "5-axis CNC machining"]
+naics = "333511"
+description = "Mold and tooling maker for reaction-injection, foam and thermoform molding."
+
+source = "Notre Dame iNDustry Labs relationship list, checked against public sources"
+updated = "2026-11-20"

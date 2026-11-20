@@ -1,0 +1,21 @@
+# Logistick, Inc.
+# Added by hand from Notre Dame's iNDustry Labs relationship list (Nov 2026) and a public source; see verified_note.
+
+name = "Logistick, Inc."
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "19880 State Line Road, South Bend, IN 46637"
+lat = 41.76048
+lon = -86.25337
+website = "https://logistick.com"
+verified = "2026-11-20"
+verified_note = "The company's site (copyright 2026) gives this address; import records show shipments to it in October 2025. Source: https://logistick.com"
+
+sector = "Materials & composites"
+products = ["Recyclable plastic load bars and locks", "Cargo bracing systems"]
+naics = "326199"
+description = "Maker of one-way recyclable-plastic cargo restraints for trucks, rail and containers."
+
+source = "Notre Dame iNDustry Labs relationship list, checked against public sources"
+updated = "2026-11-20"

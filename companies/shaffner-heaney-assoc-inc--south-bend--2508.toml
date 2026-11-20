@@ -1,20 +1,22 @@
-# Shaffner Heaney Assoc., Inc.
+# Envel Facade (formerly Shaffner Heaney Associates)
 # Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
 
-name = "Shaffner Heaney Assoc., Inc."
+name = "Envel Facade"
 kind = "company"
 city = "South Bend"
 state = "IN"
+status_note = "Envel began in 2015-16 as Shaffner Heaney Associates' ultra-high-performance concrete line and now trades as Envel Facade at the same address."
+verified_note = "Inside Indiana Business reported on June 22, 2026 that Envel's South Bend plant made the UHPC facade panels for the Obama Presidential Center; the company's site (copyright 2026) gives 2508 S Main St. Source: https://www.insideindianabusiness.com/articles/south-bend-companys-work-stands-tall-on-obama-presidential-center"
+verified = "2026-11-20"
+formerly = "Shaffner Heaney Associates"
 address = "2508 South Main Street, South Bend, IN 46614"
 lat = 41.64882
 lon = -86.25095
-website = "https://shaffnerheaney.com"
-presumed_closed_reason = "Verification check: no current trace of this company at this address. Only an undated GlobalSpec directory entry lists the firm at 2508 S Main St; its website redirects elsewhere and could not be fetched. Source: https://www.globalspec.com/local/5071/C_US/IN/SOUTH_BEND"
-presumed_closed = "2026-11-13"
+website = "https://envelfacade.com"
 
-sector = "Metal"
-products = ["Primary Aluminum Production"]
-naics = "331313"
+sector = "Materials & composites"
+products = ["UHPC rainscreen facade panels", "Custom UHPC architectural elements", "UHPC countertops"]
+naics = "327390"
 
 employees = 30
 employees_scope = "site"
@@ -22,7 +24,7 @@ employees_year = 2022
 employees_quality = "estimate"
 employees_note = "HIFLD General Manufacturing Facilities estimate (base dataset 2022)"
 
-description = "Aluminum Fabrication. NAICS 331313: alumina refining and primary aluminum production."
+description = "Maker of ultra-high-performance concrete (UHPC) facade panels and architectural elements."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
-updated = "2026-11-11"
+updated = "2026-11-20"

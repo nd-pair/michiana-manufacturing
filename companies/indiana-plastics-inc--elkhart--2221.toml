@@ -1,17 +1,22 @@
-# Indiana Plastics, Inc.
+# Thunderbird Molding (formerly Indiana Plastics)
 # Imported from the HIFLD General Manufacturing Facilities dataset (public); edit freely.
 
-name = "Indiana Plastics, Inc."
+name = "Thunderbird Molding"
 kind = "company"
 city = "Elkhart"
 state = "IN"
+status_note = "Indiana Plastics and Impact Molding are earlier names of this plant, now part of the Thunderbird group."
+verified_note = "The company's site (copyright 2026) lists its Elkhart plant at 2221 Industrial Parkway; EPA's ECHO shows hazardous waste reported there for 2026 under Thunderbird Molding Elkhart. Source: https://thunderbird-molding.com"
+verified = "2026-11-20"
+website = "https://thunderbird-molding.com"
+formerly = "Indiana Plastics, Inc.; Impact Molding"
 address = "2221 Industrial Parkway, Elkhart, IN 46516"
 lat = 41.68638
 lon = -85.92923
 osha_id = "479145"
 
 sector = "Materials & composites"
-products = ["All Other Plastics Product Manufacturing"]
+products = ["Custom injection-molded plastic parts", "Mold design and tooling", "Assembly"]
 naics = "326199"
 
 employees = 61
@@ -20,7 +25,7 @@ employees_year = 2025
 employees_quality = "reported"
 employees_note = "OSHA Form 300A, annual average employees at this establishment, 2025"
 
-description = "Plastic & Thermoplastic Rubber Injection Molding. NAICS 326199: all other plastics product manufacturing."
+description = "Custom plastic injection molder, part of the Thunderbird group."
 
 source = "HIFLD General Manufacturing Facilities (U.S. DHS), via DOE NETL"
-updated = "2026-11-11"
+updated = "2026-11-20"

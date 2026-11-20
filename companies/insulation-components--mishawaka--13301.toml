@@ -1,0 +1,21 @@
+# Insulation Components, Inc.
+# Added by hand from Notre Dame's iNDustry Labs relationship list (Nov 2026) and a public source; see verified_note.
+
+name = "Insulation Components, Inc."
+kind = "company"
+city = "Mishawaka"
+state = "IN"
+address = "13301 Chippewa Boulevard, Mishawaka, IN 46545"
+lat = 41.68269
+lon = -86.12531
+website = "https://insulationcomponents.com"
+verified = "2026-11-20"
+verified_note = "A company release datelined Mishawaka, December 3, 2025 launches its TriLok pipe shield; its contact page (2026) gives this address. Source: https://insulationcomponents.com/for-immediate-release-insulation-components-launches-trilok-pipe-shield-to-eliminate-costly-shield-failuresfor-immediate-release/"
+
+sector = "Metal"
+products = ["Pipe insulation shields and saddles", "Insulation blocks and inserts", "Insulation weld pins and fasteners"]
+naics = "332322"
+description = "Maker of pipe insulation shields, saddles, inserts and insulation fasteners, sold through distributors."
+
+source = "Notre Dame iNDustry Labs relationship list, checked against public sources"
+updated = "2026-11-20"

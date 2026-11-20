@@ -1,0 +1,23 @@
+# LEA Professional
+# Added by hand from Notre Dame's iNDustry Labs relationship list (Nov 2026) and a public source; see verified_note.
+
+name = "LEA Professional"
+kind = "company"
+manufacturer = false
+city = "South Bend"
+state = "IN"
+address = "635 South Lafayette Boulevard, South Bend, IN 46601"
+lat = 41.66828
+lon = -86.25542
+website = "https://leaprofessional.com"
+verified = "2026-11-20"
+verified_note = "The company's site (copyright 2026, posts through November 2026) gives this address; Inside Indiana Business reported on August 17, 2023 that its South Bend headquarters had doubled in size. Source: https://leaprofessional.com"
+status_note = "Designs its amplifiers and software in South Bend; production is contracted out, so it is not counted as a manufacturer."
+
+sector = "Electronics"
+products = ["Networked smart power amplifiers", "DSP amplifiers", "Cloud amplifier management"]
+naics = "334310"
+description = "Designer of networked smart amplifiers for professional audio, headquartered in the Studebaker building."
+
+source = "Notre Dame iNDustry Labs relationship list, checked against public sources"
+updated = "2026-11-20"

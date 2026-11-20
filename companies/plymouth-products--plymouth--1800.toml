@@ -1,0 +1,21 @@
+# Plymouth Products, Inc.
+# Added by hand from Notre Dame's iNDustry Labs relationship list (Nov 2026) and a public source; see unconfirmed_reason.
+
+name = "Plymouth Products, Inc."
+kind = "company"
+city = "Plymouth"
+state = "IN"
+address = "1800 Jim Neu Drive, Plymouth, IN 46563"
+lat = 41.35452
+lon = -86.34259
+website = "https://plymouthproducts.com"
+unconfirmed = "2026-11-20"
+unconfirmed_reason = "On Notre Dame iNDustry Labs' November 2026 relationship list, but no dated public source was found; the company's site (no year) says it moved to its Jim Neu Drive complex in 1999. Its subsidiary International Abrasive Technologies is at the same address."
+
+sector = "Materials & composites"
+products = ["Abrasive backing pads", "Phenolic backing plates", "Quick-change pads"]
+naics = "327910"
+description = "Maker of backing pads, plates and accessories for abrasive finishing, founded in Plymouth in 1959."
+
+source = "Notre Dame iNDustry Labs relationship list, checked against public sources"
+updated = "2026-11-20"

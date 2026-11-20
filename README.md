@@ -200,6 +200,13 @@ Without WebGL the map shows a notice and everything else still works. The page c
   wastewater, liquid waste shipped, water permits, water withdrawn and likely critical materials; the
   "Metal waste reported to EPA" chip on the Companies tab filters the map. Company names in the tab open
   their card on the map, and the "Likely materials" rows filter the map and roster.
+- **Notre Dame relationships.** The "Notre Dame relationship" chip on the Companies tab shows the
+  organizations where Notre Dame's iNDustry Labs has a relationship at the senior leadership level
+  (`data/nd_relationships.toml`, names and websites only; update it with
+  `python3 scripts/import_nd_relationships.py <list.csv>` when iNDustry Labs sends a new list, then
+  link new names by hand: `files`, `group = true` for every site of a company group, `names` for a
+  company whose plants carry several names, or `off_map` with a reason). Company cards say so, and
+  organizations outside the map's scope are listed in a note under the filters.
 - **Recyclers.** The sector *Recycling & recovery* holds scrap yards, auto recyclers, secondary
   metal processors and plastics, paper, tire and e-waste recyclers. They are resource providers:
   shown on the map in their own color, with the materials they recover (`recovers`), but not counted

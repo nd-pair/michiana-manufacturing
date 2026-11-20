@@ -1,0 +1,24 @@
+# Vista Technologies (Office Interiors)
+# Added by hand from Notre Dame's iNDustry Labs relationship list (Nov 2026) and a public source; see verified_note.
+
+name = "Vista Technologies (Office Interiors)"
+kind = "company"
+manufacturer = false
+city = "Granger"
+state = "IN"
+address = "1415 University Drive Court, Granger, IN 46530"
+lat = 41.72044
+lon = -86.16568
+website = "https://oivista.com"
+verified = "2026-11-20"
+verified_note = "A company post dated December 9, 2025 carries this address in its footer; further posts are dated April and September 2026. Source: https://oivista.com/vista-technologies-celebrates-new-cts-d-design-talent/"
+
+sector = "Software & services"
+products = ["Audio-visual design and integration", "Conference and classroom systems", "Digital signage and video walls"]
+naics = "238210"
+
+parent = "Office Interiors, Inc."
+description = "Audio-visual integrator, a division of Office Interiors."
+
+source = "Notre Dame iNDustry Labs relationship list, checked against public sources"
+updated = "2026-11-20"

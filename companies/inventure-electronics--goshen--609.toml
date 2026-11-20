@@ -1,0 +1,21 @@
+# Inventure Electronics
+# Added by hand from Notre Dame's iNDustry Labs relationship list (Nov 2026) and a public source; see unconfirmed_reason.
+
+name = "Inventure Electronics"
+kind = "company"
+city = "Goshen"
+state = "IN"
+address = "609 North Harrison Street, Goshen, IN 46528"
+lat = 41.59245
+lon = -85.85071
+website = "https://inventuredesign.com"
+unconfirmed = "2026-11-20"
+unconfirmed_reason = "On Notre Dame iNDustry Labs' November 2026 relationship list, but no dated public source was found; the address is from undated directories (its site is dated 2018)."
+
+sector = "Electronics"
+products = ["Electronic product design", "PCB design and assembly", "Embedded firmware", "Potting and encapsulation"]
+naics = "334418"
+description = "Electronics design and contract manufacturing."
+
+source = "Notre Dame iNDustry Labs relationship list, checked against public sources"
+updated = "2026-11-20"

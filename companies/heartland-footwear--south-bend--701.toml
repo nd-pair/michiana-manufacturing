@@ -1,0 +1,21 @@
+# Heartland Footwear, Inc.
+# Added by hand from Notre Dame's iNDustry Labs relationship list (Nov 2026) and a public source; see verified_note.
+
+name = "Heartland Footwear, Inc."
+kind = "company"
+city = "South Bend"
+state = "IN"
+address = "701 West Chippewa Avenue #100, South Bend, IN 46614"
+lat = 41.63615
+lon = -86.26533
+website = "https://heartlandfootwearinc.com"
+verified = "2026-11-20"
+verified_note = "The company's about page (copyright 2026) says its boots are designed, assembled and made at this South Bend factory. Source: https://heartlandfootwearinc.com/pages/about-us"
+
+sector = "Food & consumer goods"
+products = ["Waterproof rubber and PVC work boots", "Industrial safety boots", "Boots for food processing and agriculture"]
+naics = "316210"
+description = "Maker of waterproof rubber and polymer work and safety boots."
+
+source = "Notre Dame iNDustry Labs relationship list, checked against public sources"
+updated = "2026-11-20"
