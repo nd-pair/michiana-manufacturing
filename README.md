@@ -111,7 +111,7 @@ Field by field:
 | `verified`, `verified_note` | no | Date and finding of a verification check that found the plant operating at this address (`scripts/apply_checks.py`); later checks can skip it |
 | `osha_occupant` | no | Set by `scripts/import_osha.py` when another name filed with OSHA at this file's address: a successor, rename or new tenant to review. Shown on the card |
 | `uei` | no | Unique Entity ID; federal and SBIR awards then match exactly. Filled in automatically once a unique name match is found |
-| `cage` | no | CAGE code from the site's SAM.gov registration (the record whose physical address is this site), shown on the card next to the UEI |
+| `cage` | no | CAGE code from the site's SAM.gov registration (the record whose physical address is this site), shown on the card next to the UEI; kept current by `scripts/pull_sam.py` |
 | `location_precision` | no | `"city"` when lat/lon is a city center rather than the address (used for SBIR firms) |
 | `humanoid`, `humanoid_not`, `humanoid_evidence`, `humanoid_note` | no | Humanoid parts the company supplies (ids from [`data/humanoid.toml`](data/humanoid.toml)), inferred ones it does not, `"confirmed"` or `"self-reported"` once that is established, and a note on what was confirmed |
 | `formerly`, `status_note` | no | A former name (still found by search) and a one-line note on ownership or status, both shown in the detail panel |
@@ -166,6 +166,12 @@ Without WebGL the map shows a notice and everything else still works. The page c
   performance, not the recipient's address) for every company, from USAspending.gov, matched by UEI or
   recipient name, plus the region-wide totals by awarding agency.
   A filter shows only companies with federal awards. `scripts/pull_federal.py` → `data/federal.json`.
+- **SAM.gov registrations.** CAGE codes (and UEIs where a file has none) from SAM.gov's monthly public entity
+  extract, matched by UEI or by physical address and name, so each code sits on the site SAM lists.
+  `scripts/pull_sam.py` → `data/sam.json` and the `cage`/`uei` fields; it also lists active registrations
+  that match a presumed-closed file and registered manufacturers with no file
+  (`audits/sam-manufacturers-not-on-map.csv`). Needs the `SAM_API_KEY` secret (a personal SAM.gov key: 10 requests a
+  day; a run makes one) and runs on the 10th of each month in [`sam.yml`](.github/workflows/sam.yml).
 - **Certifications.** FDA medical-device establishment registrations from openFDA
   (`scripts/pull_fda.py` → `data/fda.json`), shown as a badge and a filter. Other certifications
   (AS9100, ISO 9001, Nadcap, CMMC) go in a company file as `certifications = ["AS9100", ...]`
@@ -310,6 +316,7 @@ Without WebGL the map shows a notice and everything else still works. The page c
 demand from the Actions tab): it imports new HIFLD facilities, re-pulls Indiana WARN notices, USAspending, SBIR.gov, openFDA, the timeline
 streams, QCEW and the BLS workforce series, geocodes any file with an address but no coordinates, rebuilds and commits. Each source is
 optional, so an outage at one does not block the others. Hand-written files are never touched.
+[`sam.yml`](.github/workflows/sam.yml) pulls SAM.gov registrations on the 10th, after SAM publishes its monthly file.
 
 ## Automated news review
 
@@ -370,9 +377,9 @@ so commit only your source changes (`companies/`, `data/`, `site/`, `scripts/`) 
 
 ```
 companies/      one TOML file per company (edit these)
-data/           sectors, places, capabilities (edit these); county boundaries (Census; simplified for the map, detailed for placing plants), ZIP code centers and NAICS titles (Census), shorelines (Natural Earth); pulled datasets (federal, fda, qcew, bls, census, waste, discharge, manifests, withdrawals, sbir, osha, warn); critical_materials.toml, waste_sites.toml and waste_matches.toml (edit these)
+data/           sectors, places, capabilities (edit these); county boundaries (Census; simplified for the map, detailed for placing plants), ZIP code centers and NAICS titles (Census), shorelines (Natural Earth); pulled datasets (federal, sam, fda, qcew, bls, census, waste, discharge, manifests, withdrawals, sbir, osha, warn); critical_materials.toml, waste_sites.toml and waste_matches.toml (edit these)
 site/           the pages: Notre Dame Web Theme chrome (partials/), page.html + app.js (map), about.html, brief.html + brief.js, app.css
-scripts/        review_llm.py (monthly news review), build.py, humanoid.py, opportunity.py, geocode.py, import_hifld.py, import_osha.py, import_sbir_firms.py, pull_warn.py, pull_federal.py, pull_sbir.py, pull_fda.py, pull_qcew.py, pull_bls.py, pull_census.py, pull_waste.py, pull_discharge.py, pull_manifests.py, pull_withdrawals.py, pull_workforce.py, pull_nd_research.py, pull_events.py, pull_patents.py, check_consistency.py, check_coverage.py, check_sites.py, check_closed.py, apply_checks.py, make_county_detail.py, make_zip_centers.py, make_naics_titles.py, make_naics_concordance.py, common.py
+scripts/        review_llm.py (monthly news review), build.py, humanoid.py, opportunity.py, geocode.py, import_hifld.py, import_osha.py, import_sbir_firms.py, pull_warn.py, pull_federal.py, pull_sam.py, pull_sbir.py, pull_fda.py, pull_qcew.py, pull_bls.py, pull_census.py, pull_waste.py, pull_discharge.py, pull_manifests.py, pull_withdrawals.py, pull_workforce.py, pull_nd_research.py, pull_events.py, pull_patents.py, check_consistency.py, check_coverage.py, check_sites.py, check_closed.py, apply_checks.py, make_county_detail.py, make_zip_centers.py, make_naics_titles.py, make_naics_concordance.py, common.py
 docs/           the built site (generated; do not edit by hand)
 ```
 

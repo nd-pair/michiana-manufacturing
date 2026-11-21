@@ -1,0 +1,35 @@
+name: SAM.gov registrations
+# Monthly: CAGE codes and UEIs from SAM.gov's public entity extract (scripts/pull_sam.py), then rebuild and
+# commit. Separate from the monthly refresh because SAM publishes the file on the first Sunday of the month
+# and the personal API key (SAM_API_KEY secret) allows 10 requests a day; each run makes one. Run it by hand
+# from the Actions tab with "Run workflow".
+on:
+  schedule:
+    - cron: "41 7 10 * *"     # 07:41 UTC on the 10th, after the month's file is out
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: publish-main
+  cancel-in-progress: false
+jobs:
+  sam:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: SAM.gov public entity extract (one request; CAGE codes and UEIs into matched company files)
+        env:
+          SAM_API_KEY: ${{ secrets.SAM_API_KEY }}
+        run: python3 scripts/pull_sam.py
+      - name: Build docs/
+        run: python3 scripts/build.py
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add companies data docs audits
+          git diff --cached --quiet || git commit -m "SAM.gov registrations ($(date -u +%Y-%m-%d))"
+          for i in 1 2 3; do git pull --rebase origin main && git push && break || sleep 10; done

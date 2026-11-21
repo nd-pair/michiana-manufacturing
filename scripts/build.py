@@ -538,7 +538,7 @@ def main():
             "{{PERMITS}}": "%d discharge, %d sewer-use, %d stormwater" % tuple(sum(1 for p in dis.get("permits", []) if p["kind"] == k) for k in ("discharge", "sewer", "stormwater")), "{{RCRAN}}": str(len((waste.get("rcra") or {}).get("handlers", []))), "{{COMPANIES}}": "{:,}".format(n_groups), "{{HIFLD}}": "{:,}".format(src_counts["hifld"]),
             "{{SBIRFIRMS}}": str(src_counts["sbir"]), "{{OSHA}}": "{:,}".format(src_counts["osha"]), "{{OSHAYEAR}}": osha.get("latest_year", "–"),
             "{{OSHAMATCHED}}": "{:,}".format(sum(1 for o in companies if o["emp_note"].startswith("OSHA") and o["id"] not in osha_ids)), "{{WARNN}}": str(len(warn.get("notices", []))), "{{HAND}}": str(src_counts["hand"]), "{{EPA}}": str(src_counts["epa"]), "{{HANDEPA}}": str(src_counts["hand"] + src_counts["epa"]), "{{BUILT}}": data["built"],
-            "{{UEI}}": str(sum(1 for o in companies if o["uei"])), "{{CAGEN}}": str(sum(1 for o in companies if o["cage"])), "{{FEDN}}": str(sum(1 for o in companies if o.get("federal"))),
+            "{{UEI}}": str(sum(1 for o in companies if o["uei"])), "{{CAGEN}}": str(sum(1 for o in companies if o["cage"])), "{{SAMPULLED}}": sidecar("sam.json").get("pulled", "2026-11-20"), "{{FEDN}}": str(sum(1 for o in companies if o.get("federal"))),
             "{{FEDPULLED}}": federal.get("pulled", "not yet pulled"), "{{SBIRN}}": str(sum(1 for o in companies if o.get("sbir"))),
             "{{SBIRPULLED}}": sbir.get("pulled", "not yet pulled"), "{{FDAN}}": str(sum(1 for o in companies if o.get("fda"))),
             "{{FDAPULLED}}": fda.get("pulled", "not yet pulled"), "{{QCEWYEARS}}": ("%s–%s" % (qyears[0], qyears[-1])) if qyears else "none",
