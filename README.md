@@ -171,7 +171,8 @@ Without WebGL the map shows a notice and everything else still works. The page c
   `scripts/pull_sam.py` → `data/sam.json` and the `cage`/`uei` fields; it also lists active registrations
   that match a presumed-closed file and registered manufacturers with no file
   (`audits/sam-manufacturers-not-on-map.csv`). Needs the `SAM_API_KEY` secret (a personal SAM.gov key: 10 requests a
-  day; a run makes one) and runs on the 10th of each month in [`sam.yml`](.github/workflows/sam.yml).
+  day; a run makes one) and runs on the 10th in [`sam.yml`](.github/workflows/sam.yml), through February 2027: the
+  key is good for 99 days from 2026-11-21, so scheduled runs stop after that (see the workflow to resume with a new key).
 - **Certifications.** FDA medical-device establishment registrations from openFDA
   (`scripts/pull_fda.py` → `data/fda.json`), shown as a badge and a filter. Other certifications
   (AS9100, ISO 9001, Nadcap, CMMC) go in a company file as `certifications = ["AS9100", ...]`
@@ -316,7 +317,7 @@ Without WebGL the map shows a notice and everything else still works. The page c
 demand from the Actions tab): it imports new HIFLD facilities, re-pulls Indiana WARN notices, USAspending, SBIR.gov, openFDA, the timeline
 streams, QCEW and the BLS workforce series, geocodes any file with an address but no coordinates, rebuilds and commits. Each source is
 optional, so an outage at one does not block the others. Hand-written files are never touched.
-[`sam.yml`](.github/workflows/sam.yml) pulls SAM.gov registrations on the 10th, after SAM publishes its monthly file.
+[`sam.yml`](.github/workflows/sam.yml) pulls SAM.gov registrations on the 10th, after SAM publishes its monthly file, through February 2027 (when the API key expires).
 
 ## Automated news review
 

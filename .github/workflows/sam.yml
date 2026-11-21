@@ -3,9 +3,12 @@ name: SAM.gov registrations
 # commit. Separate from the monthly refresh because SAM publishes the file on the first Sunday of the month
 # and the personal API key (SAM_API_KEY secret) allows 10 requests a day; each run makes one. Run it by hand
 # from the Actions tab with "Run workflow".
+# The key (set 2026-11-21) is good for 99 days, so the schedule stops after the February 2027 run: scheduled
+# runs from 2027-02-21 on skip every step without calling SAM.gov. To resume with a new key, update the secret,
+# move the date in the "Key still valid" step, and restore every month in the cron line.
 on:
   schedule:
-    - cron: "41 7 10 * *"     # 07:41 UTC on the 10th, after the month's file is out
+    - cron: "41 7 10 12,1,2 *"     # 07:41 UTC on the 10th of Dec, Jan and Feb, after the month's file is out
   workflow_dispatch:
 permissions:
   contents: write
@@ -16,17 +19,30 @@ jobs:
   sam:
     runs-on: ubuntu-latest
     steps:
+      - name: Key still valid (scheduled runs stop on 2027-02-21)
+        id: gate
+        run: |
+          if [ "${{ github.event_name }}" = "schedule" ] && [ "$(date -u +%Y%m%d)" -ge 20270221 ]; then
+            echo "SAM_API_KEY has expired; scheduled SAM.gov pulls are off."; echo "go=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "go=true" >> "$GITHUB_OUTPUT"
+          fi
       - uses: actions/checkout@v4
+        if: steps.gate.outputs.go == 'true'
       - uses: actions/setup-python@v5
+        if: steps.gate.outputs.go == 'true'
         with:
           python-version: "3.12"
       - name: SAM.gov public entity extract (one request; CAGE codes and UEIs into matched company files)
+        if: steps.gate.outputs.go == 'true'
         env:
           SAM_API_KEY: ${{ secrets.SAM_API_KEY }}
         run: python3 scripts/pull_sam.py
       - name: Build docs/
+        if: steps.gate.outputs.go == 'true'
         run: python3 scripts/build.py
       - name: Commit
+        if: steps.gate.outputs.go == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
