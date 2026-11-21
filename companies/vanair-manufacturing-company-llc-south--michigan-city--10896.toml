@@ -8,6 +8,8 @@ state = "IN"
 address = "10896 West 300 North, Michigan City, IN 46360"
 lat = 41.65141
 lon = -86.91253
+cage = "1EAE2"
+uei = "JWJENAWU3CP3"
 osha_id = "1274521"
 
 sector = "Mechatronics & automation"

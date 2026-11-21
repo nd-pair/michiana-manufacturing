@@ -8,6 +8,8 @@ state = "IN"
 address = "1563 E State Rd 8, Albion, IN 46701"
 lat = 41.39596
 lon = -85.39242
+cage = "18EY7"
+uei = "PR75BRW9VMV9"
 osha_id = "1427434"
 
 sector = "Electronics"

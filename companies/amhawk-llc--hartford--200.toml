@@ -8,6 +8,8 @@ state = "MI"
 address = "200 Dunbar St, Hartford, MI 49057"
 lat = 42.20754
 lon = -86.17313
+cage = "31QV8"
+uei = "YVKVWCJBR3A7"
 osha_id = "1467310"
 
 sector = "Metal"

@@ -9,6 +9,7 @@ address = "827 S Union St, Ste 230, Warsaw, IN 46580"
 lat = 41.23031
 lon = -85.86171
 website = "https://www.eclipseortho.com"
+cage = "7BJD2"
 uei = "QJLLFSUXWTA6"
 
 sector = "Medical devices & other"

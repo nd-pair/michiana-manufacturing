@@ -8,6 +8,8 @@ state = "MI"
 address = "3390 W Linco Rd, Stevensville, MI 49127"
 lat = 41.98543
 lon = -86.53509
+cage = "3Y4Q4"
+uei = "H19WYWV8Y878"
 osha_id = "1072828"
 
 sector = "Mechatronics & automation"

@@ -8,6 +8,8 @@ state = "MI"
 address = "860 S. Williams St., Decatur, MI 49045"
 lat = 42.09609
 lon = -85.97227
+cage = "5HA78"
+uei = "JKZLV85SL642"
 osha_id = "175883"
 
 sector = "Metal"

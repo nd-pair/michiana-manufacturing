@@ -8,6 +8,8 @@ state = "IN"
 address = "5865 East State Road 14, Columbia City, IN 46725"
 lat = 41.07842
 lon = -85.38124
+cage = "3BCC5"
+uei = "FNZ6LSMWGLL5"
 verified = "2026-11-18"
 verified_note = "An IDEM air permit notice of August 2026 covers Micropulse at this address; EPA's Toxics Release Inventory for 2024 lists the plant here. Source: https://www.in.gov/idem/files/notice_20260815_air_50228pn-js.pdf"
 

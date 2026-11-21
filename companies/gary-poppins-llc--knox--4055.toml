@@ -8,6 +8,7 @@ state = "IN"
 address = "4055 E 250 N, Knox, IN 46534"
 lat = 41.33875
 lon = -86.61973
+uei = "LAH5RK1J9TW1"
 osha_id = "1031096"
 
 sector = "Food & consumer goods"

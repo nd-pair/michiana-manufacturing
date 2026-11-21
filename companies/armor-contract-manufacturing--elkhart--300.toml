@@ -8,6 +8,8 @@ state = "IN"
 address = "300 Comet Ave, Elkhart, IN 46514"
 lat = 41.72513
 lon = -85.97393
+cage = "1YCT3"
+uei = "JESRKYW9PKB7"
 osha_id = "1099047"
 
 sector = "Metal"

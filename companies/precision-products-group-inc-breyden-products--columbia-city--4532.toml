@@ -8,6 +8,8 @@ state = "IN"
 address = "4532 E. Park 30 Dr., Columbia City, IN 46725"
 lat = 41.13425
 lon = -85.39997
+cage = "0WFC7"
+uei = "VJEZLYF6Y843"
 osha_id = "1567816"
 
 sector = "Food & consumer goods"

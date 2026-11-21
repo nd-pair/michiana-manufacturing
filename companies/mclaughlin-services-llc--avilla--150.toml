@@ -8,6 +8,8 @@ state = "IN"
 address = "150 Eagle Drive, Avilla, IN 46710"
 lat = 41.36431
 lon = -85.20940
+cage = "9FMR7"
+uei = "LTS4KJWDZJE1"
 osha_id = "1426195"
 
 sector = "Mechatronics & automation"

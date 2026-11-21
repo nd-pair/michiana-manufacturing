@@ -9,6 +9,7 @@ address = "1400 E Angela Blvd, South Bend, IN 46617"
 lat = 41.69313
 lon = -86.22930
 website = "http://www.3degreescompany.com"
+cage = "8Z3A2"
 uei = "Q43UC7ZWQA55"
 
 sector = "Software & services"

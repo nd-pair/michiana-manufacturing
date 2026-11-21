@@ -9,6 +9,8 @@ address = "19880 State Line Road, South Bend, IN 46637"
 lat = 41.76048
 lon = -86.25337
 website = "https://logistick.com"
+cage = "04Q21"
+uei = "H5P3CQDBEBD6"
 verified = "2026-11-20"
 verified_note = "The company's site (copyright 2026) gives this address; import records show shipments to it in October 2025. Source: https://logistick.com"
 

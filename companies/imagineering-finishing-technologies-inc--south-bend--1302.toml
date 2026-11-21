@@ -9,6 +9,8 @@ address = "1302 West Sample Street, South Bend, IN 46619"
 lat = 41.66462
 lon = -86.26908
 website = "https://iftworldwide.com"
+cage = "9U822"
+uei = "HJLAKKFSAGE6"
 osha_id = "1071729"
 
 sector = "Metal"

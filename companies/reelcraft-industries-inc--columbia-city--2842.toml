@@ -8,6 +8,8 @@ state = "IN"
 address = "2842 East Business 30, Columbia City, IN 46725"
 lat = 41.14007
 lon = -85.43706
+cage = "52173"
+uei = "LLSKLSTSUU78"
 osha_id = "1376847"
 
 sector = "Metal"

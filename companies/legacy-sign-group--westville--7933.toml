@@ -8,6 +8,7 @@ state = "IN"
 address = "7933 W US 6, Westville, IN 46391"
 lat = 41.53902
 lon = -86.91661
+uei = "UXECVWNUZSE1"
 osha_id = "1253379"
 
 sector = "Medical devices & other"

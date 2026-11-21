@@ -9,6 +9,8 @@ address = "100 N Michigan St, South Bend, IN 46601"
 lat = 41.67650
 lon = -86.25025
 website = "https://www.1stsource.com"
+cage = "5F4A2"
+uei = "P8CEMLGNULM1"
 
 sector = "Capital & anchors"
 products = ["SBIC", "Mezzanine lending"]

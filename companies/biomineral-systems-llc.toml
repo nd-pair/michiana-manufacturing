@@ -8,6 +8,7 @@ state = "IN"
 address = "3315 Bremen Hwy, Mishawaka, IN 46544"
 lat = 41.62730
 lon = -86.17670
+cage = "640X5"
 uei = "RJB9PA2KMN57"
 
 sector = "Food & consumer goods"

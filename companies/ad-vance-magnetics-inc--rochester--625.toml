@@ -8,6 +8,8 @@ state = "IN"
 address = "625 Monroe Street, Rochester, IN 46975"
 lat = 41.06773
 lon = -86.21279
+cage = "50788"
+uei = "JQJLEKPJB6L1"
 osha_id = "603845"
 
 sector = "Metal"

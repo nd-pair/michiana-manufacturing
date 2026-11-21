@@ -8,6 +8,8 @@ state = "IN"
 address = "689 Commerce Drive, Bristol, IN 46507"
 lat = 41.72975
 lon = -85.80011
+cage = "9P3U5"
+uei = "VJXKX2AQ5JM4"
 verified = "2026-11-14"
 status_note = "Address corrected to 689 Commerce Drive in the November 2026 accuracy audit (job post May 2026); nothing is listed at 17992 Commerce Drive."
 

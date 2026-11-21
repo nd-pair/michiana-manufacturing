@@ -9,6 +9,7 @@ address = "16700 Skyview Road, Goshen, IN 46526"
 lat = 41.54382
 lon = -85.78170
 website = "https://lci.com"
+cage = "8KWS2"
 osha_id = "1512306"
 parent = "Lippert (LCI Industries)"
 uei = "WMGAFCPBW1T5"

@@ -8,6 +8,8 @@ state = "MI"
 address = "59750 34th Avenue, Bangor, MI 49013"
 lat = 42.29463
 lon = -86.12534
+cage = "1HLZ1"
+uei = "LB4CJ9L4HE74"
 osha_id = "1475033"
 
 sector = "Mechatronics & automation"

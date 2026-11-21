@@ -9,6 +9,8 @@ address = "501 South Sycamore Street, Syracuse, IN 46567"
 lat = 41.41790
 lon = -85.74970
 website = "https://parker.com"
+cage = "11702"
+uei = "N6DEANNB1SV6"
 osha_id = "1308382"
 
 sector = "Materials & composites"

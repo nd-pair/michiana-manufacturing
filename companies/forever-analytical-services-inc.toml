@@ -8,6 +8,7 @@ state = "IN"
 address = "1400 E. Angela Blvd., South Bend, IN 46617"
 lat = 41.69313
 lon = -86.22930
+cage = "9ENT5"
 uei = "E8DMQP3A2W74"
 
 sector = "Software & services"

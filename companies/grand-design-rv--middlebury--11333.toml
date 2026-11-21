@@ -8,6 +8,8 @@ state = "IN"
 address = "11333 Co Rd 2, Middlebury, IN 46540"
 lat = 41.75493
 lon = -85.68716
+cage = "9FC32"
+uei = "EE13S167FLQ6"
 osha_id = "853742"
 
 sector = "Vehicles & RVs"

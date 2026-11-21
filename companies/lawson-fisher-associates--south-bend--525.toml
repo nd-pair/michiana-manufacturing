@@ -10,6 +10,8 @@ address = "525 West Washington Street, South Bend, IN 46601"
 lat = 41.67640
 lon = -86.25740
 website = "https://lawson-fisher.com"
+cage = "3C310"
+uei = "R1QFEVMGJPQ1"
 unconfirmed = "2026-11-20"
 unconfirmed_reason = "The firm's post of November 18, 2025 says it is headquartered in South Bend; the street address is from its undated contact page, so it is not confirmed. Source: https://lawson-fisher.com/indyofficeexpansion/"
 

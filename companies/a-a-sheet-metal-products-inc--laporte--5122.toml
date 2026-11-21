@@ -8,6 +8,8 @@ state = "IN"
 address = "5122 N State Rd 39, La Porte, IN 46350"
 lat = 41.68106
 lon = -86.73786
+cage = "45099"
+uei = "KEKTUBQDCZM7"
 osha_id = "1110071"
 
 sector = "Metal"

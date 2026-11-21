@@ -9,6 +9,7 @@ address = "1400 E Angela Blvd, Unit 107, South Bend, IN 46617"
 lat = 41.69313
 lon = -86.22930
 website = "https://indianaic.com"
+cage = "5XWU0"
 uei = "W1FUVNENSJN4"
 
 sector = "Electronics"

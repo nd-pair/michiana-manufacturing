@@ -8,6 +8,8 @@ state = "MI"
 address = "72100 M-40 HWY, Lawton, MI 49065"
 lat = 42.15665
 lon = -85.85189
+cage = "3RHD7"
+uei = "U8P6UT8B5CN8"
 osha_id = "750526"
 
 sector = "Food & consumer goods"

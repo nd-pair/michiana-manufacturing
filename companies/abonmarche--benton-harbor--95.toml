@@ -10,6 +10,8 @@ address = "95 West Main Street, Benton Harbor, MI 49022"
 lat = 42.11583
 lon = -86.45649
 website = "https://www.abonmarche.com"
+cage = "3FW11"
+uei = "PAEAC2GAL4L1"
 verified = "2026-11-20"
 verified_note = "A Michigan Economic Development Corporation release of January 28, 2026 describes a grant to renovate Abonmarche's downtown buildings on Main Street, its home for over forty years; the number is from its locations page, which also lists South Bend and Goshen offices. Source: https://www.michiganbusiness.org/press-releases/2026/01/new-housing-and-commercial-spaces-coming-to-benton-harbor-and-midland/"
 
