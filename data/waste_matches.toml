@@ -190,3 +190,8 @@ note = "Zimmer Building 19 at 1535 W Center St, on Zimmer Biomet's Warsaw campus
 epa_id = "IND005157144"
 file = "warsaw-black-oxide-inc-burket-310"
 note = "Warsaw Black Oxide, 310 S Walnut St, Burket (presumed closed, but it shipped waste and reported discharges for 2025)"
+
+[[match]]
+epa_id = "P8CEMLGNULM1"
+file = ""
+note = "SAM.gov: 1st Source Bank, 100 N Michigan St, South Bend. The bank, not its Small Business Investment Company (1st-source-capital), which shares the address"
