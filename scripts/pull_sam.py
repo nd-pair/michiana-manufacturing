@@ -52,7 +52,15 @@ def download(folder):
 
 def records(path):
     z = zipfile.ZipFile(path)
-    dat = next(n for n in z.namelist() if n.lower().endswith(".dat"))
+    print("pull_sam.py: %s (%.1f MB): %s" % (os.path.basename(path), os.path.getsize(path) / 1e6,
+          ", ".join("%s %d bytes" % (i.filename, i.file_size) for i in z.infolist())))
+    inner = [n for n in z.namelist() if n.lower().endswith(".zip")]
+    if inner and not any(n.lower().endswith((".dat", ".txt")) for n in z.namelist()):   # a ZIP inside the ZIP
+        z = zipfile.ZipFile(io.BytesIO(z.read(inner[0])))
+    names = [n for n in z.namelist() if n.lower().endswith((".dat", ".txt"))]
+    if not names:
+        sys.exit("pull_sam.py: no .dat or .txt file in the download")
+    dat = names[0]
     with z.open(dat) as fh:
         for line in io.TextIOWrapper(fh, encoding="latin-1"):
             if line.startswith(("BOF ", "EOF ")):
