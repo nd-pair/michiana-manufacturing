@@ -8,6 +8,8 @@ state = "IN"
 address = "9876 West Old Road 30, Etna Green, IN 46524"
 lat = 41.27393
 lon = -86.03126
+uei = "MGZ6A4LY6893"
+cage = "76MT7"
 osha_id = "1260985"
 
 sector = "Metal"

@@ -8,6 +8,8 @@ state = "MI"
 address = "3930 Bessemer Rd PO Box359, Coloma, MI 49038"
 lat = 42.17400
 lon = -86.34490
+uei = "T99DTJLRCDN3"
+cage = "67DP7"
 osha_id = "969022"
 
 sector = "Materials & composites"

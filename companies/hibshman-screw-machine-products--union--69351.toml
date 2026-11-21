@@ -9,6 +9,8 @@ address = "69351 Union Road, Union, MI 49130"
 lat = 41.78993
 lon = -85.86657
 website = "https://hibshman.com"
+uei = "MD1PRSQQM1H1"
+cage = "1DGM0"
 osha_id = "369206"
 
 sector = "Metal"

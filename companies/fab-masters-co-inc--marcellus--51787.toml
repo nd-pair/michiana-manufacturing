@@ -9,6 +9,8 @@ address = "51787 M-40 North, Marcellus, MI 49067"
 lat = 42.04425
 lon = -85.82480
 website = "https://fabmasters.net"
+uei = "EK1LFJNKAWE5"
+cage = "3M4W4"
 osha_id = "101670"
 
 sector = "Metal"

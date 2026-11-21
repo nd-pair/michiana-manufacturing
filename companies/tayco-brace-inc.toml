@@ -9,6 +9,7 @@ address = "205 W Western Ave Ste 101, South Bend, IN 46601"
 lat = 41.67237
 lon = -86.25200
 website = "https://www.taycobrace.com"
+cage = "80N64"
 uei = "JF59ECFX7P66"
 
 sector = "Medical devices & other"

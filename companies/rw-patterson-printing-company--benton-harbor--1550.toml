@@ -8,6 +8,8 @@ state = "MI"
 address = "1550 Territorial Road, Benton Harbor, MI 49022"
 lat = 42.12276
 lon = -86.42044
+uei = "UPG7HKHDKWD1"
+cage = "9TD90"
 osha_id = "224534"
 
 sector = "Wood, paper & furniture"

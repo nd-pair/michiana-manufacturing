@@ -8,6 +8,8 @@ state = "MI"
 address = "7473 Red Arrow Highway, Stevensville, MI 49127"
 lat = 41.98167
 lon = -86.54035
+uei = "WCEBLHYGUMP4"
+cage = "4L2R7"
 verified_note = "FMCSA SAFER snapshot (data as of 2026-11-12) lists ACCU DIE & MOLD INC, USDOT 4343548, status ACTIVE, physical address \"7473 RED ARROW HWY, STEVENSVILLE, MI 49127-9248\", MCS-150 updated 2025-01-08 (a second USDOT 616571 at the same address was updated 2024-02-06). Panjiva lists the same address as consignee for imports dated 2025-08-31 and 2025-10-26, and the company site accu-die.com is live; the BBB/GlobalSpec 7059 address looks like a directory error. (source dated 2025-01-08) Source: https://safer.fmcsa.dot.gov/query.asp?searchtype=ANY&query_type=queryCarrierSnapshot&query_param=USDOT&query_string=4343548"
 verified = "2026-11-14"
 

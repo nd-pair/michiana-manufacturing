@@ -111,6 +111,7 @@ Field by field:
 | `verified`, `verified_note` | no | Date and finding of a verification check that found the plant operating at this address (`scripts/apply_checks.py`); later checks can skip it |
 | `osha_occupant` | no | Set by `scripts/import_osha.py` when another name filed with OSHA at this file's address: a successor, rename or new tenant to review. Shown on the card |
 | `uei` | no | Unique Entity ID; federal and SBIR awards then match exactly. Filled in automatically once a unique name match is found |
+| `cage` | no | CAGE code from the site's SAM.gov registration (the record whose physical address is this site), shown on the card next to the UEI |
 | `location_precision` | no | `"city"` when lat/lon is a city center rather than the address (used for SBIR firms) |
 | `humanoid`, `humanoid_not`, `humanoid_evidence`, `humanoid_note` | no | Humanoid parts the company supplies (ids from [`data/humanoid.toml`](data/humanoid.toml)), inferred ones it does not, `"confirmed"` or `"self-reported"` once that is established, and a note on what was confirmed |
 | `formerly`, `status_note` | no | A former name (still found by search) and a one-line note on ownership or status, both shown in the detail panel |

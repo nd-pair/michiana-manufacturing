@@ -9,6 +9,7 @@ address = "500 N Baltimore St, Bremen, IN 46506"
 lat = 41.45046
 lon = -86.15365
 website = "https://www.bcisolutions.com"
+cage = "5NUJ0"
 employees_quality = "reported"
 employees_year = 2025
 osha_id = "1418319"

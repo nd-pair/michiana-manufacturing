@@ -8,6 +8,8 @@ state = "IN"
 address = "3506 Reedy Dr, Elkhart, IN 46514"
 lat = 41.72751
 lon = -85.92039
+uei = "RKDNAQGGG8G5"
+cage = "0L7R6"
 osha_id = "1335008"
 
 sector = "Medical devices & other"

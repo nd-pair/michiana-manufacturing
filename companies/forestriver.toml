@@ -9,6 +9,7 @@ address = "900 County Road 1 N, Elkhart, IN 46514"
 lat = 41.68917
 lon = -86.04036
 website = "https://forestriverinc.com"
+cage = "1NW21"
 uei = "HXC6DNSL5CT1"
 
 sector = "Vehicles & RVs"

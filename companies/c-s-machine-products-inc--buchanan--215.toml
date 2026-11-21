@@ -7,6 +7,7 @@ city = "Niles"
 state = "MI"
 address = "2929 Saratore Drive, Niles, MI 49120"
 website = "https://candsmachine.com"
+cage = "9T816"
 lon = -86.32661
 lat = 41.80291
 osha_id = "1452814"

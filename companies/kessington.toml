@@ -9,6 +9,8 @@ address = "1020 County Road 6 W, Elkhart, IN 46514"
 lat = 41.72440
 lon = -85.99523
 website = "https://collectivemfg.com/kessington"
+uei = "EY94JAHLDPF4"
+cage = "7W902"
 
 sector = "Metal"
 products = ["EDM & waterjet", "Aerospace machining", "Precision machining"]

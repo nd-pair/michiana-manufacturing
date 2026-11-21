@@ -9,6 +9,8 @@ address = "19850 State Line Road, South Bend, IN 46637"
 lat = 41.75995
 lon = -86.25342
 website = "https://moldedparts.com"
+uei = "TK34G2FNXM75"
+cage = "4R839"
 osha_id = "553316"
 
 sector = "Materials & composites"

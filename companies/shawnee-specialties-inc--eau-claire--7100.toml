@@ -9,6 +9,8 @@ address = "7100 3rd Street, Eau Claire, MI 49111"
 lat = 41.98945
 lon = -86.30401
 website = "https://shawneeinc.com"
+uei = "E765MWN46LY8"
+cage = "5N8A8"
 osha_id = "1565326"
 
 sector = "Metal"

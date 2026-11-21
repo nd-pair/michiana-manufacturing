@@ -9,6 +9,8 @@ address = "3008 Mobile Drive, Elkhart, IN 46514"
 lat = 41.72742
 lon = -85.97815
 website = "https://medixambulance.com"
+uei = "W88KPVT23GL6"
+cage = "9EES8"
 osha_id = "1494037"
 
 sector = "Vehicles & RVs"

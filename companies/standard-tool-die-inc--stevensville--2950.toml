@@ -9,6 +9,8 @@ address = "2950 Johnson Road, Stevensville, MI 49127"
 lat = 42.00692
 lon = -86.52138
 website = "https://standardtool.net"
+uei = "MJJYNHYVKMD5"
+cage = "5B3A5"
 verified_note = "The company's own website lists this address (https://standardtool.net)."
 verified = "2026-11-14"
 

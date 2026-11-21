@@ -9,6 +9,8 @@ address = "52965 Frederic Drive, Elkhart, IN 46514"
 lat = 41.72496
 lon = -85.90973
 website = "https://ramco-eng.com"
+uei = "WSK9G314BQM9"
+cage = "11B08"
 osha_id = "193743"
 
 sector = "Materials & composites"

@@ -9,6 +9,7 @@ address = "52642 County Road 1, Elkhart, IN 46514"
 lat = 41.72999
 lon = -86.04069
 website = "https://agdia.com"
+cage = "3JGJ1"
 status_note = "Address from the company's OSHA Form 300A filing for 2025; previously 30380 County Road 6, Elkhart, IN 46514."
 osha_id = "1433801"
 uei = "E4KUD5XKEJB3"

@@ -8,6 +8,8 @@ state = "MI"
 address = "1618 Terminal Road, Niles, MI 49120"
 lat = 41.84765
 lon = -86.22952
+uei = "NF1CC4LQFD65"
+cage = "3HWK7"
 osha_id = "1503169"
 
 sector = "Mechatronics & automation"

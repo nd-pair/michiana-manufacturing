@@ -9,6 +9,8 @@ address = "3947 State Road 106, Bremen, IN 46506"
 lat = 41.44851
 lon = -86.13732
 website = "https://graphixunlimited.com"
+uei = "MDY1XPRRK3Z6"
+cage = "5EA86"
 osha_id = "1169351"
 
 sector = "Vehicles & RVs"

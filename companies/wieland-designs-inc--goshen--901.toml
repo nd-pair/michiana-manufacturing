@@ -9,6 +9,8 @@ address = "901 East Madison Street, Goshen, IN 46528"
 lat = 41.58249
 lon = -85.82129
 website = "https://wielanddesigns.com"
+uei = "ENDCRQDKRVC7"
+cage = "1FDB6"
 osha_id = "483744"
 
 sector = "Wood, paper & furniture"

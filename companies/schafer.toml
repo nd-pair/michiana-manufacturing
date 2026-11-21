@@ -9,6 +9,8 @@ address = "4701 Nimtz Pkwy, South Bend, IN 46628"
 lat = 41.72254
 lon = -86.34344
 website = "https://schaferindustries.com"
+uei = "CSBKK1RRH7B7"
+cage = "24474"
 
 humanoid = ["reducers"]
 humanoid_note = "Same South Bend gear works as Schafer Gear Works; precision gears and spline shafts, also for aerospace."

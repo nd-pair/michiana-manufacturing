@@ -386,7 +386,7 @@ def main(args):
                 set_list(path, "products", [desc or "Manufacturing"])
                 set_field(path, "description", "NAICS %s: %s." % (r["naics_code"], desc.lower() or "manufacturing"))
                 set_field(path, "osha_id", eid)
-                for k in ("website", "uei", "osha_occupant", "presumed_closed", "presumed_closed_reason", "humanoid", "humanoid_evidence", "humanoid_note"):
+                for k in ("website", "uei", "cage", "osha_occupant", "presumed_closed", "presumed_closed_reason", "humanoid", "humanoid_evidence", "humanoid_note"):
                     del_field(path, k)
                 if emp:
                     set_field(path, "employees", emp); set_field(path, "employees_scope", scope)

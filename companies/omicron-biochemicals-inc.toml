@@ -9,6 +9,7 @@ address = "115 S Hill St, South Bend, IN 46617"
 lat = 41.67606
 lon = -86.24296
 website = "https://www.omicronbio.com"
+cage = "38KW8"
 uei = "Y9SRZJ4D17Z1"
 
 sector = "Materials & composites"

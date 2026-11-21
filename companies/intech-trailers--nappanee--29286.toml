@@ -8,6 +8,8 @@ state = "IN"
 address = "29286 CR 52, Nappanee, IN 46550"
 lat = 41.45720
 lon = -86.02569
+uei = "EF12Q8NKVNY6"
+cage = "63EW8"
 osha_id = "435216"
 
 sector = "Vehicles & RVs"

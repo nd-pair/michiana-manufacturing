@@ -9,6 +9,8 @@ address = "1525 South 10th Street, Goshen, IN 46526"
 lat = 41.56832
 lon = -85.82493
 website = "https://parker.com"
+uei = "N9NMCFL1H7K6"
+cage = "91265"
 osha_id = "1308366"
 
 sector = "Medical devices & other"

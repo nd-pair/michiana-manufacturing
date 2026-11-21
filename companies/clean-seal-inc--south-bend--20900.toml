@@ -9,6 +9,8 @@ address = "20900 West Ireland Road, South Bend, IN 46614"
 lat = 41.62846
 lon = -86.27013
 website = "https://cleanseal.com"
+uei = "HQE1ZV9DBFJ5"
+cage = "0NM25"
 osha_id = "283469"
 
 sector = "Medical devices & other"

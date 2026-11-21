@@ -8,6 +8,8 @@ state = "MI"
 address = "521 Langley Avenue, Saint Joseph, MI 49085"
 lat = 42.10367
 lon = -86.47491
+uei = "FBMSK6N4E8S3"
+cage = "4G630"
 osha_id = "546378"
 
 sector = "Materials & composites"

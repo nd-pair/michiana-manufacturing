@@ -22,7 +22,7 @@ Rules, for imported records only (HIFLD or OSHA; hand-written files are never ch
 - acquired_renamed, when the finding ties the new name to this address (same plant, address or
   phone; the new owner lists a site there) without hedging, and no file in the same city already
   carries it: `name` becomes the current name, the old one goes to `formerly`, the old
-  website and UEI are dropped; otherwise presumed_closed;
+  website, UEI and CAGE code are dropped; otherwise presumed_closed;
 - address_unconfirmed (the company operates in the region, but nothing confirms or contradicts this
   address): kept on the map with `unconfirmed` and `unconfirmed_reason`, shown as a dim column;
 - a finding whose note says the record was not actually searched (UNVERIFIED, search budget) is
@@ -112,7 +112,7 @@ def main(args):
                 set_field(path, "formerly", "; ".join(v for v in (c.get("formerly"), c["name"]) if v))
                 set_field(path, "name", x["current_name"])
                 set_field(path, "status_note", "Renamed in a verification check (%s): %s%s" % (date, note, " Source: " + ev[0] if ev else ""))
-                del_field(path, "website"); del_field(path, "uei")
+                del_field(path, "website"); del_field(path, "uei"); del_field(path, "cage")
                 set_field(path, "verified", date)
             names_in_city.add((norm(x["current_name"]), (c.get("city") or "").lower()))
         else:

@@ -8,6 +8,8 @@ state = "IN"
 address = "4747 W. Cleveland Rd, South Bend, IN 46628"
 lat = 41.73292
 lon = -86.32183
+uei = "ZJPWDDNBK7D7"
+cage = "2A589"
 osha_id = "1272389"
 
 sector = "Electronics"

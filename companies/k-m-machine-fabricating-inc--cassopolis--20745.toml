@@ -9,6 +9,8 @@ address = "20745 M-60, Cassopolis, MI 49031"
 lat = 41.91784
 lon = -85.96716
 website = "https://k-mm.com"
+uei = "M84MAC8W2FN6"
+cage = "5W803"
 osha_id = "93348"
 
 sector = "Metal"
